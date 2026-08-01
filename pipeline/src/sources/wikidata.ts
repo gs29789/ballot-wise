@@ -76,6 +76,7 @@ function bestDateOfBirthClaim(claims: any): { time: string; precision: number } 
 }
 
 function looksLikeAPolitician(claims: any): boolean {
+  if (claims.P570) return false; // has a recorded date of death — can't be a 2026 candidate
   const occupations = (claims.P106 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
   if (occupations.includes(OCCUPATION_POLITICIAN)) return true;
   return Boolean(claims.P39); // has held some position — officeholder/candidate-adjacent
