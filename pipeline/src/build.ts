@@ -32,6 +32,15 @@ function normalizeNameForMatch(name: string): string {
   return name.toLowerCase().replace(/[^a-z\s]/g, "").trim();
 }
 
+function searchName(fecName: string): string {
+  // Wikidata's search API matches almost nothing against FEC's raw
+  // "LAST, FIRST MIDDLE SUFFIX" format — needs a normal "First Last" query.
+  const [last, rest] = fecName.split(",").map((s) => s.trim());
+  const first = (rest ?? "").split(/\s+/)[0] ?? "";
+  const cap = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
+  return `${cap(first)} ${cap(last)}`;
+}
+
 interface BuildRaceOptions {
   state: string;
   office: "H" | "S";
@@ -55,7 +64,7 @@ async function buildRace(opts: BuildRaceOptions) {
 
       // Structured Wikidata facts fill gaps only — curated (manually
       // quote-anchored) fields always take priority when both exist.
-      const wikidata = await getBioFacts(c.name).catch(() => null);
+      const wikidata = await getBioFacts(searchName(c.name)).catch(() => null);
       const bio: Record<string, unknown> = {};
       if (wikidata?.date_of_birth) {
         bio.date_of_birth = { value: wikidata.date_of_birth, source_url: wikidata.entityUrl, source_type: "wikidata_structured" };
