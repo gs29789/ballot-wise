@@ -1,0 +1,17 @@
+fec_candidate_id: H4DE00045
+bio:
+  date_of_birth:
+    value: "1990-08-09"
+    source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
+    snippet: "Sarah Elizabeth McBride (born August 9, 1990)"
+  birthplace:
+    value: "Wilmington, Delaware"
+    source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
+    snippet: "Sarah McBride was born in Wilmington, Delaware, to David and Sally McBride on August 9, 1990."
+  college:
+    value: "American University"
+    source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
+    snippet: "attended American University in Washington, D.C.; she earned a bachelor's degree in 2013"
+  # marital_status intentionally omitted: the only sourced fact is a 2014 marriage
+  # that ended in widowhood four days later — over a decade stale, not safe to
+  # present as current status without a fresher source. No quote, no field.

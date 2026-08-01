@@ -1,0 +1,36 @@
+name: Weekly data sync
+
+on:
+  schedule:
+    # 06:00 UTC every Monday
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {}
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipeline
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - run: npm install
+
+      - name: Build race JSON
+        run: npm run build:race
+        env:
+          CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
+          FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
+
+      - name: Publish to R2
+        run: npm run publish
+        env:
+          R2_S3_ENDPOINT: ${{ secrets.R2_S3_ENDPOINT }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET_NAME: ${{ secrets.R2_BUCKET_NAME }}
