@@ -192,8 +192,12 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 8px" }}>At a Glance</div>
         <MoneyRow label="Total raised, this cycle" values={candidates.map((c) => ({ value: c.financials?.totalRaised ?? null, party: partyCode(c.party) }))} />
         <MoneyRow label="Total spent, this cycle" values={candidates.map((c) => ({ value: c.financials?.totalSpent ?? null, party: partyCode(c.party) }))} />
-        <DetailRow label="Attendance this session" candidates={candidates} emptyText="Not currently in office"
-          render={(c) => c.performance?.attendance ? `${Math.round(c.performance.attendance.attendanceRate * 100)}%` : null} />
+        <DetailRow label="Attendance this session" candidates={candidates}
+          render={(c) => {
+            if (c.performance?.attendance) return `${Math.round(c.performance.attendance.attendanceRate * 100)}%`;
+            const text = c.performance ? "Data temporarily unavailable" : "Not currently in office";
+            return <span style={{ color: T.inkSoft, fontStyle: "italic" }}>{text}</span>;
+          }} />
       </div>
 
       {/* PERSONAL DATA */}
@@ -202,6 +206,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Date of birth" candidates={candidates} render={(c) => c.bio?.date_of_birth ? <SourcedField field={c.bio.date_of_birth} /> : null} />
         <DetailRow label="Born in" candidates={candidates} render={(c) => c.bio?.birthplace ? <SourcedField field={c.bio.birthplace} /> : null} />
         <DetailRow label="Marital status" candidates={candidates} render={(c) => c.bio?.marital_status ? <SourcedField field={c.bio.marital_status} /> : null} />
+        <DetailRow label="High school" candidates={candidates} render={(c) => c.bio?.high_school ? <SourcedField field={c.bio.high_school} /> : null} />
         <DetailRow label="College" candidates={candidates} render={(c) => c.bio?.college ? <SourcedField field={c.bio.college} /> : null} />
         <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
@@ -278,7 +283,7 @@ function CandidateProfileView({ candidate, onBack }) {
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
-        {["date_of_birth", "birthplace", "college"].map((key) => (
+        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record"].map((key) => (
           <div key={key} style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft, textTransform: "capitalize" }}>{key.replace(/_/g, " ")}</div>
             <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={candidate.bio?.[key]} /></div>
