@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight } from "lucide-react";
+import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown } from "lucide-react";
 
 const T = {
   paper: "#F4F1E9", paperRaised: "#FBFAF6", ink: "#211D18", inkSoft: "#6B6255",
@@ -223,14 +223,62 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
   );
 }
 
+function EarlyStageSection({ candidates, onOpenProfile }) {
+  const [open, setOpen] = useState(false);
+  if (!candidates.length) return null;
+  return (
+    <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, marginBottom: 18, overflow: "hidden" }}>
+      <button
+        onClick={() => setOpen(!open)}
+        style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between", padding: "12px 14px", background: "transparent", border: "none", cursor: "pointer", textAlign: "left" }}
+      >
+        <span style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink }}>
+          Also filed — {candidates.length} early-stage declared candidate{candidates.length === 1 ? "" : "s"}
+        </span>
+        <ChevronDown size={16} color={T.inkSoft} style={{ transform: open ? "rotate(180deg)" : "none", transition: "transform 0.15s" }} />
+      </button>
+      {open && (
+        <div style={{ padding: "0 14px 12px" }}>
+          <div style={{ fontSize: 11.5, color: T.inkSoft, marginBottom: 8, fontStyle: "italic" }}>
+            Filed a Statement of Candidacy with the FEC but hasn't crossed the $5,000 raised/spent threshold for established-filer status.
+          </div>
+          {candidates.map((c) => (
+            <div key={c.slug} style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "8px 0", borderTop: `1px dashed ${T.line}` }}>
+              <div style={{ fontSize: 13, color: T.ink }}>
+                <span style={{ color: partyColor(partyCode(c.party)), fontWeight: 600 }}>{partyCode(c.party)}</span> · {toTitleCase(c.full_name)}
+              </div>
+              <button onClick={() => onOpenProfile(c.slug)} style={{ background: "transparent", border: "none", color: T.gold, fontSize: 12, cursor: "pointer", fontWeight: 600 }}>
+                Full profile →
+              </button>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo, onOpenProfile }) {
-  const candidates = race?.candidates ?? [];
+  const allCandidates = race?.candidates ?? [];
+  const candidates = allCandidates.filter((c) => c.fec_status !== "N");
+  const earlyStage = allCandidates.filter((c) => c.fec_status === "N");
 
   if (!race) {
     return (
       <div style={{ fontSize: 13.5, color: T.inkSoft, display: "flex", alignItems: "center", gap: 8 }}>
         <Info size={15} /> No data built yet for this race.
       </div>
+    );
+  }
+
+  if (!candidates.length) {
+    return (
+      <>
+        <div style={{ fontSize: 13.5, color: T.inkSoft, display: "flex", alignItems: "center", gap: 8, marginBottom: 18 }}>
+          <Info size={15} /> No established-filer candidates yet for this race.
+        </div>
+        <EarlyStageSection candidates={earlyStage} onOpenProfile={onOpenProfile} />
+      </>
     );
   }
 
@@ -296,6 +344,8 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} maxLen={70} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
       </div>
+
+      <EarlyStageSection candidates={earlyStage} onOpenProfile={onOpenProfile} />
 
       <HardMetricsSection hardMetrics={race?.hard_metrics} stateCode={race?.state} />
 
