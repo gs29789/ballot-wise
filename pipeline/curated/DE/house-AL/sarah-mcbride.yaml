@@ -8,10 +8,28 @@ bio:
     value: "Wilmington, Delaware"
     source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
     snippet: "Sarah McBride was born in Wilmington, Delaware, to David and Sally McBride on August 9, 1990."
+  high_school:
+    value: "Cab Calloway School of the Arts"
+    source_url: "https://sarahmcbride.com/about/"
+    snippet: "She is a graduate of Cab Calloway School of the Arts and American University."
   college:
     value: "American University"
     source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
     snippet: "attended American University in Washington, D.C.; she earned a bachelor's degree in 2013"
-  # marital_status intentionally omitted: the only sourced fact is a 2014 marriage
-  # that ended in widowhood four days later — over a decade stale, not safe to
-  # present as current status without a fresher source. No quote, no field.
+  marital_status:
+    value: "Widowed (husband Andrew Cray, married 2014)"
+    source_url: "https://sarahmcbride.com/about/"
+    snippet: "Sarah married her late husband, Andrew Cray in 2014 and is the proud aunt of seven."
+  employment_record:
+    value: "National press secretary of the Human Rights Campaign (2016-2021); Delaware State Senator (2020-2025); U.S. Representative for Delaware's at-large congressional district (2025-present)"
+    source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
+    snippet: "A member of the Democratic Party, she served in the Delaware Senate from 2021 to 2025, representing the state's 1st senate district. Prior, she was the national press secretary of the Human Rights Campaign from 2016 to 2021."
+  civic_affiliations:
+    value: "Board of directors of Equality Delaware (joined January 2013); co-founder of Delaware's Young Democrats Movement"
+    source_url: "https://en.wikipedia.org/wiki/Sarah_McBride"
+    snippet: "In January 2013, McBride joined the board of directors of Equality Delaware and quickly became the state's leading advocate for legal protections and hate crime legislation for transgender Delawareans."
+  # "Taught public policy at UD; authored a 2018 memoir" (sarahmcbride.com/about)
+  # doesn't have a clean home in this schema without merging sources under one
+  # citation — dropped rather than force it into a field the snippet won't
+  # actually support. Same rule as everywhere else: no clean single-source
+  # citation, no field.
