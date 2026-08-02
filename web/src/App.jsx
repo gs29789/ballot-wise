@@ -162,12 +162,15 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
   if (!hardMetrics) return null;
   const unemployment = hardMetrics.unemployment_rate;
   const crime = hardMetrics.violent_crime_rate_per_100k;
-  if (!unemployment?.length && !crime?.length) return null;
+  const employment = hardMetrics.nonfarm_employment_thousands;
+  if (!unemployment?.length && !crime?.length && !employment?.length) return null;
 
   const latestUnemployment = unemployment?.[0];
   const yearAgoUnemployment = unemployment?.find((p) => p.month === latestUnemployment?.month && p.year === String(Number(latestUnemployment.year) - 1));
   const latestCrime = crime?.[crime.length - 1];
   const earliestCrime = crime?.[0];
+  const latestEmployment = employment?.[0];
+  const yearAgoEmployment = employment?.find((p) => p.month === latestEmployment?.month && p.year === String(Number(latestEmployment.year) - 1));
 
   return (
     <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
@@ -180,6 +183,20 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           <div style={{ fontSize: 13, color: T.ink }}>
             {latestUnemployment.value}% ({latestUnemployment.month} {latestUnemployment.year})
             {yearAgoUnemployment && <span style={{ color: T.inkSoft }}> — {yearAgoUnemployment.value}% a year prior</span>}
+          </div>
+        </div>
+      )}
+      {latestEmployment && (
+        <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          <div style={{ fontSize: 12.5, color: T.inkSoft }}>Total nonfarm jobs</div>
+          <div style={{ fontSize: 13, color: T.ink }}>
+            {(latestEmployment.thousandsOfJobs * 1000).toLocaleString("en-US")} ({latestEmployment.month} {latestEmployment.year})
+            {yearAgoEmployment && (
+              <span style={{ color: T.inkSoft }}>
+                {" "}— {latestEmployment.thousandsOfJobs > yearAgoEmployment.thousandsOfJobs ? "up" : "down"} from{" "}
+                {(yearAgoEmployment.thousandsOfJobs * 1000).toLocaleString("en-US")} a year prior
+              </span>
+            )}
           </div>
         </div>
       )}

@@ -15,7 +15,7 @@ import {
   getAttendanceStats as getSenateAttendance,
 } from "./sources/senateRollCall.js";
 import { loadCuratedRace } from "./curated.js";
-import { getUnemploymentRate, getViolentCrimeRate } from "./sources/hardMetrics.js";
+import { getUnemploymentRate, getViolentCrimeRate, getNonfarmEmployment } from "./sources/hardMetrics.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -153,9 +153,10 @@ async function buildRace(opts: BuildRaceOptions) {
   // State-level context, not attributed to any candidate causally — same
   // for every candidate in this race, so it lives once at the race level.
   const currentYear = new Date().getFullYear();
-  const [unemployment, violentCrime] = await Promise.all([
+  const [unemployment, violentCrime, nonfarmEmployment] = await Promise.all([
     getUnemploymentRate(opts.state, currentYear - 3, currentYear).catch(() => null),
     getViolentCrimeRate(opts.state, currentYear - 5, currentYear - 1).catch(() => null),
+    getNonfarmEmployment(opts.state, currentYear - 3, currentYear).catch(() => null),
   ]);
 
   const output = {
@@ -167,6 +168,7 @@ async function buildRace(opts: BuildRaceOptions) {
     hard_metrics: {
       unemployment_rate: unemployment,
       violent_crime_rate_per_100k: violentCrime,
+      nonfarm_employment_thousands: nonfarmEmployment,
     },
     candidates,
   };

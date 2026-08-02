@@ -24,6 +24,26 @@ export async function getUnemploymentRate(stateCode: string, startYear: number, 
   return series.map((d: any) => ({ year: d.year, month: d.periodName, value: Number(d.value) }));
 }
 
+export interface EmploymentPoint {
+  year: string;
+  month: string;
+  thousandsOfJobs: number;
+}
+
+// BLS Current Employment Statistics — total nonfarm jobs, state-level. Same
+// no-key public API as unemployment rate; different series ID (measure "01").
+export async function getNonfarmEmployment(stateCode: string, startYear: number, endYear: number): Promise<EmploymentPoint[] | null> {
+  const fips = STATE_FIPS[stateCode];
+  if (!fips) return null;
+  const seriesId = `SMS${fips}000000000000001`;
+  const url = `https://api.bls.gov/publicAPI/v2/timeseries/data/${seriesId}?startyear=${startYear}&endyear=${endYear}`;
+  const res = await fetch(url);
+  if (!res.ok) return null;
+  const data = await res.json();
+  const series = data.Results?.series?.[0]?.data ?? [];
+  return series.map((d: any) => ({ year: d.year, month: d.periodName, thousandsOfJobs: Number(d.value) }));
+}
+
 export interface CrimeRatePoint {
   year: string;
   ratePer100k: number;
