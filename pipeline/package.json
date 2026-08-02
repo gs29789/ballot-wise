@@ -8,6 +8,7 @@
     "publish": "tsx src/publish.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.115.0",
     "@aws-sdk/client-s3": "^3.658.0",
     "dotenv": "^16.4.5",
     "fast-xml-parser": "^4.5.0",

@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { searchCandidates, getTotals } from "./sources/fec.js";
 import { getMembersByState, getLegislativeActivity } from "./sources/congressGov.js";
 import { getBioFacts } from "./sources/wikidata.js";
+import { extractBioFacts } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
 import {
   getRecentMemberVotes as getRecentHouseVotes,
@@ -75,8 +76,24 @@ async function buildRace(opts: BuildRaceOptions) {
       if (wikidata?.college) {
         bio.college = { value: wikidata.college, source_url: wikidata.entityUrl, source_type: "wikidata_structured" };
       }
+
+      // Automated quote-anchored extraction (Claude) fills the prose fields
+      // Wikidata doesn't have structured data for — only runs when curated
+      // YAML doesn't already cover them, since a human-reviewed fact always
+      // wins and there's no reason to spend an API call re-deriving it.
+      const PROSE_FIELDS = ["marital_status", "employment_record", "civic_affiliations"] as const;
+      const curatedBio = curatedEntry?.bio ?? {};
+      const missingProseField = PROSE_FIELDS.some((f) => !curatedBio[f]);
+      if (wikidata?.wikipediaUrl && missingProseField) {
+        const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl).catch(() => null);
+        for (const field of PROSE_FIELDS) {
+          const hit = extracted?.[field];
+          if (hit) bio[field] = { value: hit.value, source_url: wikidata.wikipediaUrl, snippet: hit.snippet, source_type: "llm_extracted" };
+        }
+      }
+
       // curated overrides win
-      Object.assign(bio, curatedEntry?.bio ?? {});
+      Object.assign(bio, curatedBio);
 
       // Match this FEC candidate to a sitting member for bioguideId + roll-call votes.
       const matchedMember = c.incumbentChallenge === "Incumbent"

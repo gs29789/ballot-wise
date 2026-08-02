@@ -209,6 +209,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="High school" candidates={candidates} render={(c) => c.bio?.high_school ? <SourcedField field={c.bio.high_school} /> : null} />
         <DetailRow label="College" candidates={candidates} render={(c) => c.bio?.college ? <SourcedField field={c.bio.college} /> : null} />
         <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} /> : null} />
+        <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
       </div>
 
@@ -283,7 +284,7 @@ function CandidateProfileView({ candidate, onBack }) {
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
-        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record"].map((key) => (
+        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => (
           <div key={key} style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft, textTransform: "capitalize" }}>{key.replace(/_/g, " ")}</div>
             <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={candidate.bio?.[key]} /></div>

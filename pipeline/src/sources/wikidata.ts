@@ -8,6 +8,7 @@ interface WikidataBioFacts {
   date_of_birth: string | null;
   birthplace: string | null;
   college: string | null;
+  wikipediaUrl: string | null;
 }
 
 const OCCUPATION_POLITICIAN = "Q82955";
@@ -22,11 +23,16 @@ async function searchCandidateEntities(name: string): Promise<string[]> {
   return (data.search ?? []).map((r: any) => r.id);
 }
 
-async function getEntityClaims(qid: string): Promise<any> {
+async function getEntity(qid: string): Promise<any> {
   const res = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`);
   if (!res.ok) return null;
   const data = await res.json();
-  return data.entities?.[qid]?.claims ?? null;
+  return data.entities?.[qid] ?? null;
+}
+
+function englishWikipediaUrl(entity: any): string | null {
+  const title = entity?.sitelinks?.enwiki?.title;
+  return title ? `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, "_"))}` : null;
 }
 
 const US_STATES = [
@@ -91,7 +97,8 @@ export async function getBioFacts(fullName: string): Promise<WikidataBioFacts | 
   const candidateQids = await searchCandidateEntities(fullName);
 
   for (const qid of candidateQids) {
-    const claims = await getEntityClaims(qid);
+    const entity = await getEntity(qid);
+    const claims = entity?.claims;
     if (!claims || !looksLikeAPolitician(claims)) continue;
 
     const dob = bestDateOfBirthClaim(claims);
@@ -104,6 +111,7 @@ export async function getBioFacts(fullName: string): Promise<WikidataBioFacts | 
       date_of_birth: dob ? formatWikidataDate(dob) : null,
       birthplace: birthplaceQid ? await getLabel(birthplaceQid, true) : null,
       college: collegeQid ? await getLabel(collegeQid, false) : null,
+      wikipediaUrl: englishWikipediaUrl(entity),
     };
   }
   return null;
