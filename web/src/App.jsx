@@ -198,6 +198,12 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
             const text = c.performance ? "Data temporarily unavailable" : "Not currently in office";
             return <span style={{ color: T.inkSoft, fontStyle: "italic" }}>{text}</span>;
           }} />
+        <DetailRow label="Bills sponsored / cosponsored" candidates={candidates}
+          render={(c) => c.performance ? `${c.performance.bills_sponsored ?? "—"} / ${c.performance.bills_cosponsored ?? "—"}` : null}
+          emptyText="Not currently in office" />
+        <DetailRow label="Committee assignments" candidates={candidates}
+          render={(c) => c.performance ? `${c.performance.committees?.length ?? 0}` : null}
+          emptyText="Not currently in office" />
       </div>
 
       {/* PERSONAL DATA */}
@@ -213,20 +219,8 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
       </div>
 
-      {/* BACKGROUND CHECK */}
-      <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px 4px", marginBottom: 18 }}>
-        <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 4px" }}>Public Background Check</div>
-        <DetailRow label="Criminal record" candidates={candidates} emptyText="Data collection not yet built" render={(c) => c.background?.criminal ? <SourcedField field={c.background.criminal} /> : null} />
-        <DetailRow label="Civil record" candidates={candidates} emptyText="Data collection not yet built" render={(c) => c.background?.civil ? <SourcedField field={c.background.civil} /> : null} />
-        <DetailRow label="Bankruptcy filings" candidates={candidates} emptyText="Data collection not yet built" render={(c) => c.background?.bankruptcy ? <SourcedField field={c.background.bankruptcy} /> : null} />
-        <DetailRow label="Stock trading filings" candidates={candidates} emptyText="Data collection not yet built" render={(c) => c.background?.stockTrading ? <SourcedField field={c.background.stockTrading} /> : null} />
-        <div style={{ fontSize: 11, color: T.inkSoft, padding: "8px 4px 6px", fontStyle: "italic" }}>
-          Background-check sourcing (court records, STOCK Act filings) is planned but not wired into this pilot yet — "not yet built" is not the same as "clean record."
-        </div>
-      </div>
-
       <div style={{ fontSize: 11.5, color: T.inkSoft, marginTop: 4, lineHeight: 1.5, borderTop: `1px dashed ${T.line}`, paddingTop: 12 }}>
-        Every populated field traces to a public source — linked next to the value. Click "Full profile" on a candidate for voting record, committee assignments, and legislative activity.
+        Every populated field traces to a public source — linked next to the value. This view is a high-level comparison; click "Full profile" on a candidate for their complete voting record, committee list, and legislative activity.
       </div>
     </>
   );
