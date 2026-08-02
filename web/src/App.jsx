@@ -61,11 +61,22 @@ async function fetchRace(chamber, stusab, districtCode) {
   return res.json();
 }
 
-function SourcedField({ field, label, emptyText = "No public record found" }) {
+function truncateText(text, maxLen) {
+  if (text.length <= maxLen) return text;
+  const cut = text.slice(0, maxLen);
+  return cut.slice(0, cut.lastIndexOf(" ")) + "…";
+}
+
+// maxLen truncates long prose (employment history, civic affiliations) for
+// the comparison grid — full text belongs on the candidate's profile page,
+// not crammed into a scanning view. Short facts (DOB, college) pass maxLen
+// unset and render in full either place.
+function SourcedField({ field, label, emptyText = "No public record found", maxLen }) {
   if (!field) return <span style={{ color: T.inkSoft, fontStyle: "italic" }}>{emptyText}</span>;
+  const displayValue = maxLen ? truncateText(field.value, maxLen) : field.value;
   return (
     <span>
-      {field.value}{" "}
+      {displayValue}{" "}
       {field.source_url && (
         <a href={field.source_url} target="_blank" rel="noreferrer" style={{ color: T.gold, marginLeft: 4 }} title={field.snippet || label}>
           <ExternalLink size={11} style={{ verticalAlign: "middle" }} />
@@ -214,8 +225,8 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Marital status" candidates={candidates} render={(c) => c.bio?.marital_status ? <SourcedField field={c.bio.marital_status} /> : null} />
         <DetailRow label="High school" candidates={candidates} render={(c) => c.bio?.high_school ? <SourcedField field={c.bio.high_school} /> : null} />
         <DetailRow label="College" candidates={candidates} render={(c) => c.bio?.college ? <SourcedField field={c.bio.college} /> : null} />
-        <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} /> : null} />
-        <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} /> : null} />
+        <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} maxLen={70} /> : null} />
+        <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} maxLen={70} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
       </div>
 
@@ -278,12 +289,22 @@ function CandidateProfileView({ candidate, onBack }) {
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
-        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => (
-          <div key={key} style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
-            <div style={{ fontSize: 12.5, color: T.inkSoft, textTransform: "capitalize" }}>{key.replace(/_/g, " ")}</div>
-            <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={candidate.bio?.[key]} /></div>
-          </div>
-        ))}
+        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => {
+          const field = candidate.bio?.[key];
+          return (
+            <div key={key} style={{ padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+              <div style={{ display: "grid", gridTemplateColumns: "220px 1fr" }}>
+                <div style={{ fontSize: 12.5, color: T.inkSoft, textTransform: "capitalize" }}>{key.replace(/_/g, " ")}</div>
+                <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={field} /></div>
+              </div>
+              {field?.snippet && (
+                <div style={{ marginLeft: 220, marginTop: 4, fontSize: 12, color: T.inkSoft, fontStyle: "italic", borderLeft: `2px solid ${T.line}`, paddingLeft: 8 }}>
+                  "{field.snippet}"
+                </div>
+              )}
+            </div>
+          );
+        })}
       </div>
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
