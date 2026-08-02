@@ -168,7 +168,12 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
   const unemployment = hardMetrics.unemployment_rate;
   const crime = hardMetrics.violent_crime_rate_per_100k;
   const employment = hardMetrics.nonfarm_employment_thousands;
-  if (!unemployment?.length && !crime?.length && !employment?.length) return null;
+  const spending = hardMetrics.federal_spending;
+  if (!unemployment?.length && !crime?.length && !employment?.length && !spending?.length) return null;
+
+  const latestSpending = spending?.[spending.length - 1];
+  const earliestSpending = spending?.[0];
+  const fmtUsd = (n) => `$${(n / 1e9).toFixed(1)}B`;
 
   const latestUnemployment = unemployment?.[0];
   const yearAgoUnemployment = unemployment?.find((p) => p.month === latestUnemployment?.month && p.year === String(Number(latestUnemployment.year) - 1));
@@ -216,8 +221,19 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           </div>
         </div>
       )}
+      {latestSpending && (
+        <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          <div style={{ fontSize: 12.5, color: T.inkSoft }}>Federal spending in district</div>
+          <div style={{ fontSize: 13, color: T.ink }}>
+            {fmtUsd(latestSpending.totalUsd)} ({latestSpending.year}) · ${Math.round(latestSpending.perCapitaUsd).toLocaleString("en-US")} per capita
+            {earliestSpending && earliestSpending.year !== latestSpending.year && (
+              <span style={{ color: T.inkSoft }}> — {fmtUsd(earliestSpending.totalUsd)} in {earliestSpending.year}</span>
+            )}
+          </div>
+        </div>
+      )}
       <div style={{ fontSize: 11, color: T.inkSoft, padding: "8px 4px 0", fontStyle: "italic" }}>
-        Statewide figures (BLS, FBI Crime Data Explorer) shown for context during this term — not a claim that any candidate caused these numbers.
+        Statewide figures (BLS, FBI Crime Data Explorer, USAspending.gov) shown for context during this term — not a claim that any candidate caused or personally secured these numbers.
       </div>
     </div>
   );

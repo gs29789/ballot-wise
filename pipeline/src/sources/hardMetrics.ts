@@ -66,3 +66,37 @@ export async function getViolentCrimeRate(stateCode: string, fromYear: number, t
   }
   return [...byYear.entries()].map(([year, ratePer100k]) => ({ year, ratePer100k })).sort((a, b) => a.year.localeCompare(b.year));
 }
+
+export interface FederalSpendingPoint {
+  year: string;
+  totalUsd: number;
+  perCapitaUsd: number;
+}
+
+// USAspending.gov — no key required. "place_of_performance" scope means
+// where the funded activity happened, i.e. money spent in this district —
+// framed as context (total federal spending present in the area), not as
+// funding any candidate personally secured; this endpoint has no way to
+// attribute a dollar to a specific member's advocacy.
+export async function getFederalSpendingByDistrict(stateCode: string, fromYear: number, toYear: number): Promise<FederalSpendingPoint[]> {
+  const points: FederalSpendingPoint[] = [];
+  for (let year = fromYear; year <= toYear; year++) {
+    const res = await fetch("https://api.usaspending.gov/api/v2/search/spending_by_geography/", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        scope: "place_of_performance",
+        geo_layer: "district",
+        filters: {
+          time_period: [{ start_date: `${year}-01-01`, end_date: `${year}-12-31` }],
+          place_of_performance_locations: [{ country: "USA", state: stateCode }],
+        },
+      }),
+    });
+    if (!res.ok) continue;
+    const data = await res.json();
+    const row = data.results?.[0];
+    if (row) points.push({ year: String(year), totalUsd: row.aggregated_amount, perCapitaUsd: row.per_capita });
+  }
+  return points;
+}

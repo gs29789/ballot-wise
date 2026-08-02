@@ -15,7 +15,7 @@ import {
   getAttendanceStats as getSenateAttendance,
 } from "./sources/senateRollCall.js";
 import { loadCuratedRace } from "./curated.js";
-import { getUnemploymentRate, getViolentCrimeRate, getNonfarmEmployment } from "./sources/hardMetrics.js";
+import { getUnemploymentRate, getViolentCrimeRate, getNonfarmEmployment, getFederalSpendingByDistrict } from "./sources/hardMetrics.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -155,10 +155,11 @@ async function buildRace(opts: BuildRaceOptions) {
   // State-level context, not attributed to any candidate causally — same
   // for every candidate in this race, so it lives once at the race level.
   const currentYear = new Date().getFullYear();
-  const [unemployment, violentCrime, nonfarmEmployment] = await Promise.all([
+  const [unemployment, violentCrime, nonfarmEmployment, federalSpending] = await Promise.all([
     getUnemploymentRate(opts.state, currentYear - 3, currentYear).catch(() => null),
     getViolentCrimeRate(opts.state, currentYear - 5, currentYear - 1).catch(() => null),
     getNonfarmEmployment(opts.state, currentYear - 3, currentYear).catch(() => null),
+    getFederalSpendingByDistrict(opts.state, currentYear - 3, currentYear - 1).catch(() => []),
   ]);
 
   const output = {
@@ -171,6 +172,7 @@ async function buildRace(opts: BuildRaceOptions) {
       unemployment_rate: unemployment,
       violent_crime_rate_per_100k: violentCrime,
       nonfarm_employment_thousands: nonfarmEmployment,
+      federal_spending: federalSpending,
     },
     candidates,
   };
