@@ -359,6 +359,15 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} maxLen={70} /> : null} />
         <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} maxLen={70} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
+        <DetailRow label="State-mandated background check" candidates={candidates}
+          render={(c) => c.bio?.state_background_check ? (
+            <span style={{ color: c.bio.state_background_check.value.startsWith("No") ? T.rep : T.ink, fontWeight: 600 }}>
+              <SourcedField field={c.bio.state_background_check} />
+            </span>
+          ) : null} />
+      </div>
+      <div style={{ fontSize: 11, color: T.inkSoft, marginTop: -12, marginBottom: 18, padding: "0 4px", fontStyle: "italic" }}>
+        Delaware requires a criminal background check for state and county candidates — federal candidates (House, Senate) are explicitly exempt by state law. No state-level vetting mechanism exists for this race.
       </div>
 
       <EarlyStageSection candidates={earlyStage} onOpenProfile={onOpenProfile} />
@@ -433,7 +442,7 @@ function CandidateProfileView({ candidate, onBack }) {
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
-        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => {
+        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations", "state_background_check"].map((key) => {
           const field = candidate.bio?.[key];
           return (
             <div key={key} style={{ padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>

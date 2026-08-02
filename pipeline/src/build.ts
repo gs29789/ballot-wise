@@ -16,6 +16,7 @@ import {
 } from "./sources/senateRollCall.js";
 import { loadCuratedRace } from "./curated.js";
 import { getUnemploymentRate, getViolentCrimeRate, getNonfarmEmployment, getFederalSpendingByDistrict } from "./sources/hardMetrics.js";
+import { getStateBackgroundCheckFact } from "./sources/stateBackgroundCheckLaw.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -95,6 +96,16 @@ async function buildRace(opts: BuildRaceOptions) {
 
       // curated overrides win
       Object.assign(bio, curatedBio);
+
+      // Fixed statutory fact, not per-candidate lookup — see module comment.
+      const stateBgCheck = getStateBackgroundCheckFact(opts.state, opts.office);
+      if (stateBgCheck) {
+        bio.state_background_check = {
+          value: stateBgCheck.value,
+          source_url: stateBgCheck.source_url,
+          snippet: stateBgCheck.snippet,
+        };
+      }
 
       // Match this FEC candidate to a sitting member for bioguideId + roll-call votes.
       const matchedMember = c.incumbentChallenge === "Incumbent"
