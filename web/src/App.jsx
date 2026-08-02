@@ -394,6 +394,26 @@ function CandidateProfileView({ candidate, onBack }) {
         )}
       </div>
 
+      {candidate.performance?.enacted_laws?.length > 0 && (
+        <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
+          <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>
+            Bills Sponsored That Became Law
+          </div>
+          {candidate.performance.enacted_laws.map((law, i) => (
+            <div key={i} style={{ padding: "10px 4px", borderTop: i > 0 ? `1px dashed ${T.line}` : "none" }}>
+              <div style={{ fontSize: 13, fontWeight: 600, color: T.ink, lineHeight: 1.4 }}>{law.title}</div>
+              <div style={{ fontSize: 11, color: T.inkSoft, margin: "2px 0 6px" }}>
+                {law.billType} {law.billNumber} · Public Law {law.publicLawNumber}
+              </div>
+              {law.summary && <div style={{ fontSize: 12.5, color: T.ink, lineHeight: 1.5 }}>{law.summary}</div>}
+              <a href={law.govinfoUrl} target="_blank" rel="noreferrer" style={{ fontSize: 11.5, color: T.gold, marginTop: 4, display: "inline-block" }}>
+                Official text on GovInfo
+              </a>
+            </div>
+          ))}
+        </div>
+      )}
+
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px" }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Campaign Finance</div>
         <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>

@@ -2,7 +2,7 @@ import "dotenv/config";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals } from "./sources/fec.js";
-import { getMembersByState, getLegislativeActivity, getBillsBecameLawCount } from "./sources/congressGov.js";
+import { getMembersByState, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
 import { getBioFacts } from "./sources/wikidata.js";
 import { extractBioFacts } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
@@ -105,24 +105,24 @@ async function buildRace(opts: BuildRaceOptions) {
       let attendance: { votesInSession: number; votesCast: number; attendanceRate: number } | null = null;
       let committees: Awaited<ReturnType<typeof getCommitteeAssignments>> = [];
       let legislativeActivity: Awaited<ReturnType<typeof getLegislativeActivity>> = null;
-      let billsBecameLaw: number | null = null;
+      let enactedLaws: Awaited<ReturnType<typeof getEnactedLaws>> = [];
 
       if (matchedMember && opts.office === "H") {
-        [recentVotes, attendance, committees, legislativeActivity, billsBecameLaw] = await Promise.all([
+        [recentVotes, attendance, committees, legislativeActivity, enactedLaws] = await Promise.all([
           getRecentHouseVotes(matchedMember.bioguideId, opts.cycle, 5).catch(() => []),
           getHouseAttendance(matchedMember.bioguideId, opts.cycle).catch(() => null),
           getCommitteeAssignments(matchedMember.bioguideId).catch(() => []),
           getLegislativeActivity(matchedMember.bioguideId).catch(() => null),
-          getBillsBecameLawCount(matchedMember.bioguideId).catch(() => null),
+          getEnactedLaws(matchedMember.bioguideId).catch(() => []),
         ]);
       } else if (matchedMember && opts.office === "S") {
         const lastName = matchedMember.name.split(",")[0].trim();
-        [recentVotes, attendance, committees, legislativeActivity, billsBecameLaw] = await Promise.all([
+        [recentVotes, attendance, committees, legislativeActivity, enactedLaws] = await Promise.all([
           getRecentSenateVotes(lastName, opts.state, opts.congress, opts.session, 5).catch(() => []),
           getSenateAttendance(lastName, opts.state, opts.congress, opts.session).catch(() => null),
           getCommitteeAssignments(matchedMember.bioguideId).catch(() => []),
           getLegislativeActivity(matchedMember.bioguideId).catch(() => null),
-          getBillsBecameLawCount(matchedMember.bioguideId).catch(() => null),
+          getEnactedLaws(matchedMember.bioguideId).catch(() => []),
         ]);
       }
 
@@ -142,7 +142,8 @@ async function buildRace(opts: BuildRaceOptions) {
               committees,
               bills_sponsored: legislativeActivity?.billsSponsored ?? null,
               bills_cosponsored: legislativeActivity?.billsCosponsored ?? null,
-              bills_became_law: billsBecameLaw,
+              bills_became_law: enactedLaws.length,
+              enacted_laws: enactedLaws,
             }
           : null,
         _curated_match: Boolean(curatedEntry),

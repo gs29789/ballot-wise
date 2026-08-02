@@ -57,23 +57,69 @@ export async function getLegislativeActivity(bioguideId: string): Promise<Legisl
   };
 }
 
+export interface EnactedLaw {
+  title: string;
+  congress: number;
+  billType: string;
+  billNumber: string;
+  publicLawNumber: string; // e.g. "119-76"
+  summary: string | null; // plain-English CRS summary, HTML stripped
+  govinfoUrl: string; // permanent link to the official enrolled law text
+}
+
 // Congress.gov's sponsored-legislation list includes each bill's latest
-// action text in the same paginated response — no per-bill lookup needed.
-// "Became Public Law" is how the API phrases enactment.
-export async function getBillsBecameLawCount(bioguideId: string): Promise<number> {
+// action text in the same paginated response — no per-bill lookup needed to
+// find which ones became law. "Became Public Law No: 119-76." is how the
+// API phrases enactment; the law number lets us link straight to the
+// authoritative text on GovInfo without a separate GovInfo API call — the
+// package ID (PLAW-{congress}publ{number}) is a fixed, predictable pattern.
+export async function getEnactedLaws(bioguideId: string): Promise<EnactedLaw[]> {
   let url: string | null = `${CONGRESS_BASE}/member/${bioguideId}/sponsored-legislation?api_key=${apiKey()}&format=json&limit=250`;
-  let count = 0;
+  const enacted: Array<{ title: string; congress: number; billType: string; billNumber: string; publicLawNumber: string }> = [];
 
   while (url) {
     const res = await fetch(url);
     if (!res.ok) break;
     const data = await res.json();
     for (const bill of data.sponsoredLegislation ?? []) {
-      if ((bill.latestAction?.text ?? "").includes("Became Public Law")) count++;
+      const match = (bill.latestAction?.text ?? "").match(/Became Public Law No:\s*(\d+-\d+)/);
+      if (match) {
+        enacted.push({
+          title: bill.title,
+          congress: bill.congress,
+          billType: bill.type,
+          billNumber: bill.number,
+          publicLawNumber: match[1],
+        });
+      }
     }
     url = data.pagination?.next ? `${data.pagination.next}&api_key=${apiKey()}` : null;
   }
-  return count;
+
+  return Promise.all(
+    enacted.map(async (law) => {
+      const [, lawNum] = law.publicLawNumber.split("-");
+      const summary = await getBillSummary(law.congress, law.billType, law.billNumber).catch(() => null);
+      return {
+        ...law,
+        summary,
+        govinfoUrl: `https://www.govinfo.gov/app/details/PLAW-${law.congress}publ${lawNum}`,
+      };
+    })
+  );
+}
+
+async function getBillSummary(congress: number, billType: string, billNumber: string): Promise<string | null> {
+  const url = `${CONGRESS_BASE}/bill/${congress}/${billType.toLowerCase()}/${billNumber}/summaries?api_key=${apiKey()}&format=json`;
+  const res = await fetch(url);
+  if (!res.ok) return null;
+  const data = await res.json();
+  const summaries = data.summaries ?? [];
+  if (!summaries.length) return null;
+  // Prefer the summary written at enactment ("Public Law") over earlier
+  // versions (introduced/passed), since the bill can change before signing.
+  const best = summaries.find((s: any) => s.actionDesc === "Public Law") ?? summaries[summaries.length - 1];
+  return best.text.replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
 }
 
 // Congress.gov's REST API does not expose per-member roll-call vote positions
