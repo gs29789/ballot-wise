@@ -158,6 +158,49 @@ function DetailRow({ label, candidates, render, emptyText = "No public record fo
 /* ---------------------------------------------------------
    COMPARISON VIEW — high-level grid across all candidates.
 --------------------------------------------------------- */
+function HardMetricsSection({ hardMetrics, stateCode }) {
+  if (!hardMetrics) return null;
+  const unemployment = hardMetrics.unemployment_rate;
+  const crime = hardMetrics.violent_crime_rate_per_100k;
+  if (!unemployment?.length && !crime?.length) return null;
+
+  const latestUnemployment = unemployment?.[0];
+  const yearAgoUnemployment = unemployment?.find((p) => p.month === latestUnemployment?.month && p.year === String(Number(latestUnemployment.year) - 1));
+  const latestCrime = crime?.[crime.length - 1];
+  const earliestCrime = crime?.[0];
+
+  return (
+    <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
+      <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 4px" }}>
+        {stateCode} State Context
+      </div>
+      {latestUnemployment && (
+        <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          <div style={{ fontSize: 12.5, color: T.inkSoft }}>Unemployment rate</div>
+          <div style={{ fontSize: 13, color: T.ink }}>
+            {latestUnemployment.value}% ({latestUnemployment.month} {latestUnemployment.year})
+            {yearAgoUnemployment && <span style={{ color: T.inkSoft }}> — {yearAgoUnemployment.value}% a year prior</span>}
+          </div>
+        </div>
+      )}
+      {latestCrime && (
+        <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          <div style={{ fontSize: 12.5, color: T.inkSoft }}>Violent crime rate</div>
+          <div style={{ fontSize: 13, color: T.ink }}>
+            {latestCrime.ratePer100k} per 100k ({latestCrime.year})
+            {earliestCrime && earliestCrime.year !== latestCrime.year && (
+              <span style={{ color: T.inkSoft }}> — {earliestCrime.ratePer100k} per 100k in {earliestCrime.year}</span>
+            )}
+          </div>
+        </div>
+      )}
+      <div style={{ fontSize: 11, color: T.inkSoft, padding: "8px 4px 0", fontStyle: "italic" }}>
+        Statewide figures (BLS, FBI Crime Data Explorer) shown for context during this term — not a claim that any candidate caused these numbers.
+      </div>
+    </div>
+  );
+}
+
 function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo, onOpenProfile }) {
   const candidates = race?.candidates ?? [];
 
@@ -231,6 +274,8 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} maxLen={70} /> : null} />
         <DetailRow label="Net worth" candidates={candidates} render={(c) => c.bio?.net_worth ? <SourcedField field={c.bio.net_worth} /> : null} />
       </div>
+
+      <HardMetricsSection hardMetrics={race?.hard_metrics} stateCode={race?.state} />
 
       <div style={{ fontSize: 11.5, color: T.inkSoft, marginTop: 4, lineHeight: 1.5, borderTop: `1px dashed ${T.line}`, paddingTop: 12 }}>
         Every populated field traces to a public source — linked next to the value. This view is a high-level comparison; click "Full profile" on a candidate for their complete voting record, committee list, and legislative activity.
