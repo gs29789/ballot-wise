@@ -23,18 +23,21 @@ function apiKey(): string {
   return key;
 }
 
-// Only candidates FEC marks as an active statutory candidate ('C') or
-// present-tense filer ('P') for the target cycle are real, current-cycle
-// candidates. 'N' rows are filers who haven't hit statutory candidacy yet,
-// and rows whose election_years doesn't include the cycle are leftover
-// registrations from a past run.
+// 'C' (statutory candidate) and 'P' (present-tense filer) are established
+// filers. 'N' rows have filed a Statement of Candidacy but haven't crossed
+// FEC's $5,000 raised/spent threshold yet — still a real, legally declared
+// federal candidate, just an underfunded one. Included so this doesn't quietly
+// exclude anyone actually on the ballot for being unfunded; the frontend
+// labels 'N' candidates distinctly rather than presenting them as equally
+// established. Rows whose election_years doesn't include the cycle are
+// leftover registrations from a past run and stay excluded regardless of status.
 export async function searchCandidates(state: string, office: "H" | "S", cycle: number): Promise<FecCandidate[]> {
   const url = `${FEC_BASE}/candidates/search/?state=${state}&cycle=${cycle}&office=${office}&per_page=100&api_key=${apiKey()}`;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`FEC candidates search failed: ${res.status}`);
   const data = await res.json();
   return (data.results as any[])
-    .filter((c) => ["C", "P"].includes(c.candidate_status) && (c.election_years ?? []).includes(cycle))
+    .filter((c) => ["C", "P", "N"].includes(c.candidate_status) && (c.election_years ?? []).includes(cycle))
     .map((c) => ({
       candidateId: c.candidate_id,
       name: c.name,

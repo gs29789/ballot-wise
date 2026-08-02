@@ -110,6 +110,11 @@ function CandidateTab({ c, onOpenProfile }) {
       <div style={{ fontFamily: "'Fraunces', serif", fontSize: 18, fontWeight: 600, color: T.ink, marginTop: 2, lineHeight: 1.2 }}>
         {toTitleCase(c.full_name)}
       </div>
+      {c.fec_status === "N" && (
+        <div style={{ fontSize: 10.5, color: T.inkSoft, marginTop: 3, fontStyle: "italic" }} title="Filed a Statement of Candidacy with the FEC but hasn't yet crossed the $5,000 raised/spent threshold for established-filer status">
+          Declared candidate, early-stage filing
+        </div>
+      )}
       <button
         onClick={() => onOpenProfile(c.slug)}
         style={{ display: "flex", alignItems: "center", gap: 3, background: "transparent", border: "none", padding: 0, marginTop: 8, color: T.ink, opacity: 0.75, fontSize: 11.5, cursor: "pointer", fontWeight: 600 }}
@@ -320,6 +325,11 @@ function CandidateProfileView({ candidate, onBack }) {
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 28, fontWeight: 600, color: T.ink, marginTop: 4 }}>
           {toTitleCase(candidate.full_name)}
         </div>
+        {candidate.fec_status === "N" && (
+          <div style={{ fontSize: 12, color: T.inkSoft, marginTop: 6, fontStyle: "italic" }}>
+            Declared candidate — filed a Statement of Candidacy with the FEC but hasn't yet crossed the $5,000 raised/spent threshold for established-filer status.
+          </div>
+        )}
       </div>
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>

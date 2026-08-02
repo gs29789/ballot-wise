@@ -132,6 +132,7 @@ async function buildRace(opts: BuildRaceOptions) {
         party: c.party,
         incumbent: c.incumbentChallenge === "Incumbent",
         fec_candidate_id: c.candidateId,
+        fec_status: c.candidateStatus, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold
         bioguide_id: matchedMember?.bioguideId ?? null,
         financials: totals,
         bio,
