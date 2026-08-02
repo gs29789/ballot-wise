@@ -37,8 +37,8 @@ export async function getMemberVote(
   voteNumber: number
 ): Promise<SenateVoteRecord | null> {
   const padded = String(voteNumber).padStart(5, "0");
-  const url = `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${congress}${session}/vote_${congress}_${session}_${padded}.xml`;
-  const res = await fetch(url);
+  const base = `https://www.senate.gov/legislative/LIS/roll_call_votes/vote${congress}${session}/vote_${congress}_${session}_${padded}`;
+  const res = await fetch(`${base}.xml`);
   if (!res.ok) return null;
   const xml = parser.parse(await res.text());
   const vote = xml.roll_call_vote;
@@ -56,11 +56,16 @@ export async function getMemberVote(
     congress,
     session,
     question: vote.question ?? "",
-    title: vote.vote_title ?? vote.vote_document_text ?? "",
+    // vote_title is often just a bill number ("S. Res. 817") — the actual
+    // descriptive text lives in vote_document_text, so prefer that.
+    title: vote.vote_document_text || vote.vote_title || "",
     date: vote.vote_date ?? "",
     result: vote.vote_result ?? "",
     position: mine.vote_cast,
-    sourceUrl: url,
+    // The .xml file has no client-side stylesheet, so it renders as a flat,
+    // unstyled data dump in a browser. The .htm version is the same vote,
+    // formatted for people rather than parsers.
+    sourceUrl: `${base}.htm`,
   };
 }
 
