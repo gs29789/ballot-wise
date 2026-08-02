@@ -210,7 +210,9 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
             return <span style={{ color: T.inkSoft, fontStyle: "italic" }}>{text}</span>;
           }} />
         <DetailRow label="Bills sponsored / cosponsored" candidates={candidates}
-          render={(c) => c.performance ? `${c.performance.bills_sponsored ?? "—"} / ${c.performance.bills_cosponsored ?? "—"}` : null}
+          render={(c) => c.performance
+            ? `${c.performance.bills_sponsored ?? "—"} / ${c.performance.bills_cosponsored ?? "—"}${c.performance.bills_became_law ? ` (${c.performance.bills_became_law} became law)` : ""}`
+            : null}
           emptyText="Not currently in office" />
         <DetailRow label="Committee assignments" candidates={candidates}
           render={(c) => c.performance ? `${c.performance.committees?.length ?? 0}` : null}
@@ -276,6 +278,10 @@ function CandidateProfileView({ candidate, onBack }) {
             <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
               <div style={{ fontSize: 12.5, color: T.inkSoft }}>Bills sponsored / cosponsored</div>
               <div style={{ fontSize: 13, color: T.ink }}>{perf.bills_sponsored ?? "—"} / {perf.bills_cosponsored ?? "—"}</div>
+            </div>
+            <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+              <div style={{ fontSize: 12.5, color: T.inkSoft }}>Sponsored bills that became law</div>
+              <div style={{ fontSize: 13, color: T.ink }}>{perf.bills_became_law ?? "Not on file"}</div>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
               <div style={{ fontSize: 12.5, color: T.inkSoft, paddingTop: 2 }}>Committee assignments</div>

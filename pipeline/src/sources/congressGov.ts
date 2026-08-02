@@ -57,6 +57,25 @@ export async function getLegislativeActivity(bioguideId: string): Promise<Legisl
   };
 }
 
+// Congress.gov's sponsored-legislation list includes each bill's latest
+// action text in the same paginated response — no per-bill lookup needed.
+// "Became Public Law" is how the API phrases enactment.
+export async function getBillsBecameLawCount(bioguideId: string): Promise<number> {
+  let url: string | null = `${CONGRESS_BASE}/member/${bioguideId}/sponsored-legislation?api_key=${apiKey()}&format=json&limit=250`;
+  let count = 0;
+
+  while (url) {
+    const res = await fetch(url);
+    if (!res.ok) break;
+    const data = await res.json();
+    for (const bill of data.sponsoredLegislation ?? []) {
+      if ((bill.latestAction?.text ?? "").includes("Became Public Law")) count++;
+    }
+    url = data.pagination?.next ? `${data.pagination.next}&api_key=${apiKey()}` : null;
+  }
+  return count;
+}
+
 // Congress.gov's REST API does not expose per-member roll-call vote positions
 // (yes/no on a specific bill). That requires parsing the House Clerk's
 // roll-call XML (clerk.house.gov/evs) or the Senate's (senate.gov/legislative/LIS)
