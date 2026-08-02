@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown } from "lucide-react";
+import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown } from "lucide-react";
 
 const T = {
   paper: "#F4F1E9", paperRaised: "#FBFAF6", ink: "#211D18", inkSoft: "#6B6255",
@@ -163,6 +163,18 @@ function DetailRow({ label, candidates, render, emptyText = "No public record fo
 /* ---------------------------------------------------------
    COMPARISON VIEW — high-level grid across all candidates.
 --------------------------------------------------------- */
+// betterDirection: "down" (lower is better, e.g. unemployment, crime), "up"
+// (higher is better, e.g. jobs), or null (no defensible value judgment —
+// e.g. federal spending isn't inherently good or bad, so shown neutrally).
+function TrendIndicator({ current, previous, betterDirection }) {
+  if (current === previous) return null;
+  const wentUp = current > previous;
+  const Arrow = wentUp ? ArrowUp : ArrowDown;
+  const isGood = betterDirection && (betterDirection === "up") === wentUp;
+  const color = !betterDirection ? T.inkSoft : isGood ? T.success : T.rep;
+  return <Arrow size={13} color={color} style={{ verticalAlign: "middle", marginLeft: 2 }} />;
+}
+
 function HardMetricsSection({ hardMetrics, stateCode }) {
   if (!hardMetrics) return null;
   const unemployment = hardMetrics.unemployment_rate;
@@ -192,7 +204,12 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           <div style={{ fontSize: 12.5, color: T.inkSoft }}>Unemployment rate</div>
           <div style={{ fontSize: 13, color: T.ink }}>
             {latestUnemployment.value}% ({latestUnemployment.month} {latestUnemployment.year})
-            {yearAgoUnemployment && <span style={{ color: T.inkSoft }}> — {yearAgoUnemployment.value}% a year prior</span>}
+            {yearAgoUnemployment && (
+              <>
+                <TrendIndicator current={latestUnemployment.value} previous={yearAgoUnemployment.value} betterDirection="down" />
+                <span style={{ color: T.inkSoft }}> — {yearAgoUnemployment.value}% a year prior</span>
+              </>
+            )}
           </div>
         </div>
       )}
@@ -202,10 +219,13 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           <div style={{ fontSize: 13, color: T.ink }}>
             {(latestEmployment.thousandsOfJobs * 1000).toLocaleString("en-US")} ({latestEmployment.month} {latestEmployment.year})
             {yearAgoEmployment && (
-              <span style={{ color: T.inkSoft }}>
-                {" "}— {latestEmployment.thousandsOfJobs > yearAgoEmployment.thousandsOfJobs ? "up" : "down"} from{" "}
-                {(yearAgoEmployment.thousandsOfJobs * 1000).toLocaleString("en-US")} a year prior
-              </span>
+              <>
+                <TrendIndicator current={latestEmployment.thousandsOfJobs} previous={yearAgoEmployment.thousandsOfJobs} betterDirection="up" />
+                <span style={{ color: T.inkSoft }}>
+                  {" "}— {latestEmployment.thousandsOfJobs > yearAgoEmployment.thousandsOfJobs ? "up" : "down"} from{" "}
+                  {(yearAgoEmployment.thousandsOfJobs * 1000).toLocaleString("en-US")} a year prior
+                </span>
+              </>
             )}
           </div>
         </div>
@@ -216,7 +236,10 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           <div style={{ fontSize: 13, color: T.ink }}>
             {latestCrime.ratePer100k} per 100k ({latestCrime.year})
             {earliestCrime && earliestCrime.year !== latestCrime.year && (
-              <span style={{ color: T.inkSoft }}> — {earliestCrime.ratePer100k} per 100k in {earliestCrime.year}</span>
+              <>
+                <TrendIndicator current={latestCrime.ratePer100k} previous={earliestCrime.ratePer100k} betterDirection="down" />
+                <span style={{ color: T.inkSoft }}> — {earliestCrime.ratePer100k} per 100k in {earliestCrime.year}</span>
+              </>
             )}
           </div>
         </div>
@@ -227,7 +250,10 @@ function HardMetricsSection({ hardMetrics, stateCode }) {
           <div style={{ fontSize: 13, color: T.ink }}>
             {fmtUsd(latestSpending.totalUsd)} ({latestSpending.year}) · ${Math.round(latestSpending.perCapitaUsd).toLocaleString("en-US")} per capita
             {earliestSpending && earliestSpending.year !== latestSpending.year && (
-              <span style={{ color: T.inkSoft }}> — {fmtUsd(earliestSpending.totalUsd)} in {earliestSpending.year}</span>
+              <>
+                <TrendIndicator current={latestSpending.totalUsd} previous={earliestSpending.totalUsd} betterDirection={null} />
+                <span style={{ color: T.inkSoft }}> — {fmtUsd(earliestSpending.totalUsd)} in {earliestSpending.year}</span>
+              </>
             )}
           </div>
         </div>
