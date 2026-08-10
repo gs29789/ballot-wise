@@ -391,11 +391,109 @@ const GEORGIA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Pennsylvania's primary (May 19, 2026, same day as Georgia's) was already
+// certified before this pipeline covered the state, so — like MT/ND/SD/NY/GA
+// — narrowing is needed immediately rather than deferred. No mid-term
+// vacancy complexity here (PA-3's open seat is a normal announced retirement,
+// Dwight Evans on 2025-06-30, not a death/resignation with a parallel
+// special election like Georgia's 13th/14th). No Senate race this cycle
+// either (Fetterman up 2028, McCormick up 2030).
+const PENNSYLVANIA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Pennsylvania's_${district}_Congressional_District_election,_2026`;
+
+const PENNSYLVANIA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6PA08277", "H6PA01181", "H6PA01264", "H6PA01215"],
+    source_url: PENNSYLVANIA_RESULTS_URL("1st"),
+    snippet: "Incumbent Brian Fitzpatrick, Bob Harvie, Jamie Frost Remmey, and John Hoban are running in the general election for U.S. House Pennsylvania District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4PA13199", "H6PA02205"],
+    source_url: PENNSYLVANIA_RESULTS_URL("2nd"),
+    snippet: "Incumbent Brendan Boyle and Jessica Arriaga are running in the general election for U.S. House Pennsylvania District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H6PA03203", "H6PA03369"],
+    source_url: PENNSYLVANIA_RESULTS_URL("3rd"),
+    snippet: "Christopher Rabb and Dennis Mahoney are running in the general election for U.S. House Pennsylvania District 3 on November 3, 2026. Open seat: incumbent Dwight Evans announced June 30, 2025 that he would not seek re-election.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8PA04116", "H6PA04169"],
+    source_url: PENNSYLVANIA_RESULTS_URL("4th"),
+    snippet: "Incumbent Madeleine Dean and Aurora Stuski are running in the general election for U.S. House Pennsylvania District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8PA07200", "H6PA05216"],
+    source_url: PENNSYLVANIA_RESULTS_URL("5th"),
+    snippet: "Incumbent Mary Gay Scanlon and Nick Manganaro are running in the general election for U.S. House Pennsylvania District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8PA06087", "H6PA06156"],
+    source_url: PENNSYLVANIA_RESULTS_URL("6th"),
+    snippet: "Incumbent Chrissy Houlahan and Marty Young are running in the general election for U.S. House Pennsylvania District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H8PA15195", "H6PA07188", "H6PA07212", "H6PA07204"],
+    source_url: PENNSYLVANIA_RESULTS_URL("7th"),
+    snippet: "Incumbent Ryan Mackenzie, Bob Brooks, Andrew Tupone, Frank Golden, and Ramon Granados are running in the general election for U.S. House Pennsylvania District 7 on November 3, 2026. Tupone (Green Party) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4PA08124", "H6PA08293"],
+    source_url: PENNSYLVANIA_RESULTS_URL("8th"),
+    snippet: "Incumbent Rob Bresnahan Jr. and Paige Cognetti are running in the general election for U.S. House Pennsylvania District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H8PA10147", "H6PA09127"],
+    source_url: PENNSYLVANIA_RESULTS_URL("9th"),
+    snippet: "Incumbent Dan Meuser and Rachel Wallace are running in the general election for U.S. House Pennsylvania District 9 on November 3, 2026.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H2PA04135", "H4PA10104", "H6PA10174"],
+    source_url: PENNSYLVANIA_RESULTS_URL("10th"),
+    snippet: "Incumbent Scott Perry, Janelle Stelson, and Isabelle Harman are running in the general election for U.S. House Pennsylvania District 10 on November 3, 2026.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6PA16320", "H6PA11099", "H4PA11060"],
+    source_url: PENNSYLVANIA_RESULTS_URL("11th"),
+    snippet: "Incumbent Lloyd Smucker, Nancy Mannion, and Jeffrey Wilder are running in the general election for U.S. House Pennsylvania District 11 on November 3, 2026.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H2PA18200", "H4PA12068"],
+    source_url: PENNSYLVANIA_RESULTS_URL("12th"),
+    snippet: "Incumbent Summer Lee and James Hayes are running in the general election for U.S. House Pennsylvania District 12 on November 3, 2026.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H8PA13125", "H4PA13298"],
+    source_url: PENNSYLVANIA_RESULTS_URL("13th"),
+    snippet: "Incumbent John Joyce and Beth Farnham are running in the general election for U.S. House Pennsylvania District 13 on November 3, 2026.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H8PA18199", "H6PA14200", "H4PA14114"],
+    source_url: PENNSYLVANIA_RESULTS_URL("14th"),
+    snippet: "Incumbent Guy Reschenthaler, Alan Bradstock, and Adam Halfhill are running in the general election for U.S. House Pennsylvania District 14 on November 3, 2026.",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H8PA05071", "H6PA15181"],
+    source_url: PENNSYLVANIA_RESULTS_URL("15th"),
+    snippet: "Incumbent Glenn Thompson and Ray Bilger are running in the general election for U.S. House Pennsylvania District 15 on November 3, 2026.",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H0PA03271", "H6PA16379", "H6PA16361"],
+    source_url: PENNSYLVANIA_RESULTS_URL("16th"),
+    snippet: "Incumbent Mike Kelly, Justin Wagner, and Nick Singelis are running in the general election for U.S. House Pennsylvania District 16 on November 3, 2026.",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H2PA17103", "H6PA17203"],
+    source_url: PENNSYLVANIA_RESULTS_URL("17th"),
+    snippet: "Incumbent Chris Deluzio and Tony Guy are running in the general election for U.S. House Pennsylvania District 17 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
   if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

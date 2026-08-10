@@ -154,6 +154,22 @@ const GEORGIA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Pennsylvania is the same broad "ineligible to hold/capable of holding"
+// shape as Montana/Georgia, not the narrower South Dakota/New York
+// "vacates an office already held" shape. Unlike Montana/Georgia, no
+// restoration-of-rights clause appears in this text, so "value" doesn't
+// claim one.
+const PENNSYLVANIA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Pennsylvania's constitution bars anyone convicted of embezzlement of public moneys, bribery, perjury, or other infamous crime from the General Assembly or from holding any office of trust or profit in the Commonwealth, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
+  snippet:
+    "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -165,5 +181,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "SD" && (office === "H" || office === "S")) return SOUTH_DAKOTA_FEDERAL;
   if (stateCode === "NY" && (office === "H" || office === "S")) return NEW_YORK_FEDERAL;
   if (stateCode === "GA" && (office === "H" || office === "S")) return GEORGIA_FEDERAL;
+  if (stateCode === "PA" && (office === "H" || office === "S")) return PENNSYLVANIA_FEDERAL;
   return null;
 }

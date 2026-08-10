@@ -528,6 +528,29 @@ async function main() {
   await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/GA-13.json", district: "13" });
   await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/GA-14.json", district: "14" });
   await buildRace({ state: "GA", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/GA.json" });
+  // Pennsylvania — 17 House districts, no Senate race this cycle (Fetterman
+  // up 2028, McCormick up 2030). No 2026 redistricting (2022 Carter map
+  // stable through 2030) and the geocoder returns current 119th-CD data
+  // cleanly, confirmed against a real Philadelphia address. PA-3 is a normal
+  // open-seat retirement (Dwight Evans, announced 2025-06-30) — no special-
+  // election complexity like Georgia's 13th/14th.
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/PA-1.json", district: "01" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/PA-2.json", district: "02" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/PA-3.json", district: "03" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/PA-4.json", district: "04" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/PA-5.json", district: "05" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/PA-6.json", district: "06" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/PA-7.json", district: "07" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/PA-8.json", district: "08" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/PA-9.json", district: "09" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/PA-10.json", district: "10" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/PA-11.json", district: "11" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/PA-12.json", district: "12" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/PA-13.json", district: "13" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/PA-14.json", district: "14" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-15", outFile: "house/PA-15.json", district: "15" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/PA-16.json", district: "16" });
+  await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/PA-17.json", district: "17" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

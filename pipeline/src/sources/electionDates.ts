@@ -102,6 +102,22 @@ const GEORGIA_2026: ElectionDates = {
     "\"November election\" means the general election held on the Tuesday next following the first Monday in November in each even-numbered year.",
 };
 
+// Pennsylvania's primary date formula ("third Tuesday of May in all
+// even-numbered years") lives in its own uncodified Election Code (25 P.S.),
+// separate from the general election date, which is set by the state
+// constitution itself rather than 25 P.S. — two different documents, same
+// two-citation pattern used for every other state here.
+const PENNSYLVANIA_2026: ElectionDates = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
+  primarySnippet:
+    "25 P.S. § 2753(a): There shall be a General primary preceding each general election which shall be held on the third Tuesday of May in all even-numbered years, except in the year of the nomination of a President of the United States, in which year the General primary shall be held on the fourth Tuesday of April.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-7-sect-2/",
+  generalSnippet:
+    "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -111,5 +127,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026;
   if (stateCode === "NY" && cycle === 2026) return NEW_YORK_2026;
   if (stateCode === "GA" && cycle === 2026) return GEORGIA_2026;
+  if (stateCode === "PA" && cycle === 2026) return PENNSYLVANIA_2026;
   return null;
 }
