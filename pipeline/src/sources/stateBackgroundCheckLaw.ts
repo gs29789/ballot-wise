@@ -137,6 +137,23 @@ const NEW_YORK_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Georgia is closer to Montana's shape than South Dakota/New York's: OCGA
+// § 45-2-1 says these persons are "ineligible to hold any civil office" —
+// broader than just vacating one already held — though the same sentence
+// also doubles as a vacancy trigger for a sitting officeholder. Framed
+// around the "ineligible to hold" language since that's the broader,
+// more accurate claim.
+const GEORGIA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Georgia bars a person convicted and sentenced for a felony involving moral turpitude from holding any civil office (unless pardoned and restored to full citizenship rights by the State Board of Pardons and Paroles), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://law.justia.com/codes/georgia/title-45/chapter-2/article-1/section-45-2-1/",
+  snippet:
+    "The following persons are ineligible to hold any civil office; and the existence of any of the following facts shall be a sufficient reason for vacating any office held by such person... (3) Any person finally convicted and sentenced for any felony involving moral turpitude under the laws of this or any other state when the offense is also a felony in this state, unless restored to all his rights of citizenship by a pardon from the State Board of Pardons and Paroles. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -147,5 +164,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "ND" && (office === "H" || office === "S")) return NORTH_DAKOTA_FEDERAL;
   if (stateCode === "SD" && (office === "H" || office === "S")) return SOUTH_DAKOTA_FEDERAL;
   if (stateCode === "NY" && (office === "H" || office === "S")) return NEW_YORK_FEDERAL;
+  if (stateCode === "GA" && (office === "H" || office === "S")) return GEORGIA_FEDERAL;
   return null;
 }

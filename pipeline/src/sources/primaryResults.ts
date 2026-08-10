@@ -288,10 +288,114 @@ const NEW_YORK_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Georgia's 2026 cycle has real vote percentages available only for two
+// races (13, 14) — everything else here is confirmed against Ballotpedia's
+// GENERAL election candidate list (who's actually the certified nominee
+// heading into November) rather than primary-day vote totals, which weren't
+// individually verified for the other 12 districts + Senate. That's still a
+// fully sourced, checkable claim — just a different kind of claim than "won
+// with N% of the vote" — so snippets say exactly that rather than
+// overclaiming "uncontested" for races where that wasn't actually checked.
+//
+// Districts 13 and 14 both have a real incumbent vacancy layered under the
+// regular 2026 cycle, easy to conflate with each other or with the special
+// election:
+// - GA-13: incumbent David Scott (D) died 2026-04-22, before the May 19
+//   primary — an open seat for the regular cycle. Separately, a special
+//   election (not covered by this pipeline — it fills the CURRENT unexpired
+//   term, not the seat up in November) went to an Aug 25, 2026 runoff not
+//   yet decided as of when this was built.
+// - GA-14: incumbent Marjorie Taylor Greene resigned effective 2026-01-05.
+//   Unlike GA-13, GA-14's special election WAS already fully resolved before
+//   this was built (Clay Fuller won an April 7, 2026 runoff) — and Fuller
+//   separately also won the regular cycle's Republican nomination, so he's
+//   both the current officeholder AND the regular-cycle nominee. Two
+//   different elections, same winner — don't assume that's always true.
+const GEORGIA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Georgia's_${district}_Congressional_District_election,_2026`;
+
+const GEORGIA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6GA01158", "H6GA01109"],
+    source_url: GEORGIA_RESULTS_URL("1st"),
+    snippet: "James Kingston (R) and Amanda Hollowell (D) are running in the general election for U.S. House Georgia District 1 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2GA02031", "H6GA01182"],
+    source_url: GEORGIA_RESULTS_URL("2nd"),
+    snippet: "Incumbent Sanford Bishop Jr. (D) and Matt Day (R) are running in the general election for U.S. House Georgia District 2 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4GA03126", "H4GA03100"],
+    source_url: GEORGIA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Brian Jack (R) and Maura Keller (D) are running in the general election for U.S. House Georgia District 3 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6GA04129", "H6GA04194"],
+    source_url: GEORGIA_RESULTS_URL("4th"),
+    snippet: "Incumbent Hank Johnson (D) and James Duffie (R) are running in the general election for U.S. House Georgia District 4 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0GA05301"],
+    source_url: GEORGIA_RESULTS_URL("5th"),
+    snippet: "Incumbent Nikema Williams (D) and John Salvesen (R) are running in the general election for U.S. House Georgia District 5 on November 3, 2026 — confirmed party nominees post-primary/runoff. Salvesen has no FEC 2026 registration found; see code comment.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8GA06393", "H6GA06181"],
+    source_url: GEORGIA_RESULTS_URL("6th"),
+    snippet: "Incumbent Lucy McBath (D) and Kevin Martin (R) are running in the general election for U.S. House Georgia District 6 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H0GA07273", "H6GA07221"],
+    source_url: GEORGIA_RESULTS_URL("7th"),
+    snippet: "Incumbent Rich McCormick (R) and Tony Kozycki (D) are running in the general election for U.S. House Georgia District 7 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H0GA08099", "H6GA08138"],
+    source_url: GEORGIA_RESULTS_URL("8th"),
+    snippet: "Incumbent Austin Scott (R) and Kelly Esti (D) are running in the general election for U.S. House Georgia District 8 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H0GA09246", "H6GA09284"],
+    source_url: GEORGIA_RESULTS_URL("9th"),
+    snippet: "Incumbent Andrew Clyde (R) and Caitlyn Gegen (D) are running in the general election for U.S. House Georgia District 9 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H6GA10183", "H6GA10175"],
+    source_url: GEORGIA_RESULTS_URL("10th"),
+    snippet: "Pamela DeLancy (D) and Houston Gaines (R) are running in the general election for U.S. House Georgia District 10 on November 3, 2026 — confirmed party nominees post-primary/runoff, open seat.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6GA11116", "H0GA14048"],
+    source_url: GEORGIA_RESULTS_URL("11th"),
+    snippet: "Chris Harden (D) and John Cowan (R) are running in the general election for U.S. House Georgia District 11 on November 3, 2026 — confirmed party nominees post-primary/runoff, open seat.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H2GA12121", "H6GA12080"],
+    source_url: GEORGIA_RESULTS_URL("12th"),
+    snippet: "Incumbent Rick Allen (R) and Ceretta Smith (D) are running in the general election for U.S. House Georgia District 12 on November 3, 2026 — confirmed party nominees post-primary/runoff.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H6GA13070", "H2GA04201"],
+    source_url: GEORGIA_RESULTS_URL("13th"),
+    snippet: "Jasmine Clark won the Democratic primary for U.S. House Georgia District 13 on May 19, 2026 with 56% of the vote, without a runoff. Incumbent David Scott died April 22, 2026, before the primary — this is an open seat for the regular 2026 cycle, separate from the special election held to fill his unexpired term. Clark faces Jonathan Chavez (R) in November.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H0GA14030", "H4GA14057"],
+    source_url: GEORGIA_RESULTS_URL("14th"),
+    snippet: "Shawn Harris advanced from the Democratic primary for U.S. House Georgia District 14 on May 19, 2026 with 100.0% (no runoff needed, no incumbents in that primary). Incumbent Clay Fuller (R) — who separately also won the special election for Marjorie Taylor Greene's unexpired term — is the confirmed Republican nominee for the regular 2026 cycle per Ballotpedia's general-election candidate list.",
+  },
+  senate: {
+    advancingCandidateIds: ["S8GA00180", "S6GA00390"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
+    snippet: "Jon Ossoff (D, incumbent) and Mike Collins (R) are running in the general election for U.S. Senate Georgia on November 3, 2026. Libertarian Allen Buckley is also on the ballot but has no FEC 2026 registration found; see code comment.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

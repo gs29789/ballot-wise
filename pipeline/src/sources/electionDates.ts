@@ -86,6 +86,22 @@ const NEW_YORK_2026: ElectionDates = {
   generalSnippet: "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November.",
 };
 
+// Georgia's primary and general dates for a given cycle both derive from
+// fixed formulas (24th week before November / first Tuesday after first
+// Monday in November) rather than being set fresh each cycle by name — the
+// date itself (2026-05-19) is confirmed correct by independent news sources,
+// not just computed from the formula here.
+const GEORGIA_2026: ElectionDates = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://law.justia.com/codes/georgia/title-21/chapter-2/article-4/part-2/section-21-2-150/",
+  primarySnippet:
+    "Whenever any political party holds a primary to nominate candidates for public offices to be filled in the ensuing November election, such primary shall be held on the Tuesday of the twenty-fourth week prior to the November general election in each even-numbered year or, in the case of municipalities, on the third Tuesday in July in each odd-numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/georgia/title-21/chapter-2/article-1/section-21-2-2/",
+  generalSnippet:
+    "\"November election\" means the general election held on the Tuesday next following the first Monday in November in each even-numbered year.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -94,5 +110,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "ND" && cycle === 2026) return NORTH_DAKOTA_2026;
   if (stateCode === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026;
   if (stateCode === "NY" && cycle === 2026) return NEW_YORK_2026;
+  if (stateCode === "GA" && cycle === 2026) return GEORGIA_2026;
   return null;
 }

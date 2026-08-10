@@ -508,6 +508,26 @@ async function main() {
   await buildRace({ state: "NY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-24", outFile: "house/NY-24.json", district: "24" });
   await buildRace({ state: "NY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-25", outFile: "house/NY-25.json", district: "25" });
   await buildRace({ state: "NY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-26", outFile: "house/NY-26.json", district: "26" });
+  // Georgia — 14 House districts + Senate. Confirmed 2026 kept the
+  // existing map (Gov. Kemp declined a mid-decade redraw), so unlike
+  // Texas the geocoder is accurate here. GA-13 and GA-14 both had a
+  // mid-term vacancy handled via a SEPARATE special election, distinct
+  // from the regular buildRace() calls below — see primaryResults.ts.
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/GA-1.json", district: "01" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/GA-2.json", district: "02" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/GA-3.json", district: "03" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/GA-4.json", district: "04" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/GA-5.json", district: "05" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/GA-6.json", district: "06" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/GA-7.json", district: "07" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/GA-8.json", district: "08" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/GA-9.json", district: "09" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/GA-10.json", district: "10" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/GA-11.json", district: "11" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/GA-12.json", district: "12" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/GA-13.json", district: "13" });
+  await buildRace({ state: "GA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/GA-14.json", district: "14" });
+  await buildRace({ state: "GA", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/GA.json" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that
