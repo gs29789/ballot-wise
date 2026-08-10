@@ -65,11 +65,71 @@ const MONTANA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Vermont is the cleanest case yet: an official Vermont Legislature research
+// memo ("Qualifications of Voters and Elected Officers") comprehensively
+// enumerates the constitutional qualifications for every elected office it
+// covers (Legislators, Governor/Lieutenant Governor, Treasurer) — every one
+// of them is residency-only. No felony or criminal-record disqualification
+// appears anywhere in it, unlike Montana's felon bar. Same two-part
+// structure as Montana's entry: the Vermont-specific claim (no such bar
+// exists) quote-anchored to this memo, plus the same CRS citation for why
+// that would be moot for Congress anyway even if it did exist.
+const VERMONT_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Vermont has no felony or criminal-record disqualification for any elected office; its constitution's only stated qualifications are residency-based, and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either",
+  source_url:
+    "https://legislature.vermont.gov/Documents/2022/WorkGroups/Senate%20Government%20Operations/Elections/W~Amerin%20Aborjaily~VT%20Constitutional%20Provisions%20-%20Qualifications%20of%20Voters%20and%20Elected%20Officers~2-10-2021.pdf",
+  snippet:
+    "Vt. Const. Ch. II, § 15: \"No person shall be elected a Representative or a Senator until the person has resided in this State two years, the last year of which shall be in the legislative district for which the person is elected.\" Vt. Const. Ch. II, § 23: \"No person shall be eligible to the office of Governor or Lieutenant-Governor until the person shall have resided in this State four years next preceding the day of election.\" Vt. Const. Ch. II, § 66: \". . . such person shall not be capable of being elected Treasurer, or Representative in Assembly, until after two years' residence . . .\" — no felony or criminal-record qualification appears anywhere in this official enumeration of Vermont's constitutional qualifications for elected office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// North Dakota does have a felony bar, but narrower than Montana's: it only
+// applies "during the term of actual incarceration" (N.D.C.C. § 12.1-33-01),
+// not through parole/probation like Montana's "until final discharge from
+// state supervision." Still doesn't reach Congress, for the same federal-
+// preemption reason as Montana and Vermont.
+const NORTH_DAKOTA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — North Dakota bars a person from becoming a candidate for or holding public office only during the actual term of incarceration for a felony sentence, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://ndlegis.gov/cencode/t12-1c33.pdf",
+  snippet:
+    "12.1-33-01. Rights lost. 1. A person sentenced for a felony to a term of imprisonment, during the term of actual incarceration under such sentence, may not: a. Vote in an election; or b. Become a candidate for or hold public office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// South Dakota is a different shape again: unlike Montana/North Dakota, the
+// felony-conviction provisions actually findable here don't bar becoming a
+// CANDIDATE at all. Const. art. VII, § 2 disqualifies felons from VOTING
+// (restorable by law); SDCL 3-4-1 vacates an office someone already HOLDS
+// upon conviction of "any infamous crime" — that's removal from an
+// incumbency, not a pre-candidacy bar. No South Dakota provision was found
+// barring someone from becoming a candidate for office in the first place,
+// so "value" says exactly that rather than overstating it into the same
+// "bars candidates" framing used for Montana/North Dakota.
+const SOUTH_DAKOTA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — South Dakota disqualifies felons from voting (restorable by law) and can remove a sitting official convicted of certain crimes from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://sdlegislature.gov/Statutes/Constitution/7",
+  snippet:
+    "Art. VII, § 2. Voter qualification. Every United States citizen eighteen years of age or older who has met all residency and registration requirements shall be entitled to vote in all elections and upon all questions submitted to the voters of the state unless disqualified by law for mental incompetence or the conviction of a felony. SDCL 3-4-1: An office becomes vacant if one of the following events applies to a member of a governing body or elected officer before the expiration of the term of the office; the person: ... (6) Is convicted of any infamous crime or of any offense involving a violation of the official oath of the office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;
   if (stateCode === "WY" && (office === "H" || office === "S")) return WYOMING_FEDERAL;
   if (stateCode === "MT" && (office === "H" || office === "S")) return MONTANA_FEDERAL;
+  if (stateCode === "VT" && (office === "H" || office === "S")) return VERMONT_FEDERAL;
+  if (stateCode === "ND" && (office === "H" || office === "S")) return NORTH_DAKOTA_FEDERAL;
+  if (stateCode === "SD" && (office === "H" || office === "S")) return SOUTH_DAKOTA_FEDERAL;
   return null;
 }

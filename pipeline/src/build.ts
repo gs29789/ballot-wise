@@ -148,7 +148,7 @@ function searchName(fecName: string): string {
   return `${cap(first)} ${cap(last)}`;
 }
 
-interface BuildRaceOptions {
+export interface BuildRaceOptions {
   state: string;
   office: "H" | "S";
   cycle: number;
@@ -159,7 +159,11 @@ interface BuildRaceOptions {
   district?: string; // 2-digit House district, e.g. "00" for at-large — only used for House races
 }
 
-async function buildRace(opts: BuildRaceOptions) {
+// Exported so a single new race can be built directly (e.g. when adding one
+// new state) without re-running every already-published race through
+// main() below — those already have current R2 data and gain nothing from
+// a rebuild, just wasted API calls and wall-clock time.
+export async function buildRace(opts: BuildRaceOptions) {
   const previous = await fetchPreviousRace(opts.outFile);
   const previousCandidates: any[] = previous?.candidates ?? [];
 
@@ -464,9 +468,26 @@ async function main() {
   await buildRace({ state: "MT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/MT-1.json", district: "01" });
   await buildRace({ state: "MT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/MT-2.json", district: "02" });
   await buildRace({ state: "MT", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/MT.json" });
+  // No Senate call: Vermont's two seats (Welch, Sanders) aren't up until
+  // 2028 and 2030 respectively — nothing to build for this cycle.
+  await buildRace({ state: "VT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/VT-AL.json", district: "00" });
+  // No Senate call: North Dakota's two seats (Hoeven, Cramer) aren't up
+  // until 2028.
+  await buildRace({ state: "ND", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/ND-AL.json", district: "00" });
+  await buildRace({ state: "SD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/SD-AL.json", district: "00" });
+  await buildRace({ state: "SD", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/SD.json" });
 }
 
-main().catch((err) => {
-  console.error(err);
-  process.exit(1);
-});
+// Guarded so importing buildRace() elsewhere (e.g. a one-off script that
+// builds a single new race without re-running every already-published one)
+// doesn't ALSO trigger this full run as an import side effect — confirmed
+// this actually happened: a targeted single-state script that imported
+// buildRace from this file silently kicked off a full concurrent main() too,
+// racing its own calls and wasting real API calls against rate-limited
+// sources for no reason.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().catch((err) => {
+    console.error(err);
+    process.exit(1);
+  });
+}

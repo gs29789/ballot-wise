@@ -69,7 +69,78 @@ const MONTANA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// North Dakota's official results dashboard (resultsnd.sos.nd.gov) is a
+// JS-rendered live page, not a static document like Montana's PDF canvass —
+// confirmed certified by the State Canvassing Board 2026-06-25 (per
+// sos.nd.gov's own news release), snippet below is the certified per-
+// candidate totals as rendered on that page (358/358 precincts, 100%
+// reporting) rather than a byte-for-byte HTML excerpt.
+const NORTH_DAKOTA_RESULTS_URL = "https://resultsnd.sos.nd.gov/";
+
+const NORTH_DAKOTA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  // Julie Fedorchak (R, incumbent) and Trygve Hammer (D) each won their
+  // party's primary — Fedorchak contested (73%), Hammer unopposed (99.8%,
+  // remainder write-ins). Helene Neville sought the Democratic-NPL
+  // convention endorsement, didn't secure it (25 delegate votes), and per
+  // her own campaign site is now pursuing an INDEPENDENT petition candidacy
+  // instead (1,000 signatures, filing deadline 2026-08-31 per the ND SOS's
+  // "Running for U.S. Congress" candidate guide) — that deadline hasn't
+  // passed yet as of this build (2026-08-09), so her ballot status isn't
+  // certified and she's deliberately left out of advancingCandidateIds
+  // below. Revisit after 2026-08-31.
+  "house-AL": {
+    advancingCandidateIds: ["H4ND00061", "H6ND01049"],
+    source_url: NORTH_DAKOTA_RESULTS_URL,
+    snippet:
+      "Representative in Congress Republican — Precincts Fully: 358 / 358 — 82,075 Total Votes — Julie Fedorchak 72.76% (59,719 Votes), Alex Balazs 27.04% (22,196 Votes), Write Ins 0.19% (160 Votes). Representative in Congress Democratic-NPL — Precincts Fully: 358 / 358 — 34,673 Total Votes — Trygve Hammer 99.8% (34,604 Votes), Write Ins 0.2% (69 Votes).",
+  },
+};
+
+// South Dakota's 35%-runoff rule (applies to congressional and gubernatorial
+// primaries — a runoff would've been 2026-07-28) never came into play for
+// either federal race: both Republican primaries were won outright (79.2%
+// House, 75.8% Senate), well clear of the threshold. It DID trigger for the
+// separate governor's race (Rhoden/Doeden runoff) — out of scope for this
+// pipeline, but easy to confuse with the House race since Dusty Johnson (SD's
+// sitting at-large Representative) ran for governor instead of re-election,
+// which is what actually opened up the House seat. Confirmed via AP/NBC
+// (sdsos.gov's own live results dashboard wasn't fetchable as a static page).
+const SOUTH_DAKOTA_RESULTS_HOUSE_URL = "https://www.nbcnews.com/politics/2026-primary-elections/south-dakota-house-results";
+const SOUTH_DAKOTA_RESULTS_SENATE_URL = "https://www.nbcnews.com/politics/2026-primary-elections/south-dakota-senate-results";
+const SOUTH_DAKOTA_BENGS_CERTIFICATION_URL = "https://www.dakotanewsnow.com/2026/04/28/brian-bengs-appear-ballot-us-senate-november-3-general-election/";
+
+const SOUTH_DAKOTA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  // Marty Jackley (R) won outright; Nicole Gronli (D) was uncontested. Jack
+  // Pittman (FEC ID H6SD01166) filed as an independent and Ballotpedia lists
+  // him as a general-election candidate, but — unlike Bengs below, whose
+  // certification is a matter of public record — no South Dakota SOS
+  // confirmation that his petition actually cleared the signature threshold
+  // was found. Left out of advancingCandidateIds until that's confirmed;
+  // revisit before this race is considered final.
+  "house-AL": {
+    advancingCandidateIds: ["H6SD01109", "H6SD01141"],
+    source_url: SOUTH_DAKOTA_RESULTS_HOUSE_URL,
+    snippet:
+      "Republican South Dakota House District Results — District 1, 99% in — M. Jackley 79.2% (103,291 Votes), J. Bialota 20.8% (27,140 Votes). Democratic South Dakota House District Results — District 1 — N. Gronli — this race is uncontested.",
+  },
+  // Mike Rounds (R, incumbent) won outright; Julian Beaudion (D) was
+  // uncontested. Brian Bengs separately cleared South Dakota's independent
+  // petition-signature threshold (3,502 required; SOS confirmed 4,311
+  // accepted signatures, 2026-04-28) — same "certified separately from the
+  // primary" pattern as Montana's independents.
+  senate: {
+    advancingCandidateIds: ["S4SD00049", "S6SD01125", "S6SD01117"],
+    source_url: SOUTH_DAKOTA_RESULTS_SENATE_URL,
+    snippet:
+      "Republicans — MIKE ROUNDS WINS THE SOUTH DAKOTA PRIMARY — Mike Rounds (Incumbent) 75.8% (101,472 Votes), Justin McNeal 24.2% (32,412 Votes). Democrats — JULIAN BEAUDION WINS THE SOUTH DAKOTA PRIMARY — this race is uncontested. Independent Brian Bengs doesn't run in a primary — separately certified per " +
+      SOUTH_DAKOTA_BENGS_CERTIFICATION_URL +
+      ': "South Dakota Secretary of State Monae L. Johnson announced that Brian Bengs qualified for the Nov. 3, 2026 U.S. Senate ballot as an independent after signatures were validated."',
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }
