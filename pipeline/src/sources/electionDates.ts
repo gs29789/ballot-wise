@@ -76,6 +76,16 @@ const SOUTH_DAKOTA_2026: ElectionDates = {
     "(7) \"General election,\" the vote required to be taken in each voting precinct of the state on the first Tuesday after the first Monday in November of each even-numbered year;",
 };
 
+const NEW_YORK_2026: ElectionDates = {
+  primaryDate: "2026-06-23",
+  primarySourceUrl: "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+  primarySnippet:
+    "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+  generalSnippet: "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -83,5 +93,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "VT" && cycle === 2026) return VERMONT_2026;
   if (stateCode === "ND" && cycle === 2026) return NORTH_DAKOTA_2026;
   if (stateCode === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026;
+  if (stateCode === "NY" && cycle === 2026) return NEW_YORK_2026;
   return null;
 }

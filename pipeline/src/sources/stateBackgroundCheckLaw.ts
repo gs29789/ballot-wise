@@ -122,6 +122,21 @@ const SOUTH_DAKOTA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// New York is the same shape as South Dakota: N.Y. Public Officers Law § 30
+// vacates an office someone already HOLDS upon felony conviction — it is not
+// a bar on becoming a candidate for office in the first place. No New York
+// provision was found barring candidacy itself.
+const NEW_YORK_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://www.nysenate.gov/legislation/laws/PBO/30",
+  snippet:
+    "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -131,5 +146,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "VT" && (office === "H" || office === "S")) return VERMONT_FEDERAL;
   if (stateCode === "ND" && (office === "H" || office === "S")) return NORTH_DAKOTA_FEDERAL;
   if (stateCode === "SD" && (office === "H" || office === "S")) return SOUTH_DAKOTA_FEDERAL;
+  if (stateCode === "NY" && (office === "H" || office === "S")) return NEW_YORK_FEDERAL;
   return null;
 }

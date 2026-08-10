@@ -138,9 +138,160 @@ const SOUTH_DAKOTA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// New York's 26 districts, each cross-checked individually against FEC:
+// district+party+cycle=2026, then name. Seven districts (05, 06, 07, 08, 13,
+// 15, 26) show a Republican primary "winner" per NBC/AP in a seat with no
+// real contest — safe Democratic seats where the Republican line drew only
+// token or no real campaign — but that same person has no 2026 candidate
+// registration findable in FEC's system under any name/spelling in that
+// district. Same as Montana's unopposed Libertarian with no FEC registration
+// findable: they were never going to be in this pipeline's candidate list
+// to begin with, independent of this filter, so advancingCandidateIds just
+// omits them rather than forcing a guess. One near-miss caught in review:
+// an early matching pass grabbed a same-surname candidate from a DIFFERENT
+// district (Brandon Williams, NY-22, not running in 2026) for NY-13's
+// "J. Williams" — district+cycle must both match before a name match counts,
+// not name alone.
+const NEW_YORK_RESULTS_URL = (district: number) =>
+  `https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-${district}-results`;
+
+const NEW_YORK_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2NY01190", "H6NY01159"],
+    source_url: NEW_YORK_RESULTS_URL(1),
+    snippet: "R: N. LaLota (incumbent) — uncontested. D: C. Gallant 62.9% over L. Ventouras 36.9%.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H0NY02234", "H6NY02140"],
+    source_url: NEW_YORK_RESULTS_URL(2),
+    snippet: "R: A. Garbarino (incumbent) — uncontested. D: P. Halpin — uncontested.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0NY02267", "H6NY03247"],
+    source_url: NEW_YORK_RESULTS_URL(3),
+    snippet: "R: M. LiPetri 81.9% over G. Hach 17.2%. D: T. Suozzi 79.6% over D. Welch 20.1%.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6NY04211", "H2NY04244"],
+    source_url: NEW_YORK_RESULTS_URL(4),
+    snippet: "R: J. Driscoll 90.8% over M. Williams 8.9%. D: L. Gillen — uncontested.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8NY06048"],
+    source_url: NEW_YORK_RESULTS_URL(5),
+    snippet: "R: G. Marsh — uncontested (no FEC 2026 registration found; see code comment). D: G. Meeks (incumbent) — uncontested.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H2NY06116"],
+    source_url: NEW_YORK_RESULTS_URL(6),
+    snippet: "R: J. Chou — uncontested (no FEC 2026 registration found; see code comment). D: G. Meng (incumbent) 56.8% over C. Park 42.9%.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6NY07214"],
+    source_url: NEW_YORK_RESULTS_URL(7),
+    snippet: "R: M. Rivera — uncontested (no FEC 2026 registration found; see code comment). D: C. Valdez 56.1% over A. Reynoso 35.8%, J. Won 6.3%.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H2NY10092"],
+    source_url: NEW_YORK_RESULTS_URL(8),
+    snippet: "R: L. Mizrahi — uncontested (no FEC 2026 registration found; see code comment). D: H. Jeffries (incumbent) — uncontested.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6NY09145", "H4NY11138"],
+    source_url: NEW_YORK_RESULTS_URL(9),
+    snippet: "R: J. Azumah — uncontested. D: Y. Clarke (incumbent) 68.6% over M. Goldfarb 15.4%, J. Bristol 14.7%.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H6NY10218", "H6NY10176"],
+    source_url: NEW_YORK_RESULTS_URL(10),
+    snippet: "R: J. Moore — uncontested. D: B. Lander 65.8% over D. Goldman 34.0%.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H0NY11078", "H6NY11265"],
+    source_url: NEW_YORK_RESULTS_URL(11),
+    snippet: "R: N. Malliotakis (incumbent) — uncontested. D: M. DeCillis 61.0% over A. Ziogas 36.9%.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H6NY12404", "H6NY12172"],
+    source_url: NEW_YORK_RESULTS_URL(12),
+    snippet: "R: C. Shinkle — uncontested. D: M. Lasher 39.1% over A. Bores 35.0%, J. Schlossberg 10.8% (open seat).",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H6NY13279"],
+    source_url: NEW_YORK_RESULTS_URL(13),
+    snippet: "R: J. Williams — uncontested (no FEC 2026 registration found; see code comment). D: D. Avila Chevalier 49.4% over incumbent A. Espaillat 45.9%, O. Romero Jr. 3.5%.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H6NY14251", "H8NY15148"],
+    source_url: NEW_YORK_RESULTS_URL(14),
+    snippet: "R: D. Hysenaj — uncontested. D: A. Ocasio-Cortez (incumbent) 86.9% over F. Garcia 6.7%, M. Dolan 5.9%.",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H0NY15160"],
+    source_url: NEW_YORK_RESULTS_URL(15),
+    snippet: "R: S. Sapaskis — uncontested (no FEC 2026 registration found; see code comment). D: R. Torres (incumbent) 71.9% over M. Blake 21.8%, J. Vega 5.6%.",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H4NY07052", "H4NY16087"],
+    source_url: NEW_YORK_RESULTS_URL(16),
+    snippet: "R: J. Cinquemani — uncontested. D: G. Latimer (incumbent) — uncontested.",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H2NY17162", "H6NY17171"],
+    source_url: NEW_YORK_RESULTS_URL(17),
+    snippet: "R: M. Lawler (incumbent) — uncontested. D: C. Conley 49.5% over B. Davidson 31.8%, E. Phillips-Staley 15.3%.",
+  },
+  "house-18": {
+    advancingCandidateIds: ["H6NY18252", "H8NY19223"],
+    source_url: NEW_YORK_RESULTS_URL(18),
+    snippet: "R: J. Auringer — uncontested. D: P. Ryan (incumbent) — uncontested.",
+  },
+  "house-19": {
+    advancingCandidateIds: ["H6NY19268", "H8NY22177"],
+    source_url: NEW_YORK_RESULTS_URL(19),
+    snippet: "R: P. Oberacker 77.4% over A. Portelli 22.1%. D: J. Riley (incumbent) — uncontested.",
+  },
+  "house-20": {
+    advancingCandidateIds: ["H6NY20225", "H8NY21203"],
+    source_url: NEW_YORK_RESULTS_URL(20),
+    snippet: "R: R. Ambrosio — uncontested. D: P. Tonko (incumbent) — uncontested.",
+  },
+  "house-21": {
+    advancingCandidateIds: ["H6NY21157", "H6NY21199"],
+    source_url: NEW_YORK_RESULTS_URL(21),
+    snippet: "R: A. Constantino 59.2% over R. Smullen 40.2%. D: B. Gendebien 64.6% over S. Amoriell 34.9% (open seat).",
+  },
+  "house-22": {
+    advancingCandidateIds: ["H6NY22213", "H4NY22085"],
+    source_url: NEW_YORK_RESULTS_URL(22),
+    snippet: "R: K. Buller — uncontested. D: J. Mannion (incumbent) — uncontested.",
+  },
+  "house-23": {
+    advancingCandidateIds: ["H2NY23228", "H6NY23559"],
+    source_url: NEW_YORK_RESULTS_URL(23),
+    snippet: "R: N. Langworthy (incumbent) — uncontested. D: A. Gies 71.5% over K. Stocker 28.3%.",
+  },
+  "house-24": {
+    advancingCandidateIds: ["H4NY22051", "H6NY24219"],
+    source_url: NEW_YORK_RESULTS_URL(24),
+    snippet: "R: C. Tenney (incumbent) — uncontested. D: A. Ellman 61.7% over D. Kastenbaum 38.1%.",
+  },
+  "house-25": {
+    advancingCandidateIds: ["H6NY25208", "H8NY25105"],
+    source_url: NEW_YORK_RESULTS_URL(25),
+    snippet: "R: V. McIntyre — uncontested. D: J. Morelle (incumbent) 63.3% over R. Wilt 30.3%, S. Traywick 6.0%.",
+  },
+  "house-26": {
+    advancingCandidateIds: ["H4NY26078"],
+    source_url: NEW_YORK_RESULTS_URL(26),
+    snippet: "R: D. Hannon — uncontested (no FEC 2026 registration found; see code comment). D: T. Kennedy (incumbent) — uncontested.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

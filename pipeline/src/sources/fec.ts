@@ -45,6 +45,21 @@ function apiKey(): string {
 // running in (confirmed: FEC's own district filter cleanly separates
 // Montana's MT-01 from MT-02 candidates). Omit for at-large House races and
 // Senate races, where the whole state is the one district.
+// Every downstream consumer (slugify(), the frontend's toTitleCase()) trusts
+// FEC's own "LAST, FIRST MIDDLE" convention to flip a name into a readable
+// one — reasonable, since FEC's filing form itself labels the fields that
+// way. Confirmed one real exception: NY-1 incumbent Nick LaLota's FEC record
+// (H2NY01190) has his name entered as "NICK, LALOTA" — reversed relative to
+// every other candidate's record — which flips backwards into "Lalota Nick"
+// everywhere a normal record would come out right. This is FEC's own filing
+// data, not something to silently paper over with a general heuristic (there's
+// no way to detect "this one's backwards" from the string alone without
+// external knowledge of the person), so it's corrected by candidate ID here,
+// same as any other quote-anchored, hand-verified fact in this pipeline.
+const REVERSED_FEC_NAMES: Record<string, string> = {
+  H2NY01190: "LALOTA, NICK",
+};
+
 export async function searchCandidates(state: string, office: "H" | "S", cycle: number, district?: string): Promise<FecCandidate[]> {
   const districtParam = district ? `&district=${district}` : "";
   const url = `${FEC_BASE}/candidates/search/?state=${state}&cycle=${cycle}&office=${office}${districtParam}&per_page=100&api_key=${apiKey()}`;
@@ -55,7 +70,7 @@ export async function searchCandidates(state: string, office: "H" | "S", cycle: 
     .filter((c) => ["C", "P", "N"].includes(c.candidate_status) && (c.election_years ?? []).includes(cycle))
     .map((c) => ({
       candidateId: c.candidate_id,
-      name: c.name,
+      name: REVERSED_FEC_NAMES[c.candidate_id] ?? c.name,
       party: c.party_full,
       office: c.office,
       incumbentChallenge: c.incumbent_challenge_full,
