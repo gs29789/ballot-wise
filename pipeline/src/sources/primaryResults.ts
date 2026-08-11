@@ -488,6 +488,100 @@ const PENNSYLVANIA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Michigan's primary (August 4, 2026) was already certified before this
+// pipeline covered the state, so narrowing is needed immediately, same as
+// MT/ND/SD/NY/GA/PA. Three open seats, all with ordinary explanations —
+// no death/resignation vacancy, no parallel special election like Georgia's:
+// MI-10 (incumbent John James running for Governor instead), MI-11
+// (incumbent Haley Stevens ran for U.S. Senate instead, lost that primary),
+// MI-13 (incumbent Shri Thanedar lost his OWN primary to Donavan McKinney —
+// worth remembering FEC's candidate list still carries primary losers
+// indefinitely, same as Montana's Zinke; don't let a defeated incumbent's
+// FEC registration get pulled in just because candidate_status is still
+// active). District 11 also has a real same-surname trap: FEC has both
+// "BAKER, ETHAN D" (R, the actual Ballotpedia general-election candidate)
+// and "BAKER, STU" (D, a primary candidate who lost — incumbent_challenge
+// "Open seat" but a different person) — only Ethan's ID is included here.
+// District 13's "Shelby Campbell" is deliberately EXCLUDED despite two FEC
+// records matching her name: both are Democratic Party, but Ballotpedia
+// lists her as Independent for the general election — a real mismatch, not
+// just a formatting quirk, so this isn't confidently the same person and
+// forcing either ID in would risk misattributing someone else's filing.
+const MICHIGAN_RESULTS_URL = (district: string) => `https://ballotpedia.org/Michigan's_${district}_Congressional_District_election,_2026`;
+
+const MICHIGAN_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6MI01226", "H4MI01155", "H6MI01283", "H6MI01275"],
+    source_url: MICHIGAN_RESULTS_URL("1st"),
+    snippet: "Jack Bergman (R), Callie Barr (D), LaVeta Davenport (G), Arnett Satterla (L), Doc Kovaly (U.S. Taxpayers Party), Liz Hakola (Working Class Party), and Zebulon Featherly (Independent) are running in the general election for U.S. House Michigan District 1 on November 3, 2026. Davenport, Kovaly, and Hakola have no FEC 2026 registration found; see code comment.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4MI04126", "H6MI02216"],
+    source_url: MICHIGAN_RESULTS_URL("2nd"),
+    snippet: "Incumbent John Moolenaar, Ben Ambrose, and Charlotte Magoon are running in the general election for U.S. House Michigan District 2 on November 3, 2026. Magoon has no FEC 2026 registration found; see code comment.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0MI03316", "H6MI03198"],
+    source_url: MICHIGAN_RESULTS_URL("3rd"),
+    snippet: "Incumbent Hillary Scholten, Terri DeBoer, and Joe Jock are running in the general election for U.S. House Michigan District 3 on November 3, 2026. Jock has no FEC 2026 registration found; see code comment.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H0MI02094", "H6MI04204"],
+    source_url: MICHIGAN_RESULTS_URL("4th"),
+    snippet: "Incumbent Bill Huizenga, Sean McCann, and Shafina Barnett are running in the general election for U.S. House Michigan District 4 on November 3, 2026. Barnett has no FEC 2026 registration found; see code comment.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H4MI07103", "H6MI05227", "H6MI05235"],
+    source_url: MICHIGAN_RESULTS_URL("5th"),
+    snippet: "Incumbent Tim Walberg, Christian Vukasovich, James Bronke, Ronald Muszynski, and Sharon Renier are running in the general election for U.S. House Michigan District 5 on November 3, 2026. Bronke and Renier have no FEC 2026 registration found; see code comment.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4MI12079", "H4MI06154"],
+    source_url: MICHIGAN_RESULTS_URL("6th"),
+    snippet: "Debbie Dingell, Heather Smiley, Clyde Shabazz, Tim Teagan, Michael Mickevicius, and Linda Rayburn are running in the general election for U.S. House Michigan District 6 on November 3, 2026 (incumbent Dingell). Shabazz, Teagan, Mickevicius, and Rayburn have no FEC 2026 registration found; see code comment.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H2MI07123", "H6MI07298"],
+    source_url: MICHIGAN_RESULTS_URL("7th"),
+    snippet: "Incumbent Tom Barrett, William Lawrence, Shane Dedrick, and Felix Thibodeau are running in the general election for U.S. House Michigan District 7 on November 3, 2026. Dedrick and Thibodeau have no FEC 2026 registration found; see code comment.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4MI08218", "H6MI08312"],
+    source_url: MICHIGAN_RESULTS_URL("8th"),
+    snippet: "Incumbent Kristen McDonald Rivet, Thomas J. Smith, Jim Casha, C. Mia Pettus, and Kathy Goodwin are running in the general election for U.S. House Michigan District 8 on November 3, 2026. Casha, Pettus, and Goodwin have no FEC 2026 registration found; see code comment.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H0MI10287", "H6MI09245", "H6MI09211", "H6MI09252"],
+    source_url: MICHIGAN_RESULTS_URL("9th"),
+    snippet: "Lisa McClain, Ray Pooley, Destiny Clayton, Kevin Vayko, John Vlahos, Jim Walkowicz, Jasen Cartwright, and Fernando Valdez are running in the general election for U.S. House Michigan District 9 on November 3, 2026 (incumbent McClain). Clayton, Vayko, Vlahos, and Walkowicz have no FEC 2026 registration found; see code comment.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H6MI10276", "H6MI10359"],
+    source_url: MICHIGAN_RESULTS_URL("10th"),
+    snippet: "Christina Hines, Michael Bouchard, Kwabena Nkromo, Mike Saliba, and Andrea Kirby are running in the general election for U.S. House Michigan District 10 on November 3, 2026. Open seat: incumbent John James is running for Governor of Michigan instead. Nkromo, Saliba, and Kirby have no FEC 2026 registration found; see code comment.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6MI11191", "H6MI11290", "H4MI10131"],
+    source_url: MICHIGAN_RESULTS_URL("11th"),
+    snippet: "Jeremy Moss, Ethan Baker, Ryan Teasdale, and Anil Kumar are running in the general election for U.S. House Michigan District 11 on November 3, 2026. Open seat: incumbent Haley Stevens ran for U.S. Senate instead (lost the Democratic primary to Abdul El-Sayed). Teasdale has no FEC 2026 registration found; see code comment.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H8MI13250", "H2MI12198"],
+    source_url: MICHIGAN_RESULTS_URL("12th"),
+    snippet: "Incumbent Rashida Tlaib, James Hooper, Brenda Sanders, Marc Joseph Sosnowski, and Gary Walkowicz are running in the general election for U.S. House Michigan District 12 on November 3, 2026. Sanders, Sosnowski, and Walkowicz have no FEC 2026 registration found; see code comment.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H6MI13254", "H6MI13312", "H2MI13337", "H4MI14166"],
+    source_url: MICHIGAN_RESULTS_URL("13th"),
+    snippet: "Donavan McKinney, Taras Nykoriak, Christopher Dardzinski, Simone Coleman, Shelby Campbell, and Maurice Morton are running in the general election for U.S. House Michigan District 13 on November 3, 2026. Open seat: incumbent Shri Thanedar lost the Democratic primary to McKinney by about 4 points. Coleman has no FEC 2026 registration found; Campbell's only FEC matches (Democratic Party, not Independent as Ballotpedia lists her) don't confidently identify the same person, so she's excluded rather than force an uncertain match; see code comment.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6MI00418", "S4MI00595"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Michigan,_2026",
+    snippet: "Abdul El-Sayed (D) won the Democratic primary for U.S. Senate Michigan on August 4, 2026 over Rep. Haley Stevens, and faces Mike Rogers (R, unopposed for the Republican nomination) in the general election on November 3, 2026 for the open seat — incumbent Gary Peters (D) announced in January 2025 that he would not seek re-election.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -495,5 +589,6 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
   if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

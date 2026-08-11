@@ -170,6 +170,28 @@ const PENNSYLVANIA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Michigan is a narrower shape than every other state here: its felony bar
+// (Mich. Const. art. XI, § 8) explicitly limits itself to "state or local
+// elective office" by its own text — U.S. House and Senate are outside its
+// scope on the statute's own terms, not just via the federal-preemption
+// argument used for the broader state bars (Montana/Georgia/Pennsylvania).
+// It's also narrower on every other axis: only felonies involving
+// dishonesty/deceit/fraud/breach of public trust (not any felony), only
+// within a 20-year lookback, and only when the conviction is tied to the
+// person's official capacity while already holding office/employment —
+// closer in spirit to Wyoming's enumerated, self-limiting statute than to
+// Montana/Georgia's broad "any felony"/"any civil office" bars.
+const MICHIGAN_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
+  snippet:
+    "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -182,5 +204,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "NY" && (office === "H" || office === "S")) return NEW_YORK_FEDERAL;
   if (stateCode === "GA" && (office === "H" || office === "S")) return GEORGIA_FEDERAL;
   if (stateCode === "PA" && (office === "H" || office === "S")) return PENNSYLVANIA_FEDERAL;
+  if (stateCode === "MI" && (office === "H" || office === "S")) return MICHIGAN_FEDERAL;
   return null;
 }

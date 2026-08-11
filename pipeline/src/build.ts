@@ -551,6 +551,27 @@ async function main() {
   await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-15", outFile: "house/PA-15.json", district: "15" });
   await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/PA-16.json", district: "16" });
   await buildRace({ state: "PA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/PA-17.json", district: "17" });
+  // Michigan — 13 House districts + Senate (Peters open-seat retirement).
+  // No 2026 redistricting (2022 independent-commission "Chestnut" map
+  // stable), geocoder confirmed current against a real Detroit address.
+  // Three open House seats (MI-10, MI-11, MI-13), all ordinary — no death/
+  // resignation vacancy or parallel special election like Georgia's; see
+  // primaryResults.ts for details including the Baker same-surname trap
+  // and the Campbell party-mismatch exclusion in MI-13.
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/MI-1.json", district: "01" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/MI-2.json", district: "02" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/MI-3.json", district: "03" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/MI-4.json", district: "04" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/MI-5.json", district: "05" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/MI-6.json", district: "06" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/MI-7.json", district: "07" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/MI-8.json", district: "08" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/MI-9.json", district: "09" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/MI-10.json", district: "10" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/MI-11.json", district: "11" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/MI-12.json", district: "12" });
+  await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/MI-13.json", district: "13" });
+  await buildRace({ state: "MI", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/MI.json" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

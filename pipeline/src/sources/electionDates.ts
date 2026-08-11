@@ -118,6 +118,21 @@ const PENNSYLVANIA_2026: ElectionDates = {
     "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year.",
 };
 
+// Michigan's primary date formula (MCL 168.52) is tied specifically to
+// gubernatorial-election years — 2026 is one (Whitmer is term-limited) — and
+// lives in a different statute than the general date (MCL 168.641, which
+// defines all three of Michigan's regular election dates: May/August/
+// November). Same two-citation pattern as every other state here.
+const MICHIGAN_2026: ElectionDates = {
+  primaryDate: "2026-08-04",
+  primarySourceUrl: "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
+  primarySnippet:
+    "MCL 168.52: A general primary election of all political parties shall be held in every election precinct in this state on the Tuesday succeeding the first Monday in August preceding every general November election in which a governor is to be elected, at which time the qualified and registered electors of each political party shall vote for party candidates for the office of governor.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-641.html",
+  generalSnippet: "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -128,5 +143,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "NY" && cycle === 2026) return NEW_YORK_2026;
   if (stateCode === "GA" && cycle === 2026) return GEORGIA_2026;
   if (stateCode === "PA" && cycle === 2026) return PENNSYLVANIA_2026;
+  if (stateCode === "MI" && cycle === 2026) return MICHIGAN_2026;
   return null;
 }
