@@ -133,6 +133,27 @@ const MICHIGAN_2026: ElectionDates = {
   generalSnippet: "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November.",
 };
 
+// Arizona moved its own primary date TWICE in recent cycles (2024 and again
+// for 2026) via legislation responding to federal military/overseas-voter
+// deadline changes — House Bill 2022, signed by Gov. Hobbs Feb. 6, 2026,
+// moved the primary from the first Tuesday in August to the second-to-last
+// Tuesday in July (July 21, 2026 this cycle). The bill's own text is an
+// amendatory redline (old text struck, new text inserted) that reads as
+// garbled prose if quoted directly ("first SECOND TO LAST Tuesday in August
+// JULY") — used a clean news report of the same fact instead, since a
+// citation needs to be verbatim AND readable, not just technically sourced.
+// The general-election date formula was untouched by that bill, so it's
+// cited to the standing, unamended statute as usual.
+const ARIZONA_2026: ElectionDates = {
+  primaryDate: "2026-07-21",
+  primarySourceUrl: "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+  primarySnippet:
+    "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+  generalSnippet: "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date...",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -144,5 +165,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "GA" && cycle === 2026) return GEORGIA_2026;
   if (stateCode === "PA" && cycle === 2026) return PENNSYLVANIA_2026;
   if (stateCode === "MI" && cycle === 2026) return MICHIGAN_2026;
+  if (stateCode === "AZ" && cycle === 2026) return ARIZONA_2026;
   return null;
 }

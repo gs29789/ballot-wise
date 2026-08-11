@@ -582,6 +582,69 @@ const MICHIGAN_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Arizona's primary (moved up to July 21, 2026 by HB 2022 — see
+// electionDates.ts) was already certified before this pipeline covered the
+// state. No Senate race this cycle. AZ-07's incumbent Adelita Grijalva is
+// NOT a vacancy trap despite the shape looking similar to Georgia's: her
+// father, longtime AZ-07 Rep. Raúl Grijalva (D), died in office in March
+// 2025, and a special election to fill the seat was held and fully resolved
+// September 23, 2025 — well before this state was added. She is simply the
+// regular incumbent now; there is no PARALLEL 2026 special election to
+// confuse with the regular-cycle race (contrast Georgia's GA-13, where the
+// special election was still unresolved at build time). FEC still carries a
+// stale record for her late father (H2AZ07070, 2026 in election_years) —
+// not used. AZ-01 and AZ-05 are both open because their Republican
+// incumbents (Schweikert and Biggs) ran for Governor instead of re-election.
+const ARIZONA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Arizona's_${district}_Congressional_District_election,_2026`;
+
+const ARIZONA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H4AZ01194", "H6AZ05190", "H6AZ01488"],
+    source_url: ARIZONA_RESULTS_URL("1st"),
+    snippet: "Amish Shah (D), Jay Feely (R), and Monica Alponte (L) are running in the general election for Arizona's 1st Congressional District on November 3, 2026. Open seat: incumbent David Schweikert (R) ran for Governor of Arizona instead of re-election.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2AZ01354", "H4AZ02184"],
+    source_url: ARIZONA_RESULTS_URL("2nd"),
+    snippet: "Incumbent Eli Crane, Jonathan Nez, and Curtis Goodwin are running in the general election for U.S. House Arizona District 2 on November 3, 2026. Goodwin (L) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4AZ03109", "H6AZ01322"],
+    source_url: ARIZONA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Yassamin Ansari, David Redkey, Alan Aversa, and Jacob Parkman are running in the general election for U.S. House Arizona District 3 on November 3, 2026. Aversa's only FEC match has a mismatched party code (American Independent Party, not the No Labels Party Ballotpedia lists him under) so it's excluded rather than force-matched; Parkman (R write-in) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8AZ09040", "H4AZ04115"],
+    source_url: ARIZONA_RESULTS_URL("4th"),
+    snippet: "Incumbent Greg Stanton, Zuhdi Jasser, and Tisha Benoit are running in the general election for U.S. House Arizona District 4 on November 3, 2026. Benoit (No Labels Party) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6AZ05240", "H6AZ05265"],
+    source_url: ARIZONA_RESULTS_URL("5th"),
+    snippet: "Elizabeth Lee and Mark Lamb are running in the general election for U.S. House Arizona District 5 on November 3, 2026. Open seat: incumbent Andy Biggs (R) won the Republican gubernatorial nomination July 21, 2026 rather than seeking re-election.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H2AZ02360", "H6AZ06099", "H6AZ06164", "H6AZ06214"],
+    source_url: ARIZONA_RESULTS_URL("6th"),
+    snippet: "Incumbent Juan Ciscomani, JoAnna Mendoza, Gary Swing, and Jereme Peters are running in the general election for U.S. House Arizona District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6AZ07121", "H4AZ07134"],
+    source_url: ARIZONA_RESULTS_URL("7th"),
+    snippet: "Incumbent Adelita Grijalva and Daniel Butierez Sr. are running in the general election for U.S. House Arizona District 7 on November 3, 2026. Grijalva won a September 23, 2025 special election to succeed her late father, longtime Rep. Raúl Grijalva (D), who died in office in March 2025 — she is the regular incumbent for the 2026 cycle, not a parallel special-election candidate; see code comment.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4AZ08108", "H4AZ08082"],
+    source_url: ARIZONA_RESULTS_URL("8th"),
+    snippet: "Incumbent Abraham Hamadeh and Bernadette Greene Placentia are running in the general election for U.S. House Arizona District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H0AZ01259", "H6AZ09085"],
+    source_url: ARIZONA_RESULTS_URL("9th"),
+    snippet: "Incumbent Paul Gosar and Danielle Sterbinsky are running in the general election for U.S. House Arizona District 9 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -590,5 +653,6 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "AZ" && cycle === 2026) return ARIZONA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

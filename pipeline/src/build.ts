@@ -572,6 +572,22 @@ async function main() {
   await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/MI-12.json", district: "12" });
   await buildRace({ state: "MI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/MI-13.json", district: "13" });
   await buildRace({ state: "MI", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/MI.json" });
+  // Arizona — 9 House districts, no Senate race this cycle. Primary already
+  // certified July 21, 2026 (moved up by HB 2022). No 2026 redistricting.
+  // AZ-07's Adelita Grijalva is the regular incumbent, not a special-
+  // election trap — her late father's seat's special election already
+  // resolved Sept 2025, well before this state was added; see
+  // primaryResults.ts for the full explanation and the AZ-03 party-mismatch
+  // exclusion (Alan Aversa).
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/AZ-1.json", district: "01" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/AZ-2.json", district: "02" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/AZ-3.json", district: "03" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/AZ-4.json", district: "04" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/AZ-5.json", district: "05" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/AZ-6.json", district: "06" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/AZ-7.json", district: "07" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/AZ-8.json", district: "08" });
+  await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/AZ-9.json", district: "09" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

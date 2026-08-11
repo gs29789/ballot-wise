@@ -192,6 +192,25 @@ const MICHIGAN_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Arizona's felony bar (A.R.S. § 13-904(A)) is a general civil-rights
+// suspension (voting, jury service, firearms, and "the right to hold public
+// office of trust or profit" all suspended together on conviction) rather
+// than an office-eligibility statute aimed specifically at candidates —
+// closer in shape to Montana/Georgia's broad bars than to South Dakota/New
+// York's narrower "vacates an office already held" framing, but reached via
+// a still-broader "suspends civil rights generally" mechanism neither of
+// those uses.
+const ARIZONA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+  snippet:
+    "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -205,5 +224,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "GA" && (office === "H" || office === "S")) return GEORGIA_FEDERAL;
   if (stateCode === "PA" && (office === "H" || office === "S")) return PENNSYLVANIA_FEDERAL;
   if (stateCode === "MI" && (office === "H" || office === "S")) return MICHIGAN_FEDERAL;
+  if (stateCode === "AZ" && (office === "H" || office === "S")) return ARIZONA_FEDERAL;
   return null;
 }
