@@ -58,6 +58,7 @@ function apiKey(): string {
 // same as any other quote-anchored, hand-verified fact in this pipeline.
 const REVERSED_FEC_NAMES: Record<string, string> = {
   H2NY01190: "LALOTA, NICK",
+  H6KY06234: "BOWMAN, JAY J",
 };
 
 export async function searchCandidates(state: string, office: "H" | "S", cycle: number, district?: string): Promise<FecCandidate[]> {

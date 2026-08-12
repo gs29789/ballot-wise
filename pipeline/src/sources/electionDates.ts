@@ -154,6 +154,16 @@ const ARIZONA_2026: ElectionDates = {
   generalSnippet: "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date...",
 };
 
+const KENTUCKY_2026: ElectionDates = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+  primarySnippet:
+    "KRS 118.025: A primary for the nomination of candidates to be voted for at the next regular election shall be held on the first Tuesday after the third Monday in May of each year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+  generalSnippet: "KRS 118.025: The election of all officers of all governmental units shall be held on the first Tuesday after the first Monday in November.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -166,5 +176,6 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "PA" && cycle === 2026) return PENNSYLVANIA_2026;
   if (stateCode === "MI" && cycle === 2026) return MICHIGAN_2026;
   if (stateCode === "AZ" && cycle === 2026) return ARIZONA_2026;
+  if (stateCode === "KY" && cycle === 2026) return KENTUCKY_2026;
   return null;
 }

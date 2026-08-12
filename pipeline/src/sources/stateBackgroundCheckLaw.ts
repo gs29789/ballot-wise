@@ -211,6 +211,21 @@ const ARIZONA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Kentucky is shaped like Montana/Georgia: a broad "excluded from office"
+// bar with no explicit state/local-only carve-out in its own text, relieved
+// only by gubernatorial pardon. Reaches the same "doesn't apply to Congress"
+// conclusion via federal preemption, same as Montana/Georgia/Pennsylvania.
+const KENTUCKY_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Kentucky's constitution excludes convicted felons from office generally (relievable only by a gubernatorial pardon), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://codes.findlaw.com/ky/kentucky-constitution/ky-const-sect-150.html",
+  snippet:
+    "Ky. Const. § 150: \"All persons shall be excluded from office who have been, or shall hereafter be, convicted of a felony, or of such high misdemeanor as may be prescribed by law, but such disability may be removed by pardon of the Governor.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -225,5 +240,6 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "PA" && (office === "H" || office === "S")) return PENNSYLVANIA_FEDERAL;
   if (stateCode === "MI" && (office === "H" || office === "S")) return MICHIGAN_FEDERAL;
   if (stateCode === "AZ" && (office === "H" || office === "S")) return ARIZONA_FEDERAL;
+  if (stateCode === "KY" && (office === "H" || office === "S")) return KENTUCKY_FEDERAL;
   return null;
 }

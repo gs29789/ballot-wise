@@ -645,6 +645,54 @@ const ARIZONA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Kentucky's primary (May 19, 2026) was already certified before this
+// pipeline covered the state. Two open seats, both ordinary primary-loss/
+// ran-for-other-office patterns, no vacancy: KY-4 (incumbent Thomas Massie
+// lost his own primary to Ed Gallrein) and KY-6 (incumbent Andy Barr ran for
+// the open Senate seat instead — McConnell retiring — and won that primary).
+// KY-6's Jay Bowman is a confirmed second case of FEC's reversed-name quirk
+// (first seen on NY-1's LaLota) — his record reads "JAY, BOWMAN J" instead
+// of "BOWMAN, JAY J"; corrected via REVERSED_FEC_NAMES in fec.ts.
+const KENTUCKY_RESULTS_URL = (district: string) => `https://ballotpedia.org/Kentucky's_${district}_Congressional_District_election,_2026`;
+
+const KENTUCKY_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6KY01110", "H6KY01169"],
+    source_url: KENTUCKY_RESULTS_URL("1st"),
+    snippet: "Incumbent James Comer Jr. and Drew Williams are running in the general election for U.S. House Kentucky District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H8KY02031", "H6KY02068"],
+    source_url: KENTUCKY_RESULTS_URL("2nd"),
+    snippet: "Incumbent Brett Guthrie, Megan Wingfield, and Thomas Loecken are running in the general election for U.S. House Kentucky District 2 on November 3, 2026. Loecken has no FEC 2026 registration found; see code comment.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2KY03206", "H6KY03223"],
+    source_url: KENTUCKY_RESULTS_URL("3rd"),
+    snippet: "Incumbent Morgan McGarvey and Maria Teresa Rodriguez are running in the general election for U.S. House Kentucky District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6KY04189", "H6KY04171", "H6KY04205"],
+    source_url: KENTUCKY_RESULTS_URL("4th"),
+    snippet: "Melissa Strange, Ed Gallrein, and Jeremy Todd are running in the general election for U.S. House Kentucky District 4 on November 3, 2026. Open seat: incumbent Thomas Massie lost the Republican primary to Gallrein, 45.1% to 54.9%.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0KY05015", "H6KY05152", "H2KY05185", "H6KY05202", "H2KY05136"],
+    source_url: KENTUCKY_RESULTS_URL("5th"),
+    snippet: "Incumbent Hal Rogers, Ned Pillersdorf, Gerardo Serrano, Mikel Wein, and Billy Ray Wilson are running in the general election for U.S. House Kentucky District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H6KY06184", "H6KY06192", "H6KY06242", "H6KY06234", "H6KY06283"],
+    source_url: KENTUCKY_RESULTS_URL("6th"),
+    snippet: "Zach Dembo, Ralph Alvarado, Pete Lynch, Jay Bowman, and Robert Quigley are running in the general election for U.S. House Kentucky District 6 on November 3, 2026. Open seat: incumbent Andy Barr ran for the open U.S. Senate seat instead (Mitch McConnell retiring) and won that Republican primary.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6KY00385", "S6KY00286", "S6KY00377"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Kentucky,_2026",
+    snippet: "Charles Booker, Andy Barr, Christopher Campbell, and Thomas Murphy are running in the general election for U.S. Senate Kentucky on November 3, 2026. Incumbent Mitch McConnell (R) announced February 20, 2025 that he would not seek re-election. Murphy has no FEC 2026 registration found; see code comment.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -654,5 +702,6 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? null;
   if (state === "AZ" && cycle === 2026) return ARIZONA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "KY" && cycle === 2026) return KENTUCKY_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

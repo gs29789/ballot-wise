@@ -588,6 +588,19 @@ async function main() {
   await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/AZ-7.json", district: "07" });
   await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/AZ-8.json", district: "08" });
   await buildRace({ state: "AZ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/AZ-9.json", district: "09" });
+  // Kentucky — 6 House districts + open Senate seat (McConnell retiring).
+  // No 2026 redistricting. Two ordinary open seats, no vacancy: KY-4
+  // (Massie lost his own primary) and KY-6 (Barr ran for Senate instead).
+  // First state added via the batched multi-agent workflow (batch 1/4 of
+  // the post-pilot scale-up) — see primaryResults.ts for the KY-6 reversed-
+  // FEC-name case (Jay Bowman).
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/KY-1.json", district: "01" });
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/KY-2.json", district: "02" });
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/KY-3.json", district: "03" });
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/KY-4.json", district: "04" });
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/KY-5.json", district: "05" });
+  await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/KY-6.json", district: "06" });
+  await buildRace({ state: "KY", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/KY.json" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that
