@@ -693,6 +693,175 @@ const KENTUCKY_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Colorado's primary (June 30, 2026) was already certified. One open seat,
+// an ordinary primary-loss pattern: CO-1's incumbent Diana DeGette lost
+// renomination to Melat Kiros. CO-4's Lauren Boebert is a confirmed case of
+// an FEC candidate_id prefix (CO03) surviving a DISTRICT MOVE — she actually
+// switched from CO-3 to CO-4 between cycles, not just a redistricting
+// renumbering — but the record's own `district` field correctly reads 04.
+// CO-5's Matt Cavanaugh is excluded for the same party-mismatch reason as
+// Michigan's Campbell and Arizona's Aversa (his only FEC match is
+// Democratic; Ballotpedia lists him Independent).
+const COLORADO_RESULTS_URL = (district: string) => `https://ballotpedia.org/Colorado's_${district}_Congressional_District_election,_2026`;
+
+const COLORADO_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6CO01273", "H6CO01331", "H6CO01356"],
+    source_url: COLORADO_RESULTS_URL("1st"),
+    snippet: "Melat Kiros, Christy Peterson, Chad Humphrey, Shimon Blau, and Critter Milton are running in the general election for U.S. House Colorado District 1 on November 3, 2026. Open seat: incumbent Diana DeGette lost the Democratic primary to Kiros. Humphrey and Milton have no FEC 2026 registration found; see code comment.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H8CO02160", "H6CO02206"],
+    source_url: COLORADO_RESULTS_URL("2nd"),
+    snippet: "Incumbent Joe Neguse and Kelley Dennison are running in the general election for U.S. House Colorado District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4CO03357", "H6CO03253", "H6CO03246"],
+    source_url: COLORADO_RESULTS_URL("3rd"),
+    snippet: "Incumbent Jeff Hurd, Dwayne Romero, Heather Barton, and Clifton Brown are running in the general election for U.S. House Colorado District 3 on November 3, 2026. Brown has no FEC 2026 registration found; see code comment.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H0CO03165", "H6CO04202", "H4CO04215", "H6CO04210", "H6CO04251"],
+    source_url: COLORADO_RESULTS_URL("4th"),
+    snippet: "Incumbent Lauren Boebert, Eileen Laubacher, Douglas Mangeris, Wayne Thornton, and Tim Veldhuizen are running in the general election for U.S. House Colorado District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6CO05142", "H6CO05324", "H4CO05071", "H6CO05365", "H6CO05282"],
+    source_url: COLORADO_RESULTS_URL("5th"),
+    snippet: "Incumbent Jeff Crank (R), Jessica Killin (D), and four other candidates are running in the general election for Colorado's 5th Congressional District on November 3, 2026. Matt Cavanaugh's only FEC match has a mismatched party (Democratic, not Independent as Ballotpedia lists him) so it's excluded rather than force-matched; see code comment.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8CO06229", "H6CO06165", "H6CO06132", "H6CO06116"],
+    source_url: COLORADO_RESULTS_URL("6th"),
+    snippet: "Incumbent Jason Crow, Jason Ray Clark, Patty McMahon, Edwardo Quinonez, Samir Witta, and Meredith Ryan are running in the general election for U.S. House Colorado District 6 on November 3, 2026. McMahon and Ryan have no FEC 2026 registration found; see code comment.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H8CO07045", "H6CO07122", "H6CO07130"],
+    source_url: COLORADO_RESULTS_URL("7th"),
+    snippet: "Incumbent Brittany Pettersen, Timothy Bennett, Susan Hall, and Joe Krzeczkowski are running in the general election for U.S. House Colorado District 7 on November 3, 2026. Hall has no FEC 2026 registration found; see code comment.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4CO08034", "H6CO08013"],
+    source_url: COLORADO_RESULTS_URL("8th"),
+    snippet: "Incumbent Gabe Evans (R) and Manny Rutinel (D) are running in the general election for Colorado's 8th Congressional District on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S0CO00575", "S6CO00507", "S6CO00549", "S4CO00452", "S6CO00390", "S6CO00564", "S6CO00432"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Colorado,_2026",
+    snippet: "Incumbent John Hickenlooper (D), Mark Baisley (R), and five other candidates are running in the general election for U.S. Senate Colorado on November 3, 2026. Robert Wolfe's only FEC match is a stale 2024-cycle registration; see code comment.",
+  },
+};
+
+// Illinois' primary (March 17, 2026) was already certified. Three open
+// seats, all ordinary retirements (IL-04 Garcia, IL-07 Davis, IL-09
+// Schakowsky) plus two more (IL-02 Kelly, IL-08 Krishnamoorthi) from
+// incumbents who ran for the open Senate seat and both lost that primary to
+// Juliana Stratton — five open seats total, all explainable, no vacancy
+// complexity. IL-04 has a live, unresolved wrinkle: two independents
+// (Mayra Macías, Byron Sigcho-Lopez) were removed from the ballot in July
+// 2026 for insufficient signatures; Sigcho-Lopez's federal lawsuit
+// challenging that removal was still pending as of early August 2026 (not
+// resolved either way) — re-verify before a future rebuild in case a court
+// ruling changes IL-04's field. Four more confirmed cases of FEC candidate
+// IDs carrying OLD pre-2020-redistricting district-number prefixes that
+// don't match the current, authoritative `district` field: Foster (IL14→
+// actual 11), Koppie (IL08→actual 07), Marter (IL16→actual 14), LaHood
+// (IL18→actual 16).
+const ILLINOIS_RESULTS_URL = (district: string) => `https://ballotpedia.org/Illinois's_${district}_Congressional_District_election,_2026`;
+
+const ILLINOIS_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2IL01349", "H6IL01191"],
+    source_url: ILLINOIS_RESULTS_URL("1st"),
+    snippet: "Incumbent Jonathan Jackson and Christian Maxwell are running in the general election for U.S. House Illinois District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6IL02355", "H6IL02389"],
+    source_url: ILLINOIS_RESULTS_URL("2nd"),
+    snippet: "Donna Miller and Mike Noack are running in the general election for U.S. House Illinois District 2 on November 3, 2026. Open seat: incumbent Robin Kelly ran for the open U.S. Senate seat instead and lost that Democratic primary to Juliana Stratton.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2IL03162", "H6IL03163"],
+    source_url: ILLINOIS_RESULTS_URL("3rd"),
+    snippet: "Incumbent Delia Ramirez and Angel Oakley are running in the general election for U.S. House Illinois District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6IL04153", "H4IL04117", "H2IL04178", "H6IL04195"],
+    source_url: ILLINOIS_RESULTS_URL("4th"),
+    snippet: "Patty Garcia, Lupe Castillo, Ed Hershey, and Chris Getty are running in the general election for U.S. House Illinois District 4 on November 3, 2026. Open seat: incumbent Jesus 'Chuy' Garcia announced in November 2025, after the filing deadline, that he would not seek re-election. Two other independents (Mayra Macías, Byron Sigcho-Lopez) were removed from the ballot by the state elections board on July 21, 2026 for insufficient valid signatures; as of early August 2026 Sigcho-Lopez's federal lawsuit challenging that removal is still pending, not resolved, so neither appears in the confirmed general-election field.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0IL05096", "H2IL05241"],
+    source_url: ILLINOIS_RESULTS_URL("5th"),
+    snippet: "Incumbent Mike Quigley and Tom Hanson are running in the general election for U.S. House Illinois District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8IL06139", "H2IL06090"],
+    source_url: ILLINOIS_RESULTS_URL("6th"),
+    snippet: "Incumbent Sean Casten and Niki Conforti are running in the general election for U.S. House Illinois District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6IL07354", "H2IL08203"],
+    source_url: ILLINOIS_RESULTS_URL("7th"),
+    snippet: "La Shawn Ford and Chad Koppie are running in the general election for U.S. House Illinois District 7 on November 3, 2026. Open seat: incumbent Danny K. Davis announced July 31, 2025 that he would not seek re-election after nearly three decades in office, endorsing Ford to succeed him.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H6IL08329", "H6IL08311"],
+    source_url: ILLINOIS_RESULTS_URL("8th"),
+    snippet: "Melissa Bean and Jennifer Davis are running in the general election for U.S. House Illinois District 8 on November 3, 2026. Open seat: incumbent Raja Krishnamoorthi ran for the open U.S. Senate seat instead and lost that Democratic primary to Juliana Stratton.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6IL09228", "H8IL09224"],
+    source_url: ILLINOIS_RESULTS_URL("9th"),
+    snippet: "Daniel K. Biss and John Elleson are running in the general election for U.S. House Illinois District 9 on November 3, 2026. Open seat: incumbent Jan Schakowsky retired after 26 years in Congress, endorsing Biss to succeed her.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H2IL10068"],
+    source_url: ILLINOIS_RESULTS_URL("10th"),
+    snippet: "Incumbent Brad Schneider and Carl Lambrecht are running in the general election for U.S. House Illinois District 10 on November 3, 2026. Lambrecht has no FEC 2026 registration found; see code comment.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H8IL14067", "H6IL11166"],
+    source_url: ILLINOIS_RESULTS_URL("11th"),
+    snippet: "Incumbent Bill Foster and Jeffrey Walter are running in the general election for U.S. House Illinois District 11 on November 3, 2026.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H4IL12060", "H6IL12131"],
+    source_url: ILLINOIS_RESULTS_URL("12th"),
+    snippet: "Incumbent Mike Bost and Julie Fortier are running in the general election for U.S. House Illinois District 12 on November 3, 2026.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H2IL13153", "H6IL13154"],
+    source_url: ILLINOIS_RESULTS_URL("13th"),
+    snippet: "Incumbent Nikki Budzinski and Jeff Wilson are running in the general election for U.S. House Illinois District 13 on November 3, 2026.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H8IL14174", "H8IL16153"],
+    source_url: ILLINOIS_RESULTS_URL("14th"),
+    snippet: "Incumbent Lauren Underwood and James Marter are running in the general election for U.S. House Illinois District 14 on November 3, 2026.",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H0IL15129", "H6IL15092"],
+    source_url: ILLINOIS_RESULTS_URL("15th"),
+    snippet: "Incumbent Mary Miller and Jennifer Todd are running in the general election for U.S. House Illinois District 15 on November 3, 2026.",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H6IL18088", "H6IL16108"],
+    source_url: ILLINOIS_RESULTS_URL("16th"),
+    snippet: "Incumbent Darin LaHood and Paul Nolley are running in the general election for U.S. House Illinois District 16 on November 3, 2026.",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H2IL17147", "H6IL17247"],
+    source_url: ILLINOIS_RESULTS_URL("17th"),
+    snippet: "Incumbent Eric Sorensen and Dillan Vancil are running in the general election for U.S. House Illinois District 17 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6IL00458", "S6IL00615", "S6IL00680"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Illinois,_2026",
+    snippet: "Juliana Stratton, Don Tracy, and Whitfield Harrington Jr. are running in the general election for U.S. Senate Illinois on November 3, 2026. Open seat: incumbent Dick Durbin announced retirement in April 2025; Stratton won the Democratic primary over Reps. Raja Krishnamoorthi and Robin Kelly.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -703,5 +872,7 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? null;
   if (state === "AZ" && cycle === 2026) return ARIZONA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "KY" && cycle === 2026) return KENTUCKY_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "CO" && cycle === 2026) return COLORADO_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "IL" && cycle === 2026) return ILLINOIS_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

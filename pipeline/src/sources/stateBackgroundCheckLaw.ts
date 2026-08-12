@@ -226,6 +226,38 @@ const KENTUCKY_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Colorado is shaped like North Dakota (temporary bar tied to actual
+// confinement/probation, automatically restored after) but with an added
+// wrinkle: a narrow list of specific crimes (embezzlement of public funds,
+// bribery, perjury, solicitation of bribery, subornation of perjury) carries
+// PERMANENT disqualification under the state constitution instead. Neither
+// half reaches federal office.
+const COLORADO_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+  source_url: "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+  snippet:
+    "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Illinois is the cleanest case yet on its own text: the bar explicitly
+// applies only to "an office created by this Constitution" — i.e. Illinois
+// state/local offices — so it doesn't reach Congress even before invoking
+// federal preemption, same shape as Michigan.
+const ILLINOIS_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Illinois's constitutional felony bar applies only to \"an office created by this Constitution\" (Illinois state and local offices) by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://codes.findlaw.com/il/constitution-of-the-state-of-illinois/il-const-art-13-sect-1/",
+  snippet:
+    "Ill. Const. art. XIII, § 1: \"A person convicted of a felony, bribery, perjury or other infamous crime shall be ineligible to hold an office created by this Constitution. Eligibility may be restored as provided by law.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -241,5 +273,7 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "MI" && (office === "H" || office === "S")) return MICHIGAN_FEDERAL;
   if (stateCode === "AZ" && (office === "H" || office === "S")) return ARIZONA_FEDERAL;
   if (stateCode === "KY" && (office === "H" || office === "S")) return KENTUCKY_FEDERAL;
+  if (stateCode === "CO" && (office === "H" || office === "S")) return COLORADO_FEDERAL;
+  if (stateCode === "IL" && (office === "H" || office === "S")) return ILLINOIS_FEDERAL;
   return null;
 }

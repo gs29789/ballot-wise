@@ -601,6 +601,41 @@ async function main() {
   await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/KY-5.json", district: "05" });
   await buildRace({ state: "KY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/KY-6.json", district: "06" });
   await buildRace({ state: "KY", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/KY.json" });
+  // Colorado — 8 House districts + Senate (Hickenlooper seeking re-election).
+  // No 2026 redistricting. One open seat: CO-1's Diana DeGette lost her
+  // primary to Melat Kiros. CO-4's Lauren Boebert genuinely switched
+  // districts (not just a renumbering) — see primaryResults.ts.
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/CO-1.json", district: "01" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/CO-2.json", district: "02" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/CO-3.json", district: "03" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/CO-4.json", district: "04" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/CO-5.json", district: "05" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/CO-6.json", district: "06" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/CO-7.json", district: "07" });
+  await buildRace({ state: "CO", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/CO-8.json", district: "08" });
+  await buildRace({ state: "CO", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/CO.json" });
+  // Illinois — 17 House districts + open Senate seat (Durbin retiring).
+  // No 2026 redistricting. Five open seats (IL-02, IL-04, IL-07, IL-08,
+  // IL-09), all ordinary retirements or Senate runs — see primaryResults.ts
+  // for IL-04's live, unresolved ballot-access lawsuit (Sigcho-Lopez).
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/IL-1.json", district: "01" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/IL-2.json", district: "02" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/IL-3.json", district: "03" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/IL-4.json", district: "04" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/IL-5.json", district: "05" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/IL-6.json", district: "06" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/IL-7.json", district: "07" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/IL-8.json", district: "08" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/IL-9.json", district: "09" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/IL-10.json", district: "10" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/IL-11.json", district: "11" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/IL-12.json", district: "12" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/IL-13.json", district: "13" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/IL-14.json", district: "14" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-15", outFile: "house/IL-15.json", district: "15" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/IL-16.json", district: "16" });
+  await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/IL-17.json", district: "17" });
+  await buildRace({ state: "IL", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/IL.json" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

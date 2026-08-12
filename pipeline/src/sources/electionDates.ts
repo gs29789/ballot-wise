@@ -164,6 +164,27 @@ const KENTUCKY_2026: ElectionDates = {
   generalSnippet: "KRS 118.025: The election of all officers of all governmental units shall be held on the first Tuesday after the first Monday in November.",
 };
 
+const COLORADO_2026: ElectionDates = {
+  primaryDate: "2026-06-30",
+  primarySourceUrl: "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+  primarySnippet: "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+  generalSnippet: "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year.",
+};
+
+// Illinois' election code sets both dates in the same section.
+const ILLINOIS_2026: ElectionDates = {
+  primaryDate: "2026-03-17",
+  primarySourceUrl: "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
+  primarySnippet:
+    "10 ILCS 5/2A-1.1: Except as otherwise provided in this Code, in even-numbered years, the general election shall be held on the first Tuesday after the first Monday of November; and an election to be known as the general primary election shall be held on the third Tuesday in March.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
+  generalSnippet:
+    "10 ILCS 5/2A-1.1: Except as otherwise provided in this Code, in even-numbered years, the general election shall be held on the first Tuesday after the first Monday of November; and an election to be known as the general primary election shall be held on the third Tuesday in March.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -177,5 +198,7 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "MI" && cycle === 2026) return MICHIGAN_2026;
   if (stateCode === "AZ" && cycle === 2026) return ARIZONA_2026;
   if (stateCode === "KY" && cycle === 2026) return KENTUCKY_2026;
+  if (stateCode === "CO" && cycle === 2026) return COLORADO_2026;
+  if (stateCode === "IL" && cycle === 2026) return ILLINOIS_2026;
   return null;
 }
