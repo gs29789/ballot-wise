@@ -185,6 +185,66 @@ const ILLINOIS_2026: ElectionDates = {
     "10 ILCS 5/2A-1.1: Except as otherwise provided in this Code, in even-numbered years, the general election shall be held on the first Tuesday after the first Monday of November; and an election to be known as the general primary election shall be held on the third Tuesday in March.",
 };
 
+const ARKANSAS_2026: ElectionDates = {
+  primaryDate: "2026-03-03",
+  primarySourceUrl: "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
+  primarySnippet: "MARCH 3, 2026 Preferential Primary Election — Ark. Code § 7-7-203(b), Act 405 of 2025 (Arkansas Secretary of State's official 2026 Election Calendar).",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/ar/title-7-elections/ar-code-sect-7-5-102.html",
+  generalSnippet: "Ark. Code § 7-5-102: On the Tuesday next after the first Monday in November in every even-numbered year, there shall be held an election in each precinct and ward in this state...",
+};
+
+const CONNECTICUT_2026: ElectionDates = {
+  primaryDate: "2026-08-11",
+  primarySourceUrl: "https://www.cga.ct.gov/current/pub/chap_153.htm",
+  primarySnippet:
+    "Conn. Gen. Stat. § 9-423(a): The primaries of all parties for nomination to an office to be voted upon at a state election shall be held on the second Tuesday in August in the year in which such state election is held.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.cga.ct.gov/current/pub/chap_146.htm",
+  generalSnippet:
+    "Conn. Gen. Stat. § 9-225(a): The town clerk or assistant town clerk of each town shall warn the electors therein to meet on the Tuesday following the first Monday in November in the even-numbered years, at six o'clock a.m. ...",
+};
+
+const INDIANA_2026: ElectionDates = {
+  primaryDate: "2026-05-05",
+  primarySourceUrl: "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+  primarySnippet: "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+  generalSnippet:
+    "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law.",
+};
+
+const IOWA_2026: ElectionDates = {
+  primaryDate: "2026-06-02",
+  primarySourceUrl: "https://www.legis.iowa.gov/docs/code/2026/43.7.pdf",
+  primarySnippet:
+    "Iowa Code § 43.7: Time of holding. The primary election by all political parties shall be held at the usual voting places of the several precincts on the first Tuesday after the first Monday in June in each even-numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.legis.iowa.gov/docs/code/2026/39.1.pdf",
+  generalSnippet: "Iowa Code § 39.1: General election. The general election shall be held throughout the state on the first Tuesday after the first Monday in November of each even-numbered year.",
+};
+
+const MINNESOTA_2026: ElectionDates = {
+  primaryDate: "2026-08-11",
+  primarySourceUrl: "https://www.revisor.mn.gov/statutes/cite/204D.03",
+  primarySnippet:
+    "Minn. Stat. § 204D.03: The state primary shall be held on the second Tuesday in August in each even-numbered year to select the nominees of the major political parties for partisan offices and the nominees for nonpartisan offices to be filled at the state general election, other than presidential electors.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.revisor.mn.gov/statutes/cite/204D.03",
+  generalSnippet: "Minn. Stat. § 204D.03: The state general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year.",
+};
+
+const NEW_JERSEY_2026: ElectionDates = {
+  primaryDate: "2026-06-02",
+  primarySourceUrl: "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
+  primarySnippet:
+    "N.J.S.A. 19:2-1: Primary elections for delegates and alternates to national conventions of political parties and for the general election shall be held in each year on the Tuesday next after the first Monday in June between the hours of 6:00 A.M. and 8:00 P.M., Standard Time.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/new-jersey/title-19/section-19-2-3/",
+  generalSnippet: "N.J.S.A. 19:2-3: General and special elections. The general election shall be held on the Tuesday next after the first Monday in November in each year.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -200,5 +260,11 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "KY" && cycle === 2026) return KENTUCKY_2026;
   if (stateCode === "CO" && cycle === 2026) return COLORADO_2026;
   if (stateCode === "IL" && cycle === 2026) return ILLINOIS_2026;
+  if (stateCode === "AR" && cycle === 2026) return ARKANSAS_2026;
+  if (stateCode === "CT" && cycle === 2026) return CONNECTICUT_2026;
+  if (stateCode === "IN" && cycle === 2026) return INDIANA_2026;
+  if (stateCode === "IA" && cycle === 2026) return IOWA_2026;
+  if (stateCode === "MN" && cycle === 2026) return MINNESOTA_2026;
+  if (stateCode === "NJ" && cycle === 2026) return NEW_JERSEY_2026;
   return null;
 }

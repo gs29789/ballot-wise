@@ -636,6 +636,59 @@ async function main() {
   await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/IL-16.json", district: "16" });
   await buildRace({ state: "IL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/IL-17.json", district: "17" });
   await buildRace({ state: "IL", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/IL.json" });
+  // Batch 2 of the post-pilot scale-up: Arkansas, Connecticut, Indiana,
+  // Iowa, Minnesota, New Jersey. No 2026 redistricting in any of these.
+  // Tennessee (also in this batch) was excluded for active unresolved
+  // redistricting litigation — not built. See primaryResults.ts for
+  // per-state notes (Connecticut's fresh Larson primary defeat, Indiana's
+  // corrupted-FEC-data exclusion, New Jersey's Menendez Sr./Jr. collision
+  // and resolved NJ-11 vacancy).
+  await buildRace({ state: "AR", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/AR-1.json", district: "01" });
+  await buildRace({ state: "AR", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/AR-2.json", district: "02" });
+  await buildRace({ state: "AR", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/AR-3.json", district: "03" });
+  await buildRace({ state: "AR", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/AR-4.json", district: "04" });
+  await buildRace({ state: "AR", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/AR.json" });
+  await buildRace({ state: "CT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/CT-1.json", district: "01" });
+  await buildRace({ state: "CT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/CT-2.json", district: "02" });
+  await buildRace({ state: "CT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/CT-3.json", district: "03" });
+  await buildRace({ state: "CT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/CT-4.json", district: "04" });
+  await buildRace({ state: "CT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/CT-5.json", district: "05" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/IN-1.json", district: "01" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/IN-2.json", district: "02" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/IN-3.json", district: "03" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/IN-4.json", district: "04" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/IN-5.json", district: "05" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/IN-6.json", district: "06" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/IN-7.json", district: "07" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/IN-8.json", district: "08" });
+  await buildRace({ state: "IN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/IN-9.json", district: "09" });
+  await buildRace({ state: "IA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/IA-1.json", district: "01" });
+  await buildRace({ state: "IA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/IA-2.json", district: "02" });
+  await buildRace({ state: "IA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/IA-3.json", district: "03" });
+  await buildRace({ state: "IA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/IA-4.json", district: "04" });
+  await buildRace({ state: "IA", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/IA.json" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/MN-1.json", district: "01" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/MN-2.json", district: "02" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/MN-3.json", district: "03" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/MN-4.json", district: "04" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/MN-5.json", district: "05" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/MN-6.json", district: "06" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/MN-7.json", district: "07" });
+  await buildRace({ state: "MN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/MN-8.json", district: "08" });
+  await buildRace({ state: "MN", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/MN.json" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/NJ-1.json", district: "01" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/NJ-2.json", district: "02" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/NJ-3.json", district: "03" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/NJ-4.json", district: "04" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/NJ-5.json", district: "05" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/NJ-6.json", district: "06" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/NJ-7.json", district: "07" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/NJ-8.json", district: "08" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/NJ-9.json", district: "09" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/NJ-10.json", district: "10" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/NJ-11.json", district: "11" });
+  await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/NJ-12.json", district: "12" });
+  await buildRace({ state: "NJ", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/NJ.json" });
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

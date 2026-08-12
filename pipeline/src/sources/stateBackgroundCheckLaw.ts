@@ -258,6 +258,91 @@ const ILLINOIS_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Arkansas is scoped to state office by its own text ("General Assembly...
+// any office of trust or profit in this state"), same shape as Michigan/
+// Illinois.
+const ARKANSAS_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Arkansas's constitutional felony bar applies only to the General Assembly and \"any office of trust or profit in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://codes.findlaw.com/ar/arkansas-constitution-of-1874/ar-const-art-5-sect-9.html",
+  snippet:
+    "Ark. Const. art. 5, § 9: \"No person convicted of embezzlement of public money, bribery, forgery, or other infamous crime is eligible to the General Assembly or capable of holding any office of trust or profit in this state.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Connecticut is a genuinely different shape from every prior state: its
+// statute bars a person from being "a candidate for or hold[ing] public
+// office" without any explicit state/local carve-out in the text itself —
+// broader on its face than Michigan/Illinois/Arkansas/New Jersey's clean
+// self-limiting language. The "No" conclusion here rests entirely on
+// federal preemption (states cannot add qualifications for Congress), not
+// on the statute's own scope, so the value below preserves that genuine
+// legal uncertainty rather than overstating confidence the research didn't
+// find.
+const CONNECTICUT_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Unclear on its face, but No in practice — Connecticut bars a person who has forfeited (and not regained) their electoral privileges due to a felony conviction from being \"a candidate for or hold[ing] public office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this provision would not be enforceable to keep a candidate off a Connecticut congressional ballot even though its text alone doesn't rule out reaching federal office",
+  source_url: "https://www.cga.ct.gov/current/pub/chap_143.htm",
+  snippet:
+    "Conn. Gen. Stat. § 9-46(c): \"No person who has forfeited and not regained such person's privileges as an elector as provided in section 9-46a, or who has regained such privileges and again forfeited such privileges as provided in subsection (b) of this section, may be a candidate for or hold public office.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Indiana is the cleanest case yet — an EXPLICIT statutory carve-out
+// naming federal candidates directly, no inference needed at all (matches
+// Iowa's shape below).
+const INDIANA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+  source_url: "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+  snippet:
+    "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony.",
+};
+
+// Iowa: also an explicit statutory carve-out naming Congress directly.
+const IOWA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Iowa's constitution strips convicted felons of the \"privilege of an elector,\" and state law requires elected officials to be eligible electors, but Iowa Code § 39.27 explicitly states this qualifications-for-office rule \"shall not apply to United States senators or representatives in Congress\"",
+  source_url: "https://law.justia.com/constitution/iowa/article-ii/section-5/",
+  snippet:
+    "Iowa Const. art. II, § 5: \"A person adjudged mentally incompetent to vote or a person convicted of any infamous crime shall not be entitled to the privilege of an elector.\" Iowa Code § 39.27: \"Any person elected to an office under the laws of this state shall be an eligible elector. ... This section shall not apply to United States senators or representatives in Congress or to members of the general assembly.\"",
+};
+
+// Minnesota ties office-eligibility to voting-eligibility without an
+// explicit federal carve-out in the text — relies on federal preemption,
+// same shape as Montana/Georgia/Kentucky/Colorado.
+const MINNESOTA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Minnesota bars a person \"convicted of treason or felony, unless restored to civil rights\" from voting, and separately requires voting-eligibility to hold any office \"elective by the people in the district,\" but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://www.revisor.mn.gov/constitution/",
+  snippet:
+    "Minn. Const. art. VII, § 1: \"...a person who has been convicted of treason or felony, unless restored to civil rights...\" [shall not be entitled or permitted to vote]. Minn. Const. art. VII, § 6: \"Every person who by the provisions of this article is entitled to vote at any election and is 21 years of age is eligible for any office elective by the people in the district wherein he has resided 30 days previous to the election, except as otherwise provided in this constitution, or the constitution and law of the United States.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// New Jersey is narrower than every other state on TWO axes at once: it
+// only disqualifies for a felony that involved or touched the specific
+// office already held (not any felony), and it's scoped to state/local
+// office by its own text ("under this State or any of its administrative or
+// political subdivisions") — no blanket felon-disqualification rule exists
+// in NJ law at all.
+const NEW_JERSEY_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — New Jersey has no blanket felony-disqualification rule for elective office; its only relevant statute permanently bars someone from future office only if they were convicted of an offense that involved or touched the specific state or local office they already held, and by its own text that bar reaches only offices \"under this State or any of its administrative or political subdivisions,\" not federal office",
+  source_url: "https://law.justia.com/codes/new-jersey/title-2c/section-2c-51-2/",
+  snippet:
+    "N.J.S.A. 2C:51-2(d): \"In addition to the punishment prescribed for the offense, and the forfeiture set forth in subsection a. of N.J.S.2C:51-2, any person convicted of an offense involving or touching on his public office, position or employment shall be forever disqualified from holding any office or position of honor, trust or profit under this State or any of its administrative or political subdivisions.\"",
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -275,5 +360,11 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "KY" && (office === "H" || office === "S")) return KENTUCKY_FEDERAL;
   if (stateCode === "CO" && (office === "H" || office === "S")) return COLORADO_FEDERAL;
   if (stateCode === "IL" && (office === "H" || office === "S")) return ILLINOIS_FEDERAL;
+  if (stateCode === "AR" && (office === "H" || office === "S")) return ARKANSAS_FEDERAL;
+  if (stateCode === "CT" && (office === "H" || office === "S")) return CONNECTICUT_FEDERAL;
+  if (stateCode === "IN" && (office === "H" || office === "S")) return INDIANA_FEDERAL;
+  if (stateCode === "IA" && (office === "H" || office === "S")) return IOWA_FEDERAL;
+  if (stateCode === "MN" && (office === "H" || office === "S")) return MINNESOTA_FEDERAL;
+  if (stateCode === "NJ" && (office === "H" || office === "S")) return NEW_JERSEY_FEDERAL;
   return null;
 }

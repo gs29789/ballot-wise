@@ -862,6 +862,297 @@ const ILLINOIS_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Batch 2 of the post-pilot multi-agent scale-up (2026-08-12): Arkansas,
+// Connecticut, Indiana, Iowa, Minnesota, New Jersey — all six clean, all
+// with already-certified primaries. A seventh state in this batch,
+// Tennessee, was correctly excluded by the scope check for active,
+// unresolved redistricting litigation (multiple consolidated federal
+// lawsuits still pending post-primary) and isn't included here.
+//
+// Notable per-state findings, each independently verified before use:
+// - Connecticut CT-01: longtime incumbent Rep. John Larson lost his
+//   Democratic primary to Luke Bronin on August 11, 2026 (the day before
+//   this batch ran) — confirmed a real, AP-called result across CBS News,
+//   NBC News, Washington Post, CT Mirror, and The Hill, not a hallucination.
+// - Indiana IN-01: candidate "James Johnson"'s only FEC record has
+//   genuinely CORRUPTED name fields (candidate_first_name literally reads
+//   "PRESCRIPTION", candidate_last_name reads "JOHNSON FOR JAMES L JOHNSON
+//   JR" — confirmed directly via the FEC API, not a pipeline parsing bug).
+//   This is a different failure mode than the reversed-name cases
+//   (NY-1, KY-6) — those were simple field-order swaps of otherwise-clean
+//   data; this is data that can't be confidently reconstructed at all — so
+//   he's excluded entirely rather than guessed at or shown garbled.
+// - New Jersey NJ-08: FEC has two same-surname "Menendez" records in this
+//   district — the actual candidate, incumbent Rep. Robert Menendez Jr.,
+//   and a second record for his father, former Sen. Robert Menendez Sr.
+//   (expelled from the Senate after a 2024 corruption conviction) — a
+//   genuine different-person collision, confirmed via each record's
+//   distinct office/election-year history; only the son's ID is used.
+// - New Jersey NJ-11: incumbent Mikie Sherrill resigned after winning the
+//   2025 governor's race; Analilia Mejia won the April 16, 2026 special
+//   election to succeed her and is simply the regular incumbent for the
+//   2026 cycle now — same resolved-vacancy pattern as Arizona's AZ-7, not
+//   a parallel special-election trap like Georgia's.
+const ARKANSAS_RESULTS_URL = (district: string) => `https://ballotpedia.org/Arkansas's_${district}_Congressional_District_election,_2026`;
+
+const ARKANSAS_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H0AR01083", "H6AR01155"],
+    source_url: ARKANSAS_RESULTS_URL("1st"),
+    snippet: "Incumbent Rick Crawford, Terri Yarbrough Green, and Steve Parsons are running in the general election for U.S. House Arkansas District 1 on November 3, 2026. Parsons (L) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4AR02141", "H6AR02286"],
+    source_url: ARKANSAS_RESULTS_URL("2nd"),
+    snippet: "Incumbent French Hill and Chris Jones are running in the general election for U.S. House Arkansas District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0AR03055", "H6AR03128"],
+    source_url: ARKANSAS_RESULTS_URL("3rd"),
+    snippet: "Incumbent Steve Womack, Robb Ryerse, and Bobby Wilson are running in the general election for U.S. House Arkansas District 3 on November 3, 2026. Wilson (L) has no FEC 2026 registration found; see code comment.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H4AR04048", "H6AR04084"],
+    source_url: ARKANSAS_RESULTS_URL("4th"),
+    snippet: "Incumbent Bruce Westerman and James Russell are running in the general election for U.S. House Arkansas District 4 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S4AR00103", "S6AR00199", "S6AR00223"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+    snippet: "Incumbent Tom Cotton, Hallie Shoffner, and Jeff Wadlin are running in the general election for U.S. Senate Arkansas on November 3, 2026. Shoffner won a contested Democratic primary over Ethan Dunbar, March 3, 2026.",
+  },
+};
+
+const CONNECTICUT_RESULTS_URL = (district: string) => `https://ballotpedia.org/Connecticut's_${district}_Congressional_District_election,_2026`;
+
+const CONNECTICUT_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6CT01206", "H2CT03102"],
+    source_url: CONNECTICUT_RESULTS_URL("1st"),
+    snippet: "Luke Bronin and Amy Chai are running in the general election for U.S. House Connecticut District 1 on November 3, 2026. Open seat: incumbent Rep. John Larson lost the Democratic primary to Bronin on August 11, 2026, a widely covered upset (53.5% to 34.7%).",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2CT02112", "H6CT02196"],
+    source_url: CONNECTICUT_RESULTS_URL("2nd"),
+    snippet: "Incumbent Joe Courtney and George Austin are running in the general election for U.S. House Connecticut District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0CT03072", "H6CT03178"],
+    source_url: CONNECTICUT_RESULTS_URL("3rd"),
+    snippet: "Incumbent Rosa L. DeLauro and Christopher Lancia are running in the general election for U.S. House Connecticut District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8CT04172", "H6CT04143", "H0CT04237"],
+    source_url: CONNECTICUT_RESULTS_URL("4th"),
+    snippet: "Incumbent Jim Himes, Michael Goldstein, and Damon Cerreta are running in the general election for U.S. House Connecticut District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8CT05245", "H6CT05231"],
+    source_url: CONNECTICUT_RESULTS_URL("5th"),
+    snippet: "Incumbent Jahana Hayes and Chris Shea are running in the general election for U.S. House Connecticut District 5 on November 3, 2026.",
+  },
+};
+
+const INDIANA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Indiana's_${district}_Congressional_District_election,_2026`;
+
+const INDIANA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H0IN01150", "H6IN01231"],
+    source_url: INDIANA_RESULTS_URL("1st"),
+    snippet: "Incumbent Frank Mrvan, Barb Regnitz, Alexander Degman, and James Johnson are running in the general election for U.S. House Indiana District 1 on November 3, 2026. Degman (Ind) has no FEC 2026 registration found. Johnson's FEC record has corrupted name fields (first name field literally reads \"PRESCRIPTION\") rather than a simple reversal, so it's excluded rather than guessed at; see code comment.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2IN02295", "H6IN02189", "H6IN02205"],
+    source_url: INDIANA_RESULTS_URL("2nd"),
+    snippet: "Incumbent Rudy Yakym, Jamee Decio, William Henry, and Eric Beebe are running in the general election for U.S. House Indiana District 2 on November 3, 2026. Beebe's only FEC match is Democratic Party, but Ballotpedia lists him as an Independent general-election candidate, so it's excluded rather than force-matched; see code comment.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0IN03198", "H6IN03294"],
+    source_url: INDIANA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Marlin A. Stutzman, Kelly Thompson, and Phillip Beachy are running in the general election for U.S. House Indiana District 3 on November 3, 2026. Beachy (Ind, write-in) has no FEC 2026 registration found.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8IN04199", "H6IN04193", "H6IN04243"],
+    source_url: INDIANA_RESULTS_URL("4th"),
+    snippet: "Incumbent Jim Baird, Drew Cox, and David Bokash are running in the general election for U.S. House Indiana District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0IN05326", "H6IN05307"],
+    source_url: INDIANA_RESULTS_URL("5th"),
+    snippet: "Incumbent Victoria Spartz and J.D. Ford are running in the general election for U.S. House Indiana District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4IN06185", "H6IN06230"],
+    source_url: INDIANA_RESULTS_URL("6th"),
+    snippet: "Incumbent Jefferson Shreve and Cynthia Wirth are running in the general election for U.S. House Indiana District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H8IN07184", "H6IN07444"],
+    source_url: INDIANA_RESULTS_URL("7th"),
+    snippet: "Incumbent Andre Carson, Patrick McAuley, and James Sceniak are running in the general election for U.S. House Indiana District 7 on November 3, 2026. Sceniak (L, convention nominee) has no FEC 2026 registration found.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4IN08249", "H6IN08293", "H6IN08285"],
+    source_url: INDIANA_RESULTS_URL("8th"),
+    snippet: "Incumbent Mark Messmer, Mary Allen, and James Burke are running in the general election for U.S. House Indiana District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6IN09143", "H6IN09242", "H6IN09317", "H6IN09283"],
+    source_url: INDIANA_RESULTS_URL("9th"),
+    snippet: "Incumbent Erin Houchin, Brad Meyer, Tonya Hudson, and Floyd Taylor are running in the general election for U.S. House Indiana District 9 on November 3, 2026.",
+  },
+};
+
+const IOWA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Iowa's_${district}_Congressional_District_election,_2026`;
+
+const IOWA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8IA02043", "H2IA02111", "H6IA01213"],
+    source_url: IOWA_RESULTS_URL("1st"),
+    snippet: "Incumbent Mariannette Miller-Meeks, Christina Bohannan, and Michael Bridgford are running in the general election for U.S. House Iowa District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6IA02211", "H6IA02237", "H6IA02260"],
+    source_url: IOWA_RESULTS_URL("2nd"),
+    snippet: "Lindsay James, Joe Mitchell, Rick Stewart, and Dave Bushaw are running in the general election for U.S. House Iowa District 2 on November 3, 2026. Open seat: incumbent Ashley Hinson ran for the open U.S. Senate seat instead and won that Republican primary. Stewart (L) has no current FEC 2026 registration found; see code comment.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2IA03119", "H6IA03268"],
+    source_url: IOWA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Zach Nunn and Sarah Trone Garriott are running in the general election for U.S. House Iowa District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6IA04217", "H6IA04167", "H6IA04233"],
+    source_url: IOWA_RESULTS_URL("4th"),
+    snippet: "Dave Dawson, Chris McGowan, and Jermaine Decker are running in the general election for U.S. House Iowa District 4 on November 3, 2026. Open seat: incumbent Randy Feenstra is running for Governor of Iowa instead.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6IA00298", "S6IA00314", "S6IA00181"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Iowa,_2026",
+    snippet: "Josh Turek, Ashley Hinson, and Thomas Laehn are running in the general election for U.S. Senate Iowa on November 3, 2026. Open seat: incumbent Joni Ernst (R) is not seeking re-election.",
+  },
+};
+
+const MINNESOTA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Minnesota's_${district}_Congressional_District_election,_2026`;
+
+const MINNESOTA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2MN01223", "H6MN01190"],
+    source_url: MINNESOTA_RESULTS_URL("1st"),
+    snippet: "Incumbent Brad Finstad and Jake Johnson are running in the general election for U.S. House Minnesota District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6MN02230", "H6MN02263"],
+    source_url: MINNESOTA_RESULTS_URL("2nd"),
+    snippet: "Matt Little and Eric Pratt are running in the general election for U.S. House Minnesota District 2 on November 3, 2026. Open seat: incumbent Angie Craig ran for the open U.S. Senate seat instead and placed second in that Democratic primary.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4MN03118", "H6MN03170"],
+    source_url: MINNESOTA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Kelly Morrison and Tyler Bass are running in the general election for U.S. House Minnesota District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H0MN04049", "H6MN04293"],
+    source_url: MINNESOTA_RESULTS_URL("4th"),
+    snippet: "Incumbent Betty McCollum and Paul Wikstrom are running in the general election for U.S. House Minnesota District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8MN05239", "H6MN05357", "H6MN05373"],
+    source_url: MINNESOTA_RESULTS_URL("5th"),
+    snippet: "Incumbent Ilhan Omar, John Nagel, and DeVelle Jackson are running in the general election for U.S. House Minnesota District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4MN06087", "H6MN06215"],
+    source_url: MINNESOTA_RESULTS_URL("6th"),
+    snippet: "Incumbent Tom Emmer and Doug Chapin are running in the general election for U.S. House Minnesota District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H0MN07091", "H6MN07312"],
+    source_url: MINNESOTA_RESULTS_URL("7th"),
+    snippet: "Incumbent Michelle Fischbach and Erik Osberg are running in the general election for U.S. House Minnesota District 7 on November 3, 2026.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H8MN08043", "H6MN08179"],
+    source_url: MINNESOTA_RESULTS_URL("8th"),
+    snippet: "Incumbent Pete Stauber and Trina Swanson are running in the general election for U.S. House Minnesota District 8 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6MN00440", "S6MN00556", "S6MN00572", "S6MN00481"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Minnesota,_2026",
+    snippet: "Peggy Flanagan, Michele Tafoya, Rebecca Whiting, and Marisa Simonetti are running in the general election for U.S. Senate Minnesota on November 3, 2026. Open seat: incumbent Tina Smith (D) is not seeking re-election; Flanagan won the Democratic primary over Rep. Angie Craig.",
+  },
+};
+
+const NEW_JERSEY_RESULTS_URL = (district: string) => `https://ballotpedia.org/New_Jersey's_${district}_Congressional_District_election,_2026`;
+
+const NEW_JERSEY_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H4NJ01084", "H2NJ01187"],
+    source_url: NEW_JERSEY_RESULTS_URL("1st"),
+    snippet: "Incumbent Donald Norcross and Damon Galdo are running in the general election for U.S. House New Jersey District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H8NJ02166", "H6NJ02251", "H6NJ02269"],
+    source_url: NEW_JERSEY_RESULTS_URL("2nd"),
+    snippet: "Incumbent Jeff Van Drew, Zack Mullock, and Ramon Mora Jr. are running in the general election for U.S. House New Jersey District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4NJ03080", "H6NJ03184", "H6NJ03192"],
+    source_url: NEW_JERSEY_RESULTS_URL("3rd"),
+    snippet: "Incumbent Herbert C. Conaway Jr., Michael McGuire, Ryan Kelly, and Steven Welzer are running in the general election for U.S. House New Jersey District 3 on November 3, 2026. Welzer (G) has no FEC 2026 registration found.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8NJ04014", "H6NJ04257"],
+    source_url: NEW_JERSEY_RESULTS_URL("4th"),
+    snippet: "Incumbent Chris Smith and Rachel Peace are running in the general election for U.S. House New Jersey District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6NJ05171", "H6NJ05221", "H6NJ05247"],
+    source_url: NEW_JERSEY_RESULTS_URL("5th"),
+    snippet: "Incumbent Josh Gottheimer, Sean Kirrane, and Adam Rueda are running in the general election for U.S. House New Jersey District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8NJ03073", "H6NJ06278"],
+    source_url: NEW_JERSEY_RESULTS_URL("6th"),
+    snippet: "Incumbent Frank Pallone Jr. and Hillary Herzig are running in the general election for U.S. House New Jersey District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H0NJ07261", "H6NJ07201"],
+    source_url: NEW_JERSEY_RESULTS_URL("7th"),
+    snippet: "Incumbent Thomas Kean Jr., Rebecca Bennett, and Seamus O'Toole are running in the general election for U.S. House New Jersey District 7 on November 3, 2026. O'Toole has no FEC 2026 registration found.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H2NJ08232", "H6NJ08217"],
+    source_url: NEW_JERSEY_RESULTS_URL("8th"),
+    snippet: "Incumbent Robert Menendez Jr., Craig Honts, Da'Shone Hughey, and Aristotle Eliopoulos are running in the general election for U.S. House New Jersey District 8 on November 3, 2026. Honts and Eliopoulos have no FEC 2026 registration found. A same-surname FEC record (his father, former Sen. Robert Menendez Sr., convicted of corruption in 2024) is a confirmed different person and was not used; see code comment.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H4NJ09194", "H6NJ09264", "H6NJ09306"],
+    source_url: NEW_JERSEY_RESULTS_URL("9th"),
+    snippet: "Incumbent Nellie Pou, Rosemary Pino, and Terrisa Bukovinac are running in the general election for U.S. House New Jersey District 9 on November 3, 2026.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H4NJ10176", "H4NJ10135"],
+    source_url: NEW_JERSEY_RESULTS_URL("10th"),
+    snippet: "Incumbent LaMonica McIver and Carmen Bucco are running in the general election for U.S. House New Jersey District 10 on November 3, 2026.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6NJ11286", "H6NJ11211", "H6NJ11328"],
+    source_url: NEW_JERSEY_RESULTS_URL("11th"),
+    snippet: "Incumbent Analilia Mejia, Joe Hathaway, and Alan Bond are running in the general election for U.S. House New Jersey District 11 on November 3, 2026. Mejia won an April 16, 2026 special election to succeed Mikie Sherrill, who resigned after winning the New Jersey governorship — she is the regular incumbent for the 2026 cycle, not a parallel special-election candidate; see code comment.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H6NJ12417", "H2NJ06210", "H6NJ12441"],
+    source_url: NEW_JERSEY_RESULTS_URL("12th"),
+    snippet: "Adam Hamawy, Gregg Mele, Andres Jinete, and Winston Jordan are running in the general election for U.S. House New Jersey District 12 on November 3, 2026. Open seat: incumbent Bonnie Watson Coleman did not seek re-election. Jordan has no FEC 2026 registration found.",
+  },
+  senate: {
+    advancingCandidateIds: ["S4NJ00185", "S4NJ00532", "S0NJ00258"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_New_Jersey,_2026",
+    snippet: "Incumbent Cory Booker, Justin Murphy, Veronica Fernandez, and Joanne Kuniansky are running in the general election for U.S. Senate New Jersey on November 3, 2026. Kuniansky has no FEC 2026 registration found.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -874,5 +1165,11 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "KY" && cycle === 2026) return KENTUCKY_2026_PRIMARY[raceSlug] ?? null;
   if (state === "CO" && cycle === 2026) return COLORADO_2026_PRIMARY[raceSlug] ?? null;
   if (state === "IL" && cycle === 2026) return ILLINOIS_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "AR" && cycle === 2026) return ARKANSAS_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "CT" && cycle === 2026) return CONNECTICUT_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "IN" && cycle === 2026) return INDIANA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "IA" && cycle === 2026) return IOWA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "MN" && cycle === 2026) return MINNESOTA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NJ" && cycle === 2026) return NEW_JERSEY_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }
