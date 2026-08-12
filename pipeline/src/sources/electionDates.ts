@@ -245,6 +245,69 @@ const NEW_JERSEY_2026: ElectionDates = {
   generalSnippet: "N.J.S.A. 19:2-3: General and special elections. The general election shall be held on the Tuesday next after the first Monday in November in each year.",
 };
 
+const HAWAII_2026: ElectionDates = {
+  primaryDate: "2026-08-08",
+  primarySourceUrl: "https://law.justia.com/codes/hawaii/title-2/chapter-12/section-12-2/",
+  primarySnippet: "The primary shall be held on the second Saturday of August in every even numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/constitution/hawaii/conart2.html",
+  generalSnippet: "General elections shall be held on the first Tuesday after the first Monday in November in all even-numbered years.",
+};
+
+// Idaho's own legislature.gov and its usual FindLaw/Justia mirrors were all
+// unreachable to automated fetches on scoping day; a Wayback Machine mirror
+// of the same official statute page was used instead — same text, different
+// access path.
+const IDAHO_2026: ElectionDates = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://web.archive.org/web/20260417222247/https://legislature.idaho.gov/statutesrules/idstat/Title34/T34CH6/SECT34-601/",
+  primarySnippet:
+    "34-601. Dates on which elections shall be held. Elections shall be held in this state on the following dates or times: (1) A primary election shall be held on the third Tuesday in May, 2012, and every two (2) years thereafter on the above-mentioned Tuesday.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://web.archive.org/web/20260417222247/https://legislature.idaho.gov/statutesrules/idstat/Title34/T34CH6/SECT34-601/",
+  generalSnippet:
+    "34-601. Dates on which elections shall be held. Elections shall be held in this state on the following dates or times: ... (2) A general election shall be held on the first Tuesday after the first Monday of November, 2012, and every two (2) years thereafter on the above-mentioned Tuesday.",
+};
+
+const KANSAS_2026: ElectionDates = {
+  primaryDate: "2026-08-04",
+  primarySourceUrl: "https://www.ksrevisor.gov/statutes/chapters/ch25/025_002_0003.html",
+  primarySnippet:
+    "The primary national, state, county and township election shall be held on the first Tuesday of August in even-numbered years for the nomination of all candidates to be voted for at the next following general election.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://ksrevisor.gov/statutes/chapters/ch25/025_025_0002.html",
+  generalSnippet: "\"General election\" means the elections held on the Tuesday following the first Monday in November of both even-numbered and odd-numbered years.",
+};
+
+const NEBRASKA_2026: ElectionDates = {
+  primaryDate: "2026-05-12",
+  primarySourceUrl: "https://law.justia.com/codes/nebraska/chapter-32/statute-32-401/",
+  primarySnippet: "32-401. Statewide primary election; when held; purposes. The statewide primary election shall be held on the first Tuesday after the second Monday in May in even-numbered years.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/nebraska/chapter-32/statute-32-403/",
+  generalSnippet: "32-403. Statewide general election; when held. The statewide general election shall be held on the first Tuesday following the first Monday in November in each even-numbered year.",
+};
+
+const NEVADA_2026: ElectionDates = {
+  primaryDate: "2026-06-09",
+  primarySourceUrl: "https://law.justia.com/codes/nevada/chapter-293/statute-293-175/",
+  primarySnippet: "1. The primary election must be held on the second Tuesday in June of each even-numbered year. (NRS 293.175)",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://nevada.public.law/statutes/nrs_293.12755",
+  generalSnippet: "A general election must be held throughout the State on the first Tuesday after the first Monday of November in each even-numbered year. (NRS 293.12755)",
+};
+
+const OKLAHOMA_2026: ElectionDates = {
+  primaryDate: "2026-06-16",
+  primarySourceUrl: "https://law.justia.com/codes/oklahoma/title-26/section-26-1-102/",
+  primarySnippet:
+    "A Primary Election shall be held on the third Tuesday in June of each even-numbered year, at which time each political party recognized by the laws of this state shall nominate its candidates for the offices to be filled at the next succeeding General Election unless otherwise provided by law.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/oklahoma/title-26/section-26-1-101/",
+  generalSnippet:
+    "On the first Tuesday succeeding the first Monday of November, 1976, and every four (4) years thereafter, a General Election shall be held... On said date, and every two (2) years thereafter, United States Senators and United States Representatives, whose terms expire before the next succeeding General Election, and state, district and county officers, whose terms expire before the next succeeding General Election, shall be elected.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -266,5 +329,11 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "IA" && cycle === 2026) return IOWA_2026;
   if (stateCode === "MN" && cycle === 2026) return MINNESOTA_2026;
   if (stateCode === "NJ" && cycle === 2026) return NEW_JERSEY_2026;
+  if (stateCode === "HI" && cycle === 2026) return HAWAII_2026;
+  if (stateCode === "ID" && cycle === 2026) return IDAHO_2026;
+  if (stateCode === "KS" && cycle === 2026) return KANSAS_2026;
+  if (stateCode === "NE" && cycle === 2026) return NEBRASKA_2026;
+  if (stateCode === "NV" && cycle === 2026) return NEVADA_2026;
+  if (stateCode === "OK" && cycle === 2026) return OKLAHOMA_2026;
   return null;
 }

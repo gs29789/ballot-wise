@@ -343,6 +343,92 @@ const NEW_JERSEY_FEDERAL: StateBackgroundCheckFact = {
     "N.J.S.A. 2C:51-2(d): \"In addition to the punishment prescribed for the offense, and the forfeiture set forth in subsection a. of N.J.S.2C:51-2, any person convicted of an offense involving or touching on his public office, position or employment shall be forever disqualified from holding any office or position of honor, trust or profit under this State or any of its administrative or political subdivisions.\"",
 };
 
+// Hawaii's felon bar (HRS § 831-2) reads broadly at first ("may not...
+// become a candidate for or hold public office") but the statute defines
+// "public office" itself, narrowly, as gubernatorial/chief-justice/OHA/
+// judicial-selection-commission appointees and senate-confirmed positions —
+// verified directly against the statute text, not just the research
+// summary, since that specific definitional claim wasn't otherwise
+// quote-anchored. Congress fits none of those categories.
+const HAWAII_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Hawaii's felon-disqualification statute (HRS § 831-2) bars becoming a candidate for or holding \"public office\" until final discharge, but the statute's own definition of \"public office\" is limited to gubernatorial/chief-justice/OHA/judicial-selection-commission appointees and senate-confirmed positions — not Congress; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://law.justia.com/codes/hawaii/title-38/chapter-831/section-831-2/",
+  snippet:
+    "§831-2 Rights lost. (a) A person sentenced for a felony, from the time of the person's sentence until the person's final discharge, may not: ... (2) Become a candidate for or hold public office. ... \"Public office\" means an office held by an elected official, department heads, officers, and members of any board, commission, or other state agency whose appointments are made by the governor, chief justice, office of Hawaiian affairs, or the judicial selection commission, or are required by law to be confirmed by the senate. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Idaho's felon bar (Art. VI, § 3) is broad and unqualified — "any civil
+// office" — with no explicit state/local-only carve-out (unlike Michigan/
+// Illinois/Arkansas) and no explicit federal-reaching language either
+// (unlike Indiana/Iowa). Rests on federal preemption alone, same shape as
+// Montana/Georgia/Kentucky/Colorado/Minnesota.
+const IDAHO_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Idaho's constitution bars a convicted felon who hasn't been restored to the rights of citizenship from voting, serving on a jury, or holding \"any civil office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://web.archive.org/web/20251219164936/https://legislature.idaho.gov/statutesrules/idconst/ArtVI/Sect3/",
+  snippet:
+    "No person is permitted to vote, serve as a juror, or hold any civil office who has, at any place, been convicted of a felony, and who has not been restored to the rights of citizenship, or who, at the time of such election, is confined in prison on conviction of a criminal offense. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Kansas is scoped to state office by its own text ("public office under
+// the laws of the state of Kansas") — same shape as Michigan/Illinois/
+// Arkansas/New Jersey.
+const KANSAS_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Kansas's felon-disqualification statute applies only to \"any public office under the laws of the state of Kansas\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://ksrevisor.gov/statutes/chapters/ch21/021_066_0013.html",
+  snippet:
+    "A person who has been convicted in any state or federal court of a felony shall, by reason of such conviction, be ineligible to hold any public office under the laws of the state of Kansas, or to register as a voter or to vote in any election held under the laws of the state of Kansas or to serve as a juror in any civil or criminal case.",
+};
+
+// Nebraska's bar is scoped to state office by its own text ("any office of
+// trust or profit under the constitution or laws of THIS STATE") — same
+// shape as Michigan/Illinois/Arkansas/New Jersey/Kansas.
+const NEBRASKA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Nebraska's constitution bars a convicted felon who hasn't been restored to civil rights from \"any office of trust or profit under the constitution or laws of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://law.justia.com/constitution/nebraska/c0115002000.html",
+  snippet:
+    "No person who is in default as collector and custodian of public money or property shall be eligible to any office of trust or profit under the constitution or laws of this state. No person convicted of a felony shall be eligible to any such office unless he shall have been restored to civil rights.",
+};
+
+// Nevada ties office-eligibility to "qualified elector" status, and
+// separately strips elector status for a felony conviction (until restored)
+// — neither clause names Congress, so this rests on federal preemption
+// alone, same shape as Montana/Georgia/Kentucky/Colorado/Minnesota/Idaho.
+const NEVADA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Nevada's constitution makes office eligibility contingent on being a \"qualified elector,\" and separately strips a person convicted of treason or felony of elector status until civil rights are restored, but neither clause names Congress; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://law.justia.com/constitution/nevada/",
+  snippet:
+    "Nev. Const. art. 15, § 3(1): \"No person shall be eligible to any office who is not a qualified elector under this Constitution.\" Nev. Const. art. 2, § 1: \"...provided, that no person who has been or may be convicted of treason or felony in any state or territory of the United States, unless restored to civil rights, and no person who has been adjudicated mentally incompetent, unless restored to legal capacity, shall be entitled to the privilege of an elector.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Oklahoma is scoped to state/local office by its own text ("any state,
+// county, municipal, judicial or school office or any other elective office
+// of any political subdivision of this state") — same shape as Michigan/
+// Illinois/Arkansas/New Jersey/Kansas/Nebraska.
+const OKLAHOMA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Oklahoma's felon-disqualification statute (26 O.S. § 5-105a) bars a person convicted of a felony (or embezzlement-related misdemeanor) from being a candidate for \"any state, county, municipal, judicial or school office or any other elective office of any political subdivision of this state\" for 15 years after completing their sentence, absent a pardon — by its own text this reaches only state and local offices, not Congress",
+  source_url: "https://law.justia.com/codes/oklahoma/title-26/section-26-5-105a/",
+  snippet:
+    "A person who has been convicted of a misdemeanor involving embezzlement or a felony under the laws of this state or of the United States or who has entered a plea of guilty or nolo contendere to such misdemeanor involving embezzlement or felony ... shall not be eligible to be a candidate for or to be elected to any state, county, municipal, judicial or school office or any other elective office of any political subdivision of this state for a period of fifteen (15) years following completion of his sentence or during the pendency of an appeal of such conviction or plea.",
+};
+
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
@@ -366,5 +452,11 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "IA" && (office === "H" || office === "S")) return IOWA_FEDERAL;
   if (stateCode === "MN" && (office === "H" || office === "S")) return MINNESOTA_FEDERAL;
   if (stateCode === "NJ" && (office === "H" || office === "S")) return NEW_JERSEY_FEDERAL;
+  if (stateCode === "HI" && (office === "H" || office === "S")) return HAWAII_FEDERAL;
+  if (stateCode === "ID" && (office === "H" || office === "S")) return IDAHO_FEDERAL;
+  if (stateCode === "KS" && (office === "H" || office === "S")) return KANSAS_FEDERAL;
+  if (stateCode === "NE" && (office === "H" || office === "S")) return NEBRASKA_FEDERAL;
+  if (stateCode === "NV" && (office === "H" || office === "S")) return NEVADA_FEDERAL;
+  if (stateCode === "OK" && (office === "H" || office === "S")) return OKLAHOMA_FEDERAL;
   return null;
 }

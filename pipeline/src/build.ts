@@ -689,6 +689,33 @@ async function main() {
   await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/NJ-11.json", district: "11" });
   await buildRace({ state: "NJ", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/NJ-12.json", district: "12" });
   await buildRace({ state: "NJ", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/NJ.json" });
+  await buildRace({ state: "HI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/HI-1.json", district: "01" });
+  await buildRace({ state: "HI", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/HI-2.json", district: "02" });
+  await buildRace({ state: "ID", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/ID-1.json", district: "01" });
+  await buildRace({ state: "ID", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/ID-2.json", district: "02" });
+  await buildRace({ state: "ID", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/ID.json" });
+  await buildRace({ state: "KS", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/KS-1.json", district: "01" });
+  await buildRace({ state: "KS", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/KS-2.json", district: "02" });
+  await buildRace({ state: "KS", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/KS-3.json", district: "03" });
+  await buildRace({ state: "KS", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/KS-4.json", district: "04" });
+  await buildRace({ state: "KS", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/KS.json" });
+  await buildRace({ state: "NE", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/NE-1.json", district: "01" });
+  await buildRace({ state: "NE", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/NE-2.json", district: "02" });
+  await buildRace({ state: "NE", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/NE-3.json", district: "03" });
+  await buildRace({ state: "NE", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/NE.json" });
+  await buildRace({ state: "NV", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/NV-1.json", district: "01" });
+  await buildRace({ state: "NV", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/NV-2.json", district: "02" });
+  await buildRace({ state: "NV", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/NV-3.json", district: "03" });
+  await buildRace({ state: "NV", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/NV-4.json", district: "04" });
+  await buildRace({ state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/OK-1.json", district: "01" });
+  await buildRace({ state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/OK-2.json", district: "02" });
+  await buildRace({ state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/OK-3.json", district: "03" });
+  await buildRace({ state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/OK-4.json", district: "04" });
+  await buildRace({ state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/OK-5.json", district: "05" });
+  // OK Senate deliberately NOT built yet: Democratic nominee (Priest vs.
+  // Thomas) is unresolved until the Aug 25, 2026 runoff. NV has no Senate
+  // race in 2026. RI is deliberately NOT wired in at all yet: its primary
+  // isn't until Sept 9, 2026 (same held-back treatment as NH/WI/MA).
 }
 
 // Guarded so importing buildRace() elsewhere (e.g. a one-off script that

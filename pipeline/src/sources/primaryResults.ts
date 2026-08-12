@@ -1153,6 +1153,208 @@ const NEW_JERSEY_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Nebraska: like every other state added in this same pass (HI/ID/KS/NV),
+// the research pass's per-district Ballotpedia pull only confirmed the
+// resolved GENERAL-ELECTION field — it didn't check whether primary LOSERS
+// still hold live FEC registrations for the same district, which is exactly
+// what this file exists to filter. Confirmed empirically: the first
+// unfiltered build of this batch showed 2-4x more candidates per race than
+// Ballotpedia's actual general-election list. All 3 House races get a full
+// filter here, same treatment as every multi-district state before it.
+// Senate is a second, genuinely different case layered on top — Cindy
+// Burbank (D) won her May 12, 2026 primary outright, then withdrew July 17;
+// Nebraska's Secretary of State (the state's own certifying election
+// authority, same evidentiary tier as Montana's canvass or North Dakota's
+// results dashboard used elsewhere in this file) confirmed her removal from
+// the ballot on July 21.
+const NEBRASKA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Nebraska%27s_${district}_Congressional_District_election,_2026`;
+
+const NEBRASKA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2NE01118", "H6NE01143"],
+    source_url: NEBRASKA_RESULTS_URL("1st"),
+    snippet: "Incumbent Mike Flood, Christopher Backemeyer, and Nik Sandman are running in the general election for U.S. House Nebraska District 1 on November 3, 2026.",
+  },
+  // Brett Lindstrom and incumbent Don Bacon both hold live FEC 2026
+  // registrations for this district (Bacon's FEC record is still tagged
+  // "Incumbent" despite not filing for re-election), but neither ran in the
+  // primary — Brinker Harding is the actual Republican nominee for this
+  // open seat.
+  "house-02": {
+    advancingCandidateIds: ["H6NE02174", "H6NE02208", "H6NE02273"],
+    source_url: NEBRASKA_RESULTS_URL("2nd"),
+    snippet: "Denise Powell, Brinker Harding, and Eric Michael Foreman are running in the general election for U.S. House Nebraska District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H6NE03115", "H6NE03180", "H0NE03217", "H6NE03198"],
+    source_url: NEBRASKA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Adrian Smith, Becky Lynn Stille, David J. Else, and Mark Cohen are running in the general election for U.S. House Nebraska District 3 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6NE00129", "S6NE00152", "S4NE00207"],
+    source_url:
+      "https://nebraskaexaminer.com/2026/07/21/nebraska-secretary-of-state-says-democrat-cindy-burbank-wont-appear-on-us-senate-ballot/",
+    snippet:
+      "\"We have consulted with the Attorney General's office,\" Evnen said Tuesday in a statement. \"Under Nebraska law, when a candidate has declined a nomination by the deadline, the Secretary of State has no discretion to refuse it. For that reason, Cindy Burbank's name will not appear on the November ballot as the Democratic nominee for U.S. Senate.\" ... Now with Burbank off the ballot, Osborn and Ricketts are the main two candidates in the Senate race. Marijuana NOW Party's U.S. Senate nominee Mike Marvin is still currently on the ballot.",
+  },
+};
+
+// Oklahoma uses a majority-vote runoff system (Aug 25, 2026 this cycle),
+// which produces genuinely crowded primaries — OK-1's Republican primary
+// alone drew 11 candidates. Confirmed directly (not just from the research
+// pass) via a live Ballotpedia check: Mark Tedford led the June 16 primary
+// at 31.9%, was set for an Aug 25 runoff against second-place Jackson
+// Lahmeyer, but that runoff was canceled after Lahmeyer withdrew, so Tedford
+// advanced automatically — resolved and certified before this was built.
+// Oklahoma's Senate race has NOT reached that same resolution (Democratic
+// runoff between Priest and Thomas is still pending Aug 25) and is
+// deliberately not built at all yet — see build.ts.
+const OKLAHOMA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Oklahoma's_${district}_Congressional_District_election,_2026`;
+
+const OKLAHOMA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6OK01201", "H6OK01235"],
+    source_url: OKLAHOMA_RESULTS_URL("1st"),
+    snippet:
+      "John Croisant and Mark Tedford are running in the general election for U.S. House Oklahoma District 1 on November 3, 2026. ... Republican primary runoff election: The Republican primary runoff election was canceled. Mark Tedford advanced from the Republican primary runoff for U.S. House Oklahoma District 1. Withdrawn or disqualified candidates: Jackson Lahmeyer (R).",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2OK02315", "H4OK02196", "H4OK02204"],
+    source_url: OKLAHOMA_RESULTS_URL("2nd"),
+    snippet: "Incumbent Josh Brecheen, Brandon Wade, and Ronnie Hopkins are running in the general election for U.S. House Oklahoma District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4OK06056"],
+    source_url: OKLAHOMA_RESULTS_URL("3rd"),
+    snippet:
+      "Incumbent Frank Lucas and Suzie Byrd are running in the general election for U.S. House Oklahoma District 3 on November 3, 2026. Byrd has no FEC 2026 registration found.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2OK04055", "H6OK04155"],
+    source_url: OKLAHOMA_RESULTS_URL("4th"),
+    snippet:
+      "Incumbent Tom Cole, Mitchell Jacob, and Rocco Bonacci are running in the general election for U.S. House Oklahoma District 4 on November 3, 2026. Bonacci has no FEC 2026 registration found.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0OK05205", "H6OK05293", "H6OK05301", "H4OK04176"],
+    source_url: OKLAHOMA_RESULTS_URL("5th"),
+    snippet:
+      "Incumbent Stephanie Bice, Jena Nelson, Robert Henri, and Austin Nieves are running in the general election for U.S. House Oklahoma District 5 on November 3, 2026.",
+  },
+};
+
+// Kansas: full per-district filter, same empirical basis as Nebraska above
+// (unfiltered build showed 4-10 candidates per race against an expected
+// 2-3). KS-03 has an extra, individually-confirmed wrinkle: Chase LaPorte
+// (R) lost the Republican primary to Eric Jenkins but still holds two
+// separate live FEC 2026 registrations for that district (H6KS03258 and
+// H6KS03274, a probable duplicate filing).
+const KANSAS_RESULTS_URL = (district: string) => `https://ballotpedia.org/Kansas'_${district}_Congressional_District_election,_2026`;
+
+const KANSAS_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H0KS01123", "H6KS01203", "H6KS01229"],
+    source_url: KANSAS_RESULTS_URL("1st"),
+    snippet: "Incumbent Tracey Mann, Lauren Reinhold, and Steven Jacob are running in the general election for U.S. House Kansas District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4KS02164", "H6KS02276"],
+    source_url: KANSAS_RESULTS_URL("2nd"),
+    snippet: "Incumbent Derek Schmidt, Don Coover, and John Hauer are running in the general election for U.S. House Kansas District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H8KS03155", "H6KS03308"],
+    source_url: KANSAS_RESULTS_URL("3rd"),
+    snippet: "Incumbent Sharice Davids, Eric Jenkins, and Steve Hohe are running in the general election for U.S. House Kansas District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8KS04112", "H6KS04272", "H6KS04280"],
+    source_url: KANSAS_RESULTS_URL("4th"),
+    snippet: "Incumbent Ron Estes, Katy Tyndell, and Drew Cranmer are running in the general election for U.S. House Kansas District 4 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S0KS00315", "S6KS00312"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Kansas,_2026",
+    snippet: "Incumbent Roger Marshall, Adam Hamilton, and David Graham are running in the general election for U.S. Senate Kansas on November 3, 2026.",
+  },
+};
+
+// Hawaii: HI-01 needs a filter both for the same primary-loser leakage as
+// every other state here AND a specific confirmed extra — a Nonpartisan FEC
+// 2026 registrant, Sholom Gelt (H6HI01378), who doesn't appear anywhere on
+// Ballotpedia's actual HI-01 candidate lists (general, Democratic,
+// Republican, or Nonpartisan primary). HI-02's unfiltered build already
+// matched its expected 2-candidate field exactly, so it's left unfiltered.
+const HAWAII_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2HI02128", "H6HI01360", "H6HI01386"],
+    source_url: "https://ballotpedia.org/Hawaii%27s_1st_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Ed Case, Adriel Lam, Jordan Conley, and Nathan Berning are running in the general election for U.S. House Hawaii District 1 on November 3, 2026.",
+  },
+};
+
+// Idaho: the research pass explicitly (and, per the unfiltered build's
+// candidate counts, incorrectly) concluded no narrowing was needed here —
+// ID-01 came back with 7 raw candidates against an expected 4, ID-02 with
+// 9 against 4, and the Senate race with 8 against 4. Full filter for all
+// three races, same treatment as every other state in this file.
+const IDAHO_RESULTS_URL = (district: string) => `https://ballotpedia.org/Idaho%27s_${district}_Congressional_District_election,_2026`;
+
+const IDAHO_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8ID01124", "H2ID01192", "H4ID01149", "H6ID01318"],
+    source_url: IDAHO_RESULTS_URL("1st"),
+    snippet:
+      "Incumbent Russ Fulcher, Kaylee Peterson, Brendan Gomez, and Sarah Zabel are running in the general election for U.S. House Idaho District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H8ID02064", "H6ID02274", "H6ID02282", "H6ID02241"],
+    source_url: IDAHO_RESULTS_URL("2nd"),
+    snippet:
+      "The following candidates are running in the general election for U.S. House Idaho District 2 on November 3, 2026. Candidate: Michael K. Simpson (R), Elinor Gilbreath (D), Idaho Law (Constitution Party), Will Johanson (L), Emre Houser (Independent), Tripp Hutchinson (Independent).",
+  },
+  senate: {
+    advancingCandidateIds: ["S8ID00092", "S6ID00138", "S6ID00146", "S0ID00172"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Idaho,_2026",
+    snippet:
+      "Incumbent Jim Risch, David Roth, Matt Loesby, Todd Achilles, and Natalie Fleming are running in the general election for U.S. Senate Idaho on November 3, 2026.",
+  },
+};
+
+// Nevada: full per-district filter, same empirical basis as the states
+// above. NV-03 has an extra wrinkle beyond ordinary primary-loser
+// leakage — Marty O'Donnell (R) holds two separate live FEC 2026
+// registrations for the same campaign (H4NV03225, filed 2024 and still
+// active; H6NV03204, filed fresh for 2026) — both share the same current
+// committee (C00900910), so without narrowing he'd otherwise appear twice
+// as if two different candidates. Kept H4NV03225, the one with the longer
+// continuous filing history, matching the research pass's own choice.
+const NEVADA_RESULTS_URL = (district: string) => `https://ballotpedia.org/Nevada's_${district}_Congressional_District_election,_2026`;
+
+const NEVADA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8NV03036", "H6NV01331", "H6NV01315"],
+    source_url: NEVADA_RESULTS_URL("1st"),
+    snippet: "Incumbent Dina Titus, Carrie Buck, Steven St John, and Bobby Khan are running in the general election for U.S. House Nevada District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6NV02362", "H4NV04108"],
+    source_url: NEVADA_RESULTS_URL("2nd"),
+    snippet: "Teresa Benitez-Thompson, David Flippo, and Lynn Chapman are running in the general election for U.S. House Nevada District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H6NV04020", "H4NV03225"],
+    source_url: NEVADA_RESULTS_URL("3rd"),
+    snippet: "Incumbent Susie Lee, Marty O'Donnell, and Jon Kamerath are running in the general election for U.S. House Nevada District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2NV04011", "H6NV04111"],
+    source_url: NEVADA_RESULTS_URL("4th"),
+    snippet: "Incumbent Steven Horsford, Cody Whipple, Russell Best, and William Johnson are running in the general election for U.S. House Nevada District 4 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
@@ -1171,5 +1373,11 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "IA" && cycle === 2026) return IOWA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MN" && cycle === 2026) return MINNESOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NJ" && cycle === 2026) return NEW_JERSEY_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NE" && cycle === 2026) return NEBRASKA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "OK" && cycle === 2026) return OKLAHOMA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "KS" && cycle === 2026) return KANSAS_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "HI" && cycle === 2026) return HAWAII_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "ID" && cycle === 2026) return IDAHO_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NV" && cycle === 2026) return NEVADA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

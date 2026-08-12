@@ -3,7 +3,7 @@
 // exactly right for Delaware (one at-large House seat + statewide Senate) but
 // will need a state->district crosswalk once this scales to multi-district states.
 
-const STATE_FIPS: Record<string, string> = { DE: "10", WY: "56", MT: "30", VT: "50", ND: "38", SD: "46", NY: "36", GA: "13", PA: "42", MI: "26", AZ: "04", KY: "21", CO: "08", IL: "17", AR: "05", CT: "09", IN: "18", IA: "19", MN: "27", NJ: "34" }; // extend as new states are added
+const STATE_FIPS: Record<string, string> = { DE: "10", WY: "56", MT: "30", VT: "50", ND: "38", SD: "46", NY: "36", GA: "13", PA: "42", MI: "26", AZ: "04", KY: "21", CO: "08", IL: "17", AR: "05", CT: "09", IN: "18", IA: "19", MN: "27", NJ: "34", HI: "15", ID: "16", KS: "20", NE: "31", NV: "32", OK: "40", RI: "44" }; // extend as new states are added
 
 export interface UnemploymentPoint {
   year: string;
