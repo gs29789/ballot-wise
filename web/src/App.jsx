@@ -71,6 +71,13 @@ async function geocodeAddress(address) {
   const match = data.result?.addressMatches?.[0];
   if (!match) throw new Error("Couldn't resolve that address to a district. Check the spelling and try again.");
 
+  if (match.ballotWiseRedistrictingUncertain) {
+    const { countyName } = match.ballotWiseRedistrictingUncertain;
+    throw new Error(
+      `${countyName} redrew its congressional districts for 2026, and this address is in part of the county we can't yet confirm a new district for. This is a redistricting data gap, not a lookup error — check with your county board of elections for your new district.`
+    );
+  }
+
   const state = match.geographies?.States?.[0];
   const district = match.geographies?.["119th Congressional Districts"]?.[0];
   if (!state || !district) throw new Error("Census data didn't include a congressional district for that address.");

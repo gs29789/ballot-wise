@@ -415,13 +415,92 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   },
 };
 
-// Mutates each addressMatch's Congressional District entry in place when
-// the address is in a state AND county covered by the table above.
-// Silently no-ops for every other case — unmapped state, split county,
-// missing county data, malformed body — so a Census response shape this
-// doesn't expect just passes through unmodified rather than breaking the
-// request.
-function correctStaleDistrict(body) {
+// The complement of the table above, state by state: every county in NC,
+// MO, OH, and FL that is SPLIT between districts under the new 2026 map,
+// so a plain county-level correction can't safely resolve which side of
+// the split an address falls on. Listing these explicitly (rather than
+// just leaving them unhandled) lets the request below tell "this address
+// is in a state we haven't checked at all" apart from "this address is in
+// a county we know is split and can't confirm" — the second case should
+// tell the user honestly that we don't know, not silently fall through to
+// Census's possibly-still-stale answer.
+//
+// Derived as the set difference between each state's full county list
+// (the same authoritative Census reference used to build the table above)
+// and that state's whole-county table, so it reconciles exactly to each
+// state's known total with zero gaps or double-counting: NC 88+12=100,
+// MO 110+5=115, OH 73+15=88, FL 48+19=67.
+const STATE_SPLIT_COUNTIES_2026 = {
+  NC: new Set([
+    "37025", // Cabarrus County
+    "37037", // Chatham County
+    "37051", // Cumberland County
+    "37067", // Forsyth County
+    "37077", // Granville County
+    "37081", // Guilford County
+    "37119", // Mecklenburg County
+    "37133", // Onslow County
+    "37149", // Polk County
+    "37155", // Robeson County
+    "37163", // Sampson County
+    "37183", // Wake County
+  ]),
+  MO: new Set([
+    "29019", // Boone County
+    "29095", // Jackson County
+    "29099", // Jefferson County
+    "29189", // St. Louis County
+    "29225", // Webster County
+  ]),
+  OH: new Set([
+    "39017", // Butler County
+    "39023", // Clark County
+    "39035", // Cuyahoga County
+    "39041", // Delaware County
+    "39049", // Franklin County
+    "39061", // Hamilton County
+    "39075", // Holmes County
+    "39099", // Mahoning County
+    "39109", // Miami County
+    "39127", // Perry County
+    "39133", // Portage County
+    "39139", // Richland County
+    "39151", // Stark County
+    "39169", // Wayne County
+    "39173", // Wood County
+  ]),
+  FL: new Set([
+    "12011", // Broward County
+    "12021", // Collier County
+    "12031", // Duval County
+    "12057", // Hillsborough County
+    "12067", // Lafayette County
+    "12069", // Lake County
+    "12071", // Lee County
+    "12083", // Marion County
+    "12086", // Miami-Dade County
+    "12095", // Orange County
+    "12097", // Osceola County
+    "12099", // Palm Beach County
+    "12101", // Pasco County
+    "12103", // Pinellas County
+    "12105", // Polk County
+    "12109", // St. Johns County
+    "12115", // Sarasota County
+    "12127", // Volusia County
+    "12131", // Walton County
+  ]),
+};
+
+// Mutates each addressMatch in place: either corrects its Congressional
+// District entry (whole-county case, table above) or tags it with
+// ballotWiseRedistrictingUncertain (split-county case, set above) so the
+// frontend can tell the user honestly that redistricting has made this
+// address unconfirmable rather than silently showing a possibly-wrong
+// race. Silently no-ops for every other case — unmapped state, missing
+// county data, malformed body — so a Census response shape this doesn't
+// expect just passes through unmodified rather than breaking the request.
+function applyRedistrictingOverrides(body) {
   let data;
   try {
     data = JSON.parse(body);
@@ -432,18 +511,29 @@ function correctStaleDistrict(body) {
   if (!Array.isArray(matches)) return body;
   for (const match of matches) {
     const stusab = match.geographies?.States?.[0]?.STUSAB;
-    const overrides = stusab && STATE_COUNTY_DISTRICT_OVERRIDES_2026[stusab];
-    if (!overrides) continue;
+    if (!stusab) continue;
     const county = match.geographies?.Counties?.[0];
     if (!county?.STATE || !county?.COUNTY) continue;
-    const correctDistrict = overrides[`${county.STATE}${county.COUNTY}`];
-    if (!correctDistrict) continue;
-    const district = match.geographies?.["119th Congressional Districts"]?.[0];
-    if (!district) continue;
-    district.CD119 = correctDistrict;
-    district.NAME = `Congressional District ${Number(correctDistrict)}`;
-    district.GEOID = `${county.STATE}${correctDistrict}`;
-    district.BASENAME = String(Number(correctDistrict));
+    const countyGeoid = `${county.STATE}${county.COUNTY}`;
+
+    const correctDistrict = STATE_COUNTY_DISTRICT_OVERRIDES_2026[stusab]?.[countyGeoid];
+    if (correctDistrict) {
+      const district = match.geographies?.["119th Congressional Districts"]?.[0];
+      if (district) {
+        district.CD119 = correctDistrict;
+        district.NAME = `Congressional District ${Number(correctDistrict)}`;
+        district.GEOID = `${county.STATE}${correctDistrict}`;
+        district.BASENAME = String(Number(correctDistrict));
+      }
+      continue;
+    }
+
+    if (STATE_SPLIT_COUNTIES_2026[stusab]?.has(countyGeoid)) {
+      match.ballotWiseRedistrictingUncertain = {
+        state: stusab,
+        countyName: county.NAME || `${county.BASENAME} County`,
+      };
+    }
   }
   return JSON.stringify(data);
 }
@@ -470,7 +560,7 @@ export async function onRequestGet({ request }) {
   // 1 hour, not 24 — a bad response that ever slips past the looksLikeJson
   // check (block page format changes, a new upstream failure shape, etc.)
   // should self-heal within the hour rather than sticking at the edge for a day.
-  return new Response(correctStaleDistrict(result.body), {
+  return new Response(applyRedistrictingOverrides(result.body), {
     status: 200,
     headers: { "content-type": "application/json", "cache-control": "public, max-age=3600" },
   });
