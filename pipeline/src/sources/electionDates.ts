@@ -308,6 +308,78 @@ const OKLAHOMA_2026: ElectionDates = {
     "On the first Tuesday succeeding the first Monday of November, 1976, and every four (4) years thereafter, a General Election shall be held... On said date, and every two (2) years thereafter, United States Senators and United States Representatives, whose terms expire before the next succeeding General Election, and state, district and county officers, whose terms expire before the next succeeding General Election, shall be elected.",
 };
 
+const MARYLAND_2026: ElectionDates = {
+  primaryDate: "2026-06-23",
+  primarySourceUrl: "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
+  primarySnippet: "Next primary election: June 23, 2026. ... In Gubernatorial Election years: held on fourth Tuesday in June (2026, 2030) (Chapter 169, Acts of 2011; Chapter 311, Acts of 2025; Code Election Law Article, sec. 8-201).",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
+  generalSnippet: "Next general election: November 3, 2026. In even-numbered years: held on the Tuesday after 1st Monday in November (2026, 2028) (Chapter 99, Acts of 1956, ratified Nov. 6, 1956: Const., Art. XV, sec. 7; Code Election Law Article...).",
+};
+
+const MISSISSIPPI_2026: ElectionDates = {
+  primaryDate: "2026-03-10",
+  primarySourceUrl: "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+  primarySnippet: "MARCH ... 10th PRIMARY ELECTION DAY (U.S. CONGRESS): Polling places are open from 7:00 a.m. until 7:00 p.m. (Miss. Code Ann. §§ 23-15-171 and 23-15-541)",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+  generalSnippet: "NOVEMBER ... 3rd General Election Day and Regular Special Election Day. Polls open from 7 a.m. - 7 p.m. (MS Const. Art. 12, § 252; Miss. Code Ann.. § 23-15-833)",
+};
+
+const NEW_MEXICO_2026: ElectionDates = {
+  primaryDate: "2026-06-02",
+  primarySourceUrl: "https://codes.findlaw.com/nm/chapter-1-elections/nm-st-sect-1-8-11/",
+  primarySnippet: "A primary election shall be held in each county in this state on the first Tuesday after the first Monday in June of each even-numbered year. (NMSA 1978 § 1-8-11)",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.sos.nm.gov/wp-content/uploads/2025/01/NM_Constitution_-2025-for-SOS.pdf",
+  generalSnippet: "Sec. 6. [Date of general elections.] General elections shall be held in the state on the Tuesday after the first Monday in November in each even-numbered year. (New Mexico Constitution, Article XX, Section 6 — official text from the Secretary of State's published Constitution booklet)",
+};
+
+const OREGON_2026: ElectionDates = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://oregon.public.law/statutes/ors_254.056",
+  primarySnippet: "The primary election shall be held on the third Tuesday in May of each even-numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://oregon.public.law/statutes/ors_254.056",
+  generalSnippet: "The general election shall be held on the first Tuesday after the first Monday in November of each even-numbered year.",
+};
+
+const SOUTH_CAROLINA_2026: ElectionDates = {
+  primaryDate: "2026-06-09",
+  primarySourceUrl: "https://www.scstatehouse.gov/code/t07c013.php",
+  primarySnippet: "S.C. Code Ann. § 7-13-40: 'a party primary must be held by the party and conducted by the State Election Commission and the respective county boards of voter registration and elections on the second Tuesday in June of each general election year' — June 9, 2026 is the second Tuesday in June 2026.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.scstatehouse.gov/code/t07c013.php",
+  generalSnippet: "S.C. Code Ann. § 7-13-10: 'General elections for Federal, State and county officers in this State shall be held on the first Tuesday following the first Monday in November in each even-numbered year' — November 3, 2026 is the first Tuesday after the first Monday in November 2026.",
+};
+
+const VIRGINIA_2026: ElectionDates = {
+  primaryDate: "2026-08-04",
+  primarySourceUrl: "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+  primarySnippet: "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+  generalSnippet: "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times.",
+};
+
+const WEST_VIRGINIA_2026: ElectionDates = {
+  primaryDate: "2026-05-12",
+  primarySourceUrl: "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-5-1/",
+  primarySnippet: "Primary elections shall be held at the voting place in each of the voting precincts in the state, for the purposes set forth in this article, on the second Tuesday in May in the year one thousand nine hundred eighty-six and in each second year thereafter. (W. Va. Code §3-5-1)",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-1-31/",
+  generalSnippet: "General elections shall be held in the several election precincts of the state on the Tuesday next after the first Monday in November of each even year. (W. Va. Code §3-1-31(a))",
+};
+
+const WISCONSIN_2026: ElectionDates = {
+  primaryDate: "2026-08-11",
+  primarySourceUrl: "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+  primarySnippet: "Wis. Stat. § 5.02(12s): \"Partisan primary\" means the primary held the 2nd Tuesday in August to nominate candidates to be voted for at the general election.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+  generalSnippet: "Wis. Stat. § 5.02(5): \"General election\" means the election held in even-numbered years on the Tuesday after the first Monday in November to elect United States senators, representatives in congress, presidential electors, state senators, representatives to the assembly, district attorneys, state officers other than the state superintendent and judicial officers, and county officers other than supervisors and county executives.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -335,5 +407,13 @@ export function getElectionDates(stateCode: string, cycle: number): ElectionDate
   if (stateCode === "NE" && cycle === 2026) return NEBRASKA_2026;
   if (stateCode === "NV" && cycle === 2026) return NEVADA_2026;
   if (stateCode === "OK" && cycle === 2026) return OKLAHOMA_2026;
+if (stateCode === "MD" && cycle === 2026) return MARYLAND_2026;
+  if (stateCode === "MS" && cycle === 2026) return MISSISSIPPI_2026;
+  if (stateCode === "NM" && cycle === 2026) return NEW_MEXICO_2026;
+  if (stateCode === "OR" && cycle === 2026) return OREGON_2026;
+  if (stateCode === "SC" && cycle === 2026) return SOUTH_CAROLINA_2026;
+  if (stateCode === "VA" && cycle === 2026) return VIRGINIA_2026;
+  if (stateCode === "WV" && cycle === 2026) return WEST_VIRGINIA_2026;
+  if (stateCode === "WI" && cycle === 2026) return WISCONSIN_2026;
   return null;
 }

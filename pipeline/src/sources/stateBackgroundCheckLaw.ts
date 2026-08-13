@@ -431,6 +431,78 @@ const OKLAHOMA_FEDERAL: StateBackgroundCheckFact = {
 
 // office: "H" | "S" — both federal. State/county races aren't in scope yet;
 // extend this map if that changes.
+const MARYLAND_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Maryland's only felony-related officeholder provision, Md. Const. Art. XV, Section 2, does NOT disqualify felons from running for Congress. By its own text it applies only to 'elected official[s] of the State, or of a county or of a municipal corporation' -- it never mentions federal office. Even for the state/county/municipal officials it does cover, it isn't a candidacy bar at all: it only triggers suspension (and, on final conviction, removal) of someone ALREADY HOLDING elective office who is convicted of a felony (or a moral-turpitude misdemeanor tied to their duties) DURING their term. It says nothing about screening candidates before an election. No separate Election Law Article provision disqualifying felon candidates was located. Even if Maryland had such a candidacy bar for Congress specifically, U.S. Term Limits v. Thornton (1995) holds that states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), so it would be unenforceable against a congressional candidate. Net: Maryland does not disqualify felons from congressional candidacy, both on the statute's own limited scope and via federal preemption.",
+  source_url: "https://msa.maryland.gov/msa/mdmanual/43const/html/15art15.html",
+  snippet:
+    "Any elected official of the State, or of a county or of a municipal corporation who during the elected official's term of office is found guilty of any crime which is a felony... shall be suspended by operation of law without pay or benefits from the elective office... If the finding of guilt becomes a final conviction, after judicial review or otherwise, such elected official shall be removed from the elective office by operation of Law and the office shall be deemed vacant.",
+};
+
+const MISSISSIPPI_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Mississippi's felon-disqualification provision (Miss. Const. Art. 4, § 44) bars a person convicted of bribery, perjury, or 'other infamous crime' from being 'eligible to a seat in either House of the Legislature, or to any office of profit or trust' unless pardoned; a separate clause in the same subsection bars anyone convicted of bribery-related election offenses from holding 'any office of profit or trust under the laws of this state,' and §44(2) separately bars a person convicted of a qualifying felony in another state or in federal court from holding 'any office of profit or trust in this state.' The core disqualifying clause in §44(1) ('any office of profit or trust') is NOT itself worded as limited to state office the way the bribery clause and §44(2) explicitly are ('under the laws of this state' / 'in this state') — so the statute's own text leaves genuine ambiguity about whether it purports to reach a congressional seat at all. Mississippi Code §99-19-35 uses similarly unqualified language ('any office of profit, trust, or honor'), reinforcing the ambiguity rather than resolving it. Regardless of how §44 is read, however, no state felony-disqualification statute can actually keep someone off a congressional ballot or out of a congressional seat, because states cannot add qualifications for Congress beyond the U.S. Constitution's own age/citizenship/residency requirements — U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995). So the practical outcome (no state bar reaches Congress) is settled by federal preemption even though the state text's own scope is ambiguous.",
+  source_url: "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
+  snippet:
+    "SECTION 44. Ineligibility for office of person convicted of certain crimes. (1) No person shall be eligible to a seat in either House of the Legislature, or to any office of profit or trust, who shall have been convicted of bribery, perjury, or other infamous crime; and any person who shall have been convicted of giving or offering, directly, or indirectly, any bribe to procure his election or appointment, and any person who shall give or offer any bribe to procure the election or appointment of any person to office, shall, on conviction thereof, be disqualified from holding any office of profit or trust under the laws of this state. (2) No person who is convicted after ratification of this amendment in another state of any offense which is a felony under the laws of this state, and no person who is convicted after ratification of this amendment of any felony in a federal court, shall be eligible to hold any office of profit or trust in this state.",
+};
+
+const NEW_MEXICO_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Ambiguous — New Mexico has two felony-disqualification provisions with inconsistent scope. NMSA 1978 §10-1-2 broadly bars anyone convicted of a 'felonious or infamous crime' (absent a pardon or restoration of political rights) from being 'elected or appointed to any public office in this state,' language broad enough on its face to arguably reach federal offices held by NM residents. But the companion restoration statute, NMSA 1978 §31-13-1 ('Felony conviction; restoration of right to hold office of public trust'), frames the same bar narrowly as applying only to 'an office of public trust for the state, a county, a municipality or a district' — omitting federal office. Even under the broadest reading of §10-1-2, any state-imposed qualification for Congress beyond the U.S. Constitution's own textual qualifications would likely be preempted under U.S. Term Limits v. Thornton (1995). No New Mexico court decision was found squarely resolving whether §10-1-2 reaches congressional candidacy specifically, so genuine ambiguity remains.",
+  source_url: "https://codes.findlaw.com/nm/chapter-10-public-officers-and-employees/nm-st-sect-10-1-2/",
+  snippet:
+    "no person convicted of a felonious or infamous crime, unless such person has been pardoned or restored to political rights, shall be qualified to be elected or appointed to any public office in this state",
+};
+
+const OREGON_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Oregon does not disqualify convicted felons from running for U.S. House or Senate. Oregon Constitution Art. IV, Section 8 bars a felon whose sentence is not complete from serving as a state legislative Senator or Representative, but that provision is textually confined to the Oregon Legislative Assembly (state Senator/Representative) — it does not mention Congress and does not appear in the article of the constitution governing elections generally. No separate Oregon statute or the state's official Candidate Manual imposes a felony bar on federal (U.S. House/Senate) candidates. Any state attempt to add such a qualification for Congress would in any event be preempted under U.S. Term Limits, Inc. v. Thornton (1995), which holds states cannot add qualifications for Congress beyond the U.S. Constitution's own age/citizenship/residency requirements.",
+  source_url: "https://codes.findlaw.com/or/oregon-constitution/or-const-art-iv-sect-8/",
+  snippet:
+    "Or. Const. Art. IV, § 8(4): \"A person is not eligible to be elected as a Senator or Representative if that person has been convicted of a felony and has not completed the sentence received for the conviction prior to the date that person would take office if elected.\" [Located within Article IV, the Legislative Department article governing the Oregon Legislative Assembly — not Congress.]",
+};
+
+const SOUTH_CAROLINA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "South Carolina's own constitutional felony-disqualification clause (Article VI, Section 1) is textually limited to \"any office in this State or its political subdivisions\" — it does not by its own terms purport to reach federal offices like U.S. House or Senate. Candidate qualifications for Congress are set exclusively by the U.S. Constitution (age, citizenship, residency), and under U.S. Term Limits v. Thornton (1995) states cannot add additional qualifications for federal office. So while South Carolina bars felons (absent a pardon or a 15-year post-sentence waiting period) from state and local office, that bar does not reach a U.S. House or Senate candidacy — this is a state-law-text limitation, not an assertion that felons are barred from Congress by any authority.",
+  source_url: "https://www.scstatehouse.gov/scconstitution/SCConstitution.pdf",
+  snippet:
+    "No person may be popularly elected to and serve in any office in this State or its political subdivisions unless he possesses the qualifications of an elector, is not disqualified by age as prescribed in this Constitution, and has not been convicted of a felony under state or federal law or convicted of tampering with a voting machine, fraudulent registration or voting, bribery at elections... (Art. VI, Sec. 1)",
+};
+
+const VIRGINIA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+  source_url: "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+  snippet:
+    "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office.",
+};
+
+const WEST_VIRGINIA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "West Virginia's felon-disqualification-from-office provision (W. Va. Const. art. IV, §4-4, read together with the felony-voting disqualification in §4-1) is explicitly limited on its own text to 'any state, county or municipal office' — it does not by its own terms reach federal congressional candidacy. Because the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) are exclusive and states cannot add qualifications for Congress beyond them (U.S. Term Limits, Inc. v. Thornton, 1995), a felony conviction alone does not appear to bar a WV candidate from running for U.S. House or Senate. This reading is corroborated by a state official's public statement: WV Secretary of State's deputy general counsel told a reporter that a felony January 6-related conviction did not disqualify a 2026 WV congressional candidate (Derrick Evans) from running, because it was not a treason/insurrection conviction and WV's felon disqualification is a voting/state-office matter, not a bar on federal candidacy. Some genuine ambiguity remains because no WV court appears to have tested this specific provision against a congressional candidacy.",
+  source_url: "https://law.justia.com/constitution/west-virginia/",
+  snippet:
+    "W. Va. Const. Art. IV, § 4-4: \"No person, except citizens entitled to vote, shall be elected or appointed to any state, county or municipal office...\" § 4-1: \"...no person who is a minor, or who has been declared mentally incompetent by a court of competent jurisdiction, or who is under conviction of treason, felony or bribery in an election... shall be permitted to vote...\"",
+};
+
+const WISCONSIN_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "Genuinely ambiguous for congressional candidates. Wisconsin's constitution (Art. XIII, §3) has two relevant clauses. The office-eligibility clause is broad and unqualified: no person convicted of a felony 'in any court within the United States' (or of certain misdemeanors involving public trust) 'shall be eligible to any office of trust, profit or honor in this state unless pardoned' — that phrase doesn't on its face exclude federal offices like the U.S. House. But the clause's own enforcement mechanism — the ballot-access provision in the same section, which bars placing a convicted person's name on a ballot — explicitly limits itself to 'any ballot for a state or local elective office,' omitting federal races. Combined with U.S. Term Limits v. Thornton, 514 U.S. 779 (1995), which holds states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), the ballot-access text and federal preemption both point toward Wisconsin's felon bar NOT reaching U.S. House/Senate candidacy — but no Wisconsin court decision confirming that specific reading was found, so this should be treated as unresolved rather than settled either way.",
+  source_url: "https://law.justia.com/constitution/wisconsin/article-xiii/section-3/",
+  snippet:
+    "Wis. Const. Art. XIII, § 3: \"No person convicted of a felony, in any court within the United States... shall be eligible to any office of trust, profit or honor in this state unless pardoned of the conviction. No person may seek to have placed on any ballot for a state or local elective office in this state the name of a person convicted of a felony... unless the person named for the ballot has been pardoned of the conviction.\"",
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;
   if (stateCode === "WY" && (office === "H" || office === "S")) return WYOMING_FEDERAL;
@@ -458,5 +530,13 @@ export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"
   if (stateCode === "NE" && (office === "H" || office === "S")) return NEBRASKA_FEDERAL;
   if (stateCode === "NV" && (office === "H" || office === "S")) return NEVADA_FEDERAL;
   if (stateCode === "OK" && (office === "H" || office === "S")) return OKLAHOMA_FEDERAL;
+if (stateCode === "MD" && (office === "H" || office === "S")) return MARYLAND_FEDERAL;
+  if (stateCode === "MS" && (office === "H" || office === "S")) return MISSISSIPPI_FEDERAL;
+  if (stateCode === "NM" && (office === "H" || office === "S")) return NEW_MEXICO_FEDERAL;
+  if (stateCode === "OR" && (office === "H" || office === "S")) return OREGON_FEDERAL;
+  if (stateCode === "SC" && (office === "H" || office === "S")) return SOUTH_CAROLINA_FEDERAL;
+  if (stateCode === "VA" && (office === "H" || office === "S")) return VIRGINIA_FEDERAL;
+  if (stateCode === "WV" && (office === "H" || office === "S")) return WEST_VIRGINIA_FEDERAL;
+  if (stateCode === "WI" && (office === "H" || office === "S")) return WISCONSIN_FEDERAL;
   return null;
 }

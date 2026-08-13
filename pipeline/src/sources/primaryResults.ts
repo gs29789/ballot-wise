@@ -1376,6 +1376,300 @@ const NEVADA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+const MARYLAND_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8MD01094", "H6MD01320"],
+    source_url: "https://ballotpedia.org/Maryland's_1st_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 1 Incumbent Andrew Harris, Dan Schwartz, and Edward Shlikas are running in the general election for U.S. House Maryland District 1 on November 3, 2026. Candidate Andrew Harris (R) Dan Schwartz (D) Edward Shlikas (Unaffiliated) (Write-in)",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4MD02232", "H2MD06138"],
+    source_url: "https://ballotpedia.org/Maryland's_2nd_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 2 Incumbent John Olszewski Jr. and Dave Wallace are running in the general election for U.S. House Maryland District 2 on November 3, 2026. Candidate John Olszewski Jr. (D) Dave Wallace (R)",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4MD03156", "H4MD03149"],
+    source_url: "https://ballotpedia.org/Maryland's_3rd_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 3 Incumbent Sarah Elfreth and Bernard Flowers are running in the general election for U.S. House Maryland District 3 on November 3, 2026. Candidate Sarah Elfreth (D) Bernard Flowers (R)",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2MD04232"],
+    source_url: "https://ballotpedia.org/Maryland's_4th_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 4 Incumbent Glenn Ivey, George McDermott, and Sam Husseini are running in the general election for U.S. House Maryland District 4 on November 3, 2026. Candidate Glenn Ivey (D) George McDermott (R) Sam Husseini (G)",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6MD05321", "H6MD05271", "H6MD05305"],
+    source_url: "https://ballotpedia.org/Maryland's_5th_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 5 Adrian Boafo, Chris Chaffee, Jonathan Burruss, Brian Jordan, and Mildred Hall are running in the general election for U.S. House Maryland District 5 on November 3, 2026. Candidate Adrian Boafo (D) Chris Chaffee (R) Jonathan Burruss (Unaffiliated) Brian Jordan (Unaffiliated) Mildred Hall (Other) (Write-in)",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4MD06340", "H6MD06287"],
+    source_url: "https://ballotpedia.org/Maryland's_6th_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 6 Incumbent April McClain Delaney, Robin Ficker, and Moshe Landman are running in the general election for U.S. House Maryland District 6 on November 3, 2026. Candidate April McClain Delaney (D) Robin Ficker (R) Moshe Landman (G)",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6MD07020"],
+    source_url: "https://ballotpedia.org/Maryland's_7th_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 7 Incumbent Kweisi Mfume and Scott Collier are running in the general election for U.S. House Maryland District 7 on November 3, 2026. Candidate Kweisi Mfume (D) Scott Collier (R)",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H6MD08457", "H4MD08213"],
+    source_url: "https://ballotpedia.org/Maryland's_8th_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House Maryland District 8 Incumbent Jamie Raskin, Cheryl Riley, and Nancy Wallace are running in the general election for U.S. House Maryland District 8 on November 3, 2026. Candidate Jamie Raskin (D) Cheryl Riley (R) Nancy Wallace (G)",
+  },
+};
+
+const MISSISSIPPI_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6MS01131", "H6MS01313"],
+    source_url: "https://ballotpedia.org/Mississippi's_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Trent Kelly, Cliff Johnson, and Johnny Baucom are running in the general election for U.S. House Mississippi District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4MS02068", "H2MS02203", "H6MS02188"],
+    source_url: "https://ballotpedia.org/Mississippi's_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Bennie Thompson, Ron Eller, and Bennie Foster are running in the general election for U.S. House Mississippi District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H8MS03125", "H6MS03228", "H6MS03236"],
+    source_url: "https://ballotpedia.org/Mississippi's_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Michael Guest, Michael Chiaradio, and Erik Kiehle are running in the general election for U.S. House Mississippi District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2MS04258", "H6MS04242", "H6MS04259"],
+    source_url: "https://ballotpedia.org/Mississippi's_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Mike Ezell, Jeffrey Hulum III, and Carl Boyanton are running in the general election for U.S. House Mississippi District 4 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S8MS00261", "S6MS00133", "S4MS00187"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Mississippi,_2026",
+    snippet: "Incumbent Cindy Hyde-Smith, Scott Colom, and Ty Pinkins are running in the general election for U.S. Senate Mississippi on November 3, 2026.",
+  },
+};
+
+const NEW_MEXICO_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2NM01144", "H6NM01129"],
+    source_url: "https://ballotpedia.org/New_Mexico%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Melanie Ann Stansbury and Ndidiamaka Okpareke are running in the general election for U.S. House New Mexico District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2NM02191", "H6NM02127"],
+    source_url: "https://ballotpedia.org/New_Mexico%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Gabriel Vasquez and Greg Cunningham are running in the general election for U.S. House New Mexico District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0NM03102", "H6NM03083"],
+    source_url: "https://ballotpedia.org/New_Mexico%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Teresa Leger Fernandez and Martin Ruben Zamora are running in the general election for U.S. House New Mexico District 3 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S0NM00058", "S6NM01186", "S6NM01152"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
+    snippet: "Incumbent Ben Ray Luján, Larry E. Marker, and Cameron Chick are running in the general election for U.S. Senate New Mexico on November 3, 2026.",
+  },
+};
+
+const OREGON_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2OR01133", "H6OR01308"],
+    source_url: "https://ballotpedia.org/Oregon%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Suzanne Bonamici and Barbara Kahl are running in the general election for U.S. House Oregon District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H0OR02127", "H6OR02322"],
+    source_url: "https://ballotpedia.org/Oregon%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Cliff Bentz and Chris Beck are running in the general election for U.S. House Oregon District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4OR03192"],
+    source_url: "https://ballotpedia.org/Oregon%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Maxine Dexter and Loran Ayles are running in the general election for U.S. House Oregon District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2OR04095", "H6OR04260"],
+    source_url: "https://ballotpedia.org/Oregon%27s_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Val Hoyle and Monique DeSpain are running in the general election for U.S. House Oregon District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H4OR05304", "H6OR05242"],
+    source_url: "https://ballotpedia.org/Oregon%27s_5th_Congressional_District_election,_2026",
+    snippet: "Incumbent Janelle Bynum and Patti Adair are running in the general election for U.S. House Oregon District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H2OR06066", "H2OR01240", "H6OR06018"],
+    source_url: "https://ballotpedia.org/Oregon%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Andrea Salinas, David Russ, and Jason Faler are running in the general election for U.S. House Oregon District 6 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S8OR00207", "S6OR05218"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Oregon,_2026",
+    snippet: "Incumbent Jeff Merkley and David Brock Smith are running in the general election for U.S. Senate Oregon on November 3, 2026.",
+  },
+};
+
+const SOUTH_CAROLINA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6SC01359", "H6SC01334", "H6SC01342", "H6SC01375"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_1st_Congressional_District_election,_2026",
+    snippet: "Nancy Lacore, Jenny Honeycutt, Margo Ellis, Bill Reeside, and Clayton Cuteri are running in the general election for U.S. House South Carolina District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2SC02059", "H6SC02159"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Joe Wilson, Zyon Khalifa, and Dayna Alane Smith are running in the general election for U.S. House South Carolina District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H4SC01313", "H6SC03090"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Sheri Biggs, Eunice Lehmacher, and Brian Corriea are running in the general election for U.S. House South Carolina District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8SC04250", "H6SC04171", "H6SC04197"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent William Timmons, Courtney McClain, and Jessica Ethridge are running in the general election for U.S. House South Carolina District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6SC05228", "H6SC05202", "H6SC05236"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_5th_Congressional_District_election,_2026",
+    snippet: "Mallory Dittmer, Wes Climer, and Andy Kaplan are running in the general election for U.S. House South Carolina District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H2SC02042", "H6SC06184"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent James Clyburn, John Peterson, and Joseph Oddo are running in the general election for U.S. House South Carolina District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H2SC07280", "H6SC07034", "H8SC07089"],
+    source_url: "https://ballotpedia.org/South_Carolina%27s_7th_Congressional_District_election,_2026",
+    snippet: "Incumbent Russell Fry (R), John Vincent (D), and Branden Brown (R) are running in the general election for U.S. House South Carolina District 7 on November 3, 2026.",
+  },
+};
+
+const VIRGINIA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8VA01147", "H6VA01299"],
+    source_url: "https://ballotpedia.org/Virginia's_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Robert J. Wittman and Shannon Taylor are running in the general election for U.S. House Virginia District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2VA02064", "H6VA02198", "H6VA02230", "H6VA02248", "H6VA02222"],
+    source_url: "https://ballotpedia.org/Virginia's_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Jennifer Kiggans, Elaine Luria, DeVinche Albritton, Makiba Gaines, and Bishop Staten are running in the general election for U.S. House Virginia District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H6VA01117", "H6VA03121", "H2VA03096", "H6VA03097"],
+    source_url: "https://ballotpedia.org/Virginia's_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Robert C. Scott, Edwin Rivera, James Taylor, and Dawn Vasquez are running in the general election for U.S. House Virginia District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H4VA04066", "H6VA04095"],
+    source_url: "https://ballotpedia.org/Virginia's_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Jennifer McClellan and Jason Brown are running in the general election for U.S. House Virginia District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0VA07133", "H6VA05217", "H6VA05241", "H6VA05225"],
+    source_url: "https://ballotpedia.org/Virginia's_5th_Congressional_District_election,_2026",
+    snippet: "Incumbent John McGuire, Tom Perriello, Cooke Harvey, and Chris Register are running in the general election for U.S. House Virginia District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8VA06104", "H6VA06173"],
+    source_url: "https://ballotpedia.org/Virginia's_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Benjamin Lee Cline and Beth Macy are running in the general election for U.S. House Virginia District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H4VA07234", "H6VA07205", "H6VA07353"],
+    source_url: "https://ballotpedia.org/Virginia's_7th_Congressional_District_election,_2026",
+    snippet: "Incumbent Eugene Vindman, Douglas Ollivant, and Alaha Ahrar are running in the general election for U.S. House Virginia District 7 on November 3, 2026.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4VA08224", "H6VA08252"],
+    source_url: "https://ballotpedia.org/Virginia's_8th_Congressional_District_election,_2026",
+    snippet: "Incumbent Donald Sternoff Beyer Jr. and Tony Sabio are running in the general election for U.S. House Virginia District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H0VA09055", "H6VA09136", "H6VA09151"],
+    source_url: "https://ballotpedia.org/Virginia's_9th_Congressional_District_election,_2026",
+    snippet: "Incumbent H. Morgan Griffith, Joy Powers, and Michael Jackson are running in the general election for U.S. House Virginia District 9 on November 3, 2026.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H4VA10279", "H2VA10273", "H6VA10241", "H6VA10266"],
+    source_url: "https://ballotpedia.org/Virginia's_10th_Congressional_District_election,_2026",
+    snippet: "Incumbent Suhas Subramanyam, Dave Beckwith, Steven Goforth, and Omar Morsy are running in the general election for U.S. House Virginia District 10 on November 3, 2026.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6VA11066", "H6VA11249"],
+    source_url: "https://ballotpedia.org/Virginia's_11th_Congressional_District_election,_2026",
+    snippet: "Incumbent James Walkinshaw and Arthur Purves are running in the general election for U.S. House Virginia District 11 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6VA00093", "S8VA00321", "S6VA00218"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Virginia,_2026",
+    snippet: "Incumbent Mark Warner, Bert Mizusawa, and Mark Moran are running in the general election for U.S. Senate Virginia on November 3, 2026.",
+  },
+};
+
+const WEST_VIRGINIA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8WV03097", "H6WV01160", "H6WV01103"],
+    source_url: "https://ballotpedia.org/West_Virginia's_1st_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House West Virginia District 1 — Incumbent Carol Miller, Vince George, Belinda Fox-Spencer, and Isaiah Rucker are running in the general election for U.S. House West Virginia District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4WV02205", "H6WV02150", "H6WV02176", "H6WV02168"],
+    source_url: "https://ballotpedia.org/West_Virginia's_2nd_Congressional_District_election,_2026",
+    snippet: "General election for U.S. House West Virginia District 2 — Incumbent Riley Moore, Ace Parsi, Patrick Carney, and Christopher Whitcomb are running in the general election for U.S. House West Virginia District 2 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S4WV00159", "S6WV00188", "S6WV00204", "S6WV00170"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_West_Virginia,_2026",
+    snippet: "General election for U.S. Senate West Virginia — Incumbent Shelley Moore Capito, Rachel Fetty Anderson, S. Marshall Wilson, and Rio Phillips are running in the general election for U.S. Senate West Virginia on November 3, 2026.",
+  },
+};
+
+const WISCONSIN_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8WI01156", "H6WI01283"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Bryan Steil and Mitchell Berman are running in the general election for U.S. House Wisconsin District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2WI02124"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Mark Pocan is running in the general election for U.S. House Wisconsin District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0WI03175", "H4WI03169", "H6WI03230", "H2WI03163"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Derrick Van Orden, Rebecca Cooke, Alexander Valiensi Kent, and Rustin Provance are running in the general election for U.S. House Wisconsin District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H4WI04183", "H4WI04274"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Gwen Moore, Tim Rogers, and Arthur Burks are running in the general election for U.S. House Wisconsin District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H0WI05113", "H6WI05136"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_5th_Congressional_District_election,_2026",
+    snippet: "Incumbent Scott Fitzgerald and Andrew Beck are running in the general election for U.S. House Wisconsin District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4WI06048", "H6WI06274", "H6WI06241", "H6WI06233", "H6WI06191"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Glenn Grothman, Matthew Arndt, Elizabeth Fitzgibbon, and Mike Thurow are running in the general election for U.S. House Wisconsin District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6WI07207", "H6WI07223"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_7th_Congressional_District_election,_2026",
+    snippet: "Fred Clark and Michael Alfonso are running in the general election for U.S. House Wisconsin District 7 on November 3, 2026.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4WI08119", "H6WI08205"],
+    source_url: "https://ballotpedia.org/Wisconsin%27s_8th_Congressional_District_election,_2026",
+    snippet: "Incumbent Tony Wied and Rick Crosson are running in the general election for U.S. House Wisconsin District 8 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
@@ -1401,5 +1695,13 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "HI" && cycle === 2026) return HAWAII_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ID" && cycle === 2026) return IDAHO_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NV" && cycle === 2026) return NEVADA_2026_PRIMARY[raceSlug] ?? null;
+if (state === "MD" && cycle === 2026) return MARYLAND_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "MS" && cycle === 2026) return MISSISSIPPI_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NM" && cycle === 2026) return NEW_MEXICO_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "OR" && cycle === 2026) return OREGON_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "SC" && cycle === 2026) return SOUTH_CAROLINA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "VA" && cycle === 2026) return VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "WV" && cycle === 2026) return WEST_VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "WI" && cycle === 2026) return WISCONSIN_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }
