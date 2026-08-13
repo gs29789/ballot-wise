@@ -1670,6 +1670,233 @@ const WISCONSIN_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+const NORTH_CAROLINA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2NC02287", "H4NC01137", "H8NC13075"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Donald Davis (Incumbent) (Democratic Party); Laurie Buckhout (Republican Party); Tom Bailey (Libertarian Party)",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H0NC02125", "H4NC02135", "H6NC02205"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Deborah Ross (Incumbent) (Democratic Party); Eugene Douglass (Republican Party); Matthew Laszacs (Libertarian Party)",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0NC03172", "H6NC03229", "H6NC03237"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Gregory Murphy (Incumbent) (Republican Party); Raymond Smith Jr. (Democratic Party); Daniel Cavender (Libertarian Party)",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2NC06114", "H4NC02150", "H4NC04149"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Valerie Foushee (Incumbent) (Democratic Party); Mahesh Ganorkar (Republican Party); Guy Meilleur (Libertarian Party)",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H4NC05146", "H4NC05294", "H6NC05174", "H6NC05133"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Virginia Foxx (Incumbent) (Republican Party); Chuck Hubbard (Democratic Party); Robert Luffman (Libertarian Party); David Clayton (Independent)",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4NC06177", "H6NC06164", "H6NC06149"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Addison McDowell (Incumbent) (Republican Party); Cyril Jefferson (Democratic Party); Joshua Hager (Independent)",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H2NC07096", "H6NC07196", "H6NC07204", "H6NC07212"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "David Rouzer (Incumbent) (Republican Party); Kimberly Hardy (Democratic Party); Maad Abu-Ghazalah (Libertarian Party); Michael Henry (Independent)",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4NC08066", "H6NC08202", "H6NC08210"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Mark Harris (Incumbent) (Republican Party); Colby Watson (Democratic Party); Bo Whitehead (Green Party)",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H2NC08185", "H6NC09218", "H6NC09234"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Richard Hudson (Incumbent) (Republican Party); Richard Ojeda (Democratic Party); Tita Hunter-Herod (Independent)",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H2NC13243", "H6NC10174", "H4NC10146"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Pat Harrigan (Incumbent) (Republican Party); Ashley Bell (Democratic Party); Steven Feldman (Libertarian Party)",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H4NC12100", "H6NC12113"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Alma Adams (Incumbent) (Democratic Party); Jack Codiga (Republican Party)",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H4NC13116", "H6NC13228", "H6NC13244", "H6NC13251"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Brad Knott (Incumbent) (Republican Party); Paul Barringer (Democratic Party); Anthony Aguilar (Green Party); Steven Swinton (Libertarian Party)",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H4NC14015", "H6NC14069"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    snippet: "Timothy K. Moore (Incumbent) (Republican Party); Lakesha Womack (Democratic Party)",
+  },
+  senate: {
+    advancingCandidateIds: ["S6NC00407", "S6NC00415", "S0NC00335", "S6NC00563"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+    snippet: "US SENATE / DUBLIN, MICHAEL LOUIS JR / 06/15/2026 ... Michael Dublin / GRE [and] US SENATE / COOPER, ROY ASBERRY III / 12/03/2025 ... Roy Cooper / DEM [and] US SENATE / BRAY, SHANNON WILSON / 12/17/2025 ... Shannon W. Bray / LIB [and] US SENATE / WHATLEY, MICHAEL DAVID / 12/02/2025 ... Michael Whatley / REP — sourced from the official NCSBE 2026 general candidate filing database (s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_detail_list.pdf), generated Aug 13, 2026; no 'McGinnis' or 'Shaunesi' entries appear anywhere in that 475-page, all-100-county document.",
+  },
+};
+
+const MISSOURI_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H4MO01134", "H2MO02219", "H0MO08285", "H6MO01329"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Wesley Bell (Incumbent) (Democratic Party) Paul Berry (Republican Party) Tom Schmitz (Libertarian Party) Xavier Phillips (Independent)",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2MO02102", "H6MO02343", "H4MO02116"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Ann Wagner (Incumbent) (Republican Party) Frederick Wellman (Democratic Party) Brandon Daugherty (Libertarian Party)",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2MO03167", "H8MO09146", "H2MO02078"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Bob Onder (Incumbent) (Republican Party) Bethany Mann (Democratic Party) Jim Higgins (Libertarian Party)",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2MO04207", "H6MO05254", "H2MO04108"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Mark Alford (Incumbent) (Republican Party) Jordan Herrera (Democratic Party) Thomas Holbrook (Libertarian Party)",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H4MO05234", "H2MO04199", "H6MO05197", "H6MO05288"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Emanuel Cleaver (Incumbent) (Democratic Party) Rick Brattin (Republican Party) Randy Langkraehr (Libertarian Party) Todd Becker (Independent)",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H6MO06310", "H6MO06260", "H2MO06269"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Josh Smead (Democratic Party) Chris Stigall (Republican Party) Andy Maidment (Libertarian Party)",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H2MO07143", "H4MO07156", "H4MO07107"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Eric Burlison (Incumbent) (Republican Party) Missi Hesketh (Democratic Party) Kevin Craig (Libertarian Party)",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H4MO08162", "H6MO08183"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    snippet: "Jason Smith (Incumbent) (Republican Party) Christopher Reichard (Democratic Party) Rebecca Sharpe Lombard (Libertarian Party)",
+  },
+};
+
+const OHIO_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2OH01194", "H6OH01138", "H6OH01179", "H6OH01237", "H6OH01229"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Greg Landsman  (Incumbent) (Democratic Party) Eric Conroy  (Republican Party) John Hancock  (Libertarian Party) Nathan Weise  (Libertarian Party)",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4OH02248"],
+    source_url: "https://ballotpedia.org/Ohio%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent David Taylor and Jen Mazzuckelli are running in the general election for U.S. House Ohio District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2OH03125"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Joyce Beatty  (Incumbent) (Democratic Party) Cleophus Dulaney  (Republican Party)",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6OH04082", "H6OH04181"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Jim Jordan  (Incumbent) (Republican Party) Joshua Kolasinski  (Democratic Party) Tracey Tackett  (Independent) Did not make the ballot: Tamie Wilson (Independent)",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8OH05036", "H6OH05154", "H6OH05139"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Bob Latta  (Incumbent) (Republican Party) Brian Shaver  (Democratic Party) Michael Veloff  (Libertarian Party) Dalton Franklin  (Independent)",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4OH06165", "H6OH06244"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Michael Rulli  (Incumbent) (Republican Party) Elizabeth Kirtley  (Democratic Party)",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H2OH16051", "H6OH07168"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Max Miller  (Incumbent) (Republican Party) Brian Poindexter  (Democratic Party) Thahbia Asad  (Independent) (Write-in) Andrey Martinichin  (Independent) (Write-in)",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H6OH08315", "H8OH08097"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Warren Davidson  (Incumbent) (Republican Party) Vanessa Enoch  (Democratic Party)",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H2OH09031", "H4OH09169"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Marcy Kaptur  (Incumbent) (Democratic Party) Derek Merrin  (Republican Party) Matthew Althaus  (Libertarian Party)",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H2OH03067", "H6OH10121"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Michael Turner  (Incumbent) (Republican Party) Kristina Knickerbocker  (Democratic Party) Thomas McMasters  (Libertarian Party)",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H2OH11169", "H6OH11186"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Shontel Brown  (Incumbent) (Democratic Party) Mike Kirchner  (Republican Party) Cortney Peterson  (Independent)",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H8OH12180", "H4OH12080"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Troy Balderson  (Incumbent) (Republican Party) Jerrad Christian  (Democratic Party)",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H2OH13264", "H6OH13307", "H6OH13273"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Emilia Sykes  (Incumbent) (Democratic Party) Carey Coleman  (Republican Party) Sandeep Dixit  (Independent)",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H2OH14064", "H6OH14248"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "David Joyce  (Incumbent) (Republican Party) Maria Jukic  (Democratic Party)",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H2OH15228", "H6OH15112", "H6OH15138", "H6OH01088"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    snippet: "Mike Carey  (Incumbent) (Republican Party) Don Leonard  (Democratic Party) Brennan Barrington  (Libertarian Party) Samuel Ronan  (Independent) (Write-in)",
+  },
+  senate: {
+    advancingCandidateIds: ["S6OH00304", "S6OH00163", "S6OH00429", "S6OH00395", "S8OH00144"],
+    source_url: "https://ballotpedia.org/United_States_Senate_special_election_in_Ohio,_2026",
+    snippet: "Incumbent Jon Husted, Sherrod Brown, Bill Redpath, Gregory Levy, and Stephen Faris are running in the special general election for U.S. Senate Ohio on November 3, 2026.",
+  },
+};
+
+const FLORIDA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-08": {
+    advancingCandidateIds: ["H4FL08168", "H6FL06399"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    snippet: "This primary was canceled and this candidate advanced: Mike Haridopolos (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Jennifer Jenkins ✔",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H2FL10259"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    snippet: "The Republican Party primary was canceled. No candidates filed for this race.",
+  },
+  "house-18": {
+    advancingCandidateIds: ["H0FL15104", "H6FL18212", "H6FL18204"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    snippet: "This primary was canceled and this candidate advanced: Curtis Gibson ✔ ... This primary was canceled and this candidate advanced: Scott Franklin (Incumbent) ✔",
+  },
+  "house-26": {
+    advancingCandidateIds: ["H2FL25018", "H6FL26058", "H6FL26074"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    snippet: "This primary was canceled and this candidate advanced: Mario Diaz-Balart (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Nicole Locklin ✔",
+  },
+  "house-28": {
+    advancingCandidateIds: ["H0FL26036", "H4FL28042", "H6FL28021"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    snippet: "This primary was canceled and this candidate advanced: Carlos Gimenez (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Phil Ehr ✔",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
@@ -1703,5 +1930,9 @@ if (state === "MD" && cycle === 2026) return MARYLAND_2026_PRIMARY[raceSlug] ?? 
   if (state === "VA" && cycle === 2026) return VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "WV" && cycle === 2026) return WEST_VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "WI" && cycle === 2026) return WISCONSIN_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "NC" && cycle === 2026) return NORTH_CAROLINA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "MO" && cycle === 2026) return MISSOURI_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "OH" && cycle === 2026) return OHIO_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "FL" && cycle === 2026) return FLORIDA_2026_PRIMARY[raceSlug] ?? null;
   return null;
 }

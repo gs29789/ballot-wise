@@ -380,6 +380,42 @@ const WISCONSIN_2026: ElectionDates = {
   generalSnippet: "Wis. Stat. § 5.02(5): \"General election\" means the election held in even-numbered years on the Tuesday after the first Monday in November to elect United States senators, representatives in congress, presidential electors, state senators, representatives to the assembly, district attorneys, state officers other than the state superintendent and judicial officers, and county officers other than supervisors and county executives.",
 };
 
+const NORTH_CAROLINA_2026: ElectionDates = {
+  primaryDate: "2026-03-03",
+  primarySourceUrl: "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+  primarySnippet: "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+  generalSnippet: "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years",
+};
+
+const MISSOURI_2026: ElectionDates = {
+  primaryDate: "2026-08-04",
+  primarySourceUrl: "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+  primarySnippet: "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+  generalSnippet: "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years.",
+};
+
+const OHIO_2026: ElectionDates = {
+  primaryDate: "2026-05-05",
+  primarySourceUrl: "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+  primarySnippet: "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+  generalSnippet: "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held.",
+};
+
+const FLORIDA_2026: ElectionDates = {
+  primaryDate: "2026-08-18",
+  primarySourceUrl: "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+  primarySnippet: "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+  generalSnippet: "on the first Tuesday after the first Monday in November of each even-numbered year",
+};
+
 export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
@@ -415,5 +451,9 @@ if (stateCode === "MD" && cycle === 2026) return MARYLAND_2026;
   if (stateCode === "VA" && cycle === 2026) return VIRGINIA_2026;
   if (stateCode === "WV" && cycle === 2026) return WEST_VIRGINIA_2026;
   if (stateCode === "WI" && cycle === 2026) return WISCONSIN_2026;
+  if (stateCode === "NC" && cycle === 2026) return NORTH_CAROLINA_2026;
+  if (stateCode === "MO" && cycle === 2026) return MISSOURI_2026;
+  if (stateCode === "OH" && cycle === 2026) return OHIO_2026;
+  if (stateCode === "FL" && cycle === 2026) return FLORIDA_2026;
   return null;
 }
