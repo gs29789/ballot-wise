@@ -69,6 +69,27 @@ const MONTANA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Vermont's primary was 2026-08-11; this entry was added 2026-08-13, over a
+// day late — the mechanism existed from day one (Vermont was one of the
+// original three at-large pilot states) but narrowing was never actually
+// applied for it, a real tracked gap (see [[ballotwise-primary-results-gap]]
+// memory). Confirmed via a direct Ballotpedia check against the unfiltered
+// build output: Mark Coester (R) lost the primary to Gerald Malloy but still
+// held a live FEC registration; a second stray registration ("CARLSON, OWEN
+// NICHOLAS", no party) doesn't match anyone on Ballotpedia's actual
+// candidate list at all and was excluded the same way as Hawaii's Gelt.
+// Andrew Giusto is included despite being Ballotpedia's officially-listed
+// write-in candidate — he's still in the "General election" candidate table
+// they publish, not excluded from it.
+const VERMONT_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-AL": {
+    advancingCandidateIds: ["H2VT01076", "H6VT01085", "H6VT00269", "H6VT01093", "H6VT01051"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_election_in_Vermont,_2026",
+    snippet:
+      "The following candidates are running in the general election for U.S. House Vermont At-large District on November 3, 2026. Becca Balint (D) Gerald Malloy (R) Adam Ortiz (Independent) Suzanne Seymour (Independent) Ryan Walton (Independent) Andrew Giusto (Unity Party) (Write-in).",
+  },
+};
+
 // North Dakota's official results dashboard (resultsnd.sos.nd.gov) is a
 // JS-rendered live page, not a static document like Montana's PDF canvass —
 // confirmed certified by the State Canvassing Board 2026-06-25 (per
@@ -1357,6 +1378,7 @@ const NEVADA_2026_PRIMARY: Record<string, PrimaryResult> = {
 
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
