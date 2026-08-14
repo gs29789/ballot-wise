@@ -416,7 +416,38 @@ const FLORIDA_2026: ElectionDates = {
   generalSnippet: "on the first Tuesday after the first Monday in November of each even-numbered year",
 };
 
-export function getElectionDates(stateCode: string, cycle: number): ElectionDates | null {
+// Alabama ran two separate primary tracks in 2026: the regular calendar
+// (May 19 primary + June 16 runoff) governed Districts 3/4/5, while a
+// mid-decade map change (SCOTUS-permitted, see primaryResults.ts) forced a
+// standalone special primary (Aug 11) for Districts 1/2/6/7 — the only
+// four districts actually redrawn. The Senate race and Districts 3/4/5
+// follow the regular track since redistricting doesn't touch the Senate
+// or those three districts' lines.
+const ALABAMA_2026_REGULAR_PRIMARY = {
+  primaryDate: "2026-05-19",
+  primarySourceUrl: "https://www.sos.alabama.gov/sites/default/files/election-2026/AdminCalendar%20-2026.pdf",
+  primarySnippet: "Alabama Statewide Primary Election - May 19, 2026 / Primary Runoff Election - June 16, 2026 / General Election - November 3, 2026.",
+};
+const ALABAMA_2026_SPECIAL_PRIMARY = {
+  primaryDate: "2026-08-11",
+  primarySourceUrl:
+    "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
+  primarySnippet: "Governor Ivey set the special primary election for Tuesday, August 11, 2026.",
+};
+const ALABAMA_2026_GENERAL = {
+  generalDate: "2026-11-03",
+  generalSourceUrl:
+    "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
+  generalSnippet: "The general election will occur as planned with all other races on Tuesday, November 3, 2026.",
+};
+const AL_SPECIAL_PRIMARY_RACE_SLUGS = new Set(["house-01", "house-02", "house-06", "house-07"]);
+function getAlabamaElectionDates(raceSlug?: string): ElectionDates {
+  const primary = raceSlug && AL_SPECIAL_PRIMARY_RACE_SLUGS.has(raceSlug) ? ALABAMA_2026_SPECIAL_PRIMARY : ALABAMA_2026_REGULAR_PRIMARY;
+  return { ...primary, ...ALABAMA_2026_GENERAL };
+}
+
+export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
+  if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

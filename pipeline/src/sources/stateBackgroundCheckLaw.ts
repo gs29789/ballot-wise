@@ -531,7 +531,21 @@ const FLORIDA_FEDERAL: StateBackgroundCheckFact = {
   snippet: "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability.",
 };
 
+// Alabama is shaped like Illinois: the felony bar applies only to "office
+// under the authority of this state" by its own text, not federal office.
+const ALABAMA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Alabama's felony-disqualification statute (Ala. Code § 36-2-1(a)(3)) applies only to \"office under the authority of this state\" by its own text, not federal office; no separate background-check-disclosure requirement was found in Alabama's candidate qualifying process either; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://web.archive.org/web/2025/https://law.justia.com/codes/alabama/title-36/chapter-2/section-36-2-1/",
+  snippet:
+    "Section 36-2-1 - Persons Not Eligible to Hold State Office... (a) The following persons shall be ineligible to and disqualified from holding office under the authority of this state: ... (3) Those who shall have been convicted of treason, embezzlement of public funds, malfeasance in office, larceny, bribery or any other crime punishable by imprisonment in the state or federal penitentiary and those who are idiots or insane. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
+  if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;
   if (stateCode === "WY" && (office === "H" || office === "S")) return WYOMING_FEDERAL;
   if (stateCode === "MT" && (office === "H" || office === "S")) return MONTANA_FEDERAL;

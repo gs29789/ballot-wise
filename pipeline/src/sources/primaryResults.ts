@@ -1902,7 +1902,135 @@ const FLORIDA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Alabama ran two primary tracks in 2026 (see electionDates.ts) but both
+// feed the same Nov 3 general election field. Districts 1/2/6/7 voted in
+// the Aug 11 special primary forced by the mid-decade map change (map
+// permitted for 2026 by two SCOTUS interventions — see this project's own
+// research notes; the underlying discrimination finding is stayed, not
+// reversed, but the Nov 3 field is fixed regardless of how that eventually
+// resolves). Districts 3/4/5 and the Senate race weren't affected by the
+// redraw and voted on the regular May 19 primary + June 16 runoff.
+const ALABAMA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6AL01094", "H0AL01055"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Clyde Jones (Democratic Party) Jerry Carl (Republican Party)",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H4AL02170", "H6AL01086"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Shomari Figures (Incumbent) (Democratic Party) Rhett Marques (Republican Party)",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2AL03032", "H6AL03199"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Mike Rogers (Incumbent) (Republican Party) Lee McInnis (Democratic Party)",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6AL04098", "H6AL05228"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Robert Aderholt (Incumbent) (Republican Party) Amanda Pusczek (Democratic Party)",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H2AL05102", "H6AL05244"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Dale Strong (Incumbent) (Republican Party) Andrew Sneed (Democratic Party)",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4AL06098", "H6AL06184"],
+    source_url: "https://ballotpedia.org/Alabama%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Gary Palmer (R) and Maurice Mercer (D) are running in the special general election for U.S. House Alabama District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H0AL07086", "H6AL07208"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    snippet: "Terri Sewell (Incumbent) (Democratic Party) Ammie Akin (Republican Party)",
+  },
+  senate: {
+    advancingCandidateIds: ["S6AL00518", "S6AL00476"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Alabama,_2026",
+    snippet: "Everett Wess and Barry Moore are running in the general election for U.S. Senate Alabama on November 3, 2026.",
+  },
+};
+
+// Tennessee redrew its congressional map in a May 2026 special session; a
+// three-judge federal panel denied a preliminary injunction against it in
+// July 2026, explicitly allowing the map to govern both the Aug 6 primary
+// and the Nov 3 general (Sherman v. Hargett merits litigation remains
+// pending but nothing currently blocks the map). Several minor independent
+// candidates Ballotpedia lists have no confirmed FEC record (below FEC's
+// ~$5,000 registration threshold) and are simply omitted here — there's no
+// FEC candidate record for advancingCandidateIds to reference either way.
+const TENNESSEE_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H0TN01118", "H6TN01537", "H0TN01191"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_1st_Congressional_District_election,_2026",
+    snippet: "The following candidates are running in the general election for U.S. House Tennessee District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H8TN02119", "H6TN02170", "H6TN02188"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Tim Burchett, Michaela Barnett, Bruce Fine, and Adam Heimerman are running in the general election for U.S. House Tennessee District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0TN03254", "H6TN03228", "H4TN03165", "H6TN03210", "H6TN03244"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_3rd_Congressional_District_election,_2026",
+    snippet: "The following candidates are running in the general election for U.S. House Tennessee District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H0TN04195", "H4TN04270", "H6TN04242", "H2TN06188"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Scott DesJarlais, Victoria Broderick, Jacob Anders, and Clay Faircloth are running in the general election for U.S. House Tennessee District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    // No incumbent: Andy Ogles (R) lost the primary to Hatcher.
+    advancingCandidateIds: ["H6TN05405", "H6TN05397", "H6TN05447"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_5th_Congressional_District_election,_2026",
+    snippet: "Chaz Molder, Charlie Hatcher, James Johnson, and Micheal O'Leary are running in the general election for U.S. House Tennessee District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    // Open seat: incumbent John Rose did not seek re-election.
+    advancingCandidateIds: ["H6TN06213", "H6TN06171", "H6TN06189"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_6th_Congressional_District_election,_2026",
+    snippet: "Mike Croley, Johnny Garrett, Christopher Monday, and Angus Purdy are running in the general election for U.S. House Tennessee District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    // FEC also carries a stale "incumbent" record for Mark Green (H8TN07076),
+    // who resigned July 20, 2025; Van Epps won the Dec 2025 special election
+    // and is the real 2026 incumbent — Green doesn't appear on Ballotpedia's
+    // 2026 candidate list at all, so his FEC ID is deliberately excluded.
+    advancingCandidateIds: ["H6TN07161", "H6TN07286", "H6TN06288", "H6TN05330"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_7th_Congressional_District_election,_2026",
+    snippet: "Incumbent Matt Van Epps, Darden Copeland, Andrew Koontz, and Lowell Reynolds are running in the general election for U.S. House Tennessee District 7 on November 3, 2026.",
+  },
+  "house-08": {
+    // Kustoff's FEC ID retains a "07" code from a prior redistricting cycle;
+    // FEC's own district_number field confirms his current assignment is 8.
+    advancingCandidateIds: ["H2TN07103", "H6TN08367", "H6TN08383", "H6TN08391", "H6TN08342"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_8th_Congressional_District_election,_2026",
+    snippet: "The following candidates are running in the general election for U.S. House Tennessee District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    // No incumbent: longtime Rep. Steve Cohen lost the Democratic primary to
+    // Justin Pearson. This is the Memphis district at the center of the
+    // redistricting dispute (majority-Black district split into three).
+    advancingCandidateIds: ["H6TN09464", "H6TN09449", "H0TN09111"],
+    source_url: "https://ballotpedia.org/Tennessee%27s_9th_Congressional_District_election,_2026",
+    snippet: "Justin Pearson, Brent Taylor, Dennis Jeffrey Clark, and Michelle Head are running in the general election for U.S. House Tennessee District 9 on November 3, 2026.",
+  },
+  senate: {
+    // Two FEC-registered candidates (Owen Carlson/UST, Gavin Solomon/REP) do
+    // not appear on Ballotpedia's general-election list and are excluded —
+    // they filed but didn't qualify for the Nov 3 ballot.
+    advancingCandidateIds: ["S0TN00169", "S4TN00542", "S4TN00583", "S6TN00372", "S6TN00364", "S6TN00398", "S6TN00414"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Tennessee,_2026",
+    snippet: "The following candidates are running in the general election for U.S. Senate Tennessee on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
+  if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;

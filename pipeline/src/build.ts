@@ -436,7 +436,7 @@ export async function buildRace(opts: BuildRaceOptions) {
     cycle: opts.cycle,
     race_slug: opts.raceSlug,
     generated_at: new Date().toISOString(),
-    election_dates: getElectionDates(opts.state, opts.cycle),
+    election_dates: getElectionDates(opts.state, opts.cycle, opts.raceSlug),
     state_background_check: getStateBackgroundCheckFact(opts.state, opts.office),
     primary_results: primaryFilter && { source_url: primaryFilter.source_url, snippet: primaryFilter.snippet },
     hard_metrics: {
