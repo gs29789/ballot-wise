@@ -544,8 +544,36 @@ const ALABAMA_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Tennessee is shaped like Illinois/Alabama: the eligibility bar applies
+// only to "office under the authority of this state" by its own text.
+const TENNESSEE_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Tennessee's eligibility statute (Tenn. Code Ann. § 8-18-101) applies only to persons \"qualified to hold office under the authority of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://codes.findlaw.com/tn/title-8-public-officers-and-employees/tn-code-sect-8-18-101/",
+  snippet:
+    "Tenn. Code Ann. § 8-18-101: \"All persons eighteen (18) years of age or older who are citizens of the United States and of this state... are qualified to hold office under the authority of this state except: (1) Those who have been convicted of offering or giving a bribe, or any other offense declared infamous under § 40-20-112...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
+// Texas is shaped the same way: its felony-disqualification requirement
+// applies only to "a public elective office in this state" by its own text.
+const TEXAS_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+  source_url: "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+  snippet:
+    "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
+  if (stateCode === "TN" && (office === "H" || office === "S")) return TENNESSEE_FEDERAL;
+  if (stateCode === "TX" && (office === "H" || office === "S")) return TEXAS_FEDERAL;
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;
   if (stateCode === "WY" && (office === "H" || office === "S")) return WYOMING_FEDERAL;
   if (stateCode === "MT" && (office === "H" || office === "S")) return MONTANA_FEDERAL;

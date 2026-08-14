@@ -446,8 +446,28 @@ function getAlabamaElectionDates(raceSlug?: string): ElectionDates {
   return { ...primary, ...ALABAMA_2026_GENERAL };
 }
 
+const TENNESSEE_2026: ElectionDates = {
+  primaryDate: "2026-08-06",
+  primarySourceUrl: "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+  primarySnippet: "Thursday, August 6, 2026 - Primary and General Election. Primary elections will be held for Governor, U.S. Senate, U.S. House, Tennessee Senate (odd-numbered districts), Tennessee House...",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+  generalSnippet: "Tuesday, November 3, 2026 - State and Federal General Election.",
+};
+
+const TEXAS_2026: ElectionDates = {
+  primaryDate: "2026-03-03",
+  primarySourceUrl: "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+  primarySnippet: "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+  generalSnippet: "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
   if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
+  if (stateCode === "TN" && cycle === 2026) return TENNESSEE_2026;
+  if (stateCode === "TX" && cycle === 2026) return TEXAS_2026;
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

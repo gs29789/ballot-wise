@@ -831,6 +831,80 @@ export const RACES: BuildRaceOptions[] = [
   // see the comment inline above). RI is still deliberately NOT wired in at
   // all yet: its primary isn't until Sept 9, 2026 (same held-back treatment
   // as NH/MA).
+  // Alabama: the map governing 2026 (Act 2023-563) is being used for the
+  // first time this cycle — SCOTUS twice acted (May 11 vacate-and-remand,
+  // June 2 stay) to keep it in effect for 2026 specifically, though the
+  // underlying district-court finding of intentional discrimination against
+  // Black voters remains stayed, not reversed, on remand. Built on the
+  // standard that the Nov 3 ballot is fixed either way since both 2026
+  // primary rounds (May 19 for D3/4/5, Aug 11 special primary for D1/2/6/7)
+  // are already complete under this map — see primaryResults.ts.
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/AL-1.json", district: "01" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/AL-2.json", district: "02" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/AL-3.json", district: "03" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/AL-4.json", district: "04" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/AL-5.json", district: "05" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/AL-6.json", district: "06" },
+  { state: "AL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/AL-7.json", district: "07" },
+  { state: "AL", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/AL.json" },
+  // Tennessee: map enacted May 2026 (SA7001/HA7002), governing both the Aug 6
+  // primary and Nov 3 general per a federal panel's July 2026 denial of a
+  // preliminary injunction (Sherman v. Hargett) — same standard applied to
+  // Alabama above: the ballot is fixed either way since the primary already
+  // happened under this map. See primaryResults.ts.
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/TN-1.json", district: "01" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/TN-2.json", district: "02" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/TN-3.json", district: "03" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/TN-4.json", district: "04" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/TN-5.json", district: "05" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/TN-6.json", district: "06" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/TN-7.json", district: "07" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/TN-8.json", district: "08" },
+  { state: "TN", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/TN-9.json", district: "09" },
+  { state: "TN", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/TN.json" },
+  // Texas: 2026 map (Plan C2333 / HB4) already used for the actual March 3
+  // primary and May 26 runoff; SCOTUS summarily reversed a lower-court
+  // injunction 6-3 in Abbott v. LULAC (April 2026), letting it stand. See
+  // primaryResults.ts.
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/TX-1.json", district: "01" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/TX-2.json", district: "02" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/TX-3.json", district: "03" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/TX-4.json", district: "04" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/TX-5.json", district: "05" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/TX-6.json", district: "06" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/TX-7.json", district: "07" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/TX-8.json", district: "08" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/TX-9.json", district: "09" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/TX-10.json", district: "10" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/TX-11.json", district: "11" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/TX-12.json", district: "12" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/TX-13.json", district: "13" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/TX-14.json", district: "14" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-15", outFile: "house/TX-15.json", district: "15" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/TX-16.json", district: "16" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/TX-17.json", district: "17" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-18", outFile: "house/TX-18.json", district: "18" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-19", outFile: "house/TX-19.json", district: "19" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-20", outFile: "house/TX-20.json", district: "20" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-21", outFile: "house/TX-21.json", district: "21" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-22", outFile: "house/TX-22.json", district: "22" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-23", outFile: "house/TX-23.json", district: "23" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-24", outFile: "house/TX-24.json", district: "24" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-25", outFile: "house/TX-25.json", district: "25" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-26", outFile: "house/TX-26.json", district: "26" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-27", outFile: "house/TX-27.json", district: "27" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-28", outFile: "house/TX-28.json", district: "28" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-29", outFile: "house/TX-29.json", district: "29" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-30", outFile: "house/TX-30.json", district: "30" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-31", outFile: "house/TX-31.json", district: "31" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-32", outFile: "house/TX-32.json", district: "32" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-33", outFile: "house/TX-33.json", district: "33" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-34", outFile: "house/TX-34.json", district: "34" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-35", outFile: "house/TX-35.json", district: "35" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-36", outFile: "house/TX-36.json", district: "36" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-37", outFile: "house/TX-37.json", district: "37" },
+  { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-38", outFile: "house/TX-38.json", district: "38" },
+  { state: "TX", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/TX.json" },
 ];
 
 async function main() {

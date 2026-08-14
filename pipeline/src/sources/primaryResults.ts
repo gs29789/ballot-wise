@@ -2028,9 +2028,208 @@ const TENNESSEE_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+const TEXAS_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H2TX01112", "H6TX01352", "H6TX01345"],
+    source_url: "https://ballotpedia.org/Texas%27_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Nathaniel Moran, Yolanda Prince, and Sonia Canchola are running in the general election for U.S. House Texas District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6TX02251", "H6TX08175"],
+    source_url: "https://ballotpedia.org/Texas%27_2nd_Congressional_District_election,_2026",
+    snippet: "Shaun Finnie and Steve Toth are running in the general election for U.S. House Texas District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2TX00064", "H6TX03234"],
+    source_url: "https://ballotpedia.org/Texas%27_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Keith Self and Evan Hunt are running in the general election for U.S. House Texas District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H0TX04219", "H6TX04174"],
+    source_url: "https://ballotpedia.org/Texas%27_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Pat Fallon and Jason Pearce are running in the general election for U.S. House Texas District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8TX05144", "H6TX05197"],
+    source_url: "https://ballotpedia.org/Texas%27_5th_Congressional_District_election,_2026",
+    snippet: "Incumbent Lance Gooden and Chelsey Hockett are running in the general election for U.S. House Texas District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H8TX06266", "H6TX25203"],
+    source_url: "https://ballotpedia.org/Texas%27_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Jake Ellzey and Danny Minton are running in the general election for U.S. House Texas District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H8TX07140", "H6TX07151", "H6TX07177"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Lizzie Pannill Fletcher (Incumbent) (Democratic Party) / Alexander Hale (Republican Party) / Espoir Ngabo (Green Party)",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H0TX08145", "H6TX08209"],
+    source_url: "https://ballotpedia.org/Texas%27_8th_Congressional_District_election,_2026",
+    snippet: "Laura Jones and Jessica Steinmann are running in the general election for U.S. House Texas District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6TX09231", "H6TX09140"],
+    source_url: "https://ballotpedia.org/Texas%27_9th_Congressional_District_election,_2026",
+    snippet: "Leticia Gutierrez and Alex Mealer are running in the general election for U.S. House Texas District 9 on November 3, 2026.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H6TX31102", "H6TX10221"],
+    source_url: "https://ballotpedia.org/Texas%27_10th_Congressional_District_election,_2026",
+    snippet: "Caitlin Rourk and Chris Gober are running in the general election for U.S. House Texas District 10 on November 3, 2026.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H0TX11230", "H6TX11112"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "August Pfluger (Incumbent) (Republican Party) / Claire Reynolds (Democratic Party)",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H4TX12065"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Craig Goldman (Incumbent) (Republican Party) / Heli Rodriguez Prilliman (Democratic Party)",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H0TX13228", "H6TX13159"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Ronny L. Jackson (Incumbent) (Republican Party) / Mark Nair (Democratic Party)",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H2TX14149", "H6TX14181"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Randy Weber (Incumbent) (Republican Party) / Thurman Bill Bartie (Democratic Party)",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H0TX15124", "H6TX15246"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Monica De La Cruz (Incumbent) (Republican Party) / Bobby Pulido (Democratic Party)",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H8TX16109", "H6TX16152"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Veronica Escobar (Incumbent) (Democratic Party) / Adam Bauman (Republican Party)",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H2TX03126", "H6TX17168"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Pete Sessions (Incumbent) (Republican Party) / Casey Shepard (Democratic Party)",
+  },
+  "house-18": {
+    advancingCandidateIds: ["H6TX18232"],
+    source_url: "https://ballotpedia.org/Texas%27_18th_Congressional_District_election,_2026",
+    snippet: "Incumbent Christian Menefee and Ronald Whitfield are running in the general election for U.S. House Texas District 18 on November 3, 2026.",
+  },
+  "house-19": {
+    advancingCandidateIds: ["H6TX19198", "H6TX19206"],
+    source_url: "https://ballotpedia.org/Texas%27_19th_Congressional_District_election,_2026",
+    snippet: "Kyle Rable and Tom Sell are running in the general election for U.S. House Texas District 19 on November 3, 2026.",
+  },
+  "house-20": {
+    advancingCandidateIds: ["H2TX35011", "H6TX20113", "H2TX27273"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Joaquin Castro (Incumbent) (Democratic Party) / Edgardo Baez (Republican Party) / Anthony Tristan (Independent)",
+  },
+  "house-21": {
+    advancingCandidateIds: ["H4TX21108", "H6TX21301"],
+    source_url: "https://ballotpedia.org/Texas%27_21st_Congressional_District_election,_2026",
+    snippet: "Kristin Hook and Mark Teixeira are running in the general election for U.S. House Texas District 21 on November 3, 2026.",
+  },
+  "house-22": {
+    advancingCandidateIds: ["H4TX22197", "H6TX22283", "H6TX22259"],
+    source_url: "https://ballotpedia.org/Texas%27_22nd_Congressional_District_election,_2026",
+    snippet: "Marquette Greene-Scott, Trever Nehls, and Demile James are running in the general election for U.S. House Texas District 22 on November 3, 2026.",
+  },
+  "house-23": {
+    advancingCandidateIds: ["H6TX23273", "H4TX23120"],
+    source_url: "https://ballotpedia.org/Texas%27_23rd_Congressional_District_election,_2026",
+    snippet: "Katy Padilla Stout, Brandon Herrera, and Ben Mendoza are running in the general election for U.S. House Texas District 23 on November 3, 2026.",
+  },
+  "house-24": {
+    advancingCandidateIds: ["H0TX24209", "H6TX24172"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Beth Van Duyne (Incumbent) (Republican Party) / Kevin Burge (Democratic Party)",
+  },
+  "house-25": {
+    advancingCandidateIds: ["H2TX33040", "H6TX25237"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Roger Williams (Incumbent) (Republican Party) / Dione Sims (Democratic Party)",
+  },
+  "house-26": {
+    advancingCandidateIds: ["H4TX26149", "H6TX26144", "H6TX01261"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Brandon Gill (Incumbent) (Republican Party) / Steven Shook (Democratic Party) / Phil Gray (Libertarian Party)",
+  },
+  "house-27": {
+    advancingCandidateIds: ["H8TX27049", "H4TX27089", "H6TX27068"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Michael Cloud (Incumbent) (Republican Party) / Tanya Lloyd (Democratic Party) / Wayne Raasch (Independent) (Write-in)",
+  },
+  "house-28": {
+    advancingCandidateIds: ["H2TX23082", "H6TX28124", "H6TX28108"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Henry Cuellar (Incumbent) (Democratic Party) / Tano Tijerina (Republican Party) / Marlon Duran (Green Party)",
+  },
+  "house-29": {
+    advancingCandidateIds: ["H8TX29052", "H6TX29122"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Sylvia Garcia (Incumbent) (Democratic Party) / Martha Fierro (Republican Party)",
+  },
+  "house-30": {
+    advancingCandidateIds: ["H6TX30245", "H6TX30211", "H6TX30237"],
+    source_url: "https://ballotpedia.org/Texas%27_30th_Congressional_District_election,_2026",
+    snippet: "Frederick Haynes, Everett Jackson, and Oxford Nordberg are running in the general election for U.S. House Texas District 30 on November 3, 2026.",
+  },
+  "house-31": {
+    advancingCandidateIds: ["H2TX31044", "H6TX31094", "H6TX31169"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "John Carter (Incumbent) (Republican Party) / Justin Early (Democratic Party) / Greg Stoker (Green Party)",
+  },
+  "house-32": {
+    advancingCandidateIds: ["H6TX32217", "H6TX32225", "H6TX32100"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Dan Barrios (Democratic Party) / Jace Yarbrough (Republican Party) / Charles Harper (Independent)",
+  },
+  "house-33": {
+    advancingCandidateIds: ["H8TX32098", "H2TX33248"],
+    source_url: "https://ballotpedia.org/Texas%27_33rd_Congressional_District_election,_2026",
+    snippet: "Colin Allred and Patrick Gillespie are running in the general election for U.S. House Texas District 33 on November 3, 2026.",
+  },
+  "house-34": {
+    advancingCandidateIds: ["H6TX15162", "H6TX34080", "H6TX34106"],
+    source_url: "https://ballotpedia.org/Texas%27_34th_Congressional_District_election,_2026",
+    snippet: "Incumbent Vicente Gonzalez Jr., Eric Flores, Eddie Espinoza, and Chris Royal are running in the general election for U.S. House Texas District 34 on November 3, 2026.",
+  },
+  "house-35": {
+    advancingCandidateIds: ["H6TX35095", "H6TX35087"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Johnny Garcia (Democratic Party) / Carlos De La Cruz (Republican Party)",
+  },
+  "house-36": {
+    advancingCandidateIds: ["H6TX02079", "H4TX14111"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Brian Babin (Incumbent) (Republican Party) / Rhonda Hart (Democratic Party)",
+  },
+  "house-37": {
+    advancingCandidateIds: ["H2TX35144", "H6TX35038"],
+    source_url: "https://ballotpedia.org/Texas%27_37th_Congressional_District_election,_2026",
+    snippet: "Incumbent Greg Casar and Lauren Peña are running in the general election for U.S. House Texas District 37 on November 3, 2026.",
+  },
+  "house-38": {
+    advancingCandidateIds: ["H4TX38011", "H6TX02244", "H6TX38123"],
+    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    snippet: "Melissa McDonough (Democratic Party) / Jon Bonck (Republican Party) / Alex McMenemy (Green Party)",
+  },
+  senate: {
+    advancingCandidateIds: ["S6TX00479", "S6TX00388", "S4TX00888", "S6TX00420", "S6TX00404", "S6TX00487"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Texas,_2026",
+    snippet: "James Talarico (D), Ken Paxton (R), and four other candidates are running in the general election for U.S. Senate in Texas on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "TX" && cycle === 2026) return TEXAS_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
