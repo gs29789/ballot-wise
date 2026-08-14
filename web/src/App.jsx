@@ -250,7 +250,7 @@ function Legend({ candidates }) {
   const present = new Set(candidates.map((c) => partyCode(c.party)));
   const items = [
     ["R", "Republican"], ["D", "Democrat"], ["L", "Libertarian"], ["G", "Green"], ["I", "Independent / Other"],
-  ].filter(([p]) => p === "R" || p === "D" || present.has(p));
+  ].filter(([p]) => present.has(p));
   return (
     <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
       {items.map(([p, label]) => (
