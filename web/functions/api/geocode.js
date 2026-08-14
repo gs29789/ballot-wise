@@ -45,23 +45,36 @@ async function fetchGeographies(address) {
   return { ok: res.ok && looksLikeJson, body, status: res.status };
 }
 
-// Six states so far were confirmed to share the same blocker: each enacted
+// Seven states so far were confirmed to share the same blocker: each enacted
 // a genuinely new, legally-in-effect 2026 congressional map, but the Census
 // Geocoder's Current_Current vintage still serves the OLD (pre-redraw)
 // district boundaries — confirmed directly for each with a real test
 // address (e.g. NC's Craven County resolves to the old District 3 instead
-// of the new District 1). Missouri, Ohio, Florida, North Carolina, and
-// Texas turned out to have an official, sufficiently precise TEXTUAL source
-// (a statute or commission-filed legal description) that explicitly
+// of the new District 1). Missouri, Ohio, Florida, North Carolina, Texas,
+// and Alabama turned out to have an official, sufficiently precise TEXTUAL
+// source (a statute or commission-filed legal description) that explicitly
 // distinguishes a county assigned WHOLLY to one district from a county
 // SPLIT between districts — for those states, a plain county-level
 // correction is exact, not an approximation, for every whole county. Texas
-// is the strongest case of the five: HB4 (89th Leg., 2nd C.S. 2025) writes
-// full census-tract/block-level legal descriptions directly into the
-// statute itself, not just a county-level breakdown. Utah does not have
-// any such source: its map was adopted by court order and exists only as a
-// GIS shapefile with no textual county-by-district breakdown, so no
-// override was attempted there.
+// and Alabama are the strongest cases: both write full census-tract/block-
+// level legal descriptions directly into the statute itself (Texas's HB4;
+// Alabama's Act 2023-563, whose text incorporates a separate boundary-
+// description PDF by reference), not just a county-level breakdown. Utah
+// does not have any such source: its map was adopted by court order and
+// exists only as a GIS shapefile with no textual county-by-district
+// breakdown, so no override was attempted there.
+//
+// Alabama has a genuinely unusual chronology worth recording: the map
+// governing 2026 (Act 2023-563, "Livingston Congressional Plan 3-2023") is
+// the ORIGINAL map the legislature passed in 2023 and had enjoined before
+// it was ever used — NOT the different, court-drawn remedial map actually
+// used in the 2024 election. SCOTUS's May 11, 2026 vacate-and-remand (in
+// light of Louisiana v. Callais) and June 2, 2026 stay restored the 2023
+// legislative map for 2026 specifically. Confirmed directly in Alabama's
+// own 2026 special-session act (HB1's enrolled text): "a federal court...
+// permits the reinstatement of the last legislatively enacted Congressional
+// districts, as enacted by Act 2023-563 of the 2023 Second Special
+// Session, to be used in the 2026 General Election."
 //
 // Keyed by Census county GEOID (state FIPS + county FIPS), NOT county name
 // — confirmed necessary, not just tidier: Missouri's independent "St.
@@ -75,7 +88,8 @@ async function fetchGeographies(address) {
 // (www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt)
 // and reconciled to each state's full, independently-known county count
 // with zero gaps and zero duplicates (NC 88+12=100, MO 110+5=115 incl. the
-// independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254).
+// independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254,
+// AL 61+6=67).
 // Counties split between districts are deliberately left OUT of every
 // table below — a county-level correction can't safely resolve which side
 // of a split county a given address falls on, so those addresses keep
@@ -94,6 +108,7 @@ async function fetchGeographies(address) {
 //   OH: "Description of Ohio's Congressional District Plan", adopted by the Ohio Redistricting Commission 2025-10-31 — live URL is Cloudflare-gated, use https://web.archive.org/web/20260422123849/https://www.ohiosos.gov/assets/uscongressionaldistricts-2026-2032-adopted-2025-10-31-legaldescription.pdf
 //   FL: s. 8.0002, Fla. Stat., as rewritten by HB 1D (2026D Special Session), https://www.flsenate.gov/Session/Bill/2026D/1D/BillText/er/PDF
 //   TX: H.B. No. 4, 89th Legislature, 2nd Called Session (2025), enrolled text https://capitol.texas.gov/tlodocs/892/billtext/pdf/HB00004F.pdf — county-by-district populations cross-checked against the Texas Legislative Council's own Red-150 report for the same plan (PLANC2333), https://web.archive.org/web/20250906134058id_/https://data.capitol.texas.gov/dataset/748c952b-e926-4f44-8d01-a738884b3ec8/resource/7a1a23c7-78f4-4587-962e-313350020fdf/download/planc2333_r150.pdf (data.capitol.texas.gov itself is Cloudflare-blocked to automated fetches — same operational gotcha as Ballotpedia, worked around the same way, via Wayback)
+//   AL: Act 2023-563 (SB5, 2023 2nd Special Session), codified at §17-14-70, https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023SS2/SB5-enr.pdf — incorporates by reference the "Livingston Congressional Plan 3-2023" boundary description, https://www.sos.alabama.gov/sites/default/files/2026-5-14/Livingston%20Congressional%20Plan%203-2023%20Legal%20Description.pdf, independently re-verified directly (not just trusted from the research pass) including the "Russe County" → Russell County resolution below
 const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   NC: {
     "37001": "09", // Alamance County
@@ -648,6 +663,69 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
     "48505": "28", // Zapata County
     "48507": "23", // Zavala County
   },
+  AL: {
+    "01003": "01", // Baldwin County
+    "01039": "01", // Covington County
+    "01053": "01", // Escambia County
+    "01005": "02", // Barbour County
+    "01011": "02", // Bullock County
+    "01013": "02", // Butler County
+    "01031": "02", // Coffee County
+    "01041": "02", // Crenshaw County
+    "01045": "02", // Dale County
+    "01061": "02", // Geneva County
+    "01067": "02", // Henry County
+    "01069": "02", // Houston County
+    "01085": "02", // Lowndes County
+    "01087": "02", // Macon County
+    "01101": "02", // Montgomery County
+    "01109": "02", // Pike County
+    "01113": "02", // Russell County (source PDF misprints as "Russe County" — confirmed no "Russell" appears anywhere else in the document and "Russe" isn't a real Alabama county; Census GEOID 01113 is genuinely Russell County)
+    "01015": "03", // Calhoun County
+    "01017": "03", // Chambers County
+    "01019": "03", // Cherokee County
+    "01027": "03", // Clay County
+    "01029": "03", // Cleburne County
+    "01055": "03", // Etowah County
+    "01081": "03", // Lee County
+    "01111": "03", // Randolph County
+    "01115": "03", // St. Clair County
+    "01123": "03", // Tallapoosa County
+    "01009": "04", // Blount County
+    "01033": "04", // Colbert County
+    "01043": "04", // Cullman County
+    "01049": "04", // DeKalb County
+    "01057": "04", // Fayette County
+    "01059": "04", // Franklin County
+    "01075": "04", // Lamar County
+    "01093": "04", // Marion County
+    "01095": "04", // Marshall County
+    "01127": "04", // Walker County
+    "01133": "04", // Winston County
+    "01071": "05", // Jackson County
+    "01079": "05", // Lawrence County
+    "01083": "05", // Limestone County
+    "01089": "05", // Madison County
+    "01103": "05", // Morgan County
+    "01001": "06", // Autauga County
+    "01007": "06", // Bibb County
+    "01021": "06", // Chilton County
+    "01037": "06", // Coosa County
+    "01117": "06", // Shelby County
+    "01023": "07", // Choctaw County
+    "01025": "07", // Clarke County
+    "01035": "07", // Conecuh County
+    "01047": "07", // Dallas County
+    "01063": "07", // Greene County
+    "01065": "07", // Hale County
+    "01091": "07", // Marengo County
+    "01099": "07", // Monroe County
+    "01105": "07", // Perry County
+    "01107": "07", // Pickens County
+    "01119": "07", // Sumter County
+    "01129": "07", // Washington County
+    "01131": "07", // Wilcox County
+  },
 };
 
 // The complement of the table above, state by state: every county in NC,
@@ -756,6 +834,14 @@ const STATE_SPLIT_COUNTIES_2026 = {
     "48471", // Walker County
     "48491", // Williamson County
     "48497", // Wise County
+  ]),
+  AL: new Set([
+    "01097", // Mobile County
+    "01051", // Elmore County
+    "01073", // Jefferson County
+    "01077", // Lauderdale County
+    "01121", // Talladega County
+    "01125", // Tuscaloosa County
   ]),
 };
 
