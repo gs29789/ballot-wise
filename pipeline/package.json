@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "build:race": "tsx src/build.ts",
-    "publish": "tsx src/publish.ts"
+    "publish": "tsx src/publish.ts",
+    "plan:matrix": "tsx src/ci/planMatrix.ts",
+    "build:chunk": "tsx src/ci/buildChunk.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

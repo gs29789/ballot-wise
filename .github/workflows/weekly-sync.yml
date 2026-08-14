@@ -6,29 +6,76 @@ on:
     - cron: "0 6 * * 1"
   workflow_dispatch: {}
 
+# A manual trigger firing while the scheduled run is still going would
+# otherwise race it and could double-publish the same races.
+concurrency:
+  group: weekly-sync
+
 jobs:
-  build-and-publish:
+  plan:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: pipeline
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - id: plan
+        name: Plan build matrix
+        # -s (silent) so npm's own "> script\n> command" banner doesn't land
+        # in front of the JSON this pipes into GITHUB_OUTPUT.
+        run: echo "matrix=$(npm run -s plan:matrix)" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: plan
+    runs-on: ubuntu-latest
+    # The bottleneck per state is uncached per-candidate calls (roll-call
+    # attendance walks, financial totals) that fire every run regardless of
+    # the 90-day bio/platform refresh cache — 30 min is comfortable headroom
+    # for the largest chunks (~9 races) at that per-race cost.
+    timeout-minutes: 30
+    strategy:
+      # One state hitting a transient error (a WAF block, an upstream 503)
+      # shouldn't cancel every other in-flight state — the opposite of what
+      # a routine refresh job should do. GitHub's own default is fail-fast
+      # true, so this has to be set explicitly.
+      fail-fast: false
+      # Conservative starting point — the real constraint is download-side
+      # WAF risk on clerk.house.gov-family domains, not GitHub's own runner
+      # ceiling. Tune from the first few real runs.
+      max-parallel: 6
+      matrix: ${{ fromJson(needs.plan.outputs.matrix) }}
     defaults:
       run:
         working-directory: pipeline
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-
       - run: npm install
 
-      - name: Build race JSON
-        run: npm run build:race
+      - name: Build chunk ${{ matrix.chunkId }}
+        run: npm run build:chunk -- ${{ matrix.chunkId }}
         env:
           CONGRESS_GOV_API_KEY: ${{ secrets.CONGRESS_GOV_API_KEY }}
           FEC_API_KEY: ${{ secrets.FEC_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          BLS_API_KEY: ${{ secrets.BLS_API_KEY }}
+          CENSUS_API_KEY: ${{ secrets.CENSUS_API_KEY }}
+          # Public read URL for the same R2 bucket (already shipped to every
+          # site visitor in the frontend bundle, see web/.env.example) — not
+          # a secret. Without this, fetchPreviousRace() can't see last
+          # week's published data, so nothing is ever "already resolved"
+          # and the 90-day refresh cache silently never engages.
+          R2_PUBLIC_URL: https://pub-2c102fc0a8114f89a7afbe75818e841f.r2.dev
 
-      - name: Publish to R2
+      - name: Publish chunk ${{ matrix.chunkId }} to R2
         run: npm run publish
         env:
           R2_S3_ENDPOINT: ${{ secrets.R2_S3_ENDPOINT }}
