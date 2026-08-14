@@ -45,24 +45,27 @@ async function fetchGeographies(address) {
   return { ok: res.ok && looksLikeJson, body, status: res.status };
 }
 
-// Seven states so far were confirmed to share the same blocker: each enacted
+// Eight states so far were confirmed to share the same blocker: each enacted
 // a genuinely new, legally-in-effect 2026 congressional map, but the Census
 // Geocoder's Current_Current vintage still serves the OLD (pre-redraw)
 // district boundaries — confirmed directly for each with a real test
 // address (e.g. NC's Craven County resolves to the old District 3 instead
-// of the new District 1). Missouri, Ohio, Florida, North Carolina, Texas,
-// and Alabama turned out to have an official, sufficiently precise TEXTUAL
-// source (a statute or commission-filed legal description) that explicitly
-// distinguishes a county assigned WHOLLY to one district from a county
-// SPLIT between districts — for those states, a plain county-level
-// correction is exact, not an approximation, for every whole county. Texas
-// and Alabama are the strongest cases: both write full census-tract/block-
-// level legal descriptions directly into the statute itself (Texas's HB4;
-// Alabama's Act 2023-563, whose text incorporates a separate boundary-
-// description PDF by reference), not just a county-level breakdown. Utah
-// does not have any such source: its map was adopted by court order and
-// exists only as a GIS shapefile with no textual county-by-district
-// breakdown, so no override was attempted there.
+// of the new District 1; Tennessee's Millington, actually in District 5
+// under the enacted map, still resolves to the old District 9). Missouri,
+// Ohio, Florida, North Carolina, Texas, Alabama, and Tennessee turned out
+// to have an official, sufficiently precise TEXTUAL source (a statute or
+// commission-filed legal description) that explicitly distinguishes a
+// county assigned WHOLLY to one district from a county SPLIT between
+// districts — for those states, a plain county-level correction is exact,
+// not an approximation, for every whole county. Texas, Alabama, and
+// Tennessee are the strongest cases: all three write full census-tract/
+// block-level legal descriptions directly into the statute itself (Texas's
+// HB4; Alabama's Act 2023-563, whose text incorporates a separate
+// boundary-description PDF by reference; Tennessee's SA7001/HA7002
+// amendment to Tenn. Code Ann. § 2-16-103), not just a county-level
+// breakdown. Utah does not have any such source: its map was adopted by
+// court order and exists only as a GIS shapefile with no textual
+// county-by-district breakdown, so no override was attempted there.
 //
 // Alabama has a genuinely unusual chronology worth recording: the map
 // governing 2026 (Act 2023-563, "Livingston Congressional Plan 3-2023") is
@@ -89,7 +92,7 @@ async function fetchGeographies(address) {
 // and reconciled to each state's full, independently-known county count
 // with zero gaps and zero duplicates (NC 88+12=100, MO 110+5=115 incl. the
 // independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254,
-// AL 61+6=67).
+// AL 61+6=67, TN 83+12=95).
 // Counties split between districts are deliberately left OUT of every
 // table below — a county-level correction can't safely resolve which side
 // of a split county a given address falls on, so those addresses keep
@@ -109,6 +112,7 @@ async function fetchGeographies(address) {
 //   FL: s. 8.0002, Fla. Stat., as rewritten by HB 1D (2026D Special Session), https://www.flsenate.gov/Session/Bill/2026D/1D/BillText/er/PDF
 //   TX: H.B. No. 4, 89th Legislature, 2nd Called Session (2025), enrolled text https://capitol.texas.gov/tlodocs/892/billtext/pdf/HB00004F.pdf — county-by-district populations cross-checked against the Texas Legislative Council's own Red-150 report for the same plan (PLANC2333), https://web.archive.org/web/20250906134058id_/https://data.capitol.texas.gov/dataset/748c952b-e926-4f44-8d01-a738884b3ec8/resource/7a1a23c7-78f4-4587-962e-313350020fdf/download/planc2333_r150.pdf (data.capitol.texas.gov itself is Cloudflare-blocked to automated fetches — same operational gotcha as Ballotpedia, worked around the same way, via Wayback)
 //   AL: Act 2023-563 (SB5, 2023 2nd Special Session), codified at §17-14-70, https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023SS2/SB5-enr.pdf — incorporates by reference the "Livingston Congressional Plan 3-2023" boundary description, https://www.sos.alabama.gov/sites/default/files/2026-5-14/Livingston%20Congressional%20Plan%203-2023%20Legal%20Description.pdf, independently re-verified directly (not just trusted from the research pass) including the "Russe County" → Russell County resolution below
+//   TN: Senate Judiciary 1 Amendment No. 1 to SB7004 ("SA7001"), amending Tenn. Code Ann. § 2-16-103, https://www.capitol.tn.gov/Bills/114/Amend/SA7001.pdf — byte-identical (except sponsor header) to the House's HA7002 substitute for HB7003; capitol.tn.gov is unreachable at the TCP level from this project's sandbox (a harder block than Cloudflare's soft gate elsewhere), fetched via the r.jina.ai reader proxy and independently re-verified directly, including the exact line count (1,992) and opening clause matching the research pass's own quote word-for-word
 const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   NC: {
     "37001": "09", // Alamance County
@@ -726,6 +730,91 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
     "01129": "07", // Washington County
     "01131": "07", // Wilcox County
   },
+  TN: {
+    "47001": "03", // Anderson County
+    "47003": "09", // Bedford County
+    "47005": "05", // Benton County
+    "47007": "04", // Bledsoe County
+    "47009": "02", // Blount County
+    "47011": "03", // Bradley County
+    "47015": "04", // Cannon County
+    "47017": "08", // Carroll County
+    "47019": "01", // Carter County
+    "47021": "07", // Cheatham County
+    "47023": "08", // Chester County
+    "47025": "02", // Claiborne County
+    "47027": "06", // Clay County
+    "47029": "01", // Cocke County
+    "47031": "04", // Coffee County
+    "47033": "08", // Crockett County
+    "47035": "06", // Cumberland County
+    "47039": "08", // Decatur County
+    "47041": "06", // DeKalb County
+    "47043": "07", // Dickson County
+    "47045": "05", // Dyer County
+    "47049": "06", // Fentress County
+    "47051": "04", // Franklin County
+    "47053": "08", // Gibson County
+    "47055": "09", // Giles County
+    "47057": "02", // Grainger County
+    "47059": "01", // Greene County
+    "47061": "04", // Grundy County
+    "47063": "01", // Hamblen County
+    "47065": "03", // Hamilton County
+    "47067": "01", // Hancock County
+    "47069": "09", // Hardeman County
+    "47071": "09", // Hardin County
+    "47073": "01", // Hawkins County
+    "47075": "08", // Haywood County
+    "47077": "08", // Henderson County
+    "47079": "05", // Henry County
+    "47081": "05", // Hickman County
+    "47083": "05", // Houston County
+    "47085": "05", // Humphreys County
+    "47087": "06", // Jackson County
+    "47091": "01", // Johnson County
+    "47093": "02", // Knox County
+    "47095": "05", // Lake County
+    "47097": "05", // Lauderdale County
+    "47099": "09", // Lawrence County
+    "47101": "05", // Lewis County
+    "47103": "09", // Lincoln County
+    "47105": "02", // Loudon County
+    "47107": "03", // McMinn County
+    "47109": "09", // McNairy County
+    "47111": "07", // Macon County
+    "47113": "08", // Madison County
+    "47115": "04", // Marion County
+    "47117": "09", // Marshall County
+    "47121": "03", // Meigs County
+    "47123": "03", // Monroe County
+    "47127": "09", // Moore County
+    "47129": "06", // Morgan County
+    "47131": "05", // Obion County
+    "47133": "06", // Overton County
+    "47135": "08", // Perry County
+    "47137": "06", // Pickett County
+    "47139": "03", // Polk County
+    "47141": "06", // Putnam County
+    "47145": "03", // Roane County
+    "47147": "07", // Robertson County
+    "47151": "06", // Scott County
+    "47153": "04", // Sequatchie County
+    "47155": "01", // Sevier County
+    "47159": "06", // Smith County
+    "47161": "05", // Stewart County
+    "47163": "01", // Sullivan County
+    "47169": "07", // Trousdale County
+    "47171": "01", // Unicoi County
+    "47173": "02", // Union County
+    "47175": "04", // Van Buren County
+    "47177": "04", // Warren County
+    "47179": "01", // Washington County
+    "47181": "09", // Wayne County
+    "47183": "05", // Weakley County
+    "47185": "06", // White County
+    "47189": "06", // Wilson County
+  },
 };
 
 // The complement of the table above, state by state: every county in NC,
@@ -842,6 +931,20 @@ const STATE_SPLIT_COUNTIES_2026 = {
     "01077", // Lauderdale County
     "01121", // Talladega County
     "01125", // Tuscaloosa County
+  ]),
+  TN: new Set([
+    "47013", // Campbell County
+    "47037", // Davidson County
+    "47047", // Fayette County
+    "47089", // Jefferson County
+    "47119", // Maury County
+    "47125", // Montgomery County
+    "47143", // Rhea County
+    "47149", // Rutherford County
+    "47157", // Shelby County
+    "47165", // Sumner County
+    "47167", // Tipton County
+    "47187", // Williamson County
   ]),
 };
 
