@@ -54,17 +54,27 @@ async function attemptExtraction(candidateName: string, url: string, expectedCon
 
   const contextLine = expectedContext ? `Expected context: ${expectedContext}. If the page describes a same-named person outside this context, treat it as a different person per rule 6.\n` : "";
 
-  const message = await getClient().messages.create({
-    model: "claude-sonnet-4-5",
-    max_tokens: 2048,
-    system: SYSTEM_PROMPT,
-    messages: [
-      {
-        role: "user",
-        content: `Candidate name: ${candidateName}\n${contextLine}Source URL: ${finalUrl}\n\nPage text:\n${pageText}`,
-      },
-    ],
-  });
+  // See the identical comment in llmExtract.ts's extractBioFacts — every
+  // caller here also swallows failures via .catch(() => null), so a failing
+  // Anthropic call (bad key, no credit, rate limit) needs to log here or it
+  // silently reads as "this candidate stated no platform positions."
+  let message;
+  try {
+    message = await getClient().messages.create({
+      model: "claude-sonnet-4-5",
+      max_tokens: 2048,
+      system: SYSTEM_PROMPT,
+      messages: [
+        {
+          role: "user",
+          content: `Candidate name: ${candidateName}\n${contextLine}Source URL: ${finalUrl}\n\nPage text:\n${pageText}`,
+        },
+      ],
+    });
+  } catch (err: any) {
+    console.warn(`[campaignPlatform] Anthropic API call failed for "${candidateName}" (${finalUrl}): ${err?.message ?? err}`);
+    return null;
+  }
 
   const textBlock = message.content.find((b) => b.type === "text");
   if (!textBlock || textBlock.type !== "text") return null;

@@ -101,17 +101,30 @@ export async function extractBioFacts(candidateName: string, url: string, expect
 
   const contextLine = expectedContext ? `Expected context: ${expectedContext}. If the page describes a same-named person outside this context, treat it as a different person per rule 4.\n` : "";
 
-  const message = await getClient().messages.create({
-    model: "claude-sonnet-4-5",
-    max_tokens: 1536,
-    system: SYSTEM_PROMPT,
-    messages: [
-      {
-        role: "user",
-        content: `Candidate name: ${candidateName}\n${contextLine}Source URL: ${finalUrl}\n\nPage text:\n${pageText}`,
-      },
-    ],
-  });
+  // Every caller of extractBioFacts wraps it in .catch(() => null) — correct
+  // for "this page has no bio content," but that same swallow used to also
+  // hide a failing Anthropic call (bad key, no credit, rate limit) with zero
+  // signal. Confirmed happening for real: the account ran out of API credit
+  // partway through the 2026-08-13 build and every bio/platform extraction
+  // from that point on silently returned empty instead of erroring loudly —
+  // logged here so the SAME failure mode is impossible to miss next time.
+  let message;
+  try {
+    message = await getClient().messages.create({
+      model: "claude-sonnet-4-5",
+      max_tokens: 1536,
+      system: SYSTEM_PROMPT,
+      messages: [
+        {
+          role: "user",
+          content: `Candidate name: ${candidateName}\n${contextLine}Source URL: ${finalUrl}\n\nPage text:\n${pageText}`,
+        },
+      ],
+    });
+  } catch (err: any) {
+    console.warn(`[llmExtract] Anthropic API call failed for "${candidateName}" (${finalUrl}): ${err?.message ?? err}`);
+    return null;
+  }
 
   const textBlock = message.content.find((b) => b.type === "text");
   if (!textBlock || textBlock.type !== "text") return null;

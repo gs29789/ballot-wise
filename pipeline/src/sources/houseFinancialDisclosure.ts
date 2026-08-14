@@ -175,19 +175,28 @@ async function attemptExtraction(pdfUrl: string, fecName: string, expectedContex
   const pdfBuffer = Buffer.from(await res.arrayBuffer());
   if (pdfBuffer.byteLength > 30_000_000) return null; // sanity cap, well above any real filing
 
-  const message = await getClient().messages.create({
-    model: "claude-sonnet-4-5",
-    max_tokens: 2048,
-    messages: [
-      {
-        role: "user",
-        content: [
-          { type: "document", source: { type: "base64", media_type: "application/pdf", data: pdfBuffer.toString("base64") } },
-          { type: "text", text: EXTRACTION_PROMPT.replace("{{CONTEXT}}", `${fecName} — ${expectedContext}`) },
-        ],
-      },
-    ],
-  });
+  // See the identical comment in llmExtract.ts's extractBioFacts — the
+  // caller here also swallows failures via .catch(() => null), so a failing
+  // Anthropic call needs to log here or it silently reads as "no filing."
+  let message;
+  try {
+    message = await getClient().messages.create({
+      model: "claude-sonnet-4-5",
+      max_tokens: 2048,
+      messages: [
+        {
+          role: "user",
+          content: [
+            { type: "document", source: { type: "base64", media_type: "application/pdf", data: pdfBuffer.toString("base64") } },
+            { type: "text", text: EXTRACTION_PROMPT.replace("{{CONTEXT}}", `${fecName} — ${expectedContext}`) },
+          ],
+        },
+      ],
+    });
+  } catch (err: any) {
+    console.warn(`[houseFinancialDisclosure] Anthropic API call failed for "${fecName}" (${pdfUrl}): ${err?.message ?? err}`);
+    return null;
+  }
 
   const textBlock = message.content.find((b) => b.type === "text");
   if (!textBlock || textBlock.type !== "text") return null;

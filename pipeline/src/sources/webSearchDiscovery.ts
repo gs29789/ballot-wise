@@ -31,18 +31,28 @@ Output ONLY valid JSON, no other text:
 {"url": "https://..." | null}`;
 
 async function attemptSearch(candidateName: string, expectedContext: string): Promise<string | null> {
-  const message = await getClient().messages.create({
-    model: "claude-sonnet-4-5",
-    max_tokens: 1024,
-    system: SYSTEM_PROMPT,
-    tools: [{ type: "web_search_20260318" as any, name: "web_search", max_uses: 3 } as any],
-    messages: [
-      {
-        role: "user",
-        content: `Candidate: ${candidateName}\nExpected context: ${expectedContext}`,
-      },
-    ],
-  });
+  // See the identical comment in llmExtract.ts's extractBioFacts — this
+  // function's own callers (findCampaignWebsite) swallow failures via
+  // .catch(() => null), so a failing Anthropic call needs to log here or it
+  // silently reads as "no campaign website found for this candidate."
+  let message;
+  try {
+    message = await getClient().messages.create({
+      model: "claude-sonnet-4-5",
+      max_tokens: 1024,
+      system: SYSTEM_PROMPT,
+      tools: [{ type: "web_search_20260318" as any, name: "web_search", max_uses: 3 } as any],
+      messages: [
+        {
+          role: "user",
+          content: `Candidate: ${candidateName}\nExpected context: ${expectedContext}`,
+        },
+      ],
+    });
+  } catch (err: any) {
+    console.warn(`[webSearchDiscovery] Anthropic API call failed for "${candidateName}": ${err?.message ?? err}`);
+    return null;
+  }
 
   const textBlock = [...message.content].reverse().find((b) => b.type === "text");
   if (!textBlock || textBlock.type !== "text") return null;
