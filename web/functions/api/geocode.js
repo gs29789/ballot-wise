@@ -45,20 +45,23 @@ async function fetchGeographies(address) {
   return { ok: res.ok && looksLikeJson, body, status: res.status };
 }
 
-// Five states were confirmed 2026-08-13 to share the exact same blocker
-// that excluded Texas from this project earlier: each enacted a genuinely
-// new, legally-in-effect 2026 congressional map, but the Census Geocoder's
-// Current_Current vintage still serves the OLD (pre-redraw) district
-// boundaries — confirmed directly for each with a real test address (e.g.
-// NC's Craven County resolves to the old District 3 instead of the new
-// District 1). Missouri, Ohio, Florida, and North Carolina turned out to
-// have an official, sufficiently precise TEXTUAL source (a statute or
-// commission-filed legal description) that explicitly distinguishes a
-// county assigned WHOLLY to one district from a county SPLIT between
-// districts — for those states, a plain county-level correction is exact,
-// not an approximation, for every whole county. Utah does not: its map was
-// adopted by court order and exists only as a GIS shapefile with no
-// textual county-by-district breakdown, so no override was attempted there.
+// Six states so far were confirmed to share the same blocker: each enacted
+// a genuinely new, legally-in-effect 2026 congressional map, but the Census
+// Geocoder's Current_Current vintage still serves the OLD (pre-redraw)
+// district boundaries — confirmed directly for each with a real test
+// address (e.g. NC's Craven County resolves to the old District 3 instead
+// of the new District 1). Missouri, Ohio, Florida, North Carolina, and
+// Texas turned out to have an official, sufficiently precise TEXTUAL source
+// (a statute or commission-filed legal description) that explicitly
+// distinguishes a county assigned WHOLLY to one district from a county
+// SPLIT between districts — for those states, a plain county-level
+// correction is exact, not an approximation, for every whole county. Texas
+// is the strongest case of the five: HB4 (89th Leg., 2nd C.S. 2025) writes
+// full census-tract/block-level legal descriptions directly into the
+// statute itself, not just a county-level breakdown. Utah does not have
+// any such source: its map was adopted by court order and exists only as a
+// GIS shapefile with no textual county-by-district breakdown, so no
+// override was attempted there.
 //
 // Keyed by Census county GEOID (state FIPS + county FIPS), NOT county name
 // — confirmed necessary, not just tidier: Missouri's independent "St.
@@ -72,12 +75,17 @@ async function fetchGeographies(address) {
 // (www2.census.gov/geo/docs/reference/codes2020/national_county2020.txt)
 // and reconciled to each state's full, independently-known county count
 // with zero gaps and zero duplicates (NC 88+12=100, MO 110+5=115 incl. the
-// independent City of St. Louis, OH 73+15=88, FL 48+19=67). Counties split
-// between districts are deliberately left OUT of every table below — a
-// county-level correction can't safely resolve which side of a split
-// county a given address falls on, so those addresses keep whatever the
-// (possibly still-stale) Census geocoder returns, same open risk as
-// before this fix.
+// independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254).
+// Counties split between districts are deliberately left OUT of every
+// table below — a county-level correction can't safely resolve which side
+// of a split county a given address falls on, so those addresses keep
+// whatever the (possibly still-stale) Census geocoder returns, same open
+// risk as before this fix. One deliberate exception: Texas's Chambers
+// County (48071) is technically split in the state's own district-by-
+// county report, but with 0 population in District 14 (a near-zero-
+// population tract, confirmed against HB4's actual text) and 100% in
+// District 36 — every real resident is in 36, so it's included in the
+// whole-county table as 36 rather than left uncertain.
 //
 // Sources (all independently fetched and spot-checked against the actual
 // PDF/document text, not just trusted from secondary reporting):
@@ -85,6 +93,7 @@ async function fetchGeographies(address) {
 //   MO: RSMo §§128.471-128.479 (2025 HB1, 2nd Extraordinary Session), https://documents.house.mo.gov/billtracking/bills254/hlrbillspdf/3344H.01T.pdf
 //   OH: "Description of Ohio's Congressional District Plan", adopted by the Ohio Redistricting Commission 2025-10-31 — live URL is Cloudflare-gated, use https://web.archive.org/web/20260422123849/https://www.ohiosos.gov/assets/uscongressionaldistricts-2026-2032-adopted-2025-10-31-legaldescription.pdf
 //   FL: s. 8.0002, Fla. Stat., as rewritten by HB 1D (2026D Special Session), https://www.flsenate.gov/Session/Bill/2026D/1D/BillText/er/PDF
+//   TX: H.B. No. 4, 89th Legislature, 2nd Called Session (2025), enrolled text https://capitol.texas.gov/tlodocs/892/billtext/pdf/HB00004F.pdf — county-by-district populations cross-checked against the Texas Legislative Council's own Red-150 report for the same plan (PLANC2333), https://web.archive.org/web/20250906134058id_/https://data.capitol.texas.gov/dataset/748c952b-e926-4f44-8d01-a738884b3ec8/resource/7a1a23c7-78f4-4587-962e-313350020fdf/download/planc2333_r150.pdf (data.capitol.texas.gov itself is Cloudflare-blocked to automated fetches — same operational gotcha as Ballotpedia, worked around the same way, via Wayback)
 const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   NC: {
     "37001": "09", // Alamance County
@@ -413,6 +422,232 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
     "12129": "02", // Wakulla County
     "12133": "02", // Washington County
   },
+  TX: {
+    "48001": "05", // Anderson County
+    "48003": "19", // Andrews County
+    "48005": "36", // Angelina County
+    "48009": "13", // Archer County
+    "48011": "13", // Armstrong County
+    "48013": "28", // Atascosa County
+    "48015": "27", // Austin County
+    "48017": "19", // Bailey County
+    "48019": "21", // Bandera County
+    "48023": "13", // Baylor County
+    "48025": "15", // Bee County
+    "48031": "21", // Blanco County
+    "48033": "19", // Borden County
+    "48035": "17", // Bosque County
+    "48041": "10", // Brazos County
+    "48043": "23", // Brewster County
+    "48045": "13", // Briscoe County
+    "48047": "15", // Brooks County
+    "48049": "11", // Brown County
+    "48051": "10", // Burleson County
+    "48055": "27", // Caldwell County
+    "48057": "27", // Calhoun County
+    "48061": "34", // Cameron County
+    "48063": "32", // Camp County
+    "48065": "13", // Carson County
+    "48067": "01", // Cass County
+    "48069": "19", // Castro County
+    "48071": "36", // Chambers County
+    "48073": "01", // Cherokee County
+    "48075": "13", // Childress County
+    "48077": "13", // Clay County
+    "48079": "19", // Cochran County
+    "48081": "11", // Coke County
+    "48083": "11", // Coleman County
+    "48087": "13", // Collingsworth County
+    "48089": "27", // Colorado County
+    "48091": "21", // Comal County
+    "48093": "25", // Comanche County
+    "48095": "11", // Concho County
+    "48097": "26", // Cooke County
+    "48099": "31", // Coryell County
+    "48101": "13", // Cottle County
+    "48103": "23", // Crane County
+    "48105": "23", // Crockett County
+    "48107": "19", // Crosby County
+    "48109": "23", // Culberson County
+    "48111": "13", // Dallam County
+    "48115": "19", // Dawson County
+    "48117": "13", // Deaf Smith County
+    "48119": "03", // Delta County
+    "48123": "15", // DeWitt County
+    "48125": "13", // Dickens County
+    "48127": "28", // Dimmit County
+    "48129": "13", // Donley County
+    "48131": "28", // Duval County
+    "48133": "25", // Eastland County
+    "48135": "11", // Ector County
+    "48137": "23", // Edwards County
+    "48139": "06", // Ellis County
+    "48143": "25", // Erath County
+    "48145": "17", // Falls County
+    "48147": "04", // Fannin County
+    "48149": "27", // Fayette County
+    "48151": "19", // Fisher County
+    "48153": "19", // Floyd County
+    "48155": "13", // Foard County
+    "48159": "03", // Franklin County
+    "48161": "17", // Freestone County
+    "48163": "23", // Frio County
+    "48165": "19", // Gaines County
+    "48167": "14", // Galveston County
+    "48169": "19", // Garza County
+    "48171": "21", // Gillespie County
+    "48173": "11", // Glasscock County
+    "48175": "15", // Goliad County
+    "48177": "15", // Gonzales County
+    "48179": "13", // Gray County
+    "48181": "04", // Grayson County
+    "48183": "01", // Gregg County
+    "48185": "10", // Grimes County
+    "48187": "35", // Guadalupe County
+    "48189": "19", // Hale County
+    "48191": "13", // Hall County
+    "48193": "31", // Hamilton County
+    "48195": "13", // Hansford County
+    "48197": "13", // Hardeman County
+    "48199": "36", // Hardin County
+    "48203": "01", // Harrison County
+    "48205": "13", // Hartley County
+    "48207": "19", // Haskell County
+    "48211": "13", // Hemphill County
+    "48213": "05", // Henderson County
+    "48217": "17", // Hill County
+    "48219": "19", // Hockley County
+    "48221": "25", // Hood County
+    "48223": "03", // Hopkins County
+    "48225": "10", // Houston County
+    "48227": "19", // Howard County
+    "48229": "23", // Hudspeth County
+    "48233": "13", // Hutchinson County
+    "48235": "11", // Irion County
+    "48237": "25", // Jack County
+    "48239": "27", // Jackson County
+    "48241": "36", // Jasper County
+    "48243": "23", // Jeff Davis County
+    "48247": "28", // Jim Hogg County
+    "48249": "15", // Jim Wells County
+    "48253": "19", // Jones County
+    "48255": "35", // Karnes County
+    "48257": "05", // Kaufman County
+    "48259": "21", // Kendall County
+    "48261": "34", // Kenedy County
+    "48263": "19", // Kent County
+    "48265": "21", // Kerr County
+    "48267": "11", // Kimble County
+    "48269": "13", // King County
+    "48271": "23", // Kinney County
+    "48273": "34", // Kleberg County
+    "48275": "13", // Knox County
+    "48277": "04", // Lamar County
+    "48279": "19", // Lamb County
+    "48281": "31", // Lampasas County
+    "48283": "28", // La Salle County
+    "48285": "15", // Lavaca County
+    "48287": "10", // Lee County
+    "48289": "10", // Leon County
+    "48291": "09", // Liberty County
+    "48293": "17", // Limestone County
+    "48295": "13", // Lipscomb County
+    "48297": "28", // Live Oak County
+    "48299": "11", // Llano County
+    "48301": "23", // Loving County
+    "48303": "19", // Lubbock County
+    "48305": "19", // Lynn County
+    "48307": "11", // McCulloch County
+    "48309": "17", // McLennan County
+    "48311": "28", // McMullen County
+    "48313": "10", // Madison County
+    "48315": "01", // Marion County
+    "48317": "19", // Martin County
+    "48319": "11", // Mason County
+    "48321": "27", // Matagorda County
+    "48325": "23", // Medina County
+    "48327": "11", // Menard County
+    "48329": "11", // Midland County
+    "48331": "17", // Milam County
+    "48333": "31", // Mills County
+    "48335": "19", // Mitchell County
+    "48337": "13", // Montague County
+    "48341": "13", // Moore County
+    "48343": "03", // Morris County
+    "48345": "13", // Motley County
+    "48347": "01", // Nacogdoches County
+    "48349": "06", // Navarro County
+    "48351": "36", // Newton County
+    "48353": "19", // Nolan County
+    "48357": "13", // Ochiltree County
+    "48359": "13", // Oldham County
+    "48361": "14", // Orange County
+    "48363": "25", // Palo Pinto County
+    "48365": "01", // Panola County
+    "48369": "19", // Parmer County
+    "48371": "23", // Pecos County
+    "48373": "10", // Polk County
+    "48375": "13", // Potter County
+    "48377": "23", // Presidio County
+    "48379": "32", // Rains County
+    "48381": "13", // Randall County
+    "48383": "23", // Reagan County
+    "48385": "21", // Real County
+    "48387": "04", // Red River County
+    "48389": "23", // Reeves County
+    "48393": "13", // Roberts County
+    "48395": "17", // Robertson County
+    "48397": "32", // Rockwall County
+    "48399": "11", // Runnels County
+    "48401": "01", // Rusk County
+    "48403": "01", // Sabine County
+    "48405": "01", // San Augustine County
+    "48407": "10", // San Jacinto County
+    "48411": "11", // San Saba County
+    "48413": "23", // Schleicher County
+    "48415": "19", // Scurry County
+    "48417": "19", // Shackelford County
+    "48419": "01", // Shelby County
+    "48421": "13", // Sherman County
+    "48423": "01", // Smith County
+    "48425": "25", // Somervell County
+    "48427": "28", // Starr County
+    "48429": "25", // Stephens County
+    "48431": "11", // Sterling County
+    "48433": "19", // Stonewall County
+    "48435": "23", // Sutton County
+    "48437": "19", // Swisher County
+    "48441": "19", // Taylor County
+    "48443": "23", // Terrell County
+    "48445": "19", // Terry County
+    "48447": "19", // Throckmorton County
+    "48449": "03", // Titus County
+    "48451": "11", // Tom Green County
+    "48455": "10", // Trinity County
+    "48457": "36", // Tyler County
+    "48459": "32", // Upshur County
+    "48461": "23", // Upton County
+    "48463": "23", // Uvalde County
+    "48465": "23", // Val Verde County
+    "48467": "05", // Van Zandt County
+    "48469": "27", // Victoria County
+    "48473": "08", // Waller County
+    "48475": "23", // Ward County
+    "48477": "27", // Washington County
+    "48479": "28", // Webb County
+    "48481": "27", // Wharton County
+    "48483": "13", // Wheeler County
+    "48485": "13", // Wichita County
+    "48487": "13", // Wilbarger County
+    "48489": "34", // Willacy County
+    "48493": "35", // Wilson County
+    "48495": "23", // Winkler County
+    "48499": "32", // Wood County
+    "48501": "19", // Yoakum County
+    "48503": "25", // Young County
+    "48505": "28", // Zapata County
+    "48507": "23", // Zavala County
+  },
 };
 
 // The complement of the table above, state by state: every county in NC,
@@ -489,6 +724,38 @@ const STATE_SPLIT_COUNTIES_2026 = {
     "12115", // Sarasota County
     "12127", // Volusia County
     "12131", // Walton County
+  ]),
+  TX: new Set([
+    "48007", // Aransas County
+    "48021", // Bastrop County
+    "48027", // Bell County
+    "48029", // Bexar County
+    "48037", // Bowie County
+    "48039", // Brazoria County
+    "48053", // Burnet County
+    "48059", // Callahan County
+    "48085", // Collin County
+    "48113", // Dallas County
+    "48121", // Denton County
+    "48141", // El Paso County
+    "48157", // Fort Bend County
+    "48201", // Harris County
+    "48209", // Hays County
+    "48215", // Hidalgo County
+    "48231", // Hunt County
+    "48245", // Jefferson County
+    "48251", // Johnson County
+    "48323", // Maverick County
+    "48339", // Montgomery County
+    "48355", // Nueces County
+    "48367", // Parker County
+    "48391", // Refugio County
+    "48409", // San Patricio County
+    "48439", // Tarrant County
+    "48453", // Travis County
+    "48471", // Walker County
+    "48491", // Williamson County
+    "48497", // Wise County
   ]),
 };
 
