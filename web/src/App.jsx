@@ -5,6 +5,7 @@ const T = {
   paper: "#F4F1E9", paperRaised: "#FBFAF6", ink: "#211D18", inkSoft: "#6B6255",
   line: "#DAD2BF", gold: "#8C6D1F", rep: "#A83A2D", repSoft: "#F3E1DC",
   dem: "#28587E", demSoft: "#DEE8EF", ind: "#B36A00", indSoft: "#F6E3C8",
+  lib: "#6B4A7D", libSoft: "#E9E5EC", grn: "#4F6B2A", grnSoft: "#E5E9DE",
   success: "#3C7A54", successSoft: "#DFEBE2", warn: "#8C6D1F", warnSoft: "#F1E9D4",
 };
 
@@ -22,14 +23,42 @@ const D = {
 
 const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 
+// Bucketed for COLOR only — R/D plus the two other parties common enough
+// nationally to earn a distinct color (Libertarian, Green). Every rarer
+// party (Constitution, Forward, No Labels, true independents, unknown)
+// shares the "I" color bucket — a distinct color per one-off minor party
+// wouldn't scale. See partyLabel below for why the TEXT label doesn't
+// flatten the same way.
 function partyCode(fecPartyFull) {
   if (/republican/i.test(fecPartyFull)) return "R";
   if (/democrat/i.test(fecPartyFull)) return "D";
+  if (/libertarian/i.test(fecPartyFull)) return "L";
+  if (/green/i.test(fecPartyFull)) return "G";
   return "I";
 }
-const partyColor = (p) => (p === "R" ? T.rep : p === "D" ? T.dem : T.ind);
-const partySoft = (p) => (p === "R" ? T.repSoft : p === "D" ? T.demSoft : T.indSoft);
-const partyName = (p) => (p === "R" ? "Republican" : p === "D" ? "Democrat" : "Independent");
+const partyColor = (p) => ({ R: T.rep, D: T.dem, L: T.lib, G: T.grn }[p] ?? T.ind);
+const partySoft = (p) => ({ R: T.repSoft, D: T.demSoft, L: T.libSoft, G: T.grnSoft }[p] ?? T.indSoft);
+
+// Takes the RAW FEC party string (not partyCode's bucket letter), so a
+// rare party can show its own real name instead of being flattened to
+// "Independent" — a Libertarian or Forward Party candidate is not an
+// independent, even though they share a legend color with one here.
+function partyLabel(fecPartyFull) {
+  if (!fecPartyFull || /^independent$/i.test(fecPartyFull.trim())) return "Independent";
+  if (/republican/i.test(fecPartyFull)) return "Republican";
+  if (/democrat/i.test(fecPartyFull)) return "Democrat";
+  if (/libertarian/i.test(fecPartyFull)) return "Libertarian";
+  if (/green/i.test(fecPartyFull)) return "Green";
+  return fecPartyFull
+    .replace(/\bparty\b/i, "")
+    // Strip stray leading/trailing hyphens left behind by removing "party"
+    // out of a hyphenated string like "NON-PARTY" (-> "Non", not "Non-").
+    // Internal hyphens (e.g. "WRITE-IN") are untouched.
+    .replace(/^[\s-]+|[\s-]+$/g, "")
+    .split(/\s+/)
+    .map((w) => w.charAt(0) + w.slice(1).toLowerCase())
+    .join(" ");
+}
 
 // Parses "YYYY-MM-DD" as LOCAL date components, not UTC — new Date("2026-09-15")
 // parses as UTC midnight, which displays as Sep 14 in US timezones. This avoids that.
@@ -183,8 +212,15 @@ function PrimaryResultsNote({ primaryResults }) {
   );
 }
 
-function Legend() {
-  const items = [["R", "Republican"], ["D", "Democrat"], ["I", "Independent"]];
+// R/D always shown even if one happens to have zero candidates in a given
+// race (rare, but keeps the legend from looking broken mid-race); L/G/I
+// only shown when a candidate in THIS race actually uses that bucket, so
+// the legend doesn't advertise colors that don't appear anywhere here.
+function Legend({ candidates }) {
+  const present = new Set(candidates.map((c) => partyCode(c.party)));
+  const items = [
+    ["R", "Republican"], ["D", "Democrat"], ["L", "Libertarian"], ["G", "Green"], ["I", "Independent / Other"],
+  ].filter(([p]) => p === "R" || p === "D" || present.has(p));
   return (
     <div style={{ display: "flex", gap: 16, flexWrap: "wrap" }}>
       {items.map(([p, label]) => (
@@ -202,7 +238,7 @@ function CandidateTab({ c, onOpenProfile }) {
   return (
     <div style={{ background: partySoft(party), borderTop: `4px solid ${partyColor(party)}`, borderRadius: "6px 6px 0 0", padding: "16px 14px 12px" }}>
       <div style={{ fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: partyColor(party), fontWeight: 700, fontFamily: "'IBM Plex Mono', monospace" }}>
-        {partyName(party)}{c.incumbent ? " · Incumbent" : ""}
+        {partyLabel(c.party)}{c.incumbent ? " · Incumbent" : ""}
       </div>
       <div style={{ fontFamily: "'Fraunces', serif", fontSize: 18, fontWeight: 600, color: T.ink, marginTop: 2, lineHeight: 1.2 }}>
         {toTitleCase(c.full_name)}
@@ -538,7 +574,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
             U.S. Senate
           </button>
         </div>
-        <Legend />
+        <Legend candidates={[...candidates, ...earlyStage]} />
       </div>
 
       {/* CANDIDATE TABS through CAMPAIGN PLATFORM share one scroll container so
@@ -712,7 +748,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
 
       <div style={{ background: partySoft(party), borderTop: `4px solid ${partyColor(party)}`, borderRadius: 6, padding: "20px 18px", marginBottom: 22 }}>
         <div style={{ fontSize: 11, letterSpacing: "0.06em", textTransform: "uppercase", color: partyColor(party), fontWeight: 700, fontFamily: "'IBM Plex Mono', monospace" }}>
-          {partyName(party)}{candidate.incumbent ? " · Incumbent" : ""}
+          {partyLabel(candidate.party)}{candidate.incumbent ? " · Incumbent" : ""}
         </div>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 28, fontWeight: 600, color: T.ink, marginTop: 4 }}>
           {toTitleCase(candidate.full_name)}
