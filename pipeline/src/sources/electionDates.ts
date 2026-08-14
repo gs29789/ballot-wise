@@ -17,6 +17,17 @@ export interface ElectionDates {
   generalDate: string;
   generalSourceUrl: string;
   generalSnippet: string;
+  // Optional: only populated for a race that has an actual, confirmed
+  // second-round date — e.g. Louisiana's House races, where the November
+  // "primary" doubles as the general and a December runoff only happens if
+  // no candidate clears a majority. Left undefined for every other race
+  // (including states with a routine PARTY-primary runoff, like Alabama's —
+  // that runoff still resolves to one nominee per party before a normal
+  // general, so it's a fact about primaryDate, not generalDate, and stays
+  // prose-only inside primarySnippet same as today).
+  runoffDate?: string;
+  runoffSourceUrl?: string;
+  runoffSnippet?: string;
 }
 
 const DELAWARE_2026: ElectionDates = {
@@ -464,10 +475,49 @@ const TEXAS_2026: ElectionDates = {
   generalSnippet: "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years.",
 };
 
+// Louisiana's Senate seat needed a real second-round vote this cycle — both
+// party primaries on May 16 came up short of a majority, so a June 27
+// runoff actually happened and decided both nominations. First real use of
+// the runoffDate/runoffSourceUrl/runoffSnippet fields, added specifically
+// so Louisiana's House races (deferred until Nov 3 results are certified —
+// see votingSystem.ts) need no further interface work when that day comes.
+const LOUISIANA_2026: ElectionDates = {
+  primaryDate: "2026-05-16",
+  primarySourceUrl: "https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf",
+  primarySnippet: "races and propositions scheduled for the Saturday, May 16 election are continuing as planned... including the race for U.S. Senator...",
+  runoffDate: "2026-06-27",
+  runoffSourceUrl: "https://www.sos.la.gov/media/dcvl5ojl/051426-fall-house-races.pdf",
+  runoffSnippet: "All other races and propositions, including the race for U.S. Senate, currently scheduled on the May 16 and June 27 ballots, will proceed as planned.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.sos.la.gov/elections-voting/election-dates",
+  generalSnippet: "November 3, 2026 - U.S. Senate General/Open U.S. Representative Primary/Open Primary Election",
+};
+
+const MAINE_2026: ElectionDates = {
+  primaryDate: "2026-06-09",
+  primarySourceUrl: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Candidates%20Guide%20to%20Ballot%20Access%20Final.pdf",
+  primarySnippet: "The Primary Elections on June 9, 2026 for U.S. Senate, U.S. Congress, Governor, State Senate, and State Representative to the Legislature will be decided by a system of ranked-choice voting if three or more candidates qualify for the ballot...",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/2026%20Candidates%20Guide%20to%20Ballot%20Access%20Final.pdf",
+  generalSnippet: "The General Election on November 3, 2026 for U.S. Senate and U.S. Congress will also be decided by a system of ranked-choice voting if three or more candidates qualify for the office...",
+};
+
+const ALASKA_2026: ElectionDates = {
+  primaryDate: "2026-08-18",
+  primarySourceUrl: "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-25-020/",
+  primarySnippet: "AS 15.25.020: The primary election is held on the third Tuesday in August of every even-numbered year.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-15-020/",
+  generalSnippet: "AS 15.15.020: The general election is held on the Tuesday after the first Monday in November in every even numbered year.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
   if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
   if (stateCode === "TN" && cycle === 2026) return TENNESSEE_2026;
   if (stateCode === "TX" && cycle === 2026) return TEXAS_2026;
+  if (stateCode === "LA" && cycle === 2026) return LOUISIANA_2026;
+  if (stateCode === "ME" && cycle === 2026) return MAINE_2026;
+  if (stateCode === "AK" && cycle === 2026) return ALASKA_2026;
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

@@ -26,6 +26,7 @@ import { getUnemploymentRate, getViolentCrimeRate, getNonfarmEmployment, getFede
 import { getStateBackgroundCheckFact } from "./sources/stateBackgroundCheckLaw.js";
 import { getElectionDates } from "./sources/electionDates.js";
 import { getPrimaryFilter } from "./sources/primaryResults.js";
+import { getVotingSystem } from "./sources/votingSystem.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -438,6 +439,7 @@ export async function buildRace(opts: BuildRaceOptions) {
     generated_at: new Date().toISOString(),
     election_dates: getElectionDates(opts.state, opts.cycle, opts.raceSlug),
     state_background_check: getStateBackgroundCheckFact(opts.state, opts.office),
+    voting_system: getVotingSystem(opts.state, opts.cycle, opts.raceSlug),
     primary_results: primaryFilter && { source_url: primaryFilter.source_url, snippet: primaryFilter.snippet },
     hard_metrics: {
       unemployment_rate: withFallback(unemployment, previousMetrics.unemployment_rate),
@@ -905,6 +907,22 @@ export const RACES: BuildRaceOptions[] = [
   { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-37", outFile: "house/TX-37.json", district: "37" },
   { state: "TX", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-38", outFile: "house/TX-38.json", district: "38" },
   { state: "TX", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/TX.json" },
+  // Louisiana Senate: standard closed-party primary (May 16) + runoff (June
+  // 27, both parties needed one), normal Nov 3 general. Louisiana's House
+  // races are deliberately NOT here — they reverted to an all-party primary
+  // held ON Nov 3 itself, with a possible December runoff depending on
+  // results not knowable until after that date. See votingSystem.ts and the
+  // non-standard-electoral-systems plan for why House stays deferred.
+  { state: "LA", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/LA.json" },
+  // Maine: standard party primaries (June 9, already resolved) feed a
+  // ranked-choice general — see votingSystem.ts. Its congressional map is
+  // UNCHANGED since 2021 (confirmed both by research and by testing the
+  // live Census geocoder against Augusta, the one town that moved districts
+  // in the 2021 redraw — it already resolves correctly), so no geocode.js
+  // override is needed at all.
+  { state: "ME", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/ME-1.json", district: "01" },
+  { state: "ME", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/ME-2.json", district: "02" },
+  { state: "ME", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/ME.json" },
 ];
 
 async function main() {

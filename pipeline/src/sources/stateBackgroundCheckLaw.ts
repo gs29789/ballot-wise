@@ -570,8 +570,54 @@ const TEXAS_FEDERAL: StateBackgroundCheckFact = {
     ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
 };
 
+// Louisiana is the cleanest case yet: rather than inferring self-limiting
+// scope from a statute's own text, the state's own official candidate
+// qualifying form spells out the federal-office exemption explicitly, in
+// the sworn certification every candidate signs.
+const LOUISIANA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Louisiana's official candidate qualifying form explicitly exempts \"United States senator or representative in congress\" from its felony-disqualification certification requirement; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://www.sos.la.gov/media/wkijy1fx/qualifying-form.pdf",
+  snippet:
+    "Notice of Candidacy (Form QF-42, Rev. 6/22), item 7: \"If I am a candidate for any office other than United States senator or representative in congress, that I am not currently under an order of imprisonment for conviction of a felony and I am not prohibited from qualifying as a candidate for the conviction of a felony pursuant to Article I, Section 10.1 of the Constitution of Louisiana.\"",
+};
+
+// Maine repealed its only office-disqualification statute (17-A M.R.S.
+// §1152(4)) outright in 2019 — there's no current state-law bar to analyze
+// for scope at all, for any office.
+const MAINE_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Maine repealed its only statutory provision allowing a felony conviction to disqualify someone from office (17-A M.R.S. § 1152(4)) in 2019; no replacement exists for any office, state or federal, and separately the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://www.mainelegislature.org/legis/statutes/17-a/title17-Asec1152.html",
+  snippet:
+    "17-A M.R.S. § 1152. Authorized sentences (REPEALED). SECTION HISTORY: ...PL 2019, c. 113, Pt. A, §1 (RP).",
+};
+
+// Alaska has no dedicated candidate background-check statute. Its
+// declaration-of-candidacy filing (which federal candidates use too, per
+// AS 15.25.010) carries no felony clause; its one felony-related election
+// statute (AS 15.05.030) is a temporary VOTING-rights provision by its own
+// text, not a candidacy bar. Confirmed in practice: a convicted, then-
+// incarcerated felon ran for and remained on Alaska's 2024 U.S. House
+// general-election ballot, upheld 4-1 by the Alaska Supreme Court, with
+// neither the state nor either party ever raising a felony-conviction
+// theory against him.
+const ALASKA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Alaska has no dedicated candidate background-check statute; its declaration-of-candidacy filing (used for federal candidates too) carries no felony clause, and its one felony-related election statute (AS 15.05.030) only suspends voting rights temporarily, not candidacy or office-holding; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+  source_url: "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-05-030/",
+  snippet:
+    "AS 15.05.030: \"A person convicted of a crime that constitutes a felony involving moral turpitude under state or federal law may not vote in a state, federal, or municipal election from the date of the conviction through the date of the unconditional discharge of the person. Upon the unconditional discharge, the person may register.\"",
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
+  if (stateCode === "LA" && (office === "H" || office === "S")) return LOUISIANA_FEDERAL;
+  if (stateCode === "ME" && (office === "H" || office === "S")) return MAINE_FEDERAL;
+  if (stateCode === "AK" && (office === "H" || office === "S")) return ALASKA_FEDERAL;
   if (stateCode === "TN" && (office === "H" || office === "S")) return TENNESSEE_FEDERAL;
   if (stateCode === "TX" && (office === "H" || office === "S")) return TEXAS_FEDERAL;
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;

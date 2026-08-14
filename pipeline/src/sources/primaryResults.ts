@@ -2226,10 +2226,49 @@ const TEXAS_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Louisiana's Senate seat needed an actual runoff (see electionDates.ts) —
+// both party primaries fell short of a majority on May 16, and the June 27
+// runoff decided both nominations. Bill Cassidy (R, incumbent) lost his own
+// party's primary outright and never reached the runoff.
+const LOUISIANA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  senate: {
+    advancingCandidateIds: ["S6LA00664", "S6LA00615"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Louisiana,_2026",
+    snippet: "Jamie Davis (D) and Julia Letlow (R) are running in the general election for U.S. Senate Louisiana on November 3, 2026.",
+  },
+};
+
+// Maine's Senate race needed a live re-check, not just the June 9 primary
+// result: Democratic primary winner Graham Platner withdrew July 10, 2026
+// (following a serious allegation) and the state party nominated Troy
+// Jackson as his replacement at a July 25 convention — Platner's own FEC ID
+// (S6ME00373) must NOT be used here, confirmed directly against Maine's
+// live Ballotpedia general-election candidate box, not the primary-result
+// summary alone.
+const MAINE_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H8ME01120", "H4ME01160"],
+    source_url: "https://ballotpedia.org/Maine%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Chellie Pingree and Ronald C. Russell are running in the general election for U.S. House Maine District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6ME02171", "H6ME02148"],
+    source_url: "https://ballotpedia.org/Maine%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Matthew Dunlap and Paul LePage are running in the general election for U.S. House Maine District 2 on November 3, 2026.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6ME00159", "S6ME00464"],
+    source_url: "https://ballotpedia.org/United_States_Senate_election_in_Maine,_2026",
+    snippet: "Incumbent Susan Collins (R) and Troy Dale Jackson (D) are running in the general election for U.S. Senate Maine on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TX" && cycle === 2026) return TEXAS_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "LA" && cycle === 2026) return LOUISIANA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "ME" && cycle === 2026) return MAINE_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;

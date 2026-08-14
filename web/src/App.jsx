@@ -212,10 +212,40 @@ function PrimaryResultsNote({ primaryResults }) {
   );
 }
 
-// R/D always shown even if one happens to have zero candidates in a given
-// race (rare, but keeps the legend from looking broken mid-race); L/G/I
-// only shown when a candidate in THIS race actually uses that bucket, so
-// the legend doesn't advertise colors that don't appear anywhere here.
+// Most races use a standard partisan-primary-then-general process a voter
+// can safely assume without being told. A handful of states run something
+// genuinely different (nonpartisan blanket primaries, ranked-choice
+// generals, same-party generals) where assuming the standard process would
+// actively mislead a voter about how their ballot works — shown once,
+// race-wide, same reasoning as StateBackgroundCheckBanner above. Absent
+// (null) for every standard race, which today is all of them.
+function VotingSystemNote({ votingSystem }) {
+  if (!votingSystem) return null;
+  return (
+    <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", marginBottom: 14 }}>
+      <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
+      <div style={{ fontSize: 12.5, color: T.ink }}>
+        <strong>{votingSystem.label}: </strong>
+        {votingSystem.primaryExplanation}{" "}
+        <a href={votingSystem.primarySourceUrl} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }} title={votingSystem.primarySnippet}>
+          source <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+        </a>{" "}
+        {votingSystem.generalExplanation}{" "}
+        <a href={votingSystem.generalSourceUrl} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }} title={votingSystem.generalSnippet}>
+          source <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+        </a>
+      </div>
+    </div>
+  );
+}
+
+// Only shown when a candidate in THIS race actually uses that bucket, so
+// the legend never advertises a color that doesn't appear anywhere here.
+// R/D used to always render regardless — reasoned as a rare mid-race gap —
+// but checked empirically against every currently-built race: 23 already
+// have no Republican, 4 already have no Democrat, and a same-party general
+// (California/Washington's top-two primaries can produce one) makes a
+// missing party the guaranteed norm rather than a rare gap for some states.
 function Legend({ candidates }) {
   const present = new Set(candidates.map((c) => partyCode(c.party)));
   const items = [
@@ -557,11 +587,16 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <div style={{ fontSize: 12.5, color: T.inkSoft }}>
           {geo.stateName} · {geo.districtLabel}
           {race?.election_dates && (
-            <span> — Primary: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.primaryDate)}</strong> · General: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.generalDate)}</strong></span>
+            <span> — Primary: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.primaryDate)}</strong> · General: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.generalDate)}</strong>
+              {race.election_dates.runoffDate && (
+                <> · Runoff (if needed): <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.runoffDate)}</strong></>
+              )}
+            </span>
           )}
         </div>
       </div>
 
+      <VotingSystemNote votingSystem={race?.voting_system} />
       <StateBackgroundCheckBanner field={race?.state_background_check} />
       <PrimaryResultsNote primaryResults={race?.primary_results} />
 
@@ -744,6 +779,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
         <ArrowLeft size={15} /> Back to comparison
       </button>
 
+      <VotingSystemNote votingSystem={race?.voting_system} />
       <StateBackgroundCheckBanner field={race?.state_background_check} />
 
       <div style={{ background: partySoft(party), borderTop: `4px solid ${partyColor(party)}`, borderRadius: 6, padding: "20px 18px", marginBottom: 22 }}>
