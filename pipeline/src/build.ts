@@ -780,11 +780,12 @@ async function main() {
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/NC-8.json", district: "08" });
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/NC-9.json", district: "09" });
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/NC-10.json", district: "10" });
-  // NC-11 deliberately not built: incumbent Chuck Edwards withdrew
-  // 2026-08-07/08 after a House Ethics Committee censure recommendation;
-  // the NC GOP selected Jennifer Balkcom as his replacement nominee on
-  // 2026-08-10, but she has no FEC candidate ID yet as of this research
-  // (2026-08-13) — re-check FEC in the coming weeks and add her then.
+  // NC-11: incumbent Chuck Edwards withdrew 2026-08-07/08 after a House
+  // Ethics Committee censure recommendation; the NC GOP selected Jennifer
+  // Balkcom as his replacement nominee 2026-08-10. She had no FEC candidate
+  // ID as of 2026-08-13; filed one (H6NC11321) the same day, confirmed
+  // 2026-08-14.
+  await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-11", outFile: "house/NC-11.json", district: "11" });
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/NC-12.json", district: "12" });
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/NC-13.json", district: "13" });
   await buildRace({ state: "NC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/NC-14.json", district: "14" });

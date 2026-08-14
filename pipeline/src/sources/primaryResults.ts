@@ -1721,6 +1721,11 @@ const NORTH_CAROLINA_2026_PRIMARY: Record<string, PrimaryResult> = {
     source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
     snippet: "Pat Harrigan (Incumbent) (Republican Party); Ashley Bell (Democratic Party); Steven Feldman (Libertarian Party)",
   },
+  "house-11": {
+    advancingCandidateIds: ["H6NC11248", "H6NC11321", "H6NC11313", "H6NC11305"],
+    source_url: "https://ballotpedia.org/North_Carolina%27s_11th_Congressional_District_election,_2026",
+    snippet: "Jamie Ager, Jennifer Balkcom, Travis Groo, and John Rogers are running in the general election for U.S. House North Carolina District 11 on November 3, 2026.",
+  },
   "house-12": {
     advancingCandidateIds: ["H4NC12100", "H6NC12113"],
     source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
