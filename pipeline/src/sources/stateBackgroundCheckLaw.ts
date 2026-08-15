@@ -625,12 +625,26 @@ const CALIFORNIA_FEDERAL: StateBackgroundCheckFact = {
     "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\"",
 };
 
+// Washington's cleanest carve-out is more direct than most: RCW
+// 29A.24.075(4) doesn't just describe state office, it explicitly names
+// Congress and points to the U.S. Constitution as the only source of
+// federal candidate qualifications.
+const WASHINGTON_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Washington law (RCW 29A.24.075(4)) explicitly states that requirements otherwise imposed on candidates \"do not apply to candidates for congressional office\" and that \"qualifications for the United States congress are specified in the United States Constitution\"; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+  source_url: "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.24.075",
+  snippet:
+    "RCW 29A.24.075(4): \"The requirements of voter registration and residence within the geographic area of a district do not apply to candidates for congressional office. Qualifications for the United States congress are specified in the United States Constitution.\"",
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
   if (stateCode === "LA" && (office === "H" || office === "S")) return LOUISIANA_FEDERAL;
   if (stateCode === "ME" && (office === "H" || office === "S")) return MAINE_FEDERAL;
   if (stateCode === "AK" && (office === "H" || office === "S")) return ALASKA_FEDERAL;
   if (stateCode === "CA" && (office === "H" || office === "S")) return CALIFORNIA_FEDERAL;
+  if (stateCode === "WA" && (office === "H" || office === "S")) return WASHINGTON_FEDERAL;
   if (stateCode === "TN" && (office === "H" || office === "S")) return TENNESSEE_FEDERAL;
   if (stateCode === "TX" && (office === "H" || office === "S")) return TEXAS_FEDERAL;
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;

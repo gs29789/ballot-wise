@@ -982,6 +982,24 @@ export const RACES: BuildRaceOptions[] = [
   { state: "CA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-50", outFile: "house/CA-50.json", district: "50" },
   { state: "CA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-51", outFile: "house/CA-51.json", district: "51" },
   { state: "CA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-52", outFile: "house/CA-52.json", district: "52" },
+  // Washington: top-two blanket primary (Aug 4, already resolved for 8 of
+  // 10 districts) — see votingSystem.ts. No 2026 Senate race (Murray's term
+  // runs to 2029, Cantwell's to 2031, both confirmed directly). Map is
+  // UNCHANGED since the 2021 cycle (confirmed both by research and by
+  // testing the live Census geocoder against 4 real addresses, including a
+  // cross-check against Rep. Emily Randall's own official district-office
+  // address), so no geocode.js override is needed at all — same outcome as
+  // NY/PA/MI/GA/ME. WA-05 and WA-08 deliberately NOT here yet: both
+  // districts' second-place general slot was still uncertified as of this
+  // research, WA-08 genuinely still tightening between two Republicans.
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/WA-1.json", district: "01" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/WA-2.json", district: "02" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/WA-3.json", district: "03" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/WA-4.json", district: "04" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/WA-6.json", district: "06" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/WA-7.json", district: "07" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/WA-9.json", district: "09" },
+  { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/WA-10.json", district: "10" },
 ];
 
 async function main() {

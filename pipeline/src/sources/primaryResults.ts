@@ -2526,6 +2526,59 @@ const CALIFORNIA_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// WA-05 and WA-08 deliberately absent: both districts' second-place general
+// slot was still uncertified by Ballotpedia as of this research (Aug 15,
+// 2026, 11 days post-primary) — WA-08 specifically has a genuinely
+// still-tightening race between two Republicans. Held back the same way
+// every other pending-result race this project has hit, not filtered to a
+// guess. No WA Senate race this cycle (Murray's term runs to 2029,
+// Cantwell's to 2031, both confirmed directly).
+const WASHINGTON_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H0WA08046", "H4WA01282"],
+    source_url: "https://ballotpedia.org/Washington%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent Suzan DelBene and Mary Silva are running in the general election for U.S. House Washington District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H0WA02080", "H6WA02228"],
+    source_url: "https://ballotpedia.org/Washington%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Rick Larsen and Edwin Feller are running in the general election for U.S. House Washington District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H2WA03217", "H6WA03275"],
+    source_url: "https://ballotpedia.org/Washington%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Marie Gluesenkamp Perez and John Braun are running in the general election for U.S. House Washington District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H6WA04190", "H6WA04216"],
+    source_url: "https://ballotpedia.org/Washington%27s_4th_Congressional_District_election,_2026",
+    snippet: "John Duresky and Amanda McKinney are running in the general election for U.S. House Washington District 4 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H4WA06117", "H6WA06286"],
+    source_url: "https://ballotpedia.org/Washington%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Emily Randall and Teresa Fox are running in the general election for U.S. House Washington District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6WA07458", "H4WA08147"],
+    source_url: "https://ballotpedia.org/Washington%27s_7th_Congressional_District_election,_2026",
+    snippet: "Incumbent Pramila Jayapal and Nirav Sheth are running in the general election for U.S. House Washington District 7 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6WA09025", "H4WA09061"],
+    source_url: "https://ballotpedia.org/Washington%27s_9th_Congressional_District_election,_2026",
+    snippet: "Incumbent D. Adam Smith and Douglas Michael Basler are running in the general election for U.S. House Washington District 9 on November 3, 2026.",
+  },
+  // Chris Chung (R) has no findable FEC candidate ID (checked WA-filtered and
+  // nationwide by surname) -- only Strickland's ID goes in advancingCandidateIds,
+  // same treatment as every other no-FEC-ID case this project has hit.
+  "house-10": {
+    advancingCandidateIds: ["H0WA10034"],
+    source_url: "https://ballotpedia.org/Washington%27s_10th_Congressional_District_election,_2026",
+    snippet: "Incumbent Marilyn Strickland and Chris Chung are running in the general election for U.S. House Washington District 10 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
@@ -2533,6 +2586,7 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "LA" && cycle === 2026) return LOUISIANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ME" && cycle === 2026) return MAINE_2026_PRIMARY[raceSlug] ?? null;
   if (state === "CA" && cycle === 2026) return CALIFORNIA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "WA" && cycle === 2026) return WASHINGTON_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;

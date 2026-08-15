@@ -520,6 +520,15 @@ const CALIFORNIA_2026: ElectionDates = {
   generalSnippet: "General Election - November 3, 2026.",
 };
 
+const WASHINGTON_2026: ElectionDates = {
+  primaryDate: "2026-08-04",
+  primarySourceUrl: "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+  primarySnippet: "August 4 — Primary - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+  generalSnippet: "November 3 — General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
   if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
   if (stateCode === "TN" && cycle === 2026) return TENNESSEE_2026;
@@ -528,6 +537,7 @@ export function getElectionDates(stateCode: string, cycle: number, raceSlug?: st
   if (stateCode === "ME" && cycle === 2026) return MAINE_2026;
   if (stateCode === "AK" && cycle === 2026) return ALASKA_2026;
   if (stateCode === "CA" && cycle === 2026) return CALIFORNIA_2026;
+  if (stateCode === "WA" && cycle === 2026) return WASHINGTON_2026;
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

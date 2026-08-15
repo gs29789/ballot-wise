@@ -69,9 +69,30 @@ const CALIFORNIA_2026: VotingSystemFact = {
     "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\"",
 };
 
+// Washington's top-two system predates and is legally independent of
+// California's — adopted by Initiative 872 (2004), enjoined by the Ninth
+// Circuit in 2005, and only took effect after the Supreme Court reversed
+// in Washington State Grange v. Washington State Republican Party (2008).
+// Worth keeping the label states-agnostic ("top-two blanket primary") but
+// not implying a shared lineage in the explanation text.
+const WASHINGTON_2026: VotingSystemFact = {
+  label: "Top-two blanket primary",
+  primaryExplanation:
+    "Every candidate for this office, regardless of party, appears on one primary ballot, and any voter may vote for any candidate — Washington doesn't register voters by party at all. The two candidates with the most votes advance to the general election, regardless of party, as long as each clears at least 1% of the primary vote.",
+  primarySourceUrl: "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.36.170",
+  primarySnippet:
+    "RCW 29A.36.170: \"...only the names of the top two candidates will appear on the general election ballot\" (candidates ranked by primary vote total; a candidate needs at least one percent of the total votes cast for that office at the preceding primary to advance).",
+  generalExplanation:
+    "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. A candidate's stated party \"preference\" is self-declared and explicitly not a party nomination or endorsement. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+  generalSourceUrl: "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.52.112",
+  generalSnippet:
+    "RCW 29A.52.112: \"Based upon votes cast at the primary, the top two candidates will be certified as qualified to appear on the general election ballot... Any party preferences are shown for the information of voters only and may in no way limit the options available to voters.\"",
+};
+
 export function getVotingSystem(state: string, cycle: number, raceSlug?: string): VotingSystemFact | null {
   if (state === "AK" && cycle === 2026) return ALASKA_2026;
   if (state === "ME" && cycle === 2026) return MAINE_2026;
   if (state === "CA" && cycle === 2026) return CALIFORNIA_2026;
+  if (state === "WA" && cycle === 2026) return WASHINGTON_2026;
   return null;
 }
