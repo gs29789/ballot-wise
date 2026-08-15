@@ -45,7 +45,7 @@ async function fetchGeographies(address) {
   return { ok: res.ok && looksLikeJson, body, status: res.status };
 }
 
-// Nine states so far were confirmed to share the same blocker: each enacted
+// Ten states so far were confirmed to share the same blocker: each enacted
 // a genuinely new, legally-in-effect 2026 congressional map, but the Census
 // Geocoder's Current_Current vintage still serves the OLD (pre-redraw)
 // district boundaries — confirmed directly for each with a real test
@@ -66,10 +66,20 @@ async function fetchGeographies(address) {
 // reference; Tennessee's SA7001/HA7002 amendment to Tenn. Code Ann.
 // § 2-16-103; California's AB 604, which explicitly labels each district's
 // counties "Whole" vs. "Partial" and gives block-level text for every
-// partial county), not just a county-level breakdown. Utah does not have
-// any such source: its map was adopted by court order and exists only as
-// a GIS shapefile with no textual county-by-district breakdown, so no
-// override was attempted there.
+// partial county), not just a county-level breakdown.
+//
+// Utah is the one exception, sourced differently from every other state
+// here: it has no legislative or commission-filed TEXT at all, because its
+// map was imposed by a Utah state trial court (not a bill, not a
+// commission) and exists only as GIS geometry. Rather than leave it
+// unbuilt, Utah's table below was derived by intersecting Census TIGER
+// county boundaries against the actual court-sourced district shapefile
+// (published by Utah's Geospatial Resource Center, UGRC) with Turf.js, and
+// verified against the court's own Findings of Fact ¶143 stating exactly
+// which 3 counties are split — the geometric computation reproduced that
+// exact 3-county list independently, with a wide (100x+) margin between
+// real splits and ordinary cross-dataset boundary-tracing noise. See the
+// UT entry itself for the full method note and source URL.
 //
 // California is a genuinely different SCALE of case worth flagging, not
 // just another state on the list: 28 of its 58 counties are split, and
@@ -109,7 +119,7 @@ async function fetchGeographies(address) {
 // and reconciled to each state's full, independently-known county count
 // with zero gaps and zero duplicates (NC 88+12=100, MO 110+5=115 incl. the
 // independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254,
-// AL 61+6=67, TN 83+12=95, CA 30+28=58).
+// AL 61+6=67, TN 83+12=95, CA 30+28=58, UT 26+3=29).
 // Counties split between districts are deliberately left OUT of every
 // table below — a county-level correction can't safely resolve which side
 // of a split county a given address falls on, so those addresses keep
@@ -131,6 +141,7 @@ async function fetchGeographies(address) {
 //   AL: Act 2023-563 (SB5, 2023 2nd Special Session), codified at §17-14-70, https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023SS2/SB5-enr.pdf — incorporates by reference the "Livingston Congressional Plan 3-2023" boundary description, https://www.sos.alabama.gov/sites/default/files/2026-5-14/Livingston%20Congressional%20Plan%203-2023%20Legal%20Description.pdf, independently re-verified directly (not just trusted from the research pass) including the "Russe County" → Russell County resolution below
 //   TN: Senate Judiciary 1 Amendment No. 1 to SB7004 ("SA7001"), amending Tenn. Code Ann. § 2-16-103, https://www.capitol.tn.gov/Bills/114/Amend/SA7001.pdf — byte-identical (except sponsor header) to the House's HA7002 substitute for HB7003; capitol.tn.gov is unreachable at the TCP level from this project's sandbox (a harder block than Cloudflare's soft gate elsewhere), fetched via the r.jina.ai reader proxy and independently re-verified directly, including the exact line count (1,992) and opening clause matching the research pass's own quote word-for-word
 //   CA: AB 604, Chapter 96, Statutes of 2025 (enacted under Proposition 50, approved by voters 2025-11-04), now Elec. Code §21400 et seq., https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB604 — explicitly labels "Whole Counties" vs. "Partial Counties" per district; cross-checked against the CA Senate Office of Demographics' consolidated per-district summary tables, https://sdmg.senate.ca.gov/committeehome/2025-congressional-districts, which independently confirmed every whole/split classification used below
+//   UT: no legislative text — geometry only. District shapefile: Utah Geospatial Resource Center, "Utah US Congress Districts 2026 to 2032," https://opendata.gis.utah.gov/datasets/utah-us-congress-districts-2026-to-2032/about (live feature service: https://services1.arcgis.com/99lidPhWCzftIe9K/ArcGIS/rest/services/political_us_congress_districts_2026_to_2032/FeatureServer/0), explicitly described by UGRC as "provided by the Utah Third Judicial District Court" following its Nov 10, 2025 order (Case No. 220901712, Judge Dianna M. Gibson) adopting "Map 1," refined to "Map 1A" after further court-ordered boundary clarifications — last edited on the live service 2026-03-06, i.e. after those clarifications. Cross-checked against the court's own Findings of Fact, ¶143: "Map 1 splits three counties only one time each: Salt Lake, Utah, and Weber counties are split into two districts each," https://statecourtreport.org/sites/default/files/2025-11/salt_lake_county_district_court-findings_of_fact_and_conclusions_of_law.pdf — county boundaries from Census TIGER/Line 2024 (www2.census.gov/geo/tiger/TIGER2024/COUNTY/tl_2024_us_county.zip); classification computed with Turf.js (booleanIntersects + intersect + area), not transcribed
 const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   NC: {
     "37001": "09", // Alamance County
@@ -865,6 +876,53 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
     "06109": "05", // Tuolumne County
     "06115": "04", // Yuba County
   },
+  // Utah has no legislative or commission-filed TEXT describing its 2026
+  // map at all — it was imposed by a Utah state trial court (Third
+  // Judicial District Court, Salt Lake County, Case No. 220901712, Nov 10
+  // 2025) and codified only as GIS geometry, not county-name prose, unlike
+  // every other state in this table. So this table is derived differently
+  // from the rest: computed by intersecting Census TIGER county boundaries
+  // against the court-sourced district shapefile published by Utah's
+  // Geospatial Resource Center (UGRC, operated jointly with the Lt.
+  // Governor's elections office) — https://opendata.gis.utah.gov/datasets/utah-us-congress-districts-2026-to-2032
+  // — rather than transcribed from statute text. Verified against the
+  // court's own Findings of Fact ¶143 ("Map 1 splits three counties only
+  // one time each: Salt Lake, Utah, and Weber"): the geometric computation
+  // reproduces exactly this same 3-county split, with every other overlap
+  // between a "whole" county and a neighboring district under 0.02% of
+  // that county's area — three orders of magnitude below the smallest real
+  // split (Weber, 1.6%) — consistent with ordinary boundary-tracing
+  // misalignment between two independently-drawn datasets, not a real
+  // split. 26 whole + 3 split = 29, zero gaps/dupes, same reconciliation
+  // standard as every other state here.
+  UT: {
+    "49001": "03", // Beaver County
+    "49003": "02", // Box Elder County
+    "49005": "02", // Cache County
+    "49007": "03", // Carbon County
+    "49009": "03", // Daggett County
+    "49011": "02", // Davis County
+    "49013": "03", // Duchesne County
+    "49015": "03", // Emery County
+    "49017": "03", // Garfield County
+    "49019": "03", // Grand County
+    "49021": "03", // Iron County
+    "49023": "04", // Juab County
+    "49025": "03", // Kane County
+    "49027": "04", // Millard County
+    "49029": "03", // Morgan County
+    "49031": "03", // Piute County
+    "49033": "02", // Rich County
+    "49037": "03", // San Juan County
+    "49039": "04", // Sanpete County
+    "49041": "04", // Sevier County
+    "49043": "03", // Summit County
+    "49045": "04", // Tooele County
+    "49047": "03", // Uintah County
+    "49051": "03", // Wasatch County
+    "49053": "03", // Washington County
+    "49055": "03", // Wayne County
+  },
 };
 
 // The complement of the table above, state by state: every county in NC,
@@ -1011,6 +1069,11 @@ const STATE_SPLIT_COUNTIES_2026 = {
     "06107", // Tulare County
     "06111", // Ventura County
     "06113", // Yolo County
+  ]),
+  UT: new Set([
+    "49035", // Salt Lake County — District 1 76.9% / District 4 23.1%
+    "49049", // Utah County — District 3 60.2% / District 4 39.8%
+    "49057", // Weber County — District 2 98.4% / District 3 1.6%
   ]),
 };
 
