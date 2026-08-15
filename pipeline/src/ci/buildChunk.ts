@@ -17,9 +17,11 @@ if (!chunk) {
 async function main() {
   let done = 0;
   const failed: string[] = [];
+  const allFlags: string[] = [];
   for (const opts of chunk!.races) {
     try {
-      await buildRace(opts);
+      const { flags } = await buildRace(opts);
+      allFlags.push(...flags);
       done++;
       console.log(`PROGRESS ${done}/${chunk!.races.length} ok: ${opts.outFile}`);
     } catch (err: any) {
@@ -28,9 +30,13 @@ async function main() {
     }
   }
 
+  // Surfaced in $GITHUB_STEP_SUMMARY specifically so a flag is visible on
+  // the run's summary page, not buried in per-step logs someone has to
+  // think to click into — same reasoning as the pass/fail counts below.
   const summary =
     `## Chunk ${chunkId}\n\n${done}/${chunk!.races.length} succeeded.\n` +
-    (failed.length ? `\nFailed:\n${failed.map((f) => `- ${f}`).join("\n")}\n` : "");
+    (failed.length ? `\nFailed:\n${failed.map((f) => `- ${f}`).join("\n")}\n` : "") +
+    (allFlags.length ? `\n**⚠️ ${allFlags.length} primary-results flag(s):**\n${allFlags.map((f) => `- ${f}`).join("\n")}\n` : "");
   console.log(summary);
   if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, summary);
 

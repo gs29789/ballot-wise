@@ -164,7 +164,7 @@ export interface BuildRaceOptions {
 // new state) without re-running every already-published race through
 // main() below — those already have current R2 data and gain nothing from
 // a rebuild, just wasted API calls and wall-clock time.
-export async function buildRace(opts: BuildRaceOptions) {
+export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string[] }> {
   const previous = await fetchPreviousRace(opts.outFile);
   const previousCandidates: any[] = previous?.candidates ?? [];
 
@@ -177,6 +177,29 @@ export async function buildRace(opts: BuildRaceOptions) {
   const fecCandidates = primaryFilter
     ? allFecCandidates.filter((c) => primaryFilter.advancingCandidateIds.includes(c.candidateId))
     : allFecCandidates;
+
+  // Safety net for the "confirmed candidate quietly stopped being real"
+  // case (withdrawal, disqualification, a late substitution) — learned
+  // from Maine's Senate race, where the certified primary winner withdrew
+  // and was replaced by a state-party convention pick weeks later. This
+  // doesn't try to guess who a replacement is (that still needs the same
+  // manual research pass every primary-results update has needed) — it
+  // only notices that FEC's own fresh data no longer backs up what
+  // primaryResults.ts currently asserts, and says so loudly rather than
+  // silently rebuilding a stale roster forever. Real limitation worth
+  // knowing: FEC's own records often lag a real-world withdrawal by weeks,
+  // so this is a periodic safety net that catches it once FEC's data
+  // catches up, not a same-day news alert.
+  const flags: string[] = [];
+  if (primaryFilter) {
+    const activeIds = new Set(allFecCandidates.map((c) => c.candidateId));
+    const missingIds = primaryFilter.advancingCandidateIds.filter((id) => !activeIds.has(id));
+    if (missingIds.length) {
+      const msg = `${opts.state} ${opts.raceSlug}: confirmed candidate(s) ${missingIds.join(", ")} no longer appear in FEC's active results for this race (status changed, or record no longer matches this cycle) — possible withdrawal, disqualification, or replacement. Worth a manual check against primaryResults.ts.`;
+      flags.push(msg);
+      console.warn(`[primaryResultsFlag] ${msg}`);
+    }
+  }
   const curated = loadCuratedRace(opts.state, opts.raceSlug);
   const stateMembers = await getMembersByState(opts.state);
 
@@ -456,6 +479,7 @@ export async function buildRace(opts: BuildRaceOptions) {
   mkdirSync(join(outPath, ".."), { recursive: true });
   writeFileSync(outPath, JSON.stringify(output, null, 2));
   console.log(`Wrote ${outPath} — ${candidates.length} candidates (${candidates.filter((c) => c._curated_match).length} with curated bio data)`);
+  return { flags };
 }
 
 // Every currently-published race. main() just iterates this; CI's
@@ -1003,8 +1027,14 @@ export const RACES: BuildRaceOptions[] = [
 ];
 
 async function main() {
+  const allFlags: string[] = [];
   for (const opts of RACES) {
-    await buildRace(opts);
+    const { flags } = await buildRace(opts);
+    allFlags.push(...flags);
+  }
+  if (allFlags.length) {
+    console.log(`\n${allFlags.length} primary-results flag(s) raised this run:`);
+    allFlags.forEach((f) => console.log(`  - ${f}`));
   }
 }
 
