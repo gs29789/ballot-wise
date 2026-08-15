@@ -2579,6 +2579,97 @@ const WASHINGTON_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Utah's map was redrawn for 2026 (League of Women Voters v. Utah State
+// Legislature, Third Judicial District Court, Nov 10 2025 — see
+// geocode.js's UT entry for the same redistricting), which reshuffled
+// three incumbents into DIFFERENT-numbered districts and left the fourth
+// (Burgess Owens, old district 4) retiring rather than running anywhere in
+// 2026 — confirmed via his own March 4, 2026 announcement, corroborated by
+// 6 independent outlets (Deseret News, Fox News, Roll Call, KUER, Utah News
+// Dispatch, KSL). Owens's FEC registration (H0UT04076) still shows
+// candidate_status "C" and incumbent_challenge_full "Incumbent" with no
+// filing after 2024-11-13 — exactly the "stale registration outlives the
+// retirement announcement" trap this file exists to catch, same shape as
+// Nebraska's Cindy Burbank and Montana's Ryan Zinke.
+//
+// Utah's SB54 (2014) dual-track qualification system means a candidate can
+// reach the ballot via party convention OR primary signatures, sometimes
+// producing a convention winner different from the eventual primary winner
+// (UT-02: Karianne Lisonbee won the convention, Blake Moore won the
+// primary 57.8%-42.2% and is the one who advances). All 4 districts needed
+// a filter — 2 for a contested primary, the other 2 because convention
+// losers and inactive/disqualified registrations still show as live FEC
+// candidates even when the primary itself was uncontested.
+//
+// Every candidate cross-checked against THREE independent sources:
+// Ballotpedia's per-district general-election page, Utah's own official
+// Lieutenant Governor candidate-filing tracker (vote.utah.gov/2026-candidate-filings,
+// the authoritative state ballot-status record), and the FEC candidate API
+// queried by state+district+office+cycle (never by name alone). Two real
+// discrepancies resolved in the state tracker's favor over Ballotpedia:
+// Bryan Lamont Arrington (UT-02) appears on Ballotpedia's general-election
+// list but nowhere at all in the state's official filing tracker, so he's
+// excluded pending direct state confirmation; Jacob Paul Gottfredson
+// (UT-04) is on Ballotpedia's list but the state tracker explicitly marks
+// him "Disqualified." Two ballot-confirmed candidates (Elias Montgomery,
+// UT-01 Unaffiliated; Taylor Wright, UT-04 Libertarian) have no findable
+// FEC registration under any search — same treatment as every other
+// no-FEC-ID case this project has hit (Washington's Chris Chung, Montana's
+// Nick Sheedy): they were never in this pipeline's candidate list to begin
+// with, independent of this filter, so they don't appear below either.
+const UTAH_2026_PRIMARY: Record<string, PrimaryResult> = {
+  // Open seat — Owens (old district 4 incumbent) retired rather than run
+  // here or anywhere in 2026. Democratic primary was contested (McAdams
+  // beat Blouin/Mohamed/Farrell); Republican side settled entirely at
+  // convention (Owen beat Fonua/Lopez/Robinson), so the primary was
+  // canceled — convention losers still needed excluding from FEC's list.
+  "house-01": {
+    advancingCandidateIds: ["H8UT04053", "H6UT01244", "H6UT01251"],
+    source_url: "https://ballotpedia.org/Utah%27s_1st_Congressional_District_election,_2026",
+    snippet:
+      "Ben McAdams defeated Katie Blouin, Nabeela Mohamed, and Alex Farrell in the Democratic primary for U.S. House Utah District 1 on June 23, 2026 ... Riley Owen defeated Stoney Fonua, Jonathan Lopez, and David Robinson in the Republican convention ... Jesse West (Libertarian) is also running in the general election.",
+  },
+  // Republican primary contested: Moore (incumbent, moved here from old
+  // district 1 under the new map) beat convention-winner Lisonbee in the
+  // primary itself, 57.8%-42.2%. Two candidates excluded beyond the
+  // primary loser: John R. Gibb Jr. (R) is a phantom FEC registration with
+  // no committee and no appearance on Ballotpedia or the state tracker;
+  // Bryan Lamont Arrington (Independent) is on Ballotpedia's list but
+  // absent from Utah's own official filing tracker entirely, so excluded
+  // pending direct state confirmation rather than trusted on Ballotpedia
+  // alone.
+  "house-02": {
+    advancingCandidateIds: ["H0UT01205", "H6UT01160", "H4UT01165", "H6UT02531", "H6UT02549"],
+    source_url: "https://ballotpedia.org/Utah%27s_2nd_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Blake Moore defeated Karianne Lisonbee in the Republican primary for U.S. House Utah District 2 on June 23, 2026, 57.8% (44,300) to 42.2% (32,380) ... Democratic primary was canceled. Peter Crosby advanced ... Daniel Cottam (Libertarian), Robert Michael Moesinger (Unaffiliated), and Carlton E. Bowen (Independent American Party) are also running in the general election.",
+  },
+  // Republican primary contested: Maloy (incumbent, moved here from old
+  // district 2) beat Lyman 68.1%-31.9%. Democratic side settled at
+  // convention (Udell beat Merrill), primary then canceled.
+  "house-03": {
+    advancingCandidateIds: ["H4UT02296", "H6UT03182", "H2UT02506", "H6UT03224", "H6UT03174", "H6UT03216"],
+    source_url: "https://ballotpedia.org/Utah%27s_3rd_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Celeste Maloy defeated Mike Lyman in the Republican primary for U.S. House Utah District 3 on June 23, 2026, 68.1% (55,031) to 31.9% (25,726) ... Kent Udell defeated Steve Merrill in the Democratic convention, and the Democratic primary was canceled ... Cassie Easley (Constitution), Michael Ray Stoddard (Libertarian), Adonis Hooslyn (Unaffiliated), and Ayden Tate Scott (Unaffiliated) are also running in the general election.",
+  },
+  // Both parties' primaries were uncontested/canceled after convention
+  // (Kennedy — moved here from old district 3 — and Larsen each won their
+  // respective conventions outright), so no vote-count narrowing was
+  // needed here, but two other exclusions were: Burgess Owens's stale
+  // "Incumbent" FEC registration (see file header — he retired and isn't
+  // on the 2026 ballot in any district) and Jacob Paul Gottfredson
+  // (Unaffiliated), whom Utah's own filing tracker marks "Disqualified"
+  // even though Ballotpedia still lists him as a general-election
+  // candidate.
+  "house-04": {
+    advancingCandidateIds: ["H4UT03260", "H6UT02424", "H6UT04024"],
+    source_url: "https://ballotpedia.org/Utah%27s_4th_Congressional_District_election,_2026",
+    snippet:
+      "Republican primary was canceled. Incumbent Mike Kennedy advanced ... Jonny Larsen defeated Archie Williams III in the Democratic convention, and the Democratic primary was canceled ... Steven Burt (Unaffiliated) is also running in the general election.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
@@ -2607,6 +2698,7 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "NJ" && cycle === 2026) return NEW_JERSEY_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NE" && cycle === 2026) return NEBRASKA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "OK" && cycle === 2026) return OKLAHOMA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "UT" && cycle === 2026) return UTAH_2026_PRIMARY[raceSlug] ?? null;
   if (state === "KS" && cycle === 2026) return KANSAS_2026_PRIMARY[raceSlug] ?? null;
   if (state === "HI" && cycle === 2026) return HAWAII_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ID" && cycle === 2026) return IDAHO_2026_PRIMARY[raceSlug] ?? null;

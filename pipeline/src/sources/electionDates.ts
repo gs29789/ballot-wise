@@ -529,6 +529,22 @@ const WASHINGTON_2026: ElectionDates = {
   generalSnippet: "November 3 — General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
 };
 
+// No runoffDate: Utah resolves a primary by plain plurality, no majority
+// threshold (§ 20A-9-403(4)(a)) — a 2025 bill that would have added a
+// runoff (HB231) passed the House but died in a Senate committee, never
+// enacted. The only tiebreaker Utah has is for an exact tie, resolved by
+// lot under § 20A-1-304, not a second election.
+const UTAH_2026: ElectionDates = {
+  primaryDate: "2026-06-23",
+  primarySourceUrl: "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.5.html",
+  primarySnippet:
+    "20A-1-201.5(1): \"The regular primary election shall be held throughout the state on the fourth Tuesday of June of each even numbered year as provided in Section 20A-9-403, 20A-9-407, or 20A-9-408, as applicable, to nominate persons for national, state, school board, and county offices.\"",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.html",
+  generalSnippet:
+    "20A-1-201: \"(1) A regular general election shall be held throughout the state on the first Tuesday after the first Monday in November of each even-numbered year. (2) At the regular general election, the voters shall: (a) choose persons to serve the terms established by law for the following offices: ... (ii) United States Senators; (iii) Representatives to the United States Congress...\"",
+};
+
 export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
   if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
   if (stateCode === "TN" && cycle === 2026) return TENNESSEE_2026;
@@ -538,6 +554,7 @@ export function getElectionDates(stateCode: string, cycle: number, raceSlug?: st
   if (stateCode === "AK" && cycle === 2026) return ALASKA_2026;
   if (stateCode === "CA" && cycle === 2026) return CALIFORNIA_2026;
   if (stateCode === "WA" && cycle === 2026) return WASHINGTON_2026;
+  if (stateCode === "UT" && cycle === 2026) return UTAH_2026;
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

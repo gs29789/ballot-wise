@@ -1024,6 +1024,17 @@ export const RACES: BuildRaceOptions[] = [
   { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/WA-7.json", district: "07" },
   { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/WA-9.json", district: "09" },
   { state: "WA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/WA-10.json", district: "10" },
+
+  // Utah: 4 House districts, no Senate race in 2026 (both seats' terms run
+  // past 2026 — Lee to 2029, Curtis to 2031). Map redrawn by a Utah state
+  // trial court for 2026 (see geocode.js's UT entry), which reshuffled
+  // three incumbents into different-numbered districts and left the
+  // fourth (Owens, old district 4) retiring rather than running anywhere
+  // this cycle — new district 1 is a fully open seat as a result.
+  { state: "UT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/UT-1.json", district: "01" },
+  { state: "UT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/UT-2.json", district: "02" },
+  { state: "UT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/UT-3.json", district: "03" },
+  { state: "UT", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/UT-4.json", district: "04" },
 ];
 
 async function main() {

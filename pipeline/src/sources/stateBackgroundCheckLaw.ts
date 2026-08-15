@@ -638,7 +638,29 @@ const WASHINGTON_FEDERAL: StateBackgroundCheckFact = {
     "RCW 29A.24.075(4): \"The requirements of voter registration and residence within the geographic area of a district do not apply to candidates for congressional office. Qualifications for the United States congress are specified in the United States Constitution.\"",
 };
 
+// Utah is the same shape as Montana: a constitutional felony bar on
+// "hold[ing] office in this State" (Utah Const. Art. IV, § 6) that doesn't
+// explicitly exempt federal office, paired with a statutory restoration
+// path (§ 20A-2-101.5) rather than a disclosure FORM like North Carolina's.
+// Utah's own candidate-declaration process (§ 20A-9-201(3)(a)) confirms
+// there's no felony-specific question at all — just a generic oral read of
+// "the constitutional and statutory qualification requirements," so this
+// is a disqualification-style fact, not a disclosure-style one, same
+// two-part structure as Montana/Vermont/North Dakota: the Utah-specific
+// bar, then the CRS/Thornton citation for why it's moot for Congress.
+const UTAH_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — Utah's constitution bars convicted felons from holding office in the state until their right is restored (after 10 years, full sentence completion, and restitution), but doesn't operate as a candidate disclosure form the way some other states' do, and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+  source_url: "https://le.utah.gov/xcode/ArticleIV/Article_IV,_Section_6.html",
+  snippet:
+    "Utah Const. Art. IV, § 6: \"Any mentally incompetent person, any person convicted of a felony, or any person convicted of treason or a crime against the elective franchise, may not be permitted to vote at any election or be eligible to hold office in this State until the right to vote or hold elective office is restored as provided by statute.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per " +
+    CRS_QUALIFICATIONS_REPORT_URL +
+    ': "the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby \'divested\' States of any power to add qualifications."',
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
+  if (stateCode === "UT" && (office === "H" || office === "S")) return UTAH_FEDERAL;
   if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
   if (stateCode === "LA" && (office === "H" || office === "S")) return LOUISIANA_FEDERAL;
   if (stateCode === "ME" && (office === "H" || office === "S")) return MAINE_FEDERAL;
