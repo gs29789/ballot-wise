@@ -117,10 +117,15 @@ async function geocodeAddress(address) {
   if (!match) throw new Error("Couldn't resolve that address to a district. Check the spelling and try again.");
 
   if (match.ballotWiseRedistrictingUncertain) {
-    const { countyName } = match.ballotWiseRedistrictingUncertain;
-    throw new Error(
+    const { state: uncertainState, countyName } = match.ballotWiseRedistrictingUncertain;
+    const err = new Error(
       `Your address is affected by redistricting: ${countyName} redrew its congressional districts for 2026, and this part of the county now spans more than one new district, so we can't yet confirm which one covers your specific address. You can find your new district through your county board of elections or your state's Secretary of State website, then enter it below to see your candidates.`
     );
+    // Lets the direct-entry fallback show an example in the voter's OWN
+    // state ("FL-23") instead of a fixed one ("NC-04") that reads as a
+    // literal instruction rather than a format to fill in.
+    err.exampleState = uncertainState;
+    throw err;
   }
 
   const state = match.geographies?.States?.[0];
@@ -1182,14 +1187,20 @@ function LandingHero({ address, setAddress, handleSearch, status }) {
 // board of elections, state Secretary of State site, or voter registration
 // card) — most useful for the redistricting-uncertain case above, where
 // address lookup can't resolve a precise district at all.
-function DistrictEntryFallback({ onSubmit }) {
+function DistrictEntryFallback({ onSubmit, exampleState }) {
   const [value, setValue] = useState("");
   const [parseError, setParseError] = useState("");
+  // Example uses the voter's OWN state when we know it (the redistricting-
+  // uncertain case), so it reads as "fill in your number" rather than a
+  // fixed state that looks like a literal instruction. Falls back to a
+  // generic pair of examples for any other error, where no state is known.
+  const ex = exampleState || "NC";
+  const example = `${ex}-04 or ${ex}-AL`;
 
   const submit = () => {
     const parsed = parseDistrictInput(value);
     if (!parsed) {
-      setParseError("Couldn't read that — try a format like NC-04 or NC-AL.");
+      setParseError(`Couldn't read that — try a format like ${example}.`);
       return;
     }
     setParseError("");
@@ -1198,13 +1209,15 @@ function DistrictEntryFallback({ onSubmit }) {
 
   return (
     <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${T.warn}` }}>
-      <div style={{ fontSize: 12.5, color: T.inkSoft, marginBottom: 6 }}>Know your district already? Enter it directly:</div>
+      <div style={{ fontSize: 12.5, color: T.inkSoft, marginBottom: 6 }}>
+        Know your district already? Enter it as your state's postal abbreviation plus the district number (e.g. {example} for an at-large state) to see your candidates:
+      </div>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         <input
           value={value}
           onChange={(e) => setValue(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && submit()}
-          placeholder="e.g. NC-04 or NC-AL"
+          placeholder={example}
           style={{ border: `1px solid ${T.line}`, background: T.paperRaised, borderRadius: 6, padding: "8px 10px", fontSize: 13.5, color: T.ink, width: 160 }}
         />
         <button
@@ -1223,6 +1236,7 @@ export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
   const [error, setError] = useState("");
+  const [errorExampleState, setErrorExampleState] = useState(null);
   const [geo, setGeo] = useState(null);
   const [chamber, setChamber] = useState("house");
   const [houseRace, setHouseRace] = useState(null);
@@ -1248,11 +1262,13 @@ export default function App() {
     if (!address.trim() || status === "loading") return;
     setStatus("loading");
     setError("");
+    setErrorExampleState(null);
     setProfileSlug(null);
     try {
       await loadRacesForGeo(await geocodeAddress(address));
     } catch (err) {
       setError(err.message || "Something went wrong looking up that address.");
+      setErrorExampleState(err.exampleState ?? null);
       setStatus("error");
     }
   };
@@ -1274,6 +1290,7 @@ export default function App() {
       });
     } catch (err) {
       setError(err.message || "Something went wrong looking up that district.");
+      setErrorExampleState(stusab); // keep the example in the state they just tried, for an easy retry
       setStatus("error");
     }
   };
@@ -1347,7 +1364,7 @@ export default function App() {
               <AlertTriangle size={18} color={T.warn} style={{ flexShrink: 0, marginTop: 1 }} />
               <div style={{ fontSize: 13.5, color: T.ink }}>{error}</div>
             </div>
-            <DistrictEntryFallback onSubmit={handleDistrictEntry} />
+            <DistrictEntryFallback onSubmit={handleDistrictEntry} exampleState={errorExampleState} />
           </div>
         </div>
       )}
