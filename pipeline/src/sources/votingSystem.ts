@@ -55,8 +55,23 @@ const MAINE_2026: VotingSystemFact = {
     "21-A M.R.S. §723-A(2): \"If a candidate has been assigned ranking number one on more than 50% of all ballots cast for the particular office for which the candidate is running... that candidate is declared the winner... If no candidate has been assigned ranking number one on more than 50%... the ranked-choice voting count must proceed in rounds... the last-place candidate is removed from consideration and a new round begins.\"",
 };
 
+const CALIFORNIA_2026: VotingSystemFact = {
+  label: "Top-two blanket primary",
+  primaryExplanation:
+    "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+  primarySourceUrl: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+  primarySnippet:
+    "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+  generalExplanation:
+    "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+  generalSourceUrl: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+  generalSnippet:
+    "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\"",
+};
+
 export function getVotingSystem(state: string, cycle: number, raceSlug?: string): VotingSystemFact | null {
   if (state === "AK" && cycle === 2026) return ALASKA_2026;
   if (state === "ME" && cycle === 2026) return MAINE_2026;
+  if (state === "CA" && cycle === 2026) return CALIFORNIA_2026;
   return null;
 }

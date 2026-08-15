@@ -613,11 +613,24 @@ const ALASKA_FEDERAL: StateBackgroundCheckFact = {
     "AS 15.05.030: \"A person convicted of a crime that constitutes a felony involving moral turpitude under state or federal law may not vote in a state, federal, or municipal election from the date of the conviction through the date of the unconditional discharge of the person. Upon the unconditional discharge, the person may register.\"",
 };
 
+// California's felony-disqualification statute self-limits to "state or
+// local elective office" by its own text — same clean pattern as Illinois,
+// Alabama, Tennessee, and Texas.
+const CALIFORNIA_FEDERAL: StateBackgroundCheckFact = {
+  required: false,
+  value:
+    "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+  source_url: "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+  snippet:
+    "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\"",
+};
+
 export function getStateBackgroundCheckFact(stateCode: string, office: "H" | "S"): StateBackgroundCheckFact | null {
   if (stateCode === "AL" && (office === "H" || office === "S")) return ALABAMA_FEDERAL;
   if (stateCode === "LA" && (office === "H" || office === "S")) return LOUISIANA_FEDERAL;
   if (stateCode === "ME" && (office === "H" || office === "S")) return MAINE_FEDERAL;
   if (stateCode === "AK" && (office === "H" || office === "S")) return ALASKA_FEDERAL;
+  if (stateCode === "CA" && (office === "H" || office === "S")) return CALIFORNIA_FEDERAL;
   if (stateCode === "TN" && (office === "H" || office === "S")) return TENNESSEE_FEDERAL;
   if (stateCode === "TX" && (office === "H" || office === "S")) return TEXAS_FEDERAL;
   if (stateCode === "DE" && (office === "H" || office === "S")) return DELAWARE_FEDERAL;

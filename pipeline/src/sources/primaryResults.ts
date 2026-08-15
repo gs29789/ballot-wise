@@ -2263,12 +2263,276 @@ const MAINE_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+const CALIFORNIA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6CA01285", "H6CA01269"],
+    source_url: "https://ballotpedia.org/California%27s_1st_Congressional_District_election,_2026",
+    snippet: "Incumbent James Gallagher and Mike McGuire are running in the general election for U.S. House California District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H2CA06259", "H6CA02309"],
+    source_url: "https://ballotpedia.org/California%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Jared Huffman and Robin Littau are running in the general election for U.S. House California District 2 on November 3, 2026.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0CA03078", "H6CA03174"],
+    source_url: "https://ballotpedia.org/California%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Ami Bera and Robb Tucker are running in the general election for U.S. House California District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H8CA01109", "H6CA04222"],
+    source_url: "https://ballotpedia.org/California%27s_4th_Congressional_District_election,_2026",
+    snippet: "Incumbent Mike Thompson and Eric Jones are running in the general election for U.S. House California District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H8CA04152", "H6CA05377"],
+    source_url: "https://ballotpedia.org/California%27s_5th_Congressional_District_election,_2026",
+    snippet: "Incumbent Tom McClintock and Michael Masuda are running in the general election for U.S. House California District 5 on November 3, 2026.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H2CA03157", "H6CA03158"],
+    source_url: "https://ballotpedia.org/California%27s_6th_Congressional_District_election,_2026",
+    snippet: "Incumbent Kevin Kiley and Richard Pan are running in the general election for U.S. House California District 6 on November 3, 2026.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6CA05195", "H6CA07175"],
+    source_url: "https://ballotpedia.org/California%27s_7th_Congressional_District_election,_2026",
+    snippet: "Incumbent Doris Matsui and Mai Vang are running in the general election for U.S. House California District 7 on November 3, 2026.",
+  },
+  "house-08": {
+    advancingCandidateIds: ["H0CA10149", "H2CA00153"],
+    source_url: "https://ballotpedia.org/California%27s_8th_Congressional_District_election,_2026",
+    snippet: "Incumbent John Garamendi and Rudy Recile are running in the general election for U.S. House California District 8 on November 3, 2026.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H8CA10126", "H4CA09101"],
+    source_url: "https://ballotpedia.org/California%27s_9th_Congressional_District_election,_2026",
+    snippet: "Incumbent Josh Harder and John McBride are running in the general election for U.S. House California District 9 on November 3, 2026.",
+  },
+  "house-10": {
+    advancingCandidateIds: ["H0CA10073", "H6CA10187"],
+    source_url: "https://ballotpedia.org/California%27s_10th_Congressional_District_election,_2026",
+    snippet: "Incumbent Mark DeSaulnier and Jeffrey Frese are running in the general election for U.S. House California District 10 on November 3, 2026.",
+  },
+  "house-11": {
+    advancingCandidateIds: ["H6CA11268", "H8CA11116"],
+    source_url: "https://ballotpedia.org/California%27s_11th_Congressional_District_election,_2026",
+    snippet: "Connie Chan (D) and Scott Wiener (D) are running in the general election for California's 11th Congressional District on Nov. 3, 2026. Incumbent U.S. Rep. Nancy Pelosi (D), who was first elected in 1987, did not run for re-election.",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H4CA12154", "H6CA12209"],
+    source_url: "https://ballotpedia.org/California%27s_12th_Congressional_District_election,_2026",
+    snippet: "Incumbent Lateefah Simon and Jamie Joyce are running in the general election for U.S. House California District 12 on November 3, 2026.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H2CA13115", "H4CA09093"],
+    source_url: "https://ballotpedia.org/California%27s_13th_Congressional_District_election,_2026",
+    snippet: "Incumbent Adam Gray and Kevin Lincoln II are running in the general election for U.S. House California District 13 on November 3, 2026.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H6CA14163", "H0CA15213"],
+    source_url: "https://ballotpedia.org/California%27s_14th_Congressional_District_election,_2026",
+    snippet: "Melissa Hernandez and Aisha Wahab are running in the general election for U.S. House California District 14 on November 3, 2026.",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H2CA14162", "H6CA15194"],
+    source_url: "https://ballotpedia.org/California%27s_15th_Congressional_District_election,_2026",
+    snippet: "Incumbent Kevin Mullin and Charles Hoelter are running in the general election for U.S. House California District 15 on November 3, 2026.",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H4CA16197", "H6CA16176"],
+    source_url: "https://ballotpedia.org/California%27s_16th_Congressional_District_election,_2026",
+    snippet: "Incumbent Sam Liccardo and Peter Soule are running in the general election for U.S. House California District 16 on November 3, 2026.",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H4CA12055", "H0CA17193"],
+    source_url: "https://ballotpedia.org/California%27s_17th_Congressional_District_election,_2026",
+    snippet: "Incumbent Ro Khanna and Ritesh Tandon are running in the general election for U.S. House California District 17 on November 3, 2026.",
+  },
+  "house-18": {
+    advancingCandidateIds: ["H4CA16049", "H6CA18172"],
+    source_url: "https://ballotpedia.org/California%27s_18th_Congressional_District_election,_2026",
+    snippet: "Incumbent Zoe Lofgren and Shane Lewis are running in the general election for U.S. House California District 18 on November 3, 2026.",
+  },
+  "house-19": {
+    advancingCandidateIds: ["H6CA20152", "H6CA19154"],
+    source_url: "https://ballotpedia.org/California%27s_19th_Congressional_District_election,_2026",
+    snippet: "Incumbent Jimmy Panetta and Peter Verbica are running in the general election for U.S. House California District 19 on November 3, 2026.",
+  },
+  "house-20": {
+    advancingCandidateIds: ["H4CA20181", "H6CA20228"],
+    source_url: "https://ballotpedia.org/California%27s_20th_Congressional_District_election,_2026",
+    snippet: "Incumbent Vince Fong and Sandra Van Scotter are running in the general election for U.S. House California District 20 on November 3, 2026.",
+  },
+  "house-21": {
+    advancingCandidateIds: ["H4CA20082", "H6CA13199"],
+    source_url: "https://ballotpedia.org/California%27s_21st_Congressional_District_election,_2026",
+    snippet: "Incumbent Jim Costa and Kyle Kirkland are running in the general election for U.S. House California District 21 on November 3, 2026.",
+  },
+  "house-22": {
+    advancingCandidateIds: ["H2CA20094", "H6CA22190"],
+    source_url: "https://ballotpedia.org/California%27s_22nd_Congressional_District_election,_2026",
+    snippet: "Incumbent David Valadao (R) and Randy Villegas (D) are running in the general election for California's 22nd Congressional District on November 3, 2026.",
+  },
+  "house-23": {
+    advancingCandidateIds: ["H0CA08135", "H6CA23230"],
+    source_url: "https://ballotpedia.org/California%27s_23rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Jay Obernolte and Tessa Lynn Hodge are running in the general election for U.S. House California District 23 on November 3, 2026.",
+  },
+  "house-24": {
+    advancingCandidateIds: ["H6CA24303", "H6CA24345"],
+    source_url: "https://ballotpedia.org/California%27s_24th_Congressional_District_election,_2026",
+    snippet: "Incumbent Salud Carbajal and Bob Smith are running in the general election for U.S. House California District 24 on November 3, 2026.",
+  },
+  "house-25": {
+    advancingCandidateIds: ["H2CA36439", "H6CA25219"],
+    source_url: "https://ballotpedia.org/California%27s_25th_Congressional_District_election,_2026",
+    snippet: "Incumbent Raul Ruiz and Joe Males are running in the general election for U.S. House California District 25 on November 3, 2026.",
+  },
+  "house-26": {
+    advancingCandidateIds: ["H6CA26266", "H6CA26241"],
+    source_url: "https://ballotpedia.org/California%27s_26th_Congressional_District_election,_2026",
+    snippet: "Jacqui Irwin and Samuel Gallucci are running in the general election for U.S. House California District 26 on November 3, 2026.",
+  },
+  "house-27": {
+    advancingCandidateIds: ["H4CA27111", "H6CA27306"],
+    source_url: "https://ballotpedia.org/California%27s_27th_Congressional_District_election,_2026",
+    snippet: "Incumbent George Whitesides and Jason Gibbs are running in the general election for U.S. House California District 27 on November 3, 2026.",
+  },
+  "house-28": {
+    advancingCandidateIds: ["H0CA32101", "H4CA28127"],
+    source_url: "https://ballotpedia.org/California%27s_28th_Congressional_District_election,_2026",
+    snippet: "Incumbent Judy Chu and April Verlato are running in the general election for U.S. House California District 28 on November 3, 2026.",
+  },
+  "house-29": {
+    advancingCandidateIds: ["H4CA29141", "H8CA29100"],
+    source_url: "https://ballotpedia.org/California%27s_29th_Congressional_District_election,_2026",
+    snippet: "Incumbent Luz Maria Rivas and Angélica María Dueñas are running in the general election for U.S. House California District 29 on November 3, 2026.",
+  },
+  "house-30": {
+    advancingCandidateIds: ["H4CA30149", "H6CA30250"],
+    source_url: "https://ballotpedia.org/California%27s_30th_Congressional_District_election,_2026",
+    snippet: "Incumbent Laura Friedman and Scott Meyers are running in the general election for U.S. House California District 30 on November 3, 2026.",
+  },
+  "house-31": {
+    advancingCandidateIds: ["H8CA39174", "H2CA39151"],
+    source_url: "https://ballotpedia.org/California%27s_31st_Congressional_District_election,_2026",
+    snippet: "Incumbent Gil Cisneros and Eric Ching are running in the general election for U.S. House California District 31 on November 3, 2026.",
+  },
+  "house-32": {
+    advancingCandidateIds: ["H6CA24113", "H4CA32137"],
+    source_url: "https://ballotpedia.org/California%27s_32nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Brad Sherman and Larry Thompson are running in the general election for U.S. House California District 32 on November 3, 2026.",
+  },
+  "house-33": {
+    advancingCandidateIds: ["H2CA31125", "H6CA33114"],
+    source_url: "https://ballotpedia.org/California%27s_33rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Pete Aguilar and Stephanie Vargas are running in the general election for U.S. House California District 33 on November 3, 2026.",
+  },
+  "house-34": {
+    advancingCandidateIds: ["H8CA34266", "H6CA34286"],
+    source_url: "https://ballotpedia.org/California%27s_34th_Congressional_District_election,_2026",
+    snippet: "Incumbent Jimmy Gomez and Angela Gonzales-Torres are running in the general election for U.S. House California District 34 on November 3, 2026.",
+  },
+  "house-35": {
+    advancingCandidateIds: ["H4CA35031", "H0CA35146"],
+    source_url: "https://ballotpedia.org/California%27s_35th_Congressional_District_election,_2026",
+    snippet: "Incumbent Norma Torres and Mike Cargile are running in the general election for U.S. House California District 35 on November 3, 2026.",
+  },
+  "house-36": {
+    advancingCandidateIds: ["H4CA33119", "H6CA36208"],
+    source_url: "https://ballotpedia.org/California%27s_36th_Congressional_District_election,_2026",
+    snippet: "Incumbent Ted Lieu and Houston Brignano are running in the general election for U.S. House California District 36 on November 3, 2026.",
+  },
+  "house-37": {
+    advancingCandidateIds: ["H2CA37304", "H6CA37339"],
+    source_url: "https://ballotpedia.org/California%27s_37th_Congressional_District_election,_2026",
+    snippet: "Incumbent Sydney Kamlager-Dove and Samantha Mota are running in the general election for U.S. House California District 37 on November 3, 2026.",
+  },
+  "house-38": {
+    advancingCandidateIds: ["H6CA38139", "H4CA31212"],
+    source_url: "https://ballotpedia.org/California%27s_38th_Congressional_District_election,_2026",
+    snippet: "Hilda Solis and Pedro Casas are running in the general election for U.S. House California District 38 on November 3, 2026.",
+  },
+  "house-39": {
+    advancingCandidateIds: ["H2CA43245", "H6CA39145"],
+    source_url: "https://ballotpedia.org/California%27s_39th_Congressional_District_election,_2026",
+    snippet: "Incumbent Mark Takano and Steve Manos are running in the general election for U.S. House California District 39 on November 3, 2026.",
+  },
+  "house-40": {
+    advancingCandidateIds: ["H2CA37023", "H8CA39240"],
+    source_url: "https://ballotpedia.org/California%27s_40th_Congressional_District_election,_2026",
+    snippet: "Incumbent Ken Calvert and incumbent Young Kim are running in the general election for U.S. House California District 40 on November 3, 2026.",
+  },
+  "house-41": {
+    advancingCandidateIds: ["H2CA39078", "H2CA38260"],
+    source_url: "https://ballotpedia.org/California%27s_41st_Congressional_District_election,_2026",
+    snippet: "Incumbent Linda Sánchez and Mitch Clemmons are running in the general election for U.S. House California District 41 on November 3, 2026.",
+  },
+  "house-42": {
+    advancingCandidateIds: ["H2CA47188", "H0CA48172"],
+    source_url: "https://ballotpedia.org/California%27s_42nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Robert Garcia and Brian Burley are running in the general election for U.S. House California District 42 on November 3, 2026.",
+  },
+  "house-43": {
+    advancingCandidateIds: ["H4CA23011", "H6CA43188"],
+    source_url: "https://ballotpedia.org/California%27s_43rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Maxine Waters and Cristian Morales are running in the general election for U.S. House California District 43 on November 3, 2026.",
+  },
+  "house-44": {
+    advancingCandidateIds: ["H6CA44103", "H6CA44210"],
+    source_url: "https://ballotpedia.org/California%27s_44th_Congressional_District_election,_2026",
+    snippet: "Incumbent Nanette Barragán and Genevieve Angel are running in the general election for U.S. House California District 44 on November 3, 2026.",
+  },
+  "house-45": {
+    advancingCandidateIds: ["H4CA45170", "H6CA45191"],
+    source_url: "https://ballotpedia.org/California%27s_45th_Congressional_District_election,_2026",
+    snippet: "Incumbent Derek Tran and Chuong Vo are running in the general election for U.S. House California District 45 on November 3, 2026.",
+  },
+  "house-46": {
+    advancingCandidateIds: ["H6CA46116", "H4CA46137"],
+    source_url: "https://ballotpedia.org/California%27s_46th_Congressional_District_election,_2026",
+    snippet: "Incumbent Lou Correa and David Pan are running in the general election for U.S. House California District 46 on November 3, 2026.",
+  },
+  "house-47": {
+    advancingCandidateIds: ["H4CA47085", "H6CA47114"],
+    source_url: "https://ballotpedia.org/California%27s_47th_Congressional_District_election,_2026",
+    snippet: "Incumbent Dave Min and Jenny Rae Le Roux are running in the general election for U.S. House California District 47 on November 3, 2026.",
+  },
+  "house-48": {
+    advancingCandidateIds: ["H6CA48310", "H6CA49128"],
+    source_url: "https://ballotpedia.org/California%27s_48th_Congressional_District_election,_2026",
+    snippet: "Marni von Wilpert and Jim Desmond are running in the general election for U.S. House California District 48 on November 3, 2026.",
+  },
+  "house-49": {
+    advancingCandidateIds: ["H8CA49058", "H6CA49169"],
+    source_url: "https://ballotpedia.org/California%27s_49th_Congressional_District_election,_2026",
+    snippet: "Incumbent Mike Levin and Armen Kurdian are running in the general election for U.S. House California District 49 on November 3, 2026.",
+  },
+  "house-50": {
+    advancingCandidateIds: ["H2CA52089", "H6CA50324"],
+    source_url: "https://ballotpedia.org/California%27s_50th_Congressional_District_election,_2026",
+    snippet: "Incumbent Scott Peters and Steve Cohen are running in the general election for U.S. House California District 50 on November 3, 2026.",
+  },
+  "house-51": {
+    advancingCandidateIds: ["H8CA49074"],
+    source_url: "https://ballotpedia.org/California%27s_51st_Congressional_District_election,_2026",
+    snippet: "Incumbent Sara Jacobs and Ricardo Cabrera are running in the general election for U.S. House California District 51 on November 3, 2026.",
+  },
+  "house-52": {
+    advancingCandidateIds: ["H2CA50026", "H6CA52163"],
+    source_url: "https://ballotpedia.org/California%27s_52nd_Congressional_District_election,_2026",
+    snippet: "Incumbent Juan Vargas and Jeff Belle are running in the general election for U.S. House California District 52 on November 3, 2026.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TX" && cycle === 2026) return TEXAS_2026_PRIMARY[raceSlug] ?? null;
   if (state === "LA" && cycle === 2026) return LOUISIANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ME" && cycle === 2026) return MAINE_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "CA" && cycle === 2026) return CALIFORNIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;

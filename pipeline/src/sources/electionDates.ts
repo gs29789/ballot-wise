@@ -511,6 +511,15 @@ const ALASKA_2026: ElectionDates = {
   generalSnippet: "AS 15.15.020: The general election is held on the Tuesday after the first Monday in November in every even numbered year.",
 };
 
+const CALIFORNIA_2026: ElectionDates = {
+  primaryDate: "2026-06-02",
+  primarySourceUrl: "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+  primarySnippet: "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+  generalDate: "2026-11-03",
+  generalSourceUrl: "https://www.sos.ca.gov/elections/upcoming-elections",
+  generalSnippet: "General Election - November 3, 2026.",
+};
+
 export function getElectionDates(stateCode: string, cycle: number, raceSlug?: string): ElectionDates | null {
   if (stateCode === "AL" && cycle === 2026) return getAlabamaElectionDates(raceSlug);
   if (stateCode === "TN" && cycle === 2026) return TENNESSEE_2026;
@@ -518,6 +527,7 @@ export function getElectionDates(stateCode: string, cycle: number, raceSlug?: st
   if (stateCode === "LA" && cycle === 2026) return LOUISIANA_2026;
   if (stateCode === "ME" && cycle === 2026) return MAINE_2026;
   if (stateCode === "AK" && cycle === 2026) return ALASKA_2026;
+  if (stateCode === "CA" && cycle === 2026) return CALIFORNIA_2026;
   if (stateCode === "DE" && cycle === 2026) return DELAWARE_2026;
   if (stateCode === "WY" && cycle === 2026) return WYOMING_2026;
   if (stateCode === "MT" && cycle === 2026) return MONTANA_2026;

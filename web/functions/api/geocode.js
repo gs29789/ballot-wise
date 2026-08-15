@@ -45,27 +45,44 @@ async function fetchGeographies(address) {
   return { ok: res.ok && looksLikeJson, body, status: res.status };
 }
 
-// Eight states so far were confirmed to share the same blocker: each enacted
+// Nine states so far were confirmed to share the same blocker: each enacted
 // a genuinely new, legally-in-effect 2026 congressional map, but the Census
 // Geocoder's Current_Current vintage still serves the OLD (pre-redraw)
 // district boundaries — confirmed directly for each with a real test
 // address (e.g. NC's Craven County resolves to the old District 3 instead
 // of the new District 1; Tennessee's Millington, actually in District 5
-// under the enacted map, still resolves to the old District 9). Missouri,
-// Ohio, Florida, North Carolina, Texas, Alabama, and Tennessee turned out
-// to have an official, sufficiently precise TEXTUAL source (a statute or
-// commission-filed legal description) that explicitly distinguishes a
-// county assigned WHOLLY to one district from a county SPLIT between
-// districts — for those states, a plain county-level correction is exact,
-// not an approximation, for every whole county. Texas, Alabama, and
-// Tennessee are the strongest cases: all three write full census-tract/
-// block-level legal descriptions directly into the statute itself (Texas's
-// HB4; Alabama's Act 2023-563, whose text incorporates a separate
-// boundary-description PDF by reference; Tennessee's SA7001/HA7002
-// amendment to Tenn. Code Ann. § 2-16-103), not just a county-level
-// breakdown. Utah does not have any such source: its map was adopted by
-// court order and exists only as a GIS shapefile with no textual
-// county-by-district breakdown, so no override was attempted there.
+// under the enacted map, still resolves to the old District 9; California's
+// Corona, moved out of old CD41 entirely under the new map, still resolves
+// to CD41). Missouri, Ohio, Florida, North Carolina, Texas, Alabama,
+// Tennessee, and California turned out to have an official, sufficiently
+// precise TEXTUAL source (a statute or commission-filed legal description)
+// that explicitly distinguishes a county assigned WHOLLY to one district
+// from a county SPLIT between districts — for those states, a plain
+// county-level correction is exact, not an approximation, for every whole
+// county. Texas, Alabama, Tennessee, and California are the strongest
+// cases: all four write full census-tract/block-level legal descriptions
+// directly into the statute itself (Texas's HB4; Alabama's Act 2023-563,
+// whose text incorporates a separate boundary-description PDF by
+// reference; Tennessee's SA7001/HA7002 amendment to Tenn. Code Ann.
+// § 2-16-103; California's AB 604, which explicitly labels each district's
+// counties "Whole" vs. "Partial" and gives block-level text for every
+// partial county), not just a county-level breakdown. Utah does not have
+// any such source: its map was adopted by court order and exists only as
+// a GIS shapefile with no textual county-by-district breakdown, so no
+// override was attempted there.
+//
+// California is a genuinely different SCALE of case worth flagging, not
+// just another state on the list: 28 of its 58 counties are split, and
+// they're disproportionately the state's most populous ones (Los Angeles
+// County alone splits across 18 of the 52 districts) — meaning most
+// Californians will still see the "redistricting-uncertain" flag below
+// rather than a precise fix, unlike the other 8 states where whole-county
+// coverage reached the majority of the population. Shipped this way
+// anyway, deliberately: an honest "can't confirm" is still strictly better
+// than guessing, the same standard applied everywhere else in this file,
+// and California's AB 604 does publish an official block-level
+// equivalency file that could resolve the split counties too in a future
+// pass — flagged as a real option, not attempted here.
 //
 // Alabama has a genuinely unusual chronology worth recording: the map
 // governing 2026 (Act 2023-563, "Livingston Congressional Plan 3-2023") is
@@ -92,7 +109,7 @@ async function fetchGeographies(address) {
 // and reconciled to each state's full, independently-known county count
 // with zero gaps and zero duplicates (NC 88+12=100, MO 110+5=115 incl. the
 // independent City of St. Louis, OH 73+15=88, FL 48+19=67, TX 224+30=254,
-// AL 61+6=67, TN 83+12=95).
+// AL 61+6=67, TN 83+12=95, CA 30+28=58).
 // Counties split between districts are deliberately left OUT of every
 // table below — a county-level correction can't safely resolve which side
 // of a split county a given address falls on, so those addresses keep
@@ -113,6 +130,7 @@ async function fetchGeographies(address) {
 //   TX: H.B. No. 4, 89th Legislature, 2nd Called Session (2025), enrolled text https://capitol.texas.gov/tlodocs/892/billtext/pdf/HB00004F.pdf — county-by-district populations cross-checked against the Texas Legislative Council's own Red-150 report for the same plan (PLANC2333), https://web.archive.org/web/20250906134058id_/https://data.capitol.texas.gov/dataset/748c952b-e926-4f44-8d01-a738884b3ec8/resource/7a1a23c7-78f4-4587-962e-313350020fdf/download/planc2333_r150.pdf (data.capitol.texas.gov itself is Cloudflare-blocked to automated fetches — same operational gotcha as Ballotpedia, worked around the same way, via Wayback)
 //   AL: Act 2023-563 (SB5, 2023 2nd Special Session), codified at §17-14-70, https://alison.legislature.state.al.us/files/pdf/SearchableInstruments/2023SS2/SB5-enr.pdf — incorporates by reference the "Livingston Congressional Plan 3-2023" boundary description, https://www.sos.alabama.gov/sites/default/files/2026-5-14/Livingston%20Congressional%20Plan%203-2023%20Legal%20Description.pdf, independently re-verified directly (not just trusted from the research pass) including the "Russe County" → Russell County resolution below
 //   TN: Senate Judiciary 1 Amendment No. 1 to SB7004 ("SA7001"), amending Tenn. Code Ann. § 2-16-103, https://www.capitol.tn.gov/Bills/114/Amend/SA7001.pdf — byte-identical (except sponsor header) to the House's HA7002 substitute for HB7003; capitol.tn.gov is unreachable at the TCP level from this project's sandbox (a harder block than Cloudflare's soft gate elsewhere), fetched via the r.jina.ai reader proxy and independently re-verified directly, including the exact line count (1,992) and opening clause matching the research pass's own quote word-for-word
+//   CA: AB 604, Chapter 96, Statutes of 2025 (enacted under Proposition 50, approved by voters 2025-11-04), now Elec. Code §21400 et seq., https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=202520260AB604 — explicitly labels "Whole Counties" vs. "Partial Counties" per district; cross-checked against the CA Senate Office of Demographics' consolidated per-district summary tables, https://sdmg.senate.ca.gov/committeehome/2025-congressional-districts, which independently confirmed every whole/split classification used below
 const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
   NC: {
     "37001": "09", // Alamance County
@@ -815,6 +833,38 @@ const STATE_COUNTY_DISTRICT_OVERRIDES_2026 = {
     "47185": "06", // White County
     "47189": "06", // Wilson County
   },
+  CA: {
+    "06003": "05", // Alpine County
+    "06005": "05", // Amador County
+    "06007": "01", // Butte County
+    "06009": "05", // Calaveras County
+    "06011": "03", // Colusa County
+    "06015": "02", // Del Norte County
+    "06021": "01", // Glenn County
+    "06023": "02", // Humboldt County
+    "06025": "25", // Imperial County
+    "06027": "05", // Inyo County
+    "06035": "01", // Lassen County
+    "06041": "02", // Marin County
+    "06043": "05", // Mariposa County
+    "06047": "13", // Merced County
+    "06049": "02", // Modoc County
+    "06051": "05", // Mono County
+    "06055": "04", // Napa County
+    "06057": "03", // Nevada County
+    "06063": "01", // Plumas County
+    "06069": "18", // San Benito County
+    "06083": "24", // Santa Barbara County
+    "06089": "02", // Shasta County
+    "06091": "01", // Sierra County
+    "06093": "02", // Siskiyou County
+    "06095": "08", // Solano County
+    "06101": "04", // Sutter County
+    "06103": "01", // Tehama County
+    "06105": "02", // Trinity County
+    "06109": "05", // Tuolumne County
+    "06115": "04", // Yuba County
+  },
 };
 
 // The complement of the table above, state by state: every county in NC,
@@ -932,19 +982,35 @@ const STATE_SPLIT_COUNTIES_2026 = {
     "01121", // Talladega County
     "01125", // Tuscaloosa County
   ]),
-  TN: new Set([
-    "47013", // Campbell County
-    "47037", // Davidson County
-    "47047", // Fayette County
-    "47089", // Jefferson County
-    "47119", // Maury County
-    "47125", // Montgomery County
-    "47143", // Rhea County
-    "47149", // Rutherford County
-    "47157", // Shelby County
-    "47165", // Sumner County
-    "47167", // Tipton County
-    "47187", // Williamson County
+  CA: new Set([
+    "06001", // Alameda County
+    "06013", // Contra Costa County
+    "06017", // El Dorado County
+    "06019", // Fresno County
+    "06029", // Kern County
+    "06031", // Kings County
+    "06033", // Lake County
+    "06037", // Los Angeles County
+    "06039", // Madera County
+    "06045", // Mendocino County
+    "06053", // Monterey County
+    "06059", // Orange County
+    "06061", // Placer County
+    "06065", // Riverside County
+    "06067", // Sacramento County
+    "06071", // San Bernardino County
+    "06073", // San Diego County
+    "06075", // San Francisco County
+    "06077", // San Joaquin County
+    "06079", // San Luis Obispo County
+    "06081", // San Mateo County
+    "06085", // Santa Clara County
+    "06087", // Santa Cruz County
+    "06097", // Sonoma County
+    "06099", // Stanislaus County
+    "06107", // Tulare County
+    "06111", // Ventura County
+    "06113", // Yolo County
   ]),
 };
 
