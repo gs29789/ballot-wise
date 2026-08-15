@@ -23,6 +23,22 @@ const D = {
 
 const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 
+// USPS state abbreviation -> full name, for the direct-district-entry
+// fallback (parseDistrictInput below), which never gets a state name back
+// from Census the way geocodeAddress's result does.
+const STATE_NAMES = {
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+  CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
+  HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+  MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+  MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+  NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+  OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+  SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
+  VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
+};
+
 // Bucketed for COLOR only — R/D plus the two other parties common enough
 // nationally to earn a distinct color (Libertarian, Green). Every rarer
 // party (Constitution, Forward, No Labels, true independents, unknown)
@@ -103,7 +119,7 @@ async function geocodeAddress(address) {
   if (match.ballotWiseRedistrictingUncertain) {
     const { countyName } = match.ballotWiseRedistrictingUncertain;
     throw new Error(
-      `${countyName} redrew its congressional districts for 2026, and this address is in part of the county we can't yet confirm a new district for. This is a redistricting data gap, not a lookup error — check with your county board of elections for your new district.`
+      `Your address is affected by redistricting: ${countyName} redrew its congressional districts for 2026, and this part of the county now spans more than one new district, so we can't yet confirm which one covers your specific address. You can find your new district through your county board of elections or your state's Secretary of State website, then enter it below to see your candidates.`
     );
   }
 
@@ -118,6 +134,20 @@ async function geocodeAddress(address) {
     districtCode: cd === "00" ? "AL" : String(Number(cd)),
     districtLabel: cd === "00" ? "At-Large" : `District ${Number(cd)}`,
   };
+}
+
+// Accepts the shorthand voters already see elsewhere (Ballotpedia, news
+// coverage): "NC-04", "NC 4", "NC-AL", "NC at-large". Returns null (not a
+// thrown error) for anything unparseable, so the caller can show one plain
+// "couldn't read that" message instead of surfacing validation internals.
+function parseDistrictInput(raw) {
+  const cleaned = raw.trim().toUpperCase().replace(/\s+/g, " ");
+  const m = cleaned.match(/^([A-Z]{2})[\s-]+(\d{1,2}|AL|AT[\s-]?LARGE)$/);
+  if (!m) return null;
+  const [, stusab, distRaw] = m;
+  if (!STATE_NAMES[stusab]) return null;
+  const districtCode = /^(AL|AT[\s-]?LARGE)$/.test(distRaw) ? "AL" : String(Number(distRaw));
+  return { stusab, districtCode };
 }
 
 async function fetchRace(chamber, stusab, districtCode) {
@@ -1147,6 +1177,48 @@ function LandingHero({ address, setAddress, handleSearch, status }) {
   );
 }
 
+// Escape hatch shown alongside any lookup error: bypasses geocoding
+// entirely for a voter who already knows their district (from their county
+// board of elections, state Secretary of State site, or voter registration
+// card) — most useful for the redistricting-uncertain case above, where
+// address lookup can't resolve a precise district at all.
+function DistrictEntryFallback({ onSubmit }) {
+  const [value, setValue] = useState("");
+  const [parseError, setParseError] = useState("");
+
+  const submit = () => {
+    const parsed = parseDistrictInput(value);
+    if (!parsed) {
+      setParseError("Couldn't read that — try a format like NC-04 or NC-AL.");
+      return;
+    }
+    setParseError("");
+    onSubmit(parsed.stusab, parsed.districtCode);
+  };
+
+  return (
+    <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${T.warn}` }}>
+      <div style={{ fontSize: 12.5, color: T.inkSoft, marginBottom: 6 }}>Know your district already? Enter it directly:</div>
+      <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
+        <input
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
+          onKeyDown={(e) => e.key === "Enter" && submit()}
+          placeholder="e.g. NC-04 or NC-AL"
+          style={{ border: `1px solid ${T.line}`, background: T.paperRaised, borderRadius: 6, padding: "8px 10px", fontSize: 13.5, color: T.ink, width: 160 }}
+        />
+        <button
+          onClick={submit}
+          style={{ background: T.ink, color: T.paper, border: "none", borderRadius: 6, padding: "8px 14px", fontSize: 13, fontWeight: 500, cursor: "pointer" }}
+        >
+          Find my candidates
+        </button>
+      </div>
+      {parseError && <div style={{ fontSize: 12, color: T.warn, marginTop: 6 }}>{parseError}</div>}
+    </div>
+  );
+}
+
 export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -1157,24 +1229,51 @@ export default function App() {
   const [senateRace, setSenateRace] = useState(null);
   const [profileSlug, setProfileSlug] = useState(null);
 
+  // Shared by both entry points below: geocodeAddress and the direct-district
+  // fallback each resolve a { stusab, districtCode, ... } differently, but
+  // loading and displaying the actual races is identical either way.
+  const loadRacesForGeo = async (resolvedGeo) => {
+    setGeo(resolvedGeo);
+    const [house, senate] = await Promise.all([
+      fetchRace("house", resolvedGeo.stusab, resolvedGeo.districtCode),
+      fetchRace("senate", resolvedGeo.stusab, resolvedGeo.districtCode),
+    ]);
+    setHouseRace(house);
+    setSenateRace(senate);
+    setChamber(house ? "house" : "senate");
+    setStatus("ready");
+  };
+
   const handleSearch = async () => {
     if (!address.trim() || status === "loading") return;
     setStatus("loading");
     setError("");
     setProfileSlug(null);
     try {
-      const resolvedGeo = await geocodeAddress(address);
-      setGeo(resolvedGeo);
-      const [house, senate] = await Promise.all([
-        fetchRace("house", resolvedGeo.stusab, resolvedGeo.districtCode),
-        fetchRace("senate", resolvedGeo.stusab, resolvedGeo.districtCode),
-      ]);
-      setHouseRace(house);
-      setSenateRace(senate);
-      setChamber(house ? "house" : "senate");
-      setStatus("ready");
+      await loadRacesForGeo(await geocodeAddress(address));
     } catch (err) {
       setError(err.message || "Something went wrong looking up that address.");
+      setStatus("error");
+    }
+  };
+
+  // Bypasses geocodeAddress entirely — fetchRace only ever needed
+  // stusab/districtCode, so a voter who already knows their district (e.g.
+  // from the redistricting-uncertain message above) skips address lookup,
+  // and with it the county-level precision limit that message describes.
+  const handleDistrictEntry = async (stusab, districtCode) => {
+    setStatus("loading");
+    setError("");
+    setProfileSlug(null);
+    try {
+      await loadRacesForGeo({
+        stusab,
+        stateName: STATE_NAMES[stusab] ?? stusab,
+        districtCode,
+        districtLabel: districtCode === "AL" ? "At-Large" : `District ${districtCode}`,
+      });
+    } catch (err) {
+      setError(err.message || "Something went wrong looking up that district.");
       setStatus("error");
     }
   };
@@ -1243,9 +1342,12 @@ export default function App() {
 
       {status === "error" && (
         <div style={{ maxWidth: 760, margin: "20px auto 0", padding: "0 20px" }}>
-          <div style={{ display: "flex", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "12px 14px" }}>
-            <AlertTriangle size={18} color={T.warn} style={{ flexShrink: 0, marginTop: 1 }} />
-            <div style={{ fontSize: 13.5, color: T.ink }}>{error}</div>
+          <div style={{ background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "12px 14px" }}>
+            <div style={{ display: "flex", gap: 10 }}>
+              <AlertTriangle size={18} color={T.warn} style={{ flexShrink: 0, marginTop: 1 }} />
+              <div style={{ fontSize: 13.5, color: T.ink }}>{error}</div>
+            </div>
+            <DistrictEntryFallback onSubmit={handleDistrictEntry} />
           </div>
         </div>
       )}
