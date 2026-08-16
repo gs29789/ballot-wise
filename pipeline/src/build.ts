@@ -140,13 +140,98 @@ function mergeExtracted(
   }
 }
 
-function searchName(fecName: string): string {
-  // Wikidata's search API matches almost nothing against FEC's raw
-  // "LAST, FIRST MIDDLE SUFFIX" format — needs a normal "First Last" query.
+// FEC's legal first name often isn't the name a politician actually goes by
+// (Charles → Chuck, Robert → Bob) — confirmed empirically: Rep. Chuck
+// Fleischmann's Wikidata entity is labeled "Chuck Fleischmann", and searching
+// "Charles Fleischmann" (his FEC legal name) returns zero relevant hits. That
+// silently starves both the structured Wikidata fields AND Wikipedia
+// extraction (which only runs off wikidata.wikipediaUrl, see below) for every
+// candidate with this kind of mismatch — same pattern reproduced for Bob
+// Latta and Don Beyer. Common English nickname variants, not exhaustive,
+// tried as a fallback only when the legal-name search comes up empty.
+const COMMON_NICKNAMES: Record<string, string[]> = {
+  robert: ["bob", "rob", "bobby"],
+  william: ["bill", "will", "billy"],
+  james: ["jim", "jimmy"],
+  john: ["jack", "johnny"],
+  richard: ["rick", "dick", "richie"],
+  charles: ["chuck", "charlie"],
+  michael: ["mike", "mikey"],
+  christopher: ["chris"],
+  daniel: ["dan", "danny"],
+  david: ["dave"],
+  joseph: ["joe", "joey"],
+  thomas: ["tom", "tommy"],
+  donald: ["don", "donnie"],
+  anthony: ["tony"],
+  kenneth: ["ken", "kenny"],
+  steven: ["steve"],
+  stephen: ["steve"],
+  edward: ["ed", "eddie", "ted"],
+  timothy: ["tim", "timmy"],
+  benjamin: ["ben", "benny"],
+  samuel: ["sam", "sammy"],
+  gregory: ["greg"],
+  patrick: ["pat"],
+  nicholas: ["nick"],
+  jonathan: ["jon"],
+  matthew: ["matt"],
+  andrew: ["andy", "drew"],
+  peter: ["pete"],
+  douglas: ["doug"],
+  ronald: ["ron", "ronnie"],
+  lawrence: ["larry"],
+  frederick: ["fred", "freddie"],
+  theodore: ["ted", "teddy"],
+  walter: ["walt"],
+  raymond: ["ray"],
+  eugene: ["gene"],
+  jeffrey: ["jeff"],
+  gerald: ["jerry"],
+  harold: ["harry"],
+  albert: ["al"],
+  alexander: ["alex"],
+  vincent: ["vince"],
+  philip: ["phil"],
+  phillip: ["phil"],
+  nathaniel: ["nathan", "nate"],
+  zachary: ["zach", "zack"],
+  elizabeth: ["liz", "beth", "betty"],
+  katherine: ["kathy", "kate", "katie"],
+  kathleen: ["kathy", "kate"],
+  margaret: ["peggy", "maggie", "meg"],
+  deborah: ["debbie", "deb"],
+  cynthia: ["cindy"],
+  patricia: ["pat", "patty"],
+  susan: ["sue", "susie"],
+  jennifer: ["jen", "jenny"],
+  rebecca: ["becky"],
+  barbara: ["barb", "barbie"],
+  cathleen: ["kathy"],
+  christine: ["chris", "christy"],
+  victoria: ["vicky", "tori"],
+};
+
+// Wikidata's search API matches almost nothing against FEC's raw
+// "LAST, FIRST MIDDLE SUFFIX" format — needs a normal "First Last" query.
+// Most records list "FIRST MIDDLE..." and token[0] is the right name, but
+// some (Rep. Shontel Brown -> "M SHONTEL", Rep. Troy Balderson -> "WILLIAM
+// TROY", Sen. Jon Ossoff -> "T. JONATHAN") list a middle initial or an
+// unused legal first name before the name the person actually goes by —
+// confirmed empirically for all three. Tries token[0] first (unchanged
+// priority/behavior from before), then token[1] as a fallback when it's not
+// itself a bare initial, each expanded with known nickname variants.
+function searchNameVariants(fecName: string): string[] {
   const [last, rest] = fecName.split(",").map((s) => s.trim());
-  const first = (rest ?? "").split(/\s+/)[0] ?? "";
+  const tokens = (rest ?? "").split(/\s+/).filter(Boolean);
   const cap = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
-  return `${cap(first)} ${cap(last)}`;
+  const isBareInitial = (t: string) => t.replace(/\./g, "").length <= 1;
+
+  const candidateFirsts = [tokens[0], tokens[1]].filter(
+    (t, i, arr): t is string => Boolean(t) && !isBareInitial(t) && arr.indexOf(t) === i
+  );
+  const firstNames = candidateFirsts.flatMap((f) => [f, ...(COMMON_NICKNAMES[f.toLowerCase()] ?? [])]);
+  return firstNames.map((f) => `${cap(f.replace(/\.$/, ""))} ${cap(last)}`);
 }
 
 export interface BuildRaceOptions {
@@ -252,15 +337,29 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       //  1. House Clerk's Office of the Historian concise bio (House
       //     incumbents only) — a single official government paragraph,
       //     higher-signal than a scraped page, tried first when available.
-      //  2. The candidate's own campaign site (FEC committee "website" —
+      //  2. Wikipedia, keyed off the Wikidata entity already confirmed above
+      //     via looksLikeAPolitician — the identity is established before
+      //     this URL is even constructed, not guessed, so it's tried right
+      //     after House Historian rather than last.
+      //  3. The candidate's own campaign site (FEC committee "website" —
       //     self-reported, often has fields Wikipedia never covers like
       //     high_school, but only ~50% of campaigns fill in that FEC field).
-      //  3. Web search, when FEC's field was empty — finds the same kind
+      //  4. Web search, when FEC's field was empty — finds the same kind
       //     of self-reported site FEC's optional field often misses.
-      //  4. BallotReady — a voter-guide aggregator with structured
+      //  5. BallotReady — a voter-guide aggregator with structured
       //     "Degrees"/"Professional Experience" data that covers minor
       //     candidates with no Wikipedia page and no FEC website at all.
-      //  5. Wikipedia — broadest coverage, fills whatever's still missing.
+      //     Tried last: unlike every source above, its URL is a guessed
+      //     slug rather than one anchored to an already-confirmed identity,
+      //     and that guessing has a confirmed same-name collision failure
+      //     mode (see that module's own comment) — the extractBioFacts
+      //     identity check is the only backstop, and it isn't foolproof:
+      //     confirmed missing an unambiguous office+state mismatch once
+      //     (Rep. Chuck Fleischmann of TN vs. a same-named PA township
+      //     supervisor, both explicitly stated on the wrongly-matched
+      //     page). Running it last, after safer sources have already had
+      //     first crack at every field, minimizes how often it gets
+      //     reached at all.
       const expectedContext = `a candidate for ${opts.office === "H" ? "U.S. House of Representatives" : "U.S. Senate"} from ${opts.state}`;
 
       // Discovered once and reused below for platform extraction too.
@@ -272,7 +371,13 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       if (stillMissing() || !platformAlreadyResolved) {
         // Structured Wikidata facts fill gaps only — curated (manually
         // quote-anchored) fields always take priority when both exist.
-        const wikidata = stillMissing() ? await getBioFacts(searchName(c.name)).catch(() => null) : null;
+        let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
+        if (stillMissing()) {
+          for (const nameVariant of searchNameVariants(c.name)) {
+            wikidata = await getBioFacts(nameVariant).catch(() => null);
+            if (wikidata) break;
+          }
+        }
         if (wikidata?.date_of_birth && !bio.date_of_birth) {
           bio.date_of_birth = { value: wikidata.date_of_birth, source_url: wikidata.entityUrl, source_type: "wikidata_structured" };
         }
@@ -289,6 +394,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
             const extracted = await extractBioFacts(c.name, historianUrl, expectedContext).catch(() => null);
             if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_house_historian", curatedBio);
           }
+        }
+
+        if (wikidata?.wikipediaUrl && stillMissing()) {
+          const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
+          if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
         }
 
         campaignSiteUrl = await getCommitteeWebsite(c.candidateId).catch(() => null);
@@ -315,11 +425,6 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         if (stillMissing()) {
           const extracted = await findBallotReadyBio(c.name, c.name, expectedContext).catch(() => null);
           if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_ballotready", curatedBio);
-        }
-
-        if (wikidata?.wikipediaUrl && stillMissing()) {
-          const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
-          if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
         }
       }
 
