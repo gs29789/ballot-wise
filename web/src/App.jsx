@@ -1089,7 +1089,7 @@ const HERO_STATS = [
   { value: "535", label: "Congressional seats" },
   { value: "435", label: "House races every 2 years" },
   { value: "100", label: "Senate seats" },
-  { value: "$0", label: "Dollars that compromise our non-partisan commitment" },
+  { value: "$0", label: "Known dollars that compromise our non-partisan commitment" },
 ];
 
 function LandingHero({ address, setAddress, handleSearch, status }) {
@@ -1171,10 +1171,10 @@ function LandingHero({ address, setAddress, handleSearch, status }) {
       <div style={{ borderTop: `1px solid ${D.line}` }}>
         <div style={{ maxWidth: 700, margin: "0 auto", padding: "36px 20px 48px" }}>
           <div style={{ fontFamily: "'Fraunces', serif", fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
-            We take no money that compromises our non-partisan commitment to the community. Just the facts.
+            We don't knowingly take money that compromises our non-partisan commitment to the community. Just the facts.
           </div>
           <p style={{ color: D.inkSoft, fontSize: 13.5, lineHeight: 1.6 }}>
-            Ballot-Wise is funded by citizens, not campaigns. We accept no contributions from candidates, political parties, PACs, or lobbying organizations. Our only obligation is to you. Every fact shown traces to a public source, linked next to the value — nothing here is summarized from memory or characterized on our behalf.
+            Ballot-Wise's policy is to be funded by citizens, not campaigns — we do not knowingly accept contributions from candidates, political parties, PACs, or lobbying organizations. Our only obligation is to you. Every fact shown traces to a public source, linked next to the value — nothing here is summarized from memory or characterized on our behalf.
           </p>
         </div>
       </div>
