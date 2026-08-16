@@ -1410,7 +1410,11 @@ export default function App() {
   // state update to land (setAddress + reading `address` in the same tick
   // would still see the old value).
   const handleSearch = async (addressOverride) => {
-    const addr = addressOverride ?? address;
+    // typeof-checked, not just ??-defaulted: onClick={handleSearch} on the
+    // submit buttons passes the click SyntheticEvent as this same first
+    // argument, and an event object is neither null nor undefined, so ??
+    // alone would use it as the address and crash on .trim().
+    const addr = typeof addressOverride === "string" ? addressOverride : address;
     if (!addr.trim() || status === "loading") return;
     setStatus("loading");
     setError("");
