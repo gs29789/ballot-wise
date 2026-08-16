@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown } from "lucide-react";
 
 const T = {
@@ -1092,6 +1092,156 @@ const HERO_STATS = [
   { value: "$0", label: "Known dollars that compromise our non-partisan commitment" },
 ];
 
+// Mapbox's Search Box API, called directly from the browser with a public,
+// domain-restricted token (Mapbox's own recommended pattern — no backend
+// proxy needed, unlike the Census geocoder, which has no CORS headers at
+// all). Silently degrades to a plain text input if VITE_MAPBOX_TOKEN isn't
+// configured, rather than breaking the page — this is a convenience layer
+// in front of geocodeAddress()/Census, which stays the actual source of
+// truth for the district match either way.
+//
+// One session_token (a v4 UUID) is reused across every /suggest call for a
+// single search interaction, then rotated after a selection — this is what
+// makes Mapbox bill the whole interaction as one session instead of per
+// keystroke. No /retrieve call: /suggest's own `full_address` field is
+// already a complete, resubmittable address string, and Census — not
+// Mapbox — is what actually needs to resolve it precisely.
+function AddressAutocomplete({ value, onChange, onSearch, placeholder, colors }) {
+  const [suggestions, setSuggestions] = useState([]);
+  const [open, setOpen] = useState(false);
+  const [highlightIndex, setHighlightIndex] = useState(-1);
+  const sessionTokenRef = useRef(crypto.randomUUID());
+  const debounceRef = useRef(null);
+  const containerRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(e) {
+      if (containerRef.current && !containerRef.current.contains(e.target)) setOpen(false);
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
+
+  const fetchSuggestions = (query) => {
+    const token = import.meta.env.VITE_MAPBOX_TOKEN;
+    if (!token || query.trim().length < 3) {
+      setSuggestions([]);
+      return;
+    }
+    const params = new URLSearchParams({
+      q: query,
+      access_token: token,
+      session_token: sessionTokenRef.current,
+      country: "US",
+      types: "address",
+      language: "en",
+      limit: "5",
+    });
+    fetch(`https://api.mapbox.com/search/searchbox/v1/suggest?${params}`)
+      .then((r) => (r.ok ? r.json() : { suggestions: [] }))
+      .then((data) => {
+        setSuggestions(data.suggestions || []);
+        setOpen((data.suggestions || []).length > 0);
+        setHighlightIndex(-1);
+      })
+      .catch(() => setSuggestions([]));
+  };
+
+  const handleChange = (e) => {
+    const v = e.target.value;
+    onChange(v);
+    if (debounceRef.current) clearTimeout(debounceRef.current);
+    debounceRef.current = setTimeout(() => fetchSuggestions(v), 250);
+  };
+
+  const selectSuggestion = (s) => {
+    const full = s.full_address || s.name;
+    onChange(full);
+    setSuggestions([]);
+    setOpen(false);
+    sessionTokenRef.current = crypto.randomUUID(); // next search starts a fresh billing session
+    onSearch(full);
+  };
+
+  const handleKeyDown = (e) => {
+    if (open && suggestions.length) {
+      if (e.key === "ArrowDown") {
+        e.preventDefault();
+        setHighlightIndex((i) => Math.min(i + 1, suggestions.length - 1));
+        return;
+      }
+      if (e.key === "ArrowUp") {
+        e.preventDefault();
+        setHighlightIndex((i) => Math.max(i - 1, 0));
+        return;
+      }
+      if (e.key === "Enter" && highlightIndex >= 0) {
+        e.preventDefault();
+        selectSuggestion(suggestions[highlightIndex]);
+        return;
+      }
+      if (e.key === "Escape") {
+        setOpen(false);
+        return;
+      }
+    }
+    if (e.key === "Enter") onSearch();
+  };
+
+  return (
+    <div ref={containerRef} style={{ position: "relative", flex: "1 1 280px" }}>
+      <div style={{ display: "flex", alignItems: "center", gap: 8, background: colors.bg, border: `1px solid ${colors.border}`, borderRadius: 6, padding: "10px 14px" }}>
+        <MapPin size={16} color={colors.inkSoft} />
+        <input
+          value={value}
+          onChange={handleChange}
+          onKeyDown={handleKeyDown}
+          onFocus={() => suggestions.length && setOpen(true)}
+          placeholder={placeholder}
+          autoComplete="off"
+          style={{ border: "none", background: "transparent", fontSize: 14, width: "100%", color: colors.ink }}
+        />
+      </div>
+      {open && suggestions.length > 0 && (
+        <div
+          style={{
+            position: "absolute",
+            top: "calc(100% + 4px)",
+            left: 0,
+            right: 0,
+            background: colors.bg,
+            border: `1px solid ${colors.border}`,
+            borderRadius: 6,
+            zIndex: 20,
+            overflow: "hidden",
+            boxShadow: "0 8px 24px rgba(0,0,0,0.18)",
+          }}
+        >
+          {suggestions.map((s, i) => (
+            <div
+              key={s.mapbox_id}
+              onMouseDown={(e) => {
+                e.preventDefault(); // keep focus on the input rather than blurring before onClick fires
+                selectSuggestion(s);
+              }}
+              onMouseEnter={() => setHighlightIndex(i)}
+              style={{
+                padding: "9px 14px",
+                fontSize: 13.5,
+                cursor: "pointer",
+                background: i === highlightIndex ? colors.border : "transparent",
+                color: colors.ink,
+              }}
+            >
+              {s.full_address || s.name}
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function LandingHero({ address, setAddress, handleSearch, status }) {
   return (
     <div style={{ background: D.bg, color: D.ink }}>
@@ -1113,16 +1263,13 @@ function LandingHero({ address, setAddress, handleSearch, status }) {
         </p>
 
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-          <div style={{ display: "flex", alignItems: "center", gap: 8, background: D.bgRaised, border: `1px solid ${D.line}`, borderRadius: 6, padding: "10px 14px", flex: "1 1 280px" }}>
-            <MapPin size={16} color={D.inkSoft} />
-            <input
-              value={address}
-              onChange={(e) => setAddress(e.target.value)}
-              onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-              placeholder="Street address, city, state, ZIP"
-              style={{ border: "none", background: "transparent", fontSize: 14, width: "100%", color: D.ink }}
-            />
-          </div>
+          <AddressAutocomplete
+            value={address}
+            onChange={setAddress}
+            onSearch={handleSearch}
+            placeholder="Street address, city, state, ZIP"
+            colors={{ bg: D.bgRaised, border: D.line, ink: D.ink, inkSoft: D.inkSoft }}
+          />
           <button
             onClick={handleSearch}
             disabled={status === "loading"}
@@ -1258,14 +1405,19 @@ export default function App() {
     setStatus("ready");
   };
 
-  const handleSearch = async () => {
-    if (!address.trim() || status === "loading") return;
+  // addressOverride lets a freshly-picked autocomplete suggestion trigger a
+  // search immediately, instead of waiting a render cycle for the setAddress
+  // state update to land (setAddress + reading `address` in the same tick
+  // would still see the old value).
+  const handleSearch = async (addressOverride) => {
+    const addr = addressOverride ?? address;
+    if (!addr.trim() || status === "loading") return;
     setStatus("loading");
     setError("");
     setErrorExampleState(null);
     setProfileSlug(null);
     try {
-      await loadRacesForGeo(await geocodeAddress(address));
+      await loadRacesForGeo(await geocodeAddress(addr));
     } catch (err) {
       setError(err.message || "Something went wrong looking up that address.");
       setErrorExampleState(err.exampleState ?? null);
@@ -1335,16 +1487,13 @@ export default function App() {
 
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "20px 20px" }}>
             <div style={{ maxWidth: 760, margin: "0 auto", display: "flex", gap: 8, flexWrap: "wrap" }}>
-              <div style={{ display: "flex", alignItems: "center", gap: 8, background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", flex: "1 1 280px" }}>
-                <MapPin size={16} color={T.inkSoft} />
-                <input
-                  value={address}
-                  onChange={(e) => setAddress(e.target.value)}
-                  onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                  placeholder="Street address, city, state, ZIP"
-                  style={{ border: "none", background: "transparent", fontSize: 14, width: "100%", color: T.ink }}
-                />
-              </div>
+              <AddressAutocomplete
+                value={address}
+                onChange={setAddress}
+                onSearch={handleSearch}
+                placeholder="Street address, city, state, ZIP"
+                colors={{ bg: T.paperRaised, border: T.line, ink: T.ink, inkSoft: T.inkSoft }}
+              />
               <button
                 onClick={handleSearch}
                 disabled={status === "loading"}
