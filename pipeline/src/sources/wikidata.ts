@@ -106,8 +106,22 @@ function bestDateOfBirthClaim(claims: any): { time: string; precision: number } 
   return values.sort((a: any, b: any) => b.precision - a.precision)[0] ?? null;
 }
 
+const COUNTRY_UNITED_STATES = "Q30";
+
 function looksLikeAPolitician(claims: any): boolean {
   if (claims.P570) return false; // has a recorded date of death — can't be a 2026 candidate
+
+  // A common American name/nickname combination can match a real politician
+  // from a different country entirely — confirmed on "John David Hancock
+  // Jr" (OH-1 candidate): the "Dave" variant of his middle name matched
+  // "Dave Hancock," a real but unrelated Canadian politician, who then
+  // passed every check below since nothing here previously looked at
+  // nationality. Only reject on an EXPLICIT non-US citizenship claim — fail
+  // open when P27 is simply absent, which is common for minor candidates
+  // with sparse Wikidata entries and shouldn't cost them a real match.
+  const citizenships = (claims.P27 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
+  if (citizenships.length && !citizenships.includes(COUNTRY_UNITED_STATES)) return false;
+
   const occupations = (claims.P106 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
   if (occupations.includes(OCCUPATION_POLITICIAN)) return true;
   return Boolean(claims.P39); // has held some position — officeholder/candidate-adjacent
