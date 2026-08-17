@@ -47,9 +47,11 @@ const SYSTEM_PROMPT = `You extract a political candidate's own stated campaign p
   ]
 }`;
 
-async function attemptExtraction(candidateName: string, url: string, expectedContext?: string): Promise<PlatformResult | null> {
-  const page = await fetchPageText(url);
-  if (!page) return null;
+async function extractFromPage(
+  candidateName: string,
+  page: { text: string; finalUrl: string },
+  expectedContext?: string
+): Promise<PlatformResult | null> {
   const { text: pageText, finalUrl } = page;
 
   const contextLine = expectedContext ? `Expected context: ${expectedContext}. If the page describes a same-named person outside this context, treat it as a different person per rule 6.\n` : "";
@@ -92,19 +94,69 @@ async function attemptExtraction(candidateName: string, url: string, expectedCon
   }
 }
 
+async function attemptExtraction(candidateName: string, url: string, expectedContext?: string): Promise<PlatformResult | null> {
+  const page = await fetchPageText(url);
+  if (!page) return null;
+  return extractFromPage(candidateName, page, expectedContext);
+}
+
 const PLATFORM_PATHS = ["/platform", "/issues", "/priorities", "/where-i-stand", "/agenda", "/policies"];
 
+// The fixed-path guesses above miss real sites often enough to matter —
+// confirmed at scale (2026-08-17 audit): 73 candidates across the live
+// dataset had a campaign site good enough to source real bio facts from,
+// but zero platform positions, because their actual issues/platform page
+// uses a URL the fixed list doesn't anticipate (e.g. a real case:
+// "/platform-and-policies/", matching none of the 6 guesses). Rather than
+// keep growing that list indefinitely, this reads the homepage's own nav
+// links and tries whichever ones look platform-related — adapts to
+// whatever slug a given site actually uses instead of guessing one.
+const LINK_KEYWORDS = /issue|platform|priorit|position|agenda|\bpolic|stand|vision|\bplan\b|promise/i;
+
+function discoverPlatformLinks(html: string, baseUrl: string): string[] {
+  const origin = new URL(baseUrl).origin;
+  const links = new Set<string>();
+  const linkRegex = /<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match: RegExpExecArray | null;
+  while ((match = linkRegex.exec(html))) {
+    const [, href, innerHtml] = match;
+    const anchorText = innerHtml.replace(/<[^>]+>/g, " ").trim();
+    if (!LINK_KEYWORDS.test(href) && !LINK_KEYWORDS.test(anchorText)) continue;
+    try {
+      const resolvedUrl = new URL(href, baseUrl);
+      if (resolvedUrl.origin !== origin) continue;
+      // A hash fragment is client-side-only — "/platform#immigration" and
+      // "/platform#economy" fetch byte-identical page content server-side.
+      // Confirmed on a real site (micahlasher.com): its platform page links
+      // to itself under 12 different topic anchors, which without this
+      // would each count as a distinct URL and get fetched/extracted
+      // redundantly 12 times over for one actual page.
+      resolvedUrl.hash = "";
+      links.add(resolvedUrl.toString());
+    } catch {
+      // malformed/relative-scheme href (mailto:, javascript:, etc.) — skip
+    }
+  }
+  return [...links];
+}
+
 export async function extractPlatformFromSite(candidateName: string, baseUrl: string, expectedContext?: string): Promise<PlatformResult | null> {
-  const homepage = await attemptExtraction(candidateName, baseUrl, expectedContext).catch(() => null);
+  const homepagePage = await fetchPageText(baseUrl).catch(() => null);
+  if (!homepagePage) return null;
+
+  const homepage = await extractFromPage(candidateName, homepagePage, expectedContext).catch(() => null);
   if (homepage && homepage.positions.length) return homepage;
 
   // See the identical comment in llmExtract.ts's extractBioFactsFromSite —
   // confirmed on this exact candidate (Reid Rasner): reidrasner.com/issues
   // redirects to rasnerforwy.com's bare homepage, not rasnerforwy.com/issues,
   // so paths must be built from where the homepage fetch actually landed.
-  const resolvedBase = homepage?.sourceUrl ?? baseUrl;
-  for (const path of PLATFORM_PATHS) {
-    const url = new URL(path, resolvedBase).toString();
+  const resolvedBase = homepage?.sourceUrl ?? homepagePage.finalUrl;
+
+  const candidateUrls = [
+    ...new Set([...PLATFORM_PATHS.map((p) => new URL(p, resolvedBase).toString()), ...discoverPlatformLinks(homepagePage.html, resolvedBase)]),
+  ];
+  for (const url of candidateUrls) {
     const result = await attemptExtraction(candidateName, url, expectedContext).catch(() => null);
     if (result && result.positions.length) return result;
   }

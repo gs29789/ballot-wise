@@ -19,7 +19,7 @@ function findRedirectTarget(html: string): string | null {
   return null;
 }
 
-export async function fetchPageText(url: string, allowRedirect = true): Promise<{ text: string; finalUrl: string } | null> {
+export async function fetchPageText(url: string, allowRedirect = true): Promise<{ text: string; html: string; finalUrl: string } | null> {
   const res = await fetch(url, { headers: { "User-Agent": "ballot-wise-pipeline/0.1 (research; contact via GitHub repo)" } });
   if (!res.ok) return null;
   const html = await res.text();
@@ -47,7 +47,7 @@ export async function fetchPageText(url: string, allowRedirect = true): Promise<
     .replace(/&#\d+;/g, " ")
     .replace(/\s+/g, " ")
     .trim();
-  return { text: text.slice(0, 15000), finalUrl: res.url || url }; // keep the prompt bounded; bios live in the lead sections anyway
+  return { text: text.slice(0, 15000), html, finalUrl: res.url || url }; // keep the prompt bounded; bios live in the lead sections anyway
 }
 
 export interface ExtractedField {
