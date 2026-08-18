@@ -470,7 +470,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         prevVideo,
         prevCand?._platform_video_resolved_at,
         c.candidateId,
-        () => (campaignSiteUrl ? findCampaignVideoFromSite(campaignSiteUrl, c.name, opts.state, platform?.sourceUrl).catch(() => null) : Promise.resolve(null))
+        () => (campaignSiteUrl ? findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl).catch(() => null) : Promise.resolve(null))
       );
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];

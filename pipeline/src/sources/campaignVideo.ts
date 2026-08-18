@@ -113,18 +113,36 @@ async function resolveChannel(shape: Exclude<YouTubeLinkShape, { kind: "video" }
   }
 }
 
-// Before trusting a resolved channel, confirm its own title/description
-// (already fetched above, zero extra quota) actually looks like this
-// candidate's campaign — a linked channel could be a personal/family
-// channel with a generic name rather than a campaign one. Fails closed to
-// "no video found" for this candidate, the same honest gap as any other
-// missing field elsewhere on the site.
-function channelPassesTrustCheck(channel: { title: string; description: string }, candidateName: string, state: string): boolean {
+// Before trusting a resolved video, confirm SOMETHING in its own record —
+// channel title/description, or the video's own title/description — looks
+// like this candidate's campaign, not a personal/family channel, a news
+// outlet's clip, or an unrelated video that happened to be linked/embedded
+// somewhere on the page. Fails closed to "no video found" for this
+// candidate, the same honest gap as any other missing field on the site.
+//
+// Word-boundary matched, not a raw .includes() substring check. Two real,
+// confirmed false positives drove this: (1) a bare 2-letter state code is
+// unsound even word-boundary-matched against a candidate's LAST NAME
+// alone — "ME" (Maine) matched inside the word "America" via a plain
+// substring check, so the state check was dropped entirely as its own
+// pass condition, it was never more than weak circumstantial evidence;
+// (2) a *direct* video link previously skipped this check altogether on
+// the theory that the campaign site's own linking choice was authoritative
+// by itself — in practice this let through videos with no connection to
+// the candidate at all (a WordPress theme's tutorial video, a record
+// label's music video, a local TV news clip), almost certainly because
+// discoverYouTubeLinks() can pick up an unrelated embed elsewhere on the
+// page, not something the campaign deliberately chose to feature.
+function wordBoundaryMatch(haystack: string, needle: string): boolean {
+  const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  return new RegExp(`\\b${escaped}\\b`, "i").test(haystack);
+}
+
+function passesNameCheck(text: string, candidateName: string): boolean {
   const lastName = (candidateName.split(",")[0] ?? "").trim().toLowerCase();
-  const haystack = `${channel.title} ${channel.description}`.toLowerCase();
-  if (lastName.length > 1 && haystack.includes(lastName)) return true;
+  const haystack = text.toLowerCase();
+  if (lastName.length > 1 && wordBoundaryMatch(haystack, lastName)) return true;
   if (/\bfor (?:congress|senate|house)\b/.test(haystack)) return true;
-  if (state && haystack.includes(state.toLowerCase())) return true;
   return false;
 }
 
@@ -146,9 +164,17 @@ async function getUploads(uploadsPlaylistId: string): Promise<ChannelVideo[]> {
     .filter((v: ChannelVideo) => v.videoId);
 }
 
-async function getVideoTitle(videoId: string): Promise<string | null> {
+interface VideoSnippet {
+  title: string;
+  description: string;
+  channelTitle: string;
+}
+
+async function getVideoSnippet(videoId: string): Promise<VideoSnippet | null> {
   const data = await youtubeGet("videos", { part: "snippet", id: videoId }).catch(() => null);
-  return data?.items?.[0]?.snippet?.title ?? null;
+  const snippet = data?.items?.[0]?.snippet;
+  if (!snippet?.title) return null;
+  return { title: snippet.title, description: snippet.description ?? "", channelTitle: snippet.channelTitle ?? "" };
 }
 
 // Deterministic, local, zero additional API cost: first video (uploads
@@ -200,7 +226,6 @@ export interface CampaignVideoResult {
 export async function findCampaignVideoFromSite(
   baseUrl: string,
   candidateName: string,
-  state: string,
   extraPageUrl?: string | null
 ): Promise<CampaignVideoResult | null> {
   const pagesToCheck = [baseUrl, ...(extraPageUrl && extraPageUrl !== baseUrl ? [extraPageUrl] : [])];
@@ -214,16 +239,21 @@ export async function findCampaignVideoFromSite(
       if (!shape) continue;
 
       if (shape.kind === "video") {
-        // A direct video link is the site's own explicit choice — no
-        // channel-trust check applies, there's no channel here to check.
-        const title = await getVideoTitle(shape.videoId).catch(() => null);
-        if (!title) continue;
-        return { videoId: shape.videoId, videoUrl: `https://www.youtube.com/watch?v=${shape.videoId}`, videoTitle: title, sourceUrl: page.finalUrl };
+        // Still name-checked, even though the campaign site linked this
+        // exact video directly — a real, confirmed failure mode: a video
+        // with zero connection to the candidate (a WordPress theme demo, a
+        // record label's music video, a local news clip) can be picked up
+        // by discoverYouTubeLinks() from elsewhere on the page without
+        // being the campaign's own deliberate choice.
+        const snippet = await getVideoSnippet(shape.videoId).catch(() => null);
+        if (!snippet) continue;
+        if (!passesNameCheck(`${snippet.title} ${snippet.description} ${snippet.channelTitle}`, candidateName)) continue;
+        return { videoId: shape.videoId, videoUrl: `https://www.youtube.com/watch?v=${shape.videoId}`, videoTitle: snippet.title, sourceUrl: page.finalUrl };
       }
 
       const channel = await resolveChannel(shape).catch(() => null);
       if (!channel || !channel.uploadsPlaylistId) continue;
-      if (!channelPassesTrustCheck(channel, candidateName, state)) continue;
+      if (!passesNameCheck(`${channel.title} ${channel.description}`, candidateName)) continue;
 
       const uploads = await getUploads(channel.uploadsPlaylistId).catch(() => []);
       const picked = pickPlatformVideo(uploads);
