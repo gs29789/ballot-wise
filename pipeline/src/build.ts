@@ -517,6 +517,16 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         platform: platform?.positions ?? [],
         platform_source_url: platform?.sourceUrl ?? null,
         _platform_resolved_at: platformResolvedAt ?? null,
+        // Published in its own right, not just used internally for platform
+        // and video extraction — previously this was computed and then
+        // discarded every run unless it happened to also produce a bio fact
+        // or platform statement, so a real, found site was invisible to
+        // anything reading only the published JSON (e.g. scaleVideoOnly.ts)
+        // whenever extraction from it came up empty. Held forward like bio/
+        // platform/financials: a later rebuild whose gate stays closed (bio,
+        // platform, AND video already resolved) shouldn't silently erase an
+        // already-known site.
+        campaign_site_url: campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
         platform_video_url: video?.videoUrl ?? null,
         platform_video_title: video?.videoTitle ?? null,
         platform_video_source_url: video?.sourceUrl ?? null,

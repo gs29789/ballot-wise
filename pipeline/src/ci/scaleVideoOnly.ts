@@ -31,10 +31,19 @@ function siteOriginOf(url: string): string | null {
   }
 }
 
-// Same priority a normal buildRace() pass would effectively have: prefer
-// the platform page (most likely to also carry a "watch my plan" link),
-// fall back to any bio fact that was itself sourced from the campaign site.
+// campaign_site_url is the authoritative field build.ts now publishes
+// directly (added specifically so this script doesn't need to guess) — it
+// exists whenever build.ts ever found a site for this candidate, regardless
+// of whether bio/platform extraction from it succeeded. Older-format race
+// files that predate that field still fall back to the same proxy this
+// script always used: the platform page (most likely to also carry a
+// "watch my plan" link), or any bio fact itself sourced from the campaign
+// site.
 function deriveCampaignSite(candidate: any): { baseUrl: string; extraPageUrl: string | null } | null {
+  if (candidate.campaign_site_url) {
+    const origin = siteOriginOf(candidate.campaign_site_url);
+    if (origin) return { baseUrl: origin, extraPageUrl: candidate.platform_source_url ?? null };
+  }
   if (candidate.platform_source_url) {
     const origin = siteOriginOf(candidate.platform_source_url);
     if (origin) return { baseUrl: origin, extraPageUrl: candidate.platform_source_url };

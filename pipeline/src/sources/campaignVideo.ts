@@ -216,6 +216,35 @@ export function discoverYouTubeLinks(html: string, baseUrl: string): string[] {
   return [...links];
 }
 
+// Same idea as campaignPlatform.ts's discoverPlatformLinks — the homepage
+// and platform page are only two of the pages a real site might link a
+// video from; a dedicated "Media"/"Press"/"Videos" page is common and
+// wasn't checked at all before. Same-origin restriction applies here (this
+// finds a PAGE on the campaign's own site, unlike discoverYouTubeLinks
+// above, which finds cross-origin youtube.com links within one).
+const MEDIA_LINK_KEYWORDS = /\bmedia\b|\bvideos?\b|\bpress\b|newsroom|\bwatch\b|\bads?\b|\bgallery\b/i;
+
+function discoverMediaLinks(html: string, baseUrl: string): string[] {
+  const origin = new URL(baseUrl).origin;
+  const links = new Set<string>();
+  const linkRegex = /<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match: RegExpExecArray | null;
+  while ((match = linkRegex.exec(html))) {
+    const [, href, innerHtml] = match;
+    const anchorText = innerHtml.replace(/<[^>]+>/g, " ").trim();
+    if (!MEDIA_LINK_KEYWORDS.test(href) && !MEDIA_LINK_KEYWORDS.test(anchorText)) continue;
+    try {
+      const resolvedUrl = new URL(href, baseUrl);
+      if (resolvedUrl.origin !== origin) continue;
+      resolvedUrl.hash = "";
+      links.add(resolvedUrl.toString());
+    } catch {
+      // malformed/relative-scheme href (mailto:, javascript:, etc.) — skip
+    }
+  }
+  return [...links];
+}
+
 export interface CampaignVideoResult {
   videoId: string;
   videoUrl: string;
@@ -228,10 +257,14 @@ export async function findCampaignVideoFromSite(
   candidateName: string,
   extraPageUrl?: string | null
 ): Promise<CampaignVideoResult | null> {
-  const pagesToCheck = [baseUrl, ...(extraPageUrl && extraPageUrl !== baseUrl ? [extraPageUrl] : [])];
+  const homepage = await fetchPageText(baseUrl).catch(() => null);
+  if (!homepage) return null;
 
-  for (const pageUrl of pagesToCheck) {
-    const page = await fetchPageText(pageUrl).catch(() => null);
+  const mediaLinks = discoverMediaLinks(homepage.html, homepage.finalUrl).filter((l) => l !== baseUrl && l !== extraPageUrl);
+  const otherPages = [...(extraPageUrl && extraPageUrl !== baseUrl ? [extraPageUrl] : []), ...mediaLinks];
+
+  for (const pageUrl of [baseUrl, ...otherPages]) {
+    const page = pageUrl === baseUrl ? homepage : await fetchPageText(pageUrl).catch(() => null);
     if (!page) continue;
 
     for (const link of discoverYouTubeLinks(page.html, page.finalUrl)) {
