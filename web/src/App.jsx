@@ -205,13 +205,6 @@ function youTubeVideoId(videoUrl) {
   }
 }
 
-// img.youtube.com is YouTube's own public thumbnail CDN: no API key, no
-// quota, same-as-the-link trust boundary.
-function youTubeThumbnailUrl(videoUrl) {
-  const id = youTubeVideoId(videoUrl);
-  return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
-}
-
 // youtube-nocookie.com/embed/ID is YouTube's own minimal player: just the
 // video, no comments, no channel page, no recommendations sidebar, and no
 // tracking cookie until the visitor actually presses play. rel=0 further
@@ -222,26 +215,6 @@ function youTubeThumbnailUrl(videoUrl) {
 function youTubeEmbedUrl(videoUrl) {
   const id = youTubeVideoId(videoUrl);
   return id ? `https://www.youtube-nocookie.com/embed/${id}?rel=0` : null;
-}
-
-function VideoThumbnail({ url, title, size = 64 }) {
-  const thumb = youTubeThumbnailUrl(url);
-  if (!thumb) return null;
-  const height = Math.round((size * 9) / 16);
-  return (
-    <span style={{ position: "relative", display: "inline-block", width: size, height, flexShrink: 0, borderRadius: 4, overflow: "hidden", border: `1px solid ${T.line}` }}>
-      <img src={thumb} alt="" width={size} height={height} loading="lazy" style={{ display: "block", width: size, height, objectFit: "cover" }} />
-      <span style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(33,29,24,0.25)" }}>
-        <span style={{
-          width: 0, height: 0,
-          borderTop: `${Math.round(size * 0.09)}px solid transparent`,
-          borderBottom: `${Math.round(size * 0.09)}px solid transparent`,
-          borderLeft: `${Math.round(size * 0.14)}px solid ${T.paper}`,
-          marginLeft: 2,
-        }} />
-      </span>
-    </span>
-  );
 }
 
 // maxLen truncates long prose (employment history, civic affiliations) for
@@ -859,14 +832,24 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
           ) : null}
           emptyText="No public record found" />
         <DetailRow label="Campaign video" candidates={candidates}
-          render={(c) => c.platform_video_url ? (
-            <a href={youTubeEmbedUrl(c.platform_video_url) || c.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "inline-flex", alignItems: "center", gap: 6, color: T.inkSoft, fontSize: 12 }}>
-              <VideoThumbnail url={c.platform_video_url} size={48} />
-              <span>
-                {truncateText(c.platform_video_title || "Watch on YouTube", 60)}{" "}
-                <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
-              </span>
-            </a>
+          render={(c) => (c.platform_video_url && youTubeEmbedUrl(c.platform_video_url)) ? (
+            <div>
+              <div style={{ fontSize: 12, color: T.inkSoft, marginBottom: 4 }}>
+                {truncateText(c.platform_video_title || "Campaign video", 50)}
+              </div>
+              {/* Embedded, not linked: youtube-nocookie.com/embed only renders
+                  correctly inside a real iframe — loaded as a bare page (what
+                  a target="_blank" link would do) it fails with YouTube's own
+                  "Error 153: Video player configuration error". */}
+              <iframe
+                src={youTubeEmbedUrl(c.platform_video_url)}
+                title={c.platform_video_title || "Campaign video"}
+                style={{ display: "block", width: "100%", maxWidth: 220, aspectRatio: "16 / 9", border: "none", borderRadius: 4 }}
+                allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                loading="lazy"
+              />
+            </div>
           ) : null}
           emptyText="No public record found" />
       </div>
