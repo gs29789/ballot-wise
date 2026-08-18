@@ -196,15 +196,32 @@ function truncateText(text, maxLen) {
 
 // platform_video_url is always the https://www.youtube.com/watch?v=ID shape
 // campaignVideo.ts constructs on the pipeline side — no need to duplicate
-// its fuller URL-shape parsing here. img.youtube.com is YouTube's own public
-// thumbnail CDN: no API key, no quota, same-as-the-link trust boundary.
-function youTubeThumbnailUrl(videoUrl) {
+// its fuller URL-shape parsing here.
+function youTubeVideoId(videoUrl) {
   try {
-    const id = new URL(videoUrl).searchParams.get("v");
-    return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
+    return new URL(videoUrl).searchParams.get("v");
   } catch {
     return null;
   }
+}
+
+// img.youtube.com is YouTube's own public thumbnail CDN: no API key, no
+// quota, same-as-the-link trust boundary.
+function youTubeThumbnailUrl(videoUrl) {
+  const id = youTubeVideoId(videoUrl);
+  return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
+}
+
+// youtube-nocookie.com/embed/ID is YouTube's own minimal player: just the
+// video, no comments, no channel page, no recommendations sidebar, and no
+// tracking cookie until the visitor actually presses play. rel=0 further
+// restricts any related videos shown after playback ends to the same
+// channel, instead of arbitrary third-party content. Deliberately used in
+// place of the full youtube.com/watch page everywhere this app links to a
+// candidate's video, so visitors aren't routed into the wider site.
+function youTubeEmbedUrl(videoUrl) {
+  const id = youTubeVideoId(videoUrl);
+  return id ? `https://www.youtube-nocookie.com/embed/${id}?rel=0` : null;
 }
 
 function VideoThumbnail({ url, title, size = 64 }) {
@@ -843,7 +860,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
           emptyText="No public record found" />
         <DetailRow label="Campaign video" candidates={candidates}
           render={(c) => c.platform_video_url ? (
-            <a href={c.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "inline-flex", alignItems: "center", gap: 6, color: T.inkSoft, fontSize: 12 }}>
+            <a href={youTubeEmbedUrl(c.platform_video_url) || c.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "inline-flex", alignItems: "center", gap: 6, color: T.inkSoft, fontSize: 12 }}>
               <VideoThumbnail url={c.platform_video_url} size={48} />
               <span>
                 {truncateText(c.platform_video_title || "Watch on YouTube", 60)}{" "}
@@ -1074,12 +1091,21 @@ function CandidateProfileView({ candidate, race, onBack }) {
         {candidate.platform_video_url && (
           <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
-            <a href={candidate.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 4, color: T.gold }}>
-              <VideoThumbnail url={candidate.platform_video_url} size={72} />
-              <span style={{ fontSize: 13 }}>
-                {candidate.platform_video_title || "Watch on YouTube"} <ExternalLink size={11} style={{ verticalAlign: "middle" }} />
-              </span>
-            </a>
+            <div style={{ fontSize: 13, color: T.ink, fontWeight: 600, marginTop: 4, marginBottom: 6 }}>
+              {candidate.platform_video_title || "Campaign video"}
+            </div>
+            {youTubeEmbedUrl(candidate.platform_video_url) && (
+              <div style={{ maxWidth: 400 }}>
+                <iframe
+                  src={youTubeEmbedUrl(candidate.platform_video_url)}
+                  title={candidate.platform_video_title || "Campaign video"}
+                  style={{ display: "block", width: "100%", aspectRatio: "16 / 9", border: "none", borderRadius: 4 }}
+                  allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                />
+              </div>
+            )}
             {candidate.platform_video_source_url && (
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
                 Linked from{" "}
