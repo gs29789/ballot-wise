@@ -10,6 +10,7 @@ import { buildHouseHistorianUrl } from "./sources/houseHistorian.js";
 import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
 import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
+import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
 import { getFinancialDisclosure, type FinancialDisclosureSummary } from "./sources/houseFinancialDisclosure.js";
 import { getIdeologyScore } from "./sources/voteview.js";
 import { getBridgeScore } from "./sources/bridgeGrades.js";
@@ -322,6 +323,16 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // resolved AND not yet due for a recheck, not just present.
       const platformAlreadyResolved =
         Boolean(prevCand?.platform?.length) && !isDueForRefresh(prevCand?._platform_resolved_at, c.candidateId);
+      // Same idea, for the campaign-video field — its own condition in
+      // the gate below, not just riding on platform's, because
+      // campaignSiteUrl (which video resolution also needs) is only
+      // populated inside that gate. Once bio AND platform are both
+      // already stable — the steady state this feature reaches once it's
+      // been running a while — a gate keyed on those two alone would stay
+      // permanently closed and video would silently never get a URL to
+      // work with again, even when it specifically is due for a recheck.
+      const videoAlreadyResolved =
+        Boolean(prevCand?.platform_video_url) && !isDueForRefresh(prevCand?._platform_video_resolved_at, c.candidateId);
 
       // Automated quote-anchored extraction (Claude) fills whatever fields
       // aren't already resolved — only runs when curated YAML and the last
@@ -368,7 +379,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // Everything in this block is skipped entirely once both bio and
       // platform are already resolved from the last published build —
       // see the comment above `bio` for why that matters beyond efficiency.
-      if (stillMissing() || !platformAlreadyResolved) {
+      if (stillMissing() || !platformAlreadyResolved || !videoAlreadyResolved) {
         // Structured Wikidata facts fill gaps only — curated (manually
         // quote-anchored) fields always take priority when both exist.
         let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
@@ -448,6 +459,20 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
       );
 
+      // Tier 1 only: a video found exclusively via a link already on the
+      // candidate's own site — see campaignVideo.ts. Checks the platform
+      // page too (once resolved above), since a "watch my plan" link is
+      // at least as likely to live there as on the bare homepage.
+      const prevVideo = prevCand?.platform_video_url
+        ? { videoId: "", videoUrl: prevCand.platform_video_url, videoTitle: prevCand.platform_video_title, sourceUrl: prevCand.platform_video_source_url }
+        : null;
+      const { value: video, resolvedAt: videoResolvedAt } = await resolveWithRefresh(
+        prevVideo,
+        prevCand?._platform_video_resolved_at,
+        c.candidateId,
+        () => (campaignSiteUrl ? findCampaignVideoFromSite(campaignSiteUrl, c.name, opts.state, platform?.sourceUrl).catch(() => null) : Promise.resolve(null))
+      );
+
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
       let attendance: { votesInSession: number; votesCast: number; attendanceRate: number } | null = null;
       let committees: Awaited<ReturnType<typeof getCommitteeAssignments>> = [];
@@ -492,6 +517,10 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         platform: platform?.positions ?? [],
         platform_source_url: platform?.sourceUrl ?? null,
         _platform_resolved_at: platformResolvedAt ?? null,
+        platform_video_url: video?.videoUrl ?? null,
+        platform_video_title: video?.videoTitle ?? null,
+        platform_video_source_url: video?.sourceUrl ?? null,
+        _platform_video_resolved_at: videoResolvedAt ?? null,
         financial_disclosure: null as FinancialDisclosureSummary | null, // filled in sequentially below — see comment there
         _financial_disclosure_resolved_at: null as string | null, // filled in sequentially below — see comment there
         recent_votes: recentVotes,

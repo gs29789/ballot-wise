@@ -163,10 +163,68 @@ async function fetchRace(chamber, stusab, districtCode) {
   return res.json();
 }
 
+// This app has no router — home/results/profile are plain React state, and
+// until now nothing ever touched window.history. That meant the browser's
+// real back button had no in-app history to walk: a visit to an external
+// link (a source citation, or the campaign-video link) that for any reason
+// didn't open in a new tab — a browser/PWA/in-app-webview that doesn't
+// honor target="_blank" — would return to a full reload of "/", landing on
+// the home screen instead of the candidate page the user was just on. These
+// two helpers turn {stusab, districtCode, chamber, profile} into a URL and
+// back, so every real navigation step can get a genuine history entry.
+function buildAppUrl({ stusab, districtCode, chamber, profile } = {}) {
+  if (!stusab || !districtCode) return "/";
+  const params = new URLSearchParams({ state: stusab, district: districtCode });
+  if (chamber) params.set("chamber", chamber);
+  if (profile) params.set("profile", profile);
+  return `/?${params.toString()}`;
+}
+
+function parseAppUrl(search) {
+  const params = new URLSearchParams(search);
+  const stusab = params.get("state");
+  const districtCode = params.get("district");
+  if (!stusab || !districtCode) return null;
+  return { stusab, districtCode, chamber: params.get("chamber") || undefined, profile: params.get("profile") || null };
+}
+
 function truncateText(text, maxLen) {
   if (text.length <= maxLen) return text;
   const cut = text.slice(0, maxLen);
   return cut.slice(0, cut.lastIndexOf(" ")) + "…";
+}
+
+// platform_video_url is always the https://www.youtube.com/watch?v=ID shape
+// campaignVideo.ts constructs on the pipeline side — no need to duplicate
+// its fuller URL-shape parsing here. img.youtube.com is YouTube's own public
+// thumbnail CDN: no API key, no quota, same-as-the-link trust boundary.
+function youTubeThumbnailUrl(videoUrl) {
+  try {
+    const id = new URL(videoUrl).searchParams.get("v");
+    return id ? `https://img.youtube.com/vi/${id}/mqdefault.jpg` : null;
+  } catch {
+    return null;
+  }
+}
+
+function VideoThumbnail({ url, title, size = 64 }) {
+  const thumb = youTubeThumbnailUrl(url);
+  if (!thumb) return null;
+  const height = Math.round((size * 9) / 16);
+  return (
+    <span style={{ position: "relative", display: "inline-block", width: size, height, flexShrink: 0, borderRadius: 4, overflow: "hidden", border: `1px solid ${T.line}` }}>
+      <img src={thumb} alt="" width={size} height={height} loading="lazy" style={{ display: "block", width: size, height, objectFit: "cover" }} />
+      <span style={{ position: "absolute", inset: 0, display: "flex", alignItems: "center", justifyContent: "center", background: "rgba(33,29,24,0.25)" }}>
+        <span style={{
+          width: 0, height: 0,
+          borderTop: `${Math.round(size * 0.09)}px solid transparent`,
+          borderBottom: `${Math.round(size * 0.09)}px solid transparent`,
+          borderLeft: `${Math.round(size * 0.14)}px solid ${T.paper}`,
+          marginLeft: 2,
+        }} />
+      </span>
+    </span>
+  );
 }
 
 // maxLen truncates long prose (employment history, civic affiliations) for
@@ -783,6 +841,17 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
             </div>
           ) : null}
           emptyText="No public record found" />
+        <DetailRow label="Campaign video" candidates={candidates}
+          render={(c) => c.platform_video_url ? (
+            <a href={c.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "inline-flex", alignItems: "center", gap: 6, color: T.inkSoft, fontSize: 12 }}>
+              <VideoThumbnail url={c.platform_video_url} size={48} />
+              <span>
+                {truncateText(c.platform_video_title || "Watch on YouTube", 60)}{" "}
+                <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+              </span>
+            </a>
+          ) : null}
+          emptyText="No public record found" />
       </div>
 
       </div>
@@ -999,8 +1068,27 @@ function CandidateProfileView({ candidate, race, onBack }) {
               </div>
             )}
           </>
-        ) : (
+        ) : !candidate.platform_video_url ? (
           <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", padding: "9px 4px" }}>No public record found.</div>
+        ) : null}
+        {candidate.platform_video_url && (
+          <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
+            <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
+            <a href={candidate.platform_video_url} target="_blank" rel="noreferrer noopener" style={{ display: "flex", alignItems: "center", gap: 8, marginTop: 4, color: T.gold }}>
+              <VideoThumbnail url={candidate.platform_video_url} size={72} />
+              <span style={{ fontSize: 13 }}>
+                {candidate.platform_video_title || "Watch on YouTube"} <ExternalLink size={11} style={{ verticalAlign: "middle" }} />
+              </span>
+            </a>
+            {candidate.platform_video_source_url && (
+              <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
+                Linked from{" "}
+                <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
+                  the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                </a>
+              </div>
+            )}
+          </div>
         )}
       </div>
 
@@ -1393,7 +1481,11 @@ export default function App() {
   // Shared by both entry points below: geocodeAddress and the direct-district
   // fallback each resolve a { stusab, districtCode, ... } differently, but
   // loading and displaying the actual races is identical either way.
-  const loadRacesForGeo = async (resolvedGeo) => {
+  // `push: false` is for restoring FROM the URL (initial mount, popstate) —
+  // syncing state to match history that already exists, not creating a new
+  // entry on top of it.
+  const loadRacesForGeo = async (resolvedGeo, opts = {}) => {
+    const { push = true, chamber: requestedChamber, profileSlug: requestedProfileSlug = null } = opts;
     setGeo(resolvedGeo);
     const [house, senate] = await Promise.all([
       fetchRace("house", resolvedGeo.stusab, resolvedGeo.districtCode),
@@ -1401,8 +1493,17 @@ export default function App() {
     ]);
     setHouseRace(house);
     setSenateRace(senate);
-    setChamber(house ? "house" : "senate");
+    const resolvedChamber =
+      requestedChamber === "senate" && senate ? "senate" :
+      requestedChamber === "house" && house ? "house" :
+      house ? "house" : "senate";
+    setChamber(resolvedChamber);
+    setProfileSlug(requestedProfileSlug);
     setStatus("ready");
+    const urlState = { stusab: resolvedGeo.stusab, districtCode: resolvedGeo.districtCode, chamber: resolvedChamber, profile: requestedProfileSlug };
+    const url = buildAppUrl(urlState);
+    if (push) history.pushState(urlState, "", url);
+    else history.replaceState(urlState, "", url);
   };
 
   // addressOverride lets a freshly-picked autocomplete suggestion trigger a
@@ -1454,6 +1555,84 @@ export default function App() {
   const activeRace = chamber === "house" ? houseRace : senateRace;
   const profileCandidate = profileSlug ? activeRace?.candidates.find((c) => c.slug === profileSlug) : null;
 
+  // Syncs React state to whatever the URL currently says — used both on
+  // first mount (a deep link, or a reload after leaving the page — see the
+  // note above buildAppUrl) and on every popstate (the user pressing the
+  // real back/forward button). Reuses already-loaded race data when it's
+  // for the same district instead of re-fetching, so pressing back to close
+  // a profile is instant rather than a network round trip.
+  const restoreFromUrl = async () => {
+    const parsed = parseAppUrl(window.location.search);
+    if (!parsed) {
+      setStatus("idle");
+      setProfileSlug(null);
+      return;
+    }
+    if (geo?.stusab === parsed.stusab && geo?.districtCode === parsed.districtCode && (houseRace || senateRace)) {
+      if (parsed.chamber === "senate" && senateRace) setChamber("senate");
+      else if (parsed.chamber === "house" && houseRace) setChamber("house");
+      setProfileSlug(parsed.profile);
+      setStatus("ready");
+      return;
+    }
+    setStatus("loading");
+    try {
+      await loadRacesForGeo(
+        {
+          stusab: parsed.stusab,
+          stateName: STATE_NAMES[parsed.stusab] ?? parsed.stusab,
+          districtCode: parsed.districtCode,
+          districtLabel: parsed.districtCode === "AL" ? "At-Large" : `District ${parsed.districtCode}`,
+        },
+        { push: false, chamber: parsed.chamber, profileSlug: parsed.profile }
+      );
+    } catch {
+      // A stale/no-longer-buildable URL shouldn't strand the user on a dead
+      // error screen — fall back to the landing page, same as a bare visit.
+      setStatus("idle");
+    }
+  };
+
+  useEffect(() => {
+    if (parseAppUrl(window.location.search)) restoreFromUrl();
+    // Deliberately mount-only: this restores from whatever URL the page was
+    // loaded with, once.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  useEffect(() => {
+    const onPopState = () => restoreFromUrl();
+    window.addEventListener("popstate", onPopState);
+    return () => window.removeEventListener("popstate", onPopState);
+    // Re-subscribes when the in-memory fast path's own inputs change, so the
+    // listener never closes over stale geo/houseRace/senateRace values.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [geo, houseRace, senateRace]);
+
+  const openProfile = (slug) => {
+    setProfileSlug(slug);
+    const urlState = { stusab: geo?.stusab, districtCode: geo?.districtCode, chamber, profile: slug };
+    history.pushState(urlState, "", buildAppUrl(urlState));
+  };
+
+  const closeProfile = () => {
+    setProfileSlug(null);
+    const urlState = { stusab: geo?.stusab, districtCode: geo?.districtCode, chamber, profile: null };
+    history.replaceState(urlState, "", buildAppUrl(urlState));
+  };
+
+  const switchChamber = (c) => {
+    setChamber(c);
+    setProfileSlug(null);
+    const urlState = { stusab: geo?.stusab, districtCode: geo?.districtCode, chamber: c, profile: null };
+    history.replaceState(urlState, "", buildAppUrl(urlState));
+  };
+
+  const goHome = () => {
+    setStatus("idle");
+    history.pushState(null, "", "/");
+  };
+
   return (
     <div style={{ background: T.paper, minHeight: "100vh", fontFamily: "'IBM Plex Sans', sans-serif", color: T.ink }}>
       <style>{`
@@ -1473,11 +1652,11 @@ export default function App() {
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "16px 20px" }}>
             <div style={{ maxWidth: 760, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 10 }}>
               <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
-                <button onClick={() => setStatus("idle")} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer" }}>
+                <button onClick={goHome} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer" }}>
                   <Wordmark />
                 </button>
                 <button
-                  onClick={() => setStatus("idle")}
+                  onClick={goHome}
                   style={{ display: "flex", alignItems: "center", gap: 4, background: "transparent", border: "none", padding: 0, cursor: "pointer", color: T.inkSoft, fontSize: 12.5, fontWeight: 500 }}
                 >
                   <ArrowLeft size={13} /> Back to home
@@ -1525,16 +1704,16 @@ export default function App() {
       {status === "ready" && (
         <div style={{ maxWidth: 920, margin: "0 auto", padding: "28px 20px 60px" }}>
           {profileCandidate ? (
-            <CandidateProfileView candidate={profileCandidate} race={activeRace} onBack={() => setProfileSlug(null)} />
+            <CandidateProfileView candidate={profileCandidate} race={activeRace} onBack={closeProfile} />
           ) : (
             <ComparisonView
               race={activeRace}
               chamber={chamber}
               houseRace={houseRace}
               senateRace={senateRace}
-              setChamber={(c) => { setChamber(c); setProfileSlug(null); }}
+              setChamber={switchChamber}
               geo={geo}
-              onOpenProfile={setProfileSlug}
+              onOpenProfile={openProfile}
             />
           )}
         </div>
