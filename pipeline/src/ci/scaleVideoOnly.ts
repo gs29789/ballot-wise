@@ -69,6 +69,7 @@ async function processCandidate(c: any, state: string): Promise<boolean> {
   c.platform_video_url = video.videoUrl;
   c.platform_video_title = video.videoTitle;
   c.platform_video_source_url = video.sourceUrl;
+  c.platform_video_tier = 1;
   c._platform_video_resolved_at = new Date().toISOString();
   console.log(`FOUND: ${c.full_name} (${state}) — "${video.videoTitle}"`);
   return true;

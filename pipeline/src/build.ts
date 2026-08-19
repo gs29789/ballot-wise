@@ -463,14 +463,32 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // candidate's own site — see campaignVideo.ts. Checks the platform
       // page too (once resolved above), since a "watch my plan" link is
       // at least as likely to live there as on the bare homepage.
+      // tier carried through explicitly — without it, a HELD Tier 2 result
+      // (scaleVideoTier2.ts, no site to anchor identity to) would get
+      // silently relabeled as Tier 1 on this routine's next refresh cycle,
+      // since a fresh Tier-1-only findCampaignVideoFromSite() attempt
+      // finding nothing new just falls back to the existing seed here —
+      // correctly keeps the URL, but the seed needs its own tier to keep
+      // that fallback honest too.
       const prevVideo = prevCand?.platform_video_url
-        ? { videoId: "", videoUrl: prevCand.platform_video_url, videoTitle: prevCand.platform_video_title, sourceUrl: prevCand.platform_video_source_url }
+        ? {
+            videoId: "",
+            videoUrl: prevCand.platform_video_url,
+            videoTitle: prevCand.platform_video_title,
+            sourceUrl: prevCand.platform_video_source_url,
+            tier: prevCand.platform_video_tier ?? 1,
+          }
         : null;
       const { value: video, resolvedAt: videoResolvedAt } = await resolveWithRefresh(
         prevVideo,
         prevCand?._platform_video_resolved_at,
         c.candidateId,
-        () => (campaignSiteUrl ? findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl).catch(() => null) : Promise.resolve(null))
+        () =>
+          campaignSiteUrl
+            ? findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl)
+                .then((r) => (r ? { ...r, tier: 1 as const } : null))
+                .catch(() => null)
+            : Promise.resolve(null)
       );
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
@@ -530,6 +548,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         platform_video_url: video?.videoUrl ?? null,
         platform_video_title: video?.videoTitle ?? null,
         platform_video_source_url: video?.sourceUrl ?? null,
+        platform_video_tier: video?.tier ?? null,
         _platform_video_resolved_at: videoResolvedAt ?? null,
         financial_disclosure: null as FinancialDisclosureSummary | null, // filled in sequentially below — see comment there
         _financial_disclosure_resolved_at: null as string | null, // filled in sequentially below — see comment there

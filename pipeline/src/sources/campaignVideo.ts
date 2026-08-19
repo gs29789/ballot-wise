@@ -1,24 +1,43 @@
 import { fetchPageText } from "./llmExtract.js";
 
-// Tier 1 only: finds a campaign video exclusively via a link already
-// present on the candidate's own campaign site — never a broad YouTube
-// search. Because every hit here comes from a page the pipeline already
-// trusts as the candidate's own, there's no same-name-collision judgment
-// call to make (unlike every sibling extraction module, which all carry
-// an expectedContext LLM check for exactly that reason), so this module
-// makes zero Anthropic API calls. A broader search-based fallback for
-// candidates with no linked channel was explicitly deferred, not built
-// here.
+// Tier 1: finds a campaign video exclusively via a link already present on
+// the candidate's own campaign site — never a broad YouTube search.
+// Because every hit here comes from a page the pipeline already trusts as
+// the candidate's own, there's no same-name-collision judgment call to
+// make (unlike every sibling extraction module, which all carry an
+// expectedContext LLM check for exactly that reason), so this module makes
+// zero Anthropic API calls. The search-based fallback for candidates with
+// no linked video (Tier 2) lives in the sibling campaignVideoSearch.ts —
+// kept separate deliberately: it has a materially different trust
+// posture (no site to anchor identity to) and a materially different quota
+// cost (search.list is 100 units/call vs ~1-3 here), so mixing the two
+// concerns in one module risked blurring exactly the distinction that
+// matters most for each.
 
-const YOUTUBE_API_BASE = "https://www.googleapis.com/youtube/v3";
+// The YouTube Data API returns titles/descriptions HTML-entity-encoded
+// (confirmed on a real search.list result: an apostrophe came back as
+// "&#39;", rendered verbatim on the live site as literal "&#39;" text since
+// React doesn't decode entities in a plain text node). Decoded once here,
+// at the source, rather than expecting every future caller across three
+// different API-response shapes (videos.list, playlistItems.list,
+// search.list) to remember to do it themselves.
+const HTML_ENTITIES: Record<string, string> = {
+  "&amp;": "&", "&lt;": "<", "&gt;": ">", "&quot;": '"', "&#39;": "'", "&apos;": "'", "&#x27;": "'",
+};
 
-function youtubeApiKey(): string {
+export function decodeHtmlEntities(text: string): string {
+  return text.replace(/&(?:amp|lt|gt|quot|#39|apos|#x27);/g, (m) => HTML_ENTITIES[m] ?? m);
+}
+
+export const YOUTUBE_API_BASE = "https://www.googleapis.com/youtube/v3";
+
+export function youtubeApiKey(): string {
   const key = process.env.YOUTUBE_API_KEY;
   if (!key) throw new Error("YOUTUBE_API_KEY not set");
   return key;
 }
 
-async function youtubeGet(endpoint: string, params: Record<string, string>): Promise<any | null> {
+export async function youtubeGet(endpoint: string, params: Record<string, string>): Promise<any | null> {
   const url = new URL(`${YOUTUBE_API_BASE}/${endpoint}`);
   for (const [k, v] of Object.entries(params)) url.searchParams.set(k, v);
   url.searchParams.set("key", youtubeApiKey());
@@ -133,7 +152,7 @@ async function resolveChannel(shape: Exclude<YouTubeLinkShape, { kind: "video" }
 // label's music video, a local TV news clip), almost certainly because
 // discoverYouTubeLinks() can pick up an unrelated embed elsewhere on the
 // page, not something the campaign deliberately chose to feature.
-function wordBoundaryMatch(haystack: string, needle: string): boolean {
+export function wordBoundaryMatch(haystack: string, needle: string): boolean {
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return new RegExp(`\\b${escaped}\\b`, "i").test(haystack);
 }
@@ -281,7 +300,7 @@ export async function findCampaignVideoFromSite(
         const snippet = await getVideoSnippet(shape.videoId).catch(() => null);
         if (!snippet) continue;
         if (!passesNameCheck(`${snippet.title} ${snippet.description} ${snippet.channelTitle}`, candidateName)) continue;
-        return { videoId: shape.videoId, videoUrl: `https://www.youtube.com/watch?v=${shape.videoId}`, videoTitle: snippet.title, sourceUrl: page.finalUrl };
+        return { videoId: shape.videoId, videoUrl: `https://www.youtube.com/watch?v=${shape.videoId}`, videoTitle: decodeHtmlEntities(snippet.title), sourceUrl: page.finalUrl };
       }
 
       const channel = await resolveChannel(shape).catch(() => null);
@@ -292,7 +311,7 @@ export async function findCampaignVideoFromSite(
       const picked = pickPlatformVideo(uploads);
       if (!picked) continue;
 
-      return { videoId: picked.videoId, videoUrl: `https://www.youtube.com/watch?v=${picked.videoId}`, videoTitle: picked.title, sourceUrl: page.finalUrl };
+      return { videoId: picked.videoId, videoUrl: `https://www.youtube.com/watch?v=${picked.videoId}`, videoTitle: decodeHtmlEntities(picked.title), sourceUrl: page.finalUrl };
     }
   }
   return null;

@@ -836,6 +836,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
             <div>
               <div style={{ fontSize: 12, color: T.inkSoft, marginBottom: 4 }}>
                 {truncateText(c.platform_video_title || "Campaign video", 50)}
+                {c.platform_video_tier === 2 && <span style={{ fontStyle: "italic" }}> (found via search, not linked from their site)</span>}
               </div>
               {/* Embedded, not linked: youtube-nocookie.com/embed only renders
                   correctly inside a real iframe — loaded as a bare page (what
@@ -1089,14 +1090,18 @@ function CandidateProfileView({ candidate, race, onBack }) {
                 />
               </div>
             )}
-            {candidate.platform_video_source_url && (
+            {candidate.platform_video_source_url ? (
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
                 Linked from{" "}
                 <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
                   the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
                 </a>
               </div>
-            )}
+            ) : candidate.platform_video_tier === 2 ? (
+              <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4, fontStyle: "italic" }}>
+                Found via YouTube search — not linked from the candidate's own site.
+              </div>
+            ) : null}
           </div>
         )}
       </div>
