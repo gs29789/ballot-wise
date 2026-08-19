@@ -122,9 +122,22 @@ function looksLikeAPolitician(claims: any): boolean {
   const citizenships = (claims.P27 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
   if (citizenships.length && !citizenships.includes(COUNTRY_UNITED_STATES)) return false;
 
+  // Used to also accept ANY P39 (position held) claim on its own, on the
+  // theory that a real minor candidate might be tagged with something
+  // other than "politician" but still hold some office. In practice this
+  // let through a confirmed wrong-person collision: Alaska AK-AL candidate
+  // "John Brendan Williams" name-matched the Wikidata entity for the film
+  // composer John Williams (Star Wars, Jaws) — occupation claims are
+  // composer/conductor, nothing politician-shaped, but he has exactly one
+  // P39 claim (an honorary musical-director-style title, not a government
+  // office), which alone was enough to pass. A "position held" this loose
+  // is satisfied by an enormous range of unrelated notable people
+  // (musicians with honorary titles, executives on boards, academics),
+  // and there is no way to tell those apart from a real minor officeholder
+  // without checking what the specific position IS — not attempted here,
+  // so the safer fix is requiring the explicit occupation tag instead.
   const occupations = (claims.P106 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
-  if (occupations.includes(OCCUPATION_POLITICIAN)) return true;
-  return Boolean(claims.P39); // has held some position — officeholder/candidate-adjacent
+  return occupations.includes(OCCUPATION_POLITICIAN);
 }
 
 const SECONDARY_SCHOOL_TYPES = new Set([
