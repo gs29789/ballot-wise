@@ -55,8 +55,20 @@ export interface Tier2VideoResult {
 
 export async function searchCampaignVideo(candidateName: string, office: "H" | "S", stateName: string): Promise<Tier2VideoResult | null> {
   const query = buildSearchQuery(candidateName, office, stateName);
-  const data = await youtubeGet("search", { part: "snippet", q: query, type: "video", maxResults: "5" }).catch(() => null);
-  const items: any[] = data?.items ?? [];
+  const data = await youtubeGet("search", { part: "snippet", q: query, type: "video", maxResults: "5" });
+  // youtubeGet returns null on any non-ok response (quota exhaustion, a
+  // transient network error, etc.) — indistinguishable, if silently
+  // accepted here, from "the search genuinely ran and found nothing that
+  // passed the trust check." That distinction matters a lot to a caller
+  // pacing a daily backlog: confirmed for real (2026-08-19, a same-day
+  // third manual test run after the daily quota was already spent by two
+  // earlier real batches) — every one of 90 candidates hit a 429, and
+  // without this throw, scaleVideoTier2.ts would have marked all 90 as
+  // "searched, nothing found" and deferred them a full 30 days despite
+  // never actually being checked. Throwing here lets the caller tell a
+  // real failure apart from a genuine negative result.
+  if (data === null) throw new Error("YouTube search API call failed — see the [campaignVideo] warning above for the actual reason (quota, network, etc.)");
+  const items: any[] = data.items ?? [];
 
   for (const item of items) {
     const snippet = item.snippet;

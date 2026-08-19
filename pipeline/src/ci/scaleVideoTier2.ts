@@ -75,16 +75,34 @@ async function main() {
 
   const touchedFiles = new Set<string>();
   let found = 0;
+  let searched = 0;
+  let consecutiveErrors = 0;
 
   for (const entry of batch) {
     const { candidate, state, office, outFile } = entry;
     const stateName = STATE_NAMES[state] ?? state;
-    const result = await searchCampaignVideo(candidate.full_name, office, stateName).catch((err) => {
+    let result: Awaited<ReturnType<typeof searchCampaignVideo>> = null;
+    let errored = false;
+    try {
+      result = await searchCampaignVideo(candidate.full_name, office, stateName);
+      consecutiveErrors = 0;
+    } catch (err: any) {
+      errored = true;
+      consecutiveErrors++;
       console.warn(`[scaleVideoTier2] search failed for ${candidate.full_name}: ${err?.message ?? err}`);
-      return null;
-    });
+    }
 
-    candidate._tier2_search_attempted_at = new Date().toISOString();
+    // Only a genuine, completed search (found something, or found nothing
+    // that passed the trust check) counts as "attempted" — an API failure
+    // (quota, network) isn't a real answer and must not push this
+    // candidate into the 30-day recheck cycle before it was ever actually
+    // checked. See the throw in searchCampaignVideo for the incident that
+    // made this necessary: a same-day third test run silently would have
+    // deferred 90 never-actually-searched candidates for a month.
+    if (!errored) {
+      candidate._tier2_search_attempted_at = new Date().toISOString();
+      searched++;
+    }
     if (result) {
       candidate.platform_video_url = result.videoUrl;
       candidate.platform_video_title = result.videoTitle;
@@ -100,14 +118,24 @@ async function main() {
       console.log(`FOUND (tier 2): ${candidate.full_name} (${state}) — "${result.videoTitle}" [channel: ${result.channelTitle}]`);
     }
     touchedFiles.add(outFile);
+
+    // 5 straight failures is a real, sustained problem (quota exhaustion,
+    // the API being down) rather than per-candidate noise — stop instead
+    // of burning through the rest of today's batch on calls guaranteed to
+    // fail the same way. Confirmed necessary, not theoretical: this exact
+    // scenario happened on the day this safeguard was added.
+    if (consecutiveErrors >= 5) {
+      console.warn(`[scaleVideoTier2] ${consecutiveErrors} consecutive failures — stopping this run early rather than continuing to fail. Will resume the backlog next run.`);
+      break;
+    }
   }
 
   for (const file of touchedFiles) {
     writeFileSync(join(BUILD_ROOT, file), JSON.stringify(dataByFile.get(file), null, 2));
   }
 
-  console.log(`\nDone. ${batch.length} searched, ${found} videos found, ${touchedFiles.size} race files changed.`);
-  console.log(`${eligible.length - batch.length} still eligible for a future run.`);
+  console.log(`\nDone. ${searched}/${batch.length} candidates actually searched, ${found} videos found, ${touchedFiles.size} race files changed.`);
+  console.log(`${eligible.length - searched} still eligible for a future run (includes any this run failed to reach or errored on).`);
   if (found > 0) console.log(`Run the same independent audit as Tier 1 before publishing — see ballotwise_campaign_video_feature memory for method.`);
 }
 
