@@ -39,12 +39,26 @@ export const PENDING_RACES: PendingRace[] = [
     snippet: "Florida's 2026 U.S. House elections — 23 of 28 districts pending the 2026-08-18 primary as of this tracking entry's creation.",
   },
   {
-    id: "ak-top4-primary-2026",
-    description: "Alaska — top-4 primary results not yet applied (House-AL, Senate)",
-    watchDate: "2026-08-18",
+    // House-AL resolved and shipped 2026-08-19 (Begich, Hill, Hafner,
+    // Williams — see ALASKA_2026_PRIMARY in primaryResults.ts). Only the
+    // Senate's 4th slot remains: Leslie vs. Heikes is a live, already-
+    // observed-flipping toss-up (two snapshots taken hours apart had them
+    // in opposite order, ~16-23 votes apart out of ~130,000 cast, with
+    // ~34,000 ballots still outstanding statewide) — genuinely unresolved,
+    // not just "hasn't been double-checked yet." A second, independent
+    // wildcard: 3rd-place finisher Daniel J. Sullivan Jr. (a real, distinct
+    // person from incumbent Dan Sullivan — see fec.ts same-surname note if
+    // this gets built) has told press he's unsure whether he'll stay in
+    // the race even having made the top 4; if he withdraws, BOTH Leslie
+    // and Heikes advance instead of the race being a choice between them.
+    // elections.alaska.gov is Cloudflare-gated against automated access —
+    // AP's results via NPR worked directly instead, both times checked.
+    id: "ak-senate-top4-4th-seat-2026",
+    description: "Alaska Senate — 4th advancing candidate (Leslie vs. Heikes) not yet resolved; House-AL already shipped",
+    watchDate: "2026-09-01",
     watchReason: "primary",
-    source_url: "https://www.elections.alaska.gov/",
-    snippet: "Alaska Division of Elections — top-4 primary results, needed before the ranked-choice general field can be confirmed.",
+    source_url: "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+    snippet: "Alaska's own certification target is 2026-08-31 (Anchorage Daily News, quoting the Division of Elections directly) — recheck vote totals and Sullivan Jr.'s withdrawal status after that date, not before.",
   },
   {
     id: "ok-senate-runoff-2026",

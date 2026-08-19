@@ -81,6 +81,30 @@ const MONTANA_2026_PRIMARY: Record<string, PrimaryResult> = {
 // Andrew Giusto is included despite being Ballotpedia's officially-listed
 // write-in candidate — he's still in the "General election" candidate table
 // they publish, not excluded from it.
+// Alaska's own results portal (elections.alaska.gov) is Cloudflare-gated
+// against automated access — same shape as Census's own WAF and
+// Ballotpedia's bot-detection elsewhere in this project — so sourced from
+// AP's results via NPR instead, fetched and read directly (not just a
+// research summary trusted blindly), independently re-confirmed a second
+// time before writing this. Unofficial as of 2026-08-19 (~80% reporting,
+// Alaska's own certification target is 2026-08-31): Matt Schultz finished
+// 3rd by raw votes (10,435, 8.1%) but suspended his campaign and endorsed
+// Bill Hill on 2026-07-17, a month before the primary — AP's own tracker
+// explicitly marks him ineligible to advance despite remaining on the
+// ballot (Alaska's "silent primary" mechanic backfills his slot with the
+// next-highest finisher, John Brendan Williams). The 4th slot here
+// (Williams over 5th-place Strickland, a 293-vote/0.2-point gap with
+// ~20% of the statewide vote still outstanding) carries real if smaller
+// residual risk than the top 3 — worth rechecking once AK certifies.
+const ALASKA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-AL": {
+    advancingCandidateIds: ["H2AK01083", "H6AK01092", "H4AK00164", "H6AK01068"],
+    source_url: "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+    snippet:
+      "Matt Schultz withdrew from this race. While he remains on the primary ballot, he is not eligible to advance to the general election.",
+  },
+};
+
 const VERMONT_2026_PRIMARY: Record<string, PrimaryResult> = {
   "house-AL": {
     advancingCandidateIds: ["H2VT01076", "H6VT01085", "H6VT00269", "H6VT01093", "H6VT01051"],
@@ -2680,6 +2704,7 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "WA" && cycle === 2026) return WASHINGTON_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "AK" && cycle === 2026) return ALASKA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;

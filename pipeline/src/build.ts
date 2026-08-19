@@ -649,6 +649,10 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
 // matrix build (planMatrix.ts) chunks it the same way so the plan and
 // each cell's actual work can never drift apart.
 export const RACES: BuildRaceOptions[] = [
+  // Senate deliberately not added yet: the top-4 primary's 4th slot
+  // (Leslie vs. Heikes) is a live, already-observed-flipping toss-up —
+  // see the ALASKA_2026_PRIMARY comment in primaryResults.ts. House only.
+  { state: "AK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/AK-AL.json", district: "00" },
   { state: "DE", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/DE-AL.json", district: "00" },
   { state: "DE", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/DE.json" },
   { state: "WY", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-AL", outFile: "house/WY-AL.json", district: "00" },

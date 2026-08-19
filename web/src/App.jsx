@@ -346,7 +346,7 @@ function Legend({ candidates }) {
   );
 }
 
-function CandidateTab({ c, onOpenProfile }) {
+function CandidateTab({ c, onOpenProfile, primaryNarrowed }) {
   const party = partyCode(c.party);
   return (
     <div style={{ background: partySoft(party), borderTop: `4px solid ${partyColor(party)}`, borderRadius: "6px 6px 0 0", padding: "16px 14px 12px" }}>
@@ -356,7 +356,11 @@ function CandidateTab({ c, onOpenProfile }) {
       <div style={{ fontFamily: "'Fraunces', serif", fontSize: 18, fontWeight: 600, color: T.ink, marginTop: 2, lineHeight: 1.2 }}>
         {toTitleCase(c.full_name)}
       </div>
-      {c.fec_status === "N" && (
+      {/* A confirmed general-election advancer (this race went through
+          primary_results narrowing) is never "early-stage" regardless of
+          FEC's own low-fundraising status code — see the primaryNarrowed
+          comment above ComparisonView's candidates/earlyStage split. */}
+      {c.fec_status === "N" && !primaryNarrowed && (
         <div style={{ fontSize: 10.5, color: T.inkSoft, marginTop: 3, fontStyle: "italic" }} title="Filed a Statement of Candidacy with the FEC but hasn't yet crossed the $5,000 raised/spent threshold for established-filer status">
           Declared candidate, early-stage filing
         </div>
@@ -641,8 +645,20 @@ function byIncumbentThenBudget(a, b) {
 
 function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo, onOpenProfile }) {
   const allCandidates = race?.candidates ?? [];
-  const candidates = allCandidates.filter((c) => c.fec_status !== "N").sort(byIncumbentThenBudget);
-  const earlyStage = allCandidates.filter((c) => c.fec_status === "N").sort(byIncumbentThenBudget);
+  // fec_status "N" (declared, under FEC's $5,000 established-filer
+  // threshold) is normally a solid proxy for "early-stage, not yet a real
+  // contender" — but not when a race's own primary_results narrowing has
+  // already confirmed every candidate on this list as a general-election
+  // advancer regardless of how much they've raised. First surfaced by
+  // Alaska's top-4 nonpartisan primary: 2 of its 4 CONFIRMED
+  // general-election candidates (Hafner, Williams) both carry fec_status
+  // "N" from low fundraising, which — before this check — put them in the
+  // "early-stage declared candidate" bucket alongside genuine primary-stage
+  // long shots, wrongly implying they hadn't actually secured a spot on
+  // the general-election ballot when they clearly had.
+  const primaryNarrowed = Boolean(race?.primary_results);
+  const candidates = allCandidates.filter((c) => primaryNarrowed || c.fec_status !== "N").sort(byIncumbentThenBudget);
+  const earlyStage = primaryNarrowed ? [] : allCandidates.filter((c) => c.fec_status === "N").sort(byIncumbentThenBudget);
 
   if (!race) {
     return (
@@ -710,7 +726,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <div />
         {candidates.map((c) => (
           <div key={c.slug} style={{ padding: "0 3px" }}>
-            <CandidateTab c={c} onOpenProfile={onOpenProfile} />
+            <CandidateTab c={c} onOpenProfile={onOpenProfile} primaryNarrowed={primaryNarrowed} />
           </div>
         ))}
       </div>
@@ -894,7 +910,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 28, fontWeight: 600, color: T.ink, marginTop: 4 }}>
           {toTitleCase(candidate.full_name)}
         </div>
-        {candidate.fec_status === "N" && (
+        {candidate.fec_status === "N" && !race?.primary_results && (
           <div style={{ fontSize: 12, color: T.inkSoft, marginTop: 6, fontStyle: "italic" }}>
             Declared candidate — filed a Statement of Candidacy with the FEC but hasn't yet crossed the $5,000 raised/spent threshold for established-filer status.
           </div>

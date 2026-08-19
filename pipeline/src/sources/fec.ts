@@ -59,6 +59,7 @@ function apiKey(): string {
 const REVERSED_FEC_NAMES: Record<string, string> = {
   H2NY01190: "LALOTA, NICK",
   H6KY06234: "BOWMAN, JAY J",
+  H4AK00164: "HAFNER, ERIC",
 };
 
 export async function searchCandidates(state: string, office: "H" | "S", cycle: number, district?: string): Promise<FecCandidate[]> {
