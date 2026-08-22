@@ -1337,6 +1337,18 @@ const HAWAII_2026_PRIMARY: Record<string, PrimaryResult> = {
     snippet:
       "Incumbent Ed Case, Adriel Lam, Jordan Conley, and Nathan Berning are running in the general election for U.S. House Hawaii District 1 on November 3, 2026.",
   },
+  // Mufi Hannemann (H6HI01113) filed FEC paperwork as an "Open seat"
+  // Democratic challenger but never appeared on the actual Aug 8 primary
+  // ballot — Ballotpedia's own primary-results page lists only Tokuda,
+  // Steven King, Greg Guithues, and Kirill Basin as Democratic primary
+  // candidates, with Tokuda winning 91.6%. Same pre-ballot-withdrawal
+  // pattern as Alaska's Matt Schultz (see ALASKA_2026_PRIMARY).
+  "house-02": {
+    advancingCandidateIds: ["H6HI02426", "H2HI02581"],
+    source_url: "https://ballotpedia.org/Hawaii%27s_2nd_Congressional_District_election,_2026",
+    snippet:
+      "Brenton Awa advanced from the Republican primary for U.S. House Hawaii District 2. Incumbent Jill Tokuda (D) defeated Steven King (D), Greg Guithues (D), and Kirill Basin (D) in the Democratic primary for U.S. House Hawaii District 2 on August 8, 2026, with 91.6% of the vote.",
+  },
 };
 
 // Idaho: the research pass explicitly (and, per the unfiltered build's
@@ -1898,7 +1910,69 @@ const OHIO_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// 2026-08-19: 21 of the 23 remaining districts (+ Senate) added below,
+// researched via 6 parallel agents cross-checking Ballotpedia's per-district
+// general-election pages against FEC candidate records (matched by
+// district/office/cycle fields, never by ID substring alone — Florida's
+// mid-decade congressional map, signed 2026-05-04, means many candidates'
+// FEC IDs carry a stale pre-redistricting district number that looks like a
+// mismatch at a glance but isn't; confirmed clean via each candidate's own
+// FEC record for every case flagged). FL-11 (Republican primary inside the
+// automatic-recount threshold) and FL-21 (Democratic primary a disputed
+// 359-vote margin, not called by Ballotpedia/AP) are deliberately NOT
+// included — see pendingRaces.ts. Two ballot-vs-FEC party mismatches found
+// (a candidate's official ballot line says "No Party Affiliation" but their
+// FEC party_full says a major party) — same shape as the TX-27/OH-15 fix
+// this same session: FL-05's William Upham and FL-24's Patricia Gonzalez
+// both need their `party` field corrected post-build to match the ballot,
+// not FEC's registration.
 const FLORIDA_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-01": {
+    advancingCandidateIds: ["H6FL01390", "H4FL01197", "H6FL01549"],
+    source_url: "https://ballotpedia.org/Florida%27s_1st_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Jimmy Patronis, Gay Valimont, and Tyler Davis are running in the general election for U.S. House Florida District 1 on November 3, 2026.",
+  },
+  "house-02": {
+    advancingCandidateIds: ["H6FL02331", "H6FL02299"],
+    source_url: "https://ballotpedia.org/Florida%27s_2nd_Congressional_District_election,_2026",
+    snippet: "Amanda Green and Austin Rogers are running in the general election for U.S. House Florida District 2 on November 3, 2026. There are no incumbents in this race.",
+  },
+  "house-03": {
+    advancingCandidateIds: ["H0FL03175", "H6FL03099", "H6FL03149"],
+    source_url: "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026",
+    snippet: "Incumbent Kat Cammack, Seth Harp, and Mike Klein are running in the general election for U.S. House Florida District 3 on November 3, 2026.",
+  },
+  "house-04": {
+    advancingCandidateIds: ["H2FL04211", "H6FL05193", "H6FL04246", "H4FL04068"],
+    source_url: "https://ballotpedia.org/Florida%27s_4th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Aaron Bean, LaShonda Holloway, Mike Sell, and Todd Schaefer are running in the general election for U.S. House Florida District 4 on November 3, 2026.",
+  },
+  "house-05": {
+    advancingCandidateIds: ["H6FL04105", "H6FL05250", "H6FL05292"],
+    source_url: "https://ballotpedia.org/Florida%27s_5th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent John Rutherford, Rachel Grage, and William Upham are running in the general election for U.S. House Florida District 5 on November 3, 2026. William Upham (No Party Affiliation) (Write-in) — his FEC registration says Republican Party, but his ballot line is No Party Affiliation.",
+  },
+  "house-06": {
+    advancingCandidateIds: ["H6FL06258", "H6FL06340", "H6FL06423"],
+    source_url: "https://ballotpedia.org/Florida%27s_6th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Randy Fine, Eric Yonce, Andrew Parrott, Michael Gist, and Alec Pavlik are running in the general election for U.S. House Florida District 6 on November 3, 2026. Parrott (Libertarian, unopposed) and Pavlik (No Party Affiliation, write-in) have no findable FEC registration and are excluded from this pipeline's candidate list on that basis, same as any other unregistered minor candidate.",
+  },
+  "house-07": {
+    advancingCandidateIds: ["H6FL07215", "H6FL07231", "H6FL07249"],
+    source_url: "https://ballotpedia.org/Florida%27s_7th_Congressional_District_election,_2026",
+    snippet:
+      "Bale Dalton, Ryan Elijah, and Christopher Dennison are running in the general election for U.S. House Florida District 7 on November 3, 2026. There are no incumbents in this race. Ryan Elijah defeated incumbent Cory Mills, Sarah Ulrich, and Michael Johnson in the Republican primary — Mills lost his own primary and is not on the general-election ballot.",
+  },
+  "house-09": {
+    advancingCandidateIds: ["H6FL09179", "H6FL09294"],
+    source_url: "https://www.wqcs.org/wqcs-news/2026-08-19/indian-river-county-primary-results-congressional-county-and-school-board-races-decided",
+    snippet:
+      "In the Republican primary for U.S. House District 9, Dan Green won with 25.4% of the vote, edging Ben Butler, who received 24.4%. ... Green will face Democratic incumbent Darren Soto of Kissimmee in the Nov. 4 general election. (Corroborated by Florida Politics' headline \"Dan Green emerges as GOP nominee who will face Darren Soto in CD 9\"; not yet reflected in Ballotpedia's own general-election candidate box as of 2026-08-20, recommend a follow-up check.)",
+  },
   "house-08": {
     advancingCandidateIds: ["H4FL08168", "H6FL06399"],
     source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
@@ -1923,6 +1997,89 @@ const FLORIDA_2026_PRIMARY: Record<string, PrimaryResult> = {
     advancingCandidateIds: ["H0FL26036", "H4FL28042", "H6FL28021"],
     source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
     snippet: "This primary was canceled and this candidate advanced: Carlos Gimenez (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Phil Ehr ✔",
+  },
+  "house-12": {
+    advancingCandidateIds: ["H6FL09070", "H6FL15200", "H6FL12231"],
+    source_url: "https://ballotpedia.org/Florida%27s_12th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Gus M. Bilirakis, Kimberly Overman, and Branden Scrivener are running in the general election for U.S. House Florida District 12 on November 3, 2026.",
+  },
+  "house-13": {
+    advancingCandidateIds: ["H0FL13158", "H6FL13312", "H4FL13234"],
+    source_url: "https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Anna Paulina Luna, Leela Gray, and Tony D'Arrigo are running in the general election for U.S. House Florida District 13 on November 3, 2026.",
+  },
+  "house-14": {
+    advancingCandidateIds: ["H6FL11126", "H6FL14237", "H6FL14245", "H4FL14166"],
+    source_url: "https://ballotpedia.org/Florida%27s_14th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Kathy Castor, Mike Beltran, Brian Lambert, Salomon Hernandez, and Keith Varian are running in the general election for U.S. House Florida District 14 on November 3, 2026. Keith Varian has no findable FEC registration and is excluded from this pipeline's candidate list on that basis.",
+  },
+  "house-15": {
+    advancingCandidateIds: ["H2FL15241", "H6FL15168"],
+    source_url: "https://ballotpedia.org/Florida%27s_15th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Laurel Lee, Robert People, and Angie Boone are running in the general election for U.S. House Florida District 15 on November 3, 2026. Angie Boone has no findable FEC registration and is excluded from this pipeline's candidate list on that basis.",
+  },
+  "house-16": {
+    advancingCandidateIds: ["H6FL16158", "H6FL16141", "H6FL06365"],
+    source_url: "https://ballotpedia.org/Florida%27s_16th_Congressional_District_election,_2026",
+    snippet:
+      "Kelly Kirschner, Sydney Gruters, and Mark Davis are running in the general election for U.S. House Florida District 16 on November 3, 2026. There are no incumbents in this race.",
+  },
+  "house-17": {
+    advancingCandidateIds: ["H8FL17053", "H4FL17060", "H6FL17081"],
+    source_url: "https://ballotpedia.org/Florida%27s_17th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Greg Steube, Matthew Montavon, and Michael Quirk are running in the general election for U.S. House Florida District 17 on November 3, 2026.",
+  },
+  "house-19": {
+    advancingCandidateIds: ["H6FL19277", "H6FL19137", "H6FL19319"],
+    source_url: "https://ballotpedia.org/Florida%27s_19th_Congressional_District_election,_2026",
+    snippet:
+      "Victor Arias, Jim Schwartzel, Seth Haskin, and Alexandra Zakhvatayev are running in the general election for U.S. House Florida District 19 on November 3, 2026. There are no incumbents in this race — Byron Donalds ran for governor instead. Alexandra Zakhvatayev has no findable FEC registration and is excluded from this pipeline's candidate list on that basis.",
+  },
+  "house-20": {
+    advancingCandidateIds: ["H4FL20023", "H6FL20143", "H6FL20119"],
+    source_url: "https://ballotpedia.org/Florida%27s_20th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Debbie Wasserman Schultz, Brent Andersen, and Kedner Maxime are running in the general election for U.S. House Florida District 20 on November 3, 2026. Wasserman Schultz previously represented old FL-25 before Florida's mid-decade redistricting; she is running in newly-drawn FL-20 for 2026, not a re-election of a prior FL-20 term.",
+  },
+  "house-22": {
+    advancingCandidateIds: ["H6FL21059", "H6FL22248"],
+    source_url: "https://ballotpedia.org/Florida%27s_22nd_Congressional_District_election,_2026",
+    snippet: "Pia Dandiya and Casey Askar are running in the general election for U.S. House Florida District 22 on November 3, 2026. There are no incumbents in this race.",
+  },
+  "house-23": {
+    advancingCandidateIds: ["H2FL14053", "H2FL21132"],
+    source_url: "https://ballotpedia.org/Florida%27s_23rd_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Lois Frankel and Deborah Adeimy are running in the general election for U.S. House Florida District 23 on November 3, 2026. Frankel previously represented old FL-22 before Florida's mid-decade redistricting; she is running in newly-drawn FL-23 for 2026.",
+  },
+  "house-24": {
+    advancingCandidateIds: ["H6FL24095", "H6FL14203", "H6FL24061", "H2FL24052"],
+    source_url: "https://ballotpedia.org/Florida%27s_24th_Congressional_District_election,_2026",
+    snippet:
+      "Oliver Gilbert, Te Brown, Andy Daro, and Patricia Gonzalez are running in the general election for U.S. House Florida District 24 on November 3, 2026. There are no incumbents in this race. Patricia Gonzalez (No Party Affiliation) (Write-in) — her FEC registration says Republican Party, but her ballot line is No Party Affiliation.",
+  },
+  "house-25": {
+    advancingCandidateIds: ["H2FL22171", "H6FL23188", "H6FL25068", "H6FL23105"],
+    source_url: "https://ballotpedia.org/Florida%27s_25th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Jared Evan Moskowitz, Scott Singer, Peter Jassenoff, and Michaelangelo Hamilton are running in the general election for U.S. House Florida District 25 on November 3, 2026. Moskowitz previously represented old FL-22 before Florida's mid-decade redistricting.",
+  },
+  "house-27": {
+    advancingCandidateIds: ["H8FL27185", "H6FL27098"],
+    source_url: "https://ballotpedia.org/Florida%27s_27th_Congressional_District_election,_2026",
+    snippet:
+      "Incumbent Maria Elvira Salazar and Eliott Rodriguez are running in the general election for U.S. House Florida District 27 on November 3, 2026. Robin Peguero lost the Democratic primary to Rodriguez (53.5%-46.5%) despite raising more money, and is not on the general-election ballot.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6FL00640", "S6FL00830"],
+    source_url: "https://ballotpedia.org/United_States_Senate_special_election_in_Florida,_2026",
+    snippet:
+      "Incumbent Ashley B. Moody, Angela Nixon, and Neil Gillespie are running in the special general election for U.S. Senate Florida on November 3, 2026. The special election will fill the vacancy left by Marco Rubio (R), who was confirmed as U.S. Secretary of State on January 20, 2025. Neil Gillespie has no findable 2026 FL Senate FEC registration (confirmed not to be P60022993, an unrelated perennial presidential candidate of the same name) and is excluded from this pipeline's candidate list on that basis.",
   },
 };
 
@@ -2694,6 +2851,36 @@ const UTAH_2026_PRIMARY: Record<string, PrimaryResult> = {
   },
 };
 
+// Wyoming's 2026 primary (Aug 18) — AP results via NPR, 99% reporting as of
+// Aug 19 9:03pm. House: Chuck Gray (R) won a crowded 9-way field with a
+// 25.4% plurality; Lisa Kinney (D) won 77.9%-22.1% over Elena Del Real (not
+// independently confirmed in FEC's data, so not something to add here —
+// she lost regardless). Senate: Harriet Hageman (R) won 64.9%-27.8% over
+// Sam Mead; James Byrd (D) won 79.3%-20.7% over Billy Benavidez. Hageman's
+// House-race FEC registration (H2WY00166) is a stale historical ID from an
+// earlier campaign — she did not appear anywhere in the 2026 House primary
+// results, only Senate, so she's correctly excluded from house-AL's
+// advancing list. Two other pre-narrowing candidates (Owen Nicholas
+// Carlson, Daniel Verl Workman) never appeared in the primary results at
+// all under either race — same non-finding as Carlson's other multi-state
+// filings noted elsewhere in this file, treated as not on the general
+// ballot rather than a data gap.
+const WYOMING_2026_RESULTS_URL = "https://apps.npr.org/primary-election-results-2026/states/WY.html";
+const WYOMING_2026_PRIMARY: Record<string, PrimaryResult> = {
+  "house-AL": {
+    advancingCandidateIds: ["H6WY00217", "H6WY01173"],
+    source_url: WYOMING_2026_RESULTS_URL,
+    snippet:
+      "U.S. House DISTRICT 1 DEMOCRATIC PRIMARY 99% of results in: Lisa Kinney 77.9% 9,343 — Elena Del Real 22.1% 2,657. REPUBLICAN PRIMARY 99% of results in: Chuck Gray 25.4% 31,222 — Steve Friess 20.4% 25,054 — Kevin Christensen 17.6% 21,632 — Jillian Balow 10.3% 12,590 — Reid Rasner 8.8% 10,807 — David Giralt 8.3% 10,130 — Bo Biteman 5.1% 6,255 — Keith Goodenough 2.7% 3,341 — Richard Dodson 1.4% 1,777.",
+  },
+  senate: {
+    advancingCandidateIds: ["S6WY00209", "S6WY00217"],
+    source_url: WYOMING_2026_RESULTS_URL,
+    snippet:
+      "U.S. Senate REPUBLICAN PRIMARY 99% of results in: Harriet Hageman 64.9% 83,794 — Sam Mead 27.8% 35,875 — Jimmy Skovgard 2.7% 3,525 — Jill Edwards 2.7% 3,431 — John Holtz 2.0% 2,539. DEMOCRATIC PRIMARY 99% of results in: James Byrd 79.3% 9,589 — Billy Benavidez 20.7% 2,497.",
+  },
+};
+
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
   if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
@@ -2703,6 +2890,7 @@ export function getPrimaryFilter(state: string, raceSlug: string, cycle: number)
   if (state === "CA" && cycle === 2026) return CALIFORNIA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "WA" && cycle === 2026) return WASHINGTON_2026_PRIMARY[raceSlug] ?? null;
   if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
+  if (state === "WY" && cycle === 2026) return WYOMING_2026_PRIMARY[raceSlug] ?? null;
   if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
   if (state === "AK" && cycle === 2026) return ALASKA_2026_PRIMARY[raceSlug] ?? null;
   if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;

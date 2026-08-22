@@ -23,20 +23,23 @@ export interface PendingRace {
 
 export const PENDING_RACES: PendingRace[] = [
   {
-    id: "wy-primary-2026",
-    description: "Wyoming — primary results not yet applied (House-AL, Senate)",
-    watchDate: "2026-08-18",
-    watchReason: "primary",
-    source_url: "https://sos.wyo.gov/elections/electionresults.aspx",
-    snippet: "Wyoming Secretary of State election results — check after the 2026-08-18 primary.",
+    // 21 of 23 districts + Senate shipped 2026-08-19 (see FLORIDA_2026_PRIMARY
+    // in primaryResults.ts). Only these two remain, both genuinely uncalled,
+    // not just unresearched.
+    id: "fl-11-recount-2026",
+    description: "Florida FL-11 — Republican primary inside the automatic-recount threshold (Strada 33.5% vs. Baker 33.0%, ~403 votes)",
+    watchDate: "2026-08-24",
+    watchReason: "recount",
+    source_url: "https://apps.npr.org/primary-election-results-2026/states/FL.html",
+    snippet: "Florida's machine recount must conclude by 3pm on the 5th day after the election (~2026-08-23) per Fla. Stat. §102.141 — recheck Ballotpedia's FL-11 general-election page after that date, not before.",
   },
   {
-    id: "fl-remaining-primary-2026",
-    description: "Florida — 23 remaining House districts + Senate special election not yet built (5 districts already live)",
-    watchDate: "2026-08-18",
+    id: "fl-21-disputed-primary-2026",
+    description: "Florida FL-21 — Democratic primary disputed, not officially called (Martin 50.4% vs. Taylor 49.6%, 359-vote margin)",
+    watchDate: "2026-08-24",
     watchReason: "primary",
-    source_url: "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
-    snippet: "Florida's 2026 U.S. House elections — 23 of 28 districts pending the 2026-08-18 primary as of this tracking entry's creation.",
+    source_url: "https://floridapolitics.com/archives/814669-james-martin-edges-out-bernard-taylor-for-democratic-nomination-in-cd-21/",
+    snippet: "Taylor had yet to concede as of 2026-08-19 and argues uncounted votes could still tip the outcome — recheck Ballotpedia's FL-21 general-election page for an official call before treating either candidate as final.",
   },
   {
     // House-AL resolved and shipped 2026-08-19 (Begich, Hill, Hafner,
