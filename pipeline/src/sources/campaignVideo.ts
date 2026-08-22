@@ -152,15 +152,27 @@ async function resolveChannel(shape: Exclude<YouTubeLinkShape, { kind: "video" }
 // label's music video, a local TV news clip), almost certainly because
 // discoverYouTubeLinks() can pick up an unrelated embed elsewhere on the
 // page, not something the campaign deliberately chose to feature.
+// Splits camelCase/PascalCase boundaries into spaces before matching, so a
+// separator-free social-handle string still exposes its component words as
+// real \b boundaries. Confirmed needed on a real, verified case: Ashley
+// Moody's own official YouTube channel (@AshleyMoodyFL, linked directly
+// from her own campaign site's footer -- unambiguously hers) has an empty
+// `description` and exactly this title, so without this split "moody" has
+// no boundary before it (the "y" in "Ashley" directly touches "M", both
+// \w characters). Callers must pass the ORIGINAL-case haystack, not a
+// pre-lowercased one -- lowercasing first destroys the case-transition
+// signal this depends on; matching itself stays case-insensitive via the
+// regex's own `i` flag.
 export function wordBoundaryMatch(haystack: string, needle: string): boolean {
   const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-  return new RegExp(`\\b${escaped}\\b`, "i").test(haystack);
+  const splitHaystack = haystack.replace(/([a-z0-9])([A-Z])/g, "$1 $2");
+  return new RegExp(`\\b${escaped}\\b`, "i").test(splitHaystack);
 }
 
 function passesNameCheck(text: string, candidateName: string): boolean {
   const lastName = (candidateName.split(",")[0] ?? "").trim().toLowerCase();
   const haystack = text.toLowerCase();
-  if (lastName.length > 1 && wordBoundaryMatch(haystack, lastName)) return true;
+  if (lastName.length > 1 && wordBoundaryMatch(text, lastName)) return true;
   if (/\bfor (?:congress|senate|house)\b/.test(haystack)) return true;
   return false;
 }

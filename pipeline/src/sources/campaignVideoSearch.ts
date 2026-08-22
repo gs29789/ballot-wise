@@ -32,7 +32,7 @@ function passesStrictTrustCheck(text: string, candidateName: string): boolean {
   const lastName = (candidateName.split(",")[0] ?? "").trim().toLowerCase();
   const haystack = text.toLowerCase();
   const hasPhrase = /\bfor (?:congress|senate|house)\b/.test(haystack);
-  const hasName = lastName.length > 1 && wordBoundaryMatch(haystack, lastName);
+  const hasName = lastName.length > 1 && wordBoundaryMatch(text, lastName);
   return hasPhrase && hasName;
 }
 
