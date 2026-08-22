@@ -1,0 +1,825 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-18T20:24:32.417Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jim Baird, Drew Cox, and David Bokash are running in the general election for U.S. House Indiana District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "james-baird",
+      "full_name": "BAIRD, JAMES R DR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8IN04199",
+      "fec_status": "C",
+      "bioguide_id": "B001307",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 358292.51,
+        "totalSpent": 481341.66,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 68518.17,
+          "largeDollar": 90581.63,
+          "pac": 197200,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1945-06-04",
+          "source_url": "https://www.wikidata.org/wiki/Q48813213",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Parke County, Indiana",
+          "source_url": "https://www.wikidata.org/wiki/Q48813213",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Kentucky",
+          "source_url": "https://www.wikidata.org/wiki/Q48813213",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Turkey Run High School, graduated 1963",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Baird_(politician)",
+          "snippet": "Baird graduated from Turkey Run High School in 1963",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Purdue University extension agent for Putnam County (1974-1983); owner of Baird Family Farms, Triple Tree Enterprises, Inc. (gas station operator in Crawfordsville), and Indiana Home Care Plus of Greencastle (home health agency); animal nutritionist at Landmark Cooperative; director of sales and nutrition at Agmax; Putnam County commissioner (2006-2010)",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Baird_(politician)",
+          "snippet": "From 1974 to 1983, Baird served as a Purdue University extension agent for Putnam County. [ 15 ] Baird is the owner of Baird Family Farms, Triple Tree Enterprises, Inc. (a gas station operator in Crawfordsville ), and Indiana Home Care Plus of Greencastle, a home health agency. He previously worked as an animal nutritionist at Landmark Cooperative, a feed manufacturer, and as director of sales and nutrition at Agmax. Baird ran for Putnam County commissioner in 2006 and defeated the incumbent, Dennis O'Hair, in the primary. [ 16 ] He represented Marion Township , Greencastle Township , Madison Township , and Clinton Township . [ 17 ] He served as commissioner for the second district until his election to the State House in 2010.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Forestry and Horticulture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Conservation, Research, and Biotechnology",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Africa",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Research and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 44,
+        "bills_cosponsored": 1082,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.446,
+          "nominateDim2": 0.417,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001307"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 52.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001307"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "david-bokash",
+      "full_name": "BOKASH, DAVID EUGENE (E.)",
+      "party": "NONE",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN04243",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Northwest Indiana",
+          "source_url": "https://www.bokash4indiana.com/",
+          "snippet": "David Bokash was born in Northwest Indiana becoming a fifth generation Hoosier.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Lebanon High School",
+          "source_url": "https://www.bokash4indiana.com/",
+          "snippet": "David Bokash is a graduate of Lebanon High School where he was National Merit Scholar, inducted into the National Honor Society and lettered in Swimming and Football.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "BS Engineering and MS Engineering from Purdue University, MBA from Harvard Business School",
+          "source_url": "https://www.bokash4indiana.com/",
+          "snippet": "He obtained a BS Engineering (inducted into Tau Beta Pi, graduated in the top 15% of his class) and MS Engineering (awarded Hughes Graduate Fellowship) from Purdue University. Several years after leaving Purdue, David received an MBA from the Harvard Business School.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Budget Deficit",
+          "value": "Hopes to reverse reckless spending and address the nearly $2 Trillion annual Deficits before it damages financial markets and overall economy",
+          "snippet": "I hope to reverse this reckless spending before it damages our financial markets and overall economy."
+        },
+        {
+          "topic": "Government Debt",
+          "value": "Seeks to address the $39 Trillion of Government Debt",
+          "snippet": "neither the Republicans nor the Democrats were willing to do anything about our nearly $2 Trillion annual Deficits or the $39 Trillion of Government Debt."
+        },
+        {
+          "topic": "Budget",
+          "value": "Balance the Budget as Quickly as Possible",
+          "snippet": "[2] Balance the Budget as Quickly as Possible"
+        },
+        {
+          "topic": "Middle Class",
+          "value": "Support Middle Class Living Standards",
+          "snippet": "[3] Support Middle Class Living Standards"
+        },
+        {
+          "topic": "Government Waste",
+          "value": "Reduce Government Waste, Fraud and Abuse",
+          "snippet": "[4] Reduce Government Waste, Fraud and Abuse"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Obtain Sustainable/Affordable Healthcare",
+          "snippet": "[5] Obtain Sustainable/Affordable Healthcare"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Update Social Security & Medicare Funding",
+          "snippet": "[6] Update Social Security & Medicare Funding"
+        },
+        {
+          "topic": "Foreign Military Interventions",
+          "value": "Defund Foreign Military Interventions",
+          "snippet": "[7] Defund Foreign Military Interventions"
+        }
+      ],
+      "platform_source_url": "https://www.bokash4indiana.com/",
+      "_platform_resolved_at": "2026-08-12T19:13:51.460Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "David Bokash was born in Northwest Indiana becoming a fifth generation Hoosier. He attended elementary school in Hobart where his mother's family had a small farm and helped establish Augustana Lutheran Church. Young David spent summers working the family farm with his grandfather, Walter Isakson, who received a Hoosier Homestead Award from Governor Otis Bowen in the 1970s for having a family farm for more than 100 years.",
+        "source_url": "https://www.bokash4indiana.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:54.177Z"
+    },
+    {
+      "slug": "drew-cox",
+      "full_name": "COX, DREW",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN04193",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 20377.01,
+        "totalSpent": 13514.14,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9763.04,
+          "largeDollar": 10113.97,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 500
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Purdue University, Visiting Instructor/Limited Term Lecturer (2024 - Present); Wolf Park, Grounds/Maintenance (2024 - 2025); US Marine Corps, Sergeant (2008 - 2012)",
+          "source_url": "https://www.ballotready.org/people/drew-cox",
+          "snippet": "Professional Experience Purdue University, Visiting Instructor/Limited Term Lecturer (2024 - Present) Wolf Park, Grounds/Maintenance (2024 - 2025) US Marine Corps, Sergeant (2008 - 2012)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Committed to overturning Citizens United and getting big money out of politics",
+          "snippet": "our campaign is committed to overturning Citizens United and getting big money out of politics"
+        },
+        {
+          "topic": "Corporate PAC Donations",
+          "value": "Refusing to accept any corporate PAC donations",
+          "snippet": "refusing to accept any corporate PAC donations to ensure that our interests lie entirely with the people"
+        },
+        {
+          "topic": "Political Corruption",
+          "value": "Ending political corruption",
+          "snippet": "Ending political corruption"
+        },
+        {
+          "topic": "Workers' Rights",
+          "value": "Supporting workers' rights",
+          "snippet": "workers' rights"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Supporting healthcare accessibility",
+          "snippet": "healthcare accessibility"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Protecting our veterans",
+          "snippet": "Protecting our veterans"
+        }
+      ],
+      "platform_source_url": "https://www.drewcox.org/",
+      "_platform_resolved_at": "2026-08-12T19:13:44.972Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "My name is Drew Cox, and I’m running to represent Indiana’s Fourth District in Congress. I’m a lifelong Hoosier and veteran raised by a farmer and public schoolteacher, and I’m committed to delivering the policies that serve Indiana’s residents instead of corporate interests.",
+        "source_url": "https://www.drewcox.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:55.775Z"
+    }
+  ]
+}

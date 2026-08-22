@@ -1,0 +1,773 @@
+{
+  "state": "PA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-14",
+  "generated_at": "2026-08-17T00:19:41.750Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
+    "primarySnippet": "25 P.S. § 2753(a): There shall be a General primary preceding each general election which shall be held on the third Tuesday of May in all even-numbered years, except in the year of the nomination of a President of the United States, in which year the General primary shall be held on the fourth Tuesday of April.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-7-sect-2/",
+    "generalSnippet": "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Pennsylvania's constitution bars anyone convicted of embezzlement of public moneys, bribery, perjury, or other infamous crime from the General Assembly or from holding any office of trust or profit in the Commonwealth, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
+    "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Pennsylvania's_14th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Guy Reschenthaler, Alan Bradstock, and Adam Halfhill are running in the general election for U.S. House Pennsylvania District 14 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.38
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 24.54
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 20.23
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 18.15
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.43
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 6209.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 6208.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 6200.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 6188.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 6177.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 6197.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 6184
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 6174
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 6176.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 6167.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 6172.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 6169.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 6175.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 6173.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 6166.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 6166.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 6159.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 6166.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 6161.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 6156.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 6156.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 6153.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 6146.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 6137.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 6137.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 6132.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 6126
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 6130.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 6122.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 6115.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 6114.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 6104.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 6099
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 6101.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 6098
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 6090.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 6092.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 6071.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 6071.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 6068
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 6062.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 6061.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5728935533.03,
+        "perCapitaUsd": 7423.31
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7160974937.03,
+        "perCapitaUsd": 9278.89
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8058746910.1,
+        "perCapitaUsd": 10442.19
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 12972008
+      },
+      {
+        "year": "2023",
+        "population": 12961683
+      },
+      {
+        "year": "2024",
+        "population": 13078751
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 71798
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73824
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77545
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "david-bradstock",
+      "full_name": "BRADSTOCK, DAVID ALAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA14200",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 201420.58,
+        "totalSpent": 166713.11,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 56725.25,
+          "largeDollar": 124786.87,
+          "pac": 17908.46,
+          "party": 0,
+          "selfFunded": 2000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Western PA",
+          "source_url": "https://www.bradstockforcongress.com/",
+          "snippet": "Born & Raised in Western PA",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Husband",
+          "source_url": "https://www.bradstockforcongress.com/",
+          "snippet": "Husband & Father",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "U.S. Army, FBI Special Agent",
+          "source_url": "https://www.bradstockforcongress.com/",
+          "snippet": "Years U.S. Army 0 Years FBI Special Agent Desert Storm Combat Veteran",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Security",
+          "value": "Raising wages, supporting small businesses, and standing up for working families across the 14th District.",
+          "snippet": "Economic Security Raising wages, supporting small businesses, and standing up for working families across the 14th District."
+        },
+        {
+          "topic": "Universal Healthcare",
+          "value": "Making healthcare affordable and accessible for every American by lowering costs and ending medical debt.",
+          "snippet": "Universal Healthcare Making healthcare affordable and accessible for every American by lowering costs and ending medical debt."
+        }
+      ],
+      "platform_source_url": "https://www.bradstockforcongress.com/",
+      "_platform_resolved_at": "2026-08-10T21:51:33.459Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=CJEOH84zDic",
+      "platform_video_title": "Why I am running for Congress. Alan Bradstock.",
+      "platform_video_source_url": "https://www.bradstockforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:28.348Z",
+      "bio_summary": {
+        "value": "A Desert Storm combat veteran and retired FBI agent rooted in Western Pennsylvania, Alan is running to restore integrity in Washington, lower costs for working families, and bring people together as a hometown leader who understands the district he hopes to serve.",
+        "source_url": "https://www.bradstockforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:39:43.788Z"
+    },
+    {
+      "slug": "adam-halfhill",
+      "full_name": "HALFHILL, ADAM SCOTT",
+      "party": "AMERICAN INDEPENDENT PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4PA14114",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Mount Pleasant, Pennsylvania",
+          "source_url": "https://ballotpedia.org/Adam_Halfhill",
+          "snippet": "Adam Halfhill was born in Mount Pleasant, Pennsylvania."
+        },
+        "high_school": {
+          "value": "Connellsville Area High School",
+          "source_url": "https://ballotpedia.org/Adam_Halfhill",
+          "snippet": "He graduated from Connellsville Area High School."
+        },
+        "college": {
+          "value": "Laurel Business Institute (bachelor's degree, 2008); Pennsylvania Institute of Health and Technology (associate degree, 2009)",
+          "source_url": "https://ballotpedia.org/Adam_Halfhill",
+          "snippet": "He earned a bachelor's degree from the Laurel Business Institute in 2008 and an associate degree from the Pennsylvania Institute of Health and Technology in 2009."
+        },
+        "employment_record": {
+          "value": "Laborer",
+          "source_url": "https://ballotpedia.org/Adam_Halfhill",
+          "snippet": "His career experience includes working as a laborer."
+        },
+        "civic_affiliations": {
+          "value": "Libertarian Party; Libertarian Party of Pennsylvania; Independent Party of America",
+          "source_url": "https://ballotpedia.org/Adam_Halfhill",
+          "snippet": "Halfhill has been affiliated with the Libertarian Party, the Libertarian Party of Pennsylvania, and the Independent Party of America."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:20.870Z",
+      "_no_site_search_attempted_at": "2026-08-22T13:29:13.111Z"
+    },
+    {
+      "slug": "guy-reschenthaler",
+      "full_name": "RESCHENTHALER, GUY MR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8PA18199",
+      "fec_status": "C",
+      "bioguide_id": "R000610",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4209644.42,
+        "totalSpent": 3768043.63,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1004693.11,
+          "largeDollar": 1460144.5,
+          "pac": 1167150,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1983-04-17",
+          "source_url": "https://www.wikidata.org/wiki/Q22096097",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Pittsburgh, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q22096097",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Penn State Erie",
+          "source_url": "https://www.wikidata.org/wiki/Q22096097",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Thomas Jefferson High School, Jefferson Hills, Pa., 2001",
+          "source_url": "https://history.house.gov/People/Listing/R/RESCHENTHALER,-Guy-(R000610)/",
+          "snippet": "graduated from Thomas Jefferson High School, Jefferson Hills, Pa., 2001",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "United States Navy, 2007-2012; lawyer, private practice; Pennsylvania state magisterial district judge, 2013-2015; member of the Pennsylvania state senate, 2015-2018",
+          "source_url": "https://history.house.gov/People/Listing/R/RESCHENTHALER,-Guy-(R000610)/",
+          "snippet": "United States Navy, 2007-2012; lawyer, private practice; Pennsylvania state magisterial district judge, 2013-2015; member of the Pennsylvania state senate, 2015-2018",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Brooke Singman in February 2026 (previously divorced from Jennifer in 2024)",
+          "source_url": "https://en.wikipedia.org/wiki/Guy_Reschenthaler",
+          "snippet": "Reschenthaler and his former wife, Jennifer, divorced in 2024. In 2025, he began dating Fox News reporter Brooke Singman. [ 43 ] In February 2026, they were married in Manhattan, New York.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "End the dangerous practice of sanctuary cities",
+          "snippet": "End the dangerous practice of sanctuary cities"
+        },
+        {
+          "topic": "National Security",
+          "value": "Keep Americans safe from threats foreign and domestic",
+          "snippet": "Keep Americans safe from threats foreign and domestic"
+        },
+        {
+          "topic": "Jobs & Economy",
+          "value": "Cut burdensome regulations and unshackle job creators",
+          "snippet": "Cut burdensome regulations and unshackle job creators"
+        },
+        {
+          "topic": "Tax Cuts & Job Acts",
+          "value": "Make President Trump's tax cuts permanent",
+          "snippet": "Make President Trump's tax cuts permanent"
+        }
+      ],
+      "platform_source_url": "https://guyforpa.com/",
+      "_platform_resolved_at": "2026-08-10T21:51:58.576Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — National Security, Department of State, and Related Programs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Interior, Environment, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 58,
+        "bills_cosponsored": 1164,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.447,
+          "nominateDim2": 0.06,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/R000610"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 18.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/R000610"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=xQ1V2vPUoT4",
+      "platform_video_title": "Guy for Congress - Swamp Creatures",
+      "platform_video_source_url": "https://guyforpa.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:27.269Z",
+      "bio_summary": {
+        "value": "Guy Reschenthaler is a son of western Pennsylvania, born here and raised in the values and traditions that make our region great: Hard work, honesty, and common sense. He has been tested in uniform and on the bench. And no one knows the 14th Congressional District better than Guy, who was raised here, lives here, and works here.",
+        "source_url": "https://guyforpa.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:39:41.992Z"
+    }
+  ]
+}

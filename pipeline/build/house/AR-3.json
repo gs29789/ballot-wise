@@ -1,0 +1,711 @@
+{
+  "state": "AR",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-18T19:53:10.015Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
+    "primarySnippet": "MARCH 3, 2026 Preferential Primary Election — Ark. Code § 7-7-203(b), Act 405 of 2025 (Arkansas Secretary of State's official 2026 Election Calendar).",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/ar/title-7-elections/ar-code-sect-7-5-102.html",
+    "generalSnippet": "Ark. Code § 7-5-102: On the Tuesday next after the first Monday in November in every even-numbered year, there shall be held an election in each precinct and ward in this state..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arkansas's constitutional felony bar applies only to the General Assembly and \"any office of trust or profit in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/ar/arkansas-constitution-of-1874/ar-const-art-5-sect-9.html",
+    "snippet": "Ark. Const. art. 5, § 9: \"No person convicted of embezzlement of public money, bribery, forgery, or other infamous crime is eligible to the General Assembly or capable of holding any office of trust or profit in this state.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arkansas's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Steve Womack, Robb Ryerse, and Bobby Wilson are running in the general election for U.S. House Arkansas District 3 on November 3, 2026. Wilson (L) has no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 58.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 47.26
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 50.17
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 41.87
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 40.88
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1343
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1345.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1344.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1344.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1345.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1345.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1344.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1341.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1339.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1339.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1340.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1339.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1338.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1339.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1339.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1337.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1336.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1334.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1335.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1335.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1333.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1333.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1331.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1330.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1328.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1326
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1324.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1326.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1322.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1318.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1319.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1315.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1314.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1315.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1311.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1310.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1314
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1309.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1306.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1306.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1303.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1304
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5370384614.61,
+        "perCapitaUsd": 7128.49
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4608441953,
+        "perCapitaUsd": 6012.5
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6050915213.76,
+        "perCapitaUsd": 8031.81
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3045637
+      },
+      {
+        "year": "2023",
+        "population": 3067732
+      },
+      {
+        "year": "2024",
+        "population": 3088354
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 55432
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 58700
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 62106
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "robb-ryerse",
+      "full_name": "RYERSE, ROBB",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AR03128",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 120526.35,
+        "totalSpent": 114575.79,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 57841.11,
+          "largeDollar": 56549.56,
+          "pac": 2185.68,
+          "party": 3700,
+          "selfFunded": 250
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married to Vanessa",
+          "source_url": "https://www.robbforcongress.com/",
+          "snippet": "My wife Vanessa and I raised four kids here",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "pastor and nonprofit leader",
+          "source_url": "https://www.robbforcongress.com/",
+          "snippet": "I m a neighbor, a pastor, and a nonprofit leader who&rsquo;s spent my life walking with people through hard times and good ones",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "ran for Congress in 2018 and has helped lead national efforts to stand up to extremism and bring people together across divides",
+          "source_url": "https://www.robbforcongress.com/",
+          "snippet": "In 2018, I ran for Congress because I was tired of politics that left regular people behind. Since then, I&rsquo;ve helped lead national efforts to stand up to extremism and bring people together across divides",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=2o2XFwp99qI",
+      "platform_video_title": "Trump Has Lost His Mind, The Storyline, The Country, and soon The Election",
+      "platform_video_source_url": "https://www.robbforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:02:10.274Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I'm not a career politician. I'm a neighbor, a pastor, and a nonprofit leader who's spent my life walking with people through hard times and good ones. In 2018, I ran for Congress because I was tired of politics that left regular people behind. Since then, I've helped lead national efforts to stand up to extremism and bring people together across divides. I've lived in Springdale for 20 years. My wife Vanessa and I raised four kids here and started a faith community that welcomes everyone.",
+        "source_url": "https://www.robbforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:46.789Z"
+    },
+    {
+      "slug": "stephen-womack",
+      "full_name": "WOMACK, STEPHEN A THE HON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0AR03055",
+      "fec_status": "C",
+      "bioguide_id": "W000809",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1871760.74,
+        "totalSpent": 1183378.23,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 27541.42,
+          "largeDollar": 852192.43,
+          "pac": 877500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Served as Mayor of Rogers, Arkansas for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel",
+          "source_url": "https://www.womackforcongress.com/about",
+          "snippet": "served as the Mayor of Rogers, Arkansas, for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1957-02-18",
+          "source_url": "https://www.wikidata.org/wiki/Q1029527",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Russellville, Arkansas",
+          "source_url": "https://www.wikidata.org/wiki/Q1029527",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Arkansas Tech University",
+          "source_url": "https://www.wikidata.org/wiki/Q1029527",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Russellville High School, graduated 1975",
+          "source_url": "https://en.wikipedia.org/wiki/Steve_Womack",
+          "snippet": "Womack graduated from Russellville High School in 1975.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Terri Lynn Williams on August 4, 1984; she died on January 18, 2026",
+          "source_url": "https://en.wikipedia.org/wiki/Steve_Womack",
+          "snippet": "He and his wife, Terri, were married on August 4, 1984, and were married for 41 years until her death on January 18, 2026.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Attends Cross Church Pinnacle Hills, a Southern Baptist church in Rogers, Arkansas",
+          "source_url": "https://en.wikipedia.org/wiki/Steve_Womack",
+          "snippet": "Womack attends Cross Church Pinnacle Hills, a Southern Baptist church in Rogers, Arkansas .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Defense",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 63,
+        "bills_cosponsored": 1164,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "United States Marshals Service 225th Anniversary Commemorative Coin Act",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "886",
+            "publicLawNumber": "112-104",
+            "summary": "United States Marshals Service 225th Anniversary Commemorative Coin Act - (Sec. 3) Directs the Secretary of the Treasury, in commemoration of the 225th anniversary of the establishment of the United States Marshals Service, to mint and issue $5 gold and $1 silver coins, and half-dollar clad coins emblematic of the 225 years of exemplary and unparalleled achievements of the U.S. Marshals Service. (Sec. 5) Permits: (1) only one facility of the United States Mint to be used to strike any particular combination of denomination and quality of the coins minted under this Act, and (2) the Secretary to issue coins to the public minted under this Act beginning on or after January 1, 2015. Prohibits such coins from being minted after December 31, 2015. (Sec. 7) Requires all such coin sales to include a surcharge of: (1) $35 per $5 coin, (2) $10 per $1 coin, and (3) $3 for the half-dollar coin. Requires distribution of the first $5 million to the U.S. Marshals Service National Museum for the preservation, maintenance, and display of artifacts and documents of the U.S. Marshals Service. Requires distribution of one-third of the remainder each to the National Center for Missing and Exploited Children to be used for finding missing children and combating child sexual exploitation, and the Federal Law Enforcement Officers Association Foundation (FLEOAF). Limits the use of such funds by FLEOAF to financial assistance for: (1) surviving family members of federal law enforcement members killed in the line of duty; (2) disabled federal law enforcement members; (3) federal law enforcement employees and their families in select instances, such as severe trauma or financial loss, where no other source of assistance is available; (4) scholarships to students pursuing a career in the law enforcement field; and (5) selective grants to charitable organizations. Requires distribution of one-third of the remainder to the National Law Enforcement Officers Memorial Fund to support construction of of the National Law Enforcement Museum. (Sec. 8) Directs the Secretary to take actions to ensure that: (1) minting and issuing such coins will not result in any net cost to the U.S. government, and (2) no funds will be disbursed to the recipients designated in this Act until the total cost of designing and issuing such coins (including labor, materials, dies, use of machinery, overhead expenses, marketing, and shipping) is recovered by the Treasury.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ104"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.347,
+          "nominateDim2": 0.636,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000809"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 41.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/W000809"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "U.S. Representative Steve Womack was elected to represent Arkansas’s Third Congressional District in 2010. He is a senior member of the House Appropriations Committee, where he serves as Chairman of the Transportation, Housing and Urban Development (THUD) Subcommittee and sits on the Defense and the Financial Services and General Government (FSGG) Subcommittees. He is also the former Chairman of the House Budget Committee. Prior to his election to Congress, Representative Womack served as the Mayor of Rogers, Arkansas, for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel.",
+        "source_url": "https://www.womackforcongress.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:52.550Z",
+      "_tier2_search_attempted_at": "2026-08-22T12:00:42.299Z"
+    }
+  ]
+}

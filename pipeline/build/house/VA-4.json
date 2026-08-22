@@ -1,0 +1,727 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-14T12:41:16.561Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jennifer McClellan and Jason Brown are running in the general election for U.S. House Virginia District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.43
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989434392.83,
+        "perCapitaUsd": 41524.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jason-brown",
+      "full_name": "BROWN, JASON II",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA04095",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2130.9,
+        "totalSpent": 1873.72,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 868.41,
+          "largeDollar": 560,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 702.49
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "college student",
+          "source_url": "https://www.jasonforcongress2026.com/about",
+          "snippet": "I am 25 years old, a college student",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration Enforcement",
+          "value": "Abolish I.C.E.",
+          "snippet": "We will abolish I.C.E. and protect our loved ones."
+        },
+        {
+          "topic": "Housing",
+          "value": "Guarantee housing for all families",
+          "snippet": "We will guarantee housing, healthcare, and education for all of our families."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Guarantee healthcare for all families",
+          "snippet": "We will guarantee housing, healthcare, and education for all of our families."
+        },
+        {
+          "topic": "Education",
+          "value": "Guarantee education for all families",
+          "snippet": "We will guarantee housing, healthcare, and education for all of our families."
+        },
+        {
+          "topic": "Military/Foreign Policy",
+          "value": "End our wars",
+          "snippet": "We will end our wars."
+        }
+      ],
+      "platform_source_url": "https://www.jasonforcongress2026.com/",
+      "_platform_resolved_at": "2026-08-14T12:41:10.854Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I am 25 years old, a college student, a union member, a renter, I work full-time in public education, and I’m a sitting school board member in Dinwiddie County. I am a direct descendant of Africans who were enslaved right here in Chesterfield County, and now I’m running to fight for the most vulnerable in our community!",
+        "source_url": "https://www.jasonforcongress2026.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:23.155Z"
+    },
+    {
+      "slug": "jennifer-mcclellan",
+      "full_name": "MCCLELLAN, JENNIFER",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4VA04066",
+      "fec_status": "C",
+      "bioguide_id": "M001227",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1135225.39,
+        "totalSpent": 991900.96,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 79210.26,
+          "largeDollar": 446570.56,
+          "pac": 607800.03,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1972-12-28",
+          "source_url": "https://www.wikidata.org/wiki/Q6178602",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Petersburg, Virginia",
+          "source_url": "https://www.wikidata.org/wiki/Q6178602",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Richmond",
+          "source_url": "https://www.wikidata.org/wiki/Q6178602",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "16 years in the Virginia legislature",
+          "source_url": "https://jennifermcclellan.com/",
+          "snippet": "During her 16 years in the Virginia legislature, Congresswoman McClellan earned a reputation as a strong legislative champion for Virginians.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Voting Rights",
+          "value": "Passed landmark laws to protect voting rights",
+          "snippet": "She passed landmark laws to protect voting rights"
+        },
+        {
+          "topic": "Abortion Access",
+          "value": "Passed laws to safeguard abortion access",
+          "snippet": "She passed landmark laws to protect voting rights, safeguard abortion access"
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Passed laws to tackle climate change",
+          "snippet": "She passed landmark laws to protect voting rights, safeguard abortion access, tackle climate change"
+        },
+        {
+          "topic": "Education",
+          "value": "Passed laws to rebuild crumbling schools",
+          "snippet": "tackle climate change, rebuild crumbling schools"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Passed laws to expand Obamacare in Virginia",
+          "snippet": "rebuild crumbling schools, expand Obamacare in Virginia"
+        },
+        {
+          "topic": "Workers Rights",
+          "value": "Passed laws to protect workers rights",
+          "snippet": "expand Obamacare in Virginia, protect workers rights"
+        }
+      ],
+      "platform_source_url": "https://jennifermcclellan.com/",
+      "_platform_resolved_at": "2026-08-14T12:41:03.286Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 49,
+        "bills_cosponsored": 909,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 29 Franklin Street in Petersburg, Virginia, as the \"John Mercer Langston Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7385",
+            "publicLawNumber": "118-239",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 29 Franklin Street in Petersburg, Virginia, as the John Mercer Langston Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ239"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.555,
+          "nominateDim2": 0.077,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001227"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 56,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001227"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=GG6XW_YIz2A",
+      "platform_video_title": "McClellan",
+      "platform_video_source_url": "https://jennifermcclellan.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:04:24.379Z",
+      "bio_summary": {
+        "value": "Congresswoman Jennifer McClellan has a record of results, championing the passage of major progressive laws and fighting on behalf of her constituents in greater Richmond for the past 17 years. Now, Rep. McClellan is continuing to deliver for the people of Virginia, and making sure their voices are heard in Washington, D.C.",
+        "source_url": "https://jennifermcclellan.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:17.068Z"
+    }
+  ]
+}

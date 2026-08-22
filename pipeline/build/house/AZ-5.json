@@ -1,0 +1,649 @@
+{
+  "state": "AZ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-18T19:56:33.909Z",
+  "election_dates": {
+    "primaryDate": "2026-07-21",
+    "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+    "primarySnippet": "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+    "generalSnippet": "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+    "snippet": "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arizona's_5th_Congressional_District_election,_2026",
+    "snippet": "Elizabeth Lee and Mark Lamb are running in the general election for U.S. House Arizona District 5 on November 3, 2026. Open seat: incumbent Andy Biggs (R) won the Republican gubernatorial nomination July 21, 2026 rather than seeking re-election."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.75
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.93
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.75
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.88
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 28.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3283.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3280.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3282.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3274.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3272.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3262.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3253
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3249.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3259
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3259.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3263.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3269.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3278.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3273.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3275.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3268.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3269.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3267.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3255.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3255.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3264.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3257.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3255.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3221.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3209.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3200
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3229.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3218.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3210.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3210.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3195.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3190.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3169.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3167.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3156.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3246133145.22,
+        "perCapitaUsd": 4059.85
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4771148114.64,
+        "perCapitaUsd": 5967.14
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3619302414.08,
+        "perCapitaUsd": 4526.56
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7359197
+      },
+      {
+        "year": "2023",
+        "population": 7431344
+      },
+      {
+        "year": "2024",
+        "population": 7582384
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 74568
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 77315
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81486
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "mark-lamb",
+      "full_name": "LAMB, MARK",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ05265",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1222216.64,
+        "totalSpent": 978790.79,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 514698.55,
+          "largeDollar": 596592.01,
+          "pac": 70400,
+          "party": 0,
+          "selfFunded": 40046.61
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1972-07-14",
+          "source_url": "https://www.wikidata.org/wiki/Q96460391",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Hilo, Hawaii",
+          "source_url": "https://www.wikidata.org/wiki/Q96460391",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Pinal County, Sheriff (2017 - Present); Salt River Pima-Maricopa Indian Community, Police Officer; Salt River Pima-Maricopa Indian Community, Detective of Gang Enforcement Unit",
+          "source_url": "https://www.ballotready.org/people/mark-lamb",
+          "snippet": "Pinal County, Sheriff (2017 - Present) Salt River Pima-Maricopa Indian Community, Police Officer Salt River Pima-Maricopa Indian Community, Detective of Gang Enforcement Unit",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:35.396Z",
+      "platform_video_tier": null,
+      "_no_site_search_attempted_at": "2026-08-22T13:29:13.121Z"
+    },
+    {
+      "slug": "elizabeth-lee",
+      "full_name": "LEE, ELIZABETH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ05240",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 153110.62,
+        "totalSpent": 126371.04,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 65653.25,
+          "largeDollar": 81957.37,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 5000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Ohio",
+          "source_url": "https://www.nurselee4az.com/about",
+          "snippet": "Elizabeth grew up in poverty in Ohio",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Sean",
+          "source_url": "https://www.nurselee4az.com/about",
+          "snippet": "She and her husband Sean became parents through both adoption and IVF",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "registered nurse; Board Certified Patient Advocate (BCPA) and Board Certified Reproductive Health and Infertility Nurse (C-RHI); worked at fertility clinics for over a decade; founded The Empowered Choice Coalition in 2024; served as State Chair for Reproductive Freedom for All Arizona Action Council",
+          "source_url": "https://www.nurselee4az.com/about",
+          "snippet": "Determined to understand her own body and help others facing the same struggles, Elizabeth pursued nursing . It wasn't until she was 37 years old—after becoming a registered nurse herself—that she finally cracked the code. She had Ehlers-Danlos Syndrome (EDS), a genetic connective tissue disorder that had gone undiagnosed her entire life. That experience—of being invisible to a broken system, of having to fight for answers that should have come with compassion—shaped everything about who Elizabeth is today. Building a Family Against All Odds Elizabeth's journey to motherhood mirrors the resilience she's shown her entire life. She and her husband Sean became parents through both adoption and IVF. In 2014, they welcomed their daughter through adoption—a beautiful 11-year-old who reminds Elizabeth every day why families deserve support, not judgment. In 2018, after undergoing IVF treatment and the kind of pregnancy complications that Elizabeth had spent her career helping other patients overcome, she gave birth to their son. Elizabeth knows firsthand what it's like to sit in a waiting room, wondering if you'll ever be able to afford the treatment you need. She knows what it's like to face a healthcare system that treats starting a family as a luxury instead of a fundamental human right. That's why she fights so hard for access to care. Because she's been there. A Nationally Recognized Nurse Expert For over a decade, Elizabeth has been a driving force in reproductive healthcare. As a Board Certified Patient Advocate (BCPA) and Board Certified Reproductive Health and Infertility Nurse (C-RHI) , she's worked at some of the nation's most innovative fertility clinics, helping thousands of patients navigate the complex, overwhelming journey to parenthood. Her expertise isn't just clinical—it's operational . Elizabeth has transformed fertility clinic workflows, expanded financial access to care, and trained countless medical professionals on how to put patients first. She's been featured on Inside Reproductive Health , invited to Capitol Hill by Sen. Tammy Duckworth, Sen. Patty Murray, and others, to lobby for federal IVF protections, and has partnered with national organizations to advance legislation protecting all aspects of reproductive medicine. In 2024, Elizabeth founded The Empowered Choice Coalition, dedicated to patient education and informed decision-making in healthcare, because she believes every patient deserves to understand their options and make choices based on knowledge, not fear. She also served as State Chair for Reproductive Freedom for All Arizona Action Council",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Yale University (BA)",
+          "source_url": "https://en.wikipedia.org/wiki/Liz_Lee_(politician)",
+          "snippet": "Lee earned a Bachelor of Arts degree in political science from Yale University",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance",
+          "value": "She refuses all corporate PAC money and is running a community-funded campaign so that the PEOPLE have more say than the special interests.",
+          "snippet": "she refuses all corporate PAC money and is running a community-funded campaign so that the PEOPLE have more say than the special interests."
+        }
+      ],
+      "platform_source_url": "https://www.nurselee4az.com/",
+      "_platform_resolved_at": "2026-08-11T11:50:12.870Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:35.807Z",
+      "bio_summary": {
+        "value": "Elizabeth Lee is the leader Washington needs because she brings real-world experience solving the problems people actually face. She’s building a people-powered campaign rooted in accountability and results, with one clear commitment: to fight for working families and deliver solutions that improve lives.",
+        "source_url": "https://www.nurselee4az.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:11.744Z",
+      "platform_video_tier": null
+    }
+  ]
+}

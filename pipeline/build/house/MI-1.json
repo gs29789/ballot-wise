@@ -1,0 +1,936 @@
+{
+  "state": "MI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T20:31:31.641Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
+    "primarySnippet": "MCL 168.52: A general primary election of all political parties shall be held in every election precinct in this state on the Tuesday succeeding the first Monday in August preceding every general November election in which a governor is to be elected, at which time the qualified and registered electors of each political party shall vote for party candidates for the office of governor.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-641.html",
+    "generalSnippet": "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
+    "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Michigan's_1st_Congressional_District_election,_2026",
+    "snippet": "Jack Bergman (R), Callie Barr (D), LaVeta Davenport (G), Arnett Satterla (L), Doc Kovaly (U.S. Taxpayers Party), Liz Hakola (Working Class Party), and Zebulon Featherly (Independent) are running in the general election for U.S. House Michigan District 1 on November 3, 2026. Davenport, Kovaly, and Hakola have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 35.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.1
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.61
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 30.19
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4488.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4484.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4475.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4470.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4475.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4478.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4478
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4479.3
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4485.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4488.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4488.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4495.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4486.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4484.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4483.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4477.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4485.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4498
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4497.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4479.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4490.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4492.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4485.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4474.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4479.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4463.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4455.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4483
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4472.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4481.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4473.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4468
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4452.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4439.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4433.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4430.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 722948012.63,
+        "perCapitaUsd": 945.2
+      },
+      {
+        "year": "2024",
+        "totalUsd": 318339193.04,
+        "perCapitaUsd": 416.21
+      },
+      {
+        "year": "2025",
+        "totalUsd": 419999410.8,
+        "perCapitaUsd": 549.12
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10034118
+      },
+      {
+        "year": "2023",
+        "population": 10037261
+      },
+      {
+        "year": "2024",
+        "population": 10140459
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66986
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69183
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72389
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "callie-barr",
+      "full_name": "BARR, CALLIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4MI01155",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 824340.6,
+        "totalSpent": 301256.72,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 100309.46,
+          "largeDollar": 649297.38,
+          "pac": 64250,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Traverse City and Cheboygan",
+          "source_url": "https://callieforcongress.com/",
+          "snippet": "Callie was born and raised in Traverse City and Cheboygan.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Matt, her high school sweetheart who enlisted in the U.S. Marine Corps after September 11 and served tours in Iraq and Afghanistan",
+          "source_url": "https://callieforcongress.com/",
+          "snippet": "After September 11, her high school sweetheart Matt enlisted in the U.S. Marine Corps and served tours in Iraq and Afghanistan. When Matt came home with combat injuries, Callie became his primary caretaker and advocate.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "classroom teacher, then veterans advocacy, then law school, now running for Congress",
+          "source_url": "https://callieforcongress.com/",
+          "snippet": "That work led her from the classroom to veterans advocacy, law school, and now a campaign focused on real solutions for working families across MI-01.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Central Michigan University, Secondary Education (2010)",
+          "source_url": "https://www.ballotready.org/people/callie-barr",
+          "snippet": "Bachelor&#x27;s, Central Michigan University, Secondary Education (2010)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Universal Health Care",
+          "value": "Make Medicare an option that is available to everyone from the moment they are born. Restore cuts to Medicaid and lower Rx drug prices.",
+          "snippet": "Universal Health Care Health care should be a right, not a privilege. Make Medicare an option that is available to everyone from the moment they are born. Restore cuts to Medicaid and lower Rx drug prices."
+        },
+        {
+          "topic": "Housing",
+          "value": "Build homes people can afford, cut red tape for trusted local builders, and balance the tourism economy with year-round residents.",
+          "snippet": "Housing people can afford Build homes people can afford, cut red tape for trusted local builders, and balance the tourism economy with year-round residents."
+        },
+        {
+          "topic": "Work and Labor",
+          "value": "Reward work, support unions, protect Social Security, expand childcare, and invest in small businesses, farms, broadband, and infrastructure.",
+          "snippet": "Work that pays enough Reward work, support unions, protect Social Security, expand childcare, and invest in small businesses, farms, broadband, and infrastructure."
+        },
+        {
+          "topic": "Food and Agriculture",
+          "value": "Stand with farmers, strengthen local food supply, reverse SNAP cuts, and expand mobile markets for communities facing food deserts.",
+          "snippet": "Food on the table Stand with farmers, strengthen local food supply, reverse SNAP cuts, and expand mobile markets for communities facing food deserts."
+        },
+        {
+          "topic": "Great Lakes and Environment",
+          "value": "Protect clean water, local jobs, and the outdoor economy that shapes Northern Michigan.",
+          "snippet": "Great Lakes communities Protect clean water, local jobs, and the outdoor economy that shapes Northern Michigan."
+        },
+        {
+          "topic": "Rural Healthcare",
+          "value": "Keep care close to home and stop families from driving hours for basic healthcare.",
+          "snippet": "Rural hospitals Keep care close to home and stop families from driving hours for basic healthcare."
+        },
+        {
+          "topic": "Veterans and Caregivers",
+          "value": "Fund the VA, honor service, and support the families doing care work every day.",
+          "snippet": "Veterans and caregivers Fund the VA, honor service, and support the families doing care work every day."
+        }
+      ],
+      "platform_source_url": "https://callieforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T10:59:54.104Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=IuzfIsxH7WE",
+      "platform_video_title": "Callie Barr is running for Congress in Michigan's First Congressional District.",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-21T12:00:23.160Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078411.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-11T11:00:08.422Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:23.160Z",
+      "bio_summary": {
+        "value": "Callie was born and raised in Traverse City and Cheboygan. After September 11, her high school sweetheart Matt enlisted in the U.S. Marine Corps and served tours in Iraq and Afghanistan. When Matt came home with combat injuries, Callie became his primary caretaker and advocate. That work led her from the classroom to veterans advocacy, law school, and now a campaign focused on real solutions for working families across MI-01.",
+        "source_url": "https://callieforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:10.962Z",
+      "platform_video_tier": 2
+    },
+    {
+      "slug": "john-bergman",
+      "full_name": "BERGMAN, JOHN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6MI01226",
+      "fec_status": "C",
+      "bioguide_id": "B001301",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1917574.18,
+        "totalSpent": 1368360.79,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 151276.1,
+          "largeDollar": 339830.93,
+          "pac": 756925,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "retired member of the United States Marine Corps",
+          "source_url": "https://www.bergmanforcongress.com/",
+          "snippet": "Jack Bergman is a retired member of the United States Marine Corps.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1947-02-02",
+          "source_url": "https://www.wikidata.org/wiki/Q6262116",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Shakopee, Minnesota",
+          "source_url": "https://www.wikidata.org/wiki/Q6262116",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "United States Army Command and General Staff College",
+          "source_url": "https://www.wikidata.org/wiki/Q6262116",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Supports securing our border",
+          "snippet": "From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress."
+        },
+        {
+          "topic": "National Defense",
+          "value": "Supports strengthening national defense",
+          "snippet": "From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Supports standing up for Veterans",
+          "snippet": "From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Supports protecting Second Amendment rights",
+          "snippet": "From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Supports reining in wasteful Washington spending",
+          "snippet": "From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress."
+        }
+      ],
+      "platform_source_url": "https://www.bergmanforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T10:59:43.650Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=O8kr8EcN5dw",
+      "platform_video_title": "Marine Common Sense",
+      "platform_video_source_url": "https://www.bergmanforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:33.804Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076771.pdf",
+        "filingDate": "5/5/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-11T11:00:12.165Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Disability Assistance and Memorial Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Readiness",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 105,
+        "bills_cosponsored": 1089,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "VA Budget Shortfall Accountability Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "1823",
+            "publicLawNumber": "119-71",
+            "summary": "VA Budget Shortfall Accountability Act This act requires the Government Accountability Office (GAO) to review and report on the circumstances and causes of the shortfall in funding of the Veterans Benefits Administration for FY2024 and the expected shortfall in funding of the Veterans Health Administration in FY2025. The Department of Veterans Affairs must submit such GAO report to Congress.&nbsp;For each of the five fiscal years following the date of enactment of this act, GAO must conduct subsequent reviews and reports regarding the funding of the VA.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ71"
+          },
+          {
+            "title": "To designate the clinic of the Department of Veterans Affairs in Indian River, Michigan, as the \"Pfc. Justin T. Paton Department of Veterans Affairs Clinic\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "3672",
+            "publicLawNumber": "118-12",
+            "summary": "This act designates the new community-based outpatient clinic of the Department of Veterans Affairs in Indian River, Michigan, as the Pfc. Justin T. Paton Department of Veterans Affairs Clinic.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ12"
+          },
+          {
+            "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Gaylord, Michigan, as the \"Navy Corpsman Steve Andrews Department of Veterans Affairs Health Care Clinic\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "1281",
+            "publicLawNumber": "117-89",
+            "summary": "This bill designates the community-based outpatient clinic of the Department of Veterans Affairs in Gaylord, Michigan, as the Navy Corpsman Steve Andrews Department of Veterans Affairs Health Care Clinic.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ89"
+          },
+          {
+            "title": "Protecting Business Opportunities for Veterans Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "561",
+            "publicLawNumber": "116-183",
+            "summary": "Protecting Business Opportunities for Veterans Act of 2019 This bill applies certain small business subcontracting limitations to contracts that the Department of Veterans Affairs (VA) awards to a small business concern owned and controlled by a veteran or a veteran with a service-connected disability. The VA may award such a contract only after obtaining a certification from the offeror that it will comply with such subcontracting limitations if awarded the contract. Such certification shall specify the applicable performance requirements and explicitly acknowledge that the certification is subject to criminal penalties for making false statements in any matter within the jurisdiction of the U.S. government. The VA Director of Small and Disadvantaged Business Utilization and the VA Chief Acquisition Officer shall jointly monitor compliance and refer any violation or suspected violation to the VA Inspector General. If the VA determines that a contract recipient did not act in good faith, such recipient shall be subject to any or all of the following: (1) referral to the VA Debarment and Suspension Committee, (2) a criminal fine, and (3) criminal prosecution. The Inspector General shall report on (1) the number of referred violations and suspected violations; and (2) the disposition of such violations, including the number of small business concerns suspended or debarred from federal contracting or referred for Department of Justice prosecution.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ183"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.434,
+          "nominateDim2": 0.092,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001301"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 91,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001301"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jack Bergman has consistently fought for the America-First agenda and championed the values that matter most to the people of Northern Michigan and the U.P. From securing our border and strengthening national defense to standing up for Veterans, protecting Second Amendment rights, and reining in wasteful Washington spending, Jack Bergman is your conservative voice in Congress.",
+        "source_url": "https://www.bergmanforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:14.638Z"
+    },
+    {
+      "slug": "zebulon-featherly",
+      "full_name": "FEATHERLY, ZEBULON HART",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6MI01275",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Houghton, Michigan",
+          "source_url": "https://ballotpedia.org/Zebulon_Featherly",
+          "snippet": "Zebulon Featherly was born in Houghton, Michigan."
+        },
+        "high_school": {
+          "value": "Houghton High School",
+          "source_url": "https://ballotpedia.org/Zebulon_Featherly",
+          "snippet": "He earned a high school diploma from Houghton High School."
+        },
+        "college": {
+          "value": "Eastern Michigan University; North Western Renewable Energy Institute (2017)",
+          "source_url": "https://ballotpedia.org/Zebulon_Featherly",
+          "snippet": "He attended Eastern Michigan University and graduated from the North Western Renewable Energy Institute in 2017."
+        },
+        "employment_record": {
+          "value": "Electrician and wind turbine technician",
+          "source_url": "https://ballotpedia.org/Zebulon_Featherly",
+          "snippet": "His career experience includes working as an electrician and wind turbine technician."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Minimum Wage and Taxation",
+          "value": "Block new taxes on working families, demand extreme wealth pays its due, and raise the minimum wage",
+          "snippet": "I will block new taxes on working families and demand that extreme wealth finally pays its due. And I will push to raise the minimum wage, because a country where full-time work still leaves families in poverty is a country in decline."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Support a clear, fair path to citizenship for everyone building a life in America",
+          "snippet": "I believe in a clear, fair path to citizenship for everyone building a life in America, because if you are part of our communities, pay taxes, raise families, and help strengthen this nation, you deserve the same rights and protections as every other citizen."
+        },
+        {
+          "topic": "Gun Rights",
+          "value": "Will not take away guns, but will push for responsible safeguards that respect gun ownership while protecting children and families",
+          "snippet": "I will not take away guns, but I will push for responsible safeguards that respect gun ownership while protecting our children and families."
+        },
+        {
+          "topic": "Energy and Innovation",
+          "value": "Expand research, push clean energy advancements, cut waste and demand accountability across government",
+          "snippet": "I will fight to expand research, push clean energy advancements, cut waste and demand accountability across government."
+        },
+        {
+          "topic": "Infrastructure",
+          "value": "Build systems including dependable roads and bridges, modern internet and energy that improve quality of life and reflect our values",
+          "snippet": "From dependable roads and bridges to modern internet and energy, we must build systems that improve quality of life and reflect our values."
+        },
+        {
+          "topic": "Political Corruption",
+          "value": "As an independent, cannot be bought or bullied, with allegiance only to the people",
+          "snippet": "As an independent, I cannot be bought or bullied. The parties have nothing to hold over me. My allegiance is only to the people."
+        }
+      ],
+      "platform_source_url": "https://www.zebulonforcongress.com/where-i-stand",
+      "_platform_resolved_at": "2026-08-11T11:00:04.169Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=4DJEAwLGEGQ",
+      "platform_video_title": "Can an Independent win?",
+      "platform_video_source_url": "https://www.zebulonforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:34.065Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076299.pdf",
+        "filingDate": "4/28/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-11T11:00:23.846Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "I’m Zebulon Featherly, an independent candidate for the U.S. House of Representatives. I’m running to represent people, not parties",
+        "source_url": "https://www.zebulonforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:18.086Z"
+    },
+    {
+      "slug": "arnett-satterla",
+      "full_name": "SATTERLA, ARNETT",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MI01283",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:23.589Z",
+      "_no_site_search_attempted_at": "2026-08-22T13:29:13.113Z"
+    }
+  ]
+}

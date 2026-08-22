@@ -1,0 +1,756 @@
+{
+  "state": "NV",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-17T01:43:50.664Z",
+  "election_dates": {
+    "primaryDate": "2026-06-09",
+    "primarySourceUrl": "https://law.justia.com/codes/nevada/chapter-293/statute-293-175/",
+    "primarySnippet": "1. The primary election must be held on the second Tuesday in June of each even-numbered year. (NRS 293.175)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://nevada.public.law/statutes/nrs_293.12755",
+    "generalSnippet": "A general election must be held throughout the State on the first Tuesday after the first Monday of November in each even-numbered year. (NRS 293.12755)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Nevada's constitution makes office eligibility contingent on being a \"qualified elector,\" and separately strips a person convicted of treason or felony of elector status until civil rights are restored, but neither clause names Congress; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://law.justia.com/constitution/nevada/",
+    "snippet": "Nev. Const. art. 15, § 3(1): \"No person shall be eligible to any office who is not a qualified elector under this Constitution.\" Nev. Const. art. 2, § 1: \"...provided, that no person who has been or may be convicted of treason or felony in any state or territory of the United States, unless restored to civil rights, and no person who has been adjudicated mentally incompetent, unless restored to legal capacity, shall be entitled to the privilege of an elector.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Nevada's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Susie Lee, Marty O'Donnell, and Jon Kamerath are running in the general election for U.S. House Nevada District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 5.2
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 33.34
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 35.49
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 35.24
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.13
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.73
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1614.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1610.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1608.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1607.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1605.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1603.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1600
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1598.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1597.1
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1594.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1598.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1595
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1577.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1580.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1580.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1575
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1570.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1571.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1572.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1570.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1570.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1568.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1562
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1560.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1568.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1569.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1566.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1568
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1569.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1562.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1564.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1556.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1553.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1549.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1538.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1536.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1538.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1533.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1529.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1527.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1525.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1521.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7415919667.92,
+        "perCapitaUsd": 9439.68
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8678722419.31,
+        "perCapitaUsd": 11047.1
+      },
+      {
+        "year": "2025",
+        "totalUsd": 1727825882.03,
+        "perCapitaUsd": 2142.23
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3177772
+      },
+      {
+        "year": "2023",
+        "population": 3194176
+      },
+      {
+        "year": "2024",
+        "population": 3267467
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72333
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 76364
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81134
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "susie-lee",
+      "full_name": "LEE, SUSIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6NV04020",
+      "fec_status": "C",
+      "bioguide_id": "L000590",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4401421.35,
+        "totalSpent": 1178847.48,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 246965.22,
+          "largeDollar": 2604006.53,
+          "pac": 1301425,
+          "party": 5167.52,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1966-11-07",
+          "source_url": "https://www.wikidata.org/wiki/Q58333611",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Canton, Ohio",
+          "source_url": "https://www.wikidata.org/wiki/Q58333611",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Carnegie Mellon University",
+          "source_url": "https://www.wikidata.org/wiki/Q58333611",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "A tireless community advocate for Nevada's working families",
+          "source_url": "https://susieleeforcongress.com/",
+          "snippet": "A tireless community advocate for Nevada's working families",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Championed affordable health care",
+          "snippet": "In Congress, Susie has championed common sense, bipartisan leadership that delivers results on critical issues like affordable health care"
+        },
+        {
+          "topic": "Education",
+          "value": "Championed funding for public education",
+          "snippet": "In Congress, Susie has championed common sense, bipartisan leadership that delivers results on critical issues like affordable health care, funding for public education"
+        },
+        {
+          "topic": "Democracy and Rights",
+          "value": "Running to protect our democracy and our rights",
+          "snippet": "Susie is running to protect our democracy and our rights"
+        }
+      ],
+      "platform_source_url": "https://susieleeforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T22:42:21.163Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Federal Lands",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Defense",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 100,
+        "bills_cosponsored": 1274,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "AACE Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "5443",
+            "publicLawNumber": "118-230",
+            "summary": "Accelerating Appraisals and Conservation Efforts Act or AACE Act This act relaxes requirements for the Department of the Interior in appraising and valuing real property for transactions over which Interior has jurisdiction. Specifically, a private real property appraiser needs only to be licensed or certified in one state to perform appraisal or valuation services for real property over which Interior has jurisdiction. Currently, if a private assessor is used for a real property transaction within Interior's jurisdiction, that assessor must be licensed or certified in the state where that transaction occurs.&nbsp; When using private appraisers, Interior shall, to the maximum extent practicable, use private appraisers who are certified general real property appraisers licensed in the state where the transaction occurs. Additionally, Interior may use a private appraiser who is licensed outside the state in which the transaction occurs only if private appraisers licensed in that state are unavailable, not assignment qualified, or not cost competitive. Interior must make the text of all policies related to such appraisals public.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ230"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 404 South Boulder Highway in Henderson, Nevada, as the \"Henderson Veterans Memorial Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "1198",
+            "publicLawNumber": "116-45",
+            "summary": "Designates the facility of the United States Postal Service located at 404 South Boulder Highway in Henderson, Nevada, as the \"Henderson Veterans Memorial Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ45"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.225,
+          "nominateDim2": 0.293,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000590"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 98.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000590"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "In Congress, Susie has championed common sense, bipartisan leadership that delivers results on critical issues like affordable health care, funding for public education, and support for our nation’s veterans.",
+        "source_url": "https://susieleeforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:46.447Z"
+    },
+    {
+      "slug": "marty-odonnell",
+      "full_name": "O'DONNELL, MARTY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4NV03225",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4026577.61,
+        "totalSpent": 1617143.37,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 189257,
+          "largeDollar": 173004.08,
+          "pac": 271905.38,
+          "party": 0,
+          "selfFunded": 3007000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "West Chester, Pennsylvania",
+          "source_url": "https://ballotpedia.org/Marty_O%27Donnell_(Nevada)",
+          "snippet": "Marty O'Donnell was born in West Chester, Pennsylvania."
+        },
+        "college": {
+          "value": "Bachelor's degree, Wheaton College (1977); graduate degree, University of Southern California (1981)",
+          "source_url": "https://ballotpedia.org/Marty_O%27Donnell_(Nevada)",
+          "snippet": "He earned a bachelor's degree from Wheaton College in 1977 and a graduate degree from the University of Southern California in 1981."
+        },
+        "employment_record": {
+          "value": "Musician, composer, and audio director",
+          "source_url": "https://ballotpedia.org/Marty_O%27Donnell_(Nevada)",
+          "snippet": "O'Donnell's career experience includes working as a musician, composer, and audio director."
+        },
+        "civic_affiliations": {
+          "value": "ASCAP; SAG/AFTRA; AFM",
+          "source_url": "https://ballotpedia.org/Marty_O%27Donnell_(Nevada)",
+          "snippet": "O'Donnell has been affiliated with ASCAP, SAG/AFTRA, and AFM."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance",
+          "value": "Not accepting Corporate PAC dollars",
+          "snippet": "I'm not accepting Corporate PAC dollars. My campaign is powered by patriots."
+        },
+        {
+          "topic": "Workers and Jobs",
+          "value": "One good job should be enough to make ends meet",
+          "snippet": "One good job should be enough; it used to be enough. And it can be again."
+        },
+        {
+          "topic": "Special Interests",
+          "value": "Opposition to leaders influenced by special interests and big corporations rigging the system against working people",
+          "snippet": "I'm tired of seeing our leaders influenced by special interests and big corporations, rigging the system against working people and making it too difficult for families to make ends meet."
+        },
+        {
+          "topic": "Economy",
+          "value": "Building an economy that protects American workers and jobs",
+          "snippet": "Resilient Economy Building an economy that protects American workers and jobs."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Protecting communities with strong border security",
+          "snippet": "Secure Borders Protecting our communities with strong border security."
+        },
+        {
+          "topic": "Job Opportunity",
+          "value": "Ensuring every Nevadan can find a good job that allows them to take care of their family",
+          "snippet": "Opportunity Ensuring every Nevadan can find a good job that allows them to take care of their family."
+        }
+      ],
+      "platform_source_url": "https://martyforcongress.vote/",
+      "_platform_resolved_at": "2026-08-12T22:42:47.654Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "platform_video_url": "https://www.youtube.com/watch?v=BcYq0_2IXmg",
+      "platform_video_title": "Xbox was a Microsoft division like no other",
+      "platform_video_source_url": "https://martyforcongress.vote/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:34.162Z",
+      "bio_summary": {
+        "value": "I'm tired of seeing our leaders influenced by special interests and big corporations, rigging the system against working people and making it too difficult for families to make ends meet. One good job should be enough; it used to be enough. And it can be again. As your representative, I will prioritize what matters most: Nevada families, small businesses, and building a secure future for our children and grandchildren.",
+        "source_url": "https://martyforcongress.vote/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:44.912Z"
+    }
+  ]
+}

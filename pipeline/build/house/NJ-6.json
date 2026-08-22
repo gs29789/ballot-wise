@@ -1,0 +1,817 @@
+{
+  "state": "NJ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-17T15:38:20.964Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
+    "primarySnippet": "N.J.S.A. 19:2-1: Primary elections for delegates and alternates to national conventions of political parties and for the general election shall be held in each year on the Tuesday next after the first Monday in June between the hours of 6:00 A.M. and 8:00 P.M., Standard Time.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-3/",
+    "generalSnippet": "N.J.S.A. 19:2-3: General and special elections. The general election shall be held on the Tuesday next after the first Monday in November in each year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New Jersey has no blanket felony-disqualification rule for elective office; its only relevant statute permanently bars someone from future office only if they were convicted of an offense that involved or touched the specific state or local office they already held, and by its own text that bar reaches only offices \"under this State or any of its administrative or political subdivisions,\" not federal office",
+    "source_url": "https://law.justia.com/codes/new-jersey/title-2c/section-2c-51-2/",
+    "snippet": "N.J.S.A. 2C:51-2(d): \"In addition to the punishment prescribed for the offense, and the forfeiture set forth in subsection a. of N.J.S.2C:51-2, any person convicted of an offense involving or touching on his public office, position or employment shall be forever disqualified from holding any office or position of honor, trust or profit under this State or any of its administrative or political subdivisions.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/New_Jersey's_6th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Frank Pallone Jr. and Hillary Herzig are running in the general election for U.S. House New Jersey District 6 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 15.15
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 16.18
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 18.09
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 14.22
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4387.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4387.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4386
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4378.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4375.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4384
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4380.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4375.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4373.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4373.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4369.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4377.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4379.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4391.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4380.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4377.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4377.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4374.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4375.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4370.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4369.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4365.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4350.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4348.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4359.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4351.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4349.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4350.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4345.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4340.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4342.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4333.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4328
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4337.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4324.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4317.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4322.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4310.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4288.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4303.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4301.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4298.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4379701476.45,
+        "perCapitaUsd": 5691.53
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4943641331.86,
+        "perCapitaUsd": 6424.38
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5167678412.51,
+        "perCapitaUsd": 6715.53
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 9261699
+      },
+      {
+        "year": "2023",
+        "population": 9290841
+      },
+      {
+        "year": "2024",
+        "population": 9500851
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 96346
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 99781
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 104294
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "hillary-herzig",
+      "full_name": "HERZIG, HILLARY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NJ06278",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Having worked with the Key West Police Department",
+          "source_url": "https://www.ballotready.org/people/hillary-herzig",
+          "snippet": "Having worked with the Key West Police Department, she understands law enforcement, community needs, and protecting the vulnerable.",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes & Cost of Living",
+          "value": "Hillary will fight for lower property taxes, reduced cost of living, and keeping more of your paycheck in your home.",
+          "snippet": "Hillary will fight for lower property taxes, reduced cost of living, and keeping more of your paycheck in your home."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Term limits restore accountability, fresh thinking, and government that works for the people",
+          "snippet": "Term limits restore accountability, fresh thinking, and government that works for the people"
+        },
+        {
+          "topic": "Congressional Insider Trading",
+          "value": "Ban Congressional Insider Trading, Public office is for public service, not private profit.",
+          "snippet": "Ban Congressional Insider Trading, Public office is for public service, not private profit."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Hillary supports legal immigration and naturalization through proper channels. Hillary supports National Sovereignty, while respecting those who follow the legal process.",
+          "snippet": "Hillary supports legal immigration and naturalization through proper channels. Rule of Law: Hillary supports National Sovereignty , while respecting those who follow the legal process."
+        },
+        {
+          "topic": "Cannabis Reform",
+          "value": "Hillary supports responsible cannabis reform, including removing federal prohibition and employment penalties for lawful cannabis use.",
+          "snippet": "Hillary supports responsible cannabis reform, including removing federal prohibition and employment penalties for lawful cannabis use."
+        },
+        {
+          "topic": "Environment",
+          "value": "Reduce pollution, protect drinking water, and hold polluters accountable so our communities stay healthy. Stand with local fishermen and safeguard marine life.",
+          "snippet": "Cleaner Air & Water: Reduce pollution, protect drinking water, and hold polluters accountable so our communities stay healthy. Protect Our Fishing Industry: Stand with local fishermen and safeguard marine life."
+        }
+      ],
+      "platform_source_url": "https://www.herzigforcongress.com/",
+      "_platform_resolved_at": "2026-08-17T15:38:16.262Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078221.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T19:58:06.245Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Hillary is committed to representing the interests of New Jersey's 6th District. Her goal is to engage the community, promote transparency, and deliver significant results. Hillary brings Executive branch Government Administration experience, Hillary aims to bring fresh perspectives and innovative effective solutions to the table.",
+        "source_url": "https://www.herzigforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:51:45.921Z"
+    },
+    {
+      "slug": "frank-pallone",
+      "full_name": "PALLONE, FRANK JR",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8NJ03073",
+      "fec_status": "C",
+      "bioguide_id": "P000034",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2214836.98,
+        "totalSpent": 2219780.8,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7796.52,
+          "largeDollar": 727440,
+          "pac": 1455706.69,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1951-10-30",
+          "source_url": "https://www.wikidata.org/wiki/Q965289",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Long Branch, New Jersey",
+          "source_url": "https://www.wikidata.org/wiki/Q965289",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Middlebury College",
+          "source_url": "https://www.wikidata.org/wiki/Q965289",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "attended local public schools",
+          "source_url": "https://www.pallonefornewjersey.com/about",
+          "snippet": "Frank was born in Long Branch, attended local public schools",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Sarah",
+          "source_url": "https://www.pallonefornewjersey.com/about",
+          "snippet": "Frank and his wife Sarah reside in Long Branch",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "son of a policeman, began his career in public service in Long Branch where he was elected to City Council and later to the State Senate, serves as the Chairman of the House Energy and Commerce Committee",
+          "source_url": "https://www.pallonefornewjersey.com/about",
+          "snippet": "The son of a policeman, Frank was born in Long Branch, attended local public schools, and earned an academic scholarship to Middlebury College. After graduating from Middlebury, he received a master's degree in international relations at the Fletcher School and earned his law degree at Rutgers University. Frank began his career in public service in Long Branch where he was elected to City Council and later to the State Senate",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Member of Long Branch City Council (1982-1988), Member of New Jersey Senate from 11th district (1984-1988)",
+          "source_url": "https://en.wikipedia.org/wiki/Frank_Pallone",
+          "snippet": "Before being elected to the House, he was a member of the Long Branch City Council from 1982 to 1988. [ 3 ] Pallone was a member of the New Jersey Senate from the 11th district from 1984 to 1988.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075741.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T19:58:13.133Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 579,
+        "bills_cosponsored": 6722,
+        "bills_became_law": 12,
+        "enacted_laws": [
+          {
+            "title": "HEARTS Act of 2024",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "6829",
+            "publicLawNumber": "118-176",
+            "summary": "Cardiomyopathy Health Education, Awareness, and Research, and AED Training in the Schools Act of 2024 or the HEARTS Act of 2024 This act&nbsp;establishes a series of programs and requirements relating to cardiomyopathy. (Cardiomyopathy refers to a collection of diverse conditions of the heart muscle that can affect the ability of the heart to pump blood.) Specifically, the Department of Health and Human Services must disseminate information about cardiomyopathy and the use of automated external defibrillators (AEDs) to certain school professionals, families, and others, and it must develop specified risk assessment tools for cardiomyopathy. In addition, the Centers for Disease Control and Prevention must report on certain research and surveillance activities, and the National Institutes of Health must report on its research relating to cardiomyopathy.&nbsp; The act&nbsp;also establishes a grant program to provide cardiopulmonary resuscitation (CPR) training and AEDs in public schools.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ176"
+          },
+          {
+            "title": "Secure and Trusted Communications Networks Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "4998",
+            "publicLawNumber": "116-124",
+            "summary": "Secure and Trusted Communications Networks Act of 2019 This bill establishes (1) a mechanism to prevent communications equipment or services that pose a national security risk from entering U.S. networks, and (2) a program to remove any such equipment or services currently used in U.S. networks. Specifically, the bill prohibits the use of certain federal funds to obtain communications equipment or services from a company that poses a national security risk to U.S. communications networks. The Federal Communications Commission (FCC) must publish and maintain a list of such equipment or services. Each communications provider must submit an annual report to the FCC regarding whether it has purchased, rented, leased, or otherwise obtained any prohibited equipment and, if so, provide a detailed justification for such action. The bill also establishes the Secure and Trusted Communications Networks Reimbursement Program to supply small communications providers (i.e., providers with 2 million or fewer customers) with funds to offset the cost of removing prohibited equipment or services from their networks and replacing it with more secure communications equipment or services. In addition, the National Telecommunications and Information Administration must establish a program to share information regarding supply chain security risks with trusted communications providers and suppliers.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ124"
+          },
+          {
+            "title": "Sudden Unexpected Death Data Enhancement and Awareness Act",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "669",
+            "publicLawNumber": "113-236",
+            "summary": "(This measure has not been amended since it was passed by the Senate on November 20, 2014. The summary of that version is repeated here.) Sudden Unexpected Death Data Enhancement and Awareness Act - (Sec. 2) Requires the Secretary of Health and Human Services (HHS) to continue and report on activities related to stillbirth, sudden unexpected infant death, and sudden unexplained death in childhood, including collaborating with states and experts to improve the quality and consistency of data collected after one of these deaths.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ236"
+          },
+          {
+            "title": "Medicaid Extenders Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "259",
+            "publicLawNumber": "116-3",
+            "summary": "Medicaid Extenders Act of 2019 This bill alters several Medicaid programs and funding mechanisms. (Sec. 2) The bill makes appropriations for FY2019 for, and otherwise revises, the Money Follows the Person Rebalancing Demonstration Program. (Under this program, the Centers for Medicare &amp; Medicaid Services may award grants to state Medicaid programs to assist states in increasing the use of home and community care for long-term care and decreasing the use of institutional care.) (Sec. 3) Additionally, the bill temporarily extends the applicability of Medicaid eligibility criteria that protect against spousal impoverishment for recipients of home and community-based services. (Sec. 4) The bill reduces the federal medical assistance percentage (i.e., federal matching rate) for states that have not implemented asset-verification programs for determining Medicaid eligibility. (Sec. 5) The bill also reduces funding available to the Medicaid Improvement Fund beginning in FY2021.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ3"
+          },
+          {
+            "title": "To revise the boundaries of certain John H. Chafee Coastal Barrier Resources System units in New Jersey.",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "6400",
+            "publicLawNumber": "114-314",
+            "summary": "(This measure has not been amended since it was introduced. The expanded summary of the House passed version is repeated here.) (Sec. 1) This bill modifies certain boundaries of the John H. Chafee Coastal Barrier Resources System Units located in Middlesex and Monmouth Counties, New Jersey.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ314"
+          },
+          {
+            "title": "Microbead-Free Waters Act of 2015",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "1321",
+            "publicLawNumber": "114-114",
+            "summary": "(This measure has not been amended since it was reported to the House on December 7, 2015. The summary of the House passed version is repeated here.) Microbead-Free Waters Act of 2015 (Sec. 2) This bill amends the Federal Food, Drug, and Cosmetic Act to ban rinse-off cosmetics that contain intentionally-added plastic microbeads beginning on January 1, 2018, and to ban manufacturing of these cosmetics beginning on July 1, 2017. These bans are delayed by one year for cosmetics that are over-the-counter drugs.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ114"
+          },
+          {
+            "title": "To exclude an external power supply for certain security or life safety alarms and surveillance system components from the application of certain energy efficiency standards under the Energy Policy and Conservation Act.",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "5470",
+            "publicLawNumber": "111-360",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Amends the Energy Policy and Conservation Act (EPCA) to exempt from the applicability of No-Load Mode energy efficiency standards an external power supply manufactured before July 1, 2017, that: (1) is an AC-to-AC external power supply; (2) has a nameplate output of 20 watts or more; (3) is certified by the Secretary of Energy (DOE) as being designed to be connected to a security or life safety alarm or surveillance system component; and (4) is permanently marked with a distinguishing mark established within the External Power Supply International Efficiency Marking Protocol for Single Voltage External AC-DC and AC-AC Power Supplies. Defines a &quot;security or life safety alarm or surveillance system&quot; as equipment designed and marketed to, on a continuous basis: (1) monitor, detect, record, or provide notification of intrusion or access to real property or physical assets or notification of threats to life safety; (2) deter or control access to real property or physical assets or to prevent the unauthorized removal of physical assets; or (3) monitor, detect, record, or provide notification of fire, gas, smoke, flooding, or other physical threats to real property, physical assets, or life safety. Directs the Secretary to: (1) require, with appropriate safeguard for the protection of confidential business information, the submission of unit shipment data on an annual basis; and (2) restrict the eligibility of external power supplies for the exemption provided on a finding that a substantial number of external power supplies are being marketed to or installed in applications other than security or life safety alarm or surveillance systems.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ360"
+          },
+          {
+            "title": "Children's Health Insurance Program Reauthorization Act of 2009",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "2",
+            "publicLawNumber": "111-3",
+            "summary": "Children's Health Insurance Program Reauthorization Act of 2009 - (Sec. 3) Makes the amendments made by this Act effective on April 1, 2009, regardless of whether final regulations have been promulgated to carry them out. Allows certain state plans under titles XIX (Medicaid) or XXI (State Children's Health Insurance Program) (SCHIP, referred to in this Act as CHIP) of the Social Security Act (SSA) that require state legislation to meet additional requirements imposed by this Act additional time to make required plan changes. Provides for coordination of CHIP funding for FY2009. Title I: Financing - Subtitle A: Funding - (Sec. 101) Amends SSA title XXI to reauthorize the CHIP program through FY2013 at increased levels. (Sec. 102) Provides for the determination of allotments for the 50 states, the District of Columbia, and the commonwealths and territories for FY2009-FY2013. (Sec. 103) Establishes in the Treasury the Child Enrollment Contingency Fund for payments to a state to eliminate its shortfall (the amount by which its available federal CHIP allotments are not adequate to cover its CHIP expenditures). (Sec. 104) Directs the Secretary of Health and Human Services to make a performance bonus payment to states to offset additional Medicaid and CHIP child enrollment costs resulting from enrollment and retention efforts. Limits the use of such payments to reducing the number of low-income children who do not have health insurance coverage in the state. Makes appropriations for FY2009 for such payments. Requires certain funds transfers to cover FY2009-FY2013. (Sec. 105) Reduces the availability of allotments for FY2009 and each ensuing fiscal year from three to two years. (Sec. 106) Amends SSA title XXI to require redistribution of unused allotments to states with funding shortfalls for fiscal years beginning with FY2007. Revises requirements for the redistribution of unused allotments for FY2006. (Sec. 107) Allows qualifying states the option to receive the enhanced portion of the CHIP matching rate for Medicaid coverage of certain children. Repeals the March 31, 2009, termination date of (thus making permanent) the authority for a state to use certain funds to pay for medical assistance to individuals under age 19 whose family income exceeds 150% of the poverty line. (Sec. 108) Makes a one-time appropriation of additional funds to the Secretary of Health and Human Services for FY2013. (Sec. 109) Revises funding requirements for the territories under CHIP and Medicaid for FY2009-FY2013. Removes federal matching payments for data reporting systems from the overall limit on payments to Puerto Rico, the Virgin Islands, Guam, the Northern Mariana Islands, and American Samoa. Directs the Comptroller General to report to the appropriate congressional committees on federal funding under Medicaid and CHIP for such territories. Subtitle B: Focus on Low-Income Children and Pregnant Women - (Sec. 111) Gives states the option to cover targeted low-income pregnant women under CHIP through a state plan amendment if certain conditions are met, including that the state has established an income eligibility level of at least 185% of the federal poverty line for pregnant women under Medicaid. Sets the minimum income eligibility level for children under age 19 at 200% of the poverty line applicable to a family of the size involved. Provides for automatic enrollment for children born to women receiving pregnancy-related assistance. (Sec. 112) Provides for phase-out of CHIP coverage for nonpregnant childless adults, leaving states an option to apply for a Medicaid waiver to continue coverage for such adults. Requires extension of an expiring waiver at state request, but only through calendar 2009 and only for childless adults who were covered through that year. Prescribes terms and conditions for coverage of parents of targeted low-income children. Directs the Comptroller General to study and report to Congress on whether: (1) the coverage of a parent, a caretaker relative, or a legal guardian of a targeted low-income child under a state CHIP health plan increases the enrollment of, or the quality of care for, children; and (2) such parents, relatives, and legal guardians who enroll in such a plan are more likely to enroll their children in such a plan or in a state Medicaid plan. (Sec. 113) Eliminates counting Medicaid child presumptive eligibility costs against CHIP allotment. (Sec. 114) Limits the matching rate for states that propose to cover children with effective family income that exceeds 300% of the poverty line. Exempts from this denial (grandfathers) any state that already has an approved state plan amendment or waiver to provide such expenditures. (Sec. 115) Allows the Secretary, at state option, to provide the state with the federal medical assistance percentage determined for the state for Medicaid with respect to certain expenditures or otherwise made to provide medical assistance under Medicaid to a child who could be covered by the state under CHIP. Allows a state to cover: (1) certain individuals and thereby receive federal financial participation for medical assistance for them under Medicaid; or (2) receive such federal financial participation for children made eligible as a result of an income or resource eligibility level expansion. Title II: Outreach and Enrollment - Subtitle A: Outreach and Enrollment Activities - (Sec. 201) Amends SSA title XXI to direct the Secretary to award grants during FY2009-FY2013 for outreach and enrollment efforts to increase the enrollment and participation of eligible children under CHIP and Medicaid. Makes appropriations for FY2009-FY2013. Directs the Secretary to develop and implement a national enrollment campaign to improve the enrollment of underserved child populations in CHIP and Medicaid programs. Allows payments under CHIP and Medicaid for translation or interpreting services in connection with the enrollment of, retention of, and use of services by, individuals for whom English is not their primary language. (Sec. 202) Amends SSA title XI to provide for increased outreach and enrollment of Indians in CHIP and Medicaid. Waives the 10% cap on CHIP payments for outreach with respect to any expenditures for outreach activities to families of Indian children likely to be eligible for child health assistance under the state Medicaid plan or related waivers. (Sec. 203) Authorizes a state plan under the Medicaid and CHIP programs to rely on findings from an Express Lane agency to conduct simplified eligibility determinations. Amends SSA title XIX to authorize a federal or state agency or private entity in possession of the sources of data directly relevant for Medicaid eligibility determination (including eligibility files maintained by an Express Lane agency) to convey such information to the state Medicaid agency, if such conveyance meets specified requirements. Prescribes civil and criminal penalties for improper disclosure of such information. Directs the Secretary to enter into agreements necessary to permit a state that elects the Express Lane option to receive data directly relevant to determining eligibility and the correct amount of benefits under CHIP or Medicaid from: (1) the National Directory of New Hires; and (2) data regarding enrollment in insurance that may help to facilitate outreach and enrollment under the state Medicaid and CHIP plans and such other programs as the Secretary may specify. Subtitle B: Reducing Barriers to Enrollment - (Sec. 211) Gives states the option, as an alternative to the current documentation requirement, to verify a declaration of U.S. citizenship or nationality for purposes of Medicaid or CHIP eligibility through verification of a name and Social Security number with the Commissioner of Social Security. Prescribes a procedure for investigating any inconsistency between the name and number presented and the name and number in the records maintained by the Commissioner. Applies such documentation requirements to CHIP. Makes appropriations to the Commissioner of Social Security to carry out such responsibilities. (Sec. 212) Requires state child health insurance plans to describe procedures used to reduce administrative barriers to enrollment of children and eligible pregnant women under Medicaid or CHIP. (Sec. 213) Requires the Secretary, in order to assure continuity of coverage, to develop a model process for the coordination of the enrollment, retention, and coverage under Medicaid and CHIP of children who frequently change their state of residency or otherwise are temporarily located outside of their state of residency. (Sec. 214) Permits states to waive certain restrictions which result in a five-year delay for coverage of necessary health services for children and women residing lawfully in the United States under the Medicaid program and CHIP. Title III: Reducing Barriers to Providing Premium Assistance - Subtitle A: Additional State Option for Providing Premium Assistance - (Sec. 301) Gives states the option to provide a premium assistance subsidy for qualified employer-sponsored coverage to all targeted low-income children eligible for CHIP who have access to such coverage, if the child (or the child's parent) voluntarily elects to receive such a subsidy. Allows employers to opt-out of being paid the subsidy directly, in which event the state shall pay the employee. Amends SSA title XIX to allow a state to elect to offer a similar voluntary premium assistance subsidy for qualified employer-sponsored coverage to all individuals under age 19 entitled to Medicaid. Directs the Comptroller General to study and report to Congress on cost and coverage issues relating to any state premium assistance programs for which federal Medicaid and CHIP matching payments are made. (Sec. 302) Requires state CHIP plans to describe procedures in place to provide outreach, education, and enrollment assistance for families of children likely to be eligible for premium assistance subsidies under CHIP. Waives the 10% cap on CHIP payments for outreach activities to families of children likely to be eligible for premium assistance payments under the state child health plan or related waivers. Subtitle B: Coordinating Premium Assistance With Private Coverage - (Sec. 311) Amends the Internal Revenue Code to require a group health plan to permit an employee who is eligible, but not enrolled, for coverage under the plan to enroll if either of the following conditions are met: (1) the employee or dependent covered under Medicaid or CHIP has coverage terminated as a result of loss of eligibility, and the employee requests coverage under the group health plan within 60 days after such termination; or (2) the employee or dependent becomes eligible for Medicaid or CHIP assistance if the employee requests coverage within 60 days after the eligibility determination date. Directs the Secretary and the Secretary of Labor jointly to establish a Medicaid, CHIP, and Employer-Sponsored Coverage Coordination Working Group to: (1) develop the model coverage disclosure form; and (2) identify impediments to the effective coordination of coverage available to families. Title IV: Strengthening Quality of Care And Health Outcomes of Children - (Sec. 401) Amends SSA title XI to direct the Secretary to identify and publish for general comment an initial, recommended core set of child health quality measures for use by state Medicaid and CHIP programs, health insurance issuers and managed care entities that contract with such programs, and item and service providers. Directs the Secretary to identify existing quality of care measures for children that are: (1) in use under public and privately sponsored health care arrangements; or (2) part of reporting systems that measure both the presence and duration of health insurance coverage over time. Directs the Secretary to establish a pediatric quality measures program to improve and strengthen such initial core child health care quality measures. Directs the Secretary to award: (1) grants and contracts for the development, testing, and validation of new, emerging, and innovative evidence-based measures for children's health care services; and (2) up to 10 grants to states and child health providers for demonstration projects to evaluate promising ideas for improving the quality of children's health care and the use of health information technology. Specifies funding. Directs the Secretary to conduct a childhood obesity demonstration project. Authorizes appropriations for FY2008-FY2012. Directs the Secretary to establish a program to encourage the development and dissemination of a model electronic health record format for children enrolled in a state Medicaid or CHIP plan. Requires the Institute of Medicine to study and report to Congress on pediatric health and health care quality measures. Makes FY2009-FY2013 appropriations to carry out this section. Increases the matching rate for collecting and reporting on child health measures. (Sec. 402) Specifies the information each state must cover in its annual CHIP report to the Secretary, including eligibility criteria, enrollment, and retention data. Requires the Comptroller General to study and report to the appropriate congressional committees on children's access to primary and specialty services under Medicaid and CHIP. (Sec. 403) Requires a state child health plan to provide for application of certain managed care quality safeguards to CHIP coverage, state agencies, enrollment brokers, managed care entities, and managed care organizations in the same manner such safeguards are applied under the Medicaid program. Title V: Improving Access to Benefits - (Sec. 501) Requires the child health assistance provided to a targeted low-income child to include coverage of dental services necessary to prevent disease and promote oral health, restore oral structures to health and function, and treat emergency conditions. Gives states with a separate CHIP program the option to provide dental-only supplemental coverage for any child enrolled in a group health plan or employer-offered health insurance coverage who would otherwise satisfy the requirements for a targeted low-income child under a state child health plan. Allows a state child health plan, at state option, to waive a waiting period for a child provided dental-only supplemental coverage. Requires the Secretary to develop, through entities that fund or provide prenatal care services to targeted low-income children under CHIP, a program to deliver oral health educational materials that inform new parents about risks for, and prevention of, early childhood caries and the need for a dental visit within their newborn's first year of life. Directs the Secretary to work with states, pediatric dentists, and other dental providers to include on the Insure Kids Now website (http://www.insurekidsnow.gov/) and hotline (1-877-KIDS-NOW) a current and accurate list, updated quarterly, of all such dentists and providers within each state that provide dental services to children enrolled in the state plan (or waiver) under Medicaid or CHIP, together (on the website) with a description of the services. Directs the Comptroller General to study and report to Congress on children's access to dental services in underserved areas and to oral health care. (Sec. 502) Provides for the parity of mental health services in CHIP plans with all covered medical and surgical benefits. (Sec. 503) Applies the prospective payment system (PPS) to services provided by federally-qualified health centers (FQHCs) and rural health clinics. (Sec. 504) Requires a state child health plan to afford individuals enrolled under it a grace period of at least 30 days from beginning of a new coverage period to make premium payments before the individual's coverage under the plan may be terminated. (Sec. 505) Provides that nothing in SSA title XXI shall be construed as limiting a state's ability to provide child health assistance for covered items and services that are furnished through school-based health centers. (Sec. 506) Establishes the Medicaid and CHIP Payment and Access Commission (MACPAC) to: (1) review policies of Medicaid and CHIP affecting children's access to covered items and services; and (2) report and make recommendations to Congress concerning them. Authorizes appropriations. Title VI: Program Integrity and Other Miscellaneous Provisions - Subtitle A: Program Integrity and Data Collection - (Sec. 601) Applies a minimum FMAP of 90% to expenditures related to administration of payment error rate measurement (PERM) requirements applicable to CHIP. Waives the 10% cap on CHIP administrative costs for all expenditures related to the administration of PERM requirements. Prohibits the Secretary from calculating or publishing any national or state-specific error rate based on the application of PERM requirements to CHIP until after a final rule implementing such requirements is in effect for all states. Specifies requirements for any calculation of a national error rate or a state specific error rate after such a final rule is in effect for all states. Requires the final rule implementing the PERM requirements to include: (1) clearly defined criteria for errors for both states and providers; (2) a clearly defined process for appealing error determinations by review contractors or specified agency and personnel; and (3) clearly defined responsibilities and deadlines for states in implementing any corrective action plans. Directs the Secretary to review the Medicaid Eligibility Quality Control (MEQC) requirements with PERM requirements and coordinate consistent implementation of both sets of requirements, while reducing redundancies. Prescribes requirements for a state option to substitute data resulting from the application of the PERM requirements to the state for data obtained from the application of MEQC requirements to the state, and vice versa, for specified purposes. Directs the Secretary to establish state-specific sample sizes for application of the PERM requirements with respect to state child health plans beginning with FY2009. (Sec. 602) Appropriates increased amounts for FY2009 for data collection regarding low-income children without health insurance coverage. Requires the Secretary of Commerce, among other things, to make appropriate adjustments to the Current Population Survey (CPA) to: (1) develop more accurate state-specific estimates of the number of children enrolled under Medicaid; and (2) include health insurance survey information in the American Community Survey (ACS) related to children. Authorizes the Secretary to transition to the use of all, or some combination of, ACS estimates, instead of the CPS, if the Secretary of Commerce so recommends. (Sec. 603) Directs the Secretary, directly or through contracts or interagency agreements, to conduct an independent subsequent evaluation of 10 states with approved child health plans. Makes FY2009 appropriations for such evaluation. (Sec. 604) Revises requirements for audits of state CHIP programs. Declares that the Comptroller General (as well as the Secretary and the Office of Inspector General), for evaluation and audit purposes, shall have access to any books, accounts, and other documents related to the expenditure of federal CHIP funds that are in state or local government, grantee, or contractor possession, custody, or control. (Sec. 605) Declares that: (1) nothing in this Act allows federal payment for individuals who are not lawfully residing in the United States; and (2) SSA titles XI, XIX (Medicaid), and XXI (CHIP) provide for the disallowance of federal financial participation for erroneous expenditures under Medicaid and under CHIP, respectively. Subtitle B: Miscellaneous Health Provisions - (Sec. 611) Amends the Deficit Reduction Act of 2005 to make a technical amendment to the requirement to provide early and periodic screening, diagnostic, and treatment (EPSDT) services for all children in benchmark benefit packages. (Sec. 612) Amends the Medicare, Medicaid, and SCHIP Balanced Budget Refinement Act of 1999 to repeal the requirement that the Secretary refer to CHIP as SCHIP or the state children's health insurance program. (Sec. 613) Prohibits the Secretary from approving any new health opportunity account demonstration programs. (Sec. 614) Provides that, only for purposes of computing the FMAP for a state for a fiscal year, beginning with FY2006, and applying it under Medicaid, any significantly disproportionate employer pension or insurance fund contribution shall be disregarded in computing the state's per capita income, but shall not be disregarded in computing the per capita income for the continental United States (and Alaska) and Hawaii. Prohibits any state from having its FMAP reduced as a result of the application of this section. Directs the Secretary to report to Congress on: (1) the problems presented by the current treatment of pension and insurance fund contributions in the use of Bureau of Economic Affairs calculations for the FMAP and for Medicaid; and (2) possible alternative methodologies to mitigate such problems. (Sec. 615) Provides that nothing in the prohibition on use of voluntary contributions, and the limitation on use of provider-specific taxes to obtain federal financial participation under Medicaid, shall be construed by the Secretary as prohibiting a state's use of funds as the nonfederal share of Medicaid expenditures where such funds are transferred from or certified by a publicly-owned regional medical center located in another state, so long as the Secretary determines that such use is proper and in the interest of the Medicaid program. (Sec. 616) Amends SSA title XIX, as amended by the Medicare Improvements for Patients and Providers Act of 2008, to extend the Medicaid disproportionate share hospital (DSH) allotments for Hawaii and Tennessee. (Sec. 617) Directs the Comptroller General to report to Congress on the extent to which state payment rates for Medicaid managed care organizations under Medicaid are actuarially sound. Subtitle C: Other Provisions - (Sec. 621) Establishes a task force to conduct a nationwide campaign of education and outreach for small business concerns regarding the availability of coverage for children through private insurance options, the Medicaid program, and CHIP. (Sec. 622) Expresses the sense of the Senate that it: (1) recognizes the necessity to improve affordability and access to health insurance for all Americans; (2) acknowledges the value of building upon the existing private health insurance market; and (3) affirms its intent to enact legislation this year that, with appropriate consumer protections, improves access to affordable and meaningful health insurance coverage for employees of small business and individuals. Title VII: Revenue Provisions - (Sec. 701) Amends the Internal Revenue Code to increase excise tax rates on cigars, cigarettes, cigarette papers and tubes, smokeless tobacco, pipe tobacco, and roll-your-own tobacco. Imposes a tax on floor stocks of tobacco products (other than certain cigars and cigarette papers and tubes), reduced by a $500 tax credit. Requires payment of such floor stock taxes on or before August 1, 2009. Extends the floor stock tax to articles located in a foreign trade zone on any tax increase date. (Sec. 702) Applies administrative tax law provisions relating to permits, inventories, reporting, and recordkeeping to manufacturers and importers of processed tobacco (i.e., any tobacco other than tobacco products). Expands the authority of the Secretary of the Treasury to deny, suspend, or revoke permits for manufacturing or importing tobacco products. Revises the definition of &quot;roll-your-own tobacco&quot; to include cigars or cigar wrappers. Amends the Tariff Act of 1930 to apply limitation periods for assessment of tax under the Internal Revenue Code to alcohol and tobacco excise taxes. Imposes an immediate excise tax on any tobacco products, cigarette paper, or tubes produced in the United States at any place other than the premises of a lawful manufacturer of such products. (Sec. 703) Directs the Secretary of the Treasury to study and report to Congress on: (1) the magnitude of tobacco smuggling in the United States; and (2) any recommendations for the most effective steps to reduce it. (Sec. 704) Amends the Tax Increase Prevention and Reconciliation Act of 2005 to increase by 0.5% the amount of any required installment of corporate estimated tax otherwise due in July, August, or September 2013.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ3"
+          },
+          {
+            "title": "To amend the Federal Food, Drug, and Cosmetic Act to revise and extend the animal drug user fee program, to establish a program of fees relating to generic new animal drugs, to make certain technical corrections to the Food and Drug Administration Amendments Act of 2007, and for other purposes.",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "6432",
+            "publicLawNumber": "110-316",
+            "summary": "(This measure has not been amended since it was passed by the House on July 30, 2008. The summary of that version is repeated here.) Title I: Animal Drug User Fee Amendments - Animal Drug User Fee Amendments of 2008 - (Sec. 102) Amends the Federal Food, Drug, and Cosmetic Act to revise definitions, including defining the &quot;process for the review of animal drug applications&quot; to include the review of advertising and labeling prior to an approval of an animal drug application or supplemental animal application after the animal drug has been approved. (Sec. 103) Requires the Secretary of Health and Human Services to assess 50% of the standard fee for a new animal drug application for a drug that combines active ingredients that have been approved separately. Sets forth the amount of revenue that animal drug application fees, supplemental and other animal drug application fees, product fees, establishment fees, and sponsor fees are to generate for FY2009-FY2013. (Sec. 104) Requires the Secretary to report to Congress and make publicly available information on: (1) progress toward the goal of expediting the animal drug development process and the review of animal drug applications; and (2) implementation of the authority for and use of animal drug fees. Sets forth a process for the Secretary to develop recommendations for the process of review of animal drug applications after FY2013. (Sec. 105) Requires the sponsor of any new animal drug that contains an antimicrobial active ingredient to annually report to the Secretary on the amount of each antimicrobial active ingredient in the drug that is sold or distributed for use in food-producing animals, including information on any distributor-labeled product. Authorizes the Secretary to share such information with the Antimicrobial Resistance Task Force. (Sec. 108) Terminates the authority to collect and assess animal drug fees on October 1, 2013. Terminates reporting requirements on January 31, 2014. Title II: Animal Generic Drug User Fee - Animal Generic Drug User Fee Act of 2008 - (Sec. 202) Amends the Federal Food, Drug, and Cosmetic Act to require the Secretary to assess and collect fees for an abbreviated application for a generic new animal drug, including application fees, product fees, and sponsor fees. Sets forth total revenue to be collected for each type of fee for FY2009-FY2013. Provides for fee adjustments. Requires the Secretary to establish such fees each fiscal year. Provides for fee waivers where the Secretary finds that the generic new animal drug is intended solely to provide for a minor use or minor species indication. Authorizes appropriations for FY2009-FY2013. (Sec. 203) Requires the Secretary to report to Congress and make publicly available information on: (1) progress toward the goal of expediting the generic new animal drug development process and the review of abbreviated applications for such drugs; and (2) the implementation of the authority for and use of generic new animal drug fees. Sets forth the process for developing recommendations to present to Congress for the review of abbreviated applications for generic new animal drugs after FY2013. (Sec. 204) Terminates the authority to assess and use generic new animal drug fees on October 1, 2013. Terminates reporting requirements on January 31, 2014. Title III: Technical Corrections to FDAAA - (Sec. 301) Amends the Federal Food, Drug, and Cosmetic Act to require that consideration of a citizen petition or a petition for a stay of agency action on a new drug application be separate and apart from review and approval of any such application. (Sec. 302) Amends the Public Health Service Act to make technical corrections to provisions related to the clinical trials data bank.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ316"
+          },
+          {
+            "title": "To provide a new effective date for the applicability of certain provisions of law to Public Law 105-331.",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "188",
+            "publicLawNumber": "110-3",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Revises the effective date for mandatory deposit in the Treasury as miscellaneous receipts of any amount derived from proceeds of the surcharge on the sale of the Thomas Alva Edison Commemorative Coin, under the Thomas Alva Edison Commemorative Coin Act, which remains unpaid to a designated recipient organization solely by reason of a specified matching fund requirement. Postpones the effective date of such requirement until July 1, 2007.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ3"
+          },
+          {
+            "title": "To provide for the relocation of certain facilities at the Gateway National Recreation Area, Sandy Hook, New Jersey, and for other purposes.",
+            "congress": 101,
+            "billType": "HR",
+            "billNumber": "2835",
+            "publicLawNumber": "101-108",
+            "summary": "Authorizes the Secretary of the Interior and the Secretary of Transportation to exchange certain real property in order to relocate and reconstruct a trailer court and to facilitate the construction of a marine sciences laboratory at the Gateway National Recreation Area, Sandy Hook, New Jersey. Authorizes appropriations.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-101publ108"
+          },
+          {
+            "title": "To designate the Post Office building located at 1601 Highway 35 in Middletown, New Jersey, as the \"Candace White United States Post Office\".",
+            "congress": 103,
+            "billType": "HR",
+            "billNumber": "4177",
+            "publicLawNumber": "103-342",
+            "summary": "Designates the Post Office building located at 1601 Highway 35 in Middletown, New Jersey, as the Candace White Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-103publ342"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.402,
+          "nominateDim2": -0.162,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/P000034"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 25.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/P000034"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Frank Pallone has been fighting for the people he is elected to represent since his first day in Congress. The 6th district encompasses most of Middlesex County, as well as the Bayshore and oceanfront areas of Monmouth County. Throughout his tenure in Congress, Frank’s legislative accomplishments have been focused on the protection and restoration of environmental resources, making health care more affordable and accessible, and helping to grow and strengthen our middle class.",
+        "source_url": "https://www.pallonefornewjersey.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:51:43.820Z"
+    }
+  ]
+}

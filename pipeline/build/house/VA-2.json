@@ -1,0 +1,890 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-17T00:37:47.742Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jennifer Kiggans, Elaine Luria, DeVinche Albritton, Makiba Gaines, and Bishop Staten are running in the general election for U.S. House Virginia District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.44
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.44
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989449392.83,
+        "perCapitaUsd": 41524.68
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "devinche-albritton",
+      "full_name": "ALBRITTON, DEVINCHE JAVON",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA02230",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "jennifer-kiggans",
+      "full_name": "KIGGANS, JENNIFER",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2VA02064",
+      "fec_status": "C",
+      "bioguide_id": "K000399",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5954338.07,
+        "totalSpent": 2608075.05,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 784111.87,
+          "largeDollar": 2203352.34,
+          "pac": 1250100.68,
+          "party": 5500,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1971-06-18",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "born in Tampa, Hillsborough County, Fla., June 18, 1971",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "birthplace": {
+          "value": "Tampa, Hillsborough County, Florida",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "born in Tampa, Hillsborough County, Fla., June 18, 1971",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "high_school": {
+          "value": "Bishop Moore Catholic High School, Orlando, Florida, 1989",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "graduated from Bishop Moore Catholic High School, Orlando, Fla., 1989",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "college": {
+          "value": "B.A. Boston University, Boston, Mass., 1993; B.S., Old Dominion University, Norfolk, Va., 2011; M.S. Vanderbilt University, Nashville, Tenn., 2012",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "B.A. Boston University, Boston, Mass., 1993; B.S., Old Dominion University, Norfolk, Va., 2011; M.S. Vanderbilt University, Nashville, Tenn., 2012",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "United States Navy, 1993-2003; nurse practitioner; adjunct faculty",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "United States Navy, 1993-2003; nurse practitioner; adjunct faculty",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Virginia state senate, 2020-2023",
+          "source_url": "https://history.house.gov/People/Listing/K/KIGGANS,-Jennifer-(K000399)/",
+          "snippet": "member of the Virginia state senate, 2020-2023",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "married to Steve",
+          "source_url": "https://jenforcongress.com/about/",
+          "snippet": "proud Navy wife to her husband and retired F/A-18 pilot Steve",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Inflation",
+          "value": "Cutting Inflation",
+          "snippet": "Cutting Inflation"
+        },
+        {
+          "topic": "Jobs and Economy",
+          "value": "Growing Jobs Building a Strong Economy",
+          "snippet": "Growing Jobs Building a Strong Economy"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Securing the Border",
+          "snippet": "Securing the Border"
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Supporting Law Enforcement",
+          "snippet": "Supporting Law Enforcement"
+        },
+        {
+          "topic": "National Security",
+          "value": "Prioritizing National Security",
+          "snippet": "Prioritizing National Security"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Delivering for Veterans",
+          "snippet": "Delivering for Veterans"
+        },
+        {
+          "topic": "Education",
+          "value": "Improving Education",
+          "snippet": "Improving Education"
+        }
+      ],
+      "platform_source_url": "https://jenforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T12:37:13.060Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 216,
+          "votesCast": 212,
+          "attendanceRate": 0.9814814814814815
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Oversight and Investigations",
+            "title": "Chairwoman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Cyber, Information Technologies, and Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Military Personnel",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 82,
+        "bills_cosponsored": 691,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Bolstering Ecosystems Against Coastal Harm Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "5490",
+            "publicLawNumber": "118-117",
+            "summary": "Bolstering Ecosystems Against Coastal Harm Act or the BEACH Act This act modifies the coastal areas belonging to the John H. Chafee Coastal Barrier Resources System (CBRS)&nbsp;and which are, therefore, ineligible to receive federal financial assistance for land development. It also expands exceptions to this restriction, establishes additional requirements for agencies administering&nbsp;the CBRS, and requires a study relating to coastal barrier ecosystems. Specifically, the act updates and replaces existing CBRS maps with maps&nbsp;recommended&nbsp;by the Fish and Wildlife Service (FWS) in a 2022 report to Congress titled John H. Chafee Coastal Barrier Resources System Hurricane Sandy Remapping Project.&nbsp; Affected coastal areas are located in 13 states: Connecticut, Delaware, Florida, Louisiana, Maryland, Massachusetts, New Hampshire, New Jersey, New York, North Carolina, Rhode Island, South Carolina, and Virginia. In addition,&nbsp;the act creates&nbsp;new exceptions to the limitation on federal financial assistance&nbsp;for certain (1) aquaculture operations (e.g., shellfish production)&nbsp;and (2) U.S. Army Corps of Engineers coastal storm risk management projects.&nbsp;The act also provides that&nbsp;insurable structures (i.e., walled and roofed buildings) that are on the ground in areas added to the CBRS within one year of enactment remain eligible for federal financial assistance.&nbsp; The act directs FWS&nbsp;to issue regulations&nbsp;requiring owners or lessors of real property in communities affected by the CBRS to disclose this information to prospective buyers or lessees. Additionally, the&nbsp;act provides that FWS shall develop and finalize guidance relating to the expenditure of federal&nbsp;funds in emergency situations that threaten life, land, and property immediately adjacent to a system unit. The act&nbsp;also generally requires agencies that are involved with the CBRS&nbsp;to revise or issue regulations or guidance as necessary within one year of enactment. Finally, the act directs FWS and the U.S. Geological Survey (USGS) to conduct a scientific evaluation of the dynamics of coastal barrier ecosystems. FWS and USGS must provide related recommendations for the CBRS to Congress.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ117"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.264,
+          "nominateDim2": 0.474,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/K000399"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 99.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/K000399"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jen Kiggans for Congress Bringing the Courage to Fight to Washington",
+        "source_url": "https://jenforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:08.705Z"
+    },
+    {
+      "slug": "elaine-luria",
+      "full_name": "LURIA, ELAINE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA02198",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4659795.3,
+        "totalSpent": 1077072.09,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 562196.37,
+          "largeDollar": 2816543.39,
+          "pac": 405442.31,
+          "party": 220.77,
+          "selfFunded": 8010.13
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-08-15",
+          "source_url": "https://www.wikidata.org/wiki/Q58323073",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Birmingham, Alabama",
+          "source_url": "https://www.wikidata.org/wiki/Q58323073",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Indian Springs School",
+          "source_url": "https://www.wikidata.org/wiki/Q58323073",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Indian Springs School (graduated 1993)",
+          "source_url": "https://en.wikipedia.org/wiki/Elaine_Luria",
+          "snippet": "Luria graduated from Indian Springs School in 1993.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Naval officer for 20 years (1997-2017), rose to rank of commander, operated nuclear reactors as an engineer, commanded Assault Craft Unit TWO (a combat-ready unit of 400 sailors) from 2014 until retirement in 2017; U.S. representative from Virginia's 2nd congressional district from January 3, 2019 to January 3, 2023",
+          "source_url": "https://en.wikipedia.org/wiki/Elaine_Luria",
+          "snippet": "Luria served as a naval officer for 20 years, operating nuclear reactors as an engineer, where she rose to the rank of commander . [ 10 ] Luria was among the first female American sailors to spend her entire career on combat ships . [ 11 ] She commanded Assault Craft Unit TWO , a combat-ready unit of 400 sailors, from 2014 until her retirement in 2017. [ 12 ] She held a Passover seder on an aircraft carrier after 9/11 . [ 13 ] U.S. House of Representatives [ edit source ] Elections [ edit source ] 2018 [ edit source ] See also: 2018 United States House of Representatives elections in Virginia § District 2 Luria ran for the United States House of Representatives in Virginia's 2nd congressional district . [ 14 ] In the June 10 Democratic primary, she garnered 62% of the vote, defeating Karen Mallard, who received 38%. [ 15 ] In the general election, Luria narrowly defeated Republican incumbent Scott Taylor with 51% of the vote to Taylor's 49%. [ 16 ] She carried six of the district's nine county-level jurisdictions, including all but one of the district's five independent cities. She also carried Taylor's hometown of Virginia Beach. [ 17 ] 2020 [ edit source ] See also: 2020 United States House of Representatives elections in Virginia § District 2 Luria ran for reelection. [ 18 ] She defeated Taylor in a rematch 52% to 46%. As in 2018, Luria carried six of the district's nine county-level jurisdictions, including all but one independent city. She was likely helped by Joe Biden carrying the district; [ 19 ] notably, Biden carried Virginia Beach, the first Democrat to do so since Lyndon Johnson 1964. [ 20 ] 2022 [ edit source ] See also: 2022 United States House of Representatives elections in Virginia § District 2 Luria ran for reelection in 2022. Facing a difficult path to victory as a Democrat in a competitive district, she focused her campaign on defense policy and refrained from highlighting Biden's $1.5 trillion Build Back Better spending plan, for which she voted. [ 21 ] Luria lost the election to state Senator Jen Kiggans . [ 22 ] 2026 [ edit source ] See also: 2026 United States House of Representatives elections in Virginia § District 2 In November 2025, Luria said she will again seek the Democratic nomination in Virginia's 2nd congressional district . [ 23 ] Tenure [ edit source ] Luria was sworn in on January 3, 2019.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of New Democrat Coalition and Problem Solvers Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Elaine_Luria",
+          "snippet": "Caucus memberships [ edit source ] New Democrat Coalition [ 55 ] Problem Solvers Caucus",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "geral-staten",
+      "full_name": "STATEN, GERAL DEFRANCE MR",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA02222",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Suffolk, Virginia",
+          "source_url": "https://ballotpedia.org/Bishop_Staten",
+          "snippet": "Bishop Staten was born in Suffolk, Virginia."
+        },
+        "high_school": {
+          "value": "Nansemond River High School",
+          "source_url": "https://ballotpedia.org/Bishop_Staten",
+          "snippet": "He earned a high school diploma from Nansemond River High School."
+        },
+        "employment_record": {
+          "value": "Civil servant",
+          "source_url": "https://ballotpedia.org/Bishop_Staten",
+          "snippet": "His career experience includes working as a civil servant."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "state": "NE",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-17T15:35:38.657Z",
+  "election_dates": {
+    "primaryDate": "2026-05-12",
+    "primarySourceUrl": "https://law.justia.com/codes/nebraska/chapter-32/statute-32-401/",
+    "primarySnippet": "32-401. Statewide primary election; when held; purposes. The statewide primary election shall be held on the first Tuesday after the second Monday in May in even-numbered years.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/nebraska/chapter-32/statute-32-403/",
+    "generalSnippet": "32-403. Statewide general election; when held. The statewide general election shall be held on the first Tuesday following the first Monday in November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Nebraska's constitution bars a convicted felon who hasn't been restored to civil rights from \"any office of trust or profit under the constitution or laws of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://law.justia.com/constitution/nebraska/c0115002000.html",
+    "snippet": "No person who is in default as collector and custodian of public money or property shall be eligible to any office of trust or profit under the constitution or laws of this state. No person convicted of a felony shall be eligible to any such office unless he shall have been restored to civil rights."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Nebraska%27s_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Mike Flood, Christopher Backemeyer, and Nik Sandman are running in the general election for U.S. House Nebraska District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.2
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 13.91
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 17.47
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.77
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1061.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1059.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1058.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1055.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1053.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1059.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1059.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1060.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1057.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1059.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1060.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1061.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1062.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1063.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1061
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1058.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1058.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1062.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1061.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1063.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1062.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1060.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1058
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1058.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1058.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1059.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1057.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1059.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1055.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1048.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1054.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1052.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1052.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1053.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1051.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1050
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1054.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1046.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1045.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1043.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1042.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1039
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5064571819.84,
+        "perCapitaUsd": 7799.75
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5442842703.64,
+        "perCapitaUsd": 8382.31
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6048899439.97,
+        "perCapitaUsd": 9315.67
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1967923
+      },
+      {
+        "year": "2023",
+        "population": 1978379
+      },
+      {
+        "year": "2024",
+        "population": 2005466
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69597
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74590
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 76376
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "christopher-backemeyer",
+      "full_name": "BACKEMEYER, CHRISTOPHER",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NE01143",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 592233.09,
+        "totalSpent": 301622.4,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 98457.18,
+          "largeDollar": 364456.45,
+          "pac": 25000,
+          "party": 0,
+          "selfFunded": 104319.44
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Lincoln",
+          "source_url": "https://backnebraska.com/",
+          "snippet": "Chris was born and raised in Lincoln",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Lincoln East High School",
+          "source_url": "https://backnebraska.com/",
+          "snippet": "A graduate of Lincoln East High School",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic/Cost of Living",
+          "value": "Fight for families and lower costs",
+          "snippet": "running for Congress to fight for families, lower costs, and build a better future for all"
+        },
+        {
+          "topic": "Opposition to Trump",
+          "value": "Stand up to Trump",
+          "snippet": "The courage to stand up to Trump"
+        },
+        {
+          "topic": "Government Reform",
+          "value": "Stop the chaos and end corruption",
+          "snippet": "Lower costs ★ Stop the chaos ★ End corruption"
+        }
+      ],
+      "platform_source_url": "https://backnebraska.com/",
+      "_platform_resolved_at": "2026-08-12T22:29:35.448Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=bb3ieSF-yg8",
+      "platform_video_title": "Economic Impact of War with Iran",
+      "platform_video_source_url": "https://backnebraska.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:27.660Z",
+      "bio_summary": {
+        "value": "Chris was born and raised in Lincoln, miles from where his great-great-grandparents homesteaded their family farms in Cass County. A graduate of Lincoln East High School, Chris learned from an early age that hard work isn’t optional, neighbors look out for each other, and community is everything.",
+        "source_url": "https://backnebraska.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:59.788Z"
+    },
+    {
+      "slug": "mike-flood",
+      "full_name": "FLOOD, MIKE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NE01118",
+      "fec_status": "C",
+      "bioguide_id": "F000474",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2368910.23,
+        "totalSpent": 1028941.19,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 36064.72,
+          "largeDollar": 1041553.35,
+          "pac": 1127179.44,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-02-23",
+          "source_url": "https://www.wikidata.org/wiki/Q6846855",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Omaha, Nebraska",
+          "source_url": "https://www.wikidata.org/wiki/Q6846855",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Notre Dame",
+          "source_url": "https://www.wikidata.org/wiki/Q6846855",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Mandi for 23 years",
+          "source_url": "https://mikefloodfornebraska.com/about/",
+          "snippet": "He and his wife of 23 years, Mandi, were married at St. Mary's Catholic Church in Norfolk.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "founded Flood Communications in 1999 and grew the company from one Norfolk radio station into a statewide network of fifteen radio stations and five TV stations",
+          "source_url": "https://mikefloodfornebraska.com/about/",
+          "snippet": "He founded Flood Communications in 1999 and grew the company from one Norfolk radio station into a statewide network of fifteen radio stations and five TV stations.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "high_school": {
+          "value": "Norfolk Catholic High School in Norfolk",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Flood_(politician)",
+          "snippet": "In 1993, he graduated from Norfolk Catholic High School in Norfolk.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of the Nebraska Legislature from the 19th district from 2005 to 2013 and 2021 to 2022, Speaker of the Nebraska Legislature from 2007 to 2013, U.S. representative for Nebraska's 1st congressional district since July 2022, member of the Republican Party",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Flood_(politician)",
+          "snippet": "Michael John Flood (born February 23, 1975) [ 2 ] is an American attorney, businessman, and politician serving as the U.S. representative for Nebraska's 1st congressional district since July 2022. [ 3 ] A member of the Republican Party , he previously served two stints as a member of the Nebraska Legislature from the 19th district, from 2005 to 2013 and 2021 to 2022. He served as speaker of the legislature from 2007 to 2013.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes",
+          "value": "Supports no tax on tips, overtime, and Social Security, and supported the largest tax cut in American history",
+          "snippet": "I ran for Congress promising to lower taxes, secure our border, and cut wasteful spending. I supported the largest tax cut in American history, passing No Tax on Tips, Overtime, and Social Security."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Voted to fund border security measures",
+          "snippet": "I voted to fund border security measures that have helped bring illegal border crossings to the lowest level in 50 years."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Supports cuts to wasteful government spending",
+          "snippet": "I ran for Congress promising to lower taxes, secure our border, and cut wasteful spending."
+        },
+        {
+          "topic": "Housing",
+          "value": "Wrote a bipartisan bill to make housing more affordable and attainable for Nebraska families",
+          "snippet": "I wrote a bipartisan bill to make housing more affordable and attainable for Nebraska families."
+        }
+      ],
+      "platform_source_url": "https://mikefloodfornebraska.com/",
+      "_platform_resolved_at": "2026-08-17T15:35:27.497Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 50,
+        "bills_cosponsored": 437,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.442,
+          "nominateDim2": 0.672,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/F000474"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 87.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/F000474"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I ran for Congress promising to lower taxes, secure our border, and cut wasteful spending. I supported the largest tax cut in American history, passing No Tax on Tips, Overtime, and Social Security. I voted to fund border security measures that have helped bring illegal border crossings to the lowest level in 50 years. Our deficit is shrinking because of cuts to wasteful government spending.",
+        "source_url": "https://mikefloodfornebraska.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:58.059Z"
+    }
+  ]
+}

@@ -1,0 +1,852 @@
+{
+  "state": "NJ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-17T01:37:20.176Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
+    "primarySnippet": "N.J.S.A. 19:2-1: Primary elections for delegates and alternates to national conventions of political parties and for the general election shall be held in each year on the Tuesday next after the first Monday in June between the hours of 6:00 A.M. and 8:00 P.M., Standard Time.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-3/",
+    "generalSnippet": "N.J.S.A. 19:2-3: General and special elections. The general election shall be held on the Tuesday next after the first Monday in November in each year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New Jersey has no blanket felony-disqualification rule for elective office; its only relevant statute permanently bars someone from future office only if they were convicted of an offense that involved or touched the specific state or local office they already held, and by its own text that bar reaches only offices \"under this State or any of its administrative or political subdivisions,\" not federal office",
+    "source_url": "https://law.justia.com/codes/new-jersey/title-2c/section-2c-51-2/",
+    "snippet": "N.J.S.A. 2C:51-2(d): \"In addition to the punishment prescribed for the offense, and the forfeiture set forth in subsection a. of N.J.S.2C:51-2, any person convicted of an offense involving or touching on his public office, position or employment shall be forever disqualified from holding any office or position of honor, trust or profit under this State or any of its administrative or political subdivisions.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/New_Jersey's_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Josh Gottheimer, Sean Kirrane, and Adam Rueda are running in the general election for U.S. House New Jersey District 5 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 15.15
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 16.18
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 18.09
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 14.22
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4387.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4387.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4386
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4378.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4375.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4384
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4380.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4375.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4373.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4373.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4369.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4377.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4379.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4391.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4380.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4377.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4377.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4374.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4375.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4370.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4369.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4365.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4350.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4348.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4359.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4351.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4349.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4350.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4345.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4340.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4342.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4333.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4328
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4337.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4324.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4317.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4322.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4310.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4288.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4303.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4301.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4298.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4379701476.45,
+        "perCapitaUsd": 5691.53
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4943641331.86,
+        "perCapitaUsd": 6424.38
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5167678412.51,
+        "perCapitaUsd": 6715.53
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 9261699
+      },
+      {
+        "year": "2023",
+        "population": 9290841
+      },
+      {
+        "year": "2024",
+        "population": 9500851
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 96346
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 99781
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 104294
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "josh-gottheimer",
+      "full_name": "GOTTHEIMER, JOSH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6NJ05171",
+      "fec_status": "C",
+      "bioguide_id": "G000583",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4765145.35,
+        "totalSpent": 12704563.59,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 20738.7,
+          "largeDollar": 3227117.25,
+          "pac": 882050.01,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-03-08",
+          "source_url": "https://www.wikidata.org/wiki/Q6288908",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "North Caldwell, New Jersey",
+          "source_url": "https://www.wikidata.org/wiki/Q6288908",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Harvard Law School",
+          "source_url": "https://www.wikidata.org/wiki/Q6288908",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "West Essex High School, graduated 1993",
+          "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
+          "snippet": "Gottheimer graduated from West Essex High School in 1993.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Speechwriter for Bill Clinton (1998-2001), adviser for Wesley Clark's 2004 presidential campaign, John Kerry's 2004 presidential campaign, and Hillary Clinton's 2008 presidential campaign, Ford Motor Company, executive vice president at Burson–Marsteller, Federal Communications Commission (2010-2012), strategist at Microsoft",
+          "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
+          "snippet": "Gottheimer joined the Clinton administration as a speechwriter in 1998, at age 23, [ 8 ] working in the administration until its end in 2001. While attending law school, he worked as an adviser for Wesley Clark's 2004 presidential campaign , John Kerry's 2004 presidential campaign , and Hillary Clinton's 2008 presidential campaign . [ 16 ] After the 2004 election, Gottheimer worked for the Ford Motor Company , then became an executive vice president at Burson–Marsteller . [ 8 ] From 2010 to 2012, he worked for the Federal Communications Commission , [ 17 ] where he led an initiative related to broadband internet. [ 18 ] He subsequently became a strategist at Microsoft .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of Alpha Epsilon Pi fraternity, master and president of the Interfraternity Council, member of Sphinx Senior Society at University of Pennsylvania",
+          "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
+          "snippet": "He was a member of the Alpha Epsilon Pi fraternity, master and president of the Interfraternity Council, a member of Sphinx Senior Society, and a University Scholar.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Marla Tusk on December 9, 2006",
+          "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
+          "snippet": "Spouse Marla Tusk ​ ( married&lt;/span>\"}]]}'>m. December 9, 2006&lt;/span>\"}]]}'>2006 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 220,
+          "votesCast": 211,
+          "attendanceRate": 0.9590909090909091
+        },
+        "committees": [
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Digital Assets, Financial Technology, and Artificial Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Defense Intelligence and Overhead Architecture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — National Security Agency and Cyber",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 211,
+        "bills_cosponsored": 3283,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Frank Leone Post Office Act",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "6428",
+            "publicLawNumber": "115-374",
+            "summary": "Frank Leone Post Office Act Designates the facility of the United States Postal Service located at 332 Ramapo Valley Road in Oakland, New Jersey, as the \"Frank Leone Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ374"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.165,
+          "nominateDim2": 0.217,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000583"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 99.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000583"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "sean-kirrane",
+      "full_name": "KIRRANE, SEAN JOSEPH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NJ05221",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 55656.34,
+        "totalSpent": 47622.4,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3603.34,
+          "largeDollar": 26999.43,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 25053.57
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Bergen Catholic High School (1995)",
+          "source_url": "https://www.ballotready.org/people/sean-kirrane",
+          "snippet": "High School Diploma, Bergen Catholic High School (1995)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Cortex, Co-Founder, Chief Executive Officer (2023 - Present); Arcadia Health Partners, Co-Founder & Chief Executive Officer (2019 - Present); The Kirrane Group, Managing Partner, Interim Executive & Strategic Advisor (2019 - Present); Avem Health Partners, President, Chief Executive Officer (2010 - 2019); Endurance, AVP, Global Treasury (2007 - 2010); Hudson United Bank, AVP, Investment Officer/Treasury Cash Manager (2000 - 2004)",
+          "source_url": "https://www.ballotready.org/people/sean-kirrane",
+          "snippet": "Cortex, Co-Founder, Chief Executive Officer (2023 - Present) Arcadia Health Partners, Co-Founder & Chief Executive Officer (2019 - Present) The Kirrane Group, Managing Partner, Interim Executive & Strategic Advisor (2019 - Present) Avem Health Partners, President, Chief Executive Officer (2010 - 2019) Endurance, AVP, Global Treasury (2007 - 2010) Hudson United Bank, AVP, Investment Officer/Treasury Cash Manager (2000 - 2004)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.seankirrane.com/about",
+          "snippet": "Sean and his wife have raised two wonderful children in New Jersey",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Saint Joseph's University (2000)",
+          "source_url": "https://www.ballotready.org/people/sean-kirrane",
+          "snippet": "Bachelor&#x27;s, Saint Joseph&#x27;s University (2000)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Transportation Infrastructure",
+          "value": "Fully fund Gateway Phase 2, including the Secaucus Loop, deliver a true one-seat ride into Manhattan, and replace outdated diesel trains with modern electric rail systems",
+          "snippet": "▶ Fully fund Gateway Phase 2, including the Secaucus Loop ▶ Deliver a true one-seat ride into Manhattan ▶ Replace outdated diesel trains with modern electric rail systems"
+        },
+        {
+          "topic": "Government Efficiency",
+          "value": "Capping administrative costs in federal programs at 10%, requiring annual audits and performance-based funding, and eliminating inefficiency the same way successful companies do",
+          "snippet": "▶ Capping administrative costs and streamline government operations ▶ Cap overhead in federal programs and demand measurable results ▶ Require annual audits and performance-based funding ▶ Eliminate inefficiency the same way successful companies do"
+        },
+        {
+          "topic": "Energy Policy",
+          "value": "Supports an all-of-the-above approach focused on affordability: expand domestic energy production, strengthen grid reliability, and encourage innovation to reduce long-term costs",
+          "snippet": "Sean supports an all-of-the-above approach focused on affordability: ▶ Expand domestic energy production ▶ Strengthen grid reliability ▶ Encourage innovation to reduce long-term costs"
+        },
+        {
+          "topic": "Israel & Public Safety",
+          "value": "Stand firmly with Israel and take strong action against antisemitism, stand with law enforcement to keep communities safe, promote unity and reject extremism, and strengthen intelligence-sharing and counterterrorism efforts",
+          "snippet": "▶ Stand firmly with Israel and take strong action against antisemitism ▶ Stand with law enforcement to keep our communities safe ▶ Promote unity and reject extremism ▶ Strengthen intelligence-sharing and counterterrorism efforts"
+        }
+      ],
+      "platform_source_url": "https://www.seankirrane.com/platform",
+      "_platform_resolved_at": "2026-08-17T01:37:14.166Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30027697.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T19:55:46.393Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "adam-rueda",
+      "full_name": "RUEDA, ADAM",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6NJ05247",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "New Jersey",
+          "source_url": "https://ballotpedia.org/Adam_Rueda",
+          "snippet": "Adam Rueda was born in New Jersey."
+        },
+        "high_school": {
+          "value": "Pope John XXIII Regional High School (Sparta, NJ)",
+          "source_url": "https://ballotpedia.org/Adam_Rueda",
+          "snippet": "Pope John XXIII Regional High School in Sparta."
+        },
+        "college": {
+          "value": "Bachelor's degree, Bucknell University (2019)",
+          "source_url": "https://ballotpedia.org/Adam_Rueda",
+          "snippet": "He earned a bachelor's degree from Bucknell University in 2019."
+        },
+        "employment_record": {
+          "value": "Senior Financial Analyst (commercial real estate brokerage, Morristown, NJ); Interior Design Salesperson (Short Hills and Manhattan); DJ (NYC and Brooklyn)",
+          "source_url": "https://ballotpedia.org/Adam_Rueda",
+          "snippet": "After graduation, I have gained life experience working as a Senior Financial Analyst at a commercial real estate brokerage in Morristown, as an Interior Design Salesperson in Short Hills & Manhattan, and as a DJ in NYC & Brooklyn."
+        },
+        "civic_affiliations": {
+          "value": "Vice President and Social Chair, Sigma Phi Epsilon fraternity (Bucknell University)",
+          "source_url": "https://ballotpedia.org/Adam_Rueda",
+          "snippet": "I was Vice President and Social Chair of my fraternity, Sigma Phi Epsilon"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072775.pdf",
+        "filingDate": "11/4/2025",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T19:55:51.305Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    }
+  ]
+}
