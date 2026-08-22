@@ -13,17 +13,31 @@ function apiKey(): string {
   return key;
 }
 
+// This endpoint returns EVERY member ever recorded for the state (all
+// historical Congresses), not just the current one, and defaults to a
+// 20-result page with no warning that more exist. Confirmed as a real,
+// previously-invisible bug: Florida alone has 131 total members, and a
+// single unpaginated call silently dropped Ashley Moody (a 2025 Senate
+// appointee) since she wasn't in the first 20 -- her `bioguideId` came
+// back null, which cascades into every congress.gov-sourced stat (votes,
+// attendance, committees, ideology score) silently showing nothing for a
+// genuinely sitting Senator. Paginated fully (not just bumped to a larger
+// fixed limit) since an older/more populous state's historical member
+// count could exceed any fixed page size.
 export async function getMembersByState(stateCode: string): Promise<MemberInfo[]> {
-  const url = `${CONGRESS_BASE}/member/${stateCode}?api_key=${apiKey()}&format=json`;
-  const res = await fetch(url);
-  if (!res.ok) return [];
-  const data = await res.json();
-  return (data.members as any[]).map((m) => ({
-    bioguideId: m.bioguideId,
-    name: m.name,
-    party: m.partyName ?? "",
-    imageUrl: m.depiction?.imageUrl ?? null,
-  }));
+  const members: MemberInfo[] = [];
+  let url: string | null = `${CONGRESS_BASE}/member/${stateCode}?api_key=${apiKey()}&format=json&limit=250`;
+  while (url) {
+    const res = await fetch(url);
+    if (!res.ok) break;
+    const data = await res.json();
+    for (const m of data.members as any[]) {
+      members.push({ bioguideId: m.bioguideId, name: m.name, party: m.partyName ?? "", imageUrl: m.depiction?.imageUrl ?? null });
+    }
+    const next = data.pagination?.next as string | undefined;
+    url = next ? `${next}&api_key=${apiKey()}` : null;
+  }
+  return members;
 }
 
 export async function getMember(bioguideId: string): Promise<MemberInfo | null> {
