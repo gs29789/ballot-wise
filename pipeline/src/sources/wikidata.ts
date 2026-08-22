@@ -37,10 +37,25 @@ async function searchCandidateEntities(name: string): Promise<string[]> {
   }
 }
 
-async function getEntity(qid: string): Promise<any> {
+export async function getEntity(qid: string): Promise<any> {
   try {
     const res = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`);
-    if (!res.ok) return null;
+    // A non-ok response (429 rate-limit, 5xx) used to return null here with
+    // zero logging — identical to "this entity genuinely doesn't exist,"
+    // the exact silent-failure shape this codebase has scar tissue over
+    // (see the Anthropic-credit-exhaustion incidents). Confirmed causing
+    // real damage under concurrency: bestCollegeClaim() walks a candidate's
+    // P69 claims calling this per claim, and enough parallel candidates
+    // (10 at once, each with several claims) hit Wikidata's rate limit hard
+    // enough that already-correct, already-published values (Harvard
+    // College, University of Wisconsin–Madison, Reed College) silently
+    // resolved to "no claim looks like a real college" and got wiped —
+    // caught before publishing only because the results were manually
+    // spot-checked, not because anything here would have surfaced it.
+    if (!res.ok) {
+      console.warn(`[wikidata] entity fetch for ${qid} returned HTTP ${res.status} — treating as unknown, NOT as "no data" (rate limit or transient error, not a real absence)`);
+      return null;
+    }
     const data = await res.json();
     return data.entities?.[qid] ?? null;
   } catch (err: any) {
@@ -68,7 +83,7 @@ const US_STATES = [
 // A bare place-name label ("Greenwich") is ambiguous — Wikidata's description
 // ("town in Fairfield County, Connecticut...") usually names the state, so
 // disambiguate by appending it when found rather than showing the name alone.
-async function getLabel(qid: string, disambiguateWithState = false): Promise<string | null> {
+export async function getLabel(qid: string, disambiguateWithState = false): Promise<string | null> {
   let entity: any;
   try {
     const res = await fetch(`https://www.wikidata.org/wiki/Special:EntityData/${qid}.json`);
@@ -108,7 +123,7 @@ function bestDateOfBirthClaim(claims: any): { time: string; precision: number } 
 
 const COUNTRY_UNITED_STATES = "Q30";
 
-function looksLikeAPolitician(claims: any): boolean {
+export function looksLikeAPolitician(claims: any): boolean {
   if (claims.P570) return false; // has a recorded date of death — can't be a 2026 candidate
 
   // A common American name/nickname combination can match a real politician
@@ -140,26 +155,47 @@ function looksLikeAPolitician(claims: any): boolean {
   return occupations.includes(OCCUPATION_POLITICIAN);
 }
 
-const SECONDARY_SCHOOL_TYPES = new Set([
-  "Q9826", // high school
-  "Q3249719", // middle school
-  "Q1244442", // elementary school
-]);
+// Matches an entity's own English description ("public university in...",
+// "college in...", "Public law school in...") against known higher-ed
+// institution types. Deliberately a POSITIVE allowlist, not a denylist of
+// non-college types — a denylist already proved incomplete twice on real
+// candidates: Rep. Mark Messmer's Purdue University claim was preceded by
+// a "high school" claim (caught fine), but Sen. Harriet Hageman's real
+// degrees (Casper College, University of Wyoming, its College of Law) were
+// preceded by a P69 claim for "Goshen County School District Number 1" —
+// a Wikidata type (school district) nobody had anticipated needing to
+// exclude, so it was accepted as her "college" on the very first claim
+// checked. A denylist only ever covers the K-12-adjacent types someone
+// already thought to list; a positive check for actual higher-ed language
+// in the description doesn't need to anticipate every non-college type in
+// advance. Bare "school" is deliberately excluded from the keyword list —
+// it would also match "school district" and "high school" again. Bare
+// "academy" is excluded for the same reason (Rep. Nick Begich's real HIGH
+// SCHOOL is "The Master's Academy") — "service academy" is included
+// instead, specific enough to mean one of the five federal military
+// academies (West Point's own description is literally "federal service
+// academy in West Point, New York") without matching a K-12 prep school.
+// "seminary" added after Rep.-candidate Lindsay James's real graduate
+// theology degree (Fuller Theological Seminary) was missed the same way.
+const HIGHER_ED_DESCRIPTION_KEYWORDS = /\b(university|college|law school|medical school|business school|graduate school|institute of technology|seminary|service academy)\b/i;
 
 // A person's "educated at" (P69) claims aren't ordered by education level —
 // array position is Wikidata edit-history order, not relevance. Confirmed on
 // Rep. Shontel Brown: index 0 was "John Adams High School" even though her
 // actual college (Wilberforce University) is also a P69 claim, just listed
 // later — naively taking [0] mislabeled a high school as her "college".
-// Walk the claims in order and skip any confirmed secondary school.
-async function bestCollegeClaim(claims: any): Promise<string | null> {
+// Walk the claims in order and skip any that don't look like higher ed. If
+// nothing in the list does, there's no real college claim to report —
+// falling back to the first (non-college) claim anyway would just repeat
+// the exact bug this function exists to avoid, so return null instead.
+export async function bestCollegeClaim(claims: any): Promise<string | null> {
   const qids: string[] = (claims.P69 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id).filter(Boolean);
   for (const qid of qids) {
     const entity = await getEntity(qid);
-    const instanceOf = (entity?.claims?.P31 ?? []).map((c: any) => c.mainsnak?.datavalue?.value?.id);
-    if (!instanceOf.some((t: string) => SECONDARY_SCHOOL_TYPES.has(t))) return qid;
+    const description: string = entity?.descriptions?.en?.value ?? "";
+    if (HIGHER_ED_DESCRIPTION_KEYWORDS.test(description)) return qid;
   }
-  return qids[0] ?? null;
+  return null;
 }
 
 // Common names collide (a minor local candidate can share a name with an
