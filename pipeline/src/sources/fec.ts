@@ -60,7 +60,39 @@ const REVERSED_FEC_NAMES: Record<string, string> = {
   H2NY01190: "LALOTA, NICK",
   H6KY06234: "BOWMAN, JAY J",
   H4AK00164: "HAFNER, ERIC",
+  // FL-13 incumbent Anna Paulina Luna's FEC record has her name entered as
+  // "PAULINA LUNA, ANNA" -- reversed relative to congress.gov's own
+  // "Luna, Anna Paulina", which silently broke the incumbent-to-bioguideId
+  // name match (build.ts's normalizeNameForMatch never found a "paulina
+  // luna" substring in "luna anna paulina"), zeroing out her entire
+  // congressional track record despite her being a genuinely sitting member.
+  H0FL13158: "LUNA, ANNA PAULINA",
+  // Not reversed -- two different name-mismatch shapes, same symptom (the
+  // incumbent-to-bioguideId match silently fails, zeroing out the whole
+  // congressional track record) and same fix (correct the string used for
+  // matching/display). MO-5's Emanuel Cleaver II: FEC's own suffix ("CLEAVER
+  // II") never appears in congress.gov's "Cleaver, Emanuel", which drops
+  // the suffix entirely. WA-3's Marie Gluesenkamp Perez: FEC treats
+  // "Gluesenkamp Perez" as one compound surname, but congress.gov splits it
+  // as "Perez, Marie Gluesenkamp" (Perez as the matched surname) -- neither
+  // is "wrong", they just don't line up as substrings of each other.
+  H4MO05234: "CLEAVER, EMANUEL",
+  H2WA03217: "PEREZ, MARIE GLUESENKAMP",
 };
+
+// A real candidate can hold two live, non-cycle-stale FEC registrations for
+// the very same race — confirmed on Gavin Solomon (DE Senate, 2026):
+// S6DE00248 and S6DE00255 share the exact same name and address (401 E 34th
+// Street, S11P, New York, NY 10016), both status 'N' with zero receipts.
+// Unlike the reversed-name case above, this can't be caught with a general
+// heuristic (nothing about either row looks individually wrong), and unlike
+// a primary-loser duplicate, `primaryResults.ts`'s narrowing can't fix this
+// either — that mechanism only applies once a primary has actually happened,
+// and this pair are both still pre-primary as of when this was found.
+// Excludes the later of the two filings (first_file_date 2026-07-13 vs.
+// 2026-07-10 for the kept ID) — arbitrary as between two otherwise-identical
+// registrations, but a real exclusion needs to pick one.
+const DUPLICATE_CANDIDATE_IDS = new Set(["S6DE00255"]);
 
 export async function searchCandidates(state: string, office: "H" | "S", cycle: number, district?: string): Promise<FecCandidate[]> {
   const districtParam = district ? `&district=${district}` : "";
@@ -69,7 +101,12 @@ export async function searchCandidates(state: string, office: "H" | "S", cycle: 
   if (!res.ok) throw new Error(`FEC candidates search failed: ${res.status}`);
   const data = await res.json();
   return (data.results as any[])
-    .filter((c) => ["C", "P", "N"].includes(c.candidate_status) && (c.election_years ?? []).includes(cycle))
+    .filter(
+      (c) =>
+        ["C", "P", "N"].includes(c.candidate_status) &&
+        (c.election_years ?? []).includes(cycle) &&
+        !DUPLICATE_CANDIDATE_IDS.has(c.candidate_id)
+    )
     .map((c) => ({
       candidateId: c.candidate_id,
       name: REVERSED_FEC_NAMES[c.candidate_id] ?? c.name,
