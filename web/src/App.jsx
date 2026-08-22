@@ -119,7 +119,7 @@ async function geocodeAddress(address) {
   if (match.ballotWiseRedistrictingUncertain) {
     const { state: uncertainState, countyName } = match.ballotWiseRedistrictingUncertain;
     const err = new Error(
-      `Your address is affected by redistricting: ${countyName} redrew its congressional districts for 2026, and this part of the county now spans more than one new district, so we can't yet confirm which one covers your specific address. You can find your new district through your county board of elections or your state's Secretary of State website, then enter it below to see your candidates.`
+      `We can't find your candidates because ${countyName} redrew its congressional districts for 2026, and your address now falls in an area that spans more than one new district. Call your county board of elections to get your new district number, then enter it below to see your candidates.`
     );
     // Lets the direct-entry fallback show an example in the voter's OWN
     // state ("FL-23") instead of a fixed one ("NC-04") that reads as a
@@ -269,7 +269,7 @@ function StateBackgroundCheckBanner({ field }) {
       <AlertTriangle size={16} color={isNo ? T.rep : T.success} style={{ flexShrink: 0, marginTop: 2 }} />
       <div style={{ fontSize: 12.5, color: T.ink }}>
         <strong>State-mandated background check: </strong>
-        <SourcedField field={field} />
+        <SourcedField field={field} maxLen={160} />
         <span style={{ color: T.inkSoft }}> — applies equally to every candidate in this race.</span>
       </div>
     </div>
@@ -686,7 +686,11 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
         <div style={{ fontSize: 12.5, color: T.inkSoft }}>
           {geo.stateName} · {geo.districtLabel}
           {race?.election_dates && (
-            <span> — Primary: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.primaryDate)}</strong> · General: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.generalDate)}</strong>
+            <span> —{" "}
+              {!race.primary_results && (
+                <>Primary: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.primaryDate)}</strong> · </>
+              )}
+              General Election Day: <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.generalDate)}</strong>
               {race.election_dates.runoffDate && (
                 <> · Runoff (if needed): <strong style={{ color: T.ink }}>{fmtElectionDate(race.election_dates.runoffDate)}</strong></>
               )}
@@ -822,10 +826,9 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       {/* PERSONAL DATA */}
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px 4px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 4px" }}>Personal Data</div>
-        <DetailRow label="Date of birth" candidates={candidates} render={(c) => c.bio?.date_of_birth ? <SourcedField field={c.bio.date_of_birth} /> : null} />
+        <DetailRow label="Background Summary" candidates={candidates} render={(c) => c.bio_summary ? <SourcedField field={c.bio_summary} maxLen={320} /> : null} />
         <DetailRow label="Born in" candidates={candidates} render={(c) => c.bio?.birthplace ? <SourcedField field={c.bio.birthplace} /> : null} />
         <DetailRow label="Marital status" candidates={candidates} render={(c) => c.bio?.marital_status ? <SourcedField field={c.bio.marital_status} /> : null} />
-        <DetailRow label="High school" candidates={candidates} render={(c) => c.bio?.high_school ? <SourcedField field={c.bio.high_school} /> : null} />
         <DetailRow label="College" candidates={candidates} render={(c) => c.bio?.college ? <SourcedField field={c.bio.college} /> : null} />
         <DetailRow label="Employment record" candidates={candidates} render={(c) => c.bio?.employment_record ? <SourcedField field={c.bio.employment_record} maxLen={70} /> : null} />
         <DetailRow label="Civic affiliations" candidates={candidates} render={(c) => c.bio?.civic_affiliations ? <SourcedField field={c.bio.civic_affiliations} maxLen={70} /> : null} />
@@ -1011,7 +1014,13 @@ function CandidateProfileView({ candidate, race, onBack }) {
 
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
-        {["date_of_birth", "birthplace", "high_school", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => {
+        <div style={{ padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          <div style={{ display: "grid", gridTemplateColumns: "220px 1fr" }}>
+            <div style={{ fontSize: 12.5, color: T.inkSoft }}>Background Summary</div>
+            <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={candidate.bio_summary} /></div>
+          </div>
+        </div>
+        {["birthplace", "college", "marital_status", "employment_record", "civic_affiliations"].map((key) => {
           const field = candidate.bio?.[key];
           return (
             <div key={key} style={{ padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>

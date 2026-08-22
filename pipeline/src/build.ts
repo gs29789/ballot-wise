@@ -11,6 +11,7 @@ import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
 import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
+import { extractBioSummaryFromSite } from "./sources/campaignBioSummary.js";
 import { getFinancialDisclosure, type FinancialDisclosureSummary } from "./sources/houseFinancialDisclosure.js";
 import { getIdeologyScore } from "./sources/voteview.js";
 import { getBridgeScore } from "./sources/bridgeGrades.js";
@@ -118,8 +119,22 @@ function slugify(fecName: string): string {
     .replace(/\s+/g, "-");
 }
 
+// Confirmed real: congress.gov lists CA-44's incumbent as "Barragán, Nanette
+// Diaz" (with an accented á) while FEC's own record spells it "BARRAGAN"
+// (plain ASCII) -- the old plain [^a-z\s] strip DELETES an unmatched
+// accented letter outright rather than transliterating it, turning
+// "barragán" into "barragn" (the á vanishes, closing the gap), which then
+// never contains "barragan" as a substring. NFD-normalizing first splits
+// each accented character into its base letter + a separate combining
+// mark, so stripping the marks converts "á" to a real "a" instead of
+// deleting it -- correct for any Latin-script name, not just this one case.
 function normalizeNameForMatch(name: string): string {
-  return name.toLowerCase().replace(/[^a-z\s]/g, "").trim();
+  return name
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase()
+    .replace(/[^a-z\s]/g, "")
+    .trim();
 }
 
 // Fills bio[field] from an LLM extraction result, but only for fields not
@@ -333,6 +348,9 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // work with again, even when it specifically is due for a recheck.
       const videoAlreadyResolved =
         Boolean(prevCand?.platform_video_url) && !isDueForRefresh(prevCand?._platform_video_resolved_at, c.candidateId);
+      // Same reasoning again, for the campaign-site bio-summary field.
+      const bioSummaryAlreadyResolved =
+        Boolean(prevCand?.bio_summary?.value) && !isDueForRefresh(prevCand?._bio_summary_resolved_at, c.candidateId);
 
       // Automated quote-anchored extraction (Claude) fills whatever fields
       // aren't already resolved — only runs when curated YAML and the last
@@ -379,7 +397,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // Everything in this block is skipped entirely once both bio and
       // platform are already resolved from the last published build —
       // see the comment above `bio` for why that matters beyond efficiency.
-      if (stillMissing() || !platformAlreadyResolved || !videoAlreadyResolved) {
+      if (stillMissing() || !platformAlreadyResolved || !videoAlreadyResolved || !bioSummaryAlreadyResolved) {
         // Structured Wikidata facts fill gaps only — curated (manually
         // quote-anchored) fields always take priority when both exist.
         let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
@@ -491,6 +509,21 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
             : Promise.resolve(null)
       );
 
+      // A single representative, verbatim excerpt from the candidate's own
+      // site introducing who they are — deliberately separate from bio[]
+      // above (which is also sourced from House Historian/Wikipedia, not
+      // just the campaign site) and from platform[] (their stated
+      // positions, not their personal background). "In their own words"
+      // framing, same posture as platform: presented as-is, not
+      // characterized by Ballot-Wise.
+      const prevBioSummary = prevCand?.bio_summary?.value ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url } : null;
+      const { value: bioSummary, resolvedAt: bioSummaryResolvedAt } = await resolveWithRefresh(
+        prevBioSummary,
+        prevCand?._bio_summary_resolved_at,
+        c.candidateId,
+        () => (campaignSiteUrl ? extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+      );
+
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
       let attendance: { votesInSession: number; votesCast: number; attendanceRate: number } | null = null;
       let committees: Awaited<ReturnType<typeof getCommitteeAssignments>> = [];
@@ -550,6 +583,12 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         platform_video_source_url: video?.sourceUrl ?? null,
         platform_video_tier: video?.tier ?? null,
         _platform_video_resolved_at: videoResolvedAt ?? null,
+        // Nested {value, source_url}, matching every field in bio{} above —
+        // not flat top-level fields — so the frontend's existing SourcedField
+        // component (built for exactly that shape) can render this without
+        // a one-off renderer.
+        bio_summary: bioSummary ? { value: bioSummary.summary, source_url: bioSummary.sourceUrl } : null,
+        _bio_summary_resolved_at: bioSummaryResolvedAt ?? null,
         financial_disclosure: null as FinancialDisclosureSummary | null, // filled in sequentially below — see comment there
         _financial_disclosure_resolved_at: null as string | null, // filled in sequentially below — see comment there
         recent_votes: recentVotes,
@@ -1012,14 +1051,42 @@ export const RACES: BuildRaceOptions[] = [
   { state: "OH", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/OH.json" },
   // Florida: only these 5 House districts had a FULLY resolved primary
   // (every party uncontested/canceled) as of this research, 2026-08-13.
-  // The other 23 House districts + the Senate special election have a
-  // primary on 2026-08-18, still pending — held back on the same pattern
-  // as NH/MA/RI until that date passes.
+  // 2026-08-19: the primary (2026-08-18) is done and 21 of Florida's 23
+  // remaining House districts + the Senate special election are added
+  // below — see FLORIDA_2026_PRIMARY in primaryResults.ts for the
+  // per-district narrowing and sourcing. FL-11 and FL-21 are deliberately
+  // NOT added yet: FL-11's Republican primary is inside Florida's
+  // automatic-recount threshold (Strada 33.5%/Baker 33.0%, ~403 votes),
+  // and FL-21's Democratic primary is a 359-vote margin the loser is
+  // actively disputing and Ballotpedia/AP have not called — see
+  // pendingRaces.ts for both.
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/FL-1.json", district: "01" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/FL-2.json", district: "02" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/FL-3.json", district: "03" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/FL-4.json", district: "04" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/FL-5.json", district: "05" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/FL-6.json", district: "06" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/FL-7.json", district: "07" },
   { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-08", outFile: "house/FL-8.json", district: "08" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-09", outFile: "house/FL-9.json", district: "09" },
   { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-10", outFile: "house/FL-10.json", district: "10" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-12", outFile: "house/FL-12.json", district: "12" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-13", outFile: "house/FL-13.json", district: "13" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-14", outFile: "house/FL-14.json", district: "14" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-15", outFile: "house/FL-15.json", district: "15" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-16", outFile: "house/FL-16.json", district: "16" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-17", outFile: "house/FL-17.json", district: "17" },
   { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-18", outFile: "house/FL-18.json", district: "18" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-19", outFile: "house/FL-19.json", district: "19" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-20", outFile: "house/FL-20.json", district: "20" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-22", outFile: "house/FL-22.json", district: "22" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-23", outFile: "house/FL-23.json", district: "23" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-24", outFile: "house/FL-24.json", district: "24" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-25", outFile: "house/FL-25.json", district: "25" },
   { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-26", outFile: "house/FL-26.json", district: "26" },
+  { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-27", outFile: "house/FL-27.json", district: "27" },
   { state: "FL", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-28", outFile: "house/FL-28.json", district: "28" },
+  { state: "FL", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/FL.json" },
   // SC Senate deliberately not built (Republican runoff pending 2026-08-25,
   // see the comment inline above). RI is still deliberately NOT wired in at
   // all yet: its primary isn't until Sept 9, 2026 (same held-back treatment
