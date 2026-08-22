@@ -1,0 +1,816 @@
+{
+  "state": "NY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-14",
+  "generated_at": "2026-08-10T12:35:58.332Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-14-results",
+    "snippet": "R: D. Hysenaj — uncontested. D: A. Ocasio-Cortez (incumbent) 86.9% over F. Garcia 6.7%, M. Dolan 5.9%."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 6.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.86
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.4
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 28.09
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 25.71
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 9992.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 9994.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 9977.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9979
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9977.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 10000.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9983.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9956.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9945.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9951.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9946.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9940.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 9948.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 9953.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 9933.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 9986.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 9968.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9961.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9943.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9930.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9916.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9922.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9887
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9880.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9909.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9879.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9866.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9838.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9809.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9796.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9785.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9756.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9737.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9732.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9731.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9699
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9665.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9666.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9658.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9654.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3511555383.28,
+        "perCapitaUsd": 5092.24
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4714399457.2,
+        "perCapitaUsd": 6836.53
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683016097.86,
+        "perCapitaUsd": 5340.88
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 19677151
+      },
+      {
+        "year": "2023",
+        "population": 19571216
+      },
+      {
+        "year": "2024",
+        "population": 19867248
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 79557
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 82095
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 85820
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "diamant-hysenaj",
+      "full_name": "HYSENAJ, DIAMANT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NY14251",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 342895.97,
+        "totalSpent": 311855.01,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 217526.74,
+          "largeDollar": 115630.35,
+          "pac": 850,
+          "party": 0,
+          "selfFunded": 8888.88
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://votefordiamant.com/",
+          "snippet": "As an immigrant who came to America at nine years old, an entrepreneur, a husband, and a father, I've spent 35 years building my life in New York.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "entrepreneur",
+          "source_url": "https://votefordiamant.com/",
+          "snippet": "As an immigrant who came to America at nine years old, an entrepreneur, a husband, and a father, I've spent 35 years building my life in New York.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Federal Funding",
+          "value": "Secure federal funding for the district",
+          "snippet": "Federal funding for the district"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Support immigration policies that work for our community",
+          "snippet": "Immigration policies that work for our community"
+        },
+        {
+          "topic": "Jobs and Economic Growth",
+          "value": "Promote jobs and economic growth to fuel opportunity",
+          "snippet": "Jobs and economic growth to fuel opportunity"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Ensure safe streets and strong neighborhoods",
+          "snippet": "Safe Streets and strong neighborhoods"
+        },
+        {
+          "topic": "Working Families",
+          "value": "Fight for working families",
+          "snippet": "fight for working families"
+        },
+        {
+          "topic": "Small Business",
+          "value": "Support small businesses",
+          "snippet": "support small businesses"
+        },
+        {
+          "topic": "Environment",
+          "value": "Work toward a cleaner, smarter NY-14",
+          "snippet": "A Cleaner, smarter NY-14"
+        }
+      ],
+      "platform_source_url": "https://votefordiamant.com/",
+      "_platform_resolved_at": "2026-08-10T12:34:47.526Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072305.pdf",
+        "filingDate": "10/16/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T12:35:52.380Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:38:46.041Z",
+      "bio_summary": {
+        "value": "My story began on a small farm in Kosovo in 1982, where 36 members of my extended family lived together in three farm homes. My parents worked long hours in factories under the former Yugoslav communist regime, and despite having little, our home was rich with love, family, and opportunity. That life changed dramatically in 1991 when, at just nine years old, I fled Kosovo with my family as a communist dictatorship tightened its grip and instability spread across the region. We arrived in the Bronx carrying little more than a suitcase and hope.",
+        "source_url": "https://votefordiamant.com/my-story"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:10.955Z"
+    },
+    {
+      "slug": "alexandria-ocasio-cortez",
+      "full_name": "OCASIO-CORTEZ, ALEXANDRIA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8NY15148",
+      "fec_status": "C",
+      "bioguide_id": "O000172",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 32607753.66,
+        "totalSpent": 20381468.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 21547856.32,
+          "largeDollar": 10415442.23,
+          "pac": 28050,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1989-10-13",
+          "source_url": "https://www.wikidata.org/wiki/Q55223040",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "The Bronx, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q55223040",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Boston University College of Arts and Sciences",
+          "source_url": "https://www.wikidata.org/wiki/Q55223040",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Yorktown High School, Yorktown Heights, N.Y., 2007",
+          "source_url": "https://history.house.gov/People/Listing/O/OCASIO-CORTEZ,-Alexandria-(O000172)/",
+          "snippet": "graduated from Yorktown High School, Yorktown Heights, N.Y., 2007",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "community organizer",
+          "source_url": "https://history.house.gov/People/Listing/O/OCASIO-CORTEZ,-Alexandria-(O000172)/",
+          "snippet": "community organizer",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Engaged to Riley Roberts in 2022",
+          "source_url": "https://en.wikipedia.org/wiki/Alexandria_Ocasio-Cortez",
+          "snippet": "Riley Roberts (engaged 2022)",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Employment",
+          "value": "Create a Federal Jobs Guarantee that includes a livable wage pegged to inflation, full healthcare, and child and sick leave for all",
+          "snippet": "A Federal Jobs Guarantee would create a baseline standard for employment that includes a livable wage (pegged to inflation), full healthcare, and child and sick leave for all."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Make undocumented individuals full members of the country they call their home and abolish ICE",
+          "snippet": "It is past time to make undocumented individuals full members of the country they call their home and abolish ICE."
+        },
+        {
+          "topic": "Green New Deal",
+          "value": "Create millions of jobs transitioning to renewable and clean energy",
+          "snippet": "Now is the right time to create millions of jobs transitioning to renewable and clean energy."
+        },
+        {
+          "topic": "Criminal Justice",
+          "value": "Invest in the most vulnerable members of our society instead of investing in mass incarceration",
+          "snippet": "Instead of investing in mass incarceration, we need to invest in the most vulnerable members of our society."
+        }
+      ],
+      "platform_source_url": "https://www.ocasiocortez.com/platform",
+      "_platform_resolved_at": "2026-08-10T12:35:41.833Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076462.pdf",
+        "filingDate": "8/6/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T12:35:55.467Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 270,
+          "attendanceRate": 0.9540636042402827
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 74,
+        "bills_cosponsored": 1643,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.333,
+          "nominateDim2": -0.943,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/O000172"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 23.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/O000172"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "_tier2_search_attempted_at": "2026-08-20T12:38:46.457Z",
+      "bio_summary": {
+        "value": "Alexandria was born in The Bronx to working class parents: her father was a small business owner and architect from the South Bronx, and her mother cleaned homes after moving to New York from Arecibo, Puerto Rico. As school violence and dropout rates in The Bronx rose in the early 90’s, her parents put their savings together and purchased a modest home 30 miles north of the city in search of better schools for the family.",
+        "source_url": "https://www.ocasiocortez.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:07.504Z",
+      "platform_video_tier": null
+    }
+  ]
+}

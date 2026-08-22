@@ -1,0 +1,731 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-18T20:11:31.612Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    "snippet": "This primary was canceled and this candidate advanced: Mike Haridopolos (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Jennifer Jenkins ✔"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542145499.77,
+        "perCapitaUsd": 700.58
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "mike-haridopolos",
+      "full_name": "HARIDOPOLOS, MIKE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4FL08168",
+      "fec_status": "C",
+      "bioguide_id": "H001099",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1824837.67,
+        "totalSpent": 885223.57,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 37549.64,
+          "largeDollar": 849966.1,
+          "pac": 700750,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1970-03-15",
+          "source_url": "https://www.wikidata.org/wiki/Q6847137",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Huntington, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q6847137",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Garden City High School",
+          "source_url": "https://www.wikidata.org/wiki/Q6847137",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Garden City High School, Garden City, N.Y., 1988",
+          "source_url": "https://history.house.gov/People/Listing/H/HARIDOPOLOS,-Mike-(H001099)/",
+          "snippet": "graduated from Garden City High School, Garden City, N.Y., 1988",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "faculty member, Brevard Community College (now Eastern Florida State College), Melbourne, Fla.; faculty member, University of Florida, Gainesville, Fla., 2008-2014; author; business owner; television commentator",
+          "source_url": "https://history.house.gov/People/Listing/H/HARIDOPOLOS,-Mike-(H001099)/",
+          "snippet": "faculty member, Brevard Community College (now Eastern Florida State College), Melbourne, Fla.; member of the Florida state house of representatives, 2000-2003; member of the Florida state senate, 2003-2012, president, 2010-2012; faculty member, University of Florida, Gainesville, Fla., 2008-2014; author; business owner; television commentator",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Florida state house of representatives, 2000-2003; member of the Florida state senate, 2003-2012, president, 2010-2012",
+          "source_url": "https://history.house.gov/People/Listing/H/HARIDOPOLOS,-Mike-(H001099)/",
+          "snippet": "member of the Florida state house of representatives, 2000-2003; member of the Florida state senate, 2003-2012, president, 2010-2012",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "married to Stephanie",
+          "source_url": "https://www.mike4congress.com/",
+          "snippet": "He and his wife, Stephanie, raised their three children right here in our district.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Supports banning congressional stock trading to end self-dealing in Washington",
+          "snippet": "He has never traded stocks while serving in Congress and supports banning congressional stock trading to end self-dealing in Washington."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Supports the SAVE America Act and commonsense voter verification measures to protect the integrity of the ballot box",
+          "snippet": "He supports the SAVE America Act and commonsense voter verification measures to protect the integrity of the ballot box and restore confidence in our elections."
+        },
+        {
+          "topic": "National Debt",
+          "value": "Fighting reckless spending to preserve Social Security and Medicare for future generations",
+          "snippet": "Fighting reckless spending to preserve Social Security and Medicare for future generations."
+        },
+        {
+          "topic": "Indian River Lagoon",
+          "value": "Advancing common sense ideas to protect our environment and joining the Congressional Estuary Caucus",
+          "snippet": "Advancing common sense ideas to protect our environment and joining the Congressional Estuary Caucus."
+        },
+        {
+          "topic": "Space Exploration",
+          "value": "Promoting high-paying jobs and technological innovation through space exploration",
+          "snippet": "Promoting high-paying jobs and technological innovation through space exploration. Space is key to American technological innovation as well as our national security."
+        },
+        {
+          "topic": "Law Enforcement and Second Amendment",
+          "value": "Backing law enforcement and defending Second Amendment rights",
+          "snippet": "Backing law enforcement and defending Second Amendment rights."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Supporting term limits to ensure citizens serve and return to the private sector",
+          "snippet": "Supporting term limits to ensure citizens serve and return to the private sector."
+        }
+      ],
+      "platform_source_url": "https://www.mike4congress.com/",
+      "_platform_resolved_at": "2026-08-14T14:37:35.596Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076343.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:40:10.853Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Digital Assets, Financial Technology, and Artificial Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Space and Aeronautics",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 5,
+        "bills_cosponsored": 243,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.453,
+          "nominateDim2": 0.01,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001099"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 28.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001099"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Mike is an educator and author who loves our nation. He and his wife, Stephanie, raised their three children right here in our district. ​ Mike is a former member of both the Florida House and Senate, where he served as President of the Senate. Now a member of Congress, Mike serves as Chairman of the Space Committee and Whip of the Financial Services Committee.",
+        "source_url": "https://www.mike4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:08:45.091Z"
+    },
+    {
+      "slug": "jennifer-jenkins",
+      "full_name": "JENKINS, JENNIFER",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL06399",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 725730.74,
+        "totalSpent": 617619.46,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 469684.55,
+          "largeDollar": 233046.19,
+          "pac": 8000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

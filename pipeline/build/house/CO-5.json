@@ -1,0 +1,863 @@
+{
+  "state": "CO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-18T20:13:47.887Z",
+  "election_dates": {
+    "primaryDate": "2026-06-30",
+    "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Colorado's_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jeff Crank (R), Jessica Killin (D), and four other candidates are running in the general election for Colorado's 5th Congressional District on November 3, 2026. Matt Cavanaugh's only FEC match has a mismatched party (Democratic, not Independent as Ballotpedia lists him) so it's excluded rather than force-matched; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 38.42
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.19
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.78
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 37.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.68
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2966
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2966.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2956
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2953.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2960.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2959.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2961
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2963.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2961.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2942.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2966.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2963.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2963.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2977
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2971.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2973.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2966.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2965.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2979.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2973.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2964.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2969.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2957.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2954.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2946.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2952
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2940.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2947.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2933.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2928.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2922.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2915.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2912.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3857088322.95,
+        "perCapitaUsd": 5166.02
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8818344042.41,
+        "perCapitaUsd": 12058.76
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5210974845.04,
+        "perCapitaUsd": 6979.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5839926
+      },
+      {
+        "year": "2023",
+        "population": 5877610
+      },
+      {
+        "year": "2024",
+        "population": 5957494
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89302
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 92911
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 97113
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jeff-crank",
+      "full_name": "CRANK, JEFF",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6CO05142",
+      "fec_status": "C",
+      "bioguide_id": "C001137",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2177287.76,
+        "totalSpent": 778792.52,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 141652.93,
+          "largeDollar": 751381.41,
+          "pac": 837000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1967-01-28",
+          "source_url": "https://www.wikidata.org/wiki/Q27663361",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Pueblo, Colorado",
+          "source_url": "https://www.wikidata.org/wiki/Q27663361",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Central High School",
+          "source_url": "https://www.wikidata.org/wiki/Q27663361",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "U.S. House of Representatives, Representative - Colorado 5th Congressional District (Present); US Congressman Joel Hefley, Administrative Director (1991 - 1998); XAware, Vice President, Government Sales",
+          "source_url": "https://www.ballotready.org/people/jeff-crank",
+          "snippet": "U.S. House of Representatives, Representative - Colorado 5th Congressional District (Present) US Congressman Joel Hefley, Administrative Director (1991 - 1998) US Congressman Joel Hefley (1991 - 1998) XAware, Vice President, Government Sales",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Lisa Brown, two children",
+          "source_url": "https://en.wikipedia.org/wiki/Jeff_Crank",
+          "snippet": "Crank lives in Colorado Springs, Colorado , with his wife Lisa and their two children.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Chairman of 5th Congressional District Republican Central Committee (2001 and 2003); appointed to Colorado Emergency Planning Commission by Governor Bill Owens (2003, two-year term); El Paso County Citizens Corps Council (2004); El Paso county co-chair for President George W. Bush's re-election campaign (2004); Colorado State Republican Central Committee bonus member (elected 2004)",
+          "source_url": "https://en.wikipedia.org/wiki/Jeff_Crank",
+          "snippet": "Crank was elected as chairman of the 5th Congressional District Republican Central Committee in 2001 and 2003. In 2003, he was appointed to the Colorado Emergency Planning Commission by Governor of Colorado Bill Owens for a two-year term and also served on the El Paso County Citizens Corps Council in 2004. He was the El Paso county co-chair for President George W. Bush 's re-election campaign in 2004. Crank was later elected in 2004 to serve on the Colorado State Republican Central Committee as a bonus member.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Cyber, Information Technologies, and Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Military Personnel",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 10,
+        "bills_cosponsored": 132,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.666,
+          "nominateDim2": -0.097,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001137"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 15.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001137"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:25.798Z",
+      "platform_video_tier": null
+    },
+    {
+      "slug": "steven-fuller",
+      "full_name": "FULLER, STEVEN",
+      "party": "INDEPENDENCE PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO05365",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "14 year Army Combat Veteran, 3 tours in Iraq; Founder/Head Brewer of Wackadoo Brewing",
+          "source_url": "https://www.stevenfuller.net/",
+          "snippet": "14 year Army Combat Veteran, 3 tours in Iraq Founder/Head Brewer of Wackadoo Brewing",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=1heZLzkct-Y",
+      "platform_video_title": "Steven on the Concerned Citizens Podcast",
+      "platform_video_source_url": "https://www.stevenfuller.net/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:28.855Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "14 year Army Combat Veteran, 3 tours in Iraq Founder/Head Brewer of Wackadoo Brewing 2025 Veteran Entrepreneur of the year for Colorado District 5 Independent candidate for House of Representatives",
+        "source_url": "https://www.stevenfuller.net/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:37.154Z"
+    },
+    {
+      "slug": "jessica-killin",
+      "full_name": "KILLIN, JESSICA WILLOW",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO05324",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3143744.12,
+        "totalSpent": 1551101.76,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 176908.43,
+          "largeDollar": 2044171.83,
+          "pac": 264355.92,
+          "party": 4989.22,
+          "selfFunded": 632433
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "devoted mother",
+          "source_url": "https://www.killinforcolorado.com/",
+          "snippet": "A proud fourth-generation Coloradan, Jessica is a devoted mother, Army veteran, business leader, and public servant running for Congress",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "served as a Captain and paratrooper in the U.S. Army, leading soldiers overseas and participating in peacekeeping missions; over a decade at USAA where she worked to protect military families during the 2008 financial crisis, streamline VA home loans, and help servicemembers avoid predatory lenders; leadership roles on Capitol Hill and at the White House",
+          "source_url": "https://www.killinforcolorado.com/",
+          "snippet": "She served as a Captain and paratrooper in the U.S. Army, leading soldiers overseas and participating in peacekeeping missions. She has since dedicated her career to improving the livelihoods of all Americans, including over a decade at USAA where she worked to protect military families during the 2008 financial crisis, streamline VA home loans, and help servicemembers avoid predatory lenders. She then returned to public service in leadership roles on Capitol Hill and at the White House.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "JD, Georgetown (2004); Bachelor's, University of Tampa, Criminology and Political Science (1995)",
+          "source_url": "https://www.ballotready.org/people/jessica-killin",
+          "snippet": "JD, Georgetown (2004) Bachelor&#x27;s, University of Tampa, Criminology and Political Science (1995)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tariffs and Consumer Costs",
+          "value": "End irrational tariffs that are raising prices and creating uncertainty for hardworking Coloradans",
+          "snippet": "End irrational tariffs that are raising prices and creating uncertainty for hardworking Coloradans"
+        },
+        {
+          "topic": "Veterans Healthcare",
+          "value": "Increase staffing at VA clinics, ensure veterans receive the hard-earned benefits they deserve, and restore full funding for the Veterans Crisis Line to ensure 24/7 access and support for those who served",
+          "snippet": "Increase staffing at VA clinics Ensure veterans receive the hard-earned benefits they deserve Restore full funding for the Veterans Crisis Line to ensure 24/7 access and support for those who served"
+        },
+        {
+          "topic": "Medicaid",
+          "value": "Repeal Medicaid cuts that will kick hundreds of thousands in our state off health care and force all Colorado families to pay more",
+          "snippet": "Repeal Medicaid cuts that will kick hundreds of thousands in our state off health care and force all Colorado families to pay more"
+        },
+        {
+          "topic": "Prescription Drug Prices",
+          "value": "Allow Medicare to negotiate lower prices for more critical drugs and cap the price of insulin at $35 for everyone",
+          "snippet": "Allow Medicare to negotiate lower prices for more critical drugs Cap the price of insulin at $35 for everyone"
+        },
+        {
+          "topic": "Public Lands",
+          "value": "Preserve federal lands used by Coloradans and oppose efforts to sell them off",
+          "snippet": "Preserve federal lands used by Coloradans and oppose efforts to sell them off"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Overturn Citizens United and ban dark money to end the outsized influence of corporations in our politics",
+          "snippet": "Overturn Citizens United and ban dark money to end the outsized influence of corporations in our politics"
+        },
+        {
+          "topic": "Space Command and Space Industry",
+          "value": "Stand up to partisan political games and work to ensure national security decisions based on mission readiness, national security interests, the safety of our troops, and data – not politics",
+          "snippet": "Stand up to partisan political games and work to ensure national security decisions based on mission readiness, national security interests, the safety of our troops, and data – not politics"
+        }
+      ],
+      "platform_source_url": "https://www.killinforcolorado.com/priorities",
+      "_platform_resolved_at": "2026-08-12T11:15:48.274Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=cAnh3drhPJs",
+      "platform_video_title": "Donald Trump and Jeff Crank promised to lower your prices. They have failed to deliver.",
+      "platform_video_source_url": "https://www.killinforcolorado.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:28.956Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "A proud fourth-generation Coloradan, Jessica is a devoted mother, Army veteran, and public servant running for Congress to restore competence, courage, and character to Washington. Raised in Colorado Springs by public school educators, she learned the value of hard work and public service. She served as a Captain and paratrooper in the U.S. Army, leading soldiers overseas and participating in peacekeeping missions.",
+        "source_url": "https://www.killinforcolorado.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:39.207Z"
+    },
+    {
+      "slug": "roy-matthewson",
+      "full_name": "MATTHEWSON, ROY",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO05282",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 200,
+        "totalSpent": 145.97,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 200,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=QKtzWKziBKk",
+      "platform_video_title": "Why I am Running for Congress",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T12:00:26.169Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:26.169Z",
+      "platform_video_tier": 2
+    },
+    {
+      "slug": "christopher-mitchell",
+      "full_name": "MITCHELL, CHRISTOPHER DOUGLAS",
+      "party": "CONSTITUTION PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4CO05071",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Electrical Engineering Contractor (Present)",
+          "source_url": "https://www.ballotready.org/people/christopher-mitchell",
+          "snippet": "Electrical Engineering Contractor (Present)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, New Mexico State University, Electrical & Computer Engineering (1994)",
+          "source_url": "https://www.ballotready.org/people/christopher-mitchell",
+          "snippet": "Bachelor&#x27;s, New Mexico State University, Electrical & Computer Engineering (1994)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:26.569Z"
+    }
+  ]
+}

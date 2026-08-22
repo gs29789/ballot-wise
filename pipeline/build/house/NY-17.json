@@ -1,0 +1,706 @@
+{
+  "state": "NY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-17",
+  "generated_at": "2026-08-10T12:42:00.420Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-17-results",
+    "snippet": "R: M. Lawler (incumbent) — uncontested. D: C. Conley 49.5% over B. Davidson 31.8%, E. Phillips-Staley 15.3%."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 6.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.86
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.4
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 28.09
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 25.71
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 9992.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 9994.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 9977.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9979
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9977.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 10000.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9983.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9956.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9945.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9951.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9946.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9940.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 9948.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 9953.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 9933.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 9986.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 9968.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9961.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9943.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9930.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9916.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9922.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9887
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9880.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9909.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9879.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9866.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9838.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9809.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9796.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9785.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9756.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9737.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9732.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9731.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9699
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9665.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9666.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9658.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9654.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3511555383.28,
+        "perCapitaUsd": 5092.24
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4714399457.2,
+        "perCapitaUsd": 6836.53
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683016097.86,
+        "perCapitaUsd": 5340.88
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 19677151
+      },
+      {
+        "year": "2023",
+        "population": 19571216
+      },
+      {
+        "year": "2024",
+        "population": 19867248
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 79557
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 82095
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 85820
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "cait-conley",
+      "full_name": "CONLEY, CAIT",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NY17171",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4317457.32,
+        "totalSpent": 2998300.85,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 707036.32,
+          "largeDollar": 2999123.93,
+          "pac": 422990.43,
+          "party": 0,
+          "selfFunded": 7000
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Pine Bush High School",
+          "source_url": "https://caitconley.com/",
+          "snippet": "Cait was a junior at Pine Bush High School on 9/11 when she watched the Twin Towers fall.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Cybersecurity and Infrastructure Security Agency, Senior Advisor (Senior Executive Service) (2023 - 2025); National Security Council, The White House, Director for Counterterrorism (2021 - 2023); US Army, Director of Operations (2007 - 2021)",
+          "source_url": "https://www.ballotready.org/people/cait-conley",
+          "snippet": "Cybersecurity and Infrastructure Security Agency, Senior Advisor (Senior Executive Service) (2023 - 2025) National Security Council, The White House, Director for Counterterrorism (2021 - 2023) US Army, Director of Operations (2007 - 2021)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Congressional ethics and corruption",
+          "value": "Champion legislation to ban members of Congress from trading stocks and fight self-dealing in Washington, DC.",
+          "snippet": "Clean up corruption. Cait will champion legislation to ban members of Congress from trading stocks and fight self-dealing in Washington, DC."
+        },
+        {
+          "topic": "Education",
+          "value": "Expand investment in secondary education here in NY-17 through BOCES, Career & Technical Education (CTE), and community colleges.",
+          "snippet": "Investment in education. Cait will expand investment in secondary education here in NY-17 through BOCES, Career & Technical Education (CTE), and community colleges."
+        },
+        {
+          "topic": "Climate change and energy",
+          "value": "Invest in the Hudson Valley by prioritizing clean energy — like solar, wind, and geothermal — to create good-paying jobs, lower utility bills, and build a more resilient, sustainable future.",
+          "snippet": "Tackling Climate Change as a National Security Crisis. Cait will invest in the Hudson Valley by prioritizing clean energy — like solar, wind, and geothermal — to create good-paying jobs, lower utility bills, and build a more resilient, sustainable future."
+        }
+      ],
+      "platform_source_url": "https://caitconley.com/",
+      "_platform_resolved_at": "2026-08-10T12:41:29.726Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:38:47.570Z",
+      "bio_summary": {
+        "value": "Cait Conley is a proud fourth-generation Hudson Valley native from working-class roots who understands the values of hard work and public service. Cait’s mom, born in Peekskill, was a postal worker for 48 years, serving communities throughout the Hudson Valley. Her dad, born and raised in Hopewell Junction, was a construction worker, and her grandfather and great-grandfather worked in the Montrose brickyard. Cait was a junior at Pine Bush High School on 9/11 when she watched the Twin Towers fall. In that moment, she felt her calling to serve and protect.",
+        "source_url": "https://caitconley.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:35.794Z"
+    },
+    {
+      "slug": "michael-lawler",
+      "full_name": "LAWLER, MICHAEL VINCENT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NY17162",
+      "fec_status": "C",
+      "bioguide_id": "L000599",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8172045.6,
+        "totalSpent": 3500108.5,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 425902.58,
+          "largeDollar": 2760102.39,
+          "pac": 1920804.94,
+          "party": 5270,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1986-09-09",
+          "source_url": "https://www.wikidata.org/wiki/Q105179052",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Suffern, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q105179052",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Manhattan University",
+          "source_url": "https://www.wikidata.org/wiki/Q105179052",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Suffern Senior High School (2005)",
+          "source_url": "https://www.ballotready.org/people/michael-v-lawler",
+          "snippet": "High School Diploma, Suffern Senior High School (2005)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative (2023 - Present); New York State Assembly, Assemblymember (2021 - 2022); Town Of Orangetown, Deputy Town Supervisor (2018 - 2020); Checkmate Strategies, LLC, Partner (2018 - 2022); Massey for Mayor, Senior Advisor (2016 - 2017); Westchester County, Senior Advisor to the County Executive (2015 - 2016)",
+          "source_url": "https://www.ballotready.org/people/michael-v-lawler",
+          "snippet": "Professional Experience US House of Representatives, Representative (2023 - Present) New York State Assembly, Assemblymember (2021 - 2022) Town Of Orangetown, Deputy Town Supervisor (2018 - 2020) Checkmate Strategies, LLC, Partner (2018 - 2022) Massey for Mayor, Senior Advisor (2016 - 2017) Westchester County, Senior Advisor to the County Executive (2015 - 2016)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Western Hemisphere",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Middle East and North Africa",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Housing and Insurance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 194,
+        "bills_cosponsored": 2261,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Enhanced Presidential Security Act of 2024",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9106",
+            "publicLawNumber": "118-91",
+            "summary": "Enhanced Presidential Security Act of 2024 This act&nbsp;requires the U.S. Secret Service to apply the same standards for determining the number of agents required to protect Presidents, Vice Presidents, and major Presidential and Vice Presidential candidates. (The Department of Homeland Security identifies major Presidential and Vice Presidential candidates after consultation with an advisory committee composed of congressional leaders.)",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ91"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.189,
+          "nominateDim2": 0.228,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000599"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 99.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000599"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:38:48.006Z"
+    }
+  ]
+}

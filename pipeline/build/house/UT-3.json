@@ -1,0 +1,598 @@
+{
+  "state": "UT",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-15T20:37:20.689Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.5.html",
+    "primarySnippet": "20A-1-201.5(1): \"The regular primary election shall be held throughout the state on the fourth Tuesday of June of each even numbered year as provided in Section 20A-9-403, 20A-9-407, or 20A-9-408, as applicable, to nominate persons for national, state, school board, and county offices.\"",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.html",
+    "generalSnippet": "20A-1-201: \"(1) A regular general election shall be held throughout the state on the first Tuesday after the first Monday in November of each even-numbered year. (2) At the regular general election, the voters shall: (a) choose persons to serve the terms established by law for the following offices: ... (ii) United States Senators; (iii) Representatives to the United States Congress...\""
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Utah's constitution bars convicted felons from holding office in the state until their right is restored (after 10 years, full sentence completion, and restitution), but doesn't operate as a candidate disclosure form the way some other states' do, and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://le.utah.gov/xcode/ArticleIV/Article_IV,_Section_6.html",
+    "snippet": "Utah Const. Art. IV, § 6: \"Any mentally incompetent person, any person convicted of a felony, or any person convicted of treason or a crime against the elective franchise, may not be permitted to vote at any election or be eligible to hold office in this State until the right to vote or hold elective office is restored as provided by statute.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Utah%27s_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Celeste Maloy defeated Mike Lyman in the Republican primary for U.S. House Utah District 3 on June 23, 2026, 68.1% (55,031) to 31.9% (25,726) ... Kent Udell defeated Steve Merrill in the Democratic convention, and the Democratic primary was canceled ... Cassie Easley (Constitution), Michael Ray Stoddard (Libertarian), Adonis Hooslyn (Unaffiliated), and Ayden Tate Scott (Unaffiliated) are also running in the general election."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 18.85
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 19.21
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 18.26
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 18.66
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.72
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3241461850.67,
+        "perCapitaUsd": 3886.88
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4366218642.77,
+        "perCapitaUsd": 5235.59
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4359258715.26,
+        "perCapitaUsd": 5227.25
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "cassie-easley",
+      "full_name": "EASLEY, CASSIE",
+      "party": "CONSTITUTION PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2UT02506",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Certified Firearms Instructor (Present)",
+          "source_url": "https://www.ballotready.org/people/cassie-easley",
+          "snippet": "Certified Firearms Instructor (Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "adonis-hooslyn",
+      "full_name": "HOOSLYN, ADONIS",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6UT03174",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 663.4,
+        "totalSpent": 16312.6,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 174.92,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 488.48
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Ogden, UT",
+          "source_url": "https://hooslynforhouse.com/",
+          "snippet": "I was raised in Ogden, UT, the oldest of 4 boys, to a conservative Catholic household where politics never trumped humanity.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Catholic school",
+          "source_url": "https://hooslynforhouse.com/",
+          "snippet": "My parents enrolled me in Catholic school, and going to the same school and seeing most of the same people from the age of 4 to 18 instilled a sense of togetherness and collective accomplishment in me.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Office manager for a film and TV distribution company, promoted to project coordinator in 2020",
+          "source_url": "https://hooslynforhouse.com/",
+          "snippet": "I began working as an office manager for a film and TV distribution company. I was promoted to project coordinator in 2020.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Master's, Full Sail University, Business (2019); Bachelor's, Full Sail University, Film (2019)",
+          "source_url": "https://www.ballotready.org/people/adonis-hooslyn",
+          "snippet": "Degrees Master&#x27;s, Full Sail University, Business (2019) Bachelor&#x27;s, Full Sail University, Film (2019)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Transition to a Medicare 4 All System. Healthcare must be a right, not a privilege tied to employment or wealth.",
+          "snippet": "Transition to a Medicare 4 All System. Healthcare must be a right, not a privilege tied to employment or wealth."
+        },
+        {
+          "topic": "Jobs and AI Regulation",
+          "value": "Protect and create jobs while regulating AI development. Ensure technology serves humanity, not just corporate bottom lines.",
+          "snippet": "Protect and create jobs while regulating AI development. Ensure technology serves humanity, not just corporate bottom lines."
+        },
+        {
+          "topic": "Corruption and Foreign Wars",
+          "value": "Demand justice, transparent investigations, and oppose using taxpayer funds for foreign wars.",
+          "snippet": "Demand justice, transparent investigations, and oppose using taxpayer funds for foreign wars."
+        },
+        {
+          "topic": "Taxation",
+          "value": "Increase taxes for billionaires to ensure they pay their fair share toward our national prosperity.",
+          "snippet": "Increase taxes for billionaires to ensure they pay their fair share toward our national prosperity."
+        },
+        {
+          "topic": "Foreign Wars",
+          "value": "End use of taxpayer funds for foreign wars; reallocate money to solve urgent problems for American citizens.",
+          "snippet": "End use of taxpayer funds for foreign wars; reallocate money to solve urgent problems for American citizens."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Abolish ICE and reallocate funds toward Core 4 policies that protect American families.",
+          "snippet": "Abolish ICE and reallocate funds toward Core 4 policies that protect American families."
+        }
+      ],
+      "platform_source_url": "https://hooslynforhouse.com/",
+      "_platform_resolved_at": "2026-08-15T20:35:26.262Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I am not a career politician or a billionaire-backed insider. I am a working-class American citizen who will work for you and fight for your rights. I was born to a working-class immigrant family who strived for the American Dream, achieved it, and seen it become out of reach for the next generation. I was raised in Ogden, UT, the oldest of 4 boys, to a conservative Catholic household where politics never trumped humanity.",
+        "source_url": "https://hooslynforhouse.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:19.617Z"
+    },
+    {
+      "slug": "celeste-maloy",
+      "full_name": "MALOY, CELESTE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4UT02296",
+      "fec_status": "C",
+      "bioguide_id": "M001228",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1453860.68,
+        "totalSpent": 1238502.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7393.13,
+          "largeDollar": 701855,
+          "pac": 672923,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1981-05-22",
+          "source_url": "https://www.wikidata.org/wiki/Q119578731",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Cedar City, Utah",
+          "source_url": "https://www.wikidata.org/wiki/Q119578731",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Southern Utah University",
+          "source_url": "https://www.wikidata.org/wiki/Q119578731",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Pahranagat Valley High School in Alamo, Nevada",
+          "source_url": "https://en.wikipedia.org/wiki/Celeste_Maloy",
+          "snippet": "Maloy later graduated from Pahranagat Valley High School in Alamo, Nevada",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "11 years as a soil conservationist for the Natural Resources Conservation Service in Utah; deputy county attorney in Washington County, Utah; chief legal counsel for U.S. Representative Chris Stewart (hired 2019)",
+          "source_url": "https://en.wikipedia.org/wiki/Celeste_Maloy",
+          "snippet": "Maloy worked for 11 years as a soil conservationist for the Natural Resources Conservation Service in Utah. [ 9 ] [ 7 ] After law school, Maloy worked in Washington County, Utah , as a deputy county attorney, specializing in issues of public land law involving land and water policy. [ 7 ] She advocated on behalf of Utah landowners to the United States House Natural Resources Subcommittee on Oversight and Investigations . She has continued working with issues of land rights and ownership with the Utah Association of Counties and the Washington County Water Conservancy District. Her work as deputy county attorney in Washington County put her in frequent contact with U.S. Representative Chris Stewart , and in 2019, she was hired by Stewart as chief legal counsel for both his district and Washington, D.C. offices.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Utah Association of Counties, Washington County Water Conservancy District",
+          "source_url": "https://en.wikipedia.org/wiki/Celeste_Maloy",
+          "snippet": "She has continued working with issues of land rights and ownership with the Utah Association of Counties and the Washington County Water Conservancy District.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tax Cuts",
+          "value": "Passed legislation that delivered the largest tax cut in American history, increasing take-home pay by $10,000 per year for the average family, eliminating taxes on tips and overtime, and cutting taxes for 88 percent of seniors on Social Security",
+          "snippet": "Celeste recently passed legislation that delivered the largest tax cut in American history. This legislation increased take-home pay by $10,000 per year for the average family, eliminated taxes on tips and overtime, and cut taxes for 88 percent of seniors on Social Security."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Voted to reduce bureaucracy and eliminate wasteful spending, saving taxpayers $9 billion each year",
+          "snippet": "She has voted to reduce bureaucracy and eliminate wasteful spending, saving taxpayers $9 billion each year."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Will fight gun grabbers in Washington DC and defend constitutional rights to keep and bear arms",
+          "snippet": "She will fight the gun grabbers in Washington DC and defend our constitutional rights."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Believes all human life is sacred and will stand up for the unborn and pro-life values in Congress",
+          "snippet": "Celeste believes all human life is sacred and will stand up for the unborn and our pro-life values in Congress."
+        },
+        {
+          "topic": "Energy",
+          "value": "Voted to undo burdensome regulations that have stifled domestic energy production, voted to bolster U.S. energy production and affordability by expanding and protecting American refining capacity, and will continue fighting for American energy independence and affordability",
+          "snippet": "Celeste has voted to undo burdensome regulations that have stifled domestic energy production and driven up costs. She voted to bolster U.S. energy production and affordability by expanding and protecting American refining capacity. She will continue fighting for American energy independence and affordability."
+        },
+        {
+          "topic": "Public Lands Management",
+          "value": "Fighting to make sure Utahns have more control over the land and resources they depend on to make a living because no one cares more about protecting and preserving lands and natural resources than the farmers and ranchers who live and work on them",
+          "snippet": "In Congress, she has been fighting to make sure Utahns have more control over the land and resources they depend on to make a living because she knows no one cares more about protecting and preserving our lands and natural resources than the farmers and ranchers who live and work on them."
+        }
+      ],
+      "platform_source_url": "https://www.celesteforutah.com/issues",
+      "_platform_resolved_at": "2026-08-15T20:36:55.494Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Federal Lands",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Legislative Branch",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Interior, Environment, and Related Agencies",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 41,
+        "bills_cosponsored": 207,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "60",
+            "publicLawNumber": "119-13",
+            "summary": "This joint resolution allows off-road vehicles to be used in certain areas of the Glen Canyon National Recreation Area, which is in northern Arizona and southeastern Utah and contains Lake Powell. Specifically, the joint resolution nullifies the rule issued by the National Park Service (NPS) titled Glen Canyon National Recreation Area; Motor Vehicles&nbsp; and published on January 13, 2025. Under the rule, the NPS limited the use of off-road vehicles, such as off-highway vehicles and all-terrain&nbsp;vehicles, in certain areas. For instance, the rule prohibited the use of off-road vehicles on an 8-mile segment of the Poison Spring Loop located on Route 633 proceeding north to Route 730 in the Orange Cliffs Special Management Unit. The rule also eliminated the authority of the NPS to&nbsp;open the upper portion of the Flint Trail in that unit to off-road vehicles. Additionally, the rule limited off-road vehicle&nbsp;use from certain roads to the shoreline of the lake.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ13"
+          },
+          {
+            "title": "To amend title 28, United States Code, to authorize holding court for the Central Division of Utah in Moab and Monticello.",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "8666",
+            "publicLawNumber": "118-250",
+            "summary": "This act adds Moab and Monticello to the list of places where court must be held in the Central Division of the U.S. District Court of Utah.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ250"
+          },
+          {
+            "title": "Utah State Parks Adjustment Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7332",
+            "publicLawNumber": "118-181",
+            "summary": "Utah State Parks Adjustment Act This act&nbsp;requires the Bureau of Land Management and the Forest Service to convey certain federal lands to Utah for inclusion in the following Utah State Parks: Antelope Island State Park, Wasatch Mountain State Park, and Fremont Indian State Park. Utah must use the lands for public purposes, including parks, campgrounds, recreation, and permitted livestock grazing.&nbsp; Utah must also cover any costs relating to the conveyances for the Antelope Island State Park and the Wasatch Mountain State Park,&nbsp;including costs for surveys and other administrative costs. As a condition of the conveyance to the Fremont Indian State Park, the Forest Service must (1) reserve&nbsp;easements to the conveyed&nbsp;land to be included in Fremont Indian State Park&nbsp;for all National Forest System roads and trails that originate at, terminate at, or traverse the conveyed land; and (2)&nbsp;convey to Utah only certain&nbsp;water rights that provide water to the Castle Rock Campground and the Belknap Historic Guard Station interpretive site. The act also authorizes the Forest Service to enter into an agreement with Utah with respect to additional terms and conditions applicable to the conveyance, such as&nbsp;maintenance of roads and trails.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ181"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.417,
+          "nominateDim2": 0.09,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001228"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 34.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001228"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Congresswoman Maloy is working to lower costs and make life more affordable. She knows what it means to work for a paycheck and make ends meet. It has been one of her top priorities to slow inflation and make sure your paycheck stretches as far as possible.",
+        "source_url": "https://www.celesteforutah.com/issues"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:32.706Z"
+    },
+    {
+      "slug": "ayden-scott",
+      "full_name": "SCOTT, AYDEN TATE",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6UT03216",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Northern Utah",
+          "source_url": "https://aydenscott4congress.com/About-me/",
+          "snippet": "Growing up in Northern Utah, Ayden learned early what it means to show up for the people around you.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "UVU",
+          "source_url": "https://aydenscott4congress.com/About-me/",
+          "snippet": "Ayden settled roots in Utah County, earning a degree at UVU while serving his community as a firefighter paramedic.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "firefighter paramedic",
+          "source_url": "https://aydenscott4congress.com/About-me/",
+          "snippet": "Ayden settled roots in Utah County, earning a degree at UVU while serving his community as a firefighter paramedic.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "served local student government",
+          "source_url": "https://aydenscott4congress.com/About-me/",
+          "snippet": "Whether it was competing on the field, serving local student government, Ayden has always believed that REAL leadership starts close to home.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Home Ownership",
+          "value": "Everyone should have the chance to raise a family in a home they own.",
+          "snippet": "Everyone should have the chance to raise a family in a home they own."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "We need common sense legislation to help reduce the cost of living",
+          "snippet": "We need common sense legislation to help reduce the cost of living"
+        },
+        {
+          "topic": "Rural Communities",
+          "value": "Reducing federal regulation that burdens the small farmer needs reform.",
+          "snippet": "Reducing federal regulation that burdens the small farmer needs reform."
+        },
+        {
+          "topic": "Small Businesses",
+          "value": "Lower the entry to get in and allow reduced regulations to help businesses thrive and boost the economy providing jobs for the community",
+          "snippet": "Lower the entry to get in and allow reduced regulations to help businesses thrive and boost the economy providing jobs for the community"
+        }
+      ],
+      "platform_source_url": "https://aydenscott4congress.com/Issues/",
+      "_platform_resolved_at": "2026-08-15T20:36:44.643Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "A servant-leadership campaign focused on training, wellness, and strong teams.",
+        "source_url": "https://aydenscott4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:29.338Z"
+    },
+    {
+      "slug": "michael-stoddard",
+      "full_name": "STODDARD, MICHAEL RAY",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6UT03224",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Missoula, Montana",
+          "source_url": "https://2amike4congress.org/",
+          "snippet": "Born in Missoula, Montana, I came to Utah for school",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Brigham Young University, graduated Cum Laude",
+          "source_url": "https://2amike4congress.org/",
+          "snippet": "graduated from Brigham Young University Cum Laude",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "CPA (Present)",
+          "source_url": "https://www.ballotready.org/people/michael-stoddard",
+          "snippet": "CPA (Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Accountability",
+          "value": "Require an annual independent external audit of the federal government by international accounting firms, with five-year rotation of the lead firm. Mandate the President, Treasury Secretary, and OMB Director to personally certify financial statements each year under Sarbanes-Oxley standards. Publish the full balance sheet with Social Security and Medicare obligations recognized on its face, not buried in footnotes.",
+          "snippet": "Require an annual independent external audit by international accounting firms — a three-firm group audit (one lead + two component firms). Mandate five-year rotation of the lead firm to prevent auditor capture. Require the President, Treasury Secretary, and OMB Director to personally certify the financial statements each year — the Sarbanes-Oxley standard every Fortune 500 CEO already meets. Publish the full balance sheet — Social Security and Medicare obligations recognized on its face, not buried in footnotes."
+        },
+        {
+          "topic": "Sound Money",
+          "value": "Repeal legal-tender coercion and end capital-gains penalty on gold and silver. Open the Federal Reserve's books to independent external audit. Return the power to create money to Congress. Re-anchor the currency to a commodity standard over time.",
+          "snippet": "Repeal the legal-tender coercion (31 U.S.C. § 5103) and end the capital-gains penalty on gold and silver, so honest money can compete on a level field. Restore honest banking — true-safekeeping law for demand deposits and the right of full-reserve banks to exist and compete. Open the Federal Reserve s books to independent external audit, and return the power to create money to Congress, where Article I placed it. Re-anchor the currency to a commodity standard over time, so the money supply answers to reality rather than to those who manage it."
+        },
+        {
+          "topic": "Second Amendment/Militia",
+          "value": "Recognize the militia of the several states as an institution distinct from the National Guard. Bar federalized National Guard units from domestic law-enforcement roles except under narrow terms of the Insurrection Act. Protect the armed body of the people from both federal overreach and state-level disarmament.",
+          "snippet": "Recognize the militia of the several states as an institution distinct from the National Guard — one the states may organize, train, and officer under their own authority. Restore the constitutional partition: bar federalized National Guard units from domestic law-enforcement roles except under the narrow terms of the Insurrection Act. Protect the armed body of the people from both federal overreach and state-level disarmament — the right to keep and bear arms and the duty of common defense are two faces of one design."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Create the Make Americans Wealthy Again account allowing after-tax dollars up to $10,000 per year per person with no income tests or penalties. Index every contribution and capital asset basis for inflation so only real profit is taxed, not inflation-driven phantom gains. Restore pre-1982 first-in, first-out ordering for annuity withdrawals.",
+          "snippet": "Create the Make Americans Wealthy Again account: after-tax dollars, up to $10,000 a year per person (indexed from enactment), open to every American from birth — no income tests, no penalties, no required distributions. Index every contribution and everything it earns from the day it is made, and let withdrawals come out first-in, first-out at full indexed value — so your own principal returns untaxed and only real profit is ever taxed. Index the basis of every capital asset for inflation, so the IRS taxes the real gain and never again the phantom. Count interest honestly — tax only the real component, the nominal interest minus the year s inflation, floored at zero. Restore the pre-1982 first-in, first-out ordering for annuity withdrawals, repealing the gains-first rule that puts the taxman ahead of the saver s own principal."
+        },
+        {
+          "topic": "Health Care",
+          "value": "End tax advantage tying health coverage to employment by equalizing tax treatment of health dollars. Re-legalize real catastrophic insurance and allow plans to be sold across state lines. Restore up-front pricing with Direct Primary Care and cash medicine. Fund care of genuinely uninsurable directly and visibly. End mandates forcing routine, low-cost care through insurance.",
+          "snippet": "Unchain your coverage from your job — end the 1943 tax trick by equalizing the tax treatment of health dollars, so the cash you spend on your own plan, your own doctor, and your own Health Savings Account is as tax-free as your employer s premium. Re-legalize real insurance: cheap, lean, catastrophic coverage for the rare disaster, plus the guaranteed-renewable and health-status plans that protect people before they get sick — sold across state lines, so 900 little fiefdoms have to compete for you. Restore the price tag — plain, honest, up-front pricing, with Direct Primary Care and cash medicine unleashed so a patient can read the price before he buys. Make mercy honest — fund the care of the genuinely uninsurable directly and visibly, not buried inside everyone s premium where no one can see the subsidy, vote on it, or cap it. Get Washington out of Box 1 and Box 3 — end the mandates that force routine, low-cost, high-frequency care through the insurance mechanism in the first place."
+        }
+      ],
+      "platform_source_url": "https://2amike4congress.org/",
+      "_platform_resolved_at": "2026-08-15T20:36:25.953Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I'm a C.P.A. who has spent a career auditing how government really spends your money — and years studying sound money. I'm running for Congress in Utah's 3rd District because Washington is quietly taxing working families through inflation and debt, and both parties are fine with it.",
+        "source_url": "https://2amike4congress.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:17.408Z",
+      "platform_video_tier": null
+    },
+    {
+      "slug": "kent-udell",
+      "full_name": "UDELL, KENT DR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6UT03182",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 47533.47,
+        "totalSpent": 34198.2,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 47382.72,
+          "pac": 130.75,
+          "party": 0,
+          "selfFunded": 20
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "UC Berkeley, Professor of Mechanical Engineering (1980 - 2005); University of Utah, Professor and Researcher; Mechanical Engineer",
+          "source_url": "https://www.ballotready.org/people/kent-udell",
+          "snippet": "Professional Experience UC Berkeley, Professor of Mechanial Engineering (1980 - 2005) University of Utah, Professor and Researcher Mechanical Engineer",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Water",
+          "value": "Water is life in the West. With the Great Salt Lake, Lake Powell and the Colorado River system under real threat, we must act responsibly and urgently. This is one of my top priorities. I will work to protect our rights to clean, reliable water for communities, farms, and tribal nations, now and for future generations.",
+          "snippet": "Water is life in the West. With the Great Salt Lake, Lake Powell and the Colorado River system under real threat, we must act responsibly and urgently. This is one of my top priorities. I will work to protect our rights to clean, reliable water for communities, farms, and tribal nations, now and for future generations."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Our immigration system is broken, but cruelty, chaos, and political theater are not solutions. We need lawful, humane, and workable policies that respect the rule of law, treat people with dignity, and support communities, employers, and border states. I support serious legislative reform, not fear-based politics.",
+          "snippet": "Our immigration system is broken, but cruelty, chaos, and political theater are not solutions. We need lawful, humane, and workable policies that respect the rule of law, treat people with dignity, and support communities, employers, and border states. Additionally, we must always uphold our constitutional rights such as the 4th Amendment which protects individuals against unreasonable search and seizures by the government. The right to be secure in our persons and houses must be guaranteed. I support serious legislative reform, not fear-based politics."
+        },
+        {
+          "topic": "Anti-Corruption",
+          "value": "Corruption is poisoning our country. From dark money in our elections to regulatory avoidance, too many decisions in Washington benefit the powerful instead of the needs of Americans. I will fight for transparency, accountability, and ethics reforms that put American interests, not special interests, first.",
+          "snippet": "Corruption is poisoning our country. From dark money in our elections to regulatory avoidance, too many decisions in Washington benefit the powerful instead of the needs of Americans. I will fight for transparency, accountability, and ethics reforms that put American interests, not special interests, first."
+        },
+        {
+          "topic": "Energy",
+          "value": "America needs reliable, affordable energy, now and in the future. As an engineer, I support an all-of-the-above approach grounded in science, innovation, and economics. We can strengthen energy security, protect water and land, and lead in clean-energy technologies without being distracted by ideological extremes.",
+          "snippet": "America needs reliable, affordable energy, now and in the future. As an engineer, I support an all-of-the-above approach grounded in science, innovation, and economics. We can strengthen energy security, protect water and land, and lead in clean-energy technologies without being distracted by ideological extremes."
+        },
+        {
+          "topic": "Gun Rights and Safety",
+          "value": "As a lifelong gun owner, I support the Second Amendment and the responsibility that comes with it. We can protect lawful gun ownership while taking commonsense steps to reduce preventable violence. I support gun safety training, safe storage, and Red Flag Laws, not fear-based political posturing.",
+          "snippet": "As a lifelong gun owner, I support the Second Amendment and the responsibility that comes with it. We can protect lawful gun ownership while taking commonsense steps to reduce preventable violence. I support gun safety training, safe storage, and Red Flag Laws, not fear-based political posturing."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Our health care costs are too high, and our outcomes are below what should be expected for the price. We should learn from international examples to reform our health care system, diminishing the influence of insurance companies, and expand programs, such as Medicare, to be accessible to all.",
+          "snippet": "Our health care costs are too high, and our outcomes are below what should be expected for the price. There are dozens of international examples of better health care for less cost. We should learn from those examples to reform our health care system, diminishing the influence of insurance companies, and expand programs, such as Medicare, to be accessible to all."
+        },
+        {
+          "topic": "Data Centers",
+          "value": "I call for a moratorium on any new data centers in Utah until pertinent questions are honestly answered.",
+          "snippet": "I call for a moratorium on any new data centers in Utah until pertinent questions are honestly answered."
+        }
+      ],
+      "platform_source_url": "https://www.kentudellforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T20:35:56.635Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Kent Stewart Udell was born in Lehi, Utah, and raised in a large Latter-day Saint family, where values of service, integrity, and community were central. Over his career as a Mechanical Engineer, he worked directly with the mining, petroleum, geothermal, and solar industries which has given him invaluable firsthand understanding of the livelihoods, concerns, and aspirations of working families across the West. Much of his focus has been on complex water issues, environmental remediation, developing sustainable energy alternatives and educating the next generation of engineers.",
+        "source_url": "https://www.kentudellforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:24.753Z"
+    }
+  ]
+}

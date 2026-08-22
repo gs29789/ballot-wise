@@ -1,0 +1,699 @@
+{
+  "state": "NM",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-17T15:38:58.758Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://codes.findlaw.com/nm/chapter-1-elections/nm-st-sect-1-8-11/",
+    "primarySnippet": "A primary election shall be held in each county in this state on the first Tuesday after the first Monday in June of each even-numbered year. (NMSA 1978 § 1-8-11)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.nm.gov/wp-content/uploads/2025/01/NM_Constitution_-2025-for-SOS.pdf",
+    "generalSnippet": "Sec. 6. [Date of general elections.] General elections shall be held in the state on the Tuesday after the first Monday in November in each even-numbered year. (New Mexico Constitution, Article XX, Section 6 — official text from the Secretary of State's published Constitution booklet)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Ambiguous — New Mexico has two felony-disqualification provisions with inconsistent scope. NMSA 1978 §10-1-2 broadly bars anyone convicted of a 'felonious or infamous crime' (absent a pardon or restoration of political rights) from being 'elected or appointed to any public office in this state,' language broad enough on its face to arguably reach federal offices held by NM residents. But the companion restoration statute, NMSA 1978 §31-13-1 ('Felony conviction; restoration of right to hold office of public trust'), frames the same bar narrowly as applying only to 'an office of public trust for the state, a county, a municipality or a district' — omitting federal office. Even under the broadest reading of §10-1-2, any state-imposed qualification for Congress beyond the U.S. Constitution's own textual qualifications would likely be preempted under U.S. Term Limits v. Thornton (1995). No New Mexico court decision was found squarely resolving whether §10-1-2 reaches congressional candidacy specifically, so genuine ambiguity remains.",
+    "source_url": "https://codes.findlaw.com/nm/chapter-10-public-officers-and-employees/nm-st-sect-10-1-2/",
+    "snippet": "no person convicted of a felonious or infamous crime, unless such person has been pardoned or restored to political rights, shall be qualified to be elected or appointed to any public office in this state"
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/New_Mexico%27s_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Gabriel Vasquez and Greg Cunningham are running in the general election for U.S. House New Mexico District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 66.53
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 62.63
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 61.06
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 54.31
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 46.32
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 898.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 896.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 897.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 890.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 892.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 890.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 889.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 892.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 891.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 892.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 892.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 891.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 892.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 893.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 891.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 893.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 893
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 894.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 893.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 892.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 891.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 891.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 890.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 886.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 889.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 886.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 885.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 887.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 887.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 884.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 887.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 882.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 879.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 879
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 877.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 874.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 877.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 873.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 872.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 869.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 868.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 867.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 11350325077.82,
+        "perCapitaUsd": 16130.48
+      },
+      {
+        "year": "2024",
+        "totalUsd": 12058673714.5,
+        "perCapitaUsd": 17137.15
+      },
+      {
+        "year": "2025",
+        "totalUsd": 12513328077.35,
+        "perCapitaUsd": 17783.28
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 2113344
+      },
+      {
+        "year": "2023",
+        "population": 2114371
+      },
+      {
+        "year": "2024",
+        "population": 2130256
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59726
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 62268
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 67816
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "greg-cunningham",
+      "full_name": "CUNNINGHAM, GREG",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NM02127",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1510080.06,
+        "totalSpent": 715892.89,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 142850.28,
+          "largeDollar": 715593.37,
+          "pac": 156100,
+          "party": 2000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married to Jennifer",
+          "source_url": "https://www.cunninghamfornm.com/",
+          "snippet": "Greg is a proud husband to Jennifer, father, and grandfather.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Greg Cunningham is a lifelong New Mexican whose life has been defined by service, faith, and family. From an early age, he felt the call to serve and answered it by joining the United States Marine Corps, where he distinguished himself as a combat veteran. His time in uniform instilled in him discipline, courage, and an unwavering commitment to his country—qualities that have carried through every chapter of his life. After returning home, Greg continued his service to his community with the Albuquerque Police Department.",
+        "source_url": "https://www.cunninghamfornm.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:22.854Z"
+    },
+    {
+      "slug": "gabriel-vasquez",
+      "full_name": "VASQUEZ, GABRIEL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NM02191",
+      "fec_status": "C",
+      "bioguide_id": "V000136",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3784102.3,
+        "totalSpent": 1444484.19,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 385490.33,
+          "largeDollar": 2064169.35,
+          "pac": 986144.61,
+          "party": 4774.45,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1984-08-03",
+          "source_url": "https://www.wikidata.org/wiki/Q115155647",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "El Paso, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q115155647",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Montwood High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115155647",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "helped build a local small business, and served on the Las Cruces City Council before being elected to Congress",
+          "source_url": "https://gabeforcongress.com/",
+          "snippet": "He worked his way through college, helped build a local small business, and served on the Las Cruces City Council before being elected to Congress.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Montwood High School in El Paso",
+          "source_url": "https://en.wikipedia.org/wiki/Gabe_Vasquez",
+          "snippet": "Vasquez later attended Montwood High School in El Paso",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "served on the Las Cruces City Council",
+          "source_url": "https://gabeforcongress.com/",
+          "snippet": "served on the Las Cruces City Council",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare Costs",
+          "value": "Worked to cap the price of insulin at $35",
+          "snippet": "working to keep rural hospitals funded and cap the price of insulin at $35"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Worked to fund 22,000 Customs and Border Protection agents to make communities safer",
+          "snippet": "fund 22,000 Customs and Border Protection agents to make our communities safer"
+        },
+        {
+          "topic": "Public Lands",
+          "value": "Led the successful fight to prevent Trump from selling off millions of acres of public lands",
+          "snippet": "he led the successful fight to prevent Trump from selling off millions of acres of our public lands"
+        },
+        {
+          "topic": "Rural Hospitals",
+          "value": "Worked to keep rural hospitals funded",
+          "snippet": "working to keep rural hospitals funded"
+        },
+        {
+          "topic": "Corporate Taxation",
+          "value": "Committed to building a thriving economy where corporations pay their fair share",
+          "snippet": "He s committed to building a thriving economy where corporations pay their fair share"
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Committed to protecting every American's freedom to vote",
+          "snippet": "protecting every American s freedom to vote"
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Committed to protecting every woman's right to choose",
+          "snippet": "every woman s right to choose"
+        },
+        {
+          "topic": "Wildfires",
+          "value": "Got his bipartisan bill to combat wildfires signed into law by President Trump",
+          "snippet": "get his bipartisan bill to combat wildfires signed into law by President Trump"
+        }
+      ],
+      "platform_source_url": "https://gabeforcongress.com/",
+      "_platform_resolved_at": "2026-08-13T17:23:21.473Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 64,
+        "bills_cosponsored": 598,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.321,
+          "nominateDim2": 0.548,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/V000136"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 94.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/V000136"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Gabe Vasquez grew up in New Mexico’s borderlands, where he learned the value of hard work from his mother . He worked his way through college, helped build a local small business, and served on the Las Cruces City Council before being elected to Congress.",
+        "source_url": "https://gabeforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:24.830Z",
+      "platform_video_tier": null
+    }
+  ]
+}

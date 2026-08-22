@@ -1,0 +1,858 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-21T12:48:51.376Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Tom McClintock and Michael Masuda are running in the general election for U.S. House California District 5 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michael-masuda",
+      "full_name": "MASUDA, MICHAEL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA05377",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 361735.22,
+        "totalSpent": 272283.71,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 141931.71,
+          "largeDollar": 198117.54,
+          "pac": 18750,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Amador County",
+          "source_url": "https://www.votemasuda.com/",
+          "snippet": "Michael Masuda grew up in Amador County, in a rural community that shaped his values",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "engineer",
+          "source_url": "https://www.votemasuda.com/",
+          "snippet": "As an engineer, Michael helped create new technologies to keep our troops safe.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Amador High School (2007)",
+          "source_url": "https://www.ballotready.org/people/michael-masuda",
+          "snippet": "High School Diploma, Amador High School (2007)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Master's, California Polytechnic State University-San Luis Obispo, Electrical Engineering (2013); Bachelor's, California Polytechnic State University-San Luis Obispo, Electrical Engineering (2013)",
+          "source_url": "https://www.ballotready.org/people/michael-masuda",
+          "snippet": "Degrees Master's, California Polytechnic State University-San Luis Obispo, Electrical Engineering (2013) Bachelor's, California Polytechnic State University-San Luis Obispo, Electrical Engineering (2013)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability for Working People",
+          "value": "Making life more affordable for working people",
+          "snippet": "Making life more affordable for working people"
+        },
+        {
+          "topic": "Wildfire Protection",
+          "value": "Protecting our communities from wildfires",
+          "snippet": "Protecting our communities from wildfires"
+        },
+        {
+          "topic": "Local Economies",
+          "value": "Supporting our local economies",
+          "snippet": "Supporting our local economies"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Fighting unwanted influences of Big Money",
+          "snippet": "Fighting unwanted influences of Big Money"
+        }
+      ],
+      "platform_source_url": "https://www.votemasuda.com/",
+      "_platform_resolved_at": "2026-08-15T10:55:16.972Z",
+      "campaign_site_url": "https://www.votemasuda.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Michael Masuda grew up in Amador County, in a rural community that shaped his values: hard work, integrity, giving back to your community, and treating people with respect. As an engineer, Michael helped create new technologies to keep our troops safe. As a Democratic Candidate for CA5, Michael is focused on collaborating to solve our shared concerns: Making life more affordable for working people Protecting our communities from wildfires Supporting our local economies, and Fighting unwanted influences of Big Money",
+        "source_url": "https://www.votemasuda.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:43.665Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10070510.pdf",
+        "filingDate": "7/27/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T10:55:23.011Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "thomas-mcclintock",
+      "full_name": "MCCLINTOCK, THOMAS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CA04152",
+      "fec_status": "C",
+      "bioguide_id": "M001177",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 928787.61,
+        "totalSpent": 875520.62,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 112112.66,
+          "largeDollar": 657941.78,
+          "pac": 156551,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "served 22 years in the California legislature",
+          "source_url": "https://www.tommcclintock.com/about-tom-mcclintock/",
+          "snippet": "Prior to his election to Congress, McClintock served 22 years in the California legislature",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1956-07-10",
+          "source_url": "https://www.wikidata.org/wiki/Q535887",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Bronxville, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q535887",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Los Angeles",
+          "source_url": "https://www.wikidata.org/wiki/Q535887",
+          "source_type": "wikidata_structured"
+        },
+        "civic_affiliations": {
+          "value": "Elected chair of the Ventura County Republican Party at age 23, served until 1981",
+          "source_url": "https://en.wikipedia.org/wiki/Tom_McClintock",
+          "snippet": "At 23, he was elected chair of the Ventura County Republican Party, and served until 1981.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Proposition 2 Education Bond",
+          "value": "Opposes Proposition 2, a $10 billion bond measure ($17.5 billion with interest – or $1,300 per household) to pay for public schools and colleges",
+          "snippet": "Proposition 2 – We Have to Bankrupt our Children to Save Them: NO. This is a $10 billion bond measure ($17.5 billion with interest – or $1,300 per household) to pay for public schools and colleges."
+        }
+      ],
+      "platform_source_url": "https://www.tommcclintock.com/",
+      "_platform_resolved_at": "2026-08-15T10:55:19.588Z",
+      "campaign_site_url": "https://www.tommcclintock.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=nhejnwhut-c",
+      "platform_video_title": "Obamacare Promises Likely to be Broken",
+      "platform_video_source_url": "https://www.tommcclintock.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-18T22:07:21.785Z",
+      "bio_summary": {
+        "value": "Tom McClintock represents the people of California’s historic gold country and Sierra Nevada in a district that stretches from Lake Tahoe, through Yosemite Valley and on to Kings Canyon.",
+        "source_url": "https://www.tommcclintock.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:45.531Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 268,
+          "attendanceRate": 0.9469964664310954
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Federal Lands",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Immigration Integrity, Security, and Enforcement",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — The Constitution and Limited Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 155,
+        "bills_cosponsored": 1896,
+        "bills_became_law": 5,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 2300 Sylvan Avenue in Modesto, California, as the \"Corporal Michael D. Anderson Jr. Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "1555",
+            "publicLawNumber": "118-211",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 2300 Sylvan Avenue in Modesto, California, as the Corporal Michael D. Anderson Jr. Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ211"
+          },
+          {
+            "title": "To take certain Federal lands located in El Dorado County, California, into trust for the benefit of the Shingle Springs Band of Miwok Indians, and for other purposes.",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "2388",
+            "publicLawNumber": "113-127",
+            "summary": "(This measure has not been amended since it was reported to the House on September 10, 2013. The summary of that version is repeated here.) Takes specified federal land in El Dorado County, California, into trust for the Shingle Springs Band of Miwok Indians. Describes that land as the approximately 40.852 acres of federal land under the administrative jurisdiction of the Bureau of Land Management (BLM) identified as &quot;Conveyance boundary&quot; on the map titled &quot;Shingle Springs Land Conveyance/Draft&quot; and dated June 7, 2012, including improvements and appurtenances thereto. Prohibits class II and III gaming on such lands.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ127"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 8771 Auburn Folsom Road in Roseville, California, as the \"Lance Corporal Victor A. Dew Post Office\".",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "3892",
+            "publicLawNumber": "112-247",
+            "summary": "(This measure has not been amended since it was passed by the House on November 28, 2012. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 8771 Auburn Folsom Road in Roseville, California, as the \"Lance Corporal Victor A. Dew Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ247"
+          },
+          {
+            "title": "To designate a mountain in the John Muir Wilderness of the Sierra National Forest as \"Sky Point\".",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "381",
+            "publicLawNumber": "115-109",
+            "summary": "(This measure has not been amended since it was introduced. The expanded summary of the House passed version is repeated here.) (Sec. 2) This bill designates a specified mountain in the John Muir Wilderness of the Sierra National Forest in California as &quot;Sky Point.&quot;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ109"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 440 South Gulling Street in Portola, California, as the \"Army Specialist Jeremiah Paul McCleery Post Office Building\".",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "3319",
+            "publicLawNumber": "111-131",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 440 South Gulling Street in Portola, California, as the \"Army Specialist Jeremiah Paul McCleery Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ131"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.671,
+          "nominateDim2": -0.358,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001177"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 10.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001177"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

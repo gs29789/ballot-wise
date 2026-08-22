@@ -1,0 +1,821 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-15",
+  "generated_at": "2026-08-20T15:45:24.909Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_15th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Laurel Lee, Robert People, and Angie Boone are running in the general election for U.S. House Florida District 15 on November 3, 2026. Angie Boone has no findable FEC registration and is excluded from this pipeline's candidate list on that basis."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542145499.77,
+        "perCapitaUsd": 700.58
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "laurel-lee",
+      "full_name": "LEE, LAUREL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2FL15241",
+      "fec_status": "C",
+      "bioguide_id": "L000597",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2346664.45,
+        "totalSpent": 820753.35,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3293.17,
+          "largeDollar": 450260.3,
+          "pac": 852500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1974-03-26",
+          "source_url": "https://www.wikidata.org/wiki/Q61483038",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Wright-Patterson Air Force Base, Ohio",
+          "source_url": "https://www.wikidata.org/wiki/Q61483038",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q61483038",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "law clerk, United States District Court Judge James S. Moody Jr.; lawyer, private practice; assistant federal prosecutor, United States District Court for the Middle District of Florida; Hillsborough County, Fla., circuit court judge, 2013-2019; Florida secretary of state, 2019-2022",
+          "source_url": "https://history.house.gov/People/Listing/L/LEE,-Laurel-(L000597)/",
+          "snippet": "law clerk, United States District Court Judge James S. Moody Jr.; lawyer, private practice; assistant federal prosecutor, United States District Court for the Middle District of Florida; Hillsborough County, Fla., circuit court judge, 2013-2019; Florida secretary of state, 2019-2022",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "Volunteered with Bay Area Legal Services' Domestic Violence Assistance Project; served on the board of the Emergency Care Help Organization (E.C.H.O.) of Brandon",
+          "source_url": "https://en.wikipedia.org/wiki/Laurel_Lee",
+          "snippet": "She has volunteered with Bay Area Legal Services' Domestic Violence Assistance Project and served on the board of the Emergency Care Help Organization (E.C.H.O.) of Brandon.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security and Immigration",
+          "value": "Voted for legislation that invests over $46 billion to finish the border wall and dramatically expands the Border Patrol workforce—adding thousands of new agents, officers, and support staff. The bill funds advanced surveillance technology to stop fentanyl smuggling and provides additional air, marine, and biometric systems to track and deter illegal entry. It includes major support for deportation operations and local law enforcement partnerships, giving ICE and DHS the tools they need to detain and remove criminal aliens and protect American communities.",
+          "snippet": "In Congress, Laurel voted for legislation that invests over $46 billion to finish the border wall and dramatically expands the Border Patrol workforce—adding thousands of new agents, officers, and support staff. The bill funds advanced surveillance technology to stop fentanyl smuggling and provides additional air, marine, and biometric systems to track and deter illegal entry. It includes major support for deportation operations and local law enforcement partnerships, giving ICE and DHS the tools they need to detain and remove criminal aliens and protect American communities."
+        },
+        {
+          "topic": "Tax Relief and Economic Policy",
+          "value": "Championed the permanent tax relief provisions recently enacted by Congress, including protections for middle-class families, preservation of the 20% small business deduction, and a doubled child tax credit. The legislation eliminates unfair taxes on tips and overtime, provides tax relief to family farms, expands education savings accounts, and promotes American-made manufacturing.",
+          "snippet": "She championed the permanent tax relief provisions recently enacted by Congress, including protections for middle-class families, preservation of the 20% small business deduction, and a doubled child tax credit. The legislation eliminates unfair taxes on tips and overtime, provides tax relief to family farms, expands education savings accounts, and promotes American-made manufacturing."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Supported efforts to cut unnecessary government spending and end fraud, waste, and abuse in government programs—ensuring that taxpayer resources go to those truly in need, not those who are ineligible or defrauding the system.",
+          "snippet": "She also supported efforts to cut unnecessary government spending and end fraud, waste, and abuse in government programs —ensuring that taxpayer resources go to those truly in need, not those who are ineligible or defrauding the system."
+        },
+        {
+          "topic": "Technical Education",
+          "value": "Supports the PELL Act, expanding Pell grants for technical education and job training.",
+          "snippet": "Laurel supports the PELL Act, expanding Pell grants for technical education and job training."
+        },
+        {
+          "topic": "Crime and Policing",
+          "value": "Voted to overturn soft-on-crime policies like the D.C. criminal code overhaul, and co-sponsored a resolution opposing efforts to defund the police.",
+          "snippet": "She has voted to overturn soft-on-crime policies like the D.C. criminal code overhaul, and co-sponsored a resolution opposing efforts to defund the police."
+        },
+        {
+          "topic": "Law Enforcement Support",
+          "value": "Championed the Debbie Smith Act to fund DNA testing in sexual assault cases, the Prosecutors Need to Prosecute Act to bring transparency to violent crime prosecutions, and the Lifesaving Gear for Police Act to equip law enforcement with the protective gear they need.",
+          "snippet": "Laurel has championed the Debbie Smith Act to fund DNA testing in sexual assault cases, the Prosecutors Need to Prosecute Act to bring transparency to violent crime prosecutions, and the Lifesaving Gear for Police Act to equip law enforcement with the protective gear they need."
+        },
+        {
+          "topic": "Military and Veteran Support",
+          "value": "Co-introduced the Supporting Military Voters Act, a bipartisan effort to improve absentee ballot access for deployed servicemembers and their dependents. She supports expanding access to mental health care, improving veteran job placement programs, and strengthening benefits delivery systems to make sure promises made are promises kept.",
+          "snippet": "Laurel co-introduced the Supporting Military Voters Act, a bipartisan effort to improve absentee ballot access for deployed servicemembers and their dependents. She supports expanding access to mental health care, improving veteran job placement programs, and strengthening benefits delivery systems to make sure promises made are promises kept."
+        },
+        {
+          "topic": "Human Trafficking",
+          "value": "Introduced the National Human Trafficking Hotline Enhancement Act to ensure real-time reporting of trafficking tips to law enforcement, accelerating victim rescues. Her REPORT Act, now law, holds tech companies accountable for reporting abuse and preventing online exploitation.",
+          "snippet": "She introduced the National Human Trafficking Hotline Enhancement Act to ensure real-time reporting of trafficking tips to law enforcement, accelerating victim rescues. Her REPORT Act, now law, holds tech companies accountable for reporting abuse and preventing online exploitation."
+        }
+      ],
+      "platform_source_url": "https://votelaurel.com/",
+      "_platform_resolved_at": "2026-08-20T15:45:07.767Z",
+      "campaign_site_url": "https://www.votelaurel.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 282,
+          "attendanceRate": 0.9964664310954063
+        },
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Crime and Federal Government Surveillance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration — Elections",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 45,
+        "bills_cosponsored": 369,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Reforming Intelligence and Securing America Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7888",
+            "publicLawNumber": "118-49",
+            "summary": "Reforming Intelligence and Securing America Act This act reauthorizes Title VII of the Foreign Intelligence Surveillance Act (FISA) for two years and makes changes to FISA, including expanding restrictions on surveillance under Section 702. (Section 702 concerns acquiring communications of non-U.S. persons believed to be outside the United States to obtain foreign intelligence information. Information about U.S. persons may incidentally be acquired by this type of surveillance and subsequently searched or queried under certain circumstances.) Changes to FISA include requiring applications for electronic surveillance or a physical search under&nbsp;FISA to be supported by sworn statements and limiting the use of information derived from political organizations or media sources&nbsp;in such applications; requiring any extension of an order for electronic surveillance under&nbsp;FISA targeting a U.S. person to be granted or denied by the same judge who issued the original order to the extent practicable and absent exigent circumstances; providing that specified congressional leaders are entitled to attend any proceeding of the Foreign Intelligence Surveillance Court (FISC) or the Foreign Intelligence Surveillance Court of Review (FISC-R) and that each such leader may also designate up to two staff members to attend on his or her behalf; repealing the authority to resume&nbsp; abouts collection (i.e., intentionally acquiring communications that contain a reference to, but are not to or from, a target of acquisition authorized under section 702(a) of FISA); increasing certain criminal and civil penalties related to&nbsp;FISA; requiring adverse consequences (e.g., suspension without pay or removal) for federal government officers and employees who engage in intentional misconduct with respect to proceedings before the&nbsp;FISC or FISC-R; expanding the definition of foreign intelligence information to include information related to the ability of the United States to protect against the international production, distribution, or financing of drugs driving overdose deaths (such as illicit synthetic drugs and&nbsp;opioids) or their precursors; and expanding the definition of electronic communication service provider &nbsp;to include any service provider that has access to equipment that is being or may be used to transmit of store wire or electronic communications, but excluding entities that serve primarily as dwellings, food service establishments, community facilities, or public accommodation facilities. The act also makes various changes related to querying the contents of information collected under Section 702 of FISA. The statutory changes related to such querying include prohibiting Federal Bureau of Investigation (FBI) personnel from making U.S. person queries without prior approval by certain FBI supervisors or attorneys unless the query might mitigate or eliminate a threat to life or serious bodily harm; requiring the FBI Deputy Director to approve certain politically sensitive query terms (such as those that identify certain elected and appointed officials); prohibiting the involvement of political appointees in the approval process for such politically sensitive query requests; requiring the FBI to establish consequences for&nbsp;noncompliant querying of U.S. person terms, including zero tolerance for willful misconduct and escalating consequences for unintentional noncompliance, as well as consequences for supervisors who oversee those that engage in noncompliant querying; requiring the FBI Director to notify congressional leaders and the affected Member of Congress of any query using the name or personally identifying information of a Member of Congress, except that the Director may waive such notification if it would impede an ongoing national security or law enforcement investigation; prohibiting the FBI from conducting a query using the name or personally identifying information of a Member of Congress to supplement a defensive briefing about a counterintelligence threat to that Member unless the Member consents or the FBI Deputy Director determines that exigent circumstances exist (however, the FBI Director must notify congressional leaders when the FBI seeks such consent or when it makes an exigent circumstance determination); prohibiting queries that are solely designed to find and extract evidence of a crime, with certain exceptions; allowing such querying to vet non-U.S. persons who are being processed for travel to the United States provided that no U.S. person terms are used; requiring the Department of Justice (DOJ) to audit all U.S. person queries within 180 days of such query; and requiring the&nbsp;DOJ Inspector General to report to Congress on FBI querying practices, including an evaluation of compliance by FBI personnel with the procedures governing queries using U.S. person query terms. The act establishes a&nbsp;FISA Reform Commission to review the effectiveness of the current implementation of FISA and to develop recommendations for legislative reform of FISA that provide for the effective conduct of U.S. intelligence activities and the protection of privacy and civil liberties. For&nbsp;additional information see CRS In Focus 11451, Foreign Intelligence Surveillance Act (FISA) ; CRS Legal Sidebar 11148, FISA Section 702 Sunset, Authorization, and Potential Extension ; CRS Report R47477, Reauthorization of Title VII of the Foreign Intelligence Surveillance Act ; and CRS Report R48592, FISA Section 702 and the 2024 Reforming Intelligence and Securing America Act",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ49"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.422,
+          "nominateDim2": 0.166,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000597"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 77.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000597"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Before her election to Congress in 2022, Laurel served as Florida Secretary of State, where she modernized the state’s election systems, strengthened cybersecurity, and helped lead the nation in voter integrity and secure participation. In Congress, she continues to advocate for clear, consistent election laws that promote confidence in the process and ensure every legal vote counts. Prior to her service in Tallahassee, Laurel was appointed by Governor Rick Scott to the Circuit Court bench in Hillsborough County, where she served as a judge for six years.",
+        "source_url": "https://votelaurel.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:23.743Z"
+    },
+    {
+      "slug": "robert-people",
+      "full_name": "PEOPLE, ROBERT",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL15168",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 40107.9,
+        "totalSpent": 36633.97,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 11851.29,
+          "largeDollar": 8035,
+          "pac": 200,
+          "party": 0,
+          "selfFunded": 17071.61
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "High School Diploma, Parkville High School (1997)",
+          "source_url": "https://www.ballotready.org/people/robert-people",
+          "snippet": "High School Diploma, Parkville High School (1997)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "iQor, Senior Enterprise Proposal Writer (2024 - 2025); The RFP Success Company, Proposal Writer and Coordinator (2023 - 2024); US Army (1997 - 2018)",
+          "source_url": "https://www.ballotready.org/people/robert-people",
+          "snippet": "iQor, Senior Enterprise Proposal Writer (2024 - 2025) The RFP Success Company, Proposal Writer and Coordinator (2023 - 2024) US Army (1997 - 2018)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078380.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:45:20.751Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

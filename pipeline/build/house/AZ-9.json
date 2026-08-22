@@ -1,0 +1,862 @@
+{
+  "state": "AZ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-18T20:03:17.432Z",
+  "election_dates": {
+    "primaryDate": "2026-07-21",
+    "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+    "primarySnippet": "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+    "generalSnippet": "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+    "snippet": "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arizona's_9th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Paul Gosar and Danielle Sterbinsky are running in the general election for U.S. House Arizona District 9 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.75
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.93
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.75
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.88
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 28.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3283.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3280.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3282.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3274.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3272.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3262.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3253
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3249.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3259
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3259.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3263.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3269.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3278.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3273.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3275.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3268.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3269.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3267.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3255.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3255.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3264.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3257.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3255.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3221.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3209.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3200
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3229.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3218.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3210.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3210.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3195.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3190.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3169.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3167.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3156.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3246133145.22,
+        "perCapitaUsd": 4059.85
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4771148114.64,
+        "perCapitaUsd": 5967.14
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3619302414.08,
+        "perCapitaUsd": 4526.56
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7359197
+      },
+      {
+        "year": "2023",
+        "population": 7431344
+      },
+      {
+        "year": "2024",
+        "population": 7582384
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 74568
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 77315
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81486
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "paul-gosar",
+      "full_name": "GOSAR, PAUL DR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0AZ01259",
+      "fec_status": "C",
+      "bioguide_id": "G000565",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 580042.5,
+        "totalSpent": 368425.78,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 127934.81,
+          "largeDollar": 362121.04,
+          "pac": 85000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1958-11-22",
+          "source_url": "https://www.wikidata.org/wiki/Q2059832",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Rock Springs, Wyoming",
+          "source_url": "https://www.wikidata.org/wiki/Q2059832",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Creighton University",
+          "source_url": "https://www.wikidata.org/wiki/Q2059832",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Pinedale High School, graduated 1977",
+          "source_url": "https://en.wikipedia.org/wiki/Paul_Gosar",
+          "snippet": "Gosar was raised in Pinedale, Wyoming , and graduated from Pinedale High School in 1977.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Dentistry practice in Flagstaff, Arizona from 1989 to 2010",
+          "source_url": "https://en.wikipedia.org/wiki/Paul_Gosar",
+          "snippet": "From 1989 to 2010, Gosar had a dentistry practice in Flagstaff, Arizona .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Arizona Dental Association 'Dentist of the Year' 2001, inducted into AzDA Hall of Fame, served as AzDA president 2004-2005, president of Northern Arizona Dental Society, vice-chair of AzDA council on governmental affairs",
+          "source_url": "https://en.wikipedia.org/wiki/Paul_Gosar",
+          "snippet": "In 2001, Gosar was the Arizona Dental Association 's (AzDA) \"Dentist of the Year\". He was inducted into the AzDA Hall of Fame and served as its president from 2004 to 2005. Gosar was also president of the Northern Arizona Dental Society and vice-chair of the AzDA council on governmental affairs.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=M3mIxep1Yeo",
+      "platform_video_title": "Paul Gosar for Congress TV Ad \"Effective\"",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-21T12:00:37.940Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116160.pdf",
+        "filingDate": "4/29/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:03:07.810Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 253,
+          "attendanceRate": 0.8939929328621908
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Oversight and Investigations",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Federal Law Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Health Care and Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 376,
+        "bills_cosponsored": 2715,
+        "bills_became_law": 8,
+        "enacted_laws": [
+          {
+            "title": "VETS Safe Travel Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7365",
+            "publicLawNumber": "118-238",
+            "summary": "Veterans Expedited TSA Screening Safe Travel Act or the VETS Safe Travel Act This act makes certain veterans eligible for the Transportation Security Administration (TSA) PreCheck&nbsp;Program at no cost if they meet the program's background check and security requirements. Veterans who are eligible for this fee waiver are those who the Department of Veterans Affairs (VA)&nbsp;has determined to have a service-connected disability&nbsp;and require the use of a wheelchair, prosthetic limb, or other device to aid with mobility due to (1) loss, or loss of use, of an&nbsp;extremity; (2) full or partial paralyzation; or (3) permanent blindness. The veteran must also be in&nbsp;the patient enrollment system of the VA. The act specifies that the TSA may not increase enrollment fees for&nbsp;the&nbsp;PreCheck Program in order to&nbsp;carry out this fee waiver program. The VA and the TSA must implement a process under which eligible veterans may receive the PreCheck Program benefit. Further, the VA and the TSA must implement a process to provide disabled veterans with effective outreach about programs that are designed to improve the screening process for passengers with disabilities. The VA and the TSA must also assess the awareness of veterans of relevant TSA programs and examine the need and feasibility of other measures to improve travel security procedures for disabled veterans.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ238"
+          },
+          {
+            "title": "Relating to a national emergency declared by the President on March 13, 2020.",
+            "congress": 118,
+            "billType": "HJRES",
+            "billNumber": "7",
+            "publicLawNumber": "118-3",
+            "summary": "This joint resolution terminates the national emergency concerning COVID-19 declared by the President on March 13, 2020.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ3"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 1750 McCulloch Boulevard North in Lake Havasu City, Arizona, as the \"Lake Havasu City Combat Veterans Memorial Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "3314",
+            "publicLawNumber": "116-90",
+            "summary": "Designates the facility of the United States Postal Service located at 1750 McCulloch Boulevard North in Lake Havasu City, Arizona, as the \"Lake Havasu City Combat Veterans Memorial Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ90"
+          },
+          {
+            "title": "Bill Williams River Water Rights Settlement Act of 2014",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "4924",
+            "publicLawNumber": "113-223",
+            "summary": "(This measure has not been amended since it passed the House on December 1, 2014. The summary of that version is repeated here.) Bill Williams River Water Rights Settlement Act of 2014 - (Sec. 4) Authorizes, ratifies, and confirms: (1) the Big Sandy River-Planet Ranch Water Rights Settlement Agreement (Big Sandy River-Planet Ranch Agreement) entered into by the Hualapai Tribe (Tribe), its members and allottees, the United States as trustee for the Tribe, the Secretary of the Interior (Secretary), the Arizona Department of Water Resources, the Freeport Minerals Corporation (Corporation), and the Arizona Game and Fish Commission; and (2) any amendment to that Agreement that is executed to make it consistent with this Act. Directs the Secretary of the Interior to execute the Big Sandy River-Planet Ranch Agreement and any amendment to that Agreement that is necessary to make it consistent with this Act. Requires the Secretary to also execute a conditional withdrawal of the Department of the Interior's objections to specified applications by the Corporation to sever and transfer certain water rights from: (1) Lincoln Ranch and Planet Ranch to the Wikieop Wellfield for use at the Bagdad Mine Complex and Bagdad Townsite, and (2) portions of Planet Ranch to new locations within that Ranch. (Sec. 5) Authorizes, ratifies, and confirms: (1) the Hualapai Tribe Bill Williams River Water Rights Settlement Agreement (Hualapai Tribe Agreement) entered into by the Tribe, its members and allottees, the United States as trustee for the Tribe, and the Corporation; and (2) any amendment to that Agreement that is executed to make it consistent with this Act. Directs the Secretary to execute the Hualapai Tribe Agreement and any amendment to that Agreement that is necessary to make it consistent with this Act. Authorizes the Corporation's contribution to the economic development fund of the Tribe, as provided for in the Hualapai Tribe Agreement, to be used by the Tribe for the limited purpose of facilitating settlement of the Tribe's claims for Colorado River water rights by enabling the Tribe to: (1) acquire Colorado River water rights to increase the security of the Tribe's water rights, and (2) otherwise facilitate the use of water on the Hualapai Reservation. Requires the Tribe to use those acquired water rights only: (1) to irrigate acquired appurtenant land or for storage in accordance with federal and state law in a permitted recharge facility in Arizona, subject to specified conditions. Terminates these use limitations on the earlier of: (1) the date the Hualapai Tribe Agreement becomes enforceable, or (2) December 31, 2039. Provides that if the Hualapai Tribe Agreement does not become enforceable by December 31, 2039, any Colorado River water rights acquired by the Tribe with the Corporation's contribution to its economic development fund is to be counted toward the Tribe's clams for Colorado River water rights in any subsequent settlement or adjudication of those claims. (Sec. 6) Provides for the waiver, release, and retention of specified water rights claims under both Agreements. Authorizes the waiver and release of specified claims by the United States and the Tribe against the Corporation, pursuant to the Big Sandy River-Planet Ranch Agreement, for: Indian allottees' water rights in excess of 82 acre-feet per year on a specified Parcel; Indian allottees' water rights in excess of 312 acre-feet per year on a specified Parcel 2; tribal water rights in excess of 300 acre-feet per year on a specified Parcel 3; and injuries to federal or Indian water rights resulting from the diversion of water by the Corporation from the Wikieup Wellfield or the Freeport Groundwater Wells, provided such a diversion occurring after the enforceability date of the Big Sandy River-Planet Ranch and Hualapai Tribe Agreements does not violate those Agreements. Authorizes the Tribe and the United States as trustee for the Tribe to waive and release their claims against the Corporation, pursuant to the Hualapai Tribe Agreement, for past, present, and future injuries to water rights resulting from the Corporation's diversion of water from the Bill Williams River watershed, provided such a diversion occurring after the enforceability date of the Big Sandy River-Planet Ranch and Hualapai Tribe Agreements does not violate those Agreements. Authorizes the Tribe, in consideration of the benefits provided to it under both Agreements, to waive and release its claims against the United States for: all past, present, and future Parcel 3 water rights in excess of 300 acre-feet per year that the United States asserted or could have asserted against any party to either Agreement; all past, present, and future water rights associated with Parcel 3 arising from the withdrawal of a protest against the Corporation's application to sever and transfer certain water rights referenced in the Big Sandy River-Planet Ranch Agreement; and injuries to water rights arising after the enforceability date associated with Parcel 3 resulting from the Corporation's diversion of water from the Bill Williams River watershed in a manner that does not violate the Hualapai Tribe Agreement. (Sec. 7) Amends the Omnibus Public Land Management Act of 2009 to allow any party to the Big Sandy River-Planet Ranch Agreement to commence a civil action relating only and directly to the interpretation or enforcement of: (1) the Bill Williams River water rights Settlement Act of 2014, or (2) the Big Sandy River-Planet Ranch Agreement. Requires those actions to be brought in the U.S. District Court for the District of Arizona or in a state court where a pending action has been brought to adjudicate the water rights associated with the Bill Williams River system and source. Waives the sovereign immunity of the Tribe and the United States acting as trustee for the Tribe, but only for the purpose of interpreting or enforcing the Omnibus Public Land Management Act of 2009, the Big Sandy River-Planet Ranch Agreement, or the Hualapai Tribe Agreement. (Sec. 8) Requires the Secretary to comply with all applicable federal environmental laws in implementing the Big Sandy River-Planet Ranch Agreement, the Hualapai Tribe Agreement, and this Act. Provides that the Secretary's execution of those Agreements shall not constitute a major federal action for purposes of the National Environmental Policy Act of 1969. (Sec. 9) Sets the enforceability date for such Agreements as the date the Secretary publishes specified findings in the Federal Register that certain actions have been taken in compliance with the terms of such Agreements and this Act. Provides for the repeal of this Act if the Secretary does not publish such findings by: (1) December 31, 2015; or (2) 14 days after a later date agreed to by the Tribe, the Secretary, and the Corporation, after providing reasonable notice to Arizona.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ223"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 442 Miller Valley Road in Prescott, Arizona, as the \"Barry M. Goldwater Post Office\".",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "3027",
+            "publicLawNumber": "113-247",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 442 Miller Valley Road in Prescott, Arizona, as the \"Barry M. Goldwater Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ247"
+          },
+          {
+            "title": "To designate the Department of Veterans Affairs Vet Center in Prescott, Arizona, as the \"Dr. Cameron McKinley Department of Veterans Affairs Veterans Center\".",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "1216",
+            "publicLawNumber": "113-138",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the Department of Veterans Affairs (VA) Vet Center in Prescott, Arizona, as the \"Dr. Cameron McKinley Department of Veterans Affairs Veterans Center.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ138"
+          },
+          {
+            "title": "To clarify the jurisdiction of the Secretary of the Interior with respect to the C.C. Cragin Dam and Reservoir, and for other purposes.",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "489",
+            "publicLawNumber": "112-45",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Withdraws approximately 512 acres of covered land in Arizona (consisting of approximately 300 feet of the crest of the Craigin Dam and associated spillway, the reservoir pool of that Dam, and a specified corridor of land) from all forms of: (1) entry, appropriation, or disposal under the public land laws; (2) location, entry, and patent under the mining laws; and (3) disposition under all laws pertaining to mineral and geothermal leasing or mineral materials. Grants the Secretary of the Interior, acting through the Commissioner of Reclamation, exclusive jurisdiction to manage the Craigin Project in accordance with the Arizona Water Settlements Act. Defines the &quot;Craigin Project&quot; to include the Craigin Dam, its reservoir pool, and Salt River Project Agricultural Improvement and Power District or Bureau of Reclamation structures and facilities used for the Project. Requires that Secretary and the District to ensure the compliance of each activity carried out at the Project with applicable federal environmental law. Grants the Secretary of Agriculture, acting through the Chief of the Forest Service, administrative jurisdiction over land management activities on the covered land and other appropriate management activities that do not conflict with, or adversely affect, the operation, maintenance, or replacement (including repair) of the Project. Authorizes the Secretary of Agriculture and the Secretary of the Interior, in coordination with the District, to enter into an agreement under which the Secretary of Agriculture may: (1) undertake any other appropriate management activity in accordance with applicable law that will improve the management and safety of the covered land and other land managed by the Secretary of Agriculture if the activity does not conflict with, or adversely affect, the operation, maintenance, or replacement (including repair) of the Project; and (2) carry out any emergency activities on the covered land.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ45"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 501 North Main Street in Florence, Arizona, as the \"Adolfo 'Harpo' Celaya Post Office\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "6304",
+            "publicLawNumber": "114-312",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 501 North Main Street in Florence, Arizona, as the \"Adolfo 'Harpo' Celaya Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ312"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.703,
+          "nominateDim2": -0.518,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000565"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000565"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:37.940Z",
+      "platform_video_tier": 2
+    },
+    {
+      "slug": "danielle-sterbinsky",
+      "full_name": "STERBINSKY, DANIELLE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ09085",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 354382.57,
+        "totalSpent": 332315.71,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 306781.15,
+          "largeDollar": 47326,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 250
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Austin, Texas",
+          "source_url": "https://ballotpedia.org/Danielle_Sterbinsky",
+          "snippet": "Danielle Sterbinsky was born in Austin, Texas."
+        },
+        "college": {
+          "value": "University of Hawaii, West Oahu (bachelor's, 2019); Grand Canyon University (graduate degree, 2023)",
+          "source_url": "https://ballotpedia.org/Danielle_Sterbinsky",
+          "snippet": "Sterbinsky earned a bachelor's degree from the University of Hawaii, West Oahu in 2019 and a graduate degree from Grand Canyon University in 2023."
+        },
+        "employment_record": {
+          "value": "U.S. Navy (since 2015); academic advisor",
+          "source_url": "https://ballotpedia.org/Danielle_Sterbinsky",
+          "snippet": "She has served in the U.S. Navy since 2015. Her career experience includes working as an academic advisor."
+        },
+        "civic_affiliations": {
+          "value": "Society for Human Resource Management",
+          "source_url": "https://ballotpedia.org/Danielle_Sterbinsky",
+          "snippet": "As of 2025, Sterbinsky was affiliated with the Society for Human Resource Management."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Stability",
+          "value": "Will work to help first-time and first-generation homebuyers achieve ownership, provide rental assistance to keep families and seniors housed, expand starter, workforce, and senior housing construction, and stop corporate speculation that prices families out of their own neighborhoods.",
+          "snippet": "Dani will work to: Help first-time and first-generation homebuyers achieve ownership Provide rental assistance to keep families and seniors housed Expand starter, workforce, and senior housing construction Stop corporate speculation that prices families out of their own neighborhoods"
+        },
+        {
+          "topic": "Making Work Pay",
+          "value": "Will work to make childcare affordable so parents can work or train, support small businesses and local entrepreneurs, protect gig and independent workers with portable benefits and fair policies, and incentivize job creation that hires locally and pays fairly.",
+          "snippet": "Dani will work to: Make childcare affordable so parents can work or train Support small businesses and local entrepreneurs Protect gig and independent workers with portable benefits and fair policies Incentivize job creation that hires locally and pays fairly"
+        },
+        {
+          "topic": "Affordable Healthcare",
+          "value": "Will work to lower prescription drug costs, expand mental health and preventive care, strengthen rural clinics and telehealth access, cut waste and middlemen that drive up costs, and offer a public option so families can choose affordable coverage.",
+          "snippet": "Dani will work to: Lower prescription drug costs Expand mental health and preventive care Strengthen rural clinics and telehealth access Cut waste and middlemen that drive up costs Offer a public option so families can choose affordable coverage"
+        },
+        {
+          "topic": "Education & Job Training",
+          "value": "Will work to fully fund public schools, increase teacher pay and classroom support, expand apprenticeships, trades, and workforce training, connect education directly to real local jobs, and ensure rural communities have equal access to opportunity.",
+          "snippet": "Dani will work to: Fully fund public schools Increase teacher pay and classroom support Expand apprenticeships, trades, and workforce training Connect education directly to real local jobs Ensure rural communities have equal access to opportunity"
+        }
+      ],
+      "platform_source_url": "https://www.sterbinskyforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:57:18.185Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:38.369Z",
+      "bio_summary": {
+        "value": "Dani is one of us—a working mom, U.S. Navy veteran, and trusted neighbor. She lives in Wittmann with her husband Phillip (Navy vet), their daughter Flora, and the family dogs Sadie & Pepper. Petty Officer Sterbinsky served on the U.S.S. Bainbridge (destroyer) in the Mediterranean Sea as an \"Operations Specialist.\" She earned her Bachelor's in social sciences from the University of Hawaii, and a Master's in industrial organizational psychology from Grand Canyon University. As a certified human resources expert, Dani studies how successful teams work.",
+        "source_url": "https://www.sterbinskyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:27.478Z"
+    }
+  ]
+}

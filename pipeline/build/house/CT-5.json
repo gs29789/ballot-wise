@@ -1,0 +1,785 @@
+{
+  "state": "CT",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-18T20:12:46.037Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
+    "primarySnippet": "Conn. Gen. Stat. § 9-423(a): The primaries of all parties for nomination to an office to be voted upon at a state election shall be held on the second Tuesday in August in the year in which such state election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.cga.ct.gov/current/pub/chap_146.htm",
+    "generalSnippet": "Conn. Gen. Stat. § 9-225(a): The town clerk or assistant town clerk of each town shall warn the electors therein to meet on the Tuesday following the first Monday in November in the even-numbered years, at six o'clock a.m. ..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Unclear on its face, but No in practice — Connecticut bars a person who has forfeited (and not regained) their electoral privileges due to a felony conviction from being \"a candidate for or hold[ing] public office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this provision would not be enforceable to keep a candidate off a Connecticut congressional ballot even though its text alone doesn't rule out reaching federal office",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_143.htm",
+    "snippet": "Conn. Gen. Stat. § 9-46(c): \"No person who has forfeited and not regained such person's privileges as an elector as provided in section 9-46a, or who has regained such privileges and again forfeited such privileges as provided in subsection (b) of this section, may be a candidate for or hold public office.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Connecticut's_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jahana Hayes and Chris Shea are running in the general election for U.S. House Connecticut District 5 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 12.98
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 10.92
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 12.14
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 9.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 7.75
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1726.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1725
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1723.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1719.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1721.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1717
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1716.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1716.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1714.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1716.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1718
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1720.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1717.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1716.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1715.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1715.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1714.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1713.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1710.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1712.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1711.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1707.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1706.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1707.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1701.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1701
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1700.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1700
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1698.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1697.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1700.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1692.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1684.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1689.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1688.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1689.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6257681416.3,
+        "perCapitaUsd": 8698.7
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8120289750.97,
+        "perCapitaUsd": 11287.88
+      },
+      {
+        "year": "2025",
+        "totalUsd": 10232653302.62,
+        "perCapitaUsd": 14224.25
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3626205
+      },
+      {
+        "year": "2023",
+        "population": 3617176
+      },
+      {
+        "year": "2024",
+        "population": 3675069
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 88429
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 91665
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96049
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jahana-hayes",
+      "full_name": "HAYES, JAHANA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CT05245",
+      "fec_status": "C",
+      "bioguide_id": "H001081",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1290077.99,
+        "totalSpent": 728471,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 151427.65,
+          "largeDollar": 459075.28,
+          "pac": 574370,
+          "party": 3985.1,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1973-03-08",
+          "source_url": "https://www.wikidata.org/wiki/Q24951316",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Waterbury, Connecticut",
+          "source_url": "https://www.wikidata.org/wiki/Q24951316",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Southern Connecticut State University",
+          "source_url": "https://www.wikidata.org/wiki/Q24951316",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "teacher; public school administrator",
+          "source_url": "https://history.house.gov/People/Listing/H/HAYES,-Jahana-(H001081)/",
+          "snippet": "teacher; public school administrator",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "wife of a police officer",
+          "source_url": "https://www.ballotready.org/people/jahana-hayes",
+          "snippet": "As the wife of a police officer",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Hayes became a teen mother prior to graduating from high school",
+          "source_url": "https://en.wikipedia.org/wiki/Jahana_Hayes",
+          "snippet": "Hayes became a teen mother prior to graduating from high school.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of Black Maternal Health Caucus, New Democrat Coalition, Congressional Equality Caucus, Congressional Black Caucus (Educating for the Future Task Force, chair), Gun Violence Prevention Task Force (deputy whip), Friends of Ireland Caucus (co-chair), College Affordability Caucus (chair)",
+          "source_url": "https://en.wikipedia.org/wiki/Jahana_Hayes",
+          "snippet": "Hayes's caucus memberships include: [ 32 ] Black Maternal Health Caucus [ 33 ] New Democrat Coalition Congressional Equality Caucus [ 34 ] Congressional Black Caucus (Educating for the Future Task Force, chair) Gun Violence Prevention Task Force ( deputy whip ) Friends of Ireland Caucus (co-chair) College Affordability Caucus (chair)",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Fighting to create a future where everyone has healthcare",
+          "snippet": "Imagine a future where everyone has healthcare, where no American goes hungry, where every child has access to an excellent public education, and where there is true equity in our society. This is the future that Jahana is fighting to create."
+        },
+        {
+          "topic": "Hunger/Food Security",
+          "value": "Fighting to create a future where no American goes hungry",
+          "snippet": "Imagine a future where everyone has healthcare, where no American goes hungry, where every child has access to an excellent public education, and where there is true equity in our society. This is the future that Jahana is fighting to create."
+        },
+        {
+          "topic": "Education",
+          "value": "Fighting to ensure every child has access to an excellent public education",
+          "snippet": "Imagine a future where everyone has healthcare, where no American goes hungry, where every child has access to an excellent public education, and where there is true equity in our society. This is the future that Jahana is fighting to create."
+        },
+        {
+          "topic": "Equity",
+          "value": "Fighting to create true equity in our society",
+          "snippet": "Imagine a future where everyone has healthcare, where no American goes hungry, where every child has access to an excellent public education, and where there is true equity in our society. This is the future that Jahana is fighting to create."
+        }
+      ],
+      "platform_source_url": "https://jahanahayes.com/",
+      "_platform_resolved_at": "2026-08-12T19:06:13.897Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Early Childhood, Elementary, and Secondary Education",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 132,
+        "bills_cosponsored": 2888,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Access to Baby Formula Act of 2022",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "7791",
+            "publicLawNumber": "117-129",
+            "summary": "Access to Baby Formula Act of 2022 This bill authorizes the Department of Agriculture (USDA) to take certain actions to address emergencies, disasters, and supply chain disruptions (particularly the shortage of infant formula in the United States) affecting participants of the Special Supplemental Nutrition Program for Women, Infants, and Children (WIC). The bill directs USDA to require each infant formula cost containment contract to include remedies in the event of an infant formula recall, including how an infant formula manufacturer would protect against disruption to WIC participants in the state. USDA must, within 30 days, ensure there is a memorandum of understanding with the Department of Health and Human Services that includes procedures for coordination and information sharing regarding any supply chain disruption, including a supplemental food recall. The bill also authorizes USDA to waive or modify any WIC qualified administrative requirement during emergencies, disasters, and supply chain disruptions. Specifically, USDA may waive or modify such a requirement for one or more state agencies if (1) the requirement cannot be met by state agencies during the emergency, disaster, or disruption; and (2) the modification or waiver is necessary to provide assistance to WIC participants and does not substantially weaken the nutritional quality of supplemental foods. For example, USDA may waive the maximum monthly allowance for infant formula. The bill establishes notification requirements for USDA and state agencies related to supply chain disruptions.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ129"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.34,
+          "nominateDim2": -0.055,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001081"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 59.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001081"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jahana Hayes is a community advocate, nationally-recognized educator, and problem solver. Having overcome poverty, homelessness, and teenage motherhood, she understands why so many people feel left out of the conversation. But teaching showed her the potential within everyone—that’s why she believes that if Congress reflects the community, anything is possible.",
+        "source_url": "https://jahanahayes.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:28.546Z",
+      "_tier2_search_attempted_at": "2026-08-22T12:00:46.343Z"
+    },
+    {
+      "slug": "chris-shea",
+      "full_name": "SHEA, CHRIS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CT05231",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 311675.82,
+        "totalSpent": 166058.99,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 61525.46,
+          "largeDollar": 204014.02,
+          "pac": 13947.28,
+          "party": 0,
+          "selfFunded": 600
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Watertown, Connecticut",
+          "source_url": "https://chrissheaforcongress.com/",
+          "snippet": "Warrant Officer Shea is a native of Watertown, Connecticut.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor of Science from Charter Oak State College",
+          "source_url": "https://chrissheaforcongress.com/",
+          "snippet": "He earned a Bachelor of Science from Charter Oak State College.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Anita",
+          "source_url": "https://chrissheaforcongress.com/",
+          "snippet": "Chris resides in Cheshire, CT with his wife Anita.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Navy career beginning 1991 as hospital corpsman, served with SEAL Team 8, SEAL Team 18, Naval Special Warfare Group Two, Naval Special Warfare Development Group, Special Operations Command North, U.S. Embassy in Mexico City, and Pentagon, commissioned as Navy Warrant Officer in 2012, retired from Navy in January 2024; firefighter since 2009, currently lieutenant with North Haven Fire Department; founder and president of Hero to Hero, Inc.; owned and operated a handyman business that employed six people",
+          "source_url": "https://chrissheaforcongress.com/",
+          "snippet": "Chris began his Navy career in 1991 as a hospital corpsman before completing the demanding Basic Underwater Demolition/SEAL (BUD/S) and Special Forces Medic training. Over a career spanning more than three decades, he served with SEAL Team 8, SEAL Team 18, Naval Special Warfare Group Two, Naval Special Warfare Development Group, Special Operations Command North, the U.S. Embassy in Mexico City, and at the Pentagon. His service took him around the world. In 1997, Chris was part of a special operations team in the former Yugoslavia that gathered intelligence and helped apprehend individuals accused of war crimes so they could be brought to The Hague to stand trial. He later deployed to Afghanistan, where he served on joint task forces focused on locating and prosecuting high-value al-Qaeda and Taliban targets. From 2014 to 2016, Chris served all around Mexico, to include the U.S. Embassy in Mexico City, leading efforts to train Mexican special operations forces combating transnational criminal organizations. He later served at the Pentagon, working to ensure America s Naval Special Warfare forces had the funding and equipment they needed to carry out their missions. Chris earned his Bachelor of Science from Charter Oak State College and was commissioned as a Navy Warrant Officer in 2012. He retired from the Navy in January 2024 after more than 30 years of service. But Chris s record of service isn t limited to the military. He has been a firefighter since 2009 and currently serves as a lieutenant with the North Haven Fire Department. He is also the founder and president of Hero to Hero, Inc., a nonprofit that leverages the DOW Skillbridge program to help special operations veterans and other highly qualified service members transition into careers as first responders. Chris also understands what it means to run a small business, meet payroll, and create jobs. He owned and operated a handyman business that employed six people",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "founder and president of Hero to Hero, Inc., a nonprofit that leverages the DOW Skillbridge program to help special operations veterans and other highly qualified service members transition into careers as first responders",
+          "source_url": "https://chrissheaforcongress.com/",
+          "snippet": "He is also the founder and president of Hero to Hero, Inc., a nonprofit that leverages the DOW Skillbridge program to help special operations veterans and other highly qualified service members transition into careers as first responders",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "Secure the border, enforce immigration laws, and stop the flow of fentanyl and other deadly drugs into neighborhoods",
+          "snippet": "Chris will always fight to secure the border, enforce our immigration laws, and stop the flow of fentanyl and other deadly drugs into our neighborhoods."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Fight for policies that lower energy costs, reduce the tax burden, and promote practical housing solutions",
+          "snippet": "He will fight for policies that lower energy costs, reduce the tax burden, and promote practical housing solutions that help more people afford to live and work in Connecticut."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Improve access to the VA, cut through bureaucratic delays, and make it easier for veterans to get quality healthcare, job opportunities, and benefits",
+          "snippet": "Chris will fight to improve access to the VA, cut through bureaucratic delays, and make it easier for veterans to get quality healthcare, job opportunities, and the benefits they have earned through their service."
+        },
+        {
+          "topic": "National Defense",
+          "value": "Stand with ally Israel and support its right to self-defense, advocate for American Military strength, and support troops and veterans",
+          "snippet": "Chris believes America should stand with our ally Israel and support its right to self-defense. In Congress, he will advocate for American Military strength, support our troops and veterans, and ensure our nation remains strong, respected, and prepared to meet any threat."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Fund border patrol and support law enforcement to put the safety of American families first",
+          "snippet": "He will fight to fund border patrol, support law enforcement, and put the safety of American families first."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Cut wasteful spending in Washington and reduce red tape",
+          "snippet": "Chris is running to protect American families, cut wasteful spending in Washington, lower the cost of living, reduce red tape, support law enforcement"
+        }
+      ],
+      "platform_source_url": "https://chrissheaforcongress.com/issues/",
+      "_platform_resolved_at": "2026-08-12T19:05:58.175Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Chris Shea is a Watertown native, retired Navy SEAL, firefighter, former small business owner, nonprofit founder, husband, father, and the Republican nominee for Congress in Connecticut’s 5th District. Chris began his Navy career in 1991 as a hospital corpsman before completing the demanding Basic Underwater Demolition/SEAL (BUD/S) and Special Forces Medic training. Over a career spanning more than three decades, he served with SEAL Team 8, SEAL Team 18, Naval Special Warfare Group Two, Naval Special Warfare Development Group, Special Operations Command North, the U.S. Embassy in Mexico City, and at the Pentagon.",
+        "source_url": "https://chrissheaforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:24.773Z"
+    }
+  ]
+}

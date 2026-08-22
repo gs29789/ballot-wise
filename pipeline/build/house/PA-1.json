@@ -1,0 +1,837 @@
+{
+  "state": "PA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-17T00:12:18.955Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
+    "primarySnippet": "25 P.S. § 2753(a): There shall be a General primary preceding each general election which shall be held on the third Tuesday of May in all even-numbered years, except in the year of the nomination of a President of the United States, in which year the General primary shall be held on the fourth Tuesday of April.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-7-sect-2/",
+    "generalSnippet": "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Pennsylvania's constitution bars anyone convicted of embezzlement of public moneys, bribery, perjury, or other infamous crime from the General Assembly or from holding any office of trust or profit in the Commonwealth, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
+    "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Pennsylvania's_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Brian Fitzpatrick, Bob Harvie, Jamie Frost Remmey, and John Hoban are running in the general election for U.S. House Pennsylvania District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.38
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 24.54
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 20.23
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 18.15
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.43
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 6209.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 6208.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 6200.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 6188.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 6177.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 6197.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 6184
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 6174
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 6176.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 6167.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 6172.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 6169.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 6175.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 6173.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 6166.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 6166.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 6159.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 6166.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 6161.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 6156.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 6156.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 6153.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 6146.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 6137.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 6137.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 6132.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 6126
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 6130.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 6122.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 6115.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 6114.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 6104.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 6099
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 6101.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 6098
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 6090.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 6092.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 6071.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 6071.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 6068
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 6062.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 6061.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5728935533.03,
+        "perCapitaUsd": 7423.31
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7160974937.03,
+        "perCapitaUsd": 9278.89
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8058746910.1,
+        "perCapitaUsd": 10442.19
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 12972008
+      },
+      {
+        "year": "2023",
+        "population": 12961683
+      },
+      {
+        "year": "2024",
+        "population": 13078751
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 71798
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73824
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77545
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "brian-fitzpatrick",
+      "full_name": "FITZPATRICK, BRIAN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6PA08277",
+      "fec_status": "C",
+      "bioguide_id": "F000466",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 6734931.11,
+        "totalSpent": 4801926.75,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 116186.08,
+          "largeDollar": 1506041.52,
+          "pac": 2233727.4,
+          "party": 7100,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1973-12-17",
+          "source_url": "https://www.wikidata.org/wiki/Q27831059",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Levittown, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q27831059",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Pennsylvania State University",
+          "source_url": "https://www.wikidata.org/wiki/Q27831059",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "FBI Supervisory Special Agent and Federal Prosecutor",
+          "source_url": "https://www.brianfitzpatrick.com/",
+          "snippet": "As a former FBI Special Agent and Federal Prosecutor, I spent my career taking down corrupt politicians and holding power to account.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Bishop Egan High School in Fairless Hills, graduated 1992",
+          "source_url": "https://en.wikipedia.org/wiki/Brian_Fitzpatrick_(American_politician)",
+          "snippet": "Fitzpatrick graduated from Bishop Egan High School in Fairless Hills in 1992.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Reform",
+          "value": "Term limits for Congress, an end to congressional pensions, and real accountability for career politicians",
+          "snippet": "On my first day in office, I introduced a sweeping government reform package to challenge the entrenched status quo: term limits for Congress, an end to congressional pensions, and real accountability for career politicians."
+        },
+        {
+          "topic": "Opioid Epidemic",
+          "value": "Securing more resources for law enforcement and supporting those in recovery",
+          "snippet": "When it comes to the Opioid Epidemic ravaging our community, Brian has made our fight, his fight: securing more resources for law enforcement and supporting those in recovery."
+        },
+        {
+          "topic": "Tax Reform",
+          "value": "Tax reform benefitting small businesses",
+          "snippet": "tax reform benefitting small businesses from Bristol to Quakertown"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Passing critical legislation to secure our borders",
+          "snippet": "to passing critical legislation to secure our borders and fight back against the opioid epidemic"
+        }
+      ],
+      "platform_source_url": "https://www.brianfitzpatrick.com/",
+      "_platform_resolved_at": "2026-08-10T21:25:54.645Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074614.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T21:27:01.968Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Tax",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Central Intelligence Agency",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Open Source Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 250,
+        "bills_cosponsored": 5616,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 1077 River Road, Suite 1, in Washington Crossing, Pennsylvania, as the \"Susan C. Barnhart Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "5476",
+            "publicLawNumber": "118-116",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 1077 River Road, Suite 1, in Washington Crossing, Pennsylvania, as the Susan C. Barnhart Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ116"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.141,
+          "nominateDim2": -0.114,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/F000466"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 99.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/F000466"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=A67xx3_RnF4",
+      "platform_video_title": "Brian Fitzpatrick For Congress | Scott Wallace's Wacky Healthcare Plan",
+      "platform_video_source_url": "https://www.brianfitzpatrick.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:06.542Z",
+      "bio_summary": {
+        "value": "As a former FBI Special Agent and Federal Prosecutor, I spent my career taking down corrupt politicians and holding power to account. Now, I’ve made it my mission to tackle the dysfunction in Washington head-on. On my first day in office, I introduced a sweeping government reform package to challenge the entrenched status quo: term limits for Congress, an end to congressional pensions, and real accountability for career politicians.",
+        "source_url": "https://www.brianfitzpatrick.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:38:02.297Z"
+    },
+    {
+      "slug": "robert-harvie",
+      "full_name": "HARVIE, ROBERT J",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA01181",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2007499.25,
+        "totalSpent": 1212578,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 411567.36,
+          "largeDollar": 1332719.13,
+          "pac": 214012.76,
+          "party": 11950,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1841-10-28",
+          "source_url": "https://www.wikidata.org/wiki/Q106600506",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "elected to the Board of Bucks County Commissioners in November 2019, and was sworn into office on January 6, 2020. He was named chair of the board on January 5, 2022. Harvie was re-elected to a second term in November 2023 and sworn into office on January 2, 2024. During reorganization of the Board, he was named Vice Chair and named Chair again during the reoganization on January 6, 2025.",
+          "source_url": "https://bobharvieforcongress.com/",
+          "snippet": "Bob Harvie was elected to the Board of Bucks County Commissioners in November 2019, and was sworn into office on January 6, 2020. He was named chair of the board on January 5, 2022. Harvie was re-elected to a second term in November 2023 and sworn into office on January 2, 2024. During reorganization of the Board, he was named Vice Chair and named Chair again during the reoganization on January 6, 2025.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Bristol High School (1989)",
+          "source_url": "https://www.ballotready.org/people/robert-harvie",
+          "snippet": "High School Diploma, Bristol High School (1989)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "American Dream and Middle Class",
+          "value": "Believes that if you work hard and play by the rules, you and your family can earn a ticket to the middle class, you can set your kids on a path to their own prosperity, and you can retire with dignity.",
+          "snippet": "The idea is that if you work hard and play by the rules, you and your family can earn a ticket to the middle class, you can set your kids on a path to their own prosperity, and you can retire with dignity."
+        },
+        {
+          "topic": "Corruption and Corporate Accountability",
+          "value": "Must tackle corruption in Washington and hold greedy corporations accountable to the working class of this country.",
+          "snippet": "We must tackle corruption in Washington and hold greedy corporations accountable to the working class of this country."
+        },
+        {
+          "topic": "Washington Reform",
+          "value": "The path to getting back on track begins with cleaning up the corruption in Washington.",
+          "snippet": "Our country is heading in the wrong direction and the path to getting back on track begins with cleaning up the corruption in Washington."
+        }
+      ],
+      "platform_source_url": "https://bobharvieforcongress.com/priorities/",
+      "_platform_resolved_at": "2026-08-10T21:25:42.923Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T13:21:31.744Z",
+      "bio_summary": {
+        "value": "Bob Harvie was elected to the Board of Bucks County Commissioners in November 2019, and was sworn into office on January 6, 2020. He was named chair of the board on January 5, 2022. Harvie was re-elected to a second term in November 2023 and sworn into office on January 2, 2024.",
+        "source_url": "https://bobharvieforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:56.403Z"
+    },
+    {
+      "slug": "john-hoban",
+      "full_name": "HOBAN, JOHN J",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA01215",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T13:21:32.046Z"
+    },
+    {
+      "slug": "jamie-remmey",
+      "full_name": "REMMEY, JAMIE FROST",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA01264",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Conwell Egan Catholic High School",
+          "source_url": "https://ballotpedia.org/Jamie_Frost_Remmey",
+          "snippet": "Jamie Frost Remmey earned a high school diploma from Conwell Egan Catholic High School and a bachelor's degree from Temple University."
+        },
+        "college": {
+          "value": "Temple University (bachelor's degree)",
+          "source_url": "https://ballotpedia.org/Jamie_Frost_Remmey",
+          "snippet": "Jamie Frost Remmey earned a high school diploma from Conwell Egan Catholic High School and a bachelor's degree from Temple University."
+        },
+        "employment_record": {
+          "value": "Legal assistant",
+          "source_url": "https://ballotpedia.org/Jamie_Frost_Remmey",
+          "snippet": "Frost Remmey's career experience includes working as a legal assistant."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Individual Freedom and Bodily Autonomy",
+          "value": "Every person should have control over their own body, their own choices, and their own future",
+          "snippet": "I believe every person should have control over their own body, their own choices, and their own future."
+        },
+        {
+          "topic": "Use of Government Force",
+          "value": "Government should not use force, threats, or coercion as the first answer; force is only justified to defend against harm",
+          "snippet": "Using force, threats, or coercion — whether through laws, mandates, or agencies — should never be the first answer. The only time force is justified is to defend against harm."
+        },
+        {
+          "topic": "Limited Government",
+          "value": "Government should serve the people, not rule over them, with transparency, accountability, and limits on power",
+          "snippet": "I believe government should serve the people — not rule over them. We deserve transparency, accountability, and limits on power."
+        },
+        {
+          "topic": "Non-Aggression Principle",
+          "value": "Force should never be the starting point for solving problems; peaceful people should be left alone, free from coercion and fraud",
+          "snippet": "Force should never be the starting point for solving problems. Peaceful people should be left alone, free from coercion and fraud."
+        }
+      ],
+      "platform_source_url": "https://www.jamiefrostremmey.com/",
+      "_platform_resolved_at": "2026-08-10T21:25:21.546Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "_tier2_search_attempted_at": "2026-08-20T13:21:32.392Z",
+      "platform_video_tier": null,
+      "bio_summary": {
+        "value": "I am running for Pennsylvania’s 1st Congressional District because your rights are inherent, not granted by Washington. You deserve a neighbor who trusts you with your freedom—not a politician who speaks as its defender while governing as if it were optional.",
+        "source_url": "https://www.jamiefrostremmey.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:59.979Z"
+    }
+  ]
+}

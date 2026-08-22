@@ -1,0 +1,766 @@
+{
+  "state": "ND",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-AL",
+  "generated_at": "2026-08-10T01:16:37.880Z",
+  "election_dates": {
+    "primaryDate": "2026-06-09",
+    "primarySourceUrl": "https://ndlegis.gov/cencode/t16-1c11.pdf",
+    "primarySnippet": "16.1-11-01. Primary election - When held - Nomination of candidates - Nomination for special elections. On the second Tuesday in June of every general election year, a primary election must be held for the nomination of candidates for the following offices in the years of their regular election: United States senators, member of the United States house of representatives, members of the legislative assembly, elected state officials, judges of the supreme court and district court, county officers, and county commissioners.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://ndlegis.gov/cencode/t16-1c13.pdf",
+    "generalSnippet": "16.1-13-01. Date of general election. The general election must be held in all the election districts of this state on the first Tuesday after the first Monday in November of each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — North Dakota bars a person from becoming a candidate for or holding public office only during the actual term of incarceration for a felony sentence, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://ndlegis.gov/cencode/t12-1c33.pdf",
+    "snippet": "12.1-33-01. Rights lost. 1. A person sentenced for a felony to a term of imprisonment, during the term of actual incarceration under such sentence, may not: a. Vote in an election; or b. Become a candidate for or hold public office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://resultsnd.sos.nd.gov/",
+    "snippet": "Representative in Congress Republican — Precincts Fully: 358 / 358 — 82,075 Total Votes — Julie Fedorchak 72.76% (59,719 Votes), Alex Balazs 27.04% (22,196 Votes), Write Ins 0.19% (160 Votes). Representative in Congress Democratic-NPL — Precincts Fully: 358 / 358 — 34,673 Total Votes — Trygve Hammer 99.8% (34,604 Votes), Write Ins 0.2% (69 Votes)."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 2.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 2.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 2.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 2.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.68
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 20.53
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 21.88
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 15.21
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.37
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 446.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 447.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 448.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 450.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 448.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 446.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 444.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 445.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 445.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 446.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 446.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 446.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 447.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 447.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 447.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 447.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 447.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 448
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 447.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 448.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 447.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 448.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 448.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 447.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 447
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 447
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 445.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 444.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 443.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 442.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 443.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 441
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 441
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 440.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 438.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 438.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 438.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 436.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 435.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 436.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 436.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 435.5
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 83714240956.84,
+        "perCapitaUsd": 108025.62
+      },
+      {
+        "year": "2024",
+        "totalUsd": 92158616142.52,
+        "perCapitaUsd": 118922.32
+      },
+      {
+        "year": "2025",
+        "totalUsd": 100983754060.7,
+        "perCapitaUsd": 130310.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 779261
+      },
+      {
+        "year": "2023",
+        "population": 783926
+      },
+      {
+        "year": "2024",
+        "population": 796568
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 71970
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 76525
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77871
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "julie-fedorchak",
+      "full_name": "FEDORCHAK, JULIE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4ND00061",
+      "fec_status": "C",
+      "bioguide_id": "F000482",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1730662.65,
+        "totalSpent": 1004419.58,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7623.6,
+          "largeDollar": 375512.63,
+          "pac": 960975.26,
+          "party": 1500,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1968-09-28",
+          "source_url": "https://www.wikidata.org/wiki/Q37824664",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Williston, North Dakota",
+          "source_url": "https://www.wikidata.org/wiki/Q37824664",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Century High School",
+          "source_url": "https://www.wikidata.org/wiki/Q37824664",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "graduated from high school in Bismarck",
+          "source_url": "https://fedorchaknd.com/about/",
+          "snippet": "graduated from high school in Bismarck",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Mike",
+          "source_url": "https://fedorchaknd.com/about/",
+          "snippet": "Julie and her husband Mike will celebrate 25 years of marriage this summer",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "communication s director for Gov. Ed Schafer in the 1990s, operated her own communications and marketing business for 10 years, state director for U.S. Senator John Hoeven for two years, appointed to North Dakota Public Service Commission in 2013",
+          "source_url": "https://fedorchaknd.com/about/",
+          "snippet": "In the 1990s, Gov. Ed Schafer recruited her back home to be his communication s director. Schafer focused on improving North Dakota s business climate, and generating funding for essential government services through economic growth, not new taxes. His approach set in motion the Republican conversion of our state. Julie left state government after the Schafer Administration and started her own communications and marketing business which she operated for 10 years. During that time, she edited several statewide magazines, wrote and published three books with her mom, wrote a bi-weekly column for the Bismarck Tribune and served a variety of business, government and political clients. She was called back to public service as the state director for U.S. Senator John Hoeven for two years. In 2013, Gov. Jack Dalrymple tapped Julie for the position on the North Dakota Public Service Commission",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "member of Cathedral of the Holy Spirit church for 30 years, member of the Board of Trustees at University of Mary",
+          "source_url": "https://fedorchaknd.com/about/",
+          "snippet": "They have been members of Cathedral of the Holy Spirit church for 30 years. They volunteer in a number of community organizations including the University of Mary, where Julie is a member of the Board of Trustees",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Secure our Border",
+          "snippet": "Secure our Border"
+        },
+        {
+          "topic": "Inflation",
+          "value": "Curb Inflation That Is Crushing Families",
+          "snippet": "Curb Inflation That Is Crushing Families"
+        },
+        {
+          "topic": "Government Spending and Budget",
+          "value": "Stop out of Control Spending and Balance the Budget",
+          "snippet": "Stop out of Control Spending and Balance the Budget"
+        },
+        {
+          "topic": "Federal Agencies",
+          "value": "Rein in Overreaching Federal Agencies",
+          "snippet": "Rein in Overreaching Federal Agencies"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Protect the sanctity of life",
+          "snippet": "Protect the sanctity of life"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Defend the 2nd Amendment",
+          "snippet": "Defend the 2nd Amendment"
+        }
+      ],
+      "platform_source_url": "https://fedorchaknd.com/",
+      "_platform_resolved_at": "2026-08-10T01:16:32.901Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 16,
+        "bills_cosponsored": 134,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"North Dakota Field Office Record of Decision and Approved Resource Management Plan\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "105",
+            "publicLawNumber": "119-49",
+            "summary": "This joint resolution nullifies the rule submitted by the Bureau of Land Management (BLM) relating to the Record of Decision and Approved Resource Management Plan (RMP) for the North Dakota Field Office and issued on January 8, 2025.&nbsp; By way of background, an RMP guides the management of lands administered by BLM. The 2025 North Dakota&nbsp;RMP modified the 1988&nbsp;RMP, including by limiting development of oil and gas in low-potential areas and new coal leasing to areas within four miles of existing mines.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ49"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.611,
+          "nominateDim2": 0.07,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/F000482"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 20.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/F000482"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=YTCeTCDHAIo",
+      "platform_video_title": "Fedorchak for ND - Fix",
+      "platform_video_source_url": "https://fedorchaknd.com/",
+      "_platform_video_resolved_at": "2026-08-18T21:58:44.024Z",
+      "bio_summary": {
+        "value": "Julie is a conservative, a problem solver, and a leader who will bring a commonsense approach to Washington, D.C. She is running for Congress to get our economy and our country back on track. She is a proven leader in the energy sector and committed to supporting North Dakota farmers, ranchers, and small businesses.",
+        "source_url": "https://fedorchaknd.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:25.162Z"
+    },
+    {
+      "slug": "trygve-hammer",
+      "full_name": "HAMMER, TRYGVE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6ND01049",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 190063.55,
+        "totalSpent": 122672.28,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 98864.43,
+          "largeDollar": 87384,
+          "pac": 2900,
+          "party": 0,
+          "selfFunded": 15
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "served in the military, worked on the oilfield rigs, and taught North Dakota students as a 7-12th grades science teacher",
+          "source_url": "https://www.hammerfornd.com/",
+          "snippet": "I have served my country in the military, worked on the oilfield rigs, and taught North Dakota students as a 7-12th grades science teacher.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Velva High School (1985)",
+          "source_url": "https://www.ballotready.org/people/trygve-hammer",
+          "snippet": "High School Diploma, Velva High School (1985)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, United States Naval Academy, Chemistry (1990)",
+          "source_url": "https://www.ballotready.org/people/trygve-hammer",
+          "snippet": "Bachelor&#x27;s, United States Naval Academy, Chemistry (1990)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Supports affordable healthcare",
+          "snippet": "affordable Healthcare"
+        },
+        {
+          "topic": "Social Security",
+          "value": "Supports Social Security",
+          "snippet": "Social Security"
+        },
+        {
+          "topic": "Democracy",
+          "value": "Supports protecting democracy",
+          "snippet": "Protect democracy"
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "Supports tax fairness",
+          "snippet": "Tax fairness"
+        },
+        {
+          "topic": "Rural Communities",
+          "value": "Supports rural communities",
+          "snippet": "Support rural communities"
+        }
+      ],
+      "platform_source_url": "https://www.hammerfornd.com/",
+      "_platform_resolved_at": "2026-08-10T01:16:27.551Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=EOXMMdQZOtA",
+      "platform_video_title": "My thoughts on the USS Abraham Lincoln",
+      "platform_video_source_url": "https://www.hammerfornd.com/",
+      "_platform_video_resolved_at": "2026-08-18T21:58:44.559Z",
+      "bio_summary": {
+        "value": "I have served my country in the military, worked on the oilfield rigs, and taught North Dakota students as a 7-12th grades science teacher. Now, I’m working to have everyday North Dakotans represented in Washington again.",
+        "source_url": "https://www.hammerfornd.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:28.747Z"
+    }
+  ]
+}
