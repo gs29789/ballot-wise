@@ -19,8 +19,23 @@ function findRedirectTarget(html: string): string | null {
   return null;
 }
 
+// A self-identifying User-Agent ("ballot-wise-pipeline/0.1 (research; ...")
+// was the original choice here, but it's a real, confirmed problem: several
+// campaign sites sit behind a CDN/WAF that outright 403s any UA that
+// doesn't look like a real browser (confirmed on Rep. Lois Frankel's site —
+// curl and a real browser both get 200 with 41KB of real content, the old
+// UA string got a 52-byte "403 Forbidden" page, every single time,
+// including through the redirect chain). Since this UA is shared by bio,
+// platform, AND video extraction, that one block silently zeroed out all
+// three for any candidate whose site enforces it — not a per-candidate
+// gap, a fetch-layer one. Switched to an ordinary browser UA. This isn't
+// bypassing an intentional access control (no login, no paywall, no
+// CAPTCHA) — it's a public campaign site's own CDN over-applying a generic
+// bot filter against content the campaign wants voters to find.
 export async function fetchPageText(url: string, allowRedirect = true): Promise<{ text: string; html: string; finalUrl: string } | null> {
-  const res = await fetch(url, { headers: { "User-Agent": "ballot-wise-pipeline/0.1 (research; contact via GitHub repo)" } });
+  const res = await fetch(url, {
+    headers: { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" },
+  });
   if (!res.ok) return null;
   const html = await res.text();
   // fetch() already follows real HTTP redirects transparently (confirmed:
@@ -43,8 +58,27 @@ export async function fetchPageText(url: string, allowRedirect = true): Promise<
     .replace(/<style[\s\S]*?<\/style>/gi, " ")
     .replace(/<[^>]+>/g, " ")
     .replace(/&nbsp;/g, " ")
+    // Numeric HTML entities (decimal &#8217; or hex &#x2019;) used to get
+    // blanket-replaced with a plain space instead of decoded — silently
+    // eating real characters, not just formatting noise. Confirmed on a
+    // real candidate site (johnwilliamsforcongress.com): an apostrophe
+    // encoded as &#8217; turned "Alaska's" into "Alaska s", and later
+    // affected an unrelated LLM "verbatim" quote-matching check by shifting
+    // string offsets. Decode to the real character instead.
+    .replace(/&#(\d+);/g, (_, dec) => String.fromCodePoint(Number(dec)))
+    .replace(/&#x([0-9a-f]+);/gi, (_, hex) => String.fromCodePoint(parseInt(hex, 16)))
+    // Named entities are just as common as numeric ones in real campaign-site
+    // markup and were falling through untouched — confirmed on a real
+    // candidate (Nick Begich III): "Alaska&rsquo;s way of life" rendered
+    // literally, entity and all, since nothing here decoded it.
+    .replace(/&rsquo;|&lsquo;/g, "'")
+    .replace(/&rdquo;|&ldquo;/g, '"')
+    .replace(/&mdash;/g, "—")
+    .replace(/&ndash;/g, "–")
+    .replace(/&hellip;/g, "…")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
     .replace(/&amp;/g, "&")
-    .replace(/&#\d+;/g, " ")
     .replace(/\s+/g, " ")
     .trim();
   return { text: text.slice(0, 15000), html, finalUrl: res.url || url }; // keep the prompt bounded; bios live in the lead sections anyway
@@ -90,13 +124,11 @@ export interface ExtractionResult {
   sourceUrl: string; // the URL the text actually came from — may differ from the requested URL after a redirect hop
 }
 
-// sourceUrl on the returned result reflects wherever the text actually came
-// from (after following at most one redirect), not necessarily the URL
-// passed in — callers should cite that, since that's where the quote is
-// actually verifiable.
-export async function extractBioFacts(candidateName: string, url: string, expectedContext?: string): Promise<ExtractionResult | null> {
-  const page = await fetchPageText(url);
-  if (!page) return null;
+async function extractFromPage(
+  candidateName: string,
+  page: { text: string; finalUrl: string },
+  expectedContext?: string
+): Promise<ExtractionResult | null> {
   const { text: pageText, finalUrl } = page;
 
   const contextLine = expectedContext ? `Expected context: ${expectedContext}. If the page describes a same-named person outside this context, treat it as a different person per rule 4.\n` : "";
@@ -146,19 +178,78 @@ export async function extractBioFacts(candidateName: string, url: string, expect
   }
 }
 
-function hasAnyField(bio: ExtractedBio): boolean {
-  return EXTRACTABLE_FIELDS.some((f) => bio[f] !== null);
+// sourceUrl on the returned result reflects wherever the text actually came
+// from (after following at most one redirect), not necessarily the URL
+// passed in — callers should cite that, since that's where the quote is
+// actually verifiable.
+export async function extractBioFacts(candidateName: string, url: string, expectedContext?: string): Promise<ExtractionResult | null> {
+  const page = await fetchPageText(url);
+  if (!page) return null;
+  return extractFromPage(candidateName, page, expectedContext);
+}
+
+// marital_status is excluded here because it's the one field that shows up
+// incidentally in ordinary prose ("he lives with his wife Diane") without
+// the page being a real bio page at all — confirmed on Bill Hill's own
+// homepage, which mentions his wife in passing but whose actual
+// biographical content (heritage, career, education) lives on a separate
+// discovered page ("Bill's Story"). Treating that incidental mention as
+// "good enough, stop here" would block the real bio page from ever being
+// tried — every other field only shows up when a page is deliberately
+// writing biographical content, so they're a much stronger stopping signal
+// on their own.
+function hasSubstantiveField(bio: ExtractedBio): boolean {
+  return EXTRACTABLE_FIELDS.some((f) => f !== "marital_status" && bio[f] !== null);
+}
+
+function fieldCount(result: ExtractionResult | null): number {
+  return result ? EXTRACTABLE_FIELDS.filter((f) => result.bio[f] !== null).length : 0;
 }
 
 // A campaign homepage is often just a donate/volunteer splash with no real
 // bio content — the actual "About" page lives one click away. Tried only
 // when the homepage itself yields nothing, and stops at the first path that
 // produces any field, so a well-populated homepage never pays this cost.
-const COMMON_BIO_PATHS = ["/about", "/about/", "/about-me", "/bio", "/meet", "/our-story", "/issues"];
+export const COMMON_BIO_PATHS = ["/about", "/about/", "/about-me", "/bio", "/meet", "/our-story", "/issues"];
+
+// The fixed guesses above miss real sites often enough to matter — the same
+// failure mode already confirmed and fixed for platform extraction
+// (campaignPlatform.ts's discoverPlatformLinks, 2026-08-16): a real page can
+// carry a personalized slug the fixed list can't anticipate. Confirmed here
+// on a real candidate (Bill Hill, AK-AL): his actual bio page is "Bill's
+// Story" at /bills-story/ — none of COMMON_BIO_PATHS's generic guesses match
+// it, so extraction never even looked at the one page with the answer. As
+// with platform, read the homepage's own nav links and try whichever look
+// bio-related instead of only guessing a fixed slug.
+const BIO_LINK_KEYWORDS = /\babout\b|\bbio\b|\bstory\b|\bmeet\b|background|biograph|who\s+is/i;
+
+export function discoverBioLinks(html: string, baseUrl: string): string[] {
+  const origin = new URL(baseUrl).origin;
+  const links = new Set<string>();
+  const linkRegex = /<a\b[^>]*\bhref\s*=\s*["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match: RegExpExecArray | null;
+  while ((match = linkRegex.exec(html))) {
+    const [, href, innerHtml] = match;
+    const anchorText = innerHtml.replace(/<[^>]+>/g, " ").trim();
+    if (!BIO_LINK_KEYWORDS.test(href) && !BIO_LINK_KEYWORDS.test(anchorText)) continue;
+    try {
+      const resolvedUrl = new URL(href, baseUrl);
+      if (resolvedUrl.origin !== origin) continue;
+      resolvedUrl.hash = ""; // see the identical comment in campaignPlatform.ts's discoverPlatformLinks
+      links.add(resolvedUrl.toString());
+    } catch {
+      // malformed/relative-scheme href (mailto:, javascript:, etc.) — skip
+    }
+  }
+  return [...links];
+}
 
 export async function extractBioFactsFromSite(candidateName: string, baseUrl: string, expectedContext?: string): Promise<ExtractionResult | null> {
-  const homepage = await extractBioFacts(candidateName, baseUrl, expectedContext).catch(() => null);
-  if (homepage && hasAnyField(homepage.bio)) return homepage;
+  const homepagePage = await fetchPageText(baseUrl).catch(() => null);
+  if (!homepagePage) return null;
+
+  const homepage = await extractFromPage(candidateName, homepagePage, expectedContext).catch(() => null);
+  if (homepage && hasSubstantiveField(homepage.bio)) return homepage;
 
   // Some FEC-listed sites are legacy/alias domains that redirect to the real
   // one — confirmed on a real candidate: reidrasner.com redirects every path
@@ -167,11 +258,16 @@ export async function extractBioFactsFromSite(candidateName: string, baseUrl: st
   // collapses to that same shallow homepage instead of reaching the real
   // sub-page. homepage.sourceUrl is where the fetch actually landed (see
   // fetchPageText's use of res.url), so sub-paths are built from there.
-  const resolvedBase = homepage?.sourceUrl ?? baseUrl;
-  for (const path of COMMON_BIO_PATHS) {
-    const url = new URL(path, resolvedBase).toString();
+  const resolvedBase = homepage?.sourceUrl ?? homepagePage.finalUrl;
+
+  const candidateUrls = [
+    ...new Set([...COMMON_BIO_PATHS.map((p) => new URL(p, resolvedBase).toString()), ...discoverBioLinks(homepagePage.html, resolvedBase)]),
+  ];
+  let best = homepage;
+  for (const url of candidateUrls) {
     const result = await extractBioFacts(candidateName, url, expectedContext).catch(() => null);
-    if (result && hasAnyField(result.bio)) return result;
+    if (result && hasSubstantiveField(result.bio)) return result;
+    if (fieldCount(result) > fieldCount(best)) best = result;
   }
-  return homepage; // nothing found anywhere — return the (empty) homepage result rather than null so a real fetch isn't mistaken for a total failure
+  return best; // nothing substantive found anywhere — return the richest weak match (or empty homepage) rather than null so a real fetch isn't mistaken for total failure
 }
