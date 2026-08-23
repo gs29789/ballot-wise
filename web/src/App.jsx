@@ -405,7 +405,7 @@ function IdeologyScale({ value, width = 100 }) {
   const clamped = Math.max(-1, Math.min(1, value));
   const pct = ((clamped + 1) / 2) * 100;
   return (
-    <div style={{ width }}>
+    <div style={{ width: "100%", maxWidth: width }}>
       <div style={{ position: "relative", height: 10, marginTop: 3 }}>
         <div style={{ position: "absolute", top: 3, left: 0, right: 0, height: 4, background: T.line, borderRadius: 2 }} />
         <div style={{ position: "absolute", top: 0, left: "50%", width: 1, height: 10, background: T.inkSoft, opacity: 0.5 }} />
@@ -414,6 +414,27 @@ function IdeologyScale({ value, width = 100 }) {
       <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10.5, fontWeight: 600, marginTop: 3, whiteSpace: "nowrap" }}>
         <span style={{ color: T.dem }}>D</span>
         <span style={{ color: T.rep }}>R</span>
+      </div>
+    </div>
+  );
+}
+
+// A horizontal 0..100 track with a marker at the member's score, mirroring
+// IdeologyScale's visual language for consistency between the two metrics.
+// No center tick: unlike DW-NOMINATE's 0 (a documented statistical
+// midpoint), 50 here isn't a defined reference point Ballot-Wise can back
+// up, so it's left unmarked rather than implied.
+function BridgeScale({ value, width = 100 }) {
+  const clamped = Math.max(0, Math.min(100, value));
+  return (
+    <div style={{ width: "100%", maxWidth: width }}>
+      <div style={{ position: "relative", height: 10, marginTop: 3 }}>
+        <div style={{ position: "absolute", top: 3, left: 0, right: 0, height: 4, background: T.line, borderRadius: 2 }} />
+        <div style={{ position: "absolute", top: 0, left: `calc(${clamped}% - 3px)`, width: 6, height: 10, borderRadius: 2, background: T.ink }} />
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10.5, fontWeight: 600, marginTop: 3, whiteSpace: "nowrap" }}>
+        <span style={{ color: T.inkSoft }}>0</span>
+        <span style={{ color: T.inkSoft }}>100</span>
       </div>
     </div>
   );
@@ -912,6 +933,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
           candidates={candidates}
           render={(c) => c.performance?.bridge_score ? (
             <div>
+              <BridgeScale value={c.performance.bridge_score.score} />
               <span style={{ fontSize: 18, fontWeight: 700, color: T.ink }}>{c.performance.bridge_score.grade}</span>
               <span style={{ color: T.inkSoft, fontSize: 12 }}> ({c.performance.bridge_score.score.toFixed(1)}/100)</span>
               <div>
@@ -1110,6 +1132,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
               <div style={{ fontSize: 13, color: T.ink }}>
                 {perf.bridge_score ? (
                   <>
+                    <BridgeScale value={perf.bridge_score.score} width={200} />
                     <span style={{ fontSize: 20, fontWeight: 700 }}>{perf.bridge_score.grade}</span>
                     <span style={{ color: T.inkSoft }}> ({perf.bridge_score.score.toFixed(1)}/100)</span>{" "}
                     <a href={perf.bridge_score.profileUrl} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
