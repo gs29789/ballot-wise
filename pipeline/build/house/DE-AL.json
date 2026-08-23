@@ -614,7 +614,8 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:04:46.758Z"
+      "_tier2_search_attempted_at": "2026-08-20T12:04:46.758Z",
+      "_no_site_search_attempted_at": "2026-08-22T15:27:16.655Z"
     },
     {
       "slug": "earl-cooper",
@@ -910,9 +911,25 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Wasteful Spending",
+          "value": "Control wasteful spending",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        },
+        {
+          "topic": "Economy",
+          "value": "Protect our economy",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        },
+        {
+          "topic": "Government Approach",
+          "value": "Bring a practical approach to government",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        }
+      ],
+      "platform_source_url": "https://leemurphy2026.com/",
+      "_platform_resolved_at": "2026-08-22T15:27:43.788Z",
       "platform_video_url": "https://www.youtube.com/watch?v=jq6BlmLolDM",
       "platform_video_title": "Lee Murphy for Congress - Let's put Delaware on the right track",
       "platform_video_source_url": null,
@@ -923,7 +940,14 @@
       "performance": null,
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-19T11:05:42.993Z",
-      "platform_video_tier": 2
+      "platform_video_tier": 2,
+      "_no_site_search_attempted_at": "2026-08-22T15:27:37.158Z",
+      "campaign_site_url": "https://leemurphy2026.com/",
+      "bio_summary": {
+        "value": "When I ran for Congress, I did so after spending 35 years working on the railroad at Amtrak. That experience taught me how to listen to regular, hard-working people and gave me a direct look at how disconnected Washington has become from the daily realities facing families across our state. From New Castle County down to the towns of Sussex, voters are tired of standard political theater. They want principled, common-sense leadership. Our party and our state require leaders with genuine backbone.",
+        "source_url": "https://leemurphy2026.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-22T15:27:43.788Z"
     },
     {
       "slug": "john-whalen-iii",
