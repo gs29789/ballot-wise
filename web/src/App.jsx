@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown } from "lucide-react";
+import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown, X, Link2, Printer, Flag } from "lucide-react";
 
 const T = {
   paper: "#F4F1E9", paperRaised: "#FBFAF6", ink: "#211D18", inkSoft: "#6B6255",
@@ -887,6 +887,14 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       <div style={{ fontSize: 11.5, color: T.inkSoft, marginTop: 4, lineHeight: 1.5, borderTop: `1px dashed ${T.line}`, paddingTop: 12 }}>
         Every populated field traces to a public source — linked next to the value. This view is a high-level comparison; click "Full profile" on a candidate for their complete voting record, committee list, and legislative activity.
       </div>
+
+      <div className="no-print" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 10, marginTop: 16 }}>
+        <div style={{ display: "flex", gap: 8 }}>
+          <ShareButton />
+          <PrintButton />
+        </div>
+        <ReportIssueLink context={`Race: ${race?.state ?? ""} ${chamber === "senate" ? "Senate" : "House"}\nURL: ${typeof window !== "undefined" ? window.location.href : ""}`} />
+      </div>
     </>
   );
 }
@@ -1187,6 +1195,14 @@ function CandidateProfileView({ candidate, race, onBack }) {
           </div>
         </div>
       </div>
+
+      <div className="no-print" style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 10, marginTop: 4 }}>
+        <div style={{ display: "flex", gap: 8 }}>
+          <ShareButton />
+          <PrintButton />
+        </div>
+        <ReportIssueLink context={`Candidate: ${candidate.full_name}\nRace: ${race?.state ?? ""}\nURL: ${typeof window !== "undefined" ? window.location.href : ""}`} />
+      </div>
     </>
   );
 }
@@ -1369,15 +1385,20 @@ function AddressAutocomplete({ value, onChange, onSearch, placeholder, colors })
   );
 }
 
-function LandingHero({ address, setAddress, handleSearch, status }) {
+function LandingHero({ address, setAddress, handleSearch, status, onShowAbout }) {
   return (
     <div style={{ background: D.bg, color: D.ink }}>
       <div style={{ borderBottom: `1px solid ${D.line}`, padding: "16px 20px" }}>
-        <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
+        <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
           <Wordmark dark />
-          <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: D.inkSoft }}>
-            Non-Partisan · Public Data · No Party Funding
-          </span>
+          <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <button onClick={onShowAbout} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
+              About the data
+            </button>
+            <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: D.inkSoft }}>
+              Non-Partisan · Public Data · No Party Funding
+            </span>
+          </div>
         </div>
       </div>
 
@@ -1506,6 +1527,140 @@ function DistrictEntryFallback({ onSubmit, exampleState }) {
   );
 }
 
+// A mailto: link rather than a form + backend endpoint -- this is a static
+// site with no server beyond one geocoding Function, and shipping a real
+// feedback channel today (even a slightly clunkier one) matters more than
+// building server-side form handling before knowing whether reports are
+// common enough to justify it. `context` is prefilled into the email body
+// so a report always identifies exactly what page/candidate it's about,
+// even if the reporter doesn't say much else.
+function ReportIssueLink({ context, label = "Report an issue with this data" }) {
+  const subject = encodeURIComponent("Ballot-Wise: possible data issue");
+  const body = encodeURIComponent(`${context}\n\nWhat looks wrong:\n(describe here)\n`);
+  return (
+    <a
+      href={`mailto:floridagsf@gmail.com?subject=${subject}&body=${body}`}
+      style={{ display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, textDecoration: "none" }}
+    >
+      <Flag size={12} /> {label}
+    </a>
+  );
+}
+
+// Copies the current URL (already kept in sync with the active race/profile
+// via history.pushState) rather than constructing one -- confirms to the
+// user that what they're sharing is exactly what they're looking at.
+function ShareButton() {
+  const [copied, setCopied] = useState(false);
+  const copy = async () => {
+    try {
+      await navigator.clipboard.writeText(window.location.href);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    } catch {
+      // Clipboard API can be unavailable (older browser, non-HTTPS, denied
+      // permission) -- fails silently rather than showing a broken button,
+      // same "don't claim something happened that didn't" standard as
+      // every data field on this site.
+    }
+  };
+  return (
+    <button
+      onClick={copy}
+      style={{ display: "inline-flex", alignItems: "center", gap: 5, background: "transparent", border: `1px solid ${T.line}`, borderRadius: 6, padding: "6px 10px", fontSize: 12, color: T.inkSoft, cursor: "pointer" }}
+    >
+      <Link2 size={12} /> {copied ? "Link copied" : "Share this comparison"}
+    </button>
+  );
+}
+
+function PrintButton() {
+  return (
+    <button
+      onClick={() => window.print()}
+      style={{ display: "inline-flex", alignItems: "center", gap: 5, background: "transparent", border: `1px solid ${T.line}`, borderRadius: 6, padding: "6px 10px", fontSize: 12, color: T.inkSoft, cursor: "pointer" }}
+    >
+      <Printer size={12} /> Print
+    </button>
+  );
+}
+
+const DATA_SOURCES = [
+  ["Candidate registration & fundraising", "Federal Election Commission (FEC)"],
+  ["Voting record, committees, bills, attendance", "Congress.gov & the U.S. House Clerk"],
+  ["Voting-record ideology score", "VoteView.com (UCLA), DW-NOMINATE method"],
+  ["Bipartisanship grade", "Bridge Grades (bridgegrades.org), an independent published methodology"],
+  ["Background, platform, campaign video", "Each candidate's own campaign website, quoted verbatim"],
+  ["Biographical facts not on a campaign site", "House Historian, Wikipedia/Wikidata, Ballotpedia"],
+  ["Financial disclosure", "U.S. House Clerk's public financial disclosure filings"],
+  ["State population, income, jobs, crime", "U.S. Census Bureau, BLS, FBI Crime Data Explorer"],
+  ["Primary-election results", "Each state's official election results, or AP/Ballotpedia reporting of them"],
+];
+
+// A dedicated overlay rather than a routed page -- this content never needs
+// its own deep link or to interact with the geocoding/race-loading state
+// machine, so a modal keeps it simple and avoids touching that logic at all.
+function AboutModal({ onClose }) {
+  useEffect(() => {
+    const onKey = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  return (
+    <div
+      onClick={onClose}
+      style={{ position: "fixed", inset: 0, background: "rgba(23,20,15,0.55)", zIndex: 50, display: "flex", alignItems: "flex-start", justifyContent: "center", padding: "40px 16px", overflowY: "auto" }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ background: T.paper, borderRadius: 10, maxWidth: 640, width: "100%", padding: "28px 28px 24px", position: "relative" }}
+      >
+        <button
+          onClick={onClose}
+          aria-label="Close"
+          style={{ position: "absolute", top: 18, right: 18, background: "transparent", border: "none", cursor: "pointer", color: T.inkSoft }}
+        >
+          <X size={20} />
+        </button>
+        <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>About the data</div>
+        <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
+          Every fact on Ballot-Wise traces to a public source, linked directly next to the value. Nothing is summarized from memory, inferred, or characterized on our behalf — if we can't verbatim-quote a source for a fact, we show "No public record found" instead of guessing.
+        </p>
+
+        <div style={{ fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: T.inkSoft, marginBottom: 10 }}>Where each type of fact comes from</div>
+        <div style={{ marginBottom: 20 }}>
+          {DATA_SOURCES.map(([label, source]) => (
+            <div key={label} style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, padding: "7px 0", borderTop: `1px dashed ${T.line}`, fontSize: 12.5 }}>
+              <div style={{ color: T.ink }}>{label}</div>
+              <div style={{ color: T.inkSoft }}>{source}</div>
+            </div>
+          ))}
+        </div>
+
+        <div style={{ fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: T.inkSoft, marginBottom: 8 }}>Why some fields are empty</div>
+        <p style={{ fontSize: 12.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
+          All data shown here comes from public and official records. Some information we believe the public deserves isn't required to be disclosed — it takes the candidate's own authorization to release (things like high school, college, financial statements, or exact date of birth). Ballot-Wise searches every source we believe is trustworthy and verifiable, but we won't guess, and we won't publish anything we can't cite. Even when a candidate is under no legal obligation to share something, we believe they should, as a commitment to the public — we can't choose the best person for Congress if we don't know their whole story. If a candidate's profile is missing something you're looking for, call their office and ask them to release it. Ballot-Wise is meant to be a tool for you to take control of your own decision — not the other way around.
+        </p>
+
+        <div style={{ fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: T.inkSoft, marginBottom: 8 }}>How current is this?</div>
+        <p style={{ fontSize: 12.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
+          Candidate data refreshes on an ongoing basis throughout the election cycle. Once a state's primary is certified, the general-election field is narrowed to the confirmed nominees, cited on that race's page.
+        </p>
+
+        <div style={{ fontSize: 12, fontWeight: 600, textTransform: "uppercase", letterSpacing: "0.04em", color: T.inkSoft, marginBottom: 8 }}>Funding</div>
+        <p style={{ fontSize: 12.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
+          Ballot-Wise's policy is to be funded by citizens, not campaigns — we do not knowingly accept contributions from candidates, political parties, PACs, or lobbying organizations.
+        </p>
+
+        <div style={{ borderTop: `1px solid ${T.line}`, paddingTop: 16 }}>
+          <ReportIssueLink context="General question or feedback about Ballot-Wise's data." label="See something wrong? Report it" />
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -1516,6 +1671,7 @@ export default function App() {
   const [houseRace, setHouseRace] = useState(null);
   const [senateRace, setSenateRace] = useState(null);
   const [profileSlug, setProfileSlug] = useState(null);
+  const [showAbout, setShowAbout] = useState(false);
 
   // Shared by both entry points below: geocodeAddress and the direct-district
   // fallback each resolve a { stusab, districtCode, ... } differently, but
@@ -1682,10 +1838,18 @@ export default function App() {
           .compare-grid { grid-template-columns: 1fr !important; }
           .compare-inner { min-width: 0 !important; }
         }
+        @media print {
+          .no-print { display: none !important; }
+          iframe { display: none !important; }
+          body { background: white !important; }
+          a[href]::after { content: none !important; }
+        }
       `}</style>
 
+      {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
+
       {status === "idle" ? (
-        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} />
+        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowAbout={() => setShowAbout(true)} />
       ) : (
         <>
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "16px 20px" }}>
@@ -1701,13 +1865,18 @@ export default function App() {
                   <ArrowLeft size={13} /> Back to home
                 </button>
               </div>
-              <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: T.inkSoft }}>
-                The congressional record, compared
-              </span>
+              <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                <button onClick={() => setShowAbout(true)} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: T.inkSoft, fontSize: 12, textDecoration: "underline" }}>
+                  About the data
+                </button>
+                <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 11, letterSpacing: "0.12em", textTransform: "uppercase", color: T.inkSoft }}>
+                  The congressional record, compared
+                </span>
+              </div>
             </div>
           </div>
 
-          <div style={{ borderBottom: `1px solid ${T.line}`, padding: "20px 20px" }}>
+          <div className="no-print" style={{ borderBottom: `1px solid ${T.line}`, padding: "20px 20px" }}>
             <div style={{ maxWidth: 760, margin: "0 auto", display: "flex", gap: 8, flexWrap: "wrap" }}>
               <AddressAutocomplete
                 value={address}
