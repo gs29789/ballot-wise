@@ -7,14 +7,14 @@
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
-    "primarySnippet": "S.C. Code Ann. § 7-13-40: 'a party primary must be held by the party and conducted by the State Election Commission and the respective county boards of voter registration and elections on the second Tuesday in June of each general election year' — June 9, 2026 is the second Tuesday in June 2026.",
+    "primarySnippet": "S.C. Code Ann. \u00a7 7-13-40: 'a party primary must be held by the party and conducted by the State Election Commission and the respective county boards of voter registration and elections on the second Tuesday in June of each general election year' \u2014 June 9, 2026 is the second Tuesday in June 2026.",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
-    "generalSnippet": "S.C. Code Ann. § 7-13-10: 'General elections for Federal, State and county officers in this State shall be held on the first Tuesday following the first Monday in November in each even-numbered year' — November 3, 2026 is the first Tuesday after the first Monday in November 2026."
+    "generalSnippet": "S.C. Code Ann. \u00a7 7-13-10: 'General elections for Federal, State and county officers in this State shall be held on the first Tuesday following the first Monday in November in each even-numbered year' \u2014 November 3, 2026 is the first Tuesday after the first Monday in November 2026."
   },
   "state_background_check": {
     "required": false,
-    "value": "South Carolina's own constitutional felony-disqualification clause (Article VI, Section 1) is textually limited to \"any office in this State or its political subdivisions\" — it does not by its own terms purport to reach federal offices like U.S. House or Senate. Candidate qualifications for Congress are set exclusively by the U.S. Constitution (age, citizenship, residency), and under U.S. Term Limits v. Thornton (1995) states cannot add additional qualifications for federal office. So while South Carolina bars felons (absent a pardon or a 15-year post-sentence waiting period) from state and local office, that bar does not reach a U.S. House or Senate candidacy — this is a state-law-text limitation, not an assertion that felons are barred from Congress by any authority.",
+    "value": "South Carolina's own constitutional felony-disqualification clause (Article VI, Section 1) is textually limited to \"any office in this State or its political subdivisions\" \u2014 it does not by its own terms purport to reach federal offices like U.S. House or Senate. Candidate qualifications for Congress are set exclusively by the U.S. Constitution (age, citizenship, residency), and under U.S. Term Limits v. Thornton (1995) states cannot add additional qualifications for federal office. So while South Carolina bars felons (absent a pardon or a 15-year post-sentence waiting period) from state and local office, that bar does not reach a U.S. House or Senate candidacy \u2014 this is a state-law-text limitation, not an assertion that felons are barred from Congress by any authority.",
     "source_url": "https://www.scstatehouse.gov/scconstitution/SCConstitution.pdf",
     "snippet": "No person may be popularly elected to and serve in any office in this State or its political subdivisions unless he possesses the qualifications of an elector, is not disqualified by age as prescribed in this Constitution, and has not been convicted of a felony under state or federal law or convicted of tampering with a voting machine, fraudulent registration or voting, bribery at elections... (Art. VI, Sec. 1)"
   },
@@ -472,18 +472,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8055896515.93,
-        "perCapitaUsd": 10824.04
+        "totalUsd": 8056262056.93,
+        "perCapitaUsd": 10824.53
       },
       {
         "year": "2024",
-        "totalUsd": 7634537523.59,
-        "perCapitaUsd": 10257.89
+        "totalUsd": 7634388716.28,
+        "perCapitaUsd": 10257.69
       },
       {
         "year": "2025",
-        "totalUsd": 8661674107.49,
-        "perCapitaUsd": 11637.97
+        "totalUsd": 8661664107.49,
+        "perCapitaUsd": 11637.95
       }
     ],
     "population": [
@@ -587,24 +587,24 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+            "committee": "House Committee on Appropriations \u2014 Transportation, Housing and Urban Development, and Related Agencies",
             "title": "Ranking Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations — Interior, Environment, and Related Agencies",
+            "committee": "House Committee on Appropriations \u2014 Interior, Environment, and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "committee": "House Committee on Appropriations \u2014 Energy and Water Development and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
         "bills_sponsored": 123,
         "bills_cosponsored": 2782,
-        "bills_became_law": 0,
+        "bills_became_law": 9,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 1550 State Road S-38-211 in Orangeburg, South Carolina, as the \"J.I. Washington Post Office Building\".",

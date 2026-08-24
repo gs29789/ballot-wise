@@ -473,13 +473,13 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7417138852.71,
-        "perCapitaUsd": 9441.24
+        "totalUsd": 7415919667.92,
+        "perCapitaUsd": 9439.68
       },
       {
         "year": "2024",
-        "totalUsd": 8678918362.31,
-        "perCapitaUsd": 11047.35
+        "totalUsd": 8678722419.31,
+        "perCapitaUsd": 11047.1
       },
       {
         "year": "2025",
@@ -688,51 +688,10 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [
-          {
-            "committee": "House Committee on Transportation and Infrastructure",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Foreign Affairs",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Transportation and Infrastructure — Aviation",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
-            "title": "Ranking Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Transportation and Infrastructure — Economic Development, Public Buildings, and Emergency Management",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Foreign Affairs — Western Hemisphere",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Foreign Affairs — Europe",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          }
-        ],
+        "committees": [],
         "bills_sponsored": 251,
         "bills_cosponsored": 4478,
-        "bills_became_law": 0,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Sloan Canyon Conservation and Lateral Pipeline Act",

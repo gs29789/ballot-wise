@@ -32,7 +32,7 @@
     "snippet": "Incumbent Mark Takano and Steve Manos are running in the general election for U.S. House California District 39 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -225,7 +225,7 @@
         ],
         "bills_sponsored": 229,
         "bills_cosponsored": 3892,
-        "bills_became_law": 0,
+        "bills_became_law": 6,
         "enacted_laws": [
           {
             "title": "Korean American VALOR Act",

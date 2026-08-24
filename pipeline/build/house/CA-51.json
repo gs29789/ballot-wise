@@ -32,7 +32,7 @@
     "snippet": "Incumbent Sara Jacobs and Ricardo Cabrera are running in the general election for U.S. House California District 51 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -185,7 +185,7 @@
         ],
         "bills_sponsored": 81,
         "bills_cosponsored": 1377,
-        "bills_became_law": 0,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 6401 El Cajon Boulevard in San Diego, California, as the \"Susan A. Davis Post Office\".",

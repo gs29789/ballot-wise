@@ -24,7 +24,7 @@
     "snippet": "Dale Strong (Incumbent) (Republican Party) Andrew Sneed (Democratic Party)"
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,7 +47,7 @@
         "ratePer100k": 27.97
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
@@ -56,13 +56,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 3092720290.7,
-        "perCapitaUsd": 4318.16
+        "totalUsd": 3093618502.45,
+        "perCapitaUsd": 4319.41
       },
       {
         "year": "2025",
-        "totalUsd": 2900428709.49,
-        "perCapitaUsd": 4049.67
+        "totalUsd": 2901438116.09,
+        "perCapitaUsd": 4051.08
       }
     ],
     "population": null,
@@ -258,7 +258,7 @@
         ],
         "bills_sponsored": 31,
         "bills_cosponsored": 219,
-        "bills_became_law": 0,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "To amend title 28, United States Code, to consolidate certain divisions in the Northern District of Alabama.",

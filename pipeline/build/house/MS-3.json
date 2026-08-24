@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5002654610.46,
-        "perCapitaUsd": 6710.23
+        "totalUsd": 5002047257.46,
+        "perCapitaUsd": 6709.42
       },
       {
         "year": "2024",
-        "totalUsd": 5271112144.31,
-        "perCapitaUsd": 7070.33
+        "totalUsd": 5270087183.63,
+        "perCapitaUsd": 7068.95
       },
       {
         "year": "2025",
-        "totalUsd": 5479441320.13,
-        "perCapitaUsd": 7349.77
+        "totalUsd": 5479222421.13,
+        "perCapitaUsd": 7349.47
       }
     ],
     "population": [
@@ -676,46 +676,10 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [
-          {
-            "committee": "House Committee on Appropriations",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Homeland Security",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Ethics",
-            "title": "Chair",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Homeland Security — Border Security and Enforcement",
-            "title": "Chairman",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Appropriations — Homeland Security",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "House Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          }
-        ],
+        "committees": [],
         "bills_sponsored": 54,
         "bills_cosponsored": 1149,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "To amend title 40, United States Code, to modify the treatment of certain bargain-price options to purchase at less than fair market value, and for other purposes.",

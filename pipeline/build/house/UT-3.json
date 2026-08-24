@@ -24,7 +24,7 @@
     "snippet": "Incumbent Celeste Maloy defeated Mike Lyman in the Republican primary for U.S. House Utah District 3 on June 23, 2026, 68.1% (55,031) to 31.9% (25,726) ... Kent Udell defeated Steve Merrill in the Democratic convention, and the Democratic primary was canceled ... Cassie Easley (Constitution), Michael Ray Stoddard (Libertarian), Adonis Hooslyn (Unaffiliated), and Ayden Tate Scott (Unaffiliated) are also running in the general election."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,21 +47,21 @@
         "ratePer100k": 16.72
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3241644847.67,
-        "perCapitaUsd": 3887.1
+        "totalUsd": 3241461850.67,
+        "perCapitaUsd": 3886.88
       },
       {
         "year": "2024",
-        "totalUsd": 4366542211.65,
-        "perCapitaUsd": 5235.98
+        "totalUsd": 4366218642.77,
+        "perCapitaUsd": 5235.59
       },
       {
         "year": "2025",
-        "totalUsd": 4359258032.84,
+        "totalUsd": 4359258715.26,
         "perCapitaUsd": 5227.25
       }
     ],
@@ -321,7 +321,7 @@
         ],
         "bills_sponsored": 41,
         "bills_cosponsored": 207,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",

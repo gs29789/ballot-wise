@@ -32,7 +32,7 @@
     "snippet": "Incumbent D. Adam Smith and Douglas Michael Basler are running in the general election for U.S. House Washington District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,7 +55,7 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
@@ -259,7 +259,7 @@
         ],
         "bills_sponsored": 237,
         "bills_cosponsored": 5028,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "To provide for an exception to a limitation against appointment of persons as Secretary of Defense within seven years of relief from active duty as a regular commissioned officer of the Armed Forces.",
