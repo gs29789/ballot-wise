@@ -405,7 +405,7 @@ function IdeologyScale({ value, width = 100 }) {
   const clamped = Math.max(-1, Math.min(1, value));
   const pct = ((clamped + 1) / 2) * 100;
   return (
-    <div style={{ width }}>
+    <div style={{ width: "100%", maxWidth: width }}>
       <div style={{ position: "relative", height: 10, marginTop: 3 }}>
         <div style={{ position: "absolute", top: 3, left: 0, right: 0, height: 4, background: T.line, borderRadius: 2 }} />
         <div style={{ position: "absolute", top: 0, left: "50%", width: 1, height: 10, background: T.inkSoft, opacity: 0.5 }} />
@@ -414,6 +414,27 @@ function IdeologyScale({ value, width = 100 }) {
       <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10.5, fontWeight: 600, marginTop: 3, whiteSpace: "nowrap" }}>
         <span style={{ color: T.dem }}>D</span>
         <span style={{ color: T.rep }}>R</span>
+      </div>
+    </div>
+  );
+}
+
+// A horizontal 0..100 track with a marker at the member's score, mirroring
+// IdeologyScale's visual language for consistency between the two metrics.
+// No center tick: unlike DW-NOMINATE's 0 (a documented statistical
+// midpoint), 50 here isn't a defined reference point Ballot-Wise can back
+// up, so it's left unmarked rather than implied.
+function BridgeScale({ value, width = 100 }) {
+  const clamped = Math.max(0, Math.min(100, value));
+  return (
+    <div style={{ width: "100%", maxWidth: width }}>
+      <div style={{ position: "relative", height: 10, marginTop: 3 }}>
+        <div style={{ position: "absolute", top: 3, left: 0, right: 0, height: 4, background: T.line, borderRadius: 2 }} />
+        <div style={{ position: "absolute", top: 0, left: `calc(${clamped}% - 3px)`, width: 6, height: 10, borderRadius: 2, background: T.ink }} />
+      </div>
+      <div style={{ display: "flex", justifyContent: "space-between", fontSize: 10.5, fontWeight: 600, marginTop: 3, whiteSpace: "nowrap" }}>
+        <span style={{ color: T.inkSoft }}>0</span>
+        <span style={{ color: T.inkSoft }}>100</span>
       </div>
     </div>
   );
@@ -472,6 +493,111 @@ function TrendIndicator({ current, previous, betterDirection }) {
   const isGood = betterDirection && (betterDirection === "up") === wentUp;
   const color = !betterDirection ? T.inkSoft : isGood ? T.success : T.rep;
   return <Arrow size={15} color={color} strokeWidth={3.5} style={{ verticalAlign: "middle", marginRight: 4 }} />;
+}
+
+// Curated, not scraped: every URL below is independently verified to load
+// and to be the state's own official elections authority (Secretary of
+// State / Board of Elections), never a nonprofit or third-party aggregator.
+// Ballot-Wise doesn't assert deadlines or rules itself here — we only link
+// to where the state publishes its own, current answer.
+const VOTER_INFO = {
+  AK: { registrationUrl: "https://voterregistration.alaska.gov/", pollingUrl: "https://www.elections.alaska.gov/Core/pollingplacelocations.php", mailUrl: "https://www.elections.alaska.gov/voter-information/absentee-and-early-voting/" },
+  AL: { registrationUrl: "https://www.sos.alabama.gov/alabama-votes/voter/register-to-vote", pollingUrl: "https://myinfo.alabamavotes.gov/voterview", mailUrl: "https://www.sos.alabama.gov/alabama-votes/voter/absentee-voting" },
+  AR: { registrationUrl: "https://www.sos.arkansas.gov/elections/voter-information/voter-registration-information", pollingUrl: "https://portal.arkansas.gov/service/ar-election-polling-place-search/", mailUrl: "https://www.sos.arkansas.gov/elections/voter-information/absentee-voting" },
+  AZ: { registrationUrl: "https://azsos.gov/elections/voters/registering-vote", pollingUrl: "https://my.arizona.vote/WhereToVote.aspx", mailUrl: "https://azsos.gov/elections/voters/early-voting" },
+  CA: { registrationUrl: "https://registertovote.ca.gov/", pollingUrl: "https://www.sos.ca.gov/elections/polling-place", mailUrl: "https://www.sos.ca.gov/elections/voter-registration/vote-mail" },
+  CO: { registrationUrl: "https://www.coloradosos.gov/voter/pages/pub/home.xhtml", pollingUrl: "https://www.coloradosos.gov/pubs/elections/VIP.html", mailUrl: "https://www.coloradosos.gov/pubs/elections/FAQs/mailBallotsFAQ.html", mailNote: "Colorado mails a ballot automatically to every active registered voter." },
+  CT: { registrationUrl: "https://portal.ct.gov/sots/election-services/voter-information/voter-registration-information", pollingUrl: "https://portal.ct.gov/sots/common-elements/voter-polling-tool/voter-polling-information", mailUrl: "https://portal.ct.gov/SOTS/Election-Services/Voter-Information/Absentee-Voting" },
+  DC: { registrationUrl: "https://dcboe.org/voters/register-to-vote/register-update-voter-registration", pollingUrl: "https://www.dcboe.org/voters/find-out-where-to-vote/vote-center-locator-tool", mailUrl: "https://www.dcboe.org/voters/casting-your-vote/mail-ballot-request" },
+  DE: { registrationUrl: "https://elections.delaware.gov/voter/votereg.html", pollingUrl: "https://gis.elections.delaware.gov/datasets/polling-places-early-voting-lookup-tool/about", mailUrl: "https://elections.delaware.gov/voter/absentee/" },
+  FL: { registrationUrl: "https://registertovoteflorida.gov/", pollingUrl: "https://dos.fl.gov/elections/for-voters/check-your-voter-status-and-polling-place/voter-precinct-lookup/", mailUrl: "https://dos.fl.gov/elections/for-voters/voting/vote-by-mail/" },
+  GA: { registrationUrl: "https://mvp.sos.ga.gov/s/voter-registration?IsRegisterNow=true", pollingUrl: "https://mvp.sos.ga.gov/s/", mailUrl: "https://securemyabsenteeballot.sos.ga.gov/s/" },
+  HI: { registrationUrl: "https://olvr.hawaii.gov/", pollingUrl: "https://elections.hawaii.gov/voter-service-centers-and-places-of-deposit/", pollingNote: "Hawaii votes by mail — this links Voter Service Centers and drop boxes, not precincts.", mailUrl: "https://elections.hawaii.gov/voting/absentee-voting/", mailNote: "Ballots are mailed automatically; this page is for special-case requests." },
+  IA: { registrationUrl: "https://sos.iowa.gov/voters/voter-registration", pollingUrl: "https://apps.sos.iowa.gov/elections/voterreg/pollingplace/search.aspx", mailUrl: "https://sos.iowa.gov/voters/absentee-voting" },
+  ID: { registrationUrl: "https://voteidaho.gov/voter-registration/", pollingUrl: "https://votertools.voteidaho.gov/TEDElectionLink/VoterServices/voter/where-do-I-vote", mailUrl: "https://votertools.voteidaho.gov/TEDElectionLink/VoterServices/voter-search/ovr-voter-search?returnUrl=VoterServices%2Fwizard%2Frequest-my-vote-by-mail" },
+  IL: { registrationUrl: "https://ova.elections.il.gov/", pollingUrl: "https://ova.elections.il.gov/pollingplacelookup.aspx", mailUrl: "https://www.elections.il.gov/electionoperations/votingbymail.aspx" },
+  IN: { registrationUrl: "https://indianavoters.in.gov/", pollingUrl: "https://indianavoters.in.gov/", pollingNote: "Polling-place lookup is a tool embedded on this same page.", mailUrl: "https://indianavoters.in.gov/MVPHome/PrintDocuments" },
+  KS: { registrationUrl: "https://www.kdor.ks.gov/Apps/VoterReg", pollingUrl: "https://kansasvoterinfo.gov/", mailUrl: "https://sos.ks.gov/elections/advance-voting-information.html" },
+  KY: { registrationUrl: "https://vrsws.sos.ky.gov/ovrweb/", pollingUrl: "https://vrsws.sos.ky.gov/vic/", mailUrl: "https://vrsws.sos.ky.gov/abrweb/", mailNote: "Kentucky's absentee portal only opens in the weeks immediately before an election." },
+  LA: { registrationUrl: "https://voterportal.sos.la.gov/", registrationNote: "Louisiana handles registration, polling lookup, and absentee requests in one portal after login.", pollingUrl: "https://voterportal.sos.la.gov/", pollingNote: "Louisiana handles registration, polling lookup, and absentee requests in one portal after login.", mailUrl: "https://www.sos.la.gov/elections-voting/ways-to-vote" },
+  MA: { registrationUrl: "https://www.sec.state.ma.us/OVR/", pollingUrl: "https://www.sec.state.ma.us/WhereDoIVoteMA/WhereDoIVote", mailUrl: "https://www.sec.state.ma.us/MailInRequestWeb/MailInBallot.aspx" },
+  MD: { registrationUrl: "https://voterservices.elections.maryland.gov/onlinevoterregistration/", pollingUrl: "https://voterservices.elections.maryland.gov/PollingPlaceSearch", mailUrl: "https://voterservices.elections.maryland.gov/onlinemailinrequest/" },
+  ME: { registrationUrl: "https://registertovote.sos.maine.gov/", pollingUrl: "https://www.maine.gov/portal/government/edemocracy/voter_lookup.php", mailUrl: "https://absenteeballotrequest.sos.maine.gov/" },
+  MI: { registrationUrl: "https://mvic.sos.state.mi.us/RegisterVoter/Index", pollingUrl: "https://mvic.sos.state.mi.us/Voter/Index", mailUrl: "https://mvic.sos.state.mi.us/AVApplication/Index" },
+  MN: { registrationUrl: "https://mnvotes.sos.mn.gov/VoterRegistration/index", pollingUrl: "https://myballotmn.sos.mn.gov/", mailUrl: "https://mnvotes.sos.mn.gov/abrequest/index" },
+  MO: { registrationUrl: "https://www.sos.mo.gov/elections/govotemissouri/register", pollingUrl: "https://voteroutreach.sos.mo.gov/portal", mailUrl: "https://www.sos.mo.gov/CMSImages/ElectionGoVoteMissouri/AbsenteeBallotRequestForm.pdf" },
+  MS: { registrationUrl: "https://www.sos.ms.gov/elections-voting/voter-registration-information", pollingUrl: "https://myelectionday.sos.state.ms.us/VoterOutreach/Pages/VOSearch.aspx", mailUrl: "https://www.sos.ms.gov/yall-vote/absentee-voting-information" },
+  MT: { registrationUrl: "https://voterportal.mt.gov/", pollingUrl: "https://sosmt.gov/elections/polling-location-satellite-office-locations/", mailUrl: "https://votemt.gov/absentee-ballot/" },
+  NC: { registrationUrl: "https://www.ncsbe.gov/registering/how-register", pollingUrl: "https://vt.ncsbe.gov/PPLkup/", mailUrl: "https://votebymail.ncsbe.gov/app/home" },
+  ND: { registrationUrl: "https://www.sos.nd.gov/elections/voter/voting-north-dakota", registrationNote: "North Dakota is the only state with no voter registration at all.", pollingUrl: "https://vip.sos.nd.gov/WhereToVote.aspx?tab=AddressandVotingTimes&ptlPKID=7&ptlhPKID=50", mailUrl: "https://vip.sos.nd.gov/absentee/Default.aspx" },
+  NE: { registrationUrl: "https://www.nebraska.gov/apps-sos-voter-registration/", pollingUrl: "https://www.votercheck.necvr.ne.gov/VoterView/", mailUrl: "https://sos.nebraska.gov/elections/early-voting" },
+  NH: { registrationUrl: "https://www.sos.nh.gov/elections/register-vote", pollingUrl: "https://app.sos.nh.gov/pollingplacesampleballot", mailUrl: "https://www.sos.nh.gov/elections/absentee-ballots" },
+  NJ: { registrationUrl: "https://www.nj.gov/state/elections/voter-registration.shtml", pollingUrl: "https://www.nj.gov/state/elections/vote-polling-location.shtml", mailUrl: "https://www.nj.gov/state/elections/vote-by-mail.shtml" },
+  NM: { registrationUrl: "https://portal1.sos.nm.gov/OVR/WebPages/InstructionsStep1.aspx", pollingUrl: "https://voterportal.servis.sos.state.nm.us/WhereToVoteAddress.aspx", mailUrl: "https://portal1.sos.nm.gov/OVR/WebPages/AbsenteeApplication.aspx" },
+  NV: { registrationUrl: "https://registertovote.nv.gov", pollingUrl: "https://www.nvsos.gov/elections/election-information/2026-election-information/2026-polling-locations", mailUrl: "https://www.nvsos.gov/elections/voters/mail-ballot-voting", mailNote: "Nevada mails a ballot automatically to every active registered voter." },
+  NY: { registrationUrl: "https://elections.ny.gov/register-vote", pollingUrl: "https://voterlookup.elections.ny.gov/", mailUrl: "https://elections.ny.gov/request-ballot" },
+  OH: { registrationUrl: "https://www.ohiosos.gov/elections/register-to-vote", pollingUrl: "https://www.ohiosos.gov/directories/find-my-polling-location", mailUrl: "https://www.ohiosos.gov/elections/request-an-absentee-ballot" },
+  OK: { registrationUrl: "https://oklahoma.gov/elections/voter-registration/register-to-vote.html", pollingUrl: "https://oklahoma.gov/elections/voters/ok-voter-portal.html", mailUrl: "https://oklahoma.gov/elections/voters/absentee-voting.html" },
+  OR: { registrationUrl: "https://sos.oregon.gov/elections/Pages/registration.aspx", pollingUrl: "https://sos.oregon.gov/elections/Pages/drop-box-locator.aspx", pollingNote: "Oregon votes almost entirely by mail — link is the official drop-box locator.", mailUrl: "https://sos.oregon.gov/elections/Pages/myvote.aspx", mailNote: "Ballots are mailed automatically to active registered voters." },
+  PA: { registrationUrl: "https://www.pa.gov/services/vote/register-to-vote", pollingUrl: "https://www.pa.gov/services/vote/find-your-local-polling-place", mailUrl: "https://www.pa.gov/services/vote/apply-for-a-mail-in-or-absentee-ballot" },
+  RI: { registrationUrl: "https://vote.sos.ri.gov/Voter/RegisterToVote", pollingUrl: "https://vote.sos.ri.gov/", mailUrl: "https://mailballot.sos.ri.gov/" },
+  SC: { registrationUrl: "https://scvotes.gov/voters/register-to-vote/", pollingUrl: "https://vrems.scvotes.sc.gov/Voter/Login?PageMode=PollingPlace", pollingNote: "Requires signing in with your county, name, date of birth, and last 4 of your SSN.", mailUrl: "https://scvotes.gov/voters/absentee-voting/" },
+  SD: { registrationUrl: "https://sdsos.gov/elections-voting/voting/register-to-vote/default.aspx", registrationNote: "No online registration — by mail or in person through your county auditor.", pollingUrl: "https://vip.sdsos.gov/", mailUrl: "https://sdsos.gov/elections-voting/voting/absentee-voting.aspx" },
+  TN: { registrationUrl: "https://ovr.govote.tn.gov/", pollingUrl: "https://web.go-vote-tn.elections.tn.gov/", mailUrl: "https://sos.tn.gov/elections/services/absentee-voting" },
+  TX: { registrationUrl: "https://www.votetexas.gov/register-to-vote/", pollingUrl: "https://www.votetexas.gov/", mailUrl: "https://www.sos.state.tx.us/elections/voter/reqabbm.shtml", mailNote: "Texas mail voting is limited to specific eligibility categories (age 65+, disability, etc.) — not available to all voters." },
+  UT: { registrationUrl: "https://vote.utah.gov/voter-registration-portal/", pollingUrl: "https://votesearch.utah.gov/voter-search/search/search-by-address/how-and-where-can-i-vote", mailUrl: "https://trackmyballot.utah.gov/", mailNote: "Utah mails a ballot automatically to every active registered voter." },
+  VA: { registrationUrl: "https://vote.elections.virginia.gov/", pollingUrl: "https://vote.elections.virginia.gov/", mailUrl: "https://vote.elections.virginia.gov/" },
+  VT: { registrationUrl: "https://vote.vermont.gov/", registrationNote: "Vermont handles registration, polling lookup, and ballot requests in one portal.", pollingUrl: "https://vote.vermont.gov/", pollingNote: "Vermont handles registration, polling lookup, and ballot requests in one portal.", mailUrl: "https://vote.vermont.gov/", mailNote: "Vermont handles registration, polling lookup, and ballot requests in one portal." },
+  WA: { registrationUrl: "https://olvr.votewa.gov/default.aspx", pollingUrl: "https://voter.votewa.gov/", pollingNote: "Washington votes almost entirely by mail — no traditional precinct polling places.", mailUrl: "https://voter.votewa.gov/", mailNote: "Ballots are mailed automatically to active registered voters." },
+  WI: { registrationUrl: "https://myvote.wi.gov/en-us/register-to-vote", pollingUrl: "https://myvote.wi.gov/en-us/My-Polling-Place", mailUrl: "https://myvote.wi.gov/en-us/Vote-Absentee-By-Mail" },
+  WV: { registrationUrl: "https://ovr.sos.wv.gov/Register/Landing", pollingUrl: "https://apps.sos.wv.gov/Elections/Voter/FindMyPollingPlace", mailUrl: "https://sos.wv.gov/absentee-voting-information" },
+  WY: { registrationUrl: "https://sos.wyo.gov/elections/state/registeringtovote.aspx", pollingUrl: "https://letsvotewyo.org/", mailUrl: "https://sos.wyo.gov/Elections/State/AbsenteeVoting.aspx" },
+};
+
+function VoterInfoRow({ label, url, note }) {
+  if (!url) return null;
+  return (
+    <div style={{ display: "grid", gridTemplateColumns: "220px 1fr", padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+      <div style={{ fontSize: 12.5, color: T.inkSoft }}>{label}</div>
+      <div style={{ fontSize: 13, color: T.ink }}>
+        <a href={url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
+          Official state page <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+        </a>
+        {note ? <span style={{ color: T.inkSoft }}> — {note}</span> : null}
+      </div>
+    </div>
+  );
+}
+
+function VoterInfoSection({ stateCode }) {
+  const info = stateCode ? VOTER_INFO[stateCode] : null;
+  return (
+    <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px", marginBottom: 14 }}>
+      <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 4px" }}>
+        How to vote{stateCode ? ` in ${stateCode}` : ""}
+      </div>
+      {info ? (
+        <>
+          <VoterInfoRow label="Register to vote" url={info.registrationUrl} note={info.registrationNote} />
+          <VoterInfoRow label="Find your polling place" url={info.pollingUrl} note={info.pollingNote} />
+          <VoterInfoRow label="Mail / absentee ballot" url={info.mailUrl} note={info.mailNote} />
+        </>
+      ) : (
+        <div style={{ fontSize: 12.5, color: T.inkSoft, padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
+          State-specific links aren't available yet for {stateCode || "this state"}.
+        </div>
+      )}
+      <div style={{ fontSize: 11.5, color: T.ink, padding: "9px 0 0" }}>
+        Federal resource:{" "}
+        <a href="https://vote.gov" target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
+          vote.gov <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+        </a>
+      </div>
+      <div style={{ fontSize: 10.5, color: T.inkSoft, fontStyle: "italic", padding: "6px 4px 0" }}>
+        Official government links only — Ballot-Wise doesn't state deadlines or rules ourselves. Check the state's own page for current dates and requirements.
+      </div>
+    </div>
+  );
 }
 
 function HardMetricsSection({ hardMetrics, stateCode }) {
@@ -702,6 +828,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       <VotingSystemNote votingSystem={race?.voting_system} />
       <StateBackgroundCheckBanner field={race?.state_background_check} />
       <PrimaryResultsNote primaryResults={race?.primary_results} />
+      <VoterInfoSection stateCode={race?.state} />
 
       <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: 10, marginBottom: 14 }}>
         <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
@@ -806,6 +933,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
           candidates={candidates}
           render={(c) => c.performance?.bridge_score ? (
             <div>
+              <BridgeScale value={c.performance.bridge_score.score} />
               <span style={{ fontSize: 18, fontWeight: 700, color: T.ink }}>{c.performance.bridge_score.grade}</span>
               <span style={{ color: T.inkSoft, fontSize: 12 }}> ({c.performance.bridge_score.score.toFixed(1)}/100)</span>
               <div>
@@ -1004,6 +1132,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
               <div style={{ fontSize: 13, color: T.ink }}>
                 {perf.bridge_score ? (
                   <>
+                    <BridgeScale value={perf.bridge_score.score} width={200} />
                     <span style={{ fontSize: 20, fontWeight: 700 }}>{perf.bridge_score.grade}</span>
                     <span style={{ color: T.inkSoft }}> ({perf.bridge_score.score.toFixed(1)}/100)</span>{" "}
                     <a href={perf.bridge_score.profileUrl} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
