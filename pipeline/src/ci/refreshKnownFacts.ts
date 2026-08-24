@@ -228,11 +228,43 @@ async function main() {
   const findings: Finding[] = [];
   let refreshed = 0;
   const TEST_ONLY = process.env.REFRESH_TEST_ONLY?.split(",");
-  const races = TEST_ONLY ? RACES.filter((r) => TEST_ONLY.includes(r.outFile)) : RACES;
-  for (const opts of races) {
-    const did = await refreshRace(opts, findings);
-    if (did) refreshed++;
+
+  // Weekly budget + rotation, not the full 441-race roster every run.
+  // Confirmed by direct timing: 25 races took ~91s at 10-way concurrency,
+  // and RAISING concurrency to 30 made it slightly SLOWER (116s) -- a clear
+  // sign of an external throttle already in effect, not a lack of
+  // parallelism. Extrapolated, the full roster sequentially exceeded a
+  // routine session's turn limit and stalled mid-run without ever reaching
+  // the commit/push/email steps. Rather than fight a ceiling that more
+  // concurrency won't move, scope each run to a budget and rotate through
+  // the full roster over several weeks -- congressional activity/fundraising
+  // data doesn't change so fast that every candidate needs checking every
+  // single week. The slice index is derived from the current date (whole
+  // weeks since the Unix epoch), not any persisted state -- pipeline/build/
+  // reseeds from data-snapshot (the published baseline) every run, so
+  // anything stored only on the unpublished data-weekly-review branch would
+  // be invisible to the next run anyway.
+  const WEEKLY_BUDGET = 80;
+  const totalSlices = Math.max(1, Math.ceil(RACES.length / WEEKLY_BUDGET));
+  const weekIndex = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000)) % totalSlices;
+  const races = TEST_ONLY
+    ? RACES.filter((r) => TEST_ONLY.includes(r.outFile))
+    : RACES.slice(weekIndex * WEEKLY_BUDGET, (weekIndex + 1) * WEEKLY_BUDGET);
+  if (!TEST_ONLY) console.log(`Week slice ${weekIndex + 1}/${totalSlices}: ${races.length} races this run.`);
+
+  // Bounded-concurrency worker pool. `findings` is safely shared across
+  // workers: JS's single-threaded event loop makes concurrent `Array.push`
+  // calls from async functions atomic in effect, no lock needed.
+  const CONCURRENCY = 10;
+  let cursor = 0;
+  async function worker() {
+    while (cursor < races.length) {
+      const opts = races[cursor++];
+      const did = await refreshRace(opts, findings);
+      if (did) refreshed++;
+    }
   }
+  await Promise.all(Array.from({ length: CONCURRENCY }, worker));
   writeFileSync(join(BUILD_DIR, "_weekly_refresh_findings.json"), JSON.stringify(findings, null, 2));
   writeFileSync(join(BUILD_DIR, "_weekly_refresh_findings.md"), renderMarkdown(findings));
   const actionCount = findings.filter((f) => f.priority === "action").length;
