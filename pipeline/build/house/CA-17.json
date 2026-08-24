@@ -1,0 +1,856 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-17",
+  "generated_at": "2026-08-21T12:57:04.982Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_17th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Ro Khanna and Ritesh Tandon are running in the general election for U.S. House California District 17 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "rohit-khanna",
+      "full_name": "KHANNA, ROHIT",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CA12055",
+      "fec_status": "C",
+      "bioguide_id": "K000389",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 13761490.91,
+        "totalSpent": 7540830.12,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1650808.89,
+          "largeDollar": 11084980.95,
+          "pac": 1000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-09-13",
+          "source_url": "https://www.wikidata.org/wiki/Q7339221",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Philadelphia, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q7339221",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Chicago",
+          "source_url": "https://www.wikidata.org/wiki/Q7339221",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Ritu with two young children",
+          "source_url": "https://www.rokhanna.com/page/meet-ro",
+          "snippet": "he and his wife Ritu have two young children",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Lecturer in the Department of Economics at Stanford University, Adjunct Professor at Santa Clara Law School, Deputy Assistant Secretary at the U.S. Department of Commerce (appointed by President Obama in 2009), served on the White House Business Council",
+          "source_url": "https://www.rokhanna.com/page/meet-ro",
+          "snippet": "Prior to holding elected office, Khanna was a Lecturer in the Department of Economics at Stanford University and an Adjunct Professor at Santa Clara Law School. Governor Jerry Brown appointed him to the California Workforce Development Board for the State of California, where he served as chair for the Advanced Manufacturing Committee. He also served on the Board of Directors of Planned Parenthood Mar Monte and provided pro bono legal aid to the Mississippi Center for Justice on several contractor fraud cases on behalf of Hurricane Katrina victims. In 2009, President Obama appointed Khanna to serve as Deputy Assistant Secretary at the U.S. Department of Commerce. While there, he broke new ground organizing clean technology trade missions and expanding the Green Embassy program, which allows American clean technology firms to showcase their products in our embassies overseas. Khanna also served on the White House Business Council, working with both business and labor for policies that promote to bring back American manufacturing jobs.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "California Workforce Development Board (chair for the Advanced Manufacturing Committee), Board of Directors of Planned Parenthood Mar Monte",
+          "source_url": "https://www.rokhanna.com/page/meet-ro",
+          "snippet": "Governor Jerry Brown appointed him to the California Workforce Development Board for the State of California, where he served as chair for the Advanced Manufacturing Committee. He also served on the Board of Directors of Planned Parenthood Mar Monte",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance",
+          "value": "Banning PAC & Lobbyist Money",
+          "snippet": "Banning PAC & Lobbyist Money"
+        },
+        {
+          "topic": "Jobs and Economy",
+          "value": "Creating Technology & Manufacturing Jobs across America",
+          "snippet": "Creating Technology & Manufacturing Jobs across America"
+        },
+        {
+          "topic": "Higher Education",
+          "value": "Providing Debt Free College",
+          "snippet": "Providing Debt Free College"
+        },
+        {
+          "topic": "Workforce Development",
+          "value": "Supporting Apprenticeships & Vocational Training",
+          "snippet": "Supporting Apprenticeships & Vocational Training"
+        },
+        {
+          "topic": "Women's Rights",
+          "value": "Standing up for Women's Rights",
+          "snippet": "Standing up for Women's Rights"
+        },
+        {
+          "topic": "Clean Energy and Technology",
+          "value": "Investing in New Industries & Clean Technology",
+          "snippet": "Investing in New Industries & Clean Technology"
+        }
+      ],
+      "platform_source_url": "https://www.rokhanna.com/",
+      "_platform_resolved_at": "2026-08-15T11:14:39.860Z",
+      "campaign_site_url": "https://www.rokhanna.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=b7hz5djb6zg",
+      "platform_video_title": "For the Kids",
+      "platform_video_source_url": "https://www.rokhanna.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-18T22:07:40.946Z",
+      "bio_summary": {
+        "value": "Ro Khanna represents California's 17th District, the heart of the Silicon Valley, in the U.S. Congress.",
+        "source_url": "https://www.rokhanna.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:22:35.864Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Economic Growth, Energy Policy, and Regulatory Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Cybersecurity, Information Technology, and Government Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Cyber, Information Technologies, and Innovation",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 195,
+        "bills_cosponsored": 3698,
+        "bills_became_law": 8,
+        "enacted_laws": [
+          {
+            "title": "Epstein Files Transparency Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "4405",
+            "publicLawNumber": "119-38",
+            "summary": "Epstein Files Transparency Act This act requires the Department of Justice (DOJ) to publish (in a searchable and downloadable format) all&nbsp;unclassified records, documents, communications, and investigative materials in DOJ's possession that relate to the investigation and prosecution of Jeffrey Epstein. This includes (1) materials&nbsp;that relate to Ghislaine Maxwell, (2) flight logs and travel records, and (3) individuals named or referenced (including government officials) in connection with the investigation and prosecution of Jeffrey Epstein. DOJ is permitted to withhold certain information such as the personal information of victims and materials that would jeopardize an active federal investigation. Additionally, not later than 15 days after the required publication, DOJ must report to Congress (1) all categories of information released and withheld, (2) a summary of any redactions made, and (3) a list of all government officials and politically exposed individuals named or referenced in the published materials.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ38"
+          },
+          {
+            "title": "Government Service Delivery Improvement Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "5887",
+            "publicLawNumber": "118-231",
+            "summary": "Government Service Delivery Improvement Act This act requires that certain government officials be responsible for improving government service delivery (i.e., actions by executive branch agencies related to providing benefits or services to individuals, businesses, and organizations). The act&nbsp;requires the Office of Management and Budget (OMB) to designate or appoint a senior official within OMB as the Federal Government Service Delivery Lead.&nbsp;This individual is responsible for&nbsp;coordinating government-wide efforts to improve government service delivery by agencies. The act also requires the head of each agency to be responsible for the agency's government service delivery, including improving and enhancing government services to better achieve the mission of the agency and build and maintain trust, transparency, and accountability. Each agency head shall also designate or appoint a senior official of the agency whose duties shall include coordinating and executing efforts to improve and enhance the agency's government service delivery and government service delivery channels (i.e., the mediums of interaction or transaction with the federal government, such as mail, phone, or website).&nbsp;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ231"
+          },
+          {
+            "title": "Quantum Computing Cybersecurity Preparedness Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "7535",
+            "publicLawNumber": "117-260",
+            "summary": "Quantum Computing Cybersecurity Preparedness Act This act addresses the migration of executive agencies' information technology systems to post-quantum cryptography. Post-quantum cryptography is encryption strong enough to resist attacks from quantum computers developed in the future. The act does not apply to national security systems. The Office of Management and Budget (OMB) shall issue guidance on the migration of information technology to post-quantum cryptography. Each executive agency must maintain an inventory of all information technology in use by the executive agency that is vulnerable to decryption by quantum computers. After the National Institutes of Standards and Technology (NIST) has issued post-quantum cryptography standards, the OMB shall issue guidance requiring each executive agency to develop a plan to migrate information technology of the agency to post-quantum cryptography. OMB shall submit to Congress a report on a strategy to address the risk posed by the vulnerabilities of information technology of executive agencies to weakened encryption due to the potential and possible capability of a quantum computer to breach such encryption; the funding needed by executive agencies to secure such information technology from the risk posed by an adversary of the United States using a quantum computer to breach the encryption; and a description of federal civilian executive branch coordination efforts led by NIST, including timelines, to develop standards for post-quantum cryptography.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ260"
+          },
+          {
+            "title": "Information Technology Modernization Centers of Excellence Program Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5901",
+            "publicLawNumber": "116-194",
+            "summary": "Information Technology Modernization Centers of Excellence Program Act This bill requires the General Services Administration (GSA) to establish an Information Technology Modernization Centers of Excellence Program to facilitate the adoption of modern technology by executive agencies. The GSA shall (1) coordinate with the Department of Homeland Security in establishing the program to ensure that the technology, tools, and frameworks facilitated for executive agencies by the program provide sufficient cybersecurity and maintain the integrity, confidentiality, and availability of federal information; and (2) report to Congress.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ194"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 21701 Stevens Creek Boulevard in Cupertino, California, as the \"Petty Officer 2nd Class (SEAL) Matthew G. Axelson Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "4672",
+            "publicLawNumber": "116-238",
+            "summary": "Designates the facility of the United States Postal Service located at 21701 Stevens Creek Boulevard in Cupertino, California, as the \"Petty Officer 2nd Class (SEAL) Matthew G. Axelson Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ238"
+          },
+          {
+            "title": "Identifying Barriers and Best Practices Study Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "4183",
+            "publicLawNumber": "116-187",
+            "summary": "Identifying Barriers and Best Practices Study Act This bill requires the Government Accountability Office to study and report on disability and pension benefits provided by the Department of Veterans Affairs to members of the National Guard and members of reserve components of the Armed Forces.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ187"
+          },
+          {
+            "title": "21st Century IDEA",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "5759",
+            "publicLawNumber": "115-336",
+            "summary": "21st Century Integrated Digital Experience Act or the 21st Century IDEA (Sec. 3) This bill requires an executive agency that creates a public website or digital service, or that redesigns an existing public legacy website or digital service, to ensure that the website or service: is accessible to individuals with disabilities, has a consistent appearance, does not overlap with or duplicate any legacy websites; contains a search function, is provided through an industry standard secure connection, is designed around user needs, provides users with the option for a more customized digital experience that allows users to complete digital transactions in an efficient and accurate manner, and is fully functional and usable on common mobile devices. Each agency that maintains a public website or digital service shall report: (1) to Congress on those websites and services, including the cost of modernization, and (2) annually to the Office of Management and Budget (OMB) on the agency's progress in implementing the requirements. Agencies must ensure that Intranets established after enactment of this bill conform to the requirements for public websites. Any website of an agency that is made available to the public after enactment shall be in compliance with the website standards of the Technology Transformation Services of the General Services Administration (GSA). (Sec. 4) The OMB shall issue guidance to each agency to: (1) identify public nondigital, paper-based, or in person government services; and (2) include in the agency's budget request a list of nondigital services with the greatest impact that could be made available to the public through an online, mobile-friendly, digital service option in a manner that decreases cost, increases digital conversion rates, and improves customer experience, and an estimation of the cost and schedule associated with carrying out such modernization. Agencies must make forms used by the public available digitally and report on forms, services, and processes that cannot be digitized. Each agency shall maintain an accessible method of completing digital services through in-person, paper-based, or other means, such that individuals without the ability to use digital services are not deprived of, or impeded in, access to such services. (Sec. 5) Each agency shall submit to the OMB and Congress a plan to accelerate the use of electronic signatures. (Sec. 6) Each agency's Chief Information Officer shall: coordinate and ensure alignment of the internal and external customer experience programs and strategy of the agency, coordinate with the management leaders of the agency to ensure proper funding to support this bill's implementation, continually examine the agency's public digital service delivery strategy and submit recommendations providing guidance and best practices, identify areas of concern that need improvement using data relating to customer experience and satisfaction, and coordinate and ensure compliance with requirements for federal websites to be mobile friendly. (Sec. 7) Each agency shall: (1) seek to maintain as much standardization and commonality with other agencies as practicable in implementing this bill's requirements to best enable future transitions to centralized shared services; and (2) coordinate the implementation of such requirements, including the development of standards and commonalities. The GSA must make available under a Federal Supply Schedule the systems and services necessary to fulfill this bill's requirements. Such schedule shall ensure interoperability between agencies, compliance with industry standards, and adherence to best practices for design, accessibility, and information security.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ336"
+          },
+          {
+            "title": "VALOR Act",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "3949",
+            "publicLawNumber": "115-89",
+            "summary": "(This measure has not been amended since it was passed by the House on November 7, 2017. The summary of that version is repeated here.) Veterans Apprenticeship and Labor Opportunity Reform Act or the VALOR Act (Sec. 2) This bill provides that the state approving agency for a multi-state non-federal apprenticeship program is: (1) for program approval purposes, the state approving agency for the state in which the headquarters of the apprenticeship program is located; and (2) for all other purposes, the state approving agency for the state in which the apprenticeship program takes place. (Sec. 3) The bill eliminates the requirement that the veteran or other eligible person enrolled in an apprenticeship or other on-job training program must certify such person's program attendance to receive a training assistance allowance.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ89"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.458,
+          "nominateDim2": -0.296,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/K000389"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 78.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/K000389"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "ritesh-tandon",
+      "full_name": "TANDON, RITESH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H0CA17193",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 37653.48,
+        "totalSpent": 36762.76,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2226.48,
+          "largeDollar": 35402,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 25
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Santa Clara University Graduate: MBA (Class of 2007) & Master of Computer Engineering (Class of 2001)",
+          "source_url": "https://www.tandonforcongress.com/",
+          "snippet": "Santa Clara University Graduate: MBA (Class of 2007) & Master of Computer Engineering (Class of 2001)",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Research Fellow, Haas School of Business, UC Berkeley",
+          "source_url": "https://www.tandonforcongress.com/",
+          "snippet": "Research Fellow, Haas School of Business, UC Berkeley",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "For 26 years, I have proudly called the Bay Area home and served this community as a volunteer",
+          "source_url": "https://www.tandonforcongress.com/",
+          "snippet": "For 26 years, I have proudly called the Bay Area home and served this community as a volunteer",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Affordability",
+          "value": "Increase housing affordability for renters, first-time buyers, and workforce families in high-cost regions like California by expanding federal incentives for new housing supply, rewarding faster local permitting, supporting first-time homebuyer savings tools, and growing workforce housing near jobs and transit.",
+          "snippet": "2) Make Housing Affordable Again Policy: Increase housing affordability for renters, first-time buyers, and workforce families in high-cost regions like California. Solution: Expand federal incentives for new housing supply, reward faster local permitting, support first-time homebuyer savings tools, and grow workforce housing near jobs and transit."
+        },
+        {
+          "topic": "Healthcare and Prescription Drug Costs",
+          "value": "Reduce the medical cost burden on families and seniors by lowering out-of-pocket costs, increasing healthcare price transparency, reducing prescription drug costs, and expanding access to preventive and primary care.",
+          "snippet": "4) Lower Healthcare and Prescription Drug Costs Policy: Reduce the medical cost burden on families and seniors. Solution: Lower out-of-pocket costs, increase healthcare price transparency, reduce prescription drug costs, and expand access to preventive and primary care."
+        },
+        {
+          "topic": "California Billionaire Wealth Tax",
+          "value": "Oppose a California billionaire wealth tax that risks driving investment, founders, and job creators out of the state; focus on spending discipline instead of new wealth taxes—cut waste, streamline agencies, eliminate duplicative programs, and make state government lean and accountable.",
+          "snippet": "11) Oppose California Billionaire Wealth Tax Policy: Oppose a California billionaire wealth tax that risks driving investment, founders, and job creators out of the state. Solution: Focus on spending discipline instead of new wealth taxes—cut waste, streamline agencies, eliminate duplicative programs, and make state government lean and accountable."
+        },
+        {
+          "topic": "AI Education",
+          "value": "Every student should graduate AI-literate through a federal-state partnership to integrate AI fundamentals, critical thinking, ethics, and digital safety into K–12 standards and teacher training; tie federal higher-ed incentives to AI adoption across majors; and fund rapid retraining grants, community college AI certificates, apprenticeship pipelines, and veteran-focused tech transition programs.",
+          "snippet": "6) AI in Every School: K–12 National Readiness Plan Policy: Every student should graduate AI-literate. Solution: Launch a federal-state partnership to integrate AI fundamentals, critical thinking, ethics, and digital safety into K–12 standards and teacher training. 7) AI in Every College: Workforce-Ready Degrees Policy: College must prepare students for the real economy. Solution: Tie federal higher-ed incentives to AI adoption across majors—business, healthcare, engineering, education, law, and public policy—not just computer science. 8) AI Upskilling for Workers and Veterans Policy: No American worker should be left behind by technology. Solution: Fund rapid retraining grants, community college AI certificates, apprenticeship pipelines, and veteran-focused tech transition programs."
+        },
+        {
+          "topic": "Skills-Based Immigration and Worker Protection",
+          "value": "Expand and modernize merit-based pathways for high-skill talent in critical sectors, while protecting U.S. workers through wage safeguards and transparent labor-market tests; strengthen employer verification and anti-fraud enforcement, require market wages for guest-worker hiring, and impose strong penalties on labor exploitation and illegal hiring schemes.",
+          "snippet": "4) Prioritize Skills-Based Legal Immigration Policy: Legal immigration should align with U.S. workforce and innovation needs. Solution: Expand and modernize merit-based pathways for high-skill talent in critical sectors, while protecting U.S. workers through wage safeguards and transparent labor-market tests. 5) Protect American Workers and Wages Policy: Immigration policy must never undercut wages or job access for U.S. citizens and legal residents. Solution: Strengthen employer verification and anti-fraud enforcement, require market wages for guest-worker hiring, and impose strong penalties on labor exploitation and illegal hiring schemes."
+        },
+        {
+          "topic": "Federal Regulation",
+          "value": "End the culture of endless federal overregulation by requiring agencies to remove or update two outdated regulations for every major new one, with strict cost-benefit review and sunset deadlines.",
+          "snippet": "4) One-In, Two-Out Federal Regulation Rule Policy: End the culture of endless federal overregulation. Solution: Require agencies to remove or update two outdated regulations for every major new one, with strict cost-benefit review and sunset deadlines."
+        }
+      ],
+      "platform_source_url": "https://www.tandonforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:14:16.959Z",
+      "campaign_site_url": "https://www.tandonforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=B7nCYZKcrTk",
+      "platform_video_title": "Ritesh Tandon Plan for Congressional CA17 District",
+      "platform_video_source_url": "https://www.tandonforcongress.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-21T11:01:34.773Z",
+      "bio_summary": {
+        "value": "For 26 years, I have proudly called the Bay Area home and served this community as a volunteer, and my commitment to public service is deeply rooted in my family’s history: my grandfather, Kanhaiyalal Tandon, fought for India’s independence, and because of his sacrifice, I grew up understanding that freedom is never free—it is earned, protected, and passed from one generation to the next",
+        "source_url": "https://www.tandonforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:22:38.195Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

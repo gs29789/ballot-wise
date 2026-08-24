@@ -1,0 +1,833 @@
+{
+  "state": "MT",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-17T16:18:07.819Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://mca.legmt.gov/bills/mca/title_0130/chapter_0010/part_0010/section_0070/0130-0010-0010-0070.html",
+    "primarySnippet": "On the first Tuesday after the first Monday in June preceding a general election held in an even-numbered year, a primary election must be held throughout the state.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://mca.legmt.gov/bills/mca/title_0130/chapter_0010/part_0010/section_0040/0130-0010-0010-0040.html",
+    "generalSnippet": "A general election must be held throughout the state on the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Montana's constitution bars convicted felons from holding office generally, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://mca.legmt.gov/bills/mca/title_0000/article_0040/part_0010/section_0040/0000-0040-0010-0040.html",
+    "snippet": "Any qualified elector is eligible to any public office except as otherwise provided in this constitution. The legislature may provide additional qualifications but no person convicted of a felony shall be eligible to hold office until his final discharge from state supervision. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/2026-Primary-State-Canvass(f0627306086b974f9ac2e416bb8125c9).pdf",
+    "snippet": "UNITED STATES SENATOR Republican KURT ALME LEE CALHOUN CHARLES WALKING CHILD ... Total 128716 23872 16474 [p.2] — UNITED STATES SENATOR Democratic ALANI BANKHEAD MICHAEL BLACK WOLF MICHAEL HUMMERT CHRISTOPHER KEHOE REILLY NEILL ... Total 48772 14678 4305 7108 36880 [p.1] — UNITED STATES SENATOR Libertarian KYLE AUSTIN TOM JANDRON ... Total 1819 1592 [p.3]. Independent Seth Bodnar doesn't run in a primary — separately certified per https://dailymontanan.com/briefs/montana-secretary-of-state-certifies-three-independent-candidates-meet-ballot-requirements/: \"Seth Bodnar, the former president of the University of Montana who is running in a three-way race for the U.S. Senate, submitted more than twice the number of signatures required for the office.\""
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.5
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 35.21
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 27.38
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 35.89
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 34.76
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 29.09
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 520.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 521.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 525.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 524.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 525.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 526.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 525.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 524.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 525.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 525.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 527.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 527.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 526.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 526.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 526.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 524.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 523.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 526.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 525.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 526
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 527.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 527.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 526.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 527.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 528.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 526.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 524
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 523.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 522.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 521.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 522.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 521.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 521.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 520.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 519.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 518.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 520.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 518.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 518.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 518.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 518.4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 518.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5149121636.82,
+        "perCapitaUsd": 9396.7
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6906097056.17,
+        "perCapitaUsd": 12603.03
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5689765122.21,
+        "perCapitaUsd": 10383.33
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1122867
+      },
+      {
+        "year": "2023",
+        "population": 1132812
+      },
+      {
+        "year": "2024",
+        "population": 1137233
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 67631
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70804
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 75340
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "kurt-alme",
+      "full_name": "ALME, KURT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6MT00295",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1984860.91,
+        "totalSpent": 534142.12,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 88310.38,
+          "largeDollar": 932809.9,
+          "pac": 577500,
+          "party": 62000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Great Falls",
+          "source_url": "https://almeforsenate.com/",
+          "snippet": "Kurt was born in Great Falls",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "graduated from high school in Miles City",
+          "source_url": "https://almeforsenate.com/",
+          "snippet": "graduated from high school in Miles City",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "served as a prosecutor, budget watchdog, and public servant; balanced the state's budget, cut taxes for working families, cracked down on crime",
+          "source_url": "https://almeforsenate.com/",
+          "snippet": "Kurt spent his career serving Montanans as a prosecutor, budget watchdog, and public servant. Over the years that's meant balancing the state's budget, cutting taxes for working families, cracking down on crime",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability",
+          "value": "Make life more affordable",
+          "snippet": "Now he's running for U.S. Senate to make life more affordable, keep our communities safe, and protect our Montana way of life."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Keep our communities safe",
+          "snippet": "Now he's running for U.S. Senate to make life more affordable, keep our communities safe, and protect our Montana way of life."
+        },
+        {
+          "topic": "Montana Way of Life",
+          "value": "Protect our Montana way of life",
+          "snippet": "Now he's running for U.S. Senate to make life more affordable, keep our communities safe, and protect our Montana way of life."
+        }
+      ],
+      "platform_source_url": "https://almeforsenate.com/",
+      "_platform_resolved_at": "2026-08-06T12:45:22.727Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=gkAQyA038cU",
+      "platform_video_title": "Fix It :30",
+      "platform_video_source_url": "https://almeforsenate.com/",
+      "_platform_video_resolved_at": "2026-08-18T21:58:38.774Z",
+      "bio_summary": {
+        "value": "Kurt was born in Great Falls and graduated from high school in Miles City. Growing up across Montana taught him the values of hard work, faith, and service. Kurt spent his career serving Montanans as a prosecutor, budget watchdog, and public servant. Over the years that's meant balancing the state's budget, cutting taxes for working families, cracking down on crime, and defending our values. Montana is his home. Now he's running for U.S. Senate to make life more affordable, keep our communities safe, and protect our Montana way of life.",
+        "source_url": "https://almeforsenate.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:31:50.003Z"
+    },
+    {
+      "slug": "kyle-austin",
+      "full_name": "AUSTIN, KYLE",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6MT00261",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 262194.97,
+        "totalSpent": 242362.46,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 100,
+          "largeDollar": 526.5,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 261081.96
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Montana's Hi-Line",
+          "source_url": "https://www.kyleaustinmt.com/",
+          "snippet": "Born and raised on Montana s Hi-Line",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "working his family's farm, earned his Doctor of Pharmacy and founded a successful independent pharmacy, currently owns his grandfather's farm, pharmacist and pharmacy owner, Billings business owner",
+          "source_url": "https://www.kyleaustinmt.com/",
+          "snippet": "From working his family s farm and advocating for Montana s agricultural industry to earning his Doctor of Pharmacy and founding a successful independent pharmacy, Kyle has remained committed to protecting rural communities, promoting honest government, and fighting for the people of Montana DONATE TODAY A Public Debate Challenge An Open Invitation to Every Federal Candidate Every federal candidate has been invited to participate in an open public debate focused on the issues that matter most to Montanans. We believe voters deserve the opportunity to hear directly from every candidate, compare their ideas, and make informed decisions. SCHEDULE A DEBATE Building a Stronger Montana Kyle Austin is committed to protecting Montana s values through common-sense leadership and practical solutions. His priorities are focused on supporting families, rural communities, and the future of our state. 01 AGRICULTURE Austin, who was born and raised on the Hi-line, grew up and currently owns his grandfather s farm. Austin understands the stress, the challenges, and the problems our American farmers and ranchers face. 02 2ND AMENDMENT RIGHTS Austin is a gun owner, and a hunter understands the importance of gun rights in America. Austin believes everyone American should un-restricted access to bear arms. 03 HEALTHCARE 2.0 Austin, as a pharmacist and pharmacy owner, understands the healthcare issues and corruption related to the healthcare industry",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Agriculture",
+          "value": "Austin understands the stress, the challenges, and the problems our American farmers and ranchers face.",
+          "snippet": "Austin, who was born and raised on the Hi-line, grew up and currently owns his grandfather s farm. Austin understands the stress, the challenges, and the problems our American farmers and ranchers face."
+        },
+        {
+          "topic": "Second Amendment Rights",
+          "value": "Austin believes every American should have unrestricted access to bear arms.",
+          "snippet": "Austin is a gun owner, and a hunter understands the importance of gun rights in America. Austin believes everyone American should un-restricted access to bear arms."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Austin understands the healthcare issues and corruption related to the healthcare industry.",
+          "snippet": "Austin, as a pharmacist and pharmacy owner, understands the healthcare issues and corruption related to the healthcare industry."
+        },
+        {
+          "topic": "Regulatory Overreach",
+          "value": "Kyle Austin raises concerns over increasing regulations from the Montana Department of Labor and Industry, citing impacts on small businesses, healthcare access, and economic growth while advocating for reduced government overreach.",
+          "snippet": "Kyle Austin, candidate for U.S. Senate, raises concerns over increasing regulations from the Montana Department of Labor and Industry, citing impacts on small businesses, healthcare access, and economic growth while advocating for reduced government overreach."
+        }
+      ],
+      "platform_source_url": "https://www.kyleaustinmt.com/",
+      "_platform_resolved_at": "2026-08-06T12:45:50.686Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:12:52.726Z",
+      "bio_summary": {
+        "value": "Born and raised on Montana's Hi-Line, Kyle Austin has dedicated his life to serving his community through agriculture, healthcare, and public leadership. From working his family's farm and advocating for Montana's agricultural industry to earning his Doctor of Pharmacy and founding a successful independent pharmacy, Kyle has remained committed to protecting rural communities, promoting honest government, and fighting for the people of Montana",
+        "source_url": "https://www.kyleaustinmt.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:31:52.234Z"
+    },
+    {
+      "slug": "alani-bankhead",
+      "full_name": "BANKHEAD, ALANI INES",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6MT00253",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 58829.06,
+        "totalSpent": 37011.39,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 18726.62,
+          "largeDollar": 26953,
+          "pac": 6627.29,
+          "party": 0,
+          "selfFunded": 6522.15
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Retired Air Force Lt Col and federal supervisory special agent",
+          "source_url": "https://alaniformt.com/",
+          "snippet": "Retired Air Force Lt Col and federal supervisory special agent",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Public Lands",
+          "value": "No selling of public lands ever, no opening up public lands for exploitation ever, and support corner crossing",
+          "snippet": "Public lands stay public: period. No selling of public lands ever. No opening up public lands for exploitation ever. I support corner crossing. Period."
+        },
+        {
+          "topic": "Special Education",
+          "value": "Increase federal funding for special education from current 13% toward the promised 40%",
+          "snippet": "Washington promised to pay 40% of the cost and pays about 13%, so that fight lands on Montana classrooms and Montana families."
+        }
+      ],
+      "platform_source_url": "https://alaniformt.com/positions",
+      "_platform_resolved_at": "2026-08-17T16:18:01.035Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:12:53.089Z",
+      "bio_summary": {
+        "value": "Retired Air Force Lt Col and federal supervisory special agent: she hunted terror networks, spies, and child predators across the globe. Now she's running for Montana.",
+        "source_url": "https://alaniformt.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:31:56.050Z"
+    },
+    {
+      "slug": "seth-bodnar",
+      "full_name": "BODNAR, SETH",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "S6MT00287",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3238150.74,
+        "totalSpent": 2260371.43,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 369366.46,
+          "largeDollar": 2774503.07,
+          "pac": 93050,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Green Beret, business leader, and former president of the University of Montana",
+          "source_url": "https://www.sethformontana.com/",
+          "snippet": "Seth Bodnar is a Green Beret, business leader, and former president of the University of Montana",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "date_of_birth": {
+          "value": "1979-02-02",
+          "source_url": "https://www.wikidata.org/wiki/Q125651096",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Hertford College",
+          "source_url": "https://www.wikidata.org/wiki/Q125651096",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Franklin, Pennsylvania",
+          "source_url": "https://en.wikipedia.org/wiki/Seth_Bodnar",
+          "snippet": "Seth Bodnar was raised in Franklin, Pennsylvania",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Chelsea Bodnar",
+          "source_url": "https://en.wikipedia.org/wiki/Seth_Bodnar",
+          "snippet": "Bodnar is married to Chelsea Bodnar, a pediatrician and fifth-generation Montanan.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Board of directors of the Missoula Economic Partnership",
+          "source_url": "https://en.wikipedia.org/wiki/Seth_Bodnar",
+          "snippet": "Aside from his role at the University of Montana , Bodnar also serves on the board of directors of the Missoula Economic Partnership.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Affordability",
+          "value": "Fight to bring housing costs back in line with what Montana families actually earn",
+          "snippet": "I'll fight to bring housing costs and healthcare costs back in line with what Montana families actually earn"
+        },
+        {
+          "topic": "Healthcare Costs",
+          "value": "Fight to bring healthcare costs back in line with what Montana families actually earn",
+          "snippet": "I'll fight to bring housing costs and healthcare costs back in line with what Montana families actually earn"
+        },
+        {
+          "topic": "Public Lands",
+          "value": "Defending our public lands as common ground, where every Montanan, regardless of background or income, can hunt, fish, and recreate",
+          "snippet": "It's about defending our public lands as common ground, where every Montanan, regardless of background or income, can hunt, fish, and recreate."
+        },
+        {
+          "topic": "Tribal Sovereignty",
+          "value": "Respecting tribal sovereignty and fulfilling our treaty obligations",
+          "snippet": "It's about honoring indigenous culture and heritage as a vital part of the fabric of this state, respecting tribal sovereignty and fulfilling our treaty obligations."
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Ban members of Congress from enriching themselves on insider info",
+          "snippet": "Ban members of Congress from enriching themselves on insider info"
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Overturn Citizens United",
+          "snippet": "Overturn Citizens United"
+        },
+        {
+          "topic": "Gerrymandering",
+          "value": "End gerrymandering with mandatory nonpartisan redistricting",
+          "snippet": "End gerrymandering with mandatory nonpartisan redistricting"
+        }
+      ],
+      "platform_source_url": "https://www.sethformontana.com/platform",
+      "_platform_resolved_at": "2026-08-06T12:46:13.596Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=vAVxyHNefcs",
+      "platform_video_title": "Seth for Montana | I Don't Fit Into a Box",
+      "platform_video_source_url": "https://www.sethformontana.com/",
+      "_platform_video_resolved_at": "2026-08-18T21:58:39.860Z",
+      "bio_summary": {
+        "value": "Seth Bodnar is a Green Beret, business leader, and former president of the University of Montana running for the U.S. Senate to be an Independent voice for Montana. Seth is guided by a lifelong commitment to duty, honor, and country.",
+        "source_url": "https://www.sethformontana.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:31:57.761Z"
+    }
+  ]
+}

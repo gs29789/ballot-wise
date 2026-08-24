@@ -1,0 +1,751 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-18T20:25:23.792Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Victoria Spartz and J.D. Ford are running in the general election for U.S. House Indiana District 5 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "james-ford",
+      "full_name": "FORD, JAMES (J.D.) DAVID",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN05307",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 582086.67,
+        "totalSpent": 267434.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 107718.91,
+          "largeDollar": 422682.5,
+          "pac": 49904.05,
+          "party": 0,
+          "selfFunded": 615.71
+        }
+      },
+      "bio": {
+        "civic_affiliations": {
+          "value": "Indiana State Senator representing Senate District 29; Minority Caucus Whip; Minority Caucus Chair; Ranking Minority Member on Senate Committee on Education, Veterans Affairs & The Military, and Family & Children Services; first and only openly LGBTQ+ member of the Indiana General Assembly",
+          "source_url": "https://www.electjdford.com/about",
+          "snippet": "He flipped a long-held red district&mdash;Indiana Senate District 29&mdash;by outworking and out-caring the political establishment. Voters chose a leader focused on service, not status&mdash;someone willing to fight to lower the cost of lifesaving medication, strengthen public education, and ensure every Hoosier gets a fair shot. ​ J.D. grew up in a working-class family, his father a union truck driver, his mother an assisted living administrator. From his grandparents, who served their community as local officials, he learned early that public service is about people, not power. Those values guide him through his nonprofit career and his work in the Senate. ​ J.D. is the first, and so far only, openly LGBTQ+ member of the Indiana General Assembly, and one of its youngest. He lives with his dog, Stella, and his cat, Sir Aaron Purr. Outside the legislature, he enjoys sports, reading, and spending time with family and friends. 7 Years in the Indiana Senate ​ 100 Bills Introduced ​ 3 Laws Signed J.D. s Leadership J.D. is a legislator for the people. Since entering the Indiana Senate in 2019, he is one of the most influential Democratic Senators working to pass bills in each session. Today, J.D. is known as one of the Senate&rsquo;s most trusted problem-solvers. He has served as: ​ Minority Caucus Whip Minority Caucus Chair Ranking Minority Member, Senate Committee on Education Ranking Minority Member, Veterans Affairs & The Military Ranking Minority Member, Family & Children Services",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "University of Akron (bachelor's degree in political science and criminal justice); Purdue University (master's degree in education)",
+          "source_url": "https://ballotpedia.org/J.D._Ford",
+          "snippet": "He earned a bachelor's degree in political science and criminal justice from the University of Akron and a master's degree in education from Purdue University."
+        },
+        "employment_record": {
+          "value": "Senior director of recruitment and expansion, Theta Chi Fraternity, Inc.",
+          "source_url": "https://ballotpedia.org/J.D._Ford",
+          "snippet": "Ford's career experience includes working as the senior director of recruitment and expansion with Theta Chi Fraternity, Inc."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Affordability",
+          "value": "Ban international investors and big corporations from buying homes to control housing costs",
+          "snippet": "Make housing more affordable for Hoosiers by banning international investors and big corporations from buying homes and driving up housing costs."
+        },
+        {
+          "topic": "Healthcare Costs",
+          "value": "Cap the price of insulin and epi pens and reduce prescription costs",
+          "snippet": "Lower health care costs to make sure every family, no matter where they live, can access affordable, quality care. As your State Senator I championed capping the price of insulin and epi pens and reducing prescription costs."
+        },
+        {
+          "topic": "Medicaid",
+          "value": "Restore and protect Medicaid funding and oppose budget cuts that threaten healthcare access",
+          "snippet": "Fight to restore and protect Medicaid funding. Oppose reckless budget cuts that threaten access to emergency and preventive care."
+        },
+        {
+          "topic": "Gun Safety",
+          "value": "Implement universal background checks and protect Red Flag (Jake Laird) laws",
+          "snippet": "Gun Safety: Implement universal background checks and protect Red Flag (Jake Laird) laws to keep our neighborhoods and schools safe."
+        },
+        {
+          "topic": "Education",
+          "value": "Fully fund public schools and oppose taking money from public schools to fund unaccountable private schools",
+          "snippet": "Fully fund public schools and fight back against reckless budget cuts that strip resources from students and teachers. Oppose taking money from public schools to fund unaccountable private schools."
+        },
+        {
+          "topic": "Equality Act",
+          "value": "Pass the Equality Act to ensure that no American faces discrimination in housing, employment, or public spaces",
+          "snippet": "Rights for All Americans: Pass the Equality Act to ensure that no American faces discrimination in housing, employment, or public spaces."
+        }
+      ],
+      "platform_source_url": "https://www.electjdford.com/platform",
+      "_platform_resolved_at": "2026-08-12T19:15:03.682Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "J.D. Ford is the 2026 Democratic candidate for Congress in Indiana's 5th Congressional District, representing Hamilton, Delaware, Madison, Grant, Howard, and Tipton counties. Learn about his plans to lower healthcare costs, support working families, bring a strong Democratic check in Congress, and make life more affordable for Hoosiers.",
+        "source_url": "https://www.electjdford.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:00.219Z",
+      "platform_video_tier": null
+    },
+    {
+      "slug": "victoria-spartz",
+      "full_name": "SPARTZ, VICTORIA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0IN05326",
+      "fec_status": "C",
+      "bioguide_id": "S000929",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1327227.97,
+        "totalSpent": 1355273.82,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 403302.67,
+          "largeDollar": 697892.71,
+          "pac": 118750,
+          "party": 0,
+          "selfFunded": 25000
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1978-10-06",
+          "source_url": "https://www.wikidata.org/wiki/Q44059867",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Nosivka",
+          "source_url": "https://www.wikidata.org/wiki/Q44059867",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Kyiv National Economic University named after Vadym Hetman",
+          "source_url": "https://www.wikidata.org/wiki/Q44059867",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.spartzforcongress.com/",
+          "snippet": "immigrating to the United States over 20 years ago after meeting her husband, a born and raised Hoosier, on a train in Europe",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "bank teller to a CPA, finance executive and successful business owner",
+          "source_url": "https://www.spartzforcongress.com/",
+          "snippet": "working her way up from bank teller to a CPA, finance executive and successful business owner",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Studied in a lyceum in Chernihiv and graduated with a gold medal",
+          "source_url": "https://en.wikipedia.org/wiki/Victoria_Spartz",
+          "snippet": "There, she studied in a lyceum and graduated with a gold medal .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Founding member of the Hamilton County, Indiana Tea Party",
+          "source_url": "https://en.wikipedia.org/wiki/Victoria_Spartz",
+          "snippet": "Spartz was a founding member of the Hamilton County , Indiana Tea Party .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Limited Government",
+          "value": "Limited government is always better",
+          "snippet": "limited government is always better"
+        },
+        {
+          "topic": "Financial Decisions",
+          "value": "Financial decisions should be made by individuals in the free market, not bureaucrats and special interests",
+          "snippet": "financial and healthcare decisions should be made by individuals in the free market, not bureaucrats and special interests"
+        },
+        {
+          "topic": "Healthcare Decisions",
+          "value": "Healthcare decisions should be made by individuals in the free market, not bureaucrats and special interests",
+          "snippet": "financial and healthcare decisions should be made by individuals in the free market, not bureaucrats and special interests"
+        }
+      ],
+      "platform_source_url": "https://www.spartzforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T19:14:52.419Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077259.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T01:23:43.904Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Joint Economic Committee",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 46,
+        "bills_cosponsored": 314,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 119 North Anderson Street in Elwood, Indiana, as the \"Officer Noah Jacob Shahnavaz Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9775",
+            "publicLawNumber": "118-269",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 119 North Anderson Street in Elwood, Indiana, as the Officer Noah Jacob Shahnavaz&nbsp;Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ269"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.494,
+          "nominateDim2": -0.279,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S000929"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 6.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S000929"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Victoria is a natural leader who has a proven track record in the business world, civic organizations and the public sector. In many ways, she embodies the American Dream: born overseas, immigrating to the United States over 20 years ago after meeting her husband, a born and raised Hoosier, on a train in Europe, becoming a US Citizen, and working her way up from bank teller to a CPA, finance executive and successful business owner.",
+        "source_url": "https://www.spartzforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:02.652Z",
+      "_tier2_search_attempted_at": "2026-08-22T15:24:47.117Z"
+    }
+  ]
+}

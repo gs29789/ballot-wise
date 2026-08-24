@@ -1,0 +1,269 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-11",
+  "generated_at": "2026-08-14T18:29:11.871Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "August Pfluger (Incumbent) (Republican Party) / Claire Reynolds (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "august-pfluger",
+      "full_name": "PFLUGER, AUGUST LEE II",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0TX11230",
+      "fec_status": "C",
+      "bioguide_id": "P000048",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3189023.09,
+        "totalSpent": 2631404.34,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 269143.35,
+          "largeDollar": 459908.43,
+          "pac": 182500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1978-12-28",
+          "source_url": "https://www.wikidata.org/wiki/Q101196462",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Harris County, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q101196462",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Central High School",
+          "source_url": "https://www.wikidata.org/wiki/Q101196462",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Central High School",
+          "source_url": "https://www.ballotready.org/people/august-pfluger",
+          "snippet": "High School Diploma, Central High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "US Air Force, Officer (2000 - 2019); The Washington Institute for Near East Policy, National Defense Fellow (2018 - 2019); Foundation for the Defense of Democracies, National Defense Fellow (2019 - 2020); The White House, National Security Council, Director of Defense Policy & Strategy (2019 - 2019); US Air Force Reserve, Officer (2019 - Present); US House of Representatives, Representative- Texas 11th District (2021 - Present)",
+          "source_url": "https://www.ballotready.org/people/august-pfluger",
+          "snippet": "US House of Representatives, Representative- Texas 11th District (2021 - Present) US Air Force Reserve, Officer (2019 - Present) The White House, National Security Council, Director of Defense Policy & Strategy (2019 - 2019) Foundation for the Defense of Democracies, National Defense Fellow (2019 - 2020) The Washington Institute for Near East Policy, National Defense Fellow (2018 - 2019) US Air Force, Officer (2000 - 2019)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Camille",
+          "source_url": "https://en.wikipedia.org/wiki/August_Pfluger",
+          "snippet": "Pfluger and his wife Camille have three young daughters.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Eagle Scout",
+          "source_url": "https://en.wikipedia.org/wiki/August_Pfluger",
+          "snippet": "He is an Eagle Scout .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Counterterrorism and Intelligence",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 162,
+        "bills_cosponsored": 907,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "35",
+            "publicLawNumber": "119-2",
+            "summary": "This joint resolution eliminates an annual waste emissions charge on&nbsp;oil or gas facilities under the Methane Emissions Reduction Program. Under the program, the Environmental Protection Agency (EPA) currently collects a waste emissions charge from specific types of oil or gas facilities, such as onshore or offshore facilities that produce oil or gas,&nbsp;for exceeding emission thresholds for greenhouse gas emissions and methane emissions. Specifically, the joint resolution nullifies the rule titled&nbsp; Waste Emissions Charge for Petroleum and Natural Gas Systems: Procedures for Facilitating Compliance, Including Netting and Exemptions&nbsp; and published by the EPA on November 18, 2024.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ2"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.634,
+          "nominateDim2": 0.384,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/P000048"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 92.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/P000048"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "claire-reynolds",
+      "full_name": "REYNOLDS, CLAIRE ANNE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX11112",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 89281.36,
+        "totalSpent": 42491.11,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 23742.67,
+          "largeDollar": 60455.74,
+          "pac": 5000,
+          "party": 0,
+          "selfFunded": 5
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Indiana",
+          "source_url": "https://www.clairereynoldsforcongress.org/about",
+          "snippet": "I was born in Indiana",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.clairereynoldsforcongress.org/about",
+          "snippet": "I met my husband here",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "State Bar of Texas, Public Affairs Counsel (2013 - 2025); Pite Duncan, LLP, Associate Attorney (2007 - 2013)",
+          "source_url": "https://www.ballotready.org/people/claire-reynolds",
+          "snippet": "Professional Experience State Bar of Texas, Public Affairs Counsel (2013 - 2025) Pite Duncan, LLP, Associate Attorney (2007 - 2013)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Support for single-payer health insurance system and ensuring nobody goes bankrupt from medical costs",
+          "snippet": "Nobody should go bankrupt because they break a hip or get cancer. And the current system of having our jobs associated with our health insurance is both absurd and unique in the developed world. A single-payer health insurance system may seem out of reach, but Medicare and the VA do just that for millions and millions of Texans."
+        },
+        {
+          "topic": "Women's Rights",
+          "value": "Abortion in Texas should be safe, legal, and rare",
+          "snippet": "Abortion in Texas should be safe, legal, and rare."
+        }
+      ],
+      "platform_source_url": "https://www.clairereynoldsforcongress.org/",
+      "_platform_resolved_at": "2026-08-14T18:29:03.934Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Claire Reynolds is running for Congress in Texas’s 11th District to challenge the entrenched interests that gerrymandered her neighbors into a deeply conservative district, and build a government that works for everyday people in Odessa, Midland, San Angelo, and TX-11’s new slivers of north Austin and Pflugerville. She believes bold ideas can make real change happen.",
+        "source_url": "https://www.clairereynoldsforcongress.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:05.028Z"
+    }
+  ]
+}

@@ -1,0 +1,755 @@
+{
+  "state": "MI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-17T15:17:00.147Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
+    "primarySnippet": "MCL 168.52: A general primary election of all political parties shall be held in every election precinct in this state on the Tuesday succeeding the first Monday in August preceding every general November election in which a governor is to be elected, at which time the qualified and registered electors of each political party shall vote for party candidates for the office of governor.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-641.html",
+    "generalSnippet": "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
+    "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Michigan's_6th_Congressional_District_election,_2026",
+    "snippet": "Debbie Dingell, Heather Smiley, Clyde Shabazz, Tim Teagan, Michael Mickevicius, and Linda Rayburn are running in the general election for U.S. House Michigan District 6 on November 3, 2026 (incumbent Dingell). Shabazz, Teagan, Mickevicius, and Rayburn have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 35.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.1
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.61
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 30.19
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4488.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4484.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4475.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4470.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4475.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4478.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4478
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4479.3
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4485.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4488.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4488.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4495.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4486.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4484.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4483.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4477.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4485.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4498
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4497.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4479.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4490.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4492.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4485.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4474.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4479.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4463.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4455.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4483
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4472.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4481.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4473.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4468
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4452.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4439.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4433.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4430.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 722948012.63,
+        "perCapitaUsd": 945.2
+      },
+      {
+        "year": "2024",
+        "totalUsd": 318073847.04,
+        "perCapitaUsd": 415.86
+      },
+      {
+        "year": "2025",
+        "totalUsd": 419999410.8,
+        "perCapitaUsd": 549.12
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10034118
+      },
+      {
+        "year": "2023",
+        "population": 10037261
+      },
+      {
+        "year": "2024",
+        "population": 10140459
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66986
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69183
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72389
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "debbie-dingell",
+      "full_name": "DINGELL, DEBBIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4MI12079",
+      "fec_status": "C",
+      "bioguide_id": "D000624",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1193711.67,
+        "totalSpent": 1122149.22,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 69239.18,
+          "largeDollar": 320160.61,
+          "pac": 691593.25,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1953-11-23",
+          "source_url": "https://www.wikidata.org/wiki/Q5248232",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Detroit, Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q5248232",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Walsh School of Foreign Service",
+          "source_url": "https://www.wikidata.org/wiki/Q5248232",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "As an executive at General Motors, she worked to keep our auto industry strong before continuing her dedication to supporting charitable causes as President of the GM Foundation.",
+          "source_url": "https://debbiedingellforcongress.com/meet-debbie/",
+          "snippet": "As an executive at General Motors, she worked to keep our auto industry strong before continuing her dedication to supporting charitable causes as President of the GM Foundation.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Climate Change",
+          "value": "Climate Change is a real problem that requires pro-active solutions from the federal government",
+          "snippet": "Climate Change, as the experts have proven, is a real problem that requires pro-active solutions from the federal government."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "If you live in America you have a right to quality healthcare",
+          "snippet": "I believe that if you live in America you have a right to quality healthcare."
+        },
+        {
+          "topic": "Great Lakes",
+          "value": "Protecting our Great Lakes",
+          "snippet": "working together on critical issues like protecting our Great Lakes"
+        },
+        {
+          "topic": "Healthcare Costs",
+          "value": "Lowering the costs of healthcare",
+          "snippet": "lowering the costs of healthcare"
+        },
+        {
+          "topic": "Infrastructure",
+          "value": "Improving our infrastructure",
+          "snippet": "improving our infrastructure"
+        },
+        {
+          "topic": "Jobs and Manufacturing",
+          "value": "Creating jobs by supporting manufacturing and leveling the playing field for our workers",
+          "snippet": "creating jobs by supporting manufacturing and leveling the playing field for our workers"
+        }
+      ],
+      "platform_source_url": "https://debbiedingellforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:07:38.405Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 280,
+        "bills_cosponsored": 3095,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "Great Lakes Fish and Wildlife Restoration Reauthorization Act of 2022",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "5973",
+            "publicLawNumber": "117-287",
+            "summary": "Great Lakes Fish and Wildlife Restoration Reauthorization Act of 2022 This act reauthorizes through FY2028 the Great Lakes Fish and Wildlife Restoration Act of 1990.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ287"
+          },
+          {
+            "title": "To designate the medical center of the Department of Veterans Affairs in Ann Arbor, Michigan, as the \"Lieutenant Colonel Charles S. Kettles Department of Veterans Affairs Medical Center\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "7347",
+            "publicLawNumber": "116-317",
+            "summary": "This bill designates the medical center of the Department of Veterans Affairs in Ann Arbor, Michigan, as the Lieutenant Colonel Charles S. Kettles Department of Veterans Affairs Medical Center or the Lieutenant Colonel Charles S. Kettles VA Medical Center.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ317"
+          },
+          {
+            "title": "Sustaining Excellence in Medicaid Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "3253",
+            "publicLawNumber": "116-39",
+            "summary": "Sustaining Excellence in Medicaid Act of 2019 This bill extends several health care programs and requirements and revises certain Medicare drug payment methodologies. (Sec. 2) The bill temporarily extends the Medicaid demonstration program for certified community behavioral health clinics. (Sec. 3) The bill also temporarily extends the applicability of Medicaid eligibility criteria that protect against spousal impoverishment for recipients of home- and community-based services. (Sec. 4) The bill increases appropriations for FY2019 for the Money Follows the Person Rebalancing Demonstration Program. (Under this program, the Centers for Medicare &amp; Medicaid Services (CMS) may award grants to state Medicaid programs to assist states in increasing the use of home and community care for long-term care and decreasing the use of institutional care.) (Sec. 5) Additionally, the bill extends the Family-to-Family Health Information Centers Program, which is administered by the Health Resources and Services Administration. The program awards grants to family-run organizations to support the provision of information and peer support to families of children with special health care needs. (Sec. 6) Finally, the bill provides statutory authority for a Medicare payment methodology that applies an add-on payment of up to 3% for new drugs or biologics (furnished on or after January 1, 2019) when the average sales price is unavailable and payment is instead based on the wholesale acquisition cost (WAC). (Effective January 1, 2019, the CMS reduced the WAC add-on payment in such situations from 6% to 3%.)",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ39"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.398,
+          "nominateDim2": -0.186,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/D000624"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 98.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/D000624"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:26.387Z",
+      "bio_summary": {
+        "value": "Debbie Dingell is a tireless fighter for working families in Michigan. She knows that we can accomplish more by working together on critical issues like protecting our Great Lakes, lowering the costs of healthcare, improving our infrastructure, and creating jobs by supporting manufacturing and leveling the playing field for our workers. A noted leader in improving civility in our public discourse, she strongly believes that we can disagree with one another without being disagreeable.",
+        "source_url": "https://debbiedingellforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:44.878Z"
+    },
+    {
+      "slug": "heather-smiley",
+      "full_name": "SMILEY, HEATHER",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4MI06154",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "college": {
+          "value": "Central Michigan University (bachelor and master degree)",
+          "source_url": "https://smileyforcongress.com/",
+          "snippet": "I attended public schools, and was the first in my family to attend college, earning both a bachelor and master degree from Central Michigan University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married for 30 years",
+          "source_url": "https://smileyforcongress.com/",
+          "snippet": "I am a Christian mother of two children who has been married for 30 years.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "retired from Ford (UAW & salary) with over 32 years of service. Roles included product development, strategy & planning, business reengineering & transformation, customer service, and analytics. Worked on location in Europe and in partnerships throughout the globe.",
+          "source_url": "https://smileyforcongress.com/",
+          "snippet": "I recently retired from Ford (UAW & salary) with over 32 years of service. My roles included, product development, strategy & planning, business reengineering & transformation, customer service, and analytics. I worked on location in Europe and in partnerships throughout the globe.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "active in community and throughout the state in various volunteer roles for entire adult life; First responder/practitioner and instructor/trainer volunteer, youth program leader, and hands-on support of various emergency preparedness agencies and local charities",
+          "source_url": "https://smileyforcongress.com/",
+          "snippet": "I have been active in my community and throughout the state in various volunteer roles for my entire adult life; First responder/practitioner and instructor/trainer volunteer, youth program leader, and hands-on support of various emergency preparedness agencies and local charities.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "attended public schools",
+          "source_url": "https://smileyforcongress.com/",
+          "snippet": "I attended public schools",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Constitutional Rights",
+          "value": "Pursue and enforce laws where violations occur, and uphold our God-given rights as the framers intended",
+          "snippet": "Pursue and enforce laws where violations occur, and uphold our God-given rights as the framers intended"
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Enable and support law enforcement to effectively perform their duties, enforce equal protection, and uphold natural law",
+          "snippet": "Enable and support law enforcement to effectively perform their duties, enforce equal protection, and uphold natural law"
+        },
+        {
+          "topic": "Voting Integrity",
+          "value": "Ensure and enforce ballot security, and secure voting only for legal U.S. citizens",
+          "snippet": "Ensure and enforce ballot security, and secure voting only for legal U.S. citizens"
+        },
+        {
+          "topic": "Fiscal Responsibility",
+          "value": "Eliminate excessive & wasteful spending, pay off the debt and balance the budget, and ensure plan transparency",
+          "snippet": "Eliminate excessive & wasteful spending, pay off the debt and balance the budget, and ensure plan transparency"
+        },
+        {
+          "topic": "Trade",
+          "value": "Protect and Increase global trade relations and ensure nothing less than bi-directional fairness",
+          "snippet": "Protect and Increase global trade relations and ensure nothing less than bi-directional fairness"
+        },
+        {
+          "topic": "Free Market",
+          "value": "Allow marketplace demand to be the impetus for businesses to flourish, and restrict the government from unnecessary meddling",
+          "snippet": "Allow marketplace demand to be the impetus for businesses to flourish, and restrict the government from unnecessary meddling"
+        },
+        {
+          "topic": "Border Security and Immigration",
+          "value": "Restore border security, improve immigration policies & practices, and address the issues associated with those who have entered the country illegally",
+          "snippet": "Restore border security, improve immigration policies & practices, and address the issues associated with those who have entered the country illegally"
+        },
+        {
+          "topic": "Domestic Manufacturing and Jobs",
+          "value": "Strengthen and protect domestic manufacturing & food chain, prioritize cyber security, and restrict foreign ownership of land",
+          "snippet": "Strengthen and protect domestic manufacturing & food chain, prioritize cyber security, and restrict foreign ownership of land"
+        }
+      ],
+      "platform_source_url": "https://smileyforcongress.com/?page_id=29",
+      "_platform_resolved_at": "2026-08-17T15:16:53.758Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:26.735Z",
+      "bio_summary": {
+        "value": "I am a Christian mother of two children who has been married for 30 years. I attended public schools, and was the first in my family to attend college, earning both a bachelor and master degree from Central Michigan University. My father is a legal immigrant that served in the USAF who retired as both an engineer and medical first responder. My mother is a retired school bus driver. I recently retired from Ford (UAW & salary) with over 32 years of service.",
+        "source_url": "https://smileyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:42.421Z"
+    }
+  ]
+}

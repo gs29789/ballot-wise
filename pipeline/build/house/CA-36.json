@@ -1,0 +1,251 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-36",
+  "generated_at": "2026-08-18T20:09:33.719Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_36th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Ted Lieu and Houston Brignano are running in the general election for U.S. House California District 36 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "houston-brignano",
+      "full_name": "BRIGNANO, HOUSTON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA36208",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5139.13,
+        "totalSpent": 4337.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 677.87,
+          "largeDollar": 4461.26,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married with three daughters",
+          "source_url": "https://www.voteforhouston.com/",
+          "snippet": "These days, I'm raising three daughters in the South Bay with my wife - a stay at home mom and the real homemaker.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Marine Corps, deployed to two tours in Iraq",
+          "source_url": "https://www.voteforhouston.com/",
+          "snippet": "I joined the Marine Corps right out of high school because I wanted to be part of the best. I deployed to two tours in Iraq",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "serving on the boards of homeschool co-op in Redondo Beach and church in Old Torrance",
+          "source_url": "https://www.voteforhouston.com/",
+          "snippet": "I have the pleasure of serving on the boards of our homeschool co-op in Redondo Beach and of our church in Old Torrance",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "AI and Automation",
+          "value": "Train young people to master AI and protect jobs from automation through smart policies and reskilling programs",
+          "snippet": "I'm running to help unlock these possibilities, train our young people to master AI, protect jobs from automation through smart policies and reskilling programs, and deliver practical solutions."
+        }
+      ],
+      "platform_source_url": "https://www.voteforhouston.com/",
+      "_platform_resolved_at": "2026-08-15T11:40:09.397Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I’m a proud South Bay native, born and raised in the best place to live. I joined the Marine Corps right out of high school because I wanted to be part of the best. I deployed to two tours in Iraq, and that experience immensely shaped how I see the world. What matters, what doesn't, and what's worth fighting for. These days, I'm raising three daughters in the South Bay with my wife - a stay at home mom and the real homemaker.",
+        "source_url": "https://www.voteforhouston.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:28.392Z"
+    },
+    {
+      "slug": "ted-lieu",
+      "full_name": "LIEU, TED",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CA33119",
+      "fec_status": "C",
+      "bioguide_id": "L000582",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1832768.92,
+        "totalSpent": 1319376.98,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 35142.02,
+          "largeDollar": 928101.68,
+          "pac": 570479.17,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1969-03-29",
+          "source_url": "https://www.wikidata.org/wiki/Q7693450",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Taipei",
+          "source_url": "https://www.wikidata.org/wiki/Q7693450",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Georgetown University Law Center",
+          "source_url": "https://www.wikidata.org/wiki/Q7693450",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 273,
+        "bills_cosponsored": 4087,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "West Los Angeles VA Campus Improvement Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "711",
+            "publicLawNumber": "117-18",
+            "summary": "West Los Angeles VA Campus Improvement Act of 2021 This bill requires that land use revenues received by the Department of Veterans Affairs (VA) in connection with the use of certain leases or third-party land use at the VA's West Los Angeles Campus in Los Angeles, California, be used exclusively for specified purposes on campus. The bill prescribes that such revenues be used exclusively for the renovation and maintenance of the land and facilities at the campus; supporting construction, maintenance, and services at the campus relating to temporary or permanent supportive housing for homeless or at-risk veterans and their families; implementing minor construction projects at the campus; or implementing community operations at the campus that support the development of emergency shelter or supportive housing for homeless or at-risk veterans and their families. The bill also increases the maximum time period for enhanced-use leases at the campus from 75 to 99 years. Additionally, the bill requires the VA to include in its annual report evaluating leases and land-sharing agreements on campus an assessment of (1) the manner in which revenue generated by the leases is expended, and (2) the direct benefits the expenditures provide to veterans.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ18"
+          },
+          {
+            "title": "Quarterly Financial Report Reauthorization Act",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "3116",
+            "publicLawNumber": "114-72",
+            "summary": "(This measure has not been amended since it was passed by the Senate on October 6, 2015. The summary of that version is repeated here.) (Sec. 2) This bill extends the authority of the Department of Commerce to conduct the quarterly financial report program through September 30, 2030, under which Commerce collects and publishes quarterly financial statistics of business operations, organization, practices, management, and relation to other businesses, including data on sales, expenses, assets, liabilities, and other measures of financial condition. (Sec. 3) Commerce must conduct and report to specified congressional committees on a review of the data security procedures of the Bureau of the Census. Such report shall: identify all Bureau information systems that contain sensitive information; describe any actions carried out by Commerce or the Bureau to secure sensitive information since the data breaches of Office of Personnel Management systems were announced in 2015; identify any known data breaches of Bureau information systems that contain sensitive information; and identify whether the Bureau stores any information that, if combined with other information, would comprise classified information.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ72"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.37,
+          "nominateDim2": -0.196,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000582"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 58.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000582"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

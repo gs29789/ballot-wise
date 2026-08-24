@@ -1,0 +1,234 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-19",
+  "generated_at": "2026-08-17T16:02:52.041Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_19th_Congressional_District_election,_2026",
+    "snippet": "Kyle Rable and Tom Sell are running in the general election for U.S. House Texas District 19 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "kyle-rable",
+      "full_name": "RABLE, KYLE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX19198",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 31275.77,
+        "totalSpent": 20810.9,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15289.5,
+          "largeDollar": 14786.27,
+          "pac": 1000,
+          "party": 0,
+          "selfFunded": 200
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married to Kristen",
+          "source_url": "https://www.rableforwesttexas.com/",
+          "snippet": "Kyle and his wife, Kristen, moved to West Texas and fell in love with the community they found there.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Texas Tech PhD Candidate, U.S. Army Reserves Captain, former Secretary of the Lubbock County Democratic Party, member of the CWA Local 6186",
+          "source_url": "https://www.rableforwesttexas.com/",
+          "snippet": "Kyle Rable is a Texas Tech PhD Candidate, U.S. Army Reserves Captain, and the former Secretary of the Lubbock County Democratic Party. He is also a proud member of the CWA Local 6186",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "former Secretary of the Lubbock County Democratic Party, member of the CWA Local 6186 where he advocated in Austin against SB17 and SB18 during the 2023 session",
+          "source_url": "https://www.rableforwesttexas.com/",
+          "snippet": "Kyle Rable is a Texas Tech PhD Candidate, U.S. Army Reserves Captain, and the former Secretary of the Lubbock County Democratic Party. He is also a proud member of the CWA Local 6186, where he advocated in Austin against SB17 and SB18 during the 2023 session.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Master's, Bowling Green State University; Bachelor's, University of Toledo",
+          "source_url": "https://www.ballotready.org/people/kyle-rable",
+          "snippet": "Degrees Master&#x27;s, Bowling Green State University Bachelor&#x27;s, University of Toledo",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy - Cost of Living",
+          "value": "Enact fair pricing legislation to bring down the cost of living",
+          "snippet": "The cost of living continues to skyrocket while corporations rake in record profits. As your congressman, I will enact fair pricing legislation to bring down the cost of living."
+        },
+        {
+          "topic": "Housing",
+          "value": "Enact legislation limiting large corporations' ability to purchase homes and support opportunities for family tax credits for first-time home purchasers",
+          "snippet": "When I am elected, I will enact legislation limiting large corporations' ability to purchase homes and support opportunities for family tax credits for first-time home purchasers."
+        },
+        {
+          "topic": "Childcare",
+          "value": "Introduce legislation to provide better training to childcare professionals, more robust facilities, and increase the number of workers in this critical industry",
+          "snippet": "As your congressman, I will introduce legislation to provide better training to childcare professionals, more robust facilities, and increase the number of workers in this critical industry."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Streamline the immigration process to enable immigrants to enter the United States legally and expand legal pathways to become American citizens",
+          "snippet": "The legal immigration process in the U.S. is far too complex, and this complexity encourages illegal immigration. We must streamline the immigration process to enable immigrants to enter the United States legally."
+        },
+        {
+          "topic": "Family Farms",
+          "value": "Introduce legislation to freeze interest rates on loans for small, family-owned farms",
+          "snippet": "When I am elected, I will introduce legislation to freeze interest rates on loans for small, family-owned farms."
+        },
+        {
+          "topic": "Data Privacy",
+          "value": "Introduce legislation that limits corporations' ability to sell off personal information",
+          "snippet": "Companies are profiting off selling your private data; this is blatantly wrong. After I am elected, I will introduce legislation that limits corporations' ability to sell off personal information."
+        },
+        {
+          "topic": "Healthcare - Insurance",
+          "value": "Introduce legislation that limits companies' abilities to override medical recommendations and deny coverage",
+          "snippet": "As your Congressman, I will introduce legislation that limits companies' abilities to override medical recommendations and deny coverage."
+        },
+        {
+          "topic": "Healthcare - Drug Pricing",
+          "value": "Introduce legislation to put price caps on medicine that saves lives, like insulin",
+          "snippet": "After I am elected, I will introduce legislation to put price caps on medicine that saves lives, like insulin."
+        }
+      ],
+      "platform_source_url": "https://www.rableforwesttexas.com/",
+      "_platform_resolved_at": "2026-08-14T18:39:47.429Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Kyle Rable is a Texas Tech PhD Candidate, U.S. Army Reserves Captain, and the former Secretary of the Lubbock County Democratic Party. He is also a proud member of the CWA Local 6186, where he advocated in Austin against SB17 and SB18 during the 2023 session. Kyle and his wife, Kristen, moved to West Texas and fell in love with the community they found there. Kyle and Kristen are now happily raising their newborn son and two rescue dogs in Lubbock. Kyle is committed to the worker and family farmer - the individuals forgotten in West Texas by both parties. He is running for Congress in 2026 to fight for all citizens of West Texas.",
+        "source_url": "https://www.rableforwesttexas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:37.131Z"
+    },
+    {
+      "slug": "tom-sell",
+      "full_name": "SELL, TOM",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX19206",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2143025.47,
+        "totalSpent": 1758258.98,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 8966.36,
+          "largeDollar": 1607520.02,
+          "pac": 524039.09,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Texas Tech University, where he earned both a Bachelor of Science in Agribusiness and a law degree",
+          "source_url": "https://www.selltexastrue.com/about",
+          "snippet": "A proud graduate of Texas Tech University, Tom earned both a Bachelor of Science in Agribusiness and a law degree",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "Married to Kyla, his college sweetheart",
+          "source_url": "https://www.selltexastrue.com/about",
+          "snippet": "Tom and his wife Kyla—his college sweetheart",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Estacado Cattle Co., Owner (2017 - Present); Combest, Sell & Associates, Co-Founder/Partner (2005 - Present)",
+          "source_url": "https://www.ballotready.org/people/tom-sell",
+          "snippet": "Professional Experience Estacado Cattle Co., Owner (2017 - Present) Combest, Sell & Associates, Co-Founder/Partner (2005 - Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=gRODv3aGK_I",
+      "platform_video_title": "One",
+      "platform_video_source_url": "https://www.selltexastrue.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:43.165Z",
+      "bio_summary": {
+        "value": "West Texas is home — it’s where my roots run deep and where my family has been blessed beyond measure. I’m running for Congress because I want to give back to the people who have given me so much, and to fight for the values that define us.",
+        "source_url": "https://www.selltexastrue.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:30.085Z"
+    }
+  ]
+}
