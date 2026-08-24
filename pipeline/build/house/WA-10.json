@@ -32,7 +32,7 @@
     "snippet": "Incumbent Marilyn Strickland and Chris Chung are running in the general election for U.S. House Washington District 10 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,7 +55,7 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -207,7 +207,7 @@
         ],
         "bills_sponsored": 57,
         "bills_cosponsored": 1286,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Fairness for Servicemembers and their Families Act of 2025",

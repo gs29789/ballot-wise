@@ -24,7 +24,7 @@
     "snippet": "Incumbent Matt Van Epps, Darden Copeland, Andrew Koontz, and Lowell Reynolds are running in the general election for U.S. House Tennessee District 7 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,12 +47,12 @@
         "ratePer100k": 34.24
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4167854631.75,
-        "perCapitaUsd": 5449.14
+        "totalUsd": 4167895306.75,
+        "perCapitaUsd": 5449.19
       },
       {
         "year": "2024",
@@ -61,8 +61,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 4697082092.97,
-        "perCapitaUsd": 6141.06
+        "totalUsd": 4697404787.79,
+        "perCapitaUsd": 6141.48
       }
     ],
     "population": null,
@@ -386,7 +386,33 @@
           "votesCast": 198,
           "attendanceRate": 1
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Transportation and Maritime Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Counterterrorism and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 6,
         "bills_cosponsored": 76,
         "bills_became_law": 0,

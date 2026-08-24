@@ -32,7 +32,7 @@
     "snippet": "Incumbent Rick Larsen and Edwin Feller are running in the general election for U.S. House Washington District 2 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,7 +55,7 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -237,7 +237,7 @@
         ],
         "bills_sponsored": 180,
         "bills_cosponsored": 3665,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To amend the Water Resources Development Act of 2000 to extend and modify the program allowing the Secretary of the Army to accept and expend funds contributed by non-Federal public entities to expedite the evaluation of permits, and for other purposes.",

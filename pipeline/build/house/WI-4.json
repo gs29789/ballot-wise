@@ -478,13 +478,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 7145191640.47,
-        "perCapitaUsd": 9681.49
+        "totalUsd": 7150304585.47,
+        "perCapitaUsd": 9688.42
       },
       {
         "year": "2025",
-        "totalUsd": 7401151885.63,
-        "perCapitaUsd": 10028.31
+        "totalUsd": 7401162439.89,
+        "perCapitaUsd": 10028.32
       }
     ],
     "population": [
@@ -590,10 +590,36 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "Joint Economic Committee",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Social Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Tax",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Work and Welfare",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 290,
         "bills_cosponsored": 6223,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 2650 North Doctor Martin Luther King Jr. Drive in Milwaukee, Wisconsin, shall be known and designated as the \"Vel R. Phillips Post Office Building\".",

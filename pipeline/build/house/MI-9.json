@@ -478,13 +478,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 318073847.04,
-        "perCapitaUsd": 415.86
+        "totalUsd": 318348438.04,
+        "perCapitaUsd": 416.22
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 420908450.53,
+        "perCapitaUsd": 550.31
       }
     ],
     "population": [
@@ -678,10 +678,41 @@
           "votesCast": 280,
           "attendanceRate": 0.9929078014184397
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 70,
         "bills_cosponsored": 488,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Patient Advocate Tracker Act",

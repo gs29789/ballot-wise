@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4569082960.97,
-        "perCapitaUsd": 6459.68
+        "totalUsd": 4574415192.03,
+        "perCapitaUsd": 6467.22
       },
       {
         "year": "2024",
-        "totalUsd": 4948977766.82,
-        "perCapitaUsd": 6996.77
+        "totalUsd": 4952614277.82,
+        "perCapitaUsd": 7001.91
       },
       {
         "year": "2025",
-        "totalUsd": 5729406800.63,
-        "perCapitaUsd": 8100.13
+        "totalUsd": 5737187672.63,
+        "perCapitaUsd": 8111.13
       }
     ],
     "population": [
@@ -582,10 +582,56 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Federal Lands",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business — Rural Development, Energy, and Supply Chains",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 99,
         "bills_cosponsored": 1283,
-        "bills_became_law": 4,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Miracle on Ice Congressional Gold Medal Act",

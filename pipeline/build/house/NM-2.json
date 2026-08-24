@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 11350325077.82,
-        "perCapitaUsd": 16130.48
+        "totalUsd": 11351047196.82,
+        "perCapitaUsd": 16131.51
       },
       {
         "year": "2024",
-        "totalUsd": 12058673714.5,
-        "perCapitaUsd": 17137.15
+        "totalUsd": 12060199886.81,
+        "perCapitaUsd": 17139.32
       },
       {
         "year": "2025",
-        "totalUsd": 12513328077.35,
-        "perCapitaUsd": 17783.28
+        "totalUsd": 12513599942.09,
+        "perCapitaUsd": 17783.66
       }
     ],
     "population": [
@@ -665,7 +665,38 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Forestry and Horticulture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Conservation, Research, and Biotechnology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Readiness",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 64,
         "bills_cosponsored": 598,
         "bills_became_law": 0,
