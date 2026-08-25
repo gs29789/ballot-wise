@@ -35,6 +35,11 @@
     "unemployment_rate": [
       {
         "year": "2026",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
         "month": "June",
         "value": 4.4
       },
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 339.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 341.4
+        "thousandsOfJobs": 340.2
       },
       {
         "year": "2026",
@@ -491,8 +501,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 17337773316.35,
-        "perCapitaUsd": 23663.73
+        "totalUsd": 17338021472.07,
+        "perCapitaUsd": 23664.06
       }
     ],
     "population": [
