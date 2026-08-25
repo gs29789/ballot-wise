@@ -1,6 +1,12 @@
 [
   {
-    "race": "house/WV-2.json",
+    "race": "house/WI-6.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/WI-3.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -12,7 +18,13 @@
     "priority": "info"
   },
   {
-    "race": "house/WI-4.json",
+    "race": "house/WV-2.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/WI-8.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -30,19 +42,7 @@
     "priority": "info"
   },
   {
-    "race": "house/WI-3.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/WI-2.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/WI-8.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -54,14 +54,14 @@
     "priority": "info"
   },
   {
-    "race": "house/WI-6.json",
+    "race": "house/WI-4.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/WI-4.json",
-    "candidate": "MOORE, GWEN S",
+    "race": "house/WI-2.json",
+    "candidate": "POCAN, MARK",
     "field": "committees",
     "detail": "Committee assignments changed",
     "priority": "info"
@@ -74,8 +74,8 @@
     "priority": "info"
   },
   {
-    "race": "house/WI-2.json",
-    "candidate": "POCAN, MARK",
+    "race": "house/WI-4.json",
+    "candidate": "MOORE, GWEN S",
     "field": "committees",
     "detail": "Committee assignments changed",
     "priority": "info"
@@ -87,25 +87,7 @@
     "priority": "info"
   },
   {
-    "race": "house/NC-4.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/NC-6.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/NC-10.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/NC-5.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -123,25 +105,31 @@
     "priority": "info"
   },
   {
-    "race": "house/NC-3.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/NC-8.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/NC-7.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/NC-11.json",
+    "race": "house/NC-3.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-6.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-4.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-8.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -154,12 +142,6 @@
     "priority": "info"
   },
   {
-    "race": "house/NC-13.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/NC-7.json",
     "candidate": "ROUZER, DAVID",
     "field": "committees",
@@ -167,13 +149,31 @@
     "priority": "info"
   },
   {
-    "race": "house/NC-14.json",
+    "race": "house/NC-11.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
     "race": "house/NC-12.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-5.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-13.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/NC-14.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -191,7 +191,7 @@
     "priority": "info"
   },
   {
-    "race": "house/MO-4.json",
+    "race": "house/MO-1.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -203,13 +203,19 @@
     "priority": "info"
   },
   {
-    "race": "house/MO-1.json",
+    "race": "house/MO-3.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/MO-3.json",
+    "race": "house/MO-5.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/MO-4.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -227,7 +233,7 @@
     "priority": "info"
   },
   {
-    "race": "house/MO-5.json",
+    "race": "house/OH-1.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -239,37 +245,7 @@
     "priority": "info"
   },
   {
-    "race": "house/OH-3.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-4.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-10.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-9.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-5.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-1.json",
+    "race": "house/OH-8.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -281,13 +257,37 @@
     "priority": "info"
   },
   {
-    "race": "house/OH-7.json",
+    "race": "house/OH-9.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/OH-8.json",
+    "race": "house/OH-4.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/OH-3.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/OH-10.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/OH-5.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/OH-7.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -311,6 +311,18 @@
     "priority": "info"
   },
   {
+    "race": "house/OH-15.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "senate/OH.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
     "race": "house/OH-14.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
@@ -324,13 +336,7 @@
     "priority": "info"
   },
   {
-    "race": "senate/OH.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/OH-15.json",
+    "race": "house/FL-4.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -342,55 +348,13 @@
     "priority": "info"
   },
   {
-    "race": "house/FL-5.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/FL-3.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/FL-1.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-4.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-7.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-8.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-9.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-10.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-12.json",
+    "race": "house/FL-5.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -402,13 +366,37 @@
     "priority": "info"
   },
   {
-    "race": "house/FL-17.json",
+    "race": "house/FL-1.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
-    "race": "house/FL-16.json",
+    "race": "house/FL-7.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-10.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-9.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-8.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-14.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -420,7 +408,25 @@
     "priority": "info"
   },
   {
-    "race": "house/FL-14.json",
+    "race": "house/FL-12.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-20.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-16.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-17.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -438,48 +444,6 @@
     "priority": "info"
   },
   {
-    "race": "house/FL-19.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-20.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-23.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-22.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-24.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-27.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
-    "race": "house/FL-26.json",
-    "field": "hard_metrics.federal_spending",
-    "detail": "New data point published",
-    "priority": "info"
-  },
-  {
     "race": "house/FL-28.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
@@ -492,7 +456,13 @@
     "priority": "info"
   },
   {
-    "race": "house/FL-25.json",
+    "race": "house/FL-19.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/AL-1.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
@@ -510,13 +480,43 @@
     "priority": "info"
   },
   {
-    "race": "house/AL-1.json",
+    "race": "house/FL-22.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
   },
   {
     "race": "house/AL-4.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-24.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-23.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-25.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-26.json",
+    "field": "hard_metrics.federal_spending",
+    "detail": "New data point published",
+    "priority": "info"
+  },
+  {
+    "race": "house/FL-27.json",
     "field": "hard_metrics.federal_spending",
     "detail": "New data point published",
     "priority": "info"
