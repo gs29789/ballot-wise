@@ -24,9 +24,12 @@ Runs three scripts in order, all zero-cost:
 **Environment:** `ballot-wise-paid` — holds `ANTHROPIC_API_KEY` (currently the same key as local pipeline development, not a separate spend-capped one).
 **Branch:** `data-paid-review`
 
-Runs one script:
+Runs two scripts, in order:
 
-- **`scaleNoSiteBacklog.ts`** — for candidates with no known campaign site, searches for one; if found, extracts bio summary and platform positions from it in the same pass. This is the only paid-tier backlog script that exists today — it covers 3 of the 4 Anthropic-dependent extraction paths in this pipeline (site discovery, bio, platform). **Financial-disclosure re-extraction has no standalone backlog script** — it only runs as part of a full race rebuild (`buildRace()` in `build.ts`). The routine's own email states this every run so it's never mistaken for "already covered."
+- **`scaleNoSiteBacklog.ts`** — for candidates with no known campaign site, searches for one; if found, extracts bio summary and platform positions from it in the same pass.
+- **`scaleWikipediaBioSummary.ts`** — for candidates who still have no campaign site (and so no Background Summary) after the above, falls back to a verbatim excerpt from their Wikipedia article, if one exists. Checks Wikidata (free) for a known QID first — a candidate who's already had a Wikidata match confirmed at some point gets a direct, reliable entity fetch instead of a fresh name search, since the search step specifically is the flaky part (confirmed on Rep. James Clyburn, silently missed by 3 runs relying on search alone despite having an unambiguous, already-confirmed Wikidata entity). Prints its own completeness check every run — any candidate with a known QID who's *still* missing a Background Summary after the run is named explicitly in the output, not left silent.
+
+Together these cover 3 of the 4 Anthropic-dependent extraction paths in this pipeline (site discovery, bio, platform). **Financial-disclosure re-extraction has no standalone backlog script** — it only runs as part of a full race rebuild (`buildRace()` in `build.ts`). The routine's own email states this every run so it's never mistaken for "already covered."
 
 **Output:** same pattern as Process 1 — updated race JSON, commit+push to `data-paid-review` only if something changed, one email + push notification every run, explicitly marked UNAUDITED.
 

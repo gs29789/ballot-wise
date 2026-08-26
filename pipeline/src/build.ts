@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
 import { getMembersByState, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
-import { getBioFacts } from "./sources/wikidata.js";
+import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
 import { buildHouseHistorianUrl } from "./sources/houseHistorian.js";
@@ -11,7 +11,8 @@ import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
 import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
-import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia } from "./sources/campaignBioSummary.js";
+import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia, extractBioSummaryFromBallotpedia } from "./sources/campaignBioSummary.js";
+import { findBallotpediaUrl } from "./sources/ballotpedia.js";
 import { getFinancialDisclosure, type FinancialDisclosureSummary } from "./sources/houseFinancialDisclosure.js";
 import { getIdeologyScore } from "./sources/voteview.js";
 import { getBridgeScore } from "./sources/bridgeGrades.js";
@@ -434,11 +435,23 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // below needs it regardless of whether bio{} needed anything from
         // this lookup. getBioFacts is a free Wikidata query, not a paid
         // call, so re-running it more often here costs nothing.
+        //
+        // A known QID (bio already seeded from prevCand.bio above, so a
+        // prior wikidata_structured field survives here even when nothing
+        // in THIS run's stillMissing() check needed it) skips the name
+        // search entirely — confirmed on Rep. James Clyburn that the search
+        // step specifically is unreliable even for a real, unambiguous
+        // match the direct entity fetch resolves instantly every time.
         let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
         if ((stillMissing() || !bioSummaryAlreadyResolved) && !WIKIDATA_UNRELIABLE_CANDIDATES.has(c.candidateId)) {
-          for (const nameVariant of searchNameVariants(c.name)) {
-            wikidata = await getBioFacts(nameVariant).catch(() => null);
-            if (wikidata) break;
+          const knownQid = extractKnownQid(bio as any);
+          if (knownQid) {
+            wikidata = await getBioFacts(c.name, knownQid).catch(() => null);
+          } else {
+            for (const nameVariant of searchNameVariants(c.name)) {
+              wikidata = await getBioFacts(nameVariant).catch(() => null);
+              if (wikidata) break;
+            }
           }
         }
         if (wikidata?.date_of_birth && !bio.date_of_birth) {
@@ -552,11 +565,24 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // "about me" passage) and from platform[] (their stated positions,
       // not their personal background). "In their own words" framing when
       // it comes from their own site, same posture as platform: presented
-      // as-is, not characterized by Ballot-Wise. Falls back to their
-      // Wikipedia article (third-person, not self-description) only when
-      // no campaign site exists at all — sourceType on the result tells
-      // the frontend which one it is, so the label can say so rather than
-      // implying every entry here is in the candidate's own words.
+      // as-is, not characterized by Ballot-Wise. A three-source waterfall
+      // — campaign site, then Wikipedia, then Ballotpedia — each tried
+      // only when the previous one didn't produce anything, whether
+      // because there's no site/article on file at all, OR because one
+      // exists but had no extractable "about me" passage (a real,
+      // separate population: a site that's pure donate/volunteer with no
+      // bio content). Trying sources in this order preserves "in their
+      // own words" priority when it's genuinely available, then falls
+      // back to increasingly less-direct-but-still-real sources rather
+      // than giving up. sourceType on the result tells the frontend which
+      // one it is, so the label can say so rather than implying every
+      // entry here is in the candidate's own words.
+      const raceDescription =
+        opts.office === "H"
+          ? opts.district === "00"
+            ? `${opts.state} At-Large Congressional District election, 2026`
+            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
+          : `${opts.state} U.S. Senate election, 2026`;
       const prevBioSummary = prevCand?.bio_summary?.value
         ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url, sourceType: prevCand.bio_summary.source_type ?? "campaign_site" }
         : null;
@@ -564,12 +590,20 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         prevBioSummary,
         prevCand?._bio_summary_resolved_at,
         c.candidateId,
-        () =>
-          campaignSiteUrl
-            ? extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
-            : wikipediaUrl
-            ? extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
-            : Promise.resolve(null)
+        async () => {
+          const fromSite = campaignSiteUrl
+            ? await extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+            : null;
+          if (fromSite) return fromSite;
+
+          const fromWikipedia = wikipediaUrl
+            ? await extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
+            : null;
+          if (fromWikipedia) return fromWikipedia;
+
+          const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
+          return ballotpediaUrl ? extractBioSummaryFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
+        }
       );
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];

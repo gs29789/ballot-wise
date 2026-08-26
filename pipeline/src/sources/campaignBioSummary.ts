@@ -21,7 +21,7 @@ import { fetchPageText, discoverBioLinks, COMMON_BIO_PATHS } from "./llmExtract.
 export interface BioSummaryResult {
   summary: string;
   sourceUrl: string;
-  sourceType: "campaign_site" | "wikipedia";
+  sourceType: "campaign_site" | "wikipedia" | "ballotpedia";
 }
 
 let client: Anthropic | null = null;
@@ -148,6 +148,10 @@ const SOURCE_PROMPT_INFO: Record<BioSummaryResult["sourceType"], { description: 
     description: "their Wikipedia article's text",
     extraRule: " The article is written in third person, not by the candidate — select a passage that introduces their background/career, the same as you would from a first-person source.",
   },
+  ballotpedia: {
+    description: "their Ballotpedia.org profile page's text",
+    extraRule: " The page is written by Ballotpedia's editorial staff, not the candidate — the 'Biography' section is usually the best match; a candidate-submitted survey response (if present) also reads fine here since it's still information about the candidate, not Ballot-Wise's own characterization of them.",
+  },
 };
 
 function buildSystemPrompt(sourceType: BioSummaryResult["sourceType"]): string {
@@ -250,4 +254,18 @@ export async function extractBioSummaryFromWikipedia(candidateName: string, wiki
   const page = await fetchPageText(wikipediaUrl).catch(() => null);
   if (!page) return null;
   return extractFromPage(candidateName, page, "wikipedia", expectedContext);
+}
+
+// Same fallback shape as extractBioSummaryFromWikipedia, for a candidate
+// with a confirmed Ballotpedia.org profile — see ballotpedia.ts for how
+// that URL gets discovered (a race-page search + deterministic link
+// parse, deliberately NOT a direct name search, given how collision-prone
+// a plain name search is against a site that covers every level of
+// government). Still runs its own expectedContext identity check
+// regardless of how the URL was found, same discipline as every other
+// source here.
+export async function extractBioSummaryFromBallotpedia(candidateName: string, ballotpediaUrl: string, expectedContext?: string): Promise<BioSummaryResult | null> {
+  const page = await fetchPageText(ballotpediaUrl).catch(() => null);
+  if (!page) return null;
+  return extractFromPage(candidateName, page, "ballotpedia", expectedContext);
 }
