@@ -54,7 +54,44 @@ const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 // Wikipedia are skipped for them entirely -- their own campaign site has
 // already reliably supplied their real bio facts, so nothing is lost by
 // relying on it exclusively going forward.
-export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068", "H6SC06184"]);
+//
+// 2026-08-26: a full sitewide audit (every wikidata_structured field, 454
+// unique candidate/QID pairs) confirmed this isn't a handful of one-off
+// incidents -- 19 total, each checked against two hard, cheap signals: an
+// explicit non-US P27 citizenship claim, or a P569 birth year too early to
+// be a 2026 candidate (some over a century, one from 1810). Two of the 19
+// (H2TX33040 Roger Williams/TX-25, H8PA07200 Mary Gay Scanlon/PA-5) are
+// themselves a recurrence of exactly this lesson: both were found and
+// stripped in an earlier 2026-08-19 audit, but never added to this
+// denylist, so a later rebuild's fresh search simply re-found the same
+// wrong Welsh/British politician a second time. Several land on sitting
+// Members of Congress (French Hill AR-2, Rich McCormick GA-7, Pete Stauber
+// MN-8, Scanlon, Williams) and one (H0IN01150, Frank Mrvan/IN-1, matched
+// Q5488569 "Frank Mrvan Jr.", b.1933) is very likely a namesake relative
+// rather than a stranger -- irrelevant to the fix either way, since
+// whoever that QID actually is, it isn't the person running in 2026.
+export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set([
+  "H6AK01068",
+  "H6SC06184",
+  "H4AR02141",
+  "H6CA43188",
+  "H0GA07273",
+  "H0IN01150",
+  "H6KY01169",
+  "H6MI04204",
+  "H6MN01190",
+  "H6MN05357",
+  "H8MN08043",
+  "H6NC07212",
+  "H6NV01315",
+  "H6PA01181",
+  "H4PA12068",
+  "H8PA07200",
+  "H2TX33040",
+  "H6TX09231",
+  "H6VA11066",
+  "S6ID00138",
+]);
 
 // A weekly rebuild will occasionally have one upstream source fail for
 // reasons that have nothing to do with the data itself (confirmed today:
