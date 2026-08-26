@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown, X, Link2, Printer, Flag } from "lucide-react";
+import { Search, MapPin, Info, CheckCircle2, AlertTriangle, ExternalLink, ArrowLeft, ChevronRight, ChevronDown, ArrowUp, ArrowDown, X, Link2, Printer, Flag, Heart } from "lucide-react";
 
 const T = {
   paper: "#F4F1E9", paperRaised: "#FBFAF6", ink: "#211D18", inkSoft: "#6B6255",
@@ -23,6 +23,13 @@ const D = {
 
 const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 
+// PayPal client ID for the Contribute flow's Smart Payment Buttons. Same
+// "silently degrade, don't break the page" convention as VITE_MAPBOX_TOKEN
+// above: ContributeModal shows a plain "not open yet" message instead of a
+// button when this is unset, rather than rendering something broken.
+const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "";
+const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
+
 // USPS state abbreviation -> full name, for the direct-district-entry
 // fallback (parseDistrictInput below), which never gets a state name back
 // from Census the way geocodeAddress's result does.
@@ -38,6 +45,15 @@ const STATE_NAMES = {
   SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
   VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
 };
+
+// States with exactly one U.S. House seat, elected at-large rather than
+// from a numbered district — current since the 2020 census reapportionment
+// (Montana regained a 2nd district that cycle, so it's deliberately NOT
+// here anymore). Only used to decide which example format
+// (DistrictEntryFallback) actually applies to a given state — showing
+// "SC-AL" as an example for a 7-district state like South Carolina would
+// be flat-out wrong, not just a generic placeholder.
+const AT_LARGE_STATES = new Set(["AK", "DE", "ND", "SD", "VT", "WY"]);
 
 // Bucketed for COLOR only — R/D plus the two other parties common enough
 // nationally to earn a distinct color (Libertarian, Green). Every rarer
@@ -155,12 +171,75 @@ function parseDistrictInput(raw) {
   return { stusab, districtCode };
 }
 
+// For a generic lookup failure (network error, no match, etc.) the geocoder
+// never returned a resolved state, so there's nothing authoritative to show
+// as the direct-entry example — but the voter's own typed address usually
+// still names their state in plain text, even though the lookup failed for
+// some unrelated reason. Tries a trailing 2-letter postal code first (e.g.
+// "...SC 29201"), then a trailing full state name (Mapbox's own suggestion
+// text spells it out, e.g. "...South Carolina 29201, United States").
+// Both patterns are anchored to the END of the address specifically — a
+// state NAME can legitimately appear earlier as a city ("Washington, MI"),
+// so only the trailing token counts. Falls back to null (generic "XX"
+// placeholder) rather than guess when nothing at the end matches a real
+// state either way.
+const STATE_NAME_ALTERNATION = Object.values(STATE_NAMES)
+  .map((n) => n.toUpperCase())
+  .sort((a, b) => b.length - a.length)
+  .join("|");
+const TRAILING_STATE_NAME_RE = new RegExp(`,\\s*(${STATE_NAME_ALTERNATION})\\s*(?:\\d{5}(?:-\\d{4})?)?\\s*(?:,\\s*(?:USA|UNITED STATES))?\\s*$`);
+const STATE_CODE_BY_NAME = Object.fromEntries(Object.entries(STATE_NAMES).map(([code, name]) => [name.toUpperCase(), code]));
+
+function guessStateFromAddress(address) {
+  const upper = address.toUpperCase();
+  const abbrev = upper.match(/,\s*([A-Z]{2})(?:\s+\d{5}(?:-\d{4})?)?\s*(?:,\s*(?:USA|UNITED STATES))?\s*$/);
+  if (abbrev && STATE_NAMES[abbrev[1]]) return abbrev[1];
+  const full = upper.match(TRAILING_STATE_NAME_RE);
+  return full ? STATE_CODE_BY_NAME[full[1]] : null;
+}
+
 async function fetchRace(chamber, stusab, districtCode) {
   const path = chamber === "house" ? `house/${stusab}-${districtCode}.json` : `senate/${stusab}.json`;
   const res = await fetch(`${DATA_BASE}/${path}`);
   if (res.status === 404) return null; // no built race for this district yet — not an error, just not covered
   if (!res.ok) throw new Error(`Couldn't load candidate data (${res.status}).`);
   return res.json();
+}
+
+// Regenerated fresh from pipeline/src/ci/pendingRaces.ts on every publish
+// (see publish.ts) — a flat list, not per-district, so it's fetched once
+// and matched client-side rather than re-fetched per race. Failure here
+// (network hiccup, or a very old cached deploy predating this file) just
+// means no explanatory banner shows, same as if nothing were pending — a
+// missing "why" banner is a cosmetic downgrade, not worth failing the
+// whole page load over.
+async function fetchPendingRaces() {
+  try {
+    const res = await fetch(`${DATA_BASE}/pending.json`);
+    if (!res.ok) return [];
+    return await res.json();
+  } catch {
+    return [];
+  }
+}
+
+// A chamber's data can be missing either because that state genuinely has
+// no race in this chamber this cycle (routine, no explanation needed) or
+// because it's a real race the pipeline is deliberately holding on a
+// pending real-world event (a runoff, an uncertified count, a state not
+// wired in yet) — this is what tells the two apart. `districts` absent on
+// a "house"/"both" entry means "every not-yet-built House district in
+// this state" (a whole-state case like Massachusetts), not literally every
+// district that exists.
+function findPendingMatch(pendingRaces, stusab, districtCode, chamber) {
+  return (
+    pendingRaces.find((p) => {
+      if (p.state !== stusab) return false;
+      if (p.chamber !== chamber && p.chamber !== "both") return false;
+      if (chamber === "house" && p.districts && !p.districts.includes(districtCode)) return false;
+      return true;
+    }) ?? null
+  );
 }
 
 // This app has no router — home/results/profile are plain React state, and
@@ -186,6 +265,17 @@ function parseAppUrl(search) {
   const districtCode = params.get("district");
   if (!stusab || !districtCode) return null;
   return { stusab, districtCode, chamber: params.get("chamber") || undefined, profile: params.get("profile") || null };
+}
+
+// bio_summary can come from the candidate's own campaign site (their own
+// words) or, when no site exists, their Wikipedia article (a third-party
+// description) — different enough in kind that leaving both unlabeled
+// would let a reader assume every entry is self-description. Only two
+// source_type values exist today (see build.ts); anything else (or a
+// missing field, from data published before this distinction existed)
+// reads as the original, more common case rather than as an error.
+function bioSummarySourceLabel(bioSummary) {
+  return bioSummary?.source_type === "wikipedia" ? "from Wikipedia" : "from the candidate's own site";
 }
 
 function truncateText(text, maxLen) {
@@ -302,6 +392,32 @@ function PrimaryResultsNote({ primaryResults }) {
 // actively mislead a voter about how their ballot works — shown once,
 // race-wide, same reasoning as StateBackgroundCheckBanner above. Absent
 // (null) for every standard race, which today is all of them.
+// Same "informational, not alarming" warn-colored treatment as
+// VotingSystemNote below — a pending runoff or uncertified count is an
+// expected part of how elections work, not a problem with the site.
+function PendingRaceBanner({ pending }) {
+  if (!pending) return null;
+  return (
+    <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", marginTop: 10 }}>
+      <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
+      <div style={{ fontSize: 12.5, color: T.ink }}>
+        <strong>{pending.description}</strong>
+        <div style={{ color: T.inkSoft, marginTop: 3 }}>
+          {pending.snippet}{" "}
+          <a href={pending.source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
+            source <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+          </a>
+        </div>
+        {pending.watchDate && (
+          <div style={{ color: T.inkSoft, fontSize: 11.5, marginTop: 3, fontStyle: "italic" }}>
+            Expected to update around {fmtElectionDate(pending.watchDate)}.
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function VotingSystemNote({ votingSystem }) {
   if (!votingSystem) return null;
   return (
@@ -769,7 +885,29 @@ function byIncumbentThenBudget(a, b) {
   return (b.financials?.totalRaised ?? 0) - (a.financials?.totalRaised ?? 0);
 }
 
-function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo, onOpenProfile }) {
+// A chamber tab stays clickable whenever there's either real data or a
+// pending explanation to show for it — only truly dead ends (no race,
+// no pending entry — this state just has nothing in that chamber this
+// cycle) get greyed out. Shared between ComparisonView's normal render
+// and its empty-race state so clicking into an explained-but-empty
+// chamber (e.g. a Senate seat mid-runoff) never strands the voter
+// without a way back to the chamber that does have data.
+function ChamberToggle({ chamber, setChamber, houseRace, senateRace, housePending, senatePending }) {
+  return (
+    <div style={{ display: "flex", gap: 10, flexWrap: "wrap", marginBottom: 14 }}>
+      <button onClick={() => setChamber("house")} disabled={!houseRace && !housePending} style={{ padding: "10px 18px", borderRadius: 6, border: `1px solid ${chamber === "house" ? T.ink : T.line}`, background: chamber === "house" ? T.ink : T.paperRaised, color: chamber === "house" ? T.paper : T.ink, cursor: houseRace || housePending ? "pointer" : "not-allowed", opacity: houseRace || housePending ? 1 : 0.5 }}>
+        U.S. House
+      </button>
+      <button onClick={() => setChamber("senate")} disabled={!senateRace && !senatePending} style={{ padding: "10px 18px", borderRadius: 6, border: `1px solid ${chamber === "senate" ? T.ink : T.line}`, background: chamber === "senate" ? T.ink : T.paperRaised, color: chamber === "senate" ? T.paper : T.ink, cursor: senateRace || senatePending ? "pointer" : "not-allowed", opacity: senateRace || senatePending ? 1 : 0.5 }}>
+        U.S. Senate
+      </button>
+    </div>
+  );
+}
+
+function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo, onOpenProfile, pendingRaces }) {
+  const housePending = !houseRace ? findPendingMatch(pendingRaces, geo.stusab, geo.districtCode, "house") : null;
+  const senatePending = !senateRace ? findPendingMatch(pendingRaces, geo.stusab, geo.districtCode, "senate") : null;
   const allCandidates = race?.candidates ?? [];
   // fec_status "N" (declared, under FEC's $5,000 established-filer
   // threshold) is normally a solid proxy for "early-stage, not yet a real
@@ -787,10 +925,17 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
   const earlyStage = primaryNarrowed ? [] : allCandidates.filter((c) => c.fec_status === "N").sort(byIncumbentThenBudget);
 
   if (!race) {
+    const pending = chamber === "house" ? housePending : senatePending;
     return (
-      <div style={{ fontSize: 13.5, color: T.inkSoft, display: "flex", alignItems: "center", gap: 8 }}>
-        <Info size={15} /> No data built yet for this race.
-      </div>
+      <>
+        {(houseRace || senateRace || housePending || senatePending) && (
+          <ChamberToggle chamber={chamber} setChamber={setChamber} houseRace={houseRace} senateRace={senateRace} housePending={housePending} senatePending={senatePending} />
+        )}
+        <div style={{ fontSize: 13.5, color: T.inkSoft, display: "flex", alignItems: "center", gap: 8 }}>
+          <Info size={15} /> No data built yet for this race.
+        </div>
+        <PendingRaceBanner pending={pending} />
+      </>
     );
   }
 
@@ -830,17 +975,9 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       <PrimaryResultsNote primaryResults={race?.primary_results} />
       <VoterInfoSection stateCode={race?.state} />
 
-      <div style={{ display: "flex", alignItems: "flex-end", justifyContent: "space-between", flexWrap: "wrap", gap: 10, marginBottom: 14 }}>
-        <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-          <button onClick={() => setChamber("house")} disabled={!houseRace} style={{ padding: "10px 18px", borderRadius: 6, border: `1px solid ${chamber === "house" ? T.ink : T.line}`, background: chamber === "house" ? T.ink : T.paperRaised, color: chamber === "house" ? T.paper : T.ink, cursor: houseRace ? "pointer" : "not-allowed", opacity: houseRace ? 1 : 0.5 }}>
-            U.S. House
-          </button>
-          <button onClick={() => setChamber("senate")} disabled={!senateRace} style={{ padding: "10px 18px", borderRadius: 6, border: `1px solid ${chamber === "senate" ? T.ink : T.line}`, background: chamber === "senate" ? T.ink : T.paperRaised, color: chamber === "senate" ? T.paper : T.ink, cursor: senateRace ? "pointer" : "not-allowed", opacity: senateRace ? 1 : 0.5 }}>
-            U.S. Senate
-          </button>
-        </div>
-        <Legend candidates={[...candidates, ...earlyStage]} />
-      </div>
+      <ChamberToggle chamber={chamber} setChamber={setChamber} houseRace={houseRace} senateRace={senateRace} housePending={housePending} senatePending={senatePending} />
+
+      <Legend candidates={[...candidates, ...earlyStage]} />
 
       {/* CANDIDATE TABS through CAMPAIGN PLATFORM share one scroll container so
           a crowded race (10+ candidates) scrolls horizontally as a single
@@ -954,7 +1091,18 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       {/* PERSONAL DATA */}
       <div style={{ background: T.paperRaised, border: `1px solid ${T.line}`, borderRadius: 6, padding: "10px 14px 4px", marginBottom: 18 }}>
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "0 4px 4px" }}>Personal Data</div>
-        <DetailRow label="Background Summary" candidates={candidates} render={(c) => c.bio_summary ? <SourcedField field={c.bio_summary} maxLen={320} /> : null} />
+        <DetailRow
+          label="Background Summary"
+          candidates={candidates}
+          render={(c) =>
+            c.bio_summary ? (
+              <>
+                <SourcedField field={c.bio_summary} maxLen={320} />
+                <div style={{ fontSize: 10.5, color: T.inkSoft, fontStyle: "italic", marginTop: 3 }}>{bioSummarySourceLabel(c.bio_summary)}</div>
+              </>
+            ) : null
+          }
+        />
         <DetailRow label="Born in" candidates={candidates} render={(c) => c.bio?.birthplace ? <SourcedField field={c.bio.birthplace} /> : null} />
         <DetailRow label="Marital status" candidates={candidates} render={(c) => c.bio?.marital_status ? <SourcedField field={c.bio.marital_status} /> : null} />
         <DetailRow label="College" candidates={candidates} render={(c) => c.bio?.college ? <SourcedField field={c.bio.college} /> : null} />
@@ -1153,7 +1301,10 @@ function CandidateProfileView({ candidate, race, onBack }) {
         <div style={{ fontFamily: "'Fraunces', serif", fontSize: 15, fontWeight: 600, color: T.ink, padding: "6px 4px" }}>Personal Data</div>
         <div style={{ padding: "9px 0", borderTop: `1px dashed ${T.line}` }}>
           <div style={{ display: "grid", gridTemplateColumns: "220px 1fr" }}>
-            <div style={{ fontSize: 12.5, color: T.inkSoft }}>Background Summary</div>
+            <div style={{ fontSize: 12.5, color: T.inkSoft }}>
+              Background Summary
+              {candidate.bio_summary && <div style={{ fontSize: 10.5, fontStyle: "italic", marginTop: 2 }}>{bioSummarySourceLabel(candidate.bio_summary)}</div>}
+            </div>
             <div style={{ fontSize: 13, color: T.ink }}><SourcedField field={candidate.bio_summary} /></div>
           </div>
         </div>
@@ -1351,6 +1502,22 @@ function Wordmark({ dark }) {
   );
 }
 
+// Deliberately styled a step above the plain-underline "About the data"
+// link (solid pill, not text) so it reads as visible without competing
+// with the primary "Find your candidates" search action — present in both
+// the dark landing hero and the light header on every subsequent page.
+function ContributeButton({ dark, onClick }) {
+  const bg = dark ? D.accent : T.gold;
+  return (
+    <button
+      onClick={onClick}
+      style={{ display: "flex", alignItems: "center", gap: 5, background: bg, color: dark ? D.bg : T.paper, border: "none", borderRadius: 20, padding: "6px 14px", fontSize: 12.5, fontWeight: 600, cursor: "pointer" }}
+    >
+      <Heart size={12} fill="currentColor" /> Contribute
+    </button>
+  );
+}
+
 const HOW_IT_WORKS = [
   { n: "01", title: "We collect public data", body: "Voting records, campaign finance disclosures, committee assignments, public statements, and legislative history — all from official public sources." },
   { n: "02", title: "We present it clearly", body: "No spin, no editorial slant. We organize the facts into a consistent format so you can compare any two candidates side by side." },
@@ -1514,13 +1681,14 @@ function AddressAutocomplete({ value, onChange, onSearch, placeholder, colors })
   );
 }
 
-function LandingHero({ address, setAddress, handleSearch, status, onShowAbout }) {
+function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, onShowContribute }) {
   return (
     <div style={{ background: D.bg, color: D.ink }}>
       <div style={{ borderBottom: `1px solid ${D.line}`, padding: "16px 20px" }}>
         <div style={{ maxWidth: 900, margin: "0 auto", display: "flex", alignItems: "center", justifyContent: "space-between", gap: 12, flexWrap: "wrap" }}>
           <Wordmark dark />
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+            <ContributeButton dark onClick={onShowContribute} />
             <button onClick={onShowAbout} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
               About the data
             </button>
@@ -1615,11 +1783,21 @@ function DistrictEntryFallback({ onSubmit, exampleState }) {
   const [value, setValue] = useState("");
   const [parseError, setParseError] = useState("");
   // Example uses the voter's OWN state when we know it (the redistricting-
-  // uncertain case), so it reads as "fill in your number" rather than a
-  // fixed state that looks like a literal instruction. Falls back to a
-  // generic pair of examples for any other error, where no state is known.
-  const ex = exampleState || "NC";
-  const example = `${ex}-04 or ${ex}-AL`;
+  // uncertain case, or parsed from their own typed address), so it reads
+  // as "fill in your number" rather than a fixed state that looks like a
+  // literal instruction. Falls back to "XX" (not a real state) when no
+  // state is known at all, where both formats are shown generically since
+  // we can't tell which applies. When the real state IS known, show only
+  // the format that's actually true for it — a multi-district state like
+  // South Carolina never has an "-AL" seat, so showing "SC-AL" as an
+  // example would be wrong, not just a generic placeholder.
+  const ex = exampleState || "XX";
+  const example = !exampleState ? `${ex}-04 or ${ex}-AL` : AT_LARGE_STATES.has(exampleState) ? `${ex}-AL` : `${ex}-04`;
+  const hint = !exampleState
+    ? `e.g. ${example} for an at-large state`
+    : AT_LARGE_STATES.has(exampleState)
+    ? `e.g. ${example} — ${STATE_NAMES[exampleState]} elects one at-large representative`
+    : `e.g. ${example}`;
 
   const submit = () => {
     const parsed = parseDistrictInput(value);
@@ -1634,7 +1812,7 @@ function DistrictEntryFallback({ onSubmit, exampleState }) {
   return (
     <div style={{ marginTop: 10, paddingTop: 10, borderTop: `1px solid ${T.warn}` }}>
       <div style={{ fontSize: 12.5, color: T.inkSoft, marginBottom: 6 }}>
-        Know your district already? Enter it as your state's postal abbreviation plus the district number (e.g. {example} for an at-large state) to see your candidates:
+        Know your district already? Enter it as your state's postal abbreviation plus the district number ({hint}) to see your candidates:
       </div>
       <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
         <input
@@ -1790,6 +1968,167 @@ function AboutModal({ onClose }) {
   );
 }
 
+// PayPal's own Smart Payment Buttons handle the actual payment UI (login,
+// card entry, approval) on PayPal's side — this never touches card data
+// directly. createOrder/capture both run client-side (PayPal's documented
+// no-backend integration path); nothing here proxies through our own
+// server. Loads the SDK script itself, once, only when a client ID is
+// configured — see the PAYPAL_CLIENT_ID comment above for why an unset key
+// degrades to a plain message instead of a broken button.
+function ContributeModal({ onClose }) {
+  const [amount, setAmount] = useState(25);
+  const [customAmount, setCustomAmount] = useState("");
+  const [sdkState, setSdkState] = useState(PAYPAL_CLIENT_ID ? "loading" : "unconfigured"); // loading | ready | error | unconfigured
+  const [paymentStatus, setPaymentStatus] = useState("idle"); // idle | success | error
+  const buttonsRef = useRef(null);
+  const buttonsInstance = useRef(null);
+
+  const effectiveAmount = customAmount !== "" ? Number(customAmount) : amount;
+  const validAmount = Number.isFinite(effectiveAmount) && effectiveAmount >= 1;
+
+  useEffect(() => {
+    const onKey = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  useEffect(() => {
+    if (!PAYPAL_CLIENT_ID) return;
+    if (window.paypal) {
+      setSdkState("ready");
+      return;
+    }
+    const script = document.createElement("script");
+    script.src = `https://www.paypal.com/sdk/js?client-id=${encodeURIComponent(PAYPAL_CLIENT_ID)}&currency=USD&intent=capture`;
+    script.onload = () => setSdkState("ready");
+    script.onerror = () => setSdkState("error");
+    document.body.appendChild(script);
+    // Deliberately not removed on unmount: PayPal's SDK isn't meant to be
+    // torn down and refetched every time this modal closes, and the
+    // window.paypal check above makes reopening reuse the already-loaded
+    // script instead of adding a second <script> tag.
+  }, []);
+
+  // Re-renders PayPal's buttons whenever the SDK becomes ready or the
+  // chosen amount changes, so createOrder's closure always captures the
+  // current amount rather than whatever it was when first rendered.
+  useEffect(() => {
+    if (sdkState !== "ready" || !validAmount || !buttonsRef.current) return;
+    buttonsRef.current.innerHTML = "";
+    const buttons = window.paypal.Buttons({
+      style: { layout: "horizontal", color: "gold", shape: "pill", label: "donate", height: 45 },
+      createOrder: (_data, actions) =>
+        actions.order.create({
+          intent: "CAPTURE",
+          purchase_units: [{ description: "Contribution to Ballot-Wise", amount: { value: effectiveAmount.toFixed(2), currency_code: "USD" } }],
+        }),
+      onApprove: async (_data, actions) => {
+        await actions.order.capture();
+        setPaymentStatus("success");
+      },
+      onError: () => setPaymentStatus("error"),
+    });
+    buttonsInstance.current = buttons;
+    buttons.render(buttonsRef.current);
+    return () => {
+      try {
+        buttons.close();
+      } catch {
+        // Already torn down (e.g. modal closed mid-render) — nothing to do.
+      }
+    };
+  }, [sdkState, effectiveAmount, validAmount]);
+
+  return (
+    <div
+      onClick={onClose}
+      style={{ position: "fixed", inset: 0, background: "rgba(23,20,15,0.55)", zIndex: 50, display: "flex", alignItems: "flex-start", justifyContent: "center", padding: "40px 16px", overflowY: "auto" }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ background: T.paper, borderRadius: 10, maxWidth: 440, width: "100%", padding: "28px 28px 24px", position: "relative" }}
+      >
+        <button
+          onClick={onClose}
+          aria-label="Close"
+          style={{ position: "absolute", top: 18, right: 18, background: "transparent", border: "none", cursor: "pointer", color: T.inkSoft }}
+        >
+          <X size={20} />
+        </button>
+
+        {paymentStatus === "success" ? (
+          <>
+            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Thank you</div>
+            <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6 }}>
+              Your contribution helps keep Ballot-Wise free, ad-free, and funded by citizens instead of campaigns. A receipt was sent to your PayPal email.
+            </p>
+          </>
+        ) : (
+          <>
+            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Support Ballot-Wise</div>
+            <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
+              Ballot-Wise is funded by citizens, not campaigns — we don't knowingly accept money from candidates, parties, PACs, or lobbying organizations. Contributions cover hosting and data costs. This isn't a registered nonprofit, so contributions aren't tax-deductible.
+            </p>
+
+            <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 10 }}>
+              {PRESET_CONTRIBUTION_AMOUNTS.map((preset) => (
+                <button
+                  key={preset}
+                  onClick={() => {
+                    setAmount(preset);
+                    setCustomAmount("");
+                  }}
+                  style={{
+                    background: customAmount === "" && amount === preset ? T.gold : "transparent",
+                    color: customAmount === "" && amount === preset ? T.paper : T.ink,
+                    border: `1px solid ${T.gold}`,
+                    borderRadius: 8,
+                    padding: "8px 16px",
+                    fontSize: 14,
+                    fontWeight: 600,
+                    cursor: "pointer",
+                  }}
+                >
+                  ${preset}
+                </button>
+              ))}
+            </div>
+
+            <div style={{ display: "flex", alignItems: "center", gap: 6, marginBottom: 20 }}>
+              <span style={{ fontSize: 14, color: T.inkSoft }}>$</span>
+              <input
+                type="number"
+                min="1"
+                step="1"
+                placeholder="Other amount"
+                value={customAmount}
+                onChange={(e) => setCustomAmount(e.target.value)}
+                style={{ flex: 1, border: `1px solid ${T.line}`, borderRadius: 8, padding: "8px 10px", fontSize: 14, background: T.paperRaised, color: T.ink }}
+              />
+            </div>
+
+            {!validAmount ? (
+              <div style={{ fontSize: 12.5, color: T.inkSoft, fontStyle: "italic" }}>Enter an amount of at least $1.</div>
+            ) : sdkState === "unconfigured" ? (
+              <div style={{ fontSize: 12.5, color: T.inkSoft, fontStyle: "italic" }}>Contributions aren't open yet — check back soon.</div>
+            ) : sdkState === "error" ? (
+              <div style={{ fontSize: 12.5, color: T.rep }}>Couldn't load PayPal. Check your connection and try reopening this.</div>
+            ) : sdkState === "loading" ? (
+              <div style={{ fontSize: 12.5, color: T.inkSoft, fontStyle: "italic" }}>Loading payment options…</div>
+            ) : null}
+
+            {paymentStatus === "error" && (
+              <div style={{ fontSize: 12.5, color: T.rep, marginTop: 8 }}>Something went wrong completing that payment — no charge was made. Please try again.</div>
+            )}
+
+            <div ref={buttonsRef} style={{ marginTop: 12, minHeight: validAmount && sdkState === "ready" ? 45 : 0 }} />
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
+
 export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -1801,6 +2140,8 @@ export default function App() {
   const [senateRace, setSenateRace] = useState(null);
   const [profileSlug, setProfileSlug] = useState(null);
   const [showAbout, setShowAbout] = useState(false);
+  const [showContribute, setShowContribute] = useState(false);
+  const [pendingRaces, setPendingRaces] = useState([]);
 
   // Shared by both entry points below: geocodeAddress and the direct-district
   // fallback each resolve a { stusab, districtCode, ... } differently, but
@@ -1849,7 +2190,7 @@ export default function App() {
       await loadRacesForGeo(await geocodeAddress(addr));
     } catch (err) {
       setError(err.message || "Something went wrong looking up that address.");
-      setErrorExampleState(err.exampleState ?? null);
+      setErrorExampleState(err.exampleState ?? guessStateFromAddress(addr));
       setStatus("error");
     }
   };
@@ -1925,6 +2266,10 @@ export default function App() {
   }, []);
 
   useEffect(() => {
+    fetchPendingRaces().then(setPendingRaces);
+  }, []);
+
+  useEffect(() => {
     const onPopState = () => restoreFromUrl();
     window.addEventListener("popstate", onPopState);
     return () => window.removeEventListener("popstate", onPopState);
@@ -1976,9 +2321,10 @@ export default function App() {
       `}</style>
 
       {showAbout && <AboutModal onClose={() => setShowAbout(false)} />}
+      {showContribute && <ContributeModal onClose={() => setShowContribute(false)} />}
 
       {status === "idle" ? (
-        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowAbout={() => setShowAbout(true)} />
+        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowAbout={() => setShowAbout(true)} onShowContribute={() => setShowContribute(true)} />
       ) : (
         <>
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "16px 20px" }}>
@@ -1995,6 +2341,7 @@ export default function App() {
                 </button>
               </div>
               <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
+                <ContributeButton onClick={() => setShowContribute(true)} />
                 <button onClick={() => setShowAbout(true)} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: T.inkSoft, fontSize: 12, textDecoration: "underline" }}>
                   About the data
                 </button>
@@ -2051,6 +2398,7 @@ export default function App() {
               setChamber={switchChamber}
               geo={geo}
               onOpenProfile={openProfile}
+              pendingRaces={pendingRaces}
             />
           )}
         </div>
