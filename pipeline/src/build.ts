@@ -33,23 +33,28 @@ import { getVotingSystem } from "./sources/votingSystem.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
-// FEC candidate IDs where a name-only Wikidata/Wikipedia search has proven,
-// twice, to confidently resolve to the WRONG real person rather than fail
-// closed -- H6AK01068 (John Brendan Williams, AK-AL) has collided with both
-// the film composer John Williams (Q131285: date_of_birth/birthplace/college,
+// FEC candidate IDs where a name-only Wikidata/Wikipedia search has proven
+// to confidently resolve to the WRONG real person rather than fail closed
+// -- H6AK01068 (John Brendan Williams, AK-AL) has collided with both the
+// film composer John Williams (Q131285: date_of_birth/birthplace/college,
 // left uncorrected per a standing user decision to defer that cleanup) and,
 // separately and later, WA state legislator Brendan Williams
 // (en.wikipedia.org/wiki/Brendan_Williams_(politician): employment_record,
 // found and stripped twice now -- confirmed recurring, not a one-time
-// fluke). looksLikeAPolitician() correctly filters out non-politicians, but
-// neither it nor a name-only Wikidata search has any way to check WHICH
-// office/state a candidate runs for, so a common/ambiguous name can keep
-// re-matching a different real politician on every refresh cycle. Once a
-// candidate is confirmed here, Wikidata/Wikipedia are skipped for them
-// entirely -- their own campaign site has already reliably supplied
-// high_school/marital_status/civic_affiliations, so nothing is lost by
+// fluke). H6SC06184 (John Peterson, SC-6) collided with Q111230374, an
+// 1880s Minnesota state legislator of the same name (birthplace: Norway)
+// -- confirmed re-matching the SAME wrong entity on a SECOND rebuild after
+// the field was manually stripped once already, since stripping alone
+// doesn't stop the next name search from finding the same wrong QID again;
+// only this denylist does. looksLikeAPolitician() correctly filters out
+// non-politicians, but neither it nor a name-only Wikidata search has any
+// way to check WHICH office/state a candidate runs for, so a common/
+// ambiguous name can keep re-matching a different real politician on
+// every refresh cycle. Once a candidate is confirmed here, Wikidata/
+// Wikipedia are skipped for them entirely -- their own campaign site has
+// already reliably supplied their real bio facts, so nothing is lost by
 // relying on it exclusively going forward.
-export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068"]);
+export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068", "H6SC06184"]);
 
 // A weekly rebuild will occasionally have one upstream source fail for
 // reasons that have nothing to do with the data itself (confirmed today:
