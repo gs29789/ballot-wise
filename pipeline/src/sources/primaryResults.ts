@@ -22,6 +22,38 @@ export interface PrimaryResult {
   snippet: string;
 }
 
+// Auto-resolved results, written by resolvePendingPrimaries.ts once it's
+// found a primary/runoff result confident enough to publish without a
+// human review pass. Kept in a separate JSON file rather than mixed into
+// this hand-curated one -- an automated process should never need to
+// safely edit real TypeScript source unattended, and every hand-written
+// entry above stays completely untouched by this either way. Checked only
+// as a fallback below, after every hand-curated state -- if a human ever
+// hand-writes a real entry for the same race, it wins.
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+interface AutoPrimaryEntry extends PrimaryResult {
+  resolvedAt: string;
+}
+
+let autoPrimaryResultsCache: Record<string, Record<string, AutoPrimaryEntry>> | null = null;
+
+function getAutoPrimaryResult(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
+  if (cycle !== 2026) return null;
+  if (autoPrimaryResultsCache === null) {
+    try {
+      const path = join(import.meta.dirname, "..", "ci", "autoPrimaryResults.json");
+      autoPrimaryResultsCache = JSON.parse(readFileSync(path, "utf8"));
+    } catch {
+      autoPrimaryResultsCache = {};
+    }
+  }
+  const entry = autoPrimaryResultsCache![state]?.[raceSlug];
+  if (!entry) return null;
+  return { advancingCandidateIds: entry.advancingCandidateIds, source_url: entry.source_url, snippet: entry.snippet };
+}
+
 const MONTANA_2026_CANVASS_URL =
   "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/2026-Primary-State-Canvass(f0627306086b974f9ac2e416bb8125c9).pdf";
 const INDEPENDENT_CERTIFICATION_URL =
@@ -2928,5 +2960,5 @@ if (state === "MD" && cycle === 2026) return MARYLAND_2026_PRIMARY[raceSlug] ?? 
   if (state === "MO" && cycle === 2026) return MISSOURI_2026_PRIMARY[raceSlug] ?? null;
   if (state === "OH" && cycle === 2026) return OHIO_2026_PRIMARY[raceSlug] ?? null;
   if (state === "FL" && cycle === 2026) return FLORIDA_2026_PRIMARY[raceSlug] ?? null;
-  return null;
+  return getAutoPrimaryResult(state, raceSlug, cycle);
 }
