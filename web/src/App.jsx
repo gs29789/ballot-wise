@@ -268,14 +268,17 @@ function parseAppUrl(search) {
 }
 
 // bio_summary can come from the candidate's own campaign site (their own
-// words) or, when no site exists, their Wikipedia article (a third-party
-// description) — different enough in kind that leaving both unlabeled
-// would let a reader assume every entry is self-description. Only two
-// source_type values exist today (see build.ts); anything else (or a
-// missing field, from data published before this distinction existed)
-// reads as the original, more common case rather than as an error.
+// words), or — when no site exists, or it had nothing extractable — their
+// Wikipedia article or Ballotpedia profile (both third-party
+// descriptions) — different enough in kind that leaving any unlabeled
+// would let a reader assume every entry is self-description. Anything
+// other than the two known third-party source_type values (or a missing
+// field, from data published before this distinction existed) reads as
+// the original, more common case rather than as an error.
 function bioSummarySourceLabel(bioSummary) {
-  return bioSummary?.source_type === "wikipedia" ? "from Wikipedia" : "from the candidate's own site";
+  if (bioSummary?.source_type === "wikipedia") return "from Wikipedia";
+  if (bioSummary?.source_type === "ballotpedia") return "from Ballotpedia";
+  return "from the candidate's own site";
 }
 
 function truncateText(text, maxLen) {
