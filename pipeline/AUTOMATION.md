@@ -1,8 +1,8 @@
 # Ballot-Wise data automation
 
-Two cloud routines keep candidate data current. They're split by cost: one runs automatically because it's free, the other only runs when a human explicitly decides to, because it costs money. Neither ever touches `main` or publishes to production — both hold their findings on a review branch for manual audit first.
+Three cloud routines keep candidate data current. Process 1 runs automatically because it's free; Process 2 only runs when a human explicitly decides to, because it costs money; neither ever touches `main` or publishes to production — both hold their findings on a review branch for manual audit first. Process 3 is the one exception to that rule — see its own section below for why.
 
-Manage both at [claude.ai/code/routines](https://claude.ai/code/routines). Trigger either one from a session with `RemoteTrigger` (`action: "run"`, works even while a routine shows "Paused").
+Manage all three at [claude.ai/code/routines](https://claude.ai/code/routines). Trigger any of them from a session with `RemoteTrigger` (`action: "run"`, works even while a routine shows "Paused").
 
 ## Process 1 — "Ballot-Wise weekly free refresh"
 
@@ -47,4 +47,14 @@ Nothing on either review branch is verified. In particular:
 
 **"Ballot-Wise daily data backlog"** — the original daily routine this replaces. Disabled 2026-08-24. It targeted the same free/paid split but bundled both into one daily job with no environment ever configured, so every run failed silently on missing keys. Its old branch, `data-backlog-review`, is untouched history — nothing new writes to it anymore.
 
-**"Ballot-Wise pending races check"** — unrelated, still active, unaffected by any of this. Daily, read-only, checks `pendingRaces.ts` against real primary dates and emails when one's due for a manual research pass.
+## Process 3 — "Ballot-Wise pending races check"
+
+**Schedule:** daily, 13:00 UTC. Runs automatically.
+**Environment:** `ballot-wise-paid` (same as Process 2 — holds `ANTHROPIC_API_KEY`, reused rather than a separate key).
+**Branch:** none — this is the one exception to "never touches `main`," see below.
+
+Started 2026-08-15 as a read-only notifier: run `checkPendingRaces.ts`, email if anything's due, never touch the repo. As of 2026-08-26 it also runs **`resolvePendingPrimaries.ts`** — for `PENDING_RACES` entries whose reason is `primary` or `runoff`, it researches the real result (web search, forced through a `submit_verdict` tool call rather than parsed out of prose — that failed silently on real test cases before the fix) and only commits to an answer when it's unambiguous: an authoritative source has explicitly called it, no recount or margin-threshold, no active dispute, every advancing candidate matches a real FEC id already on file for that race. Anything less stays exactly as before — flagged, emailed, waiting on a human.
+
+This is the **only** automation in this project that writes to `main` and calls `npm run publish` with no human review step. That's deliberate — "who's on the ballot" needs to be current in a way a bio field doesn't — but it's a real departure from every other routine here, so the safety gating is correspondingly stricter than Process 1/2's "just don't touch main": the routine removes a resolved `PENDING_RACES` entry via a precise Edit (never a guess), immediately re-validates with `npx tsc --noEmit`, and **hard-stops before any commit, push, or publish** if that check fails — reporting the failure by email instead. Confirmed results are written to `pipeline/src/ci/autoPrimaryResults.json`, not into the hand-curated `primaryResults.ts` — `getPrimaryFilter()` only falls back to it when no hand-written entry exists for that race, so a human-verified entry always wins.
+
+**Output:** one email (+ push notification) per run covering both halves — races auto-published (with source/citation) and races still pending (with why, including `resolvePendingPrimaries.ts`'s own stated reason for anything it specifically attempted and declined). Silent when nothing is due, same as before.
