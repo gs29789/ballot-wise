@@ -1849,7 +1849,7 @@ function ReportIssueLink({ context, label = "Report an issue with this data" }) 
   const body = encodeURIComponent(`${context}\n\nWhat looks wrong:\n(describe here)\n`);
   return (
     <a
-      href={`mailto:floridagsf@gmail.com?subject=${subject}&body=${body}`}
+      href={`mailto:operations@ballot-wise.com?subject=${subject}&body=${body}`}
       style={{ display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, textDecoration: "none" }}
     >
       <Flag size={12} /> {label}
