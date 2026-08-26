@@ -11,7 +11,7 @@ import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
 import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
-import { extractBioSummaryFromSite } from "./sources/campaignBioSummary.js";
+import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia } from "./sources/campaignBioSummary.js";
 import { getFinancialDisclosure, type FinancialDisclosureSummary } from "./sources/houseFinancialDisclosure.js";
 import { getIdeologyScore } from "./sources/voteview.js";
 import { getBridgeScore } from "./sources/bridgeGrades.js";
@@ -48,7 +48,7 @@ const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 // entirely -- their own campaign site has already reliably supplied
 // high_school/marital_status/civic_affiliations, so nothing is lost by
 // relying on it exclusively going forward.
-const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068"]);
+export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068"]);
 
 // A weekly rebuild will occasionally have one upstream source fail for
 // reasons that have nothing to do with the data itself (confirmed today:
@@ -255,7 +255,7 @@ const COMMON_NICKNAMES: Record<string, string[]> = {
 // confirmed empirically for all three. Tries token[0] first (unchanged
 // priority/behavior from before), then token[1] as a fallback when it's not
 // itself a bare initial, each expanded with known nickname variants.
-function searchNameVariants(fecName: string): string[] {
+export function searchNameVariants(fecName: string): string[] {
   const [last, rest] = fecName.split(",").map((s) => s.trim());
   const tokens = (rest ?? "").split(/\s+/).filter(Boolean);
   const cap = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
@@ -411,6 +411,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
 
       // Discovered once and reused below for platform extraction too.
       let campaignSiteUrl: string | null = null;
+      // Same idea — set inside the block below (identity-confirmed via
+      // Wikidata's own looksLikeAPolitician() check before this URL is
+      // even constructed), reused after the block as the bio_summary
+      // fallback for a candidate with no campaign site.
+      let wikipediaUrl: string | null = null;
 
       // Everything in this block is skipped entirely once both bio and
       // platform are already resolved from the last published build —
@@ -423,8 +428,14 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // way to know which office/state a candidate is running for, so a
         // sufficiently common or ambiguous name can keep re-matching a
         // real-but-wrong person on every refresh cycle, not just once.
+        // Also tried whenever bio_summary alone is still unresolved, even if
+        // every bio{} fact is already filled in — this is the ONLY place
+        // wikipediaUrl gets set, and bio_summary's own Wikipedia fallback
+        // below needs it regardless of whether bio{} needed anything from
+        // this lookup. getBioFacts is a free Wikidata query, not a paid
+        // call, so re-running it more often here costs nothing.
         let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
-        if (stillMissing() && !WIKIDATA_UNRELIABLE_CANDIDATES.has(c.candidateId)) {
+        if ((stillMissing() || !bioSummaryAlreadyResolved) && !WIKIDATA_UNRELIABLE_CANDIDATES.has(c.candidateId)) {
           for (const nameVariant of searchNameVariants(c.name)) {
             wikidata = await getBioFacts(nameVariant).catch(() => null);
             if (wikidata) break;
@@ -448,9 +459,12 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
           }
         }
 
-        if (wikidata?.wikipediaUrl && stillMissing()) {
-          const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
-          if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
+        if (wikidata?.wikipediaUrl) {
+          wikipediaUrl = wikidata.wikipediaUrl;
+          if (stillMissing()) {
+            const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
+            if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
+          }
         }
 
         campaignSiteUrl = await getCommitteeWebsite(c.candidateId).catch(() => null);
@@ -532,19 +546,30 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
             : Promise.resolve(null)
       );
 
-      // A single representative, verbatim excerpt from the candidate's own
-      // site introducing who they are — deliberately separate from bio[]
-      // above (which is also sourced from House Historian/Wikipedia, not
-      // just the campaign site) and from platform[] (their stated
-      // positions, not their personal background). "In their own words"
-      // framing, same posture as platform: presented as-is, not
-      // characterized by Ballot-Wise.
-      const prevBioSummary = prevCand?.bio_summary?.value ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url } : null;
+      // A single representative, verbatim excerpt introducing who this
+      // candidate is — deliberately separate from bio[] above (which is
+      // also sourced from House Historian/Wikipedia, not just a single
+      // "about me" passage) and from platform[] (their stated positions,
+      // not their personal background). "In their own words" framing when
+      // it comes from their own site, same posture as platform: presented
+      // as-is, not characterized by Ballot-Wise. Falls back to their
+      // Wikipedia article (third-person, not self-description) only when
+      // no campaign site exists at all — sourceType on the result tells
+      // the frontend which one it is, so the label can say so rather than
+      // implying every entry here is in the candidate's own words.
+      const prevBioSummary = prevCand?.bio_summary?.value
+        ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url, sourceType: prevCand.bio_summary.source_type ?? "campaign_site" }
+        : null;
       const { value: bioSummary, resolvedAt: bioSummaryResolvedAt } = await resolveWithRefresh(
         prevBioSummary,
         prevCand?._bio_summary_resolved_at,
         c.candidateId,
-        () => (campaignSiteUrl ? extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+        () =>
+          campaignSiteUrl
+            ? extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+            : wikipediaUrl
+            ? extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
+            : Promise.resolve(null)
       );
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
@@ -609,8 +634,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // Nested {value, source_url}, matching every field in bio{} above —
         // not flat top-level fields — so the frontend's existing SourcedField
         // component (built for exactly that shape) can render this without
-        // a one-off renderer.
-        bio_summary: bioSummary ? { value: bioSummary.summary, source_url: bioSummary.sourceUrl } : null,
+        // a one-off renderer. source_type distinguishes "candidate's own
+        // words" (campaign_site) from "third-party article" (wikipedia) —
+        // see the resolveWithRefresh call above for why that distinction
+        // exists at all.
+        bio_summary: bioSummary ? { value: bioSummary.summary, source_url: bioSummary.sourceUrl, source_type: bioSummary.sourceType } : null,
         _bio_summary_resolved_at: bioSummaryResolvedAt ?? null,
         financial_disclosure: null as FinancialDisclosureSummary | null, // filled in sequentially below — see comment there
         _financial_disclosure_resolved_at: null as string | null, // filled in sequentially below — see comment there
