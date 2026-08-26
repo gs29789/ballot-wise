@@ -1,3 +1,7 @@
 name = "ballot-wise"
 pages_build_output_dir = "dist"
 compatibility_date = "2026-08-06"
+
+[[r2_buckets]]
+binding = "REPORTS_BUCKET"
+bucket_name = "ballot-wise-reports"

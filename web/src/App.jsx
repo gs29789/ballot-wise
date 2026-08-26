@@ -1837,23 +1837,120 @@ function DistrictEntryFallback({ onSubmit, exampleState }) {
   );
 }
 
-// A mailto: link rather than a form + backend endpoint -- this is a static
-// site with no server beyond one geocoding Function, and shipping a real
-// feedback channel today (even a slightly clunkier one) matters more than
-// building server-side form handling before knowing whether reports are
-// common enough to justify it. `context` is prefilled into the email body
-// so a report always identifies exactly what page/candidate it's about,
-// even if the reporter doesn't say much else.
+// Posts to a Pages Function backed by a private R2 bucket, rather than a
+// mailto: link -- a mailto: can't actually guarantee delivery (opening a
+// compose window isn't the same as it getting sent) and can't hide the
+// reporter's own identity either, since the From address on whatever gets
+// sent is whatever the visitor's own mail client is configured with, not
+// anything this site controls. This form never asks for or stores an
+// email, IP, or any other identifying detail -- just what the reporter
+// typed, plus `context` so a report always identifies which page/candidate
+// it's about even if the reporter doesn't say much else.
 function ReportIssueLink({ context, label = "Report an issue with this data" }) {
-  const subject = encodeURIComponent("Ballot-Wise: possible data issue");
-  const body = encodeURIComponent(`${context}\n\nWhat looks wrong:\n(describe here)\n`);
+  const [open, setOpen] = useState(false);
   return (
-    <a
-      href={`mailto:operations@ballot-wise.com?subject=${subject}&body=${body}`}
-      style={{ display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, textDecoration: "none" }}
+    <>
+      <button
+        onClick={() => setOpen(true)}
+        style={{ display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, background: "transparent", border: "none", padding: 0, cursor: "pointer", fontFamily: "inherit" }}
+      >
+        <Flag size={12} /> {label}
+      </button>
+      {open && <ReportIssueModal context={context} onClose={() => setOpen(false)} />}
+    </>
+  );
+}
+
+function ReportIssueModal({ context, onClose }) {
+  const [description, setDescription] = useState("");
+  const [status, setStatus] = useState("idle"); // idle | sending | success | error
+  const [errorMsg, setErrorMsg] = useState("");
+
+  useEffect(() => {
+    const onKey = (e) => e.key === "Escape" && onClose();
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [onClose]);
+
+  const submit = async () => {
+    if (!description.trim()) return;
+    setStatus("sending");
+    try {
+      const res = await fetch("/api/report-issue", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ context, description: description.trim() }),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) throw new Error(data.error || "Something went wrong. Please try again.");
+      setStatus("success");
+    } catch (err) {
+      setStatus("error");
+      setErrorMsg(err.message);
+    }
+  };
+
+  return (
+    <div
+      onClick={onClose}
+      style={{ position: "fixed", inset: 0, background: "rgba(23,20,15,0.55)", zIndex: 50, display: "flex", alignItems: "flex-start", justifyContent: "center", padding: "40px 16px", overflowY: "auto" }}
     >
-      <Flag size={12} /> {label}
-    </a>
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ background: T.paper, borderRadius: 10, maxWidth: 440, width: "100%", padding: "28px 28px 24px", position: "relative" }}
+      >
+        <button
+          onClick={onClose}
+          aria-label="Close"
+          style={{ position: "absolute", top: 18, right: 18, background: "transparent", border: "none", cursor: "pointer", color: T.inkSoft }}
+        >
+          <X size={20} />
+        </button>
+
+        {status === "success" ? (
+          <>
+            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Thank you</div>
+            <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6 }}>
+              Your report was sent anonymously — we don't collect your email, IP, or any other identifying information, only what you wrote.
+            </p>
+          </>
+        ) : (
+          <>
+            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Report an issue</div>
+            <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 16 }}>
+              Tell us what looks wrong. This is anonymous — we don't collect your email or any other identifying information.
+            </p>
+            <textarea
+              autoFocus
+              value={description}
+              onChange={(e) => setDescription(e.target.value)}
+              placeholder="What looks wrong?"
+              rows={5}
+              maxLength={4000}
+              style={{ width: "100%", border: `1px solid ${T.line}`, borderRadius: 8, padding: "10px 12px", fontSize: 14, background: T.paperRaised, color: T.ink, fontFamily: "inherit", resize: "vertical", marginBottom: 12, boxSizing: "border-box" }}
+            />
+            {status === "error" && <div style={{ fontSize: 12.5, color: T.rep, marginBottom: 8 }}>{errorMsg}</div>}
+            <button
+              onClick={submit}
+              disabled={!description.trim() || status === "sending"}
+              style={{
+                background: T.gold,
+                color: T.paper,
+                border: "none",
+                borderRadius: 8,
+                padding: "10px 20px",
+                fontSize: 14,
+                fontWeight: 600,
+                cursor: description.trim() && status !== "sending" ? "pointer" : "default",
+                opacity: description.trim() && status !== "sending" ? 1 : 0.5,
+              }}
+            >
+              {status === "sending" ? "Sending…" : "Send report"}
+            </button>
+          </>
+        )}
+      </div>
+    </div>
   );
 }
 
