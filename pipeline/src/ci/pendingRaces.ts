@@ -19,6 +19,9 @@ export interface PendingRace {
   watchReason: string;
   source_url: string;
   snippet: string;
+  state: string; // USPS code, e.g. "SC" — lets the frontend match this entry to a specific race
+  chamber: "house" | "senate" | "both";
+  districts?: string[]; // house district codes (e.g. "01", "11") this applies to; omit when chamber is "house"/"both" to mean "every not-yet-built House district in this state" (a whole-state case like MA/NH/RI, not a specific-district one like FL-11)
 }
 
 export const PENDING_RACES: PendingRace[] = [
@@ -32,6 +35,9 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "recount",
     source_url: "https://apps.npr.org/primary-election-results-2026/states/FL.html",
     snippet: "Florida's machine recount must conclude by 3pm on the 5th day after the election (~2026-08-23) per Fla. Stat. §102.141 — recheck Ballotpedia's FL-11 general-election page after that date, not before.",
+    state: "FL",
+    chamber: "house",
+    districts: ["11"],
   },
   {
     id: "fl-21-disputed-primary-2026",
@@ -40,6 +46,9 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://floridapolitics.com/archives/814669-james-martin-edges-out-bernard-taylor-for-democratic-nomination-in-cd-21/",
     snippet: "Taylor had yet to concede as of 2026-08-19 and argues uncounted votes could still tip the outcome — recheck Ballotpedia's FL-21 general-election page for an official call before treating either candidate as final.",
+    state: "FL",
+    chamber: "house",
+    districts: ["21"],
   },
   {
     // House-AL resolved and shipped 2026-08-19 (Begich, Hill, Hafner,
@@ -62,6 +71,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://apps.npr.org/primary-election-results-2026/states/AK.html",
     snippet: "Alaska's own certification target is 2026-08-31 (Anchorage Daily News, quoting the Division of Elections directly) — recheck vote totals and Sullivan Jr.'s withdrawal status after that date, not before.",
+    state: "AK",
+    chamber: "senate",
   },
   {
     id: "ok-senate-runoff-2026",
@@ -70,6 +81,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "runoff",
     source_url: "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
     snippet: "Oklahoma Senate election — Democratic runoff between Jim Priest and N'Kiyla Thomas scheduled for 2026-08-25.",
+    state: "OK",
+    chamber: "senate",
   },
   {
     id: "sc-senate-runoff-2026",
@@ -78,6 +91,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "runoff",
     source_url: "https://ballotpedia.org/United_States_Senate_special_election_in_South_Carolina,_2026",
     snippet: "South Carolina Senate special election — Republican runoff between Darline Graham-Nordone and Ralph Norman scheduled for 2026-08-25, following Lindsey Graham's death in office.",
+    state: "SC",
+    chamber: "senate",
   },
   {
     id: "ma-primary-2026",
@@ -86,6 +101,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://ballotpedia.org/Massachusetts_elections,_2026",
     snippet: "Massachusetts 2026 primary election scheduled for 2026-09-01.",
+    state: "MA",
+    chamber: "both",
   },
   {
     id: "nh-primary-2026",
@@ -94,6 +111,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://ballotpedia.org/New_Hampshire_elections,_2026",
     snippet: "New Hampshire 2026 primary election scheduled for 2026-09-08.",
+    state: "NH",
+    chamber: "both",
   },
   {
     id: "ri-primary-2026",
@@ -102,6 +121,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://ballotpedia.org/Rhode_Island_elections,_2026",
     snippet: "Rhode Island 2026 primary election moved to Wednesday 2026-09-09 (from the default Tuesday, to avoid a Labor Day conflict).",
+    state: "RI",
+    chamber: "both",
   },
   {
     id: "de-primary-2026",
@@ -110,6 +131,8 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "primary",
     source_url: "https://elections.delaware.gov/results/",
     snippet: "Delaware Department of Elections results — check after the 2026-09-15 primary.",
+    state: "DE",
+    chamber: "both",
   },
   {
     id: "wa-05-08-certification",
@@ -117,6 +140,9 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "certification",
     source_url: "https://ballotpedia.org/Washington%27s_5th_Congressional_District_election,_2026",
     snippet: "As of the last check, Ballotpedia had not yet certified the second-place finisher in WA-05 or WA-08 — recheck this page and WA-08's equivalent periodically.",
+    state: "WA",
+    chamber: "house",
+    districts: ["05", "08"],
   },
   {
     id: "la-house-nov3",
@@ -125,5 +151,7 @@ export const PENDING_RACES: PendingRace[] = [
     watchReason: "general/possible-runoff-decider",
     source_url: "https://www.sos.la.gov/elections-voting/election-dates",
     snippet: "Louisiana's House races revert to an all-party primary held on the same day as the Nov 3, 2026 general — a December runoff applies only to districts where no candidate clears a majority.",
+    state: "LA",
+    chamber: "house",
   },
 ];
