@@ -621,18 +621,8 @@
         }
       },
       "bio": {
-        "high_school": {
-          "value": "High School Diploma, Tinora High School",
-          "source_url": "https://www.ballotready.org/people/john-hancock",
-          "snippet": "High School Diploma, Tinora High School",
-          "source_type": "llm_extracted_ballotready"
-        },
-        "employment_record": {
-          "value": "Defiance County Council, Councilmember (Present); Howard Hanna Real Estate, Licensed Realtor; Sauder Woodworking, Supervisor; Defiance City Schools, Bus Driver",
-          "source_url": "https://www.ballotready.org/people/john-hancock",
-          "snippet": "Defiance County Council, Councilmember (Present) Howard Hanna Real Estate, Licensed Realtor Sauder Woodworking, Supervisor Defiance City Schools, Bus Driver",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "high_school": null,
+        "employment_record": null
       },
       "platform": [],
       "platform_source_url": null,
