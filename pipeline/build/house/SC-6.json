@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-13T17:52:19.155Z",
+  "generated_at": "2026-08-26T11:06:51.659Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
@@ -18,12 +18,18 @@
     "source_url": "https://www.scstatehouse.gov/scconstitution/SCConstitution.pdf",
     "snippet": "No person may be popularly elected to and serve in any office in this State or its political subdivisions unless he possesses the qualifications of an elector, is not disqualified by age as prescribed in this Constitution, and has not been convicted of a felony under state or federal law or convicted of tampering with a voting machine, fraudulent registration or voting, bribery at elections... (Art. VI, Sec. 1)"
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/South_Carolina%27s_6th_Congressional_District_election,_2026",
     "snippet": "Incumbent James Clyburn, John Peterson, and Joseph Oddo are running in the general election for U.S. House South Carolina District 6 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2414.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2404.6
+        "thousandsOfJobs": 2409.8
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8056262056.93,
-        "perCapitaUsd": 10824.53
+        "totalUsd": 8055896515.93,
+        "perCapitaUsd": 10824.04
       },
       {
         "year": "2024",
-        "totalUsd": 7634388716.28,
-        "perCapitaUsd": 10257.69
+        "totalUsd": 7634537523.59,
+        "perCapitaUsd": 10257.89
       },
       {
         "year": "2025",
-        "totalUsd": 8661664107.49,
-        "perCapitaUsd": 11637.95
+        "totalUsd": 8661674107.49,
+        "perCapitaUsd": 11637.97
       }
     ],
     "population": [
@@ -570,16 +581,110 @@
           "source_url": "https://en.wikipedia.org/wiki/Jim_Clyburn",
           "snippet": "He joined the Omega Psi Phi fraternity",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to the former Emily England of Moncks Corner",
+          "source_url": "https://clyburnforcongress.com/about/",
+          "snippet": "Jim is married to the former Emily England of Moncks Corner",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Rural Energy and Broadband",
+          "value": "Working to expand RESP and develop a similar program to make broadband more available in rural communities throughout the country",
+          "snippet": "Jim is working to expand RESP and develop a similar program to make broadband more available in rural communities throughout the country."
+        },
+        {
+          "topic": "Tourism and Heritage",
+          "value": "Working to make sure South Carolina gets its fair share of the tourism economy",
+          "snippet": "Congressman Clyburn is working to make sure South Carolina gets its fair share of the tourism economy."
+        },
+        {
+          "topic": "Poverty Funding Formula",
+          "value": "Working hard to make 10-20-30 permanent law and more broadly applied",
+          "snippet": "Jim is working hard to make 10-20-30 permanent law and more broadly applied."
+        },
+        {
+          "topic": "Insulin Costs",
+          "value": "Helped pass legislation that would limit cost-sharing for insulin under private health insurance and Medicare",
+          "snippet": "With the help of Majority Whip, James Clyburn, the House of Representatives approved legislation that would limit cost-sharing for insulin under private health insurance and Medicare."
+        }
+      ],
+      "platform_source_url": "https://clyburnforcongress.com/",
+      "_platform_resolved_at": "2026-08-26T11:06:18.338Z",
+      "campaign_site_url": "https://clyburnforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Throughout my public service career in Congress, I have always put service above self and principles above politics.",
+        "source_url": "https://clyburnforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:06:24.173Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 200,
+          "votesCast": 198,
+          "attendanceRate": 0.99
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -701,8 +806,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/C000537"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:24.933Z"
+      "_curated_match": false
     },
     {
       "slug": "john-peterson",
@@ -718,17 +822,66 @@
           "value": "Norway",
           "source_url": "https://www.wikidata.org/wiki/Q111230374",
           "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "State University of New York at Brockport, Bachelor of Science Degree in Mathematics, 2000",
+          "source_url": "https://www.johnpeterson.org/new-page-2-1",
+          "snippet": "John obtained a Bachelor of Science Degree in Mathematics at State University of New York at Brockport in 2000",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "Married to Monica",
+          "source_url": "https://www.johnpeterson.org/new-page-2-1",
+          "snippet": "John, his wife Monica, and their son Jonathan",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Trump Agenda",
+          "value": "Support the Trump agenda and Prevent the Democrats from impeaching President Trump",
+          "snippet": "Support the Trump agenda and Prevent the Democrats from impeaching President Trump"
+        },
+        {
+          "topic": "Fiscal Policy",
+          "value": "Vote for bills in Congress that are fiscally conservative that cut spending, reduce inflation, and bring down the national debt",
+          "snippet": "Vote for bills in Congress that are fiscally conservative that cut spending, reduce inflation, and bring down the national debt"
+        },
+        {
+          "topic": "Crime",
+          "value": "Champion bills that are tough on crime that protect law abiding citizens and keep violent criminals off the street",
+          "snippet": "Champion bills that are tough on crime that protect law abiding citizens and keep violent criminals off the street"
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Fight for Free and Fair Elections that require Voter I.D.",
+          "snippet": "Fight for Free and Fair Elections that require Voter I.D."
+        },
+        {
+          "topic": "Government Waste",
+          "value": "Support DOGE and work hard to uncover Fraud Waste and Abuse that has stolen $Billions of tax payer dollars",
+          "snippet": "Support DOGE and work hard to uncover Fraud Waste and Abuse that has stolen $Billions of tax payer dollars"
+        }
+      ],
+      "platform_source_url": "https://www.johnpeterson.org/new-page-2",
+      "_platform_resolved_at": "2026-08-26T11:06:29.009Z",
+      "campaign_site_url": "https://www.johnpeterson.org/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "John, his wife Monica, and their son Jonathan have lived in South Carolina since 2014 John is currently a Banquet Supervisor for Embassy Suites at the North Charleston Convention Center, serves as the President for the Deer Park 1B Precinct in the Charleston County Republican Party. He specializes in Customer Service Management and worked to satisfy large volumes of customers for Wegman’s grocery stores in both the Rochester and Syracuse, New York areas. That tradition of customer service continues with large banquets and conventions in his work at Embassy Suites in the North Charleston Convention Center He also worked as a canvasser for President Trump in North Carolina 2020, as a volunteer phone caller in the 2024 South Carolina Primary for Trump, as a volunteer phone caller for Trump Force 47 for the general election in 24’, and as a canvasser for the Tea Party in Georgia for Trump in 2024 John obtained a Bachelor of Science Degree in Mathematics at State University of New York at Brockport in 2000",
+        "source_url": "https://www.johnpeterson.org/new-page-2-1",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:06:41.643Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:25.368Z"
+      "_curated_match": false
     }
   ]
 }

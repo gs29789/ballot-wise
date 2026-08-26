@@ -882,8 +882,12 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Wayne Raasch (independent) is running for election to the U.S. House to represent Texas' 27th Congressional District . He is a write-in candidate in the general election on November 3, 2026 . [source] He lost in the Democratic primary on March 3, 2026 . ",
+        "source_url": "https://ballotpedia.org/Wayne_Raasch",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:26:59.970Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

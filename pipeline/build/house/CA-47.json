@@ -569,8 +569,12 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Jenny Rae Le Roux was born in Memphis, Tennessee. Le Roux earned a B.A. in economics from the University of Virginia in 2002 and an M.B.A. from Columbia University Business School in 2018. Her career experience includes owning a business and working as the managing director of Management Consulted, an author, and a strategic advisor.",
+        "source_url": "https://ballotpedia.org/Jenny_Rae_Le_Roux",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:12:21.219Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078247.pdf",
         "filingDate": "6/2/2026",
