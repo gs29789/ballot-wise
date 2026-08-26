@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-18T20:23:07.979Z",
+  "generated_at": "2026-08-25T22:25:58.991Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://web.archive.org/web/20260417222247/https://legislature.idaho.gov/statutesrules/idstat/Title34/T34CH6/SECT34-601/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 886.8
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 886.5
+        "thousandsOfJobs": 885.6
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7019086759.15,
-        "perCapitaUsd": 7521.64
+        "totalUsd": 7019335759.15,
+        "perCapitaUsd": 7521.9
       },
       {
         "year": "2024",
-        "totalUsd": 8028489973.2,
-        "perCapitaUsd": 8603.31
+        "totalUsd": 8028859187.2,
+        "perCapitaUsd": 8603.71
       },
       {
         "year": "2025",
-        "totalUsd": 8223676815.71,
-        "perCapitaUsd": 8812.47
+        "totalUsd": 8229286151.42,
+        "perCapitaUsd": 8818.48
       }
     ],
     "population": [
@@ -595,20 +605,23 @@
       ],
       "platform_source_url": "https://www.achillesforidaho.com/",
       "_platform_resolved_at": "2026-08-12T22:19:43.109Z",
+      "campaign_site_url": "http://www.achillesforidaho.com/",
       "platform_video_url": "https://www.youtube.com/watch?v=FYxXoYQ6vD4",
       "platform_video_title": "National Debt Reaches $40 trillion",
       "platform_video_source_url": "https://www.achillesforidaho.com/",
+      "platform_video_tier": 1,
       "_platform_video_resolved_at": "2026-08-18T22:03:21.577Z",
+      "bio_summary": {
+        "value": "I am running as a candidate for the United States Senate because the two-party system has failed America. Both parties increase the national debt, keep us in endless wars, and favor big corporations, harming our families in the process. Both parties benefit from division among Americans. I reject the left-right divide because the challenge ahead of us is those at the top versus those at the bottom — those in power against the people. I will fight for all Idahoans, not billionaires or extremists. I grew up on a family farm, where I learned from a very young age the values we hold in Idaho: hard work and caring for others. I served in the United States Army as a tank commander and armor officer. The Army taught me the discipline of teamwork, leadership, and determination. These are the qualities I bring to public service.",
+        "source_url": "https://www.achillesforidaho.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:05.262Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I am running as a candidate for the United States Senate because the two-party system has failed America. Both parties increase the national debt, keep us in endless wars, and favor big corporations, harming our families in the process. Both parties benefit from division among Americans. I reject the left-right divide because the challenge ahead of us is those at the top versus those at the bottom — those in power against the people. I will fight for all Idahoans, not billionaires or extremists. I grew up on a family farm, where I learned from a very young age the values we hold in Idaho: hard work and caring for others. I served in the United States Army as a tank commander and armor officer. The Army taught me the discipline of teamwork, leadership, and determination. These are the qualities I bring to public service.",
-        "source_url": "https://www.achillesforidaho.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:53:05.262Z"
+      "_curated_match": false
     },
     {
       "slug": "natalie-fleming",
@@ -631,6 +644,30 @@
           "source_url": "https://www.ballotready.org/people/natalie-m-fleming",
           "snippet": "Professional Experience Upset the Fruitbasket/27 Votes, Founder and Software Developer (2015 - 2023) Insurers of Idaho, Enterprise Systems Developer (2011 - 2013) Garage Sale Nation, Founder and Developer (2001 - 2005) Novell, Technician, GroupWise Division (1990 - 1994)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "Oregon",
+          "source_url": "https://nataliefleming.info/about-natalie-m-fleming/",
+          "snippet": "I was born in Oregon and spent my childhood summers on a family ranch in Christmas Valley",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Moscow High School",
+          "source_url": "https://nataliefleming.info/about-natalie-m-fleming/",
+          "snippet": "I graduated from Moscow High School.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Single mother (previously married)",
+          "source_url": "https://nataliefleming.info/about-natalie-m-fleming/",
+          "snippet": "I married, had four children, and when that chapter closed I came back to Idaho — to the Treasure Valley — and raised them here as a single parent.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "LDS (Church of Jesus Christ of Latter-day Saints)",
+          "source_url": "https://nataliefleming.info/about-natalie-m-fleming/",
+          "snippet": "I am LDS, and I was raised to understand that every person is a child of God, full stop.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -662,21 +699,23 @@
       ],
       "platform_source_url": "https://nataliefleming.info/",
       "_platform_resolved_at": "2026-08-12T22:19:52.984Z",
+      "campaign_site_url": "https://nataliefleming.info",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Natalie M. Fleming is running for U.S. Senate in Idaho — not for a party, not for special interests. For the people of this state.",
+        "source_url": "https://nataliefleming.info/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:00.750Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Natalie M. Fleming is running for U.S. Senate in Idaho — not for a party, not for special interests. For the people of this state.",
-        "source_url": "https://nataliefleming.info/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:53:00.750Z",
-      "_tier2_search_attempted_at": "2026-08-23T12:00:30.004Z"
+      "_curated_match": false
     },
     {
       "slug": "james-risch",
@@ -743,10 +782,18 @@
       ],
       "platform_source_url": "https://senatorrisch.com/",
       "_platform_resolved_at": "2026-08-12T22:19:48.399Z",
+      "campaign_site_url": "https://www.senatorrisch.com",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Jim Risch is currently serving a second term in the U.S. Senate from Idaho. Known for “pragmatic decision-making,” his peers call him a “no-nonsense, get-the-job-done leader.” He has been recognized by the National Journal as the “Most Conservative” Senator in the United States Senate.",
+        "source_url": "https://senatorrisch.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:52:58.973Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -807,7 +854,11 @@
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 216,
+          "votesCast": 205,
+          "attendanceRate": 0.9490740740740741
+        },
         "committees": [
           {
             "committee": "Senate Committee on Energy and Natural Resources",
@@ -935,13 +986,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/R000584"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Jim Risch is currently serving a second term in the U.S. Senate from Idaho. Known for “pragmatic decision-making,” his peers call him a “no-nonsense, get-the-job-done leader.” He has been recognized by the National Journal as the “Most Conservative” Senator in the United States Senate.",
-        "source_url": "https://senatorrisch.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:52:58.973Z",
-      "_tier2_search_attempted_at": "2026-08-23T12:00:30.427Z"
+      "_curated_match": false
     },
     {
       "slug": "david-roth",
@@ -975,21 +1020,50 @@
           "source_url": "https://www.ballotready.org/people/david-roth",
           "snippet": "Professional Experience Consultant (2015 - Present) Bonneville Youth Development Coalition, Executive Director (2021 - 2023) Hope Lutheran Church & School, Outreach Administrator and School Operations (2018 - 2021) Equity Real Estate, Realtor (Self-Employed) (2015 - 2018) Western Governors University, Marketing Content Manager (2014 - 2015) SAE Institute, USA, National Lead Generation Manager (2013 - 2014) iFreedom Direct Corporation, Direct Marketing Manager (2011 - 2013) Eagle Gate College, Marketing Manager (2008 - 2011)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, University of Phoenix, Marketing (2012); Master's, Concordia University-Wisconsin, Educational Administration (2021)",
+          "source_url": "https://www.ballotready.org/people/david-roth",
+          "snippet": "Degrees Master's, Concordia University-Wisconsin, Educational Administration (2021) Bachelor's, University of Phoenix, Marketing (2012)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Wages and Working Families",
+          "value": "A full week of work should be enough to pay the bills.",
+          "snippet": "A full week of work should be enough to pay the bills."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Every family deserves affordable healthcare.",
+          "snippet": "Every family deserves affordable healthcare."
+        },
+        {
+          "topic": "Personal Freedoms",
+          "value": "Government should protect our freedoms, not dictate what books we can read, who we can love, or how we live our lives.",
+          "snippet": "Government should protect our freedoms, not dictate what books we can read, who we can love, or how we live our lives."
+        }
+      ],
+      "platform_source_url": "https://rothforidaho.org/",
+      "_platform_resolved_at": "2026-08-25T22:25:44.897Z",
+      "campaign_site_url": "https://www.rothforidaho.org",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "After careful consideration, I have decided to end my campaign for the United States Senate. I entered this race because I believe deeply in what Democrats are fighting for across Idaho. A full week of work should be enough to pay the bills. Every family deserves affordable healthcare. Government should protect our freedoms, not dictate what books we can read, who we can love, or how we live our lives. I have concluded that I can make the greatest difference by focusing my time and energy on helping Democrats win up and down the ballot and in communities across Idaho.",
+        "source_url": "https://rothforidaho.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:25:50.696Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:30.922Z"
+      "_curated_match": false
     }
   ]
 }
