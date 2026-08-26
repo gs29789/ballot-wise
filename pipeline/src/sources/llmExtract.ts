@@ -11,10 +11,29 @@ function getClient(): Anthropic {
 // a plain fetch() never runs that JS, so without following the redirect
 // ourselves we'd see zero bio content even though a real page exists one
 // hop away. Followed at most once to avoid chasing an infinite loop.
+//
+// REDIRECT_SEARCH_WINDOW bounds the search to early in the document,
+// matching that "near-empty shell" framing literally: a genuine
+// page-load redirect sits at or near the top, not buried in the middle
+// of a large, real page. Confirmed necessary on a real page (Ballotpedia,
+// a candidate's own profile, 111KB total): a `window.location = ...`
+// assignment appears ~13,000 characters in, but it's DEAD CODE inside an
+// unrelated newsletter-signup form's onClick handler (only assigned
+// after a $.post() callback fires from an actual button click) — a
+// plain fetch() of course never fires that click, so this string
+// matching it anywhere in the page was a pure false positive, sending
+// the "redirect" to a generic /Thank_you page instead of the real
+// content that was sitting right there the whole time. An unbounded
+// regex search has no way to know it's inside a function body that
+// never executes on page load; bounding the search window is a cheap,
+// generally-safe proxy for that (a real shell-redirect page's whole
+// point is having nothing else on it) without needing a real JS parser.
+const REDIRECT_SEARCH_WINDOW = 3000;
 function findRedirectTarget(html: string): string | null {
-  const jsRedirect = html.match(/window\.location(?:\.href)?\s*=\s*["']([^"']+)["']/i);
+  const head = html.slice(0, REDIRECT_SEARCH_WINDOW);
+  const jsRedirect = head.match(/window\.location(?:\.href)?\s*=\s*["']([^"']+)["']/i);
   if (jsRedirect) return jsRedirect[1];
-  const metaRefresh = html.match(/<meta[^>]+http-equiv=["']refresh["'][^>]*content=["'][^;]*;\s*url=([^"']+)["']/i);
+  const metaRefresh = head.match(/<meta[^>]+http-equiv=["']refresh["'][^>]*content=["'][^;]*;\s*url=([^"']+)["']/i);
   if (metaRefresh) return metaRefresh[1];
   return null;
 }
@@ -101,14 +120,31 @@ export const EXTRACTABLE_FIELDS = [
 
 export type ExtractedBio = Record<(typeof EXTRACTABLE_FIELDS)[number], ExtractedField | null>;
 
+// Rule 4 (identity check) used to be just prose buried in a numbered list,
+// with no dedicated field forcing the model to actually commit to a verdict
+// before extracting anything — confirmed failing on a real, blatant case:
+// BallotReady's "john-peterson" profile states outright, in the page's own
+// first sentence, "Candidate for Rockton Village President in 2025 Illinois
+// General Election" (a local Illinois office, not U.S. House from SC), yet
+// the model still extracted his high_school and employment_record as if
+// they belonged to the real candidate — the mismatch was right there in
+// the text and got extracted through anyway. campaignBioSummary.ts's
+// prompt never had this problem because it requires a separate, explicit
+// "matchesExpectedCandidate" boolean the model must set BEFORE deciding
+// what to return — a structural forcing function, not an implicit rule
+// buried in prose. Ported that same pattern here: matchesExpectedCandidate
+// is now checked in code (see extractFromPage below) independent of
+// whatever the model happened to populate in the per-field JSON, so a
+// false verdict discards everything regardless.
 const SYSTEM_PROMPT = `You extract biographical facts about a named public figure from a single source page's text, for a voter-information product. Follow these rules exactly:
 
 1. Only extract a fact if you can quote the text (verbatim, character-for-character, an exact contiguous substring copied from the provided text — not reconstructed or paraphrased) that states it. If you cannot find verbatim text stating it, the field is null — never infer, summarize from general knowledge, or paraphrase into a "quote."
 2. CRITICAL — "value" must not contain ANY fact that is not explicitly stated in "snippet". This is the most important rule and the most common mistake: do NOT summarize everything the page says about this topic and then attach a short representative snippet. Every single fact in "value" must be traceable to text physically present in "snippet". If the page lists several related facts (e.g. a list of memberships, several jobs) and you want "value" to cover more than one of them, "snippet" must be extended (still an exact contiguous substring of the page text) to literally include the text for each of those facts too. If you can't extend the snippet that far, shrink "value" instead — a short, fully-supported value is correct; a longer value with any unsupported fact is not.
 3. Never use anything from your own training knowledge about this person — only what is literally present in the provided text.
-4. If the page is clearly about a different person than the one named, return all fields null. A shared name is not enough to confirm identity — when the prompt states an expected context (e.g. a specific office and state the candidate is running for), the page must be consistent with that context. A same-named person running for a different office, in a different state, or otherwise clearly a different individual is a collision, not a match — treat it exactly like a different person and return all fields null, even though the name matches exactly.
+4. BEFORE extracting anything, decide "matchesExpectedCandidate": is this page clearly about the SAME person named, in the SAME context? A shared name is not enough to confirm identity. When the prompt states an expected context (a specific office and state the candidate is running for), the page must be consistent with that context — a same-named person holding or running for a DIFFERENT office, in a DIFFERENT state, is a collision, not a match, EVEN IF nothing else about the page looks wrong and even if the page is otherwise clearly a real, legitimate profile of that other person. Read the page's own stated office/location/election carefully — don't extract first and reconsider identity after. If matchesExpectedCandidate is false, every field below MUST be null — no exceptions, regardless of how confidently any individual fact could otherwise be quoted.
 5. Output ONLY valid JSON matching this exact shape, no other text:
 {
+  "matchesExpectedCandidate": true | false,
   "date_of_birth": {"value": "YYYY-MM-DD or as precise as stated", "snippet": "verbatim quoted text"} | null,
   "birthplace": {"value": "...", "snippet": "verbatim quoted text"} | null,
   "high_school": {"value": "...", "snippet": "verbatim quoted text"} | null,
@@ -164,6 +200,19 @@ async function extractFromPage(
   try {
     const jsonText = textBlock.text.replace(/^```(?:json)?\s*/i, "").replace(/\s*```\s*$/, "");
     const parsed = JSON.parse(jsonText);
+
+    // Enforced in code, not just trusted from the prompt: a false identity
+    // verdict discards every field, regardless of what the model populated
+    // in them — confirmed necessary on a real case (BallotReady's
+    // "john-peterson", a Rockton Village IL official, not the SC
+    // candidate) where the model extracted two fields despite the page's
+    // own text plainly stating a different office and state.
+    if (parsed.matchesExpectedCandidate === false) {
+      const empty = {} as ExtractedBio;
+      for (const f of EXTRACTABLE_FIELDS) empty[f] = null;
+      return { bio: empty, sourceUrl: finalUrl };
+    }
+
     // Guard against a hallucinated snippet even after asking nicely — if the
     // model's "verbatim" quote doesn't actually appear in the source text,
     // the field is dropped rather than trusted.
