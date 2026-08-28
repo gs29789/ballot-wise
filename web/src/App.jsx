@@ -1846,25 +1846,46 @@ function DistrictEntryFallback({ onSubmit, exampleState }) {
 // email, IP, or any other identifying detail -- just what the reporter
 // typed, plus `context` so a report always identifies which page/candidate
 // it's about even if the reporter doesn't say much else.
-function ReportIssueLink({ context, label = "Report an issue with this data" }) {
+// type distinguishes a data-accuracy report from general feedback in the
+// relayed email (see report-issue.js/checkReports.ts) -- same anonymous
+// submission pipeline either way, just labeled differently so the two
+// don't get conflated when read later.
+const REPORT_TYPE_COPY = {
+  issue: { title: "Report an issue", intro: "Tell us what looks wrong.", placeholder: "What looks wrong?" },
+  feedback: { title: "Share feedback", intro: "Suggestions, praise, anything on your mind — we read all of it.", placeholder: "What's on your mind?" },
+};
+
+// highlight is for the two general-purpose links in the About modal's
+// footer specifically -- a bordered pill in the site's gold accent so
+// they read as real, inviting actions rather than easy-to-miss fine
+// print. The inline per-field "report this data" links elsewhere (race
+// header, candidate profile) deliberately stay in the plain/subtle style
+// -- those are meant to be low-key utility links, not a visual focal
+// point competing with the actual candidate data.
+function ReportIssueLink({ context, label = "Report an issue with this data", type = "issue", highlight = false }) {
   const [open, setOpen] = useState(false);
   return (
     <>
       <button
         onClick={() => setOpen(true)}
-        style={{ display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, background: "transparent", border: "none", padding: 0, cursor: "pointer", fontFamily: "inherit" }}
+        style={
+          highlight
+            ? { display: "inline-flex", alignItems: "center", gap: 6, color: T.gold, fontSize: 13, fontWeight: 600, background: "transparent", border: `1.5px solid ${T.gold}`, borderRadius: 20, padding: "8px 16px", cursor: "pointer", fontFamily: "inherit" }
+            : { display: "inline-flex", alignItems: "center", gap: 5, color: T.inkSoft, fontSize: 12, background: "transparent", border: "none", padding: 0, cursor: "pointer", fontFamily: "inherit" }
+        }
       >
-        <Flag size={12} /> {label}
+        <Flag size={highlight ? 14 : 12} /> {label}
       </button>
-      {open && <ReportIssueModal context={context} onClose={() => setOpen(false)} />}
+      {open && <ReportIssueModal context={context} type={type} onClose={() => setOpen(false)} />}
     </>
   );
 }
 
-function ReportIssueModal({ context, onClose }) {
+function ReportIssueModal({ context, type = "issue", onClose }) {
   const [description, setDescription] = useState("");
   const [status, setStatus] = useState("idle"); // idle | sending | success | error
   const [errorMsg, setErrorMsg] = useState("");
+  const copy = REPORT_TYPE_COPY[type] ?? REPORT_TYPE_COPY.issue;
 
   useEffect(() => {
     const onKey = (e) => e.key === "Escape" && onClose();
@@ -1879,7 +1900,7 @@ function ReportIssueModal({ context, onClose }) {
       const res = await fetch("/api/report-issue", {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ context, description: description.trim() }),
+        body: JSON.stringify({ context, description: description.trim(), type }),
       });
       const data = await res.json().catch(() => ({}));
       if (!res.ok) throw new Error(data.error || "Something went wrong. Please try again.");
@@ -1911,20 +1932,20 @@ function ReportIssueModal({ context, onClose }) {
           <>
             <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Thank you</div>
             <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6 }}>
-              Your report was sent anonymously — we don't collect your email, IP, or any other identifying information, only what you wrote.
+              Your {type === "feedback" ? "feedback was" : "report was"} sent anonymously — we don't collect your email, IP, or any other identifying information, only what you wrote.
             </p>
           </>
         ) : (
           <>
-            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Report an issue</div>
+            <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>{copy.title}</div>
             <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 16 }}>
-              Tell us what looks wrong. This is anonymous — we don't collect your email or any other identifying information.
+              {copy.intro} This is anonymous — we don't collect your email or any other identifying information.
             </p>
             <textarea
               autoFocus
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="What looks wrong?"
+              placeholder={copy.placeholder}
               rows={5}
               maxLength={4000}
               style={{ width: "100%", border: `1px solid ${T.line}`, borderRadius: 8, padding: "10px 12px", fontSize: 14, background: T.paperRaised, color: T.ink, fontFamily: "inherit", resize: "vertical", marginBottom: 12, boxSizing: "border-box" }}
@@ -1945,7 +1966,7 @@ function ReportIssueModal({ context, onClose }) {
                 opacity: description.trim() && status !== "sending" ? 1 : 0.5,
               }}
             >
-              {status === "sending" ? "Sending…" : "Send report"}
+              {status === "sending" ? "Sending…" : type === "feedback" ? "Send feedback" : "Send report"}
             </button>
           </>
         )}
@@ -2060,8 +2081,9 @@ function AboutModal({ onClose }) {
           Ballot-Wise's policy is to be funded by citizens, not campaigns — contributions never affect our neutrality or what we publish about any candidate or race.
         </p>
 
-        <div style={{ borderTop: `1px solid ${T.line}`, paddingTop: 16 }}>
-          <ReportIssueLink context="General question or feedback about Ballot-Wise's data." label="See something wrong? Report it" />
+        <div style={{ borderTop: `1px solid ${T.line}`, paddingTop: 16, display: "flex", gap: 20 }}>
+          <ReportIssueLink context="General question or feedback about Ballot-Wise's data." label="See something wrong? Report it" highlight />
+          <ReportIssueLink context="General feedback about Ballot-Wise." label="Share feedback" type="feedback" highlight />
         </div>
       </div>
     </div>

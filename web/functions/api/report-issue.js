@@ -26,6 +26,12 @@ export async function onRequestPost({ request, env }) {
 
   const context = typeof body.context === "string" ? body.context.slice(0, 500) : "";
   const description = typeof body.description === "string" ? body.description.trim() : "";
+  // Distinguishes a data-accuracy report from general feedback in the
+  // relayed email -- same anonymous pipeline either way, just labeled so
+  // the two aren't conflated. Unknown/missing values fall back to "issue"
+  // rather than being rejected, matching this endpoint's existing
+  // fail-open validation style.
+  const type = body.type === "feedback" ? "feedback" : "issue";
 
   if (!description) {
     return new Response(JSON.stringify({ error: "Please describe what looks wrong." }), {
@@ -44,7 +50,7 @@ export async function onRequestPost({ request, env }) {
   const key = `reports/${receivedAt.replace(/[:.]/g, "-")}-${crypto.randomUUID()}.json`;
 
   try {
-    await env.REPORTS_BUCKET.put(key, JSON.stringify({ context, description, receivedAt }, null, 2), {
+    await env.REPORTS_BUCKET.put(key, JSON.stringify({ type, context, description, receivedAt }, null, 2), {
       httpMetadata: { contentType: "application/json" },
     });
   } catch (err) {
