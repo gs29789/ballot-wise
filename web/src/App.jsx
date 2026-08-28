@@ -2172,7 +2172,7 @@ function ContributeModal({ onClose }) {
           <>
             <div style={{ fontFamily: "'Fraunces', serif", fontSize: 24, fontWeight: 600, marginBottom: 6 }}>Support Ballot-Wise</div>
             <p style={{ fontSize: 13.5, color: T.inkSoft, lineHeight: 1.6, marginBottom: 20 }}>
-              Ballot-Wise is funded by citizens, not campaigns — we don't knowingly accept money from candidates, parties, PACs, or lobbying organizations. Contributions cover hosting and data costs. This isn't a registered nonprofit, so contributions aren't tax-deductible.
+              Ballot-Wise is funded by citizens, not campaigns — we don't knowingly accept money from candidates, parties, PACs, or lobbying organizations. Contributions cover hosting and data costs. This isn't a registered nonprofit, so contributions aren't tax-deductible. Ballot-Wise itself doesn't collect or store your name, email, or any other identifying information — payment is handled directly and securely by PayPal.
             </p>
 
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap", marginBottom: 10 }}>
