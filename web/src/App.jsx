@@ -2121,6 +2121,11 @@ function ContributeModal({ onClose }) {
         actions.order.create({
           intent: "CAPTURE",
           purchase_units: [{ description: "Contribution to Ballot-Wise", amount: { value: effectiveAmount.toFixed(2), currency_code: "USD" } }],
+          // Explicit brand_name so PayPal's checkout popup shows "Ballot-Wise"
+          // regardless of what the underlying PayPal account is otherwise
+          // configured to display — belt-and-suspenders alongside the
+          // account's own Business Name setting, not a replacement for it.
+          application_context: { brand_name: "Ballot-Wise" },
         }),
       onApprove: async (_data, actions) => {
         await actions.order.capture();
