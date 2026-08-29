@@ -598,26 +598,61 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // finding nothing new just falls back to the existing seed here —
       // correctly keeps the URL, but the seed needs its own tier to keep
       // that fallback honest too.
-      const prevVideo = prevCand?.platform_video_url
-        ? {
-            videoId: "",
-            videoUrl: prevCand.platform_video_url,
-            videoTitle: prevCand.platform_video_title,
-            sourceUrl: prevCand.platform_video_source_url,
-            tier: prevCand.platform_video_tier ?? 1,
+      // A curated platform_video ALWAYS wins and is never re-fetched --
+      // see curated.ts's CuratedCandidate comment for why this exists:
+      // a hand-verified video (found by a human, e.g. via Wikipedia) has
+      // no automated re-discovery path, so without this it's just sitting
+      // in prevCand, one stale data-snapshot away from a future rebuild
+      // silently reverting it to null. Curated data lives in git-tracked
+      // source instead, so it can't go stale the way a branch can.
+      let video: { videoUrl: string; videoTitle: string | null; sourceUrl: string | null; tier: number; sourceType: string } | null = null;
+      let videoResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.platform_video) {
+        const cv = curatedEntry.platform_video;
+        video = { videoUrl: cv.video_url, videoTitle: cv.video_title, sourceUrl: cv.source_url, tier: 0, sourceType: cv.source_type };
+        videoResolvedAt = prevCand?._platform_video_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevVideo = prevCand?.platform_video_url
+          ? {
+              videoId: "",
+              videoUrl: prevCand.platform_video_url,
+              videoTitle: prevCand.platform_video_title,
+              sourceUrl: prevCand.platform_video_source_url,
+              tier: prevCand.platform_video_tier ?? 1,
+              sourceType: prevCand.platform_video_source_type ?? "campaign_site",
+            }
+          : null;
+        const resolved = await resolveWithRefresh(
+          prevVideo,
+          prevCand?._platform_video_resolved_at,
+          c.candidateId,
+          async () => {
+            // Tier 1: the candidate's own campaign site.
+            const fromSite = campaignSiteUrl
+              ? await findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl)
+                  .then((r) => (r ? { ...r, tier: 1 as const, sourceType: "campaign_site" as const } : null))
+                  .catch(() => null)
+              : null;
+            if (fromSite) return fromSite;
+            // Tier 3: a YouTube link discovered on the candidate's own
+            // Wikipedia article (external links, infobox) -- reuses
+            // findCampaignVideoFromSite's exact same link-discovery +
+            // name-check safety logic, just pointed at wikipediaUrl
+            // instead of campaignSiteUrl. Deliberately tried before Tier 2
+            // (open-ended YouTube search): a video the subject or a known
+            // source specifically linked is more trustworthy than one a
+            // keyword search happens to turn up.
+            const fromWikipedia = wikipediaUrl
+              ? await findCampaignVideoFromSite(wikipediaUrl, c.name)
+                  .then((r) => (r ? { ...r, tier: 3 as const, sourceType: "wikipedia" as const } : null))
+                  .catch(() => null)
+              : null;
+            return fromWikipedia;
           }
-        : null;
-      const { value: video, resolvedAt: videoResolvedAt } = await resolveWithRefresh(
-        prevVideo,
-        prevCand?._platform_video_resolved_at,
-        c.candidateId,
-        () =>
-          campaignSiteUrl
-            ? findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl)
-                .then((r) => (r ? { ...r, tier: 1 as const } : null))
-                .catch(() => null)
-            : Promise.resolve(null)
-      );
+        );
+        video = resolved.value;
+        videoResolvedAt = resolved.resolvedAt;
+      }
 
       // A single representative, verbatim excerpt introducing who this
       // candidate is — deliberately separate from bio[] above (which is
@@ -643,28 +678,39 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
             ? `${opts.state} At-Large Congressional District election, 2026`
             : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
           : `${opts.state} U.S. Senate election, 2026`;
-      const prevBioSummary = prevCand?.bio_summary?.value
-        ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url, sourceType: prevCand.bio_summary.source_type ?? "campaign_site" }
-        : null;
-      const { value: bioSummary, resolvedAt: bioSummaryResolvedAt } = await resolveWithRefresh(
-        prevBioSummary,
-        prevCand?._bio_summary_resolved_at,
-        c.candidateId,
-        async () => {
-          const fromSite = campaignSiteUrl
-            ? await extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
-            : null;
-          if (fromSite) return fromSite;
+      // Same curated-always-wins protection as platform_video above.
+      let bioSummary: { summary: string; sourceUrl: string; sourceType: string } | null = null;
+      let bioSummaryResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.bio_summary) {
+        const cb = curatedEntry.bio_summary;
+        bioSummary = { summary: cb.value, sourceUrl: cb.source_url, sourceType: cb.source_type };
+        bioSummaryResolvedAt = prevCand?._bio_summary_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevBioSummary = prevCand?.bio_summary?.value
+          ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url, sourceType: prevCand.bio_summary.source_type ?? "campaign_site" }
+          : null;
+        const resolved = await resolveWithRefresh(
+          prevBioSummary,
+          prevCand?._bio_summary_resolved_at,
+          c.candidateId,
+          async () => {
+            const fromSite = campaignSiteUrl
+              ? await extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromSite) return fromSite;
 
-          const fromWikipedia = wikipediaUrl
-            ? await extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
-            : null;
-          if (fromWikipedia) return fromWikipedia;
+            const fromWikipedia = wikipediaUrl
+              ? await extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromWikipedia) return fromWikipedia;
 
-          const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
-          return ballotpediaUrl ? extractBioSummaryFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
-        }
-      );
+            const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
+            return ballotpediaUrl ? extractBioSummaryFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
+          }
+        );
+        bioSummary = resolved.value;
+        bioSummaryResolvedAt = resolved.resolvedAt;
+      }
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
       let attendance: { votesInSession: number; votesCast: number; attendanceRate: number } | null = null;
@@ -724,6 +770,12 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         platform_video_title: video?.videoTitle ?? null,
         platform_video_source_url: video?.sourceUrl ?? null,
         platform_video_tier: video?.tier ?? null,
+        // Distinguishes HOW this video was found: "campaign_site" (Tier 1),
+        // "wikipedia" (Tier 3, a link on the candidate's own article), or
+        // "curated" (hand-verified, protected from ever being overwritten
+        // by automation — see curated.ts). "youtube_search" (Tier 2) is set
+        // by scaleVideoTier2.ts directly, not this function.
+        platform_video_source_type: video?.sourceType ?? null,
         _platform_video_resolved_at: videoResolvedAt ?? null,
         // Nested {value, source_url}, matching every field in bio{} above —
         // not flat top-level fields — so the frontend's existing SourcedField
