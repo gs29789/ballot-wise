@@ -193,7 +193,17 @@ async function main() {
   for (const entry of due) {
     const races = matchingRaces(entry);
     if (!races.length) {
-      console.log(`[skip] ${entry.id}: no matching built race yet (nothing to resolve)`);
+      // Not a research failure -- the race itself was deliberately left out
+      // of build.ts's RACES list (e.g. a Senate seat with no confirmed
+      // nominee yet) and needs a human to add it there first. Surfaced
+      // through the same stillPending channel as every other unresolved
+      // case, not a bare console.log, so it actually reaches the daily
+      // digest instead of silently repeating in logs nobody reads.
+      stillPending.push({
+        entryId: entry.id,
+        label: `${entry.state} ${entry.chamber}`,
+        reason: "not yet in the pipeline's build list -- needs a RACES entry added to build.ts before this can resolve automatically",
+      });
       continue;
     }
 

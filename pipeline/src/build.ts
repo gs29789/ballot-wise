@@ -1074,9 +1074,11 @@ export const RACES: BuildRaceOptions[] = [
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/OK-3.json", district: "03" },
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/OK-4.json", district: "04" },
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/OK-5.json", district: "05" },
-  // OK Senate deliberately NOT built yet: Democratic nominee (Priest vs.
-  // Thomas) is unresolved until the Aug 25, 2026 runoff. NV has no Senate
-  // race in 2026.
+  // OK Senate: the Aug 25, 2026 Democratic runoff (Priest vs. Thomas) has
+  // passed, so this is now buildable -- resolvePendingPrimaries.ts narrows
+  // the FEC-registered candidate list to the actual runoff winner via
+  // autoPrimaryResults.json once it resolves. NV has no Senate race in 2026.
+  { state: "OK", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/OK.json" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/MD-1.json", district: "01" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/MD-2.json", district: "02" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/MD-3.json", district: "03" },
@@ -1108,7 +1110,10 @@ export const RACES: BuildRaceOptions[] = [
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/SC-5.json", district: "05" },
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/SC-6.json", district: "06" },
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/SC-7.json", district: "07" },
-  // SC Senate deliberately NOT built: Republican runoff (Graham-Nordone vs. Norman) pending 2026-08-25.
+  // SC Senate: the Aug 25, 2026 Republican runoff (Graham-Nordone vs.
+  // Norman) has passed, so this is now buildable -- see the OK Senate
+  // comment above for how the runoff winner gets resolved.
+  { state: "SC", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/SC.json" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/VA-1.json", district: "01" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/VA-2.json", district: "02" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/VA-3.json", district: "03" },
