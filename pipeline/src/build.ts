@@ -326,6 +326,24 @@ export interface BuildRaceOptions {
 // new state) without re-running every already-published race through
 // main() below — those already have current R2 data and gain nothing from
 // a rebuild, just wasted API calls and wall-clock time.
+// Cost note, worth reading before calling this directly on a race with no
+// resolved primary/runoff yet: the expensive part (per-candidate Ballotpedia
+// bio search + campaign-site discovery, each a real Claude + web-search
+// call) runs over `fecCandidates` below, AFTER getPrimaryFilter narrows it --
+// so a race with a known result only pays for its 1-2 actual advancing
+// candidates, but a race with NO result yet (primaryFilter is null) pays to
+// enrich every FEC-registered primary candidate, including everyone who'll
+// be discarded once it resolves. This is most visible right after adding a
+// previously-excluded race to RACES (e.g. a Senate seat held back pending
+// its own primary/runoff, like OK/SC in Aug 2026): calling buildRace() on it
+// as a "does this build" check pays full price for every primary candidate
+// for no real reason. To verify a newly-added race will build without that
+// cost, just confirm searchCandidates(state, office, cycle, district) returns
+// a non-empty list -- don't call buildRace() standalone as a test. Let
+// resolvePendingPrimaries.ts (or the daily routine, which only calls it
+// through there) trigger the first real build, since narrowing and
+// enrichment then happen together in one pass instead of enrich-everyone-
+// then-enrich-again-once-resolved.
 export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string[] }> {
   const previous = await fetchPreviousRace(opts.outFile);
   const previousCandidates: any[] = previous?.candidates ?? [];
