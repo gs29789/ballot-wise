@@ -133,8 +133,15 @@ export async function getCommitteeWebsite(candidateId: string): Promise<string |
   const site = principal?.website;
   if (!site) return null;
   // FEC returns some of these in all-caps (a data-entry artifact, not a
-  // meaningful case) — lowercased for a readable citation link.
-  const normalized = site.trim().toLowerCase();
+  // meaningful case) — lowercased for a readable citation link. Also strips
+  // ALL whitespace, not just leading/trailing: a real URL never legitimately
+  // contains a space, so any internal one (confirmed on real committee
+  // filings: "fierroforcongress. com/", "deploy malloy.com") is a data-entry
+  // typo, not something to preserve. Fixing this alone makes a dead-looking
+  // site fetchable for some candidates (deploymalloy.com resolves fine) —
+  // though not all (fierroforcongress.com's DNS genuinely doesn't resolve
+  // even once the typo is fixed, so that one stays a real dead-site gap).
+  const normalized = site.replace(/\s+/g, "").toLowerCase();
   return /^https?:\/\//.test(normalized) ? normalized : `https://${normalized}`;
 }
 
