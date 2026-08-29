@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-24",
-  "generated_at": "2026-08-20T15:56:06.812Z",
+  "generated_at": "2026-08-29T20:47:06.727Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 10037.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10033.3
+        "thousandsOfJobs": 10032.8
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542211703.63,
-        "perCapitaUsd": 700.66
+        "totalUsd": 542248339.13,
+        "perCapitaUsd": 700.71
       }
     ],
     "population": [
@@ -591,17 +601,19 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Te Brown is a real estate developer, small businesswoman, and homeschooling mom. She grew up on the tough streets of Chicago and relied on her Christian values and faith in America to build a successful business from scratch. She is a pro-MAGA, pro-Constitution conservative who isn’t afraid to stand up for what’s right.",
+        "source_url": "https://tebrownforflorida.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:11:51.139Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Te Brown is a real estate developer, small businesswoman, and homeschooling mom. She grew up on the tough streets of Chicago and relied on her Christian values and faith in America to build a successful business from scratch. She is a pro-MAGA, pro-Constitution conservative who isn’t afraid to stand up for what’s right.",
-        "source_url": "https://tebrownforflorida.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:11:51.139Z"
+      "_curated_match": false
     },
     {
       "slug": "andy-daro",
@@ -672,17 +684,19 @@
       "platform_video_title": "This campaign isn’t about Left or Right. It’s about moving Forward.",
       "platform_video_source_url": "https://www.andydaro.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T15:55:55.378Z",
+      "bio_summary": {
+        "value": "For the last four years, I've had the privilege of serving as a Commissioner for North Bay Village. During that time, I've learned that the challenges facing our communities; rising housing costs, skyrocketing insurance premiums, infrastructure works, and government inefficiency—aren't just local problems. They're national problems. I'm not running because I'm a career politician. I'm running because I'm a husband, a father, a small business owner, and someone who believes that government should work for the people again.",
+        "source_url": "https://www.andydaro.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:11:53.380Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "For the last four years, I've had the privilege of serving as a Commissioner for North Bay Village. During that time, I've learned that the challenges facing our communities; rising housing costs, skyrocketing insurance premiums, infrastructure works, and government inefficiency—aren't just local problems. They're national problems. I'm not running because I'm a career politician. I'm running because I'm a husband, a father, a small business owner, and someone who believes that government should work for the people again.",
-        "source_url": "https://www.andydaro.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:11:53.380Z"
+      "_curated_match": false
     },
     {
       "slug": "oliver-gilbert",
@@ -734,17 +748,71 @@
           "source_url": "https://en.wikipedia.org/wiki/Oliver_Gilbert",
           "snippet": "He is a brother in Omega Psi Phi fraternity.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "birthplace": {
+          "value": "Miami Gardens",
+          "source_url": "https://olivergilbert.vote/",
+          "snippet": "Raised in Miami Gardens",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Healthcare For All",
+          "snippet": "Healthcare For All"
+        },
+        {
+          "topic": "Taxes",
+          "value": "Eliminate Income Taxes for Working Families",
+          "snippet": "Eliminate Income Taxes for Working Families"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Stop ICE Raids Now",
+          "snippet": "Stop ICE Raids Now"
+        },
+        {
+          "topic": "Childcare and Education",
+          "value": "Universal Childcare & Pre-K",
+          "snippet": "Universal Childcare & Pre-K"
+        },
+        {
+          "topic": "Transportation",
+          "value": "Expand Rapid Transit",
+          "snippet": "Expand Rapid Transit"
+        },
+        {
+          "topic": "Jobs and Training",
+          "value": "Investing in Jobs & Job Training",
+          "snippet": "Investing in Jobs & Job Training"
+        },
+        {
+          "topic": "Small Business Support",
+          "value": "Startup grants and affordable financing to get your idea off the ground",
+          "snippet": "Startup grants and affordable financing to get your idea off the ground."
+        },
+        {
+          "topic": "Small Business Growth",
+          "value": "The SBA Growth Line offers low-interest loans to help you scale up",
+          "snippet": "The SBA Growth Line offers low-interest loans to help you scale up."
+        }
+      ],
+      "platform_source_url": "https://olivergilbert.vote/",
+      "_platform_resolved_at": "2026-08-29T20:46:23.923Z",
       "campaign_site_url": "https://olivergilbert.vote",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Oliver Gilbert III is an American politician and current Miami-Dade County Commissioner for District 1. He is also the former mayor of Miami Gardens . Career [ edit source ] Gilbert received a B.A. in Criminal Justice from Florida A&M University and a J.D. from University of Miami School of Law . [ 1 ] He entered politics early out of law school in 2000, when then-state representative Dorothy Bendross-Mindingall hired him as a legislative aide. He then worked as deputy of policy for former US attorney general Janet Reno 's gubernatorial campaign. [ 2 ] A couple years later, after working first as a prosecutor and then in private practice, he vied for the mayoralty of the newly incorporated City of Miami Gardens in 2003 where he lost. He was appointed to the Miami Gardens council in 2008 and 4 years later was elected mayor, [ 2 ] the second African-American to hold the position. ",
+        "source_url": "https://en.wikipedia.org/wiki/Oliver_Gilbert",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:23:11.609Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081132.pdf",
         "filingDate": "7/1/2026",
@@ -758,18 +826,12 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:56:02.717Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Oliver Gilbert III is an American politician and current Miami-Dade County Commissioner for District 1. He is also the former mayor of Miami Gardens . Career [ edit source ] Gilbert received a B.A. in Criminal Justice from Florida A&M University and a J.D. from University of Miami School of Law . [ 1 ] He entered politics early out of law school in 2000, when then-state representative Dorothy Bendross-Mindingall hired him as a legislative aide. He then worked as deputy of policy for former US attorney general Janet Reno 's gubernatorial campaign. [ 2 ] A couple years later, after working first as a prosecutor and then in private practice, he vied for the mayoralty of the newly incorporated City of Miami Gardens in 2003 where he lost. He was appointed to the Miami Gardens council in 2008 and 4 years later was elected mayor, [ 2 ] the second African-American to hold the position. ",
-        "source_url": "https://en.wikipedia.org/wiki/Oliver_Gilbert",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T11:23:11.609Z"
+      "_curated_match": false
     },
     {
       "slug": "patricia-gonzalez",
       "full_name": "GONZALEZ, PATRICIA",
-      "party": "INDEPENDENT",
+      "party": "REPUBLICAN PARTY",
       "incumbent": false,
       "fec_candidate_id": "H2FL24052",
       "fec_status": "N",
@@ -796,7 +858,10 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

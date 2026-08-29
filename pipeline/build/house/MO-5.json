@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-21T14:00:09.394Z",
+  "generated_at": "2026-08-29T20:52:22.777Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3014.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3000.9
+        "thousandsOfJobs": 3006.8
       },
       {
         "year": "2026",
@@ -473,8 +483,8 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 25816923342.32,
-        "perCapitaUsd": 33889.15
+        "totalUsd": 25816908232.68,
+        "perCapitaUsd": 33889.13
       },
       {
         "year": "2024",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 32080677596.88,
-        "perCapitaUsd": 42111.4
+        "totalUsd": 32080506539.88,
+        "perCapitaUsd": 42111.18
       }
     ],
     "population": [
@@ -576,10 +586,12 @@
       "platform_video_title": "Declare independence from a failing 2 party system.",
       "platform_video_source_url": "https://voteformissouri.net/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:05:21.990Z",
       "bio_summary": {
         "value": "I refuse corporate PAC money or any dark money. If anyone donates equipment, services or money for this campaign to reach more people every dollar will be 100% transparent. Every Missourian’s vote matters equally.",
-        "source_url": "https://voteformissouri.net/"
+        "source_url": "https://voteformissouri.net/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:04:45.053Z",
       "financial_disclosure": null,
@@ -639,6 +651,7 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Richard Ray Brattin Jr. (born July 22, 1980) is an American politician serving as a Republican state senator from Missouri , representing the 31st district, composing of Cass, Bates, Barton, Henry, and Vernon counties. [ 1 ] He is a former state representative, having served three terms in the Missouri House of Representatives . He represented Missouri's 55th Legislative District, which encompasses several suburbs of Kansas City in Cass County , including Raymore , Peculiar , and Lake Winnebago . He is currently Vice Chairman of the Corrections and Consumer Affairs committees. Brattin is a candidate for the 2026 United States House of Representatives elections in Missouri for Missouri's 5th congressional district . [ 2 ] ",
@@ -744,10 +757,12 @@
       "platform_video_title": "Emanuel Cleaver And Scott Bessent Have Tense Exchange About The Federal Reserve",
       "platform_video_source_url": "https://www.cleaver4congress.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-21T13:59:36.606Z",
       "bio_summary": {
         "value": "The Kansas City Star profiled Congressman Emanuel Cleaver's decades of public service, from serving as Kansas City's first Black mayor to becoming a leading voice in Congress on housing, economic development and bipartisan leadership. The feature examines Cleaver's lasting impact on the region as he seeks another term representing Missouri's Fifth District.",
-        "source_url": "https://www.cleaver4congress.com/"
+        "source_url": "https://www.cleaver4congress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T13:59:41.504Z",
       "financial_disclosure": null,
@@ -849,6 +864,7 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": null,
       "_bio_summary_resolved_at": null,

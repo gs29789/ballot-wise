@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-22",
-  "generated_at": "2026-08-20T15:52:14.797Z",
+  "generated_at": "2026-08-29T20:43:58.975Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 10037.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10033.3
+        "thousandsOfJobs": 10032.8
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542211703.63,
-        "perCapitaUsd": 700.66
+        "totalUsd": 542248339.13,
+        "perCapitaUsd": 700.71
       }
     ],
     "population": [
@@ -598,7 +608,14 @@
       "platform_video_title": "Askar   FL CD22   26FLASKA07V00 – Askar Priorities",
       "platform_video_source_url": "https://www.caseyaskar.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T15:52:07.214Z",
+      "bio_summary": {
+        "value": "Casey Askar is a national business leader, U.S. Marine, philanthropist, and family man, who will to work alongside President Donald Trump to fix the economy for our families in South Florida, and across America. Casey employs thousands of people in the district and across South Florida. He is the Chairman and CEO of Askar Family Office, a company specializing in franchising, commercial real estate, energy, and construction. He built his company from the ground up and operates businesses in two dozen states across the country.",
+        "source_url": "https://www.caseyaskar.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:10:33.853Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081256.pdf",
         "filingDate": "7/17/2026",
@@ -612,12 +629,7 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:52:11.339Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Casey Askar is a national business leader, U.S. Marine, philanthropist, and family man, who will to work alongside President Donald Trump to fix the economy for our families in South Florida, and across America. Casey employs thousands of people in the district and across South Florida. He is the Chairman and CEO of Askar Family Office, a company specializing in franchising, commercial real estate, energy, and construction. He built his company from the ground up and operates businesses in two dozen states across the country.",
-        "source_url": "https://www.caseyaskar.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:10:33.853Z"
+      "_curated_match": false
     },
     {
       "slug": "pia-dandiya",
@@ -640,16 +652,62 @@
           "selfFunded": 247000
         }
       },
-      "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "bio": {
+        "birthplace": {
+          "value": "Palm Beach County",
+          "source_url": "https://piaforcongress.com/",
+          "snippet": "Pia was born and raised in Palm Beach County to parents who emigrated from India in pursuit of a better life.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "She began her career as a teacher and became a high-performing school principal in Harlem. She later served as a White House Fellow at the Department of Education and went on to lead public-sector innovation at Apple, partnering with state and local leaders to deliver real solutions for communities.",
+          "source_url": "https://piaforcongress.com/",
+          "snippet": "She began her career as a teacher and became a high-performing school principal in Harlem. She later served as a White House Fellow at the Department of Education and went on to lead public-sector innovation at Apple, partnering with state and local leaders to deliver real solutions for communities.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Social Security, Medicare, Medicaid, and Veterans",
+          "value": "Protect Social Security, Medicare, Medicaid, and the veterans who served us.",
+          "snippet": "Protect Social Security, Medicare, Medicaid, and the veterans who served us."
+        },
+        {
+          "topic": "Housing and Insurance Costs",
+          "value": "Take on the housing, insurance, and everyday costs squeezing South Florida families.",
+          "snippet": "Take on the housing, insurance, and everyday costs squeezing South Florida families."
+        },
+        {
+          "topic": "Lower Costs",
+          "value": "Fight for lower costs",
+          "snippet": "She's running for Congress to fight for lower costs"
+        },
+        {
+          "topic": "Schools",
+          "value": "Fight for great schools",
+          "snippet": "She's running for Congress to fight for lower costs, great schools"
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Fight for a government that works for the people — not the powerful",
+          "snippet": "She's running for Congress to fight for lower costs, great schools, and a government that works for the people — not the powerful."
+        }
+      ],
+      "platform_source_url": "https://piaforcongress.com/",
+      "_platform_resolved_at": "2026-08-29T20:43:43.474Z",
       "campaign_site_url": "https://www.piaforcongress.com",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Pia was born and raised in Palm Beach County to parents who emigrated from India in pursuit of a better life. She began her career as a teacher and became a high-performing school principal in Harlem. She later served as a White House Fellow at the Department of Education and went on to lead public-sector innovation at Apple, partnering with state and local leaders to deliver real solutions for communities. She's running for Congress to fight for lower costs, great schools, and a government that works for the people — not the powerful.",
+        "source_url": "https://piaforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:43:50.395Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
