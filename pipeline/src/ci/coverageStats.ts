@@ -1,5 +1,5 @@
 import "dotenv/config";
-import { readFileSync, readdirSync } from "node:fs";
+import { readFileSync, readdirSync, writeFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 
 // Prints how much of the candidate dataset actually has each kind of
@@ -12,6 +12,42 @@ import { join } from "node:path";
 // Cloudflare -- everything else here stays a pure local read.
 const BUILD_ROOT = join(import.meta.dirname, "..", "..", "build");
 
+// Persists the last run's raw counts so every run can show variance, not
+// just a point-in-time snapshot. Git-tracked (small, plain JSON) so it
+// survives between routine runs -- the daily routine must commit+push it
+// every run, not just on days something else changes, or the "previous
+// run" comparison silently resets whenever an ephemeral CCR session ends
+// without committing it.
+const HISTORY_PATH = join(import.meta.dirname, "coverageStatsHistory.json");
+
+interface StatsSnapshot {
+  generatedAt: string;
+  totalRaces: number;
+  totalCandidates: number;
+  incumbents: number;
+  background: number;
+  anyBioField: number;
+  finances: number;
+  platformSummary: number;
+  video: number;
+  campaignSite: number;
+  incumbentsWithTrackRecord: number;
+  siteVisitsRaw: number | null;
+}
+
+function loadPrevious(): StatsSnapshot | null {
+  if (!existsSync(HISTORY_PATH)) return null;
+  try {
+    return JSON.parse(readFileSync(HISTORY_PATH, "utf8"));
+  } catch {
+    return null;
+  }
+}
+
+function saveCurrent(snapshot: StatsSnapshot) {
+  writeFileSync(HISTORY_PATH, JSON.stringify(snapshot, null, 2));
+}
+
 // Cloudflare's RUM (Real User Monitoring) pageload event count -- actual
 // browser-reported page loads, not raw HTTP requests (which would also
 // count every image/JS/CSS asset and API call, wildly overcounting real
@@ -21,11 +57,13 @@ const BUILD_ROOT = join(import.meta.dirname, "..", "..", "build");
 // it was widened 2026-08-28. Fails soft: any error here (missing token,
 // insufficient permission, network issue) just omits this one line
 // rather than breaking the rest of the report, matching how every other
-// optional check in this pipeline degrades.
-async function getSiteVisits(): Promise<string> {
+// optional check in this pipeline degrades. Returns the raw count
+// alongside the display string so main() can diff it against last run --
+// the string alone ("53 (last 7 days)") isn't parseable back out cleanly.
+async function getSiteVisits(): Promise<{ display: string; raw: number | null }> {
   const token = process.env.CLOUDFLARE_API_TOKEN;
   const accountTag = process.env.R2_ACCOUNT_ID; // same Cloudflare account as R2, already on hand
-  if (!token || !accountTag) return "not available (CLOUDFLARE_API_TOKEN or account id not configured here)";
+  if (!token || !accountTag) return { display: "not available (CLOUDFLARE_API_TOKEN or account id not configured here)", raw: null };
 
   const until = new Date().toISOString();
   const since = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000).toISOString();
@@ -47,10 +85,10 @@ async function getSiteVisits(): Promise<string> {
     });
     const data: any = await res.json();
     const count = data?.data?.viewer?.accounts?.[0]?.rumPageloadEventsAdaptiveGroups?.[0]?.count;
-    if (typeof count !== "number") return `not available (${JSON.stringify(data.errors ?? data).slice(0, 200)})`;
-    return `${count.toLocaleString()} (last 7 days)`;
+    if (typeof count !== "number") return { display: `not available (${JSON.stringify(data.errors ?? data).slice(0, 200)})`, raw: null };
+    return { display: `${count.toLocaleString()} (last 7 days)`, raw: count };
   } catch (err: any) {
-    return `not available (${err?.message ?? err})`;
+    return { display: `not available (${err?.message ?? err})`, raw: null };
   }
 }
 
@@ -61,7 +99,19 @@ function walk(dir: string): string[] {
   });
 }
 
+// Formats a raw-count delta against the previous run, e.g. "(+12)" or
+// "(-3)" or "(unchanged)". null means no previous run to compare against
+// (first run ever, or history file missing/corrupt) -- silent in that
+// case rather than printing a misleading "(+N)" against zero.
+function delta(current: number, previous: number | null | undefined): string {
+  if (previous === null || previous === undefined) return "";
+  const d = current - previous;
+  if (d === 0) return " (unchanged)";
+  return ` (${d > 0 ? "+" : ""}${d})`;
+}
+
 async function main() {
+  const previous = loadPrevious();
   const siteVisits = await getSiteVisits();
   const files = [...walk(join(BUILD_ROOT, "house")), ...walk(join(BUILD_ROOT, "senate"))];
   let total = 0;
@@ -100,16 +150,37 @@ async function main() {
   const pct = (n: number, d: number) => (d === 0 ? "n/a" : `${n}/${d} (${((n / d) * 100).toFixed(1)}%)`);
 
   console.log(`COVERAGE_STATS_START`);
-  console.log(`Site visits:               ${siteVisits}`);
-  console.log(`${files.length} race files, ${total} candidates total (${incumbents} incumbents).`);
-  console.log(`Background summary:        ${pct(counts.background, total)}`);
-  console.log(`Any structured bio fact:   ${pct(counts.anyBioField, total)}`);
-  console.log(`Financial totals on file:  ${pct(counts.finances, total)}`);
-  console.log(`Platform/issues summary:   ${pct(counts.platformSummary, total)}`);
-  console.log(`Campaign video:            ${pct(counts.video, total)}`);
-  console.log(`Campaign site on file:     ${pct(counts.campaignSite, total)}`);
-  console.log(`Congress track record:     ${pct(incumbentsWithTrackRecord, incumbents)} of incumbents`);
+  if (!previous) console.log(`(no previous run on file -- this becomes the baseline for next time)`);
+  console.log(`Site visits:               ${siteVisits.display}${delta(siteVisits.raw ?? 0, previous?.siteVisitsRaw)}`);
+  console.log(
+    `${files.length} race files${delta(files.length, previous?.totalRaces)}, ${total} candidates total${delta(total, previous?.totalCandidates)} (${incumbents} incumbents${delta(incumbents, previous?.incumbents)}).`
+  );
+  console.log(`Background summary:        ${pct(counts.background, total)}${delta(counts.background, previous?.background)}`);
+  console.log(`Any structured bio fact:   ${pct(counts.anyBioField, total)}${delta(counts.anyBioField, previous?.anyBioField)}`);
+  console.log(`Financial totals on file:  ${pct(counts.finances, total)}${delta(counts.finances, previous?.finances)}`);
+  console.log(`Platform/issues summary:   ${pct(counts.platformSummary, total)}${delta(counts.platformSummary, previous?.platformSummary)}`);
+  console.log(`Campaign video:            ${pct(counts.video, total)}${delta(counts.video, previous?.video)}`);
+  console.log(`Campaign site on file:     ${pct(counts.campaignSite, total)}${delta(counts.campaignSite, previous?.campaignSite)}`);
+  console.log(
+    `Congress track record:     ${pct(incumbentsWithTrackRecord, incumbents)} of incumbents${delta(incumbentsWithTrackRecord, previous?.incumbentsWithTrackRecord)}`
+  );
+  if (previous) console.log(`(vs. run on ${previous.generatedAt})`);
   console.log(`COVERAGE_STATS_END`);
+
+  saveCurrent({
+    generatedAt: new Date().toISOString(),
+    totalRaces: files.length,
+    totalCandidates: total,
+    incumbents,
+    background: counts.background,
+    anyBioField: counts.anyBioField,
+    finances: counts.finances,
+    platformSummary: counts.platformSummary,
+    video: counts.video,
+    campaignSite: counts.campaignSite,
+    incumbentsWithTrackRecord,
+    siteVisitsRaw: siteVisits.raw,
+  });
 }
 
 main().catch((err) => {
