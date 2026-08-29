@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-29T13:52:03.844Z",
+  "generated_at": "2026-08-29T15:32:56.230Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
@@ -558,8 +558,12 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Anne Lintzenich Andrews (born 1981) is an American pediatrician and political candidate who is the Democratic nominee for the 2026 United States Senate election in South Carolina.",
+        "source_url": "https://en.wikipedia.org/wiki/Annie_Andrews_(physician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T15:18:00.071595Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -605,17 +609,27 @@
           "source_url": "https://www.darlinegraham.com/",
           "snippet": "Board Member, SC State Workforce Development Board and its SC Works Management Committee. President-Elect National Council of State Agencies for the Blind.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1964-06-12",
+          "source_url": "https://www.wikidata.org/wiki/Q140537772",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "College of Charleston",
+          "source_url": "https://www.wikidata.org/wiki/Q140537772",
+          "source_type": "wikidata_structured"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.darlinegraham.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=b4lvXMBZh54",
+      "platform_video_title": "Darline Graham for Senate",
+      "platform_video_source_url": "https://www.darlinegraham.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-29T15:32:44.945Z",
       "bio_summary": {
         "value": "For nearly 30 years, Darline Graham has served her home state of South Carolina. Long before she took the oath as the state’s first female senator, she ran programs that helped South Carolinians with disabilities find employment, provide for their families, and live independently. Darline, who is fiercely protective of taxpayer dollars, helped turn around a struggling state agency known for inefficiency. At the Commission for the Blind, she led 130 employees in 10 offices and oversaw a $90 million budget. In her previous roles, she helped South Carolinians find jobs through her work at the state’s vocational rehabilitation agency and Department of Employment and Workforce. Darline has devoted her life to helping people find dignity through work – enabling them to contribute to society and support their families. ",
         "source_url": "https://www.darlinegraham.com/",
