@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7712573319.84,
-        "perCapitaUsd": 8560.21
+        "totalUsd": 7715782388.3,
+        "perCapitaUsd": 8563.78
       },
       {
         "year": "2024",
-        "totalUsd": 8670961093.82,
-        "perCapitaUsd": 9623.93
+        "totalUsd": 8677389156.82,
+        "perCapitaUsd": 9631.07
       },
       {
         "year": "2025",
-        "totalUsd": 8453843089.31,
-        "perCapitaUsd": 9382.95
+        "totalUsd": 8454211484.99,
+        "perCapitaUsd": 9383.36
       }
     ],
     "population": [
@@ -685,7 +685,28 @@
           "votesCast": 275,
           "attendanceRate": 0.9717314487632509
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Labor, Health and Human Services, Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Legislative Branch",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 19,
         "bills_cosponsored": 135,
         "bills_became_law": 0,

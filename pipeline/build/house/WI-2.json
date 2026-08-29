@@ -478,13 +478,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 7145191640.47,
-        "perCapitaUsd": 9681.49
+        "totalUsd": 7150304585.47,
+        "perCapitaUsd": 9688.42
       },
       {
         "year": "2025",
-        "totalUsd": 7401151885.63,
-        "perCapitaUsd": 10028.31
+        "totalUsd": 7401162439.89,
+        "perCapitaUsd": 10028.32
       }
     ],
     "population": [
@@ -587,7 +587,28 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Labor, Health and Human Services, Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 171,
         "bills_cosponsored": 4767,
         "bills_became_law": 1,
