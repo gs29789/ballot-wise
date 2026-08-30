@@ -34,6 +34,42 @@ import { getCommitteeWebsite, FecRateLimitError } from "../sources/fec.js";
 // script can never block a future proper rebuild from re-checking.
 const BUILD_ROOT = join(import.meta.dirname, "..", "..", "build");
 
+// Persistent, git-tracked (not build/, which is gitignored) list of
+// candidates confirmed behind a genuine Cloudflare bot challenge -- not a
+// fixable User-Agent block, a hard wall this pipeline cannot bypass (see
+// electjon.com/Ossoff, the case that established this distinction).
+// Updated by every run of this script, whoever runs it (this session, the
+// weekly-free-refresh routine) -- accumulates over time as more of the
+// backlog gets checked, so it stays a complete, current list rather than a
+// one-off snapshot that goes stale the moment more discovery happens.
+// These candidates need a human to manually curate content (same override
+// mechanism as Clyburn/Andrews) -- no further automated pass will ever
+// resolve them.
+const NEEDS_REVIEW_PATH = join(import.meta.dirname, "needsHumanReview.json");
+
+interface ReviewEntry {
+  name: string;
+  race: string;
+  url: string;
+  incumbent: boolean;
+  first_detected_at: string;
+}
+
+interface ReviewFile {
+  last_updated: string;
+  cloudflare_challenge: ReviewEntry[];
+  still_unchecked_count: number;
+}
+
+function loadReviewFile(): ReviewFile {
+  if (!existsSync(NEEDS_REVIEW_PATH)) return { last_updated: "", cloudflare_challenge: [], still_unchecked_count: 0 };
+  try {
+    return JSON.parse(readFileSync(NEEDS_REVIEW_PATH, "utf-8"));
+  } catch {
+    return { last_updated: "", cloudflare_challenge: [], still_unchecked_count: 0 };
+  }
+}
+
 const REALISTIC_UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
@@ -111,9 +147,14 @@ async function processCandidate(c: any): Promise<Classification | null> {
 
 async function processRace(
   opts: (typeof RACES)[number]
-): Promise<{ checked: number; results: Record<Classification, number>; rateLimited: boolean }> {
+): Promise<{ checked: number; results: Record<Classification, number>; rateLimited: boolean; newCloudflareEntries: ReviewEntry[] }> {
   const localPath = join(BUILD_ROOT, opts.outFile);
-  const empty = { checked: 0, results: { reachable: 0, cloudflare_challenge: 0, blocked_other: 0, dead: 0, no_site_on_fec: 0 }, rateLimited: false };
+  const empty = {
+    checked: 0,
+    results: { reachable: 0, cloudflare_challenge: 0, blocked_other: 0, dead: 0, no_site_on_fec: 0 },
+    rateLimited: false,
+    newCloudflareEntries: [] as ReviewEntry[],
+  };
   if (!existsSync(localPath)) return empty;
   const data = JSON.parse(readFileSync(localPath, "utf-8"));
   if (!Array.isArray(data.candidates)) return empty;
@@ -138,8 +179,12 @@ async function processRace(
     }
   }
 
+  const newCloudflareEntries: ReviewEntry[] = eligible
+    .filter((c: any) => c._campaign_site_reachability === "cloudflare_challenge")
+    .map((c: any) => ({ name: c.full_name, race: opts.outFile, url: c.campaign_site_url, incumbent: Boolean(c.incumbent), first_detected_at: new Date().toISOString() }));
+
   if (checked > 0) writeFileSync(localPath, JSON.stringify(data, null, 2));
-  return { checked, results, rateLimited };
+  return { checked, results, rateLimited, newCloudflareEntries };
 }
 
 async function main() {
@@ -151,12 +196,22 @@ async function main() {
   const limit = process.env.DISCOVERY_LIMIT ? Number(process.env.DISCOVERY_LIMIT) : RACES.length;
   const races = RACES.slice(0, limit);
 
+  const reviewFile = loadReviewFile();
+  const knownKeys = new Set(reviewFile.cloudflare_challenge.map((e) => `${e.race}|${e.name}`));
+
   for (const opts of races) {
-    const { checked, results, rateLimited } = await processRace(opts);
+    const { checked, results, rateLimited, newCloudflareEntries } = await processRace(opts);
     totalChecked += checked;
     for (const k of Object.keys(totals) as Classification[]) totals[k] += results[k];
     if (checked > 0) {
       console.log(`${opts.outFile}: ${checked} checked -> reachable ${results.reachable}, cf-challenge ${results.cloudflare_challenge}, blocked ${results.blocked_other}, dead ${results.dead}, no-site ${results.no_site_on_fec}`);
+    }
+    for (const entry of newCloudflareEntries) {
+      const key = `${entry.race}|${entry.name}`;
+      if (!knownKeys.has(key)) {
+        reviewFile.cloudflare_challenge.push(entry);
+        knownKeys.add(key);
+      }
     }
     if (rateLimited) {
       console.log(`\nFEC_API_KEY hit its rate limit at ${opts.outFile} -- stopping here rather than mislabeling the rest.`);
@@ -165,12 +220,31 @@ async function main() {
     }
   }
 
+  // "Remaining search" count -- how many candidates across the WHOLE
+  // dataset (not just this run's slice) still have campaign_site_url
+  // absent entirely. Scanned fresh every run so it reflects reality even
+  // when a run stops early on a rate limit.
+  let stillUnchecked = 0;
+  for (const opts of RACES) {
+    const localPath = join(BUILD_ROOT, opts.outFile);
+    if (!existsSync(localPath)) continue;
+    const data = JSON.parse(readFileSync(localPath, "utf-8"));
+    if (!Array.isArray(data.candidates)) continue;
+    stillUnchecked += data.candidates.filter((c: any) => c.campaign_site_url === undefined).length;
+  }
+  reviewFile.still_unchecked_count = stillUnchecked;
+  reviewFile.last_updated = new Date().toISOString();
+  writeFileSync(NEEDS_REVIEW_PATH, JSON.stringify(reviewFile, null, 2));
+
   console.log(`\nDone. ${totalChecked} candidates checked.`);
   console.log(`  Reachable (real content available):     ${totals.reachable}`);
   console.log(`  Cloudflare JS challenge (not bypassable): ${totals.cloudflare_challenge}`);
   console.log(`  Blocked, other (may be fixable):         ${totals.blocked_other}`);
   console.log(`  Dead / no DNS / timeout:                 ${totals.dead}`);
   console.log(`  No site on file with FEC at all:         ${totals.no_site_on_fec}`);
+  console.log(`\n${reviewFile.cloudflare_challenge.length} candidates total on the needs-human-review list (Cloudflare-blocked, never fixable by automation).`);
+  console.log(`${stillUnchecked} candidates across the whole dataset still never checked at all -- this list will keep growing until that reaches 0.`);
+  console.log(`See pipeline/src/ci/needsHumanReview.json for the full, current, persistent list.`);
   console.log(`\nRun "npm run publish" to push the updated files to R2.`);
 }
 
