@@ -7,21 +7,21 @@
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
-    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "primarySnippet": "100.061 Primary election.\u2014In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
     "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
   },
   "state_background_check": {
     "required": false,
-    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, \u00a74(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' \u2014 text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, \u00a72, cl.2 for the House; \u00a73, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, \u00a75). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) \u2014 no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters \u2014 and Fla. Stat. \u00a799.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
     "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
     "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
   },
   "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
-    "snippet": "This primary was canceled and this candidate advanced: Carlos Gimenez (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Phil Ehr ✔"
+    "snippet": "This primary was canceled and this candidate advanced: Carlos Gimenez (Incumbent) \u2714 ... This primary was canceled and this candidate advanced: Phil Ehr \u2714"
   },
   "hard_metrics": {
     "unemployment_rate": [
@@ -599,7 +599,7 @@
       "platform_source_url": "https://ehrforcongress.us/",
       "_platform_resolved_at": "2026-08-14T14:45:30.822Z",
       "platform_video_url": "https://www.youtube.com/watch?v=TGVmlyKsLFQ",
-      "platform_video_title": "Capitán de la Marina Phil “Felipe” Ehr para el Congreso de los Estados Unidos",
+      "platform_video_title": "Capit\u00e1n de la Marina Phil \u201cFelipe\u201d Ehr para el Congreso de los Estados Unidos",
       "platform_video_source_url": "https://ehrforcongress.us/",
       "_platform_video_resolved_at": "2026-08-18T22:06:00.339Z",
       "financial_disclosure": null,
@@ -608,7 +608,7 @@
       "performance": null,
       "_curated_match": false,
       "bio_summary": {
-        "value": "Phil Ehr’s first mission in the Navy was the Mariel Boatlift, where he helped rescue Cuban exiles who risked it all for freedom and opportunity in America. He went on to serve a full career in the Navy and beyond—often in harm’s way— fighting communists, fascists and terrorists. Phil’s lifelong commitment to our freedoms, democracy and prosperity continues in his campaign to replace Rep. Carlos Gimenez in Congress.",
+        "value": "Phil Ehr\u2019s first mission in the Navy was the Mariel Boatlift, where he helped rescue Cuban exiles who risked it all for freedom and opportunity in America. He went on to serve a full career in the Navy and beyond\u2014often in harm\u2019s way\u2014 fighting communists, fascists and terrorists. Phil\u2019s lifelong commitment to our freedoms, democracy and prosperity continues in his campaign to replace Rep. Carlos Gimenez in Congress.",
         "source_url": "https://ehrforcongress.us/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:13:30.026Z"
@@ -665,13 +665,13 @@
         "marital_status": {
           "value": "Married to Lourdes Portela since 1975",
           "source_url": "https://en.wikipedia.org/wiki/Carlos_A._Gim%C3%A9nez",
-          "snippet": "Spouse Lourdes Portela ​ ( married&lt;/span>\"}]]}'>m. 1975 ) ​",
+          "snippet": "Spouse Lourdes Portela \u200b ( married&lt;/span>\"}]]}'>m. 1975 ) \u200b",
           "source_type": "llm_extracted_wikipedia"
         },
         "civic_affiliations": {
           "value": "Former member of International City Managers Association, International Association of Fire Chiefs, National Fire Protection Association, Florida Fire Chiefs, and Fire Officers Association of Miami-Dade; served on Federal Emergency Management Agency Urban Search and Rescue Advisory Committee and as chair of the Legal Issues Subcommittee",
           "source_url": "https://en.wikipedia.org/wiki/Carlos_A._Gim%C3%A9nez",
-          "snippet": "Giménez is a former member of the International City Managers Association, the International Association of Fire Chiefs , the National Fire Protection Association , the Florida Fire Chiefs, and the Fire Officers Association of Miami-Dade. He also served on the Federal Emergency Management Agency Urban Search and Rescue Advisory Committee and as the chair of the Legal Issues Subcommittee.",
+          "snippet": "Gim\u00e9nez is a former member of the International City Managers Association, the International Association of Fire Chiefs , the National Fire Protection Association , the Florida Fire Chiefs, and the Fire Officers Association of Miami-Dade. He also served on the Federal Emergency Management Agency Urban Search and Rescue Advisory Committee and as the chair of the Legal Issues Subcommittee.",
           "source_type": "llm_extracted_wikipedia"
         }
       },
@@ -720,22 +720,22 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Homeland Security — Transportation and Maritime Security",
+            "committee": "House Committee on Homeland Security \u2014 Transportation and Maritime Security",
             "title": "Chairman",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Armed Services — Tactical Air and Land Forces",
+            "committee": "House Committee on Armed Services \u2014 Tactical Air and Land Forces",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Armed Services — Readiness",
+            "committee": "House Committee on Armed Services \u2014 Readiness",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Homeland Security — Cybersecurity and Infrastructure Protection",
+            "committee": "House Committee on Homeland Security \u2014 Cybersecurity and Infrastructure Protection",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -759,7 +759,7 @@
       },
       "_curated_match": false,
       "bio_summary": {
-        "value": "Born in Cuba in 1954, Gimenez immigrated to the United States with his family following the Cuban Revolution in 1960. His family settled in Miami’s Little Havana neighborhood and Gimenez has been a Miami-Dade resident ever since. Mayor Gimenez has dedicated his life to his community and the people of Miami-Dade County as a firefighter, an administrator and as an elected public servant.",
+        "value": "Born in Cuba in 1954, Gimenez immigrated to the United States with his family following the Cuban Revolution in 1960. His family settled in Miami\u2019s Little Havana neighborhood and Gimenez has been a Miami-Dade resident ever since. Mayor Gimenez has dedicated his life to his community and the people of Miami-Dade County as a firefighter, an administrator and as an elected public servant.",
         "source_url": "https://carlosgimenezforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:13:27.579Z"
@@ -822,7 +822,7 @@
       "performance": null,
       "_curated_match": false,
       "bio_summary": {
-        "value": "Eddy Rojas came to Miami from Cuba with a dream and a work ethic that wouldn't quit. Over the past 20 years, he built a successful service company from the ground up — going from parking cars to leading one of Florida's most respected service businesses. ​ ​ He knows what it means to work hard, raise a family, and fight for the American Dream. Now, Eddy is running for Congress to bring that same dedication and honesty to Washington — because Miami's hardworking families deserve a representative who truly understands their struggles.",
+        "value": "Eddy Rojas came to Miami from Cuba with a dream and a work ethic that wouldn't quit. Over the past 20 years, he built a successful service company from the ground up \u2014 going from parking cars to leading one of Florida's most respected service businesses. \u200b \u200b He knows what it means to work hard, raise a family, and fight for the American Dream. Now, Eddy is running for Congress to bring that same dedication and honesty to Washington \u2014 because Miami's hardworking families deserve a representative who truly understands their struggles.",
         "source_url": "https://www.eddyrojas.com/about"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:13:32.327Z"

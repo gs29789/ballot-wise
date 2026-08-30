@@ -7,21 +7,21 @@
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
-    "primarySnippet": "\u00a7 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
     "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
     "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
-    "snippet": "\u00a7 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "voting_system": null,
   "primary_results": {
     "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-25-results",
-    "snippet": "R: V. McIntyre \u2014 uncontested. D: J. Morelle (incumbent) 63.3% over R. Wilt 30.3%, S. Traywick 6.0%."
+    "snippet": "R: V. McIntyre — uncontested. D: J. Morelle (incumbent) 63.3% over R. Wilt 30.3%, S. Traywick 6.0%."
   },
   "hard_metrics": {
     "unemployment_rate": [
@@ -566,11 +566,14 @@
       "_tier2_search_attempted_at": "2026-08-20T12:46:41.614Z",
       "_no_site_search_attempted_at": "2026-08-22T15:31:55.320Z",
       "bio_summary": {
-        "value": "Virginia McIntyre is a Monroe County Legislator representing parts of Gates and Greece and a candidate for the U.S. House in New York\u2019s 25th Congressional District. She has served in the county legislature since 2024 and was designated by the Monroe County Republican Committee to run for Congress. McIntyre is running to bring practical, results-driven leadership to Washington, with a focus on representing working families, restoring trust in government, and addressing the issues that directly impact Western New York communities. Her campaign emphasizes accountability, responsiveness to constituents across party lines, and delivering measurable results rather than partisan politics. She believes elected officials should listen to their communities, prioritize service over politics, and work to unify rather than divide. Her approach is rooted in local experience, hands-on governance, and a commitment to improving quality of life for residents across the district. ",
+        "value": "Virginia McIntyre is a Monroe County Legislator representing parts of Gates and Greece and a candidate for the U.S. House in New York’s 25th Congressional District. She has served in the county legislature since 2024 and was designated by the Monroe County Republican Committee to run for Congress. McIntyre is running to bring practical, results-driven leadership to Washington, with a focus on representing working families, restoring trust in government, and addressing the issues that directly impact Western New York communities. Her campaign emphasizes accountability, responsiveness to constituents across party lines, and delivering measurable results rather than partisan politics. She believes elected officials should listen to their communities, prioritize service over politics, and work to unify rather than divide. Her approach is rooted in local experience, hands-on governance, and a commitment to improving quality of life for residents across the district. ",
         "source_url": "https://ballotpedia.org/Virginia_McIntyre",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T12:05:51.715Z"
+      "_bio_summary_resolved_at": "2026-08-26T12:05:51.715Z",
+      "campaign_site_url": "https://www.virginiamcintyreforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:08.021Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "joseph-morelle",
@@ -689,17 +692,17 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Defense",
+            "committee": "House Committee on Appropriations — Defense",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Commerce, Justice, Science, and Related Agencies",
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on House Administration \u2014 Modernization and Innovation",
+            "committee": "House Committee on House Administration — Modernization and Innovation",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -732,17 +735,21 @@
         }
       },
       "_curated_match": false,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=XFv0c7wklRk",
+      "platform_video_title": "Joe Morelle Calls Out Trump For Agreeing With Putin's Criticism Of Mail-In Ballots",
+      "platform_video_source_url": "https://www.votemorelle.com/media",
+      "_platform_video_resolved_at": "2026-08-30T11:33:03.463Z",
       "_tier2_search_attempted_at": "2026-08-20T12:46:41.979Z",
       "bio_summary": {
         "value": "Joe was born and raised in Upstate New York and has lived in the same Irondequoit neighborhood for most of his life. The son of a Korean war veteran and lifelong Plumbers and Pipefitters union member, Joe learned early on from his parents the value of hard work and the principles of honesty and integrity. These ideals led him to pursue public service, where he has represented our community first in the County Legislature, then in the New York State Assembly as Majority Leader, and now in the United States House of Representatives where he serves as the Ranking Member on the House Administration Committee, as well as the Vice Ranking Member on the Appropriations Committee.",
         "source_url": "https://www.votemorelle.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:35:34.844Z",
-      "platform_video_tier": null
+      "platform_video_tier": 1,
+      "campaign_site_url": "https://www.votemorelle.com/",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:08.020Z",
+      "_campaign_site_reachability": "reachable",
+      "platform_video_source_type": "campaign_site"
     }
   ]
 }

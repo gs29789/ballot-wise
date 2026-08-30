@@ -7,20 +7,20 @@
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
-    "primarySnippet": "\u00a7 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
     "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
     "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
-    "snippet": "\u00a7 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "primary_results": {
     "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-11-results",
-    "snippet": "R: N. Malliotakis (incumbent) \u2014 uncontested. D: M. DeCillis 61.0% over A. Ziogas 36.9%."
+    "snippet": "R: N. Malliotakis (incumbent) — uncontested. D: M. DeCillis 61.0% over A. Ziogas 36.9%."
   },
   "hard_metrics": {
     "unemployment_rate": [
@@ -576,10 +576,13 @@
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
-        "value": "I\u2019m a fourth-generation Staten Islander, third-generation union member who\u2019s worked for 35 years in public service.",
+        "value": "I’m a fourth-generation Staten Islander, third-generation union member who’s worked for 35 years in public service.",
         "source_url": "https://www.decillisforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:33:40.168Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:33:40.168Z",
+      "campaign_site_url": "https://decillisforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:44.529Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "nicole-malliotakis",
@@ -631,9 +634,25 @@
           "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Election Integrity",
+          "value": "Believes that reforms are required that make it easier to vote and harder to cheat, including voter identification, regular maintenance of state voter rolls, stringent safeguards to prevent manipulation and abuse of absentee ballot voting",
+          "snippet": "Nicole believes that reforms are required that make it easier to vote and harder to cheat. This includes voter identification, regular maintenance of state voter rolls, stringent safeguards to prevent manipulation and abuse of absentee ballot voting and a streamlined process to ensure that credible claims of election fraud receive a thorough hearing before a judge."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Strongly supports strengthening our border security to stem the tide of illegal immigration, as well as increased investment in U.S. Customs and Border Protection and U.S. Customs and Immigration Enforcement",
+          "snippet": "Nicole strongly supports strengthening our border security to stem the tide of illegal immigration, as well as increased investment in U.S. Customs and Border Protection and U.S. Customs and Immigration Enforcement."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Drafted and introduced legislation requiring municipalities to certify that they have not defunded their police departments before qualifying for federal funding, and sponsored federal legislation to withhold federal funding from local governments that operate drug injection sites",
+          "snippet": "As a Member of Congress, Nicole drafted and introduced legislation requiring municipalities to certify that they have not defunded their police departments before qualifying for federal funding. She also sponsored federal legislation to withhold federal funding from local governments that operate drug injection sites"
+        }
+      ],
+      "platform_source_url": "https://nicolemalliotakis.com/the-issues/",
+      "_platform_resolved_at": "2026-08-30T11:32:03.658Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -706,12 +725,12 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Ways and Means \u2014 Oversight",
+            "committee": "House Committee on Ways and Means — Oversight",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Ways and Means \u2014 Tax",
+            "committee": "House Committee on Ways and Means — Tax",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -737,17 +756,20 @@
       "_tier2_search_attempted_at": "2026-08-20T12:38:44.953Z",
       "_no_site_search_attempted_at": "2026-08-22T15:31:41.460Z",
       "bio_summary": {
-        "value": "Nicole Malliotakis ( / \u02cc m \u00e6 l i \u0259 \u02c8 t \u0251\u02d0 k \u026a s / MAL -ee-\u0259- TAH -kiss ; born November 11, 1980) is an American politician serving as the U.S. representative for New York's 11th congressional district . Her district covers Staten Island and a portion of southern Brooklyn . A Republican , Malliotakis was first elected to the New York State Assembly in 2010. She represented New York's 60th Assembly district from 2011 to 2012 and then represented New York's 64th Assembly district from 2013 to 2021. While serving in the Assembly, Malliotakis was the Republican nominee for mayor of New York City in the 2017 election ; she was defeated by incumbent Democratic mayor Bill de Blasio . In 2020, she ran for Congress and won, defeating incumbent Democratic U.S. representative Max Rose . ",
+        "value": "Nicole Malliotakis ( / ˌ m æ l i ə ˈ t ɑː k ɪ s / MAL -ee-ə- TAH -kiss ; born November 11, 1980) is an American politician serving as the U.S. representative for New York's 11th congressional district . Her district covers Staten Island and a portion of southern Brooklyn . A Republican , Malliotakis was first elected to the New York State Assembly in 2010. She represented New York's 60th Assembly district from 2011 to 2012 and then represented New York's 64th Assembly district from 2013 to 2021. While serving in the Assembly, Malliotakis was the Republican nominee for mayor of New York City in the 2017 election ; she was defeated by incumbent Democratic mayor Bill de Blasio . In 2020, she ran for Congress and won, defeating incumbent Democratic U.S. representative Max Rose . ",
         "source_url": "https://en.wikipedia.org/wiki/Nicole_Malliotakis",
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:04:15.802Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null
+      "platform_video_url": "https://www.youtube.com/watch?v=pKZ985hQSGM",
+      "platform_video_title": "'They Even Want To Defund The Military!': Nicole Malliotakis Decries 'Communism' In Democratic Party",
+      "platform_video_source_url": "https://nicolemalliotakis.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T11:31:10.456Z",
+      "campaign_site_url": "https://nicolemalliotakis.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:44.530Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }
