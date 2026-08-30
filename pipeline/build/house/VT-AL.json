@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 2.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 2.6
       },
@@ -266,11 +261,6 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 310.9
-      },
-      {
-        "year": "2026",
         "month": "June",
         "thousandsOfJobs": 310.6
       },
@@ -483,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8065731447.49,
-        "perCapitaUsd": 12493.97
+        "totalUsd": 8065204849.49,
+        "perCapitaUsd": 12493.15
       },
       {
         "year": "2024",
-        "totalUsd": 8838728779.01,
-        "perCapitaUsd": 13691.36
+        "totalUsd": 8836834148.01,
+        "perCapitaUsd": 13688.42
       },
       {
         "year": "2025",
-        "totalUsd": 9121378523.66,
-        "perCapitaUsd": 14129.19
+        "totalUsd": 9120398446.24,
+        "perCapitaUsd": 14127.67
       }
     ],
     "population": [
@@ -691,9 +681,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 280,
-          "attendanceRate": 0.9893992932862191
+          "votesInSession": 258,
+          "votesCast": 255,
+          "attendanceRate": 0.9883720930232558
         },
         "committees": [
           {
@@ -718,7 +708,7 @@
           }
         ],
         "bills_sponsored": 47,
-        "bills_cosponsored": 833,
+        "bills_cosponsored": 832,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

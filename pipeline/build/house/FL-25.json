@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 4.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 4.7
       },
@@ -266,13 +261,8 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 10037.3
-      },
-      {
-        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10032.8
+        "thousandsOfJobs": 10033.3
       },
       {
         "year": "2026",
@@ -493,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542248339.13,
-        "perCapitaUsd": 700.71
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
       }
     ],
     "population": [
@@ -764,9 +754,64 @@
       "_bio_summary_resolved_at": "2026-08-26T11:24:55.204Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 271,
+          "attendanceRate": 0.9575971731448764
+        },
         "committees": [
           {
             "committee": "House Committee on the Judiciary",
@@ -805,7 +850,7 @@
           }
         ],
         "bills_sponsored": 38,
-        "bills_cosponsored": 809,
+        "bills_cosponsored": 808,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

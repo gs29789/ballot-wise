@@ -7,14 +7,14 @@
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
-    "primarySnippet": "N.C. Gen. Stat. \u00a7 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "primarySnippet": "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
     "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
   },
   "state_background_check": {
     "required": false,
-    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. \u00a7 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification \u2014 a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. § 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification — a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
     "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
     "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
   },
@@ -610,29 +610,29 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Agriculture \u2014 Nutrition and Foreign Agriculture",
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Agriculture \u2014 Conservation, Research, and Biotechnology",
+            "committee": "House Committee on Agriculture — Conservation, Research, and Biotechnology",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Education and Workforce \u2014 Higher Education and Workforce Development",
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
             "title": "Ranking Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Education and Workforce \u2014 Early Childhood, Elementary, and Secondary Education",
+            "committee": "House Committee on Education and Workforce — Early Childhood, Elementary, and Secondary Education",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
         "bills_sponsored": 184,
         "bills_cosponsored": 2407,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "FUTURE Act",
@@ -677,7 +677,7 @@
       },
       "_curated_match": false,
       "bio_summary": {
-        "value": "As a retired educator, I have seen first-hand the impact a great education can have on a young person\u2019s life. I will always be a champion for public schools, our teachers, our children and our Historically Black Colleges and Universities. I want to make sure our HBCUs not only survive but thrive. That\u2019s why in 2019 I sponsored and introduced H.R. 5363, the Fostering Undergraduate Talent by Unlocking Resources for Education (FUTURE) Act that permanently provides funding totaling $255 million a year for all Minority-Serving Institutions, including $85 million for HBCUs.",
+        "value": "As a retired educator, I have seen first-hand the impact a great education can have on a young person’s life. I will always be a champion for public schools, our teachers, our children and our Historically Black Colleges and Universities. I want to make sure our HBCUs not only survive but thrive. That’s why in 2019 I sponsored and introduced H.R. 5363, the Fostering Undergraduate Talent by Unlocking Resources for Education (FUTURE) Act that permanently provides funding totaling $255 million a year for all Minority-Serving Institutions, including $85 million for HBCUs.",
         "source_url": "https://almaadamsforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:03:55.164Z"
@@ -724,7 +724,7 @@
         {
           "topic": "Campaign Finance and Ethics",
           "value": "Will not accept any PAC money, will not trade individual stocks, and will host 10+ town hall meetings annually",
-          "snippet": "\u2605 I will not accept any PAC money \u2605 I will not trade individual stocks \u2605 I will host 10+ town hall meetings annually"
+          "snippet": "★ I will not accept any PAC money ★ I will not trade individual stocks ★ I will host 10+ town hall meetings annually"
         },
         {
           "topic": "Affordability and Cost of Living",

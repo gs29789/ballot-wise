@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 3.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 3.7
       },
@@ -266,13 +261,8 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 3014.9
-      },
-      {
-        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3006.8
+        "thousandsOfJobs": 3000.9
       },
       {
         "year": "2026",
@@ -483,8 +473,8 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 25816908232.68,
-        "perCapitaUsd": 33889.13
+        "totalUsd": 25816923342.32,
+        "perCapitaUsd": 33889.15
       },
       {
         "year": "2024",
@@ -493,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 32080506539.88,
-        "perCapitaUsd": 42111.18
+        "totalUsd": 32080677596.88,
+        "perCapitaUsd": 42111.4
       }
     ],
     "population": [
@@ -789,7 +779,7 @@
         ],
         "bills_sponsored": 233,
         "bills_cosponsored": 4317,
-        "bills_became_law": 2,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Negro Leagues Baseball Centennial Commemorative Coin Act",

@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 3.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 3.7
       },
@@ -266,13 +261,8 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 886.8
-      },
-      {
-        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 885.6
+        "thousandsOfJobs": 886.5
       },
       {
         "year": "2026",
@@ -854,11 +844,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 216,
-          "votesCast": 205,
-          "attendanceRate": 0.9490740740740741
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "Senate Committee on Energy and Natural Resources",

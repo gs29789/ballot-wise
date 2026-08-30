@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 4.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 4.7
       },
@@ -266,13 +261,8 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 10037.3
-      },
-      {
-        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10032.8
+        "thousandsOfJobs": 10033.3
       },
       {
         "year": "2026",
@@ -493,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542248339.13,
-        "perCapitaUsd": 700.71
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
       }
     ],
     "population": [
@@ -767,9 +757,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 244,
-          "votesCast": 231,
-          "attendanceRate": 0.9467213114754098
+          "votesInSession": 283,
+          "votesCast": 270,
+          "attendanceRate": 0.9540636042402827
         },
         "committees": [
           {
@@ -790,7 +780,7 @@
         ],
         "bills_sponsored": 101,
         "bills_cosponsored": 2282,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 14280 South Military Trail in Delray Beach, Florida, as the \"Benjamin Berell Ferencz Post Office Building\".",

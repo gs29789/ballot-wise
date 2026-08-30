@@ -27,11 +27,6 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "July",
-        "value": 4.6
-      },
-      {
-        "year": "2026",
         "month": "June",
         "value": 4.7
       },
@@ -266,13 +261,8 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
-        "month": "July",
-        "thousandsOfJobs": 10037.3
-      },
-      {
-        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10032.8
+        "thousandsOfJobs": 10033.3
       },
       {
         "year": "2026",
@@ -493,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542248339.13,
-        "perCapitaUsd": 700.71
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
       }
     ],
     "population": [
@@ -868,9 +858,9 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 289,
-        "bills_cosponsored": 1671,
-        "bills_became_law": 1,
+        "bills_sponsored": 287,
+        "bills_cosponsored": 1667,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Federal Disaster Tax Relief Act of 2023",
