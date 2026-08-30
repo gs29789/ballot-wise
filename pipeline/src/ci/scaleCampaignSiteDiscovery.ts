@@ -71,16 +71,33 @@ async function classifySite(url: string): Promise<Classification> {
 // (network blip, timeout) is swallowed and skipped -- left fully untouched
 // so it stays naturally eligible for a future run, same reasoning as the
 // already-processed check above, just for a different cause.
+function sleep(ms: number): Promise<void> {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 async function processCandidate(c: any): Promise<Classification | null> {
   if (c.campaign_site_url !== undefined) return null; // already checked by a real buildRace() pass -- not this script's job
   if (!c.fec_candidate_id) return null;
 
+  // One retry after a short pause for a non-rate-limit failure -- confirmed
+  // necessary on a real run (2026-08-30): a full 753-candidate resume left
+  // ~95% of candidates completely untouched (safe -- nothing false was
+  // written -- but a fresh single call for one of those exact candidates
+  // succeeded seconds later), pointing at a transient/burst issue rather
+  // than genuine unavailability. Still fails closed to "leave untouched" if
+  // the retry also fails, same as before.
   let site: string | null;
   try {
     site = await getCommitteeWebsite(c.fec_candidate_id);
   } catch (err) {
     if (err instanceof FecRateLimitError) throw err;
-    return null; // transient error -- not a verified result, leave candidate untouched
+    await sleep(2000);
+    try {
+      site = await getCommitteeWebsite(c.fec_candidate_id);
+    } catch (err2) {
+      if (err2 instanceof FecRateLimitError) throw err2;
+      return null; // transient error survived a retry -- not a verified result, leave candidate untouched
+    }
   }
 
   c.campaign_site_url = site;
