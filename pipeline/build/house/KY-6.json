@@ -1,0 +1,906 @@
+{
+  "state": "KY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-18T20:28:52.836Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+    "primarySnippet": "KRS 118.025: A primary for the nomination of candidates to be voted for at the next regular election shall be held on the first Tuesday after the third Monday in May of each year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+    "generalSnippet": "KRS 118.025: The election of all officers of all governmental units shall be held on the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Kentucky's constitution excludes convicted felons from office generally (relievable only by a gubernatorial pardon), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/ky/kentucky-constitution/ky-const-sect-150.html",
+    "snippet": "Ky. Const. \u00a7 150: \"All persons shall be excluded from office who have been, or shall hereafter be, convicted of a felony, or of such high misdemeanor as may be prescribed by law, but such disability may be removed by pardon of the Governor.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Kentucky's_6th_Congressional_District_election,_2026",
+    "snippet": "Zach Dembo, Ralph Alvarado, Pete Lynch, Jay Bowman, and Robert Quigley are running in the general election for U.S. House Kentucky District 6 on November 3, 2026. Open seat: incumbent Andy Barr ran for the open U.S. Senate seat instead (Mitch McConnell retiring) and won that Republican primary."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 20.33
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 17.11
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 18.67
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 17.63
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.09
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2030.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2030.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2034.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2033.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2032.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2033
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2029.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2027.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2028.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2032.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2036
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2035.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2037
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2040.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2039.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2036.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2034.5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2027.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2035
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2037
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2038.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2039.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2042
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2036.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2037.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2036.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2034.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2035.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2033.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2032.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2029.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2026.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2024.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2024
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2018
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2013.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2016.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2011.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2010.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2010.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2007.4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2006.4
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7578553505.02,
+        "perCapitaUsd": 10123.65
+      },
+      {
+        "year": "2024",
+        "totalUsd": 123473123711.57,
+        "perCapitaUsd": 165704.38
+      },
+      {
+        "year": "2025",
+        "totalUsd": 120883564098.54,
+        "perCapitaUsd": 162229.11
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 4512310
+      },
+      {
+        "year": "2023",
+        "population": 4526154
+      },
+      {
+        "year": "2024",
+        "population": 4588372
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59341
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 61118
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 64526
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "ralph-alvarado",
+      "full_name": "ALVARADO, RALPH A",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY06192",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1521812.83,
+        "totalSpent": 1123794.53,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 11112.69,
+          "largeDollar": 1188880.33,
+          "pac": 258541.02,
+          "party": 5000,
+          "selfFunded": 57245.22
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1970-04-30",
+          "source_url": "https://www.wikidata.org/wiki/Q19519302",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "San Francisco, California",
+          "source_url": "https://www.wikidata.org/wiki/Q19519302",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Loma Linda University",
+          "source_url": "https://www.wikidata.org/wiki/Q19519302",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Ralph and his wife Dawn have been married for 31 years",
+          "source_url": "https://alvaradoforcongress.com/",
+          "snippet": "Ralph and his wife Dawn have been married for 31 years",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "For nearly 30 years, Ralph has served as a practicing physician, treating thousands of patients across Clark County and Central Kentucky.",
+          "source_url": "https://alvaradoforcongress.com/",
+          "snippet": "For nearly 30 years, Ralph has served as a practicing physician, treating thousands of patients across Clark County and Central Kentucky.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "In 2014, Ralph made history as the first Hispanic member of the Kentucky General Assembly.",
+          "source_url": "https://alvaradoforcongress.com/",
+          "snippet": "In 2014, Ralph made history as the first Hispanic member of the Kentucky General Assembly.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Bellarmine College Preparatory (1988)",
+          "source_url": "https://www.ballotready.org/people/ralph-a-alvarado",
+          "snippet": "High School Diploma, Bellarmine College Preparatory (1988)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "He will work to secure the southern border, stop the flow of fentanyl",
+          "snippet": "He will work to secure the southern border, stop the flow of fentanyl"
+        },
+        {
+          "topic": "Energy",
+          "value": "restore energy independence",
+          "snippet": "restore energy independence"
+        },
+        {
+          "topic": "Economy and Taxes",
+          "value": "grow the economy by unleashing American workers and cutting taxes",
+          "snippet": "grow the economy by unleashing American workers and cutting taxes"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "He will defend our constitutional rights",
+          "snippet": "He will defend our constitutional rights"
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "back the blue",
+          "snippet": "back the blue"
+        }
+      ],
+      "platform_source_url": "https://alvaradoforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T10:31:47.952Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077303.pdf",
+        "filingDate": "5/11/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T10:32:22.792Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:20.710Z",
+      "bio_summary": {
+        "value": "Dr. Ralph Alvarado is a Christian, husband, father, and physician running for Congress to represent Kentucky\u2019s Sixth District. Ralph is stepping up to bring independent leadership to Washington, lower the cost of living, strengthen Kentucky\u2019s economy, and deliver practical solutions that put Kentucky families first. For nearly three decades, Ralph has cared for thousands of patients across Central Kentucky.",
+        "source_url": "https://alvaradoforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:43:32.676Z"
+    },
+    {
+      "slug": "zach-dembo",
+      "full_name": "DEMBO, ZACH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY06184",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1463854.77,
+        "totalSpent": 972579.35,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 161117.83,
+          "largeDollar": 1238237.62,
+          "pac": 58150.01,
+          "party": 0,
+          "selfFunded": 3665.36
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Lexington",
+          "source_url": "https://zachdembo.com/",
+          "snippet": "Zach was raised in Lexington and is a ninth-generation Kentuckian.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Stanford University and University of Michigan Law School",
+          "source_url": "https://zachdembo.com/",
+          "snippet": "Zach went to Stanford University and after college, worked as an eighth grade English teacher in the Mississippi Delta, as a part of the Teach For America program. He then attended the University of Michigan Law School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Lindsey",
+          "source_url": "https://zachdembo.com/",
+          "snippet": "Zach lives in Lexington with his wife Lindsey, their rescue dog, Sugar, and their two cats, Dierks and Chester.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Trade and Tariffs",
+          "value": "Opposes tariffs that hurt small businesses and families, stating that tariffs are just taxes on businesses",
+          "snippet": "Small businesses are the backbone of Central Kentucky, and they re getting crushed by tariffs that are just taxes on our businesses"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Supports getting costs down for Kentucky families struggling with groceries and the middle class getting squeezed",
+          "snippet": "Central Kentuckians are struggling to make ends meet. Working families can t afford groceries, and the middle class is getting squeezed while politicians in Washington do nothing about it."
+        },
+        {
+          "topic": "Government Integrity",
+          "value": "Resigned as federal prosecutor over corruption concerns and wants to root out corruption in government, citing the Department of Justice being turned into the president's personal law firm",
+          "snippet": "I resigned from my position as a federal prosecutor because I couldn t in good conscience stay on as this administration turned the Department of Justice into the president s personal law firm."
+        }
+      ],
+      "platform_source_url": "https://zachdembo.com/",
+      "_platform_resolved_at": "2026-08-12T10:32:06.306Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=kuKkb0EJd48",
+      "platform_video_title": "Enough",
+      "platform_video_source_url": "https://zachdembo.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:14.995Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077122.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T10:32:26.870Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Zach was raised in Lexington and is a ninth-generation Kentuckian. His family roots trace back to the mid-1700s in Shelby and Henry County. Until his parents\u2019 generation, every ancestor on that side of the family earned their living the same way: farming. Zach went to Stanford University and after college, worked as an eighth grade English teacher in the Mississippi Delta, as a part of the Teach For America program. He then attended the University of Michigan Law School, where he made the decision to serve his country and commissioned as an officer in the United States Navy Judge Advocate General\u2019s (JAG) Corps.",
+        "source_url": "https://zachdembo.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:43:34.003Z"
+    },
+    {
+      "slug": "jay-bowman",
+      "full_name": "BOWMAN, JAY J",
+      "party": "NONE",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY06234",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 7428.81,
+        "totalSpent": 7462.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 559,
+          "largeDollar": 500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 6369.81
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Michigan",
+          "source_url": "https://www.bowman2026.com/about",
+          "snippet": "I was born in Michigan",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "University of Utah (left before graduating)",
+          "source_url": "https://www.bowman2026.com/about",
+          "snippet": "I left the University of Utah to start my own business at the age of 24",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tax Reform",
+          "value": "Proposes a Zero-One-Hundred Tax Plan",
+          "snippet": "Zero-One-Hundred Tax Plan"
+        }
+      ],
+      "platform_source_url": "https://www.bowman2026.com/",
+      "_platform_resolved_at": "2026-08-12T10:32:12.987Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:21.261Z",
+      "bio_summary": {
+        "value": "My name is Jay J Bowman (the middle name is only an initial; I'm convinced my parents could not agree on their children's names and just gave them initials). I was born in Michigan and grew up in Utah. I remember the winters, the vast forest of green surrounding the lake of our small town in Michigan. My parents moved to Salt Lake City when I was 8 years old. Utah was a wonderful place to grow up. I enjoyed hunting, fishing, skiing, and love the mountains and deserts of the state.",
+        "source_url": "https://www.bowman2026.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:43:35.804Z"
+    },
+    {
+      "slug": "peter-lynch",
+      "full_name": "LYNCH, PETER SHAW KELLER DR.",
+      "party": "OTHER",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY06242",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "civic_affiliations": {
+          "value": "Dr. Lynch is running as an independent with the support of a new political group, The Kentucky Party.",
+          "source_url": "https://petelynchforkentucky.com/",
+          "snippet": "Dr. Lynch is running as an independent with the support of a new political group, The Kentucky Party.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Populism",
+          "value": "Committed to representing the interests of average Kentuckians and average Americans across the country as an economic populist",
+          "snippet": "As an economic populist, he is committed to representing the interests of average Kentuckians and average Americans across the country."
+        },
+        {
+          "topic": "Legislative Priorities",
+          "value": "Plans to support legislation that benefits the 99% instead of the rich",
+          "snippet": "Beyond supporting legislation that benefits the 99% instead of the rich, he plans to also educate the public about how we the people can make Congress represent all Americans, instead of just the rich."
+        },
+        {
+          "topic": "Constituent Representation",
+          "value": "Will represent the middle class and working families if elected",
+          "snippet": "If elected, he will represent the middle class and working families."
+        },
+        {
+          "topic": "Civic Education",
+          "value": "Plans to educate the public about how we the people can make Congress represent all Americans, instead of just the rich",
+          "snippet": "he plans to also educate the public about how we the people can make Congress represent all Americans, instead of just the rich."
+        }
+      ],
+      "platform_source_url": "https://petelynchforkentucky.com/",
+      "_platform_resolved_at": "2026-08-12T10:32:18.038Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=7rlaTv70WPw",
+      "platform_video_title": "Candidate for Congress Pete Lynch says campaign finance reform is the most important policy issue",
+      "platform_video_source_url": "https://petelynchforkentucky.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:15.634Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Pete Lynch decided to get his PhD in American Politics after reading research showing that Congress represents the rich instead of average Americans (Gilens and Page 2014). He wanted to understand why our government favors the rich and what it would take to make Congress work for average Americans. He has taught politics courses at the University of Kentucky, Centre College, and Eastern Kentucky University, giving him first-hand experience explaining how government works\u2014or doesn\u2019t work\u2014for average Americans.",
+        "source_url": "https://petelynchforkentucky.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:43:38.798Z"
+    },
+    {
+      "slug": "robert-quigley",
+      "full_name": "QUIGLEY, ROBERT ALLEN",
+      "party": "NO PARTY AFFILIATION",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY06283",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Minimum Wage",
+          "value": "Raise minimum wage to $15/hr",
+          "snippet": "Raise Minimum Wage To $15/Hr"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Expand Medicaid to cover more low-income residents and provide health care for all with focus on free preventive care",
+          "snippet": "Expand Medicaid to cover more low-income residents. Increase the number of healthcare facilities in underserved areas. Promote mental health awareness and resources across communities."
+        },
+        {
+          "topic": "Taxation",
+          "value": "No taxes on earnings below $35,000 and taxes capped at 20%",
+          "snippet": "No Taxes On Earnings Below $35,000"
+        },
+        {
+          "topic": "Small Business Development",
+          "value": "Re-tool the SBA to increase the number of small businesses through grants and low-interest loans",
+          "snippet": "Re-tool the SBA to increase the number of small businesses through grants and low-interest loans."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Tighten borders with beneficial immigration reform",
+          "snippet": "Tighten Borders, Beneficial Immigration Reform"
+        },
+        {
+          "topic": "Education",
+          "value": "Enhance funding for public schools to ensure equal access to quality education and increase access to all types of higher education through scholarships and financial aid programs",
+          "snippet": "Enhance funding for public schools to ensure equal access to quality education. Promote vocational training and apprenticeships to prepare students for diverse career paths. Increase access to all types of higher education through scholarships and financial aid programs."
+        },
+        {
+          "topic": "Environmental Sustainability",
+          "value": "Invest in renewable energy projects to create jobs and protect natural resources, and promote conservation efforts to preserve Kentucky's unique landscapes",
+          "snippet": "Invest in renewable energy projects to create jobs and protect natural resources. Promote conservation efforts to preserve Kentucky s unique landscapes. Encourage sustainable farming practices to support local agriculture."
+        },
+        {
+          "topic": "Student Loans",
+          "value": "Stop student loan debtor servitude",
+          "snippet": "Stop Student Loan Debtor Servitude"
+        }
+      ],
+      "platform_source_url": "https://www.robertquigleyforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T10:31:59.262Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=NCpnLwBD42Y",
+      "platform_video_title": "Inside Kentucky\u2019s Bold Animal Sanctuary Plan",
+      "platform_video_source_url": "https://www.robertquigleyforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:17.020Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Join us in our journey as Robert Quigley runs independently for the Kentucky 6 House of Representatives seat. Your support is vital to shaping a better future. After 35 Years Tucker Quits Republican Party - Time To Vote For Independents. My Friends Below! For nearly 400 years my family has walked this land. Join the movement for positive change. Robert Quigley is dedicated to creating a better tomorrow for all.",
+        "source_url": "https://www.robertquigleyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:43:36.883Z"
+    }
+  ]
+}

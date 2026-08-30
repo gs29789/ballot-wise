@@ -1,0 +1,753 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T20:22:20.451Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code \u00a7 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code \u00a7 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code \u00a7 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Frank Mrvan, Barb Regnitz, Alexander Degman, and James Johnson are running in the general election for U.S. House Indiana District 1 on November 3, 2026. Degman (Ind) has no FEC 2026 registration found. Johnson's FEC record has corrupted name fields (first name field literally reads \"PRESCRIPTION\") rather than a simple reversal, so it's excluded rather than guessed at; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "frank-mrvan",
+      "full_name": "MRVAN, FRANK J.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0IN01150",
+      "fec_status": "C",
+      "bioguide_id": "M001214",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2386267.93,
+        "totalSpent": 1138031.71,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 179980.59,
+          "largeDollar": 1065138.69,
+          "pac": 1016900,
+          "party": 6920.44,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": null,
+        "college": null,
+        "employment_record": {
+          "value": "A lifelong public servant, he is putting his decades of experience to work for the people of Northwest Indiana",
+          "source_url": "https://mrvanforcongress.com/",
+          "snippet": "A lifelong public servant, he is putting his decades of experience to work for the people of Northwest Indiana",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Morton High School (1987)",
+          "source_url": "https://www.ballotready.org/people/frank-j-mrvan",
+          "snippet": "High School Diploma, Morton High School (1987)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Jane",
+          "source_url": "https://mrvanforcongress.com/about/",
+          "snippet": "Frank and his wife Jane live in Lake County, where they met in high school and have been together ever since",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Vice-Chairman of the Congressional Steel Caucus",
+          "source_url": "https://mrvanforcongress.com/about/",
+          "snippet": "Frank is honored to serve as Vice-Chairman of the Congressional Steel Caucus",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Investment",
+          "value": "Will continue to bring back investments to grow the Northwest Indiana economy",
+          "snippet": "I will continue to bring back investments to grow the Northwest Indiana economy"
+        },
+        {
+          "topic": "Workers' Rights",
+          "value": "Fight for working men and women",
+          "snippet": "fight for working men and women"
+        },
+        {
+          "topic": "Labor and Jobs",
+          "value": "Fight for good-paying job opportunities that support members of organized labor",
+          "snippet": "fight for good-paying job opportunities that support members of organized labor"
+        },
+        {
+          "topic": "Working Men and Women",
+          "value": "Lowering costs and bringing jobs to Northwest Indiana",
+          "snippet": "Frank is in fighting for working men and women by lowering costs and bringing jobs to Northwest Indiana"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Believes in securing the border with safe, secure and humane policies",
+          "snippet": "Frank believes in securing the border with safe, secure and humane policies"
+        }
+      ],
+      "platform_source_url": "https://mrvanforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T19:07:58.903Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=nIH984z-dIE",
+      "platform_video_title": "Forge",
+      "platform_video_source_url": "https://mrvanforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:02:19.773Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078141.pdf",
+        "filingDate": "6/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T01:23:06.459Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations \u2014 Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations \u2014 Energy and Water Development and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 17,
+        "bills_cosponsored": 783,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "SVAC Act of 2022",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "7299",
+            "publicLawNumber": "117-302",
+            "summary": "Strengthening VA Cybersecurity Act of 2022 or the SVAC Act of 2022 This act requires the Department of Veterans Affairs (VA) to seek to enter into an agreement with a federally funded research and development center to provide a cybersecurity assessment of five high-impact VA information systems and the effectiveness of the VA's information security program and information security management system. The VA must submit a plan to Congress to address the findings of the assessment. The Government Accountability Office must review the assessment and the VA's response to the assessment and report its findings to Congress.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ302"
+          },
+          {
+            "title": "Dignity for MST Survivors Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "6961",
+            "publicLawNumber": "117-300",
+            "summary": "This act modifies communications and procedures for the Department of Veterans Affairs (VA) and Board of Veterans' Appeals (BVA) regarding claims for compensation based on military sexual trauma (MST) experienced by veterans. The act requires the VA to ensure each member of the BVA is offered annual training on MST and proceedings that concern a claim for compensation based on MST. A proceeding that concerns a claim for compensation based on MST may not be assigned to a member of the BVA (or a panel of members) unless such persons have completed the annual training. When a notice of disagreement is filed, the BVA must promptly determine whether it is filed for a case that concerns a claim for compensation based on MST and for which the appellant has requested a hearing in the notice. The VA must audit the language used in letters sent to individuals to explain decisions denying claims for compensation based on MST. Letters must be modified to ensure (1) the use of trauma-informed language, and (2) veterans are not retraumatized through insensitive language. The VA must establish protocols for VA medical providers and contract medical providers to ensure that the medical providers use trauma-informed practices in conducting examinations in relation to claims for compensation based on MST.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ300"
+          },
+          {
+            "title": "Department of Veterans Affairs Expiring Authorities Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "5293",
+            "publicLawNumber": "117-42",
+            "summary": "Department of Veterans Affairs Expiring Authorities Act of 2021 This bill extends various Department of Veterans Affairs (VA) programs. First, the bill permanently extends the VA's authority to administer a dental insurance plan for veterans who are enrolled in the VA health care system and certain survivors and dependents of veterans. Next, the bill extends through FY2022 the expansion of the program that authorizes payments and allowances for beneficiary travel in connection with veterans who are receiving care from Vet Centers. Finally, the bill extends authority through December 16, 2026, for the pilot program under which the VA may accept donations of real property or facilities from specified entities (e.g., a state or local authority).",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ42"
+          },
+          {
+            "title": "VA Electronic Health Record Transparency Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "4591",
+            "publicLawNumber": "117-154",
+            "summary": "VA Electronic Health Record Transparency Act of 2021 This bill requires the Department of Veterans Affairs to report quarterly on (1) the costs of its Electronic Health Record Modernization Program, including by describing all expenses driven by the program; and (2) the performance metrics and outcomes of the program.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ154"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.3,
+          "nominateDim2": 0.356,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001214"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 49.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001214"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Democrat Frank J. Mrvan is proudly serving as the representative for Indiana\u2019s 1st Congressional District. A lifelong public servant, he is putting his decades of experience to work for the people of Northwest Indiana, reaching across the aisle to form alliances, secure funding, and pass legislation to protect our jobs, our healthcare, and our economy.",
+        "source_url": "https://mrvanforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:31.377Z"
+    },
+    {
+      "slug": "barb-regnitz",
+      "full_name": "REGNITZ, BARB",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN01231",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2376255.95,
+        "totalSpent": 575567.05,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 18850.19,
+          "largeDollar": 158062.01,
+          "pac": 39610,
+          "party": 0,
+          "selfFunded": 2156925
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Purdue University (bachelor's degree)",
+          "source_url": "https://ballotpedia.org/Barb_Regnitz",
+          "snippet": "Barb Regnitz earned a bachelor's degree from Purdue University."
+        },
+        "employment_record": {
+          "value": "Certified financial planner",
+          "source_url": "https://ballotpedia.org/Barb_Regnitz",
+          "snippet": "Her career experience includes working as a certified financial planner."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=y-mAxNgQSRE",
+      "platform_video_title": "Campaign Announcement",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T15:24:43.074Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077193.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T01:23:10.136Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-22T15:24:43.074Z",
+      "platform_video_tier": 2
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-23",
+  "generated_at": "2026-08-14T18:45:15.314Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_23rd_Congressional_District_election,_2026",
+    "snippet": "Katy Padilla Stout, Brandon Herrera, and Ben Mendoza are running in the general election for U.S. House Texas District 23 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "brandon-herrera",
+      "full_name": "HERRERA, BRANDON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4TX23120",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1937718.78,
+        "totalSpent": 1636736.29,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 17445.23,
+          "largeDollar": 67975.74,
+          "pac": 62500,
+          "party": 0,
+          "selfFunded": 420000
+        }
+      },
+      "bio": {
+        "civic_affiliations": {
+          "value": "works with pro-freedom groups both in the Second Amendment community and otherwise, including notable partners such as the National Association for Gun Rights, the Firearm Policy Coalition, Gun Owners of America, and Young Americans for Liberty",
+          "source_url": "https://brandonherreraforcongress.com/",
+          "snippet": "He works with pro-freedom groups both in the Second Amendment community and otherwise, including notable partners such as the National Association for Gun Rights , the Firearm Policy Coalition , Gun Owners of America , and Young Americans for Liberty .",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Gun Manufacturer/Youtube Personality (Present)",
+          "source_url": "https://www.ballotready.org/people/brandon-herrera",
+          "snippet": "Gun Manufacturer/Youtube Personality (Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Secure the Southern Border with practical steps to improve safety and order in TX-23",
+          "snippet": "Secure the Southern Border Practical steps to improve safety and order in TX-23."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Protect the Second Amendment and fight for national concealed carry reciprocity—not just to protect, but to enhance gun rights",
+          "snippet": "Protect the Second Amendment Fighting for national concealed carry reciprocity—not just to protect, but to enhance your gun rights."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Better access and support for veterans and their families",
+          "snippet": "Serve Those Who Served Better access and support for veterans and their families."
+        },
+        {
+          "topic": "Economy/Taxes",
+          "value": "Pledges no new taxes, will cut waste, back the REINS Act, and put Texans first",
+          "snippet": "Brandon pledges no new taxes, will cut waste, back the REINS Act, and put Texans first."
+        },
+        {
+          "topic": "Federal Power",
+          "value": "Believes one of the keys to individual Liberty is limiting federal power as much as possible, and returning that power to the states to decide issues for themselves",
+          "snippet": "Brandon is a very strong constitutionalist who believes one of the keys to individual Liberty is limiting federal power as much as possible, and returning that power to the states to decide issues for themselves."
+        }
+      ],
+      "platform_source_url": "https://brandonherreraforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:45:02.581Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10073031.pdf",
+        "filingDate": "12/16/2025",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:45:06.279Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Brandon Herrera is an entrepreneur, Second Amendment activist, and social media personality running for Congress in Texas’s 23rd District. Shaped by deep Texas roots with family originating in Texas, including his Hispanic heritage, and both parents from military families, he pursued studies in Pre-Law before focusing on starting a small business in firearm manufacturing.",
+        "source_url": "https://brandonherreraforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:18:01.808Z",
+      "campaign_site_url": "https://brandonherreraforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:31.593Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "katy-stout",
+      "full_name": "STOUT, KATY PADILLA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX23273",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 484915.03,
+        "totalSpent": 313542.25,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 190351.23,
+          "largeDollar": 250056.03,
+          "pac": 23000.01,
+          "party": 0,
+          "selfFunded": 9792.42
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "South Texas",
+          "source_url": "https://www.katyforcongress.com/",
+          "snippet": "I was born and raised in South Texas",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.katyforcongress.com/",
+          "snippet": "my husband and I have chosen to raise our four children",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "former teacher and attorney for children in the foster care system",
+          "source_url": "https://www.katyforcongress.com/",
+          "snippet": "As a former teacher and attorney for children in the foster care system",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Will tackle the out-of-control cost of living which is the direct result of reckless Trump economic policies",
+          "snippet": "That starts by tackling the out-of-control cost of living which is the direct result of reckless Trump economic policies."
+        },
+        {
+          "topic": "Big Bend Border Wall",
+          "value": "Opposes the federal government continuing to build a wall in Big Bend National Park",
+          "snippet": "The federal government continuing to build a wall in our National Park… does that not count as an emergency?"
+        },
+        {
+          "topic": "Special Election",
+          "value": "Believes Greg Abbott needs to stop putting politics above people, do his job, and call a special election so the 800,000 constituents of TX-23 have representation in congress",
+          "snippet": "The 800,000 constituents of TX-23 deserve representation in congress. Greg Abbott needs to STOP putting politics above people- do his job- and call a special election."
+        }
+      ],
+      "platform_source_url": "https://www.katyforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:44:55.205Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9115842.pdf",
+        "filingDate": "5/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:45:11.696Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I was born and raised in South Texas and it's where my husband and I have chosen to raise our four children. As a former teacher and attorney for children in the foster care system, I’m running to be the first Congresswoman from TX-23 because our government should invest in the next generation—not play political games with our children's futures.",
+        "source_url": "https://www.katyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:59.042Z",
+      "campaign_site_url": "https://www.katyforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:31.588Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

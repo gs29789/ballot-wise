@@ -1,0 +1,927 @@
+{
+  "state": "CO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-18T20:06:44.942Z",
+  "election_dates": {
+    "primaryDate": "2026-06-30",
+    "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+    "primarySnippet": "C.R.S. \u00a7 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+    "generalSnippet": "C.R.S. \u00a7 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+    "snippet": "C.R.S. \u00a7 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Colorado's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jeff Hurd, Dwayne Romero, Heather Barton, and Clifton Brown are running in the general election for U.S. House Colorado District 3 on November 3, 2026. Brown has no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 38.42
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.19
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.78
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 37.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.68
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2966
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2966.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2956
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2953.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2960.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2959.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2961
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2963.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2961.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2942.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2966.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2963.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2963.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2977
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2971.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2973.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2966.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2965.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2979.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2973.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2964.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2969.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2957.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2954.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2946.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2952
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2940.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2947.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2933.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2928.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2922.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2915.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2912.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3857088322.95,
+        "perCapitaUsd": 5166.02
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8818344042.41,
+        "perCapitaUsd": 12058.76
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5210974845.04,
+        "perCapitaUsd": 6979.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5839926
+      },
+      {
+        "year": "2023",
+        "population": 5877610
+      },
+      {
+        "year": "2024",
+        "population": 5957494
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89302
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 92911
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 97113
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "heather-barton",
+      "full_name": "BARTON, HEATHER MS",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO03246",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "born into a Navy family",
+          "source_url": "https://coloradocreateschange-nrpch.wordpress.com/about/",
+          "snippet": "I was born into a Navy family, moving every 6 to 18 months, never staying in one place long enough to truly call it home.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Fair Wages & Ethical Labor",
+          "value": "Living wages for all workers with respect, safety, and fairness on the job. Fight for wages that match the cost of living, close wage gaps, and protect workers from corporate abuse.",
+          "snippet": "Living wages for all workers. Respect, safety, and fairness on the job. No one working full-time should struggle to survive. We fight for wages that match the cost of living, close wage gaps, and protect workers from corporate abuse."
+        },
+        {
+          "topic": "Affordable Housing",
+          "value": "Implement rent control, stop arbitrary rent hikes, and expand options for renters and first-time buyers. Housing as a human right.",
+          "snippet": "Rent control. Safe, stable homes. Housing as a human right. Stop arbitrary rent hikes and ensure housing improvements come with real benefits. Expand options for renters and first-time buyers so families can thrive"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Healthcare as a human right. Strengthen local clinics, expand mental health services, and prioritize preventative care.",
+          "snippet": "Human right. Science-backed. Accessible for everyone. Strengthen local clinics, expand mental health services, and prioritize preventative care. No Coloradan should face illness or injury alone"
+        },
+        {
+          "topic": "Homelessness & Addiction",
+          "value": "Pay drug- and alcohol-free participants to clean up communities while pairing programs with housing, job training, and addiction support.",
+          "snippet": "Pay drug- and alcohol-free participants to clean up communities while pairing programs with housing, job training, and addiction support. Encourage community-driven ideas for real change."
+        },
+        {
+          "topic": "Corporate Accountability",
+          "value": "Address executive pay, stop price gouging, and hold corporations responsible. Empower workers and small businesses.",
+          "snippet": "Fair profits. Transparent business. Community-first economy. Address executive pay, stop price gouging, and hold corporations responsible. Empower workers and small businesses while keeping communities strong."
+        }
+      ],
+      "platform_source_url": "https://coloradocreateschange-nrpch.wordpress.com/",
+      "_platform_resolved_at": "2026-08-17T06:37:07.617Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:23.106Z",
+      "bio_summary": {
+        "value": "I\u2019m running as an independent voice to bring power back to the people. From making housing affordable, and fair pay, to improving community safety, expanding healthcare access, cleaning our environments \u2013 and holding corporations accountable \u2013 we\u2019re putting people first!",
+        "source_url": "https://coloradocreateschange-nrpch.wordpress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:13.795Z"
+    },
+    {
+      "slug": "jeffrey-hurd",
+      "full_name": "HURD, JEFFREY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CO03357",
+      "fec_status": "C",
+      "bioguide_id": "H001100",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3552599.03,
+        "totalSpent": 1800885.39,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 76383.62,
+          "largeDollar": 1824041.42,
+          "pac": 568600.55,
+          "party": 50,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-08-15",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "born in Grand Junction, Mesa County, Colo., August 15, 1979",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "birthplace": {
+          "value": "Grand Junction, Mesa County, Colorado",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "born in Grand Junction, Mesa County, Colo., August 15, 1979",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "high_school": {
+          "value": "Grand Junction High School, Grand Junction, Colorado, 1997",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "graduated from Grand Junction High School, Grand Junction, Colo., 1997",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "college": {
+          "value": "B.A., University of Notre Dame, Notre Dame, Indiana, 2001; J.D., University of Denver, Denver Colorado, 2008; L.L.M., Columbia University, New York, N.Y., 2010",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "B.A., University of Notre Dame, Notre Dame, Ind., 2001; J.D., University of Denver, Denver Colo., 2008; L.L.M., Columbia University, New York, N.Y., 2010",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "lawyer; law clerk, United States Court of Appeals, Tenth Circuit",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "lawyer; law clerk, United States Court of Appeals, Tenth Circuit",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "chair, Board of Directors of the Grand Junction Area Chamber of Commerce, Grand Junction, Colorado",
+          "source_url": "https://history.house.gov/People/Listing/H/HURD,-Jeff-(H001100)/",
+          "snippet": "chair, Board of Directors of the Grand Junction Area Chamber of Commerce, Grand Junction, Colo.",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Barbora Hurd",
+          "source_url": "https://en.wikipedia.org/wiki/Jeff_Hurd",
+          "snippet": "Hurd and his wife, Barbora, have five children.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "We must secure the border immediately. Border Patrol and law enforcement must be given all resources necessary to enforce the law. The federal government must also do everything in its power to work with local law enforcement to crack down on drugs and crime flowing into our country.",
+          "snippet": "We must secure the border immediately. Border Patrol and law enforcement must be given all resources necessary to enforce the law. The federal government must also do everything in its power to work with local law enforcement to crack down on drugs and crime flowing into our country."
+        },
+        {
+          "topic": "Economy and Small Business",
+          "value": "Jeff will target unnecessary mandates and regulations. Jeff will also work hard to incentivize investments from any sized company, but his primary focus will be on helping small businesses start, grow, and succeed.",
+          "snippet": "Jeff will target unnecessary mandates and regulations. Jeff will also work hard to incentivize investments from any sized company, but his primary focus will be on helping small businesses start, grow, and succeed."
+        },
+        {
+          "topic": "Working Families and Child Tax Credit",
+          "value": "Jeff will also explore ways to find savings for families across rural Colorado. This includes the Child Tax Credit as well as tax credits and investments that assist parents struggling with child care.",
+          "snippet": "Jeff will also explore ways to find savings for families across rural Colorado. This includes the Child Tax Credit as well as tax credits and investments that assist parents struggling with child care."
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "Jeff supports the responsible development of all Colorado energy resources. This includes some of the cleanest oil and natural gas molecules in the world.",
+          "snippet": "Jeff supports the responsible development of all Colorado energy resources. This includes some of the cleanest oil and natural gas molecules in the world."
+        },
+        {
+          "topic": "Cryptocurrency and Blockchain",
+          "value": "In Congress, Jeff will fight to make sure that there are sensible regulations for advancing technologies like cryptocurrency, encouraging the innovation and job growth they bring, all while protecting the public from bad actors.",
+          "snippet": "In Congress, Jeff will fight to make sure that there are sensible regulations for advancing technologies like cryptocurrency, encouraging the innovation and job growth they bring, all while protecting the public from bad actors."
+        }
+      ],
+      "platform_source_url": "https://www.jeffhurdforcolorado.com/issues",
+      "_platform_resolved_at": "2026-08-12T11:11:05.407Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=jVXfM1369wk",
+      "platform_video_title": "Jeff Hurd for Congress",
+      "platform_video_source_url": "https://www.jeffhurdforcolorado.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:25.443Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10079866.pdf",
+        "filingDate": "6/11/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T11:11:14.539Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 152,
+          "votesCast": 152,
+          "attendanceRate": 1
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources \u2014 Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources \u2014 Indian and Insular Affairs",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology \u2014 Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology \u2014 Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 26,
+        "bills_cosponsored": 196,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Wetlands Conservation and Access Improvement Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "2316",
+            "publicLawNumber": "119-40",
+            "summary": "Wetlands Conservation and Access Improvement Act of 2025 This act extends until FY2033 a requirement for the interest earned on&nbsp;certain funds&nbsp;held in the Federal Aid to Wildlife Restoration Fund to be distributed to&nbsp;states for carrying out certain&nbsp;wildlife conservation and restoration programs. Specifically, the act extends the period in which the interest earned on revenue generated from&nbsp;excise taxes on certain firearms, ammunition, and archery equipment must be used for&nbsp;wildlife conservation and restoration programs established under the North American Wetlands Conservation Act. This requirement was set to expire at the beginning of FY2026. In the absence of this requirement, this funding would be distributed&nbsp;to states, according to a formula,&nbsp;for (1) wildlife restoration, (2) hunter education and safety, (3) multistate conservation grants, and (4) administrative costs.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ40"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.317,
+          "nominateDim2": 0.307,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001100"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 64.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001100"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jeff grew up in western Colorado and appreciates what farming and ranching mean to Colorado\u2019s economy, its environment, and its culture. Agriculture produces the food we eat, contributes billions to our economy every year, is critical to conservation and land management, and preserves and protects our natural resources. When rural Colorado loses ranching and farmland\u2014particularly that of legacy ranchers and farmers\u2014it loses a core part of its identity.",
+        "source_url": "https://www.jeffhurdforcolorado.com/issues"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:24.727Z"
+    },
+    {
+      "slug": "dwayne-romero",
+      "full_name": "ROMERO, DWAYNE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO03253",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 716275.68,
+        "totalSpent": 632067.47,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 30252.73,
+          "largeDollar": 323893.95,
+          "pac": 12000,
+          "party": 0,
+          "selfFunded": 350000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "The Romero Group, LLC, Chief Executive Officer (2015 - Present); Aspen School District, Board Member (2016 - 2021); State of Colorado, Chief Economic Development Director (2011 - 2011); Related Companies, President, Colorado (2008 - 2015); Aspen City Council, Councilmember (2007 - 2011); Steeplechase Development Partners, Managing Partner (2004 - 2008); Hines, Development Manager (1997 - 2004); US Army, Military Officer, Captain (1987 - 1994)",
+          "source_url": "https://www.ballotready.org/people/dwayne-romero",
+          "snippet": "Professional Experience The Romero Group, LLC, Chief Executive Officer (2015 - Present) Aspen School District, Board Member (2016 - 2021) State of Colorado, Chief Economic Development Director (2011 - 2011) Related Companies, President, Colorado (2008 - 2015) Aspen City Council, Councilmember (2007 - 2011) Steeplechase Development Partners, Managing Partner (2004 - 2008) Hines, Development Manager (1997 - 2004) US Army, Military Officer, Captain (1987 - 1994)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "married to Margaret",
+          "source_url": "https://romeroforcolorado.com/",
+          "snippet": "After his military service, Dwayne returned to Colorado to raise a family with his wife Margaret. They just celebrated their 35th wedding anniversary.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "served on local City Council, board member of Fire Protection District and Roaring Fork Transit Authority, local School District Board of Education including as President from 2020 to 2021, coached local high school baseball team for nine years, elected Board Director for the Snowmass Village Water and Sanitation Board",
+          "source_url": "https://romeroforcolorado.com/",
+          "snippet": "Dwayne also served on his local City Council, as a board member of both his Fire Protection District and Roaring Fork Transit Authority, and on the local School District Board of Education, including as President from 2020 to 2021. He coached the local high school baseball team for nine years and he currently serves as an elected Board Director for the Snowmass Village Water and Sanitation Board.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Agriculture",
+          "value": "Fight for family farms, ranches, and small agriculture businesses, pass a robust Farm Bill, and keep foreign entities out of Colorado water and farmland ownership",
+          "snippet": "I ll fight for our family farms, ranches, and small agriculture businesses to strengthen rural economies for the next generation. We must pass a robust Farm Bill and keep foreign entities out of Colorado water and farmland ownership."
+        },
+        {
+          "topic": "Energy",
+          "value": "Use legacy energy resources produced in CO-03 while simultaneously advancing alternative energies in an all-of-the-above approach",
+          "snippet": "My approach is practical: we need to focus on using our legacy energy resources that are produced right here in CO-03 as we simultaneously press hard on the advancement and deployment of alternative energies."
+        },
+        {
+          "topic": "Public Lands",
+          "value": "Oppose efforts to sell or transfer public lands to private interests and support firefighters and increase fire resilience",
+          "snippet": "We need to oppose efforts to sell or transfer out public lands to private interests and support our firefighters and increase fire resilience."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Secure the border, provide a path to citizenship for long-term law-abiding community members, and provide for more immigration judges to detain the bad guys and protect those seeking safe haven",
+          "snippet": "Part of immigration reform needs to include a path to citizenship for long-term, law-abiding community members, and provide for more immigration judges to detain the bad guys and protect those seeking safe haven."
+        }
+      ],
+      "platform_source_url": "https://romeroforcolorado.com/issues/",
+      "_platform_resolved_at": "2026-08-17T06:36:48.400Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=gndoIScD_uk",
+      "platform_video_title": "Dwayne Romero for Colorado",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T12:00:23.480Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075334.pdf",
+        "filingDate": "5/29/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T11:11:19.099Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:23.480Z",
+      "bio_summary": {
+        "value": "United States Army Engineer Officer Dwayne Romero is a husband, father, combat veteran, small business owner, and Democratic candidate for Colorado\u2019s Third Congressional District. Raised by a single mom, Dwayne understands the challenges working Coloradans are facing. At age 12, Dwayne started folding laundry at his family\u2019s apartment complex to help the family make ends\u2019 meet, an experience that taught him hard work, responsibility, and the value of a dollar.",
+        "source_url": "https://www.romeroforcolorado.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:16.003Z",
+      "platform_video_tier": 2
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-17T00:30:34.891Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code \u00a7 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code \u00a7 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Texas's felony-disqualification requirement (Tex. Elec. Code \u00a7 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code \u00a7 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_8th_Congressional_District_election,_2026",
+    "snippet": "Laura Jones and Jessica Steinmann are running in the general election for U.S. House Texas District 8 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "laura-jones",
+      "full_name": "JONES, LAURA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H0TX08145",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 21980,
+        "totalSpent": 16621.43,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 6795,
+          "largeDollar": 12560,
+          "pac": 2625,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Houston, Texas",
+          "source_url": "https://ballotpedia.org/Laura_Jones_(Texas)",
+          "snippet": "Laura Jones was born in Houston, Texas."
+        },
+        "employment_record": {
+          "value": "Business professional and real estate sales agent with HomePlus Realty Group",
+          "source_url": "https://ballotpedia.org/Laura_Jones_(Texas)",
+          "snippet": "Jones' career experience includes working as a business professional and a real estate sales agent with HomePlus Realty Group."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076186.pdf",
+        "filingDate": "4/25/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T00:30:26.131Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Laura Jones was born in Houston, Texas . Jones' career experience includes working as a business professional and a real estate sales agent with HomePlus Realty Group. [1] [2] ",
+        "source_url": "https://ballotpedia.org/Laura_Jones_(Texas)",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:31:46.180Z"
+    },
+    {
+      "slug": "jessica-steinmann",
+      "full_name": "STEINMANN, JESSICA HART",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX08209",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2064032.54,
+        "totalSpent": 1941845.06,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 65062.12,
+          "largeDollar": 730074.46,
+          "pac": 297050,
+          "party": 0,
+          "selfFunded": 650000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Harris County",
+          "source_url": "https://www.jessicasteinmann.com/",
+          "snippet": "She was born and went to high school just outside the district in Harris County.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "high_school": {
+          "value": "just outside the district in Harris County",
+          "source_url": "https://www.jessicasteinmann.com/",
+          "snippet": "She was born and went to high school just outside the district in Harris County.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married to Brandon",
+          "source_url": "https://www.jessicasteinmann.com/",
+          "snippet": "Steinmann and her husband Brandon, a Conroe native and the elected Montgomery County Clerk, live in Montgomery County with their two sons.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "President of The Woodlands Republican Women, Montgomery County Child Welfare Board, member of Conroe Noon Lions Club, The Woodlands Rotary, and Federalist Society",
+          "source_url": "https://www.jessicasteinmann.com/",
+          "snippet": "Steinmann serves on numerous local county and nonprofit boards in our community, including previously serving as the President of The Woodlands Republican Women, on the Montgomery County Child Welfare Board, and is also a member of Conroe Noon Lions Club, The Woodlands Rotary, and Federalist Society.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "America First Policy Institute, Executive General Counsel & Vice Chair of Litigation (2021 - Present); US Department of Justice, Director of the Office for Victims of Crime (2018 - 2021); US Senate, Regional Director for Senator Ted Cruz (2015 - 2018); Bracewell & Giuliani LLP, Attorney (2009 - 2014)",
+          "source_url": "https://www.ballotready.org/people/jessica-steinmann",
+          "snippet": "Professional Experience America First Policy Institute, Executive General Counsel & Vice Chair of Litigation (2021 - Present) US Department of Justice, Director of the Office for Victims of Crime (2018 - 2021) US Senate, Regional Director for Senator Ted Cruz (2015 - 2018) Bracewell & Giuliani LLP, Attorney (2009 - 2014)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Energy",
+          "value": "Will end crippling restrictions and unleash American energy to make America the dominant energy producer in the world",
+          "snippet": "Now, we must end crippling restrictions and unleash American energy to make America the dominant energy producer in the world and protect our national security."
+        },
+        {
+          "topic": "Parental Rights",
+          "value": "Will defend parental rights and fight for parents \u2014 not the government \u2014 overseeing the upbringing of their children",
+          "snippet": "I will continue to fight for parents \u2014 not the government \u2014 overseeing the upbringing of their children."
+        },
+        {
+          "topic": "Human Trafficking",
+          "value": "Will lead the fight against human trafficking and protect crime victims",
+          "snippet": "At the Department of Justice, I led the fight against human trafficking \u2014 protecting the most vulnerable and standing up for victims."
+        },
+        {
+          "topic": "Artificial Intelligence",
+          "value": "America must lead the world in artificial intelligence by cutting burdensome regulations that slow innovation and unleashing pro-energy policies",
+          "snippet": "America must lead the world in artificial intelligence \u2014 not China. To win that race, we need to cut the burdensome regulations that slow innovation and unleash pro-energy policies that power our economy and our tech sector."
+        }
+      ],
+      "platform_source_url": "https://www.jessicasteinmann.com/",
+      "_platform_resolved_at": "2026-08-14T18:25:56.375Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075906.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T00:30:29.509Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jessica Hart Steinmann is an America First conservative, President Trump and Ted Cruz alum, Christian, proud wife, mother of two, and proven fighter for the America First agenda running for Congress in Texas' 8th Congressional District. Steinmann led the charge in conservative fights her whole career. She served in President Trump\u2019s Department of Justice, where she led efforts to combat human trafficking and support crime victims as the Director for the Office of Victims of Crime.",
+        "source_url": "https://www.jessicasteinmann.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:49.990Z"
+    }
+  ]
+}

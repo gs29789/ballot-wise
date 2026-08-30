@@ -1,0 +1,713 @@
+{
+  "state": "MO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-14T14:11:27.476Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "primarySnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "generalSnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Missouri does have an active state felony-disqualification law for candidates, RSMo §115.306.1: no person who has been found guilty of or pled guilty to a felony (federal, Missouri, or an out-of-state offense that would be a felony in Missouri) may qualify as a candidate for 'elective public office' in Missouri. RSMo §115.013 defines 'public office' broadly enough to textually reach federal officeholders ('any employment under the United States, the state of Missouri, or any political subdivision or special district thereof'), and Missouri courts do actively enforce §115.306 — e.g., Fletcher v. Young, 689 S.W.3d 161 (Mo. banc 2024), held a felony guilty plea disqualifies a candidate even after a gubernatorial pardon. However, as applied to a candidate for the U.S. House or Senate specifically, this state law almost certainly cannot be constitutionally enforced. Under U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), the Constitution's Qualifications Clauses (Art. I, §2, cl. 2 for the House; Art. I, §3, cl. 3 for the Senate — age, citizenship, inhabitancy) are the exclusive qualifications for congressional service, and a state cannot add to them, directly or indirectly (including through ballot-access denial). No Missouri-specific court decision was found applying §115.306 to a federal congressional candidate (Fletcher v. Young concerns a non-federal office), so this conclusion rests on the general federal constitutional doctrine of Thornton rather than a Missouri-specific ruling — flagged for legal review if certainty is required.",
+    "source_url": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-306/",
+    "snippet": "115.306. Disqualification as candidate for elective public office, when — filing of affidavit, contents — tax delinquency, effect of. — 1. No person shall qualify as a candidate for elective public office in the state of Missouri who has been found guilty of or pled guilty to a felony under the federal laws of the United States of America or to a felony under the laws of this state or an offense committed in another state that would be considered a felony in this state."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    "snippet": "Jason Smith (Incumbent) (Republican Party) Christopher Reichard (Democratic Party) Rebecca Sharpe Lombard (Libertarian Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 42.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.08
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 36.66
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 35.57
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.21
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3000.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2999.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2993.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2982.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2985.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2994.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2985.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2988.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2982.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2978.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2981.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2985.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2982.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2995.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2992.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2990.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2984.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2993.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2992.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2981.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2991.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2988.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2986.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2984.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2972
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2979.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2971.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2974
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2971.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2962.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2963.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2963
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2960.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2957.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 25816923342.32,
+        "perCapitaUsd": 33889.15
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31145288050.81,
+        "perCapitaUsd": 40883.54
+      },
+      {
+        "year": "2025",
+        "totalUsd": 32080677596.88,
+        "perCapitaUsd": 42111.4
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6177957
+      },
+      {
+        "year": "2023",
+        "population": 6196156
+      },
+      {
+        "year": "2024",
+        "population": 6245466
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 64811
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 68545
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71589
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "christopher-reichard",
+      "full_name": "REICHARD, CHRISTOPHER",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MO08183",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5673.94,
+        "totalSpent": 3732.06,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4268.92,
+          "largeDollar": 1295.75,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 109.27
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "disabled OIF Army veteran, proud second generation IBEW Local 1 union member",
+          "source_url": "https://reichardforrep.com/",
+          "snippet": "disabled OIF Army veteran, proud second generation IBEW Local 1 union member",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Working Families",
+          "value": "Support Working Families",
+          "snippet": "Support Working Families"
+        },
+        {
+          "topic": "Constitutional, Civil and Labor Rights",
+          "value": "Defend our Constitutional, Civil and Labor Rights",
+          "snippet": "Defend our Constitutional, Civil and Labor Rights"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Stand Up For Our Veterans",
+          "snippet": "Stand Up For Our Veterans"
+        }
+      ],
+      "platform_source_url": "https://reichardforrep.com/issues",
+      "_platform_resolved_at": "2026-08-14T14:11:04.573Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Chris Reichard is a different kind of candidate: a disabled OIF Army veteran, proud second generation IBEW Local 1 union member, and a seasoned fighter for our rights from Arnold, MO. He's ready to bring this experience to Washington for Missouri's 8th District.",
+        "source_url": "https://reichardforrep.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:12.436Z"
+    },
+    {
+      "slug": "jason-smith",
+      "full_name": "SMITH, JASON T",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4MO08162",
+      "fec_status": "C",
+      "bioguide_id": "S001195",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5264182.96,
+        "totalSpent": 3269224.39,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 273782.28,
+          "largeDollar": 1289287.47,
+          "pac": 2734275,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1980-06-16",
+          "source_url": "https://www.wikidata.org/wiki/Q6163589",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "St. Louis, Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q6163589",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q6163589",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Christian, Rancher, Small Business Owner",
+          "source_url": "https://electjasonsmith.com/",
+          "snippet": "Christian, Rancher, Small Business Owner",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Salem High School, graduated 1998",
+          "source_url": "https://en.wikipedia.org/wiki/Jason_Smith_(American_politician)",
+          "snippet": "He graduated from Salem High School in 1998.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Support securing the border",
+          "snippet": "Americans rightfully expect Congress to come together and find solutions to reversing the sharpest rise in cost of living in 40 years, to help lower gas prices, and secure our border."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Work to reverse the sharpest rise in cost of living in 40 years",
+          "snippet": "Americans rightfully expect Congress to come together and find solutions to reversing the sharpest rise in cost of living in 40 years, to help lower gas prices, and secure our border."
+        },
+        {
+          "topic": "Gas Prices",
+          "value": "Help lower gas prices",
+          "snippet": "Americans rightfully expect Congress to come together and find solutions to reversing the sharpest rise in cost of living in 40 years, to help lower gas prices, and secure our border."
+        },
+        {
+          "topic": "Child Tax Credit",
+          "value": "Allow pregnant mothers to be eligible for the Child Tax Credit to save up to an additional $2,000 for a child still in the womb",
+          "snippet": "This legislation would allow pregnant mothers to be eligible for the Child Tax Credit to save up to an additional $2,000 for a child still in the womb."
+        }
+      ],
+      "platform_source_url": "https://electjasonsmith.com/",
+      "_platform_resolved_at": "2026-08-14T14:11:15.022Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Joint Committee on Taxation",
+            "title": "Vice Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 124,
+        "bills_cosponsored": 1097,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "United States-Taiwan Initiative on 21st-Century Trade First Agreement Implementation Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "4004",
+            "publicLawNumber": "118-13",
+            "summary": "United States-Taiwan Initiative on 21st-Century Trade First Agreement Implementation Act This bill expresses the approval of Congress for the June 1, 2023, agreement regarding trade between the United States and Taiwan. The bill also imposes requirements on the negotiations of certain further trade agreements between the United States and Taiwan. (The June 1, 2023, agreement, which addresses issues such as customs administration and regulatory practices, is the first of several expected agreements under the United States-Taiwan Initiative on 21st-Century Trade.) The June 1, 2023, agreement may enter into force no earlier than 30 days after the President certifies in writing to Congress that Taiwan has taken measures necessary to comply with the agreement. The bill also imposes requirements on the negotiation of further agreements under the United States-Taiwan Initiative on 21st-Century Trade, such as requiring the U.S. Trade Representative (USTR) to (1) share any U.S. negotiating texts with Congress prior to sharing the text with Taiwan or any parties outside of the executive branch, (2) share any negotiating texts from Taiwan within three days of receipt, and (3) provide daily briefings to certain Members of Congress during negotiating rounds. A further agreement shall not take effect unless (1) the President, at least 60 days before entering into the further agreement, makes the text publicly available on a USTR website; and (2) a bill is enacted into law expressly approving the further agreement.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ13"
+          },
+          {
+            "title": "Paperwork Burden Reduction Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "3797",
+            "publicLawNumber": "118-167",
+            "summary": "Paperwork Burden Reduction Act This act modifies provisions under the Patient Protection and Affordable Care Act so that employers and health insurance providers are no longer required to send tax forms to covered individuals showing proof of minimum essential coverage (1095-B and 1095-C tax forms) unless a form is requested. Generally, employers and health insurance providers that provide minimum essential coverage must report this information for each covered individual to the Internal Revenue Service (IRS)&nbsp;and provide a copy of this information to the covered individual (through 1095-B and 1095-C tax forms) by January 31 of each year.&nbsp;The IRS allows certain health insurance providers and employers to provide 1095-B tax forms to individuals only upon request, provided that clear and conspicuous notice of an individual’s right to request a written copy of the 1095-B tax form is placed on the insurance provider’s or employer’s website.&nbsp; The act provides statutory authority for the option for certain health insurance providers and employers to provide 1095-B tax forms to individuals only upon request&nbsp;and extends this flexibility to 1095-C tax forms, which are sent by certain large employers. Requests&nbsp;for 1095-B and 1095-C tax forms&nbsp;must be fulfilled by January 31 or 30 days after the date of the request, whichever is later. Employers and health insurance providers must give individuals timely notice of this option, in accordance with any requirements set by the IRS.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ167"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.578,
+          "nominateDim2": 0.204,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001195"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 21,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001195"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Farm kid from Salem. Christian, Rancher, Small Business Owner, PROUD American. Champion of the working class, the unborn, veterans, families, & gun owners #MO8",
+        "source_url": "https://electjasonsmith.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:10.343Z"
+    }
+  ]
+}

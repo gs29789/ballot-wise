@@ -1,0 +1,763 @@
+{
+  "state": "CT",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-18T20:07:53.462Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
+    "primarySnippet": "Conn. Gen. Stat. \u00a7 9-423(a): The primaries of all parties for nomination to an office to be voted upon at a state election shall be held on the second Tuesday in August in the year in which such state election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.cga.ct.gov/current/pub/chap_146.htm",
+    "generalSnippet": "Conn. Gen. Stat. \u00a7 9-225(a): The town clerk or assistant town clerk of each town shall warn the electors therein to meet on the Tuesday following the first Monday in November in the even-numbered years, at six o'clock a.m. ..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Unclear on its face, but No in practice \u2014 Connecticut bars a person who has forfeited (and not regained) their electoral privileges due to a felony conviction from being \"a candidate for or hold[ing] public office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this provision would not be enforceable to keep a candidate off a Connecticut congressional ballot even though its text alone doesn't rule out reaching federal office",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_143.htm",
+    "snippet": "Conn. Gen. Stat. \u00a7 9-46(c): \"No person who has forfeited and not regained such person's privileges as an elector as provided in section 9-46a, or who has regained such privileges and again forfeited such privileges as provided in subsection (b) of this section, may be a candidate for or hold public office.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Connecticut's_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Joe Courtney and George Austin are running in the general election for U.S. House Connecticut District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 12.98
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 10.92
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 12.14
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 9.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 7.75
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1726.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1725
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1723.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1719.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1721.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1717
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1716.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1716.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1714.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1716.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1718
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1720.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1717.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1716.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1715.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1715.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1714.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1713.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1710.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1712.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1711.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1707.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1706.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1707.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1701.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1701
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1700.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1700
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1698.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1697.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1700.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1692.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1684.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1689.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1688.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1689.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6257681416.3,
+        "perCapitaUsd": 8698.7
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8120289750.97,
+        "perCapitaUsd": 11287.88
+      },
+      {
+        "year": "2025",
+        "totalUsd": 10232653302.62,
+        "perCapitaUsd": 14224.25
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3626205
+      },
+      {
+        "year": "2023",
+        "population": 3617176
+      },
+      {
+        "year": "2024",
+        "population": 3675069
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 88429
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 91665
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96049
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "george-austin",
+      "full_name": "AUSTIN, GEORGE PATRICK",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CT02196",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 283997,
+        "totalSpent": 84046.3,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 20447,
+          "largeDollar": 14950,
+          "pac": 1000,
+          "party": 2600,
+          "selfFunded": 240000
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:43.992Z"
+    },
+    {
+      "slug": "joseph-courtney",
+      "full_name": "COURTNEY, JOSEPH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2CT02112",
+      "fec_status": "C",
+      "bioguide_id": "C001069",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 760424.39,
+        "totalSpent": 508302.32,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 93730.52,
+          "largeDollar": 229308.29,
+          "pac": 433000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1953-04-06",
+          "source_url": "https://www.wikidata.org/wiki/Q434470",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Hartford, Connecticut",
+          "source_url": "https://www.wikidata.org/wiki/Q434470",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Tufts University",
+          "source_url": "https://www.wikidata.org/wiki/Q434470",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Audrey Courtney, 2 children",
+          "source_url": "https://en.wikipedia.org/wiki/Joe_Courtney_(politician)",
+          "snippet": "Spouse Audrey Courtney Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Co-Chair of the Friends of Australia Congressional Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Joe_Courtney_(politician)",
+          "snippet": "his leadership as Co-Chair of the Friends of Australia Congressional Caucus",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Northwest Catholic High School, West Hartford, Connecticut, graduated 1971",
+          "source_url": "https://history.house.gov/People/Listing/C/COURTNEY,-Joe-(C001069)/",
+          "snippet": "graduated from Northwest Catholic High School, West Hartford, Conn., 1971",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice",
+          "source_url": "https://history.house.gov/People/Listing/C/COURTNEY,-Joe-(C001069)/",
+          "snippet": "lawyer, private practice",
+          "source_type": "llm_extracted_house_historian"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 227,
+          "votesCast": 226,
+          "attendanceRate": 0.9955947136563876
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Tactical Air and Land Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce \u2014 Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce \u2014 Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Seapower and Projection Forces",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 188,
+        "bills_cosponsored": 3686,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Impact Aid Coronavirus Relief Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "8472",
+            "publicLawNumber": "116-211",
+            "summary": "Impact Aid Coronavirus Relief Act This bill revises the Impact Aid Program application process for FY2022. It also revises FY2021 allocations under the Migrant Education Program. First, the bill requires local educational agencies (LEAs) participating in the Impact Aid Program to use the student count or federal property valuation data from their FY2021 program applications, as applicable, for their FY2022 program applications. The program provides funding to LEAs that have lost property tax revenue due to the presence of tax-exempt federal property or to those that have experienced increased expenditures due to enrollment of federally connected children (e.g., children living on Indian lands or military bases). In addition, the bill directs the Department of Education to use school year 2018-2019 data or school year 2019-2020 data, whichever is greater, for making FY2021 allocations to states under the Migrant Education Program. States use these program funds to identify eligible migratory children and provide them with education and support services.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ211"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 235 Mountain Road in Suffield, Connecticut, as the \"Corporal Stephen R. Bixler Post Office\".",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "3325",
+            "publicLawNumber": "110-126",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 235 Mountain Road in Suffield, Connecticut, as the \"Corporal Stephen R. Bixler Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ126"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.337,
+          "nominateDim2": 0.041,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001069"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 48.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001069"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:44.269Z",
+      "bio_summary": {
+        "value": "Joseph David Courtney [ 1 ] (born April 6, 1953) [ 2 ] is an American lawyer and politician serving as the U.S. representative for Connecticut's 2nd congressional district since 2007. His district encompasses most of the eastern third of the state, including Norwich and New London . A member of the Democratic Party , Courtney served as the Connecticut state representative for the 56th district from 1987 to 1995 and Vernon town attorney from 2003 until 2006. ",
+        "source_url": "https://en.wikipedia.org/wiki/Joe_Courtney_(politician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:35:08.737Z"
+    }
+  ]
+}

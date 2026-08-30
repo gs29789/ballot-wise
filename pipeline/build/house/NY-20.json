@@ -1,0 +1,794 @@
+{
+  "state": "NY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-20",
+  "generated_at": "2026-08-21T12:11:28.572Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-20-results",
+    "snippet": "R: R. Ambrosio — uncontested. D: P. Tonko (incumbent) — uncontested."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 6.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.86
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.4
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 28.09
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 25.71
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 9992.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 9994.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 9977.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9979
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9977.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 10000.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9983.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9956.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9945.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9951.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9946.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9940.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 9948.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 9953.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 9933.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 9986.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 9968.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9961.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9943.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9930.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9916.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9922.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9887
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9880.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9909.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9879.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9866.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9838.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9809.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9796.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9785.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9756.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9737.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9732.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9731.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9699
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9665.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9666.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9658.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9654.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3511555383.28,
+        "perCapitaUsd": 5092.24
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4714399457.2,
+        "perCapitaUsd": 6836.53
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683016097.86,
+        "perCapitaUsd": 5340.88
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 19677151
+      },
+      {
+        "year": "2023",
+        "population": 19571216
+      },
+      {
+        "year": "2024",
+        "population": 19867248
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 79557
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 82095
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 85820
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "ralph-ambrosio",
+      "full_name": "AMBROSIO, RALPH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NY20225",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 29025.65,
+        "totalSpent": 20906.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7657,
+          "largeDollar": 20033.52,
+          "pac": 1335.13,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Born in Hudson and raised in Chatham, NY",
+          "source_url": "https://ambrosioforcongress.com/",
+          "snippet": "Born in Hudson and raised in Chatham, NY",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Clarkson University",
+          "source_url": "https://ambrosioforcongress.com/",
+          "snippet": "graduation from Clarkson University",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US Navy (active duty and reserves) from 1970-1976; New York State Police from 1977 to 1989; Assistant District Attorney in Greene and Columbia Counties from 1989 to 1996; public defender; assistant attorney general under Dennis Vacco; NYSP from 1999 to 2010 as an Assistant Counsel; private practice",
+          "source_url": "https://ambrosioforcongress.com/",
+          "snippet": "He served in the US Navy (active duty and reserves) from 1970-1976. After his military service and graduation from Clarkson University, he joined the New York State Police (NYSP) from 1977 to 1989. While with the NYSP, he obtained his law degree and served in the Division Counsel's Office. His career continued in law as an Assistant District Attorney in Greene and Columbia Counties from 1989 to 1996, a public defender, and later as an assistant attorney general under Dennis Vacco. Ambrosio returned to the NYSP from 1999 to 2010 as an Assistant Counsel before retiring and moving into private practice.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes and Regulation",
+          "value": "Tackle crushing costs and lack of opportunity through tax cutting and deregulation to lower costs and put more money back in your pocket",
+          "snippet": "We have to tackle crushing costs and lack of opportunity through tax cutting and deregulation. This will lower costs and put more money back in your pocket."
+        },
+        {
+          "topic": "Energy Policy",
+          "value": "Push an all-of-the-above energy strategy that will produce abundant supply while driving down costs",
+          "snippet": "I'll push and all-of-the-above energy strategy that will produce abundant supply while driving down costs."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Support law enforcement and focus on crime prevention and effective policing",
+          "snippet": "Ensure government fulfills its primary function of keeping citizens safe by supporting law enforcement, securing the nation, and defending the right to self-defense. By focusing on crime prevention and effective policing, we will see gains in public safety, our local economy, and overall quality of life."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Secure the nation's borders",
+          "snippet": "Ensure government fulfills its primary function of keeping citizens safe by supporting law enforcement, securing the nation, and defending the right to self-defense."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Defend the right to self-defense",
+          "snippet": "Ensure government fulfills its primary function of keeping citizens safe by supporting law enforcement, securing the nation, and defending the right to self-defense."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Support term limits",
+          "snippet": "This means support for term limits, Voter ID, parental rights in education, and rooting out corruption wherever it exists."
+        },
+        {
+          "topic": "Voter ID",
+          "value": "Support Voter ID",
+          "snippet": "This means support for term limits, Voter ID, parental rights in education, and rooting out corruption wherever it exists."
+        },
+        {
+          "topic": "Education",
+          "value": "Support parental rights in education",
+          "snippet": "This means support for term limits, Voter ID, parental rights in education, and rooting out corruption wherever it exists."
+        }
+      ],
+      "platform_source_url": "https://ambrosioforcongress.com/issues",
+      "_platform_resolved_at": "2026-08-10T12:45:19.703Z",
+      "campaign_site_url": "https://ambrosioforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=MbSc0dYRCI4",
+      "platform_video_title": "Ralph Ambrosio talks about the demise of St. Rose and the decay in NY’s 20th district ",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-19T11:05:50.337Z",
+      "bio_summary": {
+        "value": "Born in Hudson and raised in Chatham, NY, Ambrosio has a long and distinguished record of public service. He served in the US Navy (active duty and reserves) from 1970-1976. After his military service and graduation from Clarkson University, he joined the New York State Police (NYSP) from 1977 to 1989. While with the NYSP, he obtained his law degree and served in the Division Counsel's Office. His career continued in law as an Assistant District Attorney in Greene and Columbia Counties from 1989 to 1996, a public defender, and later as an assistant attorney general under Dennis Vacco.",
+        "source_url": "https://ambrosioforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:59.645Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "paul-tonko",
+      "full_name": "TONKO, PAUL DAVID",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8NY21203",
+      "fec_status": "C",
+      "bioguide_id": "T000469",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 957586.69,
+        "totalSpent": 1152761.13,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 97612.57,
+          "largeDollar": 240761.69,
+          "pac": 616955,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1949-06-18",
+          "source_url": "https://www.wikidata.org/wiki/Q1373548",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Amsterdam, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q1373548",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Clarkson University",
+          "source_url": "https://www.wikidata.org/wiki/Q1373548",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "engineer",
+          "source_url": "https://paultonko.com/issues",
+          "snippet": "As an engineer, I understand the importance of clean energy and the continued advancement of innovation in technology sectors.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Committee for Science, Space and Technology, and the Energy and Commerce Committee",
+          "source_url": "https://paultonko.com/issues",
+          "snippet": "Today, I am proud to sit on the Committee for Science, Space and Technology, and the Energy and Commerce Committee.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Amsterdam High School",
+          "source_url": "https://www.ballotready.org/people/paul-tonko",
+          "snippet": "High School Diploma, Amsterdam High School",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Reproductive Rights",
+          "value": "Paul works in Congress to protect health care for women across the country and protect reproductive rights after Republicans overturned Roe v. Wade.",
+          "snippet": "After decades of attacks on a woman's right to choose, Republicans were finally successful in overturning Roe v. Wade, dealing a blow to reproductive rights across the nation. Paul has again received the endorsement from Planned Parenthood for his work in Congress to protect health care for women across the country."
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Paul supports fighting climate change, which he identifies as our top global security threat per the Pentagon, and believes it will bring stable and good paying jobs to the United States and the Capital Region.",
+          "snippet": "Not only is fighting climate change our top global security threat as identified by the Pentagon, it will also bring stable and good paying jobs to the United States and the Capital Region."
+        },
+        {
+          "topic": "Mental Health & Opioids",
+          "value": "Paul recognizes that those struggling with mental illness fight a battle on two fronts - grappling with their own thoughts and mind, and contending with negative assumptions made about those with mental illness which are pervasive in our society.",
+          "snippet": "We too often forget that those struggling with mental illness are constantly forced to fight a battle on two fronts. Not only do they have to grapple with themselves -- with their own thoughts and mind -- but they also have to contend with the negative assumptions made about those with mental illness, which are pervasive in our society."
+        },
+        {
+          "topic": "Racial, Social, Economic & Climate Justice",
+          "value": "Paul works under the understanding that racial inequality has affected every arena of our nation throughout its history, and believes that as we build back better, long-ignored and under-served communities must have access to the same opportunities at long-term success as every other neighborhood, regardless of race, gender, or anything.",
+          "snippet": "Paul works under the hard truth that racial inequality has affected every arena of our nation throughout its history. As we build back better, we must understand that long-ignored and under-served communities must have access to the same opportunities at long-term success as every other neighborhood, regardless of race, gender, or anything."
+        }
+      ],
+      "platform_source_url": "https://paultonko.com/",
+      "_platform_resolved_at": "2026-08-10T12:46:16.682Z",
+      "campaign_site_url": "http://www.paultonko.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Paul has again received the endorsement from Planned Parenthood for his work in Congress to protect health care for women across the country.",
+        "source_url": "https://paultonko.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:54.084Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 220,
+        "bills_cosponsored": 4692,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "PIRATE Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "583",
+            "publicLawNumber": "116-109",
+            "summary": "Preventing Illegal Radio Abuse Through Enforcement Act or the PIRATE Act This bill addresses unlicensed radio broadcasting (called pirating), including by increasing to $2 million the maximum fine for a pirate radio broadcasting violation and imposing a fine of up to $100,000 per day for pirating violations subject to the $2 million limit. The Federal Communications Commission (FCC) must (1) annually submit to Congress a report summarizing implementation of this bill and associated enforcement activities for the previous fiscal year; and (2) at least once a year, assign appropriate enforcement personnel to focus specific and sustained attention on the elimination of pirate radio broadcasting within the top five radio markets. The FCC may not preempt any state or local law prohibiting pirate radio broadcasting. The FCC shall (1) revise its rules to require that, absent good cause, in any case alleging a violation, it shall proceed directly to issue a Notice of Apparent Liability without first issuing a Notice of Unlicensed Operation; and (2) publish a database of all licensed radio stations operating in the AM and FM band that includes each licensed station and all entities that have received a Notice of Unlicensed Operation, Notice of Apparent Liability, or Forfeiture Order from the FCC.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ109"
+          },
+          {
+            "title": "To rename the Stop Trading on Congressional Knowledge Act of 2012 in honor of Representative Louise McIntosh Slaughter.",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "6870",
+            "publicLawNumber": "115-277",
+            "summary": "(Sec. 1) This bill changes the title of the Stop Trading on Congressional Knowledge Act of 2012 to the &quot;Representative Louise McIntosh Slaughter Stop Trading on Congressional Knowledge Act.&quot;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ277"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 2-116th Street in North Troy, New York, as the \"Martin G. 'Marty' Mahar Post Office\".",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "4425",
+            "publicLawNumber": "111-187",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 2-116th Street in North Troy, New York, as the \"Martin G. 'Marty' Mahar Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ187"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.416,
+          "nominateDim2": -0.261,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/T000469"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 54.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/T000469"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:12.520Z"
+    }
+  ]
+}

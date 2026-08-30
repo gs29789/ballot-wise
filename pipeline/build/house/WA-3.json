@@ -1,0 +1,765 @@
+{
+  "state": "WA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-21T14:01:43.234Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "primarySnippet": "August 4 — Primary - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "generalSnippet": "November 3 — General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Washington law (RCW 29A.24.075(4)) explicitly states that requirements otherwise imposed on candidates \"do not apply to candidates for congressional office\" and that \"qualifications for the United States congress are specified in the United States Constitution\"; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+    "source_url": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.24.075",
+    "snippet": "RCW 29A.24.075(4): \"The requirements of voter registration and residence within the geographic area of a district do not apply to candidates for congressional office. Qualifications for the United States congress are specified in the United States Constitution.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and any voter may vote for any candidate — Washington doesn't register voters by party at all. The two candidates with the most votes advance to the general election, regardless of party, as long as each clears at least 1% of the primary vote.",
+    "primarySourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.36.170",
+    "primarySnippet": "RCW 29A.36.170: \"...only the names of the top two candidates will appear on the general election ballot\" (candidates ranked by primary vote total; a candidate needs at least one percent of the total votes cast for that office at the preceding primary to advance).",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. A candidate's stated party \"preference\" is self-declared and explicitly not a party nomination or endorsement. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.52.112",
+    "generalSnippet": "RCW 29A.52.112: \"Based upon votes cast at the primary, the top two candidates will be certified as qualified to appear on the general election ballot... Any party preferences are shown for the information of voters only and may in no way limit the options available to voters.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Washington%27s_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Marie Gluesenkamp Perez and John Braun are running in the general election for U.S. House Washington District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 30.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 27.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.56
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 24.36
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 21.51
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3652.5
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3640.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3645
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3639.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3639.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3637.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3639.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3639.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3635.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3633.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3630.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3631.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3635.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3642
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3644.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3638.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3628.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3631.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3635.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3635.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3627.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3597.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3635.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3623.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3621.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3616.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3616.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3611.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3613.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3609.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3597.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3601.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3596.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3592.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3593.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3591.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3588.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3600.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3591.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3588.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3584.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3588.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3581.6
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7995336301.6,
+        "perCapitaUsd": 10377.52
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8801497545.67,
+        "perCapitaUsd": 11423.87
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7383680769.61,
+        "perCapitaUsd": 9583.62
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7785786
+      },
+      {
+        "year": "2023",
+        "population": 7812880
+      },
+      {
+        "year": "2024",
+        "population": 7958180
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91306
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 94605
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 99389
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "john-braun",
+      "full_name": "BRAUN, JOHN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WA03275",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2214441.26,
+        "totalSpent": 947406.42,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 205710.29,
+          "largeDollar": 1325657.46,
+          "pac": 279845.01,
+          "party": 0,
+          "selfFunded": 11433.79
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1967-01-16",
+          "source_url": "https://www.wikidata.org/wiki/Q6230670",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Columbus, Delaware",
+          "source_url": "https://www.wikidata.org/wiki/Q6230670",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Washington",
+          "source_url": "https://www.wikidata.org/wiki/Q6230670",
+          "source_type": "wikidata_structured"
+        },
+        "civic_affiliations": {
+          "value": "Three of his four children followed him into uniformed service",
+          "source_url": "https://www.votebraun.com/",
+          "snippet": "Three of his four children followed him into uniformed service.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Washington State Senate, Senator - 20th District (2013 - Present); Braun Northwest, Inc., President (2006 - Present); US Navy, Naval Officer (1989 - Present); Braun Northwest, General Manager and Vice President (1999)",
+          "source_url": "https://www.ballotready.org/people/john-braun",
+          "snippet": "Washington State Senate, Senator - 20th District (2013 - Present) Braun Northwest, Inc., President (2006 - Present) US Navy, Naval Officer (1989 - Present) Braun Northwest, General Manager and Vice President (1999)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Marlo Braun, four children",
+          "source_url": "https://en.wikipedia.org/wiki/John_Braun",
+          "snippet": "Braun lives on a small farm in rural Centralia with his wife and four children",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Complete barriers, hire agents, deploy technology, go after cartel supply chains.",
+          "snippet": "Secure the Border Complete barriers, hire agents, deploy technology, go after cartel supply chains."
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Apply submarine discipline to federal budgets. Cut waste, not services.",
+          "snippet": "Stop Reckless Spending Apply submarine discipline to federal budgets. Cut waste, not services."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Fight inflation by cutting regulation, expanding energy, reining in government.",
+          "snippet": "Lower Costs for Families Fight inflation by cutting regulation, expanding energy, reining in government."
+        },
+        {
+          "topic": "Manufacturing",
+          "value": "Protect family-wage jobs, expand trade for WA agriculture, keep production in America.",
+          "snippet": "Defend Manufacturing Protect family-wage jobs, expand trade for WA agriculture, keep production in America."
+        },
+        {
+          "topic": "National Defense",
+          "value": "Rebuild the Navy, invest in the submarine fleet, and maintain deterrence.",
+          "snippet": "Strong National Defense Rebuild the Navy, invest in the submarine fleet, and maintain deterrence."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Back police, prosecute fentanyl dealers, protect communities from rising crime.",
+          "snippet": "Support Law Enforcement Back police, prosecute fentanyl dealers, protect communities from rising crime."
+        }
+      ],
+      "platform_source_url": "https://www.votebraun.com/",
+      "_platform_resolved_at": "2026-08-15T13:28:30.646Z",
+      "campaign_site_url": "https://www.votebraun.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "John Braun spent 31 years in the submarine force, built a 350-employee company in Chehalis, and led the fight against Olympia's tax surge. Now he's running to bring that same discipline to Washington, D.C.",
+        "source_url": "https://www.votebraun.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:26:26.024Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076473.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T13:28:36.845Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "marie-perez",
+      "full_name": "PEREZ, MARIE GLUESENKAMP",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2WA03217",
+      "fec_status": "C",
+      "bioguide_id": "G000600",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 6292682.63,
+        "totalSpent": 4254323.49,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 278709.27,
+          "largeDollar": 2262215.55,
+          "pac": 861810.91,
+          "party": 2905.31,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1988-06-04",
+          "source_url": "https://www.wikidata.org/wiki/Q113686944",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Harris County, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q113686944",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Reed College",
+          "source_url": "https://www.wikidata.org/wiki/Q113686944",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Co-Owner of Deans Car Care Inc (2013 - Present), Executive Director of Stevenson Downtown Association (2018 - 2020), Representative for US House of Representatives - Washington 3rd Congressional District (Present)",
+          "source_url": "https://www.ballotready.org/people/marie-gluesenkamp-perez",
+          "snippet": "Professional Experience Deans Car Care Inc, Co-Owner (2013 - Present) US House of Representatives, Representative - Washington 3rd Congressional District (Present) Stevenson Downtown Association, Executive Director (2018 - 2020)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.marieforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Kristina Marie Gluesenkamp Perez [ 1 ] [ a ] (née Perez ; born June 4, 1988) is an American politician serving as the United States representative for Washington's 3rd congressional district since 2023. A member of the Democratic Party , she is a co-chair of the Blue Dog Coalition . Gluesenkamp Perez was first elected to Congress in 2022 , defeating Republican nominee Joe Kent in an upset, and was re-elected in 2024 in a rematch. ",
+        "source_url": "https://en.wikipedia.org/wiki/Marie_Gluesenkamp_Perez",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:40:00.497Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 60,
+        "bills_cosponsored": 544,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 108 North Main Street in Bucoda, Washington, as the \"Mayor Rob Gordon Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9421",
+            "publicLawNumber": "118-262",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 108 North Main Street in Bucoda, Washington, as the Mayor Rob Gordon Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ262"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.1,
+          "nominateDim2": 0.38,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000600"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 93.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000600"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

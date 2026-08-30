@@ -1,0 +1,235 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-14T18:16:32.384Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code \u00a7 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code \u00a7 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Texas's felony-disqualification requirement (Tex. Elec. Code \u00a7 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code \u00a7 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_2nd_Congressional_District_election,_2026",
+    "snippet": "Shaun Finnie and Steve Toth are running in the general election for U.S. House Texas District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "shaun-finnie",
+      "full_name": "FINNIE, SHAUN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX02251",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2729676.76,
+        "totalSpent": 1260476.12,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 58183.65,
+          "largeDollar": 706764,
+          "pac": 1000,
+          "party": 0,
+          "selfFunded": 1961000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "businessman",
+          "source_url": "https://shaunfinnieforcongress.com/",
+          "snippet": "As a father, a businessman, and a taxpayer, I understand the frustrations that our families are facing",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Federal Debt",
+          "value": "Address the federal debt to protect the economic futures of our young people",
+          "snippet": "Address the federal debt to protect the economic futures of our young people."
+        },
+        {
+          "topic": "Social Security, Medicare, and Medicaid",
+          "value": "Protect Social Security, Medicare, and Medicaid benefits for all middle-class Americans from any potential cuts",
+          "snippet": "That means protecting Social Security, Medicare, and Medicaid benefits for all middle-class Americans."
+        },
+        {
+          "topic": "Tariffs",
+          "value": "Remove the Tariffs",
+          "snippet": "Remove the Tariffs."
+        },
+        {
+          "topic": "Women's Healthcare",
+          "value": "Ensure that women have the right to make their own healthcare decisions",
+          "snippet": "Ensure that women have the right to make their own healthcare decisions."
+        },
+        {
+          "topic": "Public Education",
+          "value": "Invest in public education and in medical and scientific research",
+          "snippet": "Invest in public education and in medical and scientific research."
+        },
+        {
+          "topic": "Economic Opportunity",
+          "value": "Ensure everyone has an equal opportunity to support their families and succeed",
+          "snippet": "ensure everyone has an equal opportunity to support their families and succeed"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Ensure all Texans can afford to live and work here",
+          "snippet": "Ensure all Texans can afford to live and work here."
+        }
+      ],
+      "platform_source_url": "https://shaunfinnieforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:16:15.135Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=DgJAKyNOEqk",
+      "platform_video_title": "Affordable housing isn't a minor issue. It's the issue. And it has to change.",
+      "platform_video_source_url": "https://shaunfinnieforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:27.910Z",
+      "bio_summary": {
+        "value": "Every Texan deserves a responsible government that supports growth, not impairs our success. As a father, a businessman, and a taxpayer, I understand the frustrations that our families are facing - a national debt growing out of control, the cost of living becoming unaffordable, and Social Security, Medicare, and Medicaid being put on the chopping block. Once elected, I\u2019ll apply the same lessons I\u2019ve learned throughout my business career to government - never spend more than what we can afford, ensure everyone has an equal opportunity to support their families and succeed, and never jeopardize essential benefits that matter most.",
+        "source_url": "https://shaunfinnieforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:15.998Z"
+    },
+    {
+      "slug": "steve-toth",
+      "full_name": "TOTH, STEVE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX08175",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 824450,
+        "totalSpent": 671514.75,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 48979.53,
+          "largeDollar": 664048.39,
+          "pac": 67800,
+          "party": 0,
+          "selfFunded": 13000
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1960-11-29",
+          "source_url": "https://www.wikidata.org/wiki/Q16193904",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "New York",
+          "source_url": "https://www.wikidata.org/wiki/Q16193904",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Pittsford Mendon High School",
+          "source_url": "https://www.wikidata.org/wiki/Q16193904",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Texas State House of Representatives, State Representative - District 15 (2013 - Present); My PoolXpert, Owner (2005 - Present); Acclaim Pools, Owner (Present); The Aston Group, Executive Vice President, Business Development (2014 - 2015); Harris Interactive, Director, Client Service, Technology Vertical (2000 - 2006); Danka Office Imaging, Houston Area Sales Manager (1998 - 1999); Apple Orthodontix, Director of Marketing (1997 - 1998); Johnson & Johnson, Director of Client Service North Eastern States (1992 - 1997); Iron Mountain / SafeSite, Area Sales (1990 - 1992)",
+          "source_url": "https://www.ballotready.org/people/steve-toth",
+          "snippet": "Texas State House of Representatives, State Representative - District 15 (2013 - Present) My PoolXpert, Owner (2005 - Present) Acclaim Pools, Owner (Present) The Aston Group, Executive Vice President, Business Development (2014 - 2015) Harris Interactive, Director, Client Service, Technology Vertical (2000 - 2006) Danka Office Imaging, Houston Area Sales Manager (1998 - 1999) Apple Orthodontix, Director of Marketing (1997 - 1998) Johnson & Johnson, Director of Client Service North Eastern States (1992 - 1997) Iron Mountain / SafeSite, Area Sales (1990 - 1992)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Pittsford Mendon High School in suburban Rochester",
+          "source_url": "https://en.wikipedia.org/wiki/Steve_Toth",
+          "snippet": "Toth attended Pittsford Mendon High School in suburban Rochester",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Babette Toth, 3 children",
+          "source_url": "https://en.wikipedia.org/wiki/Steve_Toth",
+          "snippet": "Spouse Babette Toth Children 3",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076432.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:16:28.021Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Steven Hixson Toth (born November 29, 1960) [ 1 ] is an American businessman , pastor, and politician serving as a member of the Texas House of Representatives from District 15, The Woodlands area. [ 2 ] Toth is the Republican nominee for Texas's 2nd congressional district , having defeated incumbent representative Dan Crenshaw in the March 2026 Republican primary . [ 3 ] [ 4 ] [ 5 ] Early life and education [ edit ] Born and raised in New York , Toth attended Pittsford Mendon High School in suburban Rochester . He also attended Rochester Bible College. [ 6 ] Career [ edit ] Toth owns Acclaim Pools and My Pool Xpert in The Woodlands. He is a former pastor at Family Life Ministries of the Fellowship of The Woodlands, a congregation now known as The Woodlands Church. [ 7 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Toth",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:45:54.511Z"
+    }
+  ]
+}

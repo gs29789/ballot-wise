@@ -1,0 +1,222 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-51",
+  "generated_at": "2026-08-18T20:10:01.841Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 California's felony-disqualification statute (Cal. Elec. Code \u00a7 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code \u00a7 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election \u2014 regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, \u00a75(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party \u2014 this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code \u00a78141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_51st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Sara Jacobs and Ricardo Cabrera are running in the general election for U.S. House California District 51 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "sara-jacobs",
+      "full_name": "JACOBS, SARA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CA49074",
+      "fec_status": "C",
+      "bioguide_id": "J000305",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1639893.31,
+        "totalSpent": 1447813.19,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 153440.94,
+          "largeDollar": 261235.5,
+          "pac": 207250,
+          "party": 0,
+          "selfFunded": 929346.65
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1989-02-01",
+          "source_url": "https://www.wikidata.org/wiki/Q50825637",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Del Mar, California",
+          "source_url": "https://www.wikidata.org/wiki/Q50825637",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Columbia University",
+          "source_url": "https://www.wikidata.org/wiki/Q50825637",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Torrey Pines High School",
+          "source_url": "https://www.ballotready.org/people/sara-jacobs",
+          "snippet": "High School Diploma, Torrey Pines High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "In a relationship with Ammar Campa-Najjar since 2019",
+          "source_url": "https://en.wikipedia.org/wiki/Sara_Jacobs",
+          "snippet": "She has been in a relationship with Ammar Campa-Najjar (a former Democratic candidate for a neighboring congressional district ) since 2019.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "After earning her master's degree, Jacobs worked for the United Nations and UNICEF. In February 2014, she began working as a contractor to the United States Department of State. She then served as a policy advisor on Hillary Clinton's 2016 presidential campaign.",
+          "source_url": "https://en.wikipedia.org/wiki/Sara_Jacobs",
+          "snippet": "After earning her master's degree, Jacobs worked for the United Nations and UNICEF . In February 2014, she began working as a contractor to the United States Department of State . She then served as a policy advisor on Hillary Clinton's 2016 presidential campaign .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "After the election, Jacobs formed a nonprofit called San Diego for Every Child: The Coalition to End Child Poverty.",
+          "source_url": "https://en.wikipedia.org/wiki/Sara_Jacobs",
+          "snippet": "After the election, Jacobs formed a nonprofit called San Diego for Every Child: The Coalition to End Child Poverty.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs \u2014 Africa",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs \u2014 Western Hemisphere",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Intelligence and Special Operations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Military Personnel",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 81,
+        "bills_cosponsored": 1377,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 6401 El Cajon Boulevard in San Diego, California, as the \"Susan A. Davis Post Office\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "9308",
+            "publicLawNumber": "117-314",
+            "summary": "This act designates the facility of the United States Postal Service located at 6401 El Cajon Boulevard in San Diego, California, as the Susan A. Davis Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ314"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.417,
+          "nominateDim2": -0.425,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/J000305"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 23.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/J000305"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Sara Josephine Jacobs [ 2 ] (born February 1, 1989) is an American politician who has been the U.S. representative for California's 51st congressional district since 2023, previously representing the 53rd congressional district from 2021 to 2023. Her district includes central and eastern portions of San Diego , as well as eastern suburbs such as El Cajon , La Mesa , Spring Valley , and Lemon Grove . A member of the Democratic Party , she is the youngest member of California's congressional delegation . [ 3 ] She was the caucus leadership representative for the 118th Congress , making her the youngest member of the Democratic House leadership. [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Sara_Jacobs",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:33:50.504Z"
+    }
+  ]
+}

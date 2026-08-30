@@ -1,0 +1,243 @@
+{
+  "state": "WA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-10",
+  "generated_at": "2026-08-15T13:34:16.438Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "primarySnippet": "August 4 \u2014 Primary - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "generalSnippet": "November 3 \u2014 General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Washington law (RCW 29A.24.075(4)) explicitly states that requirements otherwise imposed on candidates \"do not apply to candidates for congressional office\" and that \"qualifications for the United States congress are specified in the United States Constitution\"; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+    "source_url": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.24.075",
+    "snippet": "RCW 29A.24.075(4): \"The requirements of voter registration and residence within the geographic area of a district do not apply to candidates for congressional office. Qualifications for the United States congress are specified in the United States Constitution.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and any voter may vote for any candidate \u2014 Washington doesn't register voters by party at all. The two candidates with the most votes advance to the general election, regardless of party, as long as each clears at least 1% of the primary vote.",
+    "primarySourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.36.170",
+    "primarySnippet": "RCW 29A.36.170: \"...only the names of the top two candidates will appear on the general election ballot\" (candidates ranked by primary vote total; a candidate needs at least one percent of the total votes cast for that office at the preceding primary to advance).",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party \u2014 this is a normal, expected outcome under this system, not an error. A candidate's stated party \"preference\" is self-declared and explicitly not a party nomination or endorsement. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.52.112",
+    "generalSnippet": "RCW 29A.52.112: \"Based upon votes cast at the primary, the top two candidates will be certified as qualified to appear on the general election ballot... Any party preferences are shown for the information of voters only and may in no way limit the options available to voters.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Washington%27s_10th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Marilyn Strickland and Chris Chung are running in the general election for U.S. House Washington District 10 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 30.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 27.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.56
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 24.36
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 21.51
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7995336301.6,
+        "perCapitaUsd": 10377.52
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8801497545.67,
+        "perCapitaUsd": 11423.87
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7383680769.61,
+        "perCapitaUsd": 9583.62
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "marilyn-strickland",
+      "full_name": "STRICKLAND, MARILYN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0WA10034",
+      "fec_status": "C",
+      "bioguide_id": "S001159",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1511303.61,
+        "totalSpent": 1414393.72,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 65724.06,
+          "largeDollar": 773382.31,
+          "pac": 667379.67,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1962",
+          "source_url": "https://www.wikidata.org/wiki/Q1898180",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Seoul",
+          "source_url": "https://www.wikidata.org/wiki/Q1898180",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Clark Atlanta University",
+          "source_url": "https://www.wikidata.org/wiki/Q1898180",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Two-term Mayor. Private sector leader & small business advocate.",
+          "source_url": "https://www.stricklandforwashington.com/",
+          "snippet": "Two-term Mayor. Private sector leader & small business advocate.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Chief Deputy Whip in the House Democratic Caucus. Secretary of the Congressional Black Caucus.",
+          "source_url": "https://www.stricklandforwashington.com/",
+          "snippet": "Chief Deputy Whip in the House Democratic Caucus. Secretary of the Congressional Black Caucus.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Mount Tahoma High School",
+          "source_url": "https://en.wikipedia.org/wiki/Marilyn_Strickland",
+          "snippet": "She was raised in Tacoma's South End neighborhood and attended Mount Tahoma High School .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Patrick Erwin",
+          "source_url": "https://en.wikipedia.org/wiki/Marilyn_Strickland",
+          "snippet": "She is married to Patrick Erwin.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Affordability",
+          "value": "Support for affordable housing",
+          "snippet": "Housing we can afford and good jobs."
+        },
+        {
+          "topic": "Employment",
+          "value": "Support for good jobs",
+          "snippet": "Housing we can afford and good jobs."
+        },
+        {
+          "topic": "Education",
+          "value": "Support for good schools",
+          "snippet": "Good schools and safe neighborhoods."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Support for safe neighborhoods",
+          "snippet": "Good schools and safe neighborhoods."
+        },
+        {
+          "topic": "Retirement",
+          "value": "Support for the ability to retire with dignity",
+          "snippet": "The ability to retire with dignity, and the freedom to live our lives in peace."
+        }
+      ],
+      "platform_source_url": "https://www.stricklandforwashington.com/",
+      "_platform_resolved_at": "2026-08-15T13:34:09.539Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Coast Guard and Maritime Transportation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Readiness",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services \u2014 Military Personnel",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 57,
+        "bills_cosponsored": 1286,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Fairness for Servicemembers and their Families Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "970",
+            "publicLawNumber": "119-54",
+            "summary": "Fairness for Servicemembers and their Families Act of 2025 This act requires the Department of Veterans Affairs (VA) to periodically review and report on the maximum coverage available under the&nbsp;Servicemembers' Group Life Insurance and Veterans' Group Life Insurance programs. Specifically, the VA must review such coverage amount every five years, taking into account the average percentage by which the Consumer Price Index for All Urban Consumers (CPI-U) increased in the five fiscal years preceding the review.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ54"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.443,
+          "nominateDim2": 0.352,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001159"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 51,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001159"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Army brat. Two-term Mayor. Private sector leader & small business advocate. The first African-American and Korean-American woman elected to Congress. Chief Deputy Whip in the House Democratic Caucus. Secretary of the Congressional Black Caucus.",
+        "source_url": "https://www.stricklandforwashington.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:26:56.308Z"
+    }
+  ]
+}

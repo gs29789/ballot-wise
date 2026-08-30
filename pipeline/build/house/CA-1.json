@@ -1,0 +1,279 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T19:50:36.216Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 California's felony-disqualification statute (Cal. Elec. Code \u00a7 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code \u00a7 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election \u2014 regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, \u00a75(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party \u2014 this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code \u00a78141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent James Gallagher and Mike McGuire are running in the general election for U.S. House California District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "james-gallagher",
+      "full_name": "GALLAGHER, JAMES",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA01285",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1488905.68,
+        "totalSpent": 1156006.5,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 74464.56,
+          "largeDollar": 885289.91,
+          "pac": 275863,
+          "party": 7000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1981",
+          "source_url": "https://electjamesgallagher.com/",
+          "snippet": "James was born in Yuba City in 1981 and attended local schools.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "birthplace": {
+          "value": "Yuba City",
+          "source_url": "https://electjamesgallagher.com/",
+          "snippet": "James was born in Yuba City in 1981 and attended local schools.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "BA degree at UC Berkeley and a JD degree at the University of California, Davis, where he graduated at the top of his class",
+          "source_url": "https://electjamesgallagher.com/",
+          "snippet": "He earned his BA degree at UC Berkeley and a JD degree at the University of California, Davis, where he graduated at the top of his class.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married to his high school sweetheart, Janna",
+          "source_url": "https://electjamesgallagher.com/",
+          "snippet": "James is married to his high school sweetheart, Janna; the two live in Sutter County where they are raising their five wonderful children.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes and Affordability",
+          "value": "Make life more affordable for North State families through lower taxes, lower fees and fewer regulations",
+          "snippet": "Make life more affordable for North State families through lower taxes, lower fees and fewer regulations"
+        },
+        {
+          "topic": "Crime and Public Safety",
+          "value": "Enact tougher laws protect our communities, neighborhoods and homes from crime",
+          "snippet": "Enact tougher laws protect our communities, neighborhoods and homes from crime"
+        },
+        {
+          "topic": "Energy",
+          "value": "Expand energy production to bring prices down",
+          "snippet": "Expand energy production to bring prices down"
+        },
+        {
+          "topic": "Individual and Property Rights",
+          "value": "Defend our individual and property rights",
+          "snippet": "Defend our individual and property rights"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Continue the tough border security implemented by the President",
+          "snippet": "Continue the tough border security implemented by the President"
+        },
+        {
+          "topic": "Parental Rights",
+          "value": "Stand up for families and parental rights",
+          "snippet": "Stand up for families and parental rights"
+        },
+        {
+          "topic": "Agriculture and Business Regulation",
+          "value": "Protect our Farms and Businesses from excessive government regulation",
+          "snippet": "Protect our Farms and Businesses from excessive government regulation"
+        }
+      ],
+      "platform_source_url": "https://electjamesgallagher.com/",
+      "_platform_resolved_at": "2026-08-15T10:50:06.817Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=Gb6R0ofDmvA",
+      "platform_video_title": "McGuire \"Look at the Google\"",
+      "platform_video_source_url": "https://electjamesgallagher.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:07:18.361Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074472.pdf",
+        "filingDate": "5/5/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T10:50:16.818Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "James Gallagher is the descendant of Irish immigrants who settled in northern California in the early 1800s. James was born in Yuba City in 1981 and attended local schools. He earned his BA degree at UC Berkeley and a JD degree at the University of California, Davis, where he graduated at the top of his class. James Gallagher has represented California\u2019s Third Assembly District since 2014 and served as Assembly Minority Leader from 2022-2025. Before joining the Assembly, he served on the Sutter County Board of Supervisors for six years.",
+        "source_url": "https://electjamesgallagher.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:07.179Z"
+    },
+    {
+      "slug": "mike-mcguire",
+      "full_name": "MCGUIRE, MIKE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA01269",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1827711.04,
+        "totalSpent": 1675105.4,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 483159.52,
+          "largeDollar": 1044345.08,
+          "pac": 300069.51,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-07-07",
+          "source_url": "https://www.wikidata.org/wiki/Q19662567",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Healdsburg, California",
+          "source_url": "https://www.wikidata.org/wiki/Q19662567",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Sonoma State University",
+          "source_url": "https://www.wikidata.org/wiki/Q19662567",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "California State Senate, Senator - District 2 (2014 - Present); Healdsburg City Council (2004); Healdsburg City Council, Mayor",
+          "source_url": "https://www.ballotready.org/people/mike-mcguire",
+          "snippet": "California State Senate, Senator - District 2 (2014 - Present) Healdsburg City Council (2004) Healdsburg City Council, Mayor",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Erika Fremault",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_McGuire_(politician)",
+          "snippet": "Spouse Erika Fremault",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Kept rural hospitals open and expanded coverage, fighting to save rural hospitals and health centers",
+          "snippet": "When Trump cut health care, Mike McGuire kept rural hospitals open and expanded coverage."
+        },
+        {
+          "topic": "Wildfire Prevention",
+          "value": "Doubled the number of state firefighters and invested billions in wildfire prevention",
+          "snippet": "When Trump cut wildfire budgets, Mike doubled the number of state firefighters and invested billions in wildfire prevention."
+        }
+      ],
+      "platform_source_url": "https://www.votemikemcguire.com/",
+      "_platform_resolved_at": "2026-08-15T10:50:12.031Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075844.pdf",
+        "filingDate": "5/5/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T10:50:20.235Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Born and raised in Northern California, Mike McGuire knows what it means to work hard and never give up. That\u2019s why he\u2019s leading the charge to make life more affordable and to grow jobs for working families. Mike McGuire has led the effort to rebuild after wildfires and to double the number of state firefighters protecting our communities from one of the worst impacts of climate change. While Donald Trump cut healthcare for working families, Mike has been fighting to save rural hospitals and health centers, and to enshrine the right to reproductive health for every woman in California.",
+        "source_url": "https://www.votemikemcguire.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:09.589Z"
+    }
+  ]
+}

@@ -1,0 +1,801 @@
+{
+  "state": "IL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-12",
+  "generated_at": "2026-08-18T20:23:15.835Z",
+  "election_dates": {
+    "primaryDate": "2026-03-17",
+    "primarySourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
+    "primarySnippet": "10 ILCS 5/2A-1.1: Except as otherwise provided in this Code, in even-numbered years, the general election shall be held on the first Tuesday after the first Monday of November; and an election to be known as the general primary election shall be held on the third Tuesday in March.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
+    "generalSnippet": "10 ILCS 5/2A-1.1: Except as otherwise provided in this Code, in even-numbered years, the general election shall be held on the first Tuesday after the first Monday of November; and an election to be known as the general primary election shall be held on the third Tuesday in March."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Illinois's constitutional felony bar applies only to \"an office created by this Constitution\" (Illinois state and local offices) by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/il/constitution-of-the-state-of-illinois/il-const-art-13-sect-1/",
+    "snippet": "Ill. Const. art. XIII, \u00a7 1: \"A person convicted of a felony, bribery, perjury or other infamous crime shall be ineligible to hold an office created by this Constitution. Eligibility may be restored as provided by law.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Illinois's_12th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Mike Bost and Julie Fortier are running in the general election for U.S. House Illinois District 12 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.11
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 25.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 20.98
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 17.54
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 6164.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 6162.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 6158.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 6147.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 6137.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 6155
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 6148.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 6137.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 6143.8
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 6150.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 6160.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 6164.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 6155.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 6167.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 6163.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 6149.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 6157.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 6158.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 6155.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 6152.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 6153.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 6155.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 6156.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 6154.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 6144.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 6145.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 6137.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 6137.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 6125.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 6121.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 6117.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 6121.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 6116.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 6132.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 6122.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 6125
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 6149.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 6108.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 6109.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 6114.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 6109.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 6112
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4912241896.07,
+        "perCapitaUsd": 6539.77
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5004722168,
+        "perCapitaUsd": 6662.89
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5177811223.91,
+        "perCapitaUsd": 6893.33
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 12582032
+      },
+      {
+        "year": "2023",
+        "population": 12549689
+      },
+      {
+        "year": "2024",
+        "population": 12710158
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 76708
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 80306
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 83211
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michael-bost",
+      "full_name": "BOST, MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4IL12060",
+      "fec_status": "C",
+      "bioguide_id": "B001295",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1327224.8,
+        "totalSpent": 889521.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 39507.31,
+          "largeDollar": 473091.77,
+          "pac": 810987.05,
+          "party": 250,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1960-12-30",
+          "source_url": "https://www.wikidata.org/wiki/Q6846090",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Murphysboro, Illinois",
+          "source_url": "https://www.wikidata.org/wiki/Q6846090",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Illinois Urbana-Champaign",
+          "source_url": "https://www.wikidata.org/wiki/Q6846090",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Murphysboro High School",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Bost",
+          "snippet": "graduated from Murphysboro High School.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Firefighter after attending firefighter academy program; ran family trucking business for ten years; since 1989 he and his wife Tracy have owned and operated White House Salon in Murphysboro; served in United States Marine Corps from 1979 to 1982",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Bost",
+          "snippet": "He attended a firefighter academy program offered by the University of Illinois , later becoming a firefighter. Because the firefighter program isn't a college-level degree, he is one of two current Representatives to not have attended a college program leading to a college degree (the other being Lauren Boebert ). He served in the United States Marine Corps from 1979 to 1982. [ 3 ] Bost ran his family's trucking business for ten years. Since 1989, he and his wife Tracy have owned and operated White House Salon in Murphysboro.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of the Jackson County Board from 1984 to 1988, treasurer of Murphysboro Township from 1989 to 1992, and trustee of Murphysboro Township from 1993 to 1995",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Bost",
+          "snippet": "Bost was a member of the Jackson County Board from 1984 to 1988, the treasurer of Murphysboro Township from 1989 to 1992, and trustee of Murphysboro Township from 1993 to 1995, until his election to the Illinois House of Representatives .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Tracy Bost since 1980, 3 children",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Bost",
+          "snippet": "Spouse Tracy Bost \u200b ( married&lt;/span>\"}]]}'>m. 1980 ) \u200b Children 3",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture \u2014 General Farm Commodities, Risk Management, and Credit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 140,
+        "bills_cosponsored": 1666,
+        "bills_became_law": 7,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 20 West White Street in Millstadt, Illinois, as the \"Corporal Matthew A. Wyatt Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "8976",
+            "publicLawNumber": "118-257",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 20 West White Street in Millstadt, Illinois, as the Corporal Matthew A. Wyatt Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ257"
+          },
+          {
+            "title": "Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "6324",
+            "publicLawNumber": "118-124",
+            "summary": "Fiscal Year 2024 Veterans Affairs Major Medical Facility Authorization Act This act authorizes the Department of Veterans Affairs to carry out specified major medical facility projects during FY2024. The act also indicates the maximum amount that may be spent on each project.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ124"
+          },
+          {
+            "title": "Improving Access to the VA Home Loan Benefit Act of 2022",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "7735",
+            "publicLawNumber": "117-308",
+            "summary": "Improving Access to the VA Home Loan Benefit Act of 2022 This act requires the Department of Veterans Affairs (VA) to update regulations, requirements, and guidance related to appraisals for housing loans guaranteed by the VA. Specifically, such regulations or requirements must specify when an appraisal is required, how an appraisal is to be conducted, and who is eligible to conduct an appraisal for such loans. The act also requires the VA to submit to Congress recommendations for improving the delivery times for appraisals for VA loans and to take such recommendations into consideration in prescribing its updated regulations or requirements. The VA must also provide additional guidance for desktop appraisals, which are performed remotely using information gathered by third parties with whom a VA-approved appraiser has entered into an agreement for such appraisal. In updating such guidance, the VA must specifically take into account situations where (1) desktop appraisals provide cost savings for borrowers, and (2) a traditional appraisal requirement could cause time delays and jeopardize the completion of a transaction.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ308"
+          },
+          {
+            "title": "VA Transparency & Trust Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "2911",
+            "publicLawNumber": "117-63",
+            "summary": "VA Transparency &amp; Trust Act of 2021 This bill requires the Department of Veterans Affairs (VA) to submit a plan for obligating and expending covered funds, which are funds made available to the VA for response to the COVID-19 pandemic. The bill requires the VA to submit biweekly reports regarding obligations, expenditures, and planned uses of the funds until seven days after the VA has expended all covered funds. The Inspector General of the VA must submit reports examining the obligations and expenditures made using covered funds during the specified reporting period. Finally, the Government Accountability Office must submit an interim report and final report containing a review of obligations and expenditures made using covered funds.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ63"
+          },
+          {
+            "title": "Veterans' Compensation Cost-of-Living Adjustment Act of 2018",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "4958",
+            "publicLawNumber": "115-258",
+            "summary": "Veterans' Compensation Cost-of-Living Adjustment Act of 2018 (Sec. 2) This bill directs the Department of Veterans Affairs to increase, as of December 1, 2018, the rates of veterans' disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children. Each such increase shall be the same percentage as the increase in benefits provided under title II (Old Age, Survivors and Disability Insurance) of the Social Security Act, on the same effective date.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ258"
+          },
+          {
+            "title": "Veterans Appeals Improvement and Modernization Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "2288",
+            "publicLawNumber": "115-55",
+            "summary": "Veterans Appeals Improvement and Modernization Act of 2017 This bill revises the Department of Veterans Affairs (VA) disability claims appeals system. (Sec. 2) Specifically, the bill requires the VA to assist with a claim or supplemental claim up until a veteran claimant is provided notice of a decision. Additionally, the VA must assist a veteran during a higher-level review if an adjudicator identifies an error on the part of the agency of original jurisdiction. The bill also requires the VA to provide a notice of decision to veterans regarding decisions affecting the provision of benefits that includes specific information, such as a summary of the applicable laws and an explanation of how to obtain evidence used in making the decision. Under the bill, findings that are favorable to the veteran are considered binding unless clear and convincing evidence is shown to rebut the findings. The bill permits a veteran to appeal a decision within one year by (1) requesting a review of the agency of original jurisdiction's decision by a higher-level adjudicator using the same evidentiary record; (2) filing a supplemental claim with a regional office that includes the opportunity to submit additional evidence and have a hearing; or (3) appealing directly to the Board of Veterans' Appeals, with the opportunity to select an expedited review to submit new evidence but without a hearing, or to select a review with the option to submit new evidence and request a hearing. The bill authorizes veterans to retain the services of attorneys and accredited agents who charge a fee when the agency of original jurisdiction provides notice of the original decision. The bill prescribes specific procedures on the filing of a notice of disagreement with the Board of Veterans' Appeals, including form and timing. If no notice of disagreement is filed, the decision becomes final except in certain circumstances. The bill modifies the maintenance of dockets by the Board of Veterans' Appeals and the procedures for advancing the docket and holding hearings. The bill sets forth the type of evidence that is permitted in the record for cases with a request for hearing, and also for cases with no request for a hearing. Additionally, the bill requires the Board of Veterans' Appeals to provide written notice to the appellant if the board does not review evidence that the veteran did not submit in time. The bill requires the VA, prior to full implementation, to certify to Congress that it has sufficient resources and personnel to carry out the existing and updated appeals systems. (Sec. 3) Under the bill, the VA must submit a comprehensive plan for resolving pending appeals, and implementing the updated appeals system. (Sec. 4) The bill authorizes the VA to carry out various pilot programs to test the updated appeals system and alternative processes as long as it notifies Congress of such testing. (Sec. 5) Lastly, the bill requires the VA to publish information on the VA's website regarding the processing of existing appeals and appeals in the updated system.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ55"
+          },
+          {
+            "title": "Veterans' Compensation Cost-of-Living Adjustment Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "1329",
+            "publicLawNumber": "115-75",
+            "summary": "(This measure has not been amended since it was reported to the House on May 19, 2017. The summary of that version is repeated here.) Veterans' Compensation Cost-of-Living Adjustment Act of 2017 (Sec. 2) This bill directs the Department of Veterans Affairs (VA) to increase, as of December 1, 2017, the rates of veterans' wartime disability compensation, additional compensation for dependents, the clothing allowance for certain disabled veterans, and dependency and indemnity compensation for surviving spouses and children. Each such increase shall be the same percentage as the increase in benefits provided under title II (Old Age, Survivors and Disability Insurance) of the Social Security Act, on the same effective date. The VA may adjust administratively, consistent with such increases, the rates of disability compensation payable to persons entitled to veterans benefits under public laws administered by the VA on December 31, 1958, who have not received benefits under provisions governing veterans compensation for service-connected disability or death. (Sec. 3) The VA shall publish such increased rates in the Federal Register not later than the date on which certain social security increases are required to be published in FY2018.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ75"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.402,
+          "nominateDim2": -0.039,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001295"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 64.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001295"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:36.968Z",
+      "bio_summary": {
+        "value": "Michael Joseph Bost ( / \u02c8 b \u0254\u02d0 s t / BAWST ; born December 30, 1960) is an American politician serving as the U.S. representative for Illinois's 12th congressional district since 2015. Previously, Bost was a member of the Illinois House of Representatives , representing the 115th district from 1995 to 2015. Before entering politics, he was a firefighter. He is a member of the Republican Party . Bost was first elected in 2014 , defeating Democratic incumbent William Enyart . Bost is a member of the moderate Republican Governance Group and Republican Main Street Partnership . ",
+        "source_url": "https://en.wikipedia.org/wiki/Mike_Bost",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:36:40.519Z"
+    },
+    {
+      "slug": "julie-fortier",
+      "full_name": "FORTIER, JULIE DR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IL12131",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 88059.67,
+        "totalSpent": 28244.38,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 43409.79,
+          "largeDollar": 36356,
+          "pac": 6443,
+          "party": 1850,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Cancer Researcher US Air Force",
+          "source_url": "https://www.ballotready.org/people/julie-fortier",
+          "snippet": "Cancer Researcher US Air Force",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Air Force Veteran, community volunteer",
+          "source_url": "https://www.juliefortier.org/",
+          "snippet": "As an Air Force Veteran, community volunteer, mother, and cancer research scientist",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Funding",
+          "value": "No corporate PAC/AIPAC funds accepted",
+          "snippet": "No corporate PAC/AIPAC funds accepted."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Every IL-12 family deserves access to quality, affordable healthcare, including protecting and expanding coverage for pre-existing conditions",
+          "snippet": "Every IL-12 family deserves access to quality, affordable healthcare, including protecting and expanding coverage for pre-existing conditions."
+        },
+        {
+          "topic": "Economic Development",
+          "value": "Supports good union jobs, workforce training, and investing in Southern IL industries & infrastructure that create real opportunity for working families",
+          "snippet": "Julie supports good union jobs, workforce training, and investing in Southern IL industries & infrastructure that create real opportunity for working families."
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Will stand with women in Illinois to defend reproductive rights and oppose any federal attempts to restrict personal healthcare decisions",
+          "snippet": "Julie will stand with women in Illinois to defend reproductive rights and oppose any federal attempts to restrict personal healthcare decisions."
+        },
+        {
+          "topic": "Veterans Affairs",
+          "value": "Veterans deserve timely VA care, housing support, and the respect they've earned",
+          "snippet": "IL-12 is home to thousands of veterans who deserve timely VA care, housing support, and the respect they've earned."
+        }
+      ],
+      "platform_source_url": "https://www.juliefortier.org/",
+      "_platform_resolved_at": "2026-08-18T20:22:40.382Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=3-FvsYffdSY",
+      "platform_video_title": "Chat with Julie 3/22",
+      "platform_video_source_url": "https://www.juliefortier.org/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:57.165Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "As an Air Force Veteran, community volunteer, mother, and cancer research scientist, Julie has dedicated her life to serving others. She's been in Southern Illinois for 25+ years and has seen firsthand how corruption in Washington impacts our communities. From expanding healthcare access to revitalizing aging infrastructure, Julie understands the challenges facing our district. She's running for Congress to bring the same analytical problem solving skills she uses in her scientific research to tackle the issues that matter most to Southern Illinoisans.",
+        "source_url": "https://www.juliefortier.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:46:54.608Z"
+    }
+  ]
+}

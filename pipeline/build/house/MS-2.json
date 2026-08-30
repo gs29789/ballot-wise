@@ -1,0 +1,805 @@
+{
+  "state": "MS",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-13T17:16:57.955Z",
+  "election_dates": {
+    "primaryDate": "2026-03-10",
+    "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+    "primarySnippet": "MARCH ... 10th PRIMARY ELECTION DAY (U.S. CONGRESS): Polling places are open from 7:00 a.m. until 7:00 p.m. (Miss. Code Ann. \u00a7\u00a7 23-15-171 and 23-15-541)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+    "generalSnippet": "NOVEMBER ... 3rd General Election Day and Regular Special Election Day. Polls open from 7 a.m. - 7 p.m. (MS Const. Art. 12, \u00a7 252; Miss. Code Ann.. \u00a7 23-15-833)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Mississippi's felon-disqualification provision (Miss. Const. Art. 4, \u00a7 44) bars a person convicted of bribery, perjury, or 'other infamous crime' from being 'eligible to a seat in either House of the Legislature, or to any office of profit or trust' unless pardoned; a separate clause in the same subsection bars anyone convicted of bribery-related election offenses from holding 'any office of profit or trust under the laws of this state,' and \u00a744(2) separately bars a person convicted of a qualifying felony in another state or in federal court from holding 'any office of profit or trust in this state.' The core disqualifying clause in \u00a744(1) ('any office of profit or trust') is NOT itself worded as limited to state office the way the bribery clause and \u00a744(2) explicitly are ('under the laws of this state' / 'in this state') \u2014 so the statute's own text leaves genuine ambiguity about whether it purports to reach a congressional seat at all. Mississippi Code \u00a799-19-35 uses similarly unqualified language ('any office of profit, trust, or honor'), reinforcing the ambiguity rather than resolving it. Regardless of how \u00a744 is read, however, no state felony-disqualification statute can actually keep someone off a congressional ballot or out of a congressional seat, because states cannot add qualifications for Congress beyond the U.S. Constitution's own age/citizenship/residency requirements \u2014 U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995). So the practical outcome (no state bar reaches Congress) is settled by federal preemption even though the state text's own scope is ambiguous.",
+    "source_url": "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
+    "snippet": "SECTION 44. Ineligibility for office of person convicted of certain crimes. (1) No person shall be eligible to a seat in either House of the Legislature, or to any office of profit or trust, who shall have been convicted of bribery, perjury, or other infamous crime; and any person who shall have been convicted of giving or offering, directly, or indirectly, any bribe to procure his election or appointment, and any person who shall give or offer any bribe to procure the election or appointment of any person to office, shall, on conviction thereof, be disqualified from holding any office of profit or trust under the laws of this state. (2) No person who is convicted after ratification of this amendment in another state of any offense which is a felony under the laws of this state, and no person who is convicted after ratification of this amendment of any felony in a federal court, shall be eligible to hold any office of profit or trust in this state."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Mississippi's_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Bennie Thompson, Ron Eller, and Bennie Foster are running in the general election for U.S. House Mississippi District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.68
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 15.88
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.55
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.57
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1192.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1194.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1193.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1190.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1191.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1191
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1192.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1195
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1191.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1191.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1194.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1189.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1187.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1188.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1191.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1189
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1192.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1190.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1188
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1188.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1187.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1190.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1189.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1188.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1189
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1189.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1189.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1188.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1183.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1181.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1182.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1182.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1182.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1183.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1180.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1179.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1184.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1181.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1180.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1180.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1179.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1180.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5002047257.46,
+        "perCapitaUsd": 6709.42
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5270087183.63,
+        "perCapitaUsd": 7068.95
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5479222421.13,
+        "perCapitaUsd": 7349.47
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 2940057
+      },
+      {
+        "year": "2023",
+        "population": 2939690
+      },
+      {
+        "year": "2024",
+        "population": 2943045
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 52719
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 54203
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 59127
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "ron-eller",
+      "full_name": "ELLER, RON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2MS02203",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 45389.56,
+        "totalSpent": 46245.09,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 6118.44,
+          "largeDollar": 36200,
+          "pac": 150,
+          "party": 0,
+          "selfFunded": 2921.12
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "I have served twenty years on active duty in the military, and for the last twenty years I have worked in the private healthcare sector. Recently, my entrepreneurial spirit led me to start several manufacturing businesses.",
+          "source_url": "https://www.voteroneller.com/",
+          "snippet": "I have served twenty years on active duty in the military, and for the last twenty years I have worked in the private healthcare sector. Recently, my entrepreneurial spirit led me to start several manufacturing businesses.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Free Enterprise",
+          "value": "I stand for Free Enterprise",
+          "snippet": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values."
+        },
+        {
+          "topic": "Limited Government",
+          "value": "I stand for Limited Government",
+          "snippet": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values."
+        },
+        {
+          "topic": "Individual Liberties",
+          "value": "I stand for Individual Liberties",
+          "snippet": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values."
+        },
+        {
+          "topic": "National Defense",
+          "value": "I stand for National Defense",
+          "snippet": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values."
+        },
+        {
+          "topic": "Traditional Values",
+          "value": "I stand for Traditional Values",
+          "snippet": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values."
+        }
+      ],
+      "platform_source_url": "https://www.voteroneller.com/",
+      "_platform_resolved_at": "2026-08-13T17:16:36.510Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=xmobLXk9nas",
+      "platform_video_title": "In his own words: Ron Eller, candidate for Congress",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-24T12:00:13.334Z",
+      "bio_summary": {
+        "value": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values. I am ready and willing to stand up and fight for the American People. My experience includes working in both the private and public sectors. I have served twenty years on active duty in the military, and for the last twenty years I have worked in the private healthcare sector. Recently, my entrepreneurial spirit led me to start several manufacturing businesses.",
+        "source_url": "https://www.voteroneller.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:20.088Z",
+      "platform_video_tier": 2,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:13.334Z"
+    },
+    {
+      "slug": "bennie-foster",
+      "full_name": "FOSTER, BENNIE",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6MS02188",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Emergency Preparedness",
+          "value": "Community Storehouse are being established throughout MS02 to be prepared for future emergencies.",
+          "snippet": "Community Storehouse are being established throughout MS02 to be prepared for future emergencies."
+        }
+      ],
+      "platform_source_url": "https://www.reimaginems.info/",
+      "_platform_resolved_at": "2026-08-13T17:16:50.793Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Bennie Foster's is on the General Election Ballot for November 3, 2026 FOSTER Our FUTURE! Stronger Together: Serving Mississippi in the Wake of Winter Storm Fern Disasters don't clock out, and neither do we. Seeing the strength of our neighbors in Holmes and Yazoo Counties reminds us why this work matters.",
+        "source_url": "https://www.reimaginems.info/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:16.621Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:13.735Z"
+    },
+    {
+      "slug": "bennie-thompson",
+      "full_name": "THOMPSON, BENNIE G.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4MS02068",
+      "fec_status": "C",
+      "bioguide_id": "T000193",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 770970.73,
+        "totalSpent": 947613.34,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 6418.53,
+          "largeDollar": 196548.79,
+          "pac": 562244.37,
+          "party": 4500,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1948-01-28",
+          "source_url": "https://www.wikidata.org/wiki/Q817877",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Bolton, Mississippi",
+          "source_url": "https://www.wikidata.org/wiki/Q817877",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Tougaloo College",
+          "source_url": "https://www.wikidata.org/wiki/Q817877",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative- Mississippi 2nd District (1993 - Present); Hinds County, Supervisor (1980 - 1993); Bolton Town, Town Mayor (1973 - 1980); Bolton Town, Town Alderman (1969 - 1972)",
+          "source_url": "https://www.ballotready.org/people/bennie-g-thompson",
+          "snippet": "Professional Experience US House of Representatives, Representative- Mississippi 2nd District (1993 - Present) Hinds County, Supervisor (1980 - 1993) Bolton Town, Town Mayor (1973 - 1980) Bolton Town, Town Alderman (1969 - 1972)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 256,
+        "bills_cosponsored": 5575,
+        "bills_became_law": 9,
+        "enacted_laws": [
+          {
+            "title": "Securing American Nonprofit Organizations Against Terrorism Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "2476",
+            "publicLawNumber": "116-108",
+            "summary": "Securing American Nonprofit Organizations Against Terrorism Act of 2019 This bill establishes in the Department of Homeland Security a Nonprofit Security Grant Program, under which the Federal Emergency Management Agency (FEMA) shall make grants to eligible nonprofit organizations (tax-exempt organizations and those determined to be at risk of a terrorist attack) for target hardening and other security enhancements to protect against terrorist attacks.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ108"
+          },
+          {
+            "title": "Aviation Security Stakeholder Participation Act of 2014",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "1204",
+            "publicLawNumber": "113-238",
+            "summary": "(This measure has not been amended since it was passed by the Senate on December 9, 2014. The summary of that version is repeated here.) Aviation Security Stakeholder Participation Act of 2014 - Directs the Assistant Secretary of Homeland Security (Transportation Security Administration [TSA]) to establish in the TSA an aviation security advisory committee. Requires the Assistant Secretary to consult with the Advisory Committee on aviation security matters. Requires the Advisory Committee to develop, upon the Assistant Secretary's request, recommendations to improve aviation security. Requires the Assistant Secretary to appoint to the Advisory Committee members representing up to 34 member organizations, including air carriers, all-cargo air transportation, indirect air carriers, labor organizations representing air carrier employees as well as those representing transportation security officers, aircraft manufacturers, airport operators, airport construction and maintenance contractors as well as labor organizations representing them, general aviation, privacy organizations, the travel industry, airport-based businesses, businesses that conduct security operations at airports, aeronautical repair stations, passenger advocacy groups, the aviation security technology industry (including screening technology and biometrics), victims of terrorist acts against aviation, and law enforcement and security experts. Establishes within the Advisory Committee: (1) an air cargo security subcommittee; (2) a general aviation subcommittee; (3) an airport perimeter security and access control subcommittee; and (4) a security technology subcommittee. Requires all subcommittees to consider risk-based security approaches in the performance of their functions with respect to transportation security.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ238"
+          },
+          {
+            "title": "Divisional Realignment Act of 2012",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "5512",
+            "publicLawNumber": "112-188",
+            "summary": "(This measure has not been amended since it was passed by the House on May 30, 2012. The summary of that version is repeated here.) Divisional Realignment Act of 2012 - Amends the federal judicial code to realign counties comprising judicial divisions within the Eastern District of Missouri and the Northern District of Mississippi. Makes this Act effective 60 days after enactment.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ188"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 150 South Union Street in Canton, Mississippi, as the \"First Sergeant Landres Cheeks Post Office Building\".",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "3772",
+            "publicLawNumber": "112-162",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 150 South Union Street in Canton, Mississippi, as the \"First Sergeant Landres Cheeks Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ162"
+          },
+          {
+            "title": "Chemical Facility Anti-Terrorism Standards Program Extension Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "251",
+            "publicLawNumber": "116-2",
+            "summary": "Chemical Facility Anti-Terrorism Standards Program Extension Act This bill extends by 15 months the Department of Homeland Security's Chemical Facility Anti-Terrorism Standards Program.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ2"
+          },
+          {
+            "title": "An act to designate the federally occupied building located at 1220 Echelon Parkway in Jackson, Mississippi, as the 'James Chaney, Andrew Goodman, Michael Schwerner, and Roy K. Moore Federal Building'.",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "3562",
+            "publicLawNumber": "111-243",
+            "summary": "(This measure has not been amended since it was passed by the Senate on August 5, 2010. The summary of that version is repeated here.) Directs the Administrator of General Services (GSA) to ensure that the federally occupied building located at 1220 Echelon Parkway in Jackson, Mississippi, is designated as the &quot;James Chaney, Andrew Goodman, Michael Schwerner, and Roy K. Moore Federal Building.&quot;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ243"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 100 West Percy Street in Indianola, Mississippi, as the \"Minnie Cox Post Office Building\".",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "4010",
+            "publicLawNumber": "110-440",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 100 West Percy Street in Indianola, Mississippi, as the \"Minnie Cox Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ440"
+          },
+          {
+            "title": "To designate the Post Office building at 115 West Chester in Ruleville, Mississippi, as the \"Fannie Lou Hamer United States Post Office\".",
+            "congress": 103,
+            "billType": "HR",
+            "billNumber": "4452",
+            "publicLawNumber": "103-456",
+            "summary": "Designates the United States Post Office building located at 115 North Chester in Ruleville, Mississippi, as the Fannie Lou Hamer Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-103publ456"
+          },
+          {
+            "title": "To designate the Post Office building located at 401 E. South Street in Jackson, Mississippi, as the \"Medgar Wiley Evers Post Office\".",
+            "congress": 103,
+            "billType": "HR",
+            "billNumber": "3863",
+            "publicLawNumber": "103-265",
+            "summary": "Designates the U.S. Post Office building located at 401 E. South Street in Jackson, Mississippi, as the Medgar Wiley Evers Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-103publ265"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.519,
+          "nominateDim2": 0.39,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/T000193"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 18.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/T000193"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:14.022Z",
+      "bio_summary": {
+        "value": "Bennie Gordon Thompson (born January 28, 1948) is an American politician and educator serving as the U.S. representative for Mississippi's 2nd congressional district since 1993. A member of the Democratic Party , Thompson served as the chair of the Committee on Homeland Security from 2007 to 2011 and from 2019 to 2023. [ 2 ] He was both the first Democrat and the first African American to chair the committee. Since 2011, he has been the only Democrat in Mississippi's congressional delegation , and since 2018 he has been the dean of the delegation after Thad Cochran left Congress. Thompson's district includes most of Jackson and is the only majority-black district in the state. ",
+        "source_url": "https://en.wikipedia.org/wiki/Bennie_Thompson",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:39:57.414Z"
+    }
+  ]
+}

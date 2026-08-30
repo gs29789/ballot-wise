@@ -1,0 +1,706 @@
+{
+  "state": "MD",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-18T20:25:34.483Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
+    "primarySnippet": "Next primary election: June 23, 2026. ... In Gubernatorial Election years: held on fourth Tuesday in June (2026, 2030) (Chapter 169, Acts of 2011; Chapter 311, Acts of 2025; Code Election Law Article, sec. 8-201).",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
+    "generalSnippet": "Next general election: November 3, 2026. In even-numbered years: held on the Tuesday after 1st Monday in November (2026, 2028) (Chapter 99, Acts of 1956, ratified Nov. 6, 1956: Const., Art. XV, sec. 7; Code Election Law Article...)."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Maryland's only felony-related officeholder provision, Md. Const. Art. XV, Section 2, does NOT disqualify felons from running for Congress. By its own text it applies only to 'elected official[s] of the State, or of a county or of a municipal corporation' -- it never mentions federal office. Even for the state/county/municipal officials it does cover, it isn't a candidacy bar at all: it only triggers suspension (and, on final conviction, removal) of someone ALREADY HOLDING elective office who is convicted of a felony (or a moral-turpitude misdemeanor tied to their duties) DURING their term. It says nothing about screening candidates before an election. No separate Election Law Article provision disqualifying felon candidates was located. Even if Maryland had such a candidacy bar for Congress specifically, U.S. Term Limits v. Thornton (1995) holds that states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), so it would be unenforceable against a congressional candidate. Net: Maryland does not disqualify felons from congressional candidacy, both on the statute's own limited scope and via federal preemption.",
+    "source_url": "https://msa.maryland.gov/msa/mdmanual/43const/html/15art15.html",
+    "snippet": "Any elected official of the State, or of a county or of a municipal corporation who during the elected official's term of office is found guilty of any crime which is a felony... shall be suspended by operation of law without pay or benefits from the elective office... If the finding of guilt becomes a final conviction, after judicial review or otherwise, such elected official shall be removed from the elective office by operation of Law and the office shall be deemed vacant."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Maryland's_2nd_Congressional_District_election,_2026",
+    "snippet": "General election for U.S. House Maryland District 2 Incumbent John Olszewski Jr. and Dave Wallace are running in the general election for U.S. House Maryland District 2 on November 3, 2026. Candidate John Olszewski Jr. (D) Dave Wallace (R)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 1.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 1.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 1.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 44.96
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.09
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 38.52
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.96
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.12
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2803.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2803
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2799
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2795
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2789.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2794.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2786.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2786.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2784.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2808.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2811.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2816.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2822.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2831.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2830.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2842.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2842.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2839.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2850.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2849.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2847.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2844.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2840.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2841.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2840.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2832.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2831.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2832.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2832.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2832.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2797.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2794.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2790.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2790.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2788.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2788.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2786.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2775.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2769.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2756.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2753.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2750.4
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9648158961.06,
+        "perCapitaUsd": 12916.07
+      },
+      {
+        "year": "2024",
+        "totalUsd": 10123327211.92,
+        "perCapitaUsd": 13552.18
+      },
+      {
+        "year": "2025",
+        "totalUsd": 9261576612.25,
+        "perCapitaUsd": 12398.54
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6164660
+      },
+      {
+        "year": "2023",
+        "population": 6180253
+      },
+      {
+        "year": "2024",
+        "population": 6263220
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 94991
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 98678
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 102905
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "john-olszewski",
+      "full_name": "OLSZEWSKI, JOHN ANTHONY JR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4MD02232",
+      "fec_status": "C",
+      "bioguide_id": "O000176",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1040389.5,
+        "totalSpent": 592705.7,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 26185.49,
+          "largeDollar": 672304.41,
+          "pac": 334224.01,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Baltimore County public schools",
+          "source_url": "https://gojohnnyo.com/",
+          "snippet": "Johnny O is a proud graduate of Baltimore County public schools",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Marisa",
+          "source_url": "https://gojohnnyo.com/",
+          "snippet": "He lives in eastern Baltimore County with his wife, Marisa, their daughter, Daria, and their rescue dog, Yachty.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Focused on lowering costs for families",
+          "snippet": "Johnny O is focused on the issues that matter most, like lowering costs for families"
+        },
+        {
+          "topic": "Economic Opportunity",
+          "value": "Focused on expanding economic opportunity",
+          "snippet": "Johnny O is focused on the issues that matter most, like lowering costs for families, expanding economic opportunity"
+        },
+        {
+          "topic": "Democracy",
+          "value": "Focused on protecting the foundations of American democracy",
+          "snippet": "Johnny O is focused on the issues that matter most, like lowering costs for families, expanding economic opportunity, and protecting the foundations of American democracy"
+        },
+        {
+          "topic": "Affordability",
+          "value": "Focused on affordability in Washington",
+          "snippet": "In Washington, he is focused on affordability"
+        },
+        {
+          "topic": "Workforce and Education",
+          "value": "Focused on expanding workforce and education pathways",
+          "snippet": "In Washington, he is focused on affordability, expanding workforce and education pathways"
+        },
+        {
+          "topic": "Housing",
+          "value": "Focused on increasing access to housing",
+          "snippet": "In Washington, he is focused on affordability, expanding workforce and education pathways, increasing access to housing"
+        },
+        {
+          "topic": "American Democracy",
+          "value": "Focused on defending American democracy at home and abroad",
+          "snippet": "In Washington, he is focused on affordability, expanding workforce and education pathways, increasing access to housing, and defending American democracy at home and abroad"
+        }
+      ],
+      "platform_source_url": "https://gojohnnyo.com/",
+      "_platform_resolved_at": "2026-08-13T17:01:17.502Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075628.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-13T17:02:08.323Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Innovation, Entrepreneurship, and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Rural Development, Energy, and Supply Chains",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs \u2014 East Asia and Pacific",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs \u2014 Africa",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 18,
+        "bills_cosponsored": 280,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.374,
+          "nominateDim2": -0.022,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/O000176"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 68,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/O000176"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Congressman Johnny \u201cJohnny O\u201d Olszewski, Jr. is a lifelong Marylander and proven leader who has proudly represented Maryland\u2019s 2nd Congressional District since 2025. Guided by the working-class values he learned growing up in eastern Baltimore County, Johnny O is focused on the issues that matter most, like lowering costs for families, expanding economic opportunity, and protecting the foundations of American democracy. Johnny O began his professional life as a public-school teacher, where he saw firsthand the challenges facing students and families.",
+        "source_url": "https://gojohnnyo.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:55:48.023Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:08.161Z"
+    },
+    {
+      "slug": "david-wallace",
+      "full_name": "WALLACE, DAVID DRAIN II",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2MD06138",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 20194.47,
+        "totalSpent": 17121.6,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3333.7,
+          "largeDollar": 15660.77,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 1200
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:08.587Z"
+    }
+  ]
+}

@@ -1,0 +1,808 @@
+{
+  "state": "NC",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-13",
+  "generated_at": "2026-08-14T13:49:01.864Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "primarySnippet": "N.C. Gen. Stat. \u00a7 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. \u00a7 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification \u2014 a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
+    "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    "snippet": "Brad Knott (Incumbent) (Republican Party); Paul Barringer (Democratic Party); Anthony Aguilar (Green Party); Steven Swinton (Libertarian Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.43
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.96
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.41
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5115.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5115
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5101.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5080.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5069
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5072
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5068.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5064.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5057.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5061
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5062.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5060.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5052.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5057.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5050.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5033.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5033.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5031.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5028.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5026.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5016.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5036
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5025.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5018.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5027.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5025.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5016.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5009.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5000.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4992.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4997.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4978
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4973.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4965.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4954.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4943.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4955.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4925.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4915.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4918.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4911.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4904.3
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6457895191.9,
+        "perCapitaUsd": 8600.5
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8069476466.89,
+        "perCapitaUsd": 10746.78
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7777446278.13,
+        "perCapitaUsd": 10373.51
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10698973
+      },
+      {
+        "year": "2023",
+        "population": 10835491
+      },
+      {
+        "year": "2024",
+        "population": 11046024
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 67481
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70804
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 73958
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "anthony-aguilar",
+      "full_name": "AGUILAR, ANTHONY BAILEY MR.",
+      "party": "GREEN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC13244",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 50016.9,
+        "totalSpent": 16495.6,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 19780.64,
+          "largeDollar": 30236.26,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "paul-barringer",
+      "full_name": "BARRINGER, PAUL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC13228",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1022609.78,
+        "totalSpent": 508054.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 76836.58,
+          "largeDollar": 475577,
+          "pac": 2000,
+          "party": 6100,
+          "selfFunded": 461846.2
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://paulbarringer.com/",
+          "snippet": "I m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "lawyer",
+          "source_url": "https://paulbarringer.com/",
+          "snippet": "I m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Eagle Scout, Sunday School teacher",
+          "source_url": "https://paulbarringer.com/",
+          "snippet": "I m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Overall Congressional Approach",
+          "value": "Put the needs of everyday Americans and our constitution first",
+          "snippet": "In the US House, I ll put the needs of everyday Americans and our constitution first."
+        },
+        {
+          "topic": "Campaign Philosophy",
+          "value": "Listening first and building support for the idea that our strength comes from the ground up, not the top down",
+          "snippet": "My campaign is about listening first and building support for the idea that our strength comes from the ground up, not the top down."
+        }
+      ],
+      "platform_source_url": "https://paulbarringer.com/",
+      "_platform_resolved_at": "2026-08-14T13:48:32.982Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=v4yvW63PAt8",
+      "platform_video_title": "So About the War in Iran",
+      "platform_video_source_url": "https://paulbarringer.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:05:13.686Z",
+      "bio_summary": {
+        "value": "My name is Paul Barringer, and I\u2019m running for Congress in North Carolina\u2019s 13th Congressional District. I\u2019m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete. I live on a farm in Lee County. I like fried chicken (and lentils). I\u2019m running to bring common sense and constitutional values back to Washington \u2013 and to walk alongside the people of North Carolina\u2019s 13th District every step of the way.",
+        "source_url": "https://paulbarringer.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:02.183Z"
+    },
+    {
+      "slug": "brad-knott",
+      "full_name": "KNOTT, BRAD",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4NC13116",
+      "fec_status": "C",
+      "bioguide_id": "K000405",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1339161.32,
+        "totalSpent": 648626.76,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 28234.88,
+          "largeDollar": 457629.69,
+          "pac": 655918.18,
+          "party": 1800,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1986-04-17",
+          "source_url": "https://www.wikidata.org/wiki/Q130979816",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Raleigh, North Carolina",
+          "source_url": "https://www.wikidata.org/wiki/Q130979816",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "St. David's School",
+          "source_url": "https://www.wikidata.org/wiki/Q130979816",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Joanna",
+          "source_url": "https://www.bradknott.com/",
+          "snippet": "My wife, Joanna, is a proud North Carolina State graduate.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "St. David's School, a private Episcopal day school in Raleigh",
+          "source_url": "https://en.wikipedia.org/wiki/Brad_Knott",
+          "snippet": "He attended St. David's School , a private Episcopal day school in Raleigh.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Federal prosecutor in the office of the United States attorney for the Eastern District of North Carolina from 2016 until November 2023",
+          "source_url": "https://en.wikipedia.org/wiki/Brad_Knott",
+          "snippet": "Knott was hired as a federal prosecutor in the office of the United States attorney for the Eastern District of North Carolina in 2016. [ 9 ] [ 6 ] He worked as a federal prosecutor until November 2023.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Southern Baptist",
+          "source_url": "https://en.wikipedia.org/wiki/Brad_Knott",
+          "snippet": "He is Southern Baptist .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "Secure the border, finish the wall, and enforce the law. Those who break immigration laws must face real consequences. An illegal immigrant who commits a felony should be sent to prison for a minimum of five years and then deported.",
+          "snippet": "We must secure the border, finish the wall, and enforce the law. Those who break our immigration laws must face real consequences as a deterrence or the flood will never end. An illegal immigrant who commits a felony should be sent to prison for a minimum of five years and then deported."
+        },
+        {
+          "topic": "Education and School Choice",
+          "value": "Parents must have a voice in school curriculums and policies. Support school choice so parents can get their children out of failing schools and into schools that will provide the education their children need.",
+          "snippet": "Parents must have a voice in school curriculums and policies. I support school choice so parents can get their children out of failing schools and into schools that will provide the education their children need."
+        }
+      ],
+      "platform_source_url": "https://www.bradknott.com/",
+      "_platform_resolved_at": "2026-08-14T13:48:52.430Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ethics",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary \u2014 Immigration Integrity, Security, and Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary \u2014 Crime and Federal Government Surveillance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure \u2014 Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security \u2014 Oversight, Investigations, and Accountability",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security \u2014 Border Security and Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 6,
+        "bills_cosponsored": 77,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.89,
+          "nominateDim2": 0.268,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/K000405"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 14.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/K000405"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I\u2019m proud to call the Raleigh area home. My roots run deep here. My parents grew up in Wilson and Knightdale. My grandfather fought bravely in the Battle of the Bulge during World War II. After graduating from Wake Forest University School of Law, I built my life and family here. My wife, Joanna, is a proud North Carolina State graduate. We are blessed to raise our two daughters in the same community with the same people who shaped me. I first ran for office in 2024 because as a former federal prosecutor I\u2019ve seen firsthand the devastating harm serious crime does to our communities.",
+        "source_url": "https://www.bradknott.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:03:59.877Z"
+    },
+    {
+      "slug": "steven-swinton",
+      "full_name": "SWINTON, STEVEN",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC13251",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Steven Swinton (Libertarian Party) is running for election to the U.S. House to represent North Carolina's 13th Congressional District . He is on the ballot in the general election on November 3, 2026 . The Libertarian Party primary for this office on March 3, 2026 , was canceled.",
+        "source_url": "https://ballotpedia.org/Steven_Swinton",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:54:20.190Z"
+    }
+  ]
+}

@@ -1,0 +1,792 @@
+{
+  "state": "OH",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-16T22:20:15.591Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+    "primarySnippet": "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+    "generalSnippet": "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Ohio Revised Code 2961.01(A)(1) strips anyone convicted of a felony of the 'privilege of holding office' in the state: it makes a felon 'incompetent ... to hold an office of honor, trust, or profit.' This Ohio law does NOT reach candidates for the U.S. House or Senate, however. The Constitution's own Qualifications Clauses (Art. I, §2, cl. 2 for the House; §3, cl. 3 for the Senate) are the exclusive qualifications for Congress, and the U.S. Supreme Court held in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), that 'States cannot impose qualification requirements on membership in Congress' (Cornell LII, Constitution Annotated, ArtI.S3.C3.4, https://www.law.cornell.edu/constitution-conan/article-1/section-3/clause-3/states-ability-to-change-qualifications-requirements-for-senate) — changing congressional qualifications requires a constitutional amendment. The ACLU of Ohio states this plainly for the state: 'a person convicted of a felony may run for either the U.S. House or Senate so long as he or she satisfies the other requirements' because 'Congress cannot impose further restrictions on candidates without amending the U.S. Constitution' (https://www.acluohio.org/news/felon-candidacy/). Net effect: a felony conviction bars someone from Ohio state office but does NOT bar them from running for or serving in Ohio's U.S. House or Senate seats.",
+    "source_url": "https://law.justia.com/codes/ohio/title-29/chapter-2961/section-2961-01/",
+    "snippet": "(A)(1) A person who pleads guilty to a felony under the laws of this or any other state or the United States and whose plea is accepted by the court or a person against whom a verdict or finding of guilt for committing a felony under any law of that type is returned, unless the plea, verdict, or finding is reversed or annulled, is incompetent to be an elector or juror or to hold an office of honor, trust, or profit."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    "snippet": "Bob Latta  (Incumbent) (Republican Party) Brian Shaver  (Democratic Party) Michael Veloff  (Libertarian Party) Dalton Franklin  (Independent)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 25.26
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 23.09
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 24.02
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 22.96
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 19.79
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5687.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5682.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5687.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5679.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5669.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5673.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5663.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5660.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5659.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5669.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5678.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5672.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5665.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5673.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5670.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5663.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5663.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5656.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5669
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5668
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5663.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5666.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5656.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5656.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5664.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5656.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5649.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5655.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5645.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 5642.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 5634
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 5626.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 5624.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 5636.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 5630
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 5627.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 5630.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 5608.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 5601.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 5603.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 5599.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 5593
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7826165189.19,
+        "perCapitaUsd": 9972.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8514088969.85,
+        "perCapitaUsd": 10848.82
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8748061401.78,
+        "perCapitaUsd": 11146.95
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 11756058
+      },
+      {
+        "year": "2023",
+        "population": 11785935
+      },
+      {
+        "year": "2024",
+        "population": 11883304
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 65720
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 67769
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72212
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "dalton-franklin",
+      "full_name": "FRANKLIN, DALTON JAMES",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH05139",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "robert-latta",
+      "full_name": "LATTA, ROBERT EDWARD",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8OH05036",
+      "fec_status": "C",
+      "bioguide_id": "L000566",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1461647.52,
+        "totalSpent": 1038449.99,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 34440.79,
+          "largeDollar": 576036,
+          "pac": 810650,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1956-04-18",
+          "source_url": "https://www.wikidata.org/wiki/Q888061",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Bluffton, Ohio",
+          "source_url": "https://www.wikidata.org/wiki/Q888061",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Bowling Green State University",
+          "source_url": "https://www.wikidata.org/wiki/Q888061",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "worked as a private practice attorney before entering politics, served as a Wood County Commissioner from 1991 to 1996",
+          "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
+          "snippet": "Latta worked as a private practice attorney before entering politics. Ohio political career [ edit ] Latta served as a Wood County Commissioner from 1991 to 1996.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 241,
+        "bills_cosponsored": 2325,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "DEBAR Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "1002",
+            "publicLawNumber": "117-36",
+            "summary": "Debarment Enforcement of Bad Actor Registrants Act of 2021 or the DEBAR Act of 2021 This bill authorizes the Drug Enforcement Administration (DEA) to bar an entity from registering to manufacture, distribute, or dispense controlled substances under certain circumstances. Specifically, the DEA may bar&#8212;temporarily or permanently&#8212;the registration of an entity that (1) meets or has met any condition for suspension or revocation of the registration, and (2) has a history of prior suspensions or revocations.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ36"
+          },
+          {
+            "title": "Propane Education and Research Enhancement Act of 2014",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "5705",
+            "publicLawNumber": "113-269",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Propane Education and Research Enhancement Act of 2014 - Amends the Propane Education and Research Act of 1996 to direct the Propane Education and Research Council to develop for propane distributors and consumers training programs on strategies to mitigate negative effects of future propane price spikes. Directs the Secretary of Commerce to use the refiner price to end users of consumer grade propane as published by the Energy Information Administration when preparing the annual analysis of changes in the price of propane relative to other energy sources.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ269"
+          },
+          {
+            "title": "To amend the Clean Air Act to remove the requirement for dealer certification of new light-duty motor vehicles.",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "724",
+            "publicLawNumber": "113-109",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Amends the Clean Air Act to remove the requirement that a dealer of new light-duty motor vehicles furnish a certification to the purchaser that the vehicle conforms to applicable regulations concerning emission standards, including notice of warranty rights should the vehicle fail to conform to such regulations.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ109"
+          },
+          {
+            "title": "Vehicular Terrorism Prevention Act of 2018",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "4227",
+            "publicLawNumber": "115-400",
+            "summary": "Vehicular Terrorism Prevention Act of 2018 (Sec. 2) This bill directs the Department of Homeland Security (DHS): (1) to assess the activities that DHS is undertaking to support emergency response providers and the private sector to prevent, mitigate, and respond to the threat of vehicular terrorism; and (2) based on such assessment, to develop and submit to the congressional homeland security committees a strategy to improve its efforts to support such providers and the private sector in that regard. The strategy shall include: an examination of the current threat of vehicular terrorism; methods to improve DHS information sharing activities with such providers and the private sector regarding best practices to prevent, mitigate, and respond to the increasing threat of vehicular terrorism; and training activities that DHS can provide for such providers to prevent and respond to such threat.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ400"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 229 West Main Cross Street, in Findlay, Ohio, as the \"Michael Garver Oxley Memorial Post Office Building\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "4925",
+            "publicLawNumber": "114-211",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 229 West Main Cross Street, in Findlay, Ohio, as the \"Michael Garver Oxley Memorial Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ211"
+          },
+          {
+            "title": "To amend the Safe Drinking Water Act to provide for the assessment and management of the risk of algal toxins in drinking water, and for other purposes.",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "212",
+            "publicLawNumber": "114-45",
+            "summary": "(This measure has not been amended since it was passed by the House on February 24, 2015. The summary of that version is repeated here.) Drinking Water Protection Act (Sec. 2) This bill amends the Safe Drinking Water Act to direct the Environmental Protection Agency (EPA) to develop and submit to Congress a strategic plan for assessing and managing risks associated with algal toxins in drinking water provided by public water systems. Cyanobacteria, also known as blue-green algae, have the ability to produce cyanotoxins, or algal toxins. When certain conditions are favorable, algae can rapidly multiply causing blooms, or dense surface scums, that may be toxic. The plan must include steps and time lines to: evaluate the risk to human health from drinking water contaminated with algal toxins; establish, publish, and update a comprehensive list of algal toxins that may have an adverse effect on human health, taking into account likely exposure levels; summarize the known adverse human health effects of algal toxins and the factors that cause toxin-producing cyanobacteria and algae to grow rapidly and make toxins; determine whether to publish health advisories for algal toxins and establish guidance regarding feasible analytical methods to quantify the presence of algal toxins and guidance regarding the frequency of monitoring necessary to determine if the algal toxins are present; recommend feasible treatment options, including procedures, equipment, and source water protection practices; and enter into cooperative agreements with, and provide technical assistance to, affected states and public water systems to manage risks associated with algal toxins. The EPA must update and resubmit the plan as appropriate. The EPA must identify gaps in its understanding of algal toxins. It must also assemble and publish information from each agency that has examined or analyzed cyanobacteria or algal toxins or addressed public health concerns related to harmful algal blooms. The Government Accountability Office must submit to Congress an inventory of funds expended by the United States for each of FY2010 through 2014 to examine or analyze toxin-producing cyanobacteria and algae or address public health concerns related to harmful algal blooms. The inventory must include the specific purpose for which the funds were made available, the law under which the funds were authorized, and the agency that received or spent the funds.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ45"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.508,
+          "nominateDim2": 0.291,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000566"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 61.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000566"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Robert Edward Latta ( / ˈ l æ t ə / LAT -ə ; born April 18, 1956) is an American politician who is the United States representative for Ohio's 5th congressional district . Currently in his 10th term, Latta has served in Congress since 2007, and prior to that he served four terms in the Ohio House of Representatives . He is a member of the Republican Party . The fifth district includes many of Toledo 's suburbs, as well as Findlay , Bowling Green , Tiffin , Napoleon , Sylvania , Defiance and Van Wert , and a sliver of Toledo itself. ",
+        "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:28:16.642Z"
+    },
+    {
+      "slug": "brian-shaver",
+      "full_name": "SHAVER, BRIAN ALAN MR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH05154",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 11664.17,
+        "totalSpent": 7258.22,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 3865.7,
+          "pac": 0,
+          "party": 2275,
+          "selfFunded": 5523.47
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Fostoria",
+          "source_url": "https://www.brianshaverforcongress.com/",
+          "snippet": "A lifelong Northwest Ohioan, born and raised in Fostoria",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Elizabeth",
+          "source_url": "https://www.brianshaverforcongress.com/",
+          "snippet": "where he still lives on a small family farm with his wife, Elizabeth, and daughter, Genevieve",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "President of the Fostoria City Council and teaches social studies at Fostoria Junior/Senior High School",
+          "source_url": "https://www.brianshaverforcongress.com/",
+          "snippet": "Brian is the current President of the Fostoria City Council and teaches social studies at Fostoria Junior/Senior High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "President of the Fostoria City Council",
+          "source_url": "https://www.brianshaverforcongress.com/",
+          "snippet": "Brian is the current President of the Fostoria City Council",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Bluffton University, Education (1999)",
+          "source_url": "https://www.ballotready.org/people/brian-shaver",
+          "snippet": "Bachelor&#x27;s, Bluffton University, Education (1999)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Advocates for campaign finance limits",
+          "snippet": "He advocates for reforms such as campaign finance limits"
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Advocates for term limits",
+          "snippet": "He advocates for reforms such as campaign finance limits, term limits"
+        },
+        {
+          "topic": "Checks and Balances",
+          "value": "Advocates for stronger checks and balances",
+          "snippet": "He advocates for reforms such as campaign finance limits, term limits, stronger checks and balances"
+        },
+        {
+          "topic": "Legislative Transparency",
+          "value": "Advocates for transparency in legislation",
+          "snippet": "He advocates for reforms such as campaign finance limits, term limits, stronger checks and balances, transparency in legislation"
+        },
+        {
+          "topic": "Ethics and Conflicts of Interest",
+          "value": "Advocates for clear guardrails to prevent elected officials from profiting from their positions",
+          "snippet": "He advocates for reforms such as campaign finance limits, term limits, stronger checks and balances, transparency in legislation, and clear guardrails to prevent elected officials from profiting from their positions"
+        },
+        {
+          "topic": "Representation Philosophy",
+          "value": "Believes representatives must put people before party and stay present and accountable to their communities",
+          "snippet": "Above all, Brian believes representatives must put people before party and stay present and accountable to their communities"
+        }
+      ],
+      "platform_source_url": "https://www.brianshaverforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T14:18:56.160Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Brian Shaver is a candidate for Ohio's 5th Congressional District and dedicated to people-centric governance, focusing on practical solutions that transcend partisan politics for a better, more united America. A lifelong Northwest Ohioan, born and raised in Fostoria, where he still lives on a small family farm with his wife, Elizabeth, and daughter, Genevieve. Brian is the current President of the Fostoria City Council and teaches social studies at Fostoria Junior/Senior High School.",
+        "source_url": "https://www.brianshaverforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:30.585Z"
+    }
+  ]
+}

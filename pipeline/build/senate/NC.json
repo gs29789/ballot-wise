@@ -1,0 +1,790 @@
+{
+  "state": "NC",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-17T00:08:49.278Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "primarySnippet": "N.C. Gen. Stat. \u00a7 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. \u00a7 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification \u2014 a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
+    "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
+    "snippet": "US SENATE / DUBLIN, MICHAEL LOUIS JR / 06/15/2026 ... Michael Dublin / GRE [and] US SENATE / COOPER, ROY ASBERRY III / 12/03/2025 ... Roy Cooper / DEM [and] US SENATE / BRAY, SHANNON WILSON / 12/17/2025 ... Shannon W. Bray / LIB [and] US SENATE / WHATLEY, MICHAEL DAVID / 12/02/2025 ... Michael Whatley / REP \u2014 sourced from the official NCSBE 2026 general candidate filing database (s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_detail_list.pdf), generated Aug 13, 2026; no 'McGinnis' or 'Shaunesi' entries appear anywhere in that 475-page, all-100-county document."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.44
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.92
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.21
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.45
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5115.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5115
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5101.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5080.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5069
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5072
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5068.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5064.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5057.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5061
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5062.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5060.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5052.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5057.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5050.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5033.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5033.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5031.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5028.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5026.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5016.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5036
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5025.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5018.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5027.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5025.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5016.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5009.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5000.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4992.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4997.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4978
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4973.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4965.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4954.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4943.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4955.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4925.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4915.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4918.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4911.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4904.3
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6457895191.9,
+        "perCapitaUsd": 8600.5
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8069476466.89,
+        "perCapitaUsd": 10746.78
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7777446278.13,
+        "perCapitaUsd": 10373.51
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10698973
+      },
+      {
+        "year": "2023",
+        "population": 10835491
+      },
+      {
+        "year": "2024",
+        "population": 11046024
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 67481
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70804
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 73958
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "shannon-bray",
+      "full_name": "BRAY, SHANNON",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S0NC00335",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Marrero, Louisiana",
+          "source_url": "https://ballotpedia.org/Shannon_Bray",
+          "snippet": "Shannon Bray was born in Marrero, Louisiana."
+        },
+        "high_school": {
+          "value": "Thibodaux High School",
+          "source_url": "https://ballotpedia.org/Shannon_Bray",
+          "snippet": "He earned a high school diploma from Thibodaux High School."
+        },
+        "college": {
+          "value": "Arapahoe Community College (associate degree, 2014); Colorado State University (bachelor's degree, 2016); University of Delaware (graduate degree, 2018)",
+          "source_url": "https://ballotpedia.org/Shannon_Bray",
+          "snippet": "Bray earned an associate degree from Arapahoe Community College in 2014, a bachelor's degree from Colorado State University in 2016, and a graduate degree from the University of Delaware in 2018."
+        },
+        "employment_record": {
+          "value": "Information technology, software development, information security, and management; previously served in the U.S. Navy (1991-1997)",
+          "source_url": "https://ballotpedia.org/Shannon_Bray",
+          "snippet": "Bray served in the U.S. Navy from 1991 to 1997. He earned a high school diploma from Thibodaux High School. Bray earned an associate degree from Arapahoe Community College in 2014, a bachelor's degree from Colorado State University in 2016, and a graduate degree from the University of Delaware in 2018. Bray's professional experience includes working in information technology, software development, information security, and management."
+        },
+        "civic_affiliations": {
+          "value": "United States Coast Guard Auxiliary; United States Naval Sea Cadet Corps (NSCC); Navy League of the United States",
+          "source_url": "https://ballotpedia.org/Shannon_Bray",
+          "snippet": "He has been associated with the United States Coast Guard Auxiliary, the United States Naval Sea Cadet Corps (NSCC), and the Navy League of the United States."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Shannon Bray was born in Marrero, Louisiana. Bray served in the U.S. Navy from 1991 to 1997. He earned a high school diploma from Thibodaux High School. Bray earned an associate degree from Arapahoe Community College in 2014, a bachelor's degree from Colorado State University in 2016, and a graduate degree from the University of Delaware in 2018. Bray's professional experience includes working in information technology, software development, information security, and management. He has been associated with the United States Coast Guard Auxiliary, the United States Naval Sea Cadet Corps (NSCC), and the Navy League of the United States.",
+        "source_url": "https://ballotpedia.org/Shannon_Bray",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:48:15.353Z"
+    },
+    {
+      "slug": "roy-cooper",
+      "full_name": "COOPER, ROY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6NC00407",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 34975789.18,
+        "totalSpent": 14258221.92,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4748619.9,
+          "largeDollar": 8366778.12,
+          "pac": 750034.38,
+          "party": 70528.23,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1957-06-13",
+          "source_url": "https://www.wikidata.org/wiki/Q7372694",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Nashville, North Carolina",
+          "source_url": "https://www.wikidata.org/wiki/Q7372694",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of North Carolina School of Law",
+          "source_url": "https://www.wikidata.org/wiki/Q7372694",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "attended public schools in Nash County, North Carolina",
+          "source_url": "https://roycooper.com/about/",
+          "snippet": "Cooper was born and raised in Nash County, North Carolina, where he attended public schools",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Kristin",
+          "source_url": "https://roycooper.com/about/",
+          "snippet": "He represented everyday people and small businesses while practicing law in Rocky Mount, North Carolina, where he and his wife Kristin raised three daughters",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "North Carolina Governor (2017 - Present); North Carolina Attorney General (2000 - 2016); Lawyer",
+          "source_url": "https://www.ballotready.org/people/roy-cooper",
+          "snippet": "Professional Experience North Carolina, Governor (2017 - Present) North Carolina, Attorney General (2000 - 2016) Lawyer",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tariffs and Farmers",
+          "value": "Stop chaotic tariffs that drive up costs on farmers who have to pass the costs along to restaurants, grocery stores and hardworking North Carolinians",
+          "snippet": "Support Our Farmers and Stop Chaotic Tariffs: Tariffs drive up costs on farmers who have to pass the costs along to restaurants, groceries stores and hardworking North Carolinians."
+        },
+        {
+          "topic": "Grocery Pricing",
+          "value": "Block anti-competitive mergers in grocery retail and food processing, ban algorithms on grocery pricing to make it illegal for companies to raise the price of groceries based on a specific customer",
+          "snippet": "Block Anti-Competitive Mergers: Strengthen antitrust enforcement in grocery retail and food processing to block corporate mergers that reduce competition and raise prices. Ban algorithms on grocery pricing to make it illegal for companies to raise the price of groceries based on a specific customer."
+        },
+        {
+          "topic": "Health Insurance Coverage Decisions",
+          "value": "Let doctors decide about health care, not insurance bureaucrats. End insurance company runarounds by allowing doctors to make coverage decisions",
+          "snippet": "Let doctors decide about health care, not insurance bureaucrats. End insurance company runarounds by allowing doctors to make coverage decisions, and reform insurance company reviews that result in denial of coverage for what a doctor says you need."
+        },
+        {
+          "topic": "Energy Costs",
+          "value": "Make sure data centers pay the full cost of all the power they use and prevent costs from being passed on to consumers. Ban utility companies from disconnecting power during dangerous heat and cold",
+          "snippet": "Make sure data centers pay the full cost of all the power they use and prevent costs from being passed on to consumers. Reduce utility costs for consumers by working to encourage large tech companies to build their own energy sources. Ban utility companies from disconnecting power during dangerous heat and cold to keep families safe during periods of extreme weather."
+        }
+      ],
+      "platform_source_url": "https://roycooper.com/make-stuff-cost-less/",
+      "_platform_resolved_at": "2026-08-14T13:53:02.927Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "For too many Americans, the middle class feels like a distant dream. Meanwhile, the biggest corporations and the richest Americans have grabbed unimaginable wealth at your expense. I\u2019m running for Senate because it\u2019s time for that to change.",
+        "source_url": "https://roycooper.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:11.396Z"
+    },
+    {
+      "slug": "michael-dublin",
+      "full_name": "DUBLIN, MICHAEL LOUIS JR.",
+      "party": "GREEN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6NC00563",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 25275.63,
+        "totalSpent": 16990,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 654.95,
+          "largeDollar": 2742.45,
+          "pac": 0,
+          "party": 1740,
+          "selfFunded": 20000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Raleigh, North Carolina",
+          "source_url": "https://ballotpedia.org/Michael_Dublin",
+          "snippet": "Michael Dublin was born in Raleigh, North Carolina."
+        },
+        "high_school": {
+          "value": "Sanderson High School",
+          "source_url": "https://ballotpedia.org/Michael_Dublin",
+          "snippet": "Dublin earned a high school diploma from Sanderson High School and an undergraduate degree from North Carolina State University in 1999."
+        },
+        "college": {
+          "value": "North Carolina State University (undergraduate degree, 1999)",
+          "source_url": "https://ballotpedia.org/Michael_Dublin",
+          "snippet": "Dublin earned a high school diploma from Sanderson High School and an undergraduate degree from North Carolina State University in 1999."
+        },
+        "employment_record": {
+          "value": "Public school teacher; previously served in the U.S. Marine Corps (1986-1988)",
+          "source_url": "https://ballotpedia.org/Michael_Dublin",
+          "snippet": "He served in the U.S. Marine Corps from 1986 to 1988. Dublin earned a high school diploma from Sanderson High School and an undergraduate degree from North Carolina State University in 1999. His career experience includes working as a public school teacher."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "michael-whatley",
+      "full_name": "WHATLEY, MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6NC00415",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 11272504.49,
+        "totalSpent": 7810806.43,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1775437.39,
+          "largeDollar": 3690044.37,
+          "pac": 874330,
+          "party": 62000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1968-10-01",
+          "source_url": "https://www.wikidata.org/wiki/Q124450754",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q124450754",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of North Carolina at Charlotte",
+          "source_url": "https://www.wikidata.org/wiki/Q124450754",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Suzanne",
+          "source_url": "https://michaelwhatley.com/",
+          "snippet": "My wife, Suzanne, and I live in Gaston County",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Watauga High School, graduated 1987",
+          "source_url": "https://en.wikipedia.org/wiki/Michael_Whatley",
+          "snippet": "Whatley graduated from Watauga High School in 1987.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "100% support President Trump securing the border and deporting the millions of criminal illegal aliens that Joe Biden and Roy Cooper allowed into this country",
+          "snippet": "I 100% support President Trump securing the border and deporting the millions of criminal illegal aliens that Joe Biden and Roy Cooper allowed into this country."
+        },
+        {
+          "topic": "Conservative Values",
+          "value": "Will fight to defend the 2nd Amendment, protect life, support law enforcement, and keep radical woke ideology out of schools",
+          "snippet": "I will fight to defend the 2nd Amendment, protect life, support our law enforcement, and keep radical woke ideology out of schools."
+        }
+      ],
+      "platform_source_url": "https://michaelwhatley.com/",
+      "_platform_resolved_at": "2026-08-14T13:52:28.382Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I was raised in Blowing Rock and am the son of an accountant and a librarian. My wife, Suzanne, and I live in Gaston County. Following President Trump\u2019s historic 2016 victory, I led the Presidential Transition\u2019s Energy, Environment, and Agriculture teams\u2014overseeing development of the Administration\u2019s Farm Plan and Energy Plan, which helped deliver lower energy prices for families and businesses and a booming agricultural and rural economy. I had the honor of serving as Chairman of the North Carolina Republican Party and, at President Trump\u2019s request, as Chairman of the Republican National Committee during the 2024 election cycle. I am proud to be President Trump\u2019s endorsed candidate to represent the great state of North Carolina in the U.S. Senate.",
+        "source_url": "https://michaelwhatley.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:13.716Z"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-38",
+  "generated_at": "2026-08-18T20:03:48.719Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 California's felony-disqualification statute (Cal. Elec. Code \u00a7 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code \u00a7 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election \u2014 regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, \u00a75(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party \u2014 this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code \u00a78141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_38th_Congressional_District_election,_2026",
+    "snippet": "Hilda Solis and Pedro Casas are running in the general election for U.S. House California District 38 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "pedro-casas",
+      "full_name": "CASAS, PEDRO ANTONIO",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4CA31212",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "date_of_birth": {
+          "value": "1962",
+          "source_url": "https://casasforcongress.com/meet-antonio/",
+          "snippet": "I was born in 1962 in El Paso, Texas",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "El Paso, Texas",
+          "source_url": "https://casasforcongress.com/meet-antonio/",
+          "snippet": "I was born in 1962 in El Paso, Texas",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Don Bosco Technical Institute, graduated 1981",
+          "source_url": "https://casasforcongress.com/meet-antonio/",
+          "snippet": "My educational journey continued at Don Bosco Technical Institute for high school, where I graduated in 1981.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Rio Hondo Community College and Mt. San Antonio Community College before earning a Bachelor of Science in Psychology from the University of La Verne in 1986. Pursued additional psychology research courses at California State University, Los Angeles, before being accepted to the University of California, Santa Barbara, in 1989, where completed a Ph.D. program in Counseling Psychology in 1996.",
+          "source_url": "https://casasforcongress.com/meet-antonio/",
+          "snippet": "I attended Rio Hondo Community College and Mt. San Antonio Community College before earning a Bachelor of Science in Psychology from the University of La Verne in 1986. I pursued additional psychology research courses at California State University, Los Angeles, before being accepted to the University of California, Santa Barbara, in 1989, where I completed a Ph.D. program in Counseling Psychology in 1996.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Served as Division Psychologist along the DMZ in South Korea, commanded medical detachments in Iraq and Afghanistan, completed post-doctoral fellowship in Forensic Psychology, rose to rank of Colonel commanding units in Germany and deploying to classified missions, held chief positions in behavioral health departments at prestigious medical centers in Honolulu and Washington, D.C., retired honorably in September 2023",
+          "source_url": "https://casasforcongress.com/meet-antonio/",
+          "snippet": "From serving as a Division Psychologist along the DMZ in South Korea to commanding medical detachments in Iraq and Afghanistan, my journey included leadership roles across various divisions and continents. Notably, I completed a post-doctoral fellowship in Forensic Psychology and rose to the rank of Colonel, commanding units in Germany and deploying to classified missions. Additionally, I held chief positions in behavioral health departments at prestigious medical centers in Honolulu and Washington, D.C. I retired honorably in September 2023",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Education",
+          "value": "Committed to elevating the standard of education for our children, thereby empowering their future endeavors.",
+          "snippet": "I am committed to elevating the standard of education for our children, thereby empowering their future endeavors."
+        },
+        {
+          "topic": "Drug Crisis",
+          "value": "Pledge to combat the influx of drugs to safeguard our children from tragic loss of life as fentanyl continues to be an epidemic.",
+          "snippet": "I pledge to combat the influx of drugs to safeguard our children from tragic loss of life as fentanyl continues to be an epidemic."
+        },
+        {
+          "topic": "Criminal Justice",
+          "value": "Establish a justice system that does not incentivize or reward criminal behavior, which has left communities unsafe, crime victims abandoned, and deteriorating the business community.",
+          "snippet": "It is imperative to establish a justice system that does not incentivize or reward criminal behavior, which has left communities unsafe, crime victims abandoned, and deteriorating the business community."
+        },
+        {
+          "topic": "Immigration and Border Security",
+          "value": "Will work to secure our southern border and implement immigration reforms that prioritize national security.",
+          "snippet": "I will work to secure our southern border and implement immigration reforms that prioritize national security."
+        },
+        {
+          "topic": "Sports and Gender",
+          "value": "Advocate for fairness by ensuring that biological males only compete against their counterparts.",
+          "snippet": "In sports, I advocate for fairness by ensuring that biological males only compete against their counterparts."
+        },
+        {
+          "topic": "Inflation and Cost of Living",
+          "value": "Addressing inflation promptly is crucial to easing financial burdens on households. Must remain vigilant in monitoring and addressing the escalating costs of rent, mortgages, food, utilities, interest rates, and gas.",
+          "snippet": "Addressing inflation promptly is crucial to easing financial burdens on households. We must remain vigilant in monitoring and addressing the escalating costs of rent, mortgages, food, utilities, interest rates, and gas."
+        },
+        {
+          "topic": "Economic Growth and Small Business",
+          "value": "Propose tax cuts, reduction of bureaucratic red tape and excessive regulations on small businesses, allowing the free market to recalibrate itself.",
+          "snippet": "To stimulate economic growth, I propose tax cuts, reduction of bureaucratic red tape and excessive regulations on small businesses, allowing the free market to recalibrate itself."
+        },
+        {
+          "topic": "Criminal Accountability",
+          "value": "Offenders must be held accountable. We must return to the foundational principles of our system of jurisprudence. Crime victims must be advocated for, and order must be restored.",
+          "snippet": "Offenders must be held accountable. We must return to the foundational principles of our system of jurisprudence. Crime victims must be advocated for, and order must be restored."
+        }
+      ],
+      "platform_source_url": "https://casasforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:45:05.124Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Dr. Pedro \u2018Antonio\u2019 Casas, Ph.D. Colonel, U.S. Army (Retired) Clinical/Forensic/Aero-Medical Psychologist. As the only candidate, regardless of political party, I originate from the very heart of the 38th Congressional District. Unlike others, I am not an outsider; I understand and can genuinely represent what I have grown up knowing.",
+        "source_url": "https://casasforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:36.703Z"
+    },
+    {
+      "slug": "hilda-solis",
+      "full_name": "SOLIS, HILDA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA38139",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1049534.17,
+        "totalSpent": 895031.39,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 22179.99,
+          "largeDollar": 836105.18,
+          "pac": 124249,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1957-10-20",
+          "source_url": "https://www.wikidata.org/wiki/Q50610",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Los Angeles, California",
+          "source_url": "https://www.wikidata.org/wiki/Q50610",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "California State Polytechnic University, Pomona",
+          "source_url": "https://www.wikidata.org/wiki/Q50610",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "La Puente High School",
+          "source_url": "https://en.wikipedia.org/wiki/Hilda_Solis",
+          "snippet": "She graduated from La Puente High School , [ 12 ]",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Sam H. Sayyad (also referred to as Sami Sayyad)",
+          "source_url": "https://en.wikipedia.org/wiki/Hilda_Solis",
+          "snippet": "In Washington, she met Sam H. Sayyad, [ 11 ] whom she subsequently married.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Served in the White House Office of Hispanic Affairs as editor-in-chief of a newsletter during a 1980\u20131981 Washington semester internship; became a management analyst at the civil rights division of the Office of Management and Budget at the start of the Reagan Administration in 1981; became director of the California Student Opportunity and Access Program in 1982; served as chief of staff for State Senator Art Torres",
+          "source_url": "https://en.wikipedia.org/wiki/Hilda_Solis",
+          "snippet": "Solis served near the end of the Carter Administration in the White House Office of Hispanic Affairs, [ 2 ] where she was editor-in-chief of a newsletter during a 1980\u20131981 Washington semester internship [ 3 ] [ 7 ] [ 15 ] as part of her master's program. [ 11 ] At the start of the Reagan Administration in 1981, she became a management analyst at the civil rights division of the Office of Management and Budget , but her dislike for Ronald Reagan 's policies motivated her to leave later that year. [ 7 ] [ 16 ] In Washington, she met Sam H. Sayyad, [ 11 ] whom she subsequently married. He owns an automobile repair center in Irwindale, California . [ 11 ] The couple lives in a modest house in El Monte, California , not far from where she grew up. [ 11 ] Returning to California, Solis became director of the California Student Opportunity and Access Program in 1982, to help disadvantaged youth gain necessary preparation for college. [ 3 ] In particular, she worked with the Whittier Union High School District . [ 12 ] Friends urged her to try for elective office, [ 8 ] and so in 1985, she ran for the board of trustees of the Rio Hondo Community College District. [ 3 ] She campaigned hard and overtook an incumbent and one other better established candidate to become the top placer. [ 3 ] She was reelected in 1989. [ 3 ] During her time on the board, she worked towards improved vocational job training at the college and sought to increase the number of tenured faculty positions held by minorities and women. [ 6 ] She joined several California chambers of commerce, women's organizations, and Latino organizations. [ 12 ] She gained added political visibility in 1991 when she was named to the Los Angeles County Commission on Insurance by Los Angeles County Supervisor Gloria Molina , a political mentor. [ 3 ] Solis also served as chief of staff for State Senator Art Torres . [ 17 ]",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Joined several California chambers of commerce, women's organizations, and Latino organizations; named to the Los Angeles County Commission on Insurance in 1991",
+          "source_url": "https://en.wikipedia.org/wiki/Hilda_Solis",
+          "snippet": "She joined several California chambers of commerce, women's organizations, and Latino organizations. [ 12 ] She gained added political visibility in 1991 when she was named to the Los Angeles County Commission on Insurance by Los Angeles County Supervisor Gloria Molina , a political mentor.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Environmental Justice",
+          "value": "Prioritizes fighting for clean air, water, and open green space",
+          "snippet": "Hilda Solis has always prioritized fighting for clean air, water, and open green space."
+        },
+        {
+          "topic": "Healthcare Access",
+          "value": "Ensures that all people, regardless of their zip code, have access to quality health care, medical facilities, and the resources needed to thrive",
+          "snippet": "Hilda understands the importance of ensuring that all people, regardless of their zip code, have access to quality health care, medical facilities, and the resources needed to thrive as individuals and families."
+        },
+        {
+          "topic": "Affordable Housing",
+          "value": "Committed to creating and preserving affordable housing for all residents in innovative and sustainable ways",
+          "snippet": "Hilda Solis is committed towards creating and preserving affordable housing for all residents in innovative and sustainable ways."
+        },
+        {
+          "topic": "Criminal Justice Reform",
+          "value": "Believes we need to shift the focus from punishment and incarceration to support and resources to get our justice system to work for the people",
+          "snippet": "Supervisor Solis believes that we need to shift the focus from punishment and incarceration to support and resources to get our justice system to work for the people and not against them."
+        }
+      ],
+      "platform_source_url": "https://www.hildasolis.com/",
+      "_platform_resolved_at": "2026-08-17T06:33:20.169Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30025452.pdf",
+        "filingDate": "9/29/2025",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T11:45:15.564Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Hilda Solis, the daughter of immigrants, was raised in a San Gabriel Valley working-class family, and has a distinguished career built on fighting for the health and safety of her neighbors \u2013 and all the people of the United States. After helping pass the Affordable Care Act as President Obama\u2019s Secretary of Labor, Hilda led efforts to implement it and expand access to affordable healthcare in L.A. County as Supervisor.",
+        "source_url": "https://www.hildasolis.com/meet-hilda/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:47.770Z"
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-27",
+  "generated_at": "2026-08-20T15:59:54.233Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_27th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Maria Elvira Salazar and Eliott Rodriguez are running in the general election for U.S. House Florida District 27 on November 3, 2026. Robin Peguero lost the Democratic primary to Rodriguez (53.5%-46.5%) despite raising more money, and is not on the general-election ballot."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "eliott-rodriguez",
+      "full_name": "RODRIGUEZ, ELIOTT",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL27098",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 661173.11,
+        "totalSpent": 336075.74,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 64967.64,
+          "largeDollar": 589205.47,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 7000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "CBS News 4, Anchor",
+          "source_url": "https://www.ballotready.org/people/eliott-rodriguez",
+          "snippet": "CBS News 4, Anchor",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing and Affordability",
+          "value": "Need to address housing affordability as a structural issue by building more workforce housing and stabilizing the insurance market",
+          "snippet": "We need to address this as a structural issue — we need to build more workforce housing, and stabilize the insurance market."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Must confront structural drivers of cost in South Florida, including housing supply constraints and insurance instability, to give families breathing room",
+          "snippet": "In this environment, we must confront the structural drivers of cost in South Florida, including housing supply constraints and insurance instability. Families here in South Florida need breathing room — and policies that actually lower pressure instead of adding volatility."
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Defending Social Security and Medicare",
+          "snippet": "Defending Social Security and Medicare"
+        },
+        {
+          "topic": "Economy",
+          "value": "Strengthening our economy",
+          "snippet": "Strengthening our economy"
+        },
+        {
+          "topic": "Environment",
+          "value": "Protecting our environment",
+          "snippet": "Protecting our environment"
+        },
+        {
+          "topic": "Education",
+          "value": "Investing in education",
+          "snippet": "Investing in education"
+        }
+      ],
+      "platform_source_url": "https://eliottrodriguez.com/",
+      "_platform_resolved_at": "2026-08-20T15:59:20.586Z",
+      "campaign_site_url": "https://www.eliottrodriguez.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=4uqMZu-jXk8",
+      "platform_video_title": "Why I'm Running for Congress in Florida's 27th Congressional District",
+      "platform_video_source_url": "https://eliottrodriguez.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:59:22.701Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9115846.pdf",
+        "filingDate": "5/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:59:48.943Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Eliott Rodriguez ( Democratic Party ) is running for election to the U.S. House to represent Florida's 27th Congressional District . He is on the ballot in the general election on November 3, 2026 . He advanced from the Democratic primary on August 18, 2026 . ",
+        "source_url": "https://ballotpedia.org/Eliott_Rodriguez",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:25:41.063Z"
+    },
+    {
+      "slug": "maria-salazar",
+      "full_name": "SALAZAR, MARIA ELVIRA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8FL27185",
+      "fec_status": "C",
+      "bioguide_id": "S000168",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1999399.08,
+        "totalSpent": 1150679.49,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 17867.22,
+          "largeDollar": 532447.63,
+          "pac": 533178.55,
+          "party": 0,
+          "selfFunded": 2492.77
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1961-11-01",
+          "source_url": "https://www.wikidata.org/wiki/Q6003715",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Miami, Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q6003715",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Miami",
+          "source_url": "https://www.wikidata.org/wiki/Q6003715",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Deerborne School of Coral Gables",
+          "source_url": "https://en.wikipedia.org/wiki/Mar%C3%ADa_Elvira_Salazar",
+          "snippet": "Salazar studied at the Deerborne School of Coral Gables",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "award-winning journalist who challenged dictators, exposed corruption, and reported from across Latin America",
+          "source_url": "https://mariaelvirasalazar.com/",
+          "snippet": "Before serving in Congress, she was an award-winning journalist who challenged dictators, exposed corruption, and reported from across Latin America.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Small Business and the Economy",
+          "value": "Strengthening the economy",
+          "snippet": "she fights for South Florida families by strengthening the economy"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Improving healthcare",
+          "snippet": "she fights for South Florida families by strengthening the economy, improving healthcare"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Supporting public safety",
+          "snippet": "she fights for South Florida families by strengthening the economy, improving healthcare, supporting public safety"
+        },
+        {
+          "topic": "Fighting Socialism",
+          "value": "Defending the freedoms that make America exceptional",
+          "snippet": "she fights for South Florida families by strengthening the economy, improving healthcare, supporting public safety, and defending the freedoms that make America exceptional"
+        }
+      ],
+      "platform_source_url": "https://mariaelvirasalazar.com/",
+      "_platform_resolved_at": "2026-08-20T15:59:38.224Z",
+      "campaign_site_url": "https://www.mariaelvirasalazar.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=dXHI_l2xKls",
+      "platform_video_title": "Salazar: The DSA radical vision should worry every American",
+      "platform_video_source_url": "https://mariaelvirasalazar.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:59:39.400Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 254,
+          "attendanceRate": 0.8975265017667845
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Africa",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Western Hemisphere",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Housing and Insurance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 73,
+        "bills_cosponsored": 1342,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "Migratory Birds of the Americas Conservation Enhancements Act of 2023",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "4389",
+            "publicLawNumber": "118-51",
+            "summary": "Migratory Birds of the Americas Conservation Enhancements Act of 2023 This bill reauthorizes through FY2028 and revises the Neotropical Migratory Bird Conservation Act, which provides financial assistance for projects to promote the conservation of neotropical migratory birds. The bill increases the cap on the federal share of project costs. It also directs the Department of the Interior to report on an advisory group established under the act. If applicable, Interior must include a description of the composition of the advisory group in the report.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ51"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.274,
+          "nominateDim2": 0.162,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S000168"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 86.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S000168"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "María Elvira Salazar is the daughter of Cuban exiles who fled communism in search of freedom and opportunity. Before serving in Congress, she was an award-winning journalist who challenged dictators, exposed corruption, and reported from across Latin America. Today, she fights for South Florida families by strengthening the economy, improving healthcare, supporting public safety, and defending the freedoms that make America exceptional.",
+        "source_url": "https://mariaelvirasalazar.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:13:20.713Z"
+    }
+  ]
+}

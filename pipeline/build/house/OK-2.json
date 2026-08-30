@@ -1,0 +1,745 @@
+{
+  "state": "OK",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-17T15:46:57.835Z",
+  "election_dates": {
+    "primaryDate": "2026-06-16",
+    "primarySourceUrl": "https://law.justia.com/codes/oklahoma/title-26/section-26-1-102/",
+    "primarySnippet": "A Primary Election shall be held on the third Tuesday in June of each even-numbered year, at which time each political party recognized by the laws of this state shall nominate its candidates for the offices to be filled at the next succeeding General Election unless otherwise provided by law.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/oklahoma/title-26/section-26-1-101/",
+    "generalSnippet": "On the first Tuesday succeeding the first Monday of November, 1976, and every four (4) years thereafter, a General Election shall be held... On said date, and every two (2) years thereafter, United States Senators and United States Representatives, whose terms expire before the next succeeding General Election, and state, district and county officers, whose terms expire before the next succeeding General Election, shall be elected."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Oklahoma's felon-disqualification statute (26 O.S. \u00a7 5-105a) bars a person convicted of a felony (or embezzlement-related misdemeanor) from being a candidate for \"any state, county, municipal, judicial or school office or any other elective office of any political subdivision of this state\" for 15 years after completing their sentence, absent a pardon \u2014 by its own text this reaches only state and local offices, not Congress",
+    "source_url": "https://law.justia.com/codes/oklahoma/title-26/section-26-5-105a/",
+    "snippet": "A person who has been convicted of a misdemeanor involving embezzlement or a felony under the laws of this state or of the United States or who has entered a plea of guilty or nolo contendere to such misdemeanor involving embezzlement or felony ... shall not be eligible to be a candidate for or to be elected to any state, county, municipal, judicial or school office or any other elective office of any political subdivision of this state for a period of fifteen (15) years following completion of his sentence or during the pendency of an appeal of such conviction or plea."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Oklahoma's_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Josh Brecheen, Brandon Wade, and Ronnie Hopkins are running in the general election for U.S. House Oklahoma District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 33.92
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 31.29
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.95
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.4
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.77
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1794.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1794.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1793.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1790.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1786.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1786.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1787
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1786
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1784.8
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1785.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1786.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1788.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1791.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1797.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1796.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1794.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1791.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1792.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1790.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1791.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1788.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1785.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1784
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1780.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1773.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1777.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1776.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1779.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1775.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1768
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1769.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1767.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1766.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1765.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1759.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1754.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1757.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1752.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1751.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1749.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1746.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1745.7
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4618138692.16,
+        "perCapitaUsd": 5873.28
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4724475487.6,
+        "perCapitaUsd": 6008.52
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4947670968.83,
+        "perCapitaUsd": 6292.38
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 4019800
+      },
+      {
+        "year": "2023",
+        "population": 4053824
+      },
+      {
+        "year": "2024",
+        "population": 4095393
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59673
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 62138
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 66148
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "josh-brecheen",
+      "full_name": "BRECHEEN, JOSH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2OK02315",
+      "fec_status": "C",
+      "bioguide_id": "B001317",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 218893.55,
+        "totalSpent": 213525.91,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4728.55,
+          "largeDollar": 104157,
+          "pac": 110008,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-06-19",
+          "source_url": "https://www.wikidata.org/wiki/Q6288704",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Ada, Oklahoma",
+          "source_url": "https://www.wikidata.org/wiki/Q6288704",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Oklahoma State University",
+          "source_url": "https://www.wikidata.org/wiki/Q6288704",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Coalgate High School, Coalgate, Oklahoma, graduated 1997",
+          "source_url": "https://history.house.gov/People/Listing/B/BRECHEEN,-Josh-(B001317)/",
+          "snippet": "graduated from Coalgate High School, Coalgate, Okla., 1997",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "Rancher; small business owner; staff, United States Senator Thomas Allen Coburn of Oklahoma, 2005-2010",
+          "source_url": "https://history.house.gov/People/Listing/B/BRECHEEN,-Josh-(B001317)/",
+          "snippet": "rancher; small business owner; staff, United States Senator Thomas Allen Coburn of Oklahoma, 2005-2010",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "Enrolled member of the Choctaw Nation; member of the Oklahoma state senate, 2010-2018",
+          "source_url": "https://history.house.gov/People/Listing/B/BRECHEEN,-Josh-(B001317)/",
+          "snippet": "an enrolled member of the Choctaw Nation; graduated from Coalgate High School, Coalgate, Okla., 1997; attended Southeastern Oklahoma State University, Durant, Okla.; B.S., Oklahoma State University, Stillwater, Okla., 2002; rancher; small business owner; staff, United States Senator Thomas Allen Coburn of Oklahoma, 2005-2010; member of the Oklahoma state senate, 2010-2018",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "married to Kacie",
+          "source_url": "https://joshbrecheen.com/about-page/",
+          "snippet": "My wife Kacie and I live with our four children on our ranch in southern Oklahoma.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Illegal Immigration",
+          "value": "Close the border except to those who come through the legal process",
+          "snippet": "We must close the border except to those who come here through the legal process. This is an issue of national security."
+        },
+        {
+          "topic": "Education",
+          "value": "There should be no federal role in education",
+          "snippet": "There should be no federal role in education."
+        },
+        {
+          "topic": "National Debt",
+          "value": "Requested $50.7 billion in cuts, introduced and cosponsored bills that would cut $310.8 billion, and voted for amendments that would cut $35.7 billion from the current budget",
+          "snippet": "I have requested $50.7 billion in cuts, introduced and cosponsored bills that would cut $310.8 billion, and have voted for amendments that would cut $35.7 billion from our current budget."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Life begins at conception and must be protected",
+          "snippet": "Life begins at conception. All Americans, born and pre-born are created by God and deserve the protection afforded them by the Constitution. We must protect life."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Support local law enforcement and oppose efforts to defund the police",
+          "snippet": "I support our local law enforcement. We must back the blue."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Strongly support the second amendment right to bear arms",
+          "snippet": "I strongly support our second amendment right to bear arms."
+        }
+      ],
+      "platform_source_url": "https://joshbrecheen.com/issues-2/",
+      "_platform_resolved_at": "2026-08-17T15:46:48.581Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 46,
+        "bills_cosponsored": 482,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "DHS Border Services Contracts Review Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "4467",
+            "publicLawNumber": "118-171",
+            "summary": "DHS Border Services Contracts Review Act This act directs the Department of Homeland Security (DHS) to assess contractor personnel performing services along the U.S. land border with Mexico and plan to implement recommendations developed from the assessment. Specifically, DHS must report to Congress regarding active contracts with a total value of $50 million or more relating to the procurement of services along the border. The report must include, among other things the criteria used by DHS to determine whether contractor personnel were necessary to assist in carrying out its mission along the border; an analysis of the purpose, quantity, and location of contractor personnel addressing DHS mission needs along the border and enhancing the capability of DHS personnel to perform primary mission responsibilities; an assessment of the benefits of contractor personnel performing the services; a strategy to improve the procurement and delivery of the services through contracts over a five-year period; and recommendations based on the report's findings. DHS must (1) submit with the report a plan to implement the recommendations and strategy contained in such report to enhance coordination, minimize overlap, and increase cost effectiveness; and (2) brief Congress with respect to the status of implementation.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ171"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.837,
+          "nominateDim2": -0.509,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001317"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 10.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001317"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I\u2019m a 4th generation rancher. I\u2019m a committed Christian, husband, father and I\u2019ve operated a small heavy equipment and trucking business. I grew up learning the value of hard work while cleaning horse stalls, breaking colts, and hauling square bales. I served as state president of the Oklahoma FFA Association and graduated from OSU. I was fortunate to serve Sen. Tom Coburn as his Field Representative to Southeastern OK. My wife Kacie and I live with our four children on our ranch in southern Oklahoma.",
+        "source_url": "https://joshbrecheen.com/about-page/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:55:04.891Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:40.277Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=V6-x95peRgQ",
+      "platform_video_title": "Josh Brecheen for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-23T12:00:40.277Z"
+    },
+    {
+      "slug": "ronnie-hopkins",
+      "full_name": "HOPKINS, RONNIE",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H4OK02204",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Social Security",
+          "value": "Proposes turning Social Security into a real trust fund giving individuals ownership with all rights the law allows and the right to leave the trust fund to anybody they choose when they die",
+          "snippet": "turn Social Security into a real trust fund giving you ownership with all rights the law allows? Also giving you the right to leave your trust fund to anybody you choose when you die"
+        }
+      ],
+      "platform_source_url": "https://hopkinsforcongress.wixsite.com/ronnie-hopkins-for-c",
+      "_platform_resolved_at": "2026-08-12T22:48:26.835Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-23T12:00:40.692Z",
+      "bio_summary": {
+        "value": "Many of our freedoms and liberties are being taken away a little at a time and very few people are saying anything about it. I myself stand for freedom and liberty because freedom is the power or right to act, speak, or think as one wants without hindrance or restraint. Liberty is the state of being free within a society from oppressive restrictions imposed by authority on one\u2019s way of life, behavior or political view. When the government begins telling you what to eat, what to buy and taking one\u2019s property because they think it can benefit others better, judges silencing the voice of the people, we then are losing the freedoms and liberties that so many have fought and died for. ",
+        "source_url": "https://ballotpedia.org/Ronnie_Hopkins",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:11:05.699Z"
+    },
+    {
+      "slug": "brandon-wade",
+      "full_name": "WADE, BRANDON",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4OK02196",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4290.26,
+        "totalSpent": 2002.49,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2730.26,
+          "largeDollar": 500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 1060
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "IUOE Local 351, Union Engineer",
+          "source_url": "https://www.ballotready.org/people/brandon-wade",
+          "snippet": "IUOE Local 351, Union Engineer",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-23T12:00:41.010Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=fTk5pa-NVdQ",
+      "platform_video_title": "Brandon Wade for Congress! Oklahoma Congressional District 2.",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-23T12:00:41.010Z",
+      "bio_summary": {
+        "value": "Brandon Wade was born in Bartlesville, Oklahoma . He earned a high school diploma from Copan High School. Wade's career experience includes working as a laborer in the oil industry. He has served as a union committee chairman and executive board member for IUOE local 351. [1] [2] ",
+        "source_url": "https://ballotpedia.org/Brandon_Wade",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:11:27.952Z"
+    }
+  ]
+}

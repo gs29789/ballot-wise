@@ -1,0 +1,919 @@
+{
+  "state": "WI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-17T01:59:30.900Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "primarySnippet": "Wis. Stat. § 5.02(12s): \"Partisan primary\" means the primary held the 2nd Tuesday in August to nominate candidates to be voted for at the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "generalSnippet": "Wis. Stat. § 5.02(5): \"General election\" means the election held in even-numbered years on the Tuesday after the first Monday in November to elect United States senators, representatives in congress, presidential electors, state senators, representatives to the assembly, district attorneys, state officers other than the state superintendent and judicial officers, and county officers other than supervisors and county executives."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Genuinely ambiguous for congressional candidates. Wisconsin's constitution (Art. XIII, §3) has two relevant clauses. The office-eligibility clause is broad and unqualified: no person convicted of a felony 'in any court within the United States' (or of certain misdemeanors involving public trust) 'shall be eligible to any office of trust, profit or honor in this state unless pardoned' — that phrase doesn't on its face exclude federal offices like the U.S. House. But the clause's own enforcement mechanism — the ballot-access provision in the same section, which bars placing a convicted person's name on a ballot — explicitly limits itself to 'any ballot for a state or local elective office,' omitting federal races. Combined with U.S. Term Limits v. Thornton, 514 U.S. 779 (1995), which holds states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), the ballot-access text and federal preemption both point toward Wisconsin's felon bar NOT reaching U.S. House/Senate candidacy — but no Wisconsin court decision confirming that specific reading was found, so this should be treated as unresolved rather than settled either way.",
+    "source_url": "https://law.justia.com/constitution/wisconsin/article-xiii/section-3/",
+    "snippet": "Wis. Const. Art. XIII, § 3: \"No person convicted of a felony, in any court within the United States... shall be eligible to any office of trust, profit or honor in this state unless pardoned of the conviction. No person may seek to have placed on any ballot for a state or local elective office in this state the name of a person convicted of a felony... unless the person named for the ballot has been pardoned of the conviction.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Wisconsin%27s_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Derrick Van Orden, Rebecca Cooke, Alexander Valiensi Kent, and Rustin Provance are running in the general election for U.S. House Wisconsin District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.66
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 21.36
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 23.06
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 20.72
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 17.87
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3041
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3038.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3031.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3019.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3020.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3030.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3024.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3022.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3020.5
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3030.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3040.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3039
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3041.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3041.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3040.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3047.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3043.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3051.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3045.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3045.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3044.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3038.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3040
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3031.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3026.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3030.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3021
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3027
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3016.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3016.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3013.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3009.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3004.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6896070651.38,
+        "perCapitaUsd": 9343.94
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7150304585.47,
+        "perCapitaUsd": 9688.42
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7401162439.89,
+        "perCapitaUsd": 10028.32
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5892539
+      },
+      {
+        "year": "2023",
+        "population": 5910955
+      },
+      {
+        "year": "2024",
+        "population": 5960975
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 70996
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74631
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77488
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "rebecca-cooke",
+      "full_name": "COOKE, REBECCA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4WI03169",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8601145.96,
+        "totalSpent": 6784680.42,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2645733.29,
+          "largeDollar": 4606176.92,
+          "pac": 523475.01,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1987-12-21",
+          "source_url": "https://www.wikidata.org/wiki/Q139997274",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Eau Claire, Wisconsin",
+          "source_url": "https://www.wikidata.org/wiki/Q139997274",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Rebecca worked her way through college with the help of Pell Grants, local scholarships, financial aid, and multiple jobs.",
+          "source_url": "https://cookeforwisconsin.com/",
+          "snippet": "Rebecca worked her way through college with the help of Pell Grants, local scholarships, financial aid, and multiple jobs.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "High School Diploma, North High School",
+          "source_url": "https://www.ballotready.org/people/rebecca-cooke",
+          "snippet": "High School Diploma, North High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "active in 4-H",
+          "source_url": "https://cookeforwisconsin.com/",
+          "snippet": "She was active in 4-H, showing cattle at fairs throughout the state",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Healing our Healthcare System",
+          "snippet": "Healing our Healthcare System"
+        },
+        {
+          "topic": "Economy",
+          "value": "Creating an Economy Built for Working Families",
+          "snippet": "Creating an Economy Built for Working Families"
+        },
+        {
+          "topic": "Labor/Unions",
+          "value": "Strengthening the Working Class and Empowering Unions",
+          "snippet": "Strengthening the Working Class and Empowering Unions"
+        },
+        {
+          "topic": "Environment",
+          "value": "Improving Water Quality and Investing in Clean Energy",
+          "snippet": "Improving Water Quality and Investing in Clean Energy"
+        },
+        {
+          "topic": "Broadband",
+          "value": "Connecting Communities to the 21st Century via Broadband Access",
+          "snippet": "Connecting Communities to the 21st Century via Broadband Access"
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Protecting Reproductive Health Freedoms",
+          "snippet": "Protecting Reproductive Health Freedoms"
+        },
+        {
+          "topic": "Education",
+          "value": "Strengthening our Education System",
+          "snippet": "Strengthening our Education System"
+        }
+      ],
+      "platform_source_url": "https://cookeforwisconsin.com/",
+      "_platform_resolved_at": "2026-08-14T13:11:14.548Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "As a small business owner and nonprofit leader, Rebecca Cooke has focused her career on building community and serving others. Born and raised on an Eau Claire dairy farm and appointed by Governor Tony Evers to the Wisconsin Economic Development Corporation, Rebecca knows the economic and social challenges facing the small towns and rural communities for which she’s fiercely advocated for, from the kitchen table to the board room.",
+        "source_url": "https://cookeforwisconsin.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:13.031Z",
+      "campaign_site_url": "https://cookeforwisconsin.com/",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:41.174Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "alexander-kent",
+      "full_name": "KENT, ALEXANDER VALIENSI",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6WI03230",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "college": {
+          "value": "Viterbo University in La Crosse",
+          "source_url": "https://www.voterdirectednetwork.com/",
+          "snippet": "I have been studying Servant Leadership extensively since I attended Viterbo University here in La Crosse, which offers Servant Leadership classes, certificates, and a graduate degree.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://www.voterdirectednetwork.com/",
+          "snippet": "I am a social worker, father, husband, and the author of Voter Directed Democracy and the founder of Voter Directed Network",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "social worker",
+          "source_url": "https://www.voterdirectednetwork.com/",
+          "snippet": "I am a social worker, father, husband, and the author of Voter Directed Democracy and the founder of Voter Directed Network",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "founder of Voter Directed Network",
+          "source_url": "https://www.voterdirectednetwork.com/",
+          "snippet": "I am a social worker, father, husband, and the author of Voter Directed Democracy and the founder of Voter Directed Network",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Voter Direct Democracy",
+          "value": "Support honest and transparent, modern and evolved, accountable and peaceful, online and independent democratic republicanism where all voters Yes/No vote on all issues, legislative bills, and executive orders and the democratic republic follows this clear, precise, and objectively determined Will of the People.",
+          "snippet": "We support honest and transparent, modern and evolved, accountable and peaceful, online and independent democratic republicanism where all voters Yes/No vote on all issues, legislative bills, and executive orders and the democratic republic follows this clear, precise, and objectively determined Will of the People."
+        },
+        {
+          "topic": "Political Parties",
+          "value": "Oppose political parties as inherently authoritarian political structures that divide, conquer, and control voters rather than represent them.",
+          "snippet": "Political parties always fall to corruption because they are inherently authoritarian political structures. Political parties were never created to represent voters. They were created to divide, conquer, and control voters."
+        },
+        {
+          "topic": "Leadership Philosophy",
+          "value": "Support Servant Leadership philosophy which shares power, puts the needs of others first and helps people develop and perform as highly as possible.",
+          "snippet": "The servant-leader shares power, puts the needs of others first and helps people develop and perform as highly as possible."
+        }
+      ],
+      "platform_source_url": "https://www.voterdirectednetwork.com/",
+      "_platform_resolved_at": "2026-08-14T13:10:04.536Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=F2AQiNUWsqA",
+      "platform_video_title": "One voter, one vote on all issues.",
+      "platform_video_source_url": "https://www.voterdirectednetwork.com/social-media",
+      "_platform_video_resolved_at": "2026-08-18T22:44:10.134Z",
+      "bio_summary": {
+        "value": "Alexander Valiensi Kent, MSW ( I-WI) Independent candidate for the U.S. House of Representatives from Wisconsin’s District #3",
+        "source_url": "https://www.voterdirectednetwork.com/aboutvdn"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:15.509Z",
+      "campaign_site_url": "https://voterdirectednetwork.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:41.179Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "rustin-provance",
+      "full_name": "PROVANCE, RUSTIN LEVEM",
+      "party": "NONE",
+      "incumbent": false,
+      "fec_candidate_id": "H2WI03163",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Cameron, Missouri",
+          "source_url": "https://ballotpedia.org/Rustin_Provance",
+          "snippet": "Birthplace\nCameron, MO"
+        },
+        "employment_record": {
+          "value": "Certified Nursing Assistant (CNA)",
+          "source_url": "https://ballotpedia.org/Rustin_Provance",
+          "snippet": "My name is Rustin Provance. I am a CNA ( Certified Nursing Assistant)."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "derrick-van-orden",
+      "full_name": "VAN ORDEN, DERRICK F. MR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0WI03175",
+      "fec_status": "C",
+      "bioguide_id": "V000135",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 7526052.22,
+        "totalSpent": 3365829.24,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1592299.66,
+          "largeDollar": 2811416.89,
+          "pac": 994741.95,
+          "party": 15000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1969-09-15",
+          "source_url": "https://www.wikidata.org/wiki/Q115155627",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Hennepin County, Minnesota",
+          "source_url": "https://www.wikidata.org/wiki/Q115155627",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Excelsior College",
+          "source_url": "https://www.wikidata.org/wiki/Q115155627",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Derrick and his wife, Sara Jane, have four children and 13 grandchildren.",
+          "source_url": "https://www.vanordenforcongress.com/about/",
+          "snippet": "Derrick and his wife, Sara Jane, have four children and 13 grandchildren.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative, District 3 (2023 - Present); The Butternut Cafe, Owner (2017 - Present); Beat it Roach Creations, Writer (2019 - 2020); US Navy, Navy SEAL (1988 - 2014)",
+          "source_url": "https://www.ballotready.org/people/derrick-van-orden",
+          "snippet": "Professional Experience US House of Representatives, Representative, District 3 (2023 - Present) The Butternut Cafe, Owner (2017 - Present) Beat it Roach Creations, Writer (2019 - 2020) US Navy, Navy SEAL (1988 - 2014)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Transportation and Infrastructure",
+          "value": "Committed to ensuring that western Wisconsin has access to safe, clean drinking water, well-maintained roads and bridges, and reliable rural broadband",
+          "snippet": "Derrick is committed to ensuring that western Wisconsin has access to safe, clean drinking water, well-maintained roads and bridges, and reliable rural broadband."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Will work to make sure individuals with preexisting conditions are protected when Obamacare is fully repealed and a new system is implemented allowing for true competition in healthcare, driving costs down",
+          "snippet": "Derrick will work to make sure individuals with preexisting conditions are protected when Obamacare is fully repealed and a new system is implemented allowing for true competition in healthcare, driving costs down."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Working with the Trump Administration to secure our borders, ensure law enforcement and border patrol agents have the resources they need, keep communities safe, and remove dangerous criminal illegal aliens from our streets",
+          "snippet": "Derrick is working with the Trump Administration to secure our borders, ensure law enforcement and border patrol agents have the resources they need, keep communities safe, and remove dangerous criminal illegal aliens from our streets."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Supports legislation that combats crime, strengthens law enforcement, and ensures officers have the tools and resources they need to keep our communities safe",
+          "snippet": "In Congress, Derrick continues to stand with the men and women in blue, supporting legislation that combats crime, strengthens law enforcement, and ensures officers have the tools and resources they need to keep our communities safe."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Championed the Whole Milk for Healthy Kids Act which was signed into law by President Trump and ensures children have access to whole milk",
+          "snippet": "He also championed the Whole Milk for Healthy Kids Act which was signed into law by President Trump and ensures children have access to whole milk."
+        },
+        {
+          "topic": "Fentanyl",
+          "value": "Supports legislation that classifies fentanyl as a controlled substance",
+          "snippet": "leading to his support for legislation that classifies fentanyl as a controlled substance."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Champions legislation like the Working Family Tax Cuts which ensures more of your hard earned money remains where it should be: in your pocket",
+          "snippet": "That is why he champions legislation like the Working Family Tax Cuts which ensures more of your hard earned money remains where it should be: in your pocket."
+        }
+      ],
+      "platform_source_url": "https://www.vanordenforcongress.com/issues/",
+      "_platform_resolved_at": "2026-08-14T13:11:08.578Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Economic Opportunity",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Intelligence and Special Operations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 62,
+        "bills_cosponsored": 682,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "VA Home Loan Program Reform Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "1815",
+            "publicLawNumber": "119-31",
+            "summary": "VA Home Loan Program Reform Act This act authorizes the Department of Veterans Affairs (VA) to take certain actions in cases of default on home loans under the VA home loan program, establishes a partial claim program, and temporarily increases amounts authorized for transitional housing and supportive services for veterans who are experiencing homelessness. First, the act authorizes the VA to pay the holder of a loan guaranteed by the VA an amount necessary to avoid the foreclosure of the loan, provided that the holder of the loan and the veteran obligated on the loan execute documents to ensure the VA obtains a secured interest in the property covered by the loan. The VA must prescribe loss mitigation procedures to help prevent the foreclosure of such a home loan. The VA may not take specified administrative actions (e.g., consent to the modification of loan terms) until the sequence of mitigation options has been completed. Next, the act establishes a five-year Partial Claim Program under which the VA may make a partial claim (purchase a&nbsp;portion of the indebtedness) on VA loans for primary residences that are in default or at imminent risk of default. Individuals who default on loans for which the VA has made a partial claim under this program must be liable to the VA for any loss resulting from the default. Further, the VA must report to Congress on its strategy to ensure that veterans who purchase homes under the VA home loan program are not at a disadvantage when attempting to secure representation by a real estate agent or broker. Finally,&nbsp;the act temporarily increases the amounts authorized for the VA’s Grant and Per Diem program for FY2025 and FY2026. (The program provides funding&nbsp;to public or nonprofit private entities that provide housing and supportive services to veterans experiencing homelessness.)",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ31"
+          },
+          {
+            "title": "Montgomery GI Bill Selected Reserves Tuition Fairness Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "983",
+            "publicLawNumber": "119-55",
+            "summary": "Montgomery GI Bill Selected Reserves Tuition Fairness Act of 2025 This act requires that the Department of Veterans Affairs disapprove courses of education provided by educational institutions that charge higher than in-state tuition for individuals utilizing the Montgomery GI Bill-Selected Reserve education benefits while living in the state where the education is located, regardless of the individual’s state of residence.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ55"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.379,
+          "nominateDim2": -0.035,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/V000135"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 48.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/V000135"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=Q-09fjOMqWI",
+      "platform_video_title": "Socialism Sucks",
+      "platform_video_source_url": "https://www.vanordenforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:04:45.129Z",
+      "bio_summary": {
+        "value": "Derrick Francis Van Orden (born September 15, 1969) is an American politician, actor, and retired United States Navy SEAL who has served as the U.S. representative for Wisconsin's 3rd congressional district since 2023. [ 1 ] He is a member of the Republican Party . Early life, education, and military service [ edit source ] Van Orden was born in Minnesota on September 15, 1969. [ 2 ] [ 3 ] His family lived in Hartland, Wis. and then moved to the Portland, Ore. area where his mother accepted a job with the Insurance Company of North America. [ 4 ] As a youth, Van Orden lived in Lake Oswego, Ore., attending Lakeridge High School. [ 5 ] He holds a Bachelor of Science degree from Excelsior University . [ 6 ] During his military career, Van Orden served five combat deployments. [ 7 ] He served for 26 years, retiring as a Senior Chief in 2014. [ 8 ] [ 7 ] [ 9 ] Van Orden's 26 years of active duty military service make him the longest serving enlisted member of the military in the history of Congress. [ 8 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Derrick_Van_Orden",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T01:04:06.729Z",
+      "campaign_site_url": "https://www.vanordenforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:41.176Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

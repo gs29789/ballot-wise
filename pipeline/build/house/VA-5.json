@@ -1,0 +1,752 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-14T12:44:52.540Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code \u00a724.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor \u2014 but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute \u2014 genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_5th_Congressional_District_election,_2026",
+    "snippet": "Incumbent John McGuire, Tom Perriello, Cooke Harvey, and Chris Register are running in the general election for U.S. House Virginia District 5 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.43
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989434392.83,
+        "perCapitaUsd": 41524.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "cooke-harvey",
+      "full_name": "HARVEY, COOKE COSTA",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA05241",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:29.763Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=K0Sm5e7smbw",
+      "platform_video_title": "May 17, 2026",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:29.763Z"
+    },
+    {
+      "slug": "john-mcguire",
+      "full_name": "MCGUIRE, JOHN J. MR. III",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H0VA07133",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1781840.34,
+        "totalSpent": 1291712.94,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 449072.94,
+          "largeDollar": 668524.67,
+          "pac": 415800.55,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1968-08-24",
+          "source_url": "https://www.wikidata.org/wiki/Q47545631",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Richmond, Virginia",
+          "source_url": "https://www.wikidata.org/wiki/Q47545631",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Northwest Florida State College",
+          "source_url": "https://www.wikidata.org/wiki/Q47545631",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:30.157Z",
+      "bio_summary": {
+        "value": "John Joseph McGuire III (born August 24, 1968) [ 1 ] is an American politician, businessman, and former United States Navy SEAL serving as the U.S. representative for Virginia's 5th congressional district since 2025. A member of the Republican Party , he previously served in the Virginia Senate from 2024 to 2025 and in the Virginia House of Delegates from 2018 to 2024. McGuire was elected to the Virginia House of Delegates in 2017, and represented the old 56th district which comprised areas to the North and West of Richmond, Virginia. He was then elected to the newly redrawn 10th Senate district in 2023. [ 2 ] McGuire was the Republican nominee for the United States House of Representatives in Virginia's 5th congressional district in the 2024 election , having defeated the incumbent Bob Good in the primary. [ 3 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/John_McGuire_(Virginia_politician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:46:58.755Z"
+    },
+    {
+      "slug": "thomas-perriello",
+      "full_name": "PERRIELLO, THOMAS",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA05217",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2140401.63,
+        "totalSpent": 629110.16,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 211451.9,
+          "largeDollar": 1766836.96,
+          "pac": 106850,
+          "party": 0,
+          "selfFunded": 13111.2
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1974-10-09",
+          "source_url": "https://www.wikidata.org/wiki/Q1628398",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Charlottesville, Virginia",
+          "source_url": "https://www.wikidata.org/wiki/Q1628398",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Yale Law School",
+          "source_url": "https://www.wikidata.org/wiki/Q1628398",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tariffs",
+          "value": "End the tariffs that spiked grocery bills",
+          "snippet": "Tom's most urgent priority will be to save families money by ending the tariffs that spiked grocery bills"
+        },
+        {
+          "topic": "Healthcare Affordability",
+          "value": "Fight until every family can afford healthcare",
+          "snippet": "He will keep fighting until every family can afford healthcare, childcare, housing, and a secure retirement"
+        },
+        {
+          "topic": "Wall Street Bailout",
+          "value": "Voted against bailing out Wall Street",
+          "snippet": "Tom voted AGAINST bailing out Wall Street and FOR investments in every public school and law enforcement unit in the district"
+        },
+        {
+          "topic": "Dark Money and Insider Trading",
+          "value": "Fight to ban dark money and insider trading from our politics",
+          "snippet": "He will fight to ban dark money and insider trading from our politics"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Reject all donations from lobbyists and corporate PACs",
+          "snippet": "he promised to reject all donations from lobbyists and corporate PACs, and he has kept his word"
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Double the minimum wage",
+          "snippet": "He fought to protect our seniors and our veterans, and to double the minimum wage"
+        },
+        {
+          "topic": "Epstein Investigation",
+          "value": "Will not rest until all criminals associated with the Epstein files and its cover-up are arrested",
+          "snippet": "he will not rest until all criminals associated with the Epstein files and its cover-up are arrested"
+        }
+      ],
+      "platform_source_url": "https://www.tomperriello.com/priorities",
+      "_platform_resolved_at": "2026-08-14T12:44:36.233Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=A_q17buKTM8",
+      "platform_video_title": "Tom Perriello BRoll Reel",
+      "platform_video_source_url": "https://www.tomperriello.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:04:25.772Z",
+      "bio_summary": {
+        "value": "I'm Tom Perriello and I'm running to flip VA-05.",
+        "source_url": "https://www.tomperriello.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:25.730Z"
+    },
+    {
+      "slug": "chris-register",
+      "full_name": "REGISTER, CHRIS",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA05225",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Democracy & the Rule of Law",
+          "value": "The United States is the assertion that We The People are the basis of all authority; that we have the ability, indeed the mandate, to govern ourselves (Democracy); and that the rules we develop while at our best will apply equally and at all times, especially when we are at our worst (the Rule of Law).",
+          "snippet": "The United States of America is more than just a place; it is an Idea &mdash;the best Idea humanity has ever had. It is the assertion that We The People are the basis of all authority; that we have the ability, indeed the mandate, to govern ourselves (Democracy); and that&mdash;yes&mdash;we are all flawed, and sometimes selfish, power-hungry, factionalist, and forgetful of history; and so the rules we develop while at our best will apply equally and at all times, especially when we are at our worst (the Rule of Law)."
+        },
+        {
+          "topic": "Constitutional Reform",
+          "value": "Proposes a Bill of American Renewal: a proposed set of ten Amendments to our Constitution, supplementing the Framers' wisdom and vision with now 250 years of lived experience.",
+          "snippet": "A proposed set of ten Amendments to our Constitution, supplementing the Framers' wisdom and vision with now 250 years of lived experience."
+        },
+        {
+          "topic": "Economy",
+          "value": "It's time for serious self-reflection and a broad national conversation about what we value as a People, and how exactly we want our economy to serve us moving forward. Americans from all financial strata must come together and set that goal. Then, we gather the facts and data, and fearlessly get to work.",
+          "snippet": "It's time for serious self-reflection and a broad national conversation about what we value as a People, and how exactly we want our economy to serve us moving forward. Americans from all financial strata must come together and set that goal. Then, we gather the facts and data, and fearlessly get to work."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "The ACA is not the answer. Instead, it's time to start putting together a nationalized healthcare system that helps every American feel secure in their ability to achieve and maintain their best health.",
+          "snippet": "Our abominably expensive and hyper-complicated healthcare system is failing most of us. The ACA is not the answer. Instead, it's time to start putting together a nationalized healthcare system that helps every American feel secure in their ability to achieve and maintain their best health."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Because our immigration laws have failed to track reality, and because our system has been designed to take advantage of workers who fear deportation, federal enforcement of immigration laws in recent decades has ranged from inconsistent to intentionally lax. Today, our approach to enforcement is ranging from incoherent to unconscionable.",
+          "snippet": "Because our immigration laws have failed to track reality, and because our system has been designed to take advantage of workers who fear deportation, federal enforcement of immigration laws in recent decades has ranged from inconsistent to intentionally lax. Today, our approach to enforcement is ranging from incoherent to unconscionable."
+        },
+        {
+          "topic": "National Debt",
+          "value": "We must get our spending under control, tighten our national belt, and begin addressing our skyrocketing debt with an unflinchingly pragmatic plan.",
+          "snippet": "We must get our spending under control, tighten our national belt, and begin addressing our skyrocketing debt with an unflinchingly pragmatic plan."
+        },
+        {
+          "topic": "Artificial Intelligence",
+          "value": "If you send me to Washington, I will absolutely be keeping tabs on this immensely powerful technology, and those in Washington who appear to be profiting from it, and will regularly report back to you what I learn. We cannot let this get away from us, and I will do everything within my power to ensure that doesn't happen.",
+          "snippet": "But you can be 100% assured that, if you send me to Washington, I will absolutely be keeping tabs on this immensely powerful technology, and those in Washington who appear to be profiting from it, and will regularly report back to you what I learn. We cannot let this get away from us, and I will do everything within my power to ensure that doesn't happen."
+        }
+      ],
+      "platform_source_url": "https://chris4virginia.org/issues",
+      "_platform_resolved_at": "2026-08-14T12:43:18.997Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Like most Americans these days, we here in Central and Southside Virginia have a lot on our minds. This period of unprecedented tumult, change, and uncertainty has left many of you at a loss for whom to trust, and without a sense of confidence in where we might, or even where we should, be headed as a community and nation. These are complex, foundational, and deeply personal matters that all Americans must resolve for themselves. Here, and in my candid Campaign Note video series , I offer my perspectives. Those perspectives will no doubt evolve over the coming months as I visit with you and your neighbors along the campaign trail.",
+        "source_url": "https://chris4virginia.org/issues"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:35.222Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:30.609Z"
+    }
+  ]
+}

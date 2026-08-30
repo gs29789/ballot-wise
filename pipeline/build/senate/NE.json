@@ -1,0 +1,907 @@
+{
+  "state": "NE",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-12T22:37:25.775Z",
+  "election_dates": {
+    "primaryDate": "2026-05-12",
+    "primarySourceUrl": "https://law.justia.com/codes/nebraska/chapter-32/statute-32-401/",
+    "primarySnippet": "32-401. Statewide primary election; when held; purposes. The statewide primary election shall be held on the first Tuesday after the second Monday in May in even-numbered years.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/nebraska/chapter-32/statute-32-403/",
+    "generalSnippet": "32-403. Statewide general election; when held. The statewide general election shall be held on the first Tuesday following the first Monday in November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Nebraska's constitution bars a convicted felon who hasn't been restored to civil rights from \"any office of trust or profit under the constitution or laws of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://law.justia.com/constitution/nebraska/c0115002000.html",
+    "snippet": "No person who is in default as collector and custodian of public money or property shall be eligible to any office of trust or profit under the constitution or laws of this state. No person convicted of a felony shall be eligible to any such office unless he shall have been restored to civil rights."
+  },
+  "primary_results": {
+    "source_url": "https://nebraskaexaminer.com/2026/07/21/nebraska-secretary-of-state-says-democrat-cindy-burbank-wont-appear-on-us-senate-ballot/",
+    "snippet": "\"We have consulted with the Attorney General's office,\" Evnen said Tuesday in a statement. \"Under Nebraska law, when a candidate has declined a nomination by the deadline, the Secretary of State has no discretion to refuse it. For that reason, Cindy Burbank's name will not appear on the November ballot as the Democratic nominee for U.S. Senate.\" ... Now with Burbank off the ballot, Osborn and Ricketts are the main two candidates in the Senate race. Marijuana NOW Party's U.S. Senate nominee Mike Marvin is still currently on the ballot."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.2
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 13.91
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 17.47
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.77
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1061.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1059.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1058.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1055.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1053.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1059.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1059.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1060.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1057.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1059.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1060.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1061.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1062.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1063.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1061
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1058.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1058.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1062.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1061.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1063.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1062.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1060.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1058
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1058.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1058.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1059.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1057.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1059.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1055.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1048.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1054.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1052.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1052.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1053.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1051.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1050
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1054.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1046.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1045.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1043.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1042.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1039
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5064571819.84,
+        "perCapitaUsd": 7799.75
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5442841116.19,
+        "perCapitaUsd": 8382.31
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6048896811.42,
+        "perCapitaUsd": 9315.67
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1967923
+      },
+      {
+        "year": "2023",
+        "population": 1978379
+      },
+      {
+        "year": "2024",
+        "population": 2005466
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69597
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74590
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 76376
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "mike-marvin",
+      "full_name": "MARVIN, MIKE",
+      "party": "OTHER",
+      "incumbent": false,
+      "fec_candidate_id": "S6NE00152",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 27745,
+        "totalSpent": 25129.41,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 105,
+          "largeDollar": 27640,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "former Executive Director of the NAPE/AFSCME union",
+          "source_url": "https://marvinforsenate.com/",
+          "snippet": "former Executive Director of the NAPE/AFSCME union",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "yearslong member of the Legal Marijuana NOW party",
+          "source_url": "https://marvinforsenate.com/",
+          "snippet": "A yearslong member of the Legal Marijuana NOW party",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Marijuana Legalization",
+          "value": "Committed to legal marijuana NOW in Nebraska and across the nation",
+          "snippet": "Mike is committed to legal marijuana NOW \u2014 in Nebraska and across the nation."
+        }
+      ],
+      "platform_source_url": "https://marvinforsenate.com/",
+      "_platform_resolved_at": "2026-08-12T22:36:21.303Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "As the former Executive Director of the NAPE/AFSCME union, Mike Marvin is a leading voice for Nebraska\u2019s public employees. With a career spanning five decades, Mike has moved the needle for working families across the state \u2014 from local organizing to the halls of the Legislature in Lincoln.",
+        "source_url": "https://marvinforsenate.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:31.331Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:37.120Z"
+    },
+    {
+      "slug": "dan-osborn",
+      "full_name": "OSBORN, DAN",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "S4NE00207",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5751950.79,
+        "totalSpent": 3393629.65,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2195422.78,
+          "largeDollar": 3346485.26,
+          "pac": 139867.5,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-03-29",
+          "source_url": "https://www.wikidata.org/wiki/Q124633008",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "United States",
+          "source_url": "https://www.wikidata.org/wiki/Q124633008",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Roncalli Catholic High School",
+          "source_url": "https://www.wikidata.org/wiki/Q124633008",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://www.osbornforsenate.com/",
+          "snippet": "with a work ethic honed by my years as a Navy man, a Nebraska National Guardsman, an industrial mechanic, a union leader, a husband, and a father",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Navy man, Nebraska National Guardsman, industrial mechanic, union leader",
+          "source_url": "https://www.osbornforsenate.com/",
+          "snippet": "with a work ethic honed by my years as a Navy man, a Nebraska National Guardsman, an industrial mechanic, a union leader, a husband, and a father",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Roncalli Catholic High School, graduated 1994",
+          "source_url": "https://en.wikipedia.org/wiki/Dan_Osborn",
+          "snippet": "He graduated from Roncalli Catholic High School in 1994.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Established Working Class Heroes Fund political action committee in 2024",
+          "source_url": "https://en.wikipedia.org/wiki/Dan_Osborn",
+          "snippet": "In 2024, Osborn established the Working Class Heroes Fund, a political action committee (PAC) supporting working-class candidates.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Small Businesses, Farms, and Jobs",
+          "value": "Platform to protect small businesses, family farms and ranches, and middle-class jobs",
+          "snippet": "I will bring Nebraskans together around a common-sense platform to protect small businesses, family farms and ranches, and middle-class jobs \u2014 before they become a thing of the past."
+        }
+      ],
+      "platform_source_url": "https://www.osbornforsenate.com/",
+      "_platform_resolved_at": "2026-08-12T22:37:08.178Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=GbqWaEo_83s",
+      "platform_video_title": "Dan Osborn For Senate Launch Video 2026",
+      "platform_video_source_url": "https://www.osbornforsenate.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:32.318Z",
+      "bio_summary": {
+        "value": "My name is Dan Osborn and I\u2019m running for U.S. Senate in Nebraska. Every day, I roll up my sleeves and get to work, fixing what needs fixed. No institution in America needs fixing more than the United States Senate. I'll bring Nebraskan values to Washington, with a work ethic honed by my years as a Navy man, a Nebraska National Guardsman, an industrial mechanic, a union leader, a husband, and a father.",
+        "source_url": "https://www.osbornforsenate.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:34.172Z"
+    },
+    {
+      "slug": "pete-ricketts",
+      "full_name": "RICKETTS, PETE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "S6NE00129",
+      "fec_status": "C",
+      "bioguide_id": "R000618",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 11233506.7,
+        "totalSpent": 4809505.91,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 232135.79,
+          "largeDollar": 1992093.99,
+          "pac": 1639815.15,
+          "party": 62000,
+          "selfFunded": 5295887.54
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1964-08-19",
+          "source_url": "https://www.wikidata.org/wiki/Q6106781",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Nebraska City",
+          "source_url": "https://www.wikidata.org/wiki/Q6106781",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Westside High School",
+          "source_url": "https://www.wikidata.org/wiki/Q6106781",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "governor",
+          "source_url": "https://petericketts.com/",
+          "snippet": "As our governor, Pete cut taxes, made government work better, and defended our Nebraska values.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "high_school": {
+          "value": "Westside High School in Omaha, graduated 1982",
+          "source_url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+          "snippet": "Ricketts and his siblings, Tom , Laura , and Todd , all attended Westside High School in Omaha, from which Ricketts graduated in 1982.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Susanne Shore in 1997, have three children",
+          "source_url": "https://en.wikipedia.org/wiki/Pete_Ricketts",
+          "snippet": "In 1997, Ricketts married Susanne Shore. A native of Garden City, Kansas , Shore grew up in Tulsa, Oklahoma , and earned a bachelor's degree in English and then an MBA from Oklahoma State University . After a stint working for the dean of students at the University of South Dakota , she came to Omaha to complete a one-year course in nursing at Creighton University . At the time of her marriage to Ricketts, she was working as a nurse at St. Joseph's Hospital in Omaha. Ricketts and Shore have three children.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes",
+          "value": "Cut taxes",
+          "snippet": "As our governor, Pete cut taxes, made government work better, and defended our Nebraska values."
+        },
+        {
+          "topic": "Government Reform",
+          "value": "Made government work better",
+          "snippet": "As our governor, Pete cut taxes, made government work better, and defended our Nebraska values."
+        },
+        {
+          "topic": "Values",
+          "value": "Defended our Nebraska values",
+          "snippet": "As our governor, Pete cut taxes, made government work better, and defended our Nebraska values."
+        }
+      ],
+      "platform_source_url": "https://petericketts.com/",
+      "_platform_resolved_at": "2026-08-12T22:37:13.658Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 208,
+          "votesCast": 201,
+          "attendanceRate": 0.9663461538461539
+        },
+        "committees": [
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs \u2014 Economic Policy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs \u2014 Financial Institutions and Consumer Protection",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs \u2014 National Security and International Trade and Finance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Environment and Public Works",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Environment and Public Works \u2014 Clean Air, Climate, and Nuclear Innovation and Safety",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Environment and Public Works \u2014 Fisheries, Wildlife, and Water",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Environment and Public Works \u2014 Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations \u2014 East Asia, the Pacific, and International Cybersecurity Policy",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations \u2014 Europe and Regional Security Cooperation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations \u2014 State Department and USAID Management, International Operations, and Bilateral International Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 142,
+        "bills_cosponsored": 770,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "A joint resolution disapproving the rule submitted by the Bureau of Consumer Financial Protection relating to \"Defining Larger Participants of a Market for General-Use Digital Consumer Payment Applications\".",
+            "congress": 119,
+            "billType": "SJRES",
+            "billNumber": "28",
+            "publicLawNumber": "119-11",
+            "summary": "This joint resolution nullifies the final rule issued by the Consumer Financial Protection Bureau (CFPB) titled Defining Larger Participants of a Market for General-Use Digital Consumer Payment Applications and published on December 10, 2024. The rule defines larger participants in the general-use digital consumer payment application market (i.e., payment apps) that are subject to&nbsp;CFPB supervisory authority. The rule defines larger participants in this market as nonbanks (1) with an annual volume of at least 50 million transactions, and (2) that are not small business concerns.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ11"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.445,
+          "nominateDim2": 0.488,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/R000618"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 71.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/R000618"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=QxNx-oR5YO4",
+      "platform_video_title": "Osborn: \"Good Things\" In Democratic Socialist Agenda",
+      "platform_video_source_url": "https://petericketts.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:32.480Z",
+      "bio_summary": {
+        "value": "From Lincoln to Washington, D.C., Pete Ricketts has never stopped delivering for Nebraska. As our governor, Pete cut taxes, made government work better, and defended our Nebraska values. In the Senate, he continues to serve Nebraskans with that same commonsense leadership.",
+        "source_url": "https://petericketts.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:38.448Z"
+    }
+  ]
+}

@@ -1,0 +1,245 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-14T18:23:41.191Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code \u00a7 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code \u00a7 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Texas's felony-disqualification requirement (Tex. Elec. Code \u00a7 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code \u00a7 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_6th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jake Ellzey and Danny Minton are running in the general election for U.S. House Texas District 6 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "john-ellzey",
+      "full_name": "ELLZEY, JOHN KEVIN SR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8TX06266",
+      "fec_status": "C",
+      "bioguide_id": "E000071",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4660384.9,
+        "totalSpent": 3272430.78,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 447294.78,
+          "largeDollar": 1189233.97,
+          "pac": 743634.86,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "retired member of the United States Navy",
+          "source_url": "https://ellzeyfortexas.com/",
+          "snippet": "Jake Ellzey is a retired member of the United States Navy.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Abortion",
+          "value": "Supports the right to life",
+          "snippet": "Every life is a precious gift from God. As a father and a Christian, I 100% support the right to life as the first and most vital right."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports securing the border, finishing the wall, and giving Border Patrol agents more resources",
+          "snippet": "We must support President Trump in his efforts and pass real legislation to secure the border, finish the wall, and give Border Patrol agents the resources they need to keep our families safe."
+        },
+        {
+          "topic": "Property Rights",
+          "value": "Opposes high-speed rail project as a land grab that would destroy farmland",
+          "snippet": "Pet projects like the proposed high-speed rail are made by out-of-touch bureaucrats who have forgotten whose land it really is. In a time of global food shortage, we cannot allow our farmland to be destroyed, and taxpayer dollars squandered for unsustainable and unnecessary land grab projects like this."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Supports election security measures and opposes any voter fraud",
+          "snippet": "Elections are the cornerstone of our republic and the liberty of our nation. Texas has some of the most secure elections in the world, but even one case of voter fraud is one too many and other states have not held themselves to our standard of excellence."
+        }
+      ],
+      "platform_source_url": "https://ellzeyfortexas.com/issues/",
+      "_platform_resolved_at": "2026-08-14T18:23:00.758Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Contracting and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Rural Development, Energy, and Supply Chains",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations \u2014 Defense",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations \u2014 Labor, Health and Human Services, Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations \u2014 Interior, Environment, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 11,
+        "bills_cosponsored": 698,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.511,
+          "nominateDim2": 0.699,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/E000071"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 20.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/E000071"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=wAcVjkPRQkk",
+      "platform_video_title": "Jake Ellzey: End the Border Crisis",
+      "platform_video_source_url": "https://ellzeyfortexas.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:31.170Z",
+      "bio_summary": {
+        "value": "Commander Jake Ellzey proudly represents Congressional District 6 in the great state of Texas, encompassing all of Ellis, Navarro, Anderson, Hill, Cherokee, and parts of Tarrant, Dallas, Freestone, and Johnson counties.",
+        "source_url": "https://ellzeyfortexas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:35.345Z"
+    },
+    {
+      "slug": "danny-minton",
+      "full_name": "MINTON, DANNY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX25203",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 44283,
+        "totalSpent": 30645.42,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15583,
+          "largeDollar": 20575,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 3125
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Bachelor's, University of Oklahoma, Zoology",
+          "source_url": "https://www.ballotready.org/people/danny-minton",
+          "snippet": "Degrees Bachelor&#x27;s, University of Oklahoma, Zoology",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Medical Field, Consultative Salesman; Journalist",
+          "source_url": "https://www.ballotready.org/people/danny-minton",
+          "snippet": "Professional Experience Medical Field, Consultative Salesman Journalist",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Danny Minton earned a bachelor's degree from the University of Oklahoma in 1995. His career experience includes working as a sales representative and in women's healthcare.",
+        "source_url": "https://ballotpedia.org/Danny_Minton",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:31:25.388Z"
+    }
+  ]
+}

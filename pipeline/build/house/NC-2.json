@@ -1,0 +1,744 @@
+{
+  "state": "NC",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-16T23:59:29.672Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "primarySnippet": "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. § 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification — a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
+    "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    "snippet": "Deborah Ross (Incumbent) (Democratic Party); Eugene Douglass (Republican Party); Matthew Laszacs (Libertarian Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.44
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.92
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.21
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.45
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5115.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5115
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5101.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5080.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5069
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5072
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5068.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5064.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5057.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5061
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5062.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5060.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5052.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5057.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5050.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5033.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5033.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5031.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5028.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5026.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5016.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5036
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5025.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5018.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5027.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5025.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5016.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5009.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5000.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4992.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4997.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4978
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4973.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4965.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4954.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4943.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4955.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4925.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4915.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4918.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4911.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4904.3
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6457895191.9,
+        "perCapitaUsd": 8600.5
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8069476466.89,
+        "perCapitaUsd": 10746.78
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7777446278.13,
+        "perCapitaUsd": 10373.51
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10698973
+      },
+      {
+        "year": "2023",
+        "population": 10835491
+      },
+      {
+        "year": "2024",
+        "population": 11046024
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 67481
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70804
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 73958
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "eugene-douglass",
+      "full_name": "DOUGLASS, EUGENE FARLEY DR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4NC02135",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Self-employed, Educational Consultant (2021 - Present); Presbysterian College, Visiting Associate Professor (2020 - 2021); The University of Texas Rio Grande Valley, Lecturer (2018 - 2019); The American University of Iraq, Sulaimani, Assistant Professor (2016 - 2017)",
+          "source_url": "https://www.ballotready.org/people/eugene-f-douglass",
+          "snippet": "Professional Experience Self-employed, Educational Consultant (2021 - Present) Presbysterian College, Visiting Associate Professor (2020 - 2021) The University of Texas Rio Grande Valley, Lecturer (2018 - 2019) The American University of Iraq, Sulaimani, Assistant Professor (2016 - 2017)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "campaign_site_url": "https://www.gdouglass.us",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:56.516Z",
+      "_campaign_site_reachability": "reachable",
+      "bio_summary": {
+        "value": "I am Gene Douglass, a retired chemistry professor and the Republican nominee for U.S. House in North Carolina’s 2nd District. I am running to replace Deborah Ross. This site is the campaign archive: positions, interviews, the brochure, and a way to donate. If you want the short version of who I am and what I believe, start with the brochure below and PBS North Carolina State Lines interview above. ",
+        "source_url": "https://efdouglass.substack.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-30T11:36:05.213Z"
+    },
+    {
+      "slug": "matthew-lasacs",
+      "full_name": "LASACS, MATTHEW",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC02205",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Philadelphia, Pennsylvania",
+          "source_url": "https://ballotpedia.org/North_Carolina%27s_2nd_Congressional_District_election,_2026",
+          "snippet": "The son of military parents, Matthew was born in Philadelphia, PA, raised in Millington, TN, and moved to North Carolina in 2001 where he has resided ever since."
+        },
+        "college": {
+          "value": "North Carolina Wesleyan College (bachelor's degree in business administration)",
+          "source_url": "https://ballotpedia.org/North_Carolina%27s_2nd_Congressional_District_election,_2026",
+          "snippet": "Laszacs earned a bachelor's degree in business administration from North Carolina Wesleyan College while working full time and raising two children."
+        },
+        "employment_record": {
+          "value": "Business executive (20 years of experience building and leading teams)",
+          "source_url": "https://ballotpedia.org/North_Carolina%27s_2nd_Congressional_District_election,_2026",
+          "snippet": "Matthew Laszacs is a business executive with 20 years of experience building and leading successful teams."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "deborah-ross",
+      "full_name": "ROSS, DEBORAH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0NC02125",
+      "fec_status": "C",
+      "bioguide_id": "R000305",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1675977.59,
+        "totalSpent": 1075801.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 65366.39,
+          "largeDollar": 893005.7,
+          "pac": 685800,
+          "party": 3612.99,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1963-06-20",
+          "source_url": "https://www.wikidata.org/wiki/Q5248285",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Philadelphia, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q5248285",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Brown University",
+          "source_url": "https://www.wikidata.org/wiki/Q5248285",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Steve Wrinn",
+          "source_url": "https://deborahross.com/meet-deborah-ross/",
+          "snippet": "She and her husband, Steve Wrinn, are active in the Raleigh community",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "civil rights lawyer, private practice working for a cleaner energy future, and teaching in the classroom",
+          "source_url": "https://deborahross.com/meet-deborah-ross/",
+          "snippet": "As a civil rights lawyer, Deborah has fought for fairness and justice, to level the playing field. In private practice, she works for a cleaner energy future. In the classroom, Deborah has passed these same values on to her students",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Equality and LGBTQ Rights",
+          "value": "Fighting for equality, justice, and progress, being a champion for LGBTQ equality",
+          "snippet": "I have spent my career fighting for equality, justice, and progress, and I will always be a champion"
+        },
+        {
+          "topic": "Women's Reproductive Rights",
+          "value": "Fighting to ensure women have control over their own bodies",
+          "snippet": "I will always fight to ensure women have control over their own bodies"
+        },
+        {
+          "topic": "Black Economic Prosperity",
+          "value": "Building long-term economic prosperity for Black Americans and expanding economic opportunity",
+          "snippet": "I am committed to building long-term economic prosperity for Black Americans and expanding economic opportunity"
+        },
+        {
+          "topic": "Workers' Rights",
+          "value": "Being a champion for working people",
+          "snippet": "I have always been a champion for working people"
+        }
+      ],
+      "platform_source_url": "https://deborahross.com/",
+      "_platform_resolved_at": "2026-08-14T13:22:51.163Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ethics",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Energy",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Immigration Integrity, Security, and Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 90,
+        "bills_cosponsored": 1838,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 2777 Brentwood Road in Raleigh, North Carolina, as the \"Millie Dunn Veasey Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9580",
+            "publicLawNumber": "118-266",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 2777 Brentwood Road in Raleigh, North Carolina, as the Millie Dunn Veasey Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ266"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.387,
+          "nominateDim2": -0.001,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/R000305"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 79.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/R000305"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Deborah grew up in a small town and from a young age her parents instilled in her the belief that with opportunity comes responsibility and that through public service she could help others and make a difference. Deborah came to North Carolina for law school at UNC-Chapel Hill and became an active member of the local community. Deborah’s public service started in 2002 when she ran for and won a seat in the N.C. House of Representatives, where she served for more than ten years.",
+        "source_url": "https://deborahross.com/meet-deborah-ross/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:02:29.090Z",
+      "campaign_site_url": "https://www.deborahross.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:56.509Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

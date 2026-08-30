@@ -1,0 +1,829 @@
+{
+  "state": "KY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-18T20:26:36.939Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+    "primarySnippet": "KRS 118.025: A primary for the nomination of candidates to be voted for at the next regular election shall be held on the first Tuesday after the third Monday in May of each year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
+    "generalSnippet": "KRS 118.025: The election of all officers of all governmental units shall be held on the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No \u2014 Kentucky's constitution excludes convicted felons from office generally (relievable only by a gubernatorial pardon), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/ky/kentucky-constitution/ky-const-sect-150.html",
+    "snippet": "Ky. Const. \u00a7 150: \"All persons shall be excluded from office who have been, or shall hereafter be, convicted of a felony, or of such high misdemeanor as may be prescribed by law, but such disability may be removed by pardon of the Governor.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Kentucky's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Morgan McGarvey and Maria Teresa Rodriguez are running in the general election for U.S. House Kentucky District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 20.33
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 17.11
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 18.67
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 17.65
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.13
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2030.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2030.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2034.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2033.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2032.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2033
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2029.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2027.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2028.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2032.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2036
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2035.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2037
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2040.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2039.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2036.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2034.5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2027.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2035
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2037
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2038.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2039.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2042
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2036.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2037.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2036.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2034.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2035.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2033.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2032.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2029.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2026.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2024.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2024
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2018
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2013.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2016.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2011.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2010.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2010.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2007.4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2006.4
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7578553505.02,
+        "perCapitaUsd": 10123.65
+      },
+      {
+        "year": "2024",
+        "totalUsd": 123473123711.57,
+        "perCapitaUsd": 165704.38
+      },
+      {
+        "year": "2025",
+        "totalUsd": 120883564098.54,
+        "perCapitaUsd": 162229.11
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 4512310
+      },
+      {
+        "year": "2023",
+        "population": 4526154
+      },
+      {
+        "year": "2024",
+        "population": 4588372
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59341
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 61118
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 64526
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "morgan-mcgarvey",
+      "full_name": "MCGARVEY, MORGAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2KY03206",
+      "fec_status": "C",
+      "bioguide_id": "M001220",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1633683.87,
+        "totalSpent": 1083341.17,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 157954.92,
+          "largeDollar": 773629,
+          "pac": 538001.21,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-12-23",
+          "source_url": "https://www.wikidata.org/wiki/Q16732298",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Louisville, Kentucky",
+          "source_url": "https://www.wikidata.org/wiki/Q16732298",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "duPont Manual High School",
+          "source_url": "https://www.wikidata.org/wiki/Q16732298",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "DuPont Manual High School in JCPS",
+          "source_url": "https://www.morganmcgarvey.com/meet-morgan-mcgarvey",
+          "snippet": "Morgan is a proud graduate of DuPont Manual High School in JCPS (go Crimsons!)",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Chris",
+          "source_url": "https://www.morganmcgarvey.com/meet-morgan-mcgarvey",
+          "snippet": "Morgan and his wife Chris live in the Highlands of Louisville where they raise their three kids: Clara, Wilson, and Greta",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "represented Louisville in the Kentucky State Senate for ten years, including serving as Minority Leader, before being elected to Congress in 2022",
+          "source_url": "https://www.morganmcgarvey.com/meet-morgan-mcgarvey",
+          "snippet": "Before being elected to Congress, Morgan represented Louisville in the Kentucky State Senate for ten years, including serving as Minority Leader. Morgan is a proud graduate of DuPont Manual High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Member of Black Maternal Health Caucus, Congressional Progressive Caucus, New Democrat Coalition, Congressional Equality Caucus, Congressional Caucus for the Equal Rights Amendment, Congressional Bus Caucus, Rare Disease Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Morgan_McGarvey",
+          "snippet": "Black Maternal Health Caucus [ 17 ] Congressional Progressive Caucus New Democrat Coalition [ 18 ] Congressional Equality Caucus [ 19 ] Congressional Caucus for the Equal Rights Amendment [ 20 ] Congressional Bus Caucus Rare Disease Caucus",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "I believe health care is a basic human right. No one should receive a diagnosis and have to worry about going bankrupt.",
+          "snippet": "I believe health care is a basic human right. No one should receive a diagnosis and have to worry about going bankrupt."
+        },
+        {
+          "topic": "Education",
+          "value": "Every kid should have the opportunity to go to a good public school that prepares them for a successful life, no matter your zip code.",
+          "snippet": "Every kid should have the opportunity to go to a good public school that prepares them for a successful life, no matter your zip code."
+        },
+        {
+          "topic": "Climate Change",
+          "value": "I am running to address the existential threat of climate change so that future generations have a livable planet.",
+          "snippet": "I am running to address the existential threat of climate change so that future generations have a livable planet."
+        }
+      ],
+      "platform_source_url": "https://www.morganmcgarvey.com/",
+      "_platform_resolved_at": "2026-08-12T10:18:45.492Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=Z0PczMVZ0-k",
+      "platform_video_title": "Morgan McGarvey For Congress",
+      "platform_video_source_url": "https://www.morganmcgarvey.com/media",
+      "_platform_video_resolved_at": "2026-08-18T22:40:33.798Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 283,
+          "attendanceRate": 1
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Innovation, Entrepreneurship, and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business \u2014 Economic Growth, Tax, and Capital Access",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs \u2014 Disability Assistance and Memorial Affairs",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Veterans' Affairs \u2014 Economic Opportunity",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 48,
+        "bills_cosponsored": 684,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.487,
+          "nominateDim2": -0.073,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001220"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 51,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001220"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "As the only Democrat in Congress representing Kentucky, Morgan has never shied away from the toughest fights.",
+        "source_url": "https://www.morganmcgarvey.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:45.909Z"
+    },
+    {
+      "slug": "maria-rodriguez",
+      "full_name": "RODRIGUEZ, MARIA TERESA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6KY03223",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 38068.7,
+        "totalSpent": 22296.65,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4269,
+          "largeDollar": 28299.7,
+          "pac": 5500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Cuba",
+          "source_url": "https://mariaforuscongress.com/meet-the-candidate/",
+          "snippet": "Born and raised in Cuba during the communist regime established under Fidel Castro",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Earned nursing degree",
+          "source_url": "https://mariaforuscongress.com/meet-the-candidate/",
+          "snippet": "Later, as a single mother raising two children, she returned to school and earned her nursing degree.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Single mother",
+          "source_url": "https://mariaforuscongress.com/meet-the-candidate/",
+          "snippet": "Later, as a single mother raising two children",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Small business owner, trauma nurse in Louisville",
+          "source_url": "https://mariaforuscongress.com/meet-the-candidate/",
+          "snippet": "Mar\u00eda built a small business from the ground up, gaining firsthand experience in entrepreneurship, hard work, and economic responsibility. Later, as a single mother raising two children, she returned to school and earned her nursing degree. Today, she serves as a trauma nurse in Louisville, where she provides critical care to patients during their most vulnerable moments.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Free Enterprise",
+          "value": "She believes strongly in free enterprise",
+          "snippet": "She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans."
+        },
+        {
+          "topic": "Safe Communities",
+          "value": "She believes strongly in safe communities",
+          "snippet": "She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans."
+        },
+        {
+          "topic": "Immigration",
+          "value": "She believes strongly in legal immigration",
+          "snippet": "She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans."
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "She believes strongly in protecting the constitutional rights of all Americans",
+          "snippet": "She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans."
+        },
+        {
+          "topic": "Capitalism",
+          "value": "Defending Capitalism",
+          "snippet": "Defending Capitalism"
+        },
+        {
+          "topic": "Taxes",
+          "value": "Lower Taxes",
+          "snippet": "LOWER TAXES"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Protecting The Unborn",
+          "snippet": "Protecting The Unborn"
+        }
+      ],
+      "platform_source_url": "https://mariaforuscongress.com/",
+      "_platform_resolved_at": "2026-08-12T10:18:52.750Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:14.160Z",
+      "bio_summary": {
+        "value": "Mar\u00eda is running for Congress to defend the freedoms she once lived without. She believes strongly in free enterprise, safe communities, legal immigration, and protecting the constitutional rights of all Americans. Her journey, from political persecution to public service, has instilled in her a deep respect for the American Dream and a determination to preserve it for future generations.",
+        "source_url": "https://mariaforuscongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:48.086Z"
+    }
+  ]
+}
