@@ -14,9 +14,9 @@
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "value": "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
     "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
-    "snippet": "Mich. Const. art. XI, \u00a7 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "voting_system": null,
   "primary_results": {
@@ -536,7 +536,9 @@
       "performance": null,
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-21T12:00:25.325Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:02.469Z"
+      "_no_site_search_attempted_at": "2026-08-22T15:33:02.469Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.218Z"
     },
     {
       "slug": "christian-vukasovich",
@@ -587,7 +589,10 @@
         "source_url": "https://ballotpedia.org/Christian_Vukasovich",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T11:45:31.599Z"
+      "_bio_summary_resolved_at": "2026-08-26T11:45:31.599Z",
+      "campaign_site_url": "https://christian4michigan.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "timothy-walberg",
@@ -659,12 +664,12 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Natural Resources \u2014 Water, Wildlife and Fisheries",
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Natural Resources \u2014 Indian and Insular Affairs",
+            "committee": "House Committee on Natural Resources — Indian and Insular Affairs",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -740,7 +745,10 @@
         "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
         "source_type": "wikipedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z"
+      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z",
+      "campaign_site_url": "https://www.walbergforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.221Z",
+      "_campaign_site_reachability": "cloudflare_challenge"
     }
   ]
 }

@@ -7,16 +7,16 @@
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
-    "primarySnippet": "C.R.S. \u00a7 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
-    "generalSnippet": "C.R.S. \u00a7 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
     "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
-    "snippet": "C.R.S. \u00a7 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "voting_system": null,
   "primary_results": {
@@ -578,7 +578,9 @@
         "value": "As a proud 32 year veteran of the United States Army, Tim understands duty, sacrifice, and responsibility. He believes public office is about service, not status or personal ambition.",
         "source_url": "https://timbennettforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:50.560Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:44:50.560Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.988Z"
     },
     {
       "slug": "joe-krzeczkowski",
@@ -673,7 +675,10 @@
         "value": "With a background in engineering and technology and a commitment to honesty and hard work, Joe Krzeczkowski brings a fresh take on the current political climate.",
         "source_url": "https://joeforco.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:52.403Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:44:52.403Z",
+      "campaign_site_url": "https://votejoek.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.980Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "brittany-pettersen",
@@ -811,12 +816,12 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Financial Services \u2014 Digital Assets, Financial Technology, and Artificial Intelligence",
+            "committee": "House Committee on Financial Services — Digital Assets, Financial Technology, and Artificial Intelligence",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Financial Services \u2014 Housing and Insurance",
+            "committee": "House Committee on Financial Services — Housing and Insurance",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -845,7 +850,10 @@
         "source_url": "https://en.wikipedia.org/wiki/Brittany_Pettersen",
         "source_type": "wikipedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T10:34:32.460Z"
+      "_bio_summary_resolved_at": "2026-08-26T10:34:32.460Z",
+      "campaign_site_url": "https://www.brittanypettersen.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.977Z",
+      "_campaign_site_reachability": "cloudflare_challenge"
     }
   ]
 }

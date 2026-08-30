@@ -534,7 +534,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:09.108Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:12.168Z"
     },
     {
       "slug": "riley-moore",
@@ -732,7 +734,13 @@
       "_bio_summary_resolved_at": "2026-08-20T21:00:25.775Z",
       "campaign_site_url": "https://mooreforwv.com",
       "_campaign_site_discovered_at": "2026-08-30T11:07:36.440Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:09.515Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=riVshZiEO5A",
+      "platform_video_title": "Riley Moore for Congress - \"Faith\"",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-30T12:00:09.516Z"
     },
     {
       "slug": "ahsan-parsi",
@@ -840,7 +848,8 @@
       "_curated_match": false,
       "campaign_site_url": "https://groundup2026.com",
       "_campaign_site_discovered_at": "2026-08-30T11:07:36.438Z",
-      "_campaign_site_reachability": "dead"
+      "_campaign_site_reachability": "dead",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:09.865Z"
     }
   ]
 }

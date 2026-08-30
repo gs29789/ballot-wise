@@ -7,16 +7,16 @@
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
-    "primarySnippet": "C.R.S. \u00a7 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
-    "generalSnippet": "C.R.S. \u00a7 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
     "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
-    "snippet": "C.R.S. \u00a7 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "voting_system": null,
   "primary_results": {
@@ -584,10 +584,13 @@
       "performance": null,
       "_curated_match": false,
       "bio_summary": {
-        "value": "Raised in a Colorado working\u2011class family, Jason Clark knows the challenges of rising costs just to get by. Attending Sagebrush Elementary, Laredo Middle School, and Smoky Hill High School, he knows this area of Colorado. He then attended West Point and graduated from West Point in 1992 . Jason Clark has been an entrepreneur and small business owner for 30 plus years in Aurora, Colorado.",
+        "value": "Raised in a Colorado working‑class family, Jason Clark knows the challenges of rising costs just to get by. Attending Sagebrush Elementary, Laredo Middle School, and Smoky Hill High School, he knows this area of Colorado. He then attended West Point and graduated from West Point in 1992 . Jason Clark has been an entrepreneur and small business owner for 30 plus years in Aurora, Colorado.",
         "source_url": "https://jasonclarkuscongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:42.023Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:44:42.023Z",
+      "campaign_site_url": "https://www.jasonclarkuscongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.523Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "jason-crow",
@@ -622,7 +625,7 @@
           "source_type": "wikidata_structured"
         },
         "college": {
-          "value": "University of Wisconsin\u2013Madison",
+          "value": "University of Wisconsin–Madison",
           "source_url": "https://www.wikidata.org/wiki/Q58323071",
           "source_type": "wikidata_structured"
         },
@@ -693,22 +696,22 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Armed Services \u2014 Intelligence and Special Operations",
+            "committee": "House Committee on Armed Services — Intelligence and Special Operations",
             "title": "Ranking Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Armed Services \u2014 Cyber, Information Technologies, and Innovation",
+            "committee": "House Committee on Armed Services — Cyber, Information Technologies, and Innovation",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Permanent Select Committee on Intelligence \u2014 Central Intelligence Agency",
+            "committee": "House Permanent Select Committee on Intelligence — Central Intelligence Agency",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Permanent Select Committee on Intelligence \u2014 Open Source Intelligence",
+            "committee": "House Permanent Select Committee on Intelligence — Open Source Intelligence",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -755,7 +758,10 @@
         "value": "In moments like this, our democracy needs bold leaders who fight and have moral clarity. Coloradans deserve a champion who will make life more affordable, protect health care, and take on corruption. America is ready for a new generation of leadership that focuses on working people, not protecting special interests.",
         "source_url": "https://jasoncrow.org/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:43.719Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:44:43.719Z",
+      "campaign_site_url": "https://jasoncrow.org",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.525Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "edwardo-quinonez",
@@ -797,11 +803,14 @@
       "_curated_match": true,
       "_tier2_search_attempted_at": "2026-08-22T12:00:27.219Z",
       "bio_summary": {
-        "value": "Edwardo Quinonez is a proud Coloradan, community advocate, and independent candidate for the U.S. House of Representatives in Colorado\u2019s 6th Congressional District. Edwardo is running for Congress because he believes our community deserves leadership that puts people over party \u2014 leadership that listens, shows up, and works across differences to deliver real solutions. Rooted in Community Colorado\u2019s 6th District \u2014 from Aurora to Centennial and surrounding neighborhoods \u2014 is home to working families, small business owners, veterans, seniors, students, and newcomers who all contribute to the strength of our state. ",
+        "value": "Edwardo Quinonez is a proud Coloradan, community advocate, and independent candidate for the U.S. House of Representatives in Colorado’s 6th Congressional District. Edwardo is running for Congress because he believes our community deserves leadership that puts people over party — leadership that listens, shows up, and works across differences to deliver real solutions. Rooted in Community Colorado’s 6th District — from Aurora to Centennial and surrounding neighborhoods — is home to working families, small business owners, veterans, seniors, students, and newcomers who all contribute to the strength of our state. ",
         "source_url": "https://ballotpedia.org/Edwardo_Quinonez",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T11:15:53.248Z"
+      "_bio_summary_resolved_at": "2026-08-26T11:15:53.248Z",
+      "campaign_site_url": "https://voteforedwardoquinonez.org",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.526Z",
+      "_campaign_site_reachability": "dead"
     },
     {
       "slug": "samir-witta",
@@ -896,7 +905,10 @@
         "value": "I've spent my life fighting for justice, health, and human dignity. Now I'm ready to fight for the people of Colorado's 6th District.",
         "source_url": "https://www.wittaforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:47.131Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:44:47.131Z",
+      "campaign_site_url": "https://wittaforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.768Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

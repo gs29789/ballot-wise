@@ -540,7 +540,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:13.611Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:17.693Z"
     },
     {
       "slug": "elizabeth-fitzgibbon",
@@ -601,7 +603,13 @@
       "_bio_summary_resolved_at": "2026-08-20T21:01:33.984Z",
       "campaign_site_url": "https://elizabethfitzgibbonforglenngrothmansseatincongress.org",
       "_campaign_site_discovered_at": "2026-08-30T11:07:47.679Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:13.918Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=8QDwTvSaBP4",
+      "platform_video_title": "Family Court Made Her Run for Congress: Elizabeth Fitzgibbon’s Missing MSA War",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-30T12:00:13.919Z"
     },
     {
       "slug": "glenn-grothman",
@@ -967,10 +975,10 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=Nmb5L33Fm0I",
+      "platform_video_title": "Mike Thurow for Congress Launch Video",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "_platform_video_resolved_at": "2026-08-30T12:00:14.328Z",
       "bio_summary": {
         "value": "He’s a union fire captain, a father of four, and a Mequon native running as an Independent for Wisconsin’s 6th Congressional District. Mike is running as an Independent because Members of Congress should represent the people — not their party, not a lobbyist, and not a corporation.",
         "source_url": "https://www.thurowforcongress.com/"
@@ -978,7 +986,9 @@
       "_bio_summary_resolved_at": "2026-08-20T21:01:40.646Z",
       "campaign_site_url": "https://thurowforcongress.com",
       "_campaign_site_discovered_at": "2026-08-30T11:07:47.677Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:14.328Z",
+      "platform_video_tier": 2
     }
   ]
 }

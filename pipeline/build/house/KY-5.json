@@ -14,9 +14,9 @@
   },
   "state_background_check": {
     "required": false,
-    "value": "No \u2014 Kentucky's constitution excludes convicted felons from office generally (relievable only by a gubernatorial pardon), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "value": "No — Kentucky's constitution excludes convicted felons from office generally (relievable only by a gubernatorial pardon), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
     "source_url": "https://codes.findlaw.com/ky/kentucky-constitution/ky-const-sect-150.html",
-    "snippet": "Ky. Const. \u00a7 150: \"All persons shall be excluded from office who have been, or shall hereafter be, convicted of a felony, or of such high misdemeanor as may be prescribed by law, but such disability may be removed by pardon of the Governor.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+    "snippet": "Ky. Const. § 150: \"All persons shall be excluded from office who have been, or shall hereafter be, convicted of a felony, or of such high misdemeanor as may be prescribed by law, but such disability may be removed by pardon of the Governor.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
   "voting_system": null,
   "primary_results": {
@@ -586,7 +586,9 @@
         "source_url": "https://nedforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:43:06.754Z",
-      "platform_video_tier": 2
+      "platform_video_tier": 2,
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:34:40.132Z"
     },
     {
       "slug": "harold-rogers",
@@ -673,17 +675,17 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Defense",
+            "committee": "House Committee on Appropriations — Defense",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Commerce, Justice, Science, and Related Agencies",
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
             "title": "Chair",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Transportation, Housing and Urban Development, and Related Agencies",
+            "committee": "House Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -937,7 +939,10 @@
         "value": "With over three decades of service in Congress, Congressman Hal Rogers has consistently fought for Eastern Kentucky's interests. From securing federal funding for infrastructure projects to supporting local businesses, Congressman Rogers has proven his commitment to this region.",
         "source_url": "https://www.congressmanhalrogers.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:43:00.750Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:43:00.750Z",
+      "campaign_site_url": "https://www.congressmanhalrogers.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:40.128Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "gerardo-serrano",
@@ -969,7 +974,10 @@
       "performance": null,
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-22T12:00:18.368Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:44.261Z"
+      "_no_site_search_attempted_at": "2026-08-22T15:33:44.261Z",
+      "campaign_site_url": "https://www.serranoforcongress.org",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:40.126Z",
+      "_campaign_site_reachability": "dead"
     },
     {
       "slug": "mikel-wein",
@@ -1046,7 +1054,10 @@
         "value": "I found my Great-Grandfather's miner's union card and service medal in our old cabin. They reminded me that strong unions and organizing make our lives better.",
         "source_url": "https://www.weinforky5.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:43:02.944Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:43:02.944Z",
+      "campaign_site_url": "https://www.weinforky5.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:40.129Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "billy-wilson",
@@ -1107,7 +1118,9 @@
         "source_url": "https://ballotpedia.org/Billy_Ray_Wilson",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T11:40:05.756Z"
+      "_bio_summary_resolved_at": "2026-08-26T11:40:05.756Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:34:40.127Z"
     }
   ]
 }

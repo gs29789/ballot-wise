@@ -7,14 +7,14 @@
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
-    "primarySnippet": "N.C. Gen. Stat. \u00a7 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "primarySnippet": "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
     "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
   },
   "state_background_check": {
     "required": false,
-    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. \u00a7 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification \u2014 a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. § 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification — a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
     "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
     "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
   },
@@ -545,7 +545,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:24.469Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:34.452Z"
     },
     {
       "slug": "paul-barringer",
@@ -612,7 +614,7 @@
       "platform_video_source_url": "https://paulbarringer.com/",
       "_platform_video_resolved_at": "2026-08-18T22:05:13.686Z",
       "bio_summary": {
-        "value": "My name is Paul Barringer, and I\u2019m running for Congress in North Carolina\u2019s 13th Congressional District. I\u2019m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete. I live on a farm in Lee County. I like fried chicken (and lentils). I\u2019m running to bring common sense and constitutional values back to Washington \u2013 and to walk alongside the people of North Carolina\u2019s 13th District every step of the way.",
+        "value": "My name is Paul Barringer, and I’m running for Congress in North Carolina’s 13th Congressional District. I’m a husband, father, lawyer, Eagle Scout, Sunday School teacher, and endurance athlete. I live on a farm in Lee County. I like fried chicken (and lentils). I’m running to bring common sense and constitutional values back to Washington – and to walk alongside the people of North Carolina’s 13th District every step of the way.",
         "source_url": "https://paulbarringer.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:04:02.183Z"
@@ -720,37 +722,37 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Transportation and Infrastructure \u2014 Aviation",
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on the Judiciary \u2014 Immigration Integrity, Security, and Enforcement",
+            "committee": "House Committee on the Judiciary — Immigration Integrity, Security, and Enforcement",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on the Judiciary \u2014 Crime and Federal Government Surveillance",
+            "committee": "House Committee on the Judiciary — Crime and Federal Government Surveillance",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Transportation and Infrastructure \u2014 Water Resources and Environment",
+            "committee": "House Committee on Transportation and Infrastructure — Water Resources and Environment",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Transportation and Infrastructure \u2014 Highways and Transit",
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Homeland Security \u2014 Oversight, Investigations, and Accountability",
+            "committee": "House Committee on Homeland Security — Oversight, Investigations, and Accountability",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Homeland Security \u2014 Border Security and Enforcement",
+            "committee": "House Committee on Homeland Security — Border Security and Enforcement",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -774,10 +776,11 @@
       },
       "_curated_match": false,
       "bio_summary": {
-        "value": "I\u2019m proud to call the Raleigh area home. My roots run deep here. My parents grew up in Wilson and Knightdale. My grandfather fought bravely in the Battle of the Bulge during World War II. After graduating from Wake Forest University School of Law, I built my life and family here. My wife, Joanna, is a proud North Carolina State graduate. We are blessed to raise our two daughters in the same community with the same people who shaped me. I first ran for office in 2024 because as a former federal prosecutor I\u2019ve seen firsthand the devastating harm serious crime does to our communities.",
+        "value": "I’m proud to call the Raleigh area home. My roots run deep here. My parents grew up in Wilson and Knightdale. My grandfather fought bravely in the Battle of the Bulge during World War II. After graduating from Wake Forest University School of Law, I built my life and family here. My wife, Joanna, is a proud North Carolina State graduate. We are blessed to raise our two daughters in the same community with the same people who shaped me. I first ran for office in 2024 because as a former federal prosecutor I’ve seen firsthand the devastating harm serious crime does to our communities.",
         "source_url": "https://www.bradknott.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:03:59.877Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:03:59.877Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:24.875Z"
     },
     {
       "slug": "steven-swinton",
@@ -802,7 +805,8 @@
         "source_url": "https://ballotpedia.org/Steven_Swinton",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T11:54:20.190Z"
+      "_bio_summary_resolved_at": "2026-08-26T11:54:20.190Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:25.182Z"
     }
   ]
 }

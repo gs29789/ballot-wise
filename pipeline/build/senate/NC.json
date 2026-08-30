@@ -7,21 +7,21 @@
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
-    "primarySnippet": "N.C. Gen. Stat. \u00a7 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "primarySnippet": "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
     "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
   },
   "state_background_check": {
     "required": false,
-    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. \u00a7 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification \u2014 a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. § 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification — a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
     "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
     "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
   },
   "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_Senate_election_in_North_Carolina,_2026",
-    "snippet": "US SENATE / DUBLIN, MICHAEL LOUIS JR / 06/15/2026 ... Michael Dublin / GRE [and] US SENATE / COOPER, ROY ASBERRY III / 12/03/2025 ... Roy Cooper / DEM [and] US SENATE / BRAY, SHANNON WILSON / 12/17/2025 ... Shannon W. Bray / LIB [and] US SENATE / WHATLEY, MICHAEL DAVID / 12/02/2025 ... Michael Whatley / REP \u2014 sourced from the official NCSBE 2026 general candidate filing database (s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_detail_list.pdf), generated Aug 13, 2026; no 'McGinnis' or 'Shaunesi' entries appear anywhere in that 475-page, all-100-county document."
+    "snippet": "US SENATE / DUBLIN, MICHAEL LOUIS JR / 06/15/2026 ... Michael Dublin / GRE [and] US SENATE / COOPER, ROY ASBERRY III / 12/03/2025 ... Roy Cooper / DEM [and] US SENATE / BRAY, SHANNON WILSON / 12/17/2025 ... Shannon W. Bray / LIB [and] US SENATE / WHATLEY, MICHAEL DAVID / 12/02/2025 ... Michael Whatley / REP — sourced from the official NCSBE 2026 general candidate filing database (s3.amazonaws.com/dl.ncsbe.gov/Elections/2026/Candidate%20Filing/2026_general_candidate_detail_list.pdf), generated Aug 13, 2026; no 'McGinnis' or 'Shaunesi' entries appear anywhere in that 475-page, all-100-county document."
   },
   "hard_metrics": {
     "unemployment_rate": [
@@ -566,7 +566,8 @@
         "source_url": "https://ballotpedia.org/Shannon_Bray",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T12:48:15.353Z"
+      "_bio_summary_resolved_at": "2026-08-26T12:48:15.353Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:25.496Z"
     },
     {
       "slug": "roy-cooper",
@@ -654,10 +655,11 @@
       "performance": null,
       "_curated_match": false,
       "bio_summary": {
-        "value": "For too many Americans, the middle class feels like a distant dream. Meanwhile, the biggest corporations and the richest Americans have grabbed unimaginable wealth at your expense. I\u2019m running for Senate because it\u2019s time for that to change.",
+        "value": "For too many Americans, the middle class feels like a distant dream. Meanwhile, the biggest corporations and the richest Americans have grabbed unimaginable wealth at your expense. I’m running for Senate because it’s time for that to change.",
         "source_url": "https://roycooper.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:04:11.396Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:04:11.396Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:25.842Z"
     },
     {
       "slug": "michael-dublin",
@@ -709,7 +711,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:26.309Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:37.039Z"
     },
     {
       "slug": "michael-whatley",
@@ -781,10 +785,16 @@
       "performance": null,
       "_curated_match": false,
       "bio_summary": {
-        "value": "I was raised in Blowing Rock and am the son of an accountant and a librarian. My wife, Suzanne, and I live in Gaston County. Following President Trump\u2019s historic 2016 victory, I led the Presidential Transition\u2019s Energy, Environment, and Agriculture teams\u2014overseeing development of the Administration\u2019s Farm Plan and Energy Plan, which helped deliver lower energy prices for families and businesses and a booming agricultural and rural economy. I had the honor of serving as Chairman of the North Carolina Republican Party and, at President Trump\u2019s request, as Chairman of the Republican National Committee during the 2024 election cycle. I am proud to be President Trump\u2019s endorsed candidate to represent the great state of North Carolina in the U.S. Senate.",
+        "value": "I was raised in Blowing Rock and am the son of an accountant and a librarian. My wife, Suzanne, and I live in Gaston County. Following President Trump’s historic 2016 victory, I led the Presidential Transition’s Energy, Environment, and Agriculture teams—overseeing development of the Administration’s Farm Plan and Energy Plan, which helped deliver lower energy prices for families and businesses and a booming agricultural and rural economy. I had the honor of serving as Chairman of the North Carolina Republican Party and, at President Trump’s request, as Chairman of the Republican National Committee during the 2024 election cycle. I am proud to be President Trump’s endorsed candidate to represent the great state of North Carolina in the U.S. Senate.",
         "source_url": "https://michaelwhatley.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:04:13.716Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:04:13.716Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:26.636Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=3fFxYVMsfKs",
+      "platform_video_title": "Whatley for Senate",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-30T12:00:26.636Z"
     }
   ]
 }
