@@ -1,0 +1,816 @@
+{
+  "state": "MO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-14T14:02:37.508Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "primarySnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "generalSnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Missouri does have an active state felony-disqualification law for candidates, RSMo §115.306.1: no person who has been found guilty of or pled guilty to a felony (federal, Missouri, or an out-of-state offense that would be a felony in Missouri) may qualify as a candidate for 'elective public office' in Missouri. RSMo §115.013 defines 'public office' broadly enough to textually reach federal officeholders ('any employment under the United States, the state of Missouri, or any political subdivision or special district thereof'), and Missouri courts do actively enforce §115.306 — e.g., Fletcher v. Young, 689 S.W.3d 161 (Mo. banc 2024), held a felony guilty plea disqualifies a candidate even after a gubernatorial pardon. However, as applied to a candidate for the U.S. House or Senate specifically, this state law almost certainly cannot be constitutionally enforced. Under U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), the Constitution's Qualifications Clauses (Art. I, §2, cl. 2 for the House; Art. I, §3, cl. 3 for the Senate — age, citizenship, inhabitancy) are the exclusive qualifications for congressional service, and a state cannot add to them, directly or indirectly (including through ballot-access denial). No Missouri-specific court decision was found applying §115.306 to a federal congressional candidate (Fletcher v. Young concerns a non-federal office), so this conclusion rests on the general federal constitutional doctrine of Thornton rather than a Missouri-specific ruling — flagged for legal review if certainty is required.",
+    "source_url": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-306/",
+    "snippet": "115.306. Disqualification as candidate for elective public office, when — filing of affidavit, contents — tax delinquency, effect of. — 1. No person shall qualify as a candidate for elective public office in the state of Missouri who has been found guilty of or pled guilty to a felony under the federal laws of the United States of America or to a felony under the laws of this state or an offense committed in another state that would be considered a felony in this state."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    "snippet": "Mark Alford (Incumbent) (Republican Party) Jordan Herrera (Democratic Party) Thomas Holbrook (Libertarian Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 42.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.08
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 36.66
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 35.57
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.21
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3000.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2999.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2993.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2982.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2985.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2994.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2985.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2988.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2982.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2978.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2981.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2985.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2982.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2995.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2992.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2990.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2984.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2993.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2992.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2981.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2991.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2988.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2986.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2984.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2972
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2979.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2971.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2974
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2971.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2962.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2963.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2963
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2960.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2957.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 25816923342.32,
+        "perCapitaUsd": 33889.15
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31145288050.81,
+        "perCapitaUsd": 40883.54
+      },
+      {
+        "year": "2025",
+        "totalUsd": 32080677596.88,
+        "perCapitaUsd": 42111.4
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6177957
+      },
+      {
+        "year": "2023",
+        "population": 6196156
+      },
+      {
+        "year": "2024",
+        "population": 6245466
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 64811
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 68545
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71589
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "mark-alford",
+      "full_name": "ALFORD, MARK",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2MO04207",
+      "fec_status": "C",
+      "bioguide_id": "A000379",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1392967.7,
+        "totalSpent": 864475.14,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 16601.24,
+          "largeDollar": 759165.7,
+          "pac": 567060.91,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1963-10-04",
+          "source_url": "https://www.wikidata.org/wiki/Q115137637",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Baytown, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q115137637",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Sterling High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115137637",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://alfordforcongress.com/",
+          "snippet": "Mark Alford is a husband, father, former small business owner and former TV news anchor",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "former small business owner and former TV news anchor",
+          "source_url": "https://alfordforcongress.com/",
+          "snippet": "Mark Alford is a husband, father, former small business owner and former TV news anchor",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "high_school": {
+          "value": "Baytown Sterling High (1982)",
+          "source_url": "https://www.ballotready.org/people/mark-alford",
+          "snippet": "High School Diploma, Baytown Sterling High (1982)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Member of Evangel Church, an Assemblies of God megachurch in Kansas City",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Alford",
+          "snippet": "Alford is a member of Evangel Church, an Assemblies of God megachurch in Kansas City.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Pro-Life",
+          "value": "100% Pro-Life, will always staunchly defend the right to life and protect the rights of the unborn",
+          "snippet": "I am 100% Pro-Life. I will always staunchly defend the right to life and protect the rights of the unborn."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Will always fight tirelessly to ensure that no one infringes upon Second Amendment rights",
+          "snippet": "I will always fight tirelessly to ensure that no one infringes upon our Second Amendment rights."
+        },
+        {
+          "topic": "Education",
+          "value": "Will ensure the primary education of children is handled by the states and localities in which they reside, and will protect children against the federal government's injection of their liberal agenda into classrooms",
+          "snippet": "I will always do everything in my power to ensure the primary education of our children is handled by the states and localities in which they reside, and I will always protect our children against the federal government s injection of their liberal agenda into our classroom."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Cosponsored term limit legislation first week in Congress and pledges to always support term limits",
+          "snippet": "As such, I cosponsored term limit legislation my first week in Congress and pledge to always support term limits."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Will advocate for border security and secure borders by building the border wall, increasing border security officers, and better enforcing existing immigration laws",
+          "snippet": "we must secure our border by building the border wall, increasing border security officers, and better enforcing our existing immigration laws. As your congressman, I will always advocate for border security and will fight hard to secure our borders!"
+        },
+        {
+          "topic": "Economy",
+          "value": "Must right wrongs by reigning in federal spending, eliminating unnecessary regulations, lowering taxes, and implementing pro-growth policies",
+          "snippet": "We must do everything in our power to right the wrongs of this feckless administration by reigning in federal spending, eliminating unnecessary regulations, lowering taxes, and implementing pro-growth policies to reignite our economy and allow Americans to thrive and prosper."
+        }
+      ],
+      "platform_source_url": "https://alfordforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T14:02:13.827Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business — Contracting and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Small Business — Oversight, Investigations, and Regulations",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — National Security, Department of State, and Related Programs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 54,
+        "bills_cosponsored": 381,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.565,
+          "nominateDim2": 0.075,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/A000379"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 63.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/A000379"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=2KqGLxjl28w",
+      "platform_video_title": "Gettin' Comfortable with Mark Alford: Episode 1, \"Church and State\"",
+      "platform_video_source_url": "https://alfordforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:05:20.454Z",
+      "bio_summary": {
+        "value": "Mark Alford is a husband, father, former small business owner and former TV news anchor, and proudly represents Missouri’s 4th District in Congress.",
+        "source_url": "https://alfordforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:41.046Z"
+    },
+    {
+      "slug": "jordan-herrera",
+      "full_name": "HERRERA, JORDAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MO05254",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 41656.63,
+        "totalSpent": 22673.73,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15560.61,
+          "largeDollar": 17269.71,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 8557.62
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Missouri Attorney General, Assistant Attorney General (2024 - 2025); United States Air Force, Health Facility Manager (2007 - 2025)",
+          "source_url": "https://www.ballotready.org/people/jordan-herrera",
+          "snippet": "Professional Experience Missouri Attorney General, Assistant Attorney General (2024 - 2025) United States Air Force, Health Facility Manager (2007 - 2025)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "thomas-holbrook",
+      "full_name": "HOLBROOK, THOMAS",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2MO04108",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "date_of_birth": {
+          "value": "1949-05-23",
+          "source_url": "https://www.wikidata.org/wiki/Q7790743",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "St. Louis, Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q7790743",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Southern Illinois University Edwardsville",
+          "source_url": "https://www.wikidata.org/wiki/Q7790743",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Iron Mountain, Document Imaging Specialist (2024 - Present); Brillient Corporation, General Clerk II (2022 - 2024); PAE, General Clerk II (2017 - 2022); Walmart, Cashier/Overnight Cashier (2006 - 2016)",
+          "source_url": "https://www.ballotready.org/people/thomas-holbrook",
+          "snippet": "Iron Mountain, Document Imaging Specialist (2024 - Present) Brillient Corporation, General Clerk II (2022 - 2024) PAE, General Clerk II (2017 - 2022) Walmart, Cashier/Overnight Cashier (2006 - 2016)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Gerrymandering",
+          "value": "Ban gerrymandering by having non-partisan committees draw up state maps based on the 10 year census",
+          "snippet": "Nobody should be doing this, and we need to ban the practice altogether by having non-partisan committees draw up state maps based on the 10 year census. I will push for legislation that will do just that."
+        },
+        {
+          "topic": "2nd Amendment / Stand Your Ground",
+          "value": "Support the right to defend yourself when an unprovoked attack occurs, but legislation must also respect property rights of privately owned venues",
+          "snippet": "Having the right to defend yourself when an unprovoked attack occurs is paramount. I also am a big supporter of property rights, which Matt Gaetz s bill makes no mention of. If any place does not want violence coming through their doors, I have to respect that regardless of whether I like it or not. I would vote yes for a law similar to HR 6248 so long as it also keeps in mind property rights of various privately owned venues."
+        },
+        {
+          "topic": "Social Media / TikTok Ban",
+          "value": "Oppose banning TikTok and any other social media platform as that is an overreach by Congress",
+          "snippet": "I oppose the banning of TikTok and any other social media platform as that is an overreach by the US Congress."
+        },
+        {
+          "topic": "Tariffs / Trade",
+          "value": "Oppose any tariffs against any other country for imports",
+          "snippet": "To be clear, I oppose any tariffs against any other country for imports. It was a horrible idea when Donald Trump did it, and it s a horrible idea now."
+        },
+        {
+          "topic": "Cryptocurrency",
+          "value": "Support the development and nurturing of cryptocurrency by private individuals and groups, and support legislation similar to the SEC Stabilization Act of 2023",
+          "snippet": "That is also why I am for the development and nurturing of cryptocurrency by private individuals and groups. What the head of the SEC is doing to companies who dare dabble in digital currencies that are decentralized is abhorrent. In other words, I would support legislation similar to the SEC Stabilization Act of 2023 so that no political party has majority power in that agency."
+        },
+        {
+          "topic": "War on Drugs / Marijuana",
+          "value": "Oppose the war on drugs; support legislation that would fully legalize marijuana and treat addiction as a medical crisis instead of a criminal crisis",
+          "snippet": "I oppose the war on drugs not because addictive pills, powders, and liquids are harmless. Bureaucratic institutions that treat government as a religion make things worse for everybody. In recent years, experts have been arguing in favor of medical treatment instead of punishment . I would go further in supporting legislation that would fully legalize marijuana. Legalization and treating addiction as a medical crisis instead of a criminal crisis is the best way to cut off the cartels."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Prefer to leave medical decisions up to the patients and their doctors",
+          "snippet": "On a personal level, I prefer to leave medical decisions up to the patients and their doctors."
+        },
+        {
+          "topic": "Education / Charter Schools",
+          "value": "Against charter schools because you still have to ask the government for permission; favor granting more local control so parents have more of a say in their children's education",
+          "snippet": "Advocates for Charter Schools may find themselves disheartened, as this represents yet another method of government subsidization. My main issue with them is that you still have to ask the government for permission . I am more in favor of granting more local control so that parents have more of a say in the education of their children"
+        }
+      ],
+      "platform_source_url": "https://thomasholbrook.com/where-i-stand",
+      "_platform_resolved_at": "2026-08-14T14:02:31.538Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Holbrook For Congress - Bringing freedom and common sense back to Missouri's 4th District.",
+        "source_url": "https://thomasholbrook.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:42.425Z"
+    }
+  ]
+}

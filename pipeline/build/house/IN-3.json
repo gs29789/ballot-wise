@@ -1,0 +1,677 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-18T20:23:54.823Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Marlin A. Stutzman, Kelly Thompson, and Phillip Beachy are running in the general election for U.S. House Indiana District 3 on November 3, 2026. Beachy (Ind, write-in) has no FEC 2026 registration found."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "marlin-stutzman",
+      "full_name": "STUTZMAN, MARLIN A",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H0IN03198",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 839564.67,
+        "totalSpent": 786959.01,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 88046.5,
+          "largeDollar": 275458.64,
+          "pac": 367700,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-08-31",
+          "source_url": "https://www.wikidata.org/wiki/Q1902106",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Sturgis, Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q1902106",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Glen Oaks Community College",
+          "source_url": "https://www.wikidata.org/wiki/Q1902106",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Lake Area Christian School",
+          "source_url": "https://www.gomarlin.com/meet-marlin",
+          "snippet": "Marlin graduated from Lake Area Christian School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Christy, with two sons, Payton and Preston",
+          "source_url": "https://www.gomarlin.com/meet-marlin",
+          "snippet": "Marlin and his wife, Christy, have two sons, Payton and Preston.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative- Indiana 3rd Congressional District (2025 - Present); Stutzman Brothers Steakhouse, Owner (Present); The Stutzman Group, Managing Partner (Present); The Barns At Nappanee, Co-Owner (Present); The Round Barn Theatre, Co-Owner (Present); Schönbrook Farm, Farmer (Present); Stutzman Brothers Meats, Co-Owner (Present); Show Hauler RV, Co-owner (Present); US House of Representatives, Representative- Indiana 3rd Congressional District (2010 - 2017); Indiana State Senate, State Senator- District 13 (2009 - 2010); Indiana General Assembly, Representative- District 52 (2003 - 2009); WishBone Medical, Inc., President",
+          "source_url": "https://www.ballotready.org/people/marlin-a-stutzman",
+          "snippet": "US House of Representatives, Representative- Indiana 3rd Congressional District (2025 - Present) Stutzman Brothers Steakhouse, Owner (Present) The Stutzman Group, Managing Partner (Present) The Barns At Nappanee, Co-Owner (Present) The Round Barn Theatre, Co-Owner (Present) Schönbrook Farm, Farmer (Present) Stutzman Brothers Meats, Co-Owner (Present) Show Hauler RV, Co-owner (Present) US House of Representatives, Representative- Indiana 3rd Congressional District (2010 - 2017) Indiana State Senate, State Senator- District 13 (2009 - 2010) Indiana General Assembly, Representative- District 52 (2003 - 2009) WishBone Medical, Inc., President",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Freedom Caucus member, Congressional Constitution Caucus Co-chair",
+          "source_url": "https://en.wikipedia.org/wiki/Marlin_Stutzman",
+          "snippet": "Caucus memberships [ edit ] Freedom Caucus [ 12 ] Congressional Constitution Caucus [ 13 ] (Co-chair)",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Finish the wall to defend our border and strengthen national security",
+          "snippet": "Finish the Wall. Defending Our Border and Strengthening National Security. We cannot have a secure nation without secure borders."
+        },
+        {
+          "topic": "Education",
+          "value": "Education is the responsibility of parents first and foremost and the governments of each state should work in partnership with parents and local communities to determine what is best for their students",
+          "snippet": "Education was never meant to be a federal issue. Education is the responsibility of parents first and foremost and the governments of each state should work in partnership with parents and local communities to determine what is best for their students."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Demands leaders reverse the disastrous decision made by the Supreme Court in 1973 legalizing abortion",
+          "snippet": "For years we marched in Right To Life marches in Washington, Fort Wayne and across the nation, demanding that our leaders reverse the disastrous decision made by the Supreme Court in 1973 legalizing abortion."
+        }
+      ],
+      "platform_source_url": "https://www.gomarlin.com/issues",
+      "_platform_resolved_at": "2026-08-17T15:08:26.037Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=eyjguc-3i6g",
+      "platform_video_title": "We Stand with Marlin: Titus Folks, \"Marlin is proven.\"",
+      "platform_video_source_url": "https://www.gomarlin.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:02:22.136Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "The great people of Indiana’s 3rd district are what makes America great and I am honored to be their voice in Congress.",
+        "source_url": "https://www.gomarlin.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:46.616Z"
+    },
+    {
+      "slug": "kelly-thompson",
+      "full_name": "THOMPSON, KELLY ELIZABETH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN03294",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 136340.3,
+        "totalSpent": 130300.99,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 118432.5,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 17907.8
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "wife",
+          "source_url": "https://www.kellythompsonforcongress.com/",
+          "snippet": "Kelly Thompson is a Hoosier wife, mother, business owner and non-profit founder",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "business owner and non-profit founder",
+          "source_url": "https://www.kellythompsonforcongress.com/",
+          "snippet": "Kelly Thompson is a Hoosier wife, mother, business owner and non-profit founder",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Working Families Priorities",
+          "value": "Fair wages, better tax structure, housing and healthcare that works for all of us are her top priorities.",
+          "snippet": "Fair wages, better tax structure, housing and healthcare that works for all of us are her top priorities."
+        }
+      ],
+      "platform_source_url": "https://www.kellythompsonforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T19:12:08.754Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Kelly Thompson is a Hoosier wife, mother, business owner and non-profit founder, dedicated to fighting for working families. Fair wages, better tax structure, housing and healthcare that works for all of us are her top priorities.",
+        "source_url": "https://www.kellythompsonforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:50.222Z",
+      "_tier2_search_attempted_at": "2026-08-22T15:24:45.056Z"
+    }
+  ]
+}

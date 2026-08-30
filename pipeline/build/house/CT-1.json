@@ -1,0 +1,665 @@
+{
+  "state": "CT",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T20:04:00.256Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
+    "primarySnippet": "Conn. Gen. Stat. § 9-423(a): The primaries of all parties for nomination to an office to be voted upon at a state election shall be held on the second Tuesday in August in the year in which such state election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.cga.ct.gov/current/pub/chap_146.htm",
+    "generalSnippet": "Conn. Gen. Stat. § 9-225(a): The town clerk or assistant town clerk of each town shall warn the electors therein to meet on the Tuesday following the first Monday in November in the even-numbered years, at six o'clock a.m. ..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Unclear on its face, but No in practice — Connecticut bars a person who has forfeited (and not regained) their electoral privileges due to a felony conviction from being \"a candidate for or hold[ing] public office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this provision would not be enforceable to keep a candidate off a Connecticut congressional ballot even though its text alone doesn't rule out reaching federal office",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_143.htm",
+    "snippet": "Conn. Gen. Stat. § 9-46(c): \"No person who has forfeited and not regained such person's privileges as an elector as provided in section 9-46a, or who has regained such privileges and again forfeited such privileges as provided in subsection (b) of this section, may be a candidate for or hold public office.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Connecticut's_1st_Congressional_District_election,_2026",
+    "snippet": "Luke Bronin and Amy Chai are running in the general election for U.S. House Connecticut District 1 on November 3, 2026. Open seat: incumbent Rep. John Larson lost the Democratic primary to Bronin on August 11, 2026, a widely covered upset (53.5% to 34.7%)."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 12.98
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 10.92
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 12.14
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 9.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 7.75
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1726.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1725
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1723.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1719.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1721.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1717
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1716.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1716.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1714.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1716.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1718
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1720.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1717.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1716.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1715.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1715.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1714.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1713.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1710.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1712.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1711.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1707.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1706.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1707.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1701.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1701
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1700.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1700
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1698.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1697.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1700.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1692.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1684.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1689.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1688.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1689.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6257681416.3,
+        "perCapitaUsd": 8698.7
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8120289750.97,
+        "perCapitaUsd": 11287.88
+      },
+      {
+        "year": "2025",
+        "totalUsd": 10232653302.62,
+        "perCapitaUsd": 14224.25
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3626205
+      },
+      {
+        "year": "2023",
+        "population": 3617176
+      },
+      {
+        "year": "2024",
+        "population": 3675069
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 88429
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 91665
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96049
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "luke-bronin",
+      "full_name": "BRONIN, LUKE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CT01206",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3070150.94,
+        "totalSpent": 2469256.6,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 122155.98,
+          "largeDollar": 2925194.01,
+          "pac": 22500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-06-30",
+          "source_url": "https://www.wikidata.org/wiki/Q21572863",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Port Chester, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q21572863",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Yale College",
+          "source_url": "https://www.wikidata.org/wiki/Q21572863",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Hartford Financial Services Group, Chief of Staff to the President (2006 - 2008); US Navy Reserve, Officer (2007 - 2018); Council on Foreign Relation, International Affairs Fellow (2008 - 2009); Department of the Treasury, Deputy Assistant Secretary (2009 - 2013); US Navy, Lieutenant Junior Grade (2010 - 2011); Office of Governor Dan Malloy, General Counsel (2013 - 2015); Hinckley Allen, Partner (2015 - 2016); Hartford, Mayor (2016 - 2024)",
+          "source_url": "https://www.ballotready.org/people/luke-bronin",
+          "snippet": "Hartford, Mayor (2016 - 2024) Hinckley Allen, Partner (2015 - 2016) Office of Governor Dan Malloy, General Counsel (2013 - 2015) US Navy, Lieutenant Junior Grade (2010 - 2011) Department of the Treasury, Deputy Assistant Secretary (2009 - 2013) Council on Foreign Relation, International Affairs Fellow (2008 - 2009) US Navy Reserve, Officer (2007 - 2018) Hartford Financial Services Group, Chief of Staff to the President (2006 - 2008)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Phillips Exeter Academy in New Hampshire",
+          "source_url": "https://en.wikipedia.org/wiki/Luke_Bronin",
+          "snippet": "completed high school at Phillips Exeter Academy in New Hampshire",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078233.pdf",
+        "filingDate": "6/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:35:31.355Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:43.258Z",
+      "bio_summary": {
+        "value": "Luke Aaron Bronin [ 1 ] (born June 30, 1979) [ 2 ] is an American politician and lawyer who served as the 67th mayor of Hartford, Connecticut from 2016 to 2024. [ 3 ] [ 4 ] A member of the Democratic Party , [ 5 ] he is the party's nominee for Connecticut's 1st congressional district in 2026 . [ 6 ] [ 7 ] Prior to serving as mayor, Bronin was general counsel for Connecticut governor Dannel Malloy . Before that, he served in two senior posts at the United States Department of the Treasury during President Barack Obama 's first term as senior advisor to the deputy secretary of the treasury , and later as deputy assistant secretary of the treasury for terrorist financing and financial crimes. [ 8 ] Bronin has served as an officer in the U.S. Navy Reserve , and was deployed to Afghanistan and assigned to the Anti-Corruption Task Force. [ 9 ] [ 10 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Luke_Bronin",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:34:41.067Z"
+    },
+    {
+      "slug": "amy-chai",
+      "full_name": "CHAI, AMY FOGELSTROM DR",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2CT03102",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 20827.25,
+        "totalSpent": 16227.42,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1860.46,
+          "largeDollar": 2208.97,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 16735.809999999998
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Internal Medicine and Addiction expert",
+          "source_url": "https://chaiforcongress.com/",
+          "snippet": "Dr. Chai, MD, MS, is an expert in Internal Medicine and Addiction.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Transparency",
+          "value": "Implement radical transparency requiring disclosure of government spending, legislation before votes, and school curriculum",
+          "snippet": "Integrity requires radical transparency. I have three pillars of radical transparency that will save us billions of dollars and will permit citizens to actually be aware of what our government is doing. I intend to introduce all three of these legislative pillars as soon as I get to Washington, DC."
+        },
+        {
+          "topic": "Government Spending Accountability",
+          "value": "Address billions of dollars that have gone missing from tax dollars",
+          "snippet": "Did you know that billions of dollars have gone missing from your tax dollars?"
+        },
+        {
+          "topic": "Education Transparency",
+          "value": "Ensure citizens can find out what schools are teaching and what worldview they promote in the classroom",
+          "snippet": "And how do we find out what our schools are teaching and what worldview they promote in the classroom?"
+        }
+      ],
+      "platform_source_url": "https://chaiforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T18:57:48.065Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=j-kLzgHl9ec",
+      "platform_video_title": "Connecticut is Robbing Us All. Amy Chai for Congress",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T12:00:43.681Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Rising from extreme poverty in a hoarding home, Dr. Chai knows what it is like to live in a car, sleep in a public bathroom, and go without food or health care. She attended The Johns Hopkins University (BA Biology), Indiana University School of Medicine (MD), University of Michigan Medical Center (Internal Medicine), and University of Virginia Health Sciences Center (Fellowship General Medicine and MS Epidemiology). She self-studied for Fellowship in Addiction Medicine. She was named a US Presidential Teacher by the Obama Administration in 2011 (her home schooling break was successful).",
+        "source_url": "https://chaiforcongress.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:12.508Z",
+      "_tier2_search_attempted_at": "2026-08-22T12:00:43.680Z",
+      "platform_video_tier": 2
+    }
+  ]
+}

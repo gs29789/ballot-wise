@@ -1,0 +1,908 @@
+{
+  "state": "OH",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-15",
+  "generated_at": "2026-08-14T14:34:24.212Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+    "primarySnippet": "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
+    "generalSnippet": "(A) \"General election\" means the election held on the first Tuesday after the first Monday in each November. ... (E)(1) \"Primary\" or \"primary election\" means an election held for the purpose of nominating persons as candidates of political parties for election to offices... Primary elections shall be held on the first Tuesday after the first Monday in May of each year except in years in which a presidential primary election is held."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Ohio Revised Code 2961.01(A)(1) strips anyone convicted of a felony of the 'privilege of holding office' in the state: it makes a felon 'incompetent ... to hold an office of honor, trust, or profit.' This Ohio law does NOT reach candidates for the U.S. House or Senate, however. The Constitution's own Qualifications Clauses (Art. I, §2, cl. 2 for the House; §3, cl. 3 for the Senate) are the exclusive qualifications for Congress, and the U.S. Supreme Court held in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), that 'States cannot impose qualification requirements on membership in Congress' (Cornell LII, Constitution Annotated, ArtI.S3.C3.4, https://www.law.cornell.edu/constitution-conan/article-1/section-3/clause-3/states-ability-to-change-qualifications-requirements-for-senate) — changing congressional qualifications requires a constitutional amendment. The ACLU of Ohio states this plainly for the state: 'a person convicted of a felony may run for either the U.S. House or Senate so long as he or she satisfies the other requirements' because 'Congress cannot impose further restrictions on candidates without amending the U.S. Constitution' (https://www.acluohio.org/news/felon-candidacy/). Net effect: a felony conviction bars someone from Ohio state office but does NOT bar them from running for or serving in Ohio's U.S. House or Senate seats.",
+    "source_url": "https://law.justia.com/codes/ohio/title-29/chapter-2961/section-2961-01/",
+    "snippet": "(A)(1) A person who pleads guilty to a felony under the laws of this or any other state or the United States and whose plea is accepted by the court or a person against whom a verdict or finding of guilt for committing a felony under any law of that type is returned, unless the plea, verdict, or finding is reversed or annulled, is incompetent to be an elector or juror or to hold an office of honor, trust, or profit."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
+    "snippet": "Mike Carey  (Incumbent) (Republican Party) Don Leonard  (Democratic Party) Brennan Barrington  (Libertarian Party) Samuel Ronan  (Independent) (Write-in)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 25.26
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 23.09
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 24.01
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 22.93
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 19.71
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5687.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5682.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5687.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5679.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5669.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5673.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5663.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5660.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5659.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5669.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5678.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5672.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5665.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5673.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5670.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5663.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5663.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5656.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5669
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5668
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5663.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5666.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5656.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5656.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5664.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5656.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5649.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5655.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5645.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 5642.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 5634
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 5626.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 5624.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 5636.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 5630
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 5627.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 5630.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 5608.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 5601.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 5603.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 5599.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 5593
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7826165189.19,
+        "perCapitaUsd": 9972.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8514088969.85,
+        "perCapitaUsd": 10848.82
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8748061401.78,
+        "perCapitaUsd": 11146.95
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 11756058
+      },
+      {
+        "year": "2023",
+        "population": 11785935
+      },
+      {
+        "year": "2024",
+        "population": 11883304
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 65720
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 67769
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72212
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "brennan-barrington",
+      "full_name": "BARRINGTON, BRENNAN",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH15138",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Brennan Barrington earned a high school diploma from Licking Heights High School and a bachelor's degree from Ohio State University in 2019.",
+        "source_url": "https://ballotpedia.org/Brennan_Barrington",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:07:54.395Z"
+    },
+    {
+      "slug": "mike-carey",
+      "full_name": "CAREY, MIKE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2OH15228",
+      "fec_status": "C",
+      "bioguide_id": "C001126",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3299678.5,
+        "totalSpent": 1404260.15,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 51245.03,
+          "largeDollar": 849113.67,
+          "pac": 1742150,
+          "party": 500,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1971-03-13",
+          "source_url": "https://www.wikidata.org/wiki/Q108010312",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Sabina, Ohio",
+          "source_url": "https://www.wikidata.org/wiki/Q108010312",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "East Clinton High School",
+          "source_url": "https://www.wikidata.org/wiki/Q108010312",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "East Clinton High School",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Carey_(politician)",
+          "snippet": "After attending East Clinton High School , he earned an Associate of Arts degree in economics from the Marion Military Institute and a Bachelor of Arts in history from Ohio State University .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Meghan Carey",
+          "source_url": "https://en.wikipedia.org/wiki/Mike_Carey_(politician)",
+          "snippet": "Carey and his wife, Meghan, have two sons and reside in Columbus .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Strong on the Border",
+          "snippet": "is strong on the Border"
+        },
+        {
+          "topic": "Crime",
+          "value": "Tough on Crime",
+          "snippet": "taught on Crime"
+        },
+        {
+          "topic": "Military and Veterans",
+          "value": "Totally supports our Military and his fellow Vets",
+          "snippet": "As a Veteran, he totally supports our Military and his fellow Vets"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Strong supporter of the Second Amendment",
+          "snippet": "A strong supporter of the Second Amendment"
+        }
+      ],
+      "platform_source_url": "https://www.careyforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T14:33:58.187Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115739.pdf",
+        "filingDate": "4/15/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T14:34:16.550Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 278,
+          "attendanceRate": 0.9823321554770318
+        },
+        "committees": [
+          {
+            "committee": "Joint Committee of Congress on the Library",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Social Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Work and Welfare",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration — Modernization and Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 63,
+        "bills_cosponsored": 635,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "25",
+            "publicLawNumber": "119-5",
+            "summary": "This joint resolution nullifies requirements for persons effectuating decentralized financial (DeFi) transactions to report certain information regarding digital asset sales to the Internal Revenue Service (IRS). Specifically, the joint resolution nullifies the requirements included in the rule titled Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales and issued by the IRS on December 30, 2024. Decentralized finance refers to the suite of financial activities and services that are facilitated by cryptocurrency and intended to be conducted without any sort of reliance on traditional financial tools or intermediaries.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ5"
+          },
+          {
+            "title": "COCOA Act of 2024",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "6513",
+            "publicLawNumber": "118-106",
+            "summary": "Confirmation Of Congressional Observer Access Act of 2024 or the COCOA Act of 2024 This act provides statutory authority for designated congressional election observers. Designated congressional election observe r refers to an employee of the House of Representatives or the Senate who is designated in writing by the chair or ranking minority member of the House Committee on House Administration or the Senate Committee on Rules and Administration to gather information with respect to an election, including in the event that the election is contested in the House or the Senate and for other purposes permitted by Article I, Section 5, clause 1 and Article I, Section 4, clause 1 of the U.S. Constitution. The act requires states to provide designated congressional election observers with full access to&nbsp;clearly observe all elements of administration procedures of federal elections, including access to any area in which a ballot is cast, processed, scanned, tabulated, canvassed, recounted, audited, or certified, including during pre- and post-election procedures. The act prohibits such an observer from handling ballots or election equipment, advocating for a position or candidate, taking any action to reduce ballot secrecy or voter privacy, taking any action to interfere with the ability of a voter to cast a ballot or an election administrator to carry out the administrator's duties, or otherwise interfering with the election administration process. The act specifies the conduct for which designated congressional election observers may be removed by election officials. In the event of removal, the election official must, within 24 hours of the observer's removal,&nbsp;provide written notice to the chair and ranking minority member of the House Committee on House Administration or the Senate Committee on Rules and Administration.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ106"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.405,
+          "nominateDim2": 0.028,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001126"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 95.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001126"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=ZMpp-jBiP9w",
+      "platform_video_title": "Carey for Congress - 2026 Reel",
+      "platform_video_source_url": "https://www.careyforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:05:51.847Z",
+      "bio_summary": {
+        "value": "Congressman Mike Carey proudly represents Ohio’s 15th Congressional District, which now includes all of Highland, Fayette, Madison, and Pickaway counties, as well as parts of Clark, Franklin, and Miami counties. Sworn in on November 4, 2021, Mike was able to quickly distinguish himself as an effective member and was appointed to the prestigious House Committee on Ways and Means and the Committee on House Administration in 2023.",
+        "source_url": "https://www.careyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:26.462Z"
+    },
+    {
+      "slug": "don-leonard",
+      "full_name": "LEONARD, DON RALPH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH15112",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 606657.6,
+        "totalSpent": 354255.88,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 90487.87,
+          "largeDollar": 493000.1,
+          "pac": 11250,
+          "party": 0,
+          "selfFunded": 11919.630000000001
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "After college, I spent two years with the U.S. Peace Corps in South America.",
+          "source_url": "https://donforohio.com/bio",
+          "snippet": "After college, I spent two years with the U.S. Peace Corps in South America.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married with a daughter",
+          "source_url": "https://donforohio.com/bio",
+          "snippet": "I met my wife while I was a post-doc at Tulane University in Louisiana. For the last ten years, she and I have been blessed to be teachers at Ohio State. As a professor of city and regional planning, my day job was to empower students to think for themselves and reach for their dreams. My daughter was born at OSU Hospital on a frigid night in January of 2025.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "U.S. Peace Corps in South America for two years; post-doc at Tulane University in Louisiana; professor of city and regional planning at Ohio State for the last ten years",
+          "source_url": "https://donforohio.com/bio",
+          "snippet": "After college, I spent two years with the U.S. Peace Corps in South America. I met my wife while I was a post-doc at Tulane University in Louisiana. For the last ten years, she and I have been blessed to be teachers at Ohio State. As a professor of city and regional planning, my day job was to empower students to think for themselves and reach for their dreams.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy - Housing Affordability",
+          "value": "Our kids can eventually afford to move out of the house and start a life of their own.",
+          "snippet": "Where our kids can eventually afford to move out of the house and start a life of their own."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "All Americans deserve quality insurance they can afford to use.",
+          "snippet": "All Americans deserve quality insurance they can afford to use."
+        },
+        {
+          "topic": "Housing",
+          "value": "Every working American should be able to own a home.",
+          "snippet": "Every working American should be able to own a home."
+        },
+        {
+          "topic": "Seniors/Retirement",
+          "value": "Freedom means empowering seniors to retire with dignity.",
+          "snippet": "Freedom means empowering seniors to retire with dignity."
+        }
+      ],
+      "platform_source_url": "https://donforohio.com/",
+      "_platform_resolved_at": "2026-08-14T14:33:55.267Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081075.pdf",
+        "filingDate": "7/28/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T14:34:20.154Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "My name is Don Leonard. I’m running to represent Ohio’s 15th Congressional District in the U.S. House of Representatives because the working families of Central Ohio deserve better. The politicians are lying to us. America is not broke. Our economy is just broken.",
+        "source_url": "https://donforohio.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:28.849Z"
+    },
+    {
+      "slug": "samuel-ronan",
+      "full_name": "RONAN, SAMUEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH01088",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "U.S. Air Force veteran",
+          "source_url": "https://www.samronan.com/",
+          "snippet": "Sam Ronan is a U.S. Air Force veteran running for Congress in Ohio s 15th Congressional District.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Ensure all necessities are affordable, hold greedy CEOs accountable, and improve the supply chain to ensure costs remain low",
+          "snippet": "COST OF LIVING REFORM Ensure all necessities are affordable Hold greedy CEOs accountable Improve the supply chain to ensure costs remain low!"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Eliminate health insurance as gatekeepers, eliminate administrative bloat in health care, and regulate cost of care to ensure fair access",
+          "snippet": "UNIVERSAL HEALTHCARE Eliminate Health Insurance as Gatekeepers Eliminate administrative bloat in Health Care Regulate cost of care to ensure fair access"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Reform immigration enforcement with accountability, create streamlined pathways for legal immigration, and protect communities while upholding the rule of law",
+          "snippet": "IMMIGRATION & BORDER REFORM - Reform immigration enforcement with accountability - Create streamlined pathways for legal immigration - Protect communities while upholding the rule of law"
+        }
+      ],
+      "platform_source_url": "https://www.samronan.com/",
+      "_platform_resolved_at": "2026-08-14T14:34:01.914Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=MM1bBZwixmU",
+      "platform_video_title": "We must stand Against Israel's War",
+      "platform_video_source_url": "https://www.samronan.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:05:52.212Z",
+      "bio_summary": {
+        "value": "Sam Ronan is a U.S. Air Force veteran running for Congress in Ohio's 15th Congressional District. He's a Republican candidate who believes working families deserve a representative who fights for them — not for lobbyists, not for party bosses, and not for corporate donors.",
+        "source_url": "https://www.samronan.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:30.552Z"
+    }
+  ]
+}

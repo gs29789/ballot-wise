@@ -1,0 +1,895 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-18T20:27:58.834Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_9th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Erin Houchin, Brad Meyer, Tonya Hudson, and Floyd Taylor are running in the general election for U.S. House Indiana District 9 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "erin-houchin",
+      "full_name": "HOUCHIN, ERIN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6IN09143",
+      "fec_status": "C",
+      "bioguide_id": "H001093",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1856572.42,
+        "totalSpent": 1415550.66,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 23017.1,
+          "largeDollar": 319688.55,
+          "pac": 1041092.97,
+          "party": 100,
+          "selfFunded": 931.41
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-09-24",
+          "source_url": "https://www.wikidata.org/wiki/Q20676994",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Salem, Indiana",
+          "source_url": "https://www.wikidata.org/wiki/Q20676994",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Scottsburg Senior High School",
+          "source_url": "https://www.wikidata.org/wiki/Q20676994",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.erinhouchin.com/",
+          "snippet": "There, she met her husband",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "member of the Indiana State Senate",
+          "source_url": "https://www.erinhouchin.com/",
+          "snippet": "had a consistent 100% pro-life voting record as a member of the Indiana State Senate",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative- Indiana 9th Congressional District (2023 - Present); Tilson, Business Development Manager (2016 - 2024); Indiana State Senate, Indiana State Senator, District 47 (2014 - 2024); US Senator Dan Coats, Regional Director- Southeast Indiana (2011 - 2014)",
+          "source_url": "https://www.ballotready.org/people/erin-houchin",
+          "snippet": "Professional Experience US House of Representatives, Representative- Indiana 9th Congressional District (2023 - Present) Tilson, Business Development Manager (2016 - 2024) Indiana State Senate, Indiana State Senator, District 47 (2014 - 2024) US Senator Dan Coats, Regional Director- Southeast Indiana (2011 - 2014)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Scottsburg Senior High School",
+          "source_url": "https://en.wikipedia.org/wiki/Erin_Houchin",
+          "snippet": "Houchin was born in Indiana on September 24, 1976, and attended Scottsburg Senior High School .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Abortion",
+          "value": "Is pro-life, consistently advocates for the prohibition of late-term abortions, and supports resources and care for mothers in need",
+          "snippet": "Erin is pro-life and always has been. She has been a steadfast leader in the fight for the unborn, consistently advocating for the prohibition of late-term abortions, and resources and care for mothers in need."
+        },
+        {
+          "topic": "Parental Rights",
+          "value": "Believes parents should be in the driver's seat of their children's education, voted to pass the Parents Bill of Rights, and will continue to support parents' efforts for transparency and a seat at the table",
+          "snippet": "Parents should be in the driver's seat of their children's education. The pandemic opened American parents' eyes to the reality of our public school system, and millions of parents didn't like what they saw. As a mother of three, Erin knows that parents are the primary stakeholders in their children's education. That's why she voted to pass the Parents Bill of Rights and will continue to support parents in this ongoing effort for transparency and a seat at the table as we prepare the next generation for success."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Will always fight to ensure officers have the necessary resources to do their jobs effectively and safely and have the support and compensation they deserve, and will never allow radical left-wing politicians to defund the police",
+          "snippet": "Erin will always fight to ensure our officers have the necessary resources to do their jobs effectively and safely, and they have the support and compensation they deserve. Erin will never allow radical left-wing politicians to defund the police."
+        },
+        {
+          "topic": "Job Creation and Economy",
+          "value": "Believes the best way to create jobs and grow the economy is to get the government out of the way, cut bureaucratic red tape, support limited government, cut taxes, promote free markets, and control government spending",
+          "snippet": "Erin knows the best way to create jobs and grow the economy is to get the government out of the way and let small business owners do what they do best – innovate and create new jobs. Indiana has one of the best economies in the nation, a direct result of our conservative values. As a small business owner, Erin continues the fight to cut bureaucratic red tape and support limited government while working to cut taxes, promote free markets, and control government spending."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Is a firm believer that the Second Amendment is one of our most important freedoms and understands the importance of protecting our constitutional right to bear arms",
+          "snippet": "Erin is a firm believer that the Second Amendment is one of our most important freedoms, and she understands the importance of protecting our constitutional right to bear arms."
+        }
+      ],
+      "platform_source_url": "https://www.erinhouchin.com/",
+      "_platform_resolved_at": "2026-08-12T19:21:36.406Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=QjvNE2J0yKo",
+      "platform_video_title": "Erin Houchin - Here",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T15:24:49.427Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Rules",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Rules — Legislative and Budget Process",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 69,
+        "bills_cosponsored": 489,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "FAFSA Deadline Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "8932",
+            "publicLawNumber": "118-145",
+            "summary": "FAFSA Deadline Act This act requires the Department of Education (ED) to make the Free Application for Federal Student Aid (FAFSA) available by October 1 of each year. (Students apply for federal student aid by completing the FAFSA.) Under current law, ED must enable applicants to submit the and initiate the processing of submitted by January 1 of the applicant's planned year of enrollment, and to the maximum extent practicable, on or around October 1 prior to the applicant's planned year of&nbsp;enrollment.&nbsp;This act removes the January 1 flexibility and imposes a statutory deadline for release of the as October 1. The act also requires ED to&nbsp;certify to Congress by September 1 whether or not the FAFSA will be ready on October 1. If the FAFSA will not be ready by October 1, then the act requires the Secretary of Education to testify to Congress on (1) the anticipated failure to meet the deadline, and (2) the financial impact on students and families.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ145"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.624,
+          "nominateDim2": 0.188,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001093"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 71,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001093"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Erin Houchin was born and raised in Indiana’s 9th District, and is a proud lifelong Hoosier . Growing up in Scottsburg as the daughter of a local dentist, the strong conservative values of personal responsibility and hard work were instilled in Erin at an early age, but she first became politically active as an intern with the Indiana State Senate while a student at Indiana University. There, she met her husband, and realized her passion for public service.",
+        "source_url": "https://www.erinhouchin.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:37.317Z",
+      "_tier2_search_attempted_at": "2026-08-22T15:24:49.427Z",
+      "platform_video_tier": 2
+    },
+    {
+      "slug": "tonya-hudson",
+      "full_name": "HUDSON, TONYA L",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN09317",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1719.26,
+        "totalSpent": 1472.78,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 959.86,
+          "largeDollar": 487,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 272.4
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Indiana",
+          "source_url": "https://tonyaforcongress.com/photo-gallery/102-2/bio-tonya-millis/",
+          "snippet": "As a native of Indiana , born and raised",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Real Estate Broker for 21 years; worked five years at Brown County High School as an Aid in the Nurse s office prior to getting Real Estate License in 2005",
+          "source_url": "https://tonyaforcongress.com/photo-gallery/102-2/bio-tonya-millis/",
+          "snippet": "I have been a Real Estate Broker for 21 years. Prior to getting my Real Estate License in 2005, I worked five years at Brown County High School as an Aid in the Nurse s office.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Balanced Budget",
+          "value": "A balanced budget is required",
+          "snippet": "A balanced budget is required!"
+        },
+        {
+          "topic": "IRS and Tax System",
+          "value": "Abolish the IRS and move forward to a system similar to a FAIR tax/sales tax",
+          "snippet": "Abolish the IRS and move forward to a system similar to a FAIR tax/sales tax"
+        },
+        {
+          "topic": "Debt Reduction",
+          "value": "With sensible appropriations by Congress, we can roll back the high debt",
+          "snippet": "With sensible appropriations by Congress, we can roll back the high debt."
+        },
+        {
+          "topic": "Small Business and Regulation",
+          "value": "Roll back the burdensome red tape, costly fees and pesky rules that harm Small Business, Farmers, and Entrepreneurs",
+          "snippet": "R oll back the burdensome red tape, costly fees and pesky rules that harm Small Business, Farmers, and Entrepreneurs."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Protect the 2nd Amendment and the People's right to bear arms",
+          "snippet": "I will protect the 2nd Amendment and the People s right to bear arms."
+        },
+        {
+          "topic": "Constituent Accessibility",
+          "value": "Leaders should answer questions, hold town halls, and be accessible to the people",
+          "snippet": "I believe leaders should answer questions, hold town halls, and be accessible to the people."
+        }
+      ],
+      "platform_source_url": "https://tonyaforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T19:21:24.328Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I believe leaders should answer questions, hold town halls, and be accessible to the people.",
+        "source_url": "https://tonyaforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:39.082Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:09.031Z"
+    },
+    {
+      "slug": "bradley-meyer",
+      "full_name": "MEYER, BRADLEY ALLEN MR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN09242",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 105510.44,
+        "totalSpent": 81900.61,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 21487.38,
+          "largeDollar": 72681.2,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 11339.03
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Brownsburg, Indiana",
+          "source_url": "https://ballotpedia.org/Brad_Meyer",
+          "snippet": "Brad Meyer was born in Brownsburg, Indiana."
+        },
+        "college": {
+          "value": "Purdue University (bachelor's degree); Purdue University Indianapolis (graduate degree)",
+          "source_url": "https://ballotpedia.org/Brad_Meyer",
+          "snippet": "Meyer earned a bachelor's degree from Purdue University and a graduate degree from Purdue University in Indianapolis."
+        },
+        "employment_record": {
+          "value": "Local manufacturing; civilian engineer, Crane Naval Sea Systems Command",
+          "source_url": "https://ballotpedia.org/Brad_Meyer",
+          "snippet": "His career experience includes working in local manufacturing and serving as a civilian engineer for Crane Naval Sea Systems Command."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-22T15:24:49.954Z"
+    },
+    {
+      "slug": "floyd-taylor",
+      "full_name": "TAYLOR, FLOYD",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN09283",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 9585.63,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "For over 25 years, career has been about building and securing complex systems for community internet, the military, education, and government; long-time local business owner in Southern Indiana",
+          "source_url": "https://floyd2026.com/",
+          "snippet": "For over 25 years, my career has been about building and securing complex systems for community internet, the military, education, and government. I know how to design transparent processes and protect critical infrastructure. As a cancer survivor and a long-time local business owner in Southern Indiana",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Funding",
+          "value": "Will accept no PAC money or mega-donors",
+          "snippet": "No PAC money or Mega-Donors"
+        },
+        {
+          "topic": "Party Independence",
+          "value": "Will operate with no party affiliation, with decisions shaped only by verified constituent input rather than party leadership",
+          "snippet": "No party, no PACs, no handlers — decisions shaped only by verified constituent input"
+        },
+        {
+          "topic": "Governing Principles",
+          "value": "Will be guided by fiscal discipline, local control, radical transparency, and accountability to all constituents",
+          "snippet": "this campaign is founded on unshakeable principles: fiscal discipline, local control, radical transparency, and accountability to all constituents—not a party"
+        }
+      ],
+      "platform_source_url": "https://floyd2026.com/",
+      "_platform_resolved_at": "2026-08-12T19:20:48.128Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "For over 25 years, my career has been about building and securing complex systems for community internet, the military, education, and government. I know how to design transparent processes and protect critical infrastructure. As a cancer survivor and a long-time local business owner in Southern Indiana, I also know what it means to face challenges head-on and deliver solutions that last.",
+        "source_url": "https://floyd2026.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:31.552Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:09.394Z"
+    }
+  ]
+}

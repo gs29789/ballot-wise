@@ -1,0 +1,1068 @@
+{
+  "state": "DE",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-AL",
+  "generated_at": "2026-08-18T20:09:02.762Z",
+  "election_dates": {
+    "primaryDate": "2026-09-15",
+    "primarySourceUrl": "https://elections.delaware.gov/",
+    "primarySnippet": "Primary Election September 15, 2026 General Election November 3, 2026",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://elections.delaware.gov/",
+    "generalSnippet": "Primary Election September 15, 2026 General Election November 3, 2026"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Delaware exempts candidates for federal office",
+    "source_url": "https://elections.delaware.gov/candidates/pdfs/CandidateBackgroundCheckInfoSheet.pdf",
+    "snippet": "NOTICE: Delaware law does not require Background Checks for Candidates for Federal Office and City of Wilmington Office"
+  },
+  "voting_system": null,
+  "primary_results": null,
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 32.15
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 29.81
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.72
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 27
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 24.81
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 498
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 497
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 494.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 495.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 495
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 495.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 494.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 492.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 492.8
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 494.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 496
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 496.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 496.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 497.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 496.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 495.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 495.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 495.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 495.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 495.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 494.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 494.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 492.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 491
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 490.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 490.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 490
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 489.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 487.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 486.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 487.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 485.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 485.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 485.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 485.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 484.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 485
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 483
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 480.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 480.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 481.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 480.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 11193370538.39,
+        "perCapitaUsd": 11155.62
+      },
+      {
+        "year": "2024",
+        "totalUsd": 11550338414.86,
+        "perCapitaUsd": 11511.38
+      },
+      {
+        "year": "2025",
+        "totalUsd": 12397346602.9,
+        "perCapitaUsd": 12355.54
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1018396
+      },
+      {
+        "year": "2023",
+        "population": 1031890
+      },
+      {
+        "year": "2024",
+        "population": 1051917
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 82174
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 81361
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 87534
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "joseph-arminio",
+      "full_name": "ARMINIO, JOSEPH DR. JOE PH.D.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6DE01121",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Wilmington, Delaware",
+          "source_url": "https://drjoeforcongress.com/about",
+          "snippet": "Born and raised in Wilmington, Delaware",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "Chaired National Coalition for Defense 1996-2000",
+          "source_url": "https://drjoeforcongress.com/about",
+          "snippet": "From 1996 to 2000, I chaired the National Coalition for Defense, whose board numbered 45 major personages, representing every branch of military service and intelligence",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Champion the American Prosperity Plan to restore 1950s economic growth and reduce dependence on the petrodollar system",
+          "snippet": "I champion the American Prosperity Plan, a comprehensive reform that will restore, if not exceed, 1950s economic growth and reduce our dangerous dependence on the petrodollar system."
+        },
+        {
+          "topic": "Foreign Policy - Iran",
+          "value": "Publicly opposed attacking Iran, even prior to February 28",
+          "snippet": "I have publicly opposed attacking Iran, even prior to February 28"
+        },
+        {
+          "topic": "Foreign Policy - Israel/Palestine",
+          "value": "Support steering Israel toward the Two-State Solution",
+          "snippet": "support steering Israel toward the Two-State Solution"
+        },
+        {
+          "topic": "Education",
+          "value": "Mandate formal debate for grades 9–12, drawing from primary sources and harvesting the full spectrum of perspectives, and teach critical thinking and unfiltered economic history",
+          "snippet": "I stand for teaching critical thinking and unfiltered economic history — including mandating formal debate for grades 9–12, drawing from primary sources and harvesting the full spectrum of perspectives."
+        },
+        {
+          "topic": "Constitution and Second Amendment",
+          "value": "Will uphold the Second Amendment and every other constitutional provision, without exception",
+          "snippet": "I will uphold the Second Amendment and every other provision, without exception."
+        },
+        {
+          "topic": "Immigration",
+          "value": "End sanctuary cities and enforce the law",
+          "snippet": "I agree with President Trump: end sanctuary cities and enforce the law."
+        },
+        {
+          "topic": "Citizen Engagement",
+          "value": "Pledge to enter Congress with hundreds of concerned citizens in formal support, utilizing dozens of citizen study groups drawing from every point of view",
+          "snippet": "I pledge to enter Congress with hundreds of concerned citizens in formal support, utilizing dozens of citizen study groups drawing from every point of view."
+        }
+      ],
+      "platform_source_url": "https://drjoeforcongress.com/",
+      "_platform_resolved_at": "2026-08-05T22:36:34.351Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:04:46.380Z",
+      "bio_summary": {
+        "value": "Delaware deserves a representative who sees the world clearly and acts accordingly. But the incumbent helps perpetuate our two biggest problems: our failing economy and endless wars; promotes infernal, offshore wind turbines and, in sum, lets down Main Street. In stark contrast, I stand for bold, populist, detailed economic and geopolitical solutions, among other excellent policies. To be exact, I am America First and stand for Main Street Rising!",
+        "source_url": "https://drjoeforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:10.740Z"
+    },
+    {
+      "slug": "owen-carlson",
+      "full_name": "CARLSON, OWEN NICHOLAS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6DE01113",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:04:46.758Z",
+      "_no_site_search_attempted_at": "2026-08-22T15:27:16.655Z"
+    },
+    {
+      "slug": "earl-cooper",
+      "full_name": "COOPER, EARL L",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4DE01092",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Transgender Athletes in Sports",
+          "value": "Boys should not be competing in girls' sports",
+          "snippet": "Let me be clear: boys should not be competing in girls' sports!"
+        },
+        {
+          "topic": "Senior Services",
+          "value": "Will launch a person-to-person Senior Access Hotline on first day in office so every senior can speak to a real human being about their concerns",
+          "snippet": "On my first day in office, I will launch a person-to-person Senior Access Hotline so every senior can speak to a real human being about their concerns, not a machine or endless paperwork."
+        },
+        {
+          "topic": "Small Business and Economic Growth",
+          "value": "Work with local communities using intervention and small-business support to remove barriers that hold back economic growth in Delaware",
+          "snippet": "As a state, we must work hand-in-hand with our local communities—using real ideas of intervention and small-business support—to remove the barriers that can holds back economic growth in Delaware."
+        }
+      ],
+      "platform_source_url": "https://earlcooperforcongress.com/",
+      "_platform_resolved_at": "2026-08-05T22:36:18.770Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:04:47.196Z",
+      "bio_summary": {
+        "value": "Guided by faith, committed to family, and ready to fight for Delaware.",
+        "source_url": "https://earlcooperforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:12.653Z"
+    },
+    {
+      "slug": "donyale-hall",
+      "full_name": "HALL, DONYALE LONDON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4DE00060",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 768.96,
+        "totalSpent": 528.23,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 668.96,
+          "largeDollar": 100,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Caesar Rodney High School, graduated 1987",
+          "source_url": "https://donyalefordelaware.com/",
+          "snippet": "Donyale is a 1987 graduate of Caesar Rodney High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Majored in Electrical Engineering at The Citadel Military College of South Carolina; MBA with emphasis in finance from Wilmington University in 2008",
+          "source_url": "https://donyalefordelaware.com/",
+          "snippet": "From 1990-94, in support of operation Desert Shield/Desert Storm, she served the Air Force in Avionics as a Communications/Navigations Systems Specialist and majored in Electrical Engineering at The Citadel Military College of South Carolina, in her off-duty hours. In 2008, Donyale received her MBA, with an emphasis in finance, from Wilmington University",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Minority Contractors & Associates, LLC, Owner (Present); Catering Service, Owner; US Air Force; U.S. Department of Labor, Program Specialist",
+          "source_url": "https://www.ballotready.org/people/donyale-hall",
+          "snippet": "Professional Experience Minority Contractors & Associates, LLC, Owner (Present) Catering Service, Owner US Air Force U.S. Department of Labor, Program Specialist",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Dover City Council - Ward 2 (holds office until April 15, 2029)",
+          "source_url": "https://www.ballotready.org/people/donyale-hall",
+          "snippet": "Currently holds the office of Dover City Council - Ward 2 until April 15, 2029",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy and Jobs",
+          "value": "Lower costs, more jobs, less wasteful spending in Washington. Will cut wasteful spending in Washington, help create more good-paying jobs, and lower costs and inflation.",
+          "snippet": "Lower costs, more jobs, less wasteful spending in Washington. Working families in Delaware are struggling to get by. Donyale will use her business and accounting experience to cut the wasteful spending in Washington, help create more good-paying jobs here at home, and lower costs and inflation so that everyone has a better chance to succeed."
+        },
+        {
+          "topic": "Education",
+          "value": "Improve education system, support parents and teachers, and expand school choice. Will invest in teachers and classrooms, reduce overtesting and bureaucracy, put decision-making back into parents' hands, and ensure every child has access to an educational situation that sets them up for success.",
+          "snippet": "Improve our education system, support parents and teachers, and expand school choice. Delaware consistently ranks either last or near last in K-12 education. Donyale believes that is unacceptable–and if we want different results, we have to elect different leaders. We can improve our education system by investing in our teachers and classrooms, reducing overtesting and bureaucracy, putting decision-making process back into the hands of parents, and making sure every single child has access to an educational situation that sets them up for success."
+        }
+      ],
+      "platform_source_url": "https://donyalefordelaware.com/",
+      "_platform_resolved_at": "2026-08-05T14:54:54.947Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10063542.pdf",
+        "filingDate": "3/15/2025",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-05T22:36:49.726Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:04:47.569Z",
+      "bio_summary": {
+        "value": "Donyale Hall is a businesswoman, mother and a Gulf War Era Veteran of the United States Air Force. She moved to Dover in 1973, when her father was assigned to Dover Air Force Base. Donyale is a 1987 graduate of Caesar Rodney High School and has raised her own family here. Of her ten children, five are CR graduates. Three are graduates of the Early College High School at Delaware State University. The youngest two are currently middle schoolers. Two sons proudly carry on the family legacy of military service as members of the United States Air Force and Navy.",
+        "source_url": "https://donyalefordelaware.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:20.488Z"
+    },
+    {
+      "slug": "sarah-mcbride",
+      "full_name": "MCBRIDE, SARAH ELIZABETH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4DE00045",
+      "fec_status": "C",
+      "bioguide_id": "M001238",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4659086.4,
+        "totalSpent": 2208285.13,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1215996.71,
+          "largeDollar": 2801850.74,
+          "pac": 413400,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1990-08-09",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+          "snippet": "Sarah Elizabeth McBride (born August 9, 1990)"
+        },
+        "birthplace": {
+          "value": "Wilmington, Delaware",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+          "snippet": "Sarah McBride was born in Wilmington, Delaware, to David and Sally McBride on August 9, 1990."
+        },
+        "college": {
+          "value": "American University",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+          "snippet": "attended American University in Washington, D.C.; she earned a bachelor's degree in 2013"
+        },
+        "high_school": {
+          "value": "Cab Calloway School of the Arts",
+          "source_url": "https://sarahmcbride.com/about/",
+          "snippet": "She is a graduate of Cab Calloway School of the Arts and American University."
+        },
+        "marital_status": {
+          "value": "Widowed (husband Andrew Cray, married 2014)",
+          "source_url": "https://sarahmcbride.com/about/",
+          "snippet": "Sarah married her late husband, Andrew Cray in 2014 and is the proud aunt of seven."
+        },
+        "employment_record": {
+          "value": "National press secretary of the Human Rights Campaign (2016-2021); Delaware State Senator (2020-2025); U.S. Representative for Delaware's at-large congressional district (2025-present)",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+          "snippet": "A member of the Democratic Party, she served in the Delaware Senate from 2021 to 2025, representing the state's 1st senate district. Prior, she was the national press secretary of the Human Rights Campaign from 2016 to 2021."
+        },
+        "civic_affiliations": {
+          "value": "Board of directors of Equality Delaware (joined January 2013); co-founder of Delaware's Young Democrats Movement",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+          "snippet": "In January 2013, McBride joined the board of directors of Equality Delaware and quickly became the state's leading advocate for legal protections and hate crime legislation for transgender Delawareans."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Health Care",
+          "value": "Supports expanding health care access and bringing down costs",
+          "snippet": "expanding health care access and bringing down costs"
+        },
+        {
+          "topic": "Economy",
+          "value": "Supports investing in an economy that benefits workers and families",
+          "snippet": "investing in an economy that benefits workers and families"
+        },
+        {
+          "topic": "Criminal Justice",
+          "value": "Supports reforming our criminal justice system",
+          "snippet": "reforming our criminal justice system"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Will always stand up for the promises made to workers after a lifetime of hard work",
+          "snippet": "Sarah McBride will always stand up for the promises made to workers after a lifetime of hard work"
+        }
+      ],
+      "platform_source_url": "https://www.sarahmcbride.com/",
+      "_platform_resolved_at": "2026-08-05T14:51:39.464Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=ae-mdm9ATB8",
+      "platform_video_title": "Promise",
+      "platform_video_source_url": "https://sarahmcbride.com/2024/10/release-senator-john-fetterman-endorses-sarah-mcbride-for-congress-ew5mw-66lzl-b8wm8-n3eg2-khp4k-t4jm5-kjx75-nbat2-3d3f4-j5z9a-e3fh3/",
+      "_platform_video_resolved_at": "2026-08-18T22:37:24.399Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077854.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-05T22:36:53.400Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Research and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Europe",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 10,
+        "bills_cosponsored": 634,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.263,
+          "nominateDim2": -0.374,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001238"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 81.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001238"
+        }
+      },
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Sarah Elizabeth McBride (born August 9, 1990) is an American politician, author, and LGBTQ rights activist serving as the U.S. representative for Delaware's at-large congressional district since 2025. A member of the Democratic Party , she served in the Delaware Senate from 2021 to 2025, representing the state's 1st senate district . Prior, she was the national press secretary of the Human Rights Campaign from 2016 to 2021. [ 2 ] McBride is the nation's highest ranking openly transgender elected official and the first openly transgender member of the United States Congress . [ 3 ] [ 4 ] Her 2024 congressional campaign is the subject of the 2025 documentary State of Firsts . [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Sarah_McBride",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:17:56.647Z"
+    },
+    {
+      "slug": "lee-murphy",
+      "full_name": "MURPHY, LEE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H8DE01044",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Railroad Industry, Conductor/Management; Immaculate Heart of Mary, Teacher",
+          "source_url": "https://www.ballotready.org/people/lee-murphy",
+          "snippet": "Professional Experience Railroad Industry, Conductor/Management Immaculate Heart of Mary, Teacher",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Wasteful Spending",
+          "value": "Control wasteful spending",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        },
+        {
+          "topic": "Economy",
+          "value": "Protect our economy",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        },
+        {
+          "topic": "Government Approach",
+          "value": "Bring a practical approach to government",
+          "snippet": "Throughout my time on the campaign trail, my focus has always been simple: control wasteful spending, protect our economy, and bring a practical approach to government."
+        }
+      ],
+      "platform_source_url": "https://leemurphy2026.com/",
+      "_platform_resolved_at": "2026-08-22T15:27:43.788Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=jq6BlmLolDM",
+      "platform_video_title": "Lee Murphy for Congress - Let's put Delaware on the right track",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-19T11:05:42.993Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-19T11:05:42.993Z",
+      "platform_video_tier": 2,
+      "_no_site_search_attempted_at": "2026-08-22T15:27:37.158Z",
+      "campaign_site_url": "https://leemurphy2026.com/",
+      "bio_summary": {
+        "value": "When I ran for Congress, I did so after spending 35 years working on the railroad at Amtrak. That experience taught me how to listen to regular, hard-working people and gave me a direct look at how disconnected Washington has become from the daily realities facing families across our state. From New Castle County down to the towns of Sussex, voters are tired of standard political theater. They want principled, common-sense leadership. Our party and our state require leaders with genuine backbone.",
+        "source_url": "https://leemurphy2026.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-22T15:27:43.788Z"
+    },
+    {
+      "slug": "john-whalen-iii",
+      "full_name": "WHALEN III, JOHN J",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4DE00078",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 224.18,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "Married to Valerie Leigh (a nurse); three adult sons (John, Matthew, Mark); six grandchildren; resides in Millsboro, Delaware",
+          "source_url": "https://whalende.com/",
+          "snippet": "I am married to Valerie Leigh, a nurse, currently employed at Peninsula Tidal Health Hospital for more than forty years. We have three adult sons, John, Matthew, and Mark, and six grandchildren. My wife and I currently reside in Millsboro, Delaware."
+        },
+        "high_school": {
+          "value": "Thomas McKean High School (graduated 1972)",
+          "source_url": "https://www.ballotready.org/people/john-j-whalen-iii",
+          "snippet": "High School Diploma, McKean High School (1972)"
+        },
+        "college": {
+          "value": "University of Delaware; Delaware Technical & Community College",
+          "source_url": "https://www.wboc.com/elections/election-results/party/republican/john-j-whalen-iii/candidate_ffac8c62-6ea5-11ef-af4b-8bc15d8dcd5d.html",
+          "snippet": "studied political science and history at the University of Delaware ... pursued criminal justice at Delaware Technical & Community College"
+        },
+        "employment_record": {
+          "value": "20 years with the Delaware State Police (K-9 unit, major crimes); founder of a residential construction company in Sussex County",
+          "source_url": "https://www.wboc.com/elections/election-results/party/republican/john-j-whalen-iii/candidate_ffac8c62-6ea5-11ef-af4b-8bc15d8dcd5d.html",
+          "snippet": "Whalen served for 20 years with the Delaware State Police, where he worked in various units, including the K-9 unit and major crimes. After retiring, he founded a residential construction company in Sussex County."
+        },
+        "birthplace": {
+          "value": "Wilmington, Delaware",
+          "source_url": "https://whalende.com/",
+          "snippet": "The first of four siblings born to John and Theresa Whalen of Wilmington, Delaware",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "Congress should insist that the Executive Branch enforce immigration laws, specifically requiring detention of all illegal aliens as mandated by 8 USC 1225",
+          "snippet": "Biden's \"catch and release\" policy is in direct violation of 8 USC 1225 which requires the detention of all illegal aliens. Congress should insist that the Executive Branch enforce our laws. It's a matter of national security."
+        },
+        {
+          "topic": "Federal Spending and Debt",
+          "value": "Opposes deficit spending at current pace and questions borrowing money to support foreign wars, institutions with large endowments, failed government agencies, and illegal aliens",
+          "snippet": "Its time for Congress to start asking the tough questions: Why are Americans being asked to borrow money to support foreign wars. Why are we supporting institutions of higher learning that are sitting on millions of dollars in endowments. Why do we continue to spend billions of dollars funding government agencies that have failed to perform the duties for which they were formed. Why did Congress remove the self-imposed \"debt ceiling\". Why are Americans being asked to spend billions to support illegal aliens."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Pro-life, with considerations for victims of incest and rape, and when mother's life is in question the decision should be based on sound medical advice with mother's consent",
+          "snippet": "You should know that I am \"Pro Life\", and that I consider the abortion issue to be one of morality, and not politics. I do believe that certain considerations should be given to victims of incest and rape. When a mother's life is in question, the decision to abort the fetus should be based on sound medical advice, and with the consent of the mother."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Believes the right to keep and bear arms shall not be infringed",
+          "snippet": "I believe, \"the right of the people to keep and bear arms, shall not be infringed\"."
+        },
+        {
+          "topic": "Ukraine War",
+          "value": "Views the war as a European issue where the European Union should play a bigger role; would find it hard to ask Americans to borrow money to fight another war in Europe",
+          "snippet": "Although I hope Ukraine is successful in defending its country against the Russian invasion, I view the war as a European issue. The European Union, not just the NATO countries, should play a bigger role in defending their countries against Russian aggression. Americans have already spent too much blood and treasure fighting European wars. The Great War and what latter became known as World War II. I would find it hard to ask Americans to \"borrow\" money to fight another war in Europe."
+        },
+        {
+          "topic": "Israel Conflict",
+          "value": "Does not support putting boots on the ground but favors sending Israel material support in their efforts to defeat those who invaded their country",
+          "snippet": "I do not support putting boots on the ground. The question that needs to be asked, under whose authority were the troops deployed. Biden has proved to the America people that he is not capable of making such decision. I am in favor of sending Israel material support in their efforts to defeat those who invaded their country."
+        }
+      ],
+      "platform_source_url": "https://whalende.com/",
+      "_platform_resolved_at": "2026-08-05T14:55:13.588Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116204.pdf",
+        "filingDate": "6/26/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-05T22:36:57.308Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-20T12:04:47.997Z",
+      "bio_summary": {
+        "value": "John Whalen III lives in Millsboro, Delaware. Whalen graduated from Thomas McKean High School in 1972. His career experience includes working with the Delaware Department of Public Safety, Division of State Police for 20 years. Whalen also established his own residential construction company.",
+        "source_url": "https://ballotpedia.org/John_Whalen_III_(Delaware)",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:18:16.187Z"
+    }
+  ]
+}

@@ -1,0 +1,790 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-34",
+  "generated_at": "2026-08-21T13:14:56.402Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_34th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jimmy Gomez and Angela Gonzales-Torres are running in the general election for U.S. House California District 34 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jimmy-gomez",
+      "full_name": "GOMEZ, JIMMY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CA34266",
+      "fec_status": "C",
+      "bioguide_id": "G000585",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1175128.2,
+        "totalSpent": 482161.47,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 12049.85,
+          "largeDollar": 638516.9,
+          "pac": 521111.6,
+          "party": 32.68,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1974-11-25",
+          "source_url": "https://www.wikidata.org/wiki/Q6200205",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Fullerton, California",
+          "source_url": "https://www.wikidata.org/wiki/Q6200205",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Los Angeles",
+          "source_url": "https://www.wikidata.org/wiki/Q6200205",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Mary",
+          "source_url": "https://jimmygomezforcongress.com/bio/",
+          "snippet": "Jimmy lives in Eagle Rock with his wife Mary and their toddler son, Hodge",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Worked at Subway and Target after high school, was a staffer for former U.S. Representative Hilda Solis, and was a labor organizer",
+          "source_url": "https://en.wikipedia.org/wiki/Jimmy_Gomez",
+          "snippet": "After graduating from high school, without any plans to attend college, Gomez worked at Subway and Target . [ 13 ] He eventually attended Riverside Community College and earned his Bachelor of Arts in political science with a minor in urban planning from the University of California, Los Angeles . He received his Master of Arts in public policy from the Harvard Kennedy School . [ 14 ] Gomez was a staffer for former U.S. Representative Hilda Solis . [ 15 ] He was also a labor organizer.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Medicare for All",
+          "value": "He is an outspoken leader in the fight for Medicare for All and is a co-sponsor of Medicare For All",
+          "snippet": "Since day one, Jimmy has been an outspoken leader in the fight for Medicare for All and the Green New Deal"
+        },
+        {
+          "topic": "Green New Deal",
+          "value": "He is an outspoken leader in the fight for the Green New Deal",
+          "snippet": "Since day one, Jimmy has been an outspoken leader in the fight for Medicare for All and the Green New Deal"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "He fights to protect Obamacare and preserve vital health care funding",
+          "snippet": "I trust Jimmy Gomez to fight to protect Obamacare and preserve vital health care funding for our families"
+        },
+        {
+          "topic": "LA River Restoration and Climate Change",
+          "value": "He worked to secure federal funds to restore the LA River and combat climate change",
+          "snippet": "Congressman Jimmy Gomez and I worked together to secure federal funds to restore the LA River and combat climate change"
+        },
+        {
+          "topic": "Citizenship Education",
+          "value": "He worked to increase citizenship education to help the next generation of immigrants become U.S. citizens",
+          "snippet": "increase citizenship education to help the next generation of immigrants become U.S. citizens"
+        }
+      ],
+      "platform_source_url": "https://jimmygomezforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:38:31.139Z",
+      "campaign_site_url": "https://jimmygomezforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=qcTsNOtgors",
+      "platform_video_title": "Jimmy Gomez - Stand With You",
+      "platform_video_source_url": "https://jimmygomezforcongress.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-18T22:08:07.141Z",
+      "bio_summary": {
+        "value": "Jimmy Gomez is a dad, educator, renters’ advocate, former union organizer, and your United States Representative. His progressive record speaks for itself—he is a fierce advocate for renters and working families, and he delivers real results for Los Angeles.",
+        "source_url": "https://jimmygomezforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:20.289Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076526.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:04:53.797Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Tax",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Work and Welfare",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Central Intelligence Agency",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — National Intelligence Enterprise",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 87,
+        "bills_cosponsored": 1700,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the \"Dosan Ahn Chang Ho Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "599",
+            "publicLawNumber": "118-108",
+            "summary": "This act redesignates the facility of the U.S.&nbsp;Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the Dosan Ahn Chang Ho Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ108"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 2016 East 1st Street in Los Angeles, California, as the \"Marine Corps Reserve PVT Jacob Cruz Post Office\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "5900",
+            "publicLawNumber": "117-283",
+            "summary": "This act designates the facility of the United States Postal Service located at 2016 East 1st Street in Los Angeles, California, as the Marine Corps Reserve PVT Jacob Cruz Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ283"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.532,
+          "nominateDim2": -0.258,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000585"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 3.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000585"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "angela-gonzales-torres",
+      "full_name": "GONZALES-TORRES, ANGELA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA34286",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 228724.03,
+        "totalSpent": 184654.45,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 107778.89,
+          "largeDollar": 113102.64,
+          "pac": 7725,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Los Angeles",
+          "source_url": "https://www.angela4congress.com/",
+          "snippet": "Angela Gonzales-Torres is a lifelong Angeleno",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "community organizer",
+          "source_url": "https://www.angela4congress.com/",
+          "snippet": "Her path from community organizer to congressional candidate",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Highland Park Neighborhood Council, Councilmember",
+          "source_url": "https://www.ballotready.org/people/angela-gonzales-torres",
+          "snippet": "Professional Experience Highland Park Neighborhood Council, Councilmember",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability",
+          "value": "Fighting for working people",
+          "snippet": "Affordability: Fighting for working people"
+        },
+        {
+          "topic": "Taxation and Investment",
+          "value": "Equitably taxing & investing",
+          "snippet": "Accountability: Equitably taxing & investing"
+        },
+        {
+          "topic": "Education",
+          "value": "Funding education & youth programs",
+          "snippet": "Access: Funding education & youth programs"
+        },
+        {
+          "topic": "Immigration Enforcement",
+          "value": "Ending ICE",
+          "snippet": "Abolition: Ending ICE & for-profit prisons"
+        },
+        {
+          "topic": "Criminal Justice",
+          "value": "Ending for-profit prisons",
+          "snippet": "Abolition: Ending ICE & for-profit prisons"
+        }
+      ],
+      "platform_source_url": "https://www.angela4congress.com/",
+      "_platform_resolved_at": "2026-08-15T11:37:51.780Z",
+      "campaign_site_url": "https://www.angela4congress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Angela Gonzales-Torres is a lifelong Angeleno, the daughter of a deportee, and an equity and justice advocate. Her path from community organizer to congressional candidate reflects a strong commitment to uplifting immigrant and working families like her own.",
+        "source_url": "https://www.angela4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:17.260Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

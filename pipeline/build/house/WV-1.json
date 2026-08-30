@@ -1,0 +1,782 @@
+{
+  "state": "WV",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-14T13:00:33.423Z",
+  "election_dates": {
+    "primaryDate": "2026-05-12",
+    "primarySourceUrl": "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-5-1/",
+    "primarySnippet": "Primary elections shall be held at the voting place in each of the voting precincts in the state, for the purposes set forth in this article, on the second Tuesday in May in the year one thousand nine hundred eighty-six and in each second year thereafter. (W. Va. Code §3-5-1)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-1-31/",
+    "generalSnippet": "General elections shall be held in the several election precincts of the state on the Tuesday next after the first Monday in November of each even year. (W. Va. Code §3-1-31(a))"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "West Virginia's felon-disqualification-from-office provision (W. Va. Const. art. IV, §4-4, read together with the felony-voting disqualification in §4-1) is explicitly limited on its own text to 'any state, county or municipal office' — it does not by its own terms reach federal congressional candidacy. Because the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) are exclusive and states cannot add qualifications for Congress beyond them (U.S. Term Limits, Inc. v. Thornton, 1995), a felony conviction alone does not appear to bar a WV candidate from running for U.S. House or Senate. This reading is corroborated by a state official's public statement: WV Secretary of State's deputy general counsel told a reporter that a felony January 6-related conviction did not disqualify a 2026 WV congressional candidate (Derrick Evans) from running, because it was not a treason/insurrection conviction and WV's felon disqualification is a voting/state-office matter, not a bar on federal candidacy. Some genuine ambiguity remains because no WV court appears to have tested this specific provision against a congressional candidacy.",
+    "source_url": "https://law.justia.com/constitution/west-virginia/",
+    "snippet": "W. Va. Const. Art. IV, § 4-4: \"No person, except citizens entitled to vote, shall be elected or appointed to any state, county or municipal office...\" § 4-1: \"...no person who is a minor, or who has been declared mentally incompetent by a court of competent jurisdiction, or who is under conviction of treason, felony or bribery in an election... shall be permitted to vote...\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/West_Virginia's_1st_Congressional_District_election,_2026",
+    "snippet": "General election for U.S. House West Virginia District 1 — Incumbent Carol Miller, Vince George, Belinda Fox-Spencer, and Isaiah Rucker are running in the general election for U.S. House West Virginia District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.43
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.96
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.41
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 719.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 728.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 717.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 716.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 715.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 716.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 716.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 716.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 717.1
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 717.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 718.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 718.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 717.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 719.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 717.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 718.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 718.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 713.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 718
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 719.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 717.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 717.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 718.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 717.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 718.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 728.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 719.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 717.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 717.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 716.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 715.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 713.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 712.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 711.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 708.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 707.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 711.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 706.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 706.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 706.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 707.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 706.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7712573319.84,
+        "perCapitaUsd": 8560.21
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8670961093.82,
+        "perCapitaUsd": 9623.93
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8453843089.31,
+        "perCapitaUsd": 9382.95
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1775156
+      },
+      {
+        "year": "2023",
+        "population": 1770071
+      },
+      {
+        "year": "2024",
+        "population": 1769979
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 54329
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 55948
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 60798
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "vincent-george",
+      "full_name": "GEORGE, VINCENT RAYMOND MR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WV01160",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 258330,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1480,
+          "largeDollar": 16850,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 240000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Cincinnati",
+          "source_url": "https://www.vincegeorgeforcongress.com/about",
+          "snippet": "I was born in Cincinnati, and our family came back home to Dunbar in 1958.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "George Washington High School",
+          "source_url": "https://www.vincegeorgeforcongress.com/about",
+          "snippet": "And once I graduated from George Washington High School, I studied political science and commerce and cheered for the Mountaineers at West Virginia University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "West Virginia University, studied political science and commerce",
+          "source_url": "https://www.vincegeorgeforcongress.com/about",
+          "snippet": "And once I graduated from George Washington High School, I studied political science and commerce and cheered for the Mountaineers at West Virginia University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "card-carrying member of what was then called the West Virginia Education Association; retired union member of the American Federation of State, County & Municipal Employees",
+          "source_url": "https://www.vincegeorgeforcongress.com/about",
+          "snippet": "I was a card-carrying member of what was then called the West Virginia Education Association. I am also a retired union member of the American Federation of State, County & Municipal Employees.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Expanding affordable healthcare access, including a Medicare-for-All option",
+          "snippet": "Expanding affordable healthcare access, including a Medicare-for-All option"
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Doubling the minimum wage to reflect real cost-of-living needs",
+          "snippet": "Doubling the minimum wage to reflect real cost-of-living needs"
+        },
+        {
+          "topic": "Clean Water",
+          "value": "Ensuring every West Virginian has clean water",
+          "snippet": "Ensuring every West Virginian has clean water"
+        },
+        {
+          "topic": "Foreign Policy",
+          "value": "Ending expensive forever wars, and instead investing those resources back into our communities",
+          "snippet": "Ending expensive forever wars, and instead investing those resources back into our communities"
+        }
+      ],
+      "platform_source_url": "https://www.vincegeorgeforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T12:59:39.726Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Hi there! My name's Vince George, and I'm a public servant, former teacher, and community advocate running for Congress to advocate for working class West Virginians. For too long, our communities' needs have been ignored. Minimum wage has stayed at $8.75. Jobs have disappeared. Hospitals are closing. And more families are struggling to put food on the table.",
+        "source_url": "https://www.vincegeorgeforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:18.352Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:36.038Z"
+    },
+    {
+      "slug": "carol-miller",
+      "full_name": "MILLER, CAROL DEVINE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8WV03097",
+      "fec_status": "C",
+      "bioguide_id": "M001205",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1746897.71,
+        "totalSpent": 1382060.71,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2970.84,
+          "largeDollar": 497453.29,
+          "pac": 1232138.58,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1950-11-04",
+          "source_url": "https://www.wikidata.org/wiki/Q16145531",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Columbus, Delaware",
+          "source_url": "https://www.wikidata.org/wiki/Q16145531",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Bexley High School",
+          "source_url": "https://www.wikidata.org/wiki/Q16145531",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - West Virginia 1st Congressional District (2023 - Present); Swann Ridge Bison Farm, Owner And Operator (Present); US House of Representatives, Representative - West Virginia 3rd Congressional District (2019 - 2023); West Virginia House of Delegates, Delegate (2006 - 2018)",
+          "source_url": "https://www.ballotready.org/people/carol-miller",
+          "snippet": "US House of Representatives, Representative - West Virginia 1st Congressional District (2023 - Present) Swann Ridge Bison Farm, Owner And Operator (Present) US House of Representatives, Representative - West Virginia 3rd Congressional District (2019 - 2023) West Virginia House of Delegates, Delegate (2006 - 2018)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027078.pdf",
+        "filingDate": "4/22/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T13:00:29.756Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 259,
+          "attendanceRate": 0.9151943462897526
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 98,
+        "bills_cosponsored": 974,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.53,
+          "nominateDim2": 0.109,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001205"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 96.3,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001205"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:36.376Z",
+      "bio_summary": {
+        "value": "Carol Miller (née Devine ; born November 4, 1950) is an American politician, educator, and farmer serving as the U.S. representative for West Virginia's 1st congressional district since 2023. A member of the Republican Party , she previously represented the 3rd district from 2019 to 2023, prior to redistricting. Her district covers the southern half of West Virginia , including the cities of Beckley , Bluefield , Charleston , and Huntington . Miller represented the 15th district in the West Virginia House of Delegates from 2007 to 2013, and the 16th district from 2013 to 2019. [ 1 ] [ 2 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Carol_Miller_(politician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:00.951Z"
+    },
+    {
+      "slug": "isaiah-rucker",
+      "full_name": "RUCKER, ISAIAH PATRICK MR",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6WV01103",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:36.703Z"
+    }
+  ]
+}

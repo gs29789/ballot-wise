@@ -1,0 +1,216 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-26",
+  "generated_at": "2026-08-18T19:58:53.073Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_26th_Congressional_District_election,_2026",
+    "snippet": "Jacqui Irwin and Samuel Gallucci are running in the general election for U.S. House California District 26 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "samuel-gallucci",
+      "full_name": "GALLUCCI, SAMUEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA26241",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 377077.94,
+        "totalSpent": 343397.33,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9352.08,
+          "largeDollar": 135205.41,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 232520.45
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Samuel Gallucci ( Republican Party ) is running for election to the U.S. House to represent California's 26th Congressional District . He is on the ballot in the general election on November 3, 2026 . He advanced from the primary on June 2, 2026 . ",
+        "source_url": "https://ballotpedia.org/Samuel_Gallucci",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:10:06.172Z"
+    },
+    {
+      "slug": "jacqui-irwin",
+      "full_name": "IRWIN, JACQUI V",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA26266",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 822382.31,
+        "totalSpent": 526903.83,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 17494,
+          "largeDollar": 634338.31,
+          "pac": 164050,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1962-01-03",
+          "source_url": "https://www.wikidata.org/wiki/Q18687938",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Encino, California",
+          "source_url": "https://www.wikidata.org/wiki/Q18687938",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, San Diego",
+          "source_url": "https://www.wikidata.org/wiki/Q18687938",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "mother",
+          "source_url": "https://jacquiirwin.com/",
+          "snippet": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "engineer",
+          "source_url": "https://jacquiirwin.com/",
+          "snippet": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "community leader with two decades of leadership in our community",
+          "source_url": "https://jacquiirwin.com/",
+          "snippet": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Job Creation",
+          "value": "Works to help create jobs",
+          "snippet": "Jacqui Irwin works to help create jobs, balance our local and state budgets, and she works to keep our communities safe."
+        },
+        {
+          "topic": "Budget",
+          "value": "Balance our local and state budgets",
+          "snippet": "Jacqui Irwin works to help create jobs, balance our local and state budgets, and she works to keep our communities safe."
+        }
+      ],
+      "platform_source_url": "https://jacquiirwin.com/",
+      "_platform_resolved_at": "2026-08-17T06:30:39.837Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074581.pdf",
+        "filingDate": "5/1/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T11:27:57.092Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community. Jacqui Irwin works across party lines to help create jobs, balance our local and state budgets, and she works to keep our communities safe. Jacqui Irwin was first elected in 2014 to represent California’s 44th Assembly District, which included the cities of Camarillo, Moorpark, Oxnard, Port Hueneme, Thousand Oaks, Westlake Village and the communities of Casa Conejo, Channel Islands Beach, El Rio, Lake Sherwood, Oak Park, and Santa Rosa Valley.",
+        "source_url": "https://jacquiirwin.com/about-jacqui"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:23:34.123Z"
+    }
+  ]
+}

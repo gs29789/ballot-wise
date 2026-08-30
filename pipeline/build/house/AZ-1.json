@@ -1,0 +1,781 @@
+{
+  "state": "AZ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T19:50:04.271Z",
+  "election_dates": {
+    "primaryDate": "2026-07-21",
+    "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+    "primarySnippet": "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+    "generalSnippet": "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+    "snippet": "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arizona's_1st_Congressional_District_election,_2026",
+    "snippet": "Amish Shah (D), Jay Feely (R), and Monica Alponte (L) are running in the general election for Arizona's 1st Congressional District on November 3, 2026. Open seat: incumbent David Schweikert (R) ran for Governor of Arizona instead of re-election."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.75
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.93
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.75
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.88
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 28.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3283.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3280.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3282.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3274.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3272.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3262.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3253
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3249.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3259
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3259.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3263.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3269.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3278.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3273.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3275.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3268.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3269.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3267.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3255.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3255.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3264.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3257.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3255.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3221.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3209.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3200
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3229.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3218.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3210.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3210.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3195.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3190.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3169.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3167.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3156.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3246133145.22,
+        "perCapitaUsd": 4059.85
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4771148114.64,
+        "perCapitaUsd": 5967.14
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3619302414.08,
+        "perCapitaUsd": 4526.56
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7359197
+      },
+      {
+        "year": "2023",
+        "population": 7431344
+      },
+      {
+        "year": "2024",
+        "population": 7582384
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 74568
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 77315
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81486
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "monica-alponte",
+      "full_name": "ALPONTE, MONICA MARIA",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ01488",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8941.37,
+        "totalSpent": 8307.45,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 35,
+          "largeDollar": 7250,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 1656.3700000000001
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "A retired business owner, writer, and former political TV talk show co-host",
+          "source_url": "https://monicaalponteaz.com/",
+          "snippet": "A retired business owner, writer, and former political TV talk show co-host",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Foreign Aid and Military Intervention",
+          "value": "End all U.S. military and financial aid to foreign entities, reject AIPAC, end foreign lobbying, and adopt a non-interventionist foreign policy with no endless wars",
+          "snippet": "No more sending American taxpayer dollars into endless foreign wars. It's time to put the needs of Americans first. Foreign wars are vehicles for waste, corruption, and money‑laundering war scams."
+        },
+        {
+          "topic": "Taxation and Federal Reserve",
+          "value": "Abolish the IRS, end the Federal Reserve's monopoly on currency, and return stolen trillions directly to American families",
+          "snippet": "Our solution is simple: Abolish the IRS , end the Federal Reserve's monopoly on our currency, and return the stolen trillions directly to the American family."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Secure the border and end incentives for illegal immigration",
+          "snippet": "Live in peace and prosperity, defend our homeland, keep our border secure, and end incentives for illegal immigration"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Steadfast pro-2A commitment and protection of the fundamental right to self-defense",
+          "snippet": "limit government , keep its role confined to protecting constitutional rights , especially the fundamental right to self-defense and a steadfast pro-2A commitment"
+        },
+        {
+          "topic": "Free Speech and Individual Liberty",
+          "value": "Wage an unwavering defense of free speech, freedom of religion, and respect for personal choice; protect individual liberty to let each person live as they choose so long as they don't harm others",
+          "snippet": "wage an unwavering defense of free speech, freedom of religion, and respect for personal choice. I will not take money from AIPAC nor foreign lobbies"
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Overturn Citizens United, reject money from AIPAC and foreign lobbies, and vote solely in the interests of Americans",
+          "snippet": "I will not take money from AIPAC nor foreign lobbies; I will show up and vote solely in the interests of Americans."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Support a U.S. Term Limits Amendment of three (3) two-year House terms and two (2) six-year Senate terms",
+          "snippet": "I pledge that as a member of Congress I will cosponsor and vote for the U.S. Term Limits Amendment of three (3) two-year House terms and two (2) six-year Senate terms and no longer limit."
+        }
+      ],
+      "platform_source_url": "https://monicaalponteaz.com/",
+      "_platform_resolved_at": "2026-08-11T11:43:48.084Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=k8qpvFvPP8s",
+      "platform_video_title": "Bullet racing black dog at dog park (slow-motion) 🐕 (37 seconds)",
+      "platform_video_source_url": "https://monicaalponteaz.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:52.472Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079877.pdf",
+        "filingDate": "5/28/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-11T11:44:15.337Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Monica Alponte is a new voice in the America First movement representing what Americans want: PEACE, LIBERTY, PROSPERITY, NATIONAL SOVEREIGNTY, and to STOP ENDLESS WARS! Raised in a military family, she lived across the country before making Arizona her home 25 years ago. This upbringing gave her deep respect for those who serve and a firsthand understanding of the costs of war, fueling her commitment to a non-interventionist foreign policy that prioritizes peace. A retired business owner, writer, and former political TV talk show co-host, Monica parted ways with the uniparty to champion civil liberties and true individual sovereignty: \"NOT LEFT, NOT RIGHT, JUST FREE.\"",
+        "source_url": "https://monicaalponteaz.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:41:44.294Z"
+    },
+    {
+      "slug": "thomas-feely",
+      "full_name": "FEELY, THOMAS JAMES",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ05190",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2528497.1,
+        "totalSpent": 1734022.22,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 28572.53,
+          "largeDollar": 1249922.68,
+          "pac": 323329.55,
+          "party": 5000,
+          "selfFunded": 330000
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.jayfeelyforcongress.com/issues",
+          "snippet": "As a devoted husband, father and grandfather",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "NFL player",
+          "source_url": "https://www.jayfeelyforcongress.com/issues",
+          "snippet": "Jay Feely earned a reputation in the NFL for his performance on the field",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "charitable work and community involvement",
+          "source_url": "https://www.jayfeelyforcongress.com/",
+          "snippet": "his deep involvement in the community through his charitable work",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Feely is running in Congress in Arizona to fight for border security",
+          "snippet": "Feely is running in Congress in Arizona to fight for border security"
+        },
+        {
+          "topic": "Freedoms",
+          "value": "Feely is running to protect our freedoms",
+          "snippet": "running in Congress in Arizona to fight for border security, protect our freedoms"
+        },
+        {
+          "topic": "America First",
+          "value": "Feely is running to put America First",
+          "snippet": "protect our freedoms, and put America First"
+        }
+      ],
+      "platform_source_url": "https://www.jayfeelyforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:43:54.136Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=as8s8H5ujaY",
+      "platform_video_title": "Jay Feely Interview on My View With Lara Trump - Fox News 08/01/2026",
+      "platform_video_source_url": "https://www.jayfeelyforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:53.728Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30028037.pdf",
+        "filingDate": "5/18/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-11T11:44:20.608Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Former NFL kicker Jay Feely is trading in the gridiron for the halls of Congress. A proud conservative and staunch supporter of President Donald Trump, Feely is running in Congress in Arizona to fight for border security, protect our freedoms, and put America First.",
+        "source_url": "https://www.jayfeelyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:41:46.966Z"
+    },
+    {
+      "slug": "amish-shah",
+      "full_name": "SHAH, AMISH DR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4AZ01194",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1830193.49,
+        "totalSpent": 1520250.65,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 205293.09,
+          "largeDollar": 988939.98,
+          "pac": 146250,
+          "party": 0,
+          "selfFunded": 430654.7
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Chicago, Illinois",
+          "source_url": "https://www.wikidata.org/wiki/Q60736979",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Berkeley",
+          "source_url": "https://www.wikidata.org/wiki/Q60736979",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "IN THE ER for over 20 years",
+          "source_url": "https://www.amishforarizona.com/",
+          "snippet": "IN THE ER for over 20 years",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1977/1978",
+          "source_url": "https://en.wikipedia.org/wiki/Amish_Shah",
+          "snippet": "Amish Shah (born 1977/1978)",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Abortion Rights",
+          "value": "100% pro-choice voting record and led the effort to protect access to abortion",
+          "snippet": "100% pro-choice voting record Led the effort to protect access to abortion"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Opposition to damage to Social Security and Medicare",
+          "snippet": "We will stop the damage — to our economy, the rule of law, the livelihoods of our citizens, abortion rights, Social Security, Medicare, and our reputation."
+        }
+      ],
+      "platform_source_url": "https://www.amishforarizona.com/",
+      "_platform_resolved_at": "2026-08-11T11:44:09.863Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078641.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:26:56.873Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:32.913Z",
+      "bio_summary": {
+        "value": "Proven Track Record of service Trusted By Arizona’s Leaders Saving lives IN THE ER for over 20 years 100% pro-choice voting record Led the effort to protect access to abortion 2022 Women’s Health Champion /Legislator of the Year defending women’s rights dr. shah personaLly knocked on over 28,000 doors to listen to voters as a result of his door-to-door efforts, dr. Shah: Forged bipartisan relationships to pass more bills than any Arizona Democrat in a decade Received dozens of awards for his service as a legislator Earned 30+ endorsements from current and former Arizona elected officials",
+        "source_url": "https://www.amishforarizona.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:41:49.536Z"
+    }
+  ]
+}

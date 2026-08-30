@@ -1,0 +1,791 @@
+{
+  "state": "NY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-10T14:49:20.076Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-1-results",
+    "snippet": "R: N. LaLota (incumbent) — uncontested. D: C. Gallant 62.9% over L. Ventouras 36.9%."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 6.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.86
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.4
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 28.09
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 25.71
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 9992.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 9994.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 9977.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9979
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9977.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 10000.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9983.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9956.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9945.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9951.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9946.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9940.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 9948.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 9953.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 9933.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 9986.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 9968.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9961.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9943.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9930.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9916.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9922.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9887
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9880.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9909.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9879.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9866.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9838.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9809.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9796.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9785.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9756.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9737.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9732.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9731.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9699
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9665.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9666.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9658.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9654.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3511555383.28,
+        "perCapitaUsd": 5092.24
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4714399457.2,
+        "perCapitaUsd": 6836.53
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683016097.86,
+        "perCapitaUsd": 5340.88
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 19677151
+      },
+      {
+        "year": "2023",
+        "population": 19571216
+      },
+      {
+        "year": "2024",
+        "population": 19867248
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 79557
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 82095
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 85820
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "christopher-gallant",
+      "full_name": "GALLANT, CHRISTOPHER",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NY01159",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 647598.19,
+        "totalSpent": 475380.87,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 100616.71,
+          "largeDollar": 532366.36,
+          "pac": 11100,
+          "party": 0,
+          "selfFunded": 3500
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "engaged",
+          "source_url": "https://gallantny.com/about/",
+          "snippet": "My fiancé and I both serve in the military and we built our relationship through trust, timing, and a lot of miles between us.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Joined New York Army National Guard at 17, deployed multiple times to Kuwait and has flown several missions overseas, worked as FAA air traffic controller, served as union leader, works as volunteer firefighter",
+          "source_url": "https://gallantny.com/about/",
+          "snippet": "I joined the New York Army National Guard at 17 and never looked back. I was deployed multiple times to Kuwait and have flown several missions overseas, protected our airspace as an FAA air traffic controller, stood up for my coworkers as a union leader and work as a volunteer firefighter in my community.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "volunteer firefighter in community",
+          "source_url": "https://gallantny.com/about/",
+          "snippet": "work as a volunteer firefighter in my community",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Accountability",
+          "value": "Congress should function with clear goals, real action, and measurable outcomes",
+          "snippet": "I believe Congress should function the same way: clear goals, real action, and measurable outcomes."
+        }
+      ],
+      "platform_source_url": "https://gallantny.com/",
+      "_platform_resolved_at": "2026-08-10T14:45:39.763Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=iZWkIXTbmCA",
+      "platform_video_title": "Today, more than 63,000 Long Islanders are losing Essential Plan coverage",
+      "platform_video_source_url": "https://gallantny.com/",
+      "_platform_video_resolved_at": "2026-08-29T16:49:53.542Z",
+      "_tier2_search_attempted_at": "2026-08-20T12:30:12.860Z",
+      "platform_video_tier": 1,
+      "bio_summary": {
+        "value": "I’ve built a career on public service — I was deployed multiple times to Kuwait and have flown several missions overseas, protected our airspace as an FAA air traffic controller, stood up for my coworkers as a union leader and work as a volunteer firefighter in my community. Right now, Congress doesn’t operate with the same discipline or focus. So I’m stepping forward to serve the place I was born and raised with the same clarity of purpose I’ve brought to every role I’ve held, and to deliver results that move our communities forward.",
+        "source_url": "https://gallantny.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:46.538Z"
+    },
+    {
+      "slug": "nick-lalota",
+      "full_name": "LALOTA, NICK",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NY01190",
+      "fec_status": "C",
+      "bioguide_id": "L000598",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3795307.23,
+        "totalSpent": 1141528.37,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 108696.52,
+          "largeDollar": 1056216.32,
+          "pac": 941305.09,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1978-06-23",
+          "source_url": "https://www.wikidata.org/wiki/Q115168182",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Bay Shore, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q115168182",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "St. Anthony's High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115168182",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "St. Anthony's High School",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+          "snippet": "He graduated from St. Anthony's High School",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Kaylie, his high school sweetheart; they have three daughters",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+          "snippet": "LaLota married his high school sweetheart, Kaylie, who is a teacher at Northport High School . They have three daughters.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "U.S. Navy Surface Warfare Officer (2000-2007, Lieutenant); chief of staff to Suffolk County presiding officer Kevin McCaffrey; served on the Suffolk Board of Elections; trustee for the village of Amityville, New York",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+          "snippet": "He graduated from St. Anthony's High School and, in 2000, from the United States Naval Academy . He served in the U.S. Navy for eight years, serving three overseas deployments. [ 3 ] He earned a Master of Business Administration and a Juris Doctor from Hofstra University . [ 4 ] LaLota served as chief of staff to Suffolk County presiding officer Kevin McCaffrey. He also served on the Suffolk Board of Elections as well as a trustee for the village of Amityville, New York .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Catholic",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+          "snippet": "LaLota is Catholic .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 281,
+          "votesCast": 277,
+          "attendanceRate": 0.9857651245551602
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Legislative Branch",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Cybersecurity and Infrastructure Protection",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Counterterrorism and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 62,
+        "bills_cosponsored": 665,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "DETECT Fentanyl and Xylazine Act of 2024",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "8663",
+            "publicLawNumber": "118-186",
+            "summary": "Detection Equipment and Technology Evaluation to Counter the Threat of Fentanyl and Xylazine Act of 2024 or the DETECT Fentanyl and Xylazine Act of 2024 This act&nbsp;provides statutory authority for the Department of Homeland Security's Science and Technology Directorate to take certain actions to support the detection of drugs such as fentanyl and xylazine. Specifically, the act&nbsp;provides statutory authority for the directorate's research and development efforts to improve drug detection equipment and reference libraries for law enforcement agencies, including with respect to portable equipment, equipment&nbsp;that can analyze complex samples, and technology that uses artificial intelligence or other techniques to detect new substances. The act&nbsp;additionally requires the directorate to follow certain standards and rely on certain information from&nbsp;the National Institute of Standards and Technology and the Drug Enforcement Administration, respectively, regarding these efforts.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ186"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.253,
+          "nominateDim2": 0.107,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000598"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 96.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000598"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:30:13.254Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "_no_site_search_attempted_at": "2026-08-22T15:31:28.215Z",
+      "bio_summary": {
+        "value": "Nicholas Joseph LaLota ( / l ə ˈ l oʊ t ə / lə- LOH -tə ; born June 23, 1978) is an American politician and veteran serving since 2023 as the U.S. representative for New York's 1st congressional district . He is a member of the Republican Party . LaLota was first elected to Congress in 2022 . He is a member of the moderate Republican Governance Group . [ 1 ] Early life and career [ edit ] LaLota was born on June 23, 1978, and is from Bay Shore, New York . [ 2 ] He graduated from St. Anthony's High School and, in 2000, from the United States Naval Academy . He served in the U.S. Navy for eight years, serving three overseas deployments. [ 3 ] He earned a Master of Business Administration and a Juris Doctor from Hofstra University . [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:42:23.645Z"
+    }
+  ]
+}

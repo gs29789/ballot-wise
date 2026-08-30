@@ -1,0 +1,1019 @@
+{
+  "state": "AK",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-AL",
+  "generated_at": "2026-08-29T20:22:01.325Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-25-020/",
+    "primarySnippet": "AS 15.25.020: The primary election is held on the third Tuesday in August of every even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-15-020/",
+    "generalSnippet": "AS 15.15.020: The general election is held on the Tuesday after the first Monday in November in every even numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Alaska has no dedicated candidate background-check statute; its declaration-of-candidacy filing (used for federal candidates too) carries no felony clause, and its one felony-related election statute (AS 15.05.030) only suspends voting rights temporarily, not candidacy or office-holding; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+    "source_url": "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-05-030/",
+    "snippet": "AS 15.05.030: \"A person convicted of a crime that constitutes a felony involving moral turpitude under state or federal law may not vote in a state, federal, or municipal election from the date of the conviction through the date of the unconditional discharge of the person. Upon the unconditional discharge, the person may register.\""
+  },
+  "voting_system": {
+    "label": "Top-four nonpartisan primary + ranked-choice general",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot. The four candidates with the most votes advance to the general election — there's no party nomination step and no vote-share threshold to clear.",
+    "primarySourceUrl": "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-25-010/",
+    "primarySnippet": "AS 15.25.010: \"The primary election does not serve to determine the nominee of a political party or political group but serves only to narrow the number of candidates whose names will appear on the ballot at the general election. Except as provided in AS 15.25.100(d), only the four candidates who receive the greatest number of votes for any office shall advance to the general election.\"",
+    "generalExplanation": "Voters rank the candidates in order of preference. If one candidate is the top choice on more than half of ballots, they win outright. Otherwise, the last-place candidate is eliminated and their voters' ballots move to their next-ranked choice, repeating until someone has a majority.",
+    "generalSourceUrl": "https://codes.findlaw.com/ak/title-15-elections/ak-st-sect-15-15-350/",
+    "generalSnippet": "AS 15.15.350(c)-(d): \"All general elections shall be conducted by ranked-choice voting... If a candidate is highest-ranked on more than one-half of the active ballots, that candidate is elected and the tabulation is complete. Otherwise, tabulation proceeds in sequential rounds... if the candidate with the fewest votes is defeated, votes cast for the defeated candidate shall cease counting for the defeated candidate and shall be added to the totals of each ballot's next-highest-ranked continuing candidate.\""
+  },
+  "primary_results": {
+    "source_url": "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+    "snippet": "Matt Schultz withdrew from this race. While he remains on the primary ballot, he is not eligible to advance to the general election."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 41.13
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 54.53
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 51.18
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 56.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 52.81
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 339.7
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 340.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 339.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 337.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 336.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 337.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 337.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 336.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 336.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 337
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 336.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 337.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 337.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 337.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 338.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 338.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 337.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 337.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 337.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 336.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 336.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 335.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 336.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 334.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 334.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 333.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 334.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 333.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 333.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 331.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 330.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 330.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 330
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 329.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 331
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 329.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 328.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 329.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 324.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 326.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 325.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 324.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 324.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 16354252481.03,
+        "perCapitaUsd": 22321.35
+      },
+      {
+        "year": "2024",
+        "totalUsd": 18028874051.24,
+        "perCapitaUsd": 24606.99
+      },
+      {
+        "year": "2025",
+        "totalUsd": 17337773316.35,
+        "perCapitaUsd": 23663.73
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 733583
+      },
+      {
+        "year": "2023",
+        "population": 733406
+      },
+      {
+        "year": "2024",
+        "population": 740133
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 88121
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 86631
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 95665
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "nicholas-begich",
+      "full_name": "BEGICH, NICHOLAS III",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2AK01083",
+      "fec_status": "C",
+      "bioguide_id": "B001323",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5470446.24,
+        "totalSpent": 2455618.51,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1108896.52,
+          "largeDollar": 1675127.24,
+          "pac": 1028577,
+          "party": 5000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1977-10-21",
+          "source_url": "https://www.wikidata.org/wiki/Q113676482",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Anchorage, Alaska",
+          "source_url": "https://www.wikidata.org/wiki/Q113676482",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Baylor University",
+          "source_url": "https://www.wikidata.org/wiki/Q113676482",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "The Master's Academy, a Florida high school",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_Begich_III",
+          "snippet": "Begich attended and graduated from The Master's Academy, a Florida high school",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Dharna Vakharia in 2002",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_Begich_III",
+          "snippet": "Spouse Dharna Vakharia ​ ( married&lt;/span>\"}]]}'>m. 2002 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Founded FarShore Partners, a software development company; as of 2021, served as the company's executive chairman; business partners with Rick Desai since 2009; later joined by J.C. Garrett in managing both FarShore Partners and Dashfire",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_Begich_III",
+          "snippet": "After graduating, he founded FarShore Partners, a software development company which is mostly based in India. [ 9 ] In 2016, it had 160 employees internationally. [ 9 ] Begich has been business partners with Rick Desai since 2009. [ 9 ] He was later joined by his other business partner, J.C. Garrett, in managing both FarShore Partners and Dashfire. [ 12 ] As of 2021, he served as the company's executive chairman.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Board member of Alaska Policy Forum, a conservative think tank; co-chair of the Alaska Republican Party's Finance Committee; co-chair on Don Young's 2020 re-election campaign for the U.S. House",
+          "source_url": "https://en.wikipedia.org/wiki/Nick_Begich_III",
+          "snippet": "He has served as a board member of Alaska Policy Forum , a conservative think tank . He was the co-chair of the Alaska Republican Party 's Finance Committee. [ 10 ] He served as a co-chair on Don Young 's 2020 re-election campaign for the U.S. House .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Tax Relief",
+          "value": "Helped pass major tax relief for working Alaskans, including no taxes on tips, no taxes on overtime, historic tax relief for seniors, and permanent relief for small businesses.",
+          "snippet": "He helped pass major tax relief for working Alaskans, including no taxes on tips, no taxes on overtime, historic tax relief for seniors, and permanent relief for small businesses."
+        },
+        {
+          "topic": "Border Security and Fentanyl",
+          "value": "Co-sponsored and helped pass the HALT Fentanyl Act to permanently classify fentanyl-related substances as Schedule I drugs and increase penalties on traffickers. Voted to secure the border at the source and stop the flow of fentanyl.",
+          "snippet": "Nick co-sponsored and helped pass the HALT Fentanyl Act to permanently classify fentanyl-related substances as Schedule I drugs and increase penalties on the traffickers behind them. He voted to secure the border at the source and stop the flow of this poison into our state."
+        },
+        {
+          "topic": "Infrastructure",
+          "value": "Secured key community project funding for Alaska ports, harbors, freight systems, road improvements, and coastal protection. Secured House passage of the Airport Regulatory Relief Act to cut red tape for small and rural airports.",
+          "snippet": "Nick helped secure key community project funding for Alaska ports, harbors, freight systems, road improvements, and coastal protection, including investments in every corner of Alaska. He also secured House passage of the Airport Regulatory Relief Act to cut red tape for small and rural airports and lower the cost of critical airfield improvements."
+        },
+        {
+          "topic": "Permitting Reform",
+          "value": "Helped pass the SPEED Act out of the House to modernize federal permitting, establish clearer timelines, reduce endless delays, and create a pro-growth regulatory environment.",
+          "snippet": "He helped pass the SPEED Act out of the House to modernize federal permitting, establish clearer timelines, reduce endless delays, and create a pro-growth regulatory environment that lets America build again."
+        }
+      ],
+      "platform_source_url": "https://www.alaskansfornickbegich.com/",
+      "_platform_resolved_at": "2026-08-19T11:54:42.911Z",
+      "campaign_site_url": "https://alaskansfornickbegich.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=QOAuKkVI2Og",
+      "platform_video_title": "BEGICH OURFUTURE 15s WEB",
+      "platform_video_source_url": "https://www.alaskansfornickbegich.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-19T11:54:47.618Z",
+      "bio_summary": {
+        "value": "Nick Begich was born in Anchorage and raised with the values that define Alaska: work hard, tell the truth, chart your own course, and always remember the places, experiences, and people who shaped you. Those values guide him today as he and his wife, Dharna, raise their son, Nicholas, with a deep respect for Alaska's way of life and a commitment to service. ​ Before running for Congress, Nick built his career outside of politics. He earned a Bachelor of Business Administration in Entrepreneurship from Baylor University and an MBA from Indiana University, then went to work for Ford Motor Company, where he gained experience in technology, finance, and product development.",
+        "source_url": "https://www.alaskansfornickbegich.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T19:40:45.996Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 280,
+          "attendanceRate": 0.9893992932862191
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Coast Guard and Maritime Transportation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Investigations and Oversight",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 39,
+        "bills_cosponsored": 197,
+        "bills_became_law": 6,
+        "enacted_laws": [
+          {
+            "title": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "410",
+            "publicLawNumber": "119-63",
+            "summary": "Alaska Native Vietnam Era Veterans Land Allotment Extension Act of 2025 This act extends for an additional five years the time period during which an eligible Alaska Native veteran may apply for a land allotment under the Alaska Native Vietnam Era Veterans Land Allotment Program. The program makes Alaska Native veterans who served in the Armed Forces in Vietnam between August 5, 1964, and December 31, 1971, or their heirs eligible to receive up to 160 acres of federal land in Alaska. Under the current program, the Department of the Interior's Bureau of Land Management may accept applications through December 29, 2025. This act extends this time period for an additional five years to December 29, 2030.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ63"
+          },
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Coastal Plain Oil and Gas Leasing Program Record of Decision.",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "131",
+            "publicLawNumber": "119-52",
+            "summary": "This joint resolution opens public land for oil and gas leasing in the&nbsp;Arctic National Wildlife Refuge. Specifically, the joint resolution nullifies the record of decision (ROD)&nbsp;issued by the Bureau of Land Management&nbsp;on December 9, 2024, for the program that leases, develops, produces, and transports oil and gas in and from the Coastal Plain program area within the Arctic National Wildlife Refuge. The 2024 ROD that is being nullified by this resolution replaced the 2020 ROD that made all of the approximately 1.6 million acres of the program area available for oil and gas leasing. The 2024 ROD made approximately 1.2 million acres unavailable for leasing or exploration in order to protect and conserve resources and certain uses in these areas. However, the 2024 ROD requires the statutory minimum of 400,000 acres to be made available for oil and gas leasing in a specified lease sale, subject to certain stipulations and operating procedures. Under current law, those acres must be located in the areas with the highest potential for the discovery of hydrocarbons.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ52"
+          },
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to \"Central Yukon Record of Decision and Approved Resource Management Plan\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "106",
+            "publicLawNumber": "119-50",
+            "summary": "This joint resolution nullifies the rule submitted by the Bureau of Land Management (BLM) relating to the Record of Decision and Approved Resource Management Plan (RMP) for Alaska’s Central Yukon planning area and issued on November 12, 2024.&nbsp; By way of background, an RMP guides the management of lands administered by the BLM. This Central Yukon RMP modified the prior RMP for the area, including by designating 21 areas of critical environmental concern or research natural areas, encompassing approximately 3,611,000 acres.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ50"
+          },
+          {
+            "title": "Cape Fox Land Entitlement Finalization Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "2815",
+            "publicLawNumber": "119-93",
+            "summary": "Cape Fox Land Entitlement Finalization Act of 2025 This act waives a statutory core township selection requirement for the Cape Fox Corporation and allows Cape Fox to receive&nbsp;other lands to fulfill its remaining land entitlement. Cape Fox is an Alaska Native village corporation for the Alaska Native village of Saxman, Alaska. Specifically, the act states that Cape Fox shall not be required to receive its previously selected land of approximately 185 acres located within the township in which the Alaska Native village of Saxman, Alaska, is located. Instead, the act allows Cape Fox to receive&nbsp;land outside of Cape Fox's current exterior selection boundary upon written notice of the new selection to the Department of the Interior.&nbsp; In particular, if Cape Fox submits written notice of its selection of approximately&nbsp;180 acres of surface land within the&nbsp;Tongass National Forest in Alaska to Interior within 90 days of the act's enactment, then Interior must convey the federal land to Cape Fox. Upon conveyance of the surface estate of the federal land to Cape Fox, Interior must convey the subsurface estate of the federal land to Sealaska Corporation (the Alaska Native regional corporation representing southeastern Alaska). The act reserves a public access easement on the federal land conveyed to Cape Fox and Sealaska.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ93"
+          },
+          {
+            "title": "Alaska Native Settlement Trust Eligibility Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "42",
+            "publicLawNumber": "119-22",
+            "summary": "Alaska Native Settlement Trust Eligibility Act This act excludes certain settlement trust payments to an Alaska Native or descendant of an Alaska Native who is aged, blind, or disabled for purposes of determining the individual's eligibility for certain need-based federal programs (e.g., the Supplemental Nutrition Assistance Program).",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ22"
+          },
+          {
+            "title": "Alaska Native Village Municipal Lands Restoration Act of 2025",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "43",
+            "publicLawNumber": "119-23",
+            "summary": "Alaska Native Village Municipal Lands Restoration Act of 2025 This act removes the requirement that Alaska Native village corporations must convey lands to Alaska to be held in trust for future municipal governments.&nbsp; The Alaska Native Claims Settlement Act (ANCSA) requires all Alaska Native village corporations that receive land under the ANCSA to convey certain lands to the existing municipality in the village or, if no municipality exists, to Alaska in trust for any municipality that may be established in the future. This act removes the requirement for conveyance. Additionally, the act allows village corporations to regain title to the lands held in trust by dissolving the trust through formal resolution by the village corporation and the residents of the Native village.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ23"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.584,
+          "nominateDim2": -0.18,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001323"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 52.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001323"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "eric-hafner",
+      "full_name": "HAFNER, ERIC",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4AK00164",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://erichafner.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "bill-hill",
+      "full_name": "HILL, BILL",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6AK01092",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1336291.63,
+        "totalSpent": 820405.67,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 233664.86,
+          "largeDollar": 1030946.23,
+          "pac": 62050,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "Married to Diane",
+          "source_url": "https://billhillforalaskans.com/",
+          "snippet": "He lives with his wife Diane in Bristol Bay",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "a small village in Bristol Bay, Alaska",
+          "source_url": "https://billhillforalaskans.com/bills-story/",
+          "snippet": "Bill grew up in a small village in Bristol Bay, Alaska",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Ban congressional stock trading",
+          "snippet": "Ban congressional stock trading"
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "Make billionaires and corporations pay their share",
+          "snippet": "Make billionaires and corporations pay their share"
+        },
+        {
+          "topic": "Education and Cost of Living",
+          "value": "Fund our schools and bring down costs",
+          "snippet": "So we can fund our schools and bring down costs"
+        }
+      ],
+      "platform_source_url": "https://billhillforalaskans.com/",
+      "_platform_resolved_at": "2026-08-19T11:54:20.474Z",
+      "campaign_site_url": "https://www.billhillforalaskans.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=uklPM1gdu9Q",
+      "platform_video_title": "Bill Hill in Dillingham",
+      "platform_video_source_url": "https://billhillforalaskans.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-19T11:54:21.140Z",
+      "bio_summary": {
+        "value": "Bill Hill grew up in the small village of Kokhanok on Illiamna Lake, where he spent his childhood fishing, hunting, and helping his family raise sled dogs. He first got out on the family’s drift boat at age 12, and he’s fished every commercial fishing season since. Bill’s worked as a union construction worker, and is a small business owner. He spent over 25 years as an educator, and was named Superintendent of the Year in 2023. He lives with his wife Diane in Bristol Bay, home to the greatest sockeye salmon run in the world.",
+        "source_url": "https://billhillforalaskans.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T19:41:49.923Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074404.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-19T11:56:31.025Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "john-williams",
+      "full_name": "WILLIAMS, JOHN BRENDAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AK01068",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": null,
+        "college": null,
+        "high_school": {
+          "value": "graduated from high school in Fairbanks",
+          "source_url": "https://www.johnwilliamsforcongress.com/meet-john",
+          "snippet": "I graduated from high school in Fairbanks",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married to Silvana, with three children",
+          "source_url": "https://www.johnwilliamsforcongress.com/meet-john",
+          "snippet": "My wife, Silvana, and I have raised three children in Fairbanks",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "involved in organizations including the American Legion, the National Education Association, and the Fairbanks Education Association, and participated in leadership opportunities such as the NeighborWorks America Leadership Institute",
+          "source_url": "https://www.johnwilliamsforcongress.com/meet-john",
+          "snippet": "I have been involved in organizations including the American Legion, the National Education Association, and the Fairbanks Education Association. Through leadership opportunities such as the NeighborWorks America Leadership Institute, I have worked alongside community leaders from across the country to strengthen local communities and develop practical solutions to shared challenges.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Resource Development",
+          "value": "Support responsible development that creates high-paying jobs for Alaskans",
+          "snippet": "Support responsible development that creates high-paying jobs for Alaskans."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Lower the cost of housing, energy, heating, and transportation",
+          "snippet": "Lower the cost of housing, energy, heating, and transportation."
+        },
+        {
+          "topic": "Local Control",
+          "value": "Empower communities, parents, tribes, and local leaders to make decisions closest to home",
+          "snippet": "Empower communities, parents, tribes, and local leaders to make decisions closest to home."
+        },
+        {
+          "topic": "Economic Development",
+          "value": "Create an economy through affordable energy, workforce development, responsible resource development, value-added manufacturing, and stronger communities that works for the people who call Alaska home",
+          "snippet": "Through affordable energy, workforce development, responsible resource development, value-added manufacturing, and stronger communities, we can create an economy that works for the people who call Alaska home."
+        },
+        {
+          "topic": "Education and Workforce",
+          "value": "Strengthen education and workforce opportunities",
+          "snippet": "strengthen education and workforce opportunities"
+        }
+      ],
+      "platform_source_url": "https://www.johnwilliamsforcongress.com/",
+      "_platform_resolved_at": "2026-08-19T11:55:39.089Z",
+      "campaign_site_url": "https://www.johnwilliamsforcongress.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am running because I believe the defining challenge facing Alaska is whether the next generation will be able to build their future here, or whether rising costs, limited opportunities, and decisions made far from home will continue to push them elsewhere. My Alaska Built Plan is focused on lowering costs, creating opportunity, strengthening communities, and ensuring Alaska's future is built by Alaskans, for Alaskans, a nd that too many Alaskans can no longer afford to stay.",
+        "source_url": "https://www.johnwilliamsforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T19:42:06.275Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

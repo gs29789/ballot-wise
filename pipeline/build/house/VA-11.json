@@ -1,0 +1,739 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-11",
+  "generated_at": "2026-08-14T12:53:38.803Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_11th_Congressional_District_election,_2026",
+    "snippet": "Incumbent James Walkinshaw and Arthur Purves are running in the general election for U.S. House Virginia District 11 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.43
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989434392.83,
+        "perCapitaUsd": 41524.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "arthur-purves",
+      "full_name": "PURVES, ARTHUR GRAHAME MR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA11249",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5637.08,
+        "totalSpent": 5437.22,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1155.24,
+          "largeDollar": 500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 3981.84
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1949-02-21",
+          "source_url": "https://www.wikidata.org/wiki/Q73651786",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Munich",
+          "source_url": "https://www.wikidata.org/wiki/Q73651786",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q73651786",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "widowed (late wife Carol)",
+          "source_url": "https://www.votepurves.org/",
+          "snippet": "He and his late wife, Carol, moved to Vienna in 1976.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "computer programmer for 40 years, now retired",
+          "source_url": "https://www.votepurves.org/",
+          "snippet": "Arthur worked as a computer programmer for 40 years and is now retired.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "president of the Fairfax County Taxpayers Alliance for 29 years, treasurer for the Fairfax Committee of 100 for ten years, member of the 2014 Fairfax County Meals Tax Task Force, served on the Hunter Mill Citizen Budget Committee in 2013, served on three Fairfax County Public Schools advisory committees, member of the League of Women Voters and the Fairfax branch of the NAACP, Scoutmaster for his church including for a Latino troop, elected to the Order of the Arrow, belongs to the Church of Jesus Christ of Latter-Day Saints",
+          "source_url": "https://www.votepurves.org/",
+          "snippet": "He belongs to the Church of Jesus Christ of Latter-Day Saints. For 29 years he has been president of the Fairfax County Taxpayers Alliance. He was treasurer for the Fairfax Committee of 100 for ten years, was a member of the 2014 Fairfax County Meals Tax Task Force, and in 2013 served on the Hunter Mill Citizen Budget Committee. He has also served on three Fairfax County Public Schools advisory committees and is a member of the League of Women Voters and the Fairfax branch of the NAACP. He was a Scoutmaster for his church, including for a Latino troop, and was elected to the Order of the Arrow.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Mail-in Voting",
+          "value": "Oppose mail-in ballots because they enable election fraud.",
+          "snippet": "Mail-in ballots enable election fraud."
+        }
+      ],
+      "platform_source_url": "https://www.votepurves.org/",
+      "_platform_resolved_at": "2026-08-14T12:53:31.470Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Arthur Purves grew up in Washington D.C. and earned a BA, MS, and MBA from the University of Pennsylvania. He and his late wife, Carol, moved to Vienna in 1976. They have two children, who graduated from Fairfax County Public Schools in the mid-90s. Arthur was his son's lacrosse boosters' president at Marshall High School and was his daughter's crew boosters' president at Thomas Jefferson High School. Arthur worked as a computer programmer for 40 years and is now retired.",
+        "source_url": "https://www.votepurves.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:05.915Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:34.811Z"
+    },
+    {
+      "slug": "james-walkinshaw",
+      "full_name": "WALKINSHAW, JAMES",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6VA11066",
+      "fec_status": "C",
+      "bioguide_id": "W000831",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2758960.53,
+        "totalSpent": 1779784.68,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 392032.56,
+          "largeDollar": 1410337.92,
+          "pac": 922069.42,
+          "party": 10000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": {
+          "value": "Prince William County",
+          "source_url": "https://jameswalkinshaw.org/",
+          "snippet": "James grew up in Prince William County",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "NYU",
+          "source_url": "https://jameswalkinshaw.org/",
+          "snippet": "graduated from NYU",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Yvette",
+          "source_url": "https://jameswalkinshaw.org/",
+          "snippet": "He lives in Fairfax with his wife, Yvette, and their son, Mateo",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "served on the Fairfax County Board of Supervisors; Chief of Staff to Congressman Gerry Connolly for more than a decade; elected to Congress in 2025",
+          "source_url": "https://jameswalkinshaw.org/",
+          "snippet": "Before Congress, he served on the Fairfax County Board of Supervisors, delivering results on public safety, transportation, and affordability. He was also Chief of Staff to Congressman Gerry Connolly for more than a decade. Since being elected to Congress in 2025",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Opposition to Trump's Agenda",
+          "value": "Working to stop Trump's reckless agenda",
+          "snippet": "In Congress, I'm working to stop Trump's reckless agenda and deliver for Virginia."
+        },
+        {
+          "topic": "Federal Workers",
+          "value": "Protecting federal workers",
+          "snippet": "Since being elected to Congress in 2025, James has focused on standing up to Donald Trump, protecting federal workers, strengthening oversight, supporting small businesses, improving cybersecurity, and lowering costs, while delivering funding and responsive constituent services for Virginia families."
+        },
+        {
+          "topic": "Government Oversight",
+          "value": "Strengthening oversight",
+          "snippet": "Since being elected to Congress in 2025, James has focused on standing up to Donald Trump, protecting federal workers, strengthening oversight, supporting small businesses, improving cybersecurity, and lowering costs, while delivering funding and responsive constituent services for Virginia families."
+        },
+        {
+          "topic": "Small Business",
+          "value": "Supporting small businesses",
+          "snippet": "Since being elected to Congress in 2025, James has focused on standing up to Donald Trump, protecting federal workers, strengthening oversight, supporting small businesses, improving cybersecurity, and lowering costs, while delivering funding and responsive constituent services for Virginia families."
+        },
+        {
+          "topic": "Cybersecurity",
+          "value": "Improving cybersecurity",
+          "snippet": "Since being elected to Congress in 2025, James has focused on standing up to Donald Trump, protecting federal workers, strengthening oversight, supporting small businesses, improving cybersecurity, and lowering costs, while delivering funding and responsive constituent services for Virginia families."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Lowering costs",
+          "snippet": "Since being elected to Congress in 2025, James has focused on standing up to Donald Trump, protecting federal workers, strengthening oversight, supporting small businesses, improving cybersecurity, and lowering costs, while delivering funding and responsive constituent services for Virginia families."
+        }
+      ],
+      "platform_source_url": "https://jameswalkinshaw.org/",
+      "_platform_resolved_at": "2026-08-14T12:53:01.025Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Military and Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Border Security and Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Cybersecurity and Infrastructure Protection",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Delivering on Government Efficiency",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 21,
+        "bills_cosponsored": 349,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.421,
+          "nominateDim2": 0.249,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000831"
+        },
+        "bridge_score": null
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=TAahxpDgiRE",
+      "platform_video_title": "Karoline Leavitt Departs",
+      "platform_video_source_url": "https://jameswalkinshaw.org/",
+      "_platform_video_resolved_at": "2026-08-18T22:04:33.423Z",
+      "bio_summary": {
+        "value": "James Walkinshaw is a lifelong Virginian dedicated to making our Commonwealth an even better place to live, work, and raise a family. He lives in Fairfax with his wife, Yvette, and their son, Mateo. James grew up in Prince William County and graduated from NYU. Before Congress, he served on the Fairfax County Board of Supervisors, delivering results on public safety, transportation, and affordability. He was also Chief of Staff to Congressman Gerry Connolly for more than a decade.",
+        "source_url": "https://jameswalkinshaw.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:09.228Z"
+    }
+  ]
+}

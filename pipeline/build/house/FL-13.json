@@ -1,0 +1,861 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-13",
+  "generated_at": "2026-08-21T13:55:36.315Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_13th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Anna Paulina Luna, Leela Gray, and Tony D'Arrigo are running in the general election for U.S. House Florida District 13 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "tony-darrigo",
+      "full_name": "D'ARRIGO, TONY C",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H4FL13234",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 28180.9,
+        "totalSpent": 2500,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 21220.9,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": null
+      },
+      "platform": [
+        {
+          "topic": "Universal Healthcare",
+          "value": "Supports universal healthcare with guaranteed coverage for all Americans, affordable and predictable costs capped based on income, and no gaps or surprises in coverage",
+          "snippet": "My vision for Universal Healthcare: Guaranteed Coverage for All: Every American, no exceptions—regardless of age, job, income, or health history. Affordable and Predictable Costs: Caps on premiums, low deductibles, and out-of-pocket costs tied to what families can truly afford—not what insurance companies dictate. No More Gaps or Surprises: All essential treatments, medications, doctor visits, mental health, and prevention are covered."
+        },
+        {
+          "topic": "Social Security and Retirement",
+          "value": "Will fight to increase Social Security and entitlements, with ultimate goal to lower the retirement age",
+          "snippet": "I will Fight For OUR Entitlements. (Medicare, Medicaid, and Social Security) Republicans want to defund and eliminate these programs that almost 200,000 People in My Florida District 13 Rely on for their basic needs and survival. I WILL FIGHT TO INCREASE SOCIAL SECURITY and ENTITLEMENTS. MY ULTIMATE GOAL is to LOWER the RETIREMENT AGE so we have more time to ACTUALLY ENJOY OUR RETIREMENT that we earned!"
+        }
+      ],
+      "platform_source_url": "https://tonydarrigo.com/",
+      "_platform_resolved_at": "2026-08-20T15:38:53.317Z",
+      "campaign_site_url": "https://tonydarrigo.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I know what it’s like to live paycheck to paycheck—because I’m still doing it. Like 62% of Americans, I face the stress of unexpected bills, medical emergencies, and the sharp rise in everyday costs like summer electricity. That’s why I’m running for Congress. I’m committed to fighting inflation responsibly, restoring real affordability, and making sure America’s prosperity reaches working families—not just the wealthy or well-connected.",
+        "source_url": "https://tonydarrigo.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:14.650Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "leela-gray",
+      "full_name": "GRAY, LEELA J",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL13312",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1223069.43,
+        "totalSpent": 539773.96,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 198219.96,
+          "largeDollar": 945956.32,
+          "pac": 70500,
+          "party": 0,
+          "selfFunded": 7000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "former member of the United States Army and Army Reserve",
+          "source_url": "https://www.leelagray.com/",
+          "snippet": "Leela Gray is a former member of the United States Army and Army Reserve.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://leelagray.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=i8Xw0W_-Gnk",
+      "platform_video_title": "Leela Gray Previews Anna Paulina Luna Matchup on MS NOW",
+      "platform_video_source_url": "https://www.leelagray.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:38:16.476Z",
+      "bio_summary": {
+        "value": "When I was growing up, hard work opened doors. But today, it feels like those doors are closing. Most people work hard and still can't get by because of rising prices. That’s wrong — and it’s why I’m running for Congress.",
+        "source_url": "https://www.leelagray.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:10.105Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081220.pdf",
+        "filingDate": "7/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:38:58.813Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "anna-luna",
+      "full_name": "LUNA, ANNA PAULINA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0FL13158",
+      "fec_status": "C",
+      "bioguide_id": "L000596",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3233311.85,
+        "totalSpent": 1890603.08,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1125753.41,
+          "largeDollar": 779883.94,
+          "pac": 103000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1989-05-06",
+          "source_url": "https://www.wikidata.org/wiki/Q112805534",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Santa Ana, California",
+          "source_url": "https://www.wikidata.org/wiki/Q112805534",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of West Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q112805534",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "United States Air Force, 2009-2014; Oregon Air National Guard, 2017-2018; non-profit executive; political commentator",
+          "source_url": "https://history.house.gov/People/Listing/L/LUNA,-Anna-(L000596)/",
+          "snippet": "United States Air Force, 2009-2014; Oregon Air National Guard, 2017-2018; non-profit executive; political commentator",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "high_school": {
+          "value": "attended high school in Los Angeles",
+          "source_url": "https://en.wikipedia.org/wiki/Anna_Paulina_Luna",
+          "snippet": "She attended high school in Los Angeles.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Andrew Gamberzky, 1 child",
+          "source_url": "https://en.wikipedia.org/wiki/Anna_Paulina_Luna",
+          "snippet": "Spouse Andrew Gamberzky Children 1",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Illegal Immigration",
+          "value": "Speaking out against illegal immigration",
+          "snippet": "Anna Paulina Luna is speaking out against illegal immigration, cancel culture, and big-tech censorship."
+        },
+        {
+          "topic": "Cancel Culture",
+          "value": "Speaking out against cancel culture",
+          "snippet": "Anna Paulina Luna is speaking out against illegal immigration, cancel culture, and big-tech censorship."
+        },
+        {
+          "topic": "Big-Tech Censorship",
+          "value": "Speaking out against big-tech censorship",
+          "snippet": "Anna Paulina Luna is speaking out against illegal immigration, cancel culture, and big-tech censorship."
+        },
+        {
+          "topic": "Credit Card Interest Rates",
+          "value": "Pushes for bipartisan bill capping credit card interest rates at 10%",
+          "snippet": "Rep. Anna Paulina Luna pushes for bipartisan bill capping credit card interest rates at 10%"
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Pushes to force a vote banning congressional stock trading",
+          "snippet": "Luna pushes to force a vote banning congressional stock trading"
+        }
+      ],
+      "platform_source_url": "https://www.voteannapaulina.com/",
+      "_platform_resolved_at": "2026-08-21T13:54:23.765Z",
+      "campaign_site_url": "http://www.voteannapaulina.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=IcGfeoVKn2w",
+      "platform_video_title": "FOX News segment- Obama advocating for the same immigration policies as Trump 11/11/18",
+      "platform_video_source_url": "https://www.voteannapaulina.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-21T13:54:25.379Z",
+      "bio_summary": {
+        "value": "I am a mom, USAF veteran, and wife. I also happen to be one of the youngest members of Congress. My upbringing was very different from the majority of those on Capitol Hill. I didn't come from a political pedigree, wealth, or an Ivy League education. In fact, it was quite the opposite.",
+        "source_url": "https://www.voteannapaulina.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-21T13:54:31.284Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 243,
+          "votesCast": 198,
+          "attendanceRate": 0.8148148148148148
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Military and Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Cybersecurity, Information Technology, and Government Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Health Care and Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Europe",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Delivering on Government Efficiency",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 83,
+        "bills_cosponsored": 598,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 9355 113th Street in Seminole, Florida, as the \"Army SSG Ryan Christian Knauss Memorial Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "6633",
+            "publicLawNumber": "118-221",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 9355 113th Street in Seminole, Florida, as the Army SSG Ryan Christian Knauss Memorial Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ221"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.558,
+          "nominateDim2": -0.51,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000596"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 9.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000596"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "state": "TN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-17T00:28:30.419Z",
+  "election_dates": {
+    "primaryDate": "2026-08-06",
+    "primarySourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "primarySnippet": "Thursday, August 6, 2026 - Primary and General Election. Primary elections will be held for Governor, U.S. Senate, U.S. House, Tennessee Senate (odd-numbered districts), Tennessee House...",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "generalSnippet": "Tuesday, November 3, 2026 - State and Federal General Election."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Tennessee's eligibility statute (Tenn. Code Ann. § 8-18-101) applies only to persons \"qualified to hold office under the authority of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tn/title-8-public-officers-and-employees/tn-code-sect-8-18-101/",
+    "snippet": "Tenn. Code Ann. § 8-18-101: \"All persons eighteen (18) years of age or older who are citizens of the United States and of this state... are qualified to hold office under the authority of this state except: (1) Those who have been convicted of offering or giving a bribe, or any other offense declared infamous under § 40-20-112...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Tennessee%27s_9th_Congressional_District_election,_2026",
+    "snippet": "Justin Pearson, Brent Taylor, Dennis Jeffrey Clark, and Michelle Head are running in the general election for U.S. House Tennessee District 9 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 54.62
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 52.04
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 51.17
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 44.56
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 34.24
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4167854631.75,
+        "perCapitaUsd": 5449.14
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5258880056.52,
+        "perCapitaUsd": 6850.34
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4697082092.97,
+        "perCapitaUsd": 6141.06
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "dennis-clark",
+      "full_name": "CLARK, DENNIS JEFFREY",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H0TN09111",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Arlington, Tennessee",
+          "source_url": "https://ballotpedia.org/Dennis_Jeffrey_Clark_(Tennessee_congressional_candidate)",
+          "snippet": "Birthplace\nArlington, TN"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "justin-pearson",
+      "full_name": "PEARSON, JUSTIN J.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TN09449",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2344946.62,
+        "totalSpent": 1500213.73,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1218046.14,
+          "largeDollar": 1090893.5,
+          "pac": 32694.15,
+          "party": 0,
+          "selfFunded": 278.38
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1995-01-07",
+          "source_url": "https://www.wikidata.org/wiki/Q116739449",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Memphis, Tennessee",
+          "source_url": "https://www.wikidata.org/wiki/Q116739449",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Mitchell High School",
+          "source_url": "https://www.wikidata.org/wiki/Q116739449",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Mitchell High School",
+          "source_url": "https://www.votejustinj.com/issues",
+          "snippet": "Demanding more funding to Title I schools like my alma mater, Mitchell High School, for technology, textbooks, and trades",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Tennessee House of Representatives, Representative - District 86 (2023 - Present); Year Up, Special Assistant to CEO",
+          "source_url": "https://www.ballotready.org/people/justin-j-pearson",
+          "snippet": "Tennessee House of Representatives, Representative - District 86 (2023 - Present) Year Up, Special Assistant to CEO",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Build an economy for the many, not just big corporations and the billionaire few",
+          "snippet": "Build an economy for the many, not just big corporations and the billionaire few"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Provide healthcare for all",
+          "snippet": "Provide healthcare for all"
+        },
+        {
+          "topic": "Environment",
+          "value": "Protect our land, air and water from toxic data centers",
+          "snippet": "Protect our land, air and water from toxic data centers"
+        },
+        {
+          "topic": "Gun Safety",
+          "value": "Ensure safe schools and gun safety",
+          "snippet": "Ensure safe schools and gun safety"
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Fix our democracy by getting money out of politics",
+          "snippet": "Fix our democracy by getting money out of politics"
+        }
+      ],
+      "platform_source_url": "https://www.votejustinj.com/",
+      "_platform_resolved_at": "2026-08-14T18:07:45.109Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078397.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:07:49.730Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "We have an opportunity to meet this moment by answering the call for justice, fairness, and opportunity for every person in Tennessee’s 9th Congressional District. From Shelby County to Tipton county in Memphis and Cordova to Flatwood and everywhere in between – it’s about all of us being together to decide what future we deserve. Together, we know the solutions to the problems we face because we are most proximate to the problem.",
+        "source_url": "https://www.votejustinj.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:15:49.964Z"
+    },
+    {
+      "slug": "brent-taylor",
+      "full_name": "TAYLOR, BRENT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TN09464",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1549481.59,
+        "totalSpent": 1132104.37,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3346.82,
+          "largeDollar": 462648.3,
+          "pac": 82300,
+          "party": 0,
+          "selfFunded": 1000000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "successful small business owner in the funeral business and West Tennessee State Senator",
+          "source_url": "https://brenttaylorforcongress.com/",
+          "snippet": "Brent Taylor is a successful small business owner, outspoken conservative leader, and West Tennessee State Senator who has spent his career fighting for Tennesseans. Throughout his career in the funeral business and as a public official",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Public Safety and Crime",
+          "value": "He has been a strong voice for safer streets, stronger public safety, and tackling the crime that has impacted too many families and neighborhoods across Shelby County.",
+          "snippet": "He has been a strong voice for safer streets, stronger public safety, and tackling the crime that has impacted too many families and neighborhoods across Shelby County."
+        }
+      ],
+      "platform_source_url": "https://brenttaylorforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:07:23.097Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116210.pdf",
+        "filingDate": "7/7/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:07:58.205Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Brent Taylor is a successful small business owner, outspoken conservative leader, and West Tennessee State Senator who has spent his career fighting for Tennesseans. Throughout his career in the funeral business and as a public official, Taylor has been recognized as a trusted conservative leader. Brent is ready to take that fighting spirit to Congress and join President Trump in leading America into her Golden Age.",
+        "source_url": "https://brenttaylorforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:15:47.341Z"
+    }
+  ]
+}

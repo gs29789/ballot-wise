@@ -1,0 +1,943 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-25",
+  "generated_at": "2026-08-29T20:49:10.772Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_25th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jared Evan Moskowitz, Scott Singer, Peter Jassenoff, and Michaelangelo Hamilton are running in the general election for U.S. House Florida District 25 on November 3, 2026. Moskowitz previously represented old FL-22 before Florida's mid-decade redistricting."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 10037.3
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10032.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542248339.13,
+        "perCapitaUsd": 700.71
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michaelangelo-hamilton",
+      "full_name": "HAMILTON, MICHAELANGELO COLLINS",
+      "party": "WRITE-IN",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL23105",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "McArthur High School (2018)",
+          "source_url": "https://www.ballotready.org/people/michaelangelo-collins-hamilton",
+          "snippet": "High School Diploma, McArthur High School (2018)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, Florida Atlantic University, Political Science and Government (2022)",
+          "source_url": "https://www.ballotready.org/people/michaelangelo-collins-hamilton",
+          "snippet": "Bachelor&#x27;s, Florida Atlantic University, Political Science and Government (2022)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Michaelangelo's Virtual Solutions, LLC, CEO (2020 - Present); Michaelangelo's At Home Call Solutions, Sole Proprietor (2017 - Present); Mac's Tropical Weather Blog, Founder and Chief Tropical Weather Blogger (2013 - Present); TogetherHealth, Medicare Sales Agent (2021 - 2021); Alorica, Sales Representative (2019 - 2019); MH Virtual Services, LLC, President and Manager (2018 - 2018)",
+          "source_url": "https://www.ballotready.org/people/michaelangelo-collins-hamilton",
+          "snippet": "Michaelangelo&#x27;s Virtual Solutions, LLC, CEO (2020 - Present) Michaelangelo&#x27;s At Home Call Solutions, Sole Proprietor (2017 - Present) Mac&#x27;s Tropical Weather Blog, Founder and Chief Tropical Weather Blogger (2013 - Present) TogetherHealth, Medicare Sales Agent (2021 - 2021) Alorica, Sales Representative (2019 - 2019) MH Virtual Services, LLC, President and Manager (2018 - 2018)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "date_of_birth": {
+          "value": "Born circa 2000 (was 22 years old in 2022)",
+          "source_url": "https://hamilton4fl.com/meet_michaelangelo",
+          "snippet": "In 2022, at just 22 years old , Michaelangelo launched his first campaign for the United States House of Representatives",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Running to lower costs",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Small Business and Jobs",
+          "value": "Running to grow small businesses and good jobs",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Community Safety",
+          "value": "Running to secure our communities",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Working Families",
+          "value": "Running to protect working families",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Running to restore accountability in Washington",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        }
+      ],
+      "platform_source_url": "https://hamilton4fl.com/",
+      "_platform_resolved_at": "2026-08-29T20:49:01.441Z",
+      "campaign_site_url": "https://hamilton4fl.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Michaelangelo Hamilton is a qualified write-in candidate for U.S. House in Florida's 25th Congressional District . Florida's 25th Congressional District runs along South Florida's East Coast from the Delray Beach/Boca Raton area through parts of Broward County and down toward Miami Beach, including communities across Palm Beach, Broward, and Miami-Dade counties. He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington. In 2022, Michaelangelo made history as one of the youngest people in modern American history to run for Congress. Now, he is running again to give South Florida a new voice and a new choice. This campaign is about faith, freedom, opportunity, strong families, and a stronger future for Florida.",
+        "source_url": "https://hamilton4fl.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:49:05.717Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "peter-jassenoff",
+      "full_name": "JASSENOFF, PETER",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL25068",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 10500,
+        "totalSpent": 10440,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 10500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Peter Jassenoff (Libertarian Party) is running for election to the U.S. House to represent Florida's 25th Congressional District . He is on the ballot in the general election on November 3, 2026 . The Libertarian Party primary for this office on August 18, 2026 , was canceled. ",
+        "source_url": "https://ballotpedia.org/Peter_Jassenoff",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:24:49.010Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081334.pdf",
+        "filingDate": "7/17/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:58:40.665Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "jared-moskowitz",
+      "full_name": "MOSKOWITZ, JARED",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2FL22171",
+      "fec_status": "C",
+      "bioguide_id": "M001217",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2998428.2,
+        "totalSpent": 1465080.61,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 528038.52,
+          "largeDollar": 1736071.53,
+          "pac": 561392.15,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1980-12-18",
+          "source_url": "https://www.wikidata.org/wiki/Q16221073",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Coral Springs, Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q16221073",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "George Washington University",
+          "source_url": "https://www.wikidata.org/wiki/Q16221073",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Marjory Stoneman Douglas High School, Parkland, Florida, graduated 1999",
+          "source_url": "https://history.house.gov/People/Listing/M/MOSKOWITZ,-Jared-(M001217)/",
+          "snippet": "graduated from Marjory Stoneman Douglas High School, Parkland, Fla., 1999",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "campaign staff; lawyer, private practice; business executive; Parkland, Florida, city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; director of the Florida department of emergency management, 2019-2021; Broward County, Florida, commissioner, 2022",
+          "source_url": "https://history.house.gov/People/Listing/M/MOSKOWITZ,-Jared-(M001217)/",
+          "snippet": "campaign staff; lawyer, private practice; business executive; Parkland, Fla., city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; director of the Florida department of emergency management, 2019-2021; Broward County, Fla., commissioner, 2022",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Spouse Leah Rifkin",
+          "source_url": "https://en.wikipedia.org/wiki/Jared_Moskowitz",
+          "snippet": "Spouse Leah Rifkin",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Parkland, Florida, city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; Broward County, Florida, commissioner, 2022",
+          "source_url": "https://history.house.gov/People/Listing/M/MOSKOWITZ,-Jared-(M001217)/",
+          "snippet": "Parkland, Fla., city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; director of the Florida department of emergency management, 2019-2021; Broward County, Fla., commissioner, 2022",
+          "source_type": "llm_extracted_house_historian"
+        }
+      },
+      "platform": [
+        {
+          "topic": "School Safety",
+          "value": "Working across the aisle to promote evidence-based policies that keep students and educators safe",
+          "snippet": "He also helped launch the Bipartisan School Safety and Security Caucus, working across the aisle to promote evidence-based policies that keep students and educators safe."
+        },
+        {
+          "topic": "Disaster Preparedness",
+          "value": "Using his emergency management experience to improve federal readiness and response to natural disasters",
+          "snippet": "He is a co-founder of the Bipartisan Disaster Preparedness Caucus, using his emergency management experience to improve federal readiness and response to natural disasters."
+        },
+        {
+          "topic": "Gun Violence",
+          "value": "Focuses on addressing gun violence",
+          "snippet": "Jared also serves on the House Judiciary Committee, where he focuses on civil rights, justice reform, and addressing gun violence."
+        },
+        {
+          "topic": "Justice Reform",
+          "value": "Focuses on civil rights and justice reform",
+          "snippet": "Jared also serves on the House Judiciary Committee, where he focuses on civil rights, justice reform, and addressing gun violence."
+        }
+      ],
+      "platform_source_url": "https://jaredforflorida.com/",
+      "_platform_resolved_at": "2026-08-29T20:48:39.644Z",
+      "campaign_site_url": "https://www.jaredforflorida.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=9RL5cqFbvHM",
+      "platform_video_title": "A Day with Jared Moskowitz",
+      "platform_video_source_url": "https://jaredforflorida.com/media/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-21T10:59:20.946Z",
+      "bio_summary": {
+        "value": "Jared Evan Moskowitz ( / ˈ m ɒ s k ə w ɪ t s / MOSS -kə-wits ; born December 18, 1980) is an American politician serving as the U.S. representative for Florida 's 23rd congressional district since 2023. A member of the Democratic Party , he previously served on the Broward County Commission from 2022 to 2023 and as director of the Florida Division of Emergency Management from 2019 to 2021. Moskowitz also represented the Coral Springs - Parkland area in the Florida House of Representatives from 2012 to 2019. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jared_Moskowitz",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:24:55.204Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Crime and Federal Government Surveillance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Oversight",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — East Asia and Pacific",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Subcommittee to Investigate the Remaining Questions Surrounding January 6, 2021",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 38,
+        "bills_cosponsored": 809,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.226,
+          "nominateDim2": 0.294,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001217"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 89.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001217"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "scott-singer",
+      "full_name": "SINGER, SCOTT M.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL23188",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2245960.14,
+        "totalSpent": 1779740.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 187834.78,
+          "largeDollar": 1292650.65,
+          "pac": 38000,
+          "party": 0,
+          "selfFunded": 724010
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Miami Beach",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "Scott was born and first lived in Miami Beach",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Pine Crest School",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "He graduated from Pine Crest School, Harvard University, and Georgetown Law.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Harvard University and Georgetown Law",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "He graduated from Pine Crest School, Harvard University, and Georgetown Law.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Bella",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "Scott and his wife, Bella, are the proud parents of two children",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "small business owner and lawyer for two decades helping businesses and entrepreneurs; three-term Mayor of Boca Raton",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "A small business owner, Scott has worked for two decades as a lawyer to also help businesses and entrepreneurs add jobs and overcome burdensome and wasteful regulations that raise costs.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes",
+          "value": "Pledged not to raise taxes",
+          "snippet": "pledged not to raise taxes"
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Will vote to ban members of Congress from trading stocks",
+          "snippet": "will vote to ban members of Congress from trading stocks"
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Supports a term limits amendment",
+          "snippet": "He supports a term limits amendment"
+        },
+        {
+          "topic": "Borders and National Defense",
+          "value": "Will ensure strong borders and national defense",
+          "snippet": "ensure strong borders and national defense"
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Will cut waste, fraud, and abuse",
+          "snippet": "cut waste, fraud, and abuse"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Will defend the U.S. Constitution and ensure unelected bureaucrats will not be able to impose their agendas on the American people",
+          "snippet": "He will defend the U.S. Constitution and ensure unelected bureaucrats will not be able to impose their agendas on the American people"
+        },
+        {
+          "topic": "Israel",
+          "value": "Will stand up to a radical far-left agenda that weakens our nation and threatens our important relationships with allies like Israel",
+          "snippet": "Scott will stand up to a radical far-left agenda that weakens our nation and threatens our important relationships with allies like Israel"
+        },
+        {
+          "topic": "Economic Policy",
+          "value": "Advance Free-Market Capitalism & Oppose Socialism",
+          "snippet": "Advance Free-Market Capitalism & Oppose Socialism"
+        }
+      ],
+      "platform_source_url": "https://www.scottsingerusa.com/",
+      "_platform_resolved_at": "2026-08-20T15:57:44.123Z",
+      "campaign_site_url": "https://scottsingerusa.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=2StGk8aQ9xA",
+      "platform_video_title": "Scott Singer for Congress - Launch",
+      "platform_video_source_url": "https://www.scottsingerusa.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-20T15:57:45.759Z",
+      "bio_summary": {
+        "value": "Miami Beach Born, Lauderdale Raised, Boca Raton Mayor Scott Singer is an America First Republican running to represent Florida’s 25th district in Congress. As Congressman, he will keep taxes and costs low, ensure strong borders and national defense, and cut waste, fraud, and abuse. He will work with President Trump to advance the America First agenda. Scott has a strong record of results as the three-term Mayor of Boca Raton where he balanced budgets while working to advance public safety, education, affordability, and accountability.",
+        "source_url": "https://www.scottsingerusa.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:12:34.297Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

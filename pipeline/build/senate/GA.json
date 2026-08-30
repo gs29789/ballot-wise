@@ -1,0 +1,810 @@
+{
+  "state": "GA",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-18T20:19:32.490Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-4/part-2/section-21-2-150/",
+    "primarySnippet": "Whenever any political party holds a primary to nominate candidates for public offices to be filled in the ensuing November election, such primary shall be held on the Tuesday of the twenty-fourth week prior to the November general election in each even-numbered year or, in the case of municipalities, on the third Tuesday in July in each odd-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-1/section-21-2-2/",
+    "generalSnippet": "\"November election\" means the general election held on the Tuesday next following the first Monday in November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Georgia bars a person convicted and sentenced for a felony involving moral turpitude from holding any civil office (unless pardoned and restored to full citizenship rights by the State Board of Pardons and Paroles), but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://law.justia.com/codes/georgia/title-45/chapter-2/article-1/section-45-2-1/",
+    "snippet": "The following persons are ineligible to hold any civil office; and the existence of any of the following facts shall be a sufficient reason for vacating any office held by such person... (3) Any person finally convicted and sentenced for any felony involving moral turpitude under the laws of this or any other state when the offense is also a felony in this state, unless restored to all his rights of citizenship by a pardon from the State Board of Pardons and Paroles. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Georgia,_2026",
+    "snippet": "Jon Ossoff (D, incumbent) and Mike Collins (R) are running in the general election for U.S. Senate Georgia on November 3, 2026. Libertarian Allen Buckley is also on the ballot but has no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.2
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.12
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 29.38
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.32
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 23.76
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 23.66
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4988.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4999
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4995.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4988.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4978.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4981.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4983.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4974.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4971
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4983.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4993
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4993.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4982.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4993.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4993.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4980.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4983
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4975
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4987.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4982.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4975
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4974.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4972.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4970.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4977.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4976.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4965.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4964
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4944.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4941.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4943.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4936.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4927.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4931.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4917.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4906.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4911.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4893.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4891.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4899.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4895
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4890.4
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5726901192.87,
+        "perCapitaUsd": 7479.45
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6535918251.32,
+        "perCapitaUsd": 8494.7
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6785089018.4,
+        "perCapitaUsd": 8818.55
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10912876
+      },
+      {
+        "year": "2023",
+        "population": 11029227
+      },
+      {
+        "year": "2024",
+        "population": 11180878
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72837
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74632
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79991
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michael-collins",
+      "full_name": "COLLINS, MICHAEL A JR",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6GA00390",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 7409349.57,
+        "totalSpent": 5932538.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2085894.84,
+          "largeDollar": 2308356.96,
+          "pac": 495631.55,
+          "party": 0,
+          "selfFunded": 65000
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "Mike and his wife Leigh Ann have three kids: Dakota, Dylan and Summer, and six grandkids.",
+          "source_url": "https://mikecollinsga.com/about/",
+          "snippet": "Mike and his wife Leigh Ann have three kids: Dakota, Dylan and Summer, and six grandkids.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "America First Legislation",
+          "value": "Support for passing America First legislation in Congress and backing President Trump",
+          "snippet": "backing President Trump by passing America First legislation in Congress"
+        }
+      ],
+      "platform_source_url": "https://mikecollinsga.com/",
+      "_platform_resolved_at": "2026-08-10T18:43:31.990Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=1yKbaxi40iY",
+      "platform_video_title": "Where I stand on running for U.S. Senate in Georgia.",
+      "platform_video_source_url": "https://mikecollinsga.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:03.251Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I’m not afraid of hard work. In the trucking industry, it’s tough trips, long hours, and tight schedules. Unlike Congress, if you don’t deliver, you don’t get paid. Georgia needs a U.S. Senator who has worked for a living, created jobs, and has taken on the tough fights to do what’s right. Whether I’m keeping trucks on the road and supporting my community, or backing President Trump by passing America First legislation in Congress, I’m in the fight.",
+        "source_url": "https://mikecollinsga.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:53.506Z"
+    },
+    {
+      "slug": "t-ossoff",
+      "full_name": "OSSOFF, T. JONATHAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "S8GA00180",
+      "fec_status": "C",
+      "bioguide_id": "O000174",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 77279766.48,
+        "totalSpent": 39682882.19,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 39110515.04,
+          "largeDollar": 28654210.06,
+          "pac": 920315.95,
+          "party": 11000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1987-02-16",
+          "source_url": "https://www.wikidata.org/wiki/Q28839536",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Atlanta, Georgia",
+          "source_url": "https://www.wikidata.org/wiki/Q28839536",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "London School of Economics and Political Science",
+          "source_url": "https://www.wikidata.org/wiki/Q28839536",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "The Paideia School, a private school in Atlanta",
+          "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+          "snippet": "He attended The Paideia School , a private school in Atlanta.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Alisha Kramer in 2017, 2 children",
+          "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+          "snippet": "Spouse Alisha Kramer ​ ( married&lt;/span>\"}]]}'>m. 2017 ) ​ Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Worked as a national security staffer and legislative assistant for U.S. representative Hank Johnson from 2007 to 2012. From 2013 to 2021, was the managing director and chief executive officer of Insight: The World Investigates (TWI), a London-based investigative television production company. While in high school, interned for civil rights leader and U.S. representative John Lewis.",
+          "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+          "snippet": "While in high school, he interned for civil rights leader and U.S. representative John Lewis . [ 5 ] Ossoff is a 2009 graduate of Georgetown University 's Walsh School of Foreign Service with a Bachelor of Science degree in culture and politics. [ 11 ] He attended classes taught by former U.S. secretary of state Madeleine Albright and former Israeli ambassador to the United States Michael Oren . [ 12 ] [ 13 ] He earned a master of science degree in international political economy from the London School of Economics in 2013. [ 12 ] [ 13 ] [ 14 ] Early career [ edit ] After receiving a recommendation from John Lewis , Ossoff worked as a national security staffer and legislative assistant for foreign affairs and defense policy for U.S. representative Hank Johnson from 2007 to 2012. [ 15 ] [ 16 ] [ 17 ] [ 18 ] From 2013 to 2021, Ossoff was the managing director and chief executive officer of Insight: The World Investigates (TWI), a London-based investigative television production company",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Interned for civil rights leader and U.S. representative John Lewis while in high school",
+          "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+          "snippet": "While in high school, he interned for civil rights leader and U.S. representative John Lewis .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Senate Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Energy and Water Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Department of Interior, Environment, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Legislative Branch",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Rules and Administration",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 225,
+        "bills_cosponsored": 830,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "Rural Opioid Abuse Prevention Act",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "2796",
+            "publicLawNumber": "117-250",
+            "summary": "Rural Opioid Abuse Prevention Act This act expands the allowable uses of grant funds under the Comprehensive Opioid, Stimulant, and Substance Abuse Program administered by the Department of Justice. Specifically, the act allows grants to be used for pilot programs for rural areas to implement community response programs that focus on reducing opioid overdose deaths, which may include presenting alternatives to incarceration.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ250"
+          },
+          {
+            "title": "Prison Camera Reform Act of 2021",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "2899",
+            "publicLawNumber": "117-321",
+            "summary": "Prison Camera Reform Act of 2021 This act establishes various requirements to ensure that the security camera, radio, and public address systems used by the Bureau of Prisons (BOP) have the capabilities necessary to (1) ensure the health and safety of staff and inmates; and (2) ensure the documentation and accessibility of video evidence pertaining to misconduct, maltreatment, or criminal activity within correctional facilities. Among the requirements, the BOP must evaluate the systems currently in use at its facilities and implement a plan that addresses deficiencies in and makes upgrades to the systems.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ321"
+          },
+          {
+            "title": "Senator Johnny Isakson VA Regional Office Act of 2022",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "4359",
+            "publicLawNumber": "117-227",
+            "summary": "Senator Johnny Isakson VA Regional Office Act of 2022 This act designates the Department of Veterans Affairs Atlanta Regional Office in Georgia as the Senator Johnny Isakson Department of Veterans Affairs Atlanta Regional Office or the Isakson VA Atlanta Regional Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ227"
+          },
+          {
+            "title": "Civil Rights Cold Case Investigations Support Act of 2022",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "3655",
+            "publicLawNumber": "117-222",
+            "summary": "Civil Rights Cold Case Investigations Support Act of 2022 This act extends the Civil Rights Cold Case Records Review Board until 2026 (or 2027 if the board opts for an additional one-year extension). The board reviews the decisions of federal agencies to postpone the disclosure of civil rights cold case records (i.e., unsolved civil rights cases from 1940-1979).",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ222"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.474,
+          "nominateDim2": 0.486,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/O000174"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 62.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/O000174"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T13:21:31.319Z",
+      "_no_site_search_attempted_at": "2026-08-22T15:32:08.423Z",
+      "bio_summary": {
+        "value": "Thomas Jonathan Ossoff ( / ˈ ɒ s ɔː f / ⓘ OSS -off ; born February 16, 1987) is an American politician who has served as the senior United States senator from Georgia since 2021. [ a ] He is the youngest incumbent U.S. senator , and a member of the Democratic Party . Ossoff is also the youngest senior senator of the United States. Previously, Ossoff worked as a national security staffer and legislative assistant for U.S. representative Hank Johnson . Afterward, he was managing director of an investigative documentary production company. He first ran for Congress in a 2017 special election , narrowly losing a seat that had long been considered a Republican stronghold. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:34.000Z"
+    }
+  ]
+}

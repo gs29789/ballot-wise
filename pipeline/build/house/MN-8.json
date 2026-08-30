@@ -1,0 +1,689 @@
+{
+  "state": "MN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-17T15:26:37.432Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://www.revisor.mn.gov/statutes/cite/204D.03",
+    "primarySnippet": "Minn. Stat. § 204D.03: The state primary shall be held on the second Tuesday in August in each even-numbered year to select the nominees of the major political parties for partisan offices and the nominees for nonpartisan offices to be filled at the state general election, other than presidential electors.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.revisor.mn.gov/statutes/cite/204D.03",
+    "generalSnippet": "Minn. Stat. § 204D.03: The state general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Minnesota bars a person \"convicted of treason or felony, unless restored to civil rights\" from voting, and separately requires voting-eligibility to hold any office \"elective by the people in the district,\" but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://www.revisor.mn.gov/constitution/",
+    "snippet": "Minn. Const. art. VII, § 1: \"...a person who has been convicted of treason or felony, unless restored to civil rights...\" [shall not be entitled or permitted to vote]. Minn. Const. art. VII, § 6: \"Every person who by the provisions of this article is entitled to vote at any election and is 21 years of age is eligible for any office elective by the people in the district wherein he has resided 30 days previous to the election, except as otherwise provided in this constitution, or the constitution and law of the United States.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Minnesota's_8th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Pete Stauber and Trina Swanson are running in the general election for U.S. House Minnesota District 8 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.63
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 19.91
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 20.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 17.5
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.55
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3068.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3055.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3045.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3027
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3026.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3033.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3035
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3034.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3029.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3028.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3024.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3021.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3031.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3034.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3022.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3021.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3022.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3030.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3026.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3022.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3021
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3014.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3013.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3022.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3016.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3010.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3014.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2999.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2996.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2993.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2993.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2993
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2992.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2988.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2988
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2994.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2982.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2971.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2976.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2972.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2967.7
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4569082960.97,
+        "perCapitaUsd": 6459.68
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4948977766.82,
+        "perCapitaUsd": 6996.77
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5729406800.63,
+        "perCapitaUsd": 8100.13
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5717184
+      },
+      {
+        "year": "2023",
+        "population": 5737915
+      },
+      {
+        "year": "2024",
+        "population": 5793151
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 82338
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 85086
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 87117
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "peter-stauber",
+      "full_name": "STAUBER, PETER ALLEN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8MN08043",
+      "fec_status": "C",
+      "bioguide_id": "S001212",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1996897.61,
+        "totalSpent": 1324554.99,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 136303.84,
+          "largeDollar": 715511.47,
+          "pac": 931659.59,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": null,
+        "high_school": {
+          "value": "Duluth Denfeld High School",
+          "source_url": "https://petestauberforcongress.com/about/",
+          "snippet": "After graduating from Duluth Denfeld High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Lake Superior State University",
+          "source_url": "https://petestauberforcongress.com/about/",
+          "snippet": "Pete led Lake Superior State University to a national championship in 1988",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Jodi",
+          "source_url": "https://petestauberforcongress.com/about/",
+          "snippet": "Pete and his wife, Jodi",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Professional hockey player in the Detroit Red Wings organization; served more than two decades in law enforcement with the Duluth Police Department, retiring in August 2017 after 22 years of service; served as President of the Law Enforcement Labor Services Union, Local 363 and as an Area Commander with the Duluth Police Department",
+          "source_url": "https://petestauberforcongress.com/about/",
+          "snippet": "Pete played professional hockey in the Detroit Red Wings organization. After retiring from professional hockey, Pete returned to Minnesota to start a family business and served more than two decades in law enforcement. During the years of his service, Pete served both as the President of the Law Enforcement Labor Services Union, Local 363 and as an Area Commander with the Duluth Police Department. After 22 years of service with the department, Pete retired in August 2017.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 99,
+        "bills_cosponsored": 1283,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "Miracle on Ice Congressional Gold Medal Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "452",
+            "publicLawNumber": "119-53",
+            "summary": "Miracle on Ice Congressional Gold Medal Act This act provides for the award of Congressional Gold Medals to the members of the 1980 U.S. Olympic men's ice hockey team in recognition of the team's achievement at the 1980 Winter Olympic Games.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ53"
+          },
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Bureau of Land Management relating to Public Land Order No. 7917 for Withdrawal of Federal Lands; Cook, Lake, and Saint Louis Counties, MN.",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "140",
+            "publicLawNumber": "119-85",
+            "summary": "This joint resolution&nbsp;opens&nbsp;approximately 225,504 acres of National Forest System lands in Cook, Lake, and Saint Louis Counties in Minnesota to mineral and geothermal leasing. Specifically, the joint resolution nullifies Public Land Order 7917 , which withdrew such land from mineral and geothermal leasing for 20 years beginning&nbsp;in 2023. The Bureau of Land Management issued the order to protect and preserve the Rainy River Watershed, the Boundary Waters Canoe Area Wilderness, the Boundary Waters Canoe Area Wilderness Mining Protection Area, and the 1854 Ceded Territory of the Lake Superior Chippewa from potential adverse effects of mineral and geothermal exploration and development. The joint resolution removes such protections and allows such land to be leased for the exploration and development of minerals and geothermal energy.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ85"
+          },
+          {
+            "title": "NOTAM Improvement Act of 2023",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "346",
+            "publicLawNumber": "118-4",
+            "summary": "NOTAM Improvement Act of 2023 This act directs the Federal Aviation Administration (FAA) to establish the FAA Task Force on NOTAM (notice to air missions required by international or domestic law) Improvement and requires the FAA to implement a federal NOTAM system. A NOTAM is a notice containing information essential to personnel concerned with flight operations but not known far enough in advance to be publicized by other means. It states the abnormal status of a component of the National Airspace System. Specifically, the task force must (1) review existing methods for publishing NOTAMs and flight operations information for pilots; (2) review regulations, policies, systems, and international standards relating to NOTAMs, including their content and presentation to pilots; (3) evaluate and determine best practices to organize, prioritize, and present flight operations information in a manner that optimizes pilot review and retention of relevant information; (4) provide recommendations to improve the publication and delivery of NOTAM information; and (5) report to Congress on its reviews and evaluations. By September 30, 2024, the FAA must (1) complete implementation of a federal NOTAM system and implement a back-up system, and (2) brief Congress on a plan to enhance information delivery through this federal system to promote further global harmonization and provide users of the National Airspace System a consistent format for domestic and international operations.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ4"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 10 Broadway Street West, in Akeley, Minnesota, as the \"Neal Kenneth Todd Post Office\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "4899",
+            "publicLawNumber": "117-276",
+            "summary": "This act designates the facility of the United States Postal Service located at 10 Broadway Street West, in Akeley, Minnesota, as the Neal Kenneth Todd Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ276"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.385,
+          "nominateDim2": -0.089,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001212"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 66.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001212"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=0Z96JGOTv8w",
+      "platform_video_title": "Stand",
+      "platform_video_source_url": "https://petestauberforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:02:55.568Z",
+      "bio_summary": {
+        "value": "Growing up in Duluth as one of six brothers playing hockey at the neighborhood rink, Pete Stauber knows how to fight back. A former professional hockey player and retired police officer of 23 years, Pete is fighting in Congress for our way of life. After graduating from Duluth Denfeld High School and receiving a Division I hockey scholarship, Pete led Lake Superior State University to a national championship in 1988. Pete played professional hockey in the Detroit Red Wings organization. After retiring from professional hockey, Pete returned to Minnesota to start a family business and served more than two decades in law enforcement.",
+        "source_url": "https://petestauberforcongress.com/about/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:51:04.453Z"
+    },
+    {
+      "slug": "trina-swanson",
+      "full_name": "SWANSON, TRINA",
+      "party": "DEMOCRATIC-FARMER-LABOR",
+      "incumbent": false,
+      "fec_candidate_id": "H6MN08179",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 316706.12,
+        "totalSpent": 226282.96,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 119200.28,
+          "largeDollar": 187236.25,
+          "pac": 10200,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "US Citizenship & Immigration Services, Attorney/Director of International Operations; US Bankruptcy Court",
+          "source_url": "https://www.ballotready.org/people/trina-swanson",
+          "snippet": "US Citizenship & Immigration Services, Attorney/Director of International Operations US Bankruptcy Court",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-23T12:00:15.196Z",
+      "bio_summary": {
+        "value": "I grew up in Duluth and Hermantown, graduating from Hermantown High School. I spent 25 years serving our country in the federal government. I started my federal career at just 18 years old at the Bankruptcy Court, where I worked throughout college and law school. After law school, I started working for U.S. Citizenship & Immigration Services. While running immigration operations in three countries, I followed the law and kept our country safe. I walked away from that career rather than compromise my oath. I came home, and now I'm running for Congress because I want to protect the future of northern and central Minnesota, and the people who call it home.",
+        "source_url": "https://ballotpedia.org/Trina_Swanson",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:47:12.745Z"
+    }
+  ]
+}

@@ -1,0 +1,786 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-21T12:50:47.025Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_8th_Congressional_District_election,_2026",
+    "snippet": "Incumbent John Garamendi and Rudy Recile are running in the general election for U.S. House California District 8 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "john-garamendi",
+      "full_name": "GARAMENDI, JOHN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0CA10149",
+      "fec_status": "C",
+      "bioguide_id": "G000559",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 489134.65,
+        "totalSpent": 557834.27,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7559.14,
+          "largeDollar": 147033.51,
+          "pac": 334500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1945-01-24",
+          "source_url": "https://www.wikidata.org/wiki/Q1340268",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Camp Blanding, Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q1340268",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Berkeley",
+          "source_url": "https://www.wikidata.org/wiki/Q1340268",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Elected to the state legislature in 1974",
+          "source_url": "https://www.garamendi.org/",
+          "snippet": "Elected to the state legislature in 1974",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Patricia Wilkinson since 1965",
+          "source_url": "https://en.wikipedia.org/wiki/John_Garamendi",
+          "snippet": "Spouse Patricia Wilkinson ​ ( married&lt;/span>\"}]]}'>m. 1965 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Eagle Scout; member of Sigma Chi fraternity (Alpha Beta Chapter at Berkeley)",
+          "source_url": "https://en.wikipedia.org/wiki/John_Garamendi",
+          "snippet": "Garamendi is an Eagle Scout and a member of Sigma Chi , as a brother of the Alpha Beta Chapter at Berkeley.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Water Infrastructure and Delta",
+          "value": "Dedicated to stopping the tunnels and saving the Delta, and has introduced legislation that makes vital investments in water infrastructure to protect the local species and better address future droughts",
+          "snippet": "Congressman Garamendi is dedicated to stopping the tunnels and saving the Delta. In addition, he has introduced legislation that makes vital investments in water infrastructure to protect the local species and better address future droughts."
+        },
+        {
+          "topic": "Middle Class",
+          "value": "Focused on growing the middle class",
+          "snippet": "Congressman John Garamendi is focused on growing the middle class."
+        }
+      ],
+      "platform_source_url": "https://www.garamendi.org/",
+      "_platform_resolved_at": "2026-08-15T10:59:49.965Z",
+      "campaign_site_url": "http://garamendi.org",
+      "platform_video_url": "https://www.youtube.com/watch?v=n78x-WCour4",
+      "platform_video_title": "Congressman John Garamendi: Protecting Our Water",
+      "platform_video_source_url": "https://www.garamendi.org/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-18T22:07:25.891Z",
+      "bio_summary": {
+        "value": "Elected to the state legislature in 1974, Garamendi’s first legislation was the Rural Health Act of California to ensure that underserved residents in rural communities had access to quality health care. As a legislator, he established a work-oriented welfare program, developed a state agenda for economic competitiveness and scientific advancement, and authored legislation to fund the construction of research facilities across the UC system.",
+        "source_url": "https://www.garamendi.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:21:04.643Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075753.pdf",
+        "filingDate": "7/22/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:33:53.450Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Coast Guard and Maritime Transportation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Economic Development, Public Buildings, and Emergency Management",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Readiness",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 240,
+        "bills_cosponsored": 3747,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Merchant Mariners of World War II Congressional Gold Medal Act of 2020",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5671",
+            "publicLawNumber": "116-125",
+            "summary": "Merchant Mariners of World War II Congressional Gold Medal Act of 2020 This bill provides for a Congressional Gold Medal to be awarded to the U.S. Merchant Mariners of World War II, in recognition of their service during World War II. Following the award of the medal, it shall be given to the American Merchant Marine Museum, where it shall be available for display and research.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ125"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.312,
+          "nominateDim2": -0.101,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000559"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 26.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000559"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "rudy-recile",
+      "full_name": "RECILE, RUDY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2CA00153",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8576,
+        "totalSpent": 8072.87,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1628,
+          "largeDollar": 6923,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 25
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://rudyforuscongress.com/",
+          "snippet": "I am a husband, brother, uncle, and proud member of a family dedicated to service",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "small business owner, former employee of the U.S. Department of Agriculture, retired UNITED STATES ARMY MAJOR with over 26 years of military service, retired in 2014",
+          "source_url": "https://rudyforuscongress.com/",
+          "snippet": "I am a small business owner, a former employee of the U.S. Department of Agriculture, and a proud retired UNITED STATES ARMY MAJOR with over 26 years of military service to our nation. During my military career, I had the privilege of serving across the United States and abroad, including assignments in Illinois, South Korea, and Washington, D.C. My final duty station brought my wife and me to Fairfield, California. We quickly fell in love with this community, its people, and its spirit of resilience and opportunity. After my retirement in 2014",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Eastern Illinois University (1996); Master's, National Graduate School of Quality Management, Quality Systems Management (2005)",
+          "source_url": "https://www.ballotready.org/people/rudy-recile",
+          "snippet": "Degrees Master&#x27;s, National Graduate School of Quality Management, Quality Systems Management (2005) Bachelor&#x27;s, Eastern Illinois University (1996)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Support for Veterans",
+          "value": "Supports veterans",
+          "snippet": "Issues Veterans"
+        },
+        {
+          "topic": "Education and School Choice",
+          "value": "Supports education and school choice",
+          "snippet": "Education and School Choice"
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "Supports energy independence",
+          "snippet": "Energy Independence"
+        },
+        {
+          "topic": "Accountability in Government Spending",
+          "value": "Supports accountability in government spending",
+          "snippet": "Accountability in Government Spending"
+        }
+      ],
+      "platform_source_url": "https://rudyforuscongress.com/",
+      "_platform_resolved_at": "2026-08-15T10:59:53.599Z",
+      "campaign_site_url": "https://www.rudyforuscongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=3lgIqxumelc",
+      "platform_video_title": "MAJ Rudy Recile, USA Ret and Charlee Simons face protestors outside 2023 Fall Republican Convention",
+      "platform_video_source_url": "https://rudyforuscongress.com/index.php/interviews/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-21T12:50:29.371Z",
+      "bio_summary": {
+        "value": "I am a small business owner, a former employee of the U.S. Department of Agriculture, and a proud retired UNITED STATES ARMY MAJOR with over 26 years of military service to our nation. During my military career, I had the privilege of serving across the United States and abroad, including assignments in Illinois, South Korea, and Washington, D.C. My final duty station brought my wife and me to Fairfield, California. We quickly fell in love with this community, its people, and its spirit of resilience and opportunity. After my retirement in 2014, we made the decision to call California home.",
+        "source_url": "https://rudyforuscongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:21:07.263Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30027578.pdf",
+        "filingDate": "5/13/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:33:56.084Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

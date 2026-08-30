@@ -1,0 +1,149 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-18",
+  "generated_at": "2026-08-14T18:38:27.237Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_18th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Christian Menefee and Ronald Whitfield are running in the general election for U.S. House Texas District 18 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "christian-menefee",
+      "full_name": "MENEFEE, CHRISTIAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX18232",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3637578.6,
+        "totalSpent": 3481562.61,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 700825.71,
+          "largeDollar": 2698549.08,
+          "pac": 234867.67,
+          "party": 0,
+          "selfFunded": 100
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1988-04-18",
+          "source_url": "https://www.wikidata.org/wiki/Q114397549",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Houston, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q114397549",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Alief Hastings High School",
+          "source_url": "https://www.wikidata.org/wiki/Q114397549",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Alief Hastings High School",
+          "source_url": "https://en.wikipedia.org/wiki/Christian_Menefee",
+          "snippet": "Menefee is a graduate of Alief Hastings High School",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Kaitlyn Pennington-Hill in 2019",
+          "source_url": "https://en.wikipedia.org/wiki/Christian_Menefee",
+          "snippet": "Spouse Kaitlyn Pennington-Hill ​ ​ ( married&lt;/span>\"}]]}'>m. 2019 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Practiced law at Norton Rose Fulbright and Kirkland & Ellis LLP. Served as County Attorney for Harris County, Texas from 2021 to 2026.",
+          "source_url": "https://en.wikipedia.org/wiki/Christian_Menefee",
+          "snippet": "Prior to taking office, Menefee practiced law at Norton Rose Fulbright and Kirkland & Ellis LLP . [ 7 ] He said that the 2016 United States presidential election made him want to enter politics, and that the office of County Attorney is \"the perfect intersection of law and policy making.\" [ 5 ] Harris County Attorney [ edit source ] Menefee in 2022 Menefee defeated three-term incumbent Harris County Attorney Vince Ryan and another challenger in the March 2020 Texas Democratic Primary Election, and won the November 2020 General Election. [ 8 ] He took office in January 2021.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Appointed by EPA Administrator Michael S. Regan to serve on the EPA's Local Government Advisory Committee in January 2023",
+          "source_url": "https://en.wikipedia.org/wiki/Christian_Menefee",
+          "snippet": "In January 2023, Menefee was appointed by United States Environmental Protection Agency (EPA) Administrator Michael S. Regan to serve on the EPA's Local Government Advisory Committee.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Christian Dashaun Menefee ( / ˈ m ɛ n ə f i / ; born April 18, 1988) is an American politician and attorney who has been serving as the U.S. representative for Texas's 18th congressional district since February 2026. [ 1 ] A member of the Democratic Party , Menefee previously served as County Attorney for Harris County, Texas , from 2021 to 2026. He was the youngest person and the first African-American to hold the office. [ 2 ] [ 3 ] [ 4 ] Early career [ edit ] Menefee was born in Houston , Texas and was the first from his family to attend college. [ 5 ] Menefee is a graduate of Alief Hastings High School , [ 5 ] University of Texas at San Antonio , and Washington University School of Law . [ 6 ] [ 3 ] Prior to taking office, Menefee practiced law at Norton Rose Fulbright and Kirkland & Ellis LLP . [ 7 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Christian_Menefee",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:45:45.866Z"
+    }
+  ]
+}
