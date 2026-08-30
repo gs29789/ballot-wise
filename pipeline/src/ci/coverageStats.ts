@@ -31,6 +31,7 @@ interface StatsSnapshot {
   platformSummary: number;
   video: number;
   campaignSite: number;
+  campaignSiteNeverChecked: number;
   incumbentsWithTrackRecord: number;
   siteVisitsRaw: number | null;
 }
@@ -123,6 +124,7 @@ async function main() {
     platformSummary: 0,
     anyBioField: 0,
     campaignSite: 0,
+    campaignSiteNeverChecked: 0,
   };
   let incumbentsWithTrackRecord = 0;
 
@@ -138,6 +140,15 @@ async function main() {
       if (typeof c.financials?.totalRaised === "number") counts.finances++;
       if (Array.isArray(c.platform) && c.platform.length > 0) counts.platformSummary++;
       if (c.campaign_site_url) counts.campaignSite++;
+      // Distinguishes "checked, FEC genuinely has nothing on file" (the key
+      // is present and null) from "this candidate has never been through a
+      // buildRace() pass that would even attempt this at all" (the key is
+      // absent entirely -- confirmed 2026-08-30 on Sen. Ossoff, whose record
+      // predated the field: 904/1108 candidates were in this state before
+      // scaleCampaignSiteDiscovery.ts started backfilling it). Without this
+      // line, both cases silently look identical -- "no site" -- and an
+      // actual gap in pipeline coverage reads the same as a genuine absence.
+      if (c.campaign_site_url === undefined) counts.campaignSiteNeverChecked++;
 
       const bio = c.bio ?? {};
       if (Object.values(bio).some((f: any) => f && f.value)) counts.anyBioField++;
@@ -162,6 +173,9 @@ async function main() {
   console.log(`Campaign video:            ${pct(counts.video, total)}${delta(counts.video, previous?.video)}`);
   console.log(`Campaign site on file:     ${pct(counts.campaignSite, total)}${delta(counts.campaignSite, previous?.campaignSite)}`);
   console.log(
+    `  ...never even checked:   ${pct(counts.campaignSiteNeverChecked, total)}${delta(counts.campaignSiteNeverChecked, previous?.campaignSiteNeverChecked)}`
+  );
+  console.log(
     `Congress track record:     ${pct(incumbentsWithTrackRecord, incumbents)} of incumbents${delta(incumbentsWithTrackRecord, previous?.incumbentsWithTrackRecord)}`
   );
   if (previous) console.log(`(vs. run on ${previous.generatedAt})`);
@@ -178,6 +192,7 @@ async function main() {
     platformSummary: counts.platformSummary,
     video: counts.video,
     campaignSite: counts.campaignSite,
+    campaignSiteNeverChecked: counts.campaignSiteNeverChecked,
     incumbentsWithTrackRecord,
     siteVisitsRaw: siteVisits.raw,
   });

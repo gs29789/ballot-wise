@@ -124,9 +124,27 @@ export async function searchCandidates(state: string, office: "H" | "S", cycle: 
 // DE). Filtered to the principal campaign committee specifically, since
 // incumbents also have unrelated joint fundraising committees on this
 // endpoint whose "website" field is not the candidate's own site.
+export class FecRateLimitError extends Error {
+  constructor() {
+    super("FEC_RATE_LIMITED");
+  }
+}
+
 export async function getCommitteeWebsite(candidateId: string): Promise<string | null> {
   const url = `${FEC_BASE}/candidate/${candidateId}/committees/?api_key=${apiKey()}`;
   const res = await fetch(url);
+  // 429 is not "no committee found" -- confirmed via a real hit during a
+  // 900-candidate scale run (2026-08-30): api.data.gov enforces 1000 calls/
+  // hour per key, and this pipeline's other FEC usage the same day easily
+  // exhausts that alongside a bulk script. A caller that treats this the
+  // same as a genuine empty result silently records "checked, nothing
+  // there" for a candidate that was never actually checked -- exactly the
+  // failure mode this distinction exists to prevent. Every existing caller
+  // already wraps this function in its own .catch(() => null) (build.ts),
+  // so throwing here is behavior-preserving for them; only a caller that
+  // explicitly wants to distinguish this case (see scaleCampaignSiteDiscovery.ts)
+  // needs to catch FecRateLimitError specifically.
+  if (res.status === 429) throw new FecRateLimitError();
   if (!res.ok) return null;
   const data = await res.json();
   const principal = (data.results as any[])?.find((c) => c.designation_full === "Principal campaign committee");
