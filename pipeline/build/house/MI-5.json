@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-16T22:27:58.469Z",
+  "generated_at": "2026-08-31T23:15:06.635Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 722948012.63,
-        "perCapitaUsd": 945.2
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 318073847.04,
-        "perCapitaUsd": 415.86
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459264460.53,
+        "perCapitaUsd": 600.46
       }
     ],
     "population": [
@@ -530,15 +540,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.218Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:25.325Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:02.469Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:33:49.218Z"
+      "_curated_match": false
     },
     {
       "slug": "christian-vukasovich",
@@ -572,27 +589,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:25.679Z",
+      "campaign_site_url": "https://christian4michigan.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:33:05.078Z",
       "bio_summary": {
         "value": "Christian Vukasovich was born in Michigan . His career experience includes working as a teacher and college professor. [1] ",
         "source_url": "https://ballotpedia.org/Christian_Vukasovich",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:45:31.599Z",
-      "campaign_site_url": "https://christian4michigan.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "timothy-walberg",
@@ -642,16 +658,123 @@
           "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
           "snippet": "Walberg was a member of the Michigan House of Representatives from 1983 to 1998.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "minister; member of the Michigan state house of representatives, 1983-1998",
+          "source_url": "https://history.house.gov/People/Listing/W/WALBERG,-Tim-(W000798)/",
+          "snippet": "minister; member of the Michigan state house of representatives, 1983-1998",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Creating Job and Economic Growth",
+          "value": "Focuses on expanding economic opportunities, encouraging job creation, and raising incomes for hardworking taxpayers.",
+          "snippet": "Hardworking taxpayers are the strength of our country, and my focus is on expanding economic opportunities, encouraging job creation, and raising incomes. - Tim Walberg\n"
+        },
+        {
+          "topic": "Fiscal Responsibility",
+          "value": "Believes the federal government needs to live within its means.",
+          "snippet": "The federal government needs to live within its means. - Tim Walberg\n"
+        },
+        {
+          "topic": "Affordable and Quality Health Care",
+          "value": "Prioritizes lowering prescription drug costs, developing disease cures, combating drug addiction, protecting people with pre-existing conditions, and making health care more affordable.",
+          "snippet": "Lowering the cost of prescription drugs, developing cures for diseases, combating the drug addiction epidemic, protecting people with pre-existing conditions, and making healthcare more affordable are all important, life-touching priorities. - Tim Walberg\n"
+        },
+        {
+          "topic": "Defending Our Values",
+          "value": "Has voted repeatedly to support veterans and the military, religious freedom, the Second Amendment, and the right to life.",
+          "snippet": "I have voted repeatedly to support our veterans and military, religious freedom, 2nd Amendment, and right to life. - Tim Walberg\n"
+        },
+        {
+          "topic": "Fixing the Biden Economy",
+          "value": "Supports reversing Biden-administration policies he says have hurt national security and prosperity; calls for \"commonsense solutions.\"",
+          "snippet": "We must correct course by reversing the policies implemented by Joe Biden, which have cut into our nation's security and prosperity. It's time for commonsense solutions. - Tim Walberg\n"
+        },
+        {
+          "topic": "Protecting our National Security",
+          "value": "Supports strengthening U.S. resolve and capabilities against terrorist threats and dangerous regimes to keep Americans safe.",
+          "snippet": "In the face of terrorist threats and dangerous regimes, we are strengthening our resolve and capabilities to keep the American people safe. - Tim Walberg\n"
+        }
+      ],
+      "platform_source_url": "https://www.walbergforcongress.com",
+      "_platform_resolved_at": "2026-08-31T23:13:37.915Z",
+      "campaign_site_url": "https://www.walbergforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.221Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Timothy Lee Walberg (born April 12, 1951) [ 1 ] is an American politician serving as a U.S. representative from Michigan since 2011, representing the state's 5th congressional district since 2023. A member of the Republican Party , he previously represented the 7th district from 2007 to 2009 and from 2011 to 2023 as the longest tenured member from Michigan . If elected for another term, he is expected to become the dean of Michigan's congressional delegation when Senator Gary Peters retires in 2027. [ 2 ] [ 3 ] Early life, education, and early career [ edit ] Walberg was born and raised in Chicago , Illinois, the son of Alice Ann and John A. Walberg. His paternal grandparents were Swedish. [ 4 ] In 1964, Walberg served the Barry Goldwater 1964 presidential campaign as a volunteer. Walberg graduated from Thornton Fractional North High School in 1969 and briefly served the U.S. Forest Service. From 1973 to 1977, Walberg served as pastor at Grace Fellowship Church in New Haven, Indiana. [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 281,
+          "attendanceRate": 0.9929328621908127
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -737,18 +860,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/W000798"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:26.061Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:07.864Z",
-      "bio_summary": {
-        "value": "Timothy Lee Walberg (born April 12, 1951) [ 1 ] is an American politician serving as a U.S. representative from Michigan since 2011, representing the state's 5th congressional district since 2023. A member of the Republican Party , he previously represented the 7th district from 2007 to 2009 and from 2011 to 2023 as the longest tenured member from Michigan . If elected for another term, he is expected to become the dean of Michigan's congressional delegation when Senator Gary Peters retires in 2027. [ 2 ] [ 3 ] Early life, education, and early career [ edit ] Walberg was born and raised in Chicago , Illinois, the son of Alice Ann and John A. Walberg. His paternal grandparents were Swedish. [ 4 ] In 1964, Walberg served the Barry Goldwater 1964 presidential campaign as a volunteer. Walberg graduated from Thornton Fractional North High School in 1969 and briefly served the U.S. Forest Service. From 1973 to 1977, Walberg served as pastor at Grace Fellowship Church in New Haven, Indiana. [ 5 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z",
-      "campaign_site_url": "https://www.walbergforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:49.221Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     }
   ]
 }
