@@ -670,9 +670,20 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Health Care",
+          "value": "Making health care more affordable and accessible",
+          "snippet": "making health care more affordable and accessible"
+        },
+        {
+          "topic": "Middle Class",
+          "value": "Helping to grow and strengthen our middle class",
+          "snippet": "helping to grow and strengthen our middle class"
+        }
+      ],
+      "platform_source_url": "https://www.pallonefornewjersey.com/",
+      "_platform_resolved_at": "2026-08-31T12:40:53.041Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075741.pdf",
         "filingDate": "5/15/2026",

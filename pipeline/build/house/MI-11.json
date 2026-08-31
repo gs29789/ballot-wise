@@ -552,9 +552,20 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Unity and Bipartisanship",
+          "value": "Advocates for reducing political division and increasing dialogue across differences, believing people should stop constant fighting and suspicion while standing firmly for principles and making space to understand others",
+          "snippet": "on a human level, it is not healthy for us to be this divided. We were not meant to live in constant fight mode or suspicion of one another. We can stand firmly for our principles, as we always have, while still making space to understand where someone else is coming from."
+        },
+        {
+          "topic": "Government Trust and Transparency",
+          "value": "Committed to restoring confidence in how government works and rebuilding trust between government and the community it serves",
+          "snippet": "He prioritized rebuilding trust between the city and the community it serves and has remained committed to that ever since."
+        }
+      ],
+      "platform_source_url": "https://www.bakerforcongress.com/",
+      "_platform_resolved_at": "2026-08-31T12:34:35.593Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

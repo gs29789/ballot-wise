@@ -566,9 +566,15 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Clean Water Infrastructure",
+          "value": "Supports clean water infrastructure funding and secured $4 million for the East Range Water Plant",
+          "snippet": "Every Minnesotan deserves clean water and I was proud to help secure $4 million funding to deliver real results for the Range! I enjoyed helping celebrate the grand opening of the East Range Water Plant that positively impacts Aurora, Hoyt Lakes, and White Township."
+        }
+      ],
+      "platform_source_url": "https://petestauberforcongress.com/",
+      "_platform_resolved_at": "2026-08-31T12:40:34.486Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
