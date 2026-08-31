@@ -23,21 +23,37 @@ export interface CuratedPlatformVideo {
   source_type: "campaign_site" | "youtube_search" | "wikipedia" | "curated";
 }
 
+export interface CuratedPlatformPosition {
+  topic: string;
+  value: string;
+  snippet: string;
+}
+
 export interface CuratedCandidate {
   fec_candidate_id?: string;
   bioguide_id?: string | null;
   bio?: Record<string, SourcedField<unknown>>;
-  // Both fields below are checked BEFORE any automated resolution and, when
-  // present, used as-is -- never re-fetched, never re-derived, never at risk
-  // of a later rebuild silently reverting them. This is the stabilization
-  // mechanism itself: curated data lives in git-tracked source on `main`,
-  // not in the separate data-snapshot branch a targeted publish can leave
-  // stale. See build.ts's bio_summary/video resolution for how this is
-  // wired in, and pipeline/curated/SC/senate/james-clyburn.yaml for why
-  // this exists at all -- a hand-verified video silently vanished once
-  // already because nothing protected it from a later full rebuild.
+  // All three fields below are checked BEFORE any automated resolution and,
+  // when present, used as-is -- never re-fetched, never re-derived, never at
+  // risk of a later rebuild silently reverting them. This is the
+  // stabilization mechanism itself: curated data lives in git-tracked
+  // source on `main`, not in the separate data-snapshot branch a targeted
+  // publish can leave stale. See build.ts's bio_summary/video/platform
+  // resolution for how this is wired in, and
+  // pipeline/curated/SC/senate/james-clyburn.yaml for why this exists at
+  // all -- a hand-verified video silently vanished once already because
+  // nothing protected it from a later full rebuild.
+  //
+  // `platform` added 2026-08-31 for candidates whose site is behind a
+  // genuine Cloudflare bot challenge (see needsHumanReview.json) -- a human
+  // gets past the challenge, copies the real position text out, and it's
+  // curated here with the same quote-anchored discipline llmExtract.ts
+  // itself enforces (a `value` claim must be traceable to its `snippet`),
+  // just applied by a person instead of an LLM call.
   bio_summary?: CuratedBioSummary;
   platform_video?: CuratedPlatformVideo;
+  platform?: CuratedPlatformPosition[];
+  platform_source_url?: string;
 }
 
 const CURATED_ROOT = join(import.meta.dirname, "..", "curated");

@@ -579,13 +579,27 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // next rebuild. Only possible when a campaign site was actually
       // found; correctly absent otherwise, same "no source, no field" rule
       // as everything else in this pipeline.
-      const prevPlatform = prevCand?.platform?.length ? { positions: prevCand.platform, sourceUrl: prevCand.platform_source_url } : null;
-      const { value: platform, resolvedAt: platformResolvedAt } = await resolveWithRefresh(
-        prevPlatform,
-        prevCand?._platform_resolved_at,
-        c.candidateId,
-        () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
-      );
+      // A curated platform_video/bio_summary ALWAYS wins and is never
+      // re-fetched -- platform gets the same protection, added 2026-08-31
+      // for candidates whose site is behind a genuine Cloudflare bot
+      // challenge (a human gets past it, copies the real text out; see
+      // curated.ts's CuratedCandidate.platform comment).
+      let platform: { positions: { topic: string; value: string; snippet: string }[]; sourceUrl: string | null } | null = null;
+      let platformResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.platform) {
+        platform = { positions: curatedEntry.platform, sourceUrl: curatedEntry.platform_source_url ?? campaignSiteUrl ?? null };
+        platformResolvedAt = prevCand?._platform_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevPlatform = prevCand?.platform?.length ? { positions: prevCand.platform, sourceUrl: prevCand.platform_source_url } : null;
+        const resolved = await resolveWithRefresh(
+          prevPlatform,
+          prevCand?._platform_resolved_at,
+          c.candidateId,
+          () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+        );
+        platform = resolved.value;
+        platformResolvedAt = resolved.resolvedAt;
+      }
 
       // Tier 1 only: a video found exclusively via a link already on the
       // candidate's own site — see campaignVideo.ts. Checks the platform
@@ -766,6 +780,15 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // platform, AND video already resolved) shouldn't silently erase an
         // already-known site.
         campaign_site_url: campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
+        // scaleCampaignSiteDiscovery.ts's own tracking fields, carried
+        // forward -- this output object is a fresh literal each build, so
+        // without this a real buildRace() pass silently drops them even
+        // though campaign_site_url itself survives (confirmed on a real
+        // rebuild, 2026-08-31). Harmless when a curated override makes the
+        // classification moot, but would otherwise quietly erode
+        // needsHumanReview.json's source data over time.
+        _campaign_site_reachability: prevCand?._campaign_site_reachability ?? null,
+        _campaign_site_discovered_at: prevCand?._campaign_site_discovered_at ?? null,
         platform_video_url: video?.videoUrl ?? null,
         platform_video_title: video?.videoTitle ?? null,
         platform_video_source_url: video?.sourceUrl ?? null,
