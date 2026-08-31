@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-18T20:04:29.617Z",
+  "generated_at": "2026-08-31T09:59:49.229Z",
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2970.8
+        "thousandsOfJobs": 2967.9
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5210974845.04,
-        "perCapitaUsd": 6979.36
+        "totalUsd": 5211516551.53,
+        "perCapitaUsd": 6980.09
       }
     ],
     "population": [
@@ -543,20 +553,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://kelleyforco.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:35:00.591Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:22.764Z",
-      "platform_video_tier": null,
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:35:00.591Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:53:58.149Z"
+      "_curated_match": false
     },
     {
       "slug": "joseph-neguse",
@@ -591,9 +603,9 @@
           "source_type": "wikidata_structured"
         },
         "college": {
-          "value": "ThunderRidge High School",
-          "source_url": "https://www.wikidata.org/wiki/Q57242006",
-          "source_type": "wikidata_structured"
+          "value": "University of Colorado at Boulder",
+          "source_url": "https://joeneguseforcongress.com",
+          "snippet": "After graduating from the University of Colorado at Boulder summa cum laude, Joe co-founded the state's largest youth voter registration and mobilization non-profit in Colorado"
         },
         "civic_affiliations": {
           "value": "CU Regent",
@@ -622,42 +634,68 @@
       },
       "platform": [
         {
-          "topic": "Education",
-          "value": "Supports public schools",
-          "snippet": "supporting our public schools"
-        },
-        {
           "topic": "Public Lands",
-          "value": "Protects public lands and opposes plan to sell millions of acres of public land",
-          "snippet": "protecting our public lands"
+          "value": "Chairs the House Subcommittee on National Parks, Forests and Public Lands; passed the CORE Act preserving 400,000 acres of Colorado wilderness; founded the Bipartisan Wildfire Caucus and secured tens of millions in wildfire resiliency funding.",
+          "snippet": "Public lands are at the heart of Colorado's economy, our commitment to sustainability and our way of life. As the first Coloradan to serve as Chairman of the U.S. House Subcommittee on National Parks, Forests and Public Lands, Joe is committed to preserving Colorado's treasured public spaces, investing in our outdoor recreation economy, safeguarding wildlife and biodiversity and tackling western wildfires. Early in his tenure, he shepherded his public lands package — the Colorado Outdoor Recreation and Economy Act (CORE Act) — through the U.S. House, major Colorado wilderness legislation that would preserve 400,000 acres of public lands and honor Colorado's military legacy. Joe has also made wildfire resiliency and preparedness a top priority, serving as Founder and Co-Chair of the Bipartisan Wildfire Caucus, and securing tens of millions of dollars for wildfire resiliency and mitigation, to restore our lands and communities.\n"
         },
         {
-          "topic": "Political Corruption",
-          "value": "Leading efforts against political corruption, spearheading Congressional agenda aimed at tackling corruption",
-          "snippet": "leading efforts against political corruption"
+          "topic": "Climate",
+          "value": "Serves on the Select Committee on the Climate Crisis; launched the 21st Century Civilian Climate Corps; introduced the Solar Edge Act as his first bill and has sponsored multiple renewable-energy and emissions-reduction bills; secured funding for federal research labs in the district and passed regenerative-agriculture/natural climate solutions legislation.",
+          "snippet": "Joe firmly believes climate change is an existential threat, and one that must be addressed with bold action. As the only lawmaker from the Rocky Mountain region to be appointed by the Speaker of the House to serve on the Select Committee on the Climate Crisis, he has been recognized nationally for his work to protect our environment, including his successful effort to launch the 21st Century Civilian Climate Corps. The very first bill he introduced was a proposal to expand solar energy (the Solar Edge Act), and he's written and sponsored multiple bills to significantly increase investments in renewable energy and drastically reduce our carbon emissions. He has also successfully secured millions of dollars to support the incredible Federal research labs across the 2nd District, and passed legislation through the House to invest in regenerative agriculture and natural climate solutions on our lands. Joe believes in building a brighter future for the next generation, by safeguarding our planet, tackling climate change and investing in a clean energy economy.\n"
         },
         {
-          "topic": "Congressional Lobbying",
-          "value": "Introduced law to impose lifetime ban on members of Congress from lobbying",
-          "snippet": "AOC, Neguse Introduce Law to Impose Lifetime Ban on Members of Congress from Lobbying"
+          "topic": "Health Care",
+          "value": "Supports universal health care coverage; championed lowering prescription drug costs, expanding Medicare, and combating discriminatory for-profit insurance practices; advocated for COVID-19 testing/vaccine/medical-supply legislation; introduced legislation for affordable access to specialized hearing devices, inspired by a constituent.",
+          "snippet": "Affordable health care should be available to all Coloradans. Joe supports universal health care coverage and has championed efforts in Congress to lower the cost of prescription drugs, expand Medicare, and combat discriminatory practices of for-profit insurance companies. During the COVID-19 pandemic, he successfully advocated for passage of legislation to increase access to COVID-19 testing, ramp up vaccine progress, and improve the U.S. medical supply stockpile. And inspired by a Broomfield third-grader, he introduced legislation to ensure fair and affordable access to specialized hearing devices to help his constituent and others like her.\n"
         },
         {
-          "topic": "NOAA Funding",
-          "value": "Opposes proposed NOAA cuts that would shut down Colorado labs",
-          "snippet": "Neguse leads opposition to proposed NOAA cuts that would shut down Colorado labs"
+          "topic": "Economic Opportunity",
+          "value": "Supports the Paycheck Fairness Act and Raise the Wage Act ($15 minimum wage); advocates for paid leave, affordable child care, and expanded nutrition assistance — his 15% SNAP increase proposal was signed into law in 2021; led a 2020 investigation into anti-competitive big-tech practices; helped secure PPP, EIDL, and Restaurant Revitalization funds for district small businesses during the pandemic.",
+          "snippet": "Joe believes that the American dream should be attainable for every family, including access to a good-paying job, quality public schools and economic opportunity. In Congress, Joe is fighting to close the gender pay gap and raise the minimum wage to $15, through the Paycheck Fairness Act and Raise the Wage Act. He is also advocating for paid leave, affordable child care and expanded nutrition assistance to support working families. His proposal to increase the Supplemental Nutrition Assistance Program (SNAP) by 15% was signed into law in 2021. In 2020, Joe helped lead an investigation into anti-competitive behavior in the digital marketplace, to ensure that small business innovation and entrepreneurship is not threatened by the monopoly power of big tech. He also helped secure PPP, EIDL and Restaurant Revitalization Funds for struggling small businesses in his district amidst the economic crisis.\n"
         },
         {
-          "topic": "Working Families",
-          "value": "Will fight for working families across the state",
-          "snippet": "We support Joe because we know that he will fight for working families across our state"
+          "topic": "Immigration",
+          "value": "Vice Chair of the House Subcommittee on Immigration and Citizenship; helped lead efforts to protect Dreamers and advocated for relief for Coloradans living in sanctuary; Co-Chair of the Bipartisan Refugee Caucus, working on refugee-resettlement legislation including the GRACE Act.",
+          "snippet": "As the son of refugees, Joe is fighting to ensure that all immigrants are treated with humanity and dignity. As Vice Chair of the U.S. Subcommittee on Immigration and Citizenship, he helped lead an effort in the House to protect young Dreamers and has strongly advocated for relief for Coloradans living in sanctuary. As Co-Chair of the Bipartisan Refugee Caucus, he is working to ensure that America remains a beacon of hope, and a moral leader on refugee resettlement, through legislation like the GRACE Act.\n"
+        },
+        {
+          "topic": "Gun Violence Prevention",
+          "value": "Vice-Chair of the House Gun Violence Prevention Task Force; led letters urging President Biden to take executive action, resulting in stricter regulation of concealable assault-style weapons; helped lead House efforts to close background-check loopholes; committed to further reforms.",
+          "snippet": "Inaction on gun violence is simply not an option. As the Vice-Chair of the House Gun Violence Prevention Task Force, Joe has been a leader in Congress on ending the epidemic of gun violence, and is committed to doing everything he can to save lives and stop these senseless tragedies. In April of 2021 he led a series of letters to President Biden urging him to take executive actions to curb gun violence, and at Joe's urging, the President issued an order that will more strictly regulate concealable assault-style weapons, among other reforms. Joe also helped lead efforts in the House to pass legislation to close dangerous loopholes in our background check system. These are important steps forward, but the work continues. Joe is committed to passing meaningful reforms that keep weapons of war out of our communities.\n"
+        },
+        {
+          "topic": "Civil Rights",
+          "value": "Member of the Equality Caucus, working to pass the Equality Act for LGBTQ+ protections; joined the Congressional Black Caucus to introduce and pass the George Floyd Justice in Policing Act; sponsors the EACH Woman Act and supports efforts to end gender discrimination.",
+          "snippet": "Every Coloradan deserves to be treated equally, with respect and dignity. As a proud member of the Equality Caucus, Joe is working to ensure dignity and legal protection for LGBTQ+ Americans through passage of the Equality Act. And to combat racial injustice, Joe joined his colleagues in the Congressional Black Caucus to introduce and pass the George Floyd Justice in Policing Act. Joe is also a sponsor of the EACH Woman Act, which will ensure that woman can make their own healthcare decisions, and has supported efforts in Congress to end gender discrimination.\n"
+        },
+        {
+          "topic": "Education",
+          "value": "Enacted legislation supporting rural school funding (supplies, building improvements); sponsors free open-access textbook and community-college transfer measures; supports debt-free public higher education and reinstating net neutrality; advocates for increased teacher pay, Title I and Title II funding, and secured increased IDEA funding for students with disabilities.",
+          "snippet": "Every student should be able to obtain a quality public-school education. To support Colorado's rural and mountain communities, Joe introduced and enacted legislation to support rural schools through funds for supplies, building improvements and more. To support college students, Joe is sponsoring measures to expand the use of free, open-access textbooks and make the transfer process easier for students at community college. Joe has also sponsored measures to ensure that every public higher education graduate finishes debt-free, and to protect the internet as a vital tool for innovation and economic growth by reinstituting net neutrality and preserving internet freedom. Joe also continues to fight for increasing teacher pay, federal Title I funding for low-income students, and federal Title II funding for teacher training, and during the House appropriations process, he successfully worked with his colleagues to secure millions of dollars in increased funding for the Individuals with Disabilities Education Act to ensure every student is set up to succeed, regardless of their background or abilities.\n"
+        },
+        {
+          "topic": "Election Reform",
+          "value": "Supports the John Lewis Voting Rights Act and H.R. 1; secured a bipartisan H.R. 1 amendment enacting nationwide pre-registration for 16- and 17-year-olds; advocates for reforms to the Federal Election Commission.",
+          "snippet": "The right to vote is at the very foundation of our democracy, yet it is under attack like never before. To protect voting rights and ensure voting remains accessible to all, Joe supports the John Lewis Voting Rights Act, and H.R. 1 — historic legislation that would make it easier to vote, implement Automatic Voter Registration, and defend every eligible American's right to cast a ballot. In the House, Joe successfully secured a bipartisan amendment to H.R.1 that would enact nationwide pre-registration for 16- and 17-year-olds, and he continues to fight for reforms to the dysfunctional Federal Election Commission and protections of our sacred right to vote.\n"
         }
       ],
-      "platform_source_url": "https://joeforcolorado.com/",
+      "platform_source_url": "https://joeneguseforcongress.com",
       "_platform_resolved_at": "2026-08-12T11:09:16.681Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=G_JibD7_9C0",
-      "platform_video_title": "Joe Neguse Fighting for the American Dream",
-      "platform_video_source_url": "https://joeforcolorado.com/",
+      "campaign_site_url": "https://joeneguseforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:58.560Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=hHsmWZNNE0Y",
+      "platform_video_title": "Congressman Neguse Introduces the Next Generation Votes Act",
+      "platform_video_source_url": "https://neguse.house.gov/media/videos/congressman-neguse-introduces-next-generation-votes-act-2",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
       "_platform_video_resolved_at": "2026-08-18T22:01:23.611Z",
+      "bio_summary": {
+        "value": "Joe represents Colorado's 2nd District in the U.S. House of Representatives, and is the first African-American elected to serve in Congress in Colorado's 150-year history. He is the lead Democrat on the Subcommittee for Federal Lands, and served as a House prosecutor in the second impeachment trial of President Trump following the January 6th attack on our nation's Capitol.\n\nIn Congress, Joe has worked tirelessly to serve our community — enacting more laws than any member of the state's delegation, including legislation to protect consumers, preserve our forests & public lands, strengthen ethics and anti-trust laws, expand opportunities for small businesses, and invest in our rural schools and mountain economies.\n",
+        "source_url": "https://joeneguseforcongress.com",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:34:02.362Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076784.pdf",
         "filingDate": "8/10/2026",
@@ -770,7 +808,7 @@
           }
         ],
         "bills_sponsored": 363,
-        "bills_cosponsored": 2734,
+        "bills_cosponsored": 2736,
         "bills_became_law": 9,
         "enacted_laws": [
           {
@@ -868,16 +906,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/N000191"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Joseph D. Neguse ( / n ə ˈ ɡ uː s / nə- GOOSS ; [ 1 ] [ 2 ] born May 13, 1984) is an American lawyer and politician serving as the U.S. representative for Colorado's 2nd congressional district since 2019. The district is located in the north central part of the state, based in Fort Collins , Longmont , and Boulder , and includes many rural communities and mountain towns, including Walden , Granby , Steamboat Springs , and Gypsum . A member of the Democratic Party , he was a regent of the University of Colorado from 2008 to 2015. [ 3 ] Neguse is the first Eritrean-American elected to the United States Congress and Colorado's first black member of Congress. [ 4 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Joe_Neguse",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:34:02.362Z",
-      "campaign_site_url": "https://joeneguseforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:58.560Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     }
   ]
 }
