@@ -1156,7 +1156,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       </div>
       </div>
       <div style={{ fontSize: 11, color: T.inkSoft, marginTop: -12, marginBottom: 18, padding: "0 4px", fontStyle: "italic" }}>
-        Quoted directly from each candidate's own campaign site — presented as-is, not evaluated or characterized by Ballot-Wise. Click "Full profile" on a candidate for the full statement and exact quote behind each position.
+        Quoted directly from each candidate's own official site — presented as-is, not evaluated or characterized by Ballot-Wise. Click "Full profile" on a candidate for the full statement and exact quote behind each position.
       </div>
 
       <EarlyStageSection candidates={earlyStage} onOpenProfile={onOpenProfile} />
@@ -1379,7 +1379,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 8, padding: "0 4px" }}>
                 Quoted directly from{" "}
                 <a href={candidate.platform_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
-                  the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                  the candidate's own official site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
                 </a>
                 {" "}— presented as-is, not evaluated or characterized by Ballot-Wise.
               </div>
@@ -1428,7 +1428,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
                 Linked from{" "}
                 <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
-                  the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                  the candidate's own official site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
                 </a>
               </div>
             ) : candidate.platform_video_tier === 2 ? (
