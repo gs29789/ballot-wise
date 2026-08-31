@@ -21,6 +21,7 @@ import { fetchPageText, discoverBioLinks, COMMON_BIO_PATHS } from "./llmExtract.
 export interface BioSummaryResult {
   summary: string;
   sourceUrl: string;
+  sourceType: "campaign_site" | "wikipedia" | "ballotpedia";
 }
 
 let client: Anthropic | null = null;
@@ -29,47 +30,135 @@ function getClient(): Anthropic {
   return client;
 }
 
-function normalizeSmartPunctuation(s: string): string {
-  return s
-    .replace(/[‘’‛]/g, "'")
-    .replace(/[“”‟]/g, '"')
-    .replace(/[–—]/g, "-")
-    .replace(/\s+/g, " ");
+function escapeRegexChar(ch: string): string {
+  return /[.*+?^${}()|[\]\\]/.test(ch) ? "\\" + ch : ch;
 }
 
-// The model's "verbatim" reproduction can drift from the source in more
-// ways than just quote/dash style (confirmed on a real candidate, John
-// Brendan Williams/AK-AL: a whitespace-run difference somewhere mid-excerpt
-// shifted everything after it by one character, so a naive
-// offset-plus-excerpt-length slice landed one character short and split
-// "and" into "a" + " nd" -- a real, silent corruption, not a source typo).
-// Trusting the excerpt's own length for the END of the span is exactly what
-// breaks whenever length drifts anywhere before that point. Anchoring
-// independently on the START and END of the excerpt (each normalized, each
-// searched for on its own) is robust to that: the true span only needs
-// those two anchors to be locatable, not the entire middle to be identical
-// length. Anchor length is capped at the excerpt's own length so a short
-// excerpt just anchors on itself, same as before.
+// Builds a regex that matches an anchor against the REAL page text while
+// tolerating the specific typographic drift the model's "verbatim"
+// reproduction is prone to — three distinct patterns confirmed on three
+// real Wikipedia articles: Colin Allred (TX-33 candidate), where the real
+// text reads "...Attorneys . Allred..." with a stray space BEFORE a
+// trailing period; Terri Sewell (AL-7 candidate), where a nickname renders
+// as '" Terri "' with stray spaces INSIDE the quote marks on BOTH sides;
+// and Sara Jacobs (CA candidate), where an inline citation marker is
+// interspersed mid-sentence -- "Sara Josephine Jacobs [ 2 ] (born
+// February 1, 1989) is..." -- that the model's clean quote correctly
+// omits entirely (it's a footnote reference, not part of the actual
+// biographical prose), but which the old plain-substring check required
+// byte-for-byte. None of these are one-off — they're structural patterns
+// in how Wikipedia's own rendering works (a link/citation ending
+// mid-sentence; a quoted nickname or parenthetical; a citation reference
+// that can appear after nearly any factual claim), likely to recur across
+// many articles, sometimes more than one per excerpt. A single BOUNDARY
+// pattern placed everywhere a whitespace run could occur handles all
+// three at once: zero or more of {a whitespace character, OR one complete
+// bracketed citation marker like "[ 12 ]"} — so it swallows plain
+// whitespace drift AND any number of interspersed citation markers in the
+// same spot. Quote/bracket/sentence-punctuation characters get this
+// boundary inserted on BOTH sides regardless of whether the anchor itself
+// has a space there, since the drift can appear on either side. Matching
+// this way, directly against the untouched pageText, also sidesteps the
+// previous approach's real bug: normalizing both sides then slicing the
+// ORIGINAL text using offsets found in the NORMALIZED one is only safe if
+// normalization never changes length, but collapsing a whitespace RUN
+// does exactly that -- there's no separate normalized copy here to drift
+// out of sync with.
+const FUZZY_PUNCTUATION = ",.;:!?()[]\"'";
+const BOUNDARY = "(?:\\s|\\[\\s*\\d+\\s*\\])*";
+// A parenthetical the model kept part of (usually "(born DATE)") can have
+// EXTRA content Wikipedia inserted right after the opening paren that the
+// model's clean quote drops entirely — confirmed on Sharice Davids (KS
+// candidate): the real text is "Davids ( / ʃəˈriːs / ; [ 1 ] born May 22,
+// 1980) is..." with a full IPA pronunciation guide and a citation marker
+// squeezed between "(" and "born", while the model quoted just "(born
+// May 22, 1980)". Unlike a citation marker, this content is arbitrary
+// (phonetic symbols, alternate spellings) — not describable by a fixed
+// character class — so instead of trying to enumerate it, allow a
+// non-greedy skip of anything up to the next closing paren right after an
+// opening one. Non-greedy means it only consumes what it must: an anchor
+// with no extra content to skip still matches with zero extra characters.
+function buildFuzzyPattern(anchor: string): string {
+  const normalized = anchor.replace(/[‘’‛]/g, "'").replace(/[“”‟]/g, '"').replace(/[–—]/g, "-");
+  let pattern = "";
+  for (const ch of normalized) {
+    if (/\s/.test(ch)) {
+      if (!pattern.endsWith(BOUNDARY)) pattern += BOUNDARY;
+    } else if (ch === "(") {
+      if (!pattern.endsWith(BOUNDARY)) pattern += BOUNDARY;
+      pattern += "\\(" + BOUNDARY + "(?:[^)]*?)";
+    } else if (FUZZY_PUNCTUATION.includes(ch)) {
+      if (!pattern.endsWith(BOUNDARY)) pattern += BOUNDARY;
+      pattern += escapeRegexChar(ch) + BOUNDARY;
+    } else {
+      pattern += escapeRegexChar(ch);
+    }
+  }
+  return pattern;
+}
+
+// Anchoring independently on the START and END of the excerpt (each
+// fuzzy-matched per buildFuzzyPattern above) is robust to drift anywhere
+// in the MIDDLE: the true span only needs those two anchors to be
+// locatable in the real text, not the entire passage to be byte-identical
+// to what the model quoted. But a person's own name -- exactly what a
+// START anchor usually consists of -- legitimately appears more than once
+// on a real Wikipedia page: confirmed on Sara Jacobs (CA candidate),
+// where "Sara Josephine Jacobs" appears first inside a raw, leaked
+// TemplateData/module JSON blob, second in the infobox's compact
+// "Name ( ISO-date ) display-date (age N)" rendering, and only THIRD in
+// the actual flowing lead-paragraph prose the model quoted from ("...
+// (born February 1, 1989) is an American politician..."). Taking just the
+// FIRST occurrence of the start anchor (the old behavior) locks onto the
+// wrong one -- neither the JSON blob nor the infobox extends into the
+// following ~600+ characters of real biographical prose, so the end
+// anchor search from there correctly finds nothing and the whole
+// extraction was wrongly discarded. Fix: try every occurrence of the
+// start anchor in order, and for each one, look for the end anchor within
+// a bounded window after it (capped generously relative to the excerpt's
+// own length, so stray-whitespace inflation is absorbed without letting a
+// short decoy match force scanning arbitrarily far into the rest of the
+// page) -- the first occurrence where both anchors actually line up wins.
 function recoverOriginalSpan(pageText: string, excerpt: string): string | null {
   const ANCHOR_LEN = 30;
-  const normalizedPage = normalizeSmartPunctuation(pageText);
-  const normalizedExcerpt = normalizeSmartPunctuation(excerpt);
-  const anchorLen = Math.min(ANCHOR_LEN, normalizedExcerpt.length);
+  const anchorLen = Math.min(ANCHOR_LEN, excerpt.length);
+  const maxSpan = Math.max(excerpt.length * 3, 200);
 
-  const startAnchor = normalizedExcerpt.slice(0, anchorLen);
-  const startOffset = normalizedPage.indexOf(startAnchor);
-  if (startOffset === -1) return null;
+  const startRe = new RegExp(buildFuzzyPattern(excerpt.slice(0, anchorLen)), "g");
+  const endPattern = buildFuzzyPattern(excerpt.slice(-anchorLen));
 
-  const endAnchor = normalizedExcerpt.slice(-anchorLen);
-  const endOffset = normalizedPage.indexOf(endAnchor, startOffset);
-  if (endOffset === -1) return null;
-
-  return pageText.slice(startOffset, endOffset + endAnchor.length);
+  let startMatch: RegExpExecArray | null;
+  while ((startMatch = startRe.exec(pageText))) {
+    const window = pageText.slice(startMatch.index, Math.min(pageText.length, startMatch.index + maxSpan));
+    const endMatch = new RegExp(endPattern).exec(window);
+    if (endMatch) return window.slice(0, endMatch.index + endMatch[0].length);
+    if (startRe.lastIndex === startMatch.index) startRe.lastIndex++; // guard against a zero-length match looping forever
+  }
+  return null;
 }
 
-const SYSTEM_PROMPT = `You select a single representative excerpt introducing a political candidate, from their own campaign website's text, for a voter-information product. Follow these rules exactly:
+// Parameterized by source rather than duplicated wholesale for Wikipedia:
+// the selection/verbatim/identity rules are identical either way, only the
+// opening sentence's description of where the text comes from (and, for
+// Wikipedia specifically, a reminder that the article is third-person, not
+// self-description) needs to differ.
+const SOURCE_PROMPT_INFO: Record<BioSummaryResult["sourceType"], { description: string; extraRule: string }> = {
+  campaign_site: { description: "their own campaign website's text", extraRule: "" },
+  wikipedia: {
+    description: "their Wikipedia article's text",
+    extraRule: " The article is written in third person, not by the candidate — select a passage that introduces their background/career, the same as you would from a first-person source.",
+  },
+  ballotpedia: {
+    description: "their Ballotpedia.org profile page's text",
+    extraRule: " The page is written by Ballotpedia's editorial staff, not the candidate — the 'Biography' section is usually the best match; a candidate-submitted survey response (if present) also reads fine here since it's still information about the candidate, not Ballot-Wise's own characterization of them.",
+  },
+};
 
-1. Find the single most representative, self-contained passage (roughly 5-8 sentences, 500-900 characters — enough to read as a real paragraph, not a tagline) that introduces who this candidate is — background, career, or what drives their candidacy. Prefer an "About"/"Meet [Name]"/biography-style passage over a policy-issues passage if both exist on the page. If the richest matching passage on the page is shorter than this, use what's there rather than padding it — never combine text from different parts of the page to reach the target length (that would violate rule 2 below).
+function buildSystemPrompt(sourceType: BioSummaryResult["sourceType"]): string {
+  const { description, extraRule } = SOURCE_PROMPT_INFO[sourceType];
+  return `You select a single representative excerpt introducing a political candidate, from ${description}, for a voter-information product. Follow these rules exactly:
+
+1. Find the single most representative, self-contained passage (roughly 5-8 sentences, 500-900 characters — enough to read as a real paragraph, not a tagline) that introduces who this candidate is — background, career, or what drives their candidacy. Prefer an "About"/"Meet [Name]"/biography-style passage over a policy-issues passage if both exist on the page.${extraRule} If the richest matching passage on the page is shorter than this, use what's there rather than padding it — never combine text from different parts of the page to reach the target length (that would violate rule 2 below).
 2. The excerpt must be VERBATIM — an exact, contiguous, character-for-character substring copied from the provided text. Do not paraphrase, summarize in your own words, condense, or combine text from different parts of the page into one passage.
 3. Never use anything from your own training knowledge about this person — only what is literally present in the provided text.
 4. If the page is clearly about a different person than the one named, or contains no biographical/introductory passage at all (e.g., only a donation form or an issues list with no "About" content), return null. A shared name is not enough to confirm identity — when an expected context is given (a specific office and state), the page must be consistent with that context; a same-named person in a different context is a collision, not a match.
@@ -78,8 +167,14 @@ const SYSTEM_PROMPT = `You select a single representative excerpt introducing a 
   "matchesExpectedCandidate": true | false,
   "excerpt": "verbatim text, exactly as it appears on the page" | null
 }`;
+}
 
-async function extractFromPage(candidateName: string, page: { text: string; finalUrl: string }, expectedContext?: string): Promise<BioSummaryResult | null> {
+async function extractFromPage(
+  candidateName: string,
+  page: { text: string; finalUrl: string },
+  sourceType: BioSummaryResult["sourceType"],
+  expectedContext?: string
+): Promise<BioSummaryResult | null> {
   const { text: pageText, finalUrl } = page;
   const contextLine = expectedContext ? `Expected context: ${expectedContext}. If the page describes a same-named person outside this context, treat it as a different person per rule 4.\n` : "";
 
@@ -88,7 +183,7 @@ async function extractFromPage(candidateName: string, page: { text: string; fina
     message = await getClient().messages.create({
       model: "claude-sonnet-4-5",
       max_tokens: 1024,
-      system: SYSTEM_PROMPT,
+      system: buildSystemPrompt(sourceType),
       messages: [{ role: "user", content: `Candidate name: ${candidateName}\n${contextLine}Source URL: ${finalUrl}\n\nPage text:\n${pageText}` }],
     });
   } catch (err: any) {
@@ -118,10 +213,10 @@ async function extractFromPage(candidateName: string, page: { text: string; fina
     // real one — slice the ORIGINAL page text there instead of trusting the
     // model's possibly-normalized copy, so the stored citation is always a
     // byte-exact match to the source, never a silently rewritten one.
-    if (pageText.includes(parsed.excerpt)) return { summary: parsed.excerpt, sourceUrl: finalUrl };
+    if (pageText.includes(parsed.excerpt)) return { summary: parsed.excerpt, sourceUrl: finalUrl, sourceType };
     const recovered = recoverOriginalSpan(pageText, parsed.excerpt);
     if (!recovered) return null;
-    return { summary: recovered, sourceUrl: finalUrl };
+    return { summary: recovered, sourceUrl: finalUrl, sourceType };
   } catch {
     return null;
   }
@@ -131,7 +226,7 @@ export async function extractBioSummaryFromSite(candidateName: string, baseUrl: 
   const homepagePage = await fetchPageText(baseUrl).catch(() => null);
   if (!homepagePage) return null;
 
-  const homepage = await extractFromPage(candidateName, homepagePage, expectedContext).catch(() => null);
+  const homepage = await extractFromPage(candidateName, homepagePage, "campaign_site", expectedContext).catch(() => null);
   if (homepage) return homepage;
 
   const resolvedBase = homepagePage.finalUrl;
@@ -141,8 +236,36 @@ export async function extractBioSummaryFromSite(candidateName: string, baseUrl: 
   for (const url of candidateUrls) {
     const page = await fetchPageText(url).catch(() => null);
     if (!page) continue;
-    const result = await extractFromPage(candidateName, page, expectedContext).catch(() => null);
+    const result = await extractFromPage(candidateName, page, "campaign_site", expectedContext).catch(() => null);
     if (result) return result;
   }
   return null;
+}
+
+// Fallback for a candidate with no personal campaign site (or no site with
+// any extractable bio content) but a confirmed Wikipedia article — reuses
+// the exact same verbatim-excerpt/identity-check machinery above, just
+// pointed at the article instead. wikipediaUrl is expected to already be
+// identity-confirmed by the caller (resolved off a Wikidata entity that
+// passed looksLikeAPolitician(), same as every other Wikipedia use in this
+// pipeline) — this still runs its own expectedContext check regardless,
+// same discipline as every other source here, never a bare name match.
+export async function extractBioSummaryFromWikipedia(candidateName: string, wikipediaUrl: string, expectedContext?: string): Promise<BioSummaryResult | null> {
+  const page = await fetchPageText(wikipediaUrl).catch(() => null);
+  if (!page) return null;
+  return extractFromPage(candidateName, page, "wikipedia", expectedContext);
+}
+
+// Same fallback shape as extractBioSummaryFromWikipedia, for a candidate
+// with a confirmed Ballotpedia.org profile — see ballotpedia.ts for how
+// that URL gets discovered (a race-page search + deterministic link
+// parse, deliberately NOT a direct name search, given how collision-prone
+// a plain name search is against a site that covers every level of
+// government). Still runs its own expectedContext identity check
+// regardless of how the URL was found, same discipline as every other
+// source here.
+export async function extractBioSummaryFromBallotpedia(candidateName: string, ballotpediaUrl: string, expectedContext?: string): Promise<BioSummaryResult | null> {
+  const page = await fetchPageText(ballotpediaUrl).catch(() => null);
+  if (!page) return null;
+  return extractFromPage(candidateName, page, "ballotpedia", expectedContext);
 }

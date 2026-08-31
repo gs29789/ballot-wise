@@ -13,6 +13,21 @@ interface WikidataBioFacts {
 
 const OCCUPATION_POLITICIAN = "Q82955";
 
+// Pulls a candidate's already-confirmed Wikidata QID (if any) out of their
+// own bio{} object, for callers that want to pass it as getBioFacts'
+// knownQid shortcut rather than re-searching. Only date_of_birth/
+// birthplace/college ever carry a wikidata_structured source_url (see
+// build.ts) — checked in that order, first match wins, since all three
+// point at the same entity for a given candidate anyway.
+export function extractKnownQid(bio: Record<string, { source_type?: string; source_url?: string } | null | undefined> | undefined): string | undefined {
+  for (const field of [bio?.date_of_birth, bio?.birthplace, bio?.college]) {
+    if (field?.source_type !== "wikidata_structured") continue;
+    const match = field.source_url?.match(/Q\d+$/);
+    if (match) return match[0];
+  }
+  return undefined;
+}
+
 // Every caller of getBioFacts wraps it in .catch(() => null) — correct for
 // "this candidate genuinely has no Wikidata entry," but that same swallow
 // also hides a transient fetch failure (network blip, rate limit) with zero
@@ -203,8 +218,23 @@ export async function bestCollegeClaim(claims: any): Promise<string | null> {
 // which would misattribute a stranger's birthdate to this candidate — this
 // walks the top few results and only accepts one whose own Wikidata claims
 // mark them as a politician/officeholder. No confident match, no data.
-export async function getBioFacts(fullName: string): Promise<WikidataBioFacts | null> {
-  const candidateQids = await searchCandidateEntities(fullName);
+//
+// knownQid: an optional shortcut for a candidate who has ALREADY had a
+// Wikidata match confirmed at some point (their own bio{} data already
+// carries a wikidata_structured source_url) — skips searchCandidateEntities
+// entirely and goes straight to fetching that QID. This matters because the
+// SEARCH step specifically is the flaky part of this pipeline, not the
+// entity fetch: confirmed on Rep. James Clyburn, whose Wikidata entity
+// (Q1289889) fetches cleanly and instantly every time, but whose NAME
+// SEARCH intermittently returns nothing across several otherwise-identical
+// runs (the same class of flakiness this file's own header comment already
+// documents for Rep. Tim Walberg). For a candidate with a known QID, a
+// fresh search buys nothing and only reintroduces the failure mode a
+// direct fetch avoids — still re-validates looksLikeAPolitician() below
+// rather than trusting the QID blindly, in case an entity's claims
+// genuinely changed since it was first confirmed.
+export async function getBioFacts(fullName: string, knownQid?: string): Promise<WikidataBioFacts | null> {
+  const candidateQids = knownQid ? [knownQid] : await searchCandidateEntities(fullName);
 
   for (const qid of candidateQids) {
     const entity = await getEntity(qid);

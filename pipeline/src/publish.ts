@@ -1,8 +1,9 @@
 import "dotenv/config";
-import { readdirSync, readFileSync, statSync, mkdirSync, cpSync, existsSync, rmSync } from "node:fs";
+import { readdirSync, readFileSync, statSync, mkdirSync, cpSync, existsSync, rmSync, writeFileSync } from "node:fs";
 import { join, relative } from "node:path";
 import { execFileSync } from "node:child_process";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { PENDING_RACES } from "./ci/pendingRaces.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -95,6 +96,13 @@ async function main() {
     },
   });
   const bucket = requireEnv("R2_BUCKET_NAME");
+
+  // Regenerated fresh from PENDING_RACES on every publish, not hand-copied —
+  // this is what lets the frontend explain a missing race (e.g. a Senate
+  // seat mid-runoff) instead of just showing a disabled tab with no reason.
+  // Written into BUILD_ROOT before the walk below so it publishes to R2
+  // via the same loop as every other race JSON, no separate upload step.
+  writeFileSync(join(BUILD_ROOT, "pending.json"), JSON.stringify(PENDING_RACES, null, 2));
 
   const files = walk(BUILD_ROOT).filter((f) => f.endsWith(".json"));
   for (const file of files) {

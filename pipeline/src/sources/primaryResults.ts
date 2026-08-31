@@ -22,6 +22,38 @@ export interface PrimaryResult {
   snippet: string;
 }
 
+// Auto-resolved results, written by resolvePendingPrimaries.ts once it's
+// found a primary/runoff result confident enough to publish without a
+// human review pass. Kept in a separate JSON file rather than mixed into
+// this hand-curated one -- an automated process should never need to
+// safely edit real TypeScript source unattended, and every hand-written
+// entry above stays completely untouched by this either way. Checked only
+// as a fallback below, after every hand-curated state -- if a human ever
+// hand-writes a real entry for the same race, it wins.
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
+
+interface AutoPrimaryEntry extends PrimaryResult {
+  resolvedAt: string;
+}
+
+let autoPrimaryResultsCache: Record<string, Record<string, AutoPrimaryEntry>> | null = null;
+
+function getAutoPrimaryResult(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
+  if (cycle !== 2026) return null;
+  if (autoPrimaryResultsCache === null) {
+    try {
+      const path = join(import.meta.dirname, "..", "ci", "autoPrimaryResults.json");
+      autoPrimaryResultsCache = JSON.parse(readFileSync(path, "utf8"));
+    } catch {
+      autoPrimaryResultsCache = {};
+    }
+  }
+  const entry = autoPrimaryResultsCache![state]?.[raceSlug];
+  if (!entry) return null;
+  return { advancingCandidateIds: entry.advancingCandidateIds, source_url: entry.source_url, snippet: entry.snippet };
+}
+
 const MONTANA_2026_CANVASS_URL =
   "https://sosmt.gov/wp-content/uploads/wpfd/preview_files/2026-Primary-State-Canvass(f0627306086b974f9ac2e416bb8125c9).pdf";
 const INDEPENDENT_CERTIFICATION_URL =
@@ -2882,51 +2914,51 @@ const WYOMING_2026_PRIMARY: Record<string, PrimaryResult> = {
 };
 
 export function getPrimaryFilter(state: string, raceSlug: string, cycle: number): PrimaryResult | null {
-  if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "TX" && cycle === 2026) return TEXAS_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "LA" && cycle === 2026) return LOUISIANA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "ME" && cycle === 2026) return MAINE_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "CA" && cycle === 2026) return CALIFORNIA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "WA" && cycle === 2026) return WASHINGTON_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "WY" && cycle === 2026) return WYOMING_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "AK" && cycle === 2026) return ALASKA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "AZ" && cycle === 2026) return ARIZONA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "KY" && cycle === 2026) return KENTUCKY_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "CO" && cycle === 2026) return COLORADO_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "IL" && cycle === 2026) return ILLINOIS_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "AR" && cycle === 2026) return ARKANSAS_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "CT" && cycle === 2026) return CONNECTICUT_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "IN" && cycle === 2026) return INDIANA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "IA" && cycle === 2026) return IOWA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "MN" && cycle === 2026) return MINNESOTA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NJ" && cycle === 2026) return NEW_JERSEY_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NE" && cycle === 2026) return NEBRASKA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "OK" && cycle === 2026) return OKLAHOMA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "UT" && cycle === 2026) return UTAH_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "KS" && cycle === 2026) return KANSAS_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "HI" && cycle === 2026) return HAWAII_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "ID" && cycle === 2026) return IDAHO_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NV" && cycle === 2026) return NEVADA_2026_PRIMARY[raceSlug] ?? null;
-if (state === "MD" && cycle === 2026) return MARYLAND_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "MS" && cycle === 2026) return MISSISSIPPI_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NM" && cycle === 2026) return NEW_MEXICO_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "OR" && cycle === 2026) return OREGON_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "SC" && cycle === 2026) return SOUTH_CAROLINA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "VA" && cycle === 2026) return VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "WV" && cycle === 2026) return WEST_VIRGINIA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "WI" && cycle === 2026) return WISCONSIN_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "NC" && cycle === 2026) return NORTH_CAROLINA_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "MO" && cycle === 2026) return MISSOURI_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "OH" && cycle === 2026) return OHIO_2026_PRIMARY[raceSlug] ?? null;
-  if (state === "FL" && cycle === 2026) return FLORIDA_2026_PRIMARY[raceSlug] ?? null;
-  return null;
+  if (state === "AL" && cycle === 2026) return ALABAMA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "TN" && cycle === 2026) return TENNESSEE_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "TX" && cycle === 2026) return TEXAS_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "LA" && cycle === 2026) return LOUISIANA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "ME" && cycle === 2026) return MAINE_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "CA" && cycle === 2026) return CALIFORNIA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "WA" && cycle === 2026) return WASHINGTON_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "MT" && cycle === 2026) return MONTANA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "WY" && cycle === 2026) return WYOMING_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "VT" && cycle === 2026) return VERMONT_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "AK" && cycle === 2026) return ALASKA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "ND" && cycle === 2026) return NORTH_DAKOTA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "SD" && cycle === 2026) return SOUTH_DAKOTA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NY" && cycle === 2026) return NEW_YORK_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "GA" && cycle === 2026) return GEORGIA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "PA" && cycle === 2026) return PENNSYLVANIA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "MI" && cycle === 2026) return MICHIGAN_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "AZ" && cycle === 2026) return ARIZONA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "KY" && cycle === 2026) return KENTUCKY_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "CO" && cycle === 2026) return COLORADO_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "IL" && cycle === 2026) return ILLINOIS_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "AR" && cycle === 2026) return ARKANSAS_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "CT" && cycle === 2026) return CONNECTICUT_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "IN" && cycle === 2026) return INDIANA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "IA" && cycle === 2026) return IOWA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "MN" && cycle === 2026) return MINNESOTA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NJ" && cycle === 2026) return NEW_JERSEY_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NE" && cycle === 2026) return NEBRASKA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "OK" && cycle === 2026) return OKLAHOMA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "UT" && cycle === 2026) return UTAH_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "KS" && cycle === 2026) return KANSAS_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "HI" && cycle === 2026) return HAWAII_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "ID" && cycle === 2026) return IDAHO_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NV" && cycle === 2026) return NEVADA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+if (state === "MD" && cycle === 2026) return MARYLAND_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "MS" && cycle === 2026) return MISSISSIPPI_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NM" && cycle === 2026) return NEW_MEXICO_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "OR" && cycle === 2026) return OREGON_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "SC" && cycle === 2026) return SOUTH_CAROLINA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "VA" && cycle === 2026) return VIRGINIA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "WV" && cycle === 2026) return WEST_VIRGINIA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "WI" && cycle === 2026) return WISCONSIN_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "NC" && cycle === 2026) return NORTH_CAROLINA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "MO" && cycle === 2026) return MISSOURI_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "OH" && cycle === 2026) return OHIO_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  if (state === "FL" && cycle === 2026) return FLORIDA_2026_PRIMARY[raceSlug] ?? getAutoPrimaryResult(state, raceSlug, cycle);
+  return getAutoPrimaryResult(state, raceSlug, cycle);
 }

@@ -3,7 +3,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
 import { getMembersByState, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
-import { getBioFacts } from "./sources/wikidata.js";
+import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
 import { buildHouseHistorianUrl } from "./sources/houseHistorian.js";
@@ -11,7 +11,8 @@ import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
 import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
-import { extractBioSummaryFromSite } from "./sources/campaignBioSummary.js";
+import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia, extractBioSummaryFromBallotpedia } from "./sources/campaignBioSummary.js";
+import { findBallotpediaUrl } from "./sources/ballotpedia.js";
 import { getFinancialDisclosure, type FinancialDisclosureSummary } from "./sources/houseFinancialDisclosure.js";
 import { getIdeologyScore } from "./sources/voteview.js";
 import { getBridgeScore } from "./sources/bridgeGrades.js";
@@ -32,23 +33,65 @@ import { getVotingSystem } from "./sources/votingSystem.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
-// FEC candidate IDs where a name-only Wikidata/Wikipedia search has proven,
-// twice, to confidently resolve to the WRONG real person rather than fail
-// closed -- H6AK01068 (John Brendan Williams, AK-AL) has collided with both
-// the film composer John Williams (Q131285: date_of_birth/birthplace/college,
+// FEC candidate IDs where a name-only Wikidata/Wikipedia search has proven
+// to confidently resolve to the WRONG real person rather than fail closed
+// -- H6AK01068 (John Brendan Williams, AK-AL) has collided with both the
+// film composer John Williams (Q131285: date_of_birth/birthplace/college,
 // left uncorrected per a standing user decision to defer that cleanup) and,
 // separately and later, WA state legislator Brendan Williams
 // (en.wikipedia.org/wiki/Brendan_Williams_(politician): employment_record,
 // found and stripped twice now -- confirmed recurring, not a one-time
-// fluke). looksLikeAPolitician() correctly filters out non-politicians, but
-// neither it nor a name-only Wikidata search has any way to check WHICH
-// office/state a candidate runs for, so a common/ambiguous name can keep
-// re-matching a different real politician on every refresh cycle. Once a
-// candidate is confirmed here, Wikidata/Wikipedia are skipped for them
-// entirely -- their own campaign site has already reliably supplied
-// high_school/marital_status/civic_affiliations, so nothing is lost by
+// fluke). H6SC06184 (John Peterson, SC-6) collided with Q111230374, an
+// 1880s Minnesota state legislator of the same name (birthplace: Norway)
+// -- confirmed re-matching the SAME wrong entity on a SECOND rebuild after
+// the field was manually stripped once already, since stripping alone
+// doesn't stop the next name search from finding the same wrong QID again;
+// only this denylist does. looksLikeAPolitician() correctly filters out
+// non-politicians, but neither it nor a name-only Wikidata search has any
+// way to check WHICH office/state a candidate runs for, so a common/
+// ambiguous name can keep re-matching a different real politician on
+// every refresh cycle. Once a candidate is confirmed here, Wikidata/
+// Wikipedia are skipped for them entirely -- their own campaign site has
+// already reliably supplied their real bio facts, so nothing is lost by
 // relying on it exclusively going forward.
-const WIKIDATA_UNRELIABLE_CANDIDATES = new Set(["H6AK01068"]);
+//
+// 2026-08-26: a full sitewide audit (every wikidata_structured field, 454
+// unique candidate/QID pairs) confirmed this isn't a handful of one-off
+// incidents -- 19 total, each checked against two hard, cheap signals: an
+// explicit non-US P27 citizenship claim, or a P569 birth year too early to
+// be a 2026 candidate (some over a century, one from 1810). Two of the 19
+// (H2TX33040 Roger Williams/TX-25, H8PA07200 Mary Gay Scanlon/PA-5) are
+// themselves a recurrence of exactly this lesson: both were found and
+// stripped in an earlier 2026-08-19 audit, but never added to this
+// denylist, so a later rebuild's fresh search simply re-found the same
+// wrong Welsh/British politician a second time. Several land on sitting
+// Members of Congress (French Hill AR-2, Rich McCormick GA-7, Pete Stauber
+// MN-8, Scanlon, Williams) and one (H0IN01150, Frank Mrvan/IN-1, matched
+// Q5488569 "Frank Mrvan Jr.", b.1933) is very likely a namesake relative
+// rather than a stranger -- irrelevant to the fix either way, since
+// whoever that QID actually is, it isn't the person running in 2026.
+export const WIKIDATA_UNRELIABLE_CANDIDATES = new Set([
+  "H6AK01068",
+  "H6SC06184",
+  "H4AR02141",
+  "H6CA43188",
+  "H0GA07273",
+  "H0IN01150",
+  "H6KY01169",
+  "H6MI04204",
+  "H6MN01190",
+  "H6MN05357",
+  "H8MN08043",
+  "H6NC07212",
+  "H6NV01315",
+  "H6PA01181",
+  "H4PA12068",
+  "H8PA07200",
+  "H2TX33040",
+  "H6TX09231",
+  "H6VA11066",
+  "S6ID00138",
+]);
 
 // A weekly rebuild will occasionally have one upstream source fail for
 // reasons that have nothing to do with the data itself (confirmed today:
@@ -255,7 +298,7 @@ const COMMON_NICKNAMES: Record<string, string[]> = {
 // confirmed empirically for all three. Tries token[0] first (unchanged
 // priority/behavior from before), then token[1] as a fallback when it's not
 // itself a bare initial, each expanded with known nickname variants.
-function searchNameVariants(fecName: string): string[] {
+export function searchNameVariants(fecName: string): string[] {
   const [last, rest] = fecName.split(",").map((s) => s.trim());
   const tokens = (rest ?? "").split(/\s+/).filter(Boolean);
   const cap = (s: string) => s.charAt(0) + s.slice(1).toLowerCase();
@@ -283,6 +326,24 @@ export interface BuildRaceOptions {
 // new state) without re-running every already-published race through
 // main() below — those already have current R2 data and gain nothing from
 // a rebuild, just wasted API calls and wall-clock time.
+// Cost note, worth reading before calling this directly on a race with no
+// resolved primary/runoff yet: the expensive part (per-candidate Ballotpedia
+// bio search + campaign-site discovery, each a real Claude + web-search
+// call) runs over `fecCandidates` below, AFTER getPrimaryFilter narrows it --
+// so a race with a known result only pays for its 1-2 actual advancing
+// candidates, but a race with NO result yet (primaryFilter is null) pays to
+// enrich every FEC-registered primary candidate, including everyone who'll
+// be discarded once it resolves. This is most visible right after adding a
+// previously-excluded race to RACES (e.g. a Senate seat held back pending
+// its own primary/runoff, like OK/SC in Aug 2026): calling buildRace() on it
+// as a "does this build" check pays full price for every primary candidate
+// for no real reason. To verify a newly-added race will build without that
+// cost, just confirm searchCandidates(state, office, cycle, district) returns
+// a non-empty list -- don't call buildRace() standalone as a test. Let
+// resolvePendingPrimaries.ts (or the daily routine, which only calls it
+// through there) trigger the first real build, since narrowing and
+// enrichment then happen together in one pass instead of enrich-everyone-
+// then-enrich-again-once-resolved.
 export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string[] }> {
   const previous = await fetchPreviousRace(opts.outFile);
   const previousCandidates: any[] = previous?.candidates ?? [];
@@ -411,6 +472,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
 
       // Discovered once and reused below for platform extraction too.
       let campaignSiteUrl: string | null = null;
+      // Same idea — set inside the block below (identity-confirmed via
+      // Wikidata's own looksLikeAPolitician() check before this URL is
+      // even constructed), reused after the block as the bio_summary
+      // fallback for a candidate with no campaign site.
+      let wikipediaUrl: string | null = null;
 
       // Everything in this block is skipped entirely once both bio and
       // platform are already resolved from the last published build —
@@ -423,11 +489,29 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // way to know which office/state a candidate is running for, so a
         // sufficiently common or ambiguous name can keep re-matching a
         // real-but-wrong person on every refresh cycle, not just once.
+        // Also tried whenever bio_summary alone is still unresolved, even if
+        // every bio{} fact is already filled in — this is the ONLY place
+        // wikipediaUrl gets set, and bio_summary's own Wikipedia fallback
+        // below needs it regardless of whether bio{} needed anything from
+        // this lookup. getBioFacts is a free Wikidata query, not a paid
+        // call, so re-running it more often here costs nothing.
+        //
+        // A known QID (bio already seeded from prevCand.bio above, so a
+        // prior wikidata_structured field survives here even when nothing
+        // in THIS run's stillMissing() check needed it) skips the name
+        // search entirely — confirmed on Rep. James Clyburn that the search
+        // step specifically is unreliable even for a real, unambiguous
+        // match the direct entity fetch resolves instantly every time.
         let wikidata: Awaited<ReturnType<typeof getBioFacts>> = null;
-        if (stillMissing() && !WIKIDATA_UNRELIABLE_CANDIDATES.has(c.candidateId)) {
-          for (const nameVariant of searchNameVariants(c.name)) {
-            wikidata = await getBioFacts(nameVariant).catch(() => null);
-            if (wikidata) break;
+        if ((stillMissing() || !bioSummaryAlreadyResolved) && !WIKIDATA_UNRELIABLE_CANDIDATES.has(c.candidateId)) {
+          const knownQid = extractKnownQid(bio as any);
+          if (knownQid) {
+            wikidata = await getBioFacts(c.name, knownQid).catch(() => null);
+          } else {
+            for (const nameVariant of searchNameVariants(c.name)) {
+              wikidata = await getBioFacts(nameVariant).catch(() => null);
+              if (wikidata) break;
+            }
           }
         }
         if (wikidata?.date_of_birth && !bio.date_of_birth) {
@@ -448,9 +532,12 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
           }
         }
 
-        if (wikidata?.wikipediaUrl && stillMissing()) {
-          const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
-          if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
+        if (wikidata?.wikipediaUrl) {
+          wikipediaUrl = wikidata.wikipediaUrl;
+          if (stillMissing()) {
+            const extracted = await extractBioFacts(c.name, wikidata.wikipediaUrl, expectedContext).catch(() => null);
+            if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_wikipedia", curatedBio);
+          }
         }
 
         campaignSiteUrl = await getCommitteeWebsite(c.candidateId).catch(() => null);
@@ -492,13 +579,27 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // next rebuild. Only possible when a campaign site was actually
       // found; correctly absent otherwise, same "no source, no field" rule
       // as everything else in this pipeline.
-      const prevPlatform = prevCand?.platform?.length ? { positions: prevCand.platform, sourceUrl: prevCand.platform_source_url } : null;
-      const { value: platform, resolvedAt: platformResolvedAt } = await resolveWithRefresh(
-        prevPlatform,
-        prevCand?._platform_resolved_at,
-        c.candidateId,
-        () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
-      );
+      // A curated platform_video/bio_summary ALWAYS wins and is never
+      // re-fetched -- platform gets the same protection, added 2026-08-31
+      // for candidates whose site is behind a genuine Cloudflare bot
+      // challenge (a human gets past it, copies the real text out; see
+      // curated.ts's CuratedCandidate.platform comment).
+      let platform: { positions: { topic: string; value: string; snippet: string }[]; sourceUrl: string | null } | null = null;
+      let platformResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.platform) {
+        platform = { positions: curatedEntry.platform, sourceUrl: curatedEntry.platform_source_url ?? campaignSiteUrl ?? null };
+        platformResolvedAt = prevCand?._platform_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevPlatform = prevCand?.platform?.length ? { positions: prevCand.platform, sourceUrl: prevCand.platform_source_url } : null;
+        const resolved = await resolveWithRefresh(
+          prevPlatform,
+          prevCand?._platform_resolved_at,
+          c.candidateId,
+          () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+        );
+        platform = resolved.value;
+        platformResolvedAt = resolved.resolvedAt;
+      }
 
       // Tier 1 only: a video found exclusively via a link already on the
       // candidate's own site — see campaignVideo.ts. Checks the platform
@@ -511,41 +612,119 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // finding nothing new just falls back to the existing seed here —
       // correctly keeps the URL, but the seed needs its own tier to keep
       // that fallback honest too.
-      const prevVideo = prevCand?.platform_video_url
-        ? {
-            videoId: "",
-            videoUrl: prevCand.platform_video_url,
-            videoTitle: prevCand.platform_video_title,
-            sourceUrl: prevCand.platform_video_source_url,
-            tier: prevCand.platform_video_tier ?? 1,
+      // A curated platform_video ALWAYS wins and is never re-fetched --
+      // see curated.ts's CuratedCandidate comment for why this exists:
+      // a hand-verified video (found by a human, e.g. via Wikipedia) has
+      // no automated re-discovery path, so without this it's just sitting
+      // in prevCand, one stale data-snapshot away from a future rebuild
+      // silently reverting it to null. Curated data lives in git-tracked
+      // source instead, so it can't go stale the way a branch can.
+      let video: { videoUrl: string; videoTitle: string | null; sourceUrl: string | null; tier: number; sourceType: string } | null = null;
+      let videoResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.platform_video) {
+        const cv = curatedEntry.platform_video;
+        video = { videoUrl: cv.video_url, videoTitle: cv.video_title, sourceUrl: cv.source_url, tier: 0, sourceType: cv.source_type };
+        videoResolvedAt = prevCand?._platform_video_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevVideo = prevCand?.platform_video_url
+          ? {
+              videoId: "",
+              videoUrl: prevCand.platform_video_url,
+              videoTitle: prevCand.platform_video_title,
+              sourceUrl: prevCand.platform_video_source_url,
+              tier: prevCand.platform_video_tier ?? 1,
+              sourceType: prevCand.platform_video_source_type ?? "campaign_site",
+            }
+          : null;
+        const resolved = await resolveWithRefresh(
+          prevVideo,
+          prevCand?._platform_video_resolved_at,
+          c.candidateId,
+          async () => {
+            // Tier 1: the candidate's own campaign site.
+            const fromSite = campaignSiteUrl
+              ? await findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl)
+                  .then((r) => (r ? { ...r, tier: 1 as const, sourceType: "campaign_site" as const } : null))
+                  .catch(() => null)
+              : null;
+            if (fromSite) return fromSite;
+            // Tier 3: a YouTube link discovered on the candidate's own
+            // Wikipedia article (external links, infobox) -- reuses
+            // findCampaignVideoFromSite's exact same link-discovery +
+            // name-check safety logic, just pointed at wikipediaUrl
+            // instead of campaignSiteUrl. Deliberately tried before Tier 2
+            // (open-ended YouTube search): a video the subject or a known
+            // source specifically linked is more trustworthy than one a
+            // keyword search happens to turn up.
+            const fromWikipedia = wikipediaUrl
+              ? await findCampaignVideoFromSite(wikipediaUrl, c.name)
+                  .then((r) => (r ? { ...r, tier: 3 as const, sourceType: "wikipedia" as const } : null))
+                  .catch(() => null)
+              : null;
+            return fromWikipedia;
           }
-        : null;
-      const { value: video, resolvedAt: videoResolvedAt } = await resolveWithRefresh(
-        prevVideo,
-        prevCand?._platform_video_resolved_at,
-        c.candidateId,
-        () =>
-          campaignSiteUrl
-            ? findCampaignVideoFromSite(campaignSiteUrl, c.name, platform?.sourceUrl)
-                .then((r) => (r ? { ...r, tier: 1 as const } : null))
-                .catch(() => null)
-            : Promise.resolve(null)
-      );
+        );
+        video = resolved.value;
+        videoResolvedAt = resolved.resolvedAt;
+      }
 
-      // A single representative, verbatim excerpt from the candidate's own
-      // site introducing who they are — deliberately separate from bio[]
-      // above (which is also sourced from House Historian/Wikipedia, not
-      // just the campaign site) and from platform[] (their stated
-      // positions, not their personal background). "In their own words"
-      // framing, same posture as platform: presented as-is, not
-      // characterized by Ballot-Wise.
-      const prevBioSummary = prevCand?.bio_summary?.value ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url } : null;
-      const { value: bioSummary, resolvedAt: bioSummaryResolvedAt } = await resolveWithRefresh(
-        prevBioSummary,
-        prevCand?._bio_summary_resolved_at,
-        c.candidateId,
-        () => (campaignSiteUrl ? extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
-      );
+      // A single representative, verbatim excerpt introducing who this
+      // candidate is — deliberately separate from bio[] above (which is
+      // also sourced from House Historian/Wikipedia, not just a single
+      // "about me" passage) and from platform[] (their stated positions,
+      // not their personal background). "In their own words" framing when
+      // it comes from their own site, same posture as platform: presented
+      // as-is, not characterized by Ballot-Wise. A three-source waterfall
+      // — campaign site, then Wikipedia, then Ballotpedia — each tried
+      // only when the previous one didn't produce anything, whether
+      // because there's no site/article on file at all, OR because one
+      // exists but had no extractable "about me" passage (a real,
+      // separate population: a site that's pure donate/volunteer with no
+      // bio content). Trying sources in this order preserves "in their
+      // own words" priority when it's genuinely available, then falls
+      // back to increasingly less-direct-but-still-real sources rather
+      // than giving up. sourceType on the result tells the frontend which
+      // one it is, so the label can say so rather than implying every
+      // entry here is in the candidate's own words.
+      const raceDescription =
+        opts.office === "H"
+          ? opts.district === "00"
+            ? `${opts.state} At-Large Congressional District election, 2026`
+            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
+          : `${opts.state} U.S. Senate election, 2026`;
+      // Same curated-always-wins protection as platform_video above.
+      let bioSummary: { summary: string; sourceUrl: string; sourceType: string } | null = null;
+      let bioSummaryResolvedAt: string | undefined = undefined;
+      if (curatedEntry?.bio_summary) {
+        const cb = curatedEntry.bio_summary;
+        bioSummary = { summary: cb.value, sourceUrl: cb.source_url, sourceType: cb.source_type };
+        bioSummaryResolvedAt = prevCand?._bio_summary_resolved_at ?? new Date().toISOString();
+      } else {
+        const prevBioSummary = prevCand?.bio_summary?.value
+          ? { summary: prevCand.bio_summary.value, sourceUrl: prevCand.bio_summary.source_url, sourceType: prevCand.bio_summary.source_type ?? "campaign_site" }
+          : null;
+        const resolved = await resolveWithRefresh(
+          prevBioSummary,
+          prevCand?._bio_summary_resolved_at,
+          c.candidateId,
+          async () => {
+            const fromSite = campaignSiteUrl
+              ? await extractBioSummaryFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromSite) return fromSite;
+
+            const fromWikipedia = wikipediaUrl
+              ? await extractBioSummaryFromWikipedia(c.name, wikipediaUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromWikipedia) return fromWikipedia;
+
+            const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
+            return ballotpediaUrl ? extractBioSummaryFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
+          }
+        );
+        bioSummary = resolved.value;
+        bioSummaryResolvedAt = resolved.resolvedAt;
+      }
 
       let recentVotes: Array<{ position: string; sourceUrl: string; [k: string]: unknown }> = [];
       let attendance: { votesInSession: number; votesCast: number; attendanceRate: number } | null = null;
@@ -601,16 +780,34 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // platform, AND video already resolved) shouldn't silently erase an
         // already-known site.
         campaign_site_url: campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
+        // scaleCampaignSiteDiscovery.ts's own tracking fields, carried
+        // forward -- this output object is a fresh literal each build, so
+        // without this a real buildRace() pass silently drops them even
+        // though campaign_site_url itself survives (confirmed on a real
+        // rebuild, 2026-08-31). Harmless when a curated override makes the
+        // classification moot, but would otherwise quietly erode
+        // needsHumanReview.json's source data over time.
+        _campaign_site_reachability: prevCand?._campaign_site_reachability ?? null,
+        _campaign_site_discovered_at: prevCand?._campaign_site_discovered_at ?? null,
         platform_video_url: video?.videoUrl ?? null,
         platform_video_title: video?.videoTitle ?? null,
         platform_video_source_url: video?.sourceUrl ?? null,
         platform_video_tier: video?.tier ?? null,
+        // Distinguishes HOW this video was found: "campaign_site" (Tier 1),
+        // "wikipedia" (Tier 3, a link on the candidate's own article), or
+        // "curated" (hand-verified, protected from ever being overwritten
+        // by automation — see curated.ts). "youtube_search" (Tier 2) is set
+        // by scaleVideoTier2.ts directly, not this function.
+        platform_video_source_type: video?.sourceType ?? null,
         _platform_video_resolved_at: videoResolvedAt ?? null,
         // Nested {value, source_url}, matching every field in bio{} above —
         // not flat top-level fields — so the frontend's existing SourcedField
         // component (built for exactly that shape) can render this without
-        // a one-off renderer.
-        bio_summary: bioSummary ? { value: bioSummary.summary, source_url: bioSummary.sourceUrl } : null,
+        // a one-off renderer. source_type distinguishes "candidate's own
+        // words" (campaign_site) from "third-party article" (wikipedia) —
+        // see the resolveWithRefresh call above for why that distinction
+        // exists at all.
+        bio_summary: bioSummary ? { value: bioSummary.summary, source_url: bioSummary.sourceUrl, source_type: bioSummary.sourceType } : null,
         _bio_summary_resolved_at: bioSummaryResolvedAt ?? null,
         financial_disclosure: null as FinancialDisclosureSummary | null, // filled in sequentially below — see comment there
         _financial_disclosure_resolved_at: null as string | null, // filled in sequentially below — see comment there
@@ -970,9 +1167,11 @@ export const RACES: BuildRaceOptions[] = [
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/OK-3.json", district: "03" },
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-04", outFile: "house/OK-4.json", district: "04" },
   { state: "OK", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/OK-5.json", district: "05" },
-  // OK Senate deliberately NOT built yet: Democratic nominee (Priest vs.
-  // Thomas) is unresolved until the Aug 25, 2026 runoff. NV has no Senate
-  // race in 2026.
+  // OK Senate: the Aug 25, 2026 Democratic runoff (Priest vs. Thomas) has
+  // passed, so this is now buildable -- resolvePendingPrimaries.ts narrows
+  // the FEC-registered candidate list to the actual runoff winner via
+  // autoPrimaryResults.json once it resolves. NV has no Senate race in 2026.
+  { state: "OK", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/OK.json" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/MD-1.json", district: "01" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/MD-2.json", district: "02" },
   { state: "MD", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/MD-3.json", district: "03" },
@@ -1004,7 +1203,10 @@ export const RACES: BuildRaceOptions[] = [
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-05", outFile: "house/SC-5.json", district: "05" },
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-06", outFile: "house/SC-6.json", district: "06" },
   { state: "SC", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-07", outFile: "house/SC-7.json", district: "07" },
-  // SC Senate deliberately NOT built: Republican runoff (Graham-Nordone vs. Norman) pending 2026-08-25.
+  // SC Senate: the Aug 25, 2026 Republican runoff (Graham-Nordone vs.
+  // Norman) has passed, so this is now buildable -- see the OK Senate
+  // comment above for how the runoff winner gets resolved.
+  { state: "SC", office: "S", cycle: 2026, congress: 119, session: 2, raceSlug: "senate", outFile: "senate/SC.json" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-01", outFile: "house/VA-1.json", district: "01" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-02", outFile: "house/VA-2.json", district: "02" },
   { state: "VA", office: "H", cycle: 2026, congress: 119, session: 2, raceSlug: "house-03", outFile: "house/VA-3.json", district: "03" },
