@@ -50,7 +50,7 @@ const NEEDS_REVIEW_PATH = join(import.meta.dirname, "needsHumanReview.json");
 interface ReviewEntry {
   name: string;
   race: string;
-  url: string;
+  url?: string;
   incumbent: boolean;
   first_detected_at: string;
 }
@@ -58,15 +58,25 @@ interface ReviewEntry {
 interface ReviewFile {
   last_updated: string;
   cloudflare_challenge: ReviewEntry[];
+  // Candidates with a real, valid FEC candidate ID (every candidate in this
+  // dataset has one -- this is NOT "unregistered with FEC") whose FEC
+  // committee filing simply doesn't list a website. Common and NOT on its
+  // own a signal the candidate is unserious or fake -- website is an
+  // optional field on FEC's own Form 1/2. Tracked by name (not just
+  // counted) starting 2026-08-31 specifically so this can be reviewed by a
+  // human as a real list, not just a number.
+  no_site_on_fec: ReviewEntry[];
   still_unchecked_count: number;
 }
 
 function loadReviewFile(): ReviewFile {
-  if (!existsSync(NEEDS_REVIEW_PATH)) return { last_updated: "", cloudflare_challenge: [], still_unchecked_count: 0 };
+  if (!existsSync(NEEDS_REVIEW_PATH)) return { last_updated: "", cloudflare_challenge: [], no_site_on_fec: [], still_unchecked_count: 0 };
   try {
-    return JSON.parse(readFileSync(NEEDS_REVIEW_PATH, "utf-8"));
+    const parsed = JSON.parse(readFileSync(NEEDS_REVIEW_PATH, "utf-8"));
+    if (!Array.isArray(parsed.no_site_on_fec)) parsed.no_site_on_fec = [];
+    return parsed;
   } catch {
-    return { last_updated: "", cloudflare_challenge: [], still_unchecked_count: 0 };
+    return { last_updated: "", cloudflare_challenge: [], no_site_on_fec: [], still_unchecked_count: 0 };
   }
 }
 
@@ -147,13 +157,20 @@ async function processCandidate(c: any): Promise<Classification | null> {
 
 async function processRace(
   opts: (typeof RACES)[number]
-): Promise<{ checked: number; results: Record<Classification, number>; rateLimited: boolean; newCloudflareEntries: ReviewEntry[] }> {
+): Promise<{
+  checked: number;
+  results: Record<Classification, number>;
+  rateLimited: boolean;
+  newCloudflareEntries: ReviewEntry[];
+  newNoSiteEntries: ReviewEntry[];
+}> {
   const localPath = join(BUILD_ROOT, opts.outFile);
   const empty = {
     checked: 0,
     results: { reachable: 0, cloudflare_challenge: 0, blocked_other: 0, dead: 0, no_site_on_fec: 0 },
     rateLimited: false,
     newCloudflareEntries: [] as ReviewEntry[],
+    newNoSiteEntries: [] as ReviewEntry[],
   };
   if (!existsSync(localPath)) return empty;
   const data = JSON.parse(readFileSync(localPath, "utf-8"));
@@ -183,8 +200,12 @@ async function processRace(
     .filter((c: any) => c._campaign_site_reachability === "cloudflare_challenge")
     .map((c: any) => ({ name: c.full_name, race: opts.outFile, url: c.campaign_site_url, incumbent: Boolean(c.incumbent), first_detected_at: new Date().toISOString() }));
 
+  const newNoSiteEntries: ReviewEntry[] = eligible
+    .filter((c: any) => c.campaign_site_url === null)
+    .map((c: any) => ({ name: c.full_name, race: opts.outFile, incumbent: Boolean(c.incumbent), first_detected_at: new Date().toISOString() }));
+
   if (checked > 0) writeFileSync(localPath, JSON.stringify(data, null, 2));
-  return { checked, results, rateLimited, newCloudflareEntries };
+  return { checked, results, rateLimited, newCloudflareEntries, newNoSiteEntries };
 }
 
 async function main() {
@@ -198,9 +219,10 @@ async function main() {
 
   const reviewFile = loadReviewFile();
   const knownKeys = new Set(reviewFile.cloudflare_challenge.map((e) => `${e.race}|${e.name}`));
+  const knownNoSiteKeys = new Set(reviewFile.no_site_on_fec.map((e) => `${e.race}|${e.name}`));
 
   for (const opts of races) {
-    const { checked, results, rateLimited, newCloudflareEntries } = await processRace(opts);
+    const { checked, results, rateLimited, newCloudflareEntries, newNoSiteEntries } = await processRace(opts);
     totalChecked += checked;
     for (const k of Object.keys(totals) as Classification[]) totals[k] += results[k];
     if (checked > 0) {
@@ -211,6 +233,13 @@ async function main() {
       if (!knownKeys.has(key)) {
         reviewFile.cloudflare_challenge.push(entry);
         knownKeys.add(key);
+      }
+    }
+    for (const entry of newNoSiteEntries) {
+      const key = `${entry.race}|${entry.name}`;
+      if (!knownNoSiteKeys.has(key)) {
+        reviewFile.no_site_on_fec.push(entry);
+        knownNoSiteKeys.add(key);
       }
     }
     if (rateLimited) {
@@ -243,7 +272,8 @@ async function main() {
   console.log(`  Dead / no DNS / timeout:                 ${totals.dead}`);
   console.log(`  No site on file with FEC at all:         ${totals.no_site_on_fec}`);
   console.log(`\n${reviewFile.cloudflare_challenge.length} candidates total on the needs-human-review list (Cloudflare-blocked, never fixable by automation).`);
-  console.log(`${stillUnchecked} candidates across the whole dataset still never checked at all -- this list will keep growing until that reaches 0.`);
+  console.log(`${reviewFile.no_site_on_fec.length} candidates total have a valid FEC candidate ID but no website on their FEC committee filing (NOT "unregistered" -- website is an optional FEC field).`);
+  console.log(`${stillUnchecked} candidates across the whole dataset still never checked at all -- this count shrinks toward 0 as more runs complete.`);
   console.log(`See pipeline/src/ci/needsHumanReview.json for the full, current, persistent list.`);
   console.log(`\nRun "npm run publish" to push the updated files to R2.`);
 }
