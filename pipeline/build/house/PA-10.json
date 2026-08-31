@@ -1,0 +1,948 @@
+{
+  "state": "PA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-10",
+  "generated_at": "2026-08-17T00:17:52.013Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
+    "primarySnippet": "25 P.S. § 2753(a): There shall be a General primary preceding each general election which shall be held on the third Tuesday of May in all even-numbered years, except in the year of the nomination of a President of the United States, in which year the General primary shall be held on the fourth Tuesday of April.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-7-sect-2/",
+    "generalSnippet": "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Pennsylvania's constitution bars anyone convicted of embezzlement of public moneys, bribery, perjury, or other infamous crime from the General Assembly or from holding any office of trust or profit in the Commonwealth, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
+    "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Pennsylvania's_10th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Scott Perry, Janelle Stelson, and Isabelle Harman are running in the general election for U.S. House Pennsylvania District 10 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.38
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 24.54
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 20.23
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 18.15
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.43
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 6209.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 6208.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 6200.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 6188.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 6177.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 6197.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 6184
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 6174
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 6176.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 6167.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 6172.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 6169.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 6175.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 6173.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 6166.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 6166.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 6159.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 6166.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 6161.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 6156.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 6156.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 6153.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 6146.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 6137.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 6137.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 6132.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 6126
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 6130.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 6122.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 6115.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 6114.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 6104.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 6099
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 6101.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 6098
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 6090.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 6092.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 6071.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 6071.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 6068
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 6062.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 6061.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5728935533.03,
+        "perCapitaUsd": 7423.31
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7160974937.03,
+        "perCapitaUsd": 9278.89
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8058746910.1,
+        "perCapitaUsd": 10442.19
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 12972008
+      },
+      {
+        "year": "2023",
+        "population": 12961683
+      },
+      {
+        "year": "2024",
+        "population": 13078751
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 71798
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73824
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77545
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "isabelle-harman",
+      "full_name": "HARMAN, ISABELLE A",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA10174",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 66196.14,
+        "totalSpent": 57804.22,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2246,
+          "largeDollar": 10800,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 51945
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Orleans, France",
+          "source_url": "https://ballotpedia.org/Isabelle_Harman",
+          "snippet": "Isabelle Harman was born in Orleans, France."
+        },
+        "high_school": {
+          "value": "Pattonville High School",
+          "source_url": "https://ballotpedia.org/Isabelle_Harman",
+          "snippet": "She graduated from Pattonville High School."
+        },
+        "college": {
+          "value": "University of Missouri, St. Louis (bachelor's degree, 1990); Chapman University (graduate degree, 2003); Fielding Graduate University (graduate degree, 2014)",
+          "source_url": "https://ballotpedia.org/Isabelle_Harman",
+          "snippet": "She earned a bachelor's degree from the University of Missouri, St. Louis in 1990, a graduate degree from Chapman University in 2003, and a graduate degree from Fielding Graduate University in 2014."
+        },
+        "employment_record": {
+          "value": "U.S. Army (1990-1993); entrepreneur, publisher, and ghostwriter",
+          "source_url": "https://ballotpedia.org/Isabelle_Harman",
+          "snippet": "She served in the U.S. Army from 1990 to 1993. She graduated from Pattonville High School. She earned a bachelor's degree from the University of Missouri, St. Louis in 1990, a graduate degree from Chapman University in 2003, and a graduate degree from Fielding Graduate University in 2014. Her career experience includes working as an entrepreneur, publisher, and ghostwriter."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072493.pdf",
+        "filingDate": "9/21/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T21:43:45.180Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:17.607Z",
+      "_no_site_search_attempted_at": "2026-08-22T15:32:35.494Z",
+      "bio_summary": {
+        "value": "Isabelle Harman was born in Orleans, France. She served in the U.S. Army from 1990 to 1993. She graduated from Pattonville High School. She earned a bachelor's degree from the University of Missouri, St. Louis in 1990, a graduate degree from Chapman University in 2003, and a graduate degree from Fielding Graduate University in 2014. Her career experience includes working as an entrepreneur, publisher, and ghostwriter.",
+        "source_url": "https://ballotpedia.org/Isabelle_Harman",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:13:14.360Z",
+      "campaign_site_url": "https://isabelleharman.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:16.119Z",
+      "_campaign_site_reachability": "dead"
+    },
+    {
+      "slug": "scott-perry",
+      "full_name": "PERRY, SCOTT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2PA04135",
+      "fec_status": "C",
+      "bioguide_id": "P000605",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5194925.35,
+        "totalSpent": 2430868.51,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1408837.67,
+          "largeDollar": 1691380.94,
+          "pac": 650127,
+          "party": 5000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1962-05-27",
+          "source_url": "https://www.wikidata.org/wiki/Q7437040",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "San Diego, California",
+          "source_url": "https://www.wikidata.org/wiki/Q7437040",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Pennsylvania State University",
+          "source_url": "https://www.wikidata.org/wiki/Q7437040",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Northern High School in Dillsburg and Cumberland-Perry Vo-Tech School in Cumberland County, Pennsylvania",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Perry",
+          "snippet": "In 1980, Perry graduated from Northern High School in Dillsburg and Cumberland-Perry Vo-Tech School in Cumberland County, Pennsylvania .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Christy Perry, 2 children",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Perry",
+          "snippet": "Spouse Christy Perry Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "picking fruit at Ashcombe's Farm in Mechanicsburg, Pennsylvania at age 13; mechanic, dock worker, draftsman, and licensed insurance agent; co-founded mechanical contracting business Hydrotech Mechanical Services after graduating from college",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Perry",
+          "snippet": "Perry began working at age 13, picking fruit at Ashcombe's Farm in Mechanicsburg, Pennsylvania . Since then, he has worked as a mechanic, dock worker, draftsman, and licensed insurance agent, among other jobs. [ 8 ] Military service [ edit ] Army National Guard [ edit ] Perry enlisted in the Pennsylvania Army National Guard in 1980. [ 10 ] He attended basic training at Fort Dix, New Jersey , [ 10 ] and graduated from Advanced Individual Training [ 9 ] at Fort Belvoir, Virginia , as a technical drafting specialist. [ 11 ] He graduated from Pennsylvania's Officer Candidate School and was commissioned a second lieutenant in the Field Artillery. [ 10 ] After receiving his commission, Perry qualified as a helicopter pilot in the United States Army Aviation Branch, [ 12 ] where he earned qualifications in numerous aircraft (Huey, Cayuse, Kiowa, Cobra, Chinook, Apache, and Blackhawk) and an Instructor Pilot rating. [ 13 ] He commanded military units at the company, battalion and brigade levels and served in a variety of staff assignments as he advanced through the ranks, including executive officer of 1st Squadron, 104th Cavalry Regiment during deployment to Bosnia and Herzegovina in 2002–03, and commander of 2nd Battalion (General Support), 104th Aviation Regiment beginning in 2008. [ 12 ] Iraq War [ edit ] In 2009–2010, Perry commanded 2nd Battalion, 104th Aviation Regiment during its service in Iraq for Operation Iraqi Freedom . [ 12 ] As Task Force Diablo, 2-104th Aviation was credited with flying 1,400 missions, accruing over 10,000 combat flight hours, and transporting over 3 million pounds of cargo and 50,000 soldiers and civilians. [ 14 ] Perry flew 44 combat missions in Iraq, [ 15 ] and accrued nearly 200 combat flight hours. [ 16 ] On Thanksgiving Day 2009, Perry and some of his soldiers participated in a race around the airfield at Camp Adder . [ 17 ] Post-Iraq [ edit ] Perry in 2015 After returning from Iraq, Perry was promoted to colonel and assigned to command the Pennsylvania National Guard 's 166th Regiment (Regional Training Institute). [ 12 ] From 2012 to 2014, he commanded the garrison at the Fort Indiantown Gap National Training Center. [ 12 ] In May 2014, Perry was assigned as assistant division commander of the 28th Infantry Division and promoted to brigadier general in November 2015. [ 18 ] [ 10 ] [ 19 ] In May 2016, he was selected as assistant adjutant general at the Pennsylvania National Guard's Joint Force Headquarters. [ 12 ] Perry retired from the Pennsylvania National Guard on March 1, 2019. [ 20 ] Business career [ edit ] After graduating from college, Perry co-founded mechanical contracting business Hydrotech Mechanical Services.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "chaired the Carroll Township Planning Commission; member of the Township Source Water Protection Committee; chaired the Dillsburg Area Wellhead Protection Advisory Committee; served on the Dillsburg Revitalization Committee; member of the Jaycees and was once a regional director for the state organization; member of Dillsburg American Legion Post #26, Dillsburg Veterans of Foreign Wars VFW Post #6771, and Lions Club International",
+          "source_url": "https://en.wikipedia.org/wiki/Scott_Perry",
+          "snippet": "Before entering politics, Perry chaired the Carroll Township Planning Commission and was a member of the Township Source Water Protection Committee. He chaired the Dillsburg Area Wellhead Protection Advisory Committee and served on the Dillsburg Revitalization Committee. He remains a member of the Jaycees and was once a regional director for the state organization. He is a member of Dillsburg American Legion Post #26, Dillsburg Veterans of Foreign Wars VFW Post #6771, and Lions Club International .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Opposes excessive taxes and over-regulation that prevent small businesses from creating jobs and prospering",
+          "snippet": "As a former small business owner, Scott Perry understands that excessive taxes and over-regulation prevent small businesses from creating jobs and prospering"
+        },
+        {
+          "topic": "Medicare & Social Security",
+          "value": "Committed to preserving and protecting Medicare and Social Security as hard-earned benefits for Senior Citizens",
+          "snippet": "Social Security and Medicare are benefits hard-earned by our Senior Citizens during the course of their lifetimes. Scott Perry knows that we must keep our promise to our Seniors, by preserving and protecting Medicare and Social Security"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Supports reforming the American healthcare system to reduce costs, improve the quality of care, and increase access to coverage",
+          "snippet": "The American healthcare system must be reformed to reduce costs, improve the quality of care, and increase access to coverage."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Believes in the sanctity of life with exceptions for rape, incest, and danger to the life of the mother; opposes late-term and partial birth abortion and forcing taxpayers to fund abortion",
+          "snippet": "Scott Perry believes firmly in the sanctity of Life period. He makes exceptions for circumstances that involve rape, incest, and danger to the life of the mother. He opposes late-term and partial birth abortion, as well as forcing Taxpayers to fund abortion."
+        }
+      ],
+      "platform_source_url": "https://patriotsforperry.com/",
+      "_platform_resolved_at": "2026-08-17T00:17:09.813Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075876.pdf",
+        "filingDate": "5/3/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T21:43:50.916Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 199,
+          "votesCast": 198,
+          "attendanceRate": 0.9949748743718593
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Economic Development, Public Buildings, and Emergency Management",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Economic Growth, Energy Policy, and Regulatory Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Federal Law Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — South and Central Asia",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — National Intelligence Enterprise",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Open Source Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 340,
+        "bills_cosponsored": 1628,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "DHS SAVE Act",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "366",
+            "publicLawNumber": "115-38",
+            "summary": "(This measure has not been amended since it was reported to the Senate on April 24, 2017. The summary of that version is repeated here.) DHS Stop Asset and Vehicle Excess Act or the DHS SAVE Act (Sec. 2) This bill amends the Homeland Security Act of 2002 to make the Under Secretary for Management of the Department of Homeland Security (DHS) responsible for overseeing and managing vehicle fleets throughout DHS, including: ensuring that DHS components are in compliance with federal law, executive branch guidance, and DHS policy regarding fleet management and use of vehicles from home to work; developing and distributing a standardized vehicle allocation methodology and fleet management plan; ensuring that components formally document fleet management decisions; and approving component fleet management plans, vehicle leases, and vehicle acquisitions. The bill lists responsibilities of component heads regarding vehicle fleets, including developing and annually submitting to the Under Secretary a vehicle allocation tool and fleet management plan. The Under Secretary shall: collect, on a quarterly basis, information regarding component vehicle fleets; seek to achieve a capability to collect automated information regarding component vehicle fleets; track and monitor component information, and review each component's vehicle allocation tool and fleet management plan, to ensure that component vehicle fleets are the optimal size and are cost effective; provide guidance on how component heads may achieve optimal fleet size; and as part of the annual budget process, review and make determinations regarding annual component requests for vehicle fleet funding. Beginning with FY2019, the Under Secretary and component heads may not approve a vehicle lease, acquisition, or replacement request, no DHS official with vehicle fleet management responsibilities may receive annual performance compensation in pay, and no senior executive service official of DHS whose office has a vehicle fleet may receive access to a car service, if such officials did not comply with vehicle allocation tool and fleet management plan requirements in the prior fiscal year. The Under Secretary may determine the feasibility of operating a vehicle motor pool to permit components to share vehicles to reduce the number of excess DHS vehicles. (Sec. 3) The Inspector General of DHS shall: (1) conduct a review of implementation of vehicle allocation tool and fleet management plan requirements for FY2019, which shall include analysis of the effectiveness of such requirements with respect to cost avoidance, savings realized, and component operations; and (2) upon request, provide to specified congressional committees information regarding such review.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ38"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.686,
+          "nominateDim2": -0.495,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/P000605"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 13.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/P000605"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=9yc1PobfXUw",
+      "platform_video_title": "OATH",
+      "platform_video_source_url": "https://patriotsforperry.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:39:45.433Z",
+      "bio_summary": {
+        "value": "Scott Perry is the Representative for Pennsylvania’s 10th Congressional District, bringing a diverse background in business, military, and community service to the U.S. House of Representatives. Initially a Pennsylvania State Representative, Perry has served in Congress since 2013, transitioning to the 10th District in 2018. He serves on the Transportation & Infrastructure, Foreign Affairs, and Oversight & Accountability Committees and previously chaired the House Freedom Caucus.",
+        "source_url": "https://patriotsforperry.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:39:13.428Z",
+      "campaign_site_url": "https://patriotsforperry.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:16.113Z",
+      "_campaign_site_reachability": "blocked_other"
+    },
+    {
+      "slug": "janelle-stelson",
+      "full_name": "STELSON, JANELLE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4PA10104",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 6364068.76,
+        "totalSpent": 1900666.82,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1057742.64,
+          "largeDollar": 3851307.5,
+          "pac": 488706.48,
+          "party": 6728.17,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "WGAL-TV 8, News Anchor (1997 - Present); WHTM-TV, Reporter And Weather Anchor; Broadcast Journalist",
+          "source_url": "https://www.ballotready.org/people/janelle-stelson",
+          "snippet": "WGAL-TV 8, News Anchor (1997 - Present) WHTM-TV, Reporter And Weather Anchor Broadcast Journalist",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Social Security, Medicare and Medicaid",
+          "value": "She will fight for Social Security, Medicare and Medicaid",
+          "snippet": "Janelle will fight for Social Security, Medicare and Medicaid"
+        },
+        {
+          "topic": "Bipartisanship and Cost Reduction",
+          "value": "She will work with Republicans & Democrats to lower costs",
+          "snippet": "She will work with Republicans & Democrats to lower costs"
+        },
+        {
+          "topic": "Small Businesses and Family Farms",
+          "value": "She will work to invest in small businesses and family farms",
+          "snippet": "She will work with Republicans & Democrats to lower costs, invest in small businesses and family farms"
+        },
+        {
+          "topic": "Housing and Child Care",
+          "value": "She will ensure we have access to affordable housing and child care",
+          "snippet": "invest in small businesses and family farms, and ensure we have access to affordable housing and child care."
+        },
+        {
+          "topic": "Congressional Reform - Term Limits",
+          "value": "She supports term limits",
+          "snippet": "She supports term limits"
+        },
+        {
+          "topic": "Congressional Reform - Stock Trading",
+          "value": "She supports banning members of Congress from insider stock trading",
+          "snippet": "She supports term limits, banning members of Congress from insider stock trading"
+        },
+        {
+          "topic": "Congressional Reform - Lobbying",
+          "value": "She supports prohibiting members of Congress from becoming lobbyists when they retire, exploiting their former relationships",
+          "snippet": "banning members of Congress from insider stock trading and prohibiting members of Congress from becoming lobbyists when they retire, exploiting their former relationships."
+        }
+      ],
+      "platform_source_url": "https://janellestelson.com/",
+      "_platform_resolved_at": "2026-08-10T21:43:26.484Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30027479.pdf",
+        "filingDate": "5/13/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T21:43:55.225Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:17.921Z",
+      "bio_summary": {
+        "value": "For more than 30 years, Central Pennsylvanians have relied on Janelle to tell the truth, trusted her to shine a light on our problems, and counted on her to get answers and hold the powerful accountable. Whether she was with small business owners, riding along with local law enforcement, or covering the rising costs of housing and healthcare, Janelle has been listening and telling the stories of countless families across the district.",
+        "source_url": "https://janellestelson.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:39:16.966Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=CXG8cjNEbgI",
+      "platform_video_title": "The Leader Who Can Defeat Scott Perry",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-21T12:00:17.921Z",
+      "campaign_site_url": "https://janellestelson.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:16.118Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

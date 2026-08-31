@@ -1,0 +1,898 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-27",
+  "generated_at": "2026-08-21T12:35:06.519Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "Michael Cloud (Incumbent) (Republican Party) / Tanya Lloyd (Democratic Party) / Wayne Raasch (Independent) (Write-in)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 14469.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 14426.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 14401.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 14394
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 14356.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 14363.1
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 14339.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 14306.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 14297.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 14307
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 14309.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 14302.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 14291.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 14321.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 14311.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 14286.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 14280.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 14267.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 14259.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 14240.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 14220.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 14204.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 14185.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 14114.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 14153.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 14126.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 14098.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 14088.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 14069.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 14049.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 14024.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 14002.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 13991.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 13986.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 13952.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 13921.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 13947.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 13886.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 13859
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 13852.4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 13817.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 13795.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155163597.59,
+        "perCapitaUsd": 6674.23
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 30029572
+      },
+      {
+        "year": "2023",
+        "population": 30503301
+      },
+      {
+        "year": "2024",
+        "population": 31290831
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72284
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 75780
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79721
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michael-cloud",
+      "full_name": "CLOUD, MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8TX27049",
+      "fec_status": "C",
+      "bioguide_id": "C001115",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1062240.61,
+        "totalSpent": 927985.27,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 323624.06,
+          "largeDollar": 495407.88,
+          "pac": 208250,
+          "party": 1000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-05-13",
+          "source_url": "https://www.wikidata.org/wiki/Q55313952",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Baton Rouge, Louisiana",
+          "source_url": "https://www.wikidata.org/wiki/Q55313952",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Oral Roberts University",
+          "source_url": "https://www.wikidata.org/wiki/Q55313952",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://www.cloudforcongress.com/",
+          "snippet": "Congressman Michael Cloud is a husband, a father, and a grateful citizen of the United States",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - Texas 27th District (2018 - Present); Bright Idea Media, Owner (2008 - Present); Faith Family Church, Communications and Marketing Director (2011 - 2015)",
+          "source_url": "https://www.ballotready.org/people/michael-cloud",
+          "snippet": "Professional Experience US House of Representatives, Representative - Texas 27th District (2018 - Present) Bright Idea Media, Owner (2008 - Present) Faith Family Church, Communications and Marketing Director (2011 - 2015)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Congressional Taiwan Caucus, Freedom Caucus, Republican Study Committee, Sharia Free America Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Michael_Cloud",
+          "snippet": "Caucus memberships [ edit ] Congressional Taiwan Caucus [ 33 ] Freedom Caucus [ 34 ] Republican Study Committee [ 35 ] Sharia Free America Caucus [ 28 ]",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "National Defense",
+          "value": "Supports national defense",
+          "snippet": "National Defense"
+        },
+        {
+          "topic": "2nd Amendment",
+          "value": "Supports the 2nd Amendment",
+          "snippet": "The 2nd Amendment"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports border security",
+          "snippet": "Border Security"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Supports veterans",
+          "snippet": "Veterans"
+        },
+        {
+          "topic": "Pro-Life",
+          "value": "Pro-life position",
+          "snippet": "Pro-Life"
+        },
+        {
+          "topic": "Israel",
+          "value": "Supports standing with Israel",
+          "snippet": "Standing with Israel"
+        },
+        {
+          "topic": "Religious Liberty",
+          "value": "Supports religious liberty",
+          "snippet": "Religious Liberty"
+        },
+        {
+          "topic": "Federal Spending and Debt",
+          "value": "Addresses federal spending and debt",
+          "snippet": "Federal Spending and Debt"
+        }
+      ],
+      "platform_source_url": "https://www.cloudforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:52:45.346Z",
+      "campaign_site_url": "https://cloudforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Congressman Michael Cloud is a husband, a father, and a grateful citizen of the United States who has a passion for helping people and making a difference in the state of Texas and our nation. He represents and serves the twenty-seventh district of Texas, which includes fourteen counties along the coastal bend of Texas.",
+        "source_url": "https://www.cloudforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:18:25.622Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077004.pdf",
+        "filingDate": "8/5/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:52:49.616Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 217,
+          "votesCast": 212,
+          "attendanceRate": 0.9769585253456221
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Military and Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Interior, Environment, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Delivering on Government Efficiency",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 76,
+        "bills_cosponsored": 801,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 802 North Tancahua Street in Corpus Christi, Texas, as the \"Captain Robert E. 'Bob' Batterson Post Office\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "10065",
+            "publicLawNumber": "118-270",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 802 North Tancahua Street in Corpus Christi, Texas, as the Captain Robert E. 'Bob' Batterson Post Office.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ270"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.689,
+          "nominateDim2": -0.382,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001115"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 12.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001115"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "tanya-lloyd",
+      "full_name": "LLOYD, TANYA W",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4TX27089",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 139788.08,
+        "totalSpent": 128664.89,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 97139.69,
+          "largeDollar": 42576.5,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 71.89
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Texas State University, Education (2006)",
+          "source_url": "https://www.ballotready.org/people/tanya-lloyd",
+          "snippet": "Texas State University, Education (2006)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Lockhart Independent School District, Teacher, Campus Science Fair Coordinator (2007 - Present); McMorris Ford and Capitol Chevrolet, Receptionist, Office Manager; Prudential Owens Real Estate, Realtor; St Mark United Methodist Church, Secretary; Mas Macetas, Small Business Worker",
+          "source_url": "https://www.ballotready.org/people/tanya-lloyd",
+          "snippet": "Lockhart Independent School District, Teacher, Campus Science Fair Coordinator (2007 - Present) McMorris Ford and Capitol Chevrolet, Receptionist, Office Manager Prudential Owens Real Estate, Realtor St Mark United Methodist Church, Secretary Mas Macetas, Small Business Worker",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Enact a fully government-funded single-payer healthcare system that covers everyone, including long-term and reproductive care. Codify Roe v. Wade into federal law to ensure protected access to abortion and reproductive healthcare.",
+          "snippet": "Enact a fully government-funded single-payer healthcare system that covers everyone, including long-term and reproductive care, so no Texan is left behind"
+        },
+        {
+          "topic": "Rural Healthcare Infrastructure",
+          "value": "Invest in rebuilding and reopening rural hospitals and clinics, with targeted incentives to recruit and retain doctors, nurses, and allied health professionals in underserved areas.",
+          "snippet": "Invest in rebuilding and reopening rural hospitals and clinics, with targeted incentives to recruit and retain doctors, nurses, and allied health professionals in underserved areas"
+        },
+        {
+          "topic": "Agriculture and Agribusiness",
+          "value": "Break up big agribusiness monopolies and redirect farm subsidies to support small, diverse, and sustainable farms. Require big agribusiness to pay farmers a fair, living price for their goods.",
+          "snippet": "Break up big agribusiness monopolies and redirect farm subsidies to support small, diverse, and sustainable farms that prioritize land stewardship, healthy food, and local economies."
+        },
+        {
+          "topic": "Rural Infrastructure",
+          "value": "Launch an American Rural Revival infrastructure program to build world-class broadband, resilient water and energy systems, and climate-ready transportation.",
+          "snippet": "Launch an American Rural Revival infrastructure program to build world-class broadband, resilient water and energy systems, and climate-ready transportation—creating thousands of good jobs and empowering rural communities to lead in the economy of the future."
+        },
+        {
+          "topic": "Renewable Energy",
+          "value": "Invest in clean energy—solar, wind, and biomass—owned and operated by local co-ops. Support local, community-owned renewable energy projects to lower electricity bills and create jobs.",
+          "snippet": "Invest in clean energy—solar, wind, and biomass—owned and operated by local co-ops, not just corporate giants. This will lower energy costs, provide new revenue streams for farmers, and build resilience against severe weather and market shocks."
+        },
+        {
+          "topic": "Education",
+          "value": "Guarantee equitable funding for rural schools, raise teacher pay, and provide incentives for educators to work in rural communities. Establish universal, high-quality early childhood education and guaranteed daycare for all families.",
+          "snippet": "Guarantee equitable funding for rural schools, raise teacher pay, and provide incentives for educators to work and stay in rural communities"
+        },
+        {
+          "topic": "School Meals",
+          "value": "Restore and expand free school meals year-round, including during summer months, so no child goes hungry.",
+          "snippet": "Restore and expand free school meals year-round, including during summer months, so no child goes hungry"
+        }
+      ],
+      "platform_source_url": "https://www.tanyafortx27.com/issues",
+      "_platform_resolved_at": "2026-08-14T18:52:41.137Z",
+      "campaign_site_url": "https://tanyafortexas.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Tanya Lloyd is a fifth-generation Texan and longtime public school teacher running for the U.S. House of Representatives in Texas’ 27th Congressional District. After working in car dealerships and real estate, Lloyd became a nontraditional student in her early 30s, earning a bachelor’s degree in education and becoming a teacher in the Lockhart Independent School District. Lloyd is running as a Democrat, motivated by her firsthand experiences with rural and working-class families.",
+        "source_url": "https://www.tanyafortx27.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:18:20.536Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078647.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:52:53.156Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "wayne-raasch",
+      "full_name": "RAASCH, WAYNE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX27068",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Wayne Raasch (independent) is running for election to the U.S. House to represent Texas' 27th Congressional District . He is a write-in candidate in the general election on November 3, 2026 . [source] He lost in the Democratic primary on March 3, 2026 . ",
+        "source_url": "https://ballotpedia.org/Wayne_Raasch",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:26:59.970Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

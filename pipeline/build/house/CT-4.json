@@ -1,0 +1,799 @@
+{
+  "state": "CT",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-18T20:12:21.414Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
+    "primarySnippet": "Conn. Gen. Stat. § 9-423(a): The primaries of all parties for nomination to an office to be voted upon at a state election shall be held on the second Tuesday in August in the year in which such state election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.cga.ct.gov/current/pub/chap_146.htm",
+    "generalSnippet": "Conn. Gen. Stat. § 9-225(a): The town clerk or assistant town clerk of each town shall warn the electors therein to meet on the Tuesday following the first Monday in November in the even-numbered years, at six o'clock a.m. ..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Unclear on its face, but No in practice — Connecticut bars a person who has forfeited (and not regained) their electoral privileges due to a felony conviction from being \"a candidate for or hold[ing] public office,\" with no explicit carve-out limiting this to state or local office; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this provision would not be enforceable to keep a candidate off a Connecticut congressional ballot even though its text alone doesn't rule out reaching federal office",
+    "source_url": "https://www.cga.ct.gov/current/pub/chap_143.htm",
+    "snippet": "Conn. Gen. Stat. § 9-46(c): \"No person who has forfeited and not regained such person's privileges as an elector as provided in section 9-46a, or who has regained such privileges and again forfeited such privileges as provided in subsection (b) of this section, may be a candidate for or hold public office.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Connecticut's_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jim Himes, Michael Goldstein, and Damon Cerreta are running in the general election for U.S. House Connecticut District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 12.98
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 10.92
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 12.14
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 9.2
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 7.75
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1726.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1725
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1723.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1719.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1721.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1717
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1716.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1716.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1714.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1716.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1717.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1718
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1720.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1717.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1716
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1716.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1715.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1715.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1714.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1713.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1710.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1712.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1711.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1707.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1706.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1707.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1704.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1701.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1701
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1700.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1700
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1698.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1697.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1700.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1692.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1684.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1689.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1688.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1689.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6257681416.3,
+        "perCapitaUsd": 8698.7
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8120289750.97,
+        "perCapitaUsd": 11287.88
+      },
+      {
+        "year": "2025",
+        "totalUsd": 10232653302.62,
+        "perCapitaUsd": 14224.25
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3626205
+      },
+      {
+        "year": "2023",
+        "population": 3617176
+      },
+      {
+        "year": "2024",
+        "population": 3675069
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 88429
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 91665
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96049
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "damon-cerreta",
+      "full_name": "CERRETA, DAMON LAWRENCE",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H0CT04237",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Stamford, Connecticut",
+          "source_url": "https://ballotpedia.org/Damon_Cerreta",
+          "snippet": "Damon Cerreta was born in Stamford, Connecticut."
+        },
+        "high_school": {
+          "value": "Ridgefield High School",
+          "source_url": "https://ballotpedia.org/Damon_Cerreta",
+          "snippet": "He earned a high school diploma from Ridgefield High School."
+        },
+        "employment_record": {
+          "value": "Business owner",
+          "source_url": "https://ballotpedia.org/Damon_Cerreta",
+          "snippet": "His career experience includes working as a business owner."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078157.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T19:05:14.980Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:45.274Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:54:14.357Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z"
+    },
+    {
+      "slug": "michael-goldstein",
+      "full_name": "GOLDSTEIN, MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CT04143",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 46809.4,
+        "totalSpent": 5767.52,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2778.15,
+          "largeDollar": 19031.25,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 25000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "New York, New York",
+          "source_url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)",
+          "snippet": "Michael Goldstein was born in New York, New York."
+        },
+        "high_school": {
+          "value": "Francis Lewis High School",
+          "source_url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)",
+          "snippet": "He earned a high school diploma from Francis Lewis High School, a bachelor's degree from Harpur College of Arts and Sciences in 1970, an M.D. from SUNY Downstate Medical School in 1974, and a J.D. from the Elizabeth Haub School of Law at Pace University in 2006."
+        },
+        "college": {
+          "value": "Bachelor's degree, Harpur College of Arts and Sciences (1970); M.D., SUNY Downstate Medical School (1974); J.D., Elizabeth Haub School of Law at Pace University (2006)",
+          "source_url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)",
+          "snippet": "He earned a high school diploma from Francis Lewis High School, a bachelor's degree from Harpur College of Arts and Sciences in 1970, an M.D. from SUNY Downstate Medical School in 1974, and a J.D. from the Elizabeth Haub School of Law at Pace University in 2006."
+        },
+        "employment_record": {
+          "value": "Physician and attorney",
+          "source_url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)",
+          "snippet": "Goldstein's career experience includes working as a physician and as an attorney."
+        },
+        "civic_affiliations": {
+          "value": "NY County Medical Society; Med Soc State of NY; American Academy of Ophthalmology; Fairfield County Medical Association; Alumni Board and Alumni Fund SUNY Downstate School of Medicine; Temple Sholom Greenwich; American Bar Association; Health Law Section ABA",
+          "source_url": "https://ballotpedia.org/Michael_Goldstein_(Connecticut)",
+          "snippet": "As of 2024, Goldstein was affiliated with the following organizations: NY County Medical Society Med Soc State of NY American Academy of Ophthalmology Fairfield County Medical Association Alumni Board and Alumni Fund SUNY Downstate School of Medicine Temple Sholom Greenwich American Bar Association Health Law Section ABA"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Government over-regulation has destroyed competition in healthcare, driving up costs. Will fight to slash regulatory burden, restore real market competition, and bring healthcare costs down.",
+          "snippet": "Government over-regulation has destroyed competition in healthcare. More bureaucracy means higher prices — for prescriptions, for insurance, for every visit to the doctor. I will fight to slash regulatory burden, restore real market competition, and bring healthcare costs down for every Connecticut family."
+        },
+        {
+          "topic": "Student Debt Relief",
+          "value": "Stay-in-Connecticut debt relief: graduate from CT college, work here 5 years, forgive up to $25,000 in debt.",
+          "snippet": "Stay-in-Connecticut Debt Relief Graduate from CT college, work here 5 years, we forgive up to $25,000"
+        },
+        {
+          "topic": "Vocational Education Access",
+          "value": "Supports vocational training vouchers, technical high schools, and career academies with no more waitlists for kids who want to work.",
+          "snippet": "Vocational training vouchers. Technical high schools. Career academies. No more waitlists for kids who want to work."
+        },
+        {
+          "topic": "Pipeline Infrastructure",
+          "value": "Will fight for federal legislation that expands pipeline capacity to deliver affordable energy to Connecticut homes.",
+          "snippet": "I will fight for federal legislation that expands pipeline capacity and delivers affordable energy to every home in CT-04."
+        }
+      ],
+      "platform_source_url": "https://goldsteinforcongress.com/",
+      "_platform_resolved_at": "2026-08-17T00:56:58.581Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=N82dq1S26mU",
+      "platform_video_title": "Michael Goldstein for Congress 2024 4th District CT",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T12:00:45.601Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Doctor. Lawyer. Father. Fighter. 🗳️ Vote November 3 Early Voting Early Voting October 19 – November 1 Includes Weekends Accountability. Access. Opportunity. Join the Fight Where I Stand Donate Why Me? Why Now? The Doctor Healthcare costs are crushing Connecticut families — and I've spent 30 years watching it happen from the inside. The reason is simple: government over-regulation has destroyed competition in medicine. When bureaucrats control the market, prices go up. When competition disappears, patients pay more for less. I've watched prescription drug prices climb 300% while manufacturing costs dropped. I've watched insurance premiums double while coverage shrank. I've fought pharmaceutical middlemen, insurance denials, and an FDA that lets patients die waiting for treatments that already exist. I put myself through medical school. I became a surgeon.",
+        "source_url": "https://goldsteinforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:20.624Z",
+      "_tier2_search_attempted_at": "2026-08-22T12:00:45.601Z",
+      "platform_video_tier": 2,
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z"
+    },
+    {
+      "slug": "jim-himes",
+      "full_name": "HIMES, JIM",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CT04172",
+      "fec_status": "C",
+      "bioguide_id": "H001047",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1379560.48,
+        "totalSpent": 968702.17,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 43821.56,
+          "largeDollar": 372760,
+          "pac": 830500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1966-07-05",
+          "source_url": "https://www.wikidata.org/wiki/Q1689111",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Lima",
+          "source_url": "https://www.wikidata.org/wiki/Q1689111",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Harvard University",
+          "source_url": "https://www.wikidata.org/wiki/Q1689111",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Hopewell Valley Central High School",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+          "snippet": "attended and graduated from Hopewell Valley Central High School",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Board member of Aspira of Connecticut in Bridgeport, board member of the Fairfield County Community Foundation, advisory board member of Family Assets, LLP of Bridgeport, elected member of the Greenwich Board of Estimate and Taxation, chaired the Greenwich Democratic Town Committee",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+          "snippet": "He has also served as a board member of Aspira of Connecticut in Bridgeport , a board member of the Fairfield County Community Foundation, and as an advisory board member of Family Assets, LLP of Bridgeport. Himes was also an elected member of the Greenwich Board of Estimate and Taxation and chaired the Greenwich Democratic Town Committee.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "In 1995, Himes began working at Goldman Sachs as a banker in Latin America and New York. He was eventually promoted to vice president.",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+          "snippet": "In 1995, Himes began working at Goldman Sachs [ 9 ] as a banker in Latin America and New York . He was eventually promoted to vice president.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Mary Scott in 1994",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+          "snippet": "Spouse Mary Scott ​ ( married&lt;/span>\"}]]}'>m. 1994 ) ​ Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=2chLwHMBvIg",
+      "platform_video_title": "Re Elect Jim Himes Democrat for Congress",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-22T12:00:45.974Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 111,
+        "bills_cosponsored": 2547,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Weir Farm National Historical Park Redesignation Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5852",
+            "publicLawNumber": "116-305",
+            "summary": "Weir Farm National Historical Park Redesignation Act This bill redesignates the Weir Farm National Historic Site in Connecticut as the Weir Farm National Historical Park.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ305"
+          },
+          {
+            "title": "American Innovation $1 Coin Act",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "770",
+            "publicLawNumber": "115-197",
+            "summary": "American Innovation $1 Coin Act (Sec. 2) This bill directs the Department of the Treasury, over a 14-year period beginning in 2019, to mint and issue \"American Innovation\" $1 coins commemorating innovation and innovators from each state, each U.S. territory, and the District of Columbia. Such coins shall be issued in the order in which the states ratified the Constitution or were admitted into the Union. After all such coins are issued, coins shall be issued for the District of Columbia and the territories. Treasury shall issue four coins per year until a coin has been issued for each jurisdiction. Neither the bust of any person nor the portrait of any living person may be included in the design of the coins. The bill instructs Interior to continue to mint and issue $1 coins honoring Native Americans and their contributions.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ197"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.24,
+          "nominateDim2": -0.203,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001047"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001047"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:45.974Z",
+      "platform_video_tier": 2,
+      "bio_summary": {
+        "value": "James Andrew Himes (born July 5, 1966) is an American businessman and politician serving as the U.S. representative for Connecticut's 4th congressional district since 2009. Himes is a member of the Democratic Party . Himes's district includes most of the southwest corner of the state and is largely coextensive with the Connecticut side of the New York metropolitan area . It includes parts of Fairfield County and New Haven County , including the cities of Bridgeport , Norwalk , Fairfield and Stamford . Himes is the ranking member of the House Permanent Select Committee on Intelligence, and a member of the House Financial Services Committee . ",
+        "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:23:11.208Z",
+      "campaign_site_url": "http://www.himesforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z",
+      "_campaign_site_reachability": "blocked_other"
+    }
+  ]
+}

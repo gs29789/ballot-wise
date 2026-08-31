@@ -1,0 +1,861 @@
+{
+  "state": "KS",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-18T20:25:37.670Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.ksrevisor.gov/statutes/chapters/ch25/025_002_0003.html",
+    "primarySnippet": "The primary national, state, county and township election shall be held on the first Tuesday of August in even-numbered years for the nomination of all candidates to be voted for at the next following general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://ksrevisor.gov/statutes/chapters/ch25/025_025_0002.html",
+    "generalSnippet": "\"General election\" means the elections held on the Tuesday following the first Monday in November of both even-numbered and odd-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Kansas's felon-disqualification statute applies only to \"any public office under the laws of the state of Kansas\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://ksrevisor.gov/statutes/chapters/ch21/021_066_0013.html",
+    "snippet": "A person who has been convicted in any state or federal court of a felony shall, by reason of such conviction, be ineligible to hold any public office under the laws of the state of Kansas, or to register as a voter or to vote in any election held under the laws of the state of Kansas or to serve as a juror in any civil or criminal case."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Kansas'_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Ron Estes, Katy Tyndell, and Drew Cranmer are running in the general election for U.S. House Kansas District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.89
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 36.61
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.32
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.89
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 36.42
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1472.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1468.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1464.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1459.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1461.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1465.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1464.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1465.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1462.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1465.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1465
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1464.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1460.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1462.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1467
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1464.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1460.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1459.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1463.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1463
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1459.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1461.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1463.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1455.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1458.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1453
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1457.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1455.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1454.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1449.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1448.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1447.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1445.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1447.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1443.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1442.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1446.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1440.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1439.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1438.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1439.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1444.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4873639536.05,
+        "perCapitaUsd": 6648.55
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5274108826.87,
+        "perCapitaUsd": 7194.86
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5997667138.05,
+        "perCapitaUsd": 8181.93
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 2937150
+      },
+      {
+        "year": "2023",
+        "population": 2940547
+      },
+      {
+        "year": "2024",
+        "population": 2970606
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 68925
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70333
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 75514
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "andrew-cranmer",
+      "full_name": "CRANMER, ANDREW IRA",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6KS04280",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://drew4kansas.com/",
+          "snippet": "I'm a data engineer, a small business founder, a husband, and a father",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "data engineer, small business founder",
+          "source_url": "https://drew4kansas.com/",
+          "snippet": "I'm a data engineer, a small business founder, a husband, and a father",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Foreign Policy & War Powers",
+          "value": "Opposition to undeclared wars and support for restoring congressional war powers; advocates ending unconditional foreign aid and bringing troops home",
+          "snippet": "No more undeclared wars. No more blank-check authorizations. No more sending Kansas families to fight and die for conflicts Congress never had the courage to debate. And no more writing checks to the world while Kansas families balance their own budgets without Washington's help. Bring the troops home. Stop nation-building. End unconditional foreign aid. Restore Article I."
+        },
+        {
+          "topic": "Privacy & Surveillance",
+          "value": "Opposition to warrantless government surveillance and federal funding for surveillance infrastructure",
+          "snippet": "I will oppose federal funding and mandates that push surveillance infrastructure into local communities, and I will fight for meaningful legal guardrails on how government collects, retains, and shares your data."
+        },
+        {
+          "topic": "Federal Reserve & Fiscal Policy",
+          "value": "Support for auditing the Federal Reserve and implementing across-the-board spending cuts to balance the budget",
+          "snippet": "I support auditing the Federal Reserve — full transparency, no exceptions — as a first step toward understanding the damage done. I also support the principle behind legislation like Rand Paul's \"Penny Plan\": cutting federal spending by a modest percentage across the board each year until the budget is balanced."
+        },
+        {
+          "topic": "Federalism & Decentralization",
+          "value": "Support for returning education, healthcare, land use, and law enforcement policy to states and localities",
+          "snippet": "I will fight to return education, healthcare, land use, and law enforcement policy to the states and localities where they belong."
+        },
+        {
+          "topic": "Death Penalty",
+          "value": "Advocates for abolition of the federal death penalty based on belief in inherent human dignity",
+          "snippet": "I will advocate for the abolition of the federal death penalty."
+        }
+      ],
+      "platform_source_url": "https://drew4kansas.com/",
+      "_platform_resolved_at": "2026-08-12T22:26:33.648Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=nhaf3mvwj5o",
+      "platform_video_title": "The Best Way to Honor Our Fallen Heroes #peacenotwar #nowarwithiran #votegold #drew4kansas",
+      "platform_video_source_url": "https://drew4kansas.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:25.247Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I'm not a career politician, and I'm not here to play party games. I'm a data engineer, a small business founder, a husband, and a father — and I'm running because the people of Kansas's 4th District deserve a representative who will actually say no.",
+        "source_url": "https://drew4kansas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:50.509Z"
+    },
+    {
+      "slug": "ron-estes",
+      "full_name": "ESTES, RON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8KS04112",
+      "fec_status": "C",
+      "bioguide_id": "E000298",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1855034.98,
+        "totalSpent": 1295633.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9091.46,
+          "largeDollar": 302756.29,
+          "pac": 1090100,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1956-07-19",
+          "source_url": "https://www.wikidata.org/wiki/Q7363747",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Topeka, Kansas",
+          "source_url": "https://www.wikidata.org/wiki/Q7363747",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Tennessee Technological University",
+          "source_url": "https://www.wikidata.org/wiki/Q7363747",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Susan",
+          "source_url": "https://www.estesforcongress.com/",
+          "snippet": "Ron, his wife Susan, and their three children live in Wichita",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "background in engineering and business, prior service as Sedgwick County Treasurer and Kansas State Treasurer",
+          "source_url": "https://www.estesforcongress.com/",
+          "snippet": "With a background in engineering and business and prior service as Sedgwick County Treasurer and Kansas State Treasurer",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Served as treasurer for the Kansas County Treasurer's Association, and in several posts in the Republican Party, including vice chair of the Kansas Republican Party. Member of Omicron Delta Kappa - The National Leadership Honor Society.",
+          "source_url": "https://en.wikipedia.org/wiki/Ron_Estes",
+          "snippet": "He earned a Bachelor of Science degree in civil engineering and a Master of Business Administration from Tennessee Tech , where he was selected for membership in Omicron Delta Kappa - The National Leadership Honor Society. [ 5 ] Career [ edit ] Business [ edit ] Estes worked in consulting and management roles in the aerospace, oil and gas, automotive, and several other manufacturing and service industries, working for several companies, including Andersen Consulting , Procter & Gamble , Koch Industries , and Bombardier Learjet . [ 6 ] County treasurer [ edit ] Estes was elected treasurer of Sedgwick County, Kansas , home to Wichita , in 2004, [ 5 ] and reelected in 2008. [ 6 ] During his political career, he also served as treasurer for the Kansas County Treasurer's Association, and in several posts in the Republican Party, including vice chair of the Kansas Republican Party .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Constitutional Rights and Religious Liberties",
+          "value": "Ron will always defend the rights and liberties of Kansans by fighting federal overreach, protecting the Second Amendment, and standing for the sanctity of life.",
+          "snippet": "Ron will always defend the rights and liberties of Kansans by fighting federal overreach, protecting the Second Amendment, and standing for the sanctity of life."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Ron is leading efforts to secure our border, support our military and veterans, and restore peace through strength at home and abroad.",
+          "snippet": "Ron is leading efforts to secure our border , support our military and veterans, and restore peace through strength at home and abroad."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Ron is working to lower taxes, grow the economy, and ensure Kansans keep more of their hard-earned money instead of sending it to Washington.",
+          "snippet": "Ron is working to lower taxes, grow the economy , and ensure Kansans keep more of their hard-earned money instead of sending it to Washington."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Ron is focused on making health care more affordable, improving rural health access, and giving Kansas families more control over their health care decisions.",
+          "snippet": "Ron is focused on making health care more affordable, improving rural health access, and giving Kansas families more control over their health care decisions."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Ron is advocating for Kansas farmers and ranchers by protecting family farms, expanding opportunities for agriculture, and pushing back against harmful regulations.",
+          "snippet": "Ron is advocating for Kansas farmers and ranchers by protecting family farms, expanding opportunities for agriculture, and pushing back against harmful regulations."
+        },
+        {
+          "topic": "Government Regulations",
+          "value": "Ron is standing up to unelected Washington bureaucrats, cutting burdensome regulations, and returning more power to Kansans and local communities.",
+          "snippet": "Ron is standing up to unelected Washington bureaucrats, cutting burdensome regulations, and returning more power to Kansans and local communities."
+        },
+        {
+          "topic": "Balanced Budget",
+          "value": "Ron is working to rein in reckless Washington spending, balance the federal budget, and protect taxpayers from out-of-control government debt.",
+          "snippet": "Ron is working to rein in reckless Washington spending, balance the federal budget, and protect taxpayers from out-of-control government debt."
+        },
+        {
+          "topic": "Health Care Reform",
+          "value": "Ron supports replacing Obamacare with state-based, free-market solutions that put health care decisions back in the hands of families.",
+          "snippet": "Ron supports replacing Obamacare with state-based, free-market solutions that put health care decisions back in the hands of families."
+        }
+      ],
+      "platform_source_url": "https://www.estesforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T22:27:11.530Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=6x2pIMrj6I8",
+      "platform_video_title": "Ron Estes is a Leader for General Aviation Issues",
+      "platform_video_source_url": "https://www.estesforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:25.670Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Joint Economic Committee",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Social Security",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Tax",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 67,
+        "bills_cosponsored": 736,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To designate the flood control project in Sedgwick County, Kansas, commonly known as the Wichita-Valley Center Flood Control Project, as the \"M.S. 'Mitch' Mitchell Floodway\".",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "3383",
+            "publicLawNumber": "115-349",
+            "summary": "(Sec. 1) This bill designates the Wichita-Valley Center Flood Control Project in Sedgwick County, Kansas, as the &quot;M.S. 'Mitch' Mitchell Floodway.&quot;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ349"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.647,
+          "nominateDim2": 0.133,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/E000298"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 66,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/E000298"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Congressman Ron Estes is a fifth-generation Kansan representing Kansas' Fourth District in the U.S. House of Representatives and serves on the House Committee on Ways and Means. A champion for tax reform, free and fair trade, retirement security, and lowering the price of health care. Ron has helped pass landmark tax reform, rolled back burdensome regulations, increased support for veterans and our military, defended Wichita's aviation industry, and helped lead efforts to secure the U.S.-Mexico-Canada Agreement vital for agriculture and manufacturing in Kansas and throughout the country.",
+        "source_url": "https://www.estesforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:44.106Z"
+    },
+    {
+      "slug": "katy-tyndell",
+      "full_name": "TYNDELL, KATY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6KS04272",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 234454.92,
+        "totalSpent": 161558.49,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 38412.31,
+          "largeDollar": 195216.8,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 600
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "a tiny ranching and farming town",
+          "source_url": "https://katyforkansas.com/",
+          "snippet": "She grew up in a tiny ranching and farming town where everyone took responsibility, worked hard, and looked out for each other.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://katyforkansas.com/",
+          "snippet": "With the steadfast support of her husband and family, she is running to ensure that her three children—and children across America—inherit a country where truth, freedom, and opportunity endure.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "co-founded Leading Kansas in 2025, a nonpartisan civic engagement organization; served as Chair of the Sedgwick County Fire District One Steering Council; volunteered with Kansas Moms Demand Action and her local NAACP",
+          "source_url": "https://katyforkansas.com/",
+          "snippet": "In 2025, Katy co-founded Leading Kansas, a nonpartisan civic engagement organization dedicated to defending freedom, protecting democratic institutions, securing Kansas, and championing the truth. Leading Kansas is focused on finding common ground by bringing voices of all kinds together to demand policies serve the people, not special interests or partisan politics. Their work has been recognized on both sides of the aisle as a productive, intentional way to bring politics to the people. Additionally, Katy recently served as Chair of the Sedgwick County Fire District One Steering Council and has volunteered with Kansas Moms Demand Action and her local NAACP.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Blue Stem Oil & Gas, llc, Manager (2016 - Present); Tallgrass Management, Manager (2016 - Present); National Congress of American Indians, Staff Attorney (2009 - 2013)",
+          "source_url": "https://www.ballotready.org/people/katy-tyndell",
+          "snippet": "Professional Experience Blue Stem Oil & Gas, llc, Manager (2016 - Present) Tallgrass Management, Manager (2016 - Present) National Congress of American Indians, Staff Attorney (2009 - 2013)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Need to bring down costs",
+          "snippet": "we need to bring down costs"
+        },
+        {
+          "topic": "Housing",
+          "value": "Make housing more affordable",
+          "snippet": "make housing more affordable"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Expand access to healthcare",
+          "snippet": "expand access to healthcare"
+        },
+        {
+          "topic": "Education",
+          "value": "Improve our schools",
+          "snippet": "improve our schools"
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Support our farmers",
+          "snippet": "support our farmers"
+        },
+        {
+          "topic": "Rule of Law",
+          "value": "Defend the rule of law",
+          "snippet": "defend the rule of law"
+        },
+        {
+          "topic": "Campaign Finance/Political Reform",
+          "value": "Fight to change that career politicians answer to their biggest donors and leave the rest of us to fend for ourselves",
+          "snippet": "Instead of leaders who show up for us, we ve got career politicians who answer to their biggest donors and leave the rest of us to fend for ourselves. She will fight to change that."
+        }
+      ],
+      "platform_source_url": "https://katyforkansas.com/",
+      "_platform_resolved_at": "2026-08-12T22:26:58.276Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=vJrxOg6nDhA",
+      "platform_video_title": "Councilmen Joseph Shepard ENDORSES Katy Tyndell for Congress! #shorts",
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": "2026-08-23T12:00:34.200Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Katy Jackman Tyndell is an attorney, business owner, and Kansan whose family roots in this state run back five generations. She grew up in a tiny ranching and farming town where everyone took responsibility, worked hard, and looked out for each other. It was this upbringing that instilled a work ethic and grit that have shaped every chapter of Katy’s life. After earning her law degree, Katy was hired as staff attorney for the National Congress of American Indians — where she fought to give voice to those too often overlooked.",
+        "source_url": "https://katyforkansas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:46.887Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:34.200Z",
+      "platform_video_tier": 2
+    }
+  ]
+}

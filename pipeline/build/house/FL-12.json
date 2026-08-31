@@ -1,0 +1,985 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-12",
+  "generated_at": "2026-08-21T12:18:05.181Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_12th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Gus M. Bilirakis, Kimberly Overman, and Branden Scrivener are running in the general election for U.S. House Florida District 12 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "gus-bilirakis",
+      "full_name": "BILIRAKIS, GUS M",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6FL09070",
+      "fec_status": "C",
+      "bioguide_id": "B001257",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1588537.71,
+        "totalSpent": 1155884.74,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7612.45,
+          "largeDollar": 651309.34,
+          "pac": 828700.01,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1963-02-08",
+          "source_url": "https://www.wikidata.org/wiki/Q1555314",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Gainesville, Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q1555314",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "St. Petersburg College",
+          "source_url": "https://www.wikidata.org/wiki/Q1555314",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Tarpon Springs High School",
+          "source_url": "https://en.wikipedia.org/wiki/Gus_Bilirakis",
+          "snippet": "Bilirakis graduated from Tarpon Springs High School",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Eva Lialios in 1991",
+          "source_url": "https://en.wikipedia.org/wiki/Gus_Bilirakis",
+          "snippet": "Spouse Eva Lialios ​ ( married&lt;/span>\"}]]}'>m. 1991 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Intern for U.S. President Ronald Reagan, operated a law practice (the Bilirakis Law Group) specializing in probate and estate planning which he took over from his father",
+          "source_url": "https://en.wikipedia.org/wiki/Gus_Bilirakis",
+          "snippet": "He was an intern for U.S. President Ronald Reagan . [ 3 ] Career [ edit ] Bilirakis operated a law practice, the Bilirakis Law Group, specializing in probate and estate planning , which he took over from his father, Michael Bilirakis.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Eastern Orthodox Christian",
+          "source_url": "https://en.wikipedia.org/wiki/Gus_Bilirakis",
+          "snippet": "Bilirakis has four children [ 32 ] and is an Eastern Orthodox Christian.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Property Insurance",
+          "value": "Taking on skyrocketing homeowners insurance with the Homeowners Premium Tax Reduction Act, up to a $10,000 above-the-line deduction.",
+          "snippet": "Taking on skyrocketing homeowners insurance with the Homeowners Premium Tax Reduction Act, up to a $10,000 above-the-line deduction."
+        },
+        {
+          "topic": "Affordable Housing",
+          "value": "Fighting for affordable housing so families can afford to stay in the homes and neighborhoods they love.",
+          "snippet": "Fighting for affordable housing so families can afford to stay in the homes and neighborhoods they love."
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "No tax on tips. No tax on overtime. Co-sponsored legislation to eliminate taxes on Social Security.",
+          "snippet": "No tax on tips. No tax on overtime. Co-sponsored legislation to eliminate taxes on Social Security."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Securing the southern border to choke off cartels driving fentanyl into our communities.",
+          "snippet": "Securing the southern border to choke off cartels driving fentanyl into our communities."
+        },
+        {
+          "topic": "Telehealth for Seniors",
+          "value": "EASE Act, extending telehealth access for seniors.",
+          "snippet": "EASE Act, extending telehealth access for seniors."
+        },
+        {
+          "topic": "School Safety",
+          "value": "Working to empower parents with greater tools to keep kids safe online.",
+          "snippet": "Working to empower parents with greater tools to keep kids safe online."
+        },
+        {
+          "topic": "Child Protection",
+          "value": "The Take It Down Act, signed into law, going after predators using AI to victimize kids.",
+          "snippet": "The Take It Down Act, signed into law, going after predators using AI to victimize kids."
+        }
+      ],
+      "platform_source_url": "https://www.bilirakisforcongress.com/",
+      "_platform_resolved_at": "2026-08-20T15:35:30.876Z",
+      "campaign_site_url": "https://www.bilirakisforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Gus Bilirakis is a husband, father, attorney, and son with deep roots to this community. He grew up in the Tampa Bay area, watched his father Mike serve this same community in Congress, and has served the people of this region by quietly building one of the most effective records in the U.S. House. As a senior member of the Energy & Commerce Committee and a veteran legislator with deep relationships across the aisle, Gus has built a record measured by bills passed and dollars delivered, not cable-TV hits.",
+        "source_url": "https://www.bilirakisforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:08:56.540Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116162.pdf",
+        "filingDate": "5/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:35:58.259Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 280,
+          "attendanceRate": 0.9893992932862191
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 301,
+        "bills_cosponsored": 3070,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "Congenital Heart Futures Reauthorization Act of 2024",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7189",
+            "publicLawNumber": "118-107",
+            "summary": "Congenital Heart Futures Reauthorization Act of 2024 This act reauthorizes through FY2029 the National Congenital Heart Disease Research, Surveillance, and Awareness Program, which is administered by the Centers for Disease Control and Prevention. The program supports data collection, educational campaigns, and other efforts to better understand the causes and effects of congenital heart disease across various demographics. The act also requires the Department of Health and Human Services to (1) report on the awareness campaign and its efforts to support the health care workforce with respect to treating congenital&nbsp;heart disease, and (2)&nbsp;develop a strategy to improve these efforts.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ107"
+          },
+          {
+            "title": "Dr. Emmanuel Bilirakis and Honorable Jennifer Wexton National Plan to End Parkinson’s Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "2365",
+            "publicLawNumber": "118-66",
+            "summary": "Dr. Emmanuel Bilirakis and Honorable Jennifer Wexton National Plan to End Parkinson's Act This act requires the Department of Health and Human Services (HHS) to carry out a project to address Parkinson's disease (a progressive brain disorder that causes unintended or uncontrollable movements) and related conditions. Among other components of the project, HHS must (1) implement and periodically update a national plan to coordinate and guide efforts to prevent, diagnose, treat, and cure the disease; and (2) improve the care of those with the disease. HHS must also annually assess the preparations for and response to the increased burden of Parkinson's disease. In addition, the act establishes a council, comprised of federal and nonfederal stakeholders, to advise HHS on and make recommendations concerning the prevention and treatment of Parkinson's disease. The provisions of the act terminate at the end of calendar year 2035.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ66"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 207 East Fort Dade Avenue in Brooksville, Florida, as the \"Specialist Justin Dean Coleman Memorial Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "1823",
+            "publicLawNumber": "118-212",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 207 East Fort Dade Avenue in Brooksville, Florida, as the Specialist Justin Dean Coleman Memorial Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ212"
+          },
+          {
+            "title": "Ryan Kules and Paul Benne Specially Adaptive Housing Improvement Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "3504",
+            "publicLawNumber": "116-154",
+            "summary": "Ryan Kules and Paul Benne Specially Adaptive Housing Improvement Act of 2019 This bill revises the Department of Veterans Affairs (VA) Specially Adapted Housing Program and updates provisions related to educational assistance and the work-study allowance for veterans. The Specially Adapted Housing Program provides grants to veterans and service members with certain service-connected disabilities to assist with constructing, purchasing, or remodeling homes to fit their needs. The program is comprised of two grants (1) the Specially Adapted Housing grant (for acquisition of housing with special features), and (2) the Special Housing Adaptation grant (for adaptations to a veteran's residence). Specifically, the bill updates the eligibility for the program by including veterans with certain visual impairments and requiring those with the loss or loss of use of a lower extremity to meet other qualifications. The bill raises the cap on grants that may be issued per veteran from three to six and raises the number of applications that may be approved for the Specially Adapted Housing grant from 30 to 120. The bill increases the maximum amount of assistance available under the Special Housing Adaptation grant program and also increases the aggregate amount of assistance available under both grant programs. The bill also authorizes certain veterans to apply for additional assistance under both grants, subject to specified limitations. Under the bill, individuals who are entitled to educational assistance through the Post-9/11 GI Bill are also entitled to payment for a covered preparatory course for licensure, certification, or national tests. The bill updates provisions related to the work-study allowance benefit available to eligible veterans, including by prescribing the annual amount the VA must provide to educational institutions for the program. Finally, the bill modifies the loan fee table under the VA's home loan guaranty program.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ154"
+          },
+          {
+            "title": "Improving Transparency of Education Opportunities for Veterans Act of 2012",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "4057",
+            "publicLawNumber": "112-249",
+            "summary": "(This measure has not been amended since it was passed by the Senate on December 19, 2012. The summary of that version is repeated here.) Directs the Secretary of Veterans Affairs (VA) to develop a comprehensive policy to improve outreach and transparency to veterans and members of the Armed Forces (members) through the provision of information on institutions of higher learning. Requires such information to: (1) include accreditation information and a description of available federal aid programs, and (2) be provided through hyperlinks on the VA website. Requires the Secretary, in developing the policy, to conduct a market survey to determine the availability of a commercially available off-the-shelf online tool that: (1) allows veterans to determine whether they are academically ready to engage in postsecondary education and training opportunities, and (2) provides a list of providers of such opportunities. Directs the Secretary to report to the congressional veterans and education committees on: (1) the policy developed, (2) a plan to implement the policy, and (3) survey results. Prohibits the Secretary from approving an educational institution that provides any commission, bonus, or other incentive payment based on success in securing enrollments. Directs the Secretary to ensure that the VA provides assistance to personnel of educational institutions who are charged with submitting reports or certifications to the VA. Prohibits the Secretary from paying more than $395 million in VA employee incentive awards or performance bonuses during FY2013.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ249"
+          },
+          {
+            "title": "Congenital Heart Futures Reauthorization Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "1222",
+            "publicLawNumber": "115-342",
+            "summary": "Congenital Heart Futures Reauthorization Act of 2017 (Sec. 2) This bill amends the Public Health Service Act to replace the authorization for a National Congenital Heart Disease Surveillance System with a requirement for the Department of Health and Human Services (HHS) to enhance and expand congenital heart disease research, surveillance, and awareness. (Congenital heart disease is a condition caused by a heart defect that is present at birth.) HHS must award grants to nonprofit entities to conduct a study of congenital heart disease among all ages, including prevalence, health care utilization, and demographic factors. Collected information must be made available to the public. (Sec. 3) HHS must report on research and other activities conducted regarding congenital heart disease.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ342"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 4122 Madison Street, Elfers, Florida, as the \"Private First Class Felton Roger Fussell Memorial Post Office\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "3953",
+            "publicLawNumber": "114-203",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 4122 Madison Street, Elfers, Florida, as the &quot;Private First Class Felton Roger Fussell Memorial Post Office.&quot;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ203"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.423,
+          "nominateDim2": -0.03,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001257"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 94.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001257"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "kimberly-overman",
+      "full_name": "OVERMAN, KIMBERLY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL15200",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 186812.6,
+        "totalSpent": 181906.28,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 76617.25,
+          "largeDollar": 95342.05,
+          "pac": 852.26,
+          "party": 0,
+          "selfFunded": 14001.04
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "decades of public service, small business experience",
+          "source_url": "https://kimberlyoverman.com/issues/",
+          "snippet": "Her approach is grounded in decades of public service, small business experience, and the realities of working-class life—from raising a family to navigating housing insecurity.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare Access",
+          "value": "She will work to expand access to care, lower prescription costs, and defend reproductive rights and mental health services.",
+          "snippet": "Kimberly will work to expand access to care, lower prescription costs, and defend reproductive rights and mental health services."
+        },
+        {
+          "topic": "Education & Opportunity",
+          "value": "She will fight for fully funded public schools, better teacher pay, and pathways to college, trade careers, and lifelong learning.",
+          "snippet": "Kimberly will fight for fully funded public schools, better teacher pay, and pathways to college, trade careers, and lifelong learning."
+        },
+        {
+          "topic": "Democracy & Representation",
+          "value": "She is committed to protecting voting rights, restoring trust in government, and making sure everyday people—not lobbyists—have a seat at the table.",
+          "snippet": "Kimberly is committed to protecting voting rights, restoring trust in government, and making sure everyday people—not lobbyists—have a seat at the table."
+        },
+        {
+          "topic": "Public Safety & Justice",
+          "value": "She supports balanced public safety policies that combine law enforcement with prevention, youth programs, and mental health care.",
+          "snippet": "Kimberly supports balanced public safety policies that combine law enforcement with prevention, youth programs, and mental health care."
+        }
+      ],
+      "platform_source_url": "https://kimberlyoverman.com/",
+      "_platform_resolved_at": "2026-08-20T15:35:41.685Z",
+      "campaign_site_url": "https://kimberlyoverman.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Kimberly Overman is a mom, grandmother, small business owner, and former Hillsborough County Commissioner running for Congress in Florida’s 12th District. A champion for working families and a proven leader during times of crisis, Kimberly brings both lived experience and a track record of results. From affordable housing to public health, she has always fought to make government work for the people—not special interests.",
+        "source_url": "https://kimberlyoverman.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:00.505Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079855.pdf",
+        "filingDate": "5/29/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:36:01.792Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "branden-scrivener",
+      "full_name": "SCRIVENER, BRANDEN",
+      "party": "NO PARTY AFFILIATION",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL12231",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 7975,
+        "totalSpent": 7722.09,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 125,
+          "largeDollar": 950,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 6900
+        }
+      },
+      "bio": {
+        "employment_record": null
+      },
+      "platform": [
+        {
+          "topic": "Term Limits",
+          "value": "All political offices need strict term limits. 8 years is sufficient for the House.",
+          "snippet": "All political offices need strict term limits. I believe 8 years is sufficient for the House."
+        },
+        {
+          "topic": "Congressional Size",
+          "value": "Congress needs to be uncapped to meet the growing population and create equal representation.",
+          "snippet": "Congress needs to be uncapped to meet the growing population and create equal representation."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Campaign Finance law needs to be reworked to prevent unlimited corporate spending, and create clear transparency & accountability.",
+          "snippet": "Campaign Finance law needs to be reworked to prevent unlimited corporate spending, and create clear transparency & accountability."
+        },
+        {
+          "topic": "Open Primaries",
+          "value": "Advocate for open primaries to allow all voters to participate in the election process.",
+          "snippet": "I will advocate for open primaries to allow all voters to participate in the election process."
+        },
+        {
+          "topic": "Public Education Funding",
+          "value": "Funding for public education should not be diverted to Charter and other 3rd party school programs.",
+          "snippet": "Funding for public education should not be diverted to these programs."
+        },
+        {
+          "topic": "Data Privacy",
+          "value": "Your data should be protected and required to be accessed by the government with the use of a warrant. They should not be able to buy your consumer data on the market.",
+          "snippet": "Your data should be protected and required to be accessed by the government with the use of a warrant. They should not be able to buy your consumer data on the market to create their own lists and data."
+        },
+        {
+          "topic": "Development and AI Data Centers",
+          "value": "No AI data centers paid for by Floridians.",
+          "snippet": "No AI data centers paid for by Floridians."
+        },
+        {
+          "topic": "Public Transportation",
+          "value": "Expand public transportation to reduce traffic and provide an alternative to the expensive auto insurance industry.",
+          "snippet": "We need to expand public transportation to reduce traffic and provide an alternative to the expensive auto insurance industry."
+        }
+      ],
+      "platform_source_url": "https://brandenscrivenerfl.info/",
+      "_platform_resolved_at": "2026-08-20T15:35:48.401Z",
+      "campaign_site_url": "https://brandenscrivenerfl.info",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "My name is Branden Scrivener, I’m a 27-year-old working class father of two. I have a bachelor’s in human services, along with internship experiences at Catholic Charities, Tampa Crossroads, Department of Child Services, and Flagler Education Foundation. I’ve also worked in healthcare for over three years. One of the main duties in my role is to secure insurance authorizations for patients. My experience has led me to work with a diverse group of people which has shown me firsthand our broken insurance system.",
+        "source_url": "https://brandenscrivenerfl.info/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:04.778Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075717.pdf",
+        "filingDate": "4/15/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:36:05.076Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

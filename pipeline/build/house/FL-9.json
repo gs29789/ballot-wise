@@ -1,0 +1,829 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-21T12:16:54.599Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://www.wqcs.org/wqcs-news/2026-08-19/indian-river-county-primary-results-congressional-county-and-school-board-races-decided",
+    "snippet": "In the Republican primary for U.S. House District 9, Dan Green won with 25.4% of the vote, edging Ben Butler, who received 24.4%. ... Green will face Democratic incumbent Darren Soto of Kissimmee in the Nov. 4 general election. (Corroborated by Florida Politics' headline \"Dan Green emerges as GOP nominee who will face Darren Soto in CD 9\"; not yet reflected in Ballotpedia's own general-election candidate box as of 2026-08-20, recommend a follow-up check.)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "dan-green",
+      "full_name": "GREEN, DAN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL09294",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1298516,
+        "totalSpent": 935272.55,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 5427,
+          "largeDollar": 144589,
+          "pac": 8500,
+          "party": 0,
+          "selfFunded": 1140000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Dan was working in the Pentagon on September 11th. Dan joined the United States Navy, where he completed four tours throughout the Middle East and Central Asia. He also completed a civilian tour of duty to southern Afghanistan with the U.S. Department of State. Dan has earned the rank of Commander and has been selected for promotion to Captain. While serving in Afghanistan and Iraq, Dan was attached to two SEAL Team deployments, including in Fallujah and southern Afghanistan; he also served in Baghdad and Kabul.",
+          "source_url": "https://dangreenfl.com/",
+          "snippet": "Dan was working in the Pentagon on September 11th and experienced the devastating attack firsthand. The attack on our nation greatly impacted Dan and strengthened his resolve to serve his country. Dan joined the United States Navy, where he completed four tours throughout the Middle East and Central Asia. He also completed a civilian tour of duty to southern Afghanistan with the U.S. Department of State. Dan has earned the rank of Commander and has been selected for promotion to Captain. While serving in Afghanistan and Iraq, Dan was attached to two SEAL Team deployments, including in Fallujah and southern Afghanistan; he also served in Baghdad and Kabul.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability/Cost of Living",
+          "value": "Will fight to make America affordable again because when groceries and gas prices are too high, Florida's families, farmers and small business owners suffer",
+          "snippet": "In Congress, I will fight to make America affordable again, because when groceries and gas prices are too high, Florida's families, farmers and small business owners suffer."
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Will work to safeguard Constitutional rights on day one",
+          "snippet": "That's why Dan will work to safeguard our Constitutional rights on day one."
+        },
+        {
+          "topic": "Military/National Defense",
+          "value": "Will work with President Trump to ensure our military remains funded and fit for action",
+          "snippet": "Dan will work with President Trump to ensure our military remains funded and fit for action."
+        },
+        {
+          "topic": "Development in Florida",
+          "value": "Will find real solutions to overdevelopment in Florida to protect our way of life",
+          "snippet": "Dan is here to find real solutions to overdevelopment in Florida to protect our way of life."
+        },
+        {
+          "topic": "Property Insurance",
+          "value": "Ready to take homeowners' fight against rising insurance rates to Washington to make Florida affordable again",
+          "snippet": "Dan Green stands with our homeowners and is ready to take their fight to Washington. Together we can make Florida affordable again."
+        },
+        {
+          "topic": "Fuel and Grocery Costs",
+          "value": "Will do everything necessary to lower fuel costs, groceries, and the ever rising cost of living",
+          "snippet": "Dan Green and President Trump will do everything necessary to lower fuel costs, groceries, and the ever rising cost of living."
+        },
+        {
+          "topic": "Housing Affordability",
+          "value": "Will use time-tested conservative values to lower housing costs and keep them low",
+          "snippet": "Dan will use time-tested conservative values to lower housing costs and keep them low!"
+        }
+      ],
+      "platform_source_url": "https://dangreenfl.com/",
+      "_platform_resolved_at": "2026-08-20T15:34:45.202Z",
+      "campaign_site_url": "https://dangreenfl.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=SE-NWB7kajM",
+      "platform_video_title": "Dan Green Reel 2026",
+      "platform_video_source_url": "https://dangreenfl.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:34:46.661Z",
+      "bio_summary": {
+        "value": "Dan was working in the Pentagon on September 11th and experienced the devastating attack firsthand. The attack on our nation greatly impacted Dan and strengthened his resolve to serve his country. Dan joined the United States Navy, where he completed four tours throughout the Middle East and Central Asia. He also completed a civilian tour of duty to southern Afghanistan with the U.S. Department of State. Dan has earned the rank of Commander and has been selected for promotion to Captain.",
+        "source_url": "https://dangreenfl.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:08:49.330Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116227.pdf",
+        "filingDate": "7/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:34:50.827Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "darren-soto",
+      "full_name": "SOTO, DARREN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6FL09179",
+      "fec_status": "C",
+      "bioguide_id": "S001200",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2157833.96,
+        "totalSpent": 984597.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 14844.38,
+          "largeDollar": 751537.34,
+          "pac": 1385550,
+          "party": 1493.93,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1978-02-25",
+          "source_url": "https://www.wikidata.org/wiki/Q5225162",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Ringwood, New Jersey",
+          "source_url": "https://www.wikidata.org/wiki/Q5225162",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "George Washington University",
+          "source_url": "https://www.wikidata.org/wiki/Q5225162",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Lakeland Regional High School",
+          "source_url": "https://en.wikipedia.org/wiki/Darren_Soto",
+          "snippet": "He attended Lakeland Regional High School",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "American attorney",
+          "source_url": "https://en.wikipedia.org/wiki/Darren_Soto",
+          "snippet": "Darren Michael Soto ( / ˈ s oʊ t oʊ / SOH -toe ; born February 25, 1978) is an American attorney and politician",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "He became involved with the Young Democrats",
+          "source_url": "https://www.darrensoto.com/",
+          "snippet": "He became involved with the Young Democrats and was elected to the Florida House at the age of 29.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Costs and Tariffs",
+          "value": "Stop tariffs and other policies that are raising grocery, fuel, and housing costs, and hurting local agriculture.",
+          "snippet": "We must stop tariffs and other policies that are raising grocery, fuel, and housing costs, and hurting local agriculture."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Stop Medicaid and ACA cuts causing thousands of Central Florida families to lose their healthcare.",
+          "snippet": "Stop Medicaid and ACA cuts causing thousands of Central Florida families to lose their healthcare."
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Protect Social Security and Medicare.",
+          "snippet": "Protect Social Security and Medicare."
+        },
+        {
+          "topic": "Corruption",
+          "value": "Fight rampant corruption in Washington.",
+          "snippet": "And fight rampant corruption in Washington."
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Combat climate change.",
+          "snippet": "combat climate change"
+        },
+        {
+          "topic": "Environment",
+          "value": "Protect clean air and water.",
+          "snippet": "protect clean air and water"
+        },
+        {
+          "topic": "Technology and Innovation",
+          "value": "Boost American technology and innovation.",
+          "snippet": "boost American technology and innovation"
+        },
+        {
+          "topic": "Consumer Protection",
+          "value": "Protect consumers.",
+          "snippet": "and protect consumers"
+        }
+      ],
+      "platform_source_url": "https://www.darrensoto.com/",
+      "_platform_resolved_at": "2026-08-20T15:34:38.345Z",
+      "campaign_site_url": "https://www.darrensoto.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=Xz7BKFjiN1M",
+      "platform_video_title": "My Parents",
+      "platform_video_source_url": "https://www.darrensoto.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:34:39.879Z",
+      "bio_summary": {
+        "value": "Darren Michael Soto ( / ˈ s oʊ t oʊ / SOH -toe ; born February 25, 1978) is an American attorney and politician serving as the U.S. representative for Florida 's 9th congressional district since 2017. A member of the Democratic Party , he previously represented the 49th district in the Florida House of Representatives from 2007 to 2012 and the 14th district in the Florida Senate from 2012 to 2016, representing parts of Central Florida . Early life and education [ edit ] Soto was born in Ringwood, New Jersey , to a Puerto Rican father, O. Lou Soto, and an Italian-American mother, Jean Soto. He attended Lakeland Regional High School , and then got his Bachelor of Arts degree from Rutgers University and his Juris Doctor from George Washington University . [ 1 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Darren_Soto",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:28:11.569Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10079929.pdf",
+        "filingDate": "6/2/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:34:54.018Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 154,
+        "bills_cosponsored": 3603,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "To designate the National Pulse Memorial located at 1912 South Orange Avenue, Orlando, Florida, 32806, and for other purposes.",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "49",
+            "publicLawNumber": "117-20",
+            "summary": "This bill redesignates the Pulse Memorial located at 1912 South Orange Avenue in Orlando, Florida, as the National Pulse Memorial.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ20"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 1401 1st Street North in Winter Haven, Florida, as the \"Althea Margaret Daily Mills Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "2969",
+            "publicLawNumber": "116-229",
+            "summary": "Designates the facility of the United States Postal Service located at 1401 1st Street North in Winter Haven, Florida, as the \"Althea Margaret Daily Mills Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ229"
+          },
+          {
+            "title": "To make technical amendments to certain marine fish conservation statutes, and for other purposes.",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "4528",
+            "publicLawNumber": "115-228",
+            "summary": "(Sec. 1) This bill amends the Billfish Conservation Act of 2012 to limit the sale of billfish caught by U.S. fishing vessels. Under current law, billfish that are caught by U.S. vessels and landed (unloaded onshore) in Hawaii or Pacific Insular Areas (American Samoa, Baker Island, Guam, Howland Island, Jarvis Island, Johnston Atoll, Kingman Reef, Midway Island, the Northern Mariana Islands, Palmyra Atoll, and Wake Island) may be sold and exported to non-U.S. markets or transported to other U.S. markets. This bill requires billfish caught by U.S. vessels and landed in Hawaii or Pacific Insular Areas to be retained for sale in those areas.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ228"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 1415 West Oak Street, in Kissimmee, Florida, as the \"Borinqueneers Post Office Building\".",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "4042",
+            "publicLawNumber": "115-154",
+            "summary": "Designates the facility of the United States Postal Service located at 1415 West Oak Street, in Kissimmee, Florida, as the \"Borinqueneers Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ154"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.339,
+          "nominateDim2": 0.229,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001200"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 60.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001200"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

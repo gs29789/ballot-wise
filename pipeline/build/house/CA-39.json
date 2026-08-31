@@ -1,0 +1,309 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-39",
+  "generated_at": "2026-08-18T20:06:27.047Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_39th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Mark Takano and Steve Manos are running in the general election for U.S. House California District 39 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "steve-manos",
+      "full_name": "MANOS, STEVE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA39145",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "marital_status": {
+          "value": "Married since 1999",
+          "source_url": "https://www.manosforcongress.com/",
+          "snippet": "Married since 1999",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Business owner since 1996",
+          "source_url": "https://www.manosforcongress.com/",
+          "snippet": "Business owner since 1996",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "Past President, Inland Valleys Association of Realtors; Former Sector Commander, Lake Elsinore Citizens Emergency Response Team; Elected to City Council in 2012; Served as Mayor in 2015, 2019, 2024, & 2026; Director, Riverside County Habitat Conservation Authority; Director, Southern California Assoc. of Governments; Director, League of California Cities; President, Riverside County Division LOCC; Chair, Southwest Riverside Energy Authority; Former Director, Riverside Transit Authority",
+          "source_url": "https://www.manosforcongress.com/",
+          "snippet": "Past President, Inland Valleys Association of Realtors Former Sector Commander, Lake Elsinore Citizens Emergency Response Team Elected to City Council in 2012 Served as Mayor in 2015, 2019, 2024, & 2026 Director, Riverside County Habitat Conservation Authority Director, Southern California Assoc. of Governments Director, League of California Cities President, Riverside County Division LOCC Chair, Southwest Riverside Energy Authority Former Director, Riverside Transit Authority",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "mark-takano",
+      "full_name": "TAKANO, MARK",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2CA43245",
+      "fec_status": "C",
+      "bioguide_id": "T000472",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 893848.27,
+        "totalSpent": 976794.27,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 107175.71,
+          "largeDollar": 370814.12,
+          "pac": 404800,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1960-12-10",
+          "source_url": "https://www.wikidata.org/wiki/Q399593",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Riverside, California",
+          "source_url": "https://www.wikidata.org/wiki/Q399593",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "La Sierra High School",
+          "source_url": "https://www.wikidata.org/wiki/Q399593",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "La Sierra High School, Riverside, California, graduated 1979",
+          "source_url": "https://history.house.gov/People/Listing/T/TAKANO,-Mark-(T000472)/",
+          "snippet": "graduated from La Sierra High School, Riverside, Calif., 1979",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "teacher; member of the Riverside Community College district board of trustees, 1990-2012, president, 1992, 1997, 1998, 2005, 2006",
+          "source_url": "https://history.house.gov/People/Listing/T/TAKANO,-Mark-(T000472)/",
+          "snippet": "teacher; member of the Riverside Community College district board of trustees, 1990-2012, president, 1992, 1997, 1998, 2005, 2006",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "elected to the Riverside Community College Board of Trustees in 1990",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_Takano",
+          "snippet": "In 1990 he was elected to the Riverside Community College Board of Trustees.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076332.pdf",
+        "filingDate": "5/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T14:54:45.724Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Veterans' Affairs",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Workforce Protections",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 229,
+        "bills_cosponsored": 3892,
+        "bills_became_law": 6,
+        "enacted_laws": [
+          {
+            "title": "Korean American VALOR Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "366",
+            "publicLawNumber": "118-20",
+            "summary": "Korean American Vietnam Allies Long Overdue for Relief Act or the Korean American VALOR Act This act expands eligibility for specified Department of Veterans Affairs (VA) benefits (e.g., medical and dental care) to certain veterans of the armed forces of South Korea who served in Vietnam between January 9, 1962, and May 7, 1975, or during a time period determined by the VA. The act authorizes the VA to furnish such benefits under an existing law, which requires (1) a request by South Korea, and (2) a reciprocity agreement that provides for reimbursement of expenses incurred by the VA for the provision of care.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ20"
+          },
+          {
+            "title": "Veterans COMPACT Act of 2020",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "8247",
+            "publicLawNumber": "116-214",
+            "summary": "Veterans Comprehensive Prevention, Access to Care, and Treatment Act of 2020 or the Veterans COMPACT Act of 2020 This bill implements programs, policies, and reports related to Department of Veterans Affairs (VA) transition assistance, suicide care, mental health education and treatment, health care, and women veteran care. (Sec. 101) This section requires the VA to carry out a two-year pilot program on information sharing between the VA and designated persons regarding the assistance and benefits available to veterans. (Sec. 102) The VA must annually report (for a period of five years) on its Solid Start program, which is an outreach program for those in their first year of separation from the military. The report must exclude any personally identifiable information regarding a veteran. (Sec. 201) The VA must furnish or pay for emergent suicide care, including transportation costs, at a VA or non-VA facility for certain veterans. The bill requires the VA to ensure certain notification procedures occur in relation to veterans receiving emergent suicide care. The VA must determine the eligibility of individuals receiving emergent suicide care for other VA programs and benefits. Additionally, the VA must make referrals, as appropriate, for care following the period of emergent suicide care. (Sec. 202) The VA must establish a four-year education program for the education and training of caregivers and family members of veterans with mental health disorders. (Sec. 203) This section requires the VA to establish the Task Force on Outdoor Recreation for Veterans to report on and make recommendations regarding the use of public lands or other outdoor spaces for medical treatment and therapy for veterans. (Sec. 204) The VA must seek to contact covered veterans to encourage them to receive comprehensive physical, mental health, eye, and audiological examinations. A covered veteran is a veteran who is enrolled in the VA health care system and has not received health care furnished or paid for by the VA in the past two years. Under the bill, if a covered veteran elects to receive more than one of the comprehensive examinations at a VA health care facility, the VA shall seek to furnish all such examinations on the same day. A covered veteran may also receive an examination from another specified health care provider. The bill provides that the VA may pay for a rural covered veteran to travel to a health care facility to receive a comprehensive examination. The VA shall seek to enter into agreements with nonprofit organizations to provide shuttle service to rural covered veterans for such examinations. (Sec. 205) The VA must provide its police officers with annual training on the prevention of suicide among the population it serves. Each police force of a VA facility must develop a plan to enter into partnerships with local community mental health organizations and experts, local community veterans organizations, local community criminal justice organizations and experts, and local police departments. (Sec. 301) The VA must complete an analysis and report on its programs that provide assistance to women veterans who are homeless or precariously housed to identify the areas in which such programs are failing to meet the needs of such women. (Sec. 302) The VA must annually report on the use of VA health care by women veterans.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ214"
+          },
+          {
+            "title": "Student Veteran Coronavirus Response Act of 2020",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "6322",
+            "publicLawNumber": "116-140",
+            "summary": "Student Veteran Coronavirus Response Act of 2020 This bill addresses education programs and assistance for veterans during the covered period from March 1-December 21, 2020. Specifically, the bill authorizes the Department of Veterans Affairs (VA) to continue paying work-study allowances during emergency periods. The VA is also authorized to continue paying educational assistance and subsistence allowances for a specified amount of time for programs of education that are suspended due to an emergency situation. An educational assistance payment shall not be charged against an individual's entitlement to educational assistance if an individual was unable to complete a course or program due to the temporary closure of an educational institution or the temporary termination of a program by reason of an emergency situation. This includes assistance related to training and rehabilitation programs for veterans with service-connected disabilities. The bill extends the time limitation for using educational assistance under the Montgomery GI Bill and the Post-9/11 GI Bill when institutions are closed due to an emergency situation or executive order. The bill also extends the time limitation for participation in a vocational rehabilitation program when such participation is prevented due to an emergency situation or executive order. The bill authorizes the VA to pay a subsistence allowance for two additional months to a veteran following a program of employment services during the covered period for full-time training for the type of program the veteran was pursuing.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ140"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 4150 Chicago Avenue in Riverside, California, as the \"Woodie Rucker-Hughes Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5983",
+            "publicLawNumber": "116-307",
+            "summary": "Designates the facility of the United States Postal Service located at 4150 Chicago Avenue in Riverside, California, as the \"Woodie Rucker-Hughes Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ307"
+          },
+          {
+            "title": "Department of Veterans Affairs Contracting Preference Consistency Act of 2020",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "4920",
+            "publicLawNumber": "116-155",
+            "summary": "Department of Veterans Affairs Contracting Preference Consistency Act of 2020 This bill requires the Department of Veterans Affairs (VA) to give preference to nonprofit firms that employ the blind and significantly disabled when contracting for covered products and services that are included on the procurement list maintained by the U.S. AbilityOne Commission. The commission provides employment opportunities for people who are blind or have significant disabilities. The bill provides an exemption in certain situations for covered products or services for which contracts were awarded after December 22, 2006, and were in effect on the day before the enactment date of this bill. A covered product or service is one that was included on the commission's procurement list on or before December 22, 2006, or a product or service that (1) is a replacement for a product or service on the commission's procurement list, (2) is essentially the same and meets the same requirements as the product or service being replaced, and (3) meets the VA's quality standards and delivery schedule.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ155"
+          },
+          {
+            "title": "Blue Water Navy Vietnam Veterans Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "299",
+            "publicLawNumber": "116-23",
+            "summary": "Blue Water Navy Vietnam Veterans Act of 2019 This bill addresses certain health benefit and home loan programs for veterans. Specifically, the bill extends the presumption of service-connection for certain diseases associated with herbicide (e.g., Agent Orange) exposure to veterans who served (1) offshore of Vietnam between January 9, 1962, and May 7, 1975, or (2) in or near the Korean Demilitarized Zone between September 1, 1967, and August 31, 1971. Under a presumption of service-connection, specific disabilities or diseases diagnosed in certain veterans are presumed to have been caused by the circumstances of their military service. Health care benefits and disability compensation may then be awarded. The bill extends eligibility for health care, vocational training and rehabilitation, and monetary allowance to children with spina bifida who have at least one veteran parent who may have been exposed to an herbicide agent while serving in Thailand between January 9, 1962, and May 7, 1975. The Department of Veterans Affairs (VA) must report on the Follow-up Study of a National Cohort of Gulf War and Gulf War Era Veterans. Additionally, the bill revises the VA home loan guaranty program to adjust loan fee rates and eliminate the limit on the amount of a loan for which the VA may provide a guaranty of 25%. Under current law, these loan guarantees are subject to a limit on loan size determined by Freddie Mac. The bill removes the cap on a direct housing loan amount that may be made to a Native American veteran purchasing a home located on tribal land held in federal trust. The bill also waives loan fees for active duty Purple Heart recipients. The VA shall permit a VA-approved appraiser to make a housing loan appraisal based solely on information gathered by a person with whom the appraiser has entered into an agreement for such services.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ23"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.457,
+          "nominateDim2": -0.339,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/T000472"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 29.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/T000472"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Mark Allan Takano ( / t ə ˈ k ɑː n oʊ / tə- KAH -noh ; born December 10, 1960) is an American politician and academic who has served in the United States House of Representatives since 2013, representing California's 41st congressional district from 2013 to 2023 and the 39th congressional district since 2023. A member of the Democratic Party , Takano became the first gay person of Asian descent in Congress upon taking office. Early life, education, and academic career [ edit ] Takano was born in 1960 in Riverside , California. [ 1 ] His family was relocated and interned from California to a \"War Relocation Camp\" during World War II . [ 2 ] He is Sansei , that is, the grandson of people born in Japan who immigrated to the United States. [ 3 ] He attended La Sierra High School in the Alvord Unified School District , where he graduated as class valedictorian . [ 4 ] In high school, he also participated in the Junior State of America , a national student-run organization centered around debate and civic engagement in young people, and was elected lieutenant governor of the Southern California State. [ 5 ] He graduated from Harvard University with a B.A. in government in 1983 [ 6 ] and from the University of California, Riverside with an MFA in creative writing for the performing arts in 2010. [ 7 ] Takano taught British literature in public schools for 23 years. [ 2 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Mark_Takano",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:33:35.326Z",
+      "platform_video_tier": null,
+      "platform_video_source_type": null
+    }
+  ]
+}

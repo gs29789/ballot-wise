@@ -1,0 +1,779 @@
+{
+  "state": "CO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-18T20:01:36.603Z",
+  "election_dates": {
+    "primaryDate": "2026-06-30",
+    "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Colorado's_1st_Congressional_District_election,_2026",
+    "snippet": "Melat Kiros, Christy Peterson, Chad Humphrey, Shimon Blau, and Critter Milton are running in the general election for U.S. House Colorado District 1 on November 3, 2026. Open seat: incumbent Diana DeGette lost the Democratic primary to Kiros. Humphrey and Milton have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 38.42
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.19
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.78
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 37.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.68
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2966
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2966.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2956
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2953.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2960.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2959.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2961
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2963.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2961.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2942.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2966.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2963.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2963.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2977
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2971.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2973.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2966.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2965.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2979.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2973.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2964.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2969.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2957.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2954.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2946.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2952
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2940.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2947.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2933.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2928.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2922.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2915.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2912.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3857088322.95,
+        "perCapitaUsd": 5166.02
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8818344042.41,
+        "perCapitaUsd": 12058.76
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5210974845.04,
+        "perCapitaUsd": 6979.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5839926
+      },
+      {
+        "year": "2023",
+        "population": 5877610
+      },
+      {
+        "year": "2024",
+        "population": 5957494
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89302
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 92911
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 97113
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "shimon-blau",
+      "full_name": "BLAU, SHIMON",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO01356",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Physician",
+          "source_url": "https://www.ballotready.org/people/shimon-blau",
+          "snippet": "Medical Practice, Physician (Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:21.976Z",
+      "campaign_site_url": "https://blau4congress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:56.517Z",
+      "_campaign_site_reachability": "dead"
+    },
+    {
+      "slug": "melat-kiros",
+      "full_name": "KIROS, MELAT",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO01273",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1091198.14,
+        "totalSpent": 964791.79,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 460977.9,
+          "largeDollar": 581258.77,
+          "pac": 26890.28,
+          "party": 0,
+          "selfFunded": 4953.08
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1997-05-23",
+          "source_url": "https://www.wikidata.org/wiki/Q140389773",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Addis Ababa",
+          "source_url": "https://www.wikidata.org/wiki/Q140389773",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Eaglecrest High School",
+          "source_url": "https://www.wikidata.org/wiki/Q140389773",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Lawyer, PhD Student",
+          "source_url": "https://www.kirosforco.com/",
+          "snippet": "Melat is a: - Lawyer - PhD Student - Democratic Socialist Running for Congress in Colorado CD-1!",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Democratic Socialist",
+          "source_url": "https://www.kirosforco.com/",
+          "snippet": "Melat is a: - Lawyer - PhD Student - Democratic Socialist Running for Congress in Colorado CD-1!",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Eaglecrest High School",
+          "source_url": "https://en.wikipedia.org/wiki/Melat_Kiros",
+          "snippet": "attended Eaglecrest High School",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Gaza/Foreign Policy",
+          "value": "Spoke out against the genocide in Gaza",
+          "snippet": "When I spoke out against the genocide in Gaza, powerful people told me to stay silent or it would cost me my job."
+        },
+        {
+          "topic": "Campaign Financing",
+          "value": "Stands with the people, not corporate PACs or AIPAC",
+          "snippet": "With the people — not corporate PACs or AIPAC."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Supports Medicare for All",
+          "snippet": "Medicare for All"
+        },
+        {
+          "topic": "Housing",
+          "value": "Supports Housing First",
+          "snippet": "Housing First"
+        },
+        {
+          "topic": "Childcare",
+          "value": "Supports Universal Childcare",
+          "snippet": "Universal Childcare"
+        },
+        {
+          "topic": "Foreign Policy/Military Aid",
+          "value": "Supports Arms Embargo",
+          "snippet": "Arms Embargo"
+        }
+      ],
+      "platform_source_url": "https://www.kirosforco.com/",
+      "_platform_resolved_at": "2026-08-12T11:04:28.574Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=-oFk-dSNQl4",
+      "platform_video_title": "Election Party Livestream",
+      "platform_video_source_url": "https://www.kirosforco.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:21.256Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078533.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T11:04:45.932Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Melat is: An immigrant A lawyer A PhD Student A Democratic Socialist The Democratic Nominee for Congress in Colorado CD-1!",
+        "source_url": "https://www.kirosforco.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:01.218Z",
+      "campaign_site_url": "https://www.kirosforco.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:56.510Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "christy-peterson",
+      "full_name": "PETERSON, CHRISTY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO01331",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2056.95,
+        "totalSpent": 354.16,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 712.81,
+          "largeDollar": 1194.14,
+          "pac": 0,
+          "party": 150,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Front Range of Colorado",
+          "source_url": "https://christyforamerica.us/bio/",
+          "snippet": "Born and raised in the beautiful Front Range of Colorado.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Designer and Accountant working in construction",
+          "source_url": "https://christyforamerica.us/bio/",
+          "snippet": "A Designer and Accountant working in construction.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Law Enforcement Funding",
+          "value": "Full 100% funding for police",
+          "snippet": "I back supporting and FULL 100% FUNDING our POLICE."
+        },
+        {
+          "topic": "Sanctuary Cities",
+          "value": "End sanctuary policies; state authorities must cooperate with Federal immigration enforcement and criminal offenders who entered illegally must return to their country",
+          "snippet": "Municipalities that harbor illegal immigrants that broke the law to enter America, are hurting Americans! Those who provide free living housing rentals, clothes, meals, resources etc have spent all their budgets and leave a shortfall on citizens which is not fair. State authorities must cooperate with Federal immigration enforcement. Criminal offenders who have entered illegally must return to their country."
+        },
+        {
+          "topic": "Immigration and Border Security",
+          "value": "Opposes open borders; attributes high costs to undocumented illegal immigration under sanctuary policies",
+          "snippet": "The Democrat Biden administration left open borders which caused the chaos of undocumented illegals in America. Cities under sanctuary policy won t work with Federal Immigration forces. These jurisdictions then assist those who broke laws to enter the country illegally."
+        },
+        {
+          "topic": "Education Curriculum",
+          "value": "Back to basics education including reading, writing, math, science, history, philosophy, gym, sports, agriculture, business training, practical skills, and proper curriculum without indoctrination",
+          "snippet": "Back to the basics reading writing math science history philosophy gym sports farmland training agriculture business training practical skills communication teamwork trades sewing cooking woodwork auto construction hospitality legal wellness education budgeting saving stewardship friendship acceptance kindness."
+        },
+        {
+          "topic": "State Income Tax",
+          "value": "Opposes state personal income tax",
+          "snippet": "No to state personal income tax"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Supports protecting the right to bear arms without infringement",
+          "snippet": "Yes to protecting the 2nd amendment; right to bear arms without infringement"
+        },
+        {
+          "topic": "Government Spending",
+          "value": "Supports conservative fiscal spending: saving more, spending less, creating surplus, and supports DOGE all government spending",
+          "snippet": "Yes to conservative fiscal spending: Saving more, spending less. Create surplus 7.) Yes to protecting the 2nd amendment; right to bear arms without infringement 8.) Yes to revitalizing our US farmlands to support farmers, ranchers and food production here 9.) Yes to DOGE all government spending"
+        },
+        {
+          "topic": "Israel",
+          "value": "Supports protection, defense, and alliance with Israel",
+          "snippet": "Yes to the protection, defense & alliance with Israel"
+        }
+      ],
+      "platform_source_url": "https://christyforamerica.us/platform/",
+      "_platform_resolved_at": "2026-08-12T11:04:41.653Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9115884.pdf",
+        "filingDate": "5/16/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-12T11:04:49.846Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:22.311Z",
+      "bio_summary": {
+        "value": "Christy Peterson, Republican Candidate elect for CD1 Congressional District 1 “Denver”. A Designer and Accountant working in construction. Born and raised in the beautiful Front Range of Colorado. I’m running to join my US Congress to stand up against the progressive left and communist socialism. I’m a Conservative that believes in our God-given American freedoms.",
+        "source_url": "https://christyforamerica.us/bio/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:10.593Z",
+      "campaign_site_url": "https://christyforamerica.us",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:56.513Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
