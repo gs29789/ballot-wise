@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-08",
-  "generated_at": "2026-08-16T23:42:29.754Z",
+  "generated_at": "2026-08-31T11:20:51.222Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 722948012.63,
-        "perCapitaUsd": 945.2
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 318073847.04,
-        "perCapitaUsd": 415.86
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459264460.53,
+        "perCapitaUsd": 600.46
       }
     ],
     "population": [
@@ -561,10 +571,9 @@
           "source_type": "llm_extracted_wikipedia"
         },
         "marital_status": {
-          "value": "Married to Joseph Rivet",
-          "source_url": "https://en.wikipedia.org/wiki/Kristen_McDonald_Rivet",
-          "snippet": "Kristen is married to Joseph Rivet , a former politician. [ 1 ] They have six children",
-          "source_type": "llm_extracted_wikipedia"
+          "value": "Married to Joseph Rivet; lives in Bay City with her husband, youngest son Elijah, and their cat Tuck; has six children total (Courtney, Grant, Laken, Madison, Ella, and Elijah).",
+          "source_url": "https://www.kristenmcdonaldrivet.com",
+          "snippet": "Kristen lives in Bay City with her husband Joseph, youngest son Elijah and their cat Tuck. They have five other adult children – Courtney, Grant, Laken, Madison, and Ella."
         },
         "employment_record": {
           "value": "Executive director of Michigan Head Start; worked in the Michigan department of human services; chief of staff for State Superintendent Michael P. Flanagan; vice president of the Skillman Foundation; president and chief executive officer of Greater Midlands Inc.; worked at the Michigan Health Improvement Alliance and Michigan Future Inc.",
@@ -579,9 +588,35 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Serving You in Congress",
+          "value": "Prioritizes lowering the cost of groceries, housing, and prescription drugs, and investing in child care; supports protecting Social Security from privatization, benefit cuts, or a higher retirement age.",
+          "snippet": "Now, Kristen proudly serves Michigan's 8th District in Congress, where her top priority is to help level the playing field for working families. Kristen works with pragmatic leaders from both parties to lower the cost of groceries, housing and prescription drugs, and to invest in child care. She stands by Michigan seniors and protects Social Security from extremists seeking to privatize, reduce benefits, or raise the retirement age. She always stands on the side of people, not special interests.\n"
+        },
+        {
+          "topic": "Jobs, Workforce, and Security",
+          "value": "Supports workforce investment to prepare Michiganders for future jobs, believes good-paying jobs should be available without requiring a college degree, supports domestic manufacturing and taking a firm stance against China, and prioritizes safety, security, and constitutional freedoms.",
+          "snippet": "Michigan needs more high-wage jobs. Kristen is helping us invest in our workforce to prepare Michiganders for the jobs of tomorrow, because while college isn't for everyone, good-paying jobs should be. She fights to make sure that we make things here in Michigan and stand up to China. And she prioritizes our safety, security, and hard-earned freedoms.\n"
+        }
+      ],
+      "platform_source_url": "https://www.kristenmcdonaldrivet.com",
+      "_platform_resolved_at": "2026-08-31T11:18:54.268Z",
+      "campaign_site_url": "https://www.kristenmcdonaldrivet.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:58.454Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=w0XIQxQnGI4",
+      "platform_video_title": "Comes Down To",
+      "platform_video_source_url": "https://www.youtube.com/@KristenforMichigan",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-31T11:18:54.268Z",
+      "bio_summary": {
+        "value": "So after school, Kristen got to work helping families and children have more opportunities to thrive, with particular focus on making childcare more affordable. As the Executive Director of Michigan Head Start, Chief of Staff for Michigan's Department of Education and Vice President of the Skillman Foundation, Kristen worked to make big changes in Michigan to improve child care and education outcomes for children, revitalize communities, increase youth development programs, and create public policy that levels the playing field.\n\nBefore representing our community in Congress, Kristen served in the Michigan State Senate, where she has worked with both Democrats and Republicans to make progress for Michigan families, workers and kids. She successfully led the charge to pass the largest tax cut for working families in Michigan's history, repealed the state's burdensome retirement tax, and has introduced plans to lower critical costs, like prescription drugs, housing, and child care. Kristen has fought to protect abortion rights for women, and, in one of her first acts in the State Senate, passed a commonsense gun violence prevention bill that requires safe storage of firearms around children.\n",
+        "source_url": "https://www.kristenmcdonaldrivet.com",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:39:23.798Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -620,7 +655,7 @@
           }
         ],
         "bills_sponsored": 18,
-        "bills_cosponsored": 338,
+        "bills_cosponsored": 341,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -636,18 +671,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001237"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:27.468Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:10.404Z",
-      "bio_summary": {
-        "value": "Kristen Lee McDonald Rivet [ 1 ] ( / ˈ r ɪ v ɪ t / ; born July 11, 1970) is an American politician who has served as the U.S. representative for Michigan 's 8th congressional district since 2025. A member of the Democratic Party , she previously served in the Michigan Senate for the 35th district , where she was the assistant majority floor leader from 2023 to 2025. Her district, located in Central Michigan , includes Flint and the Tri-Cities metropolitan area of Saginaw , Midland , and Bay City . ",
-        "source_url": "https://en.wikipedia.org/wiki/Kristen_McDonald_Rivet",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:39:23.798Z",
-      "campaign_site_url": "https://www.kristenmcdonaldrivet.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:58.454Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "thomas-smith",
@@ -655,19 +679,19 @@
       "party": "REPUBLICAN PARTY",
       "incumbent": false,
       "fec_candidate_id": "H6MI08312",
-      "fec_status": "N",
+      "fec_status": "C",
       "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 37516.37,
-        "totalSpent": 1022.58,
+        "totalRaised": 243238.47,
+        "totalSpent": 23439.34,
         "cashOnHand": null,
         "fundingSources": {
-          "smallDollar": 0,
-          "largeDollar": 0,
+          "smallDollar": 1385,
+          "largeDollar": 1300,
           "pac": 0,
           "party": 0,
-          "selfFunded": null
+          "selfFunded": 7605
         }
       },
       "bio": {
@@ -685,16 +709,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://tomsmithformi.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:58.482Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:28.006Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:12.971Z",
-      "campaign_site_url": "https://tomsmithformi.com/",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:58.482Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     }
   ]
 }
