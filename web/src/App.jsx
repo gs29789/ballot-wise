@@ -1388,6 +1388,24 @@ function CandidateProfileView({ candidate, race, onBack }) {
         ) : !candidate.platform_video_url ? (
           <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", padding: "9px 4px" }}>No public record found.</div>
         ) : null}
+        {!candidate.platform_video_url && candidate._campaign_site_reachability === "cloudflare_challenge" && (
+          <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
+            <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
+            <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", marginTop: 4 }}>
+              No campaign video on file — their official site blocks automated checks with a bot-verification service, so this
+              couldn't be checked automatically.
+              {candidate.campaign_site_url && (
+                <>
+                  {" "}
+                  <a href={candidate.campaign_site_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
+                    Visit their site directly <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                  </a>{" "}
+                  to look yourself.
+                </>
+              )}
+            </div>
+          </div>
+        )}
         {candidate.platform_video_url && (
           <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
