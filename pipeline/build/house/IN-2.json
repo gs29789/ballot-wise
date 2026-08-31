@@ -1,0 +1,791 @@
+{
+  "state": "IN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-18T20:23:21.792Z",
+  "election_dates": {
+    "primaryDate": "2026-05-05",
+    "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
+    "primarySnippet": "Ind. Code § 3-10-1-3: A primary election shall be held on the first Tuesday after the first Monday in May of each year in which a general election is held.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-2-1/",
+    "generalSnippet": "Ind. Code § 3-10-2-1: A general election shall be held on the first Tuesday after the first Monday in November in each even-numbered year. All offices whose terms will expire before the next general election shall be filled at the election, unless otherwise provided by law."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Indiana's felony-disqualification statute explicitly states it \"does not apply to a candidate for federal office,\" applying only to candidates for state and local elected office who have been convicted of (or pleaded guilty/no contest to) a felony",
+    "source_url": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-8-1-5/",
+    "snippet": "Ind. Code § 3-8-1-5(a): \"This section does not apply to a candidate for federal office.\" (d) A person is disqualified from assuming or being a candidate for an elected office if, in a jury trial, a jury publicly announces a verdict against the person for a felony; in a bench trial, the court publicly announces a verdict against the person for a felony; or at a guilty plea hearing, the person pleads guilty or nolo contendere to a felony."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Indiana's_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Rudy Yakym, Jamee Decio, William Henry, and Eric Beebe are running in the general election for U.S. House Indiana District 2 on November 3, 2026. Beebe's only FEC match is Democratic Party, but Ballotpedia lists him as an Independent general-election candidate, so it's excluded rather than force-matched; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.32
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 26.59
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 28.51
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 25.83
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 20.03
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3261.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3263.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3251
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3241.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3247.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3254
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3270.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3282.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3270.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3265.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3275.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3276.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3271.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3267.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3266.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3269.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3268.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3261.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3262.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3259.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3255.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3256.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3248.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3252
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3247
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3247.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3249.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3244.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3239.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3242.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3240.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3231.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3234.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3232.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3220.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5659036478.11,
+        "perCapitaUsd": 7500.87
+      },
+      {
+        "year": "2024",
+        "totalUsd": 6032935088.83,
+        "perCapitaUsd": 7996.46
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6291070651.89,
+        "perCapitaUsd": 8338.61
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6833037
+      },
+      {
+        "year": "2023",
+        "population": 6862199
+      },
+      {
+        "year": "2024",
+        "population": 6924275
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66785
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69477
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71959
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jamee-decio",
+      "full_name": "DECIO, JAMEE MS.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN02189",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 355589.42,
+        "totalSpent": 251093.03,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15295.5,
+          "largeDollar": 37600,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 302693.92
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "daughter of an Elkhart businessman",
+          "source_url": "https://www.ballotready.org/people/jamee-decio",
+          "snippet": "The daughter of an Elkhart businessman, Jamee understands the need for strong regional industries.",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T15:24:43.459Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:54:19.492Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:57:04.074Z"
+    },
+    {
+      "slug": "william-henry",
+      "full_name": "HENRY, WILLIAM ERIC",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IN02205",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Headbrand, LLC, Senior Consultant (2019 - Present); 1ND3P3ND3NT MU51C5, Musician, Producer, Singer, Songwriter, and Composer (1999 - Present); Covance, Sample Handling Assistant (2020 - 2021); Jeco Plastic Products, Communications Manager (2019 - 2020); The American Legion, Adjutant - Department of Indiana (2014 - 2018); US Army, Public Affairs Specialist (2005 - 2015)",
+          "source_url": "https://www.ballotready.org/people/william-e-henry",
+          "snippet": "Headbrand, LLC, Senior Consultant (2019 - Present) 1ND3P3ND3NT MU51C5, Musician, Producer, Singer, Songwriter, and Composer (1999 - Present) Covance, Sample Handling Assistant (2020 - 2021) Jeco Plastic Products, Communications Manager (2019 - 2020) The American Legion, Adjutant - Department of Indiana (2014 - 2018) US Army, Public Affairs Specialist (2005 - 2015)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes",
+          "value": "Reduce taxes and reform tax law",
+          "snippet": "Reduce taxes and reform tax law"
+        },
+        {
+          "topic": "Federal Spending",
+          "value": "Eliminate wasteful foreign conflict budget spending, reduce federal agency budgets and personnel, and eliminate fraud, waste, and abuse",
+          "snippet": "Eliminate wasteful foreign conflict budget spending &bull; Reduce federal agency budgets and personnel &bull; Eliminate fraud, waste, and abuse"
+        },
+        {
+          "topic": "Border Policy",
+          "value": "Border policy and protections improvements",
+          "snippet": "Border policy and protections improvements"
+        },
+        {
+          "topic": "Privacy and Surveillance",
+          "value": "Eliminate Red Flag and domestic spying laws",
+          "snippet": "Eliminate Red Flag and domestic spying laws"
+        },
+        {
+          "topic": "Foreign Military Operations",
+          "value": "Reduce and end foreign conflict and costly overseas contingency operations and contracts",
+          "snippet": "Reduce and end foreign conflict and costly overseas contingency operations and contracts"
+        },
+        {
+          "topic": "Veterans Healthcare",
+          "value": "Expand community healthcare programs for veterans, and better integrate records, billing, and coding for community healthcare access",
+          "snippet": "Expand community healthcare programs for veterans, and better integrate records, billing, and coding for community healthcare access"
+        },
+        {
+          "topic": "Vaccine Policy",
+          "value": "Demand independent review of the vaccine approval and access to all research data, and remove legal protections for vaccines",
+          "snippet": "Demand independent review of the vaccine approval and access to all research data &bull; Remove legal protections for vaccines"
+        },
+        {
+          "topic": "Cannabis",
+          "value": "End federal cannabis prohibition and expunge all federal cannabis records",
+          "snippet": "End federal cannabis prohibition and expunge all federal cannabis records"
+        }
+      ],
+      "platform_source_url": "https://www.williamhenry.us/issues.html",
+      "_platform_resolved_at": "2026-08-12T19:10:49.679Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "He served in the U.S. Army and the Indiana Army National Guard from 2005 to 2015. As a Soldier, Henry played a pivotal role within the Indiana National Guard Joint Force Headquarters Public Affairs Office, exhibiting his dedication to service during stateside crises like floods, winter storms, and natural disasters. Notably, Henry's service extended beyond domestic borders, encompassing two significant deployments – to Afghanistan from 2009 to 2010 and to Kuwait from 2012 to 2013.",
+        "source_url": "https://www.williamhenry.us/about.html"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:42.455Z",
+      "_tier2_search_attempted_at": "2026-08-22T15:24:43.960Z",
+      "campaign_site_url": "https://www.williamhenry.us",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:04.076Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "rudy-yakym",
+      "full_name": "YAKYM, RUDY C. III",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2IN02295",
+      "fec_status": "C",
+      "bioguide_id": "Y000067",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5246030.32,
+        "totalSpent": 5000296.29,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1170153.68,
+          "largeDollar": 1664353.95,
+          "pac": 1286013.72,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1984-02-24",
+          "source_url": "https://www.wikidata.org/wiki/Q115137719",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Granger, Indiana",
+          "source_url": "https://www.wikidata.org/wiki/Q115137719",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Indiana University South Bend",
+          "source_url": "https://www.wikidata.org/wiki/Q115137719",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Sallyann",
+          "source_url": "https://rudyforindiana.com/about/",
+          "snippet": "Rudy and his wife Sallyann",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "In 2010 and 2011, Yakym worked as a sales manager for Omnicity, a broadband company. In 2011 and 2012, he was the Finance Director for Jackie Walorski 's congressional campaign. From 2013 to 2019, he was a vice president at the Bradley Company, a commercial real estate business. Since 2019, Yakym has been the director of growth initiatives at Kem Krest, a logistics and supply chain organization.",
+          "source_url": "https://en.wikipedia.org/wiki/Rudy_Yakym",
+          "snippet": "In 2010 and 2011, Yakym worked as a sales manager for Omnicity, a broadband company. In 2011 and 2012, he was the Finance Director for Jackie Walorski 's congressional campaign. [ 7 ] From 2013 to 2019, he was a vice president at the Bradley Company, a commercial real estate business. In 2015, then-Governor Mike Pence nominated Yakym to serve as a member of the Indiana Judicial Nominating Commission . [ 8 ] Since 2019, Yakym has been the director of growth initiatives at Kem Krest, a logistics and supply chain organization.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "In 2015, then-Governor Mike Pence nominated Yakym to serve as a member of the Indiana Judicial Nominating Commission. He is a practicing Baptist and serves as the head usher at the New Life Baptist Church in Osceola, Indiana.",
+          "source_url": "https://en.wikipedia.org/wiki/Rudy_Yakym",
+          "snippet": "In 2015, then-Governor Mike Pence nominated Yakym to serve as a member of the Indiana Judicial Nominating Commission . [ 8 ] Since 2019, Yakym has been the director of growth initiatives at Kem Krest, a logistics and supply chain organization. U.S. House of Representatives [ edit ] Election [ edit ] After congresswoman Jackie Walorski died in a car accident in August 2022, Yakym declared his candidacy in Indiana's 2nd congressional district special election to succeed her. He was selected as the Republican nominee by the district's GOP precinct committee members to serve both the remainder of Walorski's term and a full two-year term beginning in January 2023. [ 3 ] Winning the nomination on the first ballot amid a field of 12 candidates, Yakym defeated contenders including former Indiana Attorney General Curtis Hill and state Representatives Curt Nisly and Christy Stutzman . He defeated the Democratic nominee, Goshen teacher Paul Steury, and Libertarian nominee William Henry in the general election [ 9 ] with over 64% of the vote. [ 10 ] Positions [ edit ] In a 2024 interview, Yakym stated that his most important issues were inflation and border security. [ 11 ] Also in 2024, Yakym sent a letter to 136 presidents of colleges regarding their positions on encampments protesting the Gaza war . [ 12 ] Committee assignments [ edit ] For the 119th Congress : [ 13 ] Committee on Ways and Means [ 14 ] Subcommittee on Oversight Subcommittee on Social Security Subcommittee on Work and Welfare Personal life [ edit ] Yakym married his wife, Sallyann Freet, in 2006. [ 15 ] She is a teacher at Elkhart Christian Academy . [ 16 ] They have three children. He is a practicing Baptist and serves as the head usher at the New Life Baptist Church in Osceola, Indiana .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Limited Government",
+          "value": "Commitment to limited government, individual liberty, and fiscal responsibility",
+          "snippet": "I have remained steadfast in my conservative principles and unwavering commitment to limited government, individual liberty, and fiscal responsibility."
+        },
+        {
+          "topic": "Federal vs. State Powers",
+          "value": "Restore the proper balance between federal and state powers, allowing for greater local control and decision-making",
+          "snippet": "We must restore the proper balance between federal and state powers, allowing for greater local control and decision-making."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Government should be accountable, transparent, and focused on its core responsibilities",
+          "snippet": "I firmly believe that government should be accountable, transparent, and focused on its core responsibilities."
+        },
+        {
+          "topic": "Regulatory Reform",
+          "value": "Cut through the red tape, dismantle unnecessary regulations, and streamline government agencies to ensure they operate efficiently and effectively",
+          "snippet": "It is my mission to cut through the red tape, dismantle unnecessary regulations, and streamline government agencies to ensure they operate efficiently and effectively."
+        },
+        {
+          "topic": "America First",
+          "value": "Put America first, restore accountability, and build a stronger, more prosperous future for all Americans",
+          "snippet": "It is time to put America first, restore accountability, and build a stronger, more prosperous future for all Americans."
+        }
+      ],
+      "platform_source_url": "https://rudyforindiana.com/",
+      "_platform_resolved_at": "2026-08-12T19:10:22.544Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Social Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Oversight",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Work and Welfare",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 52,
+        "bills_cosponsored": 544,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.522,
+          "nominateDim2": 0.167,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/Y000067"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 64.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/Y000067"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Rudy Yakym is a fourth-generation Hoosier who is proud to represent the people of Indiana’s Second District. As a Christian, family man and conservative, Rudy is working tirelessly to bring common sense, conservative values to Washington, D.C.",
+        "source_url": "https://rudyforindiana.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:37.064Z",
+      "_tier2_search_attempted_at": "2026-08-22T15:24:44.603Z",
+      "campaign_site_url": "https://rudyforindiana.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:04.075Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

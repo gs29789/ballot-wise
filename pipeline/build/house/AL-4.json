@@ -1,0 +1,310 @@
+{
+  "state": "AL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-18T19:53:40.478Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://www.sos.alabama.gov/sites/default/files/election-2026/AdminCalendar%20-2026.pdf",
+    "primarySnippet": "Alabama Statewide Primary Election - May 19, 2026 / Primary Runoff Election - June 16, 2026 / General Election - November 3, 2026.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
+    "generalSnippet": "The general election will occur as planned with all other races on Tuesday, November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Alabama's felony-disqualification statute (Ala. Code § 36-2-1(a)(3)) applies only to \"office under the authority of this state\" by its own text, not federal office; no separate background-check-disclosure requirement was found in Alabama's candidate qualifying process either; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://web.archive.org/web/2025/https://law.justia.com/codes/alabama/title-36/chapter-2/section-36-2-1/",
+    "snippet": "Section 36-2-1 - Persons Not Eligible to Hold State Office... (a) The following persons shall be ineligible to and disqualified from holding office under the authority of this state: ... (3) Those who shall have been convicted of treason, embezzlement of public funds, malfeasance in office, larceny, bribery or any other crime punishable by imprisonment in the state or federal penitentiary and those who are idiots or insane. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    "snippet": "Robert Aderholt (Incumbent) (Republican Party) Amanda Pusczek (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 32.56
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.23
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 29.82
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 31.46
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.97
+      }
+    ],
+    "nonfarm_employment_thousands": [],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5539776640.45,
+        "perCapitaUsd": 7617.83
+      },
+      {
+        "year": "2024",
+        "totalUsd": 3092720290.7,
+        "perCapitaUsd": 4318.16
+      },
+      {
+        "year": "2025",
+        "totalUsd": 2900263709.49,
+        "perCapitaUsd": 4049.44
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "robert-aderholt",
+      "full_name": "ADERHOLT, ROBERT B. REP.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6AL04098",
+      "fec_status": "C",
+      "bioguide_id": "A000055",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1022664.06,
+        "totalSpent": 1239900.72,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9102.01,
+          "largeDollar": 514721,
+          "pac": 422278.2,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1965-07-22",
+          "source_url": "https://www.wikidata.org/wiki/Q672671",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Haleyville, Alabama",
+          "source_url": "https://www.wikidata.org/wiki/Q672671",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Birmingham–Southern College",
+          "source_url": "https://www.wikidata.org/wiki/Q672671",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - District 4 (1997 - Present); City of Haleyville, Municipal Judge; Governor Fob James, Assistant Legal Advisor",
+          "source_url": "https://www.ballotready.org/people/robert-aderholt",
+          "snippet": "Professional Experience US House of Representatives, Representative -District 4 (1997 - Present) City of Haleyville, Municipal Judge Governor Fob James, Assistant Legal Advisor",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Member of Kappa Alpha Order during college, delegate to the Republican National Convention in 1992, associated with the Fellowship Foundation",
+          "source_url": "https://en.wikipedia.org/wiki/Robert_Aderholt",
+          "snippet": "During college, Aderholt was a member of Kappa Alpha Order . Aderholt received his J.D. from the Samford University Cumberland School of Law and practiced law after graduation. [ 7 ] Career [ edit ] In 1992, Aderholt was appointed Haleyville municipal judge. [ 8 ] The same year, he was a delegate to the Republican National Convention. In 1995, he became the top aide to Governor Fob James . He won the 1996 Republican primary in the race to succeed 15-term Democratic incumbent Tom Bevill . [ 9 ] As the Republican nominee, Aderholt faced a considerable challenge against State Senator Bob Wilson Jr., who called himself a Democrat \"in the Tom Bevill tradition\". This was a seriously contested race, receiving considerable national coverage and significant support from the Republican Party. Newt Gingrich personally visited the district during the campaign. Aderholt won, 50%–48%, becoming only the second Republican to represent the district since Reconstruction. Two years later, he was reelected over Tom Bevill, Jr., his predecessor's son. The first Republican to win the seat had been Jim Martin , who was swept into office in what was then the 7th District during the 1964 wave that delivered the state's electoral votes to Barry Goldwater . After his first win, Aderholt has never faced another contest nearly that close, and has been reelected nine times. He ran unopposed in 2004, 2010, 2014, and 2016. His increasing margins reflected the growing Republican trend in this part of Alabama. Aderholt is associated with the Fellowship Foundation , which paid for his trip to Romania in 2017 to promote \" traditional family values \".",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Abortion",
+          "value": "Staunch pro-lifer",
+          "snippet": "I have always been a staunch pro-lifer"
+        },
+        {
+          "topic": "Religious Freedom",
+          "value": "Proud to champion religious freedom, both at home and around the globe",
+          "snippet": "I'm proud to champion religious freedom, both at home and around the globe."
+        }
+      ],
+      "platform_source_url": "https://aderholtforcongress.org/",
+      "_platform_resolved_at": "2026-08-14T17:16:24.215Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Defense",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Labor, Health and Human Services, Education, and Related Agencies",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 104,
+        "bills_cosponsored": 2302,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "133",
+            "publicLawNumber": "119-46",
+            "summary": "This joint resolution requests the Department of the Interior to authorize the display of U.S. semiquincentennial materials and other significant artifacts, digital content, film footage, and associated audio and imagery in and around the vicinity of the National Mall during the period beginning on December 31, 2025, and ending on January 5, 2026.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ46"
+          },
+          {
+            "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Guntersville, Alabama, as the \"Colonel Ola Lee Mize Department of Veterans Affairs Clinic\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "5464",
+            "publicLawNumber": "118-115",
+            "summary": "This act designates the community-based outpatient clinic of the Department of Veterans Affairs in Guntersville, Alabama, as the Colonel Ola Lee Mize Department of Veterans Affairs Clinic.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ115"
+          },
+          {
+            "title": "American Energy Manufacturing Technical Corrections Act",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "6582",
+            "publicLawNumber": "112-210",
+            "summary": "American Energy Manufacturing Technical Corrections Act - (Sec. 2) Amends the Energy Policy and Conservation Act (EPCA) to exempt a walk-in cooler or walk-in freezer component manufactured on or after January 1, 2009, from the requirement that it contain wall, ceiling, and door insulation of at least R-25 for coolers and R-32 for freezers, if the manufacturer has demonstrated to the Secretary of Energy (DOE) that such component reduces energy consumption at least as much as if such requirement were to apply. (Sec. 3) Amends EPCA to require the Secretary of Energy (DOE) to publish a rule that establishes a uniform efficiency descriptor and accompanying test methods for covered water heaters (water heaters, storage water heaters, instantaneous water heaters, and unfired hot water storage tanks). Declares that the purpose of such rule is to replace with a uniform efficiency descriptor: (1) the energy factor descriptor for water heaters established under such Act; and (2) the thermal efficiency and standby loss descriptors for storage water heaters, instantaneous water heaters, and unfired water storage tanks established under such rule. Requires the efficiency standard for covered water heaters to be denominated according to the efficiency descriptor established by such rule. Requires the Secretary to develop a mathematical conversion factor for converting the measurement of efficiency for such heaters from the test procedures in effect on this Act's enactment to the new energy descriptor established under this Act. Considers a covered water heater to be in compliance with such rule and with any revised labeling requirements established by the Federal Trade Commission (FTC) to implement such rule if the covered water heater: (1) was manufactured prior to the effective date of the rule, and (2) complied with the efficiency standards and labeling requirements in effect prior to the rule. (Sec. 4) Establishes energy efficiency standards for daily energy consumption of service over the counter, self-contained, medium temperature commercial refrigerators. Requires the Secretary to determine whether the standard for such refrigerators should be amended and revise such standard if necessary (Sec. 5) Establishes energy efficiency standards for through-the-wall central air conditioners, through-the-wall central air conditioning heat pumps, and small duct, high velocity systems. Requires the Secretary to: (1) provide notice on whether energy efficiency standards for specified commercial heating and cooling equipment will be amended every six years, (2) evaluate each class of such equipment, (3) provide notice of a decision to grant or deny a petition to amend energy conservation standards, and (4) publish a rule that contains new or amended energy conservation standards every three years. (Sec. 6) Requires the Secretary, as part of the research and development activities of DOE's Industrial Technologies Program, to establish collaborative research and development partnerships with other programs within the Office of Energy Efficiency and Renewable Energy and the Office of Science that: (1) leverage the research and development expertise of such programs to promote early stage energy efficiency technology development; (2) support the use of innovative manufacturing processes and applied research for development, demonstration, and commercialization of new technologies and processes to improve efficiency (including improvements in efficient use of water), reduce emissions, reduce industrial waste, and improve industrial cost-competitiveness; and (3) apply the knowledge and expertise of such Program to achieve the goals of such other programs. Requires the Secretary to report on such partnerships biennially. (Sec. 7) Requires the Secretary to conduct a study and report on: (1) legal, regulatory, and economic barriers to the deployment of industrial energy efficiency in all electricity markets; (2) examples of state and federal policies and private initiatives that resulted in greater use of industrial energy efficiency and cost-effective policies used by foreign countries to foster industrial energy efficiency; (3) estimated economic benefits to the national economy of providing the industrial sector with federal energy efficiency matching grants of $5 billion for 5- and 10-year periods; and (4) estimated energy savings available from increased use of recycled material in energy-intensive manufacturing process. Requires the Secretary, in coordination with the industrial sector and other stakeholders, to develop policy recommendations regarding the deployment of industrial energy efficiency, including proposed regulatory guidance to states and relevant federal agencies to address such barriers. (Sec. 8) Amends the National Energy Conservation Policy Act (NECPA) to require the Secretary to develop and report on best practices for the use of advanced metering of energy use in federal facilities, buildings, and equipment. (Sec. 9) Directs energy managers of federal facilities covered under NECPA to use a web-based tracking system to publish energy and water consumption data on an individual facility basis. (Sec. 10) Requires the Secretary, in determining whether an energy efficiency standard for such equipment is economically justified, to determine whether the benefits exceed the burden of the proposed standard considering specified factors, including: (1) the economic impact on the manufacturers and consumers of the product; (2) the savings in operating costs throughout the estimated average life of the product compared to any increase in the price of, or in the initial charges for, or maintenance expenses of, the product; (3) the total projected quantity of energy savings; (4) any lessening of the utility or the performance of the product; (5) the impact of any lessening of competition; and (6) the need for national energy conservation. Prohibits the Secretary from prescribing any amended standard for such a product: (1) that increases the maximum allowable energy use, or decreases the minimum required energy efficiency, of the product; or (2) if the Secretary finds that interested persons have established that a standard is likely to result in the unavailability in the United States in any product type of performance characteristics that are substantially the same as those generally currently available.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ210"
+          },
+          {
+            "title": "Continuing Appropriations Act, 2012",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "2017",
+            "publicLawNumber": "112-33",
+            "summary": "(This measure has not been amended since it was passed by the Senate on September 26, 2011. The summary of that version is repeated here.) Continuing Appropriations Act, 2012 - Makes continuing appropriations for FY2012. (Sec. 101) Makes appropriations for continuing operations, projects, or activities which were conducted in FY2011 and for which appropriations, funds, or other authority were made available in: (1) the Department of Defense Appropriations Act, 2011 (division A of Public Law 112-10); and (2) the Full-Year Continuing Appropriations Act, 2011 (division B of Public Law 112-10). Reduces the rate for operations by 1.503%. (Sec. 102) Prohibits the use of appropriations, funds, or authority granted under this Act for the Department of Defense (DOD) for: (1) new production of items not funded for production in FY2011 or prior years; (2) the increase in production rates above those sustained with FY2011 funds; or (3) the initiation, resumption, or continuation of any project, activity, operation, or organization for which appropriations, funds, or other authority were not available during FY2011. Bars the use of DOD appropriations, funds, or authority granted under this Act to initiate multi-year procurements utilizing advance procurement funding for economic order quantity procurement unless specifically appropriated later. (Sec. 104) Prohibits the use of appropriations, funds, or authority granted by this Act to initiate or resume any project or activity for which appropriations, funds, or other authority were not available during FY2011. (Sec. 106) Provides funding under this Act until whichever of the following first occurs: (1) enactment of an appropriation for any project or activity provided for in this Act; (2) enactment of the applicable appropriations Act for FY2012 without any provision for such project or activity; or (3) October 4, 2011. (Sec. 111) Continues through October 4, 2011, certain activities for entitlements and other mandatory payments whose budget authority was provided in FY2011 appropriations Acts, and for activities under the Food and Nutrition Act of 2008. Declares that, notwithstanding such date, funds shall be available and obligations for mandatory payments due on or about the first day of any month after October 2011 but within 30 days after October 4, 2011. (Sec. 112) Authorizes apportionment of amounts made available under this Act for federal civilian personnel compensation and benefits up to the rate for operations necessary to avoid furloughs within a department or agency. Prohibits the use of such authority until after the department or agency has taken all necessary actions to reduce or defer non-personnel-related administrative expenses. (Sec. 114) Designates specified funds for Overseas Contingency Operations/Global War on Terrorism, but only if the President subsequently makes such a designation and notifies Congress. Exempts from such requirement amounts for the Department of Justice (DOJ), Federal Bureau of Investigation (FBI) for salaries and expenses. (Sec. 115) Requires discretionary amounts appropriated for FY2012 provided in advance by appropriations Acts to be available in the amounts provided in such Acts, reduced by 1.503%. (Sec. 116) Authorizes the Secretary of Defense to use through October 4, 2011, certain amounts for operations and activities of the Office of Security Cooperation in Iraq and security assistance teams. (Sec. 117) Makes certain funds available for Overseas Contingency Operations at a rate for operations permitted by the Department of Defense Appropriations Act, 2012 as passed by the House of Representatives on July 8, 2011. (Sec. 118) Continues through October 4, 2011, DOD authority to pay monetary rewards for the provision to U.S. government personnel of information or nonlethal assistance beneficial to an operation, activity, or force protection for U.S. Armed Forces. (Sec. 119) Continues through October 4, 2011, DOD authority to use acquisition and cross-servicing agreements to lend certain military equipment to foreign forces in Iraq and Afghanistan for personnel protection and survivability purposes. (Sec. 120) Provides amounts at a specified rate for operations for the Defense Nuclear Facilities Safety Board for salaries and expenses. (Sec. 121) Authorizes the District of Columbia to expend local funds for programs and activities, subject to specified conditions. (Sec. 122) Provides amounts at a specified rate for operations for necessary expenses of the Recovery Accountability and Transparency Board to carry out its functions under the American Recovery and Reinvestment Act of 2009. (Sec. 123) Continues through October 4, 2011, the authority of the Small Business Administration (SBA) to carry out: (1) the Small Business Innovation Research (SBIR) Program, (2) the Small Business Technology Transfer Program, and (3) the Commercialization Pilot Program. (Sec. 124) Extends through October 4, 2011, the requirement that the U.S. Postal Service pay $5.5 billion into the Postal Service Retiree Health Benefits Fund. (Sec. 125) Provides amounts at a specified rate for operations to the Federal Emergency Management Agency (FEMA) for disaster relief. Requires the Secretary of Homeland Security (DHS) to provide a full accounting of disaster relief funding requirements for FY2012 and FY2013, including specified estimates. (Sec. 126) Authorizes the obligation of any DHS funds made available pursuant to this Act at a rate for operations necessary to sustain essential security activities. (Sec. 127) Continues through October 4, 2011, U.S. Secret Service authority to use proceeds derived from undercover criminal investigations for such operations. (Sec. 128) Continues through October 4, 2011, DHS authority to carry out basic, applied, and advanced research and development projects. (Sec. 129) Continues through October 4, 2011, DHS issued interim final regulations establishing risk-based performance standards. (Sec. 130) Continues through October 4, 2011, the authority of the Administrator of FEMA to issue notes or other obligations to the Secretary of the Treasury to carry out the flood insurance program. (Sec. 131) Continues through October 4, 2011, the authorities of Service First (a partnership authority among the Bureau of Land Management [BLM], the Forest Service, the National Park Service, and the U.S. Fish and Wildlife Service). (Sec. 132) Increases appropriations for salaries and expenses in the Mine Safety and Health Administration of the Department of Labor. (Sec. 134) Provides amounts at a specified rate for operations for the Federal Mine Safety and Health Review Commission for salaries and expenses. (Sec. 135) Continues through October 4, 2011 the authority of the Secretary of Health and Human Services (HHS) with respect to: (1) autism spectrum disorder and other developmental disabilities; and (2) autism education, early detection, and intervention. Continues through such date the Interagency Autism Coordinating Committee. (Sec. 136) Eliminates certain FY2011 appropriations for military construction for the Army, the Air Force, and defense-wide. (Sec. 137) Extends through October 4, 2011, the authority of the Export-Import Bank of the United States to provide financing for the export of nonlethal articles or services meant primarily for civilian purposes. (Sec. 138) Continues through October 4, 2011, the Commission on International Religious Freedom. (Sec. 139) Limits to a specified rate of operations any commitments to guarantee loans incurred under the General and Special Risk Insurance Funds authorized under the National Housing Act. (Sec. 140) Approves the renewal of certain import restrictions contained in the Burmese Freedom and Democracy Act of 2003, and deems this Act a renewal resolution under such Act.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ33"
+          },
+          {
+            "title": "To designate the Federal building located at 1710 Alabama Avenue in Jasper, Alabama, as the \"Carl Elliott Federal Building\".",
+            "congress": 106,
+            "billType": "HR",
+            "billNumber": "4806",
+            "publicLawNumber": "106-304",
+            "summary": "Designates the Federal building located at 1710 Alabama Avenue in Jasper, Alabama, as the Carl Elliott Federal Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-106publ304"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.405,
+          "nominateDim2": 0.466,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/A000055"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 38.8,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/A000055"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "With House Democrats just a few seats away from control of the U.S. House, it's ever important for solid, conservative leaders like me to hold the line against the radical left social and economic agenda.",
+        "source_url": "https://aderholtforcongress.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:05.629Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:42.774Z"
+    },
+    {
+      "slug": "amanda-pusczek",
+      "full_name": "PUSCZEK, AMANDA NOELLE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AL05228",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 15590.75,
+        "totalSpent": 14623.54,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 7452,
+          "largeDollar": 8010,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1990",
+          "source_url": "https://www.amandaforalabama.com/about",
+          "snippet": "Born in 1990 in Ferguson, Missouri, Amanda learned the value of resilience early.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "Ferguson, Missouri",
+          "source_url": "https://www.amandaforalabama.com/about",
+          "snippet": "Born in 1990 in Ferguson, Missouri, Amanda learned the value of resilience early.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "graduated with an Advanced Diploma from public school in 2008",
+          "source_url": "https://www.amandaforalabama.com/about",
+          "snippet": "graduating with an Advanced Diploma from public school in 2008 before working her way through John C. Calhoun Community College",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Trever in 2022",
+          "source_url": "https://www.amandaforalabama.com/about",
+          "snippet": "In 2022, Amanda married Trever, her high school sweetheart and the love of her life.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Found, Registered Nurse (2023 - 2025) NavCare, Registered Nurse (2022 - 2023) Maxim Healthcare Staffing, Travel Registered Nurse (2022 - 2022) Prime Staffing, Travel Registered Nurse (2020 - 2022) Bradford Health Services, Shift Supervisor (2014 - 2021)",
+          "source_url": "https://www.ballotready.org/people/amanda-n-pusczek",
+          "snippet": "Found, Registered Nurse (2023 - 2025) NavCare, Registered Nurse (2022 - 2023) Maxim Healthcare Staffing, Travel Registered Nurse (2022 - 2022) Prime Staffing, Travel Registered Nurse (2020 - 2022) Bradford Health Services, Shift Supervisor (2014 - 2021)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Amanda is running for Congress because this is a now-or-never moment for North Alabama. We don't need another polished career politician who ignores our communities, takes corporate PAC cash, and breaks every promise once they get to Washington. We need a frontline leader who knows what it takes to survive in the real world. Amanda isn’t a millionaire. She’s a registered nurse who has spent over a decade working double shifts, cleaning up after disasters, and making a career of caring for people when the system turns its back.",
+        "source_url": "https://www.amandaforalabama.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:08.807Z"
+    }
+  ]
+}

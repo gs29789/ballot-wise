@@ -1,0 +1,785 @@
+{
+  "state": "NM",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-13T17:22:42.535Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://codes.findlaw.com/nm/chapter-1-elections/nm-st-sect-1-8-11/",
+    "primarySnippet": "A primary election shall be held in each county in this state on the first Tuesday after the first Monday in June of each even-numbered year. (NMSA 1978 § 1-8-11)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.nm.gov/wp-content/uploads/2025/01/NM_Constitution_-2025-for-SOS.pdf",
+    "generalSnippet": "Sec. 6. [Date of general elections.] General elections shall be held in the state on the Tuesday after the first Monday in November in each even-numbered year. (New Mexico Constitution, Article XX, Section 6 — official text from the Secretary of State's published Constitution booklet)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Ambiguous — New Mexico has two felony-disqualification provisions with inconsistent scope. NMSA 1978 §10-1-2 broadly bars anyone convicted of a 'felonious or infamous crime' (absent a pardon or restoration of political rights) from being 'elected or appointed to any public office in this state,' language broad enough on its face to arguably reach federal offices held by NM residents. But the companion restoration statute, NMSA 1978 §31-13-1 ('Felony conviction; restoration of right to hold office of public trust'), frames the same bar narrowly as applying only to 'an office of public trust for the state, a county, a municipality or a district' — omitting federal office. Even under the broadest reading of §10-1-2, any state-imposed qualification for Congress beyond the U.S. Constitution's own textual qualifications would likely be preempted under U.S. Term Limits v. Thornton (1995). No New Mexico court decision was found squarely resolving whether §10-1-2 reaches congressional candidacy specifically, so genuine ambiguity remains.",
+    "source_url": "https://codes.findlaw.com/nm/chapter-10-public-officers-and-employees/nm-st-sect-10-1-2/",
+    "snippet": "no person convicted of a felonious or infamous crime, unless such person has been pardoned or restored to political rights, shall be qualified to be elected or appointed to any public office in this state"
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/New_Mexico%27s_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Melanie Ann Stansbury and Ndidiamaka Okpareke are running in the general election for U.S. House New Mexico District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 66.53
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 62.63
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 61
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 54.31
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 47.12
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 898.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 896.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 897.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 890.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 892.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 890.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 889.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 892.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 891.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 892.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 892.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 891.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 892.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 893.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 891.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 893.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 893
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 894.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 893.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 892.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 891.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 891.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 890.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 886.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 889.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 886.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 885.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 887.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 887.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 884.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 887.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 882.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 879.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 879
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 877.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 874.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 877.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 873.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 872.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 869.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 868.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 867.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 11350325077.82,
+        "perCapitaUsd": 16130.48
+      },
+      {
+        "year": "2024",
+        "totalUsd": 12058673714.5,
+        "perCapitaUsd": 17137.15
+      },
+      {
+        "year": "2025",
+        "totalUsd": 12513328077.35,
+        "perCapitaUsd": 17783.28
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 2113344
+      },
+      {
+        "year": "2023",
+        "population": 2114371
+      },
+      {
+        "year": "2024",
+        "population": 2130256
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59726
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 62268
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 67816
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "ndidiamaka-okpareke",
+      "full_name": "OKPAREKE, NDIDIAMAKA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NM01129",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 100340.06,
+        "totalSpent": 57599.08,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15340.45,
+          "largeDollar": 83099.61,
+          "pac": 1900,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Create healthcare that is affordable and accessible for every New Mexico family, protecting quality of care, lowering costs at the pharmacy counter, and expanding access in the communities that need it most",
+          "snippet": "She will use that experience to create healthcare that is affordable and accessible for every New Mexico family, protecting quality of care, lowering costs at the pharmacy counter, and expanding access in the communities that need it most."
+        },
+        {
+          "topic": "Economy",
+          "value": "Fight for New Mexico's businesses and workers, advocating to bring federal investments and programs that create jobs, grow paychecks, and stimulate the economy",
+          "snippet": "Didi will fight for New Mexico s businesses and workers, advocating at every turn to bring federal investments and programs here that create jobs, grow paychecks, and stimulate the economy."
+        },
+        {
+          "topic": "Independence from Party Leadership",
+          "value": "Answer to the people of New Mexico, not party bosses in Washington, voting for what is right for families and communities regardless of who it upsets",
+          "snippet": "Didi answers to the people of New Mexico, not party bosses in Washington. She will vote for what is right for our families and our communities, every single time, no matter who it upsets."
+        }
+      ],
+      "platform_source_url": "https://www.didiforcongress.com/",
+      "_platform_resolved_at": "2026-08-13T17:22:24.665Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Ndidiamaka Okpareke (you can call her \"Didi\" for short!) was born from immigrants who came to the United States from Nigeria in search of the American Dream after surviving the destructive and genocidal Biafran war in Nigeria from 1967 to 1970. Didi's parents instilled in her the values of hard work, family, community, and faith in God. New Mexico has been Didi's home for almost 30 years. She's lived in Albuquerque since 1997, attending Sandia High School and graduating UNM as a proud Lobo! In 2016, Didi became a business owner. She launched out on the gutsy mission to build and start her own company, Olive Tree Compounding Pharmacy.",
+        "source_url": "https://www.didiforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:14.170Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:16.321Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=E4-2LHXuIbM",
+      "platform_video_title": "Didi Okpareke for Congress! Didi and I jump into who she is and why she’s running for CD1 NM. ",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:16.321Z"
+    },
+    {
+      "slug": "melanie-stansbury",
+      "full_name": "STANSBURY, MELANIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NM01144",
+      "fec_status": "C",
+      "bioguide_id": "S001218",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1353563.52,
+        "totalSpent": 1082561.54,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 467355.45,
+          "largeDollar": 659075.89,
+          "pac": 202334.77,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-01-31",
+          "source_url": "https://www.wikidata.org/wiki/Q96184996",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Farmington, New Mexico",
+          "source_url": "https://www.wikidata.org/wiki/Q96184996",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Cibola High School",
+          "source_url": "https://www.wikidata.org/wiki/Q96184996",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Serving in the New Mexico House of Representatives (2019-2021)",
+          "source_url": "https://www.melaniefornewmexico.com/",
+          "snippet": "Serving in the New Mexico House of Representatives (2019-2021)",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Cibola High School, graduated 1997",
+          "source_url": "https://en.wikipedia.org/wiki/Melanie_Stansbury",
+          "snippet": "After graduating from Cibola High School in 1997",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Congressional Progressive Caucus; Congressional LGBTQ+ Equality Caucus; Congressional Wildlife Refuge Caucus; Democratic Women's Caucus; Rare Disease Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Melanie_Stansbury",
+          "snippet": "Congressional Progressive Caucus Congressional LGBTQ+ Equality Caucus [ 32 ] Congressional Wildlife Refuge Caucus [ 33 ] Democratic Women's Caucus Rare Disease Caucus",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Pandemic Response",
+          "value": "Leader in tackling the pandemic",
+          "snippet": "Serving in the New Mexico House of Representatives (2019-2021), Melanie was a leader in tackling the pandemic"
+        },
+        {
+          "topic": "Food and Hunger",
+          "value": "Leader in addressing food and hunger issues",
+          "snippet": "Melanie was a leader in tackling the pandemic, food and hunger issues"
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Leader in addressing climate change",
+          "snippet": "Melanie was a leader in tackling the pandemic, food and hunger issues, climate change"
+        },
+        {
+          "topic": "Economy and Jobs",
+          "value": "Leader in growing our economy and meaningful jobs",
+          "snippet": "Melanie was a leader in tackling the pandemic, food and hunger issues, climate change, growing our economy and meaningful jobs"
+        },
+        {
+          "topic": "Infrastructure",
+          "value": "Leader in rebuilding our infrastructure",
+          "snippet": "Melanie was a leader in tackling the pandemic, food and hunger issues, climate change, growing our economy and meaningful jobs, rebuilding our infrastructure"
+        },
+        {
+          "topic": "Natural Resources",
+          "value": "Leader in protecting our natural resources",
+          "snippet": "Melanie was a leader in tackling the pandemic, food and hunger issues, climate change, growing our economy and meaningful jobs, rebuilding our infrastructure, and protecting our natural resources"
+        }
+      ],
+      "platform_source_url": "https://www.melaniefornewmexico.com/",
+      "_platform_resolved_at": "2026-08-13T17:22:29.597Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 250,
+          "votesCast": 247,
+          "attendanceRate": 0.988
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Federal Lands",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Delivering on Government Efficiency",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 55,
+        "bills_cosponsored": 1597,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.439,
+          "nominateDim2": -0.217,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001218"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 23.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001218"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Melanie Stansbury is a proud New Mexican who has spent her career working to protect our lands and waters and address the critical issues facing our communities. As someone who grew up in a working family in Albuquerque, Melanie knows what it means to struggle to make ends meet and knows the urgency of bringing real solutions to help our families. Serving in the New Mexico House of Representatives (2019-2021), Melanie was a leader in tackling the pandemic, food and hunger issues, climate change, growing our economy and meaningful jobs, rebuilding our infrastructure, and protecting our natural resources.",
+        "source_url": "https://www.melaniefornewmexico.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:19.170Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:16.641Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=9erghcEVBoc",
+      "platform_video_title": "'This Is Not A Partisan Issue': Melanie Stansbury Calls For Congress To Address Screwworm Outbreak",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:16.641Z"
+    }
+  ]
+}

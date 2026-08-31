@@ -1,0 +1,896 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-20T15:19:26.958Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Kat Cammack, Seth Harp, and Mike Klein are running in the general election for U.S. House Florida District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "kat-cammack",
+      "full_name": "CAMMACK, KAT",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0FL03175",
+      "fec_status": "C",
+      "bioguide_id": "C001039",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2045293.84,
+        "totalSpent": 1723873.99,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 399282.84,
+          "largeDollar": 491129.01,
+          "pac": 727500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1988-02-16",
+          "source_url": "https://www.wikidata.org/wiki/Q98523243",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Denver, Colorado",
+          "source_url": "https://www.wikidata.org/wiki/Q98523243",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Metropolitan State University",
+          "source_url": "https://www.wikidata.org/wiki/Q98523243",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Douglas County High School, Castle Rock, Colorado, graduated 2006",
+          "source_url": "https://history.house.gov/People/Listing/C/CAMMACK,-Kat-(C001039)/",
+          "snippet": "graduated from Douglas County High School, Castle Rock, Colo., 2006",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "Small business owner; staff, United States Representative Ted Yoho of Florida, 2012-2020",
+          "source_url": "https://history.house.gov/People/Listing/C/CAMMACK,-Kat-(C001039)/",
+          "snippet": "small business owner; staff, United States Representative Ted Yoho of Florida, 2012-2020",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "civilian graduate of the United States Naval War College",
+          "source_url": "https://katforcongress.com/",
+          "snippet": "A civilian graduate of the United States Naval War College",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Small Business",
+          "value": "Will always advocate for our small businesses",
+          "snippet": "will always advocate for our small businesses"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Has never wavered in her support for the Second Amendment",
+          "snippet": "has never wavered in her support for the Second Amendment"
+        },
+        {
+          "topic": "Taxes",
+          "value": "Believes taxes should be low",
+          "snippet": "she believes taxes should be low"
+        },
+        {
+          "topic": "Government Spending",
+          "value": "We must keep government spending minimal and efficient",
+          "snippet": "we must keep government spending minimal and efficient"
+        }
+      ],
+      "platform_source_url": "https://katforcongress.com/",
+      "_platform_resolved_at": "2026-08-20T15:19:10.703Z",
+      "campaign_site_url": "https://www.katforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=EdVYg3mJ4Jc",
+      "platform_video_title": "Fowl",
+      "platform_video_source_url": "https://katforcongress.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:19:11.062Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Not Voting",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 239,
+          "votesCast": 234,
+          "attendanceRate": 0.9790794979079498
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Commodity Markets, Digital Assets, and Rural Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 74,
+        "bills_cosponsored": 703,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.591,
+          "nominateDim2": -0.257,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001039"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 41.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001039"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Kat Cammack is serving her third term representing the Sunshine State in Congress as a proven conservative fighter with unapologetic grit.",
+        "source_url": "https://katforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:14.295Z"
+    },
+    {
+      "slug": "seth-harp",
+      "full_name": "HARP, SETH ALLAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL03099",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 37794.03,
+        "totalSpent": 34783.52,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 15963.51,
+          "largeDollar": 20400.6,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 1155
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1943-02-26",
+          "source_url": "https://www.wikidata.org/wiki/Q64747246",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Monticello, Arkansas",
+          "source_url": "https://www.wikidata.org/wiki/Q64747246",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "7th Grade Civics Teacher at Lincoln Middle School in Gainesville, Florida; became one of the youngest talk show hosts in the history of WKZO Radio in Kalamazoo, Michigan at just 23 years old; served as a Program Director, Operations Manager, Station Manager, and on-air host across six states; since 2001, has managed and operated nine radio stations and media organizations; Operations Manager of ESPN Gainesville; Adjunct Professor in the University of Florida's College of Journalism and Communications",
+          "source_url": "https://www.sethharpforcongress.com/meetseth",
+          "snippet": "As a 7th Grade Civics Teacher at Lincoln Middle School in Gainesville, Florida, Seth Harp is teaching the next generation of Americans about government, citizenship, civic responsibility and the power of democracy. Every day, he works to help young people understand not only how our government functions but also how they can become active participants in shaping its future.​ Seth s involvement in politics began long before he was old enough to cast a ballot. During the 1990s, he volunteered on Election Days, helping arrange transportation to polling locations for voters who otherwise may not have had a way to make their voices heard. Those early experiences instilled in him a lifelong belief that democracy works best when everyone has the opportunity to participate. ​After graduating from college, Seth became one of the youngest talk show hosts in the history of WKZO Radio in Kalamazoo, Michigan at just 23 years old. The station s rich history included broadcasting legends such as Paul Harvey, Harry Caray and Tom Snyder. That opportunity launched a media career spanning more than 25 years.​ Over the course of his career, Seth served as a Program Director, Operations Manager, Station Manager, and on-air host across six states. Since 2001, he has managed and operated nine radio stations and media organizations, helping develop and mentor countless broadcasters, journalists, and media professional who have gone on to successful careers at ESPN, FOX Sports, CBS, and other major media companies across the country.​ After moving to Florida more than a decade ago, Seth found not only a home, but a community worth fighting for. As Operations Manager of ESPN Gainesville and later as an Adjunct Professor in the University of Florida s College of Journalism and Communications, Seth helped train and mentor future communicators, broadcasters, and media leaders.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "During the 1990s, he volunteered on Election Days, helping arrange transportation to polling locations for voters",
+          "source_url": "https://www.sethharpforcongress.com/meetseth",
+          "snippet": "During the 1990s, he volunteered on Election Days, helping arrange transportation to polling locations for voters who otherwise may not have had a way to make their voices heard.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Western Michigan University, Communications (2021)",
+          "source_url": "https://www.ballotready.org/people/seth-harp",
+          "snippet": "Degrees Bachelor&#x27;s, Western Michigan University, Communications (2021)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Social Security",
+          "value": "Protect and strengthen Social Security by raising the payroll tax cap to $250,000, helping secure benefits for future generations without reducing payments for retirees.",
+          "snippet": "Protect and strengthen Social Security by raising the payroll tax cap to $250,000, helping secure benefits for future generations without reducing payments for retirees."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick.",
+          "snippet": "Guarantee affordable health care for every American and ensure that no family is forced into bankruptcy because they got sick."
+        },
+        {
+          "topic": "Student Loans",
+          "value": "The S.L.I.C.E. Act caps federal student loan interest rates at 3.1% and limits repayment obligations to a manageable percentage of income.",
+          "snippet": "The S.L.I.C.E. Act caps federal student loan interest rates at 3.1% and limits repayment obligations to a manageable percentage of income."
+        },
+        {
+          "topic": "CEO Compensation",
+          "value": "Executive compensation would be capped at 150 times the median employee salary.",
+          "snippet": "Under this proposal, executive compensation would be capped at 150 times the median employee salary."
+        },
+        {
+          "topic": "Corporate Tax Rate",
+          "value": "Reagan Redux restores the corporate tax rate to 26%, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families.",
+          "snippet": "Reagan Redux restores the corporate tax rate to that level, generating hundreds of billions in revenue that can be invested in Social Security, education, health care, veterans services, and programs that strengthen working families. If 26% worked under Reagan, it can work today."
+        },
+        {
+          "topic": "Veterans Dental Care",
+          "value": "The M.A.K.E. Act provides comprehensive dental coverage through the VA system.",
+          "snippet": "The M.A.K.E. Act provides comprehensive dental coverage through the VA system"
+        },
+        {
+          "topic": "School Lunch",
+          "value": "The F.U.E.L. Initiative provides universal school lunch for every public-school student in America.",
+          "snippet": "The F.U.E.L. Initiative provides universal school lunch for every public-school student in America."
+        },
+        {
+          "topic": "Internet Access",
+          "value": "The F.A.I.R. Plan treats broadband access as critical infrastructure and establishes a pathway toward affordable nationwide internet service with a target cost of $10 per month.",
+          "snippet": "The F.A.I.R. Plan treats broadband access as critical infrastructure and establishes a pathway toward affordable nationwide internet service with a target cost of $10 per month."
+        }
+      ],
+      "platform_source_url": "https://www.sethharpforcongress.com/issues",
+      "_platform_resolved_at": "2026-08-20T15:19:20.318Z",
+      "campaign_site_url": "https://www.sethharpforcongress.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "As a 7th Grade Civics Teacher at Lincoln Middle School in Gainesville, Florida, Seth Harp is teaching the next generation of Americans about government, citizenship, civic responsibility and the power of democracy. Every day, he works to help young people understand not only how our government functions but also how they can become active participants in shaping its future.​ Seth's involvement in politics began long before he was old enough to cast a ballot. During the 1990s, he volunteered on Election Days, helping arrange transportation to polling locations for voters who otherwise may not have had a way to make their voices heard.",
+        "source_url": "https://www.sethharpforcongress.com/meetseth"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:16.689Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:23.384Z"
+    },
+    {
+      "slug": "mike-klein",
+      "full_name": "KLEIN, MIKE",
+      "party": "NO PARTY AFFILIATION",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL03149",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 58936.53,
+        "totalSpent": 40855.02,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1778.9,
+          "largeDollar": 12950,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 44207.630000000005
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Gainesville",
+          "source_url": "https://mikeklein4congress.com/",
+          "snippet": "A fifth-generation Floridian raised in Gainesville in the 1970s",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Get money out of our politics so the voices of the many outweigh the greed of the few",
+          "snippet": "His campaign is built on a single foundational conviction: get money out of our politics so the voices of the many outweigh the greed of the few."
+        },
+        {
+          "topic": "Independence from Special Interests",
+          "value": "Running as an Independent unbeholden to party machines, corporate PACs, or special interests",
+          "snippet": "Mike Klein is running as an Independent for Florida s 3rd Congressional District, a candidate unbeholden to party machines, corporate PACs, or special interests."
+        }
+      ],
+      "platform_source_url": "https://mikeklein4congress.com/",
+      "_platform_resolved_at": "2026-08-20T15:18:50.588Z",
+      "campaign_site_url": "https://www.mikeklein4congress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=Xj9Wf2fnmC8",
+      "platform_video_title": "Big Oil spent $445 million influencing the last election.",
+      "platform_video_source_url": "https://mikeklein4congress.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:18:51.239Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "A fifth-generation Floridian raised in Gainesville in the 1970s, Mike’s childhood was all sun-scorched summers at Crescent Beach, Camp Crystal Lake, horse riding near Kanapaha, fantastic music, barbeque sandwiches at Chiapini’s, and long afternoons tubing the Ichetucknee. No rules, no shoes, no reason to believe that society would ever feel this disconnected.",
+        "source_url": "https://mikeklein4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:12.900Z"
+    }
+  ]
+}

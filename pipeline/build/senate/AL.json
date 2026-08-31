@@ -1,0 +1,261 @@
+{
+  "state": "AL",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-18T19:58:10.905Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://www.sos.alabama.gov/sites/default/files/election-2026/AdminCalendar%20-2026.pdf",
+    "primarySnippet": "Alabama Statewide Primary Election - May 19, 2026 / Primary Runoff Election - June 16, 2026 / General Election - November 3, 2026.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
+    "generalSnippet": "The general election will occur as planned with all other races on Tuesday, November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Alabama's felony-disqualification statute (Ala. Code § 36-2-1(a)(3)) applies only to \"office under the authority of this state\" by its own text, not federal office; no separate background-check-disclosure requirement was found in Alabama's candidate qualifying process either; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://web.archive.org/web/2025/https://law.justia.com/codes/alabama/title-36/chapter-2/section-36-2-1/",
+    "snippet": "Section 36-2-1 - Persons Not Eligible to Hold State Office... (a) The following persons shall be ineligible to and disqualified from holding office under the authority of this state: ... (3) Those who shall have been convicted of treason, embezzlement of public funds, malfeasance in office, larceny, bribery or any other crime punishable by imprisonment in the state or federal penitentiary and those who are idiots or insane. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Alabama,_2026",
+    "snippet": "Everett Wess and Barry Moore are running in the general election for U.S. Senate Alabama on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 32.56
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.23
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 29.82
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 31.46
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.97
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5539776640.45,
+        "perCapitaUsd": 7617.83
+      },
+      {
+        "year": "2024",
+        "totalUsd": 3093618502.45,
+        "perCapitaUsd": 4319.41
+      },
+      {
+        "year": "2025",
+        "totalUsd": 2901438116.09,
+        "perCapitaUsd": 4051.08
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "felix-moore",
+      "full_name": "MOORE, FELIX BARRY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6AL00476",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3787329.72,
+        "totalSpent": 3284673.21,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 346553.67,
+          "largeDollar": 2269056.81,
+          "pac": 881597.83,
+          "party": 0,
+          "selfFunded": 50000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Coffee County",
+          "source_url": "https://barrymooreforalabama.com/",
+          "snippet": "Born in Coffee County, Barry is a job-creator who brings real-world grit to the fight for Alabama.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "first elected official in America to endorse Donald Trump — on stage in Mobile, 2015",
+          "source_url": "https://barrymooreforalabama.com/",
+          "snippet": "Barry was the first elected official in America to endorse Donald Trump — on stage in Mobile, 2015.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1966-09-26",
+          "source_url": "https://www.wikidata.org/wiki/Q63198048",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Auburn University",
+          "source_url": "https://www.wikidata.org/wiki/Q63198048",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security and Immigration",
+          "value": "Champions secure borders, deportation, and English as official language",
+          "snippet": "Barry champions secure borders, deportation, and English as official language."
+        },
+        {
+          "topic": "Law and Order",
+          "value": "Supports law enforcement, prosecutes criminals, opposes radical left groups",
+          "snippet": "Barry supports law enforcement, prosecutes criminals, opposes radical left groups."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Defends Second Amendment, supports gun rights, resists confiscation",
+          "snippet": "Barry defends Second Amendment, supports gun rights, resists confiscation."
+        },
+        {
+          "topic": "Small Business",
+          "value": "Supports small businesses, lower taxes, and American entrepreneurship",
+          "snippet": "Barry supports small businesses, lower taxes, and American entrepreneurship."
+        },
+        {
+          "topic": "The Economy",
+          "value": "Supports building economy for families, cutting taxes, shrinking government",
+          "snippet": "Trump builds economy for families, cuts taxes, shrinks government."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Honors veterans, supports military families, funds VA, enhances training",
+          "snippet": "Barry honors veterans, supports military families, funds VA, enhances training."
+        }
+      ],
+      "platform_source_url": "https://barrymooreforalabama.com/",
+      "_platform_resolved_at": "2026-08-14T17:20:59.386Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=bo1YZzdq8dY",
+      "platform_video_title": "Barry Moore - Election Night Victory Party",
+      "platform_video_source_url": "https://barrymooreforalabama.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:12.469Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Barry Moore has spent his life fighting for what matters: faith, family, freedom, and fiscal sanity. Whether defeating a six-term Democrat in Montgomery, standing with Trump during the 2020 lockdowns, or exposing Biden’s weaponized DOJ in Congress, Barry has never backed down.",
+        "source_url": "https://barrymooreforalabama.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:40.301Z"
+    },
+    {
+      "slug": "everett-wess",
+      "full_name": "WESS, EVERETT W",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6AL00518",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 83340.65,
+        "totalSpent": 94746.98,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4247.37,
+          "largeDollar": 8450.05,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 70643.23
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Everett earned his Juris Doctor from the Birmingham School of Law and holds a Master of Business Administration from Alabama A&M University. He also earned a Bachelor of Science in Computer Science with a minor in Mathematics from Alabama A&M and an Associate of Arts in Music Education from Selma University.",
+          "source_url": "https://wessforsenate.com/",
+          "snippet": "Everett earned his Juris Doctor from the Birmingham School of Law and holds a Master of Business Administration from Alabama A&M University. He also earned a Bachelor of Science in Computer Science with a minor in Mathematics from Alabama A&M and an Associate of Arts in Music Education from Selma University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "The Wess Law Firm, P.C., Managing Partner (2000 - Present); Banctec, Inc, Software Consultant (1999 - 2002); Comsys, Inc, Software/Systems Consultant (1996 - 1999); NTI and TRW, Software Analyst (1986 - 1996)",
+          "source_url": "https://www.ballotready.org/people/everett-w-wess",
+          "snippet": "The Wess Law Firm, P.C., Managing Partner (2000 - Present) Banctec, Inc, Software Consultant (1999 - 2002) Comsys, Inc, Software/Systems Consultant (1996 - 1999) NTI and TRW, Software Analyst (1986 - 1996)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Jobs",
+          "value": "Protect Alabama Jobs",
+          "snippet": "Protect Alabama Jobs, Healthcare, and Tough fair justice."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Affordable healthcare, funding medical providers in rural Alabama and supporting hospitals in underserved areas",
+          "snippet": "AFFORDABLE HEALTHCARE is essential, especially when it comes to funding medical providers in rural Alabama and supporting hospitals in underserved areas."
+        },
+        {
+          "topic": "Justice System",
+          "value": "Tough fair justice",
+          "snippet": "Protect Alabama Jobs, Healthcare, and Tough fair justice."
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Advocate for voting rights",
+          "snippet": "Everett W. Wess is running for the United States Senate to advocate for voting rights, equal justice, affordable healthcare, quality public education, and economic opportunity."
+        },
+        {
+          "topic": "Equal Justice",
+          "value": "Advocate for equal justice",
+          "snippet": "Everett W. Wess is running for the United States Senate to advocate for voting rights, equal justice, affordable healthcare, quality public education, and economic opportunity."
+        },
+        {
+          "topic": "Public Education",
+          "value": "Quality public education to equip our future leaders",
+          "snippet": "We must ensure quality public education to equip our future leaders."
+        },
+        {
+          "topic": "Courts and Government",
+          "value": "Advocating for fair courts and a clean government that serves all citizens",
+          "snippet": "PROTECTING YOUR RIGHTS is a fundamental pillar of our Alabama Senate campaign, advocating for fair courts and a clean government that serves all citizens"
+        },
+        {
+          "topic": "Economic Opportunity",
+          "value": "Economic opportunity is vital for our growth and prosperity",
+          "snippet": "Economic opportunity is vital for our growth and prosperity."
+        }
+      ],
+      "platform_source_url": "https://wessforsenate.com/",
+      "_platform_resolved_at": "2026-08-14T17:21:05.770Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Everett W. Wess is a dedicated member of the Avondale Church of Christ in Birmingham, Alabama, a lifelong public servant, civil rights advocate, and experienced attorney running for the United States Senate. His mission is to fight for justice, opportunity, and dignity for all Alabamians. Based in Birmingham, Everett has spent decades standing up for working families, protecting your rights, and ensuring fairness in Alabama’s courts and communities.",
+        "source_url": "https://wessforsenate.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:38.344Z"
+    }
+  ]
+}

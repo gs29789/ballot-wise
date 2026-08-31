@@ -1,0 +1,935 @@
+{
+  "state": "NC",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-25T22:14:17.898Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "primarySnippet": "N.C. Gen. Stat. § 163-1(b): \"On Tuesday next after the first Monday in March preceding each general election to be held in November for the officers referred to in subsection (a) of this section, there shall be held in all election precincts within the territory for which the officers are to be elected a primary election for the purpose of nominating candidates for each political party in the State for those offices.\"",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
+    "generalSnippet": "Members of ... House of Representatives of the Congress of the United States [:] Jurisdiction: Congressional district ... Date of Election: Tuesday next after the first Monday in November 1968 and every two years thereafter ... Term of Office: Two years ... United States Senators [:] Jurisdiction: State ... Date of Election: At the regular election immediately preceding the termination of each regular term ... Term of Office: Six years"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Yes, North Carolina has a state felony-disclosure statute (N.C. Gen. Stat. § 163-106(e)) that applies to candidates for federal office, but it is a DISCLOSURE requirement, not a disqualification — a felony conviction does not bar someone from the federal ballot, and the form must affirmatively state that. This is deliberate: the U.S. Constitution's own qualifications for Congress (age/citizenship/residency in Art. I) are exclusive, so a state cannot add substantive disqualifications for federal candidates (U.S. Term Limits v. Thornton). The 4th Circuit upheld this specific NC statute as constitutional precisely because it stops at disclosure and does not keep anyone off the ballot. It applies to every 2026 NC congressional candidate at the point they file their notice of candidacy.",
+    "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
+    "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
+    "snippet": "Richard Hudson (Incumbent) (Republican Party); Richard Ojeda (Democratic Party); Tita Hunter-Herod (Independent)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 29.43
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.13
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.96
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.41
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 5115.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 5115
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 5101.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 5080.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 5069
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 5072
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 5068.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 5064.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 5057.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 5061
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 5062.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 5060.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 5052.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 5057.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 5050.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 5033.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 5033.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 5031.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 5028.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 5026.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 5016.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 5036
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 5025.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 5018.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 5027.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 5025.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 5016.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 5009.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 5000.3
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4992.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4997.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4978
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4973.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4965.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4954.4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4943.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4955.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4925.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4915.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4918.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4911.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4904.3
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6457895191.9,
+        "perCapitaUsd": 8600.5
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8069476466.89,
+        "perCapitaUsd": 10746.78
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7777446278.13,
+        "perCapitaUsd": 10373.51
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10698973
+      },
+      {
+        "year": "2023",
+        "population": 10835491
+      },
+      {
+        "year": "2024",
+        "population": 11046024
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 67481
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 70804
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 73958
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "richard-hudson",
+      "full_name": "HUDSON, RICHARD L. JR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NC08185",
+      "fec_status": "C",
+      "bioguide_id": "H001067",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3215341.2,
+        "totalSpent": 2511942.68,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 214005.19,
+          "largeDollar": 695850.3,
+          "pac": 1605397.28,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1971-11-04",
+          "source_url": "https://www.wikidata.org/wiki/Q3956999",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Franklin, Virginia",
+          "source_url": "https://www.wikidata.org/wiki/Q3956999",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of North Carolina at Charlotte",
+          "source_url": "https://www.wikidata.org/wiki/Q3956999",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Myers Park High School, Charlotte, N.C., 1990",
+          "source_url": "https://history.house.gov/People/Listing/H/HUDSON,-Richard-(H001067)/",
+          "snippet": "graduated from Myers Park High School, Charlotte, N.C., 1990",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "communications director, North Carolina Republican party; business owner; staff, United States Representative Robert (Robin) Hayes of North Carolina, 2000-2005; staff, United States Representative Virginia Ann Foxx of North Carolina, 2005-2006; staff, United States Representative John R. Carter of Texas, 2006-2009; staff, United States Representative K. Michael Conaway of Texas, 2009-2011",
+          "source_url": "https://history.house.gov/People/Listing/H/HUDSON,-Richard-(H001067)/",
+          "snippet": "communications director, North Carolina Republican party; business owner; staff, United States Representative Robert (Robin) Hayes of North Carolina, 2000-2005; staff, United States Representative Virginia Ann Foxx of North Carolina, 2005-2006; staff, United States Representative John R. Carter of Texas, 2006-2009; staff, United States Representative K. Michael Conaway of Texas, 2009-2011",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Renee",
+          "source_url": "https://richardhudson.org/about/",
+          "snippet": "Richard, his wife Renee, and their son live in Southern Pines",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Law Enforcement",
+          "value": "Supports good police officers and law enforcement who serve communities",
+          "snippet": "support good police officers and law enforcement who serve our communities"
+        },
+        {
+          "topic": "Opioid Crisis",
+          "value": "Supports building on efforts to end the opioid epidemic",
+          "snippet": "build on our efforts to end the opioid epidemic"
+        }
+      ],
+      "platform_source_url": "https://richardhudson.org/issues/",
+      "_platform_resolved_at": "2026-08-25T22:13:30.959Z",
+      "campaign_site_url": "http://www.richardhudsonforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Richard Hudson has represented North Carolina in Congress since 2013. In the U.S. House of Representatives, Richard is recognized as a conservative leader, focused on common-sense solutions to support our economy, veterans, and families. He also serves as chairman of the National Republican Congressional Committee (NRCC), placing him as the fifth-ranking Member in leadership and one of the highest-ranking Congressmen from North Carolina in history. As a Member of the House Energy and Commerce Committee, Richard is working to cut federal spending, reduce drug prices for seniors, and unleash American energy to lower costs for everyone and create jobs. As the Sandhills’ Congressman and representative of the largest military base in the world, Richard is also focused on supporting our troops, their families, and veterans.",
+        "source_url": "https://richardhudson.org/about/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:43.831Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081164.pdf",
+        "filingDate": "6/29/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T13:41:08.374Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 283,
+          "attendanceRate": 1
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 143,
+        "bills_cosponsored": 1685,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "To amend title 49, United States Code, to provide for limitations on the fees charged to passengers of air carriers.",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "5462",
+            "publicLawNumber": "113-294",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Revises aviation passenger security fee requirements to limit per round trip fees to $11.20.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ294"
+          },
+          {
+            "title": "Transportation Security Acquisition Reform Act",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "2719",
+            "publicLawNumber": "113-245",
+            "summary": "(This measure has not been amended since it was passed by the Senate on December 9, 2014. The summary of that version is repeated here.) Transportation Security Acquisition Reform Act - (Sec. 3) Amends the Homeland Security Act of 2002 to direct the Administrator of the Transportation Security Administration (TSA) to: develop and update biennially a strategic five-year technology investment plan, which may include a classified addendum to report sensitive transportation security risks, technology vulnerabilities, or other sensitive security information; and publish the plan in an unclassified form in the public domain. Directs the Administrator, before acquiring any security-related technology, to analyze whether acquisition is justified. Requires the Administrator, 30 days before any TSA award of a contract for acquisitions exceeding $30 million, to report to Congress the results of the analysis and certify that the transportation security benefits justify the contract cost. Requires the appropriate TSA acquisition official to establish certain performance baseline requirements before any TSA security-related technology acquisition. Requires that official to review and assess each acquisition for meeting the baseline requirements and to report the results to Congress. Requires the Administrator, before procuring additional quantities of equipment to fulfill a TSA mission need, to utilize, to the extent practicable, any existing units in the TSA's inventory to meet that need. Directs the Administrator to report annually to Congress on TSA's performance record in meeting its goals for contracting with small businesses. Directs the Administrator to execute all responsibilities set forth in this Act in a manner consistent with the Federal Acquisition Regulation and TSA policies and directives. (Sec. 4) Directs the Comptroller General (GAO) to: (1) assess TSA's implementation of GAO recommendations regarding the acquisition of security-related technology made before enactment of this Act, and (2) evaluate TSA's progress in implementing this Act. (Sec. 5) Directs the Administrator to report to Congress on the feasibility of tracking TSA security-related technology, including software solutions, through automated information and data capture technologies. (Sec. 6) Directs the GAO to evaluate TSA's testing and evaluation process relating to security-related technology. (Sec. 7) Declares that no additional appropriations are authorized to carry out this Act.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ245"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 225 North Main Street in Spring Lake, North Carolina, as the \"Howard B. Pate, Jr. Post Office\".",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "3369",
+            "publicLawNumber": "115-149",
+            "summary": "Designates the facility of the United States Postal Service located at 225 North Main Street in Spring Lake, North Carolina, as the \"Howard B. Pate, Jr. Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ149"
+          },
+          {
+            "title": "Protecting Patient Access to Emergency Medications Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "304",
+            "publicLawNumber": "115-83",
+            "summary": "Protecting Patient Access to Emergency Medications Act of 2017 (Sec. 2) This bill amends the Controlled Substances Act to direct the Drug Enforcement Administration (DEA) to register an emergency medical services (EMS) agency to administer controlled substances if the agency submits an application demonstrating that it is authorized to conduct such activity in the state in which the agency practices. The DEA may deny an application if it determines that the registration is inconsistent with the public interest. An EMS agency may obtain a single registration in each state instead of a separate registration for each location. A registered EMS agency may deliver, store, and receive controlled substances, subject to specified conditions. An EMS professional of a registered EMS agency may administer controlled substances in schedules II, III, IV, or V outside the physical presence of a medical director if such administration is authorized under state law and pursuant to a standing or verbal order, subject to specified conditions. The bill specifies that a hospital-based EMS agency (i.e., an EMS agency owned or operated by a hospital) may continue to administer controlled substances under the hospital's DEA registration.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ83"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.524,
+          "nominateDim2": 0.207,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001067"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 45.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001067"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:21.804Z"
+    },
+    {
+      "slug": "tita-hunter-herod",
+      "full_name": "HUNTER-HEROD, TITA L MRS.",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC09234",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Foreign Language Professor at North Carolina Central University",
+          "source_url": "https://146770.campaignpartner.net/meet_tita",
+          "snippet": "last day I attended as a Senator f or the Faculty-Senate at the North Carolina Central University for this is the semester that I retired as Foreign Language Professor",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Senator for the Faculty-Senate at the North Carolina Central University",
+          "source_url": "https://146770.campaignpartner.net/meet_tita",
+          "snippet": "last day I attended as a Senator f or the Faculty-Senate at the North Carolina Central University",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Discrimination/Socialism",
+          "value": "Opposes discrimination based on race, sex, gender, and religion",
+          "snippet": "Socialism, in the sense that many are discriminated because of race, sex, gender, religion, just to mention a few."
+        },
+        {
+          "topic": "Economy",
+          "value": "Address dire need for food, gas, and housing for homeless including military veterans and low income families",
+          "snippet": "On economy, many are in dire need of food to put on the table, gas to run errands, home for the homeless e.g. military veterans and low income family, etc."
+        },
+        {
+          "topic": "Education",
+          "value": "Help students who cannot afford school due to higher tuition and help parents get their children into safe public schools",
+          "snippet": "Education for students who cannot afford to go to school because of higher tuition; because of parents struggling to put their children to a safe public school."
+        },
+        {
+          "topic": "School Safety",
+          "value": "Address issue of active shooters victimizing schools",
+          "snippet": "I say, safe public school because several schools are victimized by active shooters."
+        },
+        {
+          "topic": "Fraud and Corruption",
+          "value": "Address fraud and corruption which are rampant in parts of the country including Minnesota",
+          "snippet": "Fraud and corruption are rampant seems in every parts of our country, e,g, the State of Minnesota."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Immigration is very important for the security of our nations and all foreign nations who are our allies including NATO and UN",
+          "snippet": "On immigration, which is very important for the security of our nations and all foreign nations who are our allies e.g. NATO & UN."
+        }
+      ],
+      "platform_source_url": "https://146770.campaignpartner.net/",
+      "_platform_resolved_at": "2026-08-14T13:40:43.151Z",
+      "campaign_site_url": "https://146770.campaignpartner.net",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am running as an Independent candidate for US House of Representative, for me to be able to help the country's on going problem on socialism, economy, education , fraud, corruptio n and immigration. Socialism, in the sense that many are discriminated because of race, sex, gender, religion, just to mention a few. On economy, many are in dire need of food to put on the table, gas to run errands, home for the homeless e.g. military veterans and low income family, etc . Education for students who cannot afford to go to school because of higher tuition; because of parents struggling to put their children to a safe public school.",
+        "source_url": "https://146770.campaignpartner.net/meet_tita",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:12.670Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:22.213Z"
+    },
+    {
+      "slug": "richard-ojeda",
+      "full_name": "OJEDA, RICHARD N.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NC09218",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2237508.34,
+        "totalSpent": 2073835.72,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1666772.1,
+          "largeDollar": 551894.02,
+          "pac": 18842.22,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1970-09-25",
+          "source_url": "https://www.wikidata.org/wiki/Q30121703",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Rochester, Minnesota",
+          "source_url": "https://www.wikidata.org/wiki/Q30121703",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "West Virginia State University",
+          "source_url": "https://www.wikidata.org/wiki/Q30121703",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Logan High School, graduated 1988",
+          "source_url": "https://en.wikipedia.org/wiki/Richard_Ojeda",
+          "snippet": "Ojeda graduated from Logan High School in 1988.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Kelly Ojeda, 3 children",
+          "source_url": "https://en.wikipedia.org/wiki/Richard_Ojeda",
+          "snippet": "Spouse Kelly Ojeda Children 3",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Founded Logan Empowerment Action and Development, a social services nonprofit engaged in community cleanup, Christmas toy drives, providing meals for the needy, and raising money for shoes for kids",
+          "source_url": "https://en.wikipedia.org/wiki/Richard_Ojeda",
+          "snippet": "He established a social services nonprofit, the Logan Empowerment Action and Development, which engaged in community cleanup, Christmas toy drives, providing meals for the needy, and raising money for shoes for kids.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "spent his career in the military, as a teacher, and as a fighter in state legislature",
+          "source_url": "https://ojedafornc.com/",
+          "snippet": "Richard Ojeda has spent his career in the military, as a teacher, and as a fighter in state legislature.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Veterans",
+          "value": "Protect and improve VA care, pensions, and mental health support for veterans",
+          "snippet": "Protect and improve VA care, pensions, and mental health support for veterans."
+        },
+        {
+          "topic": "Education",
+          "value": "Raise teacher pay, cut student debt, and keep politics out of the classroom",
+          "snippet": "Raise teacher pay, cut student debt, and keep politics out of the classroom."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Strengthen Medicare and Medicaid, protect body autonomy",
+          "snippet": "Strengthen Medicare and Medicaid, protect body autonomy."
+        },
+        {
+          "topic": "Working Families",
+          "value": "Boost wages, support farmers, defend labor rights, and invest in skilled trades",
+          "snippet": "Boost wages, support farmers, defend labor rights, and invest in skilled trades."
+        },
+        {
+          "topic": "Social Security",
+          "value": "Raise the income cap and stop retirement age hikes",
+          "snippet": "Raise the income cap and stop retirement age hikes."
+        }
+      ],
+      "platform_source_url": "https://ojedafornc.com/",
+      "_platform_resolved_at": "2026-08-25T22:12:56.581Z",
+      "campaign_site_url": "https://www.ojedafornc.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=IB0VwQe7q2M",
+      "platform_video_title": "Richard Ojeda Joins Anderson Clayton for Community Town Hall Discussion",
+      "platform_video_source_url": "https://ojedafornc.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-29T16:58:40.457Z",
+      "bio_summary": {
+        "value": "This campaign is about service. Richard Ojeda has spent his career in the military, as a teacher, and as a fighter in state legislature. When he goes to D.C., you can count on his commitment to:  Representing Real People Richard Hudson has been putting the interests of billionaires before those of working families in N.C. That stops now.  Country Over Party This country is at a turning point, and we deserve leaders who know what it means to serve and stand for our nation, united.",
+        "source_url": "https://ojedafornc.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:05.020Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/8221155.pdf",
+        "filingDate": "6/10/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T13:41:18.412Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}

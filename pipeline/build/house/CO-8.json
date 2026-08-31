@@ -1,0 +1,754 @@
+{
+  "state": "CO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-08",
+  "generated_at": "2026-08-18T20:17:02.803Z",
+  "election_dates": {
+    "primaryDate": "2026-06-30",
+    "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Colorado's_8th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Gabe Evans (R) and Manny Rutinel (D) are running in the general election for Colorado's 8th Congressional District on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 38.42
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.19
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.78
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 37.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.68
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2966
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2966.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2956
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2953.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2960.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2959.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2961
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2963.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2961.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2942.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2966.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2963.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2963.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2977
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2971.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2973.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2966.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2965.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2979.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2973.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2964.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2969.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2957.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2954.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2946.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2952
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2940.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2947.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2933.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2928.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2922.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2915.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2912.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3857088322.95,
+        "perCapitaUsd": 5166.02
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8818344042.41,
+        "perCapitaUsd": 12058.76
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5210974845.04,
+        "perCapitaUsd": 6979.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5839926
+      },
+      {
+        "year": "2023",
+        "population": 5877610
+      },
+      {
+        "year": "2024",
+        "population": 5957494
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89302
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 92911
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 97113
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "timothy-evans",
+      "full_name": "EVANS, TIMOTHY GABRIEL JOSEPH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CO08034",
+      "fec_status": "C",
+      "bioguide_id": "E000300",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5393673.36,
+        "totalSpent": 1588203.24,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 784602.36,
+          "largeDollar": 1314330.21,
+          "pac": 1422927,
+          "party": 5000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.electgabeevans.com/",
+          "snippet": "Gabe and his wife own and operate a family farm in southern Weld County. As parents of two boys (Bruce and Sammy), they are heavily involved in homeschooling and educational choice.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Twelve years in the U.S. Army and Colorado Army National Guard as a UH-60 Black Hawk helicopter pilot and company commander; over a decade as an Arvada police officer; served in the Colorado State House starting in 2022; owns and operates a family farm in southern Weld County with his wife; certified concealed carry instructor",
+          "source_url": "https://www.electgabeevans.com/",
+          "snippet": "Before serving in Congress, Gabe spent twelve years in the U.S. Army and Colorado Army National Guard as a UH-60 Black Hawk helicopter pilot and company commander. He completed a combat deployment to the Middle East and responded to wildfires and search and rescues throughout Colorado. Gabe also spent over a decade as an Arvada police officer, where he witnessed firsthand the consequences of Colorado Democrats' soft-on-crime policies. That experience drove him to run for the Colorado State House in 2022, where he fought for safer communities, lower taxes, and better opportunities for working families. Gabe and his wife own and operate a family farm in southern Weld County. As parents of two boys (Bruce and Sammy), they are heavily involved in homeschooling and educational choice. Gabe is a certified concealed carry instructor who has taught hundreds of Coloradans about their inalienable rights.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Secure the border",
+          "snippet": "He represents Colorado's 8th Congressional District, where he is fighting to secure the border"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Strengthen public safety",
+          "snippet": "where he is fighting to secure the border, strengthen public safety"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Make life more affordable for hardworking Coloradans",
+          "snippet": "fighting to secure the border, strengthen public safety, and make life more affordable for hardworking Coloradans"
+        },
+        {
+          "topic": "Economy",
+          "value": "Lower the cost of living by reining in deficit spending and the tax-and-regulate policies that are crushing our economy",
+          "snippet": "Lower the cost of living by reining in deficit spending and the tax-and-regulate policies that are crushing our economy."
+        },
+        {
+          "topic": "Military",
+          "value": "Ensure our military is focused on warfighting and not politically correct agendas",
+          "snippet": "Ensure our military is focused on warfighting and not politically correct agendas."
+        },
+        {
+          "topic": "Education",
+          "value": "Educational freedom means families can choose the education that works best for them",
+          "snippet": "Educational freedom means families can choose the education that works best for them."
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Protect freedom of expression, defend the Second Amendment, and secure the rights of all Americans",
+          "snippet": "Protect freedom of expression, defend the Second Amendment, and secure the rights of all Americans."
+        }
+      ],
+      "platform_source_url": "https://www.electgabeevans.com/",
+      "_platform_resolved_at": "2026-08-12T11:20:19.015Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Emergency Management and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Commerce, Manufacturing, and Trade",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Counterterrorism and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 22,
+        "bills_cosponsored": 243,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.343,
+          "nominateDim2": 0.066,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/E000300"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 58,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/E000300"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:28.475Z",
+      "bio_summary": {
+        "value": "Congressman Gabe Evans is a conservative leader who has spent his entire life running toward challenge. He represents Colorado's 8th Congressional District, where he is fighting to secure the border, strengthen public safety, and make life more affordable for hardworking Coloradans. Before serving in Congress, Gabe spent twelve years in the U.S. Army and Colorado Army National Guard as a UH-60 Black Hawk helicopter pilot and company commander.",
+        "source_url": "https://www.electgabeevans.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:56.185Z",
+      "campaign_site_url": "https://electgabeevans.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:21.380Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "manny-rutinel",
+      "full_name": "RUTINEL, MANNY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO08013",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4336987.53,
+        "totalSpent": 3735755.52,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2065691.33,
+          "largeDollar": 2154727.17,
+          "pac": 92650,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1994-12-20",
+          "source_url": "https://www.wikidata.org/wiki/Q122958684",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Pasco–Hernando State College",
+          "source_url": "https://www.wikidata.org/wiki/Q122958684",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Los Angeles, California",
+          "source_url": "https://en.wikipedia.org/wiki/Manny_Rutinel",
+          "snippet": "Rutinel was born in Los Angeles, California",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "attended schools in Florida",
+          "source_url": "https://en.wikipedia.org/wiki/Manny_Rutinel",
+          "snippet": "They returned to the United States and lived in California and Florida . He attended schools in Florida.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "worked at McDonald's while attending high school; served as an economist for the United States Army Corps of Engineers in Upstate New York from 2016 to 2018; worked as an associate attorney at Earthjustice after graduating from law school; worked as the CEO of Climate Refarm, a non-profit organization, since 2021",
+          "source_url": "https://en.wikipedia.org/wiki/Manny_Rutinel",
+          "snippet": "He stated that he worked at McDonald's while attending high school and regularly gave blood at a plasma center to help support his family. [ 2 ] Rutinel earned an associate degree from Pasco–Hernando State College , a Bachelor of Arts in economics and Bachelor of Science in microbiology from the University of Florida , a Master of Science in applied economics from Johns Hopkins University , and a Juris Doctor from Yale Law School . [ 5 ] Career [ edit ] Rutinel in 2025 From 2016 to 2018, Rutinel served as an economist for the United States Army Corps of Engineers in Upstate New York . [ 6 ] After graduating from law school, he worked as an associate attorney at Earthjustice . Since 2021, Rutinel has worked as the CEO of Climate Refarm, a non-profit organization.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing and Healthcare",
+          "value": "Fight to lower the cost of housing and healthcare",
+          "snippet": "We must fight to lower the cost of housing and healthcare"
+        },
+        {
+          "topic": "Equal Opportunity",
+          "value": "Ensure that everyone in America truly has a fair chance at success, with equal opportunity starting in our community",
+          "snippet": "A promise to ensure that everyone in America truly has a fair chance at success. Equal opportunity starts right here in our community."
+        }
+      ],
+      "platform_source_url": "https://www.mannyforcolorado.com/",
+      "_platform_resolved_at": "2026-08-12T11:20:34.234Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:28.788Z",
+      "bio_summary": {
+        "value": "This fight is personal for me. I’m the proud son of a working-class single mother who had a dream of a better life for her children. Despite America’s promise of opportunity, I grew up filling out food stamp and Medicaid forms to survive—the same programs that Trump and Gabe Evans are destroying. During the Great Recession, the bank foreclosed on our home. With hard work, determination, and the love, support, and grace of my family and community, I found my way.",
+        "source_url": "https://www.mannyforcolorado.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:58.278Z",
+      "platform_video_tier": null,
+      "campaign_site_url": "https://mannyforcolorado.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:21.407Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

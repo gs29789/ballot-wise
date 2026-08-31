@@ -1,0 +1,725 @@
+{
+  "state": "MI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-12",
+  "generated_at": "2026-08-18T20:33:00.316Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
+    "primarySnippet": "MCL 168.52: A general primary election of all political parties shall be held in every election precinct in this state on the Tuesday succeeding the first Monday in August preceding every general November election in which a governor is to be elected, at which time the qualified and registered electors of each political party shall vote for party candidates for the office of governor.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-641.html",
+    "generalSnippet": "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
+    "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Michigan's_12th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Rashida Tlaib, James Hooper, Brenda Sanders, Marc Joseph Sosnowski, and Gary Walkowicz are running in the general election for U.S. House Michigan District 12 on November 3, 2026. Sanders, Sosnowski, and Walkowicz have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 35.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.1
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.61
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 30.19
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4488.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4484.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4475.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4470.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4475.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4478.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4478
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4479.3
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4485.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4488.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4488.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4495.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4486.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4484.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4483.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4477.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4485.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4498
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4497.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4479.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4490.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4492.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4485.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4474.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4479.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4463.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4455.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4483
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4472.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4481.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4473.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4468
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4452.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4439.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4433.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4430.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 722948012.63,
+        "perCapitaUsd": 945.2
+      },
+      {
+        "year": "2024",
+        "totalUsd": 318339193.04,
+        "perCapitaUsd": 416.21
+      },
+      {
+        "year": "2025",
+        "totalUsd": 419999410.8,
+        "perCapitaUsd": 549.12
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10034118
+      },
+      {
+        "year": "2023",
+        "population": 10037261
+      },
+      {
+        "year": "2024",
+        "population": 10140459
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66986
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69183
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72389
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "james-hooper",
+      "full_name": "HOOPER, JAMES D",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2MI12198",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "east side of Detroit",
+          "source_url": "https://jameshooperforcongress.com/",
+          "snippet": "As a blue-collar Republican, James grew up on the east side of Detroit.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "Wayne County Chairman, Wayne 11th Congressional District Republican Committee",
+          "source_url": "https://jameshooperforcongress.com/",
+          "snippet": "James serves as the Wayne County Chairman and has successfully recruited grassroots patriots to serve on the Wayne 11th Congressional District Republican Committee.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Pro-Life",
+          "value": "Unapologetically pro-life from conception to natural death, committed to being a strong and relentless voice for life in the U.S. House of Representatives",
+          "snippet": "James Hooper is unapologetically PRO-LIFE from conception to natural death. He has stood shoulder-to-shoulder with other Pro-Life advocates, and will continue to be a strong and relentless voice for LIFE in the U.S. House of Representatives at this most critical time."
+        }
+      ],
+      "platform_source_url": "https://jameshooperforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:20:26.168Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-21T12:00:31.583Z",
+      "bio_summary": {
+        "value": "James Hooper is a liberty-minded conservative Republican. He is the only vetted conservative Republican in the race. James serves as the Wayne County Chairman and has successfully recruited grassroots patriots to serve on the Wayne 11th Congressional District Republican Committee. As a blue-collar Republican, James grew up on the east side of Detroit. He worked for many years in Eastern Market. Later he shifted into the building trades.",
+        "source_url": "https://jameshooperforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:41:15.628Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:34:03.368Z"
+    },
+    {
+      "slug": "rashida-tlaib",
+      "full_name": "TLAIB, RASHIDA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8MI13250",
+      "fec_status": "C",
+      "bioguide_id": "T000481",
+      "financials": null,
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-07-24",
+          "source_url": "https://www.wikidata.org/wiki/Q7294939",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Detroit, Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q7294939",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Southwestern High School",
+          "source_url": "https://www.wikidata.org/wiki/Q7294939",
+          "source_type": "wikidata_structured"
+        },
+        "civic_affiliations": {
+          "value": "Member of the Democratic Socialists of America",
+          "source_url": "https://rashidaforcongress.com/",
+          "snippet": "A proud member of the Democratic Socialists of America",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Southwestern High School (1994)",
+          "source_url": "https://www.ballotready.org/people/rashida-tlaib",
+          "snippet": "High School Diploma, Southwestern High School (1994)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Corporate PAC Money",
+          "value": "Does not take any money from corporate PACs",
+          "snippet": "Rashida does not take any money from corporate PACs."
+        },
+        {
+          "topic": "Community Funding",
+          "value": "Secured more than $68 million in direct federal funding for local communities",
+          "snippet": "Rashida has secured more than $68 million in direct federal funding for her local communities"
+        },
+        {
+          "topic": "Water Infrastructure",
+          "value": "Advocacy resulted in billions being dedicated to water affordability, lead service line replacement, and local infrastructure projects",
+          "snippet": "her advocacy has resulted in billions more being dedicated to water affordability, lead service line replacement, and local infrastructure projects"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Working to lower costs for working families",
+          "snippet": "She has worked tirelessly to lower costs for working families"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Working toward healthcare for all and healthcare equity",
+          "snippet": "healthcare for all and healthcare equity"
+        },
+        {
+          "topic": "Reproductive Justice",
+          "value": "Working toward reproductive justice",
+          "snippet": "reproductive justice"
+        },
+        {
+          "topic": "LGBTQ+ Rights",
+          "value": "Working toward LGBTQ+ rights and gender justice",
+          "snippet": "LGBTQ+ rights and gender justice"
+        }
+      ],
+      "platform_source_url": "https://rashidaforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:20:32.646Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=UXyrnJZOnZk",
+      "platform_video_title": "Rashida Tlaib for Congress — Receipts 15",
+      "platform_video_source_url": "https://rashidaforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:00:47.236Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Housing and Insurance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 146,
+        "bills_cosponsored": 3398,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 4744 Grand River Avenue in Detroit, Michigan, as the \"Rosa Louise McCauley Parks Post Office Building\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "6614",
+            "publicLawNumber": "117-234",
+            "summary": "This act designates the facility of the United States Postal Service located at 4744 Grand River Avenue in Detroit, Michigan, as the Rosa Louise McCauley Parks Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ234"
+          },
+          {
+            "title": "Representative Payee Fraud Prevention Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5214",
+            "publicLawNumber": "116-126",
+            "summary": "Representative Payee Fraud Prevention Act of 2019 This bill prohibits a representative payee (i.e., a person designated to receive payments on behalf of a minor, a mentally incompetent individual, or an individual under other legal disability) from embezzling or converting the amounts received from certain retirement funds. If the Office of Personnel Management (OPM) determines that a representative payee has embezzled or converted payments from the Civil Service Retirement System or the Federal Employees Retirement System for a use other than the benefit of the individual on whose behalf such payments were received, OPM shall (1) revoke the certification for payment of benefits to the representative payee, and (2) certify payment to another representative payee or to the individual.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ126"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.29,
+          "nominateDim2": -0.957,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/T000481"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 26.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/T000481"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Rashida currently serves Michigan’s 12th Congressional District in the U.S. House of Representatives. Raised in Southwest Detroit in a proud working-class union household as the daughter of Palestinian immigrants, Rashida learned early on the importance of community, service, and standing up for working people. As the eldest of 14 children, she has been taking care of people most of her life.",
+        "source_url": "https://rashidaforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:41:13.751Z",
+      "campaign_site_url": "https://rashidaforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:03.368Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
