@@ -32,7 +32,7 @@
     "snippet": "Incumbent Chellie Pingree and Ronald C. Russell are running in the general election for U.S. House Maine District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 8.22
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8667926807.41,
-        "perCapitaUsd": 12623.54
+        "totalUsd": 8668164357.41,
+        "perCapitaUsd": 12623.88
       },
       {
         "year": "2024",
-        "totalUsd": 9224491507.26,
-        "perCapitaUsd": 13434.09
+        "totalUsd": 9225009535.41,
+        "perCapitaUsd": 13434.85
       },
       {
         "year": "2025",
-        "totalUsd": 9769591417.03,
-        "perCapitaUsd": 14227.95
+        "totalUsd": 9777157827.03,
+        "perCapitaUsd": 14238.97
       }
     ],
     "population": null,
@@ -264,7 +264,9 @@
         "value": "Chellie Pingree has lived on the offshore island of North Haven, Maine, since she was a teenager. On North Haven she has been an organic farmer, raised three children and started two successful small businesses. After serving as the town’s tax collector (a job no one else wanted) she became the chair of the local school board and eventually was elected to the State Senate from a predominantly Republican district. In 2008 she was elected to Congress to represent Maine’s First District.",
         "source_url": "https://www.chelliepingree.com/meet-chellie/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:50.049Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:50.049Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.472Z"
     },
     {
       "slug": "ronald-russell",
@@ -317,7 +319,9 @@
         "value": "A West Point Graduate who served 30 years in the United States Army. I am an Airborne Ranger Green Beret, who is looking to continue that service as your representative to the United States Congress.",
         "source_url": "https://ronrussellforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:39.244Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:39.244Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.471Z"
     }
   ]
 }

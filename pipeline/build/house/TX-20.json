@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-20",
-  "generated_at": "2026-08-21T12:29:58.565Z",
+  "generated_at": "2026-08-29T20:54:42.657Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -483,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155163597.59,
-        "perCapitaUsd": 6674.23
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": [
@@ -607,14 +607,25 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Our community deserves a representative who understands the value of service, sacrifice, and dedication. With a diverse background as a soldier, critical care nurse, and dedicated attorney for over two decades, Dr. Edgar B&aacute;ez brings real-world experience to the race. He is committed to defending constitutional rights, stimulating the local economy, and rejecting destructive socialist ideologies.",
-        "source_url": "https://www.drbaezforcongress.com/"
+        "source_url": "https://www.drbaezforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:17:40.784Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075672.pdf",
+        "filingDate": "4/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-29T20:54:09.325Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -677,14 +688,25 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Stand with Joaquin and together we can build opportunity – not barriers – for all Americans.",
-        "source_url": "https://castroforcongress.com/"
+        "source_url": "https://castroforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:29:12.637Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116275.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-29T20:54:14.323Z",
       "recent_votes": [],
       "performance": {
         "attendance": null,
@@ -793,6 +815,7 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": null,
       "_bio_summary_resolved_at": null,

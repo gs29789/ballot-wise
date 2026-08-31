@@ -552,9 +552,20 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Unity and Bipartisanship",
+          "value": "Advocates for reducing political division and increasing dialogue across differences, believing people should stop constant fighting and suspicion while standing firmly for principles and making space to understand others",
+          "snippet": "on a human level, it is not healthy for us to be this divided. We were not meant to live in constant fight mode or suspicion of one another. We can stand firmly for our principles, as we always have, while still making space to understand where someone else is coming from."
+        },
+        {
+          "topic": "Government Trust and Transparency",
+          "value": "Committed to restoring confidence in how government works and rebuilding trust between government and the community it serves",
+          "snippet": "He prioritized rebuilding trust between the city and the community it serves and has remained committed to that ever since."
+        }
+      ],
+      "platform_source_url": "https://www.bakerforcongress.com/",
+      "_platform_resolved_at": "2026-08-31T12:34:35.593Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -565,7 +576,10 @@
         "value": "Seventeen years ago, when people were moving out of Michigan, Ethan and his wife Bethany were moving in, choosing Oakland County as the place to build their life and raise their family. It was a deliberate decision to put down roots, slow down, and invest in a place they could truly call home. He was elected to City Council in 2015 and later as Mayor of Troy in 2019, where he has served for the last seven years as a nonpartisan leader committed to restoring confidence in how local government works.",
         "source_url": "https://www.bakerforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:41:07.413Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:41:07.413Z",
+      "campaign_site_url": "https://www.bakerforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:01.935Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "anil-kumar",
@@ -603,7 +617,10 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:33:23.667Z"
+      "_no_site_search_attempted_at": "2026-08-22T15:33:23.667Z",
+      "campaign_site_url": "https://www.drkumar4congress.com/",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:01.937Z",
+      "_campaign_site_reachability": "blocked_other"
     },
     {
       "slug": "jeremy-moss",
@@ -700,7 +717,10 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
-      "_platform_video_resolved_at": null
+      "_platform_video_resolved_at": null,
+      "campaign_site_url": "https://votejeremymoss.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:01.934Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

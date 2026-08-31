@@ -23,7 +23,7 @@
     "snippet": "Craig Goldman (Incumbent) (Republican Party) / Heli Rodriguez Prilliman (Democratic Party)"
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -166,7 +166,7 @@
         ],
         "bills_sponsored": 14,
         "bills_cosponsored": 211,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Office of Energy Efficiency and Renewable Energy, Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Commercial Refrigerators, Freezers, and Refrigerator-Freezers\".",
@@ -200,7 +200,9 @@
         "value": "It’s an incredible honor to represent the people of Texas District 12 in the United States Congress, where I work every day to champion conservative values and fight for the American taxpayer.",
         "source_url": "https://www.craiggoldman.org/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:17:09.307Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:17:09.307Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.809Z"
     }
   ]
 }

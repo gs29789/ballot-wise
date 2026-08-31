@@ -24,7 +24,7 @@
     "snippet": "Incumbent Matt Van Epps, Darden Copeland, Andrew Koontz, and Lowell Reynolds are running in the general election for U.S. House Tennessee District 7 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,22 +47,22 @@
         "ratePer100k": 34.24
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4167854631.75,
-        "perCapitaUsd": 5449.14
+        "totalUsd": 4167755806.75,
+        "perCapitaUsd": 5449.01
       },
       {
         "year": "2024",
-        "totalUsd": 5258880056.52,
-        "perCapitaUsd": 6850.34
+        "totalUsd": 5259044056.52,
+        "perCapitaUsd": 6850.55
       },
       {
         "year": "2025",
-        "totalUsd": 4697082092.97,
-        "perCapitaUsd": 6141.06
+        "totalUsd": 4697352643.79,
+        "perCapitaUsd": 6141.41
       }
     ],
     "population": null,
@@ -137,7 +137,9 @@
         "value": "Darden Copeland is a husband, father, brother, business owner and entrepreneur who believes the current political system is broken, and families across middle Tennessee deserve better. A public school kid with working class roots, Darden is no stranger to hard work. His father started an industrial uniform company where Darden worked every summer and each day after school. He was fired three times, but was always hired back before breakfast the next morning. Student loans and multiple jobs got Darden through the University of Richmond, and into a career in political campaigns and business.",
         "source_url": "https://www.dardenforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:15:33.359Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:15:33.359Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:58.683Z"
     },
     {
       "slug": "andrew-koontz",
@@ -161,18 +163,8 @@
         }
       },
       "bio": {
-        "high_school": {
-          "value": "Chatham Borough High School",
-          "source_url": "https://www.ballotready.org/people/andrew-koontz",
-          "snippet": "High School Diploma, Chatham Borough High School",
-          "source_type": "llm_extracted_ballotready"
-        },
-        "employment_record": {
-          "value": "Mercer County Board of Chosen Freeholders, Board President (2011 - Present); Princeton Borough Council, Council President (2003 - 2010); Hightstown High School, Film and Television Teacher",
-          "source_url": "https://www.ballotready.org/people/andrew-koontz",
-          "snippet": "Mercer County Board of Chosen Freeholders, Board President (2011 - Present) Princeton Borough Council, Council President (2003 - 2010) Hightstown High School, Film and Television Teacher",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "high_school": null,
+        "employment_record": null
       },
       "platform": [],
       "platform_source_url": null,
@@ -181,7 +173,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T20:56:22.666Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:58.685Z"
     },
     {
       "slug": "lowell-reynolds",
@@ -241,7 +236,9 @@
         "value": "Lowell Reynolds was born in Florida, raised in Indiana, and built his life in Nashville, Tennessee. A successful career in the music industry earned him a Grammy Statuette for his engineering along with several other professional honors. The son of a small business owner, Lowell learned early the value of hard work, personal responsibility, and perseverance. He went on to earn a business degree and is now a 3L at Syracuse University College of Law. Lowell is married to his high school sweetheart and is the proud father of two sons.",
         "source_url": "https://loareyno.wpcomstaging.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:15:29.042Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:15:29.042Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:58.684Z"
     },
     {
       "slug": "matthew-van-epps",
@@ -386,7 +383,33 @@
           "votesCast": 198,
           "attendanceRate": 1
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Transportation and Maritime Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Counterterrorism and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 6,
         "bills_cosponsored": 76,
         "bills_became_law": 0,
@@ -404,7 +427,9 @@
         "value": "Matt Van Epps is a West Point graduate and combat veteran ready to support President Trump's MAGA agenda in Washington.",
         "source_url": "https://www.mattfortn.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:15:30.601Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:15:30.601Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:58.665Z"
     }
   ]
 }

@@ -584,7 +584,10 @@
         "value": "Nick Manganaro is a logical and methodical person. He is fair-minded and driven by data rather than emotion, which is what Congress needs. He spent most of his finance career in research, product development, and risk management. He has consulted with multi-national financial industries on the quantification and management of risk, which will give him insights unique in Congress today.",
         "source_url": "https://manganaro4congress.net/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:38:29.780Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:38:29.780Z",
+      "campaign_site_url": "https://manganaro4congress.net",
+      "_campaign_site_discovered_at": "2026-08-30T20:29:09.735Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "mary-scanlon",
@@ -608,21 +611,9 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1947-05-25",
-          "source_url": "https://www.wikidata.org/wiki/Q1906394",
-          "source_type": "wikidata_structured"
-        },
-        "birthplace": {
-          "value": "Dundee",
-          "source_url": "https://www.wikidata.org/wiki/Q1906394",
-          "source_type": "wikidata_structured"
-        },
-        "college": {
-          "value": "University of Dundee",
-          "source_url": "https://www.wikidata.org/wiki/Q1906394",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
+        "birthplace": null,
+        "college": null,
         "employment_record": {
           "value": "US House of Representatives, Representative - District 5 (2018 - Present); Wallingford-Swarthmore School District, School Director (2007 - 2015); Education Law Center of Pennsylvania, Attorney (1992 - 2001); Duane Morris LLP, Litigation Associate (1986 - 1992); Pennsylvania Superior Court, Judicial Clerk",
           "source_url": "https://www.ballotready.org/people/mary-gay-scanlon",
@@ -739,7 +730,16 @@
       },
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-21T12:00:13.738Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:21.858Z"
+      "_no_site_search_attempted_at": "2026-08-22T15:32:21.858Z",
+      "bio_summary": {
+        "value": "Maey Scanlon was born in Syracuse, New York , in 1959. She earned a bachelor's degree in history from Colgate University in 1980 and her J.D. from the University of Pennsylvania in 1984. [1] [2] She previously worked as a law clerk, and as an attorney at Ballard Spah, the Education Law Center of Pennsylvania and the Support Center for Child Advocates. [1] [2] ",
+        "source_url": "https://ballotpedia.org/Mary_Gay_Scanlon",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:16:01.087Z",
+      "campaign_site_url": "https://www.scanlonforcongress.com/",
+      "_campaign_site_discovered_at": "2026-08-30T20:29:09.741Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

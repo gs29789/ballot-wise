@@ -32,7 +32,7 @@
     "snippet": "Melissa Hernandez and Aisha Wahab are running in the general election for U.S. House California District 14 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -154,7 +154,9 @@
         "value": "Melissa Hernandez is the daughter of migrant farmworkers, a working mom, and the first Latina Mayor of Dublin. As Mayor, she kept Dublin financially strong without raising taxes, built housing at every level of affordability, and improved public safety. Now she's running for Congress to bring that same results-driven leadership to Washington.",
         "source_url": "https://melissahernandez2026.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:22:13.845Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:22:13.845Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:03.057Z"
     },
     {
       "slug": "aisha-wahab",
@@ -234,7 +236,9 @@
         "value": "I’ve taken on powerful interest groups to fight for affordable housing, expand homeownership, and improve living conditions . When affordability is on the line, I don’t back down. I’ve fought for good jobs, career training for all ages, and real investment in the small businesses that keep our communities strong. In tough times, I’ve protected funding for food, healthcare, and public education — because dignity and opportunity shouldn’t be out of reach.",
         "source_url": "https://www.aishawahab.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:22:10.175Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:22:10.175Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:03.056Z"
     }
   ]
 }

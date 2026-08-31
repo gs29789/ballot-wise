@@ -545,7 +545,11 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:31.489Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:06.887Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:53.369Z"
     },
     {
       "slug": "douglas-ollivant",
@@ -623,7 +627,10 @@
         "value": "Doug Ollivant is a father, husband, and retired U.S. Army Lieutenant Colonel who brings a results-oriented approach to leadership, grounded in service, integrity, and common sense.",
         "source_url": "https://www.dougforvirginia.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:59:42.664Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:59:42.664Z",
+      "campaign_site_url": "https://dougforvirginia.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:25.070Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "yevgeny-vindman",
@@ -729,7 +736,16 @@
           "profileUrl": "https://www.bridgegrades.org/congress/V000138"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:31.775Z",
+      "bio_summary": {
+        "value": "Eugene Semyon Vindman (born Yevgeny Semyonovich Vindman ; [ a ] June 6, 1975) is an American politician, lawyer, and retired U.S. Army officer serving as the U.S. representative for Virginia's 7th congressional district since 2025. [ 1 ] A member of the Democratic Party , he was a deputy legal advisor for the United States National Security Council (NSC) until he was reassigned on February 7, 2020. [ 2 ] [ 3 ] Vindman came to national attention in October 2019 when his twin brother, Lieutenant Colonel Alexander Vindman , testified before the United States Congress regarding the Trump–Ukraine scandal . Because of his position on the NSC, Eugene had received Alexander's report of President Trump 's telephone call to Ukraine, which he later reported to senior White House lawyers. Alexander Vindman's testimony provided evidence that resulted in a charge of abuse of power in the first impeachment of Donald Trump . In 2024, Vindman won the Democratic nomination for Virginia's 7th congressional district in the 2024 election . [ 4 ] He defeated Republican Derrick Anderson in the general election, [ 5 ] [ 6 ] and assumed office on January 3, 2025. [ 7 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Eugene_Vindman",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:47:14.474Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:53.368Z"
     }
   ]
 }

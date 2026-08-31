@@ -483,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155163597.59,
-        "perCapitaUsd": 6674.23
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": [
@@ -588,8 +588,12 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Enrique Roberto \"Henry\" Cuellar [ 1 ] ( / ˈ k w eɪ . ɑː r / KWAY -ar ; born September 19, 1955) [ 2 ] is an American politician and attorney serving as the U.S. representative for Texas's 28th congressional district since 2005. He is a member of the Democratic Party , and his district spans from the Rio Grande toward the suburbs of San Antonio . Cuellar served in the Texas House of Representatives for 14 years, from 1987 to 2001, and briefly served as the Texas secretary of state in 2001, making him, as of 2026, the most recent Democrat to have held a statewide office in Texas. Cuellar was first elected to Congress in 2004 , after defeating incumbent Ciro Rodriguez in a primary challenge. Known as a leading centrist Democrat, [ 3 ] [ 4 ] [ 5 ] he is one of the most conservative House Democrats . [ 6 ] [ 7 ] [ 8 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Henry_Cuellar",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:27:06.383Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077167.pdf",
         "filingDate": "5/15/2026",
@@ -628,7 +632,7 @@
         ],
         "bills_sponsored": 123,
         "bills_cosponsored": 2502,
-        "bills_became_law": 16,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 2395 East Del Mar Boulevard in Laredo, Texas, as the \"Lance Corporal David Lee Espinoza, Lance Corporal Juan Rodrigo Rodriguez & Sergeant Roberto Arizola Jr. Post Office Building\".",

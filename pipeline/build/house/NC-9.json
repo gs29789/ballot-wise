@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-09",
-  "generated_at": "2026-08-14T13:41:21.484Z",
+  "generated_at": "2026-08-25T22:14:17.898Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
@@ -18,6 +18,7 @@
     "source_url": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-10/section-163-106/",
     "snippet": "the candidate shall file with the same office a statement answering the following question: \"Have you ever been convicted of a felony?\" ... The form shall be available as a public record in the office of the board of elections where the candidate files notice of candidacy and shall contain an explanation that a prior felony conviction does not preclude holding elective office if the candidate's rights of citizenship have been restored."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_North_Carolina,_2026",
     "snippet": "Richard Hudson (Incumbent) (Republican Party); Richard Ojeda (Democratic Party); Tita Hunter-Herod (Independent)"
@@ -564,11 +565,40 @@
           "source_url": "https://history.house.gov/People/Listing/H/HUDSON,-Richard-(H001067)/",
           "snippet": "communications director, North Carolina Republican party; business owner; staff, United States Representative Robert (Robin) Hayes of North Carolina, 2000-2005; staff, United States Representative Virginia Ann Foxx of North Carolina, 2005-2006; staff, United States Representative John R. Carter of Texas, 2006-2009; staff, United States Representative K. Michael Conaway of Texas, 2009-2011",
           "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Renee",
+          "source_url": "https://richardhudson.org/about/",
+          "snippet": "Richard, his wife Renee, and their son live in Southern Pines",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Law Enforcement",
+          "value": "Supports good police officers and law enforcement who serve communities",
+          "snippet": "support good police officers and law enforcement who serve our communities"
+        },
+        {
+          "topic": "Opioid Crisis",
+          "value": "Supports building on efforts to end the opioid epidemic",
+          "snippet": "build on our efforts to end the opioid epidemic"
+        }
+      ],
+      "platform_source_url": "https://richardhudson.org/issues/",
+      "_platform_resolved_at": "2026-08-25T22:13:30.959Z",
+      "campaign_site_url": "http://www.richardhudsonforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Richard Hudson has represented North Carolina in Congress since 2013. In the U.S. House of Representatives, Richard is recognized as a conservative leader, focused on common-sense solutions to support our economy, veterans, and families. He also serves as chairman of the National Republican Congressional Committee (NRCC), placing him as the fifth-ranking Member in leadership and one of the highest-ranking Congressmen from North Carolina in history. As a Member of the House Energy and Commerce Committee, Richard is working to cut federal spending, reduce drug prices for seniors, and unleash American energy to lower costs for everyone and create jobs. As the Sandhills’ Congressman and representative of the largest military base in the world, Richard is also focused on supporting our troops, their families, and veterans.",
+        "source_url": "https://richardhudson.org/about/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:43.831Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081164.pdf",
         "filingDate": "6/29/2026",
@@ -704,7 +734,8 @@
           "profileUrl": "https://www.bridgegrades.org/congress/H001067"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:21.804Z"
     },
     {
       "slug": "tita-hunter-herod",
@@ -715,7 +746,20 @@
       "fec_status": "N",
       "bioguide_id": null,
       "financials": null,
-      "bio": {},
+      "bio": {
+        "employment_record": {
+          "value": "Foreign Language Professor at North Carolina Central University",
+          "source_url": "https://146770.campaignpartner.net/meet_tita",
+          "snippet": "last day I attended as a Senator f or the Faculty-Senate at the North Carolina Central University for this is the semester that I retired as Foreign Language Professor",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Senator for the Faculty-Senate at the North Carolina Central University",
+          "source_url": "https://146770.campaignpartner.net/meet_tita",
+          "snippet": "last day I attended as a Senator f or the Faculty-Senate at the North Carolina Central University",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
       "platform": [
         {
           "topic": "Discrimination/Socialism",
@@ -750,11 +794,24 @@
       ],
       "platform_source_url": "https://146770.campaignpartner.net/",
       "_platform_resolved_at": "2026-08-14T13:40:43.151Z",
+      "campaign_site_url": "https://146770.campaignpartner.net",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am running as an Independent candidate for US House of Representative, for me to be able to help the country's on going problem on socialism, economy, education , fraud, corruptio n and immigration. Socialism, in the sense that many are discriminated because of race, sex, gender, religion, just to mention a few. On economy, many are in dire need of food to put on the table, gas to run errands, home for the homeless e.g. military veterans and low income family, etc . Education for students who cannot afford to go to school because of higher tuition; because of parents struggling to put their children to a safe public school.",
+        "source_url": "https://146770.campaignpartner.net/meet_tita",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:12.670Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:22.213Z"
     },
     {
       "slug": "richard-ojeda",
@@ -810,11 +867,55 @@
           "source_url": "https://en.wikipedia.org/wiki/Richard_Ojeda",
           "snippet": "He established a social services nonprofit, the Logan Empowerment Action and Development, which engaged in community cleanup, Christmas toy drives, providing meals for the needy, and raising money for shoes for kids.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "spent his career in the military, as a teacher, and as a fighter in state legislature",
+          "source_url": "https://ojedafornc.com/",
+          "snippet": "Richard Ojeda has spent his career in the military, as a teacher, and as a fighter in state legislature.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Veterans",
+          "value": "Protect and improve VA care, pensions, and mental health support for veterans",
+          "snippet": "Protect and improve VA care, pensions, and mental health support for veterans."
+        },
+        {
+          "topic": "Education",
+          "value": "Raise teacher pay, cut student debt, and keep politics out of the classroom",
+          "snippet": "Raise teacher pay, cut student debt, and keep politics out of the classroom."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Strengthen Medicare and Medicaid, protect body autonomy",
+          "snippet": "Strengthen Medicare and Medicaid, protect body autonomy."
+        },
+        {
+          "topic": "Working Families",
+          "value": "Boost wages, support farmers, defend labor rights, and invest in skilled trades",
+          "snippet": "Boost wages, support farmers, defend labor rights, and invest in skilled trades."
+        },
+        {
+          "topic": "Social Security",
+          "value": "Raise the income cap and stop retirement age hikes",
+          "snippet": "Raise the income cap and stop retirement age hikes."
+        }
+      ],
+      "platform_source_url": "https://ojedafornc.com/",
+      "_platform_resolved_at": "2026-08-25T22:12:56.581Z",
+      "campaign_site_url": "https://www.ojedafornc.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=IB0VwQe7q2M",
+      "platform_video_title": "Richard Ojeda Joins Anderson Clayton for Community Town Hall Discussion",
+      "platform_video_source_url": "https://ojedafornc.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-29T16:58:40.457Z",
+      "bio_summary": {
+        "value": "This campaign is about service. Richard Ojeda has spent his career in the military, as a teacher, and as a fighter in state legislature. When he goes to D.C., you can count on his commitment to:  Representing Real People Richard Hudson has been putting the interests of billionaires before those of working families in N.C. That stops now.  Country Over Party This country is at a turning point, and we deserve leaders who know what it means to serve and stand for our nation, united.",
+        "source_url": "https://ojedafornc.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:13:05.020Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/8221155.pdf",
         "filingDate": "6/10/2025",

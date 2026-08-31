@@ -23,7 +23,7 @@
     "snippet": "Leticia Gutierrez and Alex Mealer are running in the general election for U.S. House Texas District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -90,16 +90,8 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1951-05-20",
-          "source_url": "https://www.wikidata.org/wiki/Q18152565",
-          "source_type": "wikidata_structured"
-        },
-        "birthplace": {
-          "value": "Guadalajara",
-          "source_url": "https://www.wikidata.org/wiki/Q18152565",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
+        "birthplace": null,
         "employment_record": {
           "value": "I have been in this fight for 15 years. I have advocated, organized, and marched",
           "source_url": "https://www.leticiaforcongress.com/",
@@ -141,7 +133,9 @@
         "source_url": "https://www.leticiaforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:56.798Z",
-      "platform_video_tier": null
+      "platform_video_tier": null,
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.587Z"
     },
     {
       "slug": "alexandra-mealer",
@@ -227,7 +221,9 @@
         "value": "Wife/Mother Combat Veteran Former Oil & Gas / Finance Exec. Small Business Owner West Point Harvard JD/MBA The newly drawn TX-09 is the FUTURE OF THE REPUBLICAN PARTY and how we deliver PRESIDENT TRUMP’S AMERICA FIRST VISION I know how to tackle extremely complex problems and I have the track record to prove it. Whether DEFUSING BOMBS in Afghanistan or fighting to take back Harris County as a political outsider, I LEAD when others RUN AWAY",
         "source_url": "https://alexandramealer.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:16:54.233Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:16:54.233Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.587Z"
     }
   ]
 }

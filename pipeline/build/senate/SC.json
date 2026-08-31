@@ -1,9 +1,9 @@
 {
   "state": "SC",
-  "office": "H",
+  "office": "S",
   "cycle": 2026,
-  "race_slug": "house-03",
-  "generated_at": "2026-08-17T15:54:46.705Z",
+  "race_slug": "senate",
+  "generated_at": "2026-08-29T17:26:04.653Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
@@ -20,11 +20,16 @@
   },
   "voting_system": null,
   "primary_results": {
-    "source_url": "https://ballotpedia.org/South_Carolina%27s_3rd_Congressional_District_election,_2026",
-    "snippet": "Incumbent Sheri Biggs, Eunice Lehmacher, and Brian Corriea are running in the general election for U.S. House South Carolina District 3 on November 3, 2026."
+    "source_url": "https://www.nbcnews.com/politics/2026-election/darline-graham-winner-south-carolina-gop-senate-primary-rcna593581",
+    "snippet": "NBC News projects that Graham, who received Trump's full-throated support, defeated Rep. Ralph Norman to replace her late brother on the November ballot."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2414.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2404.6
+        "thousandsOfJobs": 2409.8
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8056262056.93,
-        "perCapitaUsd": 10824.53
+        "totalUsd": 8055896515.93,
+        "perCapitaUsd": 10824.04
       },
       {
         "year": "2024",
-        "totalUsd": 7634388716.28,
-        "perCapitaUsd": 10257.69
+        "totalUsd": 7634537523.59,
+        "perCapitaUsd": 10257.89
       },
       {
         "year": "2025",
-        "totalUsd": 8661664107.49,
-        "perCapitaUsd": 11637.95
+        "totalUsd": 8661674107.49,
+        "perCapitaUsd": 11637.97
       }
     ],
     "population": [
@@ -518,183 +528,122 @@
   },
   "candidates": [
     {
-      "slug": "sheri-biggs",
-      "full_name": "BIGGS, SHERI",
-      "party": "REPUBLICAN PARTY",
-      "incumbent": true,
-      "fec_candidate_id": "H4SC01313",
+      "slug": "annie-andrews",
+      "full_name": "ANDREWS, ANNIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6SC04239",
       "fec_status": "C",
-      "bioguide_id": "B001325",
+      "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 505333.1,
-        "totalSpent": 390677.28,
+        "totalRaised": 10804040.5,
+        "totalSpent": 6684745.5,
         "cashOnHand": null,
         "fundingSources": {
-          "smallDollar": 6400.16,
-          "largeDollar": 83151.22,
-          "pac": 291475.5,
+          "smallDollar": 6474403.13,
+          "largeDollar": 4202806.8,
+          "pac": 104955,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.drannieandrews.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=rG8w9atWV2c",
+      "platform_video_title": "Dr. Annie Andrews for Congress Announcement Video",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-08-30T12:00:08.697Z",
+      "bio_summary": {
+        "value": "Anne Lintzenich Andrews (born 1981) is an American pediatrician and political candidate who is the Democratic nominee for the 2026 United States Senate election in South Carolina.",
+        "source_url": "https://en.wikipedia.org/wiki/Annie_Andrews_(physician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T15:18:00.071595Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:08.697Z"
+    },
+    {
+      "slug": "darline-graham",
+      "full_name": "GRAHAM, DARLINE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6SC04437",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 346782.64,
+        "totalSpent": 95351.36,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 50733.26,
+          "largeDollar": 249049.38,
+          "pac": 47000,
           "party": 0,
           "selfFunded": null
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1970-03-28",
-          "source_url": "https://www.wikidata.org/wiki/Q130979821",
-          "source_type": "wikidata_structured"
-        },
         "birthplace": {
-          "value": "Kosciusko, Mississippi",
-          "source_url": "https://www.wikidata.org/wiki/Q130979821",
-          "source_type": "wikidata_structured"
-        },
-        "college": {
-          "value": "Kosciusko School District",
-          "source_url": "https://www.wikidata.org/wiki/Q130979821",
-          "source_type": "wikidata_structured"
-        },
-        "high_school": {
-          "value": "Kosciusko High School, Kosciusko, Miss., 1988",
-          "source_url": "https://history.house.gov/People/Listing/B/BIGGS,-Sheri-(B001325)/",
-          "snippet": "graduated from Kosciusko High School, Kosciusko, Miss., 1988",
-          "source_type": "llm_extracted_house_historian"
-        },
-        "employment_record": {
-          "value": "Mississippi Air National Guard; nurse practitioner; nursing home administrator",
-          "source_url": "https://history.house.gov/People/Listing/B/BIGGS,-Sheri-(B001325)/",
-          "snippet": "Mississippi Air National Guard; nurse practitioner; nursing home administrator",
-          "source_type": "llm_extracted_house_historian"
+          "value": "Born and raised in Central, SC",
+          "source_url": "https://www.darlinegraham.com/",
+          "snippet": "Born and raised in Central, SC",
+          "source_type": "llm_extracted_campaign_site"
         },
         "marital_status": {
-          "value": "married with children",
-          "source_url": "https://www.sheribiggs.com/about",
-          "snippet": "A dedicated wife and mother",
-          "source_type": "llm_extracted_campaign_site_websearch"
-        },
-        "civic_affiliations": {
-          "value": "member of the Temple Baptist Church in Anderson, where she provides counseling; volunteers at the Dream Center and other veterans organizations",
-          "source_url": "https://www.sheribiggs.com/about",
-          "snippet": "Sheri is a member of the Temple Baptist Church in Anderson, where she provides counseling. Active in the community, Sheri also volunteers at the Dream Center and other veterans organizations.",
-          "source_type": "llm_extracted_campaign_site_websearch"
-        }
-      },
-      "platform": [
-        {
-          "topic": "Abortion",
-          "value": "Pro-life",
-          "snippet": "pro-life, pro-Second Amendment lifelong Republican"
-        },
-        {
-          "topic": "Second Amendment",
-          "value": "Pro-Second Amendment",
-          "snippet": "pro-life, pro-Second Amendment lifelong Republican"
-        }
-      ],
-      "platform_source_url": "https://www.sheribiggs.com/",
-      "_platform_resolved_at": "2026-08-13T17:45:44.703Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": {
-        "attendance": null,
-        "committees": [],
-        "bills_sponsored": 16,
-        "bills_cosponsored": 293,
-        "bills_became_law": 0,
-        "enacted_laws": [],
-        "ideology_score": {
-          "nominateDim1": 0.828,
-          "nominateDim2": -0.271,
-          "congress": 119,
-          "sourceUrl": "https://voteview.com/person/B001325"
-        },
-        "bridge_score": {
-          "grade": "F",
-          "score": 15.4,
-          "snapshotDate": "June 30, 2026",
-          "profileUrl": "https://www.bridgegrades.org/congress/B001325"
-        }
-      },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=u8Q5HM9IDRQ",
-      "platform_video_title": "\"She Will Never Let You Down\" - Sheri Biggs for Congress",
-      "platform_video_source_url": "https://www.sheribiggs.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:04:14.009Z",
-      "bio_summary": {
-        "value": "I'm Sheri Biggs. I'm a lieutenant colonel in the Air National Guard, a board certified family nurse practitioner, and board certified psychiatric mental health nurse practitioner, Salem resident, and a pro-life, pro-Second Amendment lifelong Republican. I'm running for re-election to Congress to continue my lifetime of service and treat Washington's health problem with bold, conservative, servant leadership.",
-        "source_url": "https://www.sheribiggs.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:58:31.479Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.428Z"
-    },
-    {
-      "slug": "eunice-lehmacher",
-      "full_name": "LEHMACHER, EUNICE",
-      "party": "DEMOCRATIC PARTY",
-      "incumbent": false,
-      "fec_candidate_id": "H6SC03090",
-      "fec_status": "C",
-      "bioguide_id": null,
-      "financials": {
-        "cycle": 2026,
-        "totalRaised": 40412.88,
-        "totalSpent": 23113.51,
-        "cashOnHand": null,
-        "fundingSources": {
-          "smallDollar": 19631.04,
-          "largeDollar": 20344,
-          "pac": 333.14,
-          "party": 0,
-          "selfFunded": 100
-        }
-      },
-      "bio": {
-        "marital_status": {
-          "value": "Married to Gerald",
-          "source_url": "https://www.euniceforsc.com/about",
-          "snippet": "Eunice and her husband Gerald moved to Clemson in 2002",
+          "value": "Lives in Lexington with her husband, Larry.",
+          "source_url": "https://www.darlinegraham.com/",
+          "snippet": "Lives in Lexington with her husband, Larry.",
           "source_type": "llm_extracted_campaign_site"
         },
         "civic_affiliations": {
-          "value": "Mental Health Board for Anderson, Oconee, Pickens Counties (appointed 2024), Sustainability Advisory Committee for the City of Clemson, Clemson's Police Advisory Board, Sierra Club Foothills Group (president), neighborhood association (president), volunteer with Clemson's Shaw Center for Housing and Economic Growth",
-          "source_url": "https://www.euniceforsc.com/about",
-          "snippet": "In 2024, Eunice was appointed by Governor Henry McMaster to serve on the Mental Health Board for Anderson, Oconee, Pickens Counties. She is also a member of the Sustainability Advisory Committee for the City of Clemson, and has served as a member of Clemson's Police Advisory Board , as president of the Sierra Club Foothills Group , and as president of her neighborhood association. She is a volunteer with Clemson's Shaw Center for Housing and Economic Growth",
+          "value": "Board Member, SC State Workforce Development Board and its SC Works Management Committee. President-Elect National Council of State Agencies for the Blind.",
+          "source_url": "https://www.darlinegraham.com/",
+          "snippet": "Board Member, SC State Workforce Development Board and its SC Works Management Committee. President-Elect National Council of State Agencies for the Blind.",
           "source_type": "llm_extracted_campaign_site"
         },
-        "college": {
-          "value": "Master's, The Catholic University of America, Social Work (1996)",
-          "source_url": "https://www.ballotready.org/people/eunice-lehmacher",
-          "snippet": "Master&#x27;s, The Catholic University of America, Social Work (1996)",
-          "source_type": "llm_extracted_ballotready"
+        "date_of_birth": {
+          "value": "1964-06-12",
+          "source_url": "https://www.wikidata.org/wiki/Q140537772",
+          "source_type": "wikidata_structured"
         },
-        "employment_record": {
-          "value": "LifeSoruce, Inc., Licensed Mental Health Counselor (2023 - Present); Included Health, Counselor (2023 - Present); Clemson University: Clemson Rural Health, Social Worker (2021 - 2023); Prisma Health Hospice of the Foothills, Grief Counselor (2014 - 2021); Private Practice, Social Worker (2010 - 2014)",
-          "source_url": "https://www.ballotready.org/people/eunice-lehmacher",
-          "snippet": "LifeSoruce, Inc., Licensed Mental Health Counselor (2023 - Present) Included Health, Counselor (2023 - Present) Clemson University: Clemson Rural Health, Social Worker (2021 - 2023) Prisma Health Hospice of the Foothills, Grief Counselor (2014 - 2021) Private Practice, Social Worker (2010 - 2014)",
-          "source_type": "llm_extracted_ballotready"
+        "college": {
+          "value": "College of Charleston",
+          "source_url": "https://www.wikidata.org/wiki/Q140537772",
+          "source_type": "wikidata_structured"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.darlinegraham.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=b4lvXMBZh54",
+      "platform_video_title": "Darline Graham for Senate",
+      "platform_video_source_url": "https://www.darlinegraham.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T15:32:44.945Z",
+      "bio_summary": {
+        "value": "For nearly 30 years, Darline Graham has served her home state of South Carolina. Long before she took the oath as the state’s first female senator, she ran programs that helped South Carolinians with disabilities find employment, provide for their families, and live independently. Darline, who is fiercely protective of taxpayer dollars, helped turn around a struggling state agency known for inefficiency. At the Commission for the Blind, she led 130 employees in 10 offices and oversaw a $90 million budget. In her previous roles, she helped South Carolinians find jobs through her work at the state’s vocational rehabilitation agency and Department of Employment and Workforce. Darline has devoted her life to helping people find dignity through work – enabling them to contribute to society and support their families. ",
+        "source_url": "https://www.darlinegraham.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T13:51:59.176Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=N43zDVmnufc",
-      "platform_video_title": "Where is Sheri Biggs?",
-      "platform_video_source_url": "https://www.euniceforsc.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:04:14.405Z",
-      "bio_summary": {
-        "value": "For decades, Eunice Lehmacher has served her clients, her family, and her community in a variety of roles. Now she is ready to serve Upstate South Carolina as its Representative in Congress. Listening, crafting compromises, working through crises, and finding small steps to solve larger problems -- skills essential for any leader – are Eunice’s strengths.",
-        "source_url": "https://www.euniceforsc.com/about"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:58:38.350Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.430Z"
+      "_curated_match": false
     }
   ]
 }

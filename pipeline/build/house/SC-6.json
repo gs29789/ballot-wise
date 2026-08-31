@@ -3,21 +3,22 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-13T17:52:19.155Z",
+  "generated_at": "2026-08-29T17:25:22.891Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
-    "primarySnippet": "S.C. Code Ann. \u00a7 7-13-40: 'a party primary must be held by the party and conducted by the State Election Commission and the respective county boards of voter registration and elections on the second Tuesday in June of each general election year' \u2014 June 9, 2026 is the second Tuesday in June 2026.",
+    "primarySnippet": "S.C. Code Ann. § 7-13-40: 'a party primary must be held by the party and conducted by the State Election Commission and the respective county boards of voter registration and elections on the second Tuesday in June of each general election year' — June 9, 2026 is the second Tuesday in June 2026.",
     "generalDate": "2026-11-03",
     "generalSourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
-    "generalSnippet": "S.C. Code Ann. \u00a7 7-13-10: 'General elections for Federal, State and county officers in this State shall be held on the first Tuesday following the first Monday in November in each even-numbered year' \u2014 November 3, 2026 is the first Tuesday after the first Monday in November 2026."
+    "generalSnippet": "S.C. Code Ann. § 7-13-10: 'General elections for Federal, State and county officers in this State shall be held on the first Tuesday following the first Monday in November in each even-numbered year' — November 3, 2026 is the first Tuesday after the first Monday in November 2026."
   },
   "state_background_check": {
     "required": false,
-    "value": "South Carolina's own constitutional felony-disqualification clause (Article VI, Section 1) is textually limited to \"any office in this State or its political subdivisions\" \u2014 it does not by its own terms purport to reach federal offices like U.S. House or Senate. Candidate qualifications for Congress are set exclusively by the U.S. Constitution (age, citizenship, residency), and under U.S. Term Limits v. Thornton (1995) states cannot add additional qualifications for federal office. So while South Carolina bars felons (absent a pardon or a 15-year post-sentence waiting period) from state and local office, that bar does not reach a U.S. House or Senate candidacy \u2014 this is a state-law-text limitation, not an assertion that felons are barred from Congress by any authority.",
+    "value": "South Carolina's own constitutional felony-disqualification clause (Article VI, Section 1) is textually limited to \"any office in this State or its political subdivisions\" — it does not by its own terms purport to reach federal offices like U.S. House or Senate. Candidate qualifications for Congress are set exclusively by the U.S. Constitution (age, citizenship, residency), and under U.S. Term Limits v. Thornton (1995) states cannot add additional qualifications for federal office. So while South Carolina bars felons (absent a pardon or a 15-year post-sentence waiting period) from state and local office, that bar does not reach a U.S. House or Senate candidacy — this is a state-law-text limitation, not an assertion that felons are barred from Congress by any authority.",
     "source_url": "https://www.scstatehouse.gov/scconstitution/SCConstitution.pdf",
     "snippet": "No person may be popularly elected to and serve in any office in this State or its political subdivisions unless he possesses the qualifications of an elector, is not disqualified by age as prescribed in this Constitution, and has not been convicted of a felony under state or federal law or convicted of tampering with a voting machine, fraudulent registration or voting, bribery at elections... (Art. VI, Sec. 1)"
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/South_Carolina%27s_6th_Congressional_District_election,_2026",
     "snippet": "Incumbent James Clyburn, John Peterson, and Joseph Oddo are running in the general election for U.S. House South Carolina District 6 on November 3, 2026."
@@ -570,13 +571,62 @@
           "source_url": "https://en.wikipedia.org/wiki/Jim_Clyburn",
           "snippet": "He joined the Omega Psi Phi fraternity",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to the former Emily England of Moncks Corner",
+          "source_url": "https://clyburnforcongress.com/about/",
+          "snippet": "Jim is married to the former Emily England of Moncks Corner",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Rural Energy and Broadband",
+          "value": "Working to expand RESP and develop a similar program to make broadband more available in rural communities throughout the country",
+          "snippet": "Jim is working to expand RESP and develop a similar program to make broadband more available in rural communities throughout the country."
+        },
+        {
+          "topic": "Tourism and Heritage",
+          "value": "Working to make sure South Carolina gets its fair share of the tourism economy",
+          "snippet": "Congressman Clyburn is working to make sure South Carolina gets its fair share of the tourism economy."
+        },
+        {
+          "topic": "Poverty Funding Formula",
+          "value": "Working hard to make 10-20-30 permanent law and more broadly applied",
+          "snippet": "Jim is working hard to make 10-20-30 permanent law and more broadly applied."
+        },
+        {
+          "topic": "Insulin Costs",
+          "value": "Helped pass legislation that would limit cost-sharing for insulin under private health insurance and Medicare",
+          "snippet": "With the help of Majority Whip, James Clyburn, the House of Representatives approved legislation that would limit cost-sharing for insulin under private health insurance and Medicare."
+        }
+      ],
+      "platform_source_url": "https://clyburnforcongress.com/",
+      "_platform_resolved_at": "2026-08-26T11:06:18.338Z",
+      "campaign_site_url": "https://clyburnforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=NbEyQ9NqfaQ",
+      "platform_video_title": "Make It In America",
+      "platform_video_source_url": "https://www.youtube.com/@FriendsofJimClyburn",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T16:57:24.970Z",
+      "bio_summary": {
+        "value": "Throughout my public service career in Congress, I have always put service above self and principles above politics.",
+        "source_url": "https://clyburnforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:06:24.173Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076090.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-29T17:25:15.547Z",
       "recent_votes": [],
       "performance": {
         "attendance": null,
@@ -587,17 +637,17 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Transportation, Housing and Urban Development, and Related Agencies",
+            "committee": "House Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
             "title": "Ranking Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Interior, Environment, and Related Agencies",
+            "committee": "House Committee on Appropriations — Interior, Environment, and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
-            "committee": "House Committee on Appropriations \u2014 Energy and Water Development and Related Agencies",
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
@@ -701,7 +751,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/C000537"
         }
       },
-      "_curated_match": false
+      "_curated_match": true
     },
     {
       "slug": "john-peterson",
@@ -713,20 +763,67 @@
       "bioguide_id": null,
       "financials": null,
       "bio": {
-        "birthplace": {
-          "value": "Norway",
-          "source_url": "https://www.wikidata.org/wiki/Q111230374",
-          "source_type": "wikidata_structured"
+        "college": {
+          "value": "State University of New York at Brockport, Bachelor of Science Degree in Mathematics, 2000",
+          "source_url": "https://www.johnpeterson.org/new-page-2-1",
+          "snippet": "John obtained a Bachelor of Science Degree in Mathematics at State University of New York at Brockport in 2000",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "Married to Monica",
+          "source_url": "https://www.johnpeterson.org/new-page-2-1",
+          "snippet": "John, his wife Monica, and their son Jonathan",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Trump Agenda",
+          "value": "Support the Trump agenda and Prevent the Democrats from impeaching President Trump",
+          "snippet": "Support the Trump agenda and Prevent the Democrats from impeaching President Trump"
+        },
+        {
+          "topic": "Fiscal Policy",
+          "value": "Vote for bills in Congress that are fiscally conservative that cut spending, reduce inflation, and bring down the national debt",
+          "snippet": "Vote for bills in Congress that are fiscally conservative that cut spending, reduce inflation, and bring down the national debt"
+        },
+        {
+          "topic": "Crime",
+          "value": "Champion bills that are tough on crime that protect law abiding citizens and keep violent criminals off the street",
+          "snippet": "Champion bills that are tough on crime that protect law abiding citizens and keep violent criminals off the street"
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Fight for Free and Fair Elections that require Voter I.D.",
+          "snippet": "Fight for Free and Fair Elections that require Voter I.D."
+        },
+        {
+          "topic": "Government Waste",
+          "value": "Support DOGE and work hard to uncover Fraud Waste and Abuse that has stolen $Billions of tax payer dollars",
+          "snippet": "Support DOGE and work hard to uncover Fraud Waste and Abuse that has stolen $Billions of tax payer dollars"
+        }
+      ],
+      "platform_source_url": "https://www.johnpeterson.org/new-page-2",
+      "_platform_resolved_at": "2026-08-26T11:06:29.009Z",
+      "campaign_site_url": "https://www.johnpeterson.org/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "John, his wife Monica, and their son Jonathan have lived in South Carolina since 2014 John is currently a Banquet Supervisor for Embassy Suites at the North Charleston Convention Center, serves as the President for the Deer Park 1B Precinct in the Charleston County Republican Party. He specializes in Customer Service Management and worked to satisfy large volumes of customers for Wegman’s grocery stores in both the Rochester and Syracuse, New York areas. That tradition of customer service continues with large banquets and conventions in his work at Embassy Suites in the North Charleston Convention Center He also worked as a canvasser for President Trump in North Carolina 2020, as a volunteer phone caller in the 2024 South Carolina Primary for Trump, as a volunteer phone caller for Trump Force 47 for the general election in 24’, and as a canvasser for the Tea Party in Georgia for Trump in 2024 John obtained a Bachelor of Science Degree in Mathematics at State University of New York at Brockport in 2000",
+        "source_url": "https://www.johnpeterson.org/new-page-2-1",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:06:41.643Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:08.300Z"
     }
   ]
 }

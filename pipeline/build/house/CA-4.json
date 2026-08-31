@@ -571,12 +571,7 @@
           "snippet": "founded a nonprofit that fights to empower free speech online",
           "source_type": "llm_extracted_campaign_site_websearch"
         },
-        "high_school": {
-          "value": "Montgomery County High School",
-          "source_url": "https://www.ballotready.org/people/eric-jones",
-          "snippet": "High School Diploma, Montgomery County High School",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "high_school": null
       },
       "platform": [
         {
@@ -827,7 +822,7 @@
         ],
         "bills_sponsored": 366,
         "bills_cosponsored": 4419,
-        "bills_became_law": 13,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 502 East Cotati Avenue in Cotati, California, as the \"Arturo L. Ibleto Post Office Building\".",

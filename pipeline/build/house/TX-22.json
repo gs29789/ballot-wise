@@ -23,7 +23,7 @@
     "snippet": "Marquette Greene-Scott, Trever Nehls, and Demile James are running in the general election for U.S. House Texas District 22 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -138,7 +138,9 @@
         "value": "I decided to run for Congress because it is time that the people get real representation in government. Congress is broken. Bipartisanship has become taboo. As Mayor Pro Tem of the City of Iowa Colony, I have the experience of voting on issues without bowing to party lines. I promise to always look at the issues, research, and decide based on what’s best for the residents of this district and our country.",
         "source_url": "https://marquettegreenescott.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:17:53.093Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:17:53.093Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:01.439Z"
     },
     {
       "slug": "demile-james",
@@ -157,7 +159,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T21:37:17.748Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:01.441Z"
     },
     {
       "slug": "trever-nehls",
@@ -240,7 +245,10 @@
         "value": "Colonel (Ret.) Trever J. Nehls has dedicated his entire adult life to service, to his country, his community, and his fellow Texans. *This campaign is not affiliated with the Department of Defense or any Military Service. Trever began his military career in 1988 as an Infantryman in the United States Army and rose to the rank of Colonel over 33 years of service. Trever commanded Soldiers at the company, battalion, and brigade levels, with multiple deployments to Iraq, Afghanistan, and Kuwait. He understands what it means to lead under pressure, make tough decisions, and be accountable for the people who depend on him.",
         "source_url": "https://www.trevernehlsforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:17:50.788Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:17:50.788Z",
+      "campaign_site_url": "https://trevernehlsforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:29.410Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

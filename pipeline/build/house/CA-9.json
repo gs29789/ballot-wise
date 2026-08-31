@@ -32,7 +32,7 @@
     "snippet": "Incumbent Josh Harder and John McBride are running in the general election for U.S. House California District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -199,7 +199,7 @@
         ],
         "bills_sponsored": 156,
         "bills_cosponsored": 1908,
-        "bills_became_law": 2,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Protecting Families of Fallen Servicemembers Act",
@@ -238,7 +238,9 @@
         "value": "Josh grew up in the Valley and lives in Tracy with his wife Pam and their two young daughters, Lillian and Karina. He sees how expensive it’s getting to raise a family – from gas to housing to health care – and how our communities keep getting left behind. For too long politicians have put their own egos above actually getting things done for our families. Josh represents a new generation of leaders working to break the gridlock and fix the broken political system. Josh comes from the business world and is focused on the most important issues in our community like lowering costs, fighting homelessness and keeping our neighborhoods safe.",
         "source_url": "https://harderforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:10.202Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:10.202Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.835Z"
     },
     {
       "slug": "john-mcbride",
@@ -336,7 +338,9 @@
         "value": "My name is John McBride and I am running for Congress in California’s 9th Congressional District. I will Stand Strong – for California, for America, for freedom, for the people. We don’t need politicians, we need principled leaders who will stand strong for us.",
         "source_url": "https://www.johnmcbrideforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:14.597Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:14.597Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.834Z"
     }
   ]
 }

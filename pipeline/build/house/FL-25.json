@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-25",
-  "generated_at": "2026-08-20T15:58:44.024Z",
+  "generated_at": "2026-08-29T20:49:10.772Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -544,22 +544,62 @@
           "source_url": "https://www.ballotready.org/people/michaelangelo-collins-hamilton",
           "snippet": "Michaelangelo&#x27;s Virtual Solutions, LLC, CEO (2020 - Present) Michaelangelo&#x27;s At Home Call Solutions, Sole Proprietor (2017 - Present) Mac&#x27;s Tropical Weather Blog, Founder and Chief Tropical Weather Blogger (2013 - Present) TogetherHealth, Medicare Sales Agent (2021 - 2021) Alorica, Sales Representative (2019 - 2019) MH Virtual Services, LLC, President and Manager (2018 - 2018)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "date_of_birth": {
+          "value": "Born circa 2000 (was 22 years old in 2022)",
+          "source_url": "https://hamilton4fl.com/meet_michaelangelo",
+          "snippet": "In 2022, at just 22 years old , Michaelangelo launched his first campaign for the United States House of Representatives",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Running to lower costs",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Small Business and Jobs",
+          "value": "Running to grow small businesses and good jobs",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Community Safety",
+          "value": "Running to secure our communities",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Working Families",
+          "value": "Running to protect working families",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Running to restore accountability in Washington",
+          "snippet": "He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington."
+        }
+      ],
+      "platform_source_url": "https://hamilton4fl.com/",
+      "_platform_resolved_at": "2026-08-29T20:49:01.441Z",
       "campaign_site_url": "https://hamilton4fl.com",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Michaelangelo Hamilton is a qualified write-in candidate for U.S. House in Florida's 25th Congressional District . Florida's 25th Congressional District runs along South Florida's East Coast from the Delray Beach/Boca Raton area through parts of Broward County and down toward Miami Beach, including communities across Palm Beach, Broward, and Miami-Dade counties. He is running to lower costs, grow small businesses and good jobs, secure our communities, protect working families, and restore accountability in Washington. In 2022, Michaelangelo made history as one of the youngest people in modern American history to run for Congress. Now, he is running again to give South Florida a new voice and a new choice. This campaign is about faith, freedom, opportunity, strong families, and a stronger future for Florida.",
+        "source_url": "https://hamilton4fl.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:49:05.717Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:38.056Z"
     },
     {
       "slug": "peter-jassenoff",
@@ -591,7 +631,14 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Peter Jassenoff (Libertarian Party) is running for election to the U.S. House to represent Florida's 25th Congressional District . He is on the ballot in the general election on November 3, 2026 . The Libertarian Party primary for this office on August 18, 2026 , was canceled. ",
+        "source_url": "https://ballotpedia.org/Peter_Jassenoff",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:24:49.010Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081334.pdf",
         "filingDate": "7/17/2026",
@@ -605,7 +652,8 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:58:40.665Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:38.417Z"
     },
     {
       "slug": "jared-moskowitz",
@@ -661,17 +709,51 @@
           "source_url": "https://en.wikipedia.org/wiki/Jared_Moskowitz",
           "snippet": "Spouse Leah Rifkin",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Parkland, Florida, city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; Broward County, Florida, commissioner, 2022",
+          "source_url": "https://history.house.gov/People/Listing/M/MOSKOWITZ,-Jared-(M001217)/",
+          "snippet": "Parkland, Fla., city commissioner, 2006-2012; member of the Florida state house of representatives, 2012-2019; director of the Florida department of emergency management, 2019-2021; Broward County, Fla., commissioner, 2022",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "School Safety",
+          "value": "Working across the aisle to promote evidence-based policies that keep students and educators safe",
+          "snippet": "He also helped launch the Bipartisan School Safety and Security Caucus, working across the aisle to promote evidence-based policies that keep students and educators safe."
+        },
+        {
+          "topic": "Disaster Preparedness",
+          "value": "Using his emergency management experience to improve federal readiness and response to natural disasters",
+          "snippet": "He is a co-founder of the Bipartisan Disaster Preparedness Caucus, using his emergency management experience to improve federal readiness and response to natural disasters."
+        },
+        {
+          "topic": "Gun Violence",
+          "value": "Focuses on addressing gun violence",
+          "snippet": "Jared also serves on the House Judiciary Committee, where he focuses on civil rights, justice reform, and addressing gun violence."
+        },
+        {
+          "topic": "Justice Reform",
+          "value": "Focuses on civil rights and justice reform",
+          "snippet": "Jared also serves on the House Judiciary Committee, where he focuses on civil rights, justice reform, and addressing gun violence."
+        }
+      ],
+      "platform_source_url": "https://jaredforflorida.com/",
+      "_platform_resolved_at": "2026-08-29T20:48:39.644Z",
       "campaign_site_url": "https://www.jaredforflorida.com",
       "platform_video_url": "https://www.youtube.com/watch?v=9RL5cqFbvHM",
       "platform_video_title": "A Day with Jared Moskowitz",
       "platform_video_source_url": "https://jaredforflorida.com/media/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-21T10:59:20.946Z",
+      "bio_summary": {
+        "value": "Jared Evan Moskowitz ( / ˈ m ɒ s k ə w ɪ t s / MOSS -kə-wits ; born December 18, 1980) is an American politician serving as the U.S. representative for Florida 's 23rd congressional district since 2023. A member of the Democratic Party , he previously served on the Broward County Commission from 2022 to 2023 and as director of the Florida Division of Emergency Management from 2019 to 2021. Moskowitz also represented the Coral Springs - Parkland area in the Florida House of Representatives from 2012 to 2019. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jared_Moskowitz",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:24:55.204Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -833,6 +915,12 @@
           "source_url": "https://www.scottsingerusa.com/",
           "snippet": "Scott and his wife, Bella, are the proud parents of two children",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "small business owner and lawyer for two decades helping businesses and entrepreneurs; three-term Mayor of Boca Raton",
+          "source_url": "https://www.scottsingerusa.com/",
+          "snippet": "A small business owner, Scott has worked for two decades as a lawyer to also help businesses and entrepreneurs add jobs and overcome burdensome and wasteful regulations that raise costs.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -884,17 +972,19 @@
       "platform_video_title": "Scott Singer for Congress - Launch",
       "platform_video_source_url": "https://www.scottsingerusa.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T15:57:45.759Z",
+      "bio_summary": {
+        "value": "Miami Beach Born, Lauderdale Raised, Boca Raton Mayor Scott Singer is an America First Republican running to represent Florida’s 25th district in Congress. As Congressman, he will keep taxes and costs low, ensure strong borders and national defense, and cut waste, fraud, and abuse. He will work with President Trump to advance the America First agenda. Scott has a strong record of results as the three-term Mayor of Boca Raton where he balanced budgets while working to advance public safety, education, affordability, and accountability.",
+        "source_url": "https://www.scottsingerusa.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:12:34.297Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Miami Beach Born, Lauderdale Raised, Boca Raton Mayor Scott Singer is an America First Republican running to represent Florida’s 25th district in Congress. As Congressman, he will keep taxes and costs low, ensure strong borders and national defense, and cut waste, fraud, and abuse. He will work with President Trump to advance the America First agenda. Scott has a strong record of results as the three-term Mayor of Boca Raton where he balanced budgets while working to advance public safety, education, affordability, and accountability.",
-        "source_url": "https://www.scottsingerusa.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:12:34.297Z"
+      "_curated_match": false
     }
   ]
 }

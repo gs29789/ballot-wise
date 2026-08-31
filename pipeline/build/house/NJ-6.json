@@ -599,12 +599,14 @@
         "source_url": "https://www.herzigforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:51:45.921Z",
-      "_tier2_search_attempted_at": "2026-08-25T19:04:01.663Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:20.875Z",
       "platform_video_url": "https://www.youtube.com/watch?v=xyAEVe0s76k",
       "platform_video_title": "Charlie Anteby endorses Hillary Herzig for Congress in NJ District 6, primary voting June 2, 2026.",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-25T19:04:01.663Z"
+      "_platform_video_resolved_at": "2026-08-23T12:00:20.875Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:27:41.961Z"
     },
     {
       "slug": "frank-pallone",
@@ -668,9 +670,20 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Health Care",
+          "value": "Making health care more affordable and accessible",
+          "snippet": "making health care more affordable and accessible"
+        },
+        {
+          "topic": "Middle Class",
+          "value": "Helping to grow and strengthen our middle class",
+          "snippet": "helping to grow and strengthen our middle class"
+        }
+      ],
+      "platform_source_url": "https://www.pallonefornewjersey.com/",
+      "_platform_resolved_at": "2026-08-31T12:40:53.041Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075741.pdf",
         "filingDate": "5/15/2026",
@@ -818,7 +831,15 @@
         "source_url": "https://www.pallonefornewjersey.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:51:43.820Z",
-      "_tier2_search_attempted_at": "2026-08-25T19:04:01.947Z"
+      "_tier2_search_attempted_at": "2026-08-23T12:00:21.412Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=XIjTZu0c-40",
+      "platform_video_title": "Pallone Focused on Sandy Recovery, Not Possible Senate Run",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-23T12:00:21.412Z",
+      "campaign_site_url": "https://www.pallonefornewjersey.com",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:41.970Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

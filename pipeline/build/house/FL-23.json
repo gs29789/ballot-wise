@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-23",
-  "generated_at": "2026-08-20T15:54:07.233Z",
+  "generated_at": "2026-08-29T20:44:56.612Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -595,21 +595,24 @@
       "platform_source_url": "https://debadeimy4congress.com/issues/",
       "_platform_resolved_at": "2026-08-20T15:53:45.418Z",
       "campaign_site_url": "https://www.debadeimy4congress.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=GmE2QZUpSkw",
+      "platform_video_title": "Deb Adeimy for congress (FL-22) endorsement interview VFAF Veterans for Trump with Stan Fitzgerald",
       "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-08-31T12:00:36.181Z",
+      "bio_summary": {
+        "value": "Deborah Adeimy is a business executive, mother, and 5th generation Family in her hometown of West Palm Beach. As a native Floridian, Deborah has lifelong ties, friends and relatives throughout Palm Beach County, her three sons now in college. With Deborah’s historic local Family roots comes special, deep loyalty and the unique knowledge to Represent her District. For decades, Deborah has been a trusted Fiduciary and Financial Advisor to families and businesses.",
+        "source_url": "https://debadeimy4congress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:11:10.279Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Deborah Adeimy is a business executive, mother, and 5th generation Family in her hometown of West Palm Beach. As a native Floridian, Deborah has lifelong ties, friends and relatives throughout Palm Beach County, her three sons now in college. With Deborah’s historic local Family roots comes special, deep loyalty and the unique knowledge to Represent her District. For decades, Deborah has been a trusted Fiduciary and Financial Advisor to families and businesses.",
-        "source_url": "https://debadeimy4congress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:11:10.279Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:36.181Z"
     },
     {
       "slug": "lois-frankel",
@@ -659,17 +662,46 @@
           "source_url": "https://history.house.gov/People/Listing/F/FRANKEL,-Lois-(F000462)/",
           "snippet": "lawyer, private practice; member of the Florida state house of representatives, 1986-1992, 1994-2002; minority leader, 2000-2002; Mayor of West Palm Beach, Fla., 2003-2011",
           "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "Lois founded and chaired the Democratic Women's Caucus, and now serves at Chair Emerita",
+          "source_url": "https://loisfrankelforcongress.com/",
+          "snippet": "Lois founded and chaired the Democratic Women's Caucus, and now serves at Chair Emerita",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Social Security, Medicare, and Medicaid",
+          "value": "Protect Social Security, Medicare, and Medicaid",
+          "snippet": "Lois works every day to protect our Social Security, Medicare and Medicaid"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Bring down costs for Floridians and families",
+          "snippet": "bring down costs for Floridians"
+        },
+        {
+          "topic": "Democracy",
+          "value": "Defend our democracy",
+          "snippet": "defend our democracy"
+        }
+      ],
+      "platform_source_url": "https://loisfrankelforcongress.com/",
+      "_platform_resolved_at": "2026-08-29T20:44:37.140Z",
       "campaign_site_url": "http://www.loisfrankelforcongress.com",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Lois Frankel is an experienced public servant with a strong record of protecting our Social Security, Medicare, and Medicaid, bringing down costs for families, and defending our democracy. After serving 14 years in the Florida state legislature, including as the first woman Democratic Minority Leader, Lois became Mayor of West Palm Beach in 2003, where she served for eight years. She is the first woman to represent Florida's 22nd congressional district and has been representing Palm Beach County since being elected in 2013. Lois founded and chaired the Democratic Women's Caucus, and now serves at Chair Emerita, bringing women's issues to the forefront of all policy decisions.",
+        "source_url": "https://loisfrankelforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:44:43.664Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -774,7 +806,8 @@
           "profileUrl": "https://www.bridgegrades.org/congress/F000462"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:36.528Z"
     }
   ]
 }

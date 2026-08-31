@@ -23,7 +23,7 @@
     "snippet": "Shaun Finnie and Steve Toth are running in the general election for U.S. House Texas District 2 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -149,7 +149,9 @@
         "value": "Every Texan deserves a responsible government that supports growth, not impairs our success. As a father, a businessman, and a taxpayer, I understand the frustrations that our families are facing - a national debt growing out of control, the cost of living becoming unaffordable, and Social Security, Medicare, and Medicaid being put on the chopping block. Once elected, I’ll apply the same lessons I’ve learned throughout my business career to government - never spend more than what we can afford, ensure everyone has an equal opportunity to support their families and succeed, and never jeopardize essential benefits that matter most.",
         "source_url": "https://shaunfinnieforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:16:15.998Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:16:15.998Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.220Z"
     },
     {
       "slug": "steve-toth",
@@ -223,7 +225,15 @@
       "_financial_disclosure_resolved_at": "2026-08-14T18:16:28.021Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Steven Hixson Toth (born November 29, 1960) [ 1 ] is an American businessman , pastor, and politician serving as a member of the Texas House of Representatives from District 15, The Woodlands area. [ 2 ] Toth is the Republican nominee for Texas's 2nd congressional district , having defeated incumbent representative Dan Crenshaw in the March 2026 Republican primary . [ 3 ] [ 4 ] [ 5 ] Early life and education [ edit ] Born and raised in New York , Toth attended Pittsford Mendon High School in suburban Rochester . He also attended Rochester Bible College. [ 6 ] Career [ edit ] Toth owns Acclaim Pools and My Pool Xpert in The Woodlands. He is a former pastor at Family Life Ministries of the Fellowship of The Woodlands, a congregation now known as The Woodlands Church. [ 7 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Steve_Toth",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:45:54.511Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.220Z"
     }
   ]
 }

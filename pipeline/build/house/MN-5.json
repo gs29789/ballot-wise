@@ -560,7 +560,10 @@
         "source_url": "https://jacksonforcongress.us/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:50:44.231Z",
-      "_tier2_search_attempted_at": "2026-08-25T19:03:56.080Z"
+      "_tier2_search_attempted_at": "2026-08-23T12:00:13.854Z",
+      "campaign_site_url": "https://jacksonforcongress.us",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:19.030Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "john-nagel",
@@ -584,11 +587,7 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1816",
-          "source_url": "https://www.wikidata.org/wiki/Q20741188",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
         "birthplace": {
           "value": "Saint Louis Park",
           "source_url": "https://nagelforcongress.com/",
@@ -637,10 +636,10 @@
       ],
       "platform_source_url": "https://nagelforcongress.com/",
       "_platform_resolved_at": "2026-08-12T19:39:26.044Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=LjLpvMJdJIY",
-      "platform_video_title": "John Nagel on Garage Logic with Joe Soucheray | MN-5, Ilhan Omar & Minnesota",
+      "platform_video_url": "https://www.youtube.com/watch?v=LXbmfiNJp7c",
+      "platform_video_title": "John Nagel Talks Minnesota Fraud, Ilhan Omar & MN-5 with Fox News Digital",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-08-25T19:03:56.359Z",
+      "_platform_video_resolved_at": "2026-08-23T12:00:14.053Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -651,8 +650,10 @@
         "source_url": "https://nagelforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:50:37.628Z",
-      "_tier2_search_attempted_at": "2026-08-25T19:03:56.359Z",
-      "platform_video_tier": 2
+      "_tier2_search_attempted_at": "2026-08-23T12:00:14.053Z",
+      "platform_video_tier": 2,
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:27:19.032Z"
     },
     {
       "slug": "ilhan-omar",
@@ -826,7 +827,10 @@
         "value": "As an organizer, I know what co-governance looks like. Together, we are going to send a strong message that here in Minnesota, we still believe everyone deserves an equal shot to achieve the American Dream.",
         "source_url": "https://ilhanomar.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:50:39.370Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:50:39.370Z",
+      "campaign_site_url": "https://ilhanomar.com",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:19.028Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-18T20:19:32.490Z",
+  "generated_at": "2026-08-31T11:56:59.235Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-4/part-2/section-21-2-150/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4977.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4988.9
+        "thousandsOfJobs": 4986.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5726901192.87,
-        "perCapitaUsd": 7479.45
+        "totalUsd": 5727116721.14,
+        "perCapitaUsd": 7479.73
       },
       {
         "year": "2024",
-        "totalUsd": 6535918251.32,
-        "perCapitaUsd": 8494.7
+        "totalUsd": 6536949800.38,
+        "perCapitaUsd": 8496.04
       },
       {
         "year": "2025",
-        "totalUsd": 6785089018.4,
-        "perCapitaUsd": 8818.55
+        "totalUsd": 6785993322.15,
+        "perCapitaUsd": 8819.72
       }
     ],
     "population": [
@@ -544,6 +554,12 @@
           "source_url": "https://mikecollinsga.com/about/",
           "snippet": "Mike and his wife Leigh Ann have three kids: Dakota, Dylan and Summer, and six grandkids.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "trucking business",
+          "source_url": "https://mikecollinsga.com/issues/",
+          "snippet": "My background in the trucking business taught me real-world leadership: knowing when to negotiate, when to stand firm, and how to get results.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -555,20 +571,26 @@
       ],
       "platform_source_url": "https://mikecollinsga.com/",
       "_platform_resolved_at": "2026-08-10T18:43:31.990Z",
+      "campaign_site_url": "https://mikecollinsga.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:30.285Z",
       "platform_video_url": "https://www.youtube.com/watch?v=1yKbaxi40iY",
       "platform_video_title": "Where I stand on running for U.S. Senate in Georgia.",
       "platform_video_source_url": "https://mikecollinsga.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:00:03.251Z",
+      "bio_summary": {
+        "value": "I’m not afraid of hard work. In the trucking industry, it’s tough trips, long hours, and tight schedules. Unlike Congress, if you don’t deliver, you don’t get paid. Georgia needs a U.S. Senator who has worked for a living, created jobs, and has taken on the tough fights to do what’s right. Whether I’m keeping trucks on the road and supporting my community, or backing President Trump by passing America First legislation in Congress, I’m in the fight.",
+        "source_url": "https://mikecollinsga.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:53.506Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I’m not afraid of hard work. In the trucking industry, it’s tough trips, long hours, and tight schedules. Unlike Congress, if you don’t deliver, you don’t get paid. Georgia needs a U.S. Senator who has worked for a living, created jobs, and has taken on the tough fights to do what’s right. Whether I’m keeping trucks on the road and supporting my community, or backing President Trump by passing America First legislation in Congress, I’m in the fight.",
-        "source_url": "https://mikecollinsga.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:37:53.506Z"
+      "_curated_match": false
     },
     {
       "slug": "t-ossoff",
@@ -632,13 +654,60 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Investigating Corruption",
+          "value": "Before the Senate, worked as an investigative journalist producing award-winning coverage of corruption and war crimes, exposing human trafficking, judicial corruption, bribery, and sexual slavery; in the Senate, has applied those skills to expose abuse in Georgia's foster care system, mistreatment of military families by private housing contractors, and civil rights abuses in the federal prison system.",
+          "snippet": "Before his election to the Senate, Jon was an investigative journalist. His small business produced award-winning investigations of corruption and war crimes for international news organizations. Their investigations exposed serious crimes including human trafficking, judicial corruption, bribery, and sexual slavery.\n\nIn the Senate, Jon has applied those skills to expose corruption and abuse in government, including the abuse of children in Georgia's foster care system, mistreatment of military families by private housing contractors, and civil rights abuses in the federal prison system.\n"
+        },
+        {
+          "topic": "Health Care & Seniors",
+          "value": "Fought to cap insulin prices for seniors at $35/month, upgrade health care for pregnant women/babies/children, expand mental health care for veterans, expand and build new health care facilities statewide, expand Medicaid in Georgia, and protect and strengthen Social Security and Medicare, including for public servants.",
+          "snippet": "Senator Ossoff has relentlessly delivered for the state of Georgia – fighting to:\nCap insulin prices for seniors at $35/month\nUpgrade health care for pregnant women, babies, and children\nExpand mental health care for veterans\nExpand and help build new health care facilities across the state\nExpand Medicaid in Georgia\nProtect Social Security and Medicare and strengthen Social Security benefits for public servants\n"
+        },
+        {
+          "topic": "Public Safety & Justice",
+          "value": "Worked to expose abuses in Georgia's foster care system, crack down on online exploitation of children, strengthen border security, expose civil rights abuses in prisons and jails, and tackle the opioid epidemic.",
+          "snippet": "Senator Ossoff has relentlessly delivered for the state of Georgia – fighting to:\nExpose abuses in Georgia's foster care system\nCrack down on online exploitation of children\nStrengthen border security\nExpose civil rights abuses and corruption in prisons and jails\nStrengthen public safety and tackle the opioid epidemic\n"
+        },
+        {
+          "topic": "Economy, Housing & Infrastructure",
+          "value": "Fought to lower housing prices, upgrade infrastructure and expand statewide high-speed internet, hold USPS accountable for service delays, expand job training programs, attract manufacturing jobs to Georgia, and help Georgia farmers export more Georgia-grown products.",
+          "snippet": "Senator Ossoff has relentlessly delivered for the state of Georgia – fighting to:\nLower housing prices\nUpgrade infrastructure and expand high-speed internet access statewide\nHold the U.S. Postal Service accountable for service delays\nExpand job training programs\nAttract thousands of manufacturing jobs to Georgia\nHelp Georgia farmers and growers export more Georgia-grown products\n"
+        },
+        {
+          "topic": "Education",
+          "value": "Delivered record funding for Georgia's HBCUs.",
+          "snippet": "Deliver record funding for Georgia's HBCUs"
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Defends women's freedom of choice in reproductive health care.",
+          "snippet": "Defend women's freedom of choice in reproductive health care"
+        },
+        {
+          "topic": "Reforming a Broken System",
+          "value": "Refuses corporate PAC and federal lobbyist campaign contributions; introduced legislation to ban corporate PACs altogether; leading efforts to ban stock trading by Members of Congress, helping pass a congressional stock-trading ban through a major Senate Committee for the first time.",
+          "snippet": "Ban Members of Congress from trading stocks\n\nJon is one of few United States Senators whose campaigns refuse to accept campaign contributions from corporate PACs or federal lobbyists.\n\nJon has introduced legislation to ban corporate PACs altogether and is leading the charge to ban stock trading by Members of Congress, helping pass a Congressional stock trading ban through a major Senate Committee for the first time.\n"
+        }
+      ],
+      "platform_source_url": "https://electjon.com",
+      "_platform_resolved_at": "2026-08-31T11:56:26.223Z",
+      "campaign_site_url": "https://electjon.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:30.280Z",
+      "platform_video_url": "https://youtu.be/g1Vn2htSzaM",
+      "platform_video_title": "Ossoff: This is why nothing works for ordinary people.",
+      "platform_video_source_url": "https://www.youtube.com/@SenJonOssoff",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-31T11:56:26.224Z",
+      "bio_summary": {
+        "value": "Thomas Jonathan Ossoff ( / ˈ ɒ s ɔː f / ⓘ OSS -off ; born February 16, 1987) is an American politician who has served as the senior United States senator from Georgia since 2021. [ a ] He is the youngest incumbent U.S. senator , and a member of the Democratic Party . Ossoff is also the youngest senior senator of the United States. Previously, Ossoff worked as a national security staffer and legislative assistant for U.S. representative Hank Johnson . Afterward, he was managing director of an investigative documentary production company. He first ran for Congress in a 2017 special election , narrowly losing a seat that had long been considered a Republican stronghold. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jon_Ossoff",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:34.000Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -699,7 +768,11 @@
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 203,
+          "votesCast": 202,
+          "attendanceRate": 0.9950738916256158
+        },
         "committees": [
           {
             "committee": "Senate Committee on Appropriations",
@@ -796,9 +869,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/O000174"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T13:21:31.319Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:08.423Z"
+      "_curated_match": true
     }
   ]
 }

@@ -545,18 +545,8 @@
           "snippet": "Elected: Oswego Library Board Trustee Elected: Kendall County GOP Chairman Picked up 13 New Republican Seats Elected: Unanimously as Deputy for IL-14 Congressional District on GOP State Central Committee",
           "source_type": "llm_extracted_campaign_site"
         },
-        "high_school": {
-          "value": "Oswego High School (2006)",
-          "source_url": "https://www.ballotready.org/people/james-marter",
-          "snippet": "Oswego High School (2006)",
-          "source_type": "llm_extracted_ballotready"
-        },
-        "employment_record": {
-          "value": "Oswego Village Board, Boardmember (Present); Director of IT; Network and Systems Administrator; Systems and Data Analyst; Programmer and Web Designer",
-          "source_url": "https://www.ballotready.org/people/james-marter",
-          "snippet": "Oswego Village Board, Boardmember (Present) Director of IT Network and Systems Administrator Systems and Data Analyst Programmer and Web Designer",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "high_school": null,
+        "employment_record": null
       },
       "platform": [
         {
@@ -602,10 +592,10 @@
       ],
       "platform_source_url": "https://marter4congress.us/",
       "_platform_resolved_at": "2026-08-12T12:35:03.630Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=SCL-pvbnwPU",
+      "platform_video_title": "Jared Craig, President of GA Veterans for Trump Interviews Jim Marter Candidate US Congress IL-14",
+      "platform_video_source_url": "https://marter4congress.us/category/videos/",
+      "_platform_video_resolved_at": "2026-08-31T12:37:53.839Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -616,8 +606,12 @@
         "source_url": "https://marter4congress.us/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:47:03.758Z",
-      "platform_video_tier": null,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:38.135Z"
+      "platform_video_tier": 1,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:38.135Z",
+      "campaign_site_url": "https://www.marter4congress.us",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:36.472Z",
+      "_campaign_site_reachability": "reachable",
+      "platform_video_source_type": "campaign_site"
     },
     {
       "slug": "lauren-underwood",
@@ -736,7 +730,10 @@
         "value": "Congresswoman Lauren Underwood represents Illinois’ 14th Congressional District, a suburban, exurban, and rural district in Northern Illinois. She flipped this seat from red to blue in a historic fashion in 2018, defeating a four-term Republican incumbent, and is the youngest black woman to ever be elected to the Congress.",
         "source_url": "https://underwoodforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:05.956Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:47:05.956Z",
+      "campaign_site_url": "https://www.underwoodforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:36.474Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

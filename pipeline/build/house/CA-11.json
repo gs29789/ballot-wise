@@ -32,7 +32,7 @@
     "snippet": "Connie Chan (D) and Scott Wiener (D) are running in the general election for California's 11th Congressional District on Nov. 3, 2026. Incumbent U.S. Rep. Nancy Pelosi (D), who was first elected in 1987, did not run for re-election."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -164,7 +164,9 @@
         "value": "At 47, Chan is a force in city politics, representing a constituency of working-class immigrants that has become increasingly vocal about how the city should be run.",
         "source_url": "https://www.conniechansf.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:51.692Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:51.692Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.979Z"
     },
     {
       "slug": "scott-wiener",
@@ -278,7 +280,9 @@
         "value": "For the past 28 years, Senator Scott Wiener has worked day and night for San Franciscans, never giving up until the job is done. As a State Senator, former member of the Board of Supervisors, former Deputy City Attorney, and longtime community leader, he has championed progressive policies – including nearly 100 state laws – to improve affordability and make San Franciscans safer, happier, healthier, and more secure.",
         "source_url": "https://www.scottwiener.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:49.611Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:49.611Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.985Z"
     }
   ]
 }

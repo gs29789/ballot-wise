@@ -32,7 +32,7 @@
     "snippet": "Incumbent Vince Fong and Sandra Van Scotter are running in the general election for U.S. House California District 20 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -251,7 +251,9 @@
         "value": "The Central Valley is my lifelong home. I was born and raised here, and today my wife and I are raising our son here. I am proud of my roots, and it is the honor of a lifetime to represent our community in the United States Congress and fight for our way of life, each and every day.",
         "source_url": "https://vincefong.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:22:52.119Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:22:52.119Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:03.270Z"
     },
     {
       "slug": "sandra-van-scotter",
@@ -330,7 +332,9 @@
         "value": "For 20 years as a Respiratory Therapist, Sandra was the person called in when everything was going wrong — calm, decisive, and focused when others couldn't be. ​ Today she works directly with intellectually and developmentally disabled adults. Her son receives services from California's Regional Center system. She has managed $500,000 in combined budgets for the people she serves. She was appointed by the State Council on Developmental Disabilities to advise Kern Regional Center — which serves 19,000 people across Kern, Inyo, and Mono Counties.",
         "source_url": "https://www.electsandravanscotter.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:22:54.513Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:22:54.513Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:03.271Z"
     }
   ]
 }

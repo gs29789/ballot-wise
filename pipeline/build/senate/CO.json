@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-18T20:18:42.407Z",
+  "generated_at": "2026-08-31T11:53:00.655Z",
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2970.8
+        "thousandsOfJobs": 2967.9
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5210974845.04,
-        "perCapitaUsd": 6979.36
+        "totalUsd": 5211516551.53,
+        "perCapitaUsd": 6980.09
       }
     ],
     "population": [
@@ -601,21 +611,27 @@
       ],
       "platform_source_url": "https://baisleyforsenate.com/",
       "_platform_resolved_at": "2026-08-12T11:24:22.395Z",
+      "campaign_site_url": "https://www.markbaisley.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.404Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mark Baisley is a proven conservative leader, tech innovator, and Colorado public servant running for the United States Senate to defend our freedoms, protect our economy, and put Colorado first. Mark’s path to public service began with a strong foundation in science and technology. He earned a Bachelor of Science in Computer Information Systems and Business Administration from Columbia College, and went on to build a distinguished career in aerospace, national security, and cybersecurity — including work with NASA, Martin Marietta, and in the U.S. Intelligence Community.",
+        "source_url": "https://baisleyforsenate.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:45:14.830Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:29.088Z",
-      "bio_summary": {
-        "value": "Mark Baisley is a proven conservative leader, tech innovator, and Colorado public servant running for the United States Senate to defend our freedoms, protect our economy, and put Colorado first. Mark’s path to public service began with a strong foundation in science and technology. He earned a Bachelor of Science in Computer Information Systems and Business Administration from Columbia College, and went on to build a distinguished career in aerospace, national security, and cybersecurity — including work with NASA, Martin Marietta, and in the U.S. Intelligence Community.",
-        "source_url": "https://baisleyforsenate.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:45:14.830Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:09.123Z"
     },
     {
       "slug": "robert-chew",
@@ -682,20 +698,26 @@
       ],
       "platform_source_url": "https://bobchew2026.com/issues/",
       "_platform_resolved_at": "2026-08-12T11:24:16.213Z",
+      "campaign_site_url": "https://www.bobchew2026.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.637Z",
       "platform_video_url": "https://www.youtube.com/watch?v=JjyJi3e8vj4",
       "platform_video_title": "Ticked Off",
       "platform_video_source_url": "https://bobchew2026.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:01:33.190Z",
+      "bio_summary": {
+        "value": "I joined the US Navy and became a Naval submarine officer during the Cold War. For the past three decades I’ve been a job creator and a problem solver. I’m an independent who can’t be bought, can’t be bullied, and won’t give up. That’s my promise to you.",
+        "source_url": "https://bobchew2026.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:45:03.306Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I joined the US Navy and became a Naval submarine officer during the Cold War. For the past three decades I’ve been a job creator and a problem solver. I’m an independent who can’t be bought, can’t be bullied, and won’t give up. That’s my promise to you.",
-        "source_url": "https://bobchew2026.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:45:03.306Z"
+      "_curated_match": false
     },
     {
       "slug": "clinton-dale",
@@ -745,21 +767,27 @@
       ],
       "platform_source_url": "https://www.ussenateclintonrooseveltdale.org/",
       "_platform_resolved_at": "2026-08-17T00:54:16.225Z",
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.395Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Clinton Roosevelt Dale is a former Republican, now independent,. More importantly, Clinton is father of two daughters, a husband, a successful small business owner, a tax advocate for families and small businesses, a founder of a nonprofit that benefits minority and veteran women in Colorado, an advocate of women’s rights and a believer in the common sense values of Colorado.",
+        "source_url": "https://www.ussenateclintonrooseveltdale.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:45:10.861Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:29.428Z",
-      "bio_summary": {
-        "value": "Clinton Roosevelt Dale is a former Republican, now independent,. More importantly, Clinton is father of two daughters, a husband, a successful small business owner, a tax advocate for families and small businesses, a founder of a nonprofit that benefits minority and veteran women in Colorado, an advocate of women’s rights and a believer in the common sense values of Colorado.",
-        "source_url": "https://www.ussenateclintonrooseveltdale.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:45:10.861Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:09.635Z"
     },
     {
       "slug": "john-hickenlooper",
@@ -826,21 +854,82 @@
       "platform": [
         {
           "topic": "Health Care",
-          "value": "Expanding access to health care",
-          "snippet": "expanding access to health care"
+          "value": "Expanded health care to over 500,000 Coloradans as governor; as senator, has lowered drug prices for seniors and held pharmaceutical companies accountable for price gouging; supports a public option and Medicare drug-price negotiation; voted against a Trump-backed budget he says would double or eliminate health care costs for millions to fund $4 trillion in corporate tax cuts; working to restore Medicaid, ACA subsidy, and SNAP funding.",
+          "snippet": "John knows health care is a right not a privilege. That's what has guided his work to deliver universal health care. As governor, he expanded health care to more than 500,000 Coloradans. As senator, he lowered drug prices for seniors and held pharmaceutical companies accountable for price gouging. John supports legislation to create a public option, lower drug prices by empowering Medicare to negotiate all drug prices, and improve health care access for rural, low-income, and minority communities.\n\nNow, he's fighting the Trump administration's assault on Americans' health care. He voted against their cruel budget that'll DOUBLE the cost of health care – or erase it entirely – for millions of people to give $4 trillion in tax cuts for large corporations and the ultra-wealthy. He's working to restore funding for Medicaid, ACA subsidies, and SNAP and introduced legislation to create real transparency in health care costs to protect people from hidden prices and root out corruption and waste.\n"
         },
         {
           "topic": "Climate Change",
           "value": "Fighting to combat climate change",
           "snippet": "fighting to combat climate change"
+        },
+        {
+          "topic": "Fighting Trump's Corruption",
+          "value": "Champions legislation to prevent Trump administration officials from using insider information to profit from military operations and to stop lawmakers from using their position for personal enrichment.",
+          "snippet": "John knows this is the most corrupt administration in history. That's why he's fighting to stop them from profiting at the expense of the American people and rigging elections to hide from voters. John is rooting out corruption in Washington. He has championed legislation to prevent Trump and his cronies from using insider information to make millions betting on military operations and stop lawmakers from using their position to enrich themselves.\n"
+        },
+        {
+          "topic": "Protect Democracy, Ban Corporate PACs",
+          "value": "Refuses corporate PAC money; supports overturning Citizens United and sponsors legislation for stricter money-in-politics disclosure; as governor, helped establish universal vote-by-mail in Colorado; as senator, opposes efforts to suppress voting, end vote-by-mail, or deploy ICE agents to polling places.",
+          "snippet": "John doesn't take a dime of corporate PAC money. He is fighting to ban dark money and special interest corruption in politics. He supports overturning the Citizens United ruling, which unleashed floods of dark money in politics, and is a sponsor of legislation to create stricter regulations and disclosures for money in politics. As governor, John helped create the gold-standard for universal vote-by-mail to expand voting access. As senator, he is fighting back against Trump's efforts to suppress the vote, end vote by mail, and deploy ICE agents to polling places.\n"
+        },
+        {
+          "topic": "Defending You from Trump's Illegal Tariff-taxes",
+          "value": "Opposes Trump's tariffs, calling them illegal taxes and demanding repayment; sits on the Senate Committee on Small Business and Entrepreneurship, championing legislation to expand capital access for small businesses, women, Coloradans of color, and rural communities.",
+          "snippet": "As a former brewpub owner, John knows how hard it is to run a business. That's why he's standing up to Trump and demanding the president pay back every cent he stole with his illegal tariff-taxes. John sits on the Senate Committee on Small Business and Entrepreneurship and has championed legislation to expand access to capital for small businesses, women, Coloradans of color and rural communities.\n"
+        },
+        {
+          "topic": "Investing in American Workers",
+          "value": "Co-sponsors the PRO Act to strengthen workers' rights and collective bargaining; has joined picket lines across Colorado; opposed Trump-administration efforts to revoke federal employees' collective bargaining rights; as governor, helped create the CareerWise apprenticeship program; has authored AI workforce-protection legislation and supports regulating the AI industry; has fought Trump administration policies he says are raising grocery and medical costs.",
+          "snippet": "John is a strong supporter of labor unions and American workers. He's joined picket lines across Colorado and supported workers as they organize for fair wages and better working conditions. In the Senate, he co-sponsors the PRO Act to strengthen workers' rights and help working Americans negotiate better salaries, benefits, and working conditions. He has stood up to Trump's efforts to revoke the rights of federal employees to collectively bargain. As governor, he helped create CareerWise and invest in apprenticeship programs for our next generation of workers and continues that work in the Senate.\n\nArtificial Intelligence is already shaping our lives and the economy. John knows our workers can't be left behind. That's why he's authored legislation to prepare and protect our workforce as we harness American innovation to lead on AI. He has worked to protect small businesses and consumers from cyberattacks and scams and supports regulating the artificial intelligence industry. He has fought back against the Trump Administration's policies that are skyrocketing costs for groceries, medical care and other everyday goods and has been working to reinstate employees that ensure consumers' rights.\n"
+        },
+        {
+          "topic": "Lowering Prices",
+          "value": "Turned Colorado into the #1 state economy for job creation as governor (per U.S. News & World Report); helped pass major federal housing, infrastructure, and clean energy legislation; works to lower housing costs by limiting large corporate ownership of the housing market and cutting building red tape.",
+          "snippet": "Too many Coloradans are holding down two or three jobs but still can't get ahead. We need to build an economy that works for everyone, not just the ultra-wealthy and well-connected. More affordable housing, lower prices, good paying jobs, fair working conditions, and strong small businesses. That's the Colorado John is focused on building.\n\nAs governor, John turned Colorado's economy around, from 40th in job creation, to the #1 economy in the country three years in a row, according to U.S. News & World Report. He took that experience to the Senate to craft the most comprehensive housing bill in decades, the greatest revamp of our infrastructure since the New Deal, and the largest investment to fight climate change and build a clean energy economy in history. He's helped secure federal funding to build more affordable housing, fix our bridges and roads, and invest in clean energy tech, creating tens of thousands of good-paying jobs in the process. John is helping lower the cost of housing by preventing large corporations from dominating the housing market, cutting red tape that slows building more homes, and supporting local communities to invest in the housing they need.\n"
+        },
+        {
+          "topic": "Defending Colorado from ICE's Violence",
+          "value": "Voted against increased ICE funding and introduced legislation banning ICE agents from wearing masks and conducting raids at sensitive locations (schools, hospitals, polling places, places of worship); has demanded answers regarding intimidation tactics against people of color, conducted oversight visits at ICE facilities, and helped secure the release of detained Coloradans.",
+          "snippet": "John is committed to keeping our communities safe and holding law enforcement accountable.\n\nICE is out of control. They've shot, beaten, and killed people. They're attacking constitutional rights. John refuses to accept their lawlessness. He knows they need to be completely overhauled or shut down. That's why he voted against giving ICE a penny more and introduced legislation to ban ICE agents from wearing masks and conducting raids at sensitive locations like schools, hospitals, polling places, and places of worship. He's demanded answers for the racist \"death cards\" left to intimidate people of color, conducted oversight visits at ICE facilities, and helped secure the release of Coloradans detained by ICE. John won't stop protecting Colorado from Trump's cruel mass deportation effort.\n"
+        },
+        {
+          "topic": "Ending Gun Violence",
+          "value": "As governor, passed sweeping gun safety reform including universal background checks and high-capacity magazine limits; in the Senate, helped pass the Bipartisan Safer Communities Act and helped form the Gun Violence Prevention Caucus; supports expanding background checks to all gun sales, banning assault weapons, and safe firearm storage regulation.",
+          "snippet": "John knows gun violence is an epidemic we can solve. As Governor, he took on the NRA and won. He created sweeping gun safety reform including universal background checks and limits on high capacity magazines. In the Senate, he helped pass the first major gun legislation in decades, the Bipartisan Safer Communities Act, and helped form the Gun Violence Prevention Caucus. John supports legislation to expand background checks to all gun sales, ban assault weapons, and better regulate the safe home storage of firearms.\n"
+        },
+        {
+          "topic": "Safeguarding American Science",
+          "value": "Blocked a government funding package to help protect NCAR (National Center for Atmospheric Research) in Boulder from Trump-administration cuts threatening 800 jobs; voted against nominees he says undermine science; helped remove a public lands sale provision from the \"Big Bad Betrayal Act\"; has worked to secure clean water access for 50,000 Coloradans.",
+          "snippet": "As the only peer-reviewed scientist in the Senate, John refuses to bend the knee to the Trump administration's all-out attack on science and American innovation. After the Trump administration attempted to dismantle the National Center for Atmospheric Research (NCAR) in Boulder, risking 800 jobs and undermining the weather science that saves lives, John didn't back down. He blocked a government funding package, joined rallies with Coloradans fighting back, and is working to protect NCAR's funding. He's continuing to push back on the administration's blatant attacks on proven science and voted against Trump's nominees who spread lies and undermine science.\n\nIn the Senate, he continues to stand up to Trump's attacks on our lands and climate. He successfully helped to remove the public lands sale from the Republicans disastrous Big Bad Betrayal Act and has been standing up to Trump's efforts to punish Colorado, working to secure clean water for 50,000 Coloradans and protecting funding for NCAR to keep Americans safe during weather disasters.\n"
+        },
+        {
+          "topic": "Saving our Public Lands & Environment",
+          "value": "Helped build the coalition that stopped a Trump/MAGA plan to sell off millions of acres of public lands to fund tax cuts; helped secure the 2022 climate investment package and billions in wildfire/drought/clean-energy job funding for Colorado; created the Senate Colorado River Caucus securing billions for the Colorado River crisis; as governor, protected 100,000 acres of Colorado public lands and created national methane-regulation standards.",
+          "snippet": "John knows our public lands will NEVER be for sale. When Trump and MAGA Republicans tried to sell off millions of acres of our public lands, John stopped them in their tracks. He helped build the coalition that mobilized millions of people across the country who put so much pressure on Republicans that they dropped their last-ditch plans to sell public lands to pay for tax cuts for the ultra-wealthy.\n\nHis fight for our public lands and climate doesn't stop there. In 2022, John saved the largest climate investment EVER and helped secure billions for Colorado to fight climate change, protect communities from wildfire and extreme drought, and create tens of thousands of good-paying jobs. He won't stop fighting the Trump admin's attempts to roll back all that progress. He also created the Senate Colorado River Caucus and secured billions in federal funding to help address the Colorado river crisis. As governor, John successfully protected 100,000 acres of Colorado public lands from the Trump administration and created the country's gold standard for methane regulations.\n"
+        },
+        {
+          "topic": "Standing Up for Abortion Rights",
+          "value": "Supports restoring Roe v. Wade protections and reversing Medicaid cuts targeting Planned Parenthood; working to protect access to mifepristone and medical abortion and establish a nationwide right to IVF; as governor, expanded free birth control access.",
+          "snippet": "Amid the Trump admin's relentless attacks on women's rights, John is defending a woman's right to choose. He is fighting to restore Roe v Wade and reverse disastrous Medicaid cuts that targeted Planned Parenthood. He is working to protect mifepristone and medical abortions and establish a nationwide right to access IVF. As governor, he expanded access to free birth control.\n"
         }
       ],
-      "platform_source_url": "https://secure.actblue.com/donate/jwh?refcode=web-join-form",
+      "platform_source_url": "https://hickenlooper.com",
       "_platform_resolved_at": "2026-08-17T06:43:11.179Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "campaign_site_url": "https://hickenlooper.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.398Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=-63689Ahyuk",
+      "platform_video_title": "Not Done Fighting | John Hickenlooper is running for U.S. Senate",
+      "platform_video_source_url": "https://www.youtube.com/@johnhickenlooper",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-29T17:51:39.045Z",
+      "bio_summary": {
+        "value": "John Wright Hickenlooper Jr. ( 1952-02-07 ) February 7, 1952 (age 74) Narberth, Pennsylvania , U.S. Party Democratic Spouses Helen Thorpe ​ ​ ( married&lt;/span>\"}]]}'>m. January 2002&lt;/span>\"}]]}'>2002 ; divorced&lt;/span>\"}]]}'>div. 2015 ) ​ Robin Pringle ​ ( married&lt;/span>\"}]]}'>m. January 16, 2016&lt;/span>\"}]]}'>2016 ) ​ Children 2 Relatives Smith Hickenlooper (grandfather) Bourke B. Hickenlooper (great-uncle) Andrew Hickenlooper (great-grandfather) George Hickenlooper (cousin) Education Wesleyan University ( BA , MS ) Signature Website Senate website Campaign website John Hickenlooper's voice John Hickenlooper on the Club Q Nightclub shooting Recorded November 30, 2022 John Wright Hickenlooper Jr. [ 1 ] ( / ˈ h ɪ k ən l uː p ər / HIK -ən-loop-ər ; born February 7, 1952) is an American politician, geologist, and businessman serving as the junior United States senator from Colorado since 2021. A member of the Democratic Party , he served as the 42nd governor of Colorado from 2011 to 2019 and as the 43rd mayor of Denver from 2003 to 2011. Born in Narberth, Pennsylvania , Hickenlooper is a graduate of Wesleyan University . After a career as a petroleum geologist , in 1988 he co-founded the Wynkoop Brewing Company , one of the first brewpubs in the U.S. Hickenlooper was elected the 43rd mayor of Denver in 2003 , serving two terms. In 2005, TIME named him one of America's five best big-city mayors. ",
+        "source_url": "https://en.wikipedia.org/wiki/John_Hickenlooper",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:31:22.139Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -901,7 +990,11 @@
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 231,
+          "votesCast": 230,
+          "attendanceRate": 0.9956709956709957
+        },
         "committees": [
           {
             "committee": "Senate Committee on Commerce, Science, and Transportation",
@@ -986,8 +1079,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/H000273"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:29.838Z"
+      "_curated_match": true
     },
     {
       "slug": "joshua-kuebler",
@@ -1023,16 +1115,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://joshuakuebler.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.395Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:30.154Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:10.024Z"
     },
     {
       "slug": "adam-withrow",
@@ -1055,6 +1154,12 @@
           "source_url": "https://www.senatorwithrow.com/about",
           "snippet": "I ve worked as a ranch hand, a CNA, a cook, a contractor, and a Detention Officer.",
           "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.senatorwithrow.com/about",
+          "snippet": "Ask my wife.",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
       "platform": [
@@ -1076,20 +1181,26 @@
       ],
       "platform_source_url": "https://www.senatorwithrow.com/",
       "_platform_resolved_at": "2026-08-12T11:24:30.475Z",
+      "campaign_site_url": "https://www.senatorwithrow.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.395Z",
       "platform_video_url": "https://www.youtube.com/watch?v=39ObGFKydq4",
       "platform_video_title": "Mother Forward Town Hall with CD3 candidates (and others)",
       "platform_video_source_url": "https://www.senatorwithrow.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:01:33.949Z",
+      "bio_summary": {
+        "value": "Adam Withrow is running for the United States Senate to bring a fresh perspective to Congress. By now, we all know who the major parties work for, and we know that they don't work for us. Oligarchy is not a possibility, it is our reality. We do not have to accept this, and it is our responsibility to stop it.",
+        "source_url": "https://www.senatorwithrow.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:45:06.277Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Adam Withrow is running for the United States Senate to bring a fresh perspective to Congress. By now, we all know who the major parties work for, and we know that they don't work for us. Oligarchy is not a possibility, it is our reality. We do not have to accept this, and it is our responsibility to stop it.",
-        "source_url": "https://www.senatorwithrow.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:45:06.277Z"
+      "_curated_match": false
     },
     {
       "slug": "matthew-wood",
@@ -1113,32 +1224,29 @@
         }
       },
       "bio": {
-        "college": {
-          "value": "Bachelor's, Coastal Carolina University",
-          "source_url": "https://www.ballotready.org/people/matthew-wood",
-          "snippet": "Degrees Bachelor&#x27;s, Coastal Carolina University",
-          "source_type": "llm_extracted_ballotready"
-        },
-        "employment_record": {
-          "value": "US Army, Reservist; Insurance Broker",
-          "source_url": "https://www.ballotready.org/people/matthew-wood",
-          "snippet": "Professional Experience US Army, Reservist Insurance Broker",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "college": null,
+        "employment_record": null
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://matthewwoodforcolorado.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:23.397Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:30.447Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:10.363Z"
     }
   ]
 }

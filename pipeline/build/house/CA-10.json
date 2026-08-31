@@ -32,7 +32,7 @@
     "snippet": "Incumbent Mark DeSaulnier and Jeffrey Frese are running in the general election for U.S. House California District 10 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -305,7 +305,7 @@
         ],
         "bills_sponsored": 226,
         "bills_cosponsored": 3731,
-        "bills_became_law": 2,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "John Muir National Historic Site Expansion Act",
@@ -344,7 +344,9 @@
         "value": "Before I was a Congressman, I drove trucks, waited tables, ran restaurants, and paid union dues. I didn’t get into public service to check boxes or climb a ladder. I got into it because I’ve lived the same pressures a lot of families are feeling right now. I believe the government should actually make your life easier, not harder. That’s what I’m focused on every day.",
         "source_url": "https://desaulnierforcongress.com/issues/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:35.305Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:35.305Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.902Z"
     },
     {
       "slug": "jeffrey-frese",
@@ -393,7 +395,9 @@
         "value": "I’m not a politician — I’m a small business owner and a dad. My opponent has spent decades in office.",
         "source_url": "https://freseforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:21:22.119Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:21:22.119Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.906Z"
     }
   ]
 }

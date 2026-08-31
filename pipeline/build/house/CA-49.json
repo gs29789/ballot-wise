@@ -575,8 +575,12 @@
       "platform_video_source_url": null,
       "platform_video_tier": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Armen Kurdian served in the U.S. Navy from 1993 to 2018. Kurdian earned a high school diploma from Wichita East High School, a bachelor's degree from the University of Kansas in 1993, a graduate degree from Naval Postgraduate School in 2003, and a graduate degree from Cornell University in 2014. Kurdian's career experience includes working as an engineering manager.",
+        "source_url": "https://ballotpedia.org/Armen_Kurdian",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:12:45.824Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

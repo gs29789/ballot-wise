@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-21T14:00:09.394Z",
+  "generated_at": "2026-08-29T20:52:22.777Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
@@ -576,10 +576,12 @@
       "platform_video_title": "Declare independence from a failing 2 party system.",
       "platform_video_source_url": "https://voteformissouri.net/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:05:21.990Z",
       "bio_summary": {
         "value": "I refuse corporate PAC money or any dark money. If anyone donates equipment, services or money for this campaign to reach more people every dollar will be 100% transparent. Every Missourian’s vote matters equally.",
-        "source_url": "https://voteformissouri.net/"
+        "source_url": "https://voteformissouri.net/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:04:45.053Z",
       "financial_disclosure": null,
@@ -635,13 +637,18 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://rickbrattinforcongress.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=4SuhZjoweFI",
+      "platform_video_title": "INTERVIEW: Sen. Rick Brattin | Candidate for Congress MO-5",
       "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-08-30T12:00:31.254Z",
+      "bio_summary": {
+        "value": "Richard Ray Brattin Jr. (born July 22, 1980) is an American politician serving as a Republican state senator from Missouri , representing the 31st district, composing of Cass, Bates, Barton, Henry, and Vernon counties. [ 1 ] He is a former state representative, having served three terms in the Missouri House of Representatives . He represented Missouri's 55th Legislative District, which encompasses several suburbs of Kansas City in Cass County , including Raymore , Peculiar , and Lake Winnebago . He is currently Vice Chairman of the Corrections and Consumer Affairs committees. Brattin is a candidate for the 2026 United States House of Representatives elections in Missouri for Missouri's 5th congressional district . [ 2 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Rick_Brattin",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:49:31.672Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078520.pdf",
         "filingDate": "5/15/2026",
@@ -655,7 +662,8 @@
       "_financial_disclosure_resolved_at": "2026-08-14T14:05:51.646Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:31.254Z"
     },
     {
       "slug": "emanuel-cleaver",
@@ -740,10 +748,12 @@
       "platform_video_title": "Emanuel Cleaver And Scott Bessent Have Tense Exchange About The Federal Reserve",
       "platform_video_source_url": "https://www.cleaver4congress.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-21T13:59:36.606Z",
       "bio_summary": {
         "value": "The Kansas City Star profiled Congressman Emanuel Cleaver's decades of public service, from serving as Kansas City's first Black mayor to becoming a leading voice in Congress on housing, economic development and bipartisan leadership. The feature examines Cleaver's lasting impact on the region as he seeks another term representing Missouri's Fifth District.",
-        "source_url": "https://www.cleaver4congress.com/"
+        "source_url": "https://www.cleaver4congress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T13:59:41.504Z",
       "financial_disclosure": null,
@@ -845,6 +855,7 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": null,
       "_bio_summary_resolved_at": null,
@@ -852,7 +863,8 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:31.635Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-19",
-  "generated_at": "2026-08-20T15:50:13.178Z",
+  "generated_at": "2026-08-29T20:42:23.489Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -547,7 +547,10 @@
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081219.pdf",
         "filingDate": "7/9/2026",
@@ -561,7 +564,8 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:50:06.220Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:34.412Z"
     },
     {
       "slug": "seth-haskin",
@@ -589,6 +593,18 @@
           "value": "Much of childhood was spent working alongside family in small businesses",
           "source_url": "https://www.sethhaskinforfl.com/about-seth-haskin",
           "snippet": "Much of my childhood was spent working alongside my family in small businesses.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "date_of_birth": {
+          "value": "25-year-old (as of page publication)",
+          "source_url": "https://www.sethhaskinforfl.com/about-seth-haskin",
+          "snippet": "I am a 25-year-old from a lower-middle-class family",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "bachelor's degree in neuroscience",
+          "source_url": "https://www.sethhaskinforfl.com/about-seth-haskin",
+          "snippet": "I eventually earned a bachelor's degree in neuroscience",
           "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
@@ -621,17 +637,19 @@
       "platform_video_title": "Seth Haskin Campaign Announcement",
       "platform_video_source_url": "https://www.sethhaskinforfl.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T15:49:25.741Z",
+      "bio_summary": {
+        "value": "I believe Florida's future is built on a foundation of Rule of law and Enlightenment principles. I am dedicated to restoring the Constitution to its intended purpose: a framework for liberty, not a tool for Government expansion. My vision is a country where governance is transparent, accountability is absolute, and the rights of every citizen are protected by the rule of law.",
+        "source_url": "https://www.sethhaskinforfl.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:09:57.345Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I believe Florida's future is built on a foundation of Rule of law and Enlightenment principles. I am dedicated to restoring the Constitution to its intended purpose: a framework for liberty, not a tool for Government expansion. My vision is a country where governance is transparent, accountability is absolute, and the rights of every citizen are protected by the rule of law.",
-        "source_url": "https://www.sethhaskinforfl.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:09:57.345Z"
+      "_curated_match": false
     },
     {
       "slug": "jim-schwartzel",
@@ -662,15 +680,43 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "campaign_site_url": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Government Spending",
+          "value": "Cut wasteful spending",
+          "snippet": "With President Trump, we'll cut wasteful spending, grow our economy, finish the wall, and deport illegal immigrants."
+        },
+        {
+          "topic": "Economy",
+          "value": "Grow our economy",
+          "snippet": "With President Trump, we'll cut wasteful spending, grow our economy, finish the wall, and deport illegal immigrants."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Finish the wall",
+          "snippet": "With President Trump, we'll cut wasteful spending, grow our economy, finish the wall, and deport illegal immigrants."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Deport illegal immigrants",
+          "snippet": "With President Trump, we'll cut wasteful spending, grow our economy, finish the wall, and deport illegal immigrants."
+        }
+      ],
+      "platform_source_url": "https://www.jimforcongress.com/",
+      "_platform_resolved_at": "2026-08-29T20:40:48.721Z",
+      "campaign_site_url": "https://www.jimforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=aWj9IL7wnK0",
+      "platform_video_title": "Jim Schwartzel - Why I'm Running",
+      "platform_video_source_url": "https://www.jimforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T20:40:50.219Z",
+      "bio_summary": {
+        "value": "Jim Schwartzel was born in Naples, Florida . He earned a high school diploma from Bishop Verot High School and a bachelor's degree from Stetson University in 1998. Schwartzel's career experience includes working as a business owner and president. [1] ",
+        "source_url": "https://ballotpedia.org/Jim_Schwartzel",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:21:06.105Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076728.pdf",
         "filingDate": "7/17/2026",

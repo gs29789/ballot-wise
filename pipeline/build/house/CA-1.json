@@ -32,7 +32,7 @@
     "snippet": "Incumbent James Gallagher and Mike McGuire are running in the general election for U.S. House California District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
     "population": null,
@@ -185,7 +185,9 @@
         "value": "James Gallagher is the descendant of Irish immigrants who settled in northern California in the early 1800s. James was born in Yuba City in 1981 and attended local schools. He earned his BA degree at UC Berkeley and a JD degree at the University of California, Davis, where he graduated at the top of his class. James Gallagher has represented California’s Third Assembly District since 2014 and served as Assembly Minority Leader from 2022-2025. Before joining the Assembly, he served on the Sutter County Board of Supervisors for six years.",
         "source_url": "https://electjamesgallagher.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:20:07.179Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:20:07.179Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.689Z"
     },
     {
       "slug": "mike-mcguire",
@@ -273,7 +275,9 @@
         "value": "Born and raised in Northern California, Mike McGuire knows what it means to work hard and never give up. That’s why he’s leading the charge to make life more affordable and to grow jobs for working families. Mike McGuire has led the effort to rebuild after wildfires and to double the number of state firefighters protecting our communities from one of the worst impacts of climate change. While Donald Trump cut healthcare for working families, Mike has been fighting to save rural hospitals and health centers, and to enshrine the right to reproductive health for every woman in California.",
         "source_url": "https://www.votemikemcguire.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:20:09.589Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:20:09.589Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.690Z"
     }
   ]
 }

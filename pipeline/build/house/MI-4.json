@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-11T11:04:14.152Z",
+  "generated_at": "2026-08-31T10:42:14.607Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
     "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Michigan's_4th_Congressional_District_election,_2026",
     "snippet": "Incumbent Bill Huizenga, Sean McCann, and Shafina Barnett are running in the general election for U.S. House Michigan District 4 on November 3, 2026. Barnett has no FEC 2026 registration found; see code comment."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -250,18 +256,23 @@
       },
       {
         "year": "2024",
-        "ratePer100k": 30.59
+        "ratePer100k": 30.61
       },
       {
         "year": "2025",
-        "ratePer100k": 30.03
+        "ratePer100k": 30.19
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 718762507.32,
-        "perCapitaUsd": 939.73
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 316288411.52,
-        "perCapitaUsd": 413.53
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459264460.53,
+        "perCapitaUsd": 600.46
       }
     ],
     "population": [
@@ -543,6 +554,39 @@
           "source_url": "https://huizengaformichigan.com/",
           "snippet": "Bill and his wife Natalie raised their five children in Southwest Michigan",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1969-01-31",
+          "source_url": "https://www.wikidata.org/wiki/Q862199",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Zeeland, Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q862199",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Calvin University",
+          "source_url": "https://www.wikidata.org/wiki/Q862199",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Holland Christian High School, Holland, Michigan, graduated 1987",
+          "source_url": "https://history.house.gov/People/Listing/H/HUIZENGA,-Bill-(H001058)/",
+          "snippet": "graduated from Holland Christian High School, Holland, Mich., 1987",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "administrator; business owner; staff, United States Representative Peter Hoekstra of Michigan, 1996-2002",
+          "source_url": "https://history.house.gov/People/Listing/H/HUIZENGA,-Bill-(H001058)/",
+          "snippet": "administrator; business owner; staff, United States Representative Peter Hoekstra of Michigan, 1996-2002",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Michigan state house of representatives, 2003-2008",
+          "source_url": "https://history.house.gov/People/Listing/H/HUIZENGA,-Bill-(H001058)/",
+          "snippet": "member of the Michigan state house of representatives, 2003-2008",
+          "source_type": "llm_extracted_house_historian"
         }
       },
       "platform": [
@@ -569,11 +613,81 @@
       ],
       "platform_source_url": "https://huizengaformichigan.com/",
       "_platform_resolved_at": "2026-08-11T11:04:03.145Z",
+      "campaign_site_url": "https://www.huizengaforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:46.516Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=KKBKYj1ln68",
+      "platform_video_title": "Bill Huizenga for Congress",
+      "platform_video_source_url": "https://huizengaformichigan.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-21T10:53:57.955Z",
+      "bio_summary": {
+        "value": "Bill is a lifelong Ottawa County resident , small business owner, and proven leader fighting for Southwest Michigan in Congress. Before serving in Washington, Bill built and ran a local business, giving him firsthand experience with the challenges facing employers and workers across the region. In Congress, he has earned a reputation for fiscal discipline, government accountability, and standing firm on the issues that matter most. Bill and his wife Natalie raised their five children in Southwest Michigan and remain deeply rooted in the community they serve.",
+        "source_url": "https://huizengaformichigan.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:38.133Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 252,
+          "votesCast": 251,
+          "attendanceRate": 0.996031746031746
+        },
         "committees": [
           {
             "committee": "House Committee on Financial Services",
@@ -607,7 +721,7 @@
           }
         ],
         "bills_sponsored": 177,
-        "bills_cosponsored": 1724,
+        "bills_cosponsored": 1726,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -642,18 +756,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/H001058"
         }
       },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=KKBKYj1ln68",
-      "platform_video_title": "Bill Huizenga for Congress",
-      "platform_video_source_url": "https://huizengaformichigan.com/",
-      "_platform_video_resolved_at": "2026-08-21T10:53:57.955Z",
-      "_tier2_search_attempted_at": null,
-      "bio_summary": {
-        "value": "Bill is a lifelong Ottawa County resident , small business owner, and proven leader fighting for Southwest Michigan in Congress. Before serving in Washington, Bill built and ran a local business, giving him firsthand experience with the challenges facing employers and workers across the region. In Congress, he has earned a reputation for fiscal discipline, government accountability, and standing firm on the issues that matter most. Bill and his wife Natalie raised their five children in Southwest Michigan and remain deeply rooted in the community they serve.",
-        "source_url": "https://huizengaformichigan.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:40:38.133Z",
-      "platform_video_tier": 1
+      "_curated_match": false
     },
     {
       "slug": "sean-mccann",
@@ -677,20 +780,13 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1950",
-          "source_url": "https://www.wikidata.org/wiki/Q1731879",
-          "source_type": "wikidata_structured"
-        },
-        "birthplace": {
-          "value": "Cork",
-          "source_url": "https://www.wikidata.org/wiki/Q1731879",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
+        "birthplace": null,
         "college": {
-          "value": "United States Army Command and General Staff College",
-          "source_url": "https://www.wikidata.org/wiki/Q1731879",
-          "source_type": "wikidata_structured"
+          "value": "Bachelor's, Western Michigan University, Political Science (1993)",
+          "source_url": "https://www.ballotready.org/people/sean-mccann",
+          "snippet": "Bachelor's, Western Michigan University, Political Science (1993)",
+          "source_type": "llm_extracted_ballotready"
         },
         "employment_record": {
           "value": "Michigan State Senate, State Senator- District 19 (2019 - Present); Michigan House of Representatives, Representative- District 60 (2011 - 2014); Kalamazoo City, City Commissioner (1999 - 2009); Small Business Owner",
@@ -699,16 +795,91 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Keeping Costs Low and Tackling the Affordability Crisis",
+          "value": "In the Michigan Senate, worked to ease the tax burden and make life more affordable; in Congress, will prioritize lowering everyday costs (utilities, prescription drugs, housing) while protecting and creating good-paying jobs in Southwest Michigan, and opposes tariffs he argues are driving up grocery, gas, utility, and housing costs.",
+          "snippet": "With every day that passes, it doesn't just feel like it's getting harder to get by; it actually is getting harder for people.\n\nBackbreaking tariffs are making all aspects of life more expensive—grocery and gas prices are skyrocketing, utility bills are doubling, and housing costs are higher than ever. It's a never-ending assault on families' pocketbooks, yet corporations and billionaires seem to get richer while Congress gives them handouts.\n\nIn the Michigan Senate, I've taken steps to ease the tax burden for regular folks and try to make life a little more affordable—and I'll work to do the same for you in Congress.\n\nMy number one priority will be lowering everyday costs while protecting and creating good-paying jobs right here in Southwest Michigan. From utilities to prescription drugs to housing—I'll make sure Congress gets its act together to make life more affordable for working families.\n"
+        },
+        {
+          "topic": "Protecting Our Health Care",
+          "value": "Voted in the Michigan Legislature to expand Medicaid access to over a million people; opposes Medicaid/ACA cuts he attributes to Rep. Bill Huizenga and Donald Trump, citing over 160,000 Medicaid recipients and 14,000 ACA enrollees affected in MI-4; will fight to extend ACA tax credits, lower prescription drug costs, and strengthen rural and urban health care access.",
+          "snippet": "I hear from too many families who are skipping medical exams and appointments and rationing medicine they need because they simply can't afford health care.\nThat's why one of my proudest votes in the Michigan Legislature was to expand access to Medicaid to over a million people in Michigan, making it possible for more families to have real, quality health care.\nBut in Washington, Bill Huizenga and Donald Trump's Medicaid cuts have ripped away health care from hundreds of thousands of people in Michigan, including more than 160,000 people on Medicaid and 14,000 people who rely on the Affordable Care Act right here in Michigan's 4th Congressional District, while also jeopardizing our rural hospitals.\nIn Congress, we need to put people ahead of profits. I will fight to:\n\n* Extend the ACA tax credits and reduce the cost of health care.\n* Lower prescription drug costs and hold Big Pharma accountable for price gouging.\n* Strengthen access to care across our district—in both our rural and urban communities.\n"
+        },
+        {
+          "topic": "Addressing Energy Costs",
+          "value": "Supports building domestic energy infrastructure (solar, wind, nuclear) to reduce reliance on foreign energy and create jobs; opposes Trump's decision to keep an aging coal plant in Holland, MI open past its planned closure; in the Michigan Senate, supported funding to help reopen the Palisades Nuclear Plant.",
+          "snippet": "The United States can be a leader in the growing domestic energy economy—we should be building energy infrastructure here at home so we don't have to rely on foreign oil or foreign energy. And we'll create good-paying energy jobs while we're at it.\n\nTrump's decision to force aging coal plants to stay open, including one in Holland, Michigan, months after it was due to close, is damaging our environment and raising energy costs for people in Michigan and beyond.\n\nSolar, wind, and nuclear energy here in Michigan will help us support US energy independence, reduce pollution, and create good-paying jobs in our community. In the Michigan Senate, I supported funding to help reopen the Palisades Nuclear Plant to help us move towards a clean energy future.\n\nWe need solutions that reduce costs for Michigan families—not aging coal and natural gas plants that make energy more expensive for ratepayers.\n"
+        },
+        {
+          "topic": "Protecting Our Water, Air and Land",
+          "value": "Points to the Great Lakes and Michigan's lead water crises in Benton Harbor and Flint as reasons to protect drinking water safety, air quality, and the state's natural beauty for future generations.",
+          "snippet": "Here in Michigan, we understand the value of clean water. The Great Lakes are a national treasure and central to our way of life here. We also know all too painfully what happens when you don't take care of the water, as we've seen with the lead water crises in Benton Harbor and Flint. No one should have to worry about the safety of the water they drink.\n\nWe need to protect the air we breathe, the water we drink, and the beauty of Michigan for all our kids and grandkids.\n"
+        },
+        {
+          "topic": "Safeguarding Our Constitution and Democracy",
+          "value": "Supports free speech and free/fair elections; pushed forward independent redistricting efforts and opposes attempts to undermine elections; will work in Congress to defend democratic institutions.",
+          "snippet": "Now more than ever, it is vital that we stand up for our democratic ideals, our Constitution, and our freedoms. Freedom of speech is a pillar of our country and the foundation of our electoral process.\nThat's why I've stood up for free and fair elections. I pushed forward independent redistricting efforts and will always fight against extremist attempts to undermine our elections.\n\nIn Congress, I will continue to use my voice, alongside yours, to make sure that we defend the institutions that make America stand head and shoulders above the rest of the world.\n"
+        },
+        {
+          "topic": "Fighting for Our Farmers, Producers, and Rural Communities",
+          "value": "Opposes Trump-era tariffs he says raised seed, fertilizer, and fuel costs and led China to stop buying U.S. soybeans; cites USAID's dismantling as leaving farmers with excess crops and no buyers; supports Farm Bill Reauthorization for rural infrastructure, workforce training, and conservation; will push \"Right to Repair\" legislation letting farmers fix their own equipment.",
+          "snippet": "Farmers and rural Michigan are bearing the brunt of the Trump administration's tariff policy. The costs of seed, fertilizer, and fuel are all going up due to tariffs. And as a result of Trump's threats, China stopped buying U.S. soybeans last year, tanking prices.\n\nOur farmers are committed to their communities and to growing the food necessary to feed and support them. The dismantling of USAID left many farmers in a tough spot with excess crops and nowhere to sell them.\n\nCongress needs to pass the Farm Bill Reauthorization to support farmers and rural communities through investment in infrastructure, workforce training, economic development, and conservation.\n\nIn Congress, I will push for \"Right to Repair\" legislation. For too long, our farmers have been forced to wait for expensive repairs when they are capable of maintaining and repairing their equipment themselves, at much lower costs.\n"
+        },
+        {
+          "topic": "Honoring Our Veterans by Giving Them the Care They Need",
+          "value": "Supports ensuring veterans receive earned VA benefits, strengthening job-training pathways for veterans, and protecting/strengthening the VA; opposes what he calls DOGE cuts undermining VA care and will fight them in Congress.",
+          "snippet": "Our veterans fought for our freedoms, and we owe it to them to be there when they come home.\n\nThat means ensuring all veterans receive the Veterans Administration benefits they earned, strengthening pathways for veterans to access job training and quality careers, and protecting and strengthening the VA.\n\nRight now, politicians in Washington aren't focused on doing this. Instead, they're slashing and burning, attacking the VA, and undermining our commitment to our veterans.\n\nIn Congress, I'll fight back against DOGE cuts impacting the VA that are undermining care.\n"
+        },
+        {
+          "topic": "Investing in Local Public Education",
+          "value": "In the Michigan Legislature, helped increase funding to hire more teachers, social workers, and therapists; expanded free pre-K access and free K-12 breakfast/lunch; opposes efforts by Betsy DeVos, Elon Musk, and other billionaires to cut public education funding; supports both four-year-degree and technical-education pathways for students.",
+          "snippet": "I am a proud product of public schools and the son of a public school teacher. My wife and I are proud public school parents.\n\nI believe every child deserves the opportunity to reach their full potential, which is why I strongly support public education and funding our public schools.\n\nIn the Michigan Legislature, I helped increase funding to hire more public-school teachers, social workers, and therapists; expand access to free pre-K; and make free school breakfasts and lunch available to all K-12 students.\n\nBetsy DeVos, Elon Musk, and other billionaires who want to take away funding from public education are wrong, and I'll stand up to them in Congress.\n\nWe need to make sure our schools are providing our children with the skills they need to succeed, whether that means putting them on the path to a four-year degree or providing the technical education to connect them with the skills to work in a 21st-century manufacturing economy.\n"
+        },
+        {
+          "topic": "Securing Our Border, Fixing Our Broken Immigration System",
+          "value": "Supports a secure border paired with a legal pathway for those who follow the rules; opposes what he describes as ICE and untrained federal agents terrorizing communities; will push to overhaul ICE and hold agents accountable for illegal actions.",
+          "snippet": "Our immigration system is broken. There's no way around it.\n\nA world exists where we can have a secure border that stops criminals from entering our country while providing a path for those who follow the rule of law to come here legally.\n\nWhat doesn't keep us secure is ICE and untrained federal agents terrorizing our communities and killing American citizens in broad daylight. In Congress, I will do everything in my power to overhaul ICE and hold agents accountable for illegal actions.\n"
+        },
+        {
+          "topic": "Keeping Communities Safe, Supporting Local Law Enforcement",
+          "value": "In the Michigan Legislature, voted repeatedly to fully fund police, firefighters, and mental health resource programs; in Congress, will support local law enforcement, gun-violence prevention, and responsible gun ownership; supports schools free from the threat of gun violence.",
+          "snippet": "Regardless of who you are or where you live, you deserve the right to be safe in your home, your community, and with your neighbors. And our children deserve to go to school every day without the threat of gun violence.\n\nIn the Michigan Legislature, I voted time and time again to fully fund our police, our firefighters, and programs that invested in mental health resources.\n\nIn Congress, I'll continue to be that champion—supporting local law enforcement and gun-violence prevention while promoting responsible gun ownership in our communities.\n"
+        },
+        {
+          "topic": "Fighting for Reproductive Freedom",
+          "value": "Voted in the Michigan Senate to repeal the state's 1931 abortion ban; served as a board member of Planned Parenthood of South Central Michigan; will oppose efforts in Congress to restrict reproductive decisions, believing they belong to a woman, her family, and her doctor.",
+          "snippet": "I believe that the decision to start or grow a family is between a woman, her family, and her doctor—NOT politicians who have no place in the doctor's office.\n\nIn the Michigan Senate, I was proud to vote to repeal the 1931 abortion ban, ensuring these often difficult decisions are made by families and doctors, not politicians. And I was proud to serve as a board member of Planned Parenthood of South Central Michigan for several years.\n\nIn Congress, I will fight back against extremist attempts to rip these decisions away from women.\n"
+        },
+        {
+          "topic": "Bringing Good-Paying Jobs Home",
+          "value": "Supports policies favoring the middle class over corporate special interests and monopolies; supports continued investment in domestic manufacturing; opposes Trump-era tariff policies he says caused business and plant closures in the district; has worked to bring new businesses and jobs to Michigan and will continue in Congress.",
+          "snippet": "The middle class was built in Michigan, and these are roots we must never forget. But with corporate greed and monopolies run amok, billionaires are making a killing off the backs of everyday people. It's time for Washington to work for the middle class again, not corporate special interests.\n\nPeople should be able to work, earn a good wage, and build a better life for their families. That should be a possibility, not a privilege, for everyone. We need to keep investing in manufacturing here at home to create good jobs and strengthen our local economies.\n\nBut in the past year, we've seen businesses and manufacturing closing due to the rising economic instability caused by Trump's chaotic tariff policies. The jobs lost from these plants closing are devastating to our communities.\n\nI've always worked to bring new businesses and jobs to Michigan—and that's what I'll continue to do in Congress.\n"
+        }
+      ],
+      "platform_source_url": "https://www.seanmccannforcongress.com",
+      "_platform_resolved_at": "2026-08-31T10:41:45.784Z",
+      "campaign_site_url": "https://www.seanmccannforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:46.507Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Sean McCann earned a B.A. in political science from Western Michigan University in 1993. [1] McCann served as the executive director of Kalamazoo Friends of Recreation, the director of financial development of the American Red Cross, and the executive director of the Vine Neighborhood Association. [1] [2] ",
+        "source_url": "https://ballotpedia.org/Sean_McCann",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:44:27.759Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:24.911Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:59.625Z"
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:07.473Z"
     }
   ]
 }

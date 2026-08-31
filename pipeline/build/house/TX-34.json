@@ -23,7 +23,7 @@
     "snippet": "Incumbent Vicente Gonzalez Jr., Eric Flores, Eddie Espinoza, and Chris Royal are running in the general election for U.S. House Texas District 34 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -85,7 +85,15 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Eddie Espinoza was born in Dallas, Texas . He served in the U.S. Army from 1989 to 1991. Espinoza earned a bachelor's degree from the University of Texas–Pan American in 1994. His career experience includes working as a teacher. [1] ",
+        "source_url": "https://ballotpedia.org/Eddie_Espinoza",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:29:37.958Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.189Z"
     },
     {
       "slug": "eric-flores",
@@ -188,7 +196,10 @@
         "value": "Eric is a devoted husband and father of two. He is guided by his Christian faith and an unwavering commitment to his neighbors. Eric brings the same tenacity he displayed in uniform and the courtroom to his campaign for Congress: bolstering border security, championing law enforcement and veteran issues, revitalizing our local economy, and safeguarding seniors' benefits. For Eric, public service isn't a career, it's a calling.",
         "source_url": "https://www.ericflores.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:00.968Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:00.968Z",
+      "campaign_site_url": "https://ericflores.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:37.324Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "vicente-gonzalez",
@@ -368,7 +379,7 @@
         ],
         "bills_sponsored": 52,
         "bills_cosponsored": 1591,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 1535 East Los Ebanos Boulevard in Brownsville, Texas, as the \"1st Lieutenant Andres Zermeno Post Office Building\".",
@@ -398,7 +409,10 @@
         "value": "Vicente Gonzalez has built his career on service, accountability, and a deep understanding of the challenges facing South Texas. His approach is grounded in practical solutions that address real needs in our communities, from economic stability to access to essential services. Leadership means more than words. It means showing up, doing the work, and delivering outcomes that improve everyday life.",
         "source_url": "https://vicentegonzalez.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:03.531Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:03.531Z",
+      "campaign_site_url": "https://www.vicentegonzalez.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:37.326Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

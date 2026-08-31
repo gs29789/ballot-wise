@@ -589,7 +589,7 @@
       "platform_video_url": "https://www.youtube.com/watch?v=sl-v3dAbvSw",
       "platform_video_title": "Christina Bohannan — Iowa First",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-08-25T19:03:53.066Z",
+      "_platform_video_resolved_at": "2026-08-23T12:00:09.873Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -600,8 +600,11 @@
         "source_url": "https://bohannanforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:49:41.849Z",
-      "_tier2_search_attempted_at": "2026-08-25T19:03:53.066Z",
-      "platform_video_tier": 2
+      "_tier2_search_attempted_at": "2026-08-23T12:00:09.873Z",
+      "platform_video_tier": 2,
+      "campaign_site_url": "https://www.bohannanforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.278Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "michael-bridgford",
@@ -639,17 +642,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "platform_video_url": "https://www.youtube.com/watch?v=4uvLDXHWryg",
-      "platform_video_title": "A Conversation With Micheal Bridgford",
+      "platform_video_url": "https://www.youtube.com/watch?v=-d0ycNnyOHE",
+      "platform_video_title": "Meet Independent candidate for Congress, Michael Bridgford",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-08-25T19:03:53.334Z",
+      "_platform_video_resolved_at": "2026-08-23T12:00:10.069Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-25T19:03:53.334Z",
-      "platform_video_tier": 2
+      "_tier2_search_attempted_at": "2026-08-23T12:00:10.069Z",
+      "platform_video_tier": 2,
+      "bio_summary": {
+        "value": "Michael Bridgford earned an MBA from Northwestern University. His career experience includes working as an independent financial advisor and small business owner.",
+        "source_url": "https://ballotpedia.org/Michael_Bridgford",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:31:03.798Z",
+      "campaign_site_url": "https://www.bridgfordforiowa.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.273Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "mariannette-miller-meeks",
@@ -763,7 +775,16 @@
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-25T19:03:53.640Z"
+      "_tier2_search_attempted_at": "2026-08-23T12:00:10.403Z",
+      "bio_summary": {
+        "value": "Mariannette Jane Miller-Meeks ( née: Miller ; born September 6, 1955) is an American physician and politician who has served as a U.S. representative from Iowa since 2021. Her district, numbered the 2nd from 2021 to 2023 and the 1st since 2023, includes most of Iowa's southeastern quadrant, including Davenport , Bettendorf , Burlington , and Iowa City . Previously, Miller-Meeks served as in the Iowa Senate from 2019 to 2021. She is a member of the Republican Party . Miller-Meeks ran three unsuccessful campaigns for the U.S. House in 2008 , 2010 , and 2014 . She ran again for the seat in 2020 , winning by six votes (a margin of 0.002%). She was reelected in 2022 by a margin of nearly 7%, and was reelected in 2024 by a 0.29% margin after winning a closer-than-expected Republican primary. ",
+        "source_url": "https://en.wikipedia.org/wiki/Mariannette_Miller-Meeks",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:36:10.488Z",
+      "campaign_site_url": "http://millermeeks.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.277Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

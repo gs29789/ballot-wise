@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-AL",
-  "generated_at": "2026-08-18T22:35:57.295Z",
+  "generated_at": "2026-08-29T20:58:05.683Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://legislature.vermont.gov/statutes/section/17/049/02351",
@@ -607,7 +607,15 @@
       "platform_video_url": "https://www.youtube.com/watch?v=GVEcHBHIWM8",
       "platform_video_title": "This Is A Time For Courage",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T12:12:53.523Z",
+      "bio_summary": {
+        "value": "Becca is the first woman and openly LGBTQ+ person to represent Vermont in Congress. As the daughter of working-class mother and immigrant father, Becca is deeply committed to defending American democracy and protecting vulnerable communities. Now in Congress, Becca is a member of the House Judiciary Committee and a leader in the Progressive Caucus, where she is an outspoken defender of democracy, and civil rights.",
+        "source_url": "https://beccabalint.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:05.588Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075825.pdf",
         "filingDate": "4/30/2026",
@@ -716,14 +724,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/B001318"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:12:53.523Z",
-      "platform_video_tier": 2,
-      "bio_summary": {
-        "value": "Becca is the first woman and openly LGBTQ+ person to represent Vermont in Congress. As the daughter of working-class mother and immigrant father, Becca is deeply committed to defending American democracy and protecting vulnerable communities. Now in Congress, Becca is a member of the House Judiciary Committee and a leader in the Progressive Caucus, where she is an outspoken defender of democracy, and civil rights.",
-        "source_url": "https://beccabalint.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:32:05.588Z"
+      "_curated_match": false
     },
     {
       "slug": "andrews-giusto",
@@ -738,11 +739,15 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "campaign_site_url": null,
+      "campaign_site_url": "https://andrewgiusto.carrd.co/",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10067372.pdf",
         "filingDate": "5/5/2025",
@@ -757,8 +762,8 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:12:53.901Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:31:22.730Z"
+      "_tier2_search_attempted_at": "2026-08-30T12:00:06.247Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:50:34.981Z"
     },
     {
       "slug": "gerald-malloy",
@@ -803,16 +808,57 @@
           "source_url": "https://www.ballotready.org/people/gerald-malloy",
           "snippet": "Professional Experience US Army Business Management and Executive Positions",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "West Point",
+          "source_url": "https://www.deploymalloy.com/",
+          "snippet": "Gerald Malloy is a West Point graduate",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.deploymalloy.com/",
+          "snippet": "Gerald Malloy is a West Point graduate, retired Army officer, husband, father",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "campaign_site_url": "https://deploy malloy.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Taxes and Spending",
+          "value": "Will oppose tax increases on Vermont families, work toward balanced budgets, protect and strengthen Social Security and Medicare without cutting benefits, and address high healthcare costs through market-based reforms, including patent reform to lower drug prices.",
+          "snippet": "Oppose tax increases on Vermont families * Work toward balanced budgets * Protect and strengthen Social Security and Medicare—without cutting benefits * Address high healthcare costs through market-based reforms, including patent reform to lower drug prices"
+        },
+        {
+          "topic": "Energy",
+          "value": "Will support an all-of-the-above energy strategy, strengthen U.S. energy independence, encourage innovation in renewables without costly mandates, and lower heating, fuel, and electricity costs for Vermont families.",
+          "snippet": "Support an all-of-the-above energy strategy * Strengthen U.S. energy independence * Encourage innovation in renewables—without costly mandates * Lower heating, fuel, and electricity costs for Vermont families"
+        },
+        {
+          "topic": "Education",
+          "value": "Will empower parents and local school boards to make decisions, support school choice and accountability, refocus funding on improving outcomes not expanding bureaucracy, and reduce the burden of student loans responsibly, without unconstitutional spending.",
+          "snippet": "Empower parents and local school boards to make decisions * Support school choice and accountability * Refocus funding on improving outcomes—not expanding bureaucracy * Reduce the burden of student loans responsibly, without unconstitutional spending"
+        },
+        {
+          "topic": "Public Safety and Border Security",
+          "value": "Will fully support law enforcement, strengthen border and national security, ensure the military remains the strongest in the world with accountability for spending, and combat the opioid crisis by holding foreign actors accountable.",
+          "snippet": "Fully support law enforcement * Strengthen border and national security * Ensure our military remains the strongest in the world—with accountability for spending * Combat the opioid crisis by holding foreign actors accountable"
+        }
+      ],
+      "platform_source_url": "https://www.deploymalloy.com/landing/positions/",
+      "_platform_resolved_at": "2026-08-29T20:57:42.196Z",
+      "campaign_site_url": "https://deploymalloy.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=vb28Fwc_j3g",
+      "platform_video_title": "Vermont general election debate: US Senate candidates Bernie Sanders and Gerald Malloy",
+      "platform_video_source_url": "https://www.deploymalloy.com/landing/positions/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T20:57:53.437Z",
+      "bio_summary": {
+        "value": "Gerald Malloy is a West Point graduate, retired Army officer, husband, father, and decorated veteran who served our country for 22 years on active duty. Now Gerald is ready to serve Vermont in Congress—with common sense, balanced leadership, and a deep love for our state and country. As America celebrates its 250th anniversary, let’s honor where we came from—and work together for a brighter future. ",
+        "source_url": "https://www.deploymalloy.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:58:00.005Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081381.pdf",
         "filingDate": "7/25/2026",
@@ -826,8 +872,7 @@
       "_financial_disclosure_resolved_at": "2026-08-13T14:52:29.817Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:12:54.274Z"
+      "_curated_match": false
     },
     {
       "slug": "suzanne-seymour",
@@ -843,6 +888,12 @@
           "value": "Colchester small-business owner, massage therapist, comedian",
           "source_url": "https://ruokvt.com/",
           "snippet": "Suzanne \"Suz\" Seymour, a Colchester small-business owner, massage therapist, comedian, and community...",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "Vermont",
+          "source_url": "https://ruokvt.com/about/",
+          "snippet": "Raised in Vermont",
           "source_type": "llm_extracted_campaign_site"
         }
       },
@@ -879,14 +930,21 @@
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Suzanne Seymour is a business owner, massage therapist, comedian, radio host, writer, and community leader whose career spans entrepreneurship, healthcare, entertainment, and activism. Business and Professional Experience In her twenties , Suzanne built a successful career with Domino’s Pizza, serving as Manager, Training Coordinator, and Franchisee. She helped launch stores throughout New England before becoming the owner of locations in Concord and Salem, NH., at the age of 24 . She later founded and operated two massage therapy companies within the last 35 years: first in Massachusetts and now in Vermont, while also teaching at the Bancroft School of Massage Therapy. Suzanne held leadership roles for nearly three decades within the American Massage Therapy Association, serving as President of the Vermont Chapter and helping earn the organization’s first National Innovation Award. ",
+        "source_url": "https://ruokvt.com/about/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-29T20:57:17.153Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:12:54.665Z",
-      "platform_video_tier": null
+      "_tier2_search_attempted_at": "2026-08-30T12:00:06.511Z"
     },
     {
       "slug": "ryan-walton",
@@ -939,18 +997,21 @@
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Ryan P. Walton is running for the United States House of Representatives to give Vermont an independent voice—and to build the institutions, ideas and projects that should already exist.",
+        "source_url": "https://www.waltonforvermont.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:03.556Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:08.185Z",
-      "bio_summary": {
-        "value": "Ryan P. Walton is running for the United States House of Representatives to give Vermont an independent voice—and to build the institutions, ideas and projects that should already exist.",
-        "source_url": "https://www.waltonforvermont.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:32:03.556Z"
+      "_tier2_search_attempted_at": "2026-08-30T12:00:06.957Z"
     }
   ]
 }

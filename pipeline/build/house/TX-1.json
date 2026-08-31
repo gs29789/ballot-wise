@@ -23,7 +23,7 @@
     "snippet": "Incumbent Nathaniel Moran, Yolanda Prince, and Sonia Canchola are running in the general election for U.S. House Texas District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -85,7 +85,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T21:35:49.004Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.155Z"
     },
     {
       "slug": "nathaniel-moran",
@@ -270,7 +273,21 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001224"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Nathaniel Quentin Moran (born September 23, 1974) is an American politician and attorney who has served as the U.S. representative for Texas's 1st congressional district since 2023. A member of the Republican Party , he previously served as a member of the Tyler, Texas city council from the 5th district and as the county judge of Smith County, Texas . ",
+        "source_url": "https://en.wikipedia.org/wiki/Nathaniel_Moran",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:45:32.317Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=PZ8xhJjceL0",
+      "platform_video_title": "Rep. Nathaniel Moran on the Trump Admins 2026 Trade Policy Agenda with US Trade Rep. Jamieson Greer",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Nathaniel_Moran",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-08-29T17:52:39.133Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.155Z"
     },
     {
       "slug": "yolanda-prince",
@@ -359,7 +376,9 @@
         "value": "Washington DC has robbed the middle class and working poor of the American dream, all while protecting criminals and carving out giveaways to billionaires. At a time when so many of our liberties are on the line, Yolanda Prince will fight to restore hope and integrity to Congress.",
         "source_url": "https://yolandaprince.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:16:08.041Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:16:08.041Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.154Z"
     }
   ]
 }

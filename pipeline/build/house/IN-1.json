@@ -539,21 +539,9 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1933-04-11",
-          "source_url": "https://www.wikidata.org/wiki/Q5488569",
-          "source_type": "wikidata_structured"
-        },
-        "birthplace": {
-          "value": "East Chicago, Indiana",
-          "source_url": "https://www.wikidata.org/wiki/Q5488569",
-          "source_type": "wikidata_structured"
-        },
-        "college": {
-          "value": "Indiana University Northwest",
-          "source_url": "https://www.wikidata.org/wiki/Q5488569",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
+        "birthplace": null,
+        "college": null,
         "employment_record": {
           "value": "A lifelong public servant, he is putting his decades of experience to work for the people of Northwest Indiana",
           "source_url": "https://mrvanforcongress.com/",
@@ -702,7 +690,10 @@
         "value": "Democrat Frank J. Mrvan is proudly serving as the representative for Indiana’s 1st Congressional District. A lifelong public servant, he is putting his decades of experience to work for the people of Northwest Indiana, reaching across the aisle to form alliances, secure funding, and pass legislation to protect our jobs, our healthcare, and our economy.",
         "source_url": "https://mrvanforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:48:31.377Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:48:31.377Z",
+      "campaign_site_url": "https://www.mrvanforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:01.547Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "barb-regnitz",
@@ -759,7 +750,10 @@
       "performance": null,
       "_curated_match": true,
       "_tier2_search_attempted_at": "2026-08-22T15:24:43.074Z",
-      "platform_video_tier": 2
+      "platform_video_tier": 2,
+      "_no_site_search_attempted_at": "2026-08-30T20:54:16.924Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:57:01.550Z"
     }
   ]
 }

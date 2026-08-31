@@ -24,7 +24,7 @@
     "snippet": "James Talarico (D), Ken Paxton (R), and four other candidates are running in the general election for U.S. Senate in Texas on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,7 +47,7 @@
         "ratePer100k": 26.29
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -61,8 +61,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -151,7 +151,10 @@
         "value": "I am not running for U.S. Senator to be a \"lawmaker.\" I am running to repeal as many laws as I can. See more There are basic laws that we all know to follow. Crimes such as murder, rape, robbery and fraud should be illegal. But there are actually thousands of pages of laws, which turn non-violent personal behavior into crimes, or which create countless bureaucratic administrative offenses.",
         "source_url": "https://tedbrown.org/website/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:28.052Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:28.052Z",
+      "campaign_site_url": "https://tedbrown.org",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:48.081Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "joshua-cain",
@@ -170,7 +173,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T21:40:05.486Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.335Z"
     },
     {
       "slug": "camencia-ford",
@@ -189,7 +195,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T21:41:52.745Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.334Z"
     },
     {
       "slug": "warren-paxton",
@@ -278,7 +287,10 @@
         "value": "Ken Paxton is a fearless conservative, a battle-tested Attorney General, and a relentless defender of Texas values. He's taken on Biden's overreach, fought for election integrity, and never bent a knee — even as the establishment came after him time and time again. Now, he's bringing that same Texas toughness to the U.S. Senate.",
         "source_url": "https://www.kenpaxton.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:32.586Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:32.586Z",
+      "campaign_site_url": "https://www.kenpaxton.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:48.077Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "james-talarico",
@@ -346,7 +358,9 @@
         "value": "James is an eighth-generation Texan, former middle school teacher, and Presbyterian seminarian. As a state representative, he’s led the fight against the billionaire mega-donors and puppet politicians who have taken over Texas. Now, he’s running for U.S. Senate to take his fight against corruption to Washington and win power back for working people.",
         "source_url": "https://jamestalarico.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:29.966Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:29.966Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.334Z"
     },
     {
       "slug": "hans-truelson",
@@ -365,7 +379,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_no_site_search_attempted_at": "2026-08-30T21:41:55.549Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.333Z"
     }
   ]
 }

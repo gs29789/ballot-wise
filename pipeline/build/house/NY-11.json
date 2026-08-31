@@ -579,7 +579,10 @@
         "value": "I’m a fourth-generation Staten Islander, third-generation union member who’s worked for 35 years in public service.",
         "source_url": "https://www.decillisforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:33:40.168Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:33:40.168Z",
+      "campaign_site_url": "https://decillisforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:44.529Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "nicole-malliotakis",
@@ -631,9 +634,25 @@
           "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Election Integrity",
+          "value": "Believes that reforms are required that make it easier to vote and harder to cheat, including voter identification, regular maintenance of state voter rolls, stringent safeguards to prevent manipulation and abuse of absentee ballot voting",
+          "snippet": "Nicole believes that reforms are required that make it easier to vote and harder to cheat. This includes voter identification, regular maintenance of state voter rolls, stringent safeguards to prevent manipulation and abuse of absentee ballot voting and a streamlined process to ensure that credible claims of election fraud receive a thorough hearing before a judge."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Strongly supports strengthening our border security to stem the tide of illegal immigration, as well as increased investment in U.S. Customs and Border Protection and U.S. Customs and Immigration Enforcement",
+          "snippet": "Nicole strongly supports strengthening our border security to stem the tide of illegal immigration, as well as increased investment in U.S. Customs and Border Protection and U.S. Customs and Immigration Enforcement."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Drafted and introduced legislation requiring municipalities to certify that they have not defunded their police departments before qualifying for federal funding, and sponsored federal legislation to withhold federal funding from local governments that operate drug injection sites",
+          "snippet": "As a Member of Congress, Nicole drafted and introduced legislation requiring municipalities to certify that they have not defunded their police departments before qualifying for federal funding. She also sponsored federal legislation to withhold federal funding from local governments that operate drug injection sites"
+        }
+      ],
+      "platform_source_url": "https://nicolemalliotakis.com/the-issues/",
+      "_platform_resolved_at": "2026-08-30T11:32:03.658Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -735,7 +754,22 @@
       },
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-20T12:38:44.953Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:31:41.460Z"
+      "_no_site_search_attempted_at": "2026-08-22T15:31:41.460Z",
+      "bio_summary": {
+        "value": "Nicole Malliotakis ( / ˌ m æ l i ə ˈ t ɑː k ɪ s / MAL -ee-ə- TAH -kiss ; born November 11, 1980) is an American politician serving as the U.S. representative for New York's 11th congressional district . Her district covers Staten Island and a portion of southern Brooklyn . A Republican , Malliotakis was first elected to the New York State Assembly in 2010. She represented New York's 60th Assembly district from 2011 to 2012 and then represented New York's 64th Assembly district from 2013 to 2021. While serving in the Assembly, Malliotakis was the Republican nominee for mayor of New York City in the 2017 election ; she was defeated by incumbent Democratic mayor Bill de Blasio . In 2020, she ran for Congress and won, defeating incumbent Democratic U.S. representative Max Rose . ",
+        "source_url": "https://en.wikipedia.org/wiki/Nicole_Malliotakis",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:04:15.802Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=pKZ985hQSGM",
+      "platform_video_title": "'They Even Want To Defund The Military!': Nicole Malliotakis Decries 'Communism' In Democratic Party",
+      "platform_video_source_url": "https://nicolemalliotakis.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T11:31:10.456Z",
+      "campaign_site_url": "https://nicolemalliotakis.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:44.530Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

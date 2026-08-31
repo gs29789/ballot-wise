@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-08-18T20:16:05.335Z",
+  "generated_at": "2026-08-31T10:09:17.717Z",
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2970.8
+        "thousandsOfJobs": 2967.9
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5210974845.04,
-        "perCapitaUsd": 6979.36
+        "totalUsd": 5211516551.53,
+        "perCapitaUsd": 6980.09
       }
     ],
     "population": [
@@ -565,20 +575,26 @@
       ],
       "platform_source_url": "https://timbennettforcongress.com/",
       "_platform_resolved_at": "2026-08-12T11:19:35.630Z",
+      "campaign_site_url": "https://timbennettforcongress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.988Z",
       "platform_video_url": "https://www.youtube.com/watch?v=ih8AJRxFfO0",
       "platform_video_title": "I'm Running For Congress",
       "platform_video_source_url": "https://timbennettforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:01:31.307Z",
+      "bio_summary": {
+        "value": "As a proud 32 year veteran of the United States Army, Tim understands duty, sacrifice, and responsibility. He believes public office is about service, not status or personal ambition.",
+        "source_url": "https://timbennettforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:50.560Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "As a proud 32 year veteran of the United States Army, Tim understands duty, sacrifice, and responsibility. He believes public office is about service, not status or personal ambition.",
-        "source_url": "https://timbennettforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:50.560Z"
+      "_curated_match": false
     },
     {
       "slug": "joe-krzeczkowski",
@@ -659,21 +675,27 @@
       ],
       "platform_source_url": "https://joeforco.com/",
       "_platform_resolved_at": "2026-08-12T11:19:31.820Z",
+      "campaign_site_url": "https://votejoek.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.980Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "With a background in engineering and technology and a commitment to honesty and hard work, Joe Krzeczkowski brings a fresh take on the current political climate.",
+        "source_url": "https://joeforco.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:52.403Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:27.868Z",
-      "bio_summary": {
-        "value": "With a background in engineering and technology and a commitment to honesty and hard work, Joe Krzeczkowski brings a fresh take on the current political climate.",
-        "source_url": "https://joeforco.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:44:52.403Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:08.759Z"
     },
     {
       "slug": "brittany-pettersen",
@@ -737,13 +759,120 @@
           "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "As a state senator, supported emergency small-business grants/loans, cut business fees, and helped deliver a $750 taxpayer rebate check; in Congress, will work to increase small-business capital access, invest in research/technology/infrastructure, address workforce gaps through training and loan forgiveness, and expand rural broadband.",
+          "snippet": "ECONOMY: Brittany knows that even though our economy has continued to recover from the pandemic, far too many families and small businesses are struggling to make ends meet. As a state senator, Brittany worked to help Colorado's economy rebuild by supporting emergency grants and loans for small businesses, cut millions of dollars in fees for businesses and ensured that every Colorado taxpayer received a $750 check this July to provide relief in this difficult time. In Congress, she will continue to work to help small businesses recover by increasing access to capital, help our economy grow by investing in the research, technology and infrastructure we need, and help fill critical workforce gaps with training, scholarships, and loan forgiveness programs. Brittany will also work to invest in broadband access across rural Colorado to bring reliable internet for our businesses and communities.\n"
+        },
+        {
+          "topic": "Rising Costs",
+          "value": "Sponsored state legislation holding companies accountable for price gouging and will do the same in Congress; helped lower health insurance premiums by 20%, cut business startup costs, and reduced the state gas tax.",
+          "snippet": "RISING COSTS: Brittany understands that so many of our friends and neighbors are still struggling to keep a roof over their head and put food on the table. Prices for everything are going up because big corporations are increasing costs in a time of crisis while they are making record profits, and politicians in Washington aren't putting our families first. In the Colorado Senate, Brittany sponsored legislation to hold companies accountable for price gouging and will do the same in Congress. She has worked to lower the price of health insurance premiums by 20%, slashed costs to start a business, and reduced the gas tax in Colorado. She will continue to fight to reduce costs for working families who keep getting squeezed, overlooked and left behind.\n"
+        },
+        {
+          "topic": "Tax Fairness",
+          "value": "As a state senator, closed corporate offshore tax havens to fund public schools; supports repealing the 2017 Trump tax cuts and pursuing a fairer, simpler tax code that benefits the middle class.",
+          "snippet": "TAX FAIRNESS: The wealthiest and largest corporations continue to avoid paying taxes while the rest of us are stuck footing the bill. As a state senator, Brittany closed offshore tax havens for corporations who were dodging taxes to give millions back to our public schools. She will continue to fight for tax fairness to support working families and invest back in our schools, roads, and small businesses. Brittany knows that we need a more fair and simple tax code that helps rebuild the middle class and invests back in future generations. She will fight to repeal the 2017 Trump tax cuts that only benefited the wealthy and largest corporations, and will work to help give breaks to the middle class who have been left holding the bag for far too long.\n"
+        },
+        {
+          "topic": "Economic Opportunity",
+          "value": "Wrote and passed the strongest state-level Equal Pay for Equal Work law in the country; ensured worker access to retirement savings accounts; passed laws to keep child care centers open during the pandemic and expand services in childcare deserts.",
+          "snippet": "ECONOMIC OPPORTUNITY: As a state senator, Brittany wrote and passed the strongest Equal Pay for Equal Work legislation in the country, ensured every worker in Colorado has access to a retirement savings account, and will fight to pass similar policies at the national level. As a young mom, Brittany knows firsthand how essential access to affordable child care is to recovering from the pandemic and helping parents get back to work. She passed laws to keep our child care centers afloat during the pandemic and expand services in childcare deserts, but she believes we need major changes at the federal level to handle the childcare crisis by investing in the workforce, making it easier to start new, safe daycare centers, and helping families afford the skyrocketing cost of childcare.\n"
+        },
+        {
+          "topic": "Workforce",
+          "value": "Supports federal loan forgiveness programs in education and health care, and funding for apprenticeship/training programs addressing housing-crisis and infrastructure workforce needs.",
+          "snippet": "WORKFORCE: As the economy has shifted and changed during the pandemic, nearly every sector has struggled to fill their employment needs. In Congress, Brittany will fight to help address critical workforce needs by passing loan forgiveness programs in areas like education and health care. She also supports funding apprenticeship programs and training to help build the skills and workforce needed to address the housing crisis and infrastructure needs of our state.\n"
+        },
+        {
+          "topic": "Energy",
+          "value": "Supports a rapid transition to renewable energy (wind, solar, geothermal); believes the federal government must help build the grid needed for future transmission needs, and supports incentivizing renewable-technology research, development, and deployment.",
+          "snippet": "ENERGY: Brittany supports a balanced and responsible approach to meet our energy needs. She supports a rapid transition to renewable energy like wind, solar, geothermal and other emerging clean technologies. She believes the federal government must play a role in building the energy grid needed to support our state's future energy and transmission needs. We also need to incentivize the research, development and deployment of renewable technologies so we can grow our economy right here in Colorado's 7th District, ensure energy independence, strengthen our national security, and address the urgent threat of climate change.\n"
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Committed to legislation addressing current climate impacts and mitigating future ones; supports investment in energy-grid transmission capacity and battery/energy storage research.",
+          "snippet": "CLIMATE CHANGE: Brittany knows that climate change is one of the greatest threats we face and is committed to championing legislation to help communities deal with the current impacts of the climate crisis and ensure we mitigate its worst effects. We must act now by investing in an energy grid that will meet the needs of the future for energy transmission, the research to expedite battery and energy storage needs of clean technologies. Brittany's two-year old son Davis reminds her every day that the clock is ticking and will champion policy solutions to ensure Colorado continues to be a place where Davis and future generations can live and thrive.\n"
+        },
+        {
+          "topic": "Public Lands",
+          "value": "Made protecting Colorado's public lands and open spaces a priority in the legislature and expanded state parks; will fight in Congress to protect these spaces from development.",
+          "snippet": "PUBLIC LANDS: Brittany has made it a priority to protect Colorado's public lands and open spaces in the legislature, and expanded our state parks. Our public lands support over 500,000 jobs and generate billions for our local economies in agriculture, hunting, recreation, and tourism. In Congress, she will fight to protect these spaces from developers to conserve the places that make Colorado the best place to live in the country.\n"
+        },
+        {
+          "topic": "Water Conservation",
+          "value": "Will work to prioritize healthy water levels in the Arkansas River for southwest district counties; supports Inflation Reduction Act investments combating drought in the West.",
+          "snippet": "WATER CONSERVATION: Colorado has continued to see droughts that have impacted our water levels, threatened the tourism industry so many communities in the 7th District rely on, and the water our farms depend on. Brittany will work to prioritize healthy water levels in the Arkansas river to ensure the southwest counties of the district will be able to continue to thrive. She also supports the investments made in the Inflation Reduction Act that work to combat ongoing drought in the West.\n"
+        },
+        {
+          "topic": "Reducing Health Care Costs",
+          "value": "Voted to cap the cost of insulin, reduce prescription drug prices, and protect against surprise medical billing; passed a state law contributing to some of the nation's lowest insurance premiums; will fight to let Medicare negotiate drug prices and improve billing transparency.",
+          "snippet": "REDUCING COSTS: Coloradans are having to choose between putting food on the table or paying for their prescription drugs, which is why Brittany stood up to the drug companies and voted to cap the cost of insulin, reduce the price of prescription drugs, and protect Coloradans from surprise medical billing. Brittany also passed a law that made Colorado insurance premiums some of the lowest in the nation. In Congress, she will fight to allow Medicare to negotiate prescription drug prices and improve transparency in medical billing, while working toward ensuring that every single American can afford quality health care.\n"
+        },
+        {
+          "topic": "Protecting the Affordable Care Act",
+          "value": "Will fight to protect the ACA from partisan attacks and work to strengthen access and quality of care, including protections for pre-existing conditions.",
+          "snippet": "PROTECTING THE AFFORDABLE CARE ACT: The ACA has brought critical insurance coverage to millions of Americans and has protected people living with pre-existing conditions from being denied coverage. I will fight to protect the ACA from partisan attacks and work to strengthen the access and quality of care provided.\n"
+        },
+        {
+          "topic": "Reproductive Health Care",
+          "value": "Helped pass state legislation codifying Roe v. Wade as a state senator; pro-choice, supported by Planned Parenthood and NARAL; will vote to protect abortion rights in Congress.",
+          "snippet": "REPRODUCTIVE HEALTH CARE: With the Supreme Court ruling, Brittany helped pass legislation to codify Roe v. Wade as a state senator. She believes that deciding if and when someone wants to start a family is one of the most personal decisions to make, and nobody, especially politicians, should do that for them. She has worked to increase access to contraception and protect abortion rights here in Colorado, and in Congress, will vote to protect those rights for everyone. Brittany is pro-choice, supported by Planned Parenthood and NARAL, and has been recognized as a champion for reproductive health care nationally.\n"
+        },
+        {
+          "topic": "Behavioral Health Services",
+          "value": "Fought for mental health and substance-use-disorder access in the legislature, drawing on her mother's experience with opioid addiction; passed legislation guaranteeing free counseling services for every child in Colorado; will prioritize these issues in Congress.",
+          "snippet": "BEHAVIORAL HEALTH SERVICES: Brittany knows firsthand how broken Colorado's behavioral health system is, which is why she spent a lot of her time in the legislature fighting to ensure access to mental health and substance use disorder services. She has taken her experience fighting to save her mom's life from an opioid addiction to the state capitol to change the policies necessary to guarantee that everyone struggling with addiction has access to the help they need when they are ready. She also passed legislation to ensure every child in Colorado has access to free counseling services and support to help stem the suicide epidemic. Brittany will take her personal experience to Washington to make sure these issues are a priority.\n"
+        },
+        {
+          "topic": "Protecting Medicare",
+          "value": "Opposes balancing the budget by cutting Medicare benefits; supports working to save billions by combating fraud and abuse in the program instead.",
+          "snippet": "PROTECTING MEDICARE: Brittany will never balance our budget on the backs of seniors by slashing Medicare benefits. Our seniors need to know that they can rely on this essential medical coverage while we also work to save billions combating fraud and abuse.\n"
+        },
+        {
+          "topic": "Strengthening Social Security",
+          "value": "Will defend Social Security and work to increase benefits to keep pace with rising costs, drawing on her own parents' reliance on the program.",
+          "snippet": "STRENGTHENING SOCIAL SECURITY: Our seniors have been hit the hardest during the pandemic by health complications from COVID and the inability to keep up with the rising costs on their fixed incomes. Brittany's parents, like so many seniors, rely on social security benefits to get by. Brittany will defend social security and work to increase benefits to adjust for the rising costs.\n"
+        },
+        {
+          "topic": "Protecting Our Seniors",
+          "value": "Passed state legislation strengthening penalties for those who prey on seniors; will fight increased fraud and abuse targeting seniors and support recovery programs.",
+          "snippet": "PROTECTING OUR SENIORS: Brittany passed legislation to strengthen penalties for those who prey on our seniors. She will fight to address the increased fraud and abuse our seniors continue to face, and support recovery programs to make our seniors whole.\n"
+        },
+        {
+          "topic": "Investing in Our Schools and Teachers",
+          "value": "As chair of the House Education Committee, helped build the coalition to raise teacher pay, modernize school buildings, and fund full-day kindergarten; supports continued investment in early childhood education, teacher support, and funding for students in poverty.",
+          "snippet": "INVESTING IN OUR SCHOOLS AND TEACHERS: Brittany attributes her ability to overcome the obstacles she faced as a kid to her public schools and teachers. As chair of the House Education Committee, she helped build the coalition to raise teacher pay, modernize school buildings, and get the funding for full day kindergarten. She has never forgotten where she comes from and will continue to fight for increased investment in early childhood education, support for our teachers, and additional funding for our students living in poverty.\n"
+        },
+        {
+          "topic": "Affordable and Accessible College Education",
+          "value": "Supports keeping state colleges affordable and ending federal profit on student loans; supports loan forgiveness for students in fields like education and health care and investment in state/community colleges to reduce costs.",
+          "snippet": "AFFORDABLE AND ACCESSIBLE COLLEGE EDUCATION: Every student should be able to graduate with a college degree without being saddled by a mountain of debt. Our state colleges should be affordable and the federal government should not make a profit on student loans. Brittany will ensure that student loans are the best value for students and will work to invest in our state and community colleges to reduce costs for our students. Brittany also supports loan forgiveness programs that dedicate support for students who pursue careers in critical areas of need like education and health care. Brittany had to wait tables to put herself through college and knows that would be impossible today with a lack of public investments in our higher education that have increased tuition costs for students.\n"
+        },
+        {
+          "topic": "Protecting Our Democracy",
+          "value": "As a state legislator, passed a law making the state's elections among the most secure and accessible in the country; will fight in Congress to protect voting rights, increase ballot access, uphold the rule of law, and defend the Constitution regardless of who wins an election.",
+          "snippet": "Like most Americans, Brittany knows that one of the greatest threats we face as a country is the continued attacks on our democracy. As a legislator, she passed a law that made our state's elections the most secure and accessible in the country. In Congress, she will fight to protect every citizen's right to vote and increase access to the ballot. Free and fair elections are the fabric of our democracy and Brittany will fight to protect the rule of law and ensure that our Constitution is upheld, no matter who wins an election.\n"
+        }
+      ],
+      "platform_source_url": "https://www.brittanypettersen.com",
+      "_platform_resolved_at": "2026-08-31T10:07:54.119Z",
+      "campaign_site_url": "https://www.brittanypettersen.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:19.977Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=43odzzSIwWc",
+      "platform_video_title": "Brittany Pettersen Footage",
+      "platform_video_source_url": "https://www.youtube.com/@brittanypettersenforcolora967",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-31T10:07:54.120Z",
+      "bio_summary": {
+        "value": "Brittany Louise Pettersen (born December 6, 1981) [ 1 ] is an American politician serving as the U.S. representative from Colorado's 7th congressional district since 2023. She previously served as a member of the Colorado Senate from the 22nd district, and in the Colorado House of Representatives , representing the 28th district. She is a member of the Democratic Party . Education [ edit ] Pettersen earned a Bachelor of Arts degree in political science from the Metropolitan State University of Denver . [ 2 ] Early political career [ edit ] Before running for state representative, Pettersen worked for New Era Colorado, a nonprofit progressive political advocacy group that works to increase youth participation in politics and the government process. [ 3 ] [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Brittany_Pettersen",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:34:32.460Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -800,9 +929,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 270,
-          "attendanceRate": 0.9540636042402827
+          "votesInSession": 236,
+          "votesCast": 223,
+          "attendanceRate": 0.9449152542372882
         },
         "committees": [
           {
@@ -822,7 +951,7 @@
           }
         ],
         "bills_sponsored": 72,
-        "bills_cosponsored": 907,
+        "bills_cosponsored": 909,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -838,8 +967,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/P000620"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:28.116Z"
+      "_curated_match": true
     }
   ]
 }

@@ -539,16 +539,8 @@
         }
       },
       "bio": {
-        "date_of_birth": {
-          "value": "1953-04-15",
-          "source_url": "https://www.wikidata.org/wiki/Q1753939",
-          "source_type": "wikidata_structured"
-        },
-        "birthplace": {
-          "value": "Lavamünd",
-          "source_url": "https://www.wikidata.org/wiki/Q1753939",
-          "source_type": "wikidata_structured"
-        },
+        "date_of_birth": null,
+        "birthplace": null,
         "high_school": {
           "value": "Duluth Denfeld High School",
           "source_url": "https://petestauberforcongress.com/about/",
@@ -574,9 +566,15 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Clean Water Infrastructure",
+          "value": "Supports clean water infrastructure funding and secured $4 million for the East Range Water Plant",
+          "snippet": "Every Minnesotan deserves clean water and I was proud to help secure $4 million funding to deliver real results for the Range! I enjoyed helping celebrate the grand opening of the East Range Water Plant that positively impacts Aurora, Hoyt Lakes, and White Township."
+        }
+      ],
+      "platform_source_url": "https://petestauberforcongress.com/",
+      "_platform_resolved_at": "2026-08-31T12:40:34.486Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -646,7 +644,10 @@
         "value": "Growing up in Duluth as one of six brothers playing hockey at the neighborhood rink, Pete Stauber knows how to fight back. A former professional hockey player and retired police officer of 23 years, Pete is fighting in Congress for our way of life. After graduating from Duluth Denfeld High School and receiving a Division I hockey scholarship, Pete led Lake Superior State University to a national championship in 1988. Pete played professional hockey in the Detroit Red Wings organization. After retiring from professional hockey, Pete returned to Minnesota to start a family business and served more than two decades in law enforcement.",
         "source_url": "https://petestauberforcongress.com/about/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T20:51:04.453Z"
+      "_bio_summary_resolved_at": "2026-08-20T20:51:04.453Z",
+      "campaign_site_url": "https://petestauberforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:30.451Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "trina-swanson",
@@ -685,12 +686,21 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-25T19:03:57.265Z",
+      "_tier2_search_attempted_at": "2026-08-23T12:00:15.196Z",
+      "bio_summary": {
+        "value": "I grew up in Duluth and Hermantown, graduating from Hermantown High School. I spent 25 years serving our country in the federal government. I started my federal career at just 18 years old at the Bankruptcy Court, where I worked throughout college and law school. After law school, I started working for U.S. Citizenship & Immigration Services. While running immigration operations in three countries, I followed the law and kept our country safe. I walked away from that career rather than compromise my oath. I came home, and now I'm running for Congress because I want to protect the future of northern and central Minnesota, and the people who call it home.",
+        "source_url": "https://ballotpedia.org/Trina_Swanson",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:47:12.745Z",
       "platform_video_url": "https://www.youtube.com/watch?v=DD_aWGBX1Ts",
       "platform_video_title": "Meet Trina Swanson (MN-8)",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-25T19:03:57.265Z"
+      "platform_video_source_type": "youtube_search",
+      "_platform_video_resolved_at": "2026-08-30T11:46:23.108Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:27:30.435Z"
     }
   ]
 }

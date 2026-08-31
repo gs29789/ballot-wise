@@ -23,7 +23,7 @@
     "snippet": "Caitlin Rourk and Chris Gober are running in the general election for U.S. House Texas District 10 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -141,7 +141,9 @@
         "value": "Chris Gober is a 7th-generation Texan, a proud member of the Fightin’ Texas Aggie Class of 2001, and a devoted husband and father raising two daughters in Austin. Born and raised in the rural Texas towns of Throckmorton and Graham, Chris learned early the timeless conservative values of Christian faith, family, and hard work—principles that continue to guide his life and service today.",
         "source_url": "https://chrisgober.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:16:59.840Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:16:59.840Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.656Z"
     },
     {
       "slug": "caitlin-rourk",
@@ -205,7 +207,9 @@
         "value": "I'm an Army veteran, problem solver in the private and public sector, and mom. My life and career have been rooted in service and problem-solving - in the military, in business, and in policy. I’m running for Congress because I believe Washington should work the same way: focused on getting things done for the families it serves, not putting on a show for the people who write the checks.",
         "source_url": "https://www.caitlinrourk.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:17:01.719Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:17:01.719Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:59.656Z"
     }
   ]
 }

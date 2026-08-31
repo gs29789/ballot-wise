@@ -32,7 +32,7 @@
     "snippet": "Incumbent Susan Collins (R) and Troy Dale Jackson (D) are running in the general election for U.S. Senate Maine on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 8.22
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8667926807.41,
-        "perCapitaUsd": 12623.54
+        "totalUsd": 8668164357.41,
+        "perCapitaUsd": 12623.88
       },
       {
         "year": "2024",
-        "totalUsd": 9224491507.26,
-        "perCapitaUsd": 13434.09
+        "totalUsd": 9225009535.41,
+        "perCapitaUsd": 13434.85
       },
       {
         "year": "2025",
-        "totalUsd": 9769591417.03,
-        "perCapitaUsd": 14227.95
+        "totalUsd": 9777157827.03,
+        "perCapitaUsd": 14238.97
       }
     ],
     "population": null,
@@ -239,7 +239,7 @@
         ],
         "bills_sponsored": 1208,
         "bills_cosponsored": 6633,
-        "bills_became_law": 25,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Alzheimer’s Accountability and Investment Act",
@@ -485,7 +485,9 @@
         "value": "Susan Collins was born into a family with a strong tradition of public service and commitment to Maine. She is a proven leader who is respected by colleagues on both sides of the aisle, is consistently ranked the most bipartisan Senator, and she has been recognized by her colleagues as one of the hardest working members of Congress. Susan has a long record of significant legislative accomplishments in such critical areas as health care, improving the economy and growing jobs in Maine, helping Maine’s small businesses thrive, education, national security, veterans, and helping older Americans.",
         "source_url": "https://susancollins.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:20:03.613Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:20:03.613Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.617Z"
     },
     {
       "slug": "troy-jackson",
@@ -536,7 +538,15 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Troy Dale Jackson (born June 26, 1968) [ 1 ] is an American politician and logger . He served in the Maine Senate from 2008 to 2014 and 2016 to 2024, serving as its president and majority leader from 2018 to 2024. [ 2 ] [ 3 ] He represented parts of northern Aroostook County . A member of the Democratic Party , he is the party's nominee for the 2026 United States Senate election in Maine . Jackson started in politics during a 1998 logging blockade along the Canada–United States border , protesting the entry of Canadian temporary workers , who were being hired over Maine loggers, by blocking them from crossing the border. [ 4 ] He first ran for office as a Republican , was first elected as an Independent , and then joined the Democratic Party in 2004. [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Troy_Jackson",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:50.618Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.618Z"
     }
   ]
 }

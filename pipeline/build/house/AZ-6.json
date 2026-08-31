@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-18T19:59:55.051Z",
+  "generated_at": "2026-08-25T22:10:55.811Z",
   "election_dates": {
     "primaryDate": "2026-07-21",
     "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
@@ -571,6 +571,12 @@
           "source_url": "https://en.wikipedia.org/wiki/Juan_Ciscomani",
           "snippet": "He is a member of the Tucson Hispanic Chamber of Commerce and has served as its vice president of outreach. He has also served on the Arizona Civil Rights Advisory Board and the Pima County Commission on Trial Court Appointments.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Rincon High School, Tucson, Ariz.",
+          "source_url": "https://history.house.gov/People/Listing/C/CISCOMANI,-Juan-(C001133)/",
+          "snippet": "graduated from Rincon High School, Tucson, Ariz.",
+          "source_type": "llm_extracted_house_historian"
         }
       },
       "platform": [
@@ -602,10 +608,18 @@
       ],
       "platform_source_url": "https://juanciscomani.com/",
       "_platform_resolved_at": "2026-08-11T11:55:00.094Z",
+      "campaign_site_url": "http://www.juanciscomani.com/",
       "platform_video_url": "https://www.youtube.com/watch?v=VEsvqXXcX-8",
       "platform_video_title": "Effective | Ciscomani for Congress",
       "platform_video_source_url": "https://juanciscomani.com/",
+      "platform_video_tier": 1,
       "_platform_video_resolved_at": "2026-08-18T22:01:00.924Z",
+      "bio_summary": {
+        "value": "A husband and dad of 6, Juan has dedicated his career to advocating for Arizona. His love of country and patriotism were born out of his family’s immigrant experience. As a working-class family, Juan’s parents instilled in him a love of country and an optimistic can-do attitude.",
+        "source_url": "https://juanciscomani.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:15.423Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075962.pdf",
         "filingDate": "7/14/2026",
@@ -739,12 +753,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/C001133"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "A husband and dad of 6, Juan has dedicated his career to advocating for Arizona. His love of country and patriotism were born out of his family’s immigrant experience. As a working-class family, Juan’s parents instilled in him a love of country and an optimistic can-do attitude.",
-        "source_url": "https://juanciscomani.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:42:15.423Z"
+      "_curated_match": false
     },
     {
       "slug": "joanna-mendoza",
@@ -837,10 +846,18 @@
       ],
       "platform_source_url": "https://www.joannamendoza.com/",
       "_platform_resolved_at": "2026-08-17T06:31:08.061Z",
+      "campaign_site_url": "https://www.joannamendoza.com",
       "platform_video_url": "https://www.youtube.com/watch?v=pC6s7Whqsnw",
       "platform_video_title": "JoAnna Mendoza on MS NOW with Rev. Al Sharpton | April 5, 2026",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
       "_platform_video_resolved_at": "2026-08-21T12:00:36.143Z",
+      "bio_summary": {
+        "value": "JoAnna Mendoza was born in Florence, Arizona. [1] She served in the U.S. Navy from 1994 to 1997 and the U.S. Marine Corps from 1998 to 2016. Mendoza did two tours in Iraq and one tour in Afghanistan. [2] Mendoza earned a bachelor's degree from American Military University in 2013 and a master's degree from Grand Canyon University in 2019. Her career experience includes working as a veterans outreach coordinator for Pima Community College, a program manager at A Place Called Home, and a veteran services representative for Congressman Tom O'Halleran (D). [1] ",
+        "source_url": "https://ballotpedia.org/JoAnna_Mendoza",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:08:49.768Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30028145.pdf",
         "filingDate": "5/20/2026",
@@ -854,9 +871,7 @@
       "_financial_disclosure_resolved_at": "2026-08-18T19:59:50.926Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:36.143Z",
-      "platform_video_tier": 2
+      "_curated_match": false
     },
     {
       "slug": "jereme-peters",
@@ -883,17 +898,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:36.554Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:31.376Z"
+      "_tier2_search_attempted_at": "2026-08-30T12:00:07.304Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:51:52.325Z"
     },
     {
       "slug": "gary-swing",
@@ -926,12 +945,7 @@
           "snippet": "Green Party of Arizona, 6th Congressional District",
           "source_type": "llm_extracted_campaign_site_websearch"
         },
-        "employment_record": {
-          "value": "Cultural Events Promoter",
-          "source_url": "https://www.ballotready.org/people/gary-swing",
-          "snippet": "Professional Experience Cultural Events Promoter",
-          "source_type": "llm_extracted_ballotready"
-        }
+        "employment_record": null
       },
       "platform": [
         {
@@ -977,17 +991,23 @@
       ],
       "platform_source_url": "https://theswingvote.wixsite.com/unity",
       "_platform_resolved_at": "2026-08-11T11:55:09.222Z",
+      "campaign_site_url": "https://theswingvote.wixsite.com/unity",
       "platform_video_url": "https://www.youtube.com/watch?v=dGf8gXlVfYU",
       "platform_video_title": "Gary Swing for Congress (Green Party, Denver, CO) 2012",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
       "_platform_video_resolved_at": "2026-08-21T12:00:36.887Z",
+      "bio_summary": {
+        "value": "Human rights first. Uphold the Kellogg-Briand Pact outlawing war. Abolish nuclear weapons. Reduce the military budget by 90%. Close all foreign military bases. Restrict the US military to non-offensive defense of US territory. The US has no legal or moral authority for foreign military intervention. End all foreign military aid. Fund humanitarian foreign aid. End world hunger. Israel has committed genocide against Gaza. I support war crimes tribunals, reparations to the people of Gaza, and nonviolent conflict resolution. Elect Congress by proportional representation to secure fair, inclusive multiparty representation in government. Abolish the US Senate and the Electoral College. End the imperial presidency. Adopt a parliamentary system.",
+        "source_url": "https://theswingvote.wixsite.com/unity",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-25T22:10:49.600Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:36.887Z",
-      "platform_video_tier": 2
+      "_curated_match": false
     }
   ]
 }

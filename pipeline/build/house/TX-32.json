@@ -23,7 +23,7 @@
     "snippet": "Dan Barrios (Democratic Party) / Jace Yarbrough (Republican Party) / Charles Harper (Independent)"
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155133727.59,
-        "perCapitaUsd": 6674.19
+        "totalUsd": 5155205801.59,
+        "perCapitaUsd": 6674.29
       }
     ],
     "population": null,
@@ -140,7 +140,9 @@
         "value": "Born and raised in Brownsville, Dan Barrios has proudly called North Texas home for over 25 years. He's a proud father, husband, and active community member. His heart for service, hard work, and desire to bring people together led him to be elected to the Richardson City Council in 2023, where he currently continues to serve. ​ Now, he's running for Congress because he knows what good government can deliver when it's working for everyone - not the few.",
         "source_url": "https://www.danbarriosforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:18:54.884Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:18:54.884Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.122Z"
     },
     {
       "slug": "charles-harper",
@@ -159,7 +161,10 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "campaign_site_url": "https://voteharper32tx.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:36.712Z",
+      "_campaign_site_reachability": "dead"
     },
     {
       "slug": "jace-yarbrough",
@@ -206,7 +211,15 @@
       "_financial_disclosure_resolved_at": "2026-08-14T19:02:08.046Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jace Yarbrough served in the U.S. Air Force. He earned a bachelor's degree from the University of Texas and a law degree from Stanford Law School. His career experience includes working as an attorney and a businessman.",
+        "source_url": "https://ballotpedia.org/Jace_Yarbrough",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:29:20.496Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.122Z"
     }
   ]
 }

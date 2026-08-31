@@ -24,7 +24,7 @@
     "snippet": "Terri Sewell (Incumbent) (Democratic Party) Ammie Akin (Republican Party)"
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,7 +47,7 @@
         "ratePer100k": 27.97
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
@@ -56,13 +56,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 3093618502.45,
-        "perCapitaUsd": 4319.41
+        "totalUsd": 3090744568.5,
+        "perCapitaUsd": 4315.4
       },
       {
         "year": "2025",
-        "totalUsd": 2901438116.09,
-        "perCapitaUsd": 4051.08
+        "totalUsd": 2896387137.54,
+        "perCapitaUsd": 4044.03
       }
     ],
     "population": null,
@@ -167,7 +167,10 @@
         "value": "Ammie Akin, a trail-blazing entrepreneur, multi-level educator, and longtime advocate for adults, teens, and children with disabilities, is the co-founder of the country's first-of-its-kind \"shared\" non-profit facility.",
         "source_url": "https://www.akinforcongress.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:14:33.173Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:14:33.173Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:58:38.706Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:57.703Z"
     },
     {
       "slug": "terri-sewell",
@@ -264,7 +267,7 @@
         ],
         "bills_sponsored": 123,
         "bills_cosponsored": 3210,
-        "bills_became_law": 6,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 306 Pickens Street in Marion, Alabama, as the \"Albert Turner, Sr. Post Office Building\".",
@@ -334,7 +337,16 @@
           "profileUrl": "https://www.bridgegrades.org/congress/S001185"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Terrycina Andrea \" Terri \" Sewell ( / ˈ sj uː əl / ; born January 1, 1965) [ 1 ] [ 2 ] is an American politician and lawyer serving as the U.S. representative for Alabama's 7th congressional district as member of the Democratic Party since 2011. The district includes most of the Black Belt , as well as most of the predominantly African American portions of Birmingham and Tuscaloosa . A native of Huntsville , Sewell studied at Princeton University for a bachelor's, Harvard Law School for a Juris Doctor degree, and St Hilda's College, Oxford for a second bachelor's that was promoted by tradition to an MA . Before entering politics, she was a securities lawyer for Davis Polk & Wardwell and a public finance lawyer for Maynard, Cooper & Gale , where she was the first Black woman to make partner. She is the first African-American woman elected to Congress from Alabama and, along with Republican Martha Roby , [ 3 ] was one of the first women elected to Congress from Alabama in a regular election. [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Terri_Sewell",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:54:55.495Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:58:38.985Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:58:57.703Z"
     }
   ]
 }

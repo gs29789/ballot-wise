@@ -564,7 +564,10 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:45.274Z"
+      "_tier2_search_attempted_at": "2026-08-22T12:00:45.274Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:54:14.357Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z"
     },
     {
       "slug": "michael-goldstein",
@@ -653,7 +656,9 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T20:48:20.624Z",
       "_tier2_search_attempted_at": "2026-08-22T12:00:45.601Z",
-      "platform_video_tier": 2
+      "platform_video_tier": 2,
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z"
     },
     {
       "slug": "jim-himes",
@@ -779,7 +784,16 @@
       },
       "_curated_match": false,
       "_tier2_search_attempted_at": "2026-08-22T12:00:45.974Z",
-      "platform_video_tier": 2
+      "platform_video_tier": 2,
+      "bio_summary": {
+        "value": "James Andrew Himes (born July 5, 1966) is an American businessman and politician serving as the U.S. representative for Connecticut's 4th congressional district since 2009. Himes is a member of the Democratic Party . Himes's district includes most of the southwest corner of the state and is largely coextensive with the Connecticut side of the New York metropolitan area . It includes parts of Fairfield County and New Haven County , including the cities of Bridgeport , Norwalk , Fairfield and Stamford . Himes is the ranking member of the House Permanent Select Committee on Intelligence, and a member of the House Financial Services Committee . ",
+        "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:23:11.208Z",
+      "campaign_site_url": "http://www.himesforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z",
+      "_campaign_site_reachability": "blocked_other"
     }
   ]
 }

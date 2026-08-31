@@ -27,7 +27,7 @@
     "snippet": "Jamie Davis (D) and Julia Letlow (R) are running in the general election for U.S. Senate Louisiana on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -50,22 +50,22 @@
         "ratePer100k": 32.91
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3894071721.29,
-        "perCapitaUsd": 5069.37
+        "totalUsd": 3894052621.29,
+        "perCapitaUsd": 5069.34
       },
       {
         "year": "2024",
-        "totalUsd": 4025155266.59,
-        "perCapitaUsd": 5240.02
+        "totalUsd": 4026883225.04,
+        "perCapitaUsd": 5242.27
       },
       {
         "year": "2025",
-        "totalUsd": 4196658716.41,
-        "perCapitaUsd": 5463.28
+        "totalUsd": 4196804203.77,
+        "perCapitaUsd": 5463.47
       }
     ],
     "population": null,
@@ -139,7 +139,9 @@
         "value": "I'm not running to be another politician — I'm running to solve problems . I built a business, met a payroll , farm the same Delta ground my grandfather sharecropped, and served my neighbors on the Tensas Parish Police Jury . I've spent my life finding common-sense solutions , because that's what real leadership takes.",
         "source_url": "https://jamieforlouisiana.com/"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:19:35.612Z"
+      "_bio_summary_resolved_at": "2026-08-20T21:19:35.612Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.403Z"
     },
     {
       "slug": "julia-letlow",
@@ -214,7 +216,15 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Julia Letlow earned a bachelor's degree and a master's degree from the University of Louisiana in 2002 and 2005. She earned a doctorate from the University of South Florida in 2011. Letlow's career experience includes working as a senior administrator with the University of Louisiana at Monroe and Tulane University.",
+        "source_url": "https://ballotpedia.org/Julia_Letlow",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:47:46.068Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T12:59:02.403Z"
     }
   ]
 }
