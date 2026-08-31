@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-13",
-  "generated_at": "2026-08-18T20:23:48.340Z",
+  "generated_at": "2026-08-31T19:22:13.462Z",
   "election_dates": {
     "primaryDate": "2026-03-17",
     "primarySourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6176.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6164.4
+        "thousandsOfJobs": 6164.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4912241896.07,
-        "perCapitaUsd": 6539.77
+        "totalUsd": 4912351896.07,
+        "perCapitaUsd": 6539.91
       },
       {
         "year": "2024",
-        "totalUsd": 5004722168,
+        "totalUsd": 5004723506.77,
         "perCapitaUsd": 6662.89
       },
       {
         "year": "2025",
-        "totalUsd": 5177811223.91,
-        "perCapitaUsd": 6893.33
+        "totalUsd": 5180201754.06,
+        "perCapitaUsd": 6896.51
       }
     ],
     "population": [
@@ -561,18 +571,105 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Agriculture",
+          "value": "Serves on the House Agriculture Committee representing Central and Southern Illinois farmland; focused on revitalizing rural America, protecting the farm safety net, maintaining nutrition programs, and investing in conservation.",
+          "snippet": "As a native of Downstate Illinois and the Representative for some of our nation's most productive farmland, Nikki is proud to serve on the House Agriculture Committee to give family farmers in Central and Southern Illinois an important seat at the table in Washington. In Congress, Nikki is focused on revitalizing rural America, protecting the farm safety net, maintaining critical nutrition programs and investing in conservation. You can learn more about the upcoming Farm Bill here.\n"
+        },
+        {
+          "topic": "Energy & Utility Affordability",
+          "value": "Co-chairs the House Democrats' Gas & Utility Affordability Working Group, appointed by Leader Hakeem Jeffries, gathering ideas to lower gas and utility costs; supports an 'all-of-the-above' energy approach she says creates jobs, reduces emissions, and strengthens energy independence.",
+          "snippet": "I'm honored that Leader Jeffries has tasked Rep. Levin and me with addressing one of the most important issues affecting Americans' pocketbooks: gas and utility prices. We've watched this year as the President's reckless policies have allowed those costs to skyrocket. Our solutions aren't just about reversing that course—they're about listening to people on the ground and advancing an all-of-the-above energy approach that creates jobs, reduces emissions, strengthens our energy independence and, most importantly, lowers costs. That's what today's roundtable was about and marked an important first step as we work to develop a day-one agenda that can deliver on those goals.\n"
+        },
+        {
+          "topic": "Protecting Federal Research & Grant Funding",
+          "value": "Led two letters to OMB (signed by 125 and 15 members of Congress respectively) opposing proposed rule changes she says would let political appointees override merit-based, peer-reviewed federal grantmaking, including agricultural research grants; has helped secure federal research funding for the University of Illinois Urbana-Champaign.",
+          "snippet": "This proposal would represent the most sweeping and destructive transformation of the federal financial assistance system in modern history and would subordinate nonpartisan, merit-based grantmaking to political control, exposing the entire framework to serious constitutional challenge. With more than $1 trillion in annual Federal awards at stake, the consequences would be felt by every state, federally recognized tribe, city, county, research university, hospital, and countless nonprofits, community organizations, and private firms that deliver critical scientific studies and essential public service.\n"
+        },
+        {
+          "topic": "Postal Service Reliability",
+          "value": "Co-founded the bipartisan Congressional Postal Service Caucus in 2025; presses USPS leadership directly, including facility tours and meetings with local officials, for more reliable mail delivery in the Springfield area and nationally.",
+          "snippet": "Every community across the country – from sprawling urban areas to rural farm towns – deserves reliable and efficient postal service. That's why I've made it a priority in Congress to find solutions to strengthen delivery, protect our postal employees and ensure communities get the service they deserve. Today's meeting with Springfield USPS leadership was a productive conversation about the current state of service and the steps being taken to improve delivery. I'll continue holding the Postal Service accountable, standing up for its workers and demanding reliable service across our communities.\n"
+        }
+      ],
+      "platform_source_url": "https://budzinski.house.gov/resources",
+      "_platform_resolved_at": "2026-08-31T19:22:00.346Z",
+      "campaign_site_url": "https://nikkiforcongress.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:34.811Z",
       "platform_video_url": "https://www.youtube.com/watch?v=3j_UOzMvxu8",
       "platform_video_title": "Nikki for Congress",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-22T12:00:37.293Z",
+      "bio_summary": {
+        "value": "Nikki Budzinski was born in Peoria, Illinois. She earned a bachelor's degree in political science from the University of Illinois at Urbana-Champaign. Budzinski's career experience includes working on campaigns for Chris Dodd (D), Hillary Clinton (D), J.B. Pritzker (D), serving as the chief of staff of the Office of Management and Budget, the president of Budzinski & Partners, LLC, a political consulting firm, and as a senior advisor with the Office of the Governor of Illinois. She served as the chair of the Broadband Advisory Council with the Office of the Governor of Illinois.",
+        "source_url": "https://ballotpedia.org/Nikki_Budzinski",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:34:08.002Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 250,
+          "votesCast": 250,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Agriculture",
@@ -606,7 +703,7 @@
           }
         ],
         "bills_sponsored": 34,
-        "bills_cosponsored": 966,
+        "bills_cosponsored": 968,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -622,18 +719,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/B001315"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:37.293Z",
-      "platform_video_tier": 2,
-      "bio_summary": {
-        "value": "Nikki Budzinski was born in Peoria, Illinois. She earned a bachelor's degree in political science from the University of Illinois at Urbana-Champaign. Budzinski's career experience includes working on campaigns for Chris Dodd (D), Hillary Clinton (D), J.B. Pritzker (D), serving as the chief of staff of the Office of Management and Budget, the president of Budzinski & Partners, LLC, a political consulting firm, and as a senior advisor with the Office of the Governor of Illinois. She served as the chair of the Broadband Advisory Council with the Office of the Governor of Illinois.",
-        "source_url": "https://ballotpedia.org/Nikki_Budzinski",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T11:34:08.002Z",
-      "campaign_site_url": "https://nikkiforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:34.811Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "jeff-wilson",
@@ -645,15 +731,15 @@
       "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 317665.08,
-        "totalSpent": 278389.66,
+        "totalRaised": 348236.88,
+        "totalSpent": 335995.71,
         "cashOnHand": null,
         "fundingSources": {
-          "smallDollar": 9480.25,
-          "largeDollar": 76634.83,
-          "pac": 4000,
-          "party": 150,
-          "selfFunded": 227400
+          "smallDollar": 9907.56,
+          "largeDollar": 49540.2,
+          "pac": 5150,
+          "party": 0,
+          "selfFunded": 283639.12
         }
       },
       "bio": {
@@ -667,6 +753,18 @@
           "value": "Currently serving his community on the Champaign County Board",
           "source_url": "https://www.wilsonforcongress.com/",
           "snippet": "Currently serving his community on the Champaign County Board",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "University of Illinois, Master's degree in Nuclear Engineering",
+          "source_url": "https://www.wilsonforcongress.com/",
+          "snippet": "Proven leader with a Master's degree in Nuclear Engineering from the University of Illinois",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Former crew member on a U.S. nuclear-powered submarine, currently serving on the Champaign County Board",
+          "source_url": "https://www.wilsonforcongress.com/",
+          "snippet": "Former crew member on a U.S. nuclear-powered submarine Proven leader with a Master's degree in Nuclear Engineering from the University of Illinois Jeff, along with his wife Becky, are proud parents of 8 children and have 11 grandchildren Currently serving his community on the Champaign County Board",
           "source_type": "llm_extracted_campaign_site"
         }
       },
@@ -704,24 +802,26 @@
       ],
       "platform_source_url": "https://www.wilsonforcongress.com/",
       "_platform_resolved_at": "2026-08-12T12:33:34.813Z",
+      "campaign_site_url": "https://wilsonforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:34.809Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Jeff Wilson is a U. S. Navy Veteran, public servant, proven leader, and Republican running for Congress to support President Trump with America First policies. Former crew member on a U.S. nuclear-powered submarine Proven leader with a Master's degree in Nuclear Engineering from the University of Illinois Jeff, along with his wife Becky, are proud parents of 8 children and have 11 grandchildren Currently serving his community on the Champaign County Board Guided by Faith. Grounded in Service.",
+        "source_url": "https://www.wilsonforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:46:57.797Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Jeff Wilson is a U. S. Navy Veteran, public servant, proven leader, and Republican running for Congress to support President Trump with America First policies. Former crew member on a U.S. nuclear-powered submarine Proven leader with a Master's degree in Nuclear Engineering from the University of Illinois Jeff, along with his wife Becky, are proud parents of 8 children and have 11 grandchildren Currently serving his community on the Champaign County Board Guided by Faith. Grounded in Service.",
-        "source_url": "https://www.wilsonforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:46:57.797Z",
-      "_tier2_search_attempted_at": "2026-08-22T12:00:37.702Z",
-      "campaign_site_url": "https://wilsonforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:34.809Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }
