@@ -554,7 +554,9 @@
       "performance": null,
       "_curated_match": true,
       "_tier2_search_attempted_at": "2026-08-24T12:00:27.872Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:55:01.658Z"
+      "_no_site_search_attempted_at": "2026-08-30T20:55:01.658Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.571Z"
     },
     {
       "slug": "robert-scott",
@@ -719,7 +721,9 @@
         "source_url": "https://www.bobbyscottforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:59:12.918Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:28.209Z"
+      "_tier2_search_attempted_at": "2026-08-24T12:00:28.209Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.571Z"
     },
     {
       "slug": "james-taylor",
@@ -756,7 +760,10 @@
         "source_url": "https://ballotpedia.org/James_Taylor_(Virginia)",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T12:35:44.171Z"
+      "_bio_summary_resolved_at": "2026-08-26T12:35:44.171Z",
+      "campaign_site_url": "https://www.zebtaylor.com",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.569Z",
+      "_campaign_site_reachability": "dead"
     },
     {
       "slug": "dawn-vasquez",
@@ -794,7 +801,9 @@
         "source_url": "https://ballotpedia.org/Dawn_Vasquez",
         "source_type": "ballotpedia"
       },
-      "_bio_summary_resolved_at": "2026-08-26T12:36:02.181Z"
+      "_bio_summary_resolved_at": "2026-08-26T12:36:02.181Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.571Z"
     }
   ]
 }
