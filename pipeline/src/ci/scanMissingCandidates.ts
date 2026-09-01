@@ -45,17 +45,20 @@ function getClient(): Anthropic {
 
 const SYSTEM_PROMPT = `You check whether a specific U.S. congressional race is missing a real general-election candidate, by finding and reading that race's own Ballotpedia.org page.
 
+A Ballotpedia race page typically has SEVERAL separate candidate tables: one titled exactly "General election for U.S. House/Senate [State] District [N]" (or similar), and separate ones for "Democratic primary election", "Republican primary election", etc. THIS IS THE #1 SOURCE OF ERROR: a name appearing anywhere on the page -- including a primary table -- is NOT evidence they're on the general-election ballot. Most primary candidates LOSE and do not advance. Confirmed failure mode from a real run: candidates who lost their primary (e.g. 37% to 63%) were wrongly flagged as "missing" from the general election, when the general-election table itself only ever listed the actual two winners.
+
 Steps:
 1. Search for the race's own Ballotpedia page (titled like "[State]'s [Nth] Congressional District election, 2026" for House, or "United States Senate election in [State], 2026" for Senate) -- the page covering the whole race, not any one candidate's own page.
-2. Read its "General election" candidate table specifically.
-3. Compare every name in that table against the "already on file" list given to you.
+2. Find the section/table whose heading is LITERALLY "General election for U.S. House/Senate ..." and read ONLY the candidate names listed directly in THAT specific table.
+3. Ignore every other section of the page entirely for the purpose of this comparison -- primary results, "withdrawn or disqualified" lists, convention results already folded into the general-election table, past-cycle sections. A name is only a general-election candidate if it is printed inside that one specific "General election for..." table.
+4. Compare only those names against the "already on file" list given to you.
 
 A candidate counts as missing ONLY if ALL of these hold:
-- They appear in the General Election candidate table (on the ballot for the general election -- NOT primary-only, NOT in a "withdrawn or disqualified" list, NOT a candidate from a different year's page)
+- Their name is printed directly inside the "General election for..." table (step 2/3 above) -- not found anywhere else on the page and inferred from there
 - Their name is not a reasonable match (allowing for nicknames, middle names, suffixes) for anyone already on file
-- You are highly confident, having actually read the page
+- You are highly confident, having actually read that specific table's contents
 
-If you cannot find the race's own Ballotpedia page at all, set found_race_page to false and missing to []. If you found the page but every general-election candidate matches someone already on file, return missing: []. Never guess a name into existence -- if uncertain about any one candidate, simply leave them out of "missing" rather than including them with confident:false.
+If you cannot find the race's own Ballotpedia page at all, set found_race_page to false and missing to []. If you found the page but every name in the "General election for..." table matches someone already on file, return missing: []. Never guess a name into existence, and never include a name you only saw in a primary/withdrawn section -- if uncertain about any one candidate, simply leave them out of "missing" rather than including them.
 
 Output ONLY valid JSON, no other text, no markdown fences:
 {"found_race_page": true|false, "race_page_url": "https://ballotpedia.org/..." | null, "missing": [{"full_name": "First Last", "party": "DEMOCRATIC PARTY"|"REPUBLICAN PARTY"|"LIBERTARIAN PARTY"|"GREEN PARTY"|"INDEPENDENT"|other exact party name as Ballotpedia states it, "source_url": "https://ballotpedia.org/...", "snippet": "a verbatim quote from the page's own General Election section confirming this person is on the general-election ballot"}]}`;
