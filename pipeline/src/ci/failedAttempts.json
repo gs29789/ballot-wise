@@ -1,0 +1,33 @@
+{
+  "note": "Real candidates where a site was found and something went wrong -- not 'no site exists', but 'a site exists and the attempt to use it didn't cleanly work'. Worth rechecking later (site may get fixed, JS-rendering workaround may become available, etc.). Distinct from needsHumanReview.json's cloudflare_challenge list, which is a confirmed, well-understood wall -- these are looser, worth a fresh look rather than a known-permanent block.",
+  "attempts": [
+    {
+      "candidate": "FOX, TERESA",
+      "race": "house/WA-6.json",
+      "url": "https://foxforwa.com/",
+      "issue": "Real site, confirmed real content via live browser view (6 platform topics: Fiscal Restraint, Naval Readiness, Crime & Safety, Title IX Protection, Healthcare Access, Term Limits), but JS-rendered -- raw HTML fetch returns only 1.8KB, none of the real content. Same category as Gallucci (which WAS manually curated) but held, not yet curated, per explicit user instruction mid-session. Recheck: either manually curate from the already-seen content, or retry automated extraction if this pipeline ever gains JS-rendering capability.",
+      "checked_at": "2026-09-01T20:05:00Z"
+    },
+    {
+      "candidate": "MORAN, MARK",
+      "race": "senate/VA.json",
+      "url": "https://www.runwithmoran.com/",
+      "issue": "Ballotpedia lists this as his 'Campaign website', but it returns a genuine HTTP 404 (confirmed via direct header check) and the browser shows a completely empty page. Dead or not-yet-launched. Recheck later in case the site comes online -- Ballotpedia's own link may just be premature.",
+      "checked_at": "2026-09-01T19:58:00Z"
+    },
+    {
+      "candidate": "BARRAGAN, NANETTE",
+      "race": "house/CA-44.json",
+      "url": "http://barraganforcongress.com/",
+      "issue": "Wikipedia's infobox lists this as her real campaign website, and the live browser view showed a real page title ('Home - Nanette Barragan For Congress (CA-44)'), but a direct raw fetch returned only 167 bytes -- likely a JS redirect or client-side-only render the quick check couldn't follow. Inconclusive, not fully resolved either way. Recheck with a proper browser-rendered fetch rather than raw curl.",
+      "checked_at": "2026-09-01T20:10:00Z"
+    },
+    {
+      "candidate": "MANOS, STEVE",
+      "race": "house/CA-39.json",
+      "url": "https://manosforcongress.com/",
+      "issue": "Real, server-rendered site (29KB raw HTML, 'Issues'/'Affordability' content independently confirmed present before queuing) and confirmed reachable by classification -- but a real scaleReachableSiteExtraction.ts run found 0 new platform/bio/video content. Same unexplained pattern as Goldstein (CT-4). Recheck: try extraction again, or investigate why extractPlatformFromSite isn't finding his real content pages.",
+      "checked_at": "2026-09-01T20:30:00Z"
+    }
+  ]
+}

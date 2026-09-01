@@ -1,0 +1,4 @@
+{
+  "note": "Validated finds waiting on a batch rebuild+publish. Each entry has already been checked (real site, matches the candidate/race) but NOT yet rebuilt or published live. Process by rebuilding every listed race once, then a single npm run publish.",
+  "pending": []
+}
