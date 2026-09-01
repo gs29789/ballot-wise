@@ -646,9 +646,25 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Legislative Approach",
+          "value": "Focuses on common-sense solutions to the problems that families face today",
+          "snippet": "focusing on common-sense solutions to the problems that our families face today"
+        },
+        {
+          "topic": "Federal Investment",
+          "value": "Has brought home millions of dollars of federal investment to Nassau County",
+          "snippet": "brought home millions of dollars of federal investment to Nassau County"
+        },
+        {
+          "topic": "Bipartisan Work",
+          "value": "Has worked across the aisle to help hard working families",
+          "snippet": "worked across the aisle to help hard working families"
+        }
+      ],
+      "platform_source_url": "https://lauragillen.com/",
+      "_platform_resolved_at": "2026-09-01T12:58:11.736Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -667,8 +683,9 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:06:12.993Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:29:06.118Z"
+      "campaign_site_url": "https://lauragillen.com/",
+      "_campaign_site_discovered_at": "2026-09-01T11:15:57.407Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

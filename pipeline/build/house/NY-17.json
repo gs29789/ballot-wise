@@ -635,9 +635,40 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Tax Relief",
+          "value": "Voting for the Working Families Tax Cuts Act that saves the average Hudson Valley family nearly $4,000 this year; Taking on his own party to quadruple the SALT deduction cap to $40,000 - delivering thousands of dollars in tax relief to over 90% of Hudson Valley residents; Eliminating taxes on Social Security income for 88% of Hudson Valley seniors; Slashing taxes on tips and overtime pay for workers",
+          "snippet": "Voting for the Working Families Tax Cuts Act that saves the average Hudson Valley family nearly $4,000 this year Taking on his own party to quadruple the SALT deduction cap to $40,000 - delivering thousands of dollars in tax relief to over 90% of Hudson Valley residents Expanding the $2,200 Child Tax Credit, helping 16 million more low-income families with children qualify for real tax relief Eliminating taxes on Social Security income for 88% of Hudson Valley seniors so they can afford to stay in their homes and retire with dignity near loved ones Slashing taxes on tips and overtime pay for workers to improve the cost of living and help people keep more of what they earn"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Championed and helped deliver passage of the Social Security Fairness Act - increasing retirement benefits for teachers, police officers, firefighters, and other public servants who were being shortchanged by an outdated federal rule; Eliminated the tax on Social Security benefits for 88% of seniors",
+          "snippet": "Championed and helped deliver passage of the Social Security Fairness Act - increasing retirement benefits for teachers, police officers, firefighters, and other public servants who were being shortchanged by an outdated federal rule. This was the biggest expansion of Social Security benefits in decades Eliminated the tax on Social Security benefits for 88% of seniors - a $6,000 deduction for singles and $12,000 for married couples"
+        },
+        {
+          "topic": "Energy",
+          "value": "Advocating to reopen and rebuild the Indian Point Nuclear Energy Center; Supporting an all-of-the-above energy strategy that includes natural gas, nuclear, and renewables; Calling for the repeal or overhaul of New York's CLCPA",
+          "snippet": "Advocating to reopen and rebuild the Indian Point Nuclear Energy Center, a clean, reliable, carbon-free source that supplied over 25% of New York City's electricity before Albany politicians shut it down. Restarting Indian Point is the fiscally responsible solution to lower electricity prices and improve grid stability for millions of New Yorkers Supporting an all-of-the-above energy strategy that includes natural gas, nuclear, and renewables, because energy independence requires reliable baseload power, not just weather-dependent sources that leave families in the dark Fighting to expand natural gas infrastructure to keep home heating bills affordable. Blocking pipeline capacity drives up prices and forces New Yorkers to rely on energy imported from states and countries with lower environmental standards Calling for the repeal or overhaul of New York's CLCPA, a costly, unrealistic mandate that is eliminating reliable energy sources, spiking utility rates, and threatening grid reliability."
+        },
+        {
+          "topic": "Law Enforcement and Crime",
+          "value": "Fighting to repeal dangerous cashless bail laws and instill a dangerousness standard when determining bail or pretrial release to prevent dangerous criminals from repeatedly being allowed to walk free and terrorize innocent people",
+          "snippet": "Fighting to repeal dangerous cashless bail laws and instill a dangerousness standard when determining bail or pretrial release to prevent dangerous criminals from repeatedly being allowed to walk free and terrorize innocent people"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supported bipartisan efforts to reverse Biden-era policies that allowed for millions of illegal immigrants to cross the border completely unvetted; Cosponsored the Dignity Act (H.R. 4393) - the first serious, bipartisan immigration reform effort in decades; Led the fight against Governor Hochul and far-left politicians in the Hudson Valley who pushed Sanctuary State, County, and City policies",
+          "snippet": "Supported bipartisan efforts to reverse Biden-era policies that allowed for millions of illegal immigrants to cross the border completely unvetted Visited the southern border and spoke directly with Customs and Border Protection agents dealing with a record number of illegal crossings under the Biden Administration Cosponsored the Dignity Act (H.R. 4393) - the first serious, bipartisan immigration reform effort in decades - because the current system is broken for everyone Introduced the Fentanyl Kills Act (H.R. 5023) to charge fentanyl traffickers with attempted murder, because open borders have helped fuel the deadliest drug crisis in American history Led the fight against Governor Hochul and far-left politicians in the Hudson Valley who pushed Sanctuary State, County, and City policies that helped exacerbate the illegal immigration and crime problems in New York"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Opposes a federal ban on abortion, and would never force a rape victim or woman facing a serious health issue to continue a pregnancy against their will; Stood up to his own party to expand access to IVF treatments and maintain accessible and affordable reproductive healthcare, including birth control and mifepristone; Opposes late-term abortions, sex-selection abortions, and non-doctors performing abortions",
+          "snippet": "Opposes a federal ban on abortion, and would never force a rape victim or woman facing a serious health issue to continue a pregnancy against their will Supports expectant mothers through increased funding for adoption programs and took on his own party to ensure birth control is accessible and affordable Stood up to his own party to expand access to IVF treatments and maintain accessible and affordable reproductive healthcare, including birth control and mifepristone Sponsored legislation to create a federal tax credit for women and their partners relying on costly fertility treatments to start or grow their family Opposes late-term abortions, sex-selection abortions, and non-doctors performing abortions"
+        }
+      ],
+      "platform_source_url": "https://www.lawlerforcongress.com/issues/",
+      "_platform_resolved_at": "2026-09-01T12:59:46.057Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -717,8 +748,9 @@
       "platform_video_tier": 3,
       "platform_video_source_type": "wikipedia",
       "_platform_video_resolved_at": "2026-08-29T17:51:24.734Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:29:07.345Z"
+      "campaign_site_url": "https://www.lawlerforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T11:14:27.582Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }
