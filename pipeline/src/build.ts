@@ -30,6 +30,7 @@ import { getStateBackgroundCheckFact } from "./sources/stateBackgroundCheckLaw.j
 import { getElectionDates } from "./sources/electionDates.js";
 import { getPrimaryFilter } from "./sources/primaryResults.js";
 import { getVotingSystem } from "./sources/votingSystem.js";
+import { MISSING_CANDIDATES } from "./missingCandidates.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -762,8 +763,8 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         full_name: c.name,
         party: c.party,
         incumbent: c.incumbentChallenge === "Incumbent",
-        fec_candidate_id: c.candidateId,
-        fec_status: c.candidateStatus, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold
+        fec_candidate_id: c.candidateId as string | null,
+        fec_status: c.candidateStatus as string | null, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold; null = no FEC filing at all, see missingCandidates.ts
         bioguide_id: matchedMember?.bioguideId ?? null,
         financials: totals,
         bio,
@@ -855,12 +856,54 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       const { value, resolvedAt } = await resolveWithRefresh(
         prevCand?.financial_disclosure ?? null,
         prevCand?._financial_disclosure_resolved_at,
-        cand.fec_candidate_id,
+        cand.fec_candidate_id ?? cand.slug,
         () => getFinancialDisclosure(cand.full_name, `${opts.state}${opts.district}`, opts.cycle, expectedContext).catch(() => null)
       );
       cand.financial_disclosure = value;
       cand._financial_disclosure_resolved_at = resolvedAt ?? null;
     }
+  }
+
+  // Real, on-the-ballot candidates the FEC-driven search above can never
+  // find because they've never crossed FEC's $5,000 filing threshold —
+  // see missingCandidates.ts's own header for how these are verified
+  // before being added here. Every FEC-dependent field is left null/empty
+  // rather than guessed; the frontend already renders that as "Not on
+  // file", same as any other sparse candidate.
+  for (const m of MISSING_CANDIDATES[opts.state]?.[opts.raceSlug] ?? []) {
+    const slug = slugify(m.full_name);
+    if (candidates.some((c) => c.slug === slug)) continue; // already present via FEC — stale override entry, skip rather than duplicate
+    const curatedEntry = curated[slug] ?? null;
+    candidates.push({
+      slug,
+      full_name: m.full_name,
+      party: m.party,
+      incumbent: m.incumbent,
+      fec_candidate_id: null,
+      fec_status: null,
+      bioguide_id: null,
+      financials: null,
+      bio: {},
+      platform: curatedEntry?.platform ?? [],
+      platform_source_url: curatedEntry?.platform_source_url ?? null,
+      _platform_resolved_at: null,
+      campaign_site_url: m.campaign_site_url ?? null,
+      _campaign_site_reachability: null,
+      _campaign_site_discovered_at: null,
+      platform_video_url: curatedEntry?.platform_video?.video_url ?? null,
+      platform_video_title: curatedEntry?.platform_video?.video_title ?? null,
+      platform_video_source_url: curatedEntry?.platform_video?.source_url ?? null,
+      platform_video_tier: null,
+      platform_video_source_type: curatedEntry?.platform_video?.source_type ?? null,
+      _platform_video_resolved_at: null,
+      bio_summary: curatedEntry?.bio_summary ?? null,
+      _bio_summary_resolved_at: null,
+      financial_disclosure: null,
+      _financial_disclosure_resolved_at: null,
+      recent_votes: [],
+      performance: null,
+      _curated_match: Boolean(curatedEntry),
+    });
   }
 
   // State-level context, not attributed to any candidate causally — same
