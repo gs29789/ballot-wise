@@ -282,4 +282,13 @@ async function main() {
 // third-party hosts otherwise leave the event loop alive well past the
 // point all real work is done (confirmed: a smoke-test run hung for 2+
 // minutes after printing its final summary).
-main().then(() => process.exit(0));
+//
+// Guarded so importing classifySite() elsewhere (classifyNewlyFoundSites.ts)
+// doesn't ALSO trigger this file's own full backlog run as an import side
+// effect -- confirmed this actually happened: importing just the one
+// function silently kicked off a full concurrent main() too, racing its
+// own writes against the importing script's. Same class of bug already
+// documented on build.ts's own main() for the same reason.
+if (import.meta.url === `file://${process.argv[1]}`) {
+  main().then(() => process.exit(0));
+}
