@@ -561,7 +561,9 @@
       "performance": null,
       "_curated_match": true,
       "_tier2_search_attempted_at": "2026-08-30T12:00:28.152Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:55:39.951Z"
+      "_no_site_search_attempted_at": "2026-08-30T20:55:39.951Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.911Z"
     },
     {
       "slug": "ann-wagner",
@@ -750,7 +752,10 @@
         "source_url": "https://annwagner.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:04:24.571Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:28.665Z"
+      "_tier2_search_attempted_at": "2026-08-30T12:00:28.665Z",
+      "campaign_site_url": "https://www.annwagner.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.920Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "frederick-wellman",
@@ -838,7 +843,10 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T21:04:27.238Z",
       "platform_video_tier": null,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:29.007Z"
+      "_tier2_search_attempted_at": "2026-08-30T12:00:29.007Z",
+      "campaign_site_url": "https://www.wellmanformo.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.937Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }
