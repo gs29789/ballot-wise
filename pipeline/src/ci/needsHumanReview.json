@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-31T23:03:28.916Z",
+  "last_updated": "2026-09-01T01:21:59.500Z",
   "cloudflare_challenge": [
     {
       "name": "NEGUSE, JOSEPH",
@@ -147,9 +147,23 @@
       "url": "http://www.benrlujan.com",
       "incumbent": true,
       "first_detected_at": "2026-08-31T22:49:15.169Z"
+    },
+    {
+      "name": "SMEAD, JOSH",
+      "race": "house/MO-6.json",
+      "url": "https://www.votesmead.com",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:55.954Z"
+    },
+    {
+      "name": "BARRINGTON, BRENNAN",
+      "race": "house/OH-15.json",
+      "url": "https://barrington.lpo.org",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:39.008Z"
     }
   ],
-  "still_unchecked_count": 266,
+  "still_unchecked_count": 175,
   "no_site_on_fec": [
     {
       "name": "RYERSE, ROBB",
@@ -1068,6 +1082,156 @@
       "race": "senate/WV.json",
       "incumbent": false,
       "first_detected_at": "2026-08-31T23:03:22.480Z"
+    },
+    {
+      "name": "SWINTON, STEVEN",
+      "race": "house/NC-13.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:46.202Z"
+    },
+    {
+      "name": "BRAY, SHANNON",
+      "race": "senate/NC.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:49.865Z"
+    },
+    {
+      "name": "DUBLIN, MICHAEL LOUIS JR.",
+      "race": "senate/NC.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:49.865Z"
+    },
+    {
+      "name": "DAUGHTERY, BRANDON",
+      "race": "house/MO-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:53.460Z"
+    },
+    {
+      "name": "HIGGINS, JAMES",
+      "race": "house/MO-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:54.054Z"
+    },
+    {
+      "name": "ONDER JR, ROBERT FRANK",
+      "race": "house/MO-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:54.054Z"
+    },
+    {
+      "name": "ALFORD, MARK",
+      "race": "house/MO-4.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T01:20:55.410Z"
+    },
+    {
+      "name": "HOLBROOK, THOMAS",
+      "race": "house/MO-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:55.410Z"
+    },
+    {
+      "name": "MAIDMENT, EDWARD A. (ANDY)",
+      "race": "house/MO-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:55.954Z"
+    },
+    {
+      "name": "STIGALL, CHRIS",
+      "race": "house/MO-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:55.954Z"
+    },
+    {
+      "name": "BURLISON, ERIC",
+      "race": "house/MO-7.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T01:21:06.216Z"
+    },
+    {
+      "name": "CRAIG, KEVIN",
+      "race": "house/MO-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:06.216Z"
+    },
+    {
+      "name": "REICHARD, CHRISTOPHER",
+      "race": "house/MO-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:07.668Z"
+    },
+    {
+      "name": "KOLASINSKI, JOSHUA",
+      "race": "house/OH-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:15.068Z"
+    },
+    {
+      "name": "LATTA, ROBERT EDWARD",
+      "race": "house/OH-5.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T01:21:16.870Z"
+    },
+    {
+      "name": "KIRTLEY, ELIZABETH ANN MRS.",
+      "race": "house/OH-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:18.456Z"
+    },
+    {
+      "name": "TURNER, MICHAEL R REP.",
+      "race": "house/OH-10.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T01:21:32.717Z"
+    },
+    {
+      "name": "PETERSON, CORTNEY",
+      "race": "house/OH-11.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:33.818Z"
+    },
+    {
+      "name": "RONAN, SAMUEL",
+      "race": "house/OH-15.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:39.008Z"
+    },
+    {
+      "name": "LEVY, GREGORY LEE",
+      "race": "senate/OH.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:39.877Z"
+    },
+    {
+      "name": "HARIDOPOLOS, MIKE",
+      "race": "house/FL-8.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T01:21:41.287Z"
+    },
+    {
+      "name": "GIBSON, CURTIS",
+      "race": "house/FL-18.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:43.216Z"
+    },
+    {
+      "name": "SIMMONS, DEVA",
+      "race": "house/FL-18.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:43.216Z"
+    },
+    {
+      "name": "MEIDINGER HOSEY, DEBORAH ANN",
+      "race": "house/FL-26.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:53.561Z"
+    },
+    {
+      "name": "JONES, CLYDE W MR. JR",
+      "race": "house/AL-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:56.307Z"
     }
   ]
 }
