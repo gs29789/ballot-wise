@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-18T19:53:10.015Z",
+  "generated_at": "2026-09-01T01:46:39.270Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1341.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1343
+        "thousandsOfJobs": 1343.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5370384614.61,
-        "perCapitaUsd": 7128.49
+        "totalUsd": 5371150279.61,
+        "perCapitaUsd": 7129.51
       },
       {
         "year": "2024",
-        "totalUsd": 4608441953,
-        "perCapitaUsd": 6012.5
+        "totalUsd": 4608566924,
+        "perCapitaUsd": 6012.66
       },
       {
         "year": "2025",
-        "totalUsd": 6050915213.76,
-        "perCapitaUsd": 8031.81
+        "totalUsd": 6051005462.56,
+        "perCapitaUsd": 8031.93
       }
     ],
     "population": [
@@ -556,27 +566,48 @@
           "source_url": "https://www.robbforcongress.com/",
           "snippet": "In 2018, I ran for Congress because I was tired of politics that left regular people behind. Since then, I&rsquo;ve helped lead national efforts to stand up to extremism and bring people together across divides",
           "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Bachelor's, Clarks Summit University, Bible (1996); Master's, Missio Seminary, Christian Thought (2000)",
+          "source_url": "https://www.ballotready.org/people/robb-ryerse",
+          "snippet": "Degrees Master's, Missio Seminary, Christian Thought (2000) Bachelor's, Clarks Summit University, Bible (1996)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Town Halls and Constituent Access",
+          "value": "Will hold town halls and be accessible to constituents, in contrast to current representative who has stopped holding them",
+          "snippet": "Anyone in this district should be able to look their congressman in the eye and ask a question. That's not too much to ask. Steve Womack has represented this district for 16 years. In that time, he has stopped showing up to answer for it. ​ No town halls. No open doors. No conversations with the people he is supposed to serve. ​ ROBB WILL GO WHERE STEVE WOMACK WON'T. ​ This May, I'm coming to communities across the 3rd District — Fort Smith, Fayetteville, Berryville, Rogers, and beyond — to listen, answer questions, and talk about what's actually at stake for your family."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Will not accept corporate PAC money",
+          "snippet": "We're not taking a dime from corporate PACs. That means every dollar comes from people like you—neighbors, parents, workers, and friends who want a better future for Arkansas."
+        }
+      ],
+      "platform_source_url": "https://www.robbforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T01:46:24.988Z",
+      "campaign_site_url": "https://www.robbforcongress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:48.572Z",
       "platform_video_url": "https://www.youtube.com/watch?v=2o2XFwp99qI",
       "platform_video_title": "Trump Has Lost His Mind, The Storyline, The Country, and soon The Election",
       "platform_video_source_url": "https://www.robbforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:02:10.274Z",
+      "bio_summary": {
+        "value": "I'm not a career politician. I'm a neighbor, a pastor, and a nonprofit leader who's spent my life walking with people through hard times and good ones. In 2018, I ran for Congress because I was tired of politics that left regular people behind. Since then, I've helped lead national efforts to stand up to extremism and bring people together across divides. I've lived in Springdale for 20 years. My wife Vanessa and I raised four kids here and started a faith community that welcomes everyone.",
+        "source_url": "https://www.robbforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:46.789Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I'm not a career politician. I'm a neighbor, a pastor, and a nonprofit leader who's spent my life walking with people through hard times and good ones. In 2018, I ran for Congress because I was tired of politics that left regular people behind. Since then, I've helped lead national efforts to stand up to extremism and bring people together across divides. I've lived in Springdale for 20 years. My wife Vanessa and I raised four kids here and started a faith community that welcomes everyone.",
-        "source_url": "https://www.robbforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:46.789Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T23:56:48.572Z"
+      "_curated_match": false
     },
     {
       "slug": "stephen-womack",
@@ -643,15 +674,81 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://womackforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:48.572Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "U.S. Representative Steve Womack was elected to represent Arkansas’s Third Congressional District in 2010. He is a senior member of the House Appropriations Committee, where he serves as Chairman of the Transportation, Housing and Urban Development (THUD) Subcommittee and sits on the Defense and the Financial Services and General Government (FSGG) Subcommittees. He is also the former Chairman of the House Budget Committee. Prior to his election to Congress, Representative Womack served as the Mayor of Rogers, Arkansas, for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel.",
+        "source_url": "https://www.womackforcongress.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:52.550Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 285,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Local Access to Courts Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll285.xml"
+        },
+        {
+          "rollNumber": 284,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Prison Staff Safety Enhancement Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll284.xml"
+        },
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 285,
+          "votesCast": 267,
+          "attendanceRate": 0.9368421052631579
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -701,16 +798,37 @@
           "profileUrl": "https://www.bridgegrades.org/congress/W000809"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "U.S. Representative Steve Womack was elected to represent Arkansas’s Third Congressional District in 2010. He is a senior member of the House Appropriations Committee, where he serves as Chairman of the Transportation, Housing and Urban Development (THUD) Subcommittee and sits on the Defense and the Financial Services and General Government (FSGG) Subcommittees. He is also the former Chairman of the House Budget Committee. Prior to his election to Congress, Representative Womack served as the Mayor of Rogers, Arkansas, for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel.",
-        "source_url": "https://www.womackforcongress.com/about"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:52.550Z",
-      "_tier2_search_attempted_at": "2026-08-22T12:00:42.299Z",
-      "campaign_site_url": "https://womackforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:48.572Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
+    },
+    {
+      "slug": "bobby-wilson",
+      "full_name": "WILSON, BOBBY",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": null,
+      "fec_status": null,
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://bobbyforcongress.mydurable.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }
