@@ -83,7 +83,7 @@ function loadReviewFile(): ReviewFile {
 const REALISTIC_UA =
   "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36";
 
-type Classification = "reachable" | "cloudflare_challenge" | "blocked_other" | "dead" | "no_site_on_fec";
+export type Classification = "reachable" | "cloudflare_challenge" | "blocked_other" | "dead" | "no_site_on_fec";
 
 // Same header-based distinction proven earlier this session on electjon.com
 // (Ossoff): cf-mitigated: challenge is a genuine JS/behavioral Cloudflare
@@ -91,7 +91,7 @@ type Classification = "reachable" | "cloudflare_challenge" | "blocked_other" | "
 // can or should try to bypass. Any other non-ok response (a plain 403, a
 // 404, a redirect loop) is bucketed separately since those may be legitimately
 // fixable (typo'd URL, path issue) rather than a hard wall.
-async function classifySite(url: string): Promise<Classification> {
+export async function classifySite(url: string): Promise<Classification> {
   try {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 10000);
