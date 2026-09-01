@@ -578,9 +578,40 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Income Tax",
+          "value": "I oppose the income tax. It is an invasion of privacy.",
+          "snippet": "I oppose the income tax. It is an invasion of privacy."
+        },
+        {
+          "topic": "Taxation",
+          "value": "Far better to tax consumption with exclusions for food, clothing, shelter, healthcare, etc.",
+          "snippet": "Far better to tax consumption with exclusions for food, clothing, shelter, healthcare, etc."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Establish a House Healthcare Committee. End the antitrust exemption provided for health insurance companies. Make HSAs available to all people and make payment for health insurance an eligible expense.",
+          "snippet": "Establish a House Healthcare Committee. One Chairman. One question: Did you improve healthcare in America this Congress? If not, why should we keep this Chairman? Individuals should be able to choose the combination of care, coverage, and cost they find best for their own circumstances from a range of high-quality alternatives in a truly competitive market. End the antitrust exemption provided for health insurance companies. Make HSAs available to all people and make payment for health insurance an eligible expense."
+        },
+        {
+          "topic": "Medicaid",
+          "value": "Eliminate most federal mandates and block grant all federal Medicaid on a per citizen basis.",
+          "snippet": "Providing Medicaid is not an enumerated power, so federalism offers a path forward. Eliminate most federal mandates and block grant all federal Medicaid on a per citizen basis."
+        },
+        {
+          "topic": "Federal Government Size",
+          "value": "Make America Great Again by restoring a government small enough to fit within the Constitution.",
+          "snippet": "Make America Great Again by restoring a government small enough to fit within the Constitution."
+        },
+        {
+          "topic": "National Security",
+          "value": "National security begins at our own borders. The United States was formed by sovereign states for the benefit of our own people. We must always protect America First.",
+          "snippet": "National security begins at our own borders. The United States was formed by sovereign states for the benefit of our own people. Our founding fathers established a republic (if we can keep it), not an empire, and not an economic zone with open borders. We must always protect America First."
+        }
+      ],
+      "platform_source_url": "https://www.davidsonforcongress.com/issues/",
+      "_platform_resolved_at": "2026-09-01T23:20:58.595Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -650,7 +681,13 @@
       "_tier2_search_attempted_at": "2026-08-31T12:00:15.411Z",
       "campaign_site_url": "https://www.davidsonforcongress.com",
       "_campaign_site_discovered_at": "2026-09-01T01:21:21.268Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "platform_video_url": "https://www.youtube.com/watch?v=D3KZg0WUuYs",
+      "platform_video_title": "Davidson discusses Biden's failed policies on inflation, gas prices, and the economy",
+      "platform_video_source_url": "https://www.davidsonforcongress.com/landing-page/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T23:20:41.267Z"
     },
     {
       "slug": "vanessa-enoch",

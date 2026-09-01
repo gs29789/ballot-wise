@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-26",
-  "generated_at": "2026-08-18T19:58:53.073Z",
+  "generated_at": "2026-09-01T23:42:29.610Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -32,7 +32,223 @@
     "snippet": "Jacqui Irwin and Samuel Gallucci are running in the general election for U.S. House California District 26 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +271,228 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18153.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
       },
       {
         "year": "2024",
@@ -69,12 +501,38 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
       }
     ],
-    "population": null,
-    "median_household_income": null
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
   },
   "candidates": [
     {
@@ -99,26 +557,80 @@
         }
       },
       "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Affordability",
+          "value": "Wants to lower the cost of living, addressing housing, food, energy, and insurance costs for Ventura County families and seniors.",
+          "snippet": "Families are squeezed by housing, food, energy, and insurance costs. Sam will fight to make Ventura County affordable for all, from seniors to our young people.\n"
+        },
+        {
+          "topic": "Government Reform",
+          "value": "Wants to rebuild public trust in institutions through good-faith reform.",
+          "snippet": "Most Americans have lost trust in our institutions, and for good reason – they are constantly being deceived and failed. Sam wants these institutions to thrive and re-earn trust through good faith reform.\n"
+        },
+        {
+          "topic": "Education",
+          "value": "Believes every child deserves a high-quality education and holds parents' rights as his guiding principle in education.",
+          "snippet": "Sam believes every child deserves a high-quality education. Sam holds parents' rights as his guiding principle in education.\n"
+        },
+        {
+          "topic": "Ending Homelessness",
+          "value": "Draws on decades of hands-on experience through his non-profits, favoring treatment, housing tied to progress, and coordinated care.",
+          "snippet": "Sam has decades of hands-on experience helping people off the streets through his non-profits. He knows what works: treatment, housing tied to progress, and coordinated care.\n"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports a secure border alongside a legal, fair, humane immigration system, framed as a 'National Settlement on Immigration.'",
+          "snippet": "We need a secure border and a legal, fair, humane system. Sam will fight to pass his vision for a 'National Settlement on Immigration.'\n"
+        },
+        {
+          "topic": "Economy & Small Business",
+          "value": "Draws on corporate and non-profit experience to support small business, jobs, and innovation.",
+          "snippet": "Having experience in corporate America and in the community with his non-profits, Sam knows what it takes to make our businesses thrive.\n"
+        },
+        {
+          "topic": "Veterans & Military Families",
+          "value": "Wants world-class care and post-service opportunities for veterans, citing suicide among veterans as an urgent concern.",
+          "snippet": "Ventura County's veterans deserve world-class care and opportunities after service. The hard truth is that more soldiers die from the battles within than the wars abroad. That must end.\n"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Supports law enforcement, first responders, and community-based prevention as linked to public health.",
+          "snippet": "Safety and health go hand in hand. Sam backs law enforcement, first responders, and community-based prevention.\n"
+        },
+        {
+          "topic": "Seniors & Families",
+          "value": "Views strong families as the foundation of a strong community and country.",
+          "snippet": "Strong families are the building block of a strong community and a strong country.\n"
+        },
+        {
+          "topic": "Environment & Coast",
+          "value": "Supports practical, science-guided stewardship of the coast, forests, and water reliability.",
+          "snippet": "Local stewardship matters. Sam will defend our coast, forests, and water reliability with practical, science-guided solutions.\n"
+        }
+      ],
+      "platform_source_url": "https://samgallucci.com/",
+      "_platform_resolved_at": "2026-09-01T23:42:21.877Z",
+      "campaign_site_url": "https://samgallucci.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T13:53:05.932Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
       "bio_summary": {
         "value": "Samuel Gallucci ( Republican Party ) is running for election to the U.S. House to represent California's 26th Congressional District . He is on the ballot in the general election on November 3, 2026 . He advanced from the primary on June 2, 2026 . ",
         "source_url": "https://ballotpedia.org/Samuel_Gallucci",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:10:06.172Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T13:53:05.932Z"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "jacqui-irwin",
@@ -190,10 +702,21 @@
       ],
       "platform_source_url": "https://jacquiirwin.com/",
       "_platform_resolved_at": "2026-08-17T06:30:39.837Z",
+      "campaign_site_url": "https://jacquiirwin.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:05.935Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community. Jacqui Irwin works across party lines to help create jobs, balance our local and state budgets, and she works to keep our communities safe. Jacqui Irwin was first elected in 2014 to represent California’s 44th Assembly District, which included the cities of Camarillo, Moorpark, Oxnard, Port Hueneme, Thousand Oaks, Westlake Village and the communities of Casa Conejo, Channel Islands Beach, El Rio, Lake Sherwood, Oak Park, and Santa Rosa Valley.",
+        "source_url": "https://jacquiirwin.com/about-jacqui",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:23:34.123Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074581.pdf",
         "filingDate": "5/1/2026",
@@ -207,15 +730,7 @@
       "_financial_disclosure_resolved_at": "2026-08-15T11:27:57.092Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Assemblymember Jacqui Irwin is a mother, engineer, and community leader with two decades of leadership in our community. Jacqui Irwin works across party lines to help create jobs, balance our local and state budgets, and she works to keep our communities safe. Jacqui Irwin was first elected in 2014 to represent California’s 44th Assembly District, which included the cities of Camarillo, Moorpark, Oxnard, Port Hueneme, Thousand Oaks, Westlake Village and the communities of Casa Conejo, Channel Islands Beach, El Rio, Lake Sherwood, Oak Park, and Santa Rosa Valley.",
-        "source_url": "https://jacquiirwin.com/about-jacqui"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:23:34.123Z",
-      "campaign_site_url": "https://jacquiirwin.com",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:05.935Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -561,9 +561,20 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Federal Workers",
+          "value": "Fighting against attacks on federal workers, critical benefits, DEI initiatives, and constitutional rights from the Trump-Vance administration",
+          "snippet": "From federal workers and critical benefits to DEI initiatives and constitutional rights, we are under attack. The reckless actions of the Trump-Vance administration threaten the very foundation of our democracy and the well-being of our constituents."
+        },
+        {
+          "topic": "Federal Workers Protection",
+          "value": "Teaming up with unions, advocacy groups, and attorneys to fight back against unlawful attacks on federal workers in courts and Congress",
+          "snippet": "I am teaming up with unions, advocacy groups, and attorneys—in the courts and Congress, to fight back against these unlawful attacks."
+        }
+      ],
+      "platform_source_url": "https://www.glennivey.com/",
+      "_platform_resolved_at": "2026-09-01T23:13:45.058Z",
       "platform_video_url": "https://www.youtube.com/watch?v=W3m7G9UnTUk",
       "platform_video_title": "Glenn Ivey for Congress 2022",
       "platform_video_source_url": null,

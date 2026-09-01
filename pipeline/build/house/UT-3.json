@@ -86,9 +86,15 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Government Power",
+          "value": "Believes we have relinquished freedom for perceived safety and allowed politicians power not delegated to them",
+          "snippet": "We have relinquished our Freedom for perceived safety and allowed Politicians power not delegated to them."
+        }
+      ],
+      "platform_source_url": "https://cassieforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T23:40:05.677Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -100,8 +106,15 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:33:04.413Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T13:54:01.164Z"
+      "campaign_site_url": "https://cassieforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T20:55:58.518Z",
+      "_campaign_site_reachability": "reachable",
+      "platform_video_url": "https://www.youtube.com/watch?v=74sek-SEyfs",
+      "platform_video_title": "Citizenship Exam Question 82",
+      "platform_video_source_url": "https://cassieforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T23:40:00.858Z"
     },
     {
       "slug": "adonis-hooslyn",
