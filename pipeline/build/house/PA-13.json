@@ -668,9 +668,25 @@
           "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Fighting for strengthening our economy",
+          "snippet": "In Congress, John is fighting for Pennsylvanians' commonsense, conservative values - strengthening our economy"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Working to improve Pennsylvanians' access to quality and affordable health care",
+          "snippet": "In Congress, John is fighting for Pennsylvanians' commonsense, conservative values - strengthening our economy, improving Pennsylvanians' access to quality and affordable health care"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Defending our Constitutional rights",
+          "snippet": "In Congress, John is fighting for Pennsylvanians' commonsense, conservative values - strengthening our economy, improving Pennsylvanians' access to quality and affordable health care, and defending our Constitutional rights"
+        }
+      ],
+      "platform_source_url": "https://www.johnjoyceforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T13:03:53.007Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027416.pdf",
         "filingDate": "5/7/2026",

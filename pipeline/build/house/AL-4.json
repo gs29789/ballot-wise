@@ -291,9 +291,25 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Agriculture - Farm Monopolies",
+          "value": "Opposition to farms being squeezed by monopolies",
+          "snippet": "our farms are squeezed by monopolies"
+        },
+        {
+          "topic": "Education - Public School Funding",
+          "value": "Opposition to defunding of public schools",
+          "snippet": "our public schools are defunded"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Rejection of corporate PAC cash",
+          "snippet": "We don't need another polished career politician who ignores our communities, takes corporate PAC cash, and breaks every promise once they get to Washington"
+        }
+      ],
+      "platform_source_url": "https://www.amandaforalabama.com/",
+      "_platform_resolved_at": "2026-09-01T13:32:04.791Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,

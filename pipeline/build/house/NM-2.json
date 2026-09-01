@@ -546,9 +546,25 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Campaign Approach",
+          "value": "Committed to starting this campaign by listening—not lecturing. By uniting—not dividing.",
+          "snippet": "That's why Greg is committed to starting this campaign by listening—not lecturing. By uniting—not dividing."
+        },
+        {
+          "topic": "Governing Philosophy",
+          "value": "Believes the right solutions for New Mexico don't come from Washington insiders or career politicians, but from listening to the people who live and work here.",
+          "snippet": "He believes the right solutions for New Mexico don't come from Washington insiders or career politicians, but from listening to the people who live and work here."
+        },
+        {
+          "topic": "Legislative Approach",
+          "value": "Will work to deliver commonsense solutions shaped by New Mexicans, for New Mexicans, guided by conservative values and faith.",
+          "snippet": "Guided by conservative values and his faith, Greg will work to deliver commonsense solutions shaped by New Mexicans, for New Mexicans."
+        }
+      ],
+      "platform_source_url": "https://www.cunninghamfornm.com/",
+      "_platform_resolved_at": "2026-09-01T13:21:42.087Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

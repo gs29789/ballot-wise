@@ -304,9 +304,25 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Reducing Crime & Supporting First Responders",
+          "value": "Support for reducing crime and supporting first responders",
+          "snippet": "Reducing Crime & Supporting First Responders"
+        },
+        {
+          "topic": "Education",
+          "value": "Education as a policy focus",
+          "snippet": "Education"
+        },
+        {
+          "topic": "Civility, Respect, and Productive Congressional Discourse",
+          "value": "Promoting civility, respect, and productive congressional discourse",
+          "snippet": "Civility, Respect, and Productive Congressional Discourse"
+        }
+      ],
+      "platform_source_url": "https://ronrussellforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T13:41:05.736Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,

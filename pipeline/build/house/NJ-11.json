@@ -715,9 +715,20 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Minimum Wage",
+          "value": "Supports $15 minimum wage",
+          "snippet": "winning the $15 minimum wage and paid sick days in New Jersey"
+        },
+        {
+          "topic": "Paid Sick Days",
+          "value": "Supports paid sick days",
+          "snippet": "winning the $15 minimum wage and paid sick days in New Jersey"
+        }
+      ],
+      "platform_source_url": "https://www.analiliafornj.com/",
+      "_platform_resolved_at": "2026-09-01T13:18:36.794Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

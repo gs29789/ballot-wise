@@ -663,9 +663,50 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Second Amendment",
+          "value": "Supports protecting constitutional rights of law-abiding gun owners and will oppose efforts to restrict those rights through federal overreach, defending the right to keep and bear arms while ensuring criminals are held accountable for violent crime",
+          "snippet": "I support President Trump's commitment to protecting the constitutional rights of law-abiding gun owners and will oppose efforts to restrict those rights through federal overreach. In Congress, I will fight to defend our right to keep and bear arms while ensuring criminals, not responsible citizens, are held accountable for violent crime."
+        },
+        {
+          "topic": "Rural Healthcare",
+          "value": "Will work to reduce red tape, expand access to care, strengthen rural hospitals, and ensure families in small towns can access quality healthcare close to home",
+          "snippet": "I will work alongside President Trump to reduce red tape, expand access to care, strengthen rural hospitals, and ensure families in small towns can access quality healthcare close to home."
+        },
+        {
+          "topic": "Life",
+          "value": "Proudly pro-life, supports policies that defend the unborn, support mothers and families, will oppose taxpayer funding for abortion and support efforts that protect innocent life",
+          "snippet": "I am proudly pro-life and believe every human life is a gift from God that deserves protection. I support policies that defend the unborn, support mothers and families, and promote a culture that values life at every stage. While abortion policy is increasingly being decided at the state level, I will oppose taxpayer funding for abortion and support efforts that protect innocent life."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Supports making President Trump's tax cuts permanent and will fight against any effort to raise taxes on hardworking Americans",
+          "snippet": "I support making President Trump's tax cuts permanent and will fight against any effort to raise taxes on hardworking Americans."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Supports efforts to expand market access, strengthen domestic food production, and reduce burdensome regulations that hurt family farms, will fight for a seat on the House Agriculture Committee",
+          "snippet": "I support President Trump's efforts to expand market access, strengthen domestic food production, and reduce burdensome regulations that hurt family farms. I will fight for a seat on the House Agriculture Committee to ensure Missouri agriculture remains competitive and prosperous for future generations."
+        },
+        {
+          "topic": "Crypto & Financial Freedom",
+          "value": "Supports efforts to make America the world leader in cryptocurrency and digital asset innovation, will fight to protect financial freedom, encourage responsible innovation, and oppose burdensome regulations",
+          "snippet": "I support President Trump's efforts to make America the world leader in cryptocurrency and digital asset innovation. Washington bureaucrats should not stifle innovation with burdensome regulations that drive jobs and investment overseas. I will fight to protect financial freedom, encourage responsible innovation, and ensure America, not China, leads the future of digital finance."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports efforts to secure the border, finish the wall, end catch-and-release policies, and deport dangerous criminal illegal immigrants",
+          "snippet": "I support President Trump's efforts to secure the border, finish the wall, end catch-and-release policies, and deport dangerous criminal illegal immigrants."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Supports the SAVE Act to ensure only American citizens can vote in federal elections",
+          "snippet": "I also support the SAVE Act to ensure only American citizens can vote in federal elections."
+        }
+      ],
+      "platform_source_url": "https://www.stigallforcongress.com/issues",
+      "_platform_resolved_at": "2026-09-01T13:27:35.767Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076688.pdf",
         "filingDate": "6/11/2026",

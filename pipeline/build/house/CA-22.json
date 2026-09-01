@@ -818,9 +818,25 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Data Centers",
+          "value": "Calls for a moratorium on new data centers",
+          "snippet": "Congressional Candidate Randy Villegas Calls For A Moratorium On New Data Centers"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Does not accept corporate PAC contributions",
+          "snippet": "No Corporate PACs. Just People Like You."
+        },
+        {
+          "topic": "Government Philosophy",
+          "value": "Believes that government should work for everyone, not just the powerful few",
+          "snippet": "that government should work for everyone, not just the powerful few"
+        }
+      ],
+      "platform_source_url": "https://www.villegasforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T13:42:27.530Z",
       "campaign_site_url": "https://villegasforcongress.com",
       "platform_video_url": "https://www.youtube.com/watch?v=lxJvq1U3aS4",
       "platform_video_title": "Randy Villegas For Congress - Footage",

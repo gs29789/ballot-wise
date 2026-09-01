@@ -749,9 +749,15 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Conservative Principles and America First Agenda",
+          "value": "He is a strong defender of conservative principles and the America First agenda.",
+          "snippet": "Greg has utilized his legal and military background to build a record of accomplishment as a strong defender of conservative principles and the America First agenda."
+        }
+      ],
+      "platform_source_url": "https://www.electgregsteube.com/",
+      "_platform_resolved_at": "2026-09-01T13:30:31.195Z",
       "campaign_site_url": "https://www.electgregsteube.com/",
       "platform_video_url": null,
       "platform_video_title": null,

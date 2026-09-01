@@ -631,9 +631,25 @@
         }
       },
       "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Wright-Patterson Air Force Base Jobs",
+          "value": "Added approximately 10,000 jobs at WPAFB",
+          "snippet": "Added approximately 10,000 jobs at WPAFB, still the largest single site employer in Ohio"
+        },
+        {
+          "topic": "Manufacturing and Defense Industry Jobs",
+          "value": "Fighting to grow and protect regional manufacturing and defense industry jobs",
+          "snippet": "Fighting to grow and protect regional manufacturing and defense industry jobs."
+        },
+        {
+          "topic": "Public Safety and Law Enforcement",
+          "value": "Formed the Downtown Dayton Working Group to prioritize safety in downtown Dayton and has always supported law enforcement",
+          "snippet": "Formed the Downtown Dayton Working Group to prioritize safety in downtown Dayton. Turner has always supported our law enforcement and those who keep us safe."
+        }
+      ],
+      "platform_source_url": "https://miketurner.com/",
+      "_platform_resolved_at": "2026-09-01T13:28:29.484Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -703,7 +719,13 @@
       "_tier2_search_attempted_at": "2026-08-31T12:00:16.574Z",
       "campaign_site_url": "https://miketurner.com/",
       "_campaign_site_discovered_at": "2026-09-01T12:20:06.452Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "platform_video_url": "https://www.youtube.com/watch?v=b8_daZ_3H5g",
+      "platform_video_title": "Mike Turner on CBS Face the Nation discusses the recent FBI raid on Mar-a-Lago",
+      "platform_video_source_url": "https://miketurner.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T13:28:24.023Z"
     }
   ]
 }

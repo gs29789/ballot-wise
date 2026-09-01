@@ -581,9 +581,30 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Rising costs for working families",
+          "value": "Identifies rising costs for working families as a key issue at stake requiring bold, effective, productive leadership",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Democracy and rule of law",
+          "value": "Fighting against attacks on democracy and the rule of law",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Climate crisis",
+          "value": "Addressing the worsening climate crisis as a priority requiring bold leadership",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Environment",
+          "value": "Fighting for the environment",
+          "snippet": "Jared Huffman is fighting for our communities, our environment and our democracy."
+        }
+      ],
+      "platform_source_url": "https://www.jaredhuffman.com/",
+      "_platform_resolved_at": "2026-09-01T13:41:13.425Z",
       "campaign_site_url": "https://www.jaredhuffman.com/",
       "platform_video_url": null,
       "platform_video_title": null,

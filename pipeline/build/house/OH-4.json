@@ -643,9 +643,50 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Federal Spending Priorities",
+          "value": "We need our federal taxes to be used in our communities and not in more wars, or corporate welfare.",
+          "snippet": "We need our federal taxes to be used in our communities and not in more wars, or corporate welfare."
+        },
+        {
+          "topic": "Healthcare Reform",
+          "value": "Allow Medicare to negotiate drug prices and increase price transparency so patients know costs before care",
+          "snippet": "Allow Medicare to negotiate drug prices Increase price transparency so patients know costs before care"
+        },
+        {
+          "topic": "Mental Health and Addiction",
+          "value": "Integrate mental and emotional wellness into healthcare and treat addiction as health issue instead of moral failure",
+          "snippet": "Integrate mental and emotional wellness into healthcare Treat addiction as health issue instead of moral failure"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Repeal Citizens United and regulate campaign funding through enhanced disclosure; encourage small donor campaigns",
+          "snippet": "Repeal Citizens United and regulate campaign funding through enhanced disclosure; encourage small donor campaigns"
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Ban members of Congress from trading individual stocks",
+          "snippet": "Ban members of Congress from trading individual stocks"
+        },
+        {
+          "topic": "For-Profit Incarceration",
+          "value": "Ending For-Profit Incarceration",
+          "snippet": "Ending For-Profit Incarceration"
+        },
+        {
+          "topic": "Foreign Policy and War",
+          "value": "Congress must reclaim its constitutional authority over war and oppose military action unless absolutely necessary",
+          "snippet": "Congress must reclaim its constitutional authority over war Oppose military action unless absolutely necessary"
+        },
+        {
+          "topic": "Infrastructure Investment",
+          "value": "Prioritize infrastructure spending that utilizes local labor and streamline the expansion of high-speed internet in rural communities",
+          "snippet": "Prioritize infrastructure spending that utilizes local labor Streamline the expansion of high-speed internet in rural communities"
+        }
+      ],
+      "platform_source_url": "https://www.joshuaforohio.com/",
+      "_platform_resolved_at": "2026-09-01T13:28:00.147Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

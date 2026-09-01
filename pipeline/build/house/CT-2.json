@@ -619,9 +619,20 @@
           "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Every American deserves access to quality, timely, and affordable health care",
+          "snippet": "Every American deserves access to quality, timely, and affordable health care..."
+        },
+        {
+          "topic": "Education",
+          "value": "Access to quality and affordable education is the key to a thriving and growing middle class",
+          "snippet": "Joe knows that access to quality and affordable education is the key to a thriving and growing middle class..."
+        }
+      ],
+      "platform_source_url": "https://joecourtney.com/joes-priorities/",
+      "_platform_resolved_at": "2026-09-01T13:14:23.031Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,

@@ -650,9 +650,50 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Crime and Public Safety",
+          "value": "Fight to ensure safety for Marylanders, especially vulnerable community members, by keeping criminals off the streets",
+          "snippet": "When I'm in Congress, I'll fight to make sure Marylanders, especially the most vulnerable members of our community, are safe and sound."
+        },
+        {
+          "topic": "Business and Economic Policy",
+          "value": "Push for pro-growth business policies that protect American workers and put American businesses first",
+          "snippet": "In Congress, I will push for pro-growth business policies that protect American workers and put American businesses first."
+        },
+        {
+          "topic": "Immigration/Border Security",
+          "value": "Supports sealed borders",
+          "snippet": "America First means sealed borders"
+        },
+        {
+          "topic": "Energy Policy",
+          "value": "Supports unleashed energy for jobs and lower costs in Maryland",
+          "snippet": "unleashed energy for jobs and lower costs here in Maryland"
+        },
+        {
+          "topic": "Education/Parents' Rights",
+          "value": "Supports parents' rights to real education focused on history and excellence",
+          "snippet": "parents' rights to real education—history and excellence, not lunacy"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Will defend the Second Amendment",
+          "snippet": "I'll defend the Constitution, our Second Amendment"
+        },
+        {
+          "topic": "Veterans and Law Enforcement",
+          "value": "Will defend veterans and law enforcement",
+          "snippet": "I'll defend the Constitution, our Second Amendment, veterans, and law enforcement"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Will defend the Constitution",
+          "snippet": "I'll defend the Constitution"
+        }
+      ],
+      "platform_source_url": "https://www.cheryl4maryland.com/",
+      "_platform_resolved_at": "2026-09-01T13:20:53.112Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

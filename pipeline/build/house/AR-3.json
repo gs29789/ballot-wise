@@ -811,9 +811,40 @@
       "bioguide_id": null,
       "financials": null,
       "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Appliance Regulation",
+          "value": "Reverse EPA regulations that have reduced appliance efficiency, causing dishwashers and washing machines to take longer and use more chemicals",
+          "snippet": "The EPA has nerfed all appliances in the name of \"efficiency\". Dishwashers and Washing Machines take longer and use way more chemicals. This must end."
+        },
+        {
+          "topic": "Monetary Policy",
+          "value": "Support separation of Money & State through sovereign money",
+          "snippet": "Sovereign Money My campaign for US Congress supports a separation of Money & State"
+        },
+        {
+          "topic": "Federalism",
+          "value": "Support local control and state autonomy",
+          "snippet": "Local Control Let New York be New York, Let California be California, Let Arkansas be Arkansas"
+        },
+        {
+          "topic": "Veterans Affairs",
+          "value": "Use AI to better interface with the VA to help veterans navigate bureaucracy",
+          "snippet": "Use AI to better interface with the VA In digital age's embrace, we seek to find, A path through red tape, with ease in our mind. With AI's keen wit, we pledge to unite, The veterans' cause, in their valiant fight. No longer lost, in bureaucracy's maze, We'll guide them through, with technology's grace."
+        },
+        {
+          "topic": "Energy",
+          "value": "Support nuclear power as clean, safe, and efficient energy",
+          "snippet": "Nuclear Power To cool the warm earth, A pledge we now birth. With nuclear's might, We fight the good fight. Clean power, our quest, For all, it's the best. Safe, efficient glow, To make futures grow."
+        },
+        {
+          "topic": "Government Transparency",
+          "value": "Pledge transparency in government spending through data analytics and digital dashboards to provide taxpayers insight into federal finances",
+          "snippet": "we pledge transparency in every dollar spent and every dollar saved. Our campaign is rooted in the belief that every taxpayer deserves insight from the highest peaks of government expenditure to the deepest valleys of fiscal savings. Through the lens of data analytics and the clarity of digital dashboards, we promise to shed light on the intricate dance of federal finances"
+        }
+      ],
+      "platform_source_url": "https://bobbyforcongress.mydurable.com/",
+      "_platform_resolved_at": "2026-09-01T13:14:00.729Z",
       "campaign_site_url": "https://bobbyforcongress.mydurable.com/",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": null,
@@ -823,8 +854,12 @@
       "platform_video_tier": null,
       "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Are you looking for a dynamic and passionate candidate for US Congress? Look no further than Bobby For Congress in District 3. With a strong focus on community engagement and positive change, Bobby is dedicated to representing the interests of the people. Join us in supporting a candidate who truly cares about making a difference. Vote Bobby For Congress for a brighter future.",
+        "source_url": "https://bobbyforcongress.mydurable.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-09-01T13:14:04.302Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

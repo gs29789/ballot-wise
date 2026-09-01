@@ -795,15 +795,56 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Medicare For All",
+          "value": "Supports Medicare For All",
+          "snippet": "Medicare For All"
+        },
+        {
+          "topic": "Israel/Palestine - AIPAC",
+          "value": "Opposes AIPAC",
+          "snippet": "No AIPAC"
+        },
+        {
+          "topic": "Israel/Palestine - Arms Shipments",
+          "value": "Opposes arms shipments to Israel",
+          "snippet": "No arms shipments to Israel"
+        },
+        {
+          "topic": "Social Security",
+          "value": "Supports Social Security including Retirement, Disability, and Supplemental Security Income",
+          "snippet": "Social Security Retirement ​ Social Security Disability ​ Supplemental Security Income"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Prioritizes healthcare including medical care, rural healthcare, prescriptions, women's health, and dental and hearing care",
+          "snippet": "Healthcare Clean Energy Utility Costs ​ Disaster Preparedness ​ Housing ​ Food ​ ​ Caregiving ​ ​ Corporate Accountability ​ ​ ​ Taxes and Spending ​ ​ Wages and Income ​ ​ Medicare For All ​ Environmental Protections ​ ​ Medical Care ​ Rural Healthcare ​ Prescriptions ​ Women's Health ​ Dental and Hearing Care"
+        },
+        {
+          "topic": "Environmental Protections",
+          "value": "Supports environmental protections and clean energy",
+          "snippet": "Clean Energy Utility Costs ​ Disaster Preparedness ​ Housing ​ Food ​ ​ Caregiving ​ ​ Corporate Accountability ​ ​ ​ Taxes and Spending ​ ​ Wages and Income ​ ​ Medicare For All ​ Environmental Protections"
+        },
+        {
+          "topic": "Corporate Accountability",
+          "value": "Prioritizes corporate accountability",
+          "snippet": "Corporate Accountability"
+        },
+        {
+          "topic": "Affordability",
+          "value": "Prioritizes affordability including utility costs, housing, and food",
+          "snippet": "Affordability Healthcare Clean Energy Utility Costs ​ Disaster Preparedness ​ Housing ​ Food"
+        }
+      ],
+      "platform_source_url": "https://www.peopleforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T13:30:27.892Z",
       "campaign_site_url": "https://www.peopleforcongress.com/",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=gH7S-Xl_6Vs",
+      "platform_video_title": "Trinity Democratic Club August 2026 part 2",
+      "platform_video_source_url": "https://www.peopleforcongress.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-09-01T13:30:19.776Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078380.pdf",
         "filingDate": "5/15/2026",
@@ -827,7 +868,8 @@
       "_bio_summary_resolved_at": "2026-08-30T21:50:33.162Z",
       "_tier2_search_attempted_at": "2026-08-31T12:00:31.367Z",
       "_campaign_site_discovered_at": "2026-09-01T10:17:01.423Z",
-      "_campaign_site_reachability": "reachable"
+      "_campaign_site_reachability": "reachable",
+      "platform_video_source_type": "campaign_site"
     }
   ]
 }

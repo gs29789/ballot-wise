@@ -667,9 +667,30 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Healthcare as a human right.",
+          "snippet": "Healthcare as a human right."
+        },
+        {
+          "topic": "Jobs",
+          "value": "Union jobs in every county.",
+          "snippet": "Union jobs in every county."
+        },
+        {
+          "topic": "Environment",
+          "value": "Clean water and clean air.",
+          "snippet": "Clean water and clean air."
+        },
+        {
+          "topic": "Poverty",
+          "value": "Kentucky deserves a senator who fights poverty like the emergency it is.",
+          "snippet": "Kentucky deserves a senator who fights poverty like the emergency it is."
+        }
+      ],
+      "platform_source_url": "https://charlesbookerky.org/",
+      "_platform_resolved_at": "2026-09-01T13:08:44.762Z",
       "platform_video_url": "https://www.youtube.com/watch?v=L0guflLZQhc",
       "platform_video_title": "Let's stand together this holiday season",
       "platform_video_source_url": "https://charlesbooker.org/",
