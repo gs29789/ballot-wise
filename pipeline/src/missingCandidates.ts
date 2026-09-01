@@ -17,6 +17,18 @@
 // pending-but-not-yet-indexed FEC filing would otherwise look identical
 // to a genuinely FEC-absent candidate.
 //
+// scanMissingCandidates.ts's LLM-driven scan (2026-09-01, 73 races) was
+// tried as a way to find these at scale and turned out to be a weak
+// signal even after a prompt fix for its dominant failure mode (reading a
+// primary-results table and mistaking a losing primary candidate for a
+// general-election one): of 9 flagged names across 6 races, only 1
+// (Bruce Fine, TN-2) held up. Worse, it completely missed a real one
+// (Angus Purdy, TN-6) that surfaced only from manually re-reading that
+// race's page while checking a different, false flag. Net: automated
+// flags are a lead to manually verify against Ballotpedia directly, same
+// as any other one here -- never a basis for insertion on their own, and
+// not something to trust for recall either.
+//
 // Consumed by build.ts: appended to a race's candidate list AFTER the
 // normal FEC-driven build, with every FEC-dependent field (financials,
 // recent_votes, performance, bioguide_id) left null/empty rather than
@@ -42,6 +54,30 @@ export const MISSING_CANDIDATES: Record<string, Record<string, MissingCandidate[
         snippet:
           "Incumbent Steve Womack, Robb Ryerse, and Bobby Wilson are running in the general election for U.S. House Arkansas District 3 on November 3, 2026. ... Bobby Wilson (L) are running in the general election... Bobby Wilson (L) advanced from the Libertarian Party convention for U.S. House Arkansas District 3 on February 22, 2026.",
         campaign_site_url: "https://bobbyforcongress.mydurable.com/",
+      },
+    ],
+  },
+  TN: {
+    "house-02": [
+      {
+        full_name: "FINE, BRUCE",
+        party: "INDEPENDENT",
+        incumbent: false,
+        source_url: "https://ballotpedia.org/Bruce_Fine",
+        snippet:
+          "Incumbent Tim Burchett (R), Michaela Barnett (D), Bruce Fine (Independent), and Adam Heimerman (Independent) are running in the general election for U.S. House Tennessee District 2 on November 3, 2026.",
+        campaign_site_url: "https://fineforcongresstn.com/",
+      },
+    ],
+    "house-06": [
+      {
+        full_name: "PURDY, ANGUS",
+        party: "INDEPENDENT",
+        incumbent: false,
+        source_url: "https://ballotpedia.org/Angus_Purdy",
+        snippet:
+          "Mike Croley (D), Johnny Garrett (R), Christopher Monday (Independent), and Angus Purdy (Independent) are running in the general election for U.S. House Tennessee District 6 on November 3, 2026.",
+        campaign_site_url: null,
       },
     ],
   },
