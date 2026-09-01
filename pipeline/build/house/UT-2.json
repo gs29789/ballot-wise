@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-17T01:54:53.329Z",
+  "generated_at": "2026-09-01T14:37:23.764Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.5.html",
@@ -24,7 +24,223 @@
     "snippet": "Incumbent Blake Moore defeated Karianne Lisonbee in the Republican primary for U.S. House Utah District 2 on June 23, 2026, 57.8% (44,300) to 42.2% (32,380) ... Democratic primary was canceled. Peter Crosby advanced ... Daniel Cottam (Libertarian), Robert Michael Moesinger (Unaffiliated), and Carlton E. Bowen (Independent American Party) are also running in the general election."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.6
+      }
+    ],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,26 +263,268 @@
         "ratePer100k": 16.72
       }
     ],
-    "nonfarm_employment_thousands": null,
-    "federal_spending": [
+    "nonfarm_employment_thousands": [
       {
-        "year": "2023",
-        "totalUsd": 3241461850.67,
-        "perCapitaUsd": 3886.88
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1787.4
       },
       {
-        "year": "2024",
-        "totalUsd": 4366218642.77,
-        "perCapitaUsd": 5235.59
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1787.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1785.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1781.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1774.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1773.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1773.9
       },
       {
         "year": "2025",
-        "totalUsd": 4359258252.26,
+        "month": "December",
+        "thousandsOfJobs": 1772.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1768.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1767.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1770.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1773.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1770.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1765.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1768.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1767.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1763
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1760.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1761.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1758.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1758.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1755
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1752.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1746.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1741.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1739.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1737.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1736.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1740.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1734.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1732.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1732.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1729.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1729
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1730.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1724.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1722.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1727.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1718.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1712.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1709
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1710.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1706.5
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3241644847.67,
+        "perCapitaUsd": 3887.1
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4366542211.65,
+        "perCapitaUsd": 5235.98
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4359258032.84,
         "perCapitaUsd": 5227.25
       }
     ],
-    "population": null,
-    "median_household_income": null
+    "population": [
+      {
+        "year": "2022",
+        "population": 3380800
+      },
+      {
+        "year": "2023",
+        "population": 3417734
+      },
+      {
+        "year": "2024",
+        "population": 3503613
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89168
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 93421
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96658
+      }
+    ]
   },
   "candidates": [
     {
@@ -83,6 +541,12 @@
           "value": "Air Force veteran",
           "source_url": "https://bowenforcongress.com/",
           "snippet": "Air Force veteran.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Independent American Party",
+          "source_url": "https://bowenforcongress.com/",
+          "snippet": "Independent American Party",
           "source_type": "llm_extracted_campaign_site"
         }
       },
@@ -110,19 +574,35 @@
       ],
       "platform_source_url": "https://bowenforcongress.com/",
       "_platform_resolved_at": "2026-08-15T20:32:16.455Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://bowenforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:59.624Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Air Force veteran. Constitutional seriousness. Northern Utah representation. Real representation against a system that stopped listening. America is trapped in two-party warfare while the debt keeps rising. We deserve better.",
-        "source_url": "https://bowenforcongress.com/"
+        "source_url": "https://bowenforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:06.182Z",
-      "campaign_site_url": "https://bowenforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:59.624Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/40004971.pdf",
+        "filingDate": "5/26/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-01T14:37:05.966Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "daniel-cottam",
@@ -158,14 +638,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T13:53:59.627Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_no_site_search_attempted_at": "2026-08-30T21:42:11.778Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T13:53:59.627Z"
+      "_curated_match": true
     },
     {
       "slug": "peter-crosby",
@@ -258,22 +746,35 @@
       ],
       "platform_source_url": "https://petercrosbyforcongress.org/",
       "_platform_resolved_at": "2026-08-15T20:32:44.613Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://petercrosbyforcongress.org/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T13:53:59.623Z",
       "platform_video_url": "https://www.youtube.com/watch?v=3LidRBPpfGA",
       "platform_video_title": "Friday Night Update - Change Happens when People Stand up and Demand it - Peter Crosby",
       "platform_video_source_url": "https://petercrosbyforcongress.org/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:08:37.095Z",
       "bio_summary": {
         "value": "Northern Utah is home. It’s where Amanda and I have put down roots and have raised our family for almost 20 years now. I’m running because our community needs a leader that will voice our concerns, resolve our issues, and hold to our values whatever comes. I am determined to be that kind of leader, and to earn your trust by proving that throughout the entire campaign.",
-        "source_url": "https://petercrosbyforcongress.org/"
+        "source_url": "https://petercrosbyforcongress.org/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:13.779Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T13:53:59.623Z"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079966.pdf",
+        "filingDate": "6/10/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-01T14:37:09.199Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "robert-moesinger",
@@ -308,6 +809,18 @@
           "source_url": "https://www.ballotready.org/people/robert-m-moesinger",
           "snippet": "Addon Services, Biomedical Device Instructor/Technician (2019 - Present) University of Utah, Research Assistant (2015 - 2019) Ascend, Pre-Calculus Instructor (2014 - 2015)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "married with family",
+          "source_url": "https://www.improveourelections.org/about-5-1",
+          "snippet": "I'm a normal dad. I live in Ogden with my wonderful family",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "volunteer in faith and community",
+          "source_url": "https://www.improveourelections.org/about-5-1",
+          "snippet": "a volunteer in my faith and community",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -319,19 +832,26 @@
       ],
       "platform_source_url": "https://www.improveourelections.org/",
       "_platform_resolved_at": "2026-08-15T20:32:19.362Z",
+      "campaign_site_url": "https://www.improveourelections.org/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:59.621Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "My name is Robert Moesinger. I'm running as an independent for a seat in the US House of Representatives from the Utah 2nd Congressional District (the former 1st District).",
+        "source_url": "https://www.improveourelections.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:03.677Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "My name is Robert Moesinger. I'm running as an independent for a seat in the US House of Representatives from the Utah 2nd Congressional District (the former 1st District).",
-        "source_url": "https://www.improveourelections.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:27:03.677Z",
-      "campaign_site_url": "https://www.improveourelections.org/",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:59.621Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "blake-moore",
@@ -387,6 +907,12 @@
           "source_url": "https://en.wikipedia.org/wiki/Blake_Moore",
           "snippet": "In 2017, Moore was one of four co-chairs for the anti-gerrymandering organization Better Boundaries, which led the successful ballot initiative campaign for the 2018 Utah Proposition 4 , establishing an independent redistricting commission.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Jane Boyer for 15 years as of the time stated, with four sons: Max, George, Winston, and Franklin",
+          "source_url": "https://www.electmoore.com/meet-blake",
+          "snippet": "My beautiful wife, Jane Boyer, and I celebrated 15 years of marriage this past September. Jane takes it a step beyond being supportive. She encourages me to take risks and pursue big things. She is reflective, spiritual, humorous, and not the least bit content. She has been by my side through my time abroad and during my career in Utah. We have four amazing boys, Max, George, Winston, and Franklin.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -433,11 +959,81 @@
       ],
       "platform_source_url": "https://www.electmoore.com/",
       "_platform_resolved_at": "2026-08-15T20:32:38.930Z",
+      "campaign_site_url": "http://electmoore.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:59.629Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Blake Moore is fighting every day for Utah families to lower costs, solve immigration policy, strengthen our military, and protect the Utah way of life.",
+        "source_url": "https://www.electmoore.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:08.687Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 285,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Local Access to Courts Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll285.xml"
+        },
+        {
+          "rollNumber": 284,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Prison Staff Safety Enhancement Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll284.xml"
+        },
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 285,
+          "votesCast": 285,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Ways and Means",
@@ -466,7 +1062,7 @@
           }
         ],
         "bills_sponsored": 97,
-        "bills_cosponsored": 622,
+        "bills_cosponsored": 624,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -501,15 +1097,37 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001213"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Blake Moore is fighting every day for Utah families to lower costs, solve immigration policy, strengthen our military, and protect the Utah way of life.",
-        "source_url": "https://www.electmoore.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:27:08.687Z",
-      "campaign_site_url": "http://electmoore.com/",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:59.629Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
+    },
+    {
+      "slug": "bryan-arrington",
+      "full_name": "ARRINGTON, BRYAN LAMONT",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": null,
+      "fec_status": null,
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }
