@@ -2343,9 +2343,20 @@ const TEXAS_2026_PRIMARY: Record<string, PrimaryResult> = {
     snippet: "Joaquin Castro (Incumbent) (Democratic Party) / Edgardo Baez (Republican Party) / Anthony Tristan (Independent)",
   },
   "house-21": {
-    advancingCandidateIds: ["H4TX21108", "H6TX21301"],
+    // Dan McQueen (H0TX20124, independent) added 2026-09-01: absent from
+    // this entry when first written (matching the source snippet's own
+    // 2-name list at the time), but Ballotpedia's page now lists him as a
+    // third general-election candidate -- independents qualify via a
+    // separate petition process, not a primary, so they can be added to
+    // a race's ballot well after this file's source snippet was captured.
+    // Confirmed via a live FEC search: real candidate ID, correct
+    // district (21), independent -- just never filed enough to have
+    // financials on record, same as several already-verified candidates
+    // elsewhere in this file.
+    advancingCandidateIds: ["H4TX21108", "H6TX21301", "H0TX20124"],
     source_url: "https://ballotpedia.org/Texas%27_21st_Congressional_District_election,_2026",
-    snippet: "Kristin Hook and Mark Teixeira are running in the general election for U.S. House Texas District 21 on November 3, 2026.",
+    snippet:
+      "Kristin Hook and Mark Teixeira are running in the general election for U.S. House Texas District 21 on November 3, 2026. ... Kristin Hook (D), Mark Teixeira (R), and Dan McQueen (Independent) are running in the general election for U.S. House Texas District 21 on November 3, 2026.",
   },
   "house-22": {
     advancingCandidateIds: ["H4TX22197", "H6TX22283", "H6TX22259"],
