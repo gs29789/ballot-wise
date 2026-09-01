@@ -1,0 +1,741 @@
+{
+  "state": "NV",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-17T15:39:38.311Z",
+  "election_dates": {
+    "primaryDate": "2026-06-09",
+    "primarySourceUrl": "https://law.justia.com/codes/nevada/chapter-293/statute-293-175/",
+    "primarySnippet": "1. The primary election must be held on the second Tuesday in June of each even-numbered year. (NRS 293.175)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://nevada.public.law/statutes/nrs_293.12755",
+    "generalSnippet": "A general election must be held throughout the State on the first Tuesday after the first Monday of November in each even-numbered year. (NRS 293.12755)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Nevada's constitution makes office eligibility contingent on being a \"qualified elector,\" and separately strips a person convicted of treason or felony of elector status until civil rights are restored, but neither clause names Congress; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://law.justia.com/constitution/nevada/",
+    "snippet": "Nev. Const. art. 15, § 3(1): \"No person shall be eligible to any office who is not a qualified elector under this Constitution.\" Nev. Const. art. 2, § 1: \"...provided, that no person who has been or may be convicted of treason or felony in any state or territory of the United States, unless restored to civil rights, and no person who has been adjudicated mentally incompetent, unless restored to legal capacity, shall be entitled to the privilege of an elector.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Nevada's_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Dina Titus, Carrie Buck, Steven St John, and Bobby Khan are running in the general election for U.S. House Nevada District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 5.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 5.2
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 33.34
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 35.49
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 35.24
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.13
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.73
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1614.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1610.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1608.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1607.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1605.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1603.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1600
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1598.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1597.1
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1594.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1598.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1595
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1577.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1580.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1580.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1575
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1570.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1571.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1572.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1570.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1570.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1568.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1562
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1560.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1568.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1569.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1566.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1568
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1569.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1562.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1564.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1556.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1553.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1549.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1538.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1536.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1538.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1533.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1529.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1527.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1525.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1521.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7415919667.92,
+        "perCapitaUsd": 9439.68
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8678722419.31,
+        "perCapitaUsd": 11047.1
+      },
+      {
+        "year": "2025",
+        "totalUsd": 1727825882.03,
+        "perCapitaUsd": 2142.23
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3177772
+      },
+      {
+        "year": "2023",
+        "population": 3194176
+      },
+      {
+        "year": "2024",
+        "population": 3267467
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72333
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 76364
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81134
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "carrie-buck",
+      "full_name": "BUCK, CARRIE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6NV01331",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1915057.97,
+        "totalSpent": 1261469.95,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 526706.74,
+          "largeDollar": 803071.42,
+          "pac": 138100,
+          "party": 0,
+          "selfFunded": 3732
+        }
+      },
+      "bio": {
+        "civic_affiliations": {
+          "value": "State Senator",
+          "source_url": "https://carriebuckforcongress.com/",
+          "snippet": "That fighter is State Senator Carrie Buck.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=rovu46M1Jac",
+      "platform_video_title": "Carrie Buck B-Roll",
+      "platform_video_source_url": "https://carriebuckforcongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:33.109Z",
+      "bio_summary": {
+        "value": "From humble beginnings on a small farm, working soybean fields and selling sweet corn door-to-door, Carrie learned that nothing in life is given and everything is earned. Those invaluable life lessons carried her into Nevada classrooms, where, as a principal, she transformed one of Nevada’s lowest-performing schools into one of the state’s best. Later, she led the growth of the Pinecrest Academy charter school, providing parents with choices, students with opportunities, and teachers with the resources and support they needed to succeed.",
+        "source_url": "https://carriebuckforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:41.249Z",
+      "campaign_site_url": "https://www.votecarriebuck.com",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.953Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "afzal-khan",
+      "full_name": "KHAN, AFZAL",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6NV01315",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 85873.3,
+        "totalSpent": 82900.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4528.45,
+          "largeDollar": 77878.85,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": null,
+        "college": {
+          "value": "Manchester Metropolitan University (LLB)",
+          "source_url": "https://en.wikipedia.org/wiki/Afzal_Khan_(British_politician)",
+          "snippet": "got a degree in law from Manchester Metropolitan University before qualifying as a solicitor in 1996",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Shkeela Kayani in 1979",
+          "source_url": "https://en.wikipedia.org/wiki/Afzal_Khan_(British_politician)",
+          "snippet": "Khan is married to Shkeela Kayani",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "police officer for Greater Manchester Police, labourer, bus driver, solicitor (qualified 1996)",
+          "source_url": "https://en.wikipedia.org/wiki/Afzal_Khan_(British_politician)",
+          "snippet": "he had a number of jobs, including as a police officer for Greater Manchester Police , a labourer and bus driver . [ 4 ] He returned to education at Abraham Moss College [ 5 ] and got a degree in law from Manchester Metropolitan University before qualifying as a solicitor in 1996",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Assistant Secretary-General of the Muslim Council of Britain, North West representative of the Muslim Council of Britain",
+          "source_url": "https://en.wikipedia.org/wiki/Afzal_Khan_(British_politician)",
+          "snippet": "He has also served as Assistant Secretary-General of the Muslim Council of Britain [ 16 ] and is its North West representative",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-23T12:00:37.450Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:54:43.261Z",
+      "campaign_site_url": "https://bobbykhanforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.954Z",
+      "_campaign_site_reachability": "blocked_other"
+    },
+    {
+      "slug": "dina-titus",
+      "full_name": "TITUS, DINA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8NV03036",
+      "fec_status": "C",
+      "bioguide_id": "T000468",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1537358.1,
+        "totalSpent": 355196.87,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 50654.44,
+          "largeDollar": 619224.06,
+          "pac": 762050,
+          "party": 4672.72,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1950-05-23",
+          "source_url": "https://www.wikidata.org/wiki/Q524440",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Thomasville, Georgia",
+          "source_url": "https://www.wikidata.org/wiki/Q524440",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "College of William & Mary",
+          "source_url": "https://www.wikidata.org/wiki/Q524440",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Thomas Wright in 1979",
+          "source_url": "https://en.wikipedia.org/wiki/Dina_Titus",
+          "snippet": "Spouse Thomas Wright ​ ( married&lt;/span>\"}]]}'>m. 1979 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "taught in the political science department at the University of Nevada, Las Vegas (UNLV), retiring in 2011",
+          "source_url": "https://en.wikipedia.org/wiki/Dina_Titus",
+          "snippet": "Titus taught in the political science department at the University of Nevada, Las Vegas (UNLV), retiring in 2011.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [],
+        "bills_sponsored": 251,
+        "bills_cosponsored": 4478,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Sloan Canyon Conservation and Lateral Pipeline Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "972",
+            "publicLawNumber": "119-91",
+            "summary": "Sloan Canyon Conservation and Lateral Pipeline Act This act expands the boundaries of the Sloan Canyon National Conservation Area in Clark County, Nevada, and grants rights-of-way&nbsp;through the conservation area&nbsp;and other land administered by the Bureau of Land Management (BLM)&nbsp;for the construction of a water transmission pipeline and related facilities. Specifically, the act requires the BLM to grant certain rights-of-way to the Southern Nevada Water Authority (SNWA)&nbsp;for the purposes&nbsp;of (1) performing geotechnical investigations within the rights-of-way, and (2) constructing and operating a water pipeline and related facilities.&nbsp; The rights-of-way may not be located through or under areas designated as wilderness, and construction of the pipeline may not permanently adversely affect surface resources within the conservation area. The BLM may place other reasonable terms and conditions on the issuance of rights-of-way as necessary to protect the conservation area’s resources. In tunneling the water pipeline, SNWA may excavate and dispose of sand, gravel, minerals, and other materials as needed. The BLM must enter into a memorandum of understanding with SNWA to identify federal land on which SNWA may dispose of such materials.&nbsp; The act also adds approximately 9,290 acres of land&nbsp;to the conservation area. This expansion of the conservation area is subject to valid existing rights (e.g., utility transmission rights), must not preclude authorized activities within existing rights-of-way or corridors, and must not preclude the BLM from authorizing new utility rights-of-way.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ91"
+          },
+          {
+            "title": "Recognizing Achievement in Classified School Employees Act",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "276",
+            "publicLawNumber": "116-13",
+            "summary": "Recognizing Achievement in Classified School Employees Act This bill directs the Department of Education (ED) to grant Recognizing Inspiring School Employees awards to classified school employees, within certain occupational specialties, who provide exemplary service to students in prekindergarten through high school. ED must annually select an awardee, out of nominations received from states, from any of the following occupational specialties: (1) paraprofessional services, (2) clerical and administrative services, (3) transportation services, (4) food and nutrition services, (5) custodial and maintenance services, (6) security services, (7) health and student services, (8) technical services, and (9) skilled trades. The award and recognition provided shall have no monetary value. ED shall develop uniform national guidelines for evaluating nominations.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ13"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.297,
+          "nominateDim2": -0.161,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/T000468"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 93,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/T000468"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-23T12:00:37.807Z",
+      "bio_summary": {
+        "value": "Alice Constandina \" Dina \" Titus ( / ˈ t aɪ t ə s / TY -təss ; born May 23, 1950) is an American politician who has been the United States representative for Nevada's 1st congressional district since 2013. Previously, she served as the U.S. representative for Nevada's 3rd congressional district from 2009 to 2011. Titus is a member of the Democratic Party . Titus was first elected to the House in 2008. After losing re-election in 2010 to Joe Heck , she was re-elected to more Democratic seat in 2012, and has been re-elected ever since. Prior to her elections to Congress, Titus was a professor of political science at the University of Nevada, Las Vegas (UNLV), and was the Democratic nominee for governor of Nevada in 2006 , losing to Republican Jim Gibbons . ",
+        "source_url": "https://en.wikipedia.org/wiki/Dina_Titus",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:42:06.377Z",
+      "campaign_site_url": "http://www.dinatitus.com",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.952Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

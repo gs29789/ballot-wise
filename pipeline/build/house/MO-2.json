@@ -1,0 +1,852 @@
+{
+  "state": "MO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-18T20:32:46.540Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "primarySnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
+    "generalSnippet": "115.121. General election, when held — primary election, when held — general municipal election day, when held. — 1. The general election day shall be the first Tuesday after the first Monday in November of even-numbered years. 2. The primary election day shall be the first Tuesday after the first Monday in August of even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Missouri does have an active state felony-disqualification law for candidates, RSMo §115.306.1: no person who has been found guilty of or pled guilty to a felony (federal, Missouri, or an out-of-state offense that would be a felony in Missouri) may qualify as a candidate for 'elective public office' in Missouri. RSMo §115.013 defines 'public office' broadly enough to textually reach federal officeholders ('any employment under the United States, the state of Missouri, or any political subdivision or special district thereof'), and Missouri courts do actively enforce §115.306 — e.g., Fletcher v. Young, 689 S.W.3d 161 (Mo. banc 2024), held a felony guilty plea disqualifies a candidate even after a gubernatorial pardon. However, as applied to a candidate for the U.S. House or Senate specifically, this state law almost certainly cannot be constitutionally enforced. Under U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), the Constitution's Qualifications Clauses (Art. I, §2, cl. 2 for the House; Art. I, §3, cl. 3 for the Senate — age, citizenship, inhabitancy) are the exclusive qualifications for congressional service, and a state cannot add to them, directly or indirectly (including through ballot-access denial). No Missouri-specific court decision was found applying §115.306 to a federal congressional candidate (Fletcher v. Young concerns a non-federal office), so this conclusion rests on the general federal constitutional doctrine of Thornton rather than a Missouri-specific ruling — flagged for legal review if certainty is required.",
+    "source_url": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-306/",
+    "snippet": "115.306. Disqualification as candidate for elective public office, when — filing of affidavit, contents — tax delinquency, effect of. — 1. No person shall qualify as a candidate for elective public office in the state of Missouri who has been found guilty of or pled guilty to a felony under the federal laws of the United States of America or to a felony under the laws of this state or an offense committed in another state that would be considered a felony in this state."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
+    "snippet": "Ann Wagner (Incumbent) (Republican Party) Frederick Wellman (Democratic Party) Brandon Daugherty (Libertarian Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 42.8
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.08
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 36.66
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 35.58
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.47
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3000.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2999.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2993.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2982.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2985.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2994.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2985.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2988.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2982.4
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2978.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2981.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2985.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2982.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2995.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2992.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2990.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2984.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2993.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2992.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2992.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2981.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2989.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2991.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2988.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2986.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2984.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2972
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2979.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2971.2
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2974.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2974
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2971.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2962.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2963.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2963
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2960.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2957.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 25816923342.32,
+        "perCapitaUsd": 33889.15
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31145288050.81,
+        "perCapitaUsd": 40883.54
+      },
+      {
+        "year": "2025",
+        "totalUsd": 32080677596.88,
+        "perCapitaUsd": 42111.4
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 6177957
+      },
+      {
+        "year": "2023",
+        "population": 6196156
+      },
+      {
+        "year": "2024",
+        "population": 6245466
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 64811
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 68545
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71589
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "brandon-daughtery",
+      "full_name": "DAUGHTERY, BRANDON",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4MO02116",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Columbia, Missouri",
+          "source_url": "https://ballotpedia.org/Brandon_Daugherty",
+          "snippet": "Brandon Daugherty was born in Columbia, Missouri."
+        },
+        "college": {
+          "value": "Associate degree, St. Charles Community College (2020)",
+          "source_url": "https://ballotpedia.org/Brandon_Daugherty",
+          "snippet": "He earned an associate degree from St. Charles Community College in 2020."
+        },
+        "employment_record": {
+          "value": "Hospitality management",
+          "source_url": "https://ballotpedia.org/Brandon_Daugherty",
+          "snippet": "His career experience includes working in hospitality management."
+        },
+        "civic_affiliations": {
+          "value": "St. Charles County Libertarian Party",
+          "source_url": "https://ballotpedia.org/Brandon_Daugherty",
+          "snippet": "Daugherty has been affiliated with the St. Charles County Libertarian Party."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:28.152Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:55:39.951Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.911Z"
+    },
+    {
+      "slug": "ann-wagner",
+      "full_name": "WAGNER, ANN L.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2MO02102",
+      "fec_status": "C",
+      "bioguide_id": "W000812",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3528094.52,
+        "totalSpent": 2411927.69,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 651487.08,
+          "largeDollar": 1352398.68,
+          "pac": 1143239.36,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1962-09-13",
+          "source_url": "https://www.wikidata.org/wiki/Q3917251",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "St. Louis, Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q3917251",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q3917251",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Ray Wagner",
+          "source_url": "https://annwagner.com/",
+          "snippet": "Ann and her husband, Ray",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "U.S. Congress",
+          "source_url": "https://annwagner.com/",
+          "snippet": "Ann Wagner - U.S. Congress",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Cor Jesu Academy, a private Catholic all-girls school in South County",
+          "source_url": "https://en.wikipedia.org/wiki/Ann_Wagner",
+          "snippet": "She attended Cor Jesu Academy , a private Catholic all-girls school in South County",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — National Intelligence Enterprise",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Open Source Intelligence",
+            "title": "Chairwoman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 136,
+        "bills_cosponsored": 1626,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "Taiwan Assurance Implementation Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "1512",
+            "publicLawNumber": "119-45",
+            "summary": "This bill modifies an existing requirement for the Department of State to review and report on its guidance to federal agencies on the U.S.-Taiwan relationship. (The U.S.-Taiwan relationship has been unofficial since 1979, when the United States established diplomatic relations with China and broke them with Taiwan.) Current law requires the State Department to conduct a one-time review of its guidance governing relations with Taiwan and report to Congress on this review. Under this bill, the State Department must review that guidance and report to Congress every two years while the guidance is in effect. The reports to Congress must (1) describe how the guidance takes into account certain considerations, such as the sense of Congress that Taiwan is governed by a representative government peacefully constituted through free and fair elections; and (2) identify opportunities and plans to lift self-imposed restrictions on relations with Taiwan.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ45"
+          },
+          {
+            "title": "Debbie Smith Act of 2023",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "1105",
+            "publicLawNumber": "118-72",
+            "summary": "Debbie Smith Act of 2023 This act reauthorizes through FY2029 the Debbie Smith DNA Backlog Grant Program. The program provides grants to state and local governments to improve and expand the collection and analysis of DNA evidence, including evidence in sexual assault kits.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ72"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 5323 Highway N in Cottleville, Missouri as the \"Lance Corporal Phillip Vinnedge Post Office\".",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "2391",
+            "publicLawNumber": "113-113",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 5323 Highway N in Cottleville, Missouri, as the \"Lance Corporal Phillip Vinnedge Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ113"
+          },
+          {
+            "title": "Allow States and Victims to Fight Online Sex Trafficking Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "1865",
+            "publicLawNumber": "115-164",
+            "summary": "Allow States and Victims to Fight Online Sex Trafficking Act of 2017 (Sec. 2) This bill expresses the sense of Congress that section 230 of the Communications Act of 1934 was not intended to provide legal protection to websites that unlawfully promote and facilitate prostitution and websites that facilitate traffickers in advertising the sale of unlawful sex acts with sex trafficking victims. Section 230 limits the legal liability of interactive computer service providers or users for content they publish that was created by others. (Sec. 3) The bill amends the federal criminal code to add a new section that imposes penalties&#8212;a fine, a prison term of up to 10 years, or both&#8212;on a person who, using a facility or means of interstate or foreign commerce, owns, manages, or operates an interactive computer service (or attempts or conspires to do so) to promote or facilitate the prostitution of another person. Additionally, it establishes enhanced penalties&#8212;a fine, a prison term of up to 25 years, or both&#8212;for a person who commits the offense in one of the following aggravating circumstances: (1) promotes or facilitates the prostitution of five or more persons, or (2) acts with reckless disregard that such conduct contributes to sex trafficking. A person injured by an aggravated offense may recover damages and attorneys' fees in a federal civil action. A court must order mandatory restitution, in addition to other criminal or civil penalties, for an aggravated offense in which a person acts with reckless disregard that such conduct contributes to sex trafficking. A defendant may assert, as an affirmative defense, that the promotion or facilitation of prostitution is legal in the jurisdiction where it was targeted. (Sec. 4) The bill amends the Communications Act of 1934 to declare that section 230 does not limit: (1) a federal civil claim for conduct that constitutes sex trafficking, (2) a federal criminal charge for conduct that constitutes sex trafficking, or (3) a state criminal charge for conduct that promotes or facilitates prostitution in violation of this bill. The amendments apply regardless of whether alleged conduct occurs before, on, or after this bill's enactment. (Sec. 5) The bill amends the federal criminal code to define a phrase related to the prohibition on sex trafficking. Currently, it a crime to knowingly benefit from participation in a venture that engages in sex trafficking. This bill defines &quot;participation in a venture&quot; to mean knowingly assisting, supporting, or facilitating a sex trafficking violation. (Sec. 6) A state may file a federal civil action to enforce federal sex trafficking violations. (Sec. 7) This section states that this bill does not limit federal or state civil actions or criminal prosecutions that are not preempted by section 230 of the Communications Act of 1934. (Sec. 8) The Government Accountability Office must report to Congress on information related to damages and mandatory restitution for aggravated offenses under this bill.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ164"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 55 Grasso Plaza in St. Louis, Missouri, as the \"Sgt. Amanda N. Pinson Post Office\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "323",
+            "publicLawNumber": "114-77",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 55 Grasso Plaza in St. Louis, Missouri, as the \"Sgt. Amanda N. Pinson Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ77"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 16105 Swingley Ridge Road in Chesterfield, Missouri, as the \"Sgt. Zachary M. Fisher Post Office\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "322",
+            "publicLawNumber": "114-76",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 16105 Swingley Ridge Road in Chesterfield, Missouri, as the \"Sgt. Zachary M. Fisher Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ76"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 11662 Gravois Road in St. Louis, Missouri, as the \"Lt. Daniel P. Riordan Post Office\".",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "324",
+            "publicLawNumber": "114-78",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 11662 Gravois Road in St. Louis, Missouri, as the \"Lt. Daniel P. Riordan Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ78"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.392,
+          "nominateDim2": 0.303,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000812"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 76.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/W000812"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Born and raised in Missouri, Ann Wagner understands our conservative Christian family values. Ann is the conservative fighter with a proven track record of getting things done in Washington. Ann and her husband, Ray, are blessed with three children, two daughters-in-law and two grandchildren.",
+        "source_url": "https://annwagner.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:24.571Z",
+      "_tier2_search_attempted_at": "2026-08-30T12:00:28.665Z",
+      "campaign_site_url": "https://www.annwagner.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.920Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "frederick-wellman",
+      "full_name": "WELLMAN, FREDERICK PAUL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MO02343",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1155879.75,
+        "totalSpent": 913662.41,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 513807.71,
+          "largeDollar": 587226.46,
+          "pac": 53250,
+          "party": 0,
+          "selfFunded": 409.64
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Fred graduated from West Point",
+          "source_url": "https://www.wellmanformo.com/",
+          "snippet": "Fred graduated from West Point",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "became an Army aviator, and served during Desert Storm before completing three tours in Iraq",
+          "source_url": "https://www.wellmanformo.com/",
+          "snippet": "became an Army aviator, and served during Desert Storm before completing three tours in Iraq",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "fought for veterans, helped lead a COVID field hospital, organized aid for refugees",
+          "source_url": "https://www.wellmanformo.com/",
+          "snippet": "fought for veterans, helped lead a COVID field hospital, organized aid for refugees",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "His wife was killed in a car accident while seven months pregnant",
+          "source_url": "https://www.wellmanformo.com/",
+          "snippet": "After his wife was killed in a car accident while seven months pregnant, Fred rebuilt his life through service.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Every family should be able to see a doctor when they are sick, afford the medicine they need",
+          "snippet": "Every family should be able to see a doctor when they are sick, afford the medicine they need"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Focused on lowering costs and ensuring families can keep a roof over their heads without being buried in debt",
+          "snippet": "Fred is focused on lowering costs, protecting health care, defending the Constitution, and making government work for the people it serves"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Defending the Constitution",
+          "snippet": "Fred is focused on lowering costs, protecting health care, defending the Constitution, and making government work for the people it serves"
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Making government work for the people it serves",
+          "snippet": "Fred is focused on lowering costs, protecting health care, defending the Constitution, and making government work for the people it serves"
+        }
+      ],
+      "platform_source_url": "https://www.wellmanformo.com/",
+      "_platform_resolved_at": "2026-08-14T13:56:15.296Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Fred Wellman has spent his life answering the call to serve. Inspired by generations of military service in his family, Fred graduated from West Point, became an Army aviator, and served during Desert Storm before completing three tours in Iraq. His life has also been shaped by profound personal loss. After his wife was killed in a car accident while seven months pregnant, Fred rebuilt his life through service. He fought for veterans, helped lead a COVID field hospital, organized aid for refugees, and continued finding ways to give back to the communities that shaped him.",
+        "source_url": "https://www.wellmanformo.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:27.238Z",
+      "platform_video_tier": null,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:29.007Z",
+      "campaign_site_url": "https://www.wellmanformo.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.937Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

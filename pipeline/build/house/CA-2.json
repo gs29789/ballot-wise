@@ -1,0 +1,772 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-21T12:44:10.778Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jared Huffman and Robin Littau are running in the general election for U.S. House California District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jared-huffman",
+      "full_name": "HUFFMAN, JARED",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2CA06259",
+      "fec_status": "C",
+      "bioguide_id": "H001068",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 978276.98,
+        "totalSpent": 886963.6,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 55443.81,
+          "largeDollar": 552138.01,
+          "pac": 316244.87,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1964-02-18",
+          "source_url": "https://www.wikidata.org/wiki/Q3276717",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Independence, Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q3276717",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Santa Barbara",
+          "source_url": "https://www.wikidata.org/wiki/Q3276717",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "U.S. House of Representatives, Representative - District 2 (2013 - Present); Marin Municipal Water District (MMWD), Director (1994 - 2006); Natural Resources Defense Council (NRDC), Senior Attorney; Public Interest Attorney; California State Assembly, Assemblymember",
+          "source_url": "https://www.ballotready.org/people/jared-huffman",
+          "snippet": "U.S. House of Representatives, Representative - District 2 (2013 - Present) Marin Municipal Water District (MMWD, Director (1994 - 2006) Natural Resources Defense Council (NRDC), Senior Attorney Public Interest Attorney California State Assembly, Assemblymember",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "William Chrisman High School, graduated 1982",
+          "source_url": "https://en.wikipedia.org/wiki/Jared_Huffman",
+          "snippet": "He graduated from William Chrisman High School in 1982",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Susan Huffman",
+          "source_url": "https://en.wikipedia.org/wiki/Jared_Huffman",
+          "snippet": "Spouse Susan Huffman",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.jaredhuffman.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Representing California’s great northern region in Congress is an honor and responsibility I will never take for granted. With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever. You can count on me to always fight for our values and priorities, and to get things done.",
+        "source_url": "https://www.jaredhuffman.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-21T12:43:37.955Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078256.pdf",
+        "filingDate": "7/30/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T10:51:57.375Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 242,
+        "bills_cosponsored": 3908,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029.",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "3324",
+            "publicLawNumber": "118-166",
+            "summary": "This act extends through FY2029 the authority of the Department of Agriculture to collect and spend fees for a marina in the Shasta-Trinity National Forest in California.&nbsp;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ166"
+          },
+          {
+            "title": "Coastal Habitat Conservation Act of 2023",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "2950",
+            "publicLawNumber": "118-138",
+            "summary": "Coastal Habitat Conservation Act of 2023 This act provides statutory authority for the Coastal Program of the U.S. Fish and Wildlife Service (FWS). Under the voluntary program, the FWS works with partners to provide technical and financial assistance for&nbsp;habitat restoration projects, habitat protection projects, and related activities in priority coastal areas. The act&nbsp;also directs the FWS to submit to congressional committees an annual report on the program. The FWS must also make the report available to the public on its website.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ138"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.432,
+          "nominateDim2": -0.505,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/H001068"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 43.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/H001068"
+        }
+      },
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "robin-littau",
+      "full_name": "LITTAU, ROBIN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA02309",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Sturgis Brown High School (1997)",
+          "source_url": "https://www.ballotready.org/people/robin-littau",
+          "snippet": "High School Diploma, Sturgis Brown High School (1997)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "US Coast Guard, Diesel Mechanic (MK3); Cleaning Company, Owner",
+          "source_url": "https://www.ballotready.org/people/robin-littau",
+          "snippet": "Professional Experience US Coast Guard, Diesel Mechanic (MK3) Cleaning Company, Owner",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "South Dakota",
+          "source_url": "https://www.littauforcongress.com/about-5",
+          "snippet": "I was born and raised in South Dakota",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "divorced",
+          "source_url": "https://www.littauforcongress.com/about-5",
+          "snippet": "In 2016 I divorced with biblical grounds and moved to Redding CA to rebuild my wounded family.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Enterprise Elementary School Board Member; recipient of the Mary Beth Weiss Award from the Policy Circle for having applied principles of local civic engagement",
+          "source_url": "https://www.littauforcongress.com/about-5",
+          "snippet": "I was recently the annual reward recipient of the Mary Beth Weiss Award from the Policy Circle for having applied principles of local civic engagement. I'm also a residing School Board Member for the Enterprise Elementary School District (24-26).",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Legislative Reform",
+          "value": "Cut excessive regulation, support local control, and require responsible spending",
+          "snippet": "Legislative Reform +Cut Excessive Regulation +Support Local Control +Require Responsible Spending"
+        },
+        {
+          "topic": "Immigration",
+          "value": "End the chaos and find solutions, modernize citizenship requirements",
+          "snippet": "Immigration Reform +End the Chaos & Find Solutions- +Modernize Citizenship Requirements"
+        },
+        {
+          "topic": "Parental Rights",
+          "value": "Support a Parental Bill of Rights and 'My Kid, My Call' with no mandates",
+          "snippet": "Protect Parental Rights +Parental Bill of Rights +&quot;My Kid, My Call&quot; No Mandates"
+        },
+        {
+          "topic": "Protecting Vulnerable Populations",
+          "value": "Stop predators, implement stronger deterrents, and support law enforcement",
+          "snippet": "Shield the Vulnerable +Stop the Predators +Stronger Deterrents +Support Law Enforcement"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Defend the Constitution and protect citizen rights",
+          "snippet": "Defend the Constitution +Protect Citizen Rights"
+        },
+        {
+          "topic": "Small Business",
+          "value": "Support small businesses with less rules and more revenue",
+          "snippet": "Support Small Businesses +Less Rules/More Revenue"
+        }
+      ],
+      "platform_source_url": "https://www.littauforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T10:51:22.821Z",
+      "campaign_site_url": "https://littauforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I'm running as a Republican Congressional Candidate, a residing Enterprise Elementary School Board Member, a Christian Mother, a Small Business Owner, and a USCG Veteran to protect the American Dream, defend Freedom for our children's children, build up America, and Fight for a hopefilled Future. I commit to you: That I will be a servant hearted integrious leader who listens and reflects the heart of our community in Washington DC.",
+        "source_url": "https://www.littauforcongress.com/about-5"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:22.803Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

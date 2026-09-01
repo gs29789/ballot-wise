@@ -1,0 +1,1571 @@
+{
+  "state": "DE",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-29T21:04:44.724Z",
+  "election_dates": {
+    "primaryDate": "2026-09-15",
+    "primarySourceUrl": "https://elections.delaware.gov/",
+    "primarySnippet": "Primary Election September 15, 2026 General Election November 3, 2026",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://elections.delaware.gov/",
+    "generalSnippet": "Primary Election September 15, 2026 General Election November 3, 2026"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Delaware exempts candidates for federal office",
+    "source_url": "https://elections.delaware.gov/candidates/pdfs/CandidateBackgroundCheckInfoSheet.pdf",
+    "snippet": "NOTICE: Delaware law does not require Background Checks for Candidates for Federal Office and City of Wilmington Office"
+  },
+  "voting_system": null,
+  "primary_results": null,
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 32.15
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 29.81
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.72
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 27
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 24.81
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 498
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 497
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 494.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 495.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 495
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 495.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 494.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 492.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 492.8
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 494.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 496
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 496.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 496.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 497.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 496.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 495.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 495.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 495.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 495.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 495.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 494.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 494.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 492.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 491
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 490.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 490.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 490
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 489.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 487.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 486.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 487.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 485.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 485.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 485.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 485.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 484.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 485
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 483
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 480.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 480.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 481.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 480.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 11194266944.39,
+        "perCapitaUsd": 11156.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 11551464482.69,
+        "perCapitaUsd": 11512.51
+      },
+      {
+        "year": "2025",
+        "totalUsd": 12397346602.9,
+        "perCapitaUsd": 12355.54
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 1018396
+      },
+      {
+        "year": "2023",
+        "population": 1031890
+      },
+      {
+        "year": "2024",
+        "population": 1051917
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 82174
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 81361
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 87534
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jeffery-appelhans",
+      "full_name": "APPELHANS, JEFFERY RYAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00263",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Teacher. PhD historian.",
+          "source_url": "https://union26.com",
+          "snippet": "Teacher. PhD historian.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "I came to Delaware with purple Colorado politics; after the GOP nominated Trump, I became an independent; this spring, a Democrat.",
+          "source_url": "https://union26.com",
+          "snippet": "I came to Delaware with purple Colorado politics; after the GOP nominated Trump, I became an independent; this spring, a Democrat.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Constitutional Renewal",
+          "value": "Secure liberties for the next 250 years through constitutional renewal, including a Delaware Plan: a Union Jubilee to enshrine liberties in the Constitution for the next 250 years",
+          "snippet": "Constitutional Renewal The Delaware Plan: a Union Jubilee Secure liberties for the next 250 years."
+        },
+        {
+          "topic": "Congressional Stock Ban",
+          "value": "Remove individual securities, commodities, and similar covered instruments from investment accounts before taking office, keeping only diversified mutual funds and ETFs, and support S.1498 or a successor congressional stock-ban bill",
+          "snippet": "Before taking office, I will remove individual securities, commodities, and similar covered instruments from the investment accounts I control. I will keep market exposure in diversified mutual funds and diversified ETFs, and I will support S.1498 or a successor congressional stock-ban bill."
+        },
+        {
+          "topic": "Medicare for All",
+          "value": "Support Medicare for All to guarantee care and break up big medicine to break choke points",
+          "snippet": "MEDICARE FOR ALL · BREAK UP BIG MEDICINE Medicare for All guarantees the care. Break Up Big Medicine breaks the choke points."
+        },
+        {
+          "topic": "AI Wealth Sharing",
+          "value": "Support the principle that the public should share in wealth generated by AI, and will test S.4825's ownership, governance, effects on innovation, and distribution mechanics before endorsing the bill",
+          "snippet": "Let the public share AI's wealth. I agree with Sanders's principle that the public should share in wealth generated by AI. I will test S.4825's ownership, governance, effects on innovation, and distribution mechanics before endorsing the bill."
+        },
+        {
+          "topic": "Social Security",
+          "value": "Support removing the Social Security payroll-tax cap, extending solvency, and protecting earned benefits without cuts",
+          "snippet": "Protect Social Security without cutting benefits. I support Warren and Moreno's objective: remove the Social Security payroll-tax cap, extend solvency, and protect earned benefits without cuts."
+        },
+        {
+          "topic": "Foreign Leadership",
+          "value": "No blank checks and no personal bargains in foreign policy; use American judgment lawfully",
+          "snippet": "Foreign Leadership No blank checks. No personal bargains. American judgment, lawfully used."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Make care reliable across every stage of life",
+          "snippet": "Care That Lasts Medical & Old-Care Make care reliable across every stage of life."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Will not accept contributions from PACs, party committees, or other political committees; no corporate or labor-organization treasury contributions",
+          "snippet": "Jeff will not accept contributions from PACs. He will not accept contributions from party committees or other political committees. Organizations do not own their members. ActBlue is the processor and conduit. The donor remains the source. The campaign does not accept corporate or labor-organization treasury contributions."
+        }
+      ],
+      "platform_source_url": "https://union26.com",
+      "_platform_resolved_at": "2026-08-05T15:02:12.096Z",
+      "campaign_site_url": "https://union26.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=m2_4ixGkKL8",
+      "platform_video_title": "Flock, plate readers, and your digital privacy | Jeff Appelhans",
+      "platform_video_source_url": "https://www.union26.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T21:58:07.754Z",
+      "bio_summary": {
+        "value": "Jeff Appelhans Teacher. PhD historian. Polymath — definition A curious nerd about things old and new—and someone who gets good at them. . I take the work seriously. I try not to take myself too seriously. That generational \"ugh, fine, we'll just take care of it ourselves\" has been making its way to Washington for a few years now. But this spring augured a new and dangerous future: coders are heading to monasteries, philosophers are hitting AI labs, and this historian is heading to Washington to stake humanity’s future on constitutional ground.",
+        "source_url": "https://www.union26.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:52.451Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "christopher-beardsley",
+      "full_name": "BEARDSLEY, CHRISTOPHER MR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00156",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 22356,
+        "totalSpent": 13165.27,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1706,
+          "largeDollar": 7300,
+          "pac": 500,
+          "party": 0,
+          "selfFunded": 12850
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Delaware",
+          "source_url": "https://www.coasttv.com/news/christopher-beardsley-enters-2026-race-for-u-s-senate-in-delaware/article_dfc33628-8073-4265-a9fd-41eeb51060a1.html",
+          "snippet": "Beardsley, a Delaware native"
+        },
+        "employment_record": {
+          "value": "AmeriCorps; Peace Corps; Fulbright Scholar (South Africa); U.S. Department of Housing and Urban Development",
+          "source_url": "https://www.coasttv.com/news/christopher-beardsley-enters-2026-race-for-u-s-senate-in-delaware/article_dfc33628-8073-4265-a9fd-41eeb51060a1.html",
+          "snippet": "said he has served in AmeriCorps, the Peace Corps, was a Fulbright Scholar in South Africa and worked at the U.S. Department of Housing and Urban Development."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.beardsleyfordelaware.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:03.990Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "dexter-bland",
+      "full_name": "BLAND, DEXTER",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00164",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Howard High School of Technology",
+          "source_url": "https://ballotpedia.org/Dexter_Bland",
+          "snippet": "Dexter Bland earned a high school diploma from the Howard High School of Technology."
+        },
+        "employment_record": {
+          "value": "Businessman",
+          "source_url": "https://ballotpedia.org/Dexter_Bland",
+          "snippet": "His career experience includes working as a businessman."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Dexter Bland earned a high school diploma from the Howard High School of Technology. His career experience includes working as a businessman.",
+        "source_url": "https://ballotpedia.org/Dexter_Bland",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:45:16.831Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:04.372Z"
+    },
+    {
+      "slug": "christopher-coons",
+      "full_name": "COONS, CHRISTOPHER A.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "S0DE00092",
+      "fec_status": "C",
+      "bioguide_id": "C001088",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3940137.04,
+        "totalSpent": 1419652.4,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 52510.19,
+          "largeDollar": 1815453.4,
+          "pac": 1310376.74,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1963-09-09",
+          "source_url": "https://www.wikidata.org/wiki/Q923242",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Greenwich, Connecticut",
+          "source_url": "https://www.wikidata.org/wiki/Q923242",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Amherst College (B.A. chemistry and political science); Yale Law School (J.D.); Yale Divinity School (M.A. in ethics)",
+          "source_url": "https://www.chriscoons.com/meet-chris",
+          "snippet": "He is a graduate of Amherst College with bachelor's degrees in chemistry and political science ... He earned a law degree from Yale Law School and a master's degree in ethics from Yale Divinity School"
+        },
+        "civic_affiliations": {
+          "value": "co-chairing the bipartisan Climate Solutions Caucus, Law Enforcement Caucus, and Chicken Caucus; member of the Small Business and Entrepreneurship Committee",
+          "source_url": "http://www.chriscoons.com/meet",
+          "snippet": "He is a leader in the Senate on issues that matter to Delawareans, from co-chairing the bipartisan Climate Solutions Caucus, Law Enforcement Caucus, and Chicken Caucus, to advocating for small businesses as a member of the Small Business and Entrepreneurship Committee.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Tower Hill School (1981)",
+          "source_url": "https://www.ballotready.org/people/christopher-a-coons",
+          "snippet": "High School Diploma, Tower Hill School (1981)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Annie Coons; three adult children",
+          "source_url": "https://www.chriscoons.com/meet-chris",
+          "snippet": "Chris lives in Wilmington with his wife, Annie, where they raised their three now-adult children."
+        },
+        "employment_record": {
+          "value": "In-house counsel, W.L. Gore & Associates, Inc. (1996–2004), before becoming New Castle County Executive",
+          "source_url": "https://en.wikipedia.org/wiki/Chris_Coons",
+          "snippet": "After returning to Delaware in 1996, Coons began his eight-year career as in-house counsel for W.L. Gore & Associates, Inc."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Opportunity",
+          "value": "Believes that in order for our country to succeed, we need a strong floor and no ceiling, so every Delawarean has the opportunity to build a better future for them and their family.",
+          "snippet": "Chris believes that in order for our country to succeed, we need a strong floor and no ceiling, so every Delawarean has the opportunity to build a better future for them and their family."
+        },
+        {
+          "topic": "Community Safety and Security",
+          "value": "Believes that every Delawarean should feel safe and secure in their community from their neighborhood to retirement.",
+          "snippet": "Chris believes that every Delawarean should feel safe and secure in their community from their neighborhood to retirement."
+        }
+      ],
+      "platform_source_url": "http://www.chriscoons.com",
+      "_platform_resolved_at": "2026-08-05T14:55:33.371Z",
+      "campaign_site_url": "https://www.chriscoons.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=drlTra0MDRk",
+      "platform_video_title": "Chris Coons for Senate: Better Future",
+      "platform_video_source_url": "https://www.chriscoons.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T21:58:09.894Z",
+      "bio_summary": {
+        "value": "Chris believes that in order for our country to succeed, we need a strong floor and no ceiling, so every Delawarean has the opportunity to build a better future for them and their family.",
+        "source_url": "https://www.chriscoons.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:39.051Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 231,
+          "votesCast": 218,
+          "attendanceRate": 0.9437229437229437
+        },
+        "committees": [
+          {
+            "committee": "Senate Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Department of Defense",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Energy and Water Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Financial Services and General Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — State, Foreign Operations, and Related Programs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations — Africa and Global Health Policy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations — East Asia, the Pacific, and International Cybersecurity Policy",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations — Multilateral International Development, Multilateral Institutions, and International Economic, Energy, and Environmental Policy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Foreign Relations — State Department and USAID Management, International Operations, and Bilateral International Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Small Business and Entrepreneurship",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Judiciary — Crime and Counterterrorism",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Judiciary — Border Security and Immigration",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Judiciary — Intellectual Property",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Judiciary — Privacy, Technology, and the Law",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Select Committee on Ethics",
+            "title": "Vice Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 798,
+        "bills_cosponsored": 4197,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "Bankruptcy Administration Improvement Act of 2025",
+            "congress": 119,
+            "billType": "S",
+            "billNumber": "3424",
+            "publicLawNumber": "119-76",
+            "summary": "Bankruptcy Administration Improvement Act of 2025 This act makes several changes to the administration of bankruptcy cases, particularly by increasing amounts received by certain&nbsp;trustees, extending the sunset date of various fees, and extending the term of specified bankruptcy judgeships. (Sec. 3) The act increases the amounts paid out of fees to the trustee in Chapter 7 (liquidation) cases. (Sec. 4) The act extends for an additional five years the fees paid quarterly to the U.S. trustee in Chapter 11 (reorganization) cases. The act also increases the fee percentage for cases with large disbursements, subject to limitations.&nbsp; (Sec. 5) Finally, temporary bankruptcy judgeships in various districts are extended for an additional five years.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ76"
+          },
+          {
+            "title": "A bill to amend title 35, United States Code, to provide a good faith exception to the imposition of fines for false assertions and certifications, and for other purposes.",
+            "congress": 118,
+            "billType": "S",
+            "billNumber": "3960",
+            "publicLawNumber": "118-151",
+            "summary": "This act creates a good faith exception to certain fines imposed by the U.S. Patent and Trademark Office (USPTO). Currently, the USPTO may reduce patent-related fees for small and micro entities, and an entity that falsely claims a fee reduction shall be subject to a fine. This act exempts an entity from such a fine if the entity made a good faith assertion or certification that the entity was entitled to a fee reduction.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ151"
+          },
+          {
+            "title": "Brown v. Board of Education National Historical Park Expansion and Redesignation Act",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "270",
+            "publicLawNumber": "117-123",
+            "summary": "Brown v. Board of Education National Historical Park Expansion and Redesignation Act This bill redesignates the Brown v. Board of Education National Historic Site as the Brown v. Board of Education National Historical Park and expands the park. The park is expanded to include the land and interests in land as generally depicted on the map titled Brown v. Board of Education National Historical Park Boundary Additions and Affiliated Areas , and dated February 2022, and more particularly described as the Summerton High School site in Summerton, South Carolina; the former Scott's Branch High School site in Summerton; and approximately one acre of land adjacent to Monroe Elementary School in Topeka, Kansas. The Department of the Interior may acquire this land by donation, exchange, or purchase. Any property owned by South Carolina, Kansas, or any political subdivision of those states may be acquired by donation. Interior shall submit to Congress an amendment to the management plan for the historical park to include the portions of the historical park in Summerton. The bill establishes as affiliated areas of the National Park System the Robert Russa Moton Museum in Farmville, Virginia; the Delaware Brown v. Board of Education civil rights sites, including Claymont High School in Claymont, Delaware; and the John Philip Sousa Middle School in the District of Columbia. Interior shall develop a management plan for each affiliated area.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ123"
+          },
+          {
+            "title": "Victims of Child Abuse Act Reauthorization Act of 2013",
+            "congress": 113,
+            "billType": "S",
+            "billNumber": "1799",
+            "publicLawNumber": "113-163",
+            "summary": "(This measure has not been amended since it was passed by the Senate on June 26, 2014. The summary of that version is repeated here.) Victims of Child Abuse Act Reauthorization Act of 2013 - Amends the Victims of Child Abuse Act of 1990 to authorize appropriations for FY2014-FY2018 for: (1) the children's advocacy program; (2) grants from the Administrator of the Office of Juvenile Justice and Delinquency Prevention to develop and implement multidisciplinary child abuse investigation and prosecution programs; and (3) grants to national organizations to provide technical assistance and training to attorneys and others instrumental to the criminal prosecution of child abuse cases in state or federal courts, for the purpose of improving the quality of criminal prosecution of such cases. Directs the Inspector General of the Department of Justice (DOJ) to conduct audits of grant recipients to prevent waste, fraud, and abuse of funds by grantees. Defines an \"unresolved audit finding\" as a finding in the final audit report of the Inspector General that the audited grantee has utilized grant funds for an unauthorized expenditure or otherwise unallowable cost and that is not closed or resolved within 12 months from the date when the final audit report is issued and any appeal has been completed. Directs the Administrator to give priority for grants to eligible entities that did not have an unresolved audit finding during the three fiscal years prior to submitting an application for a grant. Disqualifies a grant recipient that is found to have an unresolved audit finding from receiving grant funds during the following two fiscal years. Directs the Administrator, if an entity is awarded grant funds during the two-fiscal-year period in which the entity is barred from receiving grants, to: (1) deposit an amount equal to the funds that were improperly awarded into the General Fund of the Treasury, and (2) seek to recoup the costs of the repayment to the fund from such entity. Prohibits the Administrator from awarding a grant to a nonprofit organization that holds money in offshore accounts for the purpose of avoiding paying the tax on unrelated business income. Requires each nonprofit organization awarded a grant that uses prescribed procedures to create a rebuttable presumption of reasonableness for the compensation of its officers, directors, trustees and key employees to disclose to the Administrator in the grant application the process for determining such compensation, the comparability data used, and contemporaneous substantiation of the deliberation and decision. Prohibits amounts authorized to be appropriated to DOJ from being used by the Administrator, or by any individual or organization awarded discretionary funds through a cooperative agreement, to host or support any expenditure for conferences that uses more than $20,000 in DOJ funds, without prior written authorization by the Deputy Attorney General or other specified officials. Directs the Deputy Attorney General to submit an annual report to the Senate and House Judiciary Committees on all approved conference expenditures. Amends the Victims of Crime Act of 1984 to permit surplus amounts in the Crime Victims Fund to be used only for a Victim Notification System and for the U.S. Attorneys Offices and the Federal Bureau of Investigation (FBI) to provide and to improve services for the benefit of crime victims in the federal criminal justice system (current law) through victim coordinators, victims' specialists, and advocates, including for the administrative support of such coordinators and advocates.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ163"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.24,
+          "nominateDim2": -0.206,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001088"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 92.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001088"
+        }
+      },
+      "_curated_match": true,
+      "_campaign_site_discovered_at": "2026-09-01T11:57:02.045Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "alec-coppola",
+      "full_name": "COPPOLA, ALEC",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00214",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://youtube.com;l@alec.coppola",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:04.703Z",
+      "_campaign_site_reachability": "dead"
+    },
+    {
+      "slug": "e-hansen",
+      "full_name": "HANSEN, E. NO-TRUMP",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00271",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "marital_status": {
+          "value": "married for nearly 20 years",
+          "source_url": "https://hansende.com",
+          "snippet": "Eric and his wife of nearly 20 years have two children in Delaware public schools.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "businessperson who saved American shoppers over $25 billion",
+          "source_url": "https://hansende.com",
+          "snippet": "Eric is a businessperson who saved American shoppers over $25 billion",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living - Food",
+          "value": "Reduce food costs by 10% by shifting farm subsidies from fuel for vehicles to food for people, and eliminating food tariffs.",
+          "snippet": "Food −10% by shifting farm subsidies from fuel for vehicles to food for people, and eliminating food tariffs."
+        },
+        {
+          "topic": "Cost of Living - Healthcare",
+          "value": "Reduce healthcare costs by 10% through Medicare choice expansion.",
+          "snippet": "Healthcare −10% through Medicare choice expansion — and more."
+        },
+        {
+          "topic": "Presidential Power and Corruption",
+          "value": "Pass a law limiting presidential power so no president is above Congress or the courts. Restore real checks and balances and independent, non-weaponized federal agencies. Root out self-dealing and corruption.",
+          "snippet": "Pass a law limiting presidential power so no president is above Congress or the courts. Restore real checks and balances and independent, non-weaponized federal agencies. Root out self-dealing and corruption and put public service back at the center of government."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Serve to Stay Act: people trying to immigrate to the U.S. can earn a path to citizenship by serving in the military or a Housing & Infrastructure Development Corps.",
+          "snippet": "Serve to Stay Act: people trying to immigrate to the U.S. can earn a path to citizenship by serving in the military or a Housing & Infrastructure Development Corps — fixing immigration once and for all."
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Establish a $15 federal minimum wage.",
+          "snippet": "A $15 federal minimum wage so no state gets an edge over Delaware."
+        },
+        {
+          "topic": "Childcare and Education",
+          "value": "Make childcare fully deductible and provide free pre-K and school lunches.",
+          "snippet": "Fully deductible childcare + free pre-K and school lunches."
+        }
+      ],
+      "platform_source_url": "https://hansende.com",
+      "_platform_resolved_at": "2026-08-05T15:02:29.413Z",
+      "campaign_site_url": "https://hansende.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=aUbtY2Pff2Y",
+      "platform_video_title": "Enough",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-19T11:05:43.453Z",
+      "bio_summary": {
+        "value": "Eric grew up poor, so he understands how hard it is for most families right now. He and his family moved to Delaware to build a better life. He loves Delaware — and, like most Delawareans, he's deeply frustrated with the way things are. Eric is a businessperson who saved American shoppers over $25 billion . He's proven he can bring the cost of living down. He'd also be the only U.S. Senator with hands-on AI experience — so he understands the risks of AI, and how to handle them, like no other candidate.",
+        "source_url": "https://www.hansende.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:31.406Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "eric-hansen",
+      "full_name": "HANSEN, ERIC",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S4DE00094",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Yale School of Management (master's degree)",
+          "source_url": "https://ballotpedia.org/E._No-Trump_Hansen_(Delaware)",
+          "snippet": "Hansen earned a master's degree from Yale School of Management."
+        },
+        "employment_record": {
+          "value": "Executive at Walmart; also worked at Proctor & Gamble and Johnson & Johnson",
+          "source_url": "https://ballotpedia.org/E._No-Trump_Hansen_(Delaware)",
+          "snippet": "Eric Hansen's career experience includes working as an executive at Walmart. He has also worked at Proctor & Gamble and Johnson & Johnson."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://voteerichansen.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:04.986Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "michael-katz",
+      "full_name": "KATZ, MICHAEL S DR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00206",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 70152,
+        "totalSpent": 32147.53,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3182,
+          "largeDollar": 12410,
+          "pac": 300,
+          "party": 0,
+          "selfFunded": 54260
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1962-01",
+          "source_url": "https://www.wikidata.org/wiki/Q120416048",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Georgetown University (M.D.; MBA in International Business)",
+          "source_url": "https://drmikekatz.com/meet-mike.html",
+          "snippet": "He earned his Medical Degree and MBA in International Business from Georgetown University."
+        },
+        "marital_status": {
+          "value": "Married to Trish (39 years); three children",
+          "source_url": "https://drmikekatz.com/meet-mike.html",
+          "snippet": "He and his wife Trish have been married for 39 years and raised their three children in Delaware."
+        },
+        "employment_record": {
+          "value": "Anesthesiologist; owns a real estate company",
+          "source_url": "https://en.wikipedia.org/wiki/Michael_Katz_(politician)",
+          "snippet": "Katz is an anesthesiologist, having been trained in pediatric anesthesia at Boston Children's Hospital and Harvard Medical School. He also owns a real estate company."
+        },
+        "civic_affiliations": {
+          "value": "Former Delaware State Senator; introduced legislation on term limits, lobby reform, government transparency, and creation of the Delaware Health Information Network (DHIN)",
+          "source_url": "https://drmikekatz.com/meet-mike.html",
+          "snippet": "He later served in the Delaware State Senate, where he introduced legislation on term limits, lobby reform, government transparency, and the creation of the Delaware Health Information Network (DHIN)."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy & Cost of Living",
+          "value": "Halt wasteful spending, cut red tape, and lower energy and housing costs for Delaware families.",
+          "snippet": "Halt wasteful spending, cut red tape, and lower energy and housing costs for Delaware families."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Lower drug costs, fix rural care gaps, and shift the system from treating illness to preventing it.",
+          "snippet": "Lower drug costs, fix rural care gaps, and shift the system from treating illness to preventing it."
+        },
+        {
+          "topic": "Border Security & National Sovereignty",
+          "value": "Finish the wall, interdict fentanyl, and restore federal accountability at the border.",
+          "snippet": "Finish the wall, interdict fentanyl, and restore federal accountability at the border."
+        },
+        {
+          "topic": "Voter Integrity",
+          "value": "Pass the SAVE Act, audit voter rolls, and verify every ballot is cast by a citizen.",
+          "snippet": "Pass the SAVE Act, audit voter rolls, and verify every ballot is cast by a citizen."
+        },
+        {
+          "topic": "Defending the Second Amendment",
+          "value": "Reject red-flag confiscation, block federal firearm registries, and defend due process.",
+          "snippet": "Reject red-flag confiscation, block federal firearm registries, and defend due process."
+        },
+        {
+          "topic": "Protecting Women's Sports",
+          "value": "Defend Title IX, preserve women's sports as a competitive category for biological females, and protect athlete safety.",
+          "snippet": "Defend Title IX, preserve women's sports as a competitive category for biological females, and protect athlete safety."
+        },
+        {
+          "topic": "Protecting Delaware Jobs and Keeping Business Here",
+          "value": "Cut federal red tape, lock in pro-growth taxes, and bring critical manufacturing home.",
+          "snippet": "Cut federal red tape, lock in pro-growth taxes, and bring critical manufacturing home."
+        },
+        {
+          "topic": "Law & Order, Constitution, and Police",
+          "value": "Back the blue, defend the Constitution, and protect Bill of Rights freedoms.",
+          "snippet": "Back the blue, defend the Constitution, and protect Bill of Rights freedoms."
+        }
+      ],
+      "platform_source_url": "https://www.drmikekatz.com",
+      "_platform_resolved_at": "2026-08-05T15:03:16.201Z",
+      "campaign_site_url": "https://www.drmikekatz.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Dr. Mike Katz has spent 30 years in Delaware treating patients, building businesses, and filing real legislation in the State Senate. He knows what this state needs because he's been living it. Now he's ready to fight for every Delawarean in Washington — finding common ground, putting people over party.",
+        "source_url": "https://www.drmikekatz.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:43.156Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:05.388Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "mary-louve",
+      "full_name": "LOUVE, MARY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00230",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "Naval Architect and Marine Engineer",
+          "source_url": "https://marylouveofficial.com/about",
+          "snippet": "As a Naval Architect and Marine Engineer, I've built my career solving complex problems, leading with integrity, and delivering results.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "mother",
+          "source_url": "https://marylouveofficial.com/about",
+          "snippet": "As a mother, I understand the challenges families face every day",
+          "source_type": "llm_extracted_campaign_site_scaleout"
+        },
+        "college": {
+          "value": "Bachelor's, University of New Orleans, Naval Architecture and Marine Engineering (2018); Bachelor's, Art Institute of Pittsburgh, Advertising/Marketing (2005)",
+          "source_url": "https://www.ballotready.org/people/mary-louve",
+          "snippet": "Bachelor's, University of New Orleans, Naval Architecture and Marine Engineering (2018) Bachelor's, Art Institute of Pittsburgh, Advertising/Marketing (2005)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Lowering Costs for Delaware Families",
+          "snippet": "Lowering Costs fo Delaware Families"
+        },
+        {
+          "topic": "Family Court and Domestic Violence",
+          "value": "Family Court and DV Reform",
+          "snippet": "Family Court and DV Reform"
+        },
+        {
+          "topic": "Job Creation",
+          "value": "Create More Jobs Opportunities for Delaware",
+          "snippet": "Create More Jobs Opportunities for Delaware"
+        },
+        {
+          "topic": "Government Transparency",
+          "value": "Accountability and Government transparency",
+          "snippet": "Accountability and Government transparency"
+        }
+      ],
+      "platform_source_url": "https://marylouveofficial.com/",
+      "_platform_resolved_at": "2026-08-05T15:03:09.717Z",
+      "campaign_site_url": "https://marylouveofficial.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=-EEos3i4UyQ",
+      "platform_video_title": "Why I am Running for the US Senate.",
+      "platform_video_source_url": "https://marylouveofficial.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T16:49:26.094Z",
+      "bio_summary": {
+        "value": "I'm Mary Louve, and I'm running for the United States Senate to be a voice for Delaware families who work hard, play by the rules, and deserve a government that puts them first. As a Naval Architect and Marine Engineer, I've built my career solving complex problems, leading with integrity, and delivering results. As a mother, I understand the challenges families face every day—from rising costs and affordable healthcare to safe communities and quality education.",
+        "source_url": "https://marylouveofficial.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:57.548Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "john-shulli",
+      "full_name": "SHULLI, JOHN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00198",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 105295.38,
+        "totalSpent": 59182.78,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1276.43,
+          "largeDollar": 4018.95,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 100000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Delaware",
+          "source_url": "https://www.degopdistrict39.com/post/shulli-for-senate",
+          "snippet": "John Shulli, a Delaware native, Army Colonel, and Republican candidate for the U.S. Senate"
+        },
+        "employment_record": {
+          "value": "U.S. Army Colonel",
+          "source_url": "https://www.degopdistrict39.com/post/shulli-for-senate",
+          "snippet": "John Shulli, a Delaware native, Army Colonel, and Republican candidate for the U.S. Senate"
+        },
+        "college": {
+          "value": "Bachelor's, Embry-Riddle Aeronautical University, Aviation Computer Science (1997); Master's, University of Oklahoma, International Relations (2009); Master's, United States Army War College, Military Strategic Studies (2021)",
+          "source_url": "https://www.ballotready.org/people/john-shulli",
+          "snippet": "Degrees Master&#x27;s, United States Army War College, Military Strategic Studies (2021) Master&#x27;s, University of Oklahoma, International Relations (2009) Bachelor&#x27;s, Embry-Riddle Aeronautical University, Aviation Computer Science (1997)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Accountability",
+          "value": "Bringing accountability to government",
+          "snippet": "where we build for the future while protecting our heritage and land by bringing accountability to government"
+        },
+        {
+          "topic": "Economy",
+          "value": "Bringing back the \"American System\" economy",
+          "snippet": "bringing accountability to government and bringing back the \"American System\" economy"
+        },
+        {
+          "topic": "Energy",
+          "value": "Make us energy independent",
+          "snippet": "Put Delaware on the map, make us energy independent, and turn our State into the jobs factory of the 21st century"
+        },
+        {
+          "topic": "Jobs",
+          "value": "Turn our State into the jobs factory of the 21st century",
+          "snippet": "Put Delaware on the map, make us energy independent, and turn our State into the jobs factory of the 21st century"
+        },
+        {
+          "topic": "National Sovereignty",
+          "value": "Protect our nation's liberty and sovereignty",
+          "snippet": "To achieve this we must protect our nation's liberty and sovereignty, build a powerful and robust economy, and educate our youth to master the arts and understand the physics of the universe"
+        },
+        {
+          "topic": "Education",
+          "value": "Educate our youth to master the arts and understand the physics of the universe",
+          "snippet": "protect our nation's liberty and sovereignty, build a powerful and robust economy, and educate our youth to master the arts and understand the physics of the universe"
+        }
+      ],
+      "platform_source_url": "https://shulli.org",
+      "_platform_resolved_at": "2026-08-05T15:02:41.584Z",
+      "campaign_site_url": "https://shulli.org",
+      "platform_video_url": "https://www.youtube.com/watch?v=wVwM_ARoYbE",
+      "platform_video_title": "Life is the Answer",
+      "platform_video_source_url": "https://shulli.org/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T21:58:07.761Z",
+      "bio_summary": {
+        "value": "It’s time for a New Day for Delaware, where we build for the future while protecting our heritage and land by bringing accountability to government and bringing back the \"American System\" economy. Put Delaware on the map, make us energy independent, and turn our State into the jobs factory of the 21st century. To achieve this we must protect our nation's liberty and sovereignty, build a powerful and robust economy, and educate our youth to master the arts and understand the physics of the universe.",
+        "source_url": "https://shulli.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:28.035Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "gavin-solomon",
+      "full_name": "SOLOMON, GAVIN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00248",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-30T12:00:05.832Z",
+      "_no_site_search_attempted_at": "2026-08-30T20:49:48.594Z"
+    },
+    {
+      "slug": "travis-stevens",
+      "full_name": "STEVENS, TRAVIS",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6DE00222",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Maryland",
+          "source_url": "https://travisjackstevens.com/",
+          "snippet": "Born in Maryland, Travis Jack Stevens first fell in love with Delaware on childhood vacations",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "travel ICU nurse; massage therapist",
+          "source_url": "https://travisjackstevens.com/",
+          "snippet": "A highly skilled travel ICU nurse, Travis relocated to Delaware before the COVID-19 pandemic, putting down roots in the state he had always called home in his heart. When the pandemic hit, Travis was on the front lines — working through the trauma and heartbreak of COVID units, caring for the sickest patients at their most vulnerable moments. He also served military personnel, witnessing firsthand the cost of endless war on the bodies and minds of those asked to fight them. That work left a mark. Travis developed PTSD — serious enough that he had to leave the bedside entirely, facing the real possibility of permanent disability. He chose instead to fight his way back. His path back to the workforce led him to massage therapy — a career he had built before the Great Recession forced him away from it.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "CAMP Rehoboth Chorus; volunteer work with local non-profits",
+          "source_url": "https://travisjackstevens.com/",
+          "snippet": "Travis joined CAMP Rehoboth Chorus, became woven into the fabric of the community, and threw himself into volunteer work with local non-profits — eventually stepping into activism and local politics as a passionate community builder.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Supports expanding coverage, capping prescription costs, and ending the era of medical debt",
+          "snippet": "Travis supports expanding coverage, capping prescription costs, and ending the era of medical debt."
+        },
+        {
+          "topic": "Foreign Policy / Gaza",
+          "value": "Believes the ongoing campaign in Gaza constitutes genocide, with Israel bearing direct responsibility and the United States bearing the responsibility of an enabler; opposes American tax dollars funding the killing of civilians",
+          "snippet": "Travis believes the United States has been complicit in war crimes — and that the ongoing campaign in Gaza constitutes genocide, with Israel bearing direct responsibility and the United States bearing the responsibility of an enabler. He is unequivocal: American tax dollars must not fund the killing of civilians."
+        },
+        {
+          "topic": "Military / Foreign Wars",
+          "value": "Opposes forever wars, military adventurism, and the weapons contractor economy that profits from permanent conflict",
+          "snippet": "He opposes forever wars, military adventurism, and the weapons contractor economy that profits from permanent conflict."
+        },
+        {
+          "topic": "Housing",
+          "value": "Will fight for affordable housing investment, tenant protections, and an end to corporate landlord loopholes",
+          "snippet": "Travis will fight for affordable housing investment, tenant protections, and an end to corporate landlord loopholes."
+        },
+        {
+          "topic": "Antitrust and Campaign Finance",
+          "value": "Will push for antitrust enforcement, campaign finance reform, and a Senate that answers to voters — not donors",
+          "snippet": "Travis will push for antitrust enforcement, campaign finance reform, and a Senate that answers to voters — not donors."
+        },
+        {
+          "topic": "Clean Energy and Jobs",
+          "value": "Supports a just transition that creates union jobs, protects our coastline, and leaves no worker behind",
+          "snippet": "Travis supports a just transition that creates union jobs, protects our coastline, and leaves no worker behind."
+        },
+        {
+          "topic": "Education",
+          "value": "Supports debt relief, free community college, and fully funded public schools",
+          "snippet": "Travis supports debt relief, free community college, and fully funded public schools."
+        },
+        {
+          "topic": "Voting Access and Democracy",
+          "value": "Will fight to remove barriers to candidacy, expand voting access, and end gerrymandering",
+          "snippet": "Travis will fight to remove barriers to candidacy, expand voting access, and end gerrymandering."
+        }
+      ],
+      "platform_source_url": "https://travisjackstevens.com/",
+      "_platform_resolved_at": "2026-08-05T15:03:06.569Z",
+      "campaign_site_url": "https://travisjackstevens.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=uoOip36vB0A",
+      "platform_video_title": "July 3, 2026",
+      "platform_video_source_url": "https://travisjackstevens.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T21:58:08.687Z",
+      "bio_summary": {
+        "value": "Born in Maryland, Travis Jack Stevens first fell in love with Delaware on childhood vacations — and that love never left. A highly skilled travel ICU nurse, Travis relocated to Delaware before the COVID-19 pandemic, putting down roots in the state he had always called home in his heart. When the pandemic hit, Travis was on the front lines — working through the trauma and heartbreak of COVID units, caring for the sickest patients at their most vulnerable moments.",
+        "source_url": "https://travisjackstevens.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:29:49.685Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

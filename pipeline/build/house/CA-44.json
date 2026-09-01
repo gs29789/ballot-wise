@@ -1,0 +1,819 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-44",
+  "generated_at": "2026-08-21T13:52:02.621Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_44th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Nanette Barragán and Genevieve Angel are running in the general election for U.S. House California District 44 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "genevieve-angel",
+      "full_name": "ANGEL, GENEVIEVE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA44210",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 13897.97,
+        "totalSpent": 5151.68,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1705.05,
+          "largeDollar": 9192.92,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 3000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Manila, Philippines",
+          "source_url": "https://www.angelforcongress.com/about",
+          "snippet": "a proud mother and wife who built her family right here in Southern California after moving from Manila, Philippines",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "BSN — University of Santo Tomas, 1992; MBA — AIU Los Angeles, 2007; MSN / Family Nurse Practitioner (Magna Cum Laude), 2025; 2 years of Law — Pacific Coast University",
+          "source_url": "https://www.angelforcongress.com/about",
+          "snippet": "BSN — University of Santo Tomas, 1992 MBA — AIU Los Angeles, 2007 MSN / Family Nurse Practitioner (Magna Cum Laude), 2025 2 years of Law — Pacific Coast University",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.angelforcongress.com/about",
+          "snippet": "a proud mother and wife",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "senior healthcare executive with extensive experience in hospitals, health plans, and community services; Family Nurse Practitioner",
+          "source_url": "https://www.angelforcongress.com/about",
+          "snippet": "As a senior healthcare executive with extensive experience in hospitals, health plans, and community services, I am a proven leader dedicated to bringing actionable, positive change to our community",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Affordability",
+          "value": "Lower costs. More opportunity.",
+          "snippet": "Economic Affordability Lower costs. More opportunity."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Safe communities. Real accountability.",
+          "snippet": "Public Safety Safe communities. Real accountability."
+        },
+        {
+          "topic": "Healthcare Reform",
+          "value": "Affordable, accessible care.",
+          "snippet": "Healthcare Reform Affordable, accessible care."
+        },
+        {
+          "topic": "Immigration Reform",
+          "value": "Secure, fair, and practical solutions.",
+          "snippet": "Immigration Reform Secure, fair, and practical solutions."
+        }
+      ],
+      "platform_source_url": "https://www.angelforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:53:37.437Z",
+      "campaign_site_url": "https://www.angelforcongress.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Genevieve Angel has spent her life serving others — in hospitals, in businesses, and in her community. She's not running to play politics. She's running to solve real problems for real families. For nearly 30 years, she's lived and served right here in CA-44 as a Family Nurse Practitioner, healthcare executive, mother, and small-business owner.",
+        "source_url": "https://www.angelforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:25:24.740Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "nanette-barragan",
+      "full_name": "BARRAGAN, NANETTE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6CA44103",
+      "fec_status": "C",
+      "bioguide_id": "B001300",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 785765.2,
+        "totalSpent": 1178896.16,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3846.6,
+          "largeDollar": 166922.02,
+          "pac": 606750,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-09-15",
+          "source_url": "https://www.wikidata.org/wiki/Q21662745",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Harbor City, California",
+          "source_url": "https://www.wikidata.org/wiki/Q21662745",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Los Angeles",
+          "source_url": "https://www.wikidata.org/wiki/Q21662745",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "North Torrance High School",
+          "source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+          "snippet": "raised by immigrants from Mexico in Torrance and the surrounding area, where she attended North Torrance High School and played softball.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Executive Director of the Gillian S. Fuller Foundation (during college and until 2003); extern to Justice Carlos Moreno at the California Supreme Court (2003); extern at the Los Angeles Legal Aid Foundation (2004); externship at the United States Attorney's Office, Central District of California (2005); attorney at Latham & Watkins LLP",
+          "source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+          "snippet": "During college and until 2003, Barragán served as the Executive Director of the Gillian S. Fuller Foundation (formerly the Fuller Foundation), where she was in charge of funding nonprofits focused on education, the environment, and youth programs. Funded organizations included Heal the Bay , the Nature Conservancy , the Natural Resources Defense Council , Para Los Niños, Proyecto Pastoral, and Literacy Partners. [ 6 ] Legal career [ edit ] In 2003, Barragán served as an extern to Justice Carlos Moreno at the California Supreme Court . In 2004, she served as an extern at the Los Angeles Legal Aid Foundation, a law firm for low-income people in Los Angeles . There she assisted pro per workers who needed assistance filing claims for unpaid overtime and meal breaks. [ 7 ] In 2005, Barragán received an externship at the United States Attorney's Office, Central District of California where she worked with attorneys in the Organized Crime and Terrorism section. There she assisted on a money laundering trial team, in investigations, and in prosecuting Central Violations Bureau cases. [ citation needed ] Barragán then joined Latham & Watkins LLP",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Hermosa Beach City Council (2013-2015); served on the Board of the L.A. County Young Democrats for three years",
+          "source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+          "snippet": "Thereafter she volunteered for many federal and local candidates while serving on the Board of the L.A. County Young Democrats for three years before attending law school. [ citation needed ] In 2012, Barragán took a leave of absence from her law firm to move to Florida to work on President Barack Obama 's reelection campaign with the voter protection team. She served as the out-of-state volunteer attorney director and recruited attorneys across the country to volunteer in Florida to make sure every eligible voter had the opportunity to vote. [ 9 ] [ 10 ] Hermosa Beach City Council [ edit ] In 2013, Barragán ran for Hermosa Beach City Council",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=Txkx2EVj6sI",
+      "platform_video_title": "\"Hard Work\" - Nanette Barragan for Congress",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+      "platform_video_tier": 3,
+      "_platform_video_resolved_at": "2026-08-29T17:53:03.902Z",
+      "bio_summary": {
+        "value": "Nanette Díaz Barragán ( / n ə ˈ n ɛ t ˈ b ær ə ɡ ən / nə- NET BARR -ə-gən ; [ 1 ] born September 15, 1976) [ 2 ] is an American politician and attorney serving as the U.S. representative for California's 44th congressional district since 2017. A member of the Democratic Party , she previously served as a Hermosa Beach city councilmember from 2013 to 2015. [ 3 ] Early life and education [ edit ] Barragán was born in Harbor City, Los Angeles ; she is the youngest of 11 siblings, raised by immigrants from Mexico in Torrance and the surrounding area, where she attended North Torrance High School and played softball. [ 4 ] She earned her Bachelor of Arts degree in political science with a minor in public policy from the University of California, Los Angeles in 2000. She received her Juris Doctor degree at the University of Southern California in 2005, where she served on the Interdisciplinary Law Journal . [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:33:45.027Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081390.pdf",
+        "filingDate": "7/27/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-21T13:21:58.359Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 278,
+          "attendanceRate": 0.9823321554770318
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 135,
+        "bills_cosponsored": 3167,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 101 South Willowbrook Avenue in Compton, California, as the \"PFC James Anderson, Jr., Post Office Building\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "1095",
+            "publicLawNumber": "117-268",
+            "summary": "This act designates the facility of the United States Postal Service located at 101 South Willowbrook Avenue in Compton, California, as the PFC James Anderson, Jr., Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ268"
+          },
+          {
+            "title": "John Lewis NIMHD Research Endowment Revitalization Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "189",
+            "publicLawNumber": "117-104",
+            "summary": "John Lewis NIMHD Research Endowment Revitalization Act of 2021 This bill expands eligibility for research endowments available through the National Institute on Minority Health and Health Disparities to include former centers of excellence at health professional schools and biomedical and behavioral research institutions that meet criteria related to the inclusion of underrepresented minority individuals in programs and activities.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ104"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.497,
+          "nominateDim2": -0.122,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001300"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 21.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001300"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_source_type": "wikipedia"
+    }
+  ]
+}

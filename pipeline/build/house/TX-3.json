@@ -1,0 +1,242 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-14T18:19:21.713Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Keith Self and Evan Hunt are running in the general election for U.S. House Texas District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "evan-hunt",
+      "full_name": "HUNT, EVAN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX03234",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 446505.53,
+        "totalSpent": 402627.78,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 189126.42,
+          "largeDollar": 176879.11,
+          "pac": 5500,
+          "party": 0,
+          "selfFunded": 75000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Defense and Aerospace Industry; US Air Force /Air National Guard, Lieutenant Colonel",
+          "source_url": "https://www.ballotready.org/people/evan-hunt",
+          "snippet": "Professional Experience Defense and Aerospace Industry US Air Force /Air National Guard, Lieutenant Colonel",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Constitutional Protections",
+          "value": "Emergency powers should not be invoked to raise taxes or tariffs; Congress cannot delegate their law-making authorities to the President; Visas should not be revoked, and people should not be deported, without due process; Military leaders should not be fired, and University funding should not be cut, for political bias; Political leaders should not continue to run businesses while they are in office; And the President should never serve for more than 2 terms",
+          "snippet": "Too much of what goes on today flies in the face of the Constitution: Emergency powers should not be invoked to raise taxes or tariffs Congress cannot delegate their law-making authorities to the President Visas should not be revoked, and people should not be deported, without due process. Military leaders should not be fired, and University funding should not be cut, for political bias Political leaders should not continue to run businesses while they are in office And the President should never serve for more than 2 terms"
+        },
+        {
+          "topic": "Immigration",
+          "value": "I support strong borders, safe streets, and efficient deportations of undocumented criminals. I support immigration reform that protects our borders, streamlines legal immigration, and gives law-abiding immigrants a path to earn their place. Identify, arrest, prosecute, and remove violent offenders. Do not scapegoat families who are not criminals",
+          "snippet": "I support strong borders, safe streets, and efficient deportations of undocumented criminals. ICE raids have proven costly, dangerous, and unnecessary. Heavily armed, masked, unaccountable agents operating in our streets, dressed like military commandos, with little to no respect for due process, is not what effective law enforcement looks like in a democracy. If the goal is safety, the solution is straightforward. Identify, arrest, prosecute, and remove violent offenders. Do not scapegoat families who are not criminals."
+        }
+      ],
+      "platform_source_url": "https://www.electevanhunt.com/",
+      "_platform_resolved_at": "2026-08-14T18:18:29.514Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076316.pdf",
+        "filingDate": "5/2/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T18:19:15.172Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=oJ-PgepQbEE",
+      "platform_video_title": "Patriotic Values & Top 3 Political Issues Explained",
+      "platform_video_source_url": "https://www.electevanhunt.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:29.267Z",
+      "bio_summary": {
+        "value": "Evan Hunt is a decorated 20-year veteran and combat aviator, a community and business leader, and a Texas family man. Evan is running for U.S. Congress in Texas, as a Democrat, to take our country back from extremist agendas and to better represent the diverse people of 3rd district. With over 20 years of military and private sector leadership, Hunt knows what it takes to put mission over politics and people over party. Evan is committed to protecting the intent of America’s Founding Fathers - constitutional integrity, the rule of law, and a government that works for all.",
+        "source_url": "https://www.electevanhunt.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:24.642Z",
+      "campaign_site_url": "https://www.electevanhunt.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:35.897Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "keith-self",
+      "full_name": "SELF, KEITH ALAN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H2TX00064",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 645502.77,
+        "totalSpent": 542149.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 130446.8,
+          "largeDollar": 330146.35,
+          "pac": 178673.45,
+          "party": 0,
+          "selfFunded": 1850.94
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1953-03-20",
+          "source_url": "https://www.wikidata.org/wiki/Q115137462",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Philadelphia, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q115137462",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Tascosa High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115137462",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - Texas 3rd Congressional District (Present); Collin County, Judge (2007 - 2018); US Army, LTC (1975 - 1999)",
+          "source_url": "https://www.ballotready.org/people/keith-self",
+          "snippet": "US House of Representatives, Representative - Texas 3rd Congressional District (Present) Collin County, Judge (2007 - 2018) US Army, LTC (1975 - 1999)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Tascosa High School in Amarillo, Texas",
+          "source_url": "https://en.wikipedia.org/wiki/Keith_Self",
+          "snippet": "graduated from Tascosa High School in Amarillo, Texas",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Tracy Groff (m. 1975)",
+          "source_url": "https://en.wikipedia.org/wiki/Keith_Self",
+          "snippet": "He is married to Tracy Groff",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Keith voted for H.R. 2 – Secure the Border Act that would resume construction of the border wall. He also introduced the El Chapo Act which takes money seized from the cartels and uses it to secure our borders. At home, Congressman Self supports Operation Lonestar and proposed that the federal government reimburse Texas for its border security efforts.",
+          "snippet": "Keith voted for H.R. 2 – Secure the Border Act that would resume construction of the border wall. He also introduced the El Chapo Act which takes money seized from the cartels and uses it to secure our borders. At home, Congressman Self supports Operation Lonestar and proposed that the federal government reimburse Texas for its border security efforts."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Keith believes that elections must remain under state control, he supports election integrity laws such as requiring a photo ID to vote, and he insists that all future voting machines include a paper trail.",
+          "snippet": "Keith believes that elections must remain under state control, he supports election integrity laws such as requiring a photo ID to vote, and he insists that all future voting machines include a paper trail."
+        },
+        {
+          "topic": "2nd Amendment",
+          "value": "Keith understands that gun ownership and self-defense are foundational to the American way of life, and he will fight all efforts by the left to curtail our Constitutional rights.",
+          "snippet": "Keith understands that gun ownership and self-defense are foundational to the American way of life, and he will fight all efforts by the left to curtail our Constitutional rights."
+        },
+        {
+          "topic": "Pro-Life",
+          "value": "Keith believes in the sanctity and value of every human life. In Congress, Keith will fight to protect the Hyde Amendment and finally defund Planned Parenthood.",
+          "snippet": "Keith believes in the sanctity and value of every human life. The sonogram is the greatest tool in our fight against the barbarism and child sacrifice of the abortion industry. In Congress, Keith will fight to protect the Hyde Amendment and finally defund Planned Parenthood."
+        },
+        {
+          "topic": "Ukraine Funding",
+          "value": "In Congress, Keith has consistently voted against funding for the conflict in Ukraine, while advocating that France and Germany follow through on their commitments to help stop Russian aggression.",
+          "snippet": "In Congress, Keith has consistently voted against funding for the conflict in Ukraine, while advocating that France and Germany follow through on their commitments to help stop Russian aggression."
+        }
+      ],
+      "platform_source_url": "https://keithself.com/",
+      "_platform_resolved_at": "2026-08-14T18:19:10.245Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "During my 25-year military career, I never backed down from a fight. As West Point cadets our training started early and ended late. The work ethic and warrior ethos — engrained in me during my military career — remains as I represent your voice and your vote in Congress.",
+        "source_url": "https://keithself.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:18.542Z",
+      "campaign_site_url": "https://keithself.com/",
+      "_campaign_site_discovered_at": "2026-09-01T12:44:28.592Z",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:27.893Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
