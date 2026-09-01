@@ -81,4 +81,28 @@ export const MISSING_CANDIDATES: Record<string, Record<string, MissingCandidate[
       },
     ],
   },
+  UT: {
+    "house-02": [
+      {
+        // Has two real FEC filings (H6UT02499, H6UT02481) but neither
+        // surfaces via searchCandidates() -- an unusually-structured
+        // committee (a combined "Wendover Mayor and Utah House Seat
+        // District 2" filing) rather than a stale primaryResults.ts entry
+        // like TX-21's Dan McQueen, so treated as a verified-override
+        // case rather than a fixable query bug.
+        full_name: "ARRINGTON, BRYAN LAMONT",
+        party: "INDEPENDENT",
+        incumbent: false,
+        source_url: "https://ballotpedia.org/Bryan_Lamont_Arrington",
+        snippet:
+          "Blake Moore (R), Peter Crosby (D), Carlton Bowen (Independent American Party of Utah), Daniel Cottam (L), Robert Moesinger (Unaffiliated), Bryan Lamont Arrington (Independent) -- The following candidates are running in the general election for U.S. House Utah District 2 on November 3, 2026.",
+        // Ballotpedia's only listed "Campaign website" for him is a
+        // Change.org petition page (change.org/BRYANARRINGTON2028, tied to
+        // his separate 2028 presidential candidacy) -- not a real campaign
+        // site with his own platform content, so left null rather than
+        // forced in.
+        campaign_site_url: null,
+      },
+    ],
+  },
 };
