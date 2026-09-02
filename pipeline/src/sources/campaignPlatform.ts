@@ -162,3 +162,19 @@ export async function extractPlatformFromSite(candidateName: string, baseUrl: st
   }
   return null;
 }
+
+// Fallback for a candidate whose campaign site (and, for a sitting member,
+// official .gov site) either has no platform content or couldn't be reached
+// at all -- reuses the exact same verbatim/identity-check machinery above,
+// pointed at a single already-known Ballotpedia URL instead of crawling a
+// site's nav. See ballotpedia.ts for how that URL gets discovered (a
+// race-page search + deterministic link parse, same source already used
+// for the bio_summary waterfall's Ballotpedia tier) -- still runs its own
+// expectedContext identity check regardless of how the URL was found, same
+// discipline as every other source here.
+export async function extractPlatformFromBallotpedia(candidateName: string, ballotpediaUrl: string, expectedContext?: string): Promise<PlatformResult | null> {
+  const page = await fetchPageText(ballotpediaUrl).catch(() => null);
+  if (!page) return null;
+  const result = await extractFromPage(candidateName, page, expectedContext).catch(() => null);
+  return result && result.positions.length ? result : null;
+}

@@ -5,6 +5,7 @@ export interface MemberInfo {
   name: string;
   party: string;
   imageUrl: string | null;
+  officialWebsiteUrl?: string | null;
 }
 
 function apiKey(): string {
@@ -51,6 +52,7 @@ export async function getMember(bioguideId: string): Promise<MemberInfo | null> 
     name: m.directOrderName ?? m.invertedOrderName,
     party: m.partyHistory?.[0]?.partyName ?? "",
     imageUrl: m.depiction?.imageUrl ?? null,
+    officialWebsiteUrl: m.officialWebsiteUrl ?? null,
   };
 }
 

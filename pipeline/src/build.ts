@@ -2,14 +2,14 @@ import "dotenv/config";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
-import { getMembersByState, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
+import { getMembersByState, getMember, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
 import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
 import { buildHouseHistorianUrl } from "./sources/houseHistorian.js";
 import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
-import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
+import { extractPlatformFromSite, extractPlatformFromBallotpedia } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
 import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia, extractBioSummaryFromBallotpedia } from "./sources/campaignBioSummary.js";
 import { findBallotpediaUrl } from "./sources/ballotpedia.js";
@@ -413,6 +413,16 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // a short window.
       const bio: Record<string, unknown> = { ...(prevCand?.bio ?? {}) };
       const stillMissing = () => EXTRACTABLE_FIELDS.some((f) => !bio[f] && !curatedBio[f]);
+      // Used by both the platform and bio_summary waterfalls below as the
+      // expectedContext/race-search-query for a Ballotpedia fallback —
+      // hoisted here (rather than declared once, right before its
+      // original bio_summary use) since platform now needs it too.
+      const raceDescription =
+        opts.office === "H"
+          ? opts.district === "00"
+            ? `${opts.state} At-Large Congressional District election, 2026`
+            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
+          : `${opts.state} U.S. Senate election, 2026`;
       // Platform is one of the two fact types that can genuinely go stale
       // (see resolveWithRefresh above) — "already resolved" here means
       // resolved AND not yet due for a recheck, not just present.
@@ -596,7 +606,32 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
           prevPlatform,
           prevCand?._platform_resolved_at,
           c.candidateId,
-          () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+          async () => {
+            const fromCampaignSite = campaignSiteUrl
+              ? await extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromCampaignSite) return fromCampaignSite;
+
+            // Sitting members have an official .gov site -- free from
+            // congress.gov (no new credential), fetched lazily here since
+            // most candidates never reach this branch. house.gov sites
+            // have no known wall (proven manually this project: Kennedy,
+            // Budzinski, both curated from a real .gov /issues page).
+            // senate.gov sites can sit behind their own WAF (confirmed:
+            // Warner's is Akamai-blocked even to a real browser) -- that
+            // just fails cleanly below and falls through to Ballotpedia,
+            // no chamber-specific branching needed.
+            if (matchedMember) {
+              const official = await getMember(matchedMember.bioguideId).catch(() => null);
+              const fromOfficialSite = official?.officialWebsiteUrl
+                ? await extractPlatformFromSite(c.name, official.officialWebsiteUrl, expectedContext).catch(() => null)
+                : null;
+              if (fromOfficialSite) return fromOfficialSite;
+            }
+
+            const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
+            return ballotpediaUrl ? extractPlatformFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
+          }
         );
         platform = resolved.value;
         platformResolvedAt = resolved.resolvedAt;
@@ -687,12 +722,8 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // than giving up. sourceType on the result tells the frontend which
       // one it is, so the label can say so rather than implying every
       // entry here is in the candidate's own words.
-      const raceDescription =
-        opts.office === "H"
-          ? opts.district === "00"
-            ? `${opts.state} At-Large Congressional District election, 2026`
-            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
-          : `${opts.state} U.S. Senate election, 2026`;
+      // (raceDescription itself is computed earlier, above the platform
+      // waterfall, since that now needs it too -- see there.)
       // Same curated-always-wins protection as platform_video above.
       let bioSummary: { summary: string; sourceUrl: string; sourceType: string } | null = null;
       let bioSummaryResolvedAt: string | undefined = undefined;
@@ -756,6 +787,26 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
           getIdeologyScore(matchedMember.bioguideId, opts.congress).catch(() => null),
           getBridgeScore(matchedMember.bioguideId, "S").catch(() => null),
         ]);
+      }
+
+      // Every roll-call fetch above swallows its own failure with
+      // `.catch(() => [])`, which makes a transient Clerk/LIS outage
+      // indistinguishable from "this member genuinely has no recent
+      // votes" -- and unlike bio/platform/video, recent_votes has no
+      // resolveWithRefresh seeding, so the empty array wins and the
+      // member's ENTIRE voting record silently disappears from the
+      // published data. Confirmed real (2026-09-02): a single 82-race
+      // rebuild zeroed recent_votes for 12 sitting members at once --
+      // Meeks, Meng, Torres, McClain, Gottheimer, Menendez, Dexter,
+      // Cline, Capito, Lofgren, Barragan, Correa -- with nothing logged;
+      // re-querying the same source moments later returned all 5 votes
+      // for each, proving it was transient, not real. Same failure class
+      // as the Wyoming bio-wipe that motivated prevCand seeding
+      // everywhere else. Only an EMPTY result falls back: a real,
+      // non-empty response always wins, so genuinely fresh votes still
+      // replace stale ones on every build.
+      if (!recentVotes.length && prevCand?.recent_votes?.length) {
+        recentVotes = prevCand.recent_votes;
       }
 
       return {
@@ -874,6 +925,19 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
     const slug = slugify(m.full_name);
     if (candidates.some((c) => c.slug === slug)) continue; // already present via FEC — stale override entry, skip rather than duplicate
     const curatedEntry = curated[slug] ?? null;
+    // Seeded from the previous build for exactly the same reason every
+    // FEC-driven candidate above is (see the `bio` seeding comment): these
+    // entries were previously rebuilt FRESH every time, so any data a
+    // later enrichment pass found for them -- a platform extracted from
+    // their real campaign site, a bio summary, a video -- was silently
+    // reset to whatever curated/ happened to hold, on the very next
+    // rebuild of that race. Confirmed real (2026-09-02): Bobby Wilson
+    // (AR-3) lost a live 6-position platform AND his bio_summary this
+    // way, since neither had been written back to a curated YAML.
+    // curated still wins where it exists; prevCand only fills what
+    // curated doesn't specify, so a hand-verified override is never
+    // overwritten by stale published data.
+    const prevMissing = previousCandidates.find((p) => p.slug === slug);
     candidates.push({
       slug,
       full_name: m.full_name,
@@ -883,21 +947,21 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       fec_status: null,
       bioguide_id: null,
       financials: null,
-      bio: {},
-      platform: curatedEntry?.platform ?? [],
-      platform_source_url: curatedEntry?.platform_source_url ?? null,
-      _platform_resolved_at: null,
-      campaign_site_url: m.campaign_site_url ?? null,
-      _campaign_site_reachability: null,
-      _campaign_site_discovered_at: null,
-      platform_video_url: curatedEntry?.platform_video?.video_url ?? null,
-      platform_video_title: curatedEntry?.platform_video?.video_title ?? null,
-      platform_video_source_url: curatedEntry?.platform_video?.source_url ?? null,
-      platform_video_tier: null,
-      platform_video_source_type: curatedEntry?.platform_video?.source_type ?? null,
-      _platform_video_resolved_at: null,
-      bio_summary: curatedEntry?.bio_summary ?? null,
-      _bio_summary_resolved_at: null,
+      bio: prevMissing?.bio ?? {},
+      platform: curatedEntry?.platform ?? prevMissing?.platform ?? [],
+      platform_source_url: curatedEntry?.platform_source_url ?? prevMissing?.platform_source_url ?? null,
+      _platform_resolved_at: prevMissing?._platform_resolved_at ?? null,
+      campaign_site_url: m.campaign_site_url ?? prevMissing?.campaign_site_url ?? null,
+      _campaign_site_reachability: prevMissing?._campaign_site_reachability ?? null,
+      _campaign_site_discovered_at: prevMissing?._campaign_site_discovered_at ?? null,
+      platform_video_url: curatedEntry?.platform_video?.video_url ?? prevMissing?.platform_video_url ?? null,
+      platform_video_title: curatedEntry?.platform_video?.video_title ?? prevMissing?.platform_video_title ?? null,
+      platform_video_source_url: curatedEntry?.platform_video?.source_url ?? prevMissing?.platform_video_source_url ?? null,
+      platform_video_tier: prevMissing?.platform_video_tier ?? null,
+      platform_video_source_type: curatedEntry?.platform_video?.source_type ?? prevMissing?.platform_video_source_type ?? null,
+      _platform_video_resolved_at: prevMissing?._platform_video_resolved_at ?? null,
+      bio_summary: curatedEntry?.bio_summary ?? prevMissing?.bio_summary ?? null,
+      _bio_summary_resolved_at: prevMissing?._bio_summary_resolved_at ?? null,
       financial_disclosure: null,
       _financial_disclosure_resolved_at: null,
       recent_votes: [],
