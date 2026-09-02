@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-40",
-  "generated_at": "2026-08-21T13:17:06.232Z",
+  "generated_at": "2026-09-02T12:35:56.386Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -591,14 +601,18 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://calvertforcongress.com/",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=mIVaM4u5oHs",
+      "platform_video_title": "Rep. Calvert: The FY25 Defense Appropriations Bill Funds Our National Security Priorities",
+      "platform_video_source_url": "https://ballotpedia.org/Ken_Calvert",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T12:34:56.525Z",
       "bio_summary": {
         "value": "Ken Calvert is a lifelong resident of Corona in the newly drawn 40th Congressional District. Other cities in the district include Lake Elsinore, Wildomar, Canyon Lake, Menifee, Murrieta, Orange, Mission Viejo, Rancho Santa Margarita, Villa Park and Anaheim Hills.",
-        "source_url": "https://calvertforcongress.com/"
+        "source_url": "https://calvertforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T13:16:41.866Z",
       "financial_disclosure": null,
@@ -624,7 +638,7 @@
           }
         ],
         "bills_sponsored": 286,
-        "bills_cosponsored": 5219,
+        "bills_cosponsored": 5223,
         "bills_became_law": 12,
         "enacted_laws": [
           {
@@ -744,13 +758,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 66.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 55.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C000059"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "young-kim",
@@ -828,14 +841,18 @@
       "platform_source_url": "https://youngkimforcongress.com/",
       "_platform_resolved_at": "2026-08-15T11:48:45.988Z",
       "campaign_site_url": "https://www.youngkimforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Young Kim is running for Congress because California needs proven fighters who will stand with President Trump to advance a bold America First agenda that restores law and order in our communities, locks down the border, strengthens our national security, and protects the American Dream for future generations.",
-        "source_url": "https://youngkimforcongress.com/"
+        "source_url": "https://youngkimforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:03.206Z",
       "financial_disclosure": null,
@@ -881,7 +898,7 @@
           }
         ],
         "bills_sponsored": 112,
-        "bills_cosponsored": 1084,
+        "bills_cosponsored": 1091,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -911,13 +928,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 99.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 98.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/K000397"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

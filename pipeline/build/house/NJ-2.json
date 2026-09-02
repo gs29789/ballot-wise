@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-17T01:35:06.918Z",
+  "generated_at": "2026-09-02T10:41:30.321Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4357.6
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4387.1
+        "thousandsOfJobs": 4383.2
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5167678412.51,
-        "perCapitaUsd": 6715.53
+        "totalUsd": 5167704201.81,
+        "perCapitaUsd": 6715.56
       }
     ],
     "population": [
@@ -552,6 +562,21 @@
       ],
       "platform_source_url": "https://www.southjerseygrit.com/",
       "_platform_resolved_at": "2026-09-01T13:17:44.784Z",
+      "campaign_site_url": "https://www.southjerseygrit.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T11:06:49.580Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "South Jersey Born and Raised. Lived my 31 years in different parts of South Jersey. I am running for something bigger than myself. I am running for change. For hope. I came from a section 8 neighborhood as a child and I was often dismissed of opportunity or told I would be a bad influence. I am running as an underdog and to be an inspiration to those who like myself come from an unhoused or poor past riddled with obstacles. My life was paused for many years because of a serious back injury and now that I am on the tail-end of my recovery, I can no longer sit by as I see the district I love neglected by corporate democrats and by republican representatives.",
+        "source_url": "https://ballotpedia.org/Ramon_Mora_Jr.",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:00:10.409Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/40004952.pdf",
         "filingDate": "5/4/2026",
@@ -566,16 +591,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:17.578Z",
-      "bio_summary": {
-        "value": "South Jersey Born and Raised. Lived my 31 years in different parts of South Jersey. I am running for something bigger than myself. I am running for change. For hope. I came from a section 8 neighborhood as a child and I was often dismissed of opportunity or told I would be a bad influence. I am running as an underdog and to be an inspiration to those who like myself come from an unhoused or poor past riddled with obstacles. My life was paused for many years because of a serious back injury and now that I am on the tail-end of my recovery, I can no longer sit by as I see the district I love neglected by corporate democrats and by republican representatives.",
-        "source_url": "https://ballotpedia.org/Ramon_Mora_Jr.",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T12:00:10.409Z",
-      "campaign_site_url": "https://www.southjerseygrit.com/",
-      "_campaign_site_discovered_at": "2026-09-01T11:06:49.580Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:20.234Z"
     },
     {
       "slug": "zack-mullock",
@@ -628,6 +644,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://mullockforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T11:07:16.288Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=wwvb882R5e0",
+      "platform_video_title": "Mullock for Congress Launch Video",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-23T12:00:17.905Z",
+      "bio_summary": {
+        "value": "I am a lifelong resident of South Jersey I earned a Bachelor’s degree from Mount St. Mary’s University, where I was class president and a student athlete. I went on to earn an MBA from Saint Joseph’s University. I have been on the Cape May City Council for eight years, Mayor for six, elected three times. I have not raised taxes in the last seven years and we have built a new library and Fire House and we are in the process of building a new Police Station and upgrading our Lifeguard Headquarters to increase space for female lifeguards. Outside of being Mayor I helped found and build the Harriet Tubman Museum and the Cape May Point Arts and Science Center. ",
+        "source_url": "https://ballotpedia.org/Zack_Mullock",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:00:31.087Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074520.pdf",
         "filingDate": "5/9/2026",
@@ -641,22 +672,7 @@
       "_financial_disclosure_resolved_at": "2026-08-12T19:49:07.559Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:17.905Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=wwvb882R5e0",
-      "platform_video_title": "Mullock for Congress Launch Video",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-23T12:00:17.905Z",
-      "bio_summary": {
-        "value": "I am a lifelong resident of South Jersey I earned a Bachelor’s degree from Mount St. Mary’s University, where I was class president and a student athlete. I went on to earn an MBA from Saint Joseph’s University. I have been on the Cape May City Council for eight years, Mayor for six, elected three times. I have not raised taxes in the last seven years and we have built a new library and Fire House and we are in the process of building a new Police Station and upgrading our Lifeguard Headquarters to increase space for female lifeguards. Outside of being Mayor I helped found and build the Harriet Tubman Museum and the Cape May Point Arts and Science Center. ",
-        "source_url": "https://ballotpedia.org/Zack_Mullock",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T12:00:31.087Z",
-      "campaign_site_url": "https://mullockforcongress.com/",
-      "_campaign_site_discovered_at": "2026-09-01T11:07:16.288Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "jeff-van-drew",
@@ -700,11 +716,32 @@
           "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
           "snippet": "Van Drew operated a dental practice in South Jersey for 30 years before retiring.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Dennis Township Fire Commissioner from 1983 to 1986",
+          "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
+          "snippet": "He was a Dennis Township Fire Commissioner from 1983 to 1986.",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.vandrewforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:33.908Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Jefferson H. Van Drew [ 1 ] (born February 23, 1953) [ 2 ] is an American politician serving as the U.S. representative for New Jersey's 2nd congressional district since 2019. He was first elected as a Democrat and later switched to the Republican Party in 2020. Before being elected to Congress, Van Drew held several public offices, including fire commissioner, township committee member, Mayor of Dennis Township, New Jersey , and Cape May County Freeholder . He represented New Jersey's 1st legislative district in the New Jersey General Assembly from 2002 to 2008, and represented the same district in the New Jersey Senate from 2008 to 2018. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:41:35.275Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116169.pdf",
         "filingDate": "5/14/2026",
@@ -757,7 +794,7 @@
           }
         ],
         "bills_sponsored": 170,
-        "bills_cosponsored": 2120,
+        "bills_cosponsored": 2124,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -787,22 +824,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 88.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 86.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/V000133"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:18.346Z",
-      "bio_summary": {
-        "value": "Jefferson H. Van Drew [ 1 ] (born February 23, 1953) [ 2 ] is an American politician serving as the U.S. representative for New Jersey's 2nd congressional district since 2019. He was first elected as a Democrat and later switched to the Republican Party in 2020. Before being elected to Congress, Van Drew held several public offices, including fire commissioner, township committee member, Mayor of Dennis Township, New Jersey , and Cape May County Freeholder . He represented New Jersey's 1st legislative district in the New Jersey General Assembly from 2002 to 2008, and represented the same district in the New Jersey Senate from 2008 to 2018. ",
-        "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:41:35.275Z",
-      "campaign_site_url": "https://www.vandrewforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T12:27:33.908Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:20.758Z"
     }
   ]
 }

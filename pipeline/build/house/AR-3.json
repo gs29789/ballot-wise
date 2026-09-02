@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-09-01T01:46:39.270Z",
+  "generated_at": "2026-09-02T13:10:49.456Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
@@ -493,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 6051005462.56,
-        "perCapitaUsd": 8031.93
+        "totalUsd": 6051099811.56,
+        "perCapitaUsd": 8032.05
       }
     ],
     "population": [
@@ -671,18 +671,39 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Budget and Spending",
+          "value": "Committed to cut spending and make necessary reforms to put the budget on a sustainable path",
+          "snippet": "I made a commitment to the people of the Third District of Arkansas to cut spending and to make the necessary reforms to put our budget on a sustainable path."
+        },
+        {
+          "topic": "Balanced Budget Amendment",
+          "value": "Voted for a balanced budget amendment to the Constitution",
+          "snippet": "I have voted for a balanced budget amendment to the Constitution."
+        },
+        {
+          "topic": "Balanced Budgets",
+          "value": "Voted for budgets that actually balance",
+          "snippet": "I have voted for budgets that actually balance."
+        },
+        {
+          "topic": "Discretionary Spending",
+          "value": "Worked to closely evaluate and reduce discretionary spending as a member of the House Appropriations Committee",
+          "snippet": "as a member of the House Appropriations Committee, I have worked closely with my colleagues on the committee to closely evaluate – and reduce – discretionary spending."
+        }
+      ],
+      "platform_source_url": "https://womack.house.gov/issues/issue/?IssueID=57332",
+      "_platform_resolved_at": "2026-09-02T13:10:34.228Z",
       "campaign_site_url": "https://womackforcongress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T23:56:48.572Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=6KOZD_9FPlk",
+      "platform_video_title": "Womack's Comment from the Capitol: July 23, 2026",
+      "platform_video_source_url": "https://womack.house.gov/issues/issue/?IssueID=57332",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T13:10:36.177Z",
       "bio_summary": {
         "value": "U.S. Representative Steve Womack was elected to represent Arkansas’s Third Congressional District in 2010. He is a senior member of the House Appropriations Committee, where he serves as Chairman of the Transportation, Housing and Urban Development (THUD) Subcommittee and sits on the Defense and the Financial Services and General Government (FSGG) Subcommittees. He is also the former Chairman of the House Budget Committee. Prior to his election to Congress, Representative Womack served as the Mayor of Rogers, Arkansas, for twelve years and in the Arkansas Army National Guard for over thirty years, retiring at the rank of Colonel.",
         "source_url": "https://www.womackforcongress.com/about",
@@ -693,61 +714,61 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
         {
-          "rollNumber": 285,
+          "rollNumber": 292,
           "year": 2026,
-          "question": "On Motion to Suspend the Rules and Pass",
-          "billTitle": "Local Access to Courts Act",
-          "date": "31-Aug-2026",
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll285.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 284,
-          "year": 2026,
-          "question": "On Motion to Suspend the Rules and Pass",
-          "billTitle": "Prison Staff Safety Enhancement Act",
-          "date": "31-Aug-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll284.xml"
-        },
-        {
-          "rollNumber": 283,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 282,
+          "rollNumber": 290,
           "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
         },
         {
-          "rollNumber": 281,
+          "rollNumber": 289,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 285,
-          "votesCast": 267,
-          "attendanceRate": 0.9368421052631579
+          "votesInSession": 198,
+          "votesCast": 180,
+          "attendanceRate": 0.9090909090909091
         },
         "committees": [
           {
@@ -772,7 +793,7 @@
           }
         ],
         "bills_sponsored": 63,
-        "bills_cosponsored": 1164,
+        "bills_cosponsored": 1165,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -793,13 +814,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 41.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 36,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000809"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:08.493Z"
+      "_curated_match": false
     },
     {
       "slug": "bobby-wilson",
@@ -864,8 +884,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:08.860Z"
+      "_curated_match": false
     }
   ]
 }

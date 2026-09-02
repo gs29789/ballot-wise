@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-18T20:12:21.414Z",
+  "generated_at": "2026-09-02T10:27:09.276Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1730.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1726.5
+        "thousandsOfJobs": 1727.7
       },
       {
         "year": "2026",
@@ -478,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 8120289750.97,
-        "perCapitaUsd": 11287.88
+        "totalUsd": 8122407278.97,
+        "perCapitaUsd": 11290.83
       },
       {
         "year": "2025",
-        "totalUsd": 10232653302.62,
-        "perCapitaUsd": 14224.25
+        "totalUsd": 10232830635.62,
+        "perCapitaUsd": 14224.49
       }
     ],
     "population": [
@@ -546,10 +556,17 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078157.pdf",
         "filingDate": "5/14/2026",
@@ -564,10 +581,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:45.274Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:14.357Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:16.607Z"
     },
     {
       "slug": "michael-goldstein",
@@ -641,25 +655,26 @@
       ],
       "platform_source_url": "https://goldsteinforcongress.com/",
       "_platform_resolved_at": "2026-08-17T00:56:58.581Z",
+      "campaign_site_url": "https://goldsteinforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T20:01:38.658Z",
       "platform_video_url": "https://www.youtube.com/watch?v=N82dq1S26mU",
       "platform_video_title": "Michael Goldstein for Congress 2024 4th District CT",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-22T12:00:45.601Z",
+      "bio_summary": {
+        "value": "Doctor. Lawyer. Father. Fighter. 🗳️ Vote November 3 Early Voting Early Voting October 19 – November 1 Includes Weekends Accountability. Access. Opportunity. Join the Fight Where I Stand Donate Why Me? Why Now? The Doctor Healthcare costs are crushing Connecticut families — and I've spent 30 years watching it happen from the inside. The reason is simple: government over-regulation has destroyed competition in medicine. When bureaucrats control the market, prices go up. When competition disappears, patients pay more for less. I've watched prescription drug prices climb 300% while manufacturing costs dropped. I've watched insurance premiums double while coverage shrank. I've fought pharmaceutical middlemen, insurance denials, and an FDA that lets patients die waiting for treatments that already exist. I put myself through medical school. I became a surgeon.",
+        "source_url": "https://goldsteinforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:20.624Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "bio_summary": {
-        "value": "Doctor. Lawyer. Father. Fighter. 🗳️ Vote November 3 Early Voting Early Voting October 19 – November 1 Includes Weekends Accountability. Access. Opportunity. Join the Fight Where I Stand Donate Why Me? Why Now? The Doctor Healthcare costs are crushing Connecticut families — and I've spent 30 years watching it happen from the inside. The reason is simple: government over-regulation has destroyed competition in medicine. When bureaucrats control the market, prices go up. When competition disappears, patients pay more for less. I've watched prescription drug prices climb 300% while manufacturing costs dropped. I've watched insurance premiums double while coverage shrank. I've fought pharmaceutical middlemen, insurance denials, and an FDA that lets patients die waiting for treatments that already exist. I put myself through medical school. I became a surgeon.",
-        "source_url": "https://goldsteinforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:48:20.624Z",
-      "_tier2_search_attempted_at": "2026-08-22T12:00:45.601Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://goldsteinforcongress.com/",
-      "_campaign_site_discovered_at": "2026-09-01T20:01:38.658Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "jim-himes",
@@ -726,10 +741,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "http://www.himesforcongress.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z",
       "platform_video_url": "https://www.youtube.com/watch?v=2chLwHMBvIg",
       "platform_video_title": "Re Elect Jim Himes Democrat for Congress",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-22T12:00:45.974Z",
+      "bio_summary": {
+        "value": "James Andrew Himes (born July 5, 1966) is an American businessman and politician serving as the U.S. representative for Connecticut's 4th congressional district since 2009. Himes is a member of the Democratic Party . Himes's district includes most of the southwest corner of the state and is largely coextensive with the Connecticut side of the New York metropolitan area . It includes parts of Fairfield County and New Haven County , including the cities of Bridgeport , Norwalk , Fairfield and Stamford . Himes is the ranking member of the House Permanent Select Committee on Intelligence, and a member of the House Financial Services Committee . ",
+        "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:23:11.208Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -747,8 +773,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 111,
-        "bills_cosponsored": 2547,
+        "bills_sponsored": 113,
+        "bills_cosponsored": 2548,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -778,23 +804,12 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 9,
-          "snapshotDate": "June 30, 2026",
+          "score": 10.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001047"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:45.974Z",
-      "platform_video_tier": 2,
-      "bio_summary": {
-        "value": "James Andrew Himes (born July 5, 1966) is an American businessman and politician serving as the U.S. representative for Connecticut's 4th congressional district since 2009. Himes is a member of the Democratic Party . Himes's district includes most of the southwest corner of the state and is largely coextensive with the Connecticut side of the New York metropolitan area . It includes parts of Fairfield County and New Haven County , including the cities of Bridgeport , Norwalk , Fairfield and Stamford . Himes is the ranking member of the House Permanent Select Committee on Intelligence, and a member of the House Financial Services Committee . ",
-        "source_url": "https://en.wikipedia.org/wiki/Jim_Himes",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:23:11.208Z",
-      "campaign_site_url": "http://www.himesforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:58.406Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-17T16:29:53.414Z",
+  "generated_at": "2026-09-02T11:18:34.435Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
@@ -27,8 +27,13 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "June",
+        "month": "July",
         "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
       },
       {
         "year": "2026",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4232.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4243.7
+        "thousandsOfJobs": 4241.8
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 27347828953.67,
+        "totalUsd": 27347830991.73,
         "perCapitaUsd": 35499.51
       },
       {
         "year": "2024",
-        "totalUsd": 31113969646.71,
-        "perCapitaUsd": 40388.24
+        "totalUsd": 31105266281.06,
+        "perCapitaUsd": 40376.94
       },
       {
         "year": "2025",
-        "totalUsd": 31989530092.32,
-        "perCapitaUsd": 41524.78
+        "totalUsd": 31998933670.29,
+        "perCapitaUsd": 41536.99
       }
     ],
     "population": [
@@ -550,21 +560,25 @@
           "source_url": "https://www.ballotready.org/people/bert-mizusawa",
           "snippet": "Professional Experience Paxcentric Inc., President (2021 - Present) Central Intelligence Agency, Senior Advisor (2020 - 2021) US Army, Major General (1979 - 2015)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, United States Military Academy at West Point (1979); JD, Harvard University (1979)",
+          "source_url": "https://www.ballotready.org/people/bert-mizusawa",
+          "snippet": "Degrees JD, Harvard University (1979) Bachelor's, United States Military Academy at West Point (1979)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:35.072Z",
+      "campaign_site_url": "https://bertforsenate.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:33.686Z",
       "platform_video_url": "https://www.youtube.com/watch?v=jFvL4KYtmxo",
       "platform_video_title": "Bert Mizusawa joins the Schilling Show to Discuss his Campaign",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:35.072Z",
       "bio_summary": {
         "value": "Bert Mizusawa served in the U.S. Army from 1979 to 2016, retiring as a major general. He earned a high school diploma from Kecoughtan High School. He earned a bachelor's degree from the U.S. Military Academy, West Point, in 1979, a master's degree in public policy from the Harvard Kennedy School, and a law degree from Harvard Law School in 1989. His career experience includes serving as the Deputy Under Secretary of the Army and a senior advisor to the Director of the Central Intelligence Agency. He also worked for the Chairman of the Senate Armed Services Committee.",
@@ -572,9 +586,11 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:52:38.339Z",
-      "campaign_site_url": "https://bertforsenate.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:33.686Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "mark-moran",
@@ -596,19 +612,27 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://runwithmoran.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:21.691Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mark Moran — Wall Street. HBO Max. Went Viral. Now Fixing Virginia.",
+        "source_url": "https://runwithmoran.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:15.492Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Mark Moran — Wall Street. HBO Max. Went Viral. Now Fixing Virginia.",
-        "source_url": "https://runwithmoran.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:00:15.492Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:35.349Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T23:03:21.691Z"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:27.613Z"
     },
     {
       "slug": "mark-warner",
@@ -657,6 +681,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.markwarnerva.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-09-01T21:05:40.393Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mark Robert Warner (born December 15, 1954) is an American businessman and politician serving as the senior United States senator from Virginia , a seat he has held since 2009. A member of the Democratic Party , Warner served as the 69th governor of Virginia from 2002 to 2006. He is vice chair of the Senate Democratic Caucus and vice chair of the Senate Intelligence Committee . Warner was widely expected to pursue the Democratic nomination in the 2008 United States presidential election , but he announced in October 2006 that he would not run, citing a desire not to disrupt his family life. ",
+        "source_url": "https://en.wikipedia.org/wiki/Mark_Warner",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:49:31.450Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -718,9 +757,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 220,
-          "votesCast": 199,
-          "attendanceRate": 0.9045454545454545
+          "votesInSession": 221,
+          "votesCast": 200,
+          "attendanceRate": 0.9049773755656109
         },
         "committees": [
           {
@@ -846,22 +885,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 38.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 48.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000805"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:35.656Z",
-      "bio_summary": {
-        "value": "Mark Robert Warner (born December 15, 1954) is an American businessman and politician serving as the senior United States senator from Virginia , a seat he has held since 2009. A member of the Democratic Party , Warner served as the 69th governor of Virginia from 2002 to 2006. He is vice chair of the Senate Democratic Caucus and vice chair of the Senate Intelligence Committee . Warner was widely expected to pursue the Democratic nomination in the 2008 United States presidential election , but he announced in October 2006 that he would not run, citing a desire not to disrupt his family life. ",
-        "source_url": "https://en.wikipedia.org/wiki/Mark_Warner",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:49:31.450Z",
-      "campaign_site_url": "https://markwarnerva.com/",
-      "_campaign_site_discovered_at": "2026-09-01T21:05:40.393Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:28.098Z"
     }
   ]
 }

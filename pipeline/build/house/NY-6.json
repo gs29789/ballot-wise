@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-21T12:07:09.182Z",
+  "generated_at": "2026-09-02T12:54:59.794Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 9992.8
+        "thousandsOfJobs": 9982.6
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -579,79 +589,113 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Women's Rights and Reproductive Care",
+          "value": "Grace is a strong advocate for women's constitutional right to make decisions about their own body and for access to reproductive care, from abortion to contraception to in vitro fertilization (IVF). She is a Task Force Lead on the Pro-Choice Caucus.",
+          "snippet": "In a moment where our freedom to access reproductive care, from abortion to contraception to in vitro fertilization (IVF), is under attack, Grace is a strong advocate for our rights. She has never been afraid to stand up to Republicans and far-right special interest groups who continue to gut healthcare services vital to women and restrict access to reproductive care. Grace is also a Task Force Lead on the Pro-Choice Caucus."
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Grace is committed to protecting Social Security and Medicare and will continue to oppose any and all efforts to undermine Social Security and Medicare.",
+          "snippet": "Social Security and Medicare are some of the most important social safety nets in our country, and Grace is committed to protecting these vital programs. Social Security has helped provide millions of seniors with reliable monthly income and allowed them to enjoy a dignified retirement after decades of working and helping grow our economy. She will continue to oppose any and all efforts to undermine Social Security and Medicare."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Grace is a founding member of the Medicare for All Congressional Caucus and is a proud original cosponsor of the Medicare for All Act of 2019, which would expand the Medicare program to ensure every American has access to health care with comprehensive benefits.",
+          "snippet": "Grace is a founding member of the Medicare for All Congressional Caucus and is a proud original cosponsor of the Medicare for All Act of 2019. This life-saving legislation would expand the Medicare program to ensure every American has access to health care with comprehensive benefits. It would reduce our spending on health care while improving patient care."
+        },
+        {
+          "topic": "Housing",
+          "value": "Grace has introduced the Pathway to Stable and Affordable Housing for All Act which would effectively end homelessness and housing poverty. She has also introduced the Housing is a Human Right Act which would authorize $300 billion over the next decade for crucial housing infrastructure.",
+          "snippet": "Grace has introduced the Pathway to Stable and Affordable Housing for All Act which would effectively end homelessness and housing poverty. In addition to this bold effort, Grace has also introduced the Housing is a Human Right Act which would authorize $300 billion over the next decade for crucial housing infrastructure that would help families in Queens."
+        }
+      ],
+      "platform_source_url": "https://www.gracefornewyork.com/issues",
+      "_platform_resolved_at": "2026-09-02T12:54:36.998Z",
       "campaign_site_url": "https://www.gracefornewyork.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "As the daughter of immigrants and the mom of two young kids, I'm fighting to make sure Queens’ working and middle-class families like mine have access to affordable healthcare, good jobs, and schools safe from the threat of gun violence.",
-        "source_url": "https://www.gracefornewyork.com/"
+        "source_url": "https://www.gracefornewyork.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:06:55.503Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075835.pdf",
+        "filingDate": "6/22/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T12:54:55.198Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 246,
-          "votesCast": 226,
-          "attendanceRate": 0.9186991869918699
+          "votesInSession": 292,
+          "votesCast": 272,
+          "attendanceRate": 0.9315068493150684
         },
         "committees": [
           {
@@ -671,7 +715,7 @@
           }
         ],
         "bills_sponsored": 320,
-        "bills_cosponsored": 3635,
+        "bills_cosponsored": 3639,
         "bills_became_law": 3,
         "enacted_laws": [
           {
@@ -710,14 +754,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 71.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 67.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001188"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:09.646Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

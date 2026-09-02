@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-18T20:32:46.540Z",
+  "generated_at": "2026-09-02T11:36:32.615Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3014.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3000.9
+        "thousandsOfJobs": 3006.8
       },
       {
         "year": "2026",
@@ -473,8 +483,8 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 25816923342.32,
-        "perCapitaUsd": 33889.15
+        "totalUsd": 25816908232.68,
+        "perCapitaUsd": 33889.13
       },
       {
         "year": "2024",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 32080677596.88,
-        "perCapitaUsd": 42111.4
+        "totalUsd": 32080506539.88,
+        "perCapitaUsd": 42111.18
       }
     ],
     "population": [
@@ -551,19 +561,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.911Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:28.152Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:55:39.951Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T01:20:51.911Z"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:31.243Z"
     },
     {
       "slug": "ann-wagner",
@@ -621,18 +635,110 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Supports banning Congressional stock trading because Members of Congress should not abuse the public trust by trading stocks and making money off potential insider information they only have because of their jobs",
+          "snippet": "Members of Congress should not abuse the public trust by trading stocks and making money off potential insider information they only have because of their jobs."
+        },
+        {
+          "topic": "Russia and Iran Sanctions",
+          "value": "Supports sanctioning Russia and Iran through the Lindsey O. Graham Sanctioning Russia and Iran Act of 2026",
+          "snippet": "Congresswoman Ann Wagner (R-Missouri) and House Foreign Affairs Committee Chairman Emeritus Michael McCaul (R-Texas) introduced the bipartisan Lindsey O. Graham Sanctioning Russia and Iran Act of 2026"
+        },
+        {
+          "topic": "National Defense",
+          "value": "Supports advancing peace through strength and investing in Missouri-made defense production through the National Defense Authorization Act",
+          "snippet": "Congresswoman Ann Wagner (R-MO) released the following statement after she voted for H.R. 8800, the National Defense Authorization Act for Fiscal Year 2027"
+        },
+        {
+          "topic": "Fraud Prevention",
+          "value": "Supports fraud prevention legislation through the Financial Exploitation Prevention Act",
+          "snippet": "Congresswoman Ann Wagner (R-MO), released the following statement after her Financial Exploitation Prevention Act passed the U.S. House"
+        },
+        {
+          "topic": "Housing",
+          "value": "Supports the 21st Century ROAD to Housing Act",
+          "snippet": "Congresswoman Ann Wagner (R-MO), Chair of the Financial Services Subcommittee on Capital Markets, released the following statement after she voted for the 21st Century ROAD to Housing Act"
+        }
+      ],
+      "platform_source_url": "https://wagner.house.gov/",
+      "_platform_resolved_at": "2026-09-02T11:36:13.936Z",
+      "campaign_site_url": "https://www.annwagner.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.920Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Born and raised in Missouri, Ann Wagner understands our conservative Christian family values. Ann is the conservative fighter with a proven track record of getting things done in Washington. Ann and her husband, Ray, are blessed with three children, two daughters-in-law and two grandchildren.",
+        "source_url": "https://annwagner.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:24.571Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 238,
+          "votesCast": 229,
+          "attendanceRate": 0.9621848739495799
+        },
         "committees": [
           {
             "committee": "House Permanent Select Committee on Intelligence",
@@ -666,8 +772,8 @@
           }
         ],
         "bills_sponsored": 136,
-        "bills_cosponsored": 1626,
-        "bills_became_law": 0,
+        "bills_cosponsored": 1630,
+        "bills_became_law": 7,
         "enacted_laws": [
           {
             "title": "Taiwan Assurance Implementation Act",
@@ -741,21 +847,13 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 76.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 76.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000812"
         }
       },
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Born and raised in Missouri, Ann Wagner understands our conservative Christian family values. Ann is the conservative fighter with a proven track record of getting things done in Washington. Ann and her husband, Ray, are blessed with three children, two daughters-in-law and two grandchildren.",
-        "source_url": "https://annwagner.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:04:24.571Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:28.665Z",
-      "campaign_site_url": "https://www.annwagner.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:20:51.920Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:31.765Z"
     },
     {
       "slug": "frederick-wellman",
@@ -828,26 +926,26 @@
       ],
       "platform_source_url": "https://www.wellmanformo.com/",
       "_platform_resolved_at": "2026-08-14T13:56:15.296Z",
+      "campaign_site_url": "https://www.wellmanformo.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:51.937Z",
       "platform_video_url": "https://www.youtube.com/watch?v=ANMHhI6NcaA",
       "platform_video_title": "First glimpse at battle lines being drawn in November showdown between Fred Wellman and Ann Wagner",
       "platform_video_source_url": "https://www.wellmanformo.com/press-center",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-09-01T13:26:36.514Z",
+      "bio_summary": {
+        "value": "Fred Wellman has spent his life answering the call to serve. Inspired by generations of military service in his family, Fred graduated from West Point, became an Army aviator, and served during Desert Storm before completing three tours in Iraq. His life has also been shaped by profound personal loss. After his wife was killed in a car accident while seven months pregnant, Fred rebuilt his life through service. He fought for veterans, helped lead a COVID field hospital, organized aid for refugees, and continued finding ways to give back to the communities that shaped him.",
+        "source_url": "https://www.wellmanformo.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:27.238Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Fred Wellman has spent his life answering the call to serve. Inspired by generations of military service in his family, Fred graduated from West Point, became an Army aviator, and served during Desert Storm before completing three tours in Iraq. His life has also been shaped by profound personal loss. After his wife was killed in a car accident while seven months pregnant, Fred rebuilt his life through service. He fought for veterans, helped lead a COVID field hospital, organized aid for refugees, and continued finding ways to give back to the communities that shaped him.",
-        "source_url": "https://www.wellmanformo.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:04:27.238Z",
-      "platform_video_tier": 1,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:29.007Z",
-      "campaign_site_url": "https://www.wellmanformo.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:20:51.937Z",
-      "_campaign_site_reachability": "reachable",
-      "platform_video_source_type": "campaign_site"
+      "_curated_match": false
     }
   ]
 }

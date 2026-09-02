@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-14T13:00:33.423Z",
+  "generated_at": "2026-09-02T11:21:57.384Z",
   "election_dates": {
     "primaryDate": "2026-05-12",
     "primarySourceUrl": "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-5-1/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/constitution/west-virginia/",
     "snippet": "W. Va. Const. Art. IV, § 4-4: \"No person, except citizens entitled to vote, shall be elected or appointed to any state, county or municipal office...\" § 4-1: \"...no person who is a minor, or who has been declared mentally incompetent by a court of competent jurisdiction, or who is under conviction of treason, felony or bribery in an election... shall be permitted to vote...\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/West_Virginia's_1st_Congressional_District_election,_2026",
     "snippet": "General election for U.S. House West Virginia District 1 — Incumbent Carol Miller, Vince George, Belinda Fox-Spencer, and Isaiah Rucker are running in the general election for U.S. House West Virginia District 1 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 720.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 719.2
+        "thousandsOfJobs": 720.8
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7712573319.84,
-        "perCapitaUsd": 8560.21
+        "totalUsd": 7715782388.3,
+        "perCapitaUsd": 8563.78
       },
       {
         "year": "2024",
-        "totalUsd": 8670961093.82,
-        "perCapitaUsd": 9623.93
+        "totalUsd": 8677389156.82,
+        "perCapitaUsd": 9631.07
       },
       {
         "year": "2025",
-        "totalUsd": 8453843089.31,
-        "perCapitaUsd": 9382.95
+        "totalUsd": 8454211513.99,
+        "perCapitaUsd": 9383.36
       }
     ],
     "population": [
@@ -561,6 +572,12 @@
           "source_url": "https://www.vincegeorgeforcongress.com/about",
           "snippet": "I was a card-carrying member of what was then called the West Virginia Education Association. I am also a retired union member of the American Federation of State, County & Municipal Employees.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "former teacher",
+          "source_url": "https://www.vincegeorgeforcongress.com/",
+          "snippet": "I'm a public servant, former teacher, and community advocate",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -587,20 +604,27 @@
       ],
       "platform_source_url": "https://www.vincegeorgeforcongress.com/",
       "_platform_resolved_at": "2026-08-14T12:59:39.726Z",
+      "campaign_site_url": "https://vincegeorgeforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:35.011Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Hi there! My name's Vince George, and I'm a public servant, former teacher, and community advocate running for Congress to advocate for working class West Virginians. For too long, our communities' needs have been ignored. Minimum wage has stayed at $8.75. Jobs have disappeared. Hospitals are closing. And more families are struggling to put food on the table.",
+        "source_url": "https://www.vincegeorgeforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:18.352Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Hi there! My name's Vince George, and I'm a public servant, former teacher, and community advocate running for Congress to advocate for working class West Virginians. For too long, our communities' needs have been ignored. Minimum wage has stayed at $8.75. Jobs have disappeared. Hospitals are closing. And more families are struggling to put food on the table.",
-        "source_url": "https://www.vincegeorgeforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:00:18.352Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:36.038Z",
-      "campaign_site_url": "https://vincegeorgeforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:35.011Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:28.620Z"
     },
     {
       "slug": "carol-miller",
@@ -646,9 +670,35 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare - Breast Cancer Survivors",
+          "value": "Supports legislation to make mastectomy bras and silicone prosthetics more affordable for breast cancer survivors by amending the U.S. tariff schedule",
+          "snippet": "Congresswomen Carol Miller (R-WV) and Terri Sewell (D-AL) introduced legislation to amend the United States tariff schedule to establish new tariff classifications for silicone breast prosthetics and mastectomy bras."
+        },
+        {
+          "topic": "Veterans - Opioid Treatment",
+          "value": "Supports expanding virtual opioid use disorder treatment for veterans through the Virtual-Based Opioid Treatment for Veterans Act",
+          "snippet": "Representatives Carol Miller (R-WV), Deborah Ross (D-NC), and Don Davis (D-NC) introduced the Virtual-Based Opioid Treatment for Veterans Act"
+        }
+      ],
+      "platform_source_url": "https://miller.house.gov/",
+      "_platform_resolved_at": "2026-09-02T11:21:37.123Z",
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:21.965Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Carol Miller (née Devine ; born November 4, 1950) is an American politician, educator, and farmer serving as the U.S. representative for West Virginia's 1st congressional district since 2023. A member of the Republican Party , she previously represented the 3rd district from 2019 to 2023, prior to redistricting. Her district covers the southern half of West Virginia , including the cities of Beckley , Bluefield , Charleston , and Huntington . Miller represented the 15th district in the West Virginia House of Delegates from 2007 to 2013, and the 16th district from 2013 to 2019. [ 1 ] [ 2 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Carol_Miller_(politician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:00.951Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027078.pdf",
         "filingDate": "4/22/2026",
@@ -662,61 +712,61 @@
       "_financial_disclosure_resolved_at": "2026-08-14T13:00:29.756Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
-        },
-        {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 259,
-          "attendanceRate": 0.9151943462897526
+          "votesInSession": 274,
+          "votesCast": 250,
+          "attendanceRate": 0.9124087591240876
         },
         "committees": [
           {
@@ -735,8 +785,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 98,
-        "bills_cosponsored": 974,
+        "bills_sponsored": 100,
+        "bills_cosponsored": 981,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -747,21 +797,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 96.3,
-          "snapshotDate": "June 30, 2026",
+          "score": 96.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001205"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:36.376Z",
-      "bio_summary": {
-        "value": "Carol Miller (née Devine ; born November 4, 1950) is an American politician, educator, and farmer serving as the U.S. representative for West Virginia's 1st congressional district since 2023. A member of the Republican Party , she previously represented the 3rd district from 2019 to 2023, prior to redistricting. Her district covers the southern half of West Virginia , including the cities of Beckley , Bluefield , Charleston , and Huntington . Miller represented the 15th district in the West Virginia House of Delegates from 2007 to 2013, and the 16th district from 2013 to 2019. [ 1 ] [ 2 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Carol_Miller_(politician)",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:48:00.951Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T23:03:21.965Z"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:28.980Z"
     },
     {
       "slug": "isaiah-rucker",
@@ -776,15 +818,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://isaiahruckerforcongress2026",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:35.008Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:36.703Z",
-      "campaign_site_url": "https://isaiahruckerforcongress2026",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:35.008Z",
-      "_campaign_site_reachability": "dead"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:29.418Z"
     }
   ]
 }

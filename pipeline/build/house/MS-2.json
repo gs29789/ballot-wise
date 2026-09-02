@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-13T17:16:57.955Z",
+  "generated_at": "2026-09-02T10:59:27.273Z",
   "election_dates": {
     "primaryDate": "2026-03-10",
     "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
@@ -18,12 +18,18 @@
     "source_url": "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
     "snippet": "SECTION 44. Ineligibility for office of person convicted of certain crimes. (1) No person shall be eligible to a seat in either House of the Legislature, or to any office of profit or trust, who shall have been convicted of bribery, perjury, or other infamous crime; and any person who shall have been convicted of giving or offering, directly, or indirectly, any bribe to procure his election or appointment, and any person who shall give or offer any bribe to procure the election or appointment of any person to office, shall, on conviction thereof, be disqualified from holding any office of profit or trust under the laws of this state. (2) No person who is convicted after ratification of this amendment in another state of any offense which is a felony under the laws of this state, and no person who is convicted after ratification of this amendment of any felony in a federal court, shall be eligible to hold any office of profit or trust in this state."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Mississippi's_2nd_Congressional_District_election,_2026",
     "snippet": "Incumbent Bennie Thompson, Ron Eller, and Bennie Foster are running in the general election for U.S. House Mississippi District 2 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1196.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1192.2
+        "thousandsOfJobs": 1192.3
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5002047257.46,
-        "perCapitaUsd": 6709.42
+        "totalUsd": 5002654610.46,
+        "perCapitaUsd": 6710.23
       },
       {
         "year": "2024",
-        "totalUsd": 5270087183.63,
-        "perCapitaUsd": 7068.95
+        "totalUsd": 5271112144.31,
+        "perCapitaUsd": 7070.33
       },
       {
         "year": "2025",
-        "totalUsd": 5479222421.13,
-        "perCapitaUsd": 7349.47
+        "totalUsd": 5480191127.13,
+        "perCapitaUsd": 7350.77
       }
     ],
     "population": [
@@ -574,25 +585,26 @@
       ],
       "platform_source_url": "https://www.voteroneller.com/",
       "_platform_resolved_at": "2026-08-13T17:16:36.510Z",
+      "campaign_site_url": "https://www.voteroneller.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:00.492Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=xmobLXk9nas",
+      "platform_video_title": "In his own words: Ron Eller, candidate for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-24T12:00:13.334Z",
+      "bio_summary": {
+        "value": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values. I am ready and willing to stand up and fight for the American People. My experience includes working in both the private and public sectors. I have served twenty years on active duty in the military, and for the last twenty years I have worked in the private healthcare sector. Recently, my entrepreneurial spirit led me to start several manufacturing businesses.",
+        "source_url": "https://www.voteroneller.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:20.088Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=xmobLXk9nas",
-      "platform_video_title": "In his own words: Ron Eller, candidate for Congress",
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-08-24T12:00:13.334Z",
-      "bio_summary": {
-        "value": "I am Ron Eller, and I stand for Free Enterprise, Limited Government, Individual Liberties, National Defense, and Traditional Values. I am ready and willing to stand up and fight for the American People. My experience includes working in both the private and public sectors. I have served twenty years on active duty in the military, and for the last twenty years I have worked in the private healthcare sector. Recently, my entrepreneurial spirit led me to start several manufacturing businesses.",
-        "source_url": "https://www.voteroneller.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:20.088Z",
-      "platform_video_tier": 2,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:13.334Z",
-      "campaign_site_url": "https://www.voteroneller.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:00.492Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "bennie-foster",
@@ -615,7 +627,38 @@
           "selfFunded": null
         }
       },
-      "bio": {},
+      "bio": {
+        "birthplace": {
+          "value": "Jackson, Mississippi",
+          "source_url": "https://www.reimaginems.info/about-us",
+          "snippet": "Bennie Foster is more than a native of Jackson, Mississippi",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's from Jackson State University and a Master's in Education from Strayer University",
+          "source_url": "https://www.reimaginems.info/about-us",
+          "snippet": "Armed with a Bachelor's from Jackson State University and a Master's in Education from Strayer University",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married with six children",
+          "source_url": "https://www.reimaginems.info/about-us",
+          "snippet": "As a devoted husband and father of six",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "educator, student-athlete and Jackson State University Track and Field SWAC Champion",
+          "source_url": "https://www.reimaginems.info/about-us",
+          "snippet": "His journey from a gifted student-athlete, and Jackson State University Track and Field SWAC Champion, to a respected educator",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "catalyst behind numerous organizations and business initiatives, Top 50 Mississippi Men in Business, recognition from Oakley Youth Development Center and Job Corps",
+          "source_url": "https://www.reimaginems.info/about-us",
+          "snippet": "Bennie Foster is the catalyst behind numerous organizations and business initiatives that transcend traditional charity. He builds sustainable pathways out of poverty, dismantles the root causes of crime and violence, and fosters economic ecosystems that empower individuals to thrive. He understands that true progress is not about handouts, but about hand-ups – providing the tools, resources, support, and opportunities for communities to realize their full potential. Bennie Foster didn't just observe the challenges facing Mississippi's 2nd Congressional District; he immersed himself in them. He listened, learned, and acted, transforming firsthand experience into a mandate for change. He is not a politician seeking office, but a community leader answering a call to service because the constituents voices have not been heard for decades. Bennie's Foster's accolades –Top 50 Mississippi Men in Business, Numerous Servant/ Leader Awards and recognition from Oakley Youth Development Center, and Job Corps",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
       "platform": [
         {
           "topic": "Emergency Preparedness",
@@ -625,20 +668,27 @@
       ],
       "platform_source_url": "https://www.reimaginems.info/",
       "_platform_resolved_at": "2026-08-13T17:16:50.793Z",
+      "campaign_site_url": "https://www.reimaginems.info",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:00.495Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Bennie Foster's is on the General Election Ballot for November 3, 2026 FOSTER Our FUTURE! Stronger Together: Serving Mississippi in the Wake of Winter Storm Fern Disasters don't clock out, and neither do we. Seeing the strength of our neighbors in Holmes and Yazoo Counties reminds us why this work matters.",
+        "source_url": "https://www.reimaginems.info/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:16.621Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Bennie Foster's is on the General Election Ballot for November 3, 2026 FOSTER Our FUTURE! Stronger Together: Serving Mississippi in the Wake of Winter Storm Fern Disasters don't clock out, and neither do we. Seeing the strength of our neighbors in Holmes and Yazoo Counties reminds us why this work matters.",
-        "source_url": "https://www.reimaginems.info/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:16.621Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:13.735Z",
-      "campaign_site_url": "https://www.reimaginems.info",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:00.495Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:23.385Z"
     },
     {
       "slug": "bennie-thompson",
@@ -687,6 +737,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://benniegthompson.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:00.494Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Bennie Gordon Thompson (born January 28, 1948) is an American politician and educator serving as the U.S. representative for Mississippi's 2nd congressional district since 1993. A member of the Democratic Party , Thompson served as the chair of the Committee on Homeland Security from 2007 to 2011 and from 2019 to 2023. [ 2 ] He was both the first Democrat and the first African American to chair the committee. Since 2011, he has been the only Democrat in Mississippi's congressional delegation , and since 2018 he has been the dean of the delegation after Thad Cochran left Congress. Thompson's district includes most of Jackson and is the only majority-black district in the state. ",
+        "source_url": "https://en.wikipedia.org/wiki/Bennie_Thompson",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:39:57.414Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -700,7 +765,7 @@
           }
         ],
         "bills_sponsored": 256,
-        "bills_cosponsored": 5575,
+        "bills_cosponsored": 5586,
         "bills_became_law": 9,
         "enacted_laws": [
           {
@@ -793,22 +858,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 18.7,
-          "snapshotDate": "June 30, 2026",
+          "score": 17.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/T000193"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:14.022Z",
-      "bio_summary": {
-        "value": "Bennie Gordon Thompson (born January 28, 1948) is an American politician and educator serving as the U.S. representative for Mississippi's 2nd congressional district since 1993. A member of the Democratic Party , Thompson served as the chair of the Committee on Homeland Security from 2007 to 2011 and from 2019 to 2023. [ 2 ] He was both the first Democrat and the first African American to chair the committee. Since 2011, he has been the only Democrat in Mississippi's congressional delegation , and since 2018 he has been the dean of the delegation after Thad Cochran left Congress. Thompson's district includes most of Jackson and is the only majority-black district in the state. ",
-        "source_url": "https://en.wikipedia.org/wiki/Bennie_Thompson",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:39:57.414Z",
-      "campaign_site_url": "https://benniegthompson.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:00.494Z",
-      "_campaign_site_reachability": "dead"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:23.982Z"
     }
   ]
 }

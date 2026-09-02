@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-35",
-  "generated_at": "2026-08-21T13:15:45.228Z",
+  "generated_at": "2026-09-02T12:25:52.975Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -594,22 +604,25 @@
       "platform_source_url": "https://www.cargileforcongress.com/",
       "_platform_resolved_at": "2026-08-15T11:38:57.629Z",
       "campaign_site_url": "https://www.cargileforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=9YIjYu9_goE",
       "platform_video_title": "REMEMBER THIS",
       "platform_video_source_url": "https://www.cargileforcongress.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:08:08.961Z",
       "bio_summary": {
         "value": "Years ago, as a young Army officer, I swore an oath to defend the Constitution of the United States against all enemies, foreign and domestic. I am here to fulfill that oath…SO HELP ME GOD.",
-        "source_url": "https://www.cargileforcongress.com/"
+        "source_url": "https://www.cargileforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:24:22.848Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "norma-torres",
@@ -671,14 +684,18 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://normatorres.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Congresswoman Norma Torres represents California’s 35th Congressional District, which, after the passage of Prop 50, will include the cities of Bloomington, Chino, Chino Hills, Claremont, Corona, Eastvale, Fontana, Montclair, Norco, Ontario, Pomona, Rancho Cucamonga, and Upland. As a City Councilmember, Mayor, State Assemblywoman, State Senator, and now Member of Congress, Norma has a proven record of delivering solutions for Inland Empire families.",
-        "source_url": "https://www.normatorres.com/"
+        "source_url": "https://www.normatorres.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:24:25.296Z",
       "financial_disclosure": {
@@ -692,9 +709,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-17T14:52:08.641Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 255,
+          "votesCast": 251,
+          "attendanceRate": 0.984313725490196
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -722,8 +794,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 193,
-        "bills_cosponsored": 1745,
+        "bills_sponsored": 194,
+        "bills_cosponsored": 1748,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -744,13 +816,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 19.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 23,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/T000474"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-44",
-  "generated_at": "2026-08-21T13:52:02.621Z",
+  "generated_at": "2026-09-02T13:28:25.672Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -597,22 +607,25 @@
       "platform_source_url": "https://www.angelforcongress.com/",
       "_platform_resolved_at": "2026-08-15T11:53:37.437Z",
       "campaign_site_url": "https://www.angelforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Genevieve Angel has spent her life serving others — in hospitals, in businesses, and in her community. She's not running to play politics. She's running to solve real problems for real families. For nearly 30 years, she's lived and served right here in CA-44 as a Family Nurse Practitioner, healthcare executive, mother, and small-business owner.",
-        "source_url": "https://www.angelforcongress.com/"
+        "source_url": "https://www.angelforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:24.740Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "nanette-barragan",
@@ -670,14 +683,33 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "campaign_site_url": null,
+      "platform": [
+        {
+          "topic": "Jobs and Employment",
+          "value": "Protecting American jobs and bringing more good-paying jobs with benefits to the community",
+          "snippet": "In Congress, Nanette is fighting for working people. That means protecting American jobs, bringing more good-paying jobs with benefits to our community"
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Raising the minimum wage",
+          "snippet": "raising the minimum wage"
+        },
+        {
+          "topic": "Equal Pay",
+          "value": "Guaranteeing equal pay for equal work",
+          "snippet": "guaranteeing equal pay for equal work"
+        }
+      ],
+      "platform_source_url": "https://barraganforcongress.com/",
+      "_platform_resolved_at": "2026-09-02T13:27:48.782Z",
+      "campaign_site_url": "https://barraganforcongress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=Txkx2EVj6sI",
       "platform_video_title": "\"Hard Work\" - Nanette Barragan for Congress",
       "platform_video_source_url": "https://en.wikipedia.org/wiki/Nanette_Barrag%C3%A1n",
       "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
       "_platform_video_resolved_at": "2026-08-29T17:53:03.902Z",
       "bio_summary": {
         "value": "Nanette Díaz Barragán ( / n ə ˈ n ɛ t ˈ b ær ə ɡ ən / nə- NET BARR -ə-gən ; [ 1 ] born September 15, 1976) [ 2 ] is an American politician and attorney serving as the U.S. representative for California's 44th congressional district since 2017. A member of the Democratic Party , she previously served as a Hermosa Beach city councilmember from 2013 to 2015. [ 3 ] Early life and education [ edit ] Barragán was born in Harbor City, Los Angeles ; she is the youngest of 11 siblings, raised by immigrants from Mexico in Torrance and the surrounding area, where she attended North Torrance High School and played softball. [ 4 ] She earned her Bachelor of Arts degree in political science with a minor in public policy from the University of California, Los Angeles in 2000. She received her Juris Doctor degree at the University of Southern California in 2005, where she served on the Interdisciplinary Law Journal . [ 5 ] ",
@@ -698,61 +730,61 @@
       "_financial_disclosure_resolved_at": "2026-08-21T13:21:58.359Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 278,
-          "attendanceRate": 0.9823321554770318
+          "votesInSession": 292,
+          "votesCast": 285,
+          "attendanceRate": 0.976027397260274
         },
         "committees": [
           {
@@ -777,7 +809,7 @@
           }
         ],
         "bills_sponsored": 135,
-        "bills_cosponsored": 3167,
+        "bills_cosponsored": 3174,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -807,13 +839,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 21.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 23.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/B001300"
         }
       },
-      "_curated_match": false,
-      "platform_video_source_type": "wikipedia"
+      "_curated_match": false
     }
   ]
 }

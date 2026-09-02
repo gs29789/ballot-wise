@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-18T20:24:32.417Z",
+  "generated_at": "2026-09-02T10:29:51.089Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3252.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3261.7
+        "thousandsOfJobs": 3256.8
       },
       {
         "year": "2026",
@@ -473,13 +483,13 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5659036478.11,
-        "perCapitaUsd": 7500.87
+        "totalUsd": 5659236041.36,
+        "perCapitaUsd": 7501.13
       },
       {
         "year": "2024",
-        "totalUsd": 6032935088.83,
-        "perCapitaUsd": 7996.46
+        "totalUsd": 6033485406.83,
+        "perCapitaUsd": 7997.19
       },
       {
         "year": "2025",
@@ -570,10 +580,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.electjimbaird.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:08.726Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "James Richard Baird [ 1 ] (born June 4, 1945) [ 2 ] [ 3 ] is an American businessman and politician serving as the U.S. representative for Indiana's 4th congressional district since 2019. A Republican , he previously served as a member of the Indiana House of Representatives from 2010 to 2018 and as a Putnam County commissioner from 2006 to 2010. [ 4 ] Baird was first elected to Congress in 2018 . ",
+        "source_url": "https://en.wikipedia.org/wiki/Jim_Baird_(politician)",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:57:14.435Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -637,7 +658,7 @@
           }
         ],
         "bills_sponsored": 44,
-        "bills_cosponsored": 1082,
+        "bills_cosponsored": 1092,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -648,22 +669,13 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 52.3,
-          "snapshotDate": "June 30, 2026",
+          "score": 47.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/B001307"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T15:24:45.328Z",
-      "bio_summary": {
-        "value": "James Richard Baird [ 1 ] (born June 4, 1945) [ 2 ] [ 3 ] is an American businessman and politician serving as the U.S. representative for Indiana's 4th congressional district since 2019. A Republican , he previously served as a member of the Indiana House of Representatives from 2010 to 2018 and as a Putnam County commissioner from 2006 to 2010. [ 4 ] Baird was first elected to Congress in 2018 . ",
-        "source_url": "https://en.wikipedia.org/wiki/Jim_Baird_(politician)",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T00:57:14.435Z",
-      "campaign_site_url": "https://www.electjimbaird.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:08.726Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:17.091Z"
     },
     {
       "slug": "david-bokash",
@@ -738,24 +750,27 @@
       ],
       "platform_source_url": "https://www.bokash4indiana.com/",
       "_platform_resolved_at": "2026-08-12T19:13:51.460Z",
+      "campaign_site_url": "https://www.bokash4indiana.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:08.723Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "David Bokash was born in Northwest Indiana becoming a fifth generation Hoosier. He attended elementary school in Hobart where his mother's family had a small farm and helped establish Augustana Lutheran Church. Young David spent summers working the family farm with his grandfather, Walter Isakson, who received a Hoosier Homestead Award from Governor Otis Bowen in the 1970s for having a family farm for more than 100 years.",
+        "source_url": "https://www.bokash4indiana.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:54.177Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "David Bokash was born in Northwest Indiana becoming a fifth generation Hoosier. He attended elementary school in Hobart where his mother's family had a small farm and helped establish Augustana Lutheran Church. Young David spent summers working the family farm with his grandfather, Walter Isakson, who received a Hoosier Homestead Award from Governor Otis Bowen in the 1970s for having a family farm for more than 100 years.",
-        "source_url": "https://www.bokash4indiana.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:48:54.177Z",
-      "_tier2_search_attempted_at": "2026-08-22T15:24:45.789Z",
-      "campaign_site_url": "https://www.bokash4indiana.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:08.723Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:17.615Z"
     },
     {
       "slug": "drew-cox",
@@ -784,6 +799,18 @@
           "source_url": "https://www.ballotready.org/people/drew-cox",
           "snippet": "Professional Experience Purdue University, Visiting Instructor/Limited Term Lecturer (2024 - Present) Wolf Park, Grounds/Maintenance (2024 - 2025) US Marine Corps, Sergeant (2008 - 2012)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "Indiana",
+          "source_url": "https://www.drewcox.org/drews-story-1",
+          "snippet": "Born and raised in Indiana",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Indiana University; doctorate in music from the University of Illinois",
+          "source_url": "https://www.drewcox.org/drews-story-1",
+          "snippet": "he used the GI Bill to pursue higher education at Indiana University and went on to earn a doctorate in music from the University of Illinois",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -820,24 +847,27 @@
       ],
       "platform_source_url": "https://www.drewcox.org/",
       "_platform_resolved_at": "2026-08-12T19:13:44.972Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "campaign_site_url": "https://www.drewcox.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:08.735Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=0-K3r1UE94s",
+      "platform_video_title": "PIN Virtual Town Hall with Drew Cox for Congress",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-09-02T12:00:18.022Z",
+      "bio_summary": {
+        "value": "My name is Drew Cox, and I’m running to represent Indiana’s Fourth District in Congress. I’m a lifelong Hoosier and veteran raised by a farmer and public schoolteacher, and I’m committed to delivering the policies that serve Indiana’s residents instead of corporate interests.",
+        "source_url": "https://www.drewcox.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:55.775Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "My name is Drew Cox, and I’m running to represent Indiana’s Fourth District in Congress. I’m a lifelong Hoosier and veteran raised by a farmer and public schoolteacher, and I’m committed to delivering the policies that serve Indiana’s residents instead of corporate interests.",
-        "source_url": "https://www.drewcox.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:48:55.775Z",
-      "_tier2_search_attempted_at": "2026-08-22T15:24:46.678Z",
-      "campaign_site_url": "https://www.drewcox.org",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:08.735Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:18.022Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-14T14:17:29.320Z",
+  "generated_at": "2026-09-02T11:41:27.646Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/codes/ohio/title-29/chapter-2961/section-2961-01/",
     "snippet": "(A)(1) A person who pleads guilty to a felony under the laws of this or any other state or the United States and whose plea is accepted by the court or a person against whom a verdict or finding of guilt for committing a felony under any law of that type is returned, unless the plea, verdict, or finding is reversed or annulled, is incompetent to be an elector or juror or to hold an office of honor, trust, or profit."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
     "snippet": "Jim Jordan  (Incumbent) (Republican Party) Joshua Kolasinski  (Democratic Party) Tracey Tackett  (Independent) Did not make the ballot: Tamie Wilson (Independent)"
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -246,22 +252,27 @@
       },
       {
         "year": "2023",
-        "ratePer100k": 24.01
+        "ratePer100k": 24.02
       },
       {
         "year": "2024",
-        "ratePer100k": 22.93
+        "ratePer100k": 22.96
       },
       {
         "year": "2025",
-        "ratePer100k": 19.71
+        "ratePer100k": 19.79
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5690
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5687.6
+        "thousandsOfJobs": 5684.9
       },
       {
         "year": "2026",
@@ -558,11 +569,44 @@
           "source_url": "https://en.wikipedia.org/wiki/Jim_Jordan",
           "snippet": "Jordan was an assistant coach with Ohio State University's wrestling program from 1987 to 1995.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Graham High School, graduating in 1982",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+          "snippet": "He attended and wrestled for Graham High School , graduating in 1982.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Polly",
+          "source_url": "https://www.jimjordanforcongress.com/jim-jordan-biography",
+          "snippet": "he and his wife Polly",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "first chairman of the House Freedom Caucus, chairs the House Judiciary Committee",
+          "source_url": "https://www.jimjordanforcongress.com/jim-jordan-biography",
+          "snippet": "Jordan helped found and was elected by his colleagues as the first chairman of the House Freedom Caucus. Jordan is focused on his oversight role, chairing the House Judiciary Committee",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://jimjordanforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:13.783Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=hre8l_4QDZk",
+      "platform_video_title": "Rep. Jim Jordan, R-Ohio, plans to run for House speaker role #shorts",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-31T12:00:11.874Z",
+      "bio_summary": {
+        "value": "James Daniel Jordan (born February 17, 1964) is an American politician who has served in the U.S. House of Representatives as the representative for Ohio's 4th congressional district since 2007. Currently in his 10th term in the House, Jordan is a member of the Republican Party . Jordan is a two-time NCAA national champion wrestler and a former college wrestling coach. In Congress, Jordan helped start the right-wing populist House Freedom Caucus , serving as its first chair from 2015 to 2017, and as its vice chair since 2017. Jordan was a prominent critic of Speaker of the House John Boehner , who resigned under Freedom Caucus pressure in 2015. [ 1 ] [ 2 ] He was the ranking member of the House Oversight Committee from 2019 to 2020, when he left to become the ranking member of the House Judiciary Committee , of which he became chair in 2023. ",
+        "source_url": "https://en.wikipedia.org/wiki/Jim_Jordan",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:43:34.979Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -581,7 +625,7 @@
           }
         ],
         "bills_sponsored": 55,
-        "bills_cosponsored": 1323,
+        "bills_cosponsored": 1324,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -592,27 +636,12 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 6.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 7.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/J000289"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "James Daniel Jordan (born February 17, 1964) is an American politician who has served in the U.S. House of Representatives as the representative for Ohio's 4th congressional district since 2007. Currently in his 10th term in the House, Jordan is a member of the Republican Party . Jordan is a two-time NCAA national champion wrestler and a former college wrestling coach. In Congress, Jordan helped start the right-wing populist House Freedom Caucus , serving as its first chair from 2015 to 2017, and as its vice chair since 2017. Jordan was a prominent critic of Speaker of the House John Boehner , who resigned under Freedom Caucus pressure in 2015. [ 1 ] [ 2 ] He was the ranking member of the House Oversight Committee from 2019 to 2020, when he left to become the ranking member of the House Judiciary Committee , of which he became chair in 2023. ",
-        "source_url": "https://en.wikipedia.org/wiki/Jim_Jordan",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:43:34.979Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:11.874Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=hre8l_4QDZk",
-      "platform_video_title": "Rep. Jim Jordan, R-Ohio, plans to run for House speaker role #shorts",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-31T12:00:11.874Z",
-      "campaign_site_url": "https://jimjordanforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:13.783Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "joshua-kolasinski",
@@ -687,26 +716,26 @@
       ],
       "platform_source_url": "https://www.joshuaforohio.com/",
       "_platform_resolved_at": "2026-09-01T13:28:00.147Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://www.joshuaforohio.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:18:11.220Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=aEwybBZkLqY",
+      "platform_video_title": "Small business owener Joshua Kolasinski talks about his run for Congress in Ohio",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-31T12:00:12.375Z",
       "bio_summary": {
         "value": "Joshua Kolasinski earned an associate degree from the Owens Community College and a bachelor's degree from Siena Heights University. His career experience includes working as a business owner.",
         "source_url": "https://ballotpedia.org/Joshua_Kolasinski",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:08:44.748Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:12.375Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=aEwybBZkLqY",
-      "platform_video_title": "Small business owener Joshua Kolasinski talks about his run for Congress in Ohio",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-31T12:00:12.375Z",
-      "campaign_site_url": "https://www.joshuaforohio.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:18:11.220Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

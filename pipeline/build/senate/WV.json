@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-14T13:05:20.748Z",
+  "generated_at": "2026-09-02T13:23:41.405Z",
   "election_dates": {
     "primaryDate": "2026-05-12",
     "primarySourceUrl": "https://codes.findlaw.com/wv/chapter-3-elections/wv-code-sect-3-5-1/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/constitution/west-virginia/",
     "snippet": "W. Va. Const. Art. IV, § 4-4: \"No person, except citizens entitled to vote, shall be elected or appointed to any state, county or municipal office...\" § 4-1: \"...no person who is a minor, or who has been declared mentally incompetent by a court of competent jurisdiction, or who is under conviction of treason, felony or bribery in an election... shall be permitted to vote...\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_Senate_election_in_West_Virginia,_2026",
     "snippet": "General election for U.S. Senate West Virginia — Incumbent Shelley Moore Capito, Rachel Fetty Anderson, S. Marshall Wilson, and Rio Phillips are running in the general election for U.S. Senate West Virginia on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -238,7 +244,7 @@
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
-        "ratePer100k": 29.43
+        "ratePer100k": 29.44
       },
       {
         "year": "2022",
@@ -246,22 +252,27 @@
       },
       {
         "year": "2023",
-        "ratePer100k": 33.96
+        "ratePer100k": 33.92
       },
       {
         "year": "2024",
-        "ratePer100k": 30.23
+        "ratePer100k": 30.21
       },
       {
         "year": "2025",
-        "ratePer100k": 26.41
+        "ratePer100k": 26.45
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 720.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 719.2
+        "thousandsOfJobs": 720.8
       },
       {
         "year": "2026",
@@ -482,7 +493,7 @@
       },
       {
         "year": "2025",
-        "totalUsd": 8454211484.99,
+        "totalUsd": 8454211513.99,
         "perCapitaUsd": 9383.36
       }
     ],
@@ -581,6 +592,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.capitolforsenate.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:37.936Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Shelley Wellons Moore Capito ( / ˈ k æ p ɪ t oʊ / KAP -ih-toh ; born November 26, 1953) is an American politician serving as the senior United States senator from West Virginia . A member of the Republican Party , Capito served from 2001 to 2015 as the U.S. representative from West Virginia's 2nd congressional district . She is the daughter of three-term West Virginia governor and six-term U.S. representative Arch Alfred Moore Jr. Capito was first elected to the Senate in 2014 , becoming the first woman elected to the U.S. Senate from West Virginia and the first West Virginia Republican to win a full term in the Senate since 1942 . She was reelected in 2020 . Capito has chaired the Environment and Public Works Committee since 2025, and is the dean of West Virginia's congressional delegation . ",
+        "source_url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:49:40.094Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -642,9 +668,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 231,
-          "votesCast": 228,
-          "attendanceRate": 0.987012987012987
+          "votesInSession": 208,
+          "votesCast": 205,
+          "attendanceRate": 0.9855769230769231
         },
         "committees": [
           {
@@ -740,7 +766,7 @@
         ],
         "bills_sponsored": 398,
         "bills_cosponsored": 3985,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "Rural Broadband Protection Act of 2025",
@@ -778,28 +804,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 71.3,
-          "snapshotDate": "June 30, 2026",
+          "score": 71.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001047"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Shelley Wellons Moore Capito ( / ˈ k æ p ɪ t oʊ / KAP -ih-toh ; born November 26, 1953) is an American politician serving as the senior United States senator from West Virginia . A member of the Republican Party , Capito served from 2001 to 2015 as the U.S. representative from West Virginia's 2nd congressional district . She is the daughter of three-term West Virginia governor and six-term U.S. representative Arch Alfred Moore Jr. Capito was first elected to the Senate in 2014 , becoming the first woman elected to the U.S. Senate from West Virginia and the first West Virginia Republican to win a full term in the Senate since 1942 . She was reelected in 2020 . Capito has chaired the Environment and Public Works Committee since 2025, and is the dean of West Virginia's congressional delegation . ",
-        "source_url": "https://en.wikipedia.org/wiki/Shelley_Moore_Capito",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:49:40.094Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
-      "campaign_site_url": "https://www.capitolforsenate.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:37.936Z",
-      "_campaign_site_reachability": "dead",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:10.320Z"
+      "_curated_match": false
     },
     {
       "slug": "rachel-fetty-anderson",
@@ -876,23 +886,26 @@
       ],
       "platform_source_url": "https://www.fettyandersonforsenate.com/platform",
       "_platform_resolved_at": "2026-08-14T13:05:13.467Z",
+      "campaign_site_url": "https://www.fettyandersonforsenate.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:07:17.720Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=bmtX123cN_c",
+      "platform_video_title": "Top 3 issues. #westvirginia #election #politics #vote #healthcare #womenempowerment #equality #wv",
+      "platform_video_source_url": "https://www.fettyandersonforsenate.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:04:40.742Z",
+      "bio_summary": {
+        "value": "Rachel is the oldest of six children and grew up with all of the responsibilities that entails. Her parents struggled with mental health issues, domestic violence, and economic insecurity. That commitment to showing up for children and family carried on: becoming the guardian of a sibling at 20 years old, the guardian of her nephew in her thirties, and later adopting in her forties.",
+        "source_url": "https://www.fettyandersonforsenate.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:42.286Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=bmtX123cN_c",
-      "platform_video_title": "Top 3 issues. #westvirginia #election #politics #vote #healthcare #womenempowerment #equality #wv",
-      "platform_video_source_url": "https://www.fettyandersonforsenate.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:04:40.742Z",
-      "bio_summary": {
-        "value": "Rachel is the oldest of six children and grew up with all of the responsibilities that entails. Her parents struggled with mental health issues, domestic violence, and economic insecurity. That commitment to showing up for children and family carried on: becoming the guardian of a sibling at 20 years old, the guardian of her nephew in her thirties, and later adopting in her forties.",
-        "source_url": "https://www.fettyandersonforsenate.com/about"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:00:42.286Z",
-      "campaign_site_url": "https://www.fettyandersonforsenate.com",
-      "_campaign_site_discovered_at": "2026-09-01T12:07:17.720Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "rio-phillips",
@@ -926,21 +939,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://rioforsenate.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:37.932Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=ANWADmCaV88",
+      "platform_video_title": "The Real Turning Point! 🌎❤️🇵🇸",
+      "platform_video_source_url": "https://ballotpedia.org/Rio_Phillips",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T13:23:32.357Z",
       "bio_summary": {
         "value": "Rio Phillips was born in Waynesboro, Virginia . He earned a high school diploma from the Pine View School for the Gifted and attended the University of Central Florida, Erie Community College, and Buffalo State College. Phillips' professional experience includes owning a media and marketing business, working as a Medicare insurance agent, and working in cybersecurity and artificial intelligence optimization. [1] He has also served as a community organizer. [2] ",
         "source_url": "https://ballotpedia.org/Rio_Phillips",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:53:13.425Z",
-      "campaign_site_url": "https://rioforsenate.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:37.932Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:10.599Z"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "s-wilson",
@@ -1002,20 +1020,26 @@
       ],
       "platform_source_url": "https://wilsonwv.com/",
       "_platform_resolved_at": "2026-08-14T13:04:48.028Z",
+      "campaign_site_url": "https://wilsonwv.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:37.925Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "West Virginia deserves more than a career politician who flies into Charleston before election season and disappears once the votes are counted. S. Marshall Wilson is something Washington hasn't seen in a long time — a candidate built by service, shaped by faith, and driven by a singular purpose: To secure the blessings of Liberty to the people of West Virginia. After years serving in the military and leading his congregation, Marshall has seen firsthand what happens when government grows unchecked, when spending spirals out of control, government infiltrates every aspect of citizens' lives, and the Constitution is treated as an inconvenience rather than as the supreme law of the land.",
+        "source_url": "https://wilsonwv.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:37.714Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "West Virginia deserves more than a career politician who flies into Charleston before election season and disappears once the votes are counted. S. Marshall Wilson is something Washington hasn't seen in a long time — a candidate built by service, shaped by faith, and driven by a singular purpose: To secure the blessings of Liberty to the people of West Virginia. After years serving in the military and leading his congregation, Marshall has seen firsthand what happens when government grows unchecked, when spending spirals out of control, government infiltrates every aspect of citizens' lives, and the Constitution is treated as an inconvenience rather than as the supreme law of the land.",
-        "source_url": "https://wilsonwv.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:00:37.714Z",
-      "campaign_site_url": "https://wilsonwv.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:37.925Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:10.910Z"
+      "_curated_match": false
     }
   ]
 }

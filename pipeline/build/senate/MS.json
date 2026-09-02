@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-17T16:15:49.484Z",
+  "generated_at": "2026-09-02T11:02:17.418Z",
   "election_dates": {
     "primaryDate": "2026-03-10",
     "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1196.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1192.2
+        "thousandsOfJobs": 1192.3
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5002047257.46,
-        "perCapitaUsd": 6709.42
+        "totalUsd": 5002654610.46,
+        "perCapitaUsd": 6710.23
       },
       {
         "year": "2024",
-        "totalUsd": 5270087183.63,
-        "perCapitaUsd": 7068.95
+        "totalUsd": 5271112144.31,
+        "perCapitaUsd": 7070.33
       },
       {
         "year": "2025",
-        "totalUsd": 5479222421.13,
-        "perCapitaUsd": 7349.47
+        "totalUsd": 5480191127.13,
+        "perCapitaUsd": 7350.77
       }
     ],
     "population": [
@@ -572,23 +582,26 @@
       ],
       "platform_source_url": "https://scottcolom.com/",
       "_platform_resolved_at": "2026-08-13T17:19:56.666Z",
+      "campaign_site_url": "https://scottcolom.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:08.418Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=EzjErdc_Itk",
+      "platform_video_title": "Meet Scott",
+      "platform_video_source_url": "https://scottcolom.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:03:56.021Z",
+      "bio_summary": {
+        "value": "Scott Colom is a proud seventh-generation Mississippian who’s been a prosecutor, a judge, a widely-praised District Attorney, and now a candidate for the U.S. Senate. Rooted In Mississippi Values Born and raised in Columbus, Mississippi, Scott and his wife Nadia are proud parents of two (eighth-generation Mississippian) daughters. He’s the son of retired Judge Dorothy Colom – the first African-American to be elected to her region’s Chancery Court – and Wilbur Colom, an attorney and one-time Republican who worked for Ronald Reagan.",
+        "source_url": "https://scottcolom.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:04.868Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=EzjErdc_Itk",
-      "platform_video_title": "Meet Scott",
-      "platform_video_source_url": "https://scottcolom.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:03:56.021Z",
-      "bio_summary": {
-        "value": "Scott Colom is a proud seventh-generation Mississippian who’s been a prosecutor, a judge, a widely-praised District Attorney, and now a candidate for the U.S. Senate. Rooted In Mississippi Values Born and raised in Columbus, Mississippi, Scott and his wife Nadia are proud parents of two (eighth-generation Mississippian) daughters. He’s the son of retired Judge Dorothy Colom – the first African-American to be elected to her region’s Chancery Court – and Wilbur Colom, an attorney and one-time Republican who worked for Ronald Reagan.",
-        "source_url": "https://scottcolom.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:57:04.868Z",
-      "campaign_site_url": "https://scottcolom.com/",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:08.418Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "cindy-hyde-smith",
@@ -646,9 +659,65 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Border Security & Immigration",
+          "value": "The federal government's first responsibility is defense of the American people, which includes securing the nation's borders.",
+          "snippet": "Senator Hyde-Smith believes the federal government's first responsibility is defense of the American people, which includes securing the nation's borders."
+        },
+        {
+          "topic": "Jobs & Economy",
+          "value": "Supports the tax cuts and reforms enacted.",
+          "snippet": "She supports the tax cuts and reforms enacted by..."
+        },
+        {
+          "topic": "Energy and Environment",
+          "value": "Dependence on foreign oil poses economic and national security risks for the United States.",
+          "snippet": "Senator Hyde-Smith knows dependence on foreign oil poses economic and national security risks for the United States."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Strong advocate for protecting the Constitutional right of law-abiding citizens to keep and bear arms.",
+          "snippet": "Senator Hyde-Smith, who holds an enhanced-carry permit, is a strong advocate for protecting the Constitutional right of law-abiding citizens to keep and bear arms."
+        },
+        {
+          "topic": "National Security",
+          "value": "Committed to ensuring the availability of the resources necessary to rebuild America's military and maximize readiness.",
+          "snippet": "Senator Hyde-Smith is committed to fulfilling the constitutional responsibility to \"provide for the common defense\" of the United States, including by ensuring the availability of the resources necessary to rebuild America's military and maximize readiness."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Supports common-sense, patient-centered health care reforms to help Mississippi families afford health insurance coverage without expanding the government's role in providing health care.",
+          "snippet": "Senator Hyde-Smith supports common-sense, patient-centered health care reforms to help Mississippi families afford health insurance coverage without expanding the government's role in providing health care."
+        },
+        {
+          "topic": "Pro-Life",
+          "value": "Believes in the sanctity of life and is committed to supporting policies and legislation to protect the lives of unborn children.",
+          "snippet": "As a Christian, Senator Hyde-Smith believes in the sanctity of life and the need for federal policies that strengthen America's families. She is committed to supporting policies and legislation to protect the lives of unborn children."
+        },
+        {
+          "topic": "Foreign Affairs",
+          "value": "Committed to supporting foreign affairs policies that ensure the security of the American people first and foremost and foster mutually-beneficial relations with allies to promote national security, freedom, and fair trade.",
+          "snippet": "Senator Hyde-Smith is committed to supporting foreign affairs policies that ensure the security of the American people first and foremost. She understands the need for the United States to foster and maintain mutually-beneficial relations with allies to promote our national security, freedom, and fair trade."
+        }
+      ],
+      "platform_source_url": "https://www.hydesmith.senate.gov/issues",
+      "_platform_resolved_at": "2026-09-02T11:02:04.999Z",
+      "campaign_site_url": "https://www.cindyhydesmith.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:08.428Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=1g25Q19ucLQ",
+      "platform_video_title": "2013 MS Boys State - Agriculture Commissioner Cindy Hyde-Smith",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-09-02T11:02:05.798Z",
+      "bio_summary": {
+        "value": "Cindy Hyde-Smith ( née Hyde ; born May 10, 1959) [ 1 ] is an American politician and lobbyist serving since 2018 as the junior United States senator from Mississippi . [ 2 ] A member of the Republican Party , she served from 2012 to 2018 as the Mississippi Commissioner of Agriculture and Commerce and from 2000 to 2012 in the Mississippi State Senate . Born in Brookhaven, Mississippi , Hyde-Smith is a graduate of Copiah–Lincoln Community College and the University of Southern Mississippi . In 1999, she was elected to the Mississippi State Senate as a Democrat. She represented the 39th district from 2000 to 2012. In 2010, Hyde-Smith switched parties and became a Republican, citing her conservative beliefs. [ 3 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:48:59.867Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -710,11 +779,92 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 220,
-          "votesCast": 214,
-          "attendanceRate": 0.9727272727272728
+          "votesInSession": 195,
+          "votesCast": 189,
+          "attendanceRate": 0.9692307692307692
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Commodities, Derivatives, Risk Management, and Trade",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Conservation, Forestry, Natural Resources, and Biotechnology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Livestock, Dairy, Poultry, and Food Safety",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Energy and Water Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Department of Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources — Public Lands, Forests, and Mining",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Rules and Administration",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Joint Committee of Congress on the Library",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 160,
         "bills_cosponsored": 1562,
         "bills_became_law": 0,
@@ -727,28 +877,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 45.3,
-          "snapshotDate": "June 30, 2026",
+          "score": 41.6,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001079"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:16.025Z",
-      "bio_summary": {
-        "value": "Cindy Hyde-Smith ( née Hyde ; born May 10, 1959) [ 1 ] is an American politician and lobbyist serving since 2018 as the junior United States senator from Mississippi . [ 2 ] A member of the Republican Party , she served from 2012 to 2018 as the Mississippi Commissioner of Agriculture and Commerce and from 2000 to 2012 in the Mississippi State Senate . Born in Brookhaven, Mississippi , Hyde-Smith is a graduate of Copiah–Lincoln Community College and the University of Southern Mississippi . In 1999, she was elected to the Mississippi State Senate as a Democrat. She represented the 39th district from 2000 to 2012. In 2010, Hyde-Smith switched parties and became a Republican, citing her conservative beliefs. [ 3 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Cindy_Hyde-Smith",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:48:59.867Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
-      "campaign_site_url": "https://www.cindyhydesmith.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:08.428Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_curated_match": false
     },
     {
       "slug": "ty-pinkins",
@@ -789,6 +923,12 @@
           "source_url": "https://www.ballotready.org/people/ty-pinkins",
           "snippet": "The Pyramid Project Youth Organization, Founder and CEO (2015 - Present) Mississippi Center for Justice, Staff Attorney (2022 - 2022) Mississippi Center for Justice, Equal Justice Works Fellow (2020 - 2022) Georgetown University Law Center, Public Interest Fellow (2017 - 2020) White House Communications Agency, Presidential Communications Aide (2013 - 2017) US Army (2001 - 2013)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, University of Maryland, Political Science and Government (2012); JD, Georgetown University, Public Interest Law (2020); Master's, Georgetown University, National Security Law (2021)",
+          "source_url": "https://www.ballotready.org/people/ty-pinkins",
+          "snippet": "Degrees JD, Georgetown University, Public Interest Law (2020) Master's, Georgetown University, National Security Law (2021) Bachelor's, University of Maryland, Political Science and Government (2012)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [
@@ -810,23 +950,26 @@
       ],
       "platform_source_url": "https://www.typinkins.com/issues-1/housing",
       "_platform_resolved_at": "2026-08-17T16:15:45.853Z",
+      "campaign_site_url": "https://www.typinkins.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:08.412Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=3moBSGXxGNw",
+      "platform_video_title": "America Has No King: Stand Up Against Dictators Now! #shorts",
+      "platform_video_source_url": "https://www.typinkins.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:03:55.975Z",
+      "bio_summary": {
+        "value": "I believe the most important thing a leader must do is listen. And, this is the big thing that is missing in Washington today. That's why our campaign is driven by you talking, telling me what's important to you and your family; me listening, waking up each day thinking about what you say is important to your family and your community; and you and I working together to move Mississippi forward.",
+        "source_url": "https://www.typinkins.com/issues",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:57:09.181Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=3moBSGXxGNw",
-      "platform_video_title": "America Has No King: Stand Up Against Dictators Now! #shorts",
-      "platform_video_source_url": "https://www.typinkins.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:03:55.975Z",
-      "bio_summary": {
-        "value": "I believe the most important thing a leader must do is listen. And, this is the big thing that is missing in Washington today. That's why our campaign is driven by you talking, telling me what's important to you and your family; me listening, waking up each day thinking about what you say is important to your family and your community; and you and I working together to move Mississippi forward.",
-        "source_url": "https://www.typinkins.com/issues"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:57:09.181Z",
-      "campaign_site_url": "https://www.typinkins.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:08.412Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

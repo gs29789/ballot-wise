@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-17T15:39:38.311Z",
+  "generated_at": "2026-09-02T10:48:36.195Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://law.justia.com/codes/nevada/chapter-293/statute-293-175/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1612.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1614.1
+        "thousandsOfJobs": 1608.5
       },
       {
         "year": "2026",
@@ -473,13 +483,13 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7415919667.92,
-        "perCapitaUsd": 9439.68
+        "totalUsd": 7417138852.71,
+        "perCapitaUsd": 9441.24
       },
       {
         "year": "2024",
-        "totalUsd": 8678722419.31,
-        "perCapitaUsd": 11047.1
+        "totalUsd": 8678918362.31,
+        "perCapitaUsd": 11047.35
       },
       {
         "year": "2025",
@@ -549,23 +559,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.votecarriebuck.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.953Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=rovu46M1Jac",
+      "platform_video_title": "Carrie Buck B-Roll",
+      "platform_video_source_url": "https://carriebuckforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:03:33.109Z",
+      "bio_summary": {
+        "value": "From humble beginnings on a small farm, working soybean fields and selling sweet corn door-to-door, Carrie learned that nothing in life is given and everything is earned. Those invaluable life lessons carried her into Nevada classrooms, where, as a principal, she transformed one of Nevada’s lowest-performing schools into one of the state’s best. Later, she led the growth of the Pinecrest Academy charter school, providing parents with choices, students with opportunities, and teachers with the resources and support they needed to succeed.",
+        "source_url": "https://carriebuckforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:54:41.249Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=rovu46M1Jac",
-      "platform_video_title": "Carrie Buck B-Roll",
-      "platform_video_source_url": "https://carriebuckforcongress.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:03:33.109Z",
-      "bio_summary": {
-        "value": "From humble beginnings on a small farm, working soybean fields and selling sweet corn door-to-door, Carrie learned that nothing in life is given and everything is earned. Those invaluable life lessons carried her into Nevada classrooms, where, as a principal, she transformed one of Nevada’s lowest-performing schools into one of the state’s best. Later, she led the growth of the Pinecrest Academy charter school, providing parents with choices, students with opportunities, and teachers with the resources and support they needed to succeed.",
-        "source_url": "https://carriebuckforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:54:41.249Z",
-      "campaign_site_url": "https://www.votecarriebuck.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:05.953Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "afzal-khan",
@@ -619,16 +632,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://bobbykhanforcongress.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.954Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:37.450Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:43.261Z",
-      "campaign_site_url": "https://bobbykhanforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:05.954Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:22.484Z"
     },
     {
       "slug": "dina-titus",
@@ -683,14 +703,70 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "http://www.dinatitus.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:05.952Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=tmVSK4WYQbE",
+      "platform_video_title": "Agenda",
+      "platform_video_source_url": "https://www.dinatitus.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T13:19:00.877Z",
+      "bio_summary": {
+        "value": "Alice Constandina \" Dina \" Titus ( / ˈ t aɪ t ə s / TY -təss ; born May 23, 1950) is an American politician who has been the United States representative for Nevada's 1st congressional district since 2013. Previously, she served as the U.S. representative for Nevada's 3rd congressional district from 2009 to 2011. Titus is a member of the Democratic Party . Titus was first elected to the House in 2008. After losing re-election in 2010 to Joe Heck , she was re-elected to more Democratic seat in 2012, and has been re-elected ever since. Prior to her elections to Congress, Titus was a professor of political science at the University of Nevada, Las Vegas (UNLV), and was the Democratic nominee for governor of Nevada in 2006 , losing to Republican Jim Gibbons . ",
+        "source_url": "https://en.wikipedia.org/wiki/Dina_Titus",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:42:06.377Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Economic Development, Public Buildings, and Emergency Management",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Western Hemisphere",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Europe",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 251,
-        "bills_cosponsored": 4478,
+        "bills_cosponsored": 4484,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -720,28 +796,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 93,
-          "snapshotDate": "June 30, 2026",
+          "score": 90.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/T000468"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:37.807Z",
-      "bio_summary": {
-        "value": "Alice Constandina \" Dina \" Titus ( / ˈ t aɪ t ə s / TY -təss ; born May 23, 1950) is an American politician who has been the United States representative for Nevada's 1st congressional district since 2013. Previously, she served as the U.S. representative for Nevada's 3rd congressional district from 2009 to 2011. Titus is a member of the Democratic Party . Titus was first elected to the House in 2008. After losing re-election in 2010 to Joe Heck , she was re-elected to more Democratic seat in 2012, and has been re-elected ever since. Prior to her elections to Congress, Titus was a professor of political science at the University of Nevada, Las Vegas (UNLV), and was the Democratic nominee for governor of Nevada in 2006 , losing to Republican Jim Gibbons . ",
-        "source_url": "https://en.wikipedia.org/wiki/Dina_Titus",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:42:06.377Z",
-      "campaign_site_url": "http://www.dinatitus.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:05.952Z",
-      "_campaign_site_reachability": "reachable",
-      "platform_video_url": "https://www.youtube.com/watch?v=tmVSK4WYQbE",
-      "platform_video_title": "Agenda",
-      "platform_video_source_url": "https://www.dinatitus.com/",
-      "platform_video_tier": 1,
-      "platform_video_source_type": "campaign_site",
-      "_platform_video_resolved_at": "2026-09-01T13:19:00.877Z"
+      "_curated_match": false
     }
   ]
 }

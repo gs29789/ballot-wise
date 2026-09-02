@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-10",
-  "generated_at": "2026-08-18T20:34:41.683Z",
+  "generated_at": "2026-09-02T11:33:13.607Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5112
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5115.4
+        "thousandsOfJobs": 5112.7
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 7777446278.13,
-        "perCapitaUsd": 10373.51
+        "totalUsd": 7778401194.17,
+        "perCapitaUsd": 10374.78
       }
     ],
     "population": [
@@ -525,7 +535,19 @@
       "fec_candidate_id": "H6NC10174",
       "fec_status": "C",
       "bioguide_id": null,
-      "financials": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 84024.21,
+        "totalSpent": 57805.29,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 30263.13,
+          "largeDollar": 33734.91,
+          "pac": 1050,
+          "party": 2000,
+          "selfFunded": 14948.5
+        }
+      },
       "bio": {
         "employment_record": {
           "value": "practicing PA (Physician Assistant)",
@@ -558,23 +580,35 @@
       ],
       "platform_source_url": "https://www.ashleybellforcongress.com/",
       "_platform_resolved_at": "2026-08-14T13:42:09.917Z",
+      "campaign_site_url": "https://ashleybellforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:25.651Z",
       "platform_video_url": "https://www.youtube.com/watch?v=BojHfoFsgtY",
       "platform_video_title": "Don't Take Vaccine Advice from a Brain Worm",
       "platform_video_source_url": "https://www.ashleybellforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:05:07.893Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
       "bio_summary": {
         "value": "Ashley Bell is a PA running for Congress in NC-10. If you work in healthcare, she needs you in this fight.",
-        "source_url": "https://www.ashleybellforcongress.com/"
+        "source_url": "https://www.ashleybellforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:03:43.355Z",
-      "campaign_site_url": "https://ashleybellforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T23:03:25.651Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116114.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T11:32:54.615Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "steven-feldman",
@@ -584,7 +618,19 @@
       "fec_candidate_id": "H4NC10146",
       "fec_status": "C",
       "bioguide_id": null,
-      "financials": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 36856.55,
+        "totalSpent": 52775.95,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 50,
+          "largeDollar": 500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 36306.55
+        }
+      },
       "bio": {
         "civic_affiliations": {
           "value": "Boy Scouts",
@@ -612,22 +658,26 @@
       ],
       "platform_source_url": "https://www.stevefeldmanforcongress.com/",
       "_platform_resolved_at": "2026-08-14T13:42:15.103Z",
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:25.653Z",
       "platform_video_url": "https://www.youtube.com/watch?v=1ig77OyNyGk",
       "platform_video_title": "The issues that motivated Steve to run for Congress",
       "platform_video_source_url": "https://www.stevefeldmanforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:05:08.229Z",
+      "bio_summary": {
+        "value": "Hi, I’m Steve Feldman. I’m running to represent North Carolina’s 10th congressional district in Washington, D.C. View fullsize I’m in this race for the same reasons all the candidates are: to leave my children and children everywhere a better world. I am running now because our national debt has placed our country in financial peril and a foreign policy that uses violence to achieve peace is making our nation less safe.",
+        "source_url": "https://www.stevefeldmanforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:03:41.896Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Hi, I’m Steve Feldman. I’m running to represent North Carolina’s 10th congressional district in Washington, D.C. View fullsize I’m in this race for the same reasons all the candidates are: to leave my children and children everywhere a better world. I am running now because our national debt has placed our country in financial peril and a foreign policy that uses violence to achieve peace is making our nation less safe.",
-        "source_url": "https://www.stevefeldmanforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:03:41.896Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T23:03:25.653Z"
+      "_curated_match": false
     },
     {
       "slug": "pat-harrigan",
@@ -637,7 +687,19 @@
       "fec_candidate_id": "H2NC13243",
       "fec_status": "C",
       "bioguide_id": "H001101",
-      "financials": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1081820.85,
+        "totalSpent": 683387.33,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 81411.28,
+          "largeDollar": 537116.77,
+          "pac": 359925,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
       "bio": {
         "date_of_birth": {
           "value": "1987-06-21",
@@ -673,18 +735,109 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Border Security and Immigration",
+          "value": "Leading the fight to end chaos at the border, stop the flow of drugs and crime, and restore order and sovereignty to our homeland",
+          "snippet": "Congressman Harrigan is leading the fight to end chaos at the border, stop the flow of drugs and crime, and restore order and sovereignty to our homeland."
+        },
+        {
+          "topic": "Family Values",
+          "value": "Working to make the values that define North Carolina the values that guide our country, because strong families build a strong America",
+          "snippet": "Congressman Harrigan is working to make the values that define North Carolina the values that guide our country, because strong families build a strong America."
+        },
+        {
+          "topic": "Artificial Intelligence Regulation",
+          "value": "Co-led bipartisan legislation to help the federal government better understand how quickly the most advanced AI systems are evolving, particularly their ability to conduct research and contribute to the development of new AI systems with limited human involvement",
+          "snippet": "Congressman Pat Harrigan (NC-10) joined Congressman George Whitesides (D-CA-27) in introducing the bipartisan Self-Improving AI Monitoring Act, legislation to help the federal government better understand how quickly the most advanced AI systems are evolving, particularly their ability to conduct research and contribute to the development of new AI systems with limited human involvement."
+        }
+      ],
+      "platform_source_url": "https://harrigan.house.gov/",
+      "_platform_resolved_at": "2026-09-02T11:32:42.625Z",
+      "campaign_site_url": "http://www.harriganforcongress.com/",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:25.652Z",
       "platform_video_url": "https://www.youtube.com/watch?v=lpHqcLHFd8c",
       "platform_video_title": "Pat Harrigan for Congress",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-30T12:00:22.624Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "bio_summary": {
+        "value": "Patrick Luke Harrigan [ 1 ] (born June 21, 1987) [ 2 ] is an American politician, engineer, and former Army Special Forces officer serving as the U.S. representative for North Carolina's 10th congressional district since 2025. He is a member of the Republican Party . ",
+        "source_url": "https://en.wikipedia.org/wiki/Pat_Harrigan",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:40:11.717Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10081474.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T11:33:00.071Z",
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 292,
+          "votesCast": 288,
+          "attendanceRate": 0.9863013698630136
+        },
         "committees": [
           {
             "committee": "House Committee on Science, Space, and Technology",
@@ -723,7 +876,7 @@
           }
         ],
         "bills_sponsored": 30,
-        "bills_cosponsored": 311,
+        "bills_cosponsored": 316,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -733,24 +886,13 @@
           "sourceUrl": "https://voteview.com/person/H001101"
         },
         "bridge_score": {
-          "grade": "C",
-          "score": 34,
-          "snapshotDate": "June 30, 2026",
+          "grade": "B",
+          "score": 54.6,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001101"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Patrick Luke Harrigan [ 1 ] (born June 21, 1987) [ 2 ] is an American politician, engineer, and former Army Special Forces officer serving as the U.S. representative for North Carolina's 10th congressional district since 2025. He is a member of the Republican Party . ",
-        "source_url": "https://en.wikipedia.org/wiki/Pat_Harrigan",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:40:11.717Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:22.624Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "http://www.harriganforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-31T23:03:25.652Z",
-      "_campaign_site_reachability": "dead"
+      "_curated_match": false
     }
   ]
 }

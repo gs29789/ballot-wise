@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-14",
-  "generated_at": "2026-08-21T12:26:20.689Z",
+  "generated_at": "2026-09-02T12:07:41.697Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.5
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 14468
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 14469.6
+        "thousandsOfJobs": 14466.4
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155163597.59,
-        "perCapitaUsd": 6674.23
+        "totalUsd": 5155559241.27,
+        "perCapitaUsd": 6674.74
       }
     ],
     "population": [
@@ -562,6 +572,12 @@
           "source_url": "https://www.ballotready.org/people/thurman-bartie",
           "snippet": "Degrees Doctorate, Tennessee Temple University, Organizational Leadership (2013) Master's, Tennessee Temple University, Theology and Theological (2007) Bachelor's, Lamar University, Political Science and Government (1992)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "public service, education, ministry, and community leadership",
+          "source_url": "https://votebartie.org/",
+          "snippet": "A lifelong Port Arthur native, former Mayor Thurman Bill Bartie has dedicated his career to public service, education, ministry, and community leadership.",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
       "platform": [
@@ -599,23 +615,25 @@
       "platform_source_url": "https://votebartie.org/",
       "_platform_resolved_at": "2026-08-21T12:25:53.267Z",
       "campaign_site_url": "https://votebartie.org/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "A lifelong Port Arthur native, former Mayor Thurman Bill Bartie has dedicated his career to public service, education, ministry, and community leadership. From his historic election as the first African American Justice of the Peace in Precinct 8 to his work as former Mayor, his life reflects commitment, compassion, and integrity. Learn more about his story and vision for Congressional District 14 (TX).",
-        "source_url": "https://votebartie.org/"
+        "source_url": "https://votebartie.org/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:25:59.228Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:35.101Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "randy-weber",
@@ -683,14 +701,18 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.randyweber.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Randy Weber is a Christian, conservative, pro-life, anti-socialist and second amendment supporter fighting to make our Texas values heard in Washington, D.C. Randy is a third-generation Texan who has called the Gulf Coast home for nearly 70 years. He has lived in a 20-mile radius his entire life. He is a graduate of Ross Sterling High School, Alvin Community College, and the University of Houston Clear Lake. As a small business owner, Weber built his air conditioning company on a strong work ethic and common sense, which he learned from watching his father own his business.",
-        "source_url": "https://www.randyweber.org/about-randy"
+        "source_url": "https://www.randyweber.org/about-randy",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:26:09.652Z",
       "financial_disclosure": null,
@@ -731,7 +753,7 @@
           }
         ],
         "bills_sponsored": 108,
-        "bills_cosponsored": 3115,
+        "bills_cosponsored": 3125,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -742,14 +764,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 33.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000814"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:35.472Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

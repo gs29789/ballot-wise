@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-13T17:32:56.352Z",
+  "generated_at": "2026-09-02T13:18:32.705Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://oregon.public.law/statutes/ors_254.056",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/or/oregon-constitution/or-const-art-iv-sect-8/",
     "snippet": "Or. Const. Art. IV, § 8(4): \"A person is not eligible to be elected as a Senator or Representative if that person has been convicted of a felony and has not completed the sentence received for the conviction prior to the date that person would take office if elected.\" [Located within Article IV, the Legislative Department article governing the Oregon Legislative Assembly — not Congress.]"
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Oregon%27s_3rd_Congressional_District_election,_2026",
     "snippet": "Incumbent Maxine Dexter and Loran Ayles are running in the general election for U.S. House Oregon District 3 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -246,7 +252,7 @@
       },
       {
         "year": "2023",
-        "ratePer100k": 25.36
+        "ratePer100k": 25.39
       },
       {
         "year": "2024",
@@ -254,14 +260,19 @@
       },
       {
         "year": "2025",
-        "ratePer100k": 25.14
+        "ratePer100k": 25.26
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1963.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1965.4
+        "thousandsOfJobs": 1967.3
       },
       {
         "year": "2026",
@@ -477,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 5993492091.36,
-        "perCapitaUsd": 8429.76
+        "totalUsd": 5996060276.47,
+        "perCapitaUsd": 8433.37
       },
       {
         "year": "2025",
-        "totalUsd": 6082750671.26,
-        "perCapitaUsd": 8555.3
+        "totalUsd": 6082813302.54,
+        "perCapitaUsd": 8555.39
       }
     ],
     "population": [
@@ -575,6 +586,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.maxinefororegon.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:20.433Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Maxine Elizabeth Dexter (née Johnson , born December 5, 1972) is an American physician and politician serving as the U.S. representative for Oregon's 3rd congressional district since 2025. The district includes most of Portland east of the Willamette River . A member of the Democratic Party , she previously represented the 33rd district of the Oregon House of Representatives from 2020 to 2024, which covers parts of Northwest Portland , as well as Cedar Mill , Oak Hills , and most of Bethany . In May 2024, Dexter won the Democratic primary for Oregon's 3rd district after facing fellow Portland Democrat Susheela Jayapal . She was elected to the United States House of Representatives on November 5, 2024.",
+        "source_url": "https://en.wikipedia.org/wiki/Maxine_Dexter",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:12:12.529Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -630,11 +656,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 200,
-          "votesCast": 199,
-          "attendanceRate": 0.995
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -668,7 +690,7 @@
           }
         ],
         "bills_sponsored": 17,
-        "bills_cosponsored": 360,
+        "bills_cosponsored": 370,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -689,22 +711,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 26.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 26.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/D000635"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:19.357Z",
-      "bio_summary": {
-        "value": "Maxine Elizabeth Dexter (née Johnson , born December 5, 1972) is an American physician and politician serving as the U.S. representative for Oregon's 3rd congressional district since 2025. The district includes most of Portland east of the Willamette River . A member of the Democratic Party , she previously represented the 33rd district of the Oregon House of Representatives from 2020 to 2024, which covers parts of Northwest Portland , as well as Cedar Mill , Oak Hills , and most of Bethany . In May 2024, Dexter won the Democratic primary for Oregon's 3rd district after facing fellow Portland Democrat Susheela Jayapal . She was elected to the United States House of Representatives on November 5, 2024.",
-        "source_url": "https://en.wikipedia.org/wiki/Maxine_Dexter",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T00:12:12.529Z",
-      "campaign_site_url": "https://www.maxinefororegon.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:20.433Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": false
     }
   ]
 }

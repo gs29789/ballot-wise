@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-18T20:25:05.660Z",
+  "generated_at": "2026-09-02T10:46:00.645Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.ksrevisor.gov/statutes/chapters/ch25/025_002_0003.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.8
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1470.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1472.2
+        "thousandsOfJobs": 1470
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4873639536.05,
-        "perCapitaUsd": 6648.55
+        "totalUsd": 4873869613.05,
+        "perCapitaUsd": 6648.86
       },
       {
         "year": "2024",
-        "totalUsd": 5274108826.87,
-        "perCapitaUsd": 7194.86
+        "totalUsd": 5275338503.87,
+        "perCapitaUsd": 7196.54
       },
       {
         "year": "2025",
-        "totalUsd": 5997667138.05,
-        "perCapitaUsd": 8181.93
+        "totalUsd": 6001623139.21,
+        "perCapitaUsd": 8187.33
       }
     ],
     "population": [
@@ -576,15 +586,81 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.shariceforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T22:47:55.807Z",
       "platform_video_url": "https://www.youtube.com/watch?v=oMrzSj62OIE",
       "platform_video_title": "CNN: Rep. Sharice Davids Blasts Kansas GOP Politicians for Bringing Washington Dysfunction to Kansas",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-23T12:00:33.451Z",
+      "bio_summary": {
+        "value": "Sharice Lynnette Davids ( / ʃ ə ˈ r i s / ; [ 1 ] born May 22, 1980) is an American politician, attorney, and former mixed martial artist serving as the U.S. representative from Kansas's 3rd congressional district since 2019. [ 2 ] A member of the Democratic Party , she represents a district that includes most of the Kansas side of the Kansas City metropolitan area , including Kansas City , Overland Park , Prairie Village , Leawood , Lenexa , and Olathe . Davids was elected in 2018 and became the first Democrat to represent a Kansas congressional district in a decade. [ 3 ] She is the first openly LGBT Native American elected to the United States Congress , the first openly LGBT person elected to the United States Congress from Kansas , and one of the first two Native American women (alongside Deb Haaland ) elected to the United States Congress . [ 4 ] [ 5 ] [ 6 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Sharice_Davids",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:37:33.795Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 202,
+          "votesCast": 198,
+          "attendanceRate": 0.9801980198019802
+        },
         "committees": [
           {
             "committee": "House Committee on Transportation and Infrastructure",
@@ -617,8 +693,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 70,
-        "bills_cosponsored": 1551,
+        "bills_sponsored": 71,
+        "bills_cosponsored": 1558,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -629,23 +705,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 98.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 97.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/D000629"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:33.451Z",
-      "platform_video_tier": 2,
-      "bio_summary": {
-        "value": "Sharice Lynnette Davids ( / ʃ ə ˈ r i s / ; [ 1 ] born May 22, 1980) is an American politician, attorney, and former mixed martial artist serving as the U.S. representative from Kansas's 3rd congressional district since 2019. [ 2 ] A member of the Democratic Party , she represents a district that includes most of the Kansas side of the Kansas City metropolitan area , including Kansas City , Overland Park , Prairie Village , Leawood , Lenexa , and Olathe . Davids was elected in 2018 and became the first Democrat to represent a Kansas congressional district in a decade. [ 3 ] She is the first openly LGBT Native American elected to the United States Congress , the first openly LGBT person elected to the United States Congress from Kansas , and one of the first two Native American women (alongside Deb Haaland ) elected to the United States Congress . [ 4 ] [ 5 ] [ 6 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Sharice_Davids",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:37:33.795Z",
-      "campaign_site_url": "https://www.shariceforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:47:55.807Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": false
     },
     {
       "slug": "eric-jenkins",
@@ -729,24 +794,27 @@
       ],
       "platform_source_url": "https://ericjenkinsforkansas.com/",
       "_platform_resolved_at": "2026-08-12T22:25:47.193Z",
+      "campaign_site_url": "https://ericjenkinsforkansas.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:47:55.797Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Eric Jenkins was born at Fort Leavenworth, Kansas — a fitting birthplace for a man whose life would be defined by service. From the earliest days, duty and community shaped who he is. Over the decades since, he has worn many hats: soldier, combat veteran, planner, emergency management professional, local elected official, and above all, family man.",
+        "source_url": "https://ericjenkinsforkansas.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:53:36.721Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Eric Jenkins was born at Fort Leavenworth, Kansas — a fitting birthplace for a man whose life would be defined by service. From the earliest days, duty and community shaped who he is. Over the decades since, he has worn many hats: soldier, combat veteran, planner, emergency management professional, local elected official, and above all, family man.",
-        "source_url": "https://ericjenkinsforkansas.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:53:36.721Z",
-      "_tier2_search_attempted_at": "2026-08-23T12:00:33.824Z",
-      "campaign_site_url": "https://ericjenkinsforkansas.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:47:55.797Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:22.149Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-17T15:31:27.264Z",
+  "generated_at": "2026-09-02T11:01:03.842Z",
   "election_dates": {
     "primaryDate": "2026-03-10",
     "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1196.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1192.2
+        "thousandsOfJobs": 1192.3
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5002047257.46,
-        "perCapitaUsd": 6709.42
+        "totalUsd": 5002654610.46,
+        "perCapitaUsd": 6710.23
       },
       {
         "year": "2024",
-        "totalUsd": 5270087183.63,
-        "perCapitaUsd": 7068.95
+        "totalUsd": 5271112144.31,
+        "perCapitaUsd": 7070.33
       },
       {
         "year": "2025",
-        "totalUsd": 5479222421.13,
-        "perCapitaUsd": 7349.47
+        "totalUsd": 5480191127.13,
+        "perCapitaUsd": 7350.77
       }
     ],
     "population": [
@@ -582,6 +592,21 @@
       ],
       "platform_source_url": "https://michaelachiaradio.com/",
       "_platform_resolved_at": "2026-08-13T17:17:54.629Z",
+      "campaign_site_url": "https://michaelachiaradio.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:02.680Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=iMGd1GgYt5U",
+      "platform_video_title": "Mississippi needs a SERIOUS infrastructure plan and I’m gonna fight to make it happen!",
+      "platform_video_source_url": "https://michaelachiaradio.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:03:53.046Z",
+      "bio_summary": {
+        "value": "Michael A. Chiaradio is a farmer and entrepreneur who raises sheep, pigs, and cows in Shubuta, Mississippi. Before starting his farm, Chiaradio earned an MBA from Felician University. He spent four years supervising teams at a global public company that supported the Affordable Care Act and he played in the inaugural season of what later became the Empire Professional Baseball League. His campaign for the United States House of Representatives in 2026 is focused on intelligent public investment that will drive economic competitiveness in rural economies, reinvigorate American industry, and directly benefit the American people.",
+        "source_url": "https://michaelachiaradio.com/about-me/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:36.824Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077215.pdf",
         "filingDate": "5/9/2026",
@@ -595,19 +620,7 @@
       "_financial_disclosure_resolved_at": "2026-08-17T15:30:54.833Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=iMGd1GgYt5U",
-      "platform_video_title": "Mississippi needs a SERIOUS infrastructure plan and I’m gonna fight to make it happen!",
-      "platform_video_source_url": "https://michaelachiaradio.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:03:53.046Z",
-      "bio_summary": {
-        "value": "Michael A. Chiaradio is a farmer and entrepreneur who raises sheep, pigs, and cows in Shubuta, Mississippi. Before starting his farm, Chiaradio earned an MBA from Felician University. He spent four years supervising teams at a global public company that supported the Affordable Care Act and he played in the inaugural season of what later became the Empire Professional Baseball League. His campaign for the United States House of Representatives in 2026 is focused on intelligent public investment that will drive economic competitiveness in rural economies, reinvigorate American industry, and directly benefit the American people.",
-        "source_url": "https://michaelachiaradio.com/about-me/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:36.824Z",
-      "campaign_site_url": "https://michaelachiaradio.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:02.680Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "michael-guest",
@@ -674,14 +687,65 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.michaelguest.ms",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:02.686Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Currently serving in his third term in the U.S. House of Representatives, Mississippi's Third District Congressman Michael Guest serves as Chairman of the Ethics Committee, and Vice Chairman of the Homeland Security Committee where he serves on the Subcommittee on Border Security, Facilitation, and Operations. Additionally, Congressman Guest is a member of the House Appropriations Committee where he serves on the Subcommittee on Energy and Water Development, and Related Agencies, the Subcommittee on Homeland Security, and the Subcommittee on Military Construction, Veterans Affairs, and Related Agencies.",
+        "source_url": "https://michaelguest.ms/about-michael/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:34.142Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
-        "bills_sponsored": 54,
-        "bills_cosponsored": 1149,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ethics",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Border Security and Enforcement",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Energy and Water Development and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 57,
+        "bills_cosponsored": 1150,
         "bills_became_law": 3,
         "enacted_laws": [
           {
@@ -720,21 +784,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 29.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000591"
         }
       },
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Currently serving in his third term in the U.S. House of Representatives, Mississippi's Third District Congressman Michael Guest serves as Chairman of the Ethics Committee, and Vice Chairman of the Homeland Security Committee where he serves on the Subcommittee on Border Security, Facilitation, and Operations. Additionally, Congressman Guest is a member of the House Appropriations Committee where he serves on the Subcommittee on Energy and Water Development, and Related Agencies, the Subcommittee on Homeland Security, and the Subcommittee on Military Construction, Veterans Affairs, and Related Agencies.",
-        "source_url": "https://michaelguest.ms/about-michael/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:34.142Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:14.430Z",
-      "campaign_site_url": "https://www.michaelguest.ms",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:02.686Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:24.496Z"
     },
     {
       "slug": "erik-kiehle",
@@ -789,20 +845,27 @@
       ],
       "platform_source_url": "https://kiehle4congress.us/",
       "_platform_resolved_at": "2026-08-13T17:17:58.546Z",
+      "campaign_site_url": "https://kiehle4congress.us/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T10:48:24.478Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Erik Kiehle is a strong believer in America First. Erik lives in the Meridian, MS area of Lauderdale County and is running for MS District 3 to serve in the US House of Representatives. Erik Kiehle is a dedicated candidate running to represent the great state of Mississippi. With a passion for serving the community and a commitment to making a difference, Erik is focused on creating a brighter future for all Americans. Erik is a father, a local businessman in property management, a volunteer firefighter for two departments in Lauderdale County, and a private pilot.",
+        "source_url": "https://kiehle4congress.us/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:27.981Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Erik Kiehle is a strong believer in America First. Erik lives in the Meridian, MS area of Lauderdale County and is running for MS District 3 to serve in the US House of Representatives. Erik Kiehle is a dedicated candidate running to represent the great state of Mississippi. With a passion for serving the community and a commitment to making a difference, Erik is focused on creating a brighter future for all Americans. Erik is a father, a local businessman in property management, a volunteer firefighter for two departments in Lauderdale County, and a private pilot.",
-        "source_url": "https://kiehle4congress.us/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:27.981Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:14.759Z",
-      "campaign_site_url": "https://kiehle4congress.us/",
-      "_campaign_site_discovered_at": "2026-09-01T10:48:24.478Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:24.809Z"
     }
   ]
 }

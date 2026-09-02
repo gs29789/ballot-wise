@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-14T13:07:13.685Z",
+  "generated_at": "2026-09-02T11:27:34.019Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/constitution/wisconsin/article-xiii/section-3/",
     "snippet": "Wis. Const. Art. XIII, § 3: \"No person convicted of a felony, in any court within the United States... shall be eligible to any office of trust, profit or honor in this state unless pardoned of the conviction. No person may seek to have placed on any ballot for a state or local elective office in this state the name of a person convicted of a felony... unless the person named for the ballot has been pardoned of the conviction.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Wisconsin%27s_1st_Congressional_District_election,_2026",
     "snippet": "Incumbent Bryan Steil and Mitchell Berman are running in the general election for U.S. House Wisconsin District 1 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -250,18 +256,23 @@
       },
       {
         "year": "2024",
-        "ratePer100k": 20.73
+        "ratePer100k": 20.72
       },
       {
         "year": "2025",
-        "ratePer100k": 17.88
+        "ratePer100k": 17.87
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3042.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3041
+        "thousandsOfJobs": 3041.7
       },
       {
         "year": "2026",
@@ -482,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 7401162439.89,
-        "perCapitaUsd": 10028.32
+        "totalUsd": 7401424836.89,
+        "perCapitaUsd": 10028.68
       }
     ],
     "population": [
@@ -561,6 +572,12 @@
           "source_url": "https://www.ballotready.org/people/mitchell-berman",
           "snippet": "U.S. Department of Veterans Affairs, Registered Nurse (2014 - 2025) Wheaton Franciscan Healthcare, Registered Nurse (2013 - 2014) Wheaton Franciscan Healthcare, Registered Nurse (2010 - 2013)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "union member with Wisconsin Federation of Nurses and Health Professionals and National Nurses United",
+          "source_url": "https://www.bermanforcongress.com/",
+          "snippet": "has been a proud union member at each organized facility he's worked, including with the Wisconsin Federation of Nurses and Health Professionals and, most recently, National Nurses United",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -587,23 +604,26 @@
       ],
       "platform_source_url": "https://www.bermanforcongress.com/",
       "_platform_resolved_at": "2026-08-14T13:06:35.933Z",
+      "campaign_site_url": "https://www.bermanforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:39.224Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=EyUhiWL-J8M",
+      "platform_video_title": "Working People | Berman for Congress",
+      "platform_video_source_url": "https://www.bermanforcongress.com/media",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:44:06.632Z",
+      "bio_summary": {
+        "value": "Mitchell Berman was raised in a one-stoplight town in rural Wisconsin where neighbors looked out for one another and values like community, honesty, and integrity weren't just taught – they were lived. His father built a small roofing business from the ground up and his mother worked long hours grinding pistons at the local foundry. Growing up, Mitchell spent his days hunting, fishing and going to church. His parents taught him to work hard, lend a hand, and root for the Packers. A proud product of Wisconsin's public schools, Mitchell was the first in his family to graduate from college – earning his degree while working three jobs, living paycheck to paycheck, and taking out student loans.",
+        "source_url": "https://www.bermanforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:48.857Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=EyUhiWL-J8M",
-      "platform_video_title": "Working People | Berman for Congress",
-      "platform_video_source_url": "https://www.bermanforcongress.com/media",
-      "_platform_video_resolved_at": "2026-08-18T22:44:06.632Z",
-      "bio_summary": {
-        "value": "Mitchell Berman was raised in a one-stoplight town in rural Wisconsin where neighbors looked out for one another and values like community, honesty, and integrity weren't just taught – they were lived. His father built a small roofing business from the ground up and his mother worked long hours grinding pistons at the local foundry. Growing up, Mitchell spent his days hunting, fishing and going to church. His parents taught him to work hard, lend a hand, and root for the Packers. A proud product of Wisconsin's public schools, Mitchell was the first in his family to graduate from college – earning his degree while working three jobs, living paycheck to paycheck, and taking out student loans.",
-        "source_url": "https://www.bermanforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:00:48.857Z",
-      "campaign_site_url": "https://www.bermanforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:39.224Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "bryan-steil",
@@ -670,6 +690,17 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.steilforwisconsin.com/",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:39.218Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=mIZXmJRo7eM",
+      "platform_video_title": "\"Solutions\" | Bryan Steil for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:11.330Z",
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -708,8 +739,8 @@
           }
         ],
         "bills_sponsored": 99,
-        "bills_cosponsored": 618,
-        "bills_became_law": 0,
+        "bills_cosponsored": 619,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "House Office of Legislative Counsel Modernization Act",
@@ -729,21 +760,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 33.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 31.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001213"
         }
       },
-      "_curated_match": false,
-      "campaign_site_url": "https://www.steilforwisconsin.com/",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:39.218Z",
-      "_campaign_site_reachability": "dead",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:11.330Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=mIZXmJRo7eM",
-      "platform_video_title": "\"Solutions\" | Bryan Steil for Congress",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-30T12:00:11.330Z"
+      "_curated_match": false
     }
   ]
 }

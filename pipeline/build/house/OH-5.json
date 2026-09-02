@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-16T22:20:15.591Z",
+  "generated_at": "2026-09-02T11:46:00.718Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5690
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5687.6
+        "thousandsOfJobs": 5684.9
       },
       {
         "year": "2026",
@@ -530,16 +540,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://daltonfranklinforcongress.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:15.330Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_no_site_search_attempted_at": "2026-08-30T20:55:50.529Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:12.891Z",
-      "campaign_site_url": "https://daltonfranklinforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:15.330Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:34.544Z"
     },
     {
       "slug": "robert-latta",
@@ -583,16 +600,98 @@
           "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
           "snippet": "Latta worked as a private practice attorney before entering politics. Ohio political career [ edit ] Latta served as a Wood County Commissioner from 1991 to 1996.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "married to Marcia Sloan in 1986",
+          "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
+          "snippet": "He and his wife, Marcia",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Veterans Casework Assistance",
+          "value": "My office stands ready to assist veterans with ensuring they receive a response from the VA to see a doctor or if they are having trouble receiving ID cards or service records, and I will always promote the interests and well-being of our veterans.",
+          "snippet": "Whether it is ensuring veterans receive a response from the VA to see a doctor or if they are having trouble receiving ID cards or service records – my office stands ready to assist. Veterans who need assistance may call my Bowling Green office at (419) 354-8700 or CLICK HERE to send a message. For more information on casework services, CLICK HERE . While we cannot guarantee a specific outcome, we will do our best to assist by seeking solutions or cutting through bureaucratic red tape. This is a very important and integral part of my job, and I will always promote the interests and well-being of our veterans."
+        }
+      ],
+      "platform_source_url": "https://latta.house.gov/issues/issue/?IssueID=4520",
+      "_platform_resolved_at": "2026-09-02T11:44:27.873Z",
+      "campaign_site_url": "http://www.lattaforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:18:41.915Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Robert Edward Latta ( / ˈ l æ t ə / LAT -ə ; born April 18, 1956) is an American politician who is the United States representative for Ohio's 5th congressional district . Currently in his 10th term, Latta has served in Congress since 2007, and prior to that he served four terms in the Ohio House of Representatives . He is a member of the Republican Party . The fifth district includes many of Toledo 's suburbs, as well as Findlay , Bowling Green , Tiffin , Napoleon , Sylvania , Defiance and Van Wert , and a sliver of Toledo itself. ",
+        "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:28:16.642Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 241,
+          "votesCast": 241,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Energy and Commerce",
@@ -615,9 +714,9 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 241,
-        "bills_cosponsored": 2325,
-        "bills_became_law": 0,
+        "bills_sponsored": 242,
+        "bills_cosponsored": 2330,
+        "bills_became_law": 6,
         "enacted_laws": [
           {
             "title": "DEBAR Act of 2021",
@@ -682,22 +781,13 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 61.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 65.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000566"
         }
       },
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Robert Edward Latta ( / ˈ l æ t ə / LAT -ə ; born April 18, 1956) is an American politician who is the United States representative for Ohio's 5th congressional district . Currently in his 10th term, Latta has served in Congress since 2007, and prior to that he served four terms in the Ohio House of Representatives . He is a member of the Republican Party . The fifth district includes many of Toledo 's suburbs, as well as Findlay , Bowling Green , Tiffin , Napoleon , Sylvania , Defiance and Van Wert , and a sliver of Toledo itself. ",
-        "source_url": "https://en.wikipedia.org/wiki/Bob_Latta",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:28:16.642Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:13.414Z",
-      "campaign_site_url": "http://www.lattaforcongress.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:18:41.915Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:35.042Z"
     },
     {
       "slug": "brian-shaver",
@@ -786,20 +876,27 @@
       ],
       "platform_source_url": "https://www.brianshaverforcongress.com/",
       "_platform_resolved_at": "2026-08-14T14:18:56.160Z",
+      "campaign_site_url": "https://brianshaverforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:15.326Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Brian Shaver is a candidate for Ohio's 5th Congressional District and dedicated to people-centric governance, focusing on practical solutions that transcend partisan politics for a better, more united America. A lifelong Northwest Ohioan, born and raised in Fostoria, where he still lives on a small family farm with his wife, Elizabeth, and daughter, Genevieve. Brian is the current President of the Fostoria City Council and teaches social studies at Fostoria Junior/Senior High School.",
+        "source_url": "https://www.brianshaverforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:30.585Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Brian Shaver is a candidate for Ohio's 5th Congressional District and dedicated to people-centric governance, focusing on practical solutions that transcend partisan politics for a better, more united America. A lifelong Northwest Ohioan, born and raised in Fostoria, where he still lives on a small family farm with his wife, Elizabeth, and daughter, Genevieve. Brian is the current President of the Fostoria City Council and teaches social studies at Fostoria Junior/Senior High School.",
-        "source_url": "https://www.brianshaverforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:05:30.585Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:13.842Z",
-      "campaign_site_url": "https://brianshaverforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:15.326Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:35.528Z"
     }
   ]
 }

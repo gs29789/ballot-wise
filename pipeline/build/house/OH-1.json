@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-17T00:09:30.694Z",
+  "generated_at": "2026-09-02T11:38:25.710Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5690
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5687.6
+        "thousandsOfJobs": 5684.9
       },
       {
         "year": "2026",
@@ -544,6 +554,12 @@
           "source_url": "https://ericconroy.com/",
           "snippet": "graduating from the U.S. Air Force Academy near the top of his class, rising to the rank of Captain in Special Operations units, and later serving with the CIA as a Case Officer where he conducted high-risk intelligence missions that kept Americans safe",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "U.S. Air Force Academy",
+          "source_url": "https://ericconroy.com/",
+          "snippet": "graduating from the U.S. Air Force Academy near the top of his class",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -575,6 +591,21 @@
       ],
       "platform_source_url": "https://ericconroy.com/issues/",
       "_platform_resolved_at": "2026-08-14T14:14:24.403Z",
+      "campaign_site_url": "https://ericconroy.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:08.151Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=pynKGv1f2t8",
+      "platform_video_title": "Eric Talks Trump's Venezuela Policy on Newsmax",
+      "platform_video_source_url": "https://ericconroy.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:05:30.061Z",
+      "bio_summary": {
+        "value": "Eric Conroy’s mission began on the West Side of Cincinnati, where four generations of blue-collar grit and a World War II veteran grandfather taught him that service is bigger than self. After 9/11, Eric answered his generation’s call, graduating from the U.S. Air Force Academy near the top of his class, rising to the rank of Captain in Special Operations units, and later serving with the CIA as a Case Officer where he conducted high-risk intelligence missions that kept Americans safe.",
+        "source_url": "https://ericconroy.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:21.942Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077621.pdf",
         "filingDate": "6/13/2026",
@@ -588,19 +619,7 @@
       "_financial_disclosure_resolved_at": "2026-08-16T23:13:21.293Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=pynKGv1f2t8",
-      "platform_video_title": "Eric Talks Trump's Venezuela Policy on Newsmax",
-      "platform_video_source_url": "https://ericconroy.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:05:30.061Z",
-      "bio_summary": {
-        "value": "Eric Conroy’s mission began on the West Side of Cincinnati, where four generations of blue-collar grit and a World War II veteran grandfather taught him that service is bigger than self. After 9/11, Eric answered his generation’s call, graduating from the U.S. Air Force Academy near the top of his class, rising to the rank of Captain in Special Operations units, and later serving with the CIA as a Case Officer where he conducted high-risk intelligence missions that kept Americans safe.",
-        "source_url": "https://ericconroy.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:05:21.942Z",
-      "campaign_site_url": "https://ericconroy.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:08.151Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "john-hancock",
@@ -625,11 +644,27 @@
       },
       "bio": {
         "high_school": null,
-        "employment_record": null
+        "employment_record": {
+          "value": "Engineering",
+          "source_url": "https://www.ballotready.org/people/john-d-hancock",
+          "snippet": "Professional Experience Engineering",
+          "source_type": "llm_extracted_ballotready"
+        }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://hancock4liberty.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:07.944Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075575.pdf",
         "filingDate": "4/14/2026",
@@ -644,11 +679,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:34.604Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:55:47.989Z",
-      "campaign_site_url": "https://hancock4liberty.com/",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:07.944Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:32.361Z"
     },
     {
       "slug": "greg-landsman",
@@ -715,6 +746,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://landsmanforcongress.com/",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:08.152Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Gregory John Landsman (born December 4, 1976) [ 1 ] is an American politician who has been the U.S. representative from Ohio's 1st congressional district since 2023. The district is based in Cincinnati , and includes most of its inner suburbs. A member of the Democratic Party , Landsman served on the Cincinnati City Council from 2018 to 2022. [ 2 ] He was elected to the United States House of Representatives in the 2022 election , defeating 13-term incumbent Steve Chabot . He is described as a centrist Democrat . [ 3 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Greg_Landsman",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:43:04.939Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074384.pdf",
         "filingDate": "4/20/2026",
@@ -751,8 +797,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 49,
-        "bills_cosponsored": 970,
+        "bills_sponsored": 50,
+        "bills_cosponsored": 977,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -763,99 +809,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 91.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 88.5,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000601"
         }
       },
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Gregory John Landsman (born December 4, 1976) [ 1 ] is an American politician who has been the U.S. representative from Ohio's 1st congressional district since 2023. The district is based in Cincinnati , and includes most of its inner suburbs. A member of the Democratic Party , Landsman served on the Cincinnati City Council from 2018 to 2022. [ 2 ] He was elected to the United States House of Representatives in the 2022 election , defeating 13-term incumbent Steve Chabot . He is described as a centrist Democrat . [ 3 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Greg_Landsman",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:43:04.939Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:34.957Z",
-      "campaign_site_url": "https://landsmanforcongress.com/",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:08.152Z",
-      "_campaign_site_reachability": "dead"
-    },
-    {
-      "slug": "nathan-weise",
-      "full_name": "WEISE, NATHAN",
-      "party": "LIBERTARIAN PARTY",
-      "incumbent": false,
-      "fec_candidate_id": "H6OH01229",
-      "fec_status": "N",
-      "bioguide_id": null,
-      "financials": null,
-      "bio": {
-        "high_school": {
-          "value": "Cincinnati Public Schools",
-          "source_url": "https://www.weiseforcongress.com/about-me",
-          "snippet": "A proud graduate of Cincinnati Public Schools",
-          "source_type": "llm_extracted_campaign_site"
-        },
-        "college": {
-          "value": "Bachelor's degree, University of Cincinnati (2013); graduate degree, Grand Canyon University (2019)",
-          "source_url": "https://ballotpedia.org/Nathan_Weise",
-          "snippet": "Nathan Weise earned a bachelor's degree from the University of Cincinnati in 2013 and a graduate degree from Grand Canyon University in 2019."
-        },
-        "employment_record": {
-          "value": "Software engineer",
-          "source_url": "https://ballotpedia.org/Nathan_Weise",
-          "snippet": "Weise's career experience includes working as a software engineer."
-        },
-        "civic_affiliations": {
-          "value": "Chair of the Libertarian Party of Hamilton County, Ohio delegate to the Libertarian National Convention",
-          "source_url": "https://www.weiseforcongress.com/about-me",
-          "snippet": "Nathan has served in several leadership roles within the Libertarian Party, including Communications Director for the Libertarian Party of Ohio and Ohio delegate to the Libertarian National Convention. He currently serves as Chair of the Libertarian Party of Hamilton County",
-          "source_type": "llm_extracted_campaign_site"
-        }
-      },
-      "platform": [
-        {
-          "topic": "Government Spending and Inflation",
-          "value": "Supports responsible spending reforms to address inflation and make life more affordable for Ohioans",
-          "snippet": "Reckless government spending has fueled inflation, driving up the cost of groceries, housing, healthcare, childcare, and higher education. Nathan supports responsible spending reforms and policies that make homeownership more attainable, helping families keep more of what they earn and achieve long-term financial stability."
-        },
-        {
-          "topic": "Government Mass Surveillance",
-          "value": "Opposes government mass surveillance as a violation of the Fourth Amendment and believes Americans should be free from unwarranted government monitoring",
-          "snippet": "Government mass surveillance is dangerous. Not only is it a violation of the Fourth Amendment and individual privacy rights, but it also creates cybersecurity risks, undermines personal autonomy, and increases the potential for abuse by law enforcement and others with access to sensitive information. Nathan believes that Americans should be free from unwarranted government monitoring and that constitutional protections against unreasonable searches and surveillance must be upheld."
-        },
-        {
-          "topic": "Foreign Wars",
-          "value": "Supports ending ongoing foreign wars, commits to rejecting future unjust wars, and believes the United States should reduce the number of its active military bases abroad",
-          "snippet": "Nathan supports ending ongoing foreign wars, commits to rejecting future unjust wars, and believes the United States should reduce the number of its active military bases abroad. In his view, there is no reason for the United States to serve as the world police."
-        },
-        {
-          "topic": "Immigration",
-          "value": "Supports an Ellis Island-style immigration policy that makes entry into the United States easier and provides a simple path to permanent residency, supports eliminating the militarization of border security and immigration enforcement",
-          "snippet": "Nathan supports an Ellis Island-style immigration policy that makes entry into the United States easier and provides a simple path to permanent residency. He supports eliminating the militarization of border security and immigration enforcement, believing that force should not be used against individuals who are not violent."
-        },
-        {
-          "topic": "ICE",
-          "value": "Supports abolishing ICE and replacing it with nothing",
-          "snippet": "Abolish ICE and replacing it with nothing."
-        }
-      ],
-      "platform_source_url": "https://www.weiseforcongress.com/",
-      "_platform_resolved_at": "2026-08-16T23:12:57.107Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
-      "bio_summary": {
-        "value": "For most of my life, I have watched government grow while the liberties promised to all fade away. Trillions of dollars have been spent on wars across the world while surveillance has expanded across the United States. The promise of a better future has been thrown away to benefit those in power, while everyday Ohioans struggle to make ends meet. It was never meant to be this way. The status quo created these problems, and it will not solve them. Washington needs a change in leadership, a new generation that is willing to go against the political establishment, defend our constitutional freedoms, and fight for the liberties of all people. I am prepared to be that change. I am running to represent the people of Southwest Ohio - not only AIPAC donors or MAGA supporters.",
-        "source_url": "https://www.weiseforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:05:19.295Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:35.319Z",
-      "campaign_site_url": "https://weiseforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:07.942Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:32.882Z"
     },
     {
       "slug": "nathan-weise",
@@ -919,20 +879,111 @@
       ],
       "platform_source_url": "https://www.weiseforcongress.com/",
       "_platform_resolved_at": "2026-08-16T23:12:57.107Z",
+      "campaign_site_url": "https://weiseforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:07.942Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "For most of my life, I have watched government grow while the liberties promised to all fade away. Trillions of dollars have been spent on wars across the world while surveillance has expanded across the United States. The promise of a better future has been thrown away to benefit those in power, while everyday Ohioans struggle to make ends meet. It was never meant to be this way. The status quo created these problems, and it will not solve them. Washington needs a change in leadership, a new generation that is willing to go against the political establishment, defend our constitutional freedoms, and fight for the liberties of all people. I am prepared to be that change. I am running to represent the people of Southwest Ohio - not only AIPAC donors or MAGA supporters.",
+        "source_url": "https://www.weiseforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:05:19.295Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-09-02T12:00:33.340Z"
+    },
+    {
+      "slug": "nathan-weise",
+      "full_name": "WEISE, NATHAN",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6OH01229",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Cincinnati Public Schools",
+          "source_url": "https://www.weiseforcongress.com/about-me",
+          "snippet": "A proud graduate of Cincinnati Public Schools",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's degree, University of Cincinnati (2013); graduate degree, Grand Canyon University (2019)",
+          "source_url": "https://ballotpedia.org/Nathan_Weise",
+          "snippet": "Nathan Weise earned a bachelor's degree from the University of Cincinnati in 2013 and a graduate degree from Grand Canyon University in 2019."
+        },
+        "employment_record": {
+          "value": "Software engineer",
+          "source_url": "https://ballotpedia.org/Nathan_Weise",
+          "snippet": "Weise's career experience includes working as a software engineer."
+        },
+        "civic_affiliations": {
+          "value": "Chair of the Libertarian Party of Hamilton County, Ohio delegate to the Libertarian National Convention",
+          "source_url": "https://www.weiseforcongress.com/about-me",
+          "snippet": "Nathan has served in several leadership roles within the Libertarian Party, including Communications Director for the Libertarian Party of Ohio and Ohio delegate to the Libertarian National Convention. He currently serves as Chair of the Libertarian Party of Hamilton County",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Spending and Inflation",
+          "value": "Supports responsible spending reforms to address inflation and make life more affordable for Ohioans",
+          "snippet": "Reckless government spending has fueled inflation, driving up the cost of groceries, housing, healthcare, childcare, and higher education. Nathan supports responsible spending reforms and policies that make homeownership more attainable, helping families keep more of what they earn and achieve long-term financial stability."
+        },
+        {
+          "topic": "Government Mass Surveillance",
+          "value": "Opposes government mass surveillance as a violation of the Fourth Amendment and believes Americans should be free from unwarranted government monitoring",
+          "snippet": "Government mass surveillance is dangerous. Not only is it a violation of the Fourth Amendment and individual privacy rights, but it also creates cybersecurity risks, undermines personal autonomy, and increases the potential for abuse by law enforcement and others with access to sensitive information. Nathan believes that Americans should be free from unwarranted government monitoring and that constitutional protections against unreasonable searches and surveillance must be upheld."
+        },
+        {
+          "topic": "Foreign Wars",
+          "value": "Supports ending ongoing foreign wars, commits to rejecting future unjust wars, and believes the United States should reduce the number of its active military bases abroad",
+          "snippet": "Nathan supports ending ongoing foreign wars, commits to rejecting future unjust wars, and believes the United States should reduce the number of its active military bases abroad. In his view, there is no reason for the United States to serve as the world police."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports an Ellis Island-style immigration policy that makes entry into the United States easier and provides a simple path to permanent residency, supports eliminating the militarization of border security and immigration enforcement",
+          "snippet": "Nathan supports an Ellis Island-style immigration policy that makes entry into the United States easier and provides a simple path to permanent residency. He supports eliminating the militarization of border security and immigration enforcement, believing that force should not be used against individuals who are not violent."
+        },
+        {
+          "topic": "ICE",
+          "value": "Supports abolishing ICE and replacing it with nothing",
+          "snippet": "Abolish ICE and replacing it with nothing."
+        }
+      ],
+      "platform_source_url": "https://www.weiseforcongress.com/",
+      "_platform_resolved_at": "2026-08-16T23:12:57.107Z",
+      "campaign_site_url": "https://weiseforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:07.942Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "For most of my life, I have watched government grow while the liberties promised to all fade away. Trillions of dollars have been spent on wars across the world while surveillance has expanded across the United States. The promise of a better future has been thrown away to benefit those in power, while everyday Ohioans struggle to make ends meet. It was never meant to be this way. The status quo created these problems, and it will not solve them. Washington needs a change in leadership, a new generation that is willing to go against the political establishment, defend our constitutional freedoms, and fight for the liberties of all people. I am prepared to be that change. I am running to represent the people of Southwest Ohio - not only AIPAC donors or MAGA supporters.",
-        "source_url": "https://www.weiseforcongress.com/"
+        "source_url": "https://www.weiseforcongress.com/",
+        "source_type": "campaign_site"
       },
-      "_bio_summary_resolved_at": "2026-08-20T21:05:16.728Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:35.683Z",
-      "campaign_site_url": "https://weiseforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:07.945Z",
-      "_campaign_site_reachability": "reachable"
+      "_bio_summary_resolved_at": "2026-08-20T21:05:19.295Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-09-02T12:00:33.747Z"
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-43",
-  "generated_at": "2026-08-21T13:19:09.708Z",
+  "generated_at": "2026-09-02T12:38:12.818Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -536,16 +546,46 @@
       "financials": null,
       "bio": {
         "date_of_birth": null,
-        "birthplace": null
+        "birthplace": {
+          "value": "Guatemala",
+          "source_url": "https://forallvoices.com/meet-cristian/",
+          "snippet": "Born in Guatemala and raised by highly educated Guatemalan parents",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "20+ year career in manufacturing including Automotive, Aerospace, and Defense leading multicultural teams",
+          "source_url": "https://forallvoices.com/meet-cristian/",
+          "snippet": "His 20+ year career in manufacturing including Automotive, Aerospace, and Defense leading multicultural teams across every demographic and age group",
+          "source_type": "llm_extracted_campaign_site"
+        }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Role of Government",
+          "value": "Government should protect our freedoms, secure our borders, keep our communities safe, defend our Constitution, and create an environment where hardworking Americans can build a better life",
+          "snippet": "I believe government should protect our freedoms, secure our borders, keep our communities safe, defend our Constitution, and create an environment where hardworking Americans can build a better life."
+        },
+        {
+          "topic": "Government Priorities",
+          "value": "We need accountable government, strong families, safe communities, economic opportunity, and leaders willing to put the American people ahead of politics",
+          "snippet": "We need accountable government, strong families, safe communities, economic opportunity, and leaders willing to put the American people ahead of politics."
+        },
+        {
+          "topic": "Republican Coalition Building",
+          "value": "This campaign is about rebuilding trust, acknowledging past shortcomings, and creating a Republican Party that welcomes and represents every community",
+          "snippet": "this campaign is about rebuilding trust, acknowledging past shortcomings, and creating a Republican Party that welcomes and represents every community."
+        }
+      ],
+      "platform_source_url": "https://forallvoices.com/",
+      "_platform_resolved_at": "2026-09-02T12:36:43.796Z",
       "campaign_site_url": "https://forallvoices.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Cristian Morales was born in Guatemala City, Guatemala. Morales earned a bachelor's degree in management from Purdue University in 2002 and a graduate degree in industrial and labor relations from Cornell University in 2008. His career experience includes working as a director of operations.",
@@ -557,8 +597,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "blocked_other"
+      "_curated_match": false
     },
     {
       "slug": "maxine-waters",
@@ -616,15 +655,49 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Small Business Protection",
+          "value": "Introduced legislation to protect small businesses from anti-competitive pricing practices that favor large retailers and strengthen antitrust laws",
+          "snippet": "U.S. Representative Maxine Waters (D-CA-43), Ranking Member of the Financial Services Committee, introduced the Fair Competition for Small Business Act of 2025 , legislation to protect small businesses from anti-competitive pricing practices that favor large retailers."
+        },
+        {
+          "topic": "Diabetes",
+          "value": "Introduced the Urban and Rural Diabetes Initiative Act and the Minority Diabetes Initiative Act to address diabetes in underserved communities",
+          "snippet": "Congresswoman Maxine Waters (CA-43), Ranking Member of the Committee on Financial Services, introduced the Urban and Rural Diabetes Initiative Act"
+        },
+        {
+          "topic": "HIV/AIDS",
+          "value": "Introduced a resolution to recommit the House to bipartisan efforts to end the HIV epidemic in the United States and globally with a greater focus on HIV-related vulnerabilities of women and girls",
+          "snippet": "Congresswoman Maxine Waters (CA-43) introduced a resolution to recommit the House of Representatives to bipartisan efforts to end the HIV epidemic in the United States and globally in recognition of National Women and Girls HIV/AIDS Awareness Day. It also calls for a greater focus on the HIV-related vulnerabilities of women and girls."
+        },
+        {
+          "topic": "Maternal Health",
+          "value": "Introduced the Mamas and Babies in Underserved Communities Act to establish a new initiative to expand and improve maternal and infant health services in minority, low-income, rural, and medically underserved communities",
+          "snippet": "Congresswoman Maxine Waters (CA-43) introduced the Mamas and Babies in Underserved Communities Act, which would establish a new initiative to expand and improve maternal and infant health services in minority, low-income, rural, and medically underserved communities."
+        },
+        {
+          "topic": "Breast Cancer",
+          "value": "Committed to supporting initiatives that reduce health disparities and ensure equitable care for breast cancer, emphasizing the importance of early detection, increased access to quality healthcare, and comprehensive information for patients",
+          "snippet": "Congresswoman Maxine Waters (CA-43) today recognizes October as Breast Cancer Awareness Month, emphasizing the importance of early detection, increased access to quality healthcare, and the need for comprehensive information for patients. Breast cancer remains one of the most commonly diagnosed cancers among women in the United States, and Congresswoman Waters remains committed to supporting initiatives that reduce health disparities and ensure equitable care for all."
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Committed to fighting back against what she characterizes as a voting rights crisis accelerated by extreme MAGA Republicans",
+          "snippet": "There is a voting rights crisis in this country. There has been for some time, but extreme MAGA Republicans are accelerating the crisis and we must fight back and expose their brazen hypocrisy."
+        }
+      ],
+      "platform_source_url": "https://waters.house.gov/issues/rep-waters-legislation",
+      "_platform_resolved_at": "2026-09-02T12:37:31.266Z",
       "campaign_site_url": "https://maxinewatersforcongress.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=NoOrK24OnTQ",
+      "platform_video_title": "Congresswoman Maxine Waters Urges Daunte Wright Protesters to Continue",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Maxine_Waters",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-09-02T12:37:35.707Z",
       "bio_summary": {
         "value": "Maxine Moore Waters (née Carr ; born August 15, 1938) is an American politician serving as the U.S. representative for California's 43rd congressional district since 1991. The district, numbered as the 29th district from 1991 to 1993 and as the 35th district from 1993 to 2013, includes much of southern Los Angeles , as well as portions of Gardena , Inglewood and Torrance . A member of the Democratic Party , Waters is in her 18th House term. She is the most senior of the 13 black women serving in Congress, and chaired the Congressional Black Caucus from 1997 to 1999. [ 1 ] She is the second-most senior member of the California congressional delegation , after Nancy Pelosi . ",
         "source_url": "https://en.wikipedia.org/wiki/Maxine_Waters",
@@ -633,9 +706,64 @@
       "_bio_summary_resolved_at": "2026-08-26T11:11:52.446Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 202,
+          "votesCast": 194,
+          "attendanceRate": 0.9603960396039604
+        },
         "committees": [
           {
             "committee": "House Committee on Financial Services",
@@ -644,7 +772,7 @@
           }
         ],
         "bills_sponsored": 624,
-        "bills_cosponsored": 4809,
+        "bills_cosponsored": 4814,
         "bills_became_law": 3,
         "enacted_laws": [
           {
@@ -682,15 +810,13 @@
           "sourceUrl": "https://voteview.com/person/W000187"
         },
         "bridge_score": {
-          "grade": "C",
-          "score": 18.5,
-          "snapshotDate": "June 30, 2026",
+          "grade": "F",
+          "score": 12.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000187"
         }
       },
-      "_curated_match": false,
-      "platform_video_source_type": null,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

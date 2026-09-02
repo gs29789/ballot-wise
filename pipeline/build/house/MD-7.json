@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-08-13T17:12:56.342Z",
+  "generated_at": "2026-09-02T10:54:20.649Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -18,12 +18,18 @@
     "source_url": "https://msa.maryland.gov/msa/mdmanual/43const/html/15art15.html",
     "snippet": "Any elected official of the State, or of a county or of a municipal corporation who during the elected official's term of office is found guilty of any crime which is a felony... shall be suspended by operation of law without pay or benefits from the elective office... If the finding of guilt becomes a final conviction, after judicial review or otherwise, such elected official shall be removed from the elective office by operation of Law and the office shall be deemed vacant."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Maryland's_7th_Congressional_District_election,_2026",
     "snippet": "General election for U.S. House Maryland District 7 Incumbent Kweisi Mfume and Scott Collier are running in the general election for U.S. House Maryland District 7 on November 3, 2026. Candidate Kweisi Mfume (D) Scott Collier (R)"
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2815.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2803.9
+        "thousandsOfJobs": 2804.2
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9648158961.06,
-        "perCapitaUsd": 12916.07
+        "totalUsd": 9648252661.06,
+        "perCapitaUsd": 12916.19
       },
       {
         "year": "2024",
-        "totalUsd": 10123327211.92,
-        "perCapitaUsd": 13552.18
+        "totalUsd": 10126806716.19,
+        "perCapitaUsd": 13556.84
       },
       {
         "year": "2025",
-        "totalUsd": 9261576612.25,
-        "perCapitaUsd": 12398.54
+        "totalUsd": 9266603869.54,
+        "perCapitaUsd": 12405.27
       }
     ],
     "population": [
@@ -552,11 +563,32 @@
           "value": "Johns Hopkins University",
           "source_url": "https://www.wikidata.org/wiki/Q519504",
           "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative- Maryland's 7th Congressional District (2020 - Present); CTIS, Chief Health Equity Officer (2015 - 2018); Health Policy Research Consortium, Principal Investigator (2013 - 2018); National Medical Association, Executive Director (2010 - 2011); NAACP, President (1996 - 2005); US House of Representatives, Representative- Maryland's 7th Congressional District (1987 - 1996); Morgan State University, Adjunct Professor in Political Science and Communications",
+          "source_url": "https://www.ballotready.org/people/kweisi-mfume",
+          "snippet": "US House of Representatives, Representative- Maryland's 7th Congressional District (2020 - Present) CTIS, Chief Health Equity Officer (2015 - 2018) Health Policy Research Consortium, Principal Investigator (2013 - 2018) National Medical Association, Executive Director (2010 - 2011) NAACP, President (1996 - 2005) US House of Representatives, Representative- Maryland's 7th Congressional District (1987 - 1996) Morgan State University, Adjunct Professor in Political Science and Communications",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://mfumeforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:51.851Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=f8SVZx5Wy7s",
+      "platform_video_title": "Kweisi Mfume Shares Priorities For Congress, Experience With Police Brutality",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-24T12:00:11.735Z",
+      "bio_summary": {
+        "value": "Kweisi Mfume ( / k w aɪ ˈ iː s i ʊ m ˈ f uː m eɪ / kwy- EE -see uum- FOO -may ; born Frizzell Gerard Tate ; [ 2 ] October 24, 1948) is an American politician who is the U.S. representative for Maryland's 7th congressional district , first serving from 1987 to 1996 and again since 2020. A member of the Democratic Party , Mfume first left his seat to become the president and CEO of the National Association for the Advancement of Colored People (NAACP), a position he held from 1996 to 2004. In 2006 , he ran for the United States Senate seat being vacated by Paul Sarbanes , losing the Democratic primary to the eventual winner, Ben Cardin . Mfume returned to his former House seat in 2020 after it was left vacant by the death of Elijah Cummings . [ 3 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Kweisi_Mfume",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:58:10.079Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -595,7 +627,7 @@
           }
         ],
         "bills_sponsored": 95,
-        "bills_cosponsored": 2873,
+        "bills_cosponsored": 2876,
         "bills_became_law": 3,
         "enacted_laws": [
           {
@@ -634,27 +666,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 24.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 20.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M000687"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:11.735Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=f8SVZx5Wy7s",
-      "platform_video_title": "Kweisi Mfume Shares Priorities For Congress, Experience With Police Brutality",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-24T12:00:11.735Z",
-      "bio_summary": {
-        "value": "Kweisi Mfume ( / k w aɪ ˈ iː s i ʊ m ˈ f uː m eɪ / kwy- EE -see uum- FOO -may ; born Frizzell Gerard Tate ; [ 2 ] October 24, 1948) is an American politician who is the U.S. representative for Maryland's 7th congressional district , first serving from 1987 to 1996 and again since 2020. A member of the Democratic Party , Mfume first left his seat to become the president and CEO of the National Association for the Advancement of Colored People (NAACP), a position he held from 1996 to 2004. In 2006 , he ran for the United States Senate seat being vacated by Paul Sarbanes , losing the Democratic primary to the eventual winner, Ben Cardin . Mfume returned to his former House seat in 2020 after it was left vacant by the death of Elijah Cummings . [ 3 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Kweisi_Mfume",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T00:58:10.079Z",
-      "campaign_site_url": "https://mfumeforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:51.851Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

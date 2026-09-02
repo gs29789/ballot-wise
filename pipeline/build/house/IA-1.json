@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-18T20:17:51.779Z",
+  "generated_at": "2026-09-02T10:34:06.337Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.legis.iowa.gov/docs/code/2026/43.7.pdf",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1583.1
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1584.1
+        "thousandsOfJobs": 1586.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 6892254740.44,
-        "perCapitaUsd": 8677.33
+        "totalUsd": 6894959751.44,
+        "perCapitaUsd": 8680.73
       },
       {
         "year": "2024",
-        "totalUsd": 5952454034.56,
-        "perCapitaUsd": 7356.64
+        "totalUsd": 5953378911.19,
+        "perCapitaUsd": 7357.78
       },
       {
         "year": "2025",
-        "totalUsd": 6376132087.55,
-        "perCapitaUsd": 8016.82
+        "totalUsd": 6387758853.62,
+        "perCapitaUsd": 8031.44
       }
     ],
     "population": [
@@ -560,6 +570,12 @@
           "source_url": "https://en.wikipedia.org/wiki/Christina_Bohannan",
           "snippet": "Bohannan is married and has a daughter.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "college": {
+          "value": "Bachelor's, University of Florida, Environmental Engineering; JD, University of Florida",
+          "source_url": "https://www.ballotready.org/people/christina-bohannan",
+          "snippet": "Degrees JD, University of Florida Bachelor's, University of Florida, Environmental Engineering",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [
@@ -586,25 +602,26 @@
       ],
       "platform_source_url": "https://bohannanforcongress.com/priorities/",
       "_platform_resolved_at": "2026-08-12T19:23:40.561Z",
+      "campaign_site_url": "https://www.bohannanforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.278Z",
       "platform_video_url": "https://www.youtube.com/watch?v=sl-v3dAbvSw",
       "platform_video_title": "Christina Bohannan — Iowa First",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-23T12:00:09.873Z",
+      "bio_summary": {
+        "value": "Christina Bohannan is a mom, law professor, engineer, and former state representative . She is running for Congress because she believes we need someone who will put Iowa’s working families first – not the super wealthy and well-connected.",
+        "source_url": "https://bohannanforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:41.849Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Christina Bohannan is a mom, law professor, engineer, and former state representative . She is running for Congress because she believes we need someone who will put Iowa’s working families first – not the super wealthy and well-connected.",
-        "source_url": "https://bohannanforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:49:41.849Z",
-      "_tier2_search_attempted_at": "2026-08-23T12:00:09.873Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://www.bohannanforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:23.278Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "michael-bridgford",
@@ -642,26 +659,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.bridgfordforiowa.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.273Z",
       "platform_video_url": "https://www.youtube.com/watch?v=-d0ycNnyOHE",
       "platform_video_title": "Meet Independent candidate for Congress, Michael Bridgford",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-08-23T12:00:10.069Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:10.069Z",
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-23T12:00:10.069Z",
       "bio_summary": {
         "value": "Michael Bridgford earned an MBA from Northwestern University. His career experience includes working as an independent financial advisor and small business owner.",
         "source_url": "https://ballotpedia.org/Michael_Bridgford",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:31:03.798Z",
-      "campaign_site_url": "https://www.bridgfordforiowa.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:23.273Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "mariannette-miller-meeks",
@@ -716,10 +733,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "http://millermeeks.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:23.277Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mariannette Jane Miller-Meeks ( née: Miller ; born September 6, 1955) is an American physician and politician who has served as a U.S. representative from Iowa since 2021. Her district, numbered the 2nd from 2021 to 2023 and the 1st since 2023, includes most of Iowa's southeastern quadrant, including Davenport , Bettendorf , Burlington , and Iowa City . Previously, Miller-Meeks served as in the Iowa Senate from 2019 to 2021. She is a member of the Republican Party . Miller-Meeks ran three unsuccessful campaigns for the U.S. House in 2008 , 2010 , and 2014 . She ran again for the seat in 2020 , winning by six votes (a margin of 0.002%). She was reelected in 2022 by a margin of nearly 7%, and was reelected in 2024 by a 0.29% margin after winning a closer-than-expected Republican primary. ",
+        "source_url": "https://en.wikipedia.org/wiki/Mariannette_Miller-Meeks",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:36:10.488Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -757,8 +785,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 133,
-        "bills_cosponsored": 1218,
+        "bills_sponsored": 134,
+        "bills_cosponsored": 1220,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -769,22 +797,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 88.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 91.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001215"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:10.403Z",
-      "bio_summary": {
-        "value": "Mariannette Jane Miller-Meeks ( née: Miller ; born September 6, 1955) is an American physician and politician who has served as a U.S. representative from Iowa since 2021. Her district, numbered the 2nd from 2021 to 2023 and the 1st since 2023, includes most of Iowa's southeastern quadrant, including Davenport , Bettendorf , Burlington , and Iowa City . Previously, Miller-Meeks served as in the Iowa Senate from 2019 to 2021. She is a member of the Republican Party . Miller-Meeks ran three unsuccessful campaigns for the U.S. House in 2008 , 2010 , and 2014 . She ran again for the seat in 2020 , winning by six votes (a margin of 0.002%). She was reelected in 2022 by a margin of nearly 7%, and was reelected in 2024 by a 0.29% margin after winning a closer-than-expected Republican primary. ",
-        "source_url": "https://en.wikipedia.org/wiki/Mariannette_Miller-Meeks",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:36:10.488Z",
-      "campaign_site_url": "http://millermeeks.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:57:23.277Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:18.775Z"
     }
   ]
 }

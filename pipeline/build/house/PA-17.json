@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-17",
-  "generated_at": "2026-08-17T15:54:10.833Z",
+  "generated_at": "2026-09-02T10:02:07.933Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6201.1
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6209.6
+        "thousandsOfJobs": 6208.7
       },
       {
         "year": "2026",
@@ -478,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 7160974937.03,
-        "perCapitaUsd": 9278.89
+        "totalUsd": 7161049937.03,
+        "perCapitaUsd": 9278.99
       },
       {
         "year": "2025",
-        "totalUsd": 8058746910.1,
-        "perCapitaUsd": 10442.19
+        "totalUsd": 8058900564.38,
+        "perCapitaUsd": 10442.39
       }
     ],
     "population": [
@@ -573,19 +583,71 @@
           "source_url": "https://en.wikipedia.org/wiki/Chris_Deluzio",
           "snippet": "Deluzio married Alexandra Zoë Bunnell in 2015, whom he met while attending law school at Georgetown.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Congressional Progressive Caucus (deputy whip), Labor Caucus (vice chair), Congressional Steel Caucus, Congressional Equality Caucus, Navy and Marine Corps Caucus (co-chair), Bipartisan Fentanyl Prevention Caucus, Future Forum, Medicare for All Caucus, Congressional Freethought Caucus",
+          "source_url": "https://en.wikipedia.org/wiki/Chris_Deluzio",
+          "snippet": "Deluzio's caucus memberships include: [ 30 ] Congressional Equality Caucus Labor Caucus (vice chair) Congressional Steel Caucus Congressional Progressive Caucus (deputy whip) [ 31 ] [ 32 ] Navy and Marine Corps Caucus, (co-chair) Bipartisan Fentanyl Prevention Caucus [ 33 ] Future Forum Medicare for All Caucus Congressional Freethought Caucus",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.chrisforpa.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:30.316Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=XkMVQoSEuHE",
+      "platform_video_title": "“We’re gonna flip some congressional districts”",
+      "platform_video_source_url": "https://chrisforpa.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:00:32.404Z",
+      "bio_summary": {
+        "value": "Congressman Chris Deluzio is a Thornburg native, Iraq War veteran, and voting rights attorney. After graduating from the U.S. Naval Academy, Chris served as an officer in the Navy and deployed overseas multiple times. As a lawyer, Chris worked to protect voting rights and our elections as the policy director at Pitt Cyber and previously at the Brennan Center for Justice.",
+        "source_url": "https://chrisforpa.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:07.327Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
-        "bills_sponsored": 56,
-        "bills_cosponsored": 1039,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Readiness",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 58,
+        "bills_cosponsored": 1046,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -596,24 +658,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 88.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 89,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/D000530"
         }
       },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=XkMVQoSEuHE",
-      "platform_video_title": "“We’re gonna flip some congressional districts”",
-      "platform_video_source_url": "https://chrisforpa.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:00:32.404Z",
-      "bio_summary": {
-        "value": "Congressman Chris Deluzio is a Thornburg native, Iraq War veteran, and voting rights attorney. After graduating from the U.S. Naval Academy, Chris served as an officer in the Navy and deployed overseas multiple times. As a lawyer, Chris worked to protect voting rights and our elections as the policy director at Pitt Cyber and previously at the Brennan Center for Justice.",
-        "source_url": "https://chrisforpa.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:40:07.327Z",
-      "campaign_site_url": "https://www.chrisforpa.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:30.316Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "tony-guy",
@@ -659,21 +709,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.tonyguyforcongress.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:30.310Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=IsGN8np3bYk",
+      "platform_video_title": "Episode 25 | Tony Guy - Candidate for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-09-02T12:00:09.968Z",
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:22.825Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:32:49.050Z",
-      "campaign_site_url": "https://www.tonyguyforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:30.310Z",
-      "_campaign_site_reachability": "dead"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:09.968Z"
     }
   ]
 }

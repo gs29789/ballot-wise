@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-12",
-  "generated_at": "2026-08-21T12:52:58.264Z",
+  "generated_at": "2026-09-02T12:19:48.765Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -601,22 +611,25 @@
       "platform_source_url": "https://www.jamiejoyce.com/",
       "_platform_resolved_at": "2026-08-17T06:29:45.581Z",
       "campaign_site_url": "https://www.jamiejoyce.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Jamie Joyce is running for Congress (D12, CA) and has a plan to stop the Epstein class Donate to Jamie's Campaign Will never accept AIPAC money. #EndTheGenocide Meet Jamie Joyce Jamie is a multidisciplinary expert, executive, researcher, and activist living in Berkeley, CA who is respected by global leaders and has the right expertise for government in this moment of technological change.",
-        "source_url": "https://www.jamiejoyce.com/"
+        "source_url": "https://www.jamiejoyce.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:21:59.766Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "lateefah-simon",
@@ -672,20 +685,30 @@
           "source_url": "https://www.ballotready.org/people/lateefah-simon",
           "snippet": "Professional Experience US House of Representatives, Representative- California 12th Congressional District (2025 - Present) MeadowFund, President (2022 - 2025) Akonadi Foundation, President (2016 - 2025) Bay Area Rapid Transportation Board, Boardmember (2016 - 2025) Rosenberg Foundation, Program Director (2011 - 2016) Lawyer&#x27;s Committee for Civil Rights of the San Francisco Bay Area, Executive Director (2008 - 2011) San Francisco District Attorney&#x27;s Office, Director of Reentry Services (2005 - 2008) Center for Young Women&#x27;s Development, Executive Director (1997 - 2005)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Washington High School",
+          "source_url": "https://en.wikipedia.org/wiki/Lateefah_Simon",
+          "snippet": "She attended Washington High School , where she joined the debate team.",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://lateefahsimon.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=EuqhQOzl_k0",
+      "platform_video_title": "Congresswoman Lateefah Simon | Piedmont Town Hall 8/26/2026",
+      "platform_video_source_url": "https://ballotpedia.org/Lateefah_Simon",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T12:19:38.445Z",
       "bio_summary": {
         "value": "I’ve spent my life fighting for folks without a voice. I will take the shared stories and experiences of this community to the halls of Congress so I can continue our fight. That’s how we make change. And that's why I'm running for re-election.",
-        "source_url": "https://www.lateefahsimon.com/"
+        "source_url": "https://www.lateefahsimon.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:21:54.763Z",
       "financial_disclosure": {
@@ -740,7 +763,7 @@
           }
         ],
         "bills_sponsored": 11,
-        "bills_cosponsored": 633,
+        "bills_cosponsored": 639,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -751,13 +774,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 33.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 29.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001231"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-11",
-  "generated_at": "2026-08-16T22:18:23.083Z",
+  "generated_at": "2026-09-02T11:47:57.060Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5690
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5687.6
+        "thousandsOfJobs": 5684.9
       },
       {
         "year": "2026",
@@ -559,11 +569,32 @@
           "source_url": "https://en.wikipedia.org/wiki/Shontel_Brown",
           "snippet": "Brown founded Diversified Digital Solutions, a marketing support company.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Elected to Warrensville Heights City Council in 2011 for three years; elected to 9th District on Cuyahoga County Council in 2014; elected chair of Cuyahoga County Democratic Party in 2017",
+          "source_url": "https://en.wikipedia.org/wiki/Shontel_Brown",
+          "snippet": "She was elected to the Warrensville Heights City Council in 2011, where she held office for three years. [ 5 ] In 2014 , she was elected to the 9th District on the Cuyahoga County Council, succeeding Councilwoman C. Ellen Connally. [ 11 ] Her district includes much of eastern Cuyahoga County, including Warrensville Heights, Bedford , Shaker Heights , Orange , and part of eastern Cleveland . [ 12 ] In 2017, she was elected chair of the Cuyahoga County Democratic Party",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://shontelbrown.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:32.971Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=aVyCFIyvHV8",
+      "platform_video_title": "'Together' | Shontel Brown for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-31T12:00:17.107Z",
+      "bio_summary": {
+        "value": "Shontel Monique Brown [ 2 ] (born June 24, 1975) [ 3 ] [ 4 ] is an American politician who has served as the U.S. representative for Ohio's 11th congressional district since 2021. A member of the Democratic Party, Brown previously served as a member of the Cuyahoga County Council , representing the 9th district. [ 5 ] Brown was first elected to Congress in a 2021 special election after Marcia Fudge resigned to become Secretary of Housing and Urban Development under President Joe Biden . [ 6 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Shontel_Brown",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:43:21.160Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -602,7 +633,7 @@
           }
         ],
         "bills_sponsored": 45,
-        "bills_cosponsored": 1009,
+        "bills_cosponsored": 1015,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -613,27 +644,12 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 12.7,
-          "snapshotDate": "June 30, 2026",
+          "score": 12,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/B001313"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Shontel Monique Brown [ 2 ] (born June 24, 1975) [ 3 ] [ 4 ] is an American politician who has served as the U.S. representative for Ohio's 11th congressional district since 2021. A member of the Democratic Party, Brown previously served as a member of the Cuyahoga County Council , representing the 9th district. [ 5 ] Brown was first elected to Congress in a 2021 special election after Marcia Fudge resigned to become Secretary of Housing and Urban Development under President Joe Biden . [ 6 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Shontel_Brown",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:43:21.160Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:17.107Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=aVyCFIyvHV8",
-      "platform_video_title": "'Together' | Shontel Brown for Congress",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-31T12:00:17.107Z",
-      "campaign_site_url": "https://shontelbrown.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:32.971Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_curated_match": false
     },
     {
       "slug": "cortney-peterson",
@@ -702,20 +718,27 @@
       ],
       "platform_source_url": "https://cortneyforcongress.org/",
       "_platform_resolved_at": "2026-08-14T14:28:31.048Z",
+      "campaign_site_url": "https://cortneyforcongress.org/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:20:33.676Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I grew up downtown Ashtabula, Ohio in a hardworking family. I've spent the last 12 years working as a licensed practical nurse, although a good majority of the last year has been spent focusing on my health. I've got a rare condition which required a stent to be placed in by brain to restore normal pressure and flow in my brain. Thankfully, I had my procedure at the end of October 2025, and I am feeling better than I have in YEARS! This radical change in my life has fueled my passion to help people on a larger scale.",
+        "source_url": "https://cortneyforcongress.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:10.638Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "I grew up downtown Ashtabula, Ohio in a hardworking family. I've spent the last 12 years working as a licensed practical nurse, although a good majority of the last year has been spent focusing on my health. I've got a rare condition which required a stent to be placed in by brain to restore normal pressure and flow in my brain. Thankfully, I had my procedure at the end of October 2025, and I am feeling better than I have in YEARS! This radical change in my life has fueled my passion to help people on a larger scale.",
-        "source_url": "https://cortneyforcongress.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:06:10.638Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:17.465Z",
-      "campaign_site_url": "https://cortneyforcongress.org/",
-      "_campaign_site_discovered_at": "2026-09-01T12:20:33.676Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:35.958Z"
     }
   ]
 }

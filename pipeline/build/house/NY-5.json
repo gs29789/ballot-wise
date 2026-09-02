@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-21T12:05:09.746Z",
+  "generated_at": "2026-09-02T12:54:06.999Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 9992.8
+        "thousandsOfJobs": 9982.6
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -559,20 +569,57 @@
           "source_url": "https://www.congressmangregorymeeks.com/",
           "snippet": "In his fourteenth term in Congress, he remains focused on making government work for his constituents and the American people.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Simone-Marie Meeks",
+          "source_url": "https://www.congressmangregorymeeks.com/about",
+          "snippet": "is married to Simone-Marie Meeks",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "member of the Allen AME Church in St. Albans, New York",
+          "source_url": "https://www.congressmangregorymeeks.com/about",
+          "snippet": "He is a member of the Allen AME Church in St. Albans, New York",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Access to healthcare is a human right, not a privilege. Advocates for protecting access to the Affordable Care Act, Medicare, and Medicaid, as well as supporting local community health centers and hospital systems.",
+          "snippet": "Access to healthcare is a human right, not a privilege. Your zip code, color of your skin, or income should not determine the quality of care that you and your family receive. I have always been an advocate for access to quality healthcare in Congress and that starts with protecting access to the Affordable Care Act, to Medicare, and Medicaid–as well as supporting our local community health centers and hospital systems."
+        },
+        {
+          "topic": "Financial Services",
+          "value": "Committed to ensuring all Americans, especially those in historically underserved communities, can access capital, credit, investment opportunities, and financial tools to build wealth.",
+          "snippet": "I am committed to ensuring all Americans, especially those in historically underserved communities, can access capital, credit, investment opportunities, and financial tools to build wealth."
+        },
+        {
+          "topic": "Labor",
+          "value": "Lifelong supporter of labor rights and unions as the backbone of the American middle class, supporting the 40-hour work week, fair wages, health and safety protections, and the dignity of a voice on the job.",
+          "snippet": "As a proud representative of working families in New York and a lifelong supporter of labor rights, I know that unions are the backbone of the American middle class. They have fought tirelessly for the rights we too often take for granted, like the 40-hour work week, fair wages, health and safety protections, and the dignity of a voice on the job."
+        },
+        {
+          "topic": "Technology",
+          "value": "Technology policy must be rooted in equity, innovation, and national strength, ensuring that the digital economy works for everyone and not just a select few.",
+          "snippet": "Technology policy must be rooted in equity, innovation, and national strength. From how we connect to the internet to how we build the next generation of semiconductors; we must ensure that the digital economy works for everyone and not just a select few."
+        }
+      ],
+      "platform_source_url": "https://meeks.house.gov/issues",
+      "_platform_resolved_at": "2026-09-02T12:53:51.255Z",
       "campaign_site_url": "http://www.congressmangregorymeeks.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Serving the people of New York's Fifth Congressional District has been Congressman Gregory Meeks’ greatest professional honor. In his fourteenth term in Congress, he remains focused on making government work for his constituents and the American people. Congressman Meeks is a solutions oriented lawmaker who is respected in Congress, New York State, and worldwide for his bipartisan efforts as an effective common sense leader who gets things done.",
-        "source_url": "https://www.congressmangregorymeeks.com/"
+        "source_url": "https://www.congressmangregorymeeks.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:33:02.379Z",
       "financial_disclosure": {
@@ -588,61 +635,61 @@
       "_financial_disclosure_resolved_at": "2026-08-21T12:05:01.608Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 271,
-          "attendanceRate": 0.9575971731448764
+          "votesInSession": 292,
+          "votesCast": 280,
+          "attendanceRate": 0.958904109589041
         },
         "committees": [
           {
@@ -667,7 +714,7 @@
           }
         ],
         "bills_sponsored": 244,
-        "bills_cosponsored": 5862,
+        "bills_cosponsored": 5863,
         "bills_became_law": 4,
         "enacted_laws": [
           {
@@ -715,14 +762,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 54.7,
-          "snapshotDate": "June 30, 2026",
+          "score": 56.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001137"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:08.822Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

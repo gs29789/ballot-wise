@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-13T17:29:31.560Z",
+  "generated_at": "2026-09-02T11:04:12.934Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://codes.findlaw.com/nm/chapter-1-elections/nm-st-sect-1-8-11/",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/nm/chapter-10-public-officers-and-employees/nm-st-sect-10-1-2/",
     "snippet": "no person convicted of a felonious or infamous crime, unless such person has been pardoned or restored to political rights, shall be qualified to be elected or appointed to any public office in this state"
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_Senate_election_in_New_Mexico,_2026",
     "snippet": "Incumbent Ben Ray Luján, Larry E. Marker, and Cameron Chick are running in the general election for U.S. Senate New Mexico on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.8
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 895.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 898.2
+        "thousandsOfJobs": 896.1
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 11350325077.82,
-        "perCapitaUsd": 16130.48
+        "totalUsd": 11351047389.63,
+        "perCapitaUsd": 16131.51
       },
       {
         "year": "2024",
-        "totalUsd": 12058673714.5,
-        "perCapitaUsd": 17137.15
+        "totalUsd": 12060199886.81,
+        "perCapitaUsd": 17139.32
       },
       {
         "year": "2025",
-        "totalUsd": 12513328077.35,
-        "perCapitaUsd": 17783.28
+        "totalUsd": 12514451411.09,
+        "perCapitaUsd": 17784.87
       }
     ],
     "population": [
@@ -573,21 +584,27 @@
       ],
       "platform_source_url": "https://candidates.goodparty.org/cameronchickforsenate2026",
       "_platform_resolved_at": "2026-08-13T17:26:16.560Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:17.628Z",
       "campaign_site_url": "https://candidates.goodparty.org/cameronchickforsenate2026",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:13.853Z",
       "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:13.853Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "I'm Cameron Chick, I'm an Independent candidate for U.S. Senate. As a paralegal, small business owner, and advocate for disability rights and civil rights law, I'm committed to bringing a unique perspective to the Senate. My background is rooted in service and dedication. I've worked as a property manager, personal banker, and paralegal, giving me a deep understanding of the issues that matter most to our community. I'm also a proud member of several national organizations, including the National Paralegals Association and the National Coalition to End Homelessness.",
         "source_url": "https://candidates.goodparty.org/cameronchickforsenate2026",
         "source_type": "campaign_site"
       },
-      "_bio_summary_resolved_at": "2026-09-01T13:21:46.629Z"
+      "_bio_summary_resolved_at": "2026-09-01T13:21:46.629Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-02T12:00:25.277Z"
     },
     {
       "slug": "ben-lujan",
@@ -596,7 +613,7 @@
       "incumbent": true,
       "fec_candidate_id": "S0NM00058",
       "fec_status": "C",
-      "bioguide_id": "L000580",
+      "bioguide_id": "L000570",
       "financials": {
         "cycle": 2026,
         "totalRaised": 5626629.31,
@@ -639,37 +656,170 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": {
-        "attendance": {
-          "votesInSession": 0,
-          "votesCast": 0,
-          "attendanceRate": 0
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Access to quality and affordable health care is a human right",
+          "snippet": "Ben believes that access to quality and affordable health care is a human right."
         },
-        "committees": [],
-        "bills_sponsored": 94,
-        "bills_cosponsored": 1105,
-        "bills_became_law": 0,
-        "enacted_laws": [],
-        "ideology_score": null,
-        "bridge_score": null
-      },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:18.026Z",
+        {
+          "topic": "Environment",
+          "value": "Champion of climate action and environmental justice, with bipartisan legislation signed into law to plug all documented abandoned and orphaned oil and gas wells",
+          "snippet": "Ben has been longtime champion of climate action and environmental justice. He most recently had bipartisan legislation signed into law to plug all documented abandoned and orphaned oil and gas wells"
+        },
+        {
+          "topic": "Civil Liberties",
+          "value": "Fighting for LGBTQ+ rights and closing the gender wage gap",
+          "snippet": "From fighting for LGBTQ+ rights to closing the gender wage gap"
+        },
+        {
+          "topic": "Education",
+          "value": "Schools should be centers of the community that provide wraparound services, including mental and behavioral health services",
+          "snippet": "Ben sees schools as centers of the community that provide wraparound services, including mental and behavioral health services"
+        },
+        {
+          "topic": "Tech & Broadband",
+          "value": "Hold online tech platforms and corporations accountable",
+          "snippet": "Ben has acted to hold online tech platforms and corporations accountable"
+        }
+      ],
+      "platform_source_url": "https://www.lujan.senate.gov/about/issues/",
+      "_platform_resolved_at": "2026-09-02T11:03:10.336Z",
+      "campaign_site_url": "http://www.benrlujan.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:13.857Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Ben Ray Luján ( / l uː ˈ h ɑː n / loo- HAHN ; [ 1 ] born June 7, 1972) is an American politician serving since 2021 as the junior United States senator from New Mexico . From 2009 to 2021, he represented New Mexico's 3rd congressional district in the U.S. House of Representatives ; he served as assistant speaker [ a ] from 2019 to 2021. Luján is a self-described progressive Democrat. [ 2 ] Before being elected to Congress, Luján served as a member of the New Mexico Public Regulation Commission from 2005 to 2008, where he was also chairman. [ 3 ] He and Senator Martin Heinrich are the co-deans of New Mexico's congressional delegation . Luján served as chairman of the Democratic Congressional Campaign Committee from 2014 to 2019; Democrats won a House majority in the 2018 elections . [ 4 ] ",
         "source_url": "https://en.wikipedia.org/wiki/Ben_Ray_Luj%C3%A1n",
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:49:14.545Z",
-      "campaign_site_url": "http://www.benrlujan.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:13.857Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Conservation, Forestry, Natural Resources, and Biotechnology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Food and Nutrition, Specialty Crops, Organics, and Research",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Agriculture, Nutrition, and Forestry — Rural Development, Energy, and Credit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Commerce, Science, and Transportation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Commerce, Science, and Transportation — Telecommunications and Media",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Commerce, Science, and Transportation — Consumer Protection, Technology, and Data Privacy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Commerce, Science, and Transportation — Surface Transportation, Freight, Pipelines, and Safety",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Finance",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Finance — Energy, Natural Resources, and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Finance — Health Care",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Finance — Taxation and IRS Oversight",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Indian Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "United States Senate Caucus on International Narcotics Control",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 571,
+        "bills_cosponsored": 3300,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Supporting the Foundation for the National Institutes of Health and the Reagan-Udall Foundation for the Food and Drug Administration Act",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "1662",
+            "publicLawNumber": "117-101",
+            "summary": "Supporting the Foundation for the National Institutes of Health and the Reagan-Udall Foundation for the Food and Drug Administration Act This bill increases the amount of funds each fiscal year that the Food and Drug Administration (FDA) must transfer to the Reagan-Udall Foundation for the FDA and that the National Institutes of Health (NIH) must transfer to the Foundation for the NIH. Specifically, it requires each agency to increase the amount transferred to its respective foundation (1) from a minimum of $500,000 to a minimum of $1,250,000, and (2) from a maximum of $1,250,000 to a maximum of $5,000,000.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ101"
+          },
+          {
+            "title": "PAVA Program Inclusion Act",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "3969",
+            "publicLawNumber": "117-182",
+            "summary": "Protection and Advocacy for Voting Access Program Inclusion Act or the PAVA Program Inclusion Act This bill authorizes the Department of Health and Human Services to distribute Protection and Advocacy for Voting Access (PAVA) program grants to the protection and advocacy systems of the Commonwealth of the Northern Mariana Islands and the American Indian consortium.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ182"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.381,
+          "nominateDim2": 0.033,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/L000570"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 66.6,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/L000570"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-02T12:00:25.706Z"
     },
     {
       "slug": "larry-marker",
@@ -703,16 +853,14 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:18.296Z",
+      "campaign_site_url": "https://larrymarker.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:13.849Z",
       "platform_video_url": "https://www.youtube.com/watch?v=nBKF98a0EJw",
       "platform_video_title": "Larry Marker for Senate in NM",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:18.296Z",
       "bio_summary": {
         "value": "Larry E. Marker ( Republican Party ) (also known as Lead) is running for election to the U.S. Senate to represent New Mexico . He is on the ballot in the general election on November 3, 2026 . He advanced from the Republican primary on June 2, 2026 . ",
@@ -720,9 +868,11 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:49:41.068Z",
-      "campaign_site_url": "https://larrymarker.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:49:13.849Z",
-      "_campaign_site_reachability": "blocked_other"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

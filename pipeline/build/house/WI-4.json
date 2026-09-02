@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-17T16:08:27.086Z",
+  "generated_at": "2026-09-02T11:30:49.100Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3042.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3041
+        "thousandsOfJobs": 3041.7
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 7401162439.89,
-        "perCapitaUsd": 10028.32
+        "totalUsd": 7401424836.89,
+        "perCapitaUsd": 10028.68
       }
     ],
     "population": [
@@ -576,6 +586,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.gwenmooreforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:43.266Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=j5GOCfpE4RQ",
+      "platform_video_title": "Rep. Gwen Moore (D-WI) In Opposition to the Pence Amendment",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Gwen_Moore",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-09-02T11:30:25.425Z",
+      "bio_summary": {
+        "value": "It is my honor to serve as a voice in Congress, representing the 4 th Congressional District of Wisconsin. This has been the privilege of a lifetime and I’m humbled by the charge that has been bestowed upon me.",
+        "source_url": "https://gwenmooreforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:21.392Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116164.pdf",
         "filingDate": "5/12/2026",
@@ -618,8 +643,8 @@
           }
         ],
         "bills_sponsored": 290,
-        "bills_cosponsored": 6223,
-        "bills_became_law": 0,
+        "bills_cosponsored": 6226,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 2650 North Doctor Martin Luther King Jr. Drive in Milwaukee, Wisconsin, shall be known and designated as the \"Vel R. Phillips Post Office Building\".",
@@ -638,22 +663,13 @@
           "sourceUrl": "https://voteview.com/person/M001160"
         },
         "bridge_score": {
-          "grade": "C",
-          "score": 40,
-          "snapshotDate": "June 30, 2026",
+          "grade": "B",
+          "score": 45.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001160"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "It is my honor to serve as a voice in Congress, representing the 4 th Congressional District of Wisconsin. This has been the privilege of a lifetime and I’m humbled by the charge that has been bestowed upon me.",
-        "source_url": "https://gwenmooreforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:01:21.392Z",
-      "campaign_site_url": "https://www.gwenmooreforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:43.266Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:12.596Z"
+      "_curated_match": false
     },
     {
       "slug": "tim-rogers",
@@ -682,6 +698,18 @@
           "source_url": "https://www.ballotready.org/people/tim-rogers",
           "snippet": "Delivery Person (1994 - Present)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "Milwaukee",
+          "source_url": "https://www.rogersforwisconsin.com/about-5",
+          "snippet": "Milwaukee is where I was born and raised",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Volunteering in community, participating in the All Saints Catholic Choir and MPS Alumni Choir",
+          "source_url": "https://www.rogersforwisconsin.com/about-5",
+          "snippet": "I spend my time volunteering in my community and participating in the All Saints Catholic Choir and MPS Alumni Choir",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -718,25 +746,26 @@
       ],
       "platform_source_url": "https://www.rogersforwisconsin.com/general-5",
       "_platform_resolved_at": "2026-08-17T16:07:58.834Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Milwaukee is where I was born and raised, where I work, and have a family. I am proud to live in the 4th District. In recent years, my fellow citizens and I have seen critical components of our community start to decay. I have witnessed a deteriorating education system, where test scores and graduation rates have declined. I have seen a criminal justice system lacking transparency leading to unfair outcomes. I have seen the issue of aging lead laterals be ignored, risking the health of families across the district.",
-        "source_url": "https://www.rogersforwisconsin.com/about-5"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:01:25.731Z",
       "campaign_site_url": "https://www.rogersforwisconsin.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:07:43.262Z",
       "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:12.886Z",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:43.262Z",
       "platform_video_url": "https://www.youtube.com/watch?v=asS7Rn0X6h4",
       "platform_video_title": "TIM ROGERS Meet The Candidate Event!",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-30T12:00:12.886Z"
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:12.886Z",
+      "bio_summary": {
+        "value": "Milwaukee is where I was born and raised, where I work, and have a family. I am proud to live in the 4th District. In recent years, my fellow citizens and I have seen critical components of our community start to decay. I have witnessed a deteriorating education system, where test scores and graduation rates have declined. I have seen a criminal justice system lacking transparency leading to unfair outcomes. I have seen the issue of aging lead laterals be ignored, risking the health of families across the district.",
+        "source_url": "https://www.rogersforwisconsin.com/about-5",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:25.731Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-28",
-  "generated_at": "2026-08-21T13:11:27.880Z",
+  "generated_at": "2026-09-02T12:24:20.649Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -579,14 +589,18 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.judychu.org/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=jNRqFBx-5dY",
       "platform_video_title": "Judy Chu Blasts GOP For Attempting To 'Expand Their Lawless Deportation Machine' With Funding Bill",
       "platform_video_source_url": "https://www.judychu.org/press",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-21T13:11:14.826Z",
       "bio_summary": {
         "value": "Judy Chu was elected to the U.S. House of Representatives in July 2009. She represents Pasadena, Claremont, the San Gabriel foothills, and the west San Gabriel Valley. Rep. Chu currently serves on the powerful House Ways and Means Committee, which has jurisdiction over legislation pertaining to taxes, revenues, Social Security, and Medicare.",
-        "source_url": "https://www.judychu.org/"
+        "source_url": "https://www.judychu.org/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:23:43.065Z",
       "financial_disclosure": {
@@ -631,7 +645,7 @@
           }
         ],
         "bills_sponsored": 256,
-        "bills_cosponsored": 5378,
+        "bills_cosponsored": 5394,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -652,13 +666,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 77.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 75.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001080"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "april-verlato",
@@ -740,23 +753,25 @@
       "platform_source_url": "https://verlatoforcongress.com/",
       "_platform_resolved_at": "2026-08-15T11:30:17.668Z",
       "campaign_site_url": "https://verlatoforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T10:02:46.243Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "With my experience as a businesswoman, an attorney, and a Mayor, I know what needs to be done to get us back on track. I stepped forward to run because I know Californians care about putting a stop to inflation, rebuilding our economy, and ensuring the security of our nation and neighborhoods.",
-        "source_url": "https://verlatoforcongress.com/"
+        "source_url": "https://verlatoforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:23:40.215Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_discovered_at": "2026-09-01T10:02:46.243Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

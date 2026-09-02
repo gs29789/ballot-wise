@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-28",
-  "generated_at": "2026-08-21T12:36:51.290Z",
+  "generated_at": "2026-09-02T12:17:14.012Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.5
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 14468
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 14469.6
+        "thousandsOfJobs": 14466.4
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155163597.59,
-        "perCapitaUsd": 6674.23
+        "totalUsd": 5155559241.27,
+        "perCapitaUsd": 6674.74
       }
     ],
     "population": [
@@ -583,10 +593,13 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.henrycuellar.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Enrique Roberto \"Henry\" Cuellar [ 1 ] ( / ˈ k w eɪ . ɑː r / KWAY -ar ; born September 19, 1955) [ 2 ] is an American politician and attorney serving as the U.S. representative for Texas's 28th congressional district since 2005. He is a member of the Democratic Party , and his district spans from the Rio Grande toward the suburbs of San Antonio . Cuellar served in the Texas House of Representatives for 14 years, from 1987 to 2001, and briefly served as the Texas secretary of state in 2001, making him, as of 2026, the most recent Democrat to have held a statewide office in Texas. Cuellar was first elected to Congress in 2004 , after defeating incumbent Ciro Rodriguez in a primary challenge. Known as a leading centrist Democrat, [ 3 ] [ 4 ] [ 5 ] he is one of the most conservative House Democrats . [ 6 ] [ 7 ] [ 8 ] ",
@@ -630,8 +643,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 123,
-        "bills_cosponsored": 2502,
+        "bills_sponsored": 124,
+        "bills_cosponsored": 2504,
         "bills_became_law": 16,
         "enacted_laws": [
           {
@@ -787,13 +800,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 61.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 54.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001063"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "marlon-duran",
@@ -809,10 +821,13 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://donorbox.org/marlon4tx",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": null,
       "_bio_summary_resolved_at": null,
@@ -820,8 +835,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "tano-tijerina",
@@ -895,14 +909,18 @@
       "platform_source_url": "https://www.tanoforcongress.com/issues",
       "_platform_resolved_at": "2026-08-14T18:53:23.952Z",
       "campaign_site_url": "https://www.tanoforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "I'm Tano Tijerina—a husband, father, and follower of Christ. South Texas raised me. Every lesson I have learned about faith, family, hard work, and never giving up came from the people here. I am running for Congress because our community deserves someone who knows our struggles, shares our values, and will fight for it like family.",
-        "source_url": "https://www.tanoforcongress.com/"
+        "source_url": "https://www.tanoforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:18:28.576Z",
       "financial_disclosure": {
@@ -918,8 +936,7 @@
       "_financial_disclosure_resolved_at": "2026-08-14T18:54:21.692Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

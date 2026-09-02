@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-21T14:01:43.234Z",
+  "generated_at": "2026-09-02T12:44:30.350Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
@@ -496,8 +496,8 @@
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8801511584.13,
+        "perCapitaUsd": 11423.89
       },
       {
         "year": "2025",
@@ -626,14 +626,18 @@
       "platform_source_url": "https://www.votebraun.com/",
       "_platform_resolved_at": "2026-08-15T13:28:30.646Z",
       "campaign_site_url": "https://www.votebraun.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "John Braun spent 31 years in the submarine force, built a 350-employee company in Chehalis, and led the fight against Olympia's tax surge. Now he's running to bring that same discipline to Washington, D.C.",
-        "source_url": "https://www.votebraun.com/"
+        "source_url": "https://www.votebraun.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:26.024Z",
       "financial_disclosure": {
@@ -649,8 +653,7 @@
       "_financial_disclosure_resolved_at": "2026-08-15T13:28:36.845Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "marie-perez",
@@ -694,16 +697,25 @@
           "source_url": "https://www.ballotready.org/people/marie-gluesenkamp-perez",
           "snippet": "Professional Experience Deans Car Care Inc, Co-Owner (2013 - Present) US House of Representatives, Representative - Washington 3rd Congressional District (Present) Stevenson Downtown Association, Executive Director (2018 - 2020)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Began serving on the Underwood Conservation District board in 2018, served on the Washington State Democratic Party executive committee from 2020 to 2022",
+          "source_url": "https://en.wikipedia.org/wiki/Marie_Gluesenkamp_Perez",
+          "snippet": "That year, Gluesenkamp Perez began serving on the Underwood Conservation District board. [ 13 ] From 2020 to 2022, she served on the Washington State Democratic Party executive committee.",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.marieforcongress.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Kristina Marie Gluesenkamp Perez [ 1 ] [ a ] (née Perez ; born June 4, 1988) is an American politician serving as the United States representative for Washington's 3rd congressional district since 2023. A member of the Democratic Party , she is a co-chair of the Blue Dog Coalition . Gluesenkamp Perez was first elected to Congress in 2022 , defeating Republican nominee Joe Kent in an upset, and was re-elected in 2024 in a rematch. ",
@@ -734,7 +746,7 @@
           }
         ],
         "bills_sponsored": 60,
-        "bills_cosponsored": 544,
+        "bills_cosponsored": 547,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -755,13 +767,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 93.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 88.5,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000600"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "dead"
+      "_curated_match": false
     }
   ]
 }

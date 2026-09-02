@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-46",
-  "generated_at": "2026-08-21T13:24:16.479Z",
+  "generated_at": "2026-09-02T13:29:23.497Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -581,18 +591,28 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Government Funding",
+          "value": "Voted in favor of bipartisan continuing resolution to keep government open without funding Border Patrol",
+          "snippet": "CORREA: BIPARTISAN DEAL KEEPS GOVERNMENT OPEN WITHOUT FUNDING BORDER PATROL U.S. Representative Lou Correa (CA-46) released the following statement following his vote in favor of the bipartisan continuing resolution to keep th...."
+        }
+      ],
+      "platform_source_url": "https://correa.house.gov/",
+      "_platform_resolved_at": "2026-09-02T13:29:04.384Z",
       "campaign_site_url": "https://www.loucorrea.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Lou Correa proudly represents California’s 46th District. Raised by working-class parents, Lou learned early the value of hard work, gratitude, and showing up for others. Those lessons still guide him today. Since 1998 , Lou has focused on one goal: helping Orange County families build better lives and reach the middle class.",
-        "source_url": "https://www.loucorrea.com/"
+        "source_url": "https://www.loucorrea.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:36.640Z",
       "financial_disclosure": {
@@ -608,61 +628,61 @@
       "_financial_disclosure_resolved_at": "2026-08-17T06:33:52.357Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 198,
-          "votesCast": 193,
-          "attendanceRate": 0.9747474747474747
+          "votesInSession": 200,
+          "votesCast": 195,
+          "attendanceRate": 0.975
         },
         "committees": [
           {
@@ -696,8 +716,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 122,
-        "bills_cosponsored": 1881,
+        "bills_sponsored": 123,
+        "bills_cosponsored": 1884,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -727,13 +747,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 64.4,
-          "snapshotDate": "June 30, 2026",
+          "score": 74.6,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001110"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "david-pan",
@@ -799,14 +818,18 @@
       "platform_source_url": "https://www.davidpan4congress.com/",
       "_platform_resolved_at": "2026-08-15T11:55:54.698Z",
       "campaign_site_url": "https://www.davidpanforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=Tn3nMkQwBRk",
       "platform_video_title": "Top Three Issues Facing California and Our Nation - David Pan for Congress CA-46",
       "platform_video_source_url": "https://www.davidpan4congress.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:08:19.297Z",
       "bio_summary": {
         "value": "I am running for Congress because I want to change the way we relate to our government. My plan is to phase out all of our current welfare and entitlement programs and return this money (over $4 trillion per year) to the American people. Whether or not you agree with all the details of this plan, we need to engage in this discussion. The current system is unsustainable.",
-        "source_url": "https://www.davidpan4congress.com/issues"
+        "source_url": "https://www.davidpan4congress.com/issues",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:45.904Z",
       "financial_disclosure": {
@@ -822,8 +845,7 @@
       "_financial_disclosure_resolved_at": "2026-08-17T06:33:55.474Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

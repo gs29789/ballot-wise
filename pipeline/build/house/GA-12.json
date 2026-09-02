@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-12",
-  "generated_at": "2026-08-18T20:16:04.595Z",
+  "generated_at": "2026-09-02T09:57:09.808Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-4/part-2/section-21-2-150/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4977.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4988.9
+        "thousandsOfJobs": 4986.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5726901192.87,
-        "perCapitaUsd": 7479.45
+        "totalUsd": 5727116721.14,
+        "perCapitaUsd": 7479.73
       },
       {
         "year": "2024",
-        "totalUsd": 6535918251.32,
-        "perCapitaUsd": 8494.7
+        "totalUsd": 6536949800.38,
+        "perCapitaUsd": 8496.04
       },
       {
         "year": "2025",
-        "totalUsd": 6785089018.4,
-        "perCapitaUsd": 8818.55
+        "totalUsd": 6787392225.9,
+        "perCapitaUsd": 8821.54
       }
     ],
     "population": [
@@ -568,10 +578,17 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.rickwallenforcongress.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:26.608Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -610,7 +627,7 @@
           }
         ],
         "bills_sponsored": 72,
-        "bills_cosponsored": 1383,
+        "bills_cosponsored": 1386,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -640,17 +657,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.7,
-          "snapshotDate": "June 30, 2026",
+          "score": 31.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/A000372"
         }
       },
       "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:11.257Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:03.077Z",
-      "campaign_site_url": "https://www.rickwallenforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:06:26.608Z",
-      "_campaign_site_reachability": "dead"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:08.045Z"
     },
     {
       "slug": "ceretta-smith",
@@ -721,25 +734,27 @@
       ],
       "platform_source_url": "https://cerettaforga.com/",
       "_platform_resolved_at": "2026-08-10T18:39:54.005Z",
+      "campaign_site_url": "https://cerettaforga.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T10:21:38.387Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am Ceretta Smith. I’ve dedicated my life to service, grounded in vision, and have fought hard for my constituents, with joy. From serving nearly a decade as a U.S. Army medic to fighting for working families as a federal employee, and national union leader, I’ve always believed leadership means showing up for people, not special interests. For twenty-five years, I stood on the front lines for labor, civil, and human rights because every Georgian deserves dignity, fair pay, and opportunity, no matter their ZIP code.",
+        "source_url": "https://cerettaforga.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:37.388Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:11.630Z",
-      "bio_summary": {
-        "value": "I am Ceretta Smith. I’ve dedicated my life to service, grounded in vision, and have fought hard for my constituents, with joy. From serving nearly a decade as a U.S. Army medic to fighting for working families as a federal employee, and national union leader, I’ve always believed leadership means showing up for people, not special interests. For twenty-five years, I stood on the front lines for labor, civil, and human rights because every Georgian deserves dignity, fair pay, and opportunity, no matter their ZIP code.",
-        "source_url": "https://cerettaforga.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:37:37.388Z",
-      "platform_video_tier": null,
-      "campaign_site_url": "https://cerettaforga.com/",
-      "_campaign_site_discovered_at": "2026-09-01T10:21:38.387Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:08.421Z"
     }
   ]
 }

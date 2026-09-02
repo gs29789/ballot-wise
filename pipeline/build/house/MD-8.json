@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-08",
-  "generated_at": "2026-08-17T15:13:20.797Z",
+  "generated_at": "2026-09-02T10:57:14.539Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2815.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2803.9
+        "thousandsOfJobs": 2804.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9648158961.06,
-        "perCapitaUsd": 12916.07
+        "totalUsd": 9648252661.06,
+        "perCapitaUsd": 12916.19
       },
       {
         "year": "2024",
-        "totalUsd": 10123327211.92,
-        "perCapitaUsd": 13552.18
+        "totalUsd": 10126806716.19,
+        "perCapitaUsd": 13556.84
       },
       {
         "year": "2025",
-        "totalUsd": 9261576612.25,
-        "perCapitaUsd": 12398.54
+        "totalUsd": 9266603869.54,
+        "perCapitaUsd": 12405.27
       }
     ],
     "population": [
@@ -576,14 +586,90 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.jamieraskin.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:56.881Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=SH1u8R6J--s",
+      "platform_video_title": "Jamie Raskin, Progressive for Maryland's 8th Congressional District",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-24T12:00:12.135Z",
+      "bio_summary": {
+        "value": "Congressman Jamie Raskin proudly represents Maryland’s 8th Congressional District in the U.S. House of Representatives. He was sworn into his fifth Term at the start of the 119th Congress on January 3, 2025.",
+        "source_url": "https://jamieraskin.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:05.247Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
-        "committees": [],
+        "attendance": {
+          "votesInSession": 202,
+          "votesCast": 199,
+          "attendanceRate": 0.9851485148514851
+        },
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 144,
-        "bills_cosponsored": 3729,
+        "bills_cosponsored": 3734,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -594,26 +680,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 32.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 31.6,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/R000606"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Congressman Jamie Raskin proudly represents Maryland’s 8th Congressional District in the U.S. House of Representatives. He was sworn into his fifth Term at the start of the 119th Congress on January 3, 2025.",
-        "source_url": "https://jamieraskin.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:05.247Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:12.135Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=SH1u8R6J--s",
-      "platform_video_title": "Jamie Raskin, Progressive for Maryland's 8th Congressional District",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-24T12:00:12.135Z",
-      "campaign_site_url": "https://www.jamieraskin.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:56.881Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "cheryl-riley",
@@ -694,16 +766,14 @@
       ],
       "platform_source_url": "https://www.cheryl4maryland.com/",
       "_platform_resolved_at": "2026-09-01T13:20:53.112Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:12.416Z",
+      "campaign_site_url": "https://www.cheryl4maryland.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T10:38:15.102Z",
       "platform_video_url": "https://www.youtube.com/watch?v=9gp8hgObXms",
       "platform_video_title": "Direct Line Live w/Cheryl Riley for Congress MD-8",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:12.416Z",
       "bio_summary": {
         "value": "Cheryl Riley was born in Washington, D.C. and grew up in Montgomery County, Maryland . She took classes at Montgomery College and the University of Maryland, College Park. Her professional experience includes working as a public relations executive. [1] [2] ",
@@ -711,9 +781,11 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:42:12.758Z",
-      "campaign_site_url": "https://www.cheryl4maryland.com/",
-      "_campaign_site_discovered_at": "2026-09-01T10:38:15.102Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

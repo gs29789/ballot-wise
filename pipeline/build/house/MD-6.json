@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-18T20:27:40.603Z",
+  "generated_at": "2026-09-02T10:49:37.129Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2815.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2803.9
+        "thousandsOfJobs": 2804.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9648158961.06,
-        "perCapitaUsd": 12916.07
+        "totalUsd": 9648252661.06,
+        "perCapitaUsd": 12916.19
       },
       {
         "year": "2024",
-        "totalUsd": 10123327211.92,
-        "perCapitaUsd": 13552.18
+        "totalUsd": 10126806716.19,
+        "perCapitaUsd": 13556.84
       },
       {
         "year": "2025",
-        "totalUsd": 9261576612.25,
-        "perCapitaUsd": 12398.54
+        "totalUsd": 9266603869.54,
+        "perCapitaUsd": 12405.27
       }
     ],
     "population": [
@@ -525,7 +535,19 @@
       "fec_candidate_id": "H4MD06340",
       "fec_status": "C",
       "bioguide_id": "M001232",
-      "financials": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 12308220.11,
+        "totalSpent": 12013487.97,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 34836.67,
+          "largeDollar": 834380.71,
+          "pac": 377250.01,
+          "party": 52.77,
+          "selfFunded": 11000000
+        }
+      },
       "bio": {
         "date_of_birth": {
           "value": "1964-05-28",
@@ -570,10 +592,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://aprilmcclaindelaneyforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:39.927Z",
       "platform_video_url": "https://www.youtube.com/watch?v=FFJuMcwsmFM",
       "platform_video_title": "Sixth District | April McClain Delaney for Congress",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:11.110Z",
+      "bio_summary": {
+        "value": "April Lynn McClain Delaney [ 1 ] ( née McClain ; born May 28, 1964) is an American lawyer and politician who is a member of the U.S. House of Representatives representing Maryland's 6th congressional district since 2025. She previously served as the deputy administrator of the National Telecommunications and Information Administration from 2022 to 2023. A member of the Democratic Party , in 2024 McClain Delaney won the U.S. House of Representatives election in Maryland's 6th congressional district after prevailing in a crowded primary and defeating Republican former state delegate Neil Parrott in the general election. She is the wife of former Congressman John Delaney , who represented the 6th district from 2013 to 2019. ",
+        "source_url": "https://en.wikipedia.org/wiki/April_McClain_Delaney",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:38:32.095Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -607,7 +640,7 @@
           }
         ],
         "bills_sponsored": 29,
-        "bills_cosponsored": 438,
+        "bills_cosponsored": 443,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -617,24 +650,13 @@
           "sourceUrl": "https://voteview.com/person/M001232"
         },
         "bridge_score": {
-          "grade": "A",
-          "score": 87.3,
-          "snapshotDate": "June 30, 2026",
+          "grade": "B",
+          "score": 82.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001232"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:11.109Z",
-      "platform_video_tier": 2,
-      "bio_summary": {
-        "value": "April Lynn McClain Delaney [ 1 ] ( née McClain ; born May 28, 1964) is an American lawyer and politician who is a member of the U.S. House of Representatives representing Maryland's 6th congressional district since 2025. She previously served as the deputy administrator of the National Telecommunications and Information Administration from 2022 to 2023. A member of the Democratic Party , in 2024 McClain Delaney won the U.S. House of Representatives election in Maryland's 6th congressional district after prevailing in a crowded primary and defeating Republican former state delegate Neil Parrott in the general election. She is the wife of former Congressman John Delaney , who represented the 6th district from 2013 to 2019. ",
-        "source_url": "https://en.wikipedia.org/wiki/April_McClain_Delaney",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:38:32.095Z",
-      "campaign_site_url": "https://aprilmcclaindelaneyforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:39.927Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "robin-ficker",
@@ -644,7 +666,19 @@
       "fec_candidate_id": "H6MD06287",
       "fec_status": "C",
       "bioguide_id": null,
-      "financials": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 403933.7,
+        "totalSpent": 403532.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1071.72,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 402861.98
+        }
+      },
       "bio": {
         "date_of_birth": {
           "value": "1943-04-05",
@@ -672,6 +706,12 @@
           "source_url": "https://en.wikipedia.org/wiki/Robin_Ficker",
           "snippet": "Ficker was born in Takoma Park, Maryland , attended Takoma Park Elementary, and graduated from Montgomery Blair High School .",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "fiscal watchdog who has fought for taxpayers at every level of government",
+          "source_url": "https://voteficker.com/issues/",
+          "snippet": "Robin Ficker is a long-time fiscal watchdog who has fought for taxpayers at every level of government.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -698,25 +738,26 @@
       ],
       "platform_source_url": "https://voteficker.com/",
       "_platform_resolved_at": "2026-08-13T17:09:02.850Z",
+      "campaign_site_url": "https://voteficker.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:50.766Z",
       "platform_video_url": "https://www.youtube.com/watch?v=Y4kRTCgWIJk",
       "platform_video_title": "Robin Ficker: put me in the ring",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:11.408Z",
+      "bio_summary": {
+        "value": "My name is Robin Ficker, and I am running for Congress in Maryland to RESTORE LOGIC TO GOVERNMENT . Maryland is an amazing State — from our founding and history, to the natural wonder of the Chesapeake Bay; from our commerce, to the industrious people who call the Old Line State home. Unfortunately, however, Maryland’s political leaders in Washington, D.C. have utterly failed us Marylanders. This failure stems from a complete lack of common sense and reason. I am running to be your United States Congressman to restore logic to government, and I am the man to do it.",
+        "source_url": "https://voteficker.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:01.584Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "My name is Robin Ficker, and I am running for Congress in Maryland to RESTORE LOGIC TO GOVERNMENT . Maryland is an amazing State — from our founding and history, to the natural wonder of the Chesapeake Bay; from our commerce, to the industrious people who call the Old Line State home. Unfortunately, however, Maryland’s political leaders in Washington, D.C. have utterly failed us Marylanders. This failure stems from a complete lack of common sense and reason. I am running to be your United States Congressman to restore logic to government, and I am the man to do it.",
-        "source_url": "https://voteficker.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:56:01.584Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:11.408Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://voteficker.com/",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:50.766Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

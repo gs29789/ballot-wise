@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-08-20T15:21:10.465Z",
+  "generated_at": "2026-09-02T11:51:10.318Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 10037.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10033.3
+        "thousandsOfJobs": 10032.8
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542211703.63,
-        "perCapitaUsd": 700.66
+        "totalUsd": 542248339.13,
+        "perCapitaUsd": 700.71
       }
     ],
     "population": [
@@ -565,17 +575,32 @@
           "source_url": "https://www.ballotready.org/people/aaron-bean",
           "snippet": "US House of Representatives, Representative - Florida 4th Congressional District (2023 - Present) Florida State Senate, State Senator- District 4 (2012 - 2022) Florida House of Representatives, Representative- District 12 (2000 - 2008) Fernandina Beach City Commission, Commissioner Fernandina Beach City, Mayor",
           "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "helped start the Young Republicans in Nassau County, served as city commissioner in Fernandina Beach and later elected mayor",
+          "source_url": "https://aaronbean.com/meet-aaron-bean/",
+          "snippet": "he was selected by his peers to be student body president and later helped start the Young Republicans in Nassau County. After graduating college and marrying his college sweetheart, Abby Bradley, a fifth-generation Clay Countian, Aaron became involved in local businesses where he gained firsthand knowledge of the burden governments place on businesses, especially on small business owners and entrepreneurs. This insight guided him to run for local office, believing government can always do better. Aaron served his local community, while raising a family and running a small business, as a city commissioner in Fernandina Beach and later being elected mayor.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.aaronbean.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=2Yo2cn483O0",
       "platform_video_title": "Thank You",
       "platform_video_source_url": "https://aaronbean.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-20T15:20:34.522Z",
+      "bio_summary": {
+        "value": "I am beyond proud to represent the people of Northeast Florida as the Congressman from District 4, serving Clay, Duval and Nassau Counties. In addition to serving in Congress, I’m a conservative businessman, a lifelong Republican, a husband and a father of three. I got into public service because my heart is devoted to serving my community and working hard for what I believe in, and I am honored to serve in our nation’s Capitol representing the people of Congressional District 4.",
+        "source_url": "https://aaronbean.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:22.456Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -604,8 +629,8 @@
           }
         ],
         "bills_sponsored": 48,
-        "bills_cosponsored": 407,
-        "bills_became_law": 0,
+        "bills_cosponsored": 413,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 859 North State Road 21 in Melrose, Florida, as the \"Pamela Jane Rock Post Office Building\".",
@@ -625,18 +650,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29,
-          "snapshotDate": "June 30, 2026",
+          "score": 29.6,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/B001314"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I am beyond proud to represent the people of Northeast Florida as the Congressman from District 4, serving Clay, Duval and Nassau Counties. In addition to serving in Congress, I’m a conservative businessman, a lifelong Republican, a husband and a father of three. I got into public service because my heart is devoted to serving my community and working hard for what I believe in, and I am honored to serve in our nation’s Capitol representing the people of Congressional District 4.",
-        "source_url": "https://aaronbean.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:07:22.456Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "lashonda-holloway",
@@ -665,30 +684,37 @@
           "source_url": "https://www.ballotready.org/people/lashonda-holloway",
           "snippet": "Professional Experience All About HealthCARE Advocates, Founder (2007 - Present) L.J. Holloway & Associates, Inc., Managing Partner (2003 - Present) DC Government, Director of the Executive Office of the Mayor (2007 - 2008) LexisNexis, Account Executive (2000 - 2002) Office of Congresswoman Carrie P. Meek, Fellow (1997 - 1998)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, Howard University, Business Administration and Management; JD, University of Florida (1997); Certificate, Harvard School of Public Health, Epidemiology and Biostatistics (2013)",
+          "source_url": "https://www.ballotready.org/people/lashonda-holloway",
+          "snippet": "Degrees JD, University of Florida (1997) Bachelor's, Howard University, Business Administration and Management Certificate, Harvard School of Public Health, Epidemiology and Biostatistics (2013)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "http://www.ljhollowayforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=AqoeSiEwY5w",
       "platform_video_title": "LJ Holloway for Congress 5th Congressional District 2020",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-31T12:00:23.736Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
       "bio_summary": {
         "value": "LaShonda Holloway was born in Florida . She graduated from Edward Waters College in 1997, later earning a J.D. from the University of Florida College of Law. [1] [2] ",
         "source_url": "https://ballotpedia.org/L.J._Holloway",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:26:02.498Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:23.735Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "todd-schaefer",
@@ -737,23 +763,25 @@
       "platform_source_url": "https://toddforfl4.com/",
       "_platform_resolved_at": "2026-08-20T15:20:07.285Z",
       "campaign_site_url": "https://toddforfl4.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=2wz5082iMrI",
       "platform_video_title": "INDEPENDENT for Congress: Todd Schaefer",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-31T12:00:24.073Z",
+      "bio_summary": {
+        "value": "I'm Todd Schaefer, a retired Navy veteran, and my service to this country isn't quite done. I'm running as an Independent for US House FL-04 in 2026 because our two-party system has failed us. The big money interests own both parties. While they fight each other, they're leaving working Americans behind. It's time to show the country there's a different way — starting with taking our credit and our government back.",
+        "source_url": "https://toddforfl4.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:24.327Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I'm Todd Schaefer, a retired Navy veteran, and my service to this country isn't quite done. I'm running as an Independent for US House FL-04 in 2026 because our two-party system has failed us. The big money interests own both parties. While they fight each other, they're leaving working Americans behind. It's time to show the country there's a different way — starting with taking our credit and our government back.",
-        "source_url": "https://toddforfl4.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:07:24.327Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:24.073Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "mike-sell",
@@ -845,23 +873,26 @@
       "platform_source_url": "https://www.mikesell.org/",
       "_platform_resolved_at": "2026-08-20T15:20:29.281Z",
       "campaign_site_url": "https://www.mikesell.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mike was born to a teen mom in the Pacific Northwest who spent the first few years of motherhood facing all of the challenges known to single mothers - struggles that remain mostly unchanged today . Fortunately, she found and married her life partner who accepted Mike as his own. Mike and his three younger siblings were raised in a proud Navy household, bringing along the experiences and challenges that come with frequent moves and overseas deployments experienced by every military family . Through those experiences, Mike learned the importance of balancing independence and community.",
+        "source_url": "https://www.mikesell.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:20.165Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Mike was born to a teen mom in the Pacific Northwest who spent the first few years of motherhood facing all of the challenges known to single mothers - struggles that remain mostly unchanged today . Fortunately, she found and married her life partner who accepted Mike as his own. Mike and his three younger siblings were raised in a proud Navy household, bringing along the experiences and challenges that come with frequent moves and overseas deployments experienced by every military family . Through those experiences, Mike learned the importance of balancing independence and community.",
-        "source_url": "https://www.mikesell.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:07:20.165Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:24.542Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:36.851Z"
     }
   ]
 }

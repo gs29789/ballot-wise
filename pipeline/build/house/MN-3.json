@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-18T20:31:18.740Z",
+  "generated_at": "2026-09-02T10:35:35.772Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://www.revisor.mn.gov/statutes/cite/204D.03",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3063.6
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3068.9
+        "thousandsOfJobs": 3065.5
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4569082960.97,
-        "perCapitaUsd": 6459.68
+        "totalUsd": 4574415192.03,
+        "perCapitaUsd": 6467.22
       },
       {
         "year": "2024",
-        "totalUsd": 4948977766.82,
-        "perCapitaUsd": 6996.77
+        "totalUsd": 4952614277.82,
+        "perCapitaUsd": 7001.91
       },
       {
         "year": "2025",
-        "totalUsd": 5729406800.63,
-        "perCapitaUsd": 8100.13
+        "totalUsd": 5737187672.63,
+        "perCapitaUsd": 8111.13
       }
     ],
     "population": [
@@ -538,6 +548,12 @@
           "source_url": "https://bassforcongress.com/",
           "snippet": "I ve had a job since I was 10 years old. Right out of college, I couldn t get hired — so I took a $250 paycheck, bought gym equipment, built a website myself, and started a business from nothing. I grew that into multiple companies. I ve worked roofing, siding, and factory jobs. I was a licensed life and health insurance agent in Minnesota.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "Blooming Prairie, a small town in southern Minnesota",
+          "source_url": "https://bassforcongress.com/about/",
+          "snippet": "I grew up in Blooming Prairie, a small town in southern Minnesota",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -569,24 +585,27 @@
       ],
       "platform_source_url": "https://bassforcongress.com/",
       "_platform_resolved_at": "2026-08-12T19:36:37.252Z",
+      "campaign_site_url": "https://bassforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:15.038Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I’ve had a job since I was 10 years old. Right out of college, I couldn’t get hired — so I took a $250 paycheck, bought gym equipment, built a website myself, and started a business from nothing. I grew that into multiple companies. I’ve worked roofing, siding, and factory jobs. I was a licensed life and health insurance agent in Minnesota. I’m not a lawyer. I’m not a career politician. I’m a Minnesotan who built something with his own two hands — and I’m running for Congress because working families in CD3 deserve a representative who actually lives like they do.",
+        "source_url": "https://bassforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:50:21.691Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "I’ve had a job since I was 10 years old. Right out of college, I couldn’t get hired — so I took a $250 paycheck, bought gym equipment, built a website myself, and started a business from nothing. I grew that into multiple companies. I’ve worked roofing, siding, and factory jobs. I was a licensed life and health insurance agent in Minnesota. I’m not a lawyer. I’m not a career politician. I’m a Minnesotan who built something with his own two hands — and I’m running for Congress because working families in CD3 deserve a representative who actually lives like they do.",
-        "source_url": "https://bassforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:50:21.691Z",
-      "_tier2_search_attempted_at": "2026-08-22T15:24:52.138Z",
-      "campaign_site_url": "https://bassforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T12:27:15.038Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:19.264Z"
     },
     {
       "slug": "kelly-morrison",
@@ -653,15 +672,81 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.kellyforcongress.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:15.041Z",
       "platform_video_url": "https://www.youtube.com/watch?v=aqtUn4n_wdM",
       "platform_video_title": "Kelly Morrison for House of Representatives, District 33B (MN)",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-23T12:00:13.633Z",
+      "bio_summary": {
+        "value": "It’s an honor and a privilege to serve as the Congresswoman for Minnesota’s Third District. I am grateful you have put your trust in me to represent the people of the Third District in Washington, DC and to be your voice in Congress. I had the honor of caring for Minnesotans for more than 20 years as an OB-GYN, and that experience informs my work in Congress.",
+        "source_url": "https://www.kellyforcongress.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:50:24.002Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 200,
+          "votesCast": 200,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Veterans' Affairs",
@@ -695,7 +780,7 @@
           }
         ],
         "bills_sponsored": 17,
-        "bills_cosponsored": 239,
+        "bills_cosponsored": 241,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -706,22 +791,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 62,
-          "snapshotDate": "June 30, 2026",
+          "score": 53.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001234"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "It’s an honor and a privilege to serve as the Congresswoman for Minnesota’s Third District. I am grateful you have put your trust in me to represent the people of the Third District in Washington, DC and to be your voice in Congress. I had the honor of caring for Minnesotans for more than 20 years as an OB-GYN, and that experience informs my work in Congress.",
-        "source_url": "https://www.kellyforcongress.org/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:50:24.002Z",
-      "_tier2_search_attempted_at": "2026-08-23T12:00:13.633Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://www.kellyforcongress.org",
-      "_campaign_site_discovered_at": "2026-08-31T12:27:15.041Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }
