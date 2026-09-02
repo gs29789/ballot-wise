@@ -1,0 +1,842 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-28",
+  "generated_at": "2026-08-18T20:16:48.008Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Florida,_2026",
+    "snippet": "This primary was canceled and this candidate advanced: Carlos Gimenez (Incumbent) ✔ ... This primary was canceled and this candidate advanced: Phil Ehr ✔"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "phil-ehr",
+      "full_name": "EHR, PHIL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4FL28042",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 438286.2,
+        "totalSpent": 76322.34,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9364.51,
+          "largeDollar": 85540.84,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 343200
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "married to Sue for 28 years",
+          "source_url": "https://ehrforcongress.us/meet-phil/",
+          "snippet": "Phil and Sue, his wife of 28 years, are blessed with two daughters.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "founded a nonprofit to counter disinformation in domestic politics",
+          "source_url": "https://ehrforcongress.us/meet-phil/",
+          "snippet": "founded a nonprofit to counter disinformation in domestic politics with combat-proven military tactics",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "John F. Kennedy High School (1979)",
+          "source_url": "https://www.ballotready.org/people/phil-ehr",
+          "snippet": "High School Diploma, John F. Kennedy High School (1979)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "US Navy, Officer (1979 - 2008); NATO Joint Electronic Warfare Core Staff, Deputy Director, Senior U.S. Officer (2005 - 2008); English Chess Federation, Chief Executive (2011 - 2015); George Washington Initiative, Inc., Founder & President (2021 - 2023)",
+          "source_url": "https://www.ballotready.org/people/phil-ehr",
+          "snippet": "George Washington Initiative, Inc., Founder & President (2021 - 2023) English Chess Federation, Chief Executive (2011 - 2015) NATO Joint Electronic Warfare Core Staff, Deputy Director, Senior U.S. Officer (2005 - 2008) US Navy, Officer (1979 - 2008)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Lower premiums, expand access, and reduce out-of-pocket costs through the Healthcare Stability & Program Choice Act.",
+          "snippet": "Lower premiums, expand access, and reduce out-of-pocket costs through the Healthcare Stability & Program Choice Act."
+        },
+        {
+          "topic": "Consumer Protection/Market Regulation",
+          "value": "Enforce anti-fraud laws, hold bad actors accountable, stabilize the market, and protect homeowners from rising costs.",
+          "snippet": "Enforce anti-fraud laws, hold bad actors accountable, stabilize the market, and protect homeowners from rising costs."
+        },
+        {
+          "topic": "Public Corruption",
+          "value": "Create an inter-agency public corruption task force and strengthen accountability for public contracts.",
+          "snippet": "Create an inter-agency public corruption task force and strengthen accountability for public contracts."
+        },
+        {
+          "topic": "Veterans Healthcare",
+          "value": "Pursue a full VA hospital or major VA medical facility in South Dade to improve access for veterans in South Dade and Monroe County while strengthening essential services.",
+          "snippet": "Pursue a full VA hospital or major VA medical facility in South Dade to improve access for veterans in South Dade and Monroe County while strengthening essential services."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Protect law-abiding immigrant families, Improve training and accountability for border personnel, a path to permanent residency for families stuck in legal limbo and target criminals and traffickers.",
+          "snippet": "Protect law-abiding immigrant families, Improve training and accountability for border personnel, a path to permanent residency for families stuck in legal limbo and target criminals and traffickers."
+        },
+        {
+          "topic": "Environment and Development",
+          "value": "Protect the Everglades, defend water resources, support responsible growth, and pursue a temporary moratorium on large-scale AI data centers and other high-impact developments until their impacts on infrastructure, energy, housing, and the environment are fully evaluated.",
+          "snippet": "Protect the Everglades, defend water resources, support responsible growth, and pursue a temporary moratorium on large-scale AI data centers and other high-impact developments until their impacts on infrastructure, energy, housing, and the environment are fully evaluated."
+        }
+      ],
+      "platform_source_url": "https://ehrforcongress.us/",
+      "_platform_resolved_at": "2026-08-14T14:45:30.822Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=TGVmlyKsLFQ",
+      "platform_video_title": "Capitán de la Marina Phil “Felipe” Ehr para el Congreso de los Estados Unidos",
+      "platform_video_source_url": "https://ehrforcongress.us/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:00.339Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Phil Ehr’s first mission in the Navy was the Mariel Boatlift, where he helped rescue Cuban exiles who risked it all for freedom and opportunity in America. He went on to serve a full career in the Navy and beyond—often in harm’s way— fighting communists, fascists and terrorists. Phil’s lifelong commitment to our freedoms, democracy and prosperity continues in his campaign to replace Rep. Carlos Gimenez in Congress.",
+        "source_url": "https://ehrforcongress.us/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:13:30.026Z",
+      "campaign_site_url": "https://ehrforcongress.us",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:54.560Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "carlos-gimenez",
+      "full_name": "GIMENEZ, CARLOS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0FL26036",
+      "fec_status": "C",
+      "bioguide_id": "G000593",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 601253.76,
+        "totalSpent": 484408.8,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2016.38,
+          "largeDollar": 202800,
+          "pac": 276750,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1954-01-17",
+          "source_url": "https://www.wikidata.org/wiki/Q5041653",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Havana",
+          "source_url": "https://www.wikidata.org/wiki/Q5041653",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Barry University",
+          "source_url": "https://www.wikidata.org/wiki/Q5041653",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "firefighter, administrator, and elected public servant including Mayor serving Miami-Dade County",
+          "source_url": "https://carlosgimenezforcongress.com/",
+          "snippet": "Mayor Gimenez has dedicated his life to his community and the people of Miami-Dade County as a firefighter, an administrator and as an elected public servant.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Christopher Columbus High School",
+          "source_url": "https://www.ballotready.org/people/carlos-gimenez",
+          "snippet": "High School Diploma, Christopher Columbus High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Lourdes Portela since 1975",
+          "source_url": "https://en.wikipedia.org/wiki/Carlos_A._Gim%C3%A9nez",
+          "snippet": "Spouse Lourdes Portela ​ ( married&lt;/span>\"}]]}'>m. 1975 ) ​",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Former member of International City Managers Association, International Association of Fire Chiefs, National Fire Protection Association, Florida Fire Chiefs, and Fire Officers Association of Miami-Dade; served on Federal Emergency Management Agency Urban Search and Rescue Advisory Committee and as chair of the Legal Issues Subcommittee",
+          "source_url": "https://en.wikipedia.org/wiki/Carlos_A._Gim%C3%A9nez",
+          "snippet": "Giménez is a former member of the International City Managers Association, the International Association of Fire Chiefs , the National Fire Protection Association , the Florida Fire Chiefs, and the Fire Officers Association of Miami-Dade. He also served on the Federal Emergency Management Agency Urban Search and Rescue Advisory Committee and as the chair of the Legal Issues Subcommittee.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Taxes",
+          "value": "Fighting to lower taxes",
+          "snippet": "Carlos has spent the last nine years fighting to lower taxes"
+        },
+        {
+          "topic": "Budget",
+          "value": "Balance the budget",
+          "snippet": "fighting to lower taxes, balance the budget"
+        },
+        {
+          "topic": "Environment",
+          "value": "Protect the environment",
+          "snippet": "balance the budget, protect the environment"
+        }
+      ],
+      "platform_source_url": "https://carlosgimenezforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T14:45:33.378Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Transportation and Maritime Security",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Tactical Air and Land Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Readiness",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Cybersecurity and Infrastructure Protection",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 57,
+        "bills_cosponsored": 765,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.328,
+          "nominateDim2": 0.157,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000593"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 10.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000593"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Born in Cuba in 1954, Gimenez immigrated to the United States with his family following the Cuban Revolution in 1960. His family settled in Miami’s Little Havana neighborhood and Gimenez has been a Miami-Dade resident ever since. Mayor Gimenez has dedicated his life to his community and the people of Miami-Dade County as a firefighter, an administrator and as an elected public servant.",
+        "source_url": "https://carlosgimenezforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:13:27.579Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:39.522Z",
+      "campaign_site_url": "https://carlosgimenezforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:54.560Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "eddy-rojas",
+      "full_name": "ROJAS, EDDY",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL28021",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Cuba",
+          "source_url": "https://www.eddyrojas.com/about",
+          "snippet": "Eddy Rojas came to Miami from Cuba with a dream and a work ethic that wouldn t quit.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Built a successful service company from the ground up over the past 20 years, going from parking cars to leading one of Florida's most respected service businesses",
+          "source_url": "https://www.eddyrojas.com/about",
+          "snippet": "Over the past 20 years, he built a successful service company from the ground up &mdash; going from parking cars to leading one of Florida s most respected service businesses.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": null
+      },
+      "platform": [
+        {
+          "topic": "Economy & Jobs",
+          "value": "Will fight to cut burdensome regulations, lower taxes on small businesses, and bring good-paying jobs back to Miami",
+          "snippet": "I ll fight to cut burdensome regulations, lower taxes on small businesses, and bring good-paying jobs back to Miami."
+        },
+        {
+          "topic": "Education & School Choice",
+          "value": "Will fight for school choice, vocational training, and affordable higher education",
+          "snippet": "I will fight for school choice, vocational training, and affordable higher education so every child in District 28 has the chance to succeed"
+        },
+        {
+          "topic": "Law Enforcement & Border Security",
+          "value": "Will support law enforcement, secure borders, and invest in community programs that prevent crime",
+          "snippet": "I will support our law enforcement, secure our borders, and invest in community programs that prevent crime and give our youth a brighter future."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Will work to lower prescription drug costs, expand telehealth, and protect Medicare for seniors",
+          "snippet": "I ll work across the aisle to lower prescription drug costs, expand telehealth, and protect Medicare for our seniors."
+        }
+      ],
+      "platform_source_url": "https://www.eddyrojas.com/events-1",
+      "_platform_resolved_at": "2026-08-17T15:05:01.201Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Eddy Rojas came to Miami from Cuba with a dream and a work ethic that wouldn't quit. Over the past 20 years, he built a successful service company from the ground up — going from parking cars to leading one of Florida's most respected service businesses. ​ ​ He knows what it means to work hard, raise a family, and fight for the American Dream. Now, Eddy is running for Congress to bring that same dedication and honesty to Washington — because Miami's hardworking families deserve a representative who truly understands their struggles.",
+        "source_url": "https://www.eddyrojas.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:13:32.327Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:39.955Z",
+      "campaign_site_url": "https://www.eddyrojas.com",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:54.559Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

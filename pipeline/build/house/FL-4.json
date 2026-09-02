@@ -1,0 +1,867 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-20T15:21:10.465Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Aaron Bean, LaShonda Holloway, Mike Sell, and Todd Schaefer are running in the general election for U.S. House Florida District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "aaron-bean",
+      "full_name": "BEAN, AARON P.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2FL04211",
+      "fec_status": "C",
+      "bioguide_id": "B001314",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2163375.8,
+        "totalSpent": 1005546.53,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 6600,
+          "largeDollar": 900918.83,
+          "pac": 1149650.01,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1967-01-25",
+          "source_url": "https://www.wikidata.org/wiki/Q4661833",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Fernandina Beach, Florida",
+          "source_url": "https://www.wikidata.org/wiki/Q4661833",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Jacksonville University",
+          "source_url": "https://www.wikidata.org/wiki/Q4661833",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Abby Bean (née Bradley) of Green Cove Springs",
+          "source_url": "https://en.wikipedia.org/wiki/Aaron_Bean",
+          "snippet": "Bean is married to Abby Bean (née Bradley) of Green Cove Springs.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - Florida 4th Congressional District (2023 - Present); Florida State Senate, State Senator- District 4 (2012 - 2022); Florida House of Representatives, Representative- District 12 (2000 - 2008); Fernandina Beach City Commission, Commissioner; Fernandina Beach City, Mayor",
+          "source_url": "https://www.ballotready.org/people/aaron-bean",
+          "snippet": "US House of Representatives, Representative - Florida 4th Congressional District (2023 - Present) Florida State Senate, State Senator- District 4 (2012 - 2022) Florida House of Representatives, Representative- District 12 (2000 - 2008) Fernandina Beach City Commission, Commissioner Fernandina Beach City, Mayor",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.aaronbean.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=2Yo2cn483O0",
+      "platform_video_title": "Thank You",
+      "platform_video_source_url": "https://aaronbean.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:20:34.522Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Social Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Oversight",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ways and Means — Work and Welfare",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 48,
+        "bills_cosponsored": 407,
+        "bills_became_law": 0,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 859 North State Road 21 in Melrose, Florida, as the \"Pamela Jane Rock Post Office Building\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "3947",
+            "publicLawNumber": "118-58",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 859 North State Road 21 in Melrose, Florida, as the Pamela Jane Rock Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ58"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.697,
+          "nominateDim2": -0.162,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001314"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 29,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001314"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I am beyond proud to represent the people of Northeast Florida as the Congressman from District 4, serving Clay, Duval and Nassau Counties. In addition to serving in Congress, I’m a conservative businessman, a lifelong Republican, a husband and a father of three. I got into public service because my heart is devoted to serving my community and working hard for what I believe in, and I am honored to serve in our nation’s Capitol representing the people of Congressional District 4.",
+        "source_url": "https://aaronbean.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:22.456Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "lashonda-holloway",
+      "full_name": "HOLLOWAY, LASHONDA J",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL05193",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 27347.7,
+        "totalSpent": 14154.97,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9739.7,
+          "largeDollar": 17120,
+          "pac": 488,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "All About HealthCARE Advocates, Founder (2007 - Present); L.J. Holloway & Associates, Inc., Managing Partner (2003 - Present); DC Government, Director of the Executive Office of the Mayor (2007 - 2008); LexisNexis, Account Executive (2000 - 2002); Office of Congresswoman Carrie P. Meek, Fellow (1997 - 1998)",
+          "source_url": "https://www.ballotready.org/people/lashonda-holloway",
+          "snippet": "Professional Experience All About HealthCARE Advocates, Founder (2007 - Present) L.J. Holloway & Associates, Inc., Managing Partner (2003 - Present) DC Government, Director of the Executive Office of the Mayor (2007 - 2008) LexisNexis, Account Executive (2000 - 2002) Office of Congresswoman Carrie P. Meek, Fellow (1997 - 1998)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "http://www.ljhollowayforcongress.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=AqoeSiEwY5w",
+      "platform_video_title": "LJ Holloway for Congress 5th Congressional District 2020",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-31T12:00:23.736Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "LaShonda Holloway was born in Florida . She graduated from Edward Waters College in 1997, later earning a J.D. from the University of Florida College of Law. [1] [2] ",
+        "source_url": "https://ballotpedia.org/L.J._Holloway",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:26:02.498Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:23.735Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "todd-schaefer",
+      "full_name": "SCHAEFER, TODD",
+      "party": "NO PARTY AFFILIATION",
+      "incumbent": false,
+      "fec_candidate_id": "H4FL04068",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "employment_record": {
+          "value": "retired Navy veteran",
+          "source_url": "https://toddforfl4.com/",
+          "snippet": "I'm Todd Schaefer, a retired Navy veteran",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Corruption",
+          "value": "End government corruption",
+          "snippet": "Ending Government Corruption"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Secure healthcare for all Americans",
+          "snippet": "Securing Healthcare for All Americans"
+        },
+        {
+          "topic": "Housing Affordability",
+          "value": "Address housing affordability",
+          "snippet": "Housing Affordability"
+        },
+        {
+          "topic": "Living Wage",
+          "value": "Pass a fair and lasting living wage",
+          "snippet": "Passing a Fair and Lasting Living Wage"
+        },
+        {
+          "topic": "Free Speech",
+          "value": "Protect free speech",
+          "snippet": "Protecting Free Speech"
+        }
+      ],
+      "platform_source_url": "https://toddforfl4.com/",
+      "_platform_resolved_at": "2026-08-20T15:20:07.285Z",
+      "campaign_site_url": "https://toddforfl4.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=2wz5082iMrI",
+      "platform_video_title": "INDEPENDENT for Congress: Todd Schaefer",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-31T12:00:24.073Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I'm Todd Schaefer, a retired Navy veteran, and my service to this country isn't quite done. I'm running as an Independent for US House FL-04 in 2026 because our two-party system has failed us. The big money interests own both parties. While they fight each other, they're leaving working Americans behind. It's time to show the country there's a different way — starting with taking our credit and our government back.",
+        "source_url": "https://toddforfl4.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:24.327Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:24.073Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "mike-sell",
+      "full_name": "SELL, MIKE",
+      "party": "OTHER",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL04246",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 24186,
+        "totalSpent": 14356,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 14093,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 10093
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1945-07-28",
+          "source_url": "https://www.wikidata.org/wiki/Q6848764",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Seattle, Washington",
+          "source_url": "https://www.wikidata.org/wiki/Q6848764",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "became a parent and started working while still in high school, secured a full-time job that paid minimum wage, climbed up to and through the middle class eventually earning a seat at executive tables, leverages his extensive experience in operational excellence and community engagement to help organizations work better and serve more people, founded multiple voluntary organizations that emphasize diversity, deployed solutions used by communities around the globe, generated more than a quarter of a billion dollars in savings for industry leaders in healthcare and human resources",
+          "source_url": "https://www.mikesell.org/",
+          "snippet": "Mike became a parent and started working while still in high school. Around the same time, he secured a full-time job to support his new family. It paid minimum wage, but he seized the opportunity to launch his career. By dedicating himself to continuous improvement, he found unique ways to add value for those around him and he climbed up to, and through, the middle class, eventually earning a seat at executive tables. As he worked his way up, he saw firsthand how hard it is to get ahead when the systems we rely on work against us and he is determined to make a change. Today Today, Mike leverages his extensive experience in operational excellence and community engagement to help organizations work better and serve more people. With a history of founding multiple voluntary organizations that emphasize diversity and a passion for inclusive change, he&rsquo;s spent years turning his values into action. Businesses of all sizes have sought out his expertise, and he s deployed solutions used by communities around the globe. He s used his knowledge and skills to generate more than a quarter of a billion dollars in savings for industry leaders in healthcare and human resources",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "founded multiple voluntary organizations that emphasize diversity",
+          "source_url": "https://www.mikesell.org/",
+          "snippet": "With a history of founding multiple voluntary organizations that emphasize diversity and a passion for inclusive change, he&rsquo;s spent years turning his values into action",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Education",
+          "value": "Fund public education",
+          "snippet": "Fund public education"
+        },
+        {
+          "topic": "Gun Policy",
+          "value": "Enact sensible gun legislation",
+          "snippet": "Enact sensible gun legislation"
+        },
+        {
+          "topic": "Foreign Policy",
+          "value": "Divest from overseas conflicts",
+          "snippet": "Divest from overseas conflicts"
+        },
+        {
+          "topic": "Wages",
+          "value": "Fight for higher wages",
+          "snippet": "Fight for higher wages"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "End price gouging (rent, groceries, healthcare, prescriptions, education)",
+          "snippet": "End price gouging (rent, groceries, healthcare, prescriptions, education)"
+        },
+        {
+          "topic": "Taxation",
+          "value": "Tax the rich",
+          "snippet": "Tax the rich"
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Defend body autonomy",
+          "snippet": "Defend body autonomy"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Get money out of politics",
+          "snippet": "Get money out of politics"
+        }
+      ],
+      "platform_source_url": "https://www.mikesell.org/",
+      "_platform_resolved_at": "2026-08-20T15:20:29.281Z",
+      "campaign_site_url": "https://www.mikesell.org",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Mike was born to a teen mom in the Pacific Northwest who spent the first few years of motherhood facing all of the challenges known to single mothers - struggles that remain mostly unchanged today . Fortunately, she found and married her life partner who accepted Mike as his own. Mike and his three younger siblings were raised in a proud Navy household, bringing along the experiences and challenges that come with frequent moves and overseas deployments experienced by every military family . Through those experiences, Mike learned the importance of balancing independence and community.",
+        "source_url": "https://www.mikesell.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:20.165Z",
+      "_tier2_search_attempted_at": "2026-08-31T12:00:24.542Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

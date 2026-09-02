@@ -1,0 +1,401 @@
+{
+  "state": "TN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-14T17:53:03.215Z",
+  "election_dates": {
+    "primaryDate": "2026-08-06",
+    "primarySourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "primarySnippet": "Thursday, August 6, 2026 - Primary and General Election. Primary elections will be held for Governor, U.S. Senate, U.S. House, Tennessee Senate (odd-numbered districts), Tennessee House...",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "generalSnippet": "Tuesday, November 3, 2026 - State and Federal General Election."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Tennessee's eligibility statute (Tenn. Code Ann. § 8-18-101) applies only to persons \"qualified to hold office under the authority of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tn/title-8-public-officers-and-employees/tn-code-sect-8-18-101/",
+    "snippet": "Tenn. Code Ann. § 8-18-101: \"All persons eighteen (18) years of age or older who are citizens of the United States and of this state... are qualified to hold office under the authority of this state except: (1) Those who have been convicted of offering or giving a bribe, or any other offense declared infamous under § 40-20-112...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Tennessee%27s_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Scott DesJarlais, Victoria Broderick, Jacob Anders, and Clay Faircloth are running in the general election for U.S. House Tennessee District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 54.64
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 52.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 51.17
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 44.55
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 34.19
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4171479559.75,
+        "perCapitaUsd": 5453.88
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5258880056.52,
+        "perCapitaUsd": 6850.34
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4697082092.97,
+        "perCapitaUsd": 6141.06
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "jacob-anders",
+      "full_name": "ANDERS, JACOB KRISTOPHER",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6TN04242",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 27150,
+        "totalSpent": 383.88,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 26730,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 420
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "historian, author, and community advocate",
+          "source_url": "https://jacobanders.org/",
+          "snippet": "As a historian, author, and community advocate, I believe that true public service should be guided by a simple timeless question: What Would Jesus Do?",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Term Limits",
+          "value": "Limit politicians to 3 terms in the House of Representatives (6 years total) and 2 terms in the U.S. Senate (12 years total)",
+          "snippet": "We're going to limit politicians to 3 terms in the House of Representatives (6 years total) and 2 terms in the U.S. Senate (12 years total)."
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Support a full ban on members of Congress, their spouses, and children buying or selling individual stocks",
+          "snippet": "I support a full ban on members of Congress, their spouses, and children buying or selling individual stocks."
+        },
+        {
+          "topic": "Income Tax",
+          "value": "Eliminate income taxes entirely for anyone earning under $500,000 and apply a simplified 50% flat tax for income exceeding that threshold",
+          "snippet": "this plan eliminates income taxes entirely for anyone earning under $500,000. For income exceeding that threshold, a simplified 50% flat tax will be applied."
+        },
+        {
+          "topic": "Labor Rights",
+          "value": "Increase the minimum wage to $15 an hour and pass the Protecting the Right to Organize (PRO) Act",
+          "snippet": "we must increase the minimum wage to $15 an hour, and pass the Protecting the Right to Organize (PRO) Act."
+        }
+      ],
+      "platform_source_url": "https://jacobanders.org/",
+      "_platform_resolved_at": "2026-08-14T17:52:47.024Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=7se6xg-TGtI",
+      "platform_video_title": "Tom Powell Jr Sides With Crooked Police Over Innocent Teenager #tennessee",
+      "platform_video_source_url": "https://jacobanders.org/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:16.785Z",
+      "bio_summary": {
+        "value": "I'm running for Congress to bring back servant leadership. As a historian, author, and community advocate, I believe that true public service should be guided by a simple timeless question: What Would Jesus Do? To me the answer is found in lifting up our families, standing by our neighbors, and defending the most vulnerable. I am running to lead with love, integrity, and building a future where we truly put Humanity First!",
+        "source_url": "https://jacobanders.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:15:07.053Z",
+      "campaign_site_url": "https://www.jacobanders.org",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:13.471Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "victoria-broderick",
+      "full_name": "BRODERICK, VICTORIA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4TN04270",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 59771.71,
+        "totalSpent": 58973.75,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 39700.5,
+          "largeDollar": 11509.72,
+          "pac": 250,
+          "party": 1000,
+          "selfFunded": 500
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "mother",
+          "source_url": "https://www.victoria4tennessee.org/",
+          "snippet": "I'm a working-class Tennessee mother who has spent my life standing up to bullies like Scott DesJarlais.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "working-class",
+          "source_url": "https://www.victoria4tennessee.org/",
+          "snippet": "I'm a working-class Tennessee mother who has spent my life standing up to bullies like Scott DesJarlais.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Core Values",
+          "value": "Will be guided by four Tennessee values in Washington: safety, affordability, freedom, and equity",
+          "snippet": "I will be guided by four Tennessee values in Washington: safety , affordability , freedom, and equity ."
+        },
+        {
+          "topic": "Democracy",
+          "value": "Pro-democracy",
+          "snippet": "Pro- democracy"
+        },
+        {
+          "topic": "Abortion Rights",
+          "value": "Pro-choice",
+          "snippet": "Pro-choice"
+        },
+        {
+          "topic": "Education",
+          "value": "Pro-public education",
+          "snippet": "Pro-public education"
+        },
+        {
+          "topic": "Gun Policy",
+          "value": "Pro-gun reform",
+          "snippet": "Pro-gun reform"
+        }
+      ],
+      "platform_source_url": "https://www.victoria4tennessee.org/",
+      "_platform_resolved_at": "2026-08-14T17:52:11.401Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "My name is Victoria Broderick. “I'm a working-class Tennessee mother who has spent my life standing up to bullies like Scott DesJarlais. I'm going to bring monumental change to one of the nation's reddest and most rural MAGA districts.”",
+        "source_url": "https://www.victoria4tennessee.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:15:10.314Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-09-01T09:50:13.479Z",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:16.449Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=NqWH_a-gK5c",
+      "platform_video_title": "Grassroots Candidate Interview: Victoria Broderick(Congress TN District 4)",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:16.449Z"
+    },
+    {
+      "slug": "scott-desjarlais",
+      "full_name": "DESJARLAIS, SCOTT HON.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0TN04195",
+      "fec_status": "C",
+      "bioguide_id": "D000616",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 536842.93,
+        "totalSpent": 407735.16,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1451.8,
+          "largeDollar": 227335,
+          "pac": 307000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1964-02-21",
+          "source_url": "https://www.wikidata.org/wiki/Q2260839",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Des Moines, Iowa",
+          "source_url": "https://www.wikidata.org/wiki/Q2260839",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of South Dakota",
+          "source_url": "https://www.wikidata.org/wiki/Q2260839",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married to Amy DesJarlais",
+          "source_url": "https://scottdesjarlais.com/about_scott/",
+          "snippet": "Scott is married to Amy DesJarlais",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "active in the Epiphany Episcopal Church of Sherwood, Tennessee",
+          "source_url": "https://scottdesjarlais.com/about_scott/",
+          "snippet": "The DesJarlais family is active in the Epiphany Episcopal Church of Sherwood, Tennessee",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Fiscal Policy",
+          "value": "Supports enforcing fiscal discipline in Washington",
+          "snippet": "fighting for policies that will enforce fiscal discipline in Washington"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports ending the flow of illegal immigration",
+          "snippet": "end the flow of illegal immigration"
+        }
+      ],
+      "platform_source_url": "https://scottdesjarlais.com/",
+      "_platform_resolved_at": "2026-08-14T17:52:50.008Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Strategic Forces",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 52,
+        "bills_cosponsored": 1519,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.578,
+          "nominateDim2": -0.038,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/D000616"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 17,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/D000616"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Congressman DesJarlais has a proven track record of fighting for policies that will enforce fiscal discipline in Washington, strengthen our nation’s economy, and end the flow of illegal immigration.",
+        "source_url": "https://scottdesjarlais.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:15:01.994Z",
+      "campaign_site_url": "https://www.scottdesjarlais.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:13.476Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:16.880Z"
+    },
+    {
+      "slug": "clay-faircloth",
+      "full_name": "FAIRCLOTH, CLAY",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H2TN06188",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "college": {
+          "value": "Master's, Trevecca Nazarene University, Graduate Counseling (2013); Bachelor's, Williamson Christian College, Leadership and Ministry",
+          "source_url": "https://www.ballotready.org/people/clay-faircloth",
+          "snippet": "Degrees Master&#x27;s, Trevecca Nazarene University, Graduate Counseling (2013) Bachelor&#x27;s, Williamson Christian College, Leadership and Ministry",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Nashville Career Advancement Center, Career Coach (2017 - Present)",
+          "source_url": "https://www.ballotready.org/people/clay-faircloth",
+          "snippet": "Nashville Career Advancement Center, Career Coach (2017 - Present)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Clay Faircloth earned a high school diploma from McGavock High School and a graduate degree from Trevecca Nazarene University in 2013. His career experience includes working as a pastor, at a Nissan Plant, and career coaching with Metro Nashville.",
+        "source_url": "https://ballotpedia.org/Clay_Faircloth",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:20:18.778Z",
+      "campaign_site_url": null,
+      "_campaign_site_discovered_at": "2026-09-01T09:50:13.462Z",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:17.299Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=WY-CVv3nF0A",
+      "platform_video_title": "Clay Faircloth for Congress TN6  - Announcement 2024",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:17.299Z"
+    }
+  ]
+}

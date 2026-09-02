@@ -1,0 +1,793 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-16T22:22:29.137Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_6th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Benjamin Lee Cline and Beth Macy are running in the general election for U.S. House Virginia District 6 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.44
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.44
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989449392.83,
+        "perCapitaUsd": 41524.68
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "benjamin-cline",
+      "full_name": "CLINE, BENJAMIN LEE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8VA06104",
+      "fec_status": "C",
+      "bioguide_id": "C001118",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1441436.38,
+        "totalSpent": 1058316.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 46823.59,
+          "largeDollar": 679098.79,
+          "pac": 597759.68,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1972-02-29",
+          "source_url": "https://www.wikidata.org/wiki/Q4885439",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Stillwater, Oklahoma",
+          "source_url": "https://www.wikidata.org/wiki/Q4885439",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Bates College",
+          "source_url": "https://www.wikidata.org/wiki/Q4885439",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 198,
+          "votesCast": 192,
+          "attendanceRate": 0.9696969696969697
+        },
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Budget",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — The Administrative State, Regulatory Reform, and Antitrust",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Defense Intelligence and Overhead Architecture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — National Security Agency and Cyber",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 61,
+        "bills_cosponsored": 1092,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "Small Business Reorganization Act of 2019",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "3311",
+            "publicLawNumber": "116-54",
+            "summary": "Small Business Reorganization Act of 2019 This bill creates new bankruptcy procedures for small businesses filing for reorganization under Chapter 11 and otherwise revises provisions related to venue and trustee responsibilities in Chapter 11 bankruptcies. (Sec. 2) The bill provides for the appointment of a trustee for a small business debtor filing under these new procedures. The trustee must assist in developing a reorganization plan, account for the property of the debtor, attend certain hearings and conferences, and ensure that the debtor complies with payments required under the plan. As under current law, a debtor may operate their business as a debtor in possession during the reorganization. The bill sets forth the rights and powers of a debtor in possession, as well as the procedures for removing a debtor in possession. The bill provides reporting requirements for debtors and reduces the amount of disclosures required by debtors under current law. Under these new procedures, only a debtor is allowed to file a reorganization plan. Currently, creditors may also submit plans for court approval for small businesses filing under Chapter 11. The bill sets forth requirements regarding the filing and contents of a plan of reorganization. A debtor must submit all or a portion of future income to the trustee as needed to execute the plan. The bill provides authority to the bankruptcy court to approve a reorganization plan for small businesses over the objections of the creditors. However, the plan may not discriminate unfairly, and must be fair and equitable towards each class of claims or interests that is impaired under, and has not accepted, the plan. Currently, creditors must generally vote to approve such a plan. Under a fair and equitable plan as established by this bill, a debtor's projected disposable income for at least three years, but no longer than five, must go towards payments under the plan. (Sec. 3) The bill also provides additional standards a trustee must meet in order to void a preferential transfer for all Chapter 11 filers. (Preferential transfers generally occur when a debtor transfers property before filing bankruptcy that is beneficial to one creditor to the detriment of others.) Specifically, a trustee may only void such a transfer based on reasonable due diligence and must take into account a party's known or reasonably knowable affirmative defenses. The bill also revises venue criteria for proceedings connected with a Chapter 11 bankruptcy case. Currently, an action to recover a debt against a noninsider (i.e., those that are not relatives, general partners, and directors or officers of the debtor) of less than $13,650 must be brought in the district court where the defendant resides. The bill increases that amount to $25,000. (Sec. 5) This bill takes effect 180 days after enactment.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ54"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.713,
+          "nominateDim2": -0.204,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001118"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 40,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001118"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:30.876Z",
+      "bio_summary": {
+        "value": "Benjamin Lee Cline (born February 29, 1972) is an American politician and lawyer serving as the U.S. representative for Virginia's 6th congressional district since 2019. A member of the Republican Party , he represented the 24th district in the Virginia House of Delegates from 2002 to 2018. [ 1 ] Early life and education [ edit ] Cline was born on February 29, 1972, in Stillwater, Oklahoma , [ 1 ] [ 2 ] and grew up in Rockbridge County, Virginia . [ 3 ] He is the son of Philip L. Cline and Julie Cline. [ 2 ] Cline graduated from Lexington High School in 1990, [ 3 ] and graduated with a B.A. from Bates College in 1994. [ 1 ] [ 4 ] He earned a J.D. degree from University of Richmond School of Law in 2007. [ 1 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Ben_Cline",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:47:05.565Z",
+      "campaign_site_url": "https://www.bencline.com",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:19.314Z",
+      "_campaign_site_reachability": "blocked_other"
+    },
+    {
+      "slug": "beth-macy",
+      "full_name": "MACY, BETH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA06173",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1686322.36,
+        "totalSpent": 838851.95,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 445061.63,
+          "largeDollar": 1198415.33,
+          "pac": 38550,
+          "party": 700,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "a small Ohio town",
+          "source_url": "https://bethmacyforcongress.com/",
+          "snippet": "She grew up poor in a small Ohio town",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "first in her family to go to college",
+          "source_url": "https://bethmacyforcongress.com/",
+          "snippet": "the first in her family to go to college",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married with two kids",
+          "source_url": "https://bethmacyforcongress.com/",
+          "snippet": "she and her husband raised two kids",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Running to make life affordable again for working families",
+          "snippet": "Beth is running to make life affordable again for working families, expand access to health and mental health care, invest in rural communities, and ensure every child has a real chance at a better future"
+        },
+        {
+          "topic": "Rural Communities",
+          "value": "Running to invest in rural communities",
+          "snippet": "Beth is running to make life affordable again for working families, expand access to health and mental health care, invest in rural communities, and ensure every child has a real chance at a better future"
+        },
+        {
+          "topic": "Accountability",
+          "value": "Running to hold the powerful accountable",
+          "snippet": "Our district deserves a representative who understands what families here are up against. A person who will hold the powerful accountable."
+        }
+      ],
+      "platform_source_url": "https://bethmacyforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T12:45:21.702Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Beth Macy never planned on entering politics. She grew up poor in a small Ohio town, the first in her family to go to college, and built her adult life in Roanoke, where she and her husband raised two kids on a reporter’s and a teacher’s salary. For 25 years at The Roanoke Times, Beth covered the stories of people and communities across western Virginia, listening without judgment and digging for the truth even when it was uncomfortable.",
+        "source_url": "https://bethmacyforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:40.303Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:31.168Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=SzaCXUw5jrE",
+      "platform_video_title": "Roanoke Author Beth Macy announces candidacy for congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:31.168Z",
+      "campaign_site_url": "https://bethmacyforcongress.com/",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:19.432Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

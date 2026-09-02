@@ -1,0 +1,405 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-10",
+  "generated_at": "2026-08-18T19:50:42.220Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_10th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Mark DeSaulnier and Jeffrey Frese are running in the general election for U.S. House California District 10 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "mark-desaulnier",
+      "full_name": "DESAULNIER, MARK",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0CA10073",
+      "fec_status": "C",
+      "bioguide_id": "D000623",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 567257.94,
+        "totalSpent": 609747.82,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 40092.17,
+          "largeDollar": 220573.05,
+          "pac": 304982.55,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1952-03-31",
+          "source_url": "https://www.wikidata.org/wiki/Q6767311",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Lowell, Massachusetts",
+          "source_url": "https://www.wikidata.org/wiki/Q6767311",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "College of the Holy Cross",
+          "source_url": "https://www.wikidata.org/wiki/Q6767311",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "drove trucks, waited tables, ran restaurants",
+          "source_url": "https://desaulnierforcongress.com/issues/",
+          "snippet": "Before I was a Congressman, I drove trucks, waited tables, ran restaurants, and paid union dues.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Served on the California Air Resources Board (1997–2006)",
+          "source_url": "https://desaulnierforcongress.com/issues/",
+          "snippet": "Served on the California Air Resources Board (1997–2006).",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Cranwell Preparatory School in Lowell",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_DeSaulnier",
+          "snippet": "After attending the Cranwell Preparatory School in Lowell, DeSaulnier graduated from the College of the Holy Cross",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "divorced from Melinda Clune",
+          "source_url": "https://en.wikipedia.org/wiki/Mark_DeSaulnier",
+          "snippet": "He was married to Melinda Clune until their divorce.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Jobs, Workers, & AI",
+          "value": "Fighting to ensure workers have a real voice as AI and automation reshape the economy.",
+          "snippet": "Fighting to ensure workers have a real voice as AI and automation reshape the economy."
+        },
+        {
+          "topic": "Local News & Big Tech",
+          "value": "Fighting to save local journalism and make tech platforms pay their fair share.",
+          "snippet": "Fighting to save local journalism and make tech platforms pay their fair share."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Pushing for humane, functional reform and dignity for families already here.",
+          "snippet": "Pushing for humane, functional reform and dignity for families already here."
+        },
+        {
+          "topic": "Environment & Clean Air",
+          "value": "Protecting clean air standards and accelerating the transition to clean energy.",
+          "snippet": "Protecting clean air standards and accelerating the transition to clean energy."
+        },
+        {
+          "topic": "Healthcare & Cancer Research",
+          "value": "Protecting medical research funding and expanding access to quality care for every patient.",
+          "snippet": "Protecting medical research funding and expanding access to quality care for every patient."
+        },
+        {
+          "topic": "Women's Rights & Reproductive Freedom",
+          "value": "Fighting to restore and protect every woman's right to make her own health care decisions.",
+          "snippet": "Fighting to restore and protect every woman's right to make her own health care decisions."
+        },
+        {
+          "topic": "Cost of Living, Housing, & Transportation",
+          "value": "Lowering costs and expanding housing so working families can afford to stay.",
+          "snippet": "Lowering costs and expanding housing so working families can afford to stay."
+        },
+        {
+          "topic": "Mental Health & Youth",
+          "value": "Expanding mental health support for kids before they reach a crisis point.",
+          "snippet": "Expanding mental health support for kids before they reach a crisis point."
+        }
+      ],
+      "platform_source_url": "https://desaulnierforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:01:52.286Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078110.pdf",
+        "filingDate": "5/14/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:26:28.844Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 217,
+          "votesCast": 216,
+          "attendanceRate": 0.9953917050691244
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Ethics",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Water Resources and Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 226,
+        "bills_cosponsored": 3731,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "John Muir National Historic Site Expansion Act",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "1719",
+            "publicLawNumber": "115-191",
+            "summary": "John Muir National Historic Site Expansion Act (Sec. 3) The Department of the Interior may acquire by donation approximately 44 acres of land to include in the John Muir National Historic Site in Martinez, California. The acquired land shall be administered as part of such site.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ191"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 1025 Nevin Avenue in Richmond, California, as the \"Harold D. McCraw, Sr., Post Office Building\".",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "606",
+            "publicLawNumber": "115-283",
+            "summary": "Designates the facility of the United States Postal Service located at 1025 Nevin Avenue in Richmond, California, as the \"Harold D. McCraw, Sr., Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ283"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.507,
+          "nominateDim2": -0.365,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/D000623"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 31.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/D000623"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Before I was a Congressman, I drove trucks, waited tables, ran restaurants, and paid union dues. I didn’t get into public service to check boxes or climb a ladder. I got into it because I’ve lived the same pressures a lot of families are feeling right now. I believe the government should actually make your life easier, not harder. That’s what I’m focused on every day.",
+        "source_url": "https://desaulnierforcongress.com/issues/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:21:35.305Z",
+      "campaign_site_url": "http://desaulnierforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:44.894Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "jeffrey-frese",
+      "full_name": "FRESE, JEFFREY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA10187",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Housing Affordability",
+          "value": "Ban Wall Street and hedge funds from buying up single-family homes; block foreign ownership of American farmland and single-family homes; stop the deficit spending that drives up mortgage rates and prices; cut the red tape that makes building slow and expensive",
+          "snippet": "Ban Wall Street and hedge funds from buying up single-family homes — homes are for families, not portfolios - Block foreign ownership of American farmland and single-family homes - Stop the deficit spending that drives up mortgage rates and prices - Cut the red tape that makes building slow and expensive — communities decide how they grow, not Washington"
+        },
+        {
+          "topic": "Healthcare Costs",
+          "value": "Cap insulin and cut prescription drug costs",
+          "snippet": "Cap insulin and cut prescription drug costs"
+        },
+        {
+          "topic": "Election Security",
+          "value": "Make Election Day a national holiday; allow same-day voting with ID; require voter ID for federal elections; use paper ballots as the permanent audit trail",
+          "snippet": "Make Election Day a national holiday so working Americans can vote - Allow same-day voting with ID to balance access and security - Require voter ID for federal elections - Use paper ballots as the permanent audit trail - Ensure transparent, auditable results voters can trust"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "No cuts to Social Security or Medicare; no raising the retirement age; go after waste and fraud draining these programs",
+          "snippet": "No cuts to Social Security or Medicare — protect the benefits people earned over a lifetime of work - No raising the retirement age on people who already planned their lives around the promise - Go after the waste and fraud draining these programs — not the seniors who depend on them"
+        }
+      ],
+      "platform_source_url": "https://freseforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:01:19.496Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I’m not a politician — I’m a small business owner and a dad. My opponent has spent decades in office.",
+        "source_url": "https://freseforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:21:22.119Z",
+      "campaign_site_url": "https://freseforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:45.004Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

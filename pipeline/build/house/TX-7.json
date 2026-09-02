@@ -1,0 +1,821 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-07",
+  "generated_at": "2026-08-21T12:24:41.413Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "Lizzie Pannill Fletcher (Incumbent) (Democratic Party) / Alexander Hale (Republican Party) / Espoir Ngabo (Green Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 14469.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 14426.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 14401.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 14394
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 14356.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 14363.1
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 14339.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 14306.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 14297.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 14307
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 14309.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 14302.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 14291.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 14321.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 14311.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 14286.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 14280.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 14267.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 14259.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 14240.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 14220.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 14204.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 14185.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 14114.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 14153.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 14126.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 14098.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 14088.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 14069.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 14049.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 14024.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 14002.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 13991.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 13986.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 13952.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 13921.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 13947.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 13886.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 13859
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 13852.4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 13817.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 13795.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155163597.59,
+        "perCapitaUsd": 6674.23
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 30029572
+      },
+      {
+        "year": "2023",
+        "population": 30503301
+      },
+      {
+        "year": "2024",
+        "population": 31290831
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72284
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 75780
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79721
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "elizabeth-fletcher",
+      "full_name": "FLETCHER, ELIZABETH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8TX07140",
+      "fec_status": "C",
+      "bioguide_id": "F000468",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1426056.98,
+        "totalSpent": 1040012.31,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 33173.88,
+          "largeDollar": 235674.59,
+          "pac": 601600,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Hermann Hospital",
+          "source_url": "https://www.lizziefletcher.com/meet-lizzie-fletcher/",
+          "snippet": "I was born in Hermann Hospital, the youngest of three sisters.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Kenyon College in Ohio, graduated with highest honors in History and was elected to Phi Beta Kappa in 1997; William & Mary Law School in Virginia, graduated 2006",
+          "source_url": "https://www.lizziefletcher.com/meet-lizzie-fletcher/",
+          "snippet": "I went to Kenyon College in Ohio, where I graduated with highest honors in History and was elected to Phi Beta Kappa in 1997. After college, I worked for several years in business and non-profit organizations before earning a fellowship to attend William & Mary Law School in Virginia. In law school, I was elected editor-in-chief of the William and Mary Law Review and graduated in 2006.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Scott",
+          "source_url": "https://www.lizziefletcher.com/meet-lizzie-fletcher/",
+          "snippet": "My husband Scott and I, and much of our family all call Houston home.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Member of the New Democrat Coalition, where she chairs its Trade Task Force and is a member of its Health Care Task Force",
+          "source_url": "https://www.lizziefletcher.com/meet-lizzie-fletcher/",
+          "snippet": "I am a member of the New Democrat Coalition, a group of pro-business, pro-trade Democratic Members of Congress, where I Chair its Trade Task Force and bring the expertise of our community as a member of its Health Care Task Force.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.lizziefletcher.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "No place is more welcoming, diverse, innovative, hard-working, or generous than Houston. As our representative to the U.S. Congress, I am proud to represent that Houston: a city that opens its doors to newcomers from around the world, prides itself on scientific discovery, serves as a hub for innovation, works together, and takes care of its neighbors. I am committed to working to ensure that our community’s core values—inclusion, innovation, and collaboration—result in progress, equality, and opportunity for all Americans.",
+        "source_url": "https://www.lizziefletcher.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:45.018Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 58,
+        "bills_cosponsored": 1230,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Hazard Eligibility and Local Projects Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "1917",
+            "publicLawNumber": "117-332",
+            "summary": "Hazard Eligibility and Local Projects Act This act makes an entity seeking assistance under a hazard mitigation assistance program eligible to receive such assistance for certain projects already in progress. Specifically, this act covers a project that is an acquisition and demolition project for which an entity began implementation, including planning or construction, before or after requesting assistance for the project under a hazard mitigation assistance program; and qualifies for a categorical exclusion under the National Environmental Policy Act of 1969. The Federal Emergency Management Agency (FEMA) must have determined that the project qualifies for a categorical exclusion, is compliant with applicable floodplain management and protection of wetland regulations and criteria, and does not require consultation under any other environmental or historic preservation law or regulation or involve any extraordinary circumstances. FEMA must report to Congress, within 180 days of enactment and annually thereafter for three years, on use of the authority under this act. Such authority terminates three years after enactment.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ332"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 315 Addicks Howell Road in Houston, Texas, as the \"Deputy Sandeep Singh Dhaliwal Post Office Building\".",
+            "congress": 116,
+            "billType": "HR",
+            "billNumber": "5317",
+            "publicLawNumber": "116-243",
+            "summary": "Designates the facility of the United States Postal Service located at 315 Addicks Howell Road in Houston, Texas, as the \"Deputy Sandeep Singh Dhaliwal Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ243"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.544,
+          "nominateDim2": 0.839,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/F000468"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 32.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/F000468"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-01T12:00:30.560Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "alexander-hale",
+      "full_name": "HALE, ALEXANDER",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX07151",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 76577.59,
+        "totalSpent": 70235.7,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4336.76,
+          "largeDollar": 66120.39,
+          "pac": 2500,
+          "party": 0,
+          "selfFunded": 3615.43
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Houston",
+          "source_url": "https://www.halefortexas.com/about",
+          "snippet": "A fourth-generation Houstonian, I grew up here in the city",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Baylor University on a full-ride academic scholarship, quadruple-majored in Finance, Political Science, Philosophy, Business Fellows, and minored in Great Texts of the Western Tradition",
+          "source_url": "https://www.halefortexas.com/about",
+          "snippet": "I attended Baylor University on a full-ride academic scholarship. While there, I quadruple-majored (Finance, Political Science, Philosophy, Business Fellows) and minored in Great Texts of the Western Tradition.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Serves at his church",
+          "source_url": "https://www.halefortexas.com/about",
+          "snippet": "serving at my church",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Alvarez & Marsal, Senior Associate (2022 - Present); WoodRock & Co., Investment Banking Analyst (2021 - 2022); Baylor Angel Network, Analyst (2019 - 2021)",
+          "source_url": "https://www.ballotready.org/people/alexander-hale",
+          "snippet": "Professional Experience Alvarez & Marsal, Senior Associate (2022 - Present) WoodRock & Co., Investment Banking Analyst (2021 - 2022) Baylor Angel Network, Analyst (2019 - 2021)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "We must continue to secure our border and counter the negative effects of illegal entry.",
+          "snippet": "We must continue to secure our border and counter the negative effects of illegal entry."
+        },
+        {
+          "topic": "Educational Excellence",
+          "value": "School choice and innovative approaches are key to improving student outcomes within the district.",
+          "snippet": "School choice and innovative approaches are key to improving student outcomes within the district."
+        },
+        {
+          "topic": "State and Local Empowerment",
+          "value": "We should enable and empower state / local authorities to resolve the local issues they understand best.",
+          "snippet": "We should enable and empower state / local authorities to resolve the local issues they understand best."
+        }
+      ],
+      "platform_source_url": "https://www.halefortexas.com/",
+      "_platform_resolved_at": "2026-08-14T18:24:34.209Z",
+      "campaign_site_url": "https://halefortexas.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Alexander Hale is running to bring principled, constitutional conservative leadership to Texas's 7th Congressional District. Alexander is a devout Christian who believes in limited federal government, market-based solutions, and the principles that have made America exceptional. He's committed to defending Houston's energy economy while addressing the real issues facing TX-07 families: rising costs, border security, education quality, and public safety.",
+        "source_url": "https://www.halefortexas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:42.716Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-01T12:00:30.954Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "espoir-ngabo",
+      "full_name": "NGABO, ESPOIR",
+      "party": "GREEN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX07177",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3132.88,
+        "totalSpent": 3125,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 761.65,
+          "largeDollar": 1371.23,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 1000
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Espoir built his career in information technology—working across global companies like BrandSafway, Entegris, and Kapsch Group. Over nearly a decade, he has supported the systems that businesses and workers rely on every day. Now serving as a Regional IT Analyst at BrandSafway.",
+          "source_url": "https://www.espoirfortexas.com/about",
+          "snippet": "Espoir built his career in information technology—working across global companies like BrandSafway, Entegris, and Kapsch Group. Over nearly a decade, he has supported the systems that businesses and workers rely on every day—solving problems, maintaining critical infrastructure, and ensuring operations run smoothly behind the scenes. That experience has given him a clear understanding of how modern systems are designed—who they serve, and where they fall short. Espoir has seen firsthand how decisions made at the top impact workers, families, and entire communities. Too often, those systems are optimized for efficiency and profit, while everyday people are left to absorb the risks when things go wrong. Now serving as a Regional IT Analyst at BrandSafway",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing Costs",
+          "value": "Expand affordable housing, protect older apartments and invest in storm-resilient construction to lower insurance",
+          "snippet": "Congress can step in to expand affordable housing, protect older apartments and invest in storm-resilient construction to lower insurance."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Guarantee free, universal, single-payer care",
+          "snippet": "We must stop treating health as a profit center and guarantee free, universal, single-payer care, so no Houstonian goes bankrupt staying alive."
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Raise the wage to $25 to meet the cost of living and tie it to inflation",
+          "snippet": "Raise to $25 Minimum Wage: Raise the wage to meet the cost of living and tie it to inflation!"
+        },
+        {
+          "topic": "Flood Mitigation",
+          "value": "Improve drainage systems, restore the bayous and invest in green infrastructure to help protect neighborhoods before disasters strike",
+          "snippet": "We must improve drainage systems, restore the bayous and invest in green infrastructure to help protect neighborhoods before disasters strike."
+        },
+        {
+          "topic": "Public Transit",
+          "value": "Increase federal support for reliable public transit to reduce congestion, shorten commutes, and connect working families to jobs",
+          "snippet": "Increase Federal Support for Reliable Public Transit: Houston traffic has always been famous, but this has gone too far. Reliable public transit will reduce congestion, shorten commutes, and connect working families to jobs across greater Houston."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Repeal Citizens United and get corporate money out of elections, enact public funding of elections by matching small-dollar donations with public funds",
+          "snippet": "Remove Money from Politics: Repeal Citizens United and get corporate money out of our elections. The incumbent in this race takes thousands from AIPAC & corporate PACs. I take zero. My only \"special interest\" is the people of this district. Enact Public Funding of Elections : We are all equal. No one should be able to buy elections. We need to level the playing-field by matching small-dollar donations with public funds."
+        },
+        {
+          "topic": "Participatory Budgeting",
+          "value": "Advocate for participatory budgeting where community members directly vote on how to spend a portion of public budget",
+          "snippet": "Advocate for Participatory Budgeting: Participatory budgeting is where community members directly vote on how to spend a portion of a public budge such as infrastructure improvements or community programs."
+        }
+      ],
+      "platform_source_url": "https://www.espoirfortexas.com/",
+      "_platform_resolved_at": "2026-08-14T18:24:14.215Z",
+      "campaign_site_url": "https://www.espoirfortexas.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=4Lb20aONcnk",
+      "platform_video_title": "Espoir Ngabo",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:31.381Z",
+      "bio_summary": {
+        "value": "ESPOIR NGABO is running for Congress to protect the community that gave him a home. We deserve better than the “lesser of two evils”. We deserve a choice that puts PEOPLE, PLANET & PEACE OVER PROFITS.",
+        "source_url": "https://www.espoirfortexas.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:40.378Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-01T12:00:31.381Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

@@ -1,0 +1,932 @@
+{
+  "state": "SD",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-17T16:20:56.916Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://sdlegislature.gov/Statutes/12-2",
+    "primarySnippet": "12-2-1. Date of primary election. The primary election provided for in chapter 12-6 shall be held at the regular polling place in every voting precinct throughout the state on the first Tuesday after the first Monday in June of every even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://sdlegislature.gov/Statutes/12-1",
+    "generalSnippet": "(7) \"General election,\" the vote required to be taken in each voting precinct of the state on the first Tuesday after the first Monday in November of each even-numbered year;"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — South Dakota disqualifies felons from voting (restorable by law) and can remove a sitting official convicted of certain crimes from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://sdlegislature.gov/Statutes/Constitution/7",
+    "snippet": "Art. VII, § 2. Voter qualification. Every United States citizen eighteen years of age or older who has met all residency and registration requirements shall be entitled to vote in all elections and upon all questions submitted to the voters of the state unless disqualified by law for mental incompetence or the conviction of a felony. SDCL 3-4-1: An office becomes vacant if one of the following events applies to a member of a governing body or elected officer before the expiration of the term of the office; the person: ... (6) Is convicted of any infamous crime or of any offense involving a violation of the official oath of the office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/south-dakota-senate-results",
+    "snippet": "Republicans — MIKE ROUNDS WINS THE SOUTH DAKOTA PRIMARY — Mike Rounds (Incumbent) 75.8% (101,472 Votes), Justin McNeal 24.2% (32,412 Votes). Democrats — JULIAN BEAUDION WINS THE SOUTH DAKOTA PRIMARY — this race is uncontested. Independent Brian Bengs doesn't run in a primary — separately certified per https://www.dakotanewsnow.com/2026/04/28/brian-bengs-appear-ballot-us-senate-november-3-general-election/: \"South Dakota Secretary of State Monae L. Johnson announced that Brian Bengs qualified for the Nov. 3, 2026 U.S. Senate ballot as an independent after signatures were validated.\""
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 2.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 2.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 2.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 2.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 2.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 2.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 2.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 2.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 2.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 1.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 1.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 1.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 1.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 1.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 1.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 1.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 1.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 1.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 1.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 1.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 1.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 1.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 34.57
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 24.33
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.11
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 23.64
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 21.35
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 471.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 471.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 469.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 470.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 470.1
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 470.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 468.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 469.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 469.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 469.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 470.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 468.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 468.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 469.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 470
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 468.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 468.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 467.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 467.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 467.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 468.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 467.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 467.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 466.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 465.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 466.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 464.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 464.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 464.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 463.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 461.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 462.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 459.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 458.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 459
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 458.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 457.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9977843390.4,
+        "perCapitaUsd": 11143.75
+      },
+      {
+        "year": "2024",
+        "totalUsd": 11064185693.86,
+        "perCapitaUsd": 12357.03
+      },
+      {
+        "year": "2025",
+        "totalUsd": 12007628105.47,
+        "perCapitaUsd": 13410.71
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 909824
+      },
+      {
+        "year": "2023",
+        "population": 919318
+      },
+      {
+        "year": "2024",
+        "population": 924669
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69728
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 71810
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 76881
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "julian-beaudion",
+      "full_name": "BEAUDION, JULIAN C",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6SD01125",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 228295.15,
+        "totalSpent": 225217.04,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 63213.99,
+          "largeDollar": 150504.52,
+          "pac": 3000,
+          "party": 6398,
+          "selfFunded": 3654.9
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "The son of a nurse and a math teacher, former State Trooper and small-business owner",
+          "source_url": "https://www.julianforsd.com/",
+          "snippet": "The son of a nurse and a math teacher, former State Trooper and small-business owner Julian Beaudion is a practical problem-solver committed to building a safer, more prosperous South Dakota.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-20T12:30:12.122Z",
+      "bio_summary": {
+        "value": "The son of a nurse and a math teacher, former State Trooper and small-business owner Julian Beaudion is a practical problem-solver committed to building a safer, more prosperous South Dakota.",
+        "source_url": "https://www.julianforsd.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:42.476Z",
+      "campaign_site_url": "https://www.julianforsd.com/",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:25.030Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "brian-bengs",
+      "full_name": "BENGS, BRIAN",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "S6SD01117",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 782049.78,
+        "totalSpent": 730644.27,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 474153.24,
+          "largeDollar": 301242.53,
+          "pac": 5000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Bachelor's degree in history and international studies, Iowa State University (1994); juris doctor, University of Iowa (1996); master's degree in history, Louisiana Tech University (2007); master's degree in international and comparative law, George Washington University (2007)",
+          "source_url": "https://ballotpedia.org/Brian_Bengs",
+          "snippet": "Bengs earned a bachelor's degree in history and international studies from Iowa State University in 1994, a juris doctor from the University of Iowa in 1996, a master's degree in history from Louisiana Tech University in 2007, and a master's degree in international and comparative law from George Washington University in 2007."
+        },
+        "employment_record": {
+          "value": "Served in the U.S. Navy and the U.S. Air Force; career includes working as an assistant professor with Northern State University and as chief of general law/assistant general counsel with the U.S. Air Force",
+          "source_url": "https://ballotpedia.org/Brian_Bengs",
+          "snippet": "Brian Bengs served in the U.S. Navy and the U.S. Air Force. Bengs earned a bachelor's degree in history and international studies from Iowa State University in 1994, a juris doctor from the University of Iowa in 1996, a master's degree in history from Louisiana Tech University in 2007, and a master's degree in international and comparative law from George Washington University in 2007. His career experience includes working as an assistant professor with Northern State University and the chief of general law/assistant general counsel with the U.S. Air Force."
+        },
+        "birthplace": {
+          "value": "rural northern Iowa",
+          "source_url": "https://bengsforsouthdakota.com/",
+          "snippet": "Brian Bengs grew up in a blue-collar family in rural northern Iowa.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "wife of 30 years",
+          "source_url": "https://bengsforsouthdakota.com/",
+          "snippet": "where he met his wife of 30 years",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Term Limits",
+          "value": "He supports term limits and vows not to serve more than two terms",
+          "snippet": "He supports term limits and vows not to serve more than two terms."
+        },
+        {
+          "topic": "Independent Caucus",
+          "value": "Brian proposes an Independent caucus that would bring accountability back to the US Senate by making 50+ majorities increasingly rare and encouraging moderation",
+          "snippet": "Brian proposes an Independent caucus that would bring accountability back to the US Senate by making 50+ majorities increasingly rare and encouraging moderation."
+        },
+        {
+          "topic": "Monopolies and Business Regulation",
+          "value": "He will fight to lower the cost of living for working families by breaking monopolies, just as Theodore Roosevelt did, and going after big businesses who price gouge South Dakotans",
+          "snippet": "He will fight to lower the cost of living for working families by Break monopolies, just as Theodore Roosevelt did go after big businesses who price gouge South Dakotans"
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "Make billionaires pay a higher tax rate than middle class Americans and Main Street businesses",
+          "snippet": "make billionaires pay a higher tax rate than middle class Americans and Main Street businesses"
+        }
+      ],
+      "platform_source_url": "https://bengsforsouthdakota.com/what-i-stand-for/",
+      "_platform_resolved_at": "2026-08-17T16:20:31.846Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-20T12:30:12.500Z",
+      "bio_summary": {
+        "value": "Brian Bengs grew up in a blue-collar family in rural northern Iowa. In high school he delivered newspapers every morning and detasseled corn in the summer. A member of his high school’s final graduating class, Brian enlisted in the U.S. Navy immediately after graduation. He first registered to vote (Independent) while assigned to the aircraft carrier USS Kitty Hawk (CV-63). At the end of his enlistment, he returned home and used the GI Bill to obtain a bachelor’s degree in history from Iowa State University where he met his wife of 30 years.",
+        "source_url": "https://bengsforsouthdakota.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:40.602Z",
+      "campaign_site_url": "https://bengsforsouthdakota.com/",
+      "_campaign_site_discovered_at": "2026-09-01T12:04:48.713Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "mike-rounds",
+      "full_name": "ROUNDS, MIKE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "S4SD00049",
+      "fec_status": "C",
+      "bioguide_id": "R000605",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3176450.98,
+        "totalSpent": 2309816.14,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 36974.65,
+          "largeDollar": 1291216.35,
+          "pac": 1381800.01,
+          "party": 62000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1954-10-24",
+          "source_url": "https://www.wikidata.org/wiki/Q722503",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Huron, South Dakota",
+          "source_url": "https://www.wikidata.org/wiki/Q722503",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "South Dakota State University",
+          "source_url": "https://www.wikidata.org/wiki/Q722503",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "former business owner, state senator and two-term governor",
+          "source_url": "https://roundsforsenate.com/",
+          "snippet": "Mike Rounds has worked as a former business owner, state senator and two-term governor",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Freedoms",
+          "value": "Focused on protecting our freedoms",
+          "snippet": "As our U.S. Senator, he is focused on protecting our freedoms"
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "Achieving energy independence",
+          "snippet": "he is focused on protecting our freedoms, achieving energy independence"
+        },
+        {
+          "topic": "Regulation",
+          "value": "Cutting red tape",
+          "snippet": "he is focused on protecting our freedoms, achieving energy independence, cutting red tape"
+        },
+        {
+          "topic": "Taxes",
+          "value": "Keeping taxes low so the next generation can thrive",
+          "snippet": "cutting red tape and keeping taxes low so the next generation can thrive"
+        }
+      ],
+      "platform_source_url": "https://roundsforsenate.com/",
+      "_platform_resolved_at": "2026-08-10T01:18:19.884Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Nay",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Senate Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Agriculture, Rural Development, Food and Drug Administration, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Energy and Water Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Department of Interior, Environment, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Departments of Labor, Health and Human Services, and Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Legislative Branch",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Cybersecurity",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Emerging Threats and Capabilities",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs — Economic Policy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs — Housing, Transportation, and Community Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Banking, Housing, and Urban Affairs — Securities, Insurance, and Investment",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Indian Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Commission on Security and Cooperation in Europe",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 405,
+        "bills_cosponsored": 1920,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "A bill to designate the facility of the United States Postal Service located at 320 South 2nd Avenue in Sioux Falls, South Dakota, as the \"Staff Sergeant Robb Lura Rolfing Post Office Building\".",
+            "congress": 118,
+            "billType": "S",
+            "billNumber": "2143",
+            "publicLawNumber": "118-132",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 320 South 2nd Avenue in Sioux Falls, South Dakota, as the Staff Sergeant Robb Lura Rolfing Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ132"
+          },
+          {
+            "title": "A bill to designate the facility of the United States Postal Service located at 410 Dakota Avenue South in Huron, South Dakota, as the \"First Lieutenant Thomas Michael Martin Post Office Building\".",
+            "congress": 118,
+            "billType": "S",
+            "billNumber": "3267",
+            "publicLawNumber": "118-135",
+            "summary": "This act designates the facility of the U.S. Postal Service located at 410 Dakota Avenue South in Huron, South Dakota, as the First Lieutenant Thomas Michael Martin Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ135"
+          },
+          {
+            "title": "RESPECT Act",
+            "congress": 117,
+            "billType": "S",
+            "billNumber": "789",
+            "publicLawNumber": "117-317",
+            "summary": "Repealing Existing Substandard Provisions Encouraging Conciliation with Tribes Act or the RESPECT Act This act repeals certain provisions related to the treatment of Indians, including provisions on hostile tribes, alcohol, work requirements, penalties for truancy, and placement of youth in reform school without the consent of a parent or guardian.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ317"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.354,
+          "nominateDim2": 0.082,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/R000605"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 68.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/R000605"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=hMtZ0i5_dpA",
+      "platform_video_title": "Rounds B-Roll",
+      "platform_video_source_url": "https://roundsforsenate.com/",
+      "_platform_video_resolved_at": "2026-08-18T21:58:46.931Z",
+      "bio_summary": {
+        "value": "Mike Rounds has a clear and solid record of serving the people of South Dakota. From growing up in Pierre as the oldest of eleven to building a small business and working as Governor, Mike has always stayed true to the values that make South Dakota special. Today, working as a United States Senator, he focuses on keeping South Dakota strong, growing opportunities for families and protecting the freedoms we all cherish.",
+        "source_url": "https://roundsforsenate.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:35.149Z",
+      "campaign_site_url": "https://www.roundsforsenate.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:25.035Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
