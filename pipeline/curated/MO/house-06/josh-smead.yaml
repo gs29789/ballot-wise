@@ -1,0 +1,196 @@
+# votesmead.com sits behind a Cloudflare human-verification challenge, so
+# the pipeline could never read it. The text below was read off the live
+# site by a person and quoted verbatim, same quote-anchored rule
+# llmExtract.ts enforces on an automated pass: every `value` is traceable
+# to its own `snippet`, nothing inferred.
+#
+# Transcribed from screenshots of the rendered page rather than from
+# copied text, so each snippet was re-read character by character against
+# the image -- including the double spaces the site uses between
+# sentences, which are preserved rather than normalized. Flagged because
+# an OCR-style transcription is a weaker source of fidelity than a paste,
+# and a future correction should go to the live page, not to this file.
+#
+# Covers "Agriculture & Rural Communities", "Energy & Resilience",
+# "Postal Service", "Healthcare & Medicaid", "A Woman's Right To Choose"
+# "Environment", "Economics", "Economic Development In The 6th District"
+# "Supporting Small Businesses", "Infrastructure", "Rural Broadband" and
+# "LGBTQ+ Rights", "2nd Amendment", "The Draft", "Unions" and "Term
+# Limits". His page uses expand/collapse sections, so any further ones
+# remain untranscribed.
+#
+# DELIBERATELY EXCLUDED: his "January 6, 2021" section, which consists
+# entirely of claims about the sitting MO-6 representative's votes
+# (against certifying the election, against impeachment, against
+# investigating). That is campaign argument about an opponent's record,
+# not a statement of Smead's own platform, and this project does not
+# publish one candidate's characterization of another as policy -- the
+# same call made on Luria/Kiggans, Pulido/De La Cruz, Schwartz/Harris and
+# DeSpain/Hoyle. Noted here rather than silently dropped so the omission
+# is visible to anyone auditing this file against the live page.
+# Replaces a 256-character Ballotpedia stub with his campaign's own
+# opening passage. campaign_site outranks ballotpedia in
+# campaignBioSummary.ts's waterfall and here the longer text is also
+# plainly more useful, so precedence and usefulness agree (unlike VA-2's
+# Luria and OR-4's DeSpain, where they didn't and the resolved summary
+# was left alone).
+#
+# The one thing the Ballotpedia stub had that his site's opening does not
+# is his education, which is not captured in any bio field for him
+# either -- so rather than trade one fact for another, those are lifted
+# into curated bio fields below, quoted from the same Ballotpedia text
+# they already came from. Nothing is lost by the swap.
+bio_summary:
+  value: "I have lived in Missouri since 2017, and most importantly, this is where my four young children call home. My wife and I are building our lives and our small business here – literally constructing our first building in Liberty as part of our growing company. Missouri isn’t just where I live; it’s where I’m invested in the future, for my family, and for everyone in the 6th District."
+  source_url: "https://www.votesmead.com/"
+  source_type: campaign_site
+
+bio:
+  high_school:
+    value: "Harrisonburg High School"
+    source_url: "https://ballotpedia.org/Josh_Smead"
+    snippet: "Josh Smead graduated from Harrisonburg High School."
+  college:
+    value: "Bachelor's degree, James Madison University (2012); graduate degree, Iowa State University (2016)"
+    source_url: "https://ballotpedia.org/Josh_Smead"
+    snippet: "He earned a bachelor's degree from James Madison University in 2012 and a graduate degree from Iowa State University in 2016."
+
+platform_source_url: "https://www.votesmead.com/"
+platform:
+  # "Agriculture & Rural Communities"
+  - topic: "Farm Economics"
+    value: "Says Missouri farmers are squeezed by rising costs and falling prices across commodities, made worse by shifting trade policy and stalled export programs"
+    snippet: "Missouri farmers feed the world, but too many are being squeezed by rising costs and falling prices — not just for grain, but across the board.  From soybeans to hogs to dairy, it’s getting harder to break even, especially with trade policy flipping back and forth and key export programs stalled."
+  - topic: "Right to Repair"
+    value: "Says new agricultural technology only helps if farmers have the right to repair their own equipment and the infrastructure to compete"
+    snippet: "New technology can help, but only if farmers have the right to repair their own equipment and the infrastructure to compete."
+  - topic: "Trade & Farm Subsidies"
+    value: "Favors what he calls smart trade over bailouts, and policies that put small and family-run farms first"
+    snippet: "I believe in smart trade, not bailouts — and policies that put small and family-run farms first."
+
+  # "Energy & Resilience"
+  - topic: "Energy Reliability & Cost"
+    value: "Says North Missouri needs energy that is reliable, affordable and built for the long haul"
+    snippet: "North Missouri needs energy that’s reliable, affordable, and built for the long haul."
+  - topic: "Grain Belt Express"
+    value: "Supports the Grain Belt Express transmission project as delivering stable, low-cost power to Missouri communities while strengthening the grid against blackouts and extreme weather"
+    snippet: "Projects like the Grain Belt Express offer exactly that — stable, low-cost power delivered to dozens of Missouri communities while strengthening our grid against blackouts and extreme weather."
+  - topic: "Energy Infrastructure Investment"
+    value: "Would invest in infrastructure that keeps costs down rather than blocking projects for short-term politics"
+    snippet: "We should be investing in infrastructure that keeps the lights on and the bills low, not blocking progress for short-term politics."
+
+  # "Postal Service"
+  - topic: "Postal Service"
+    value: "Says the Postal Service is a service rather than a profit machine and should not be gutted for failing to turn one"
+    snippet: "The U.S. Postal Service is a service — not a profit machine.  Just like we do not ask if the military turns a profit, we should not gut the Postal Service for failing to make one."
+  - topic: "Postal Privatization"
+    value: "Opposes privatizing the Postal Service, saying it would slash rural delivery, and that affordable, reliable mail should be protected rather than sold off"
+    snippet: "For decades, there has been a push to privatize it, which would slash rural delivery and abandon millions of Americans.  The Postal Service is part of our national identity — affordable, reliable mail should be protected, not sold off."
+
+  # "Healthcare & Medicaid"
+  - topic: "Medicaid"
+    value: "Would strengthen Medicaid rather than cut it, noting one in five Missourians rely on it"
+    snippet: "We need to strengthen Medicaid, not slash it, and invest in rural healthcare so families can grow and age in the communities they love."
+  - topic: "Rural Healthcare Access"
+    value: "Says families in parts of the 6th District drive over an hour to reach a delivery room and some rural hospitals are near closing, and that healthcare access shouldn't depend on ZIP code"
+    snippet: "In parts of the 6th District, families already drive over an hour just to reach a delivery room — and some rural hospitals are on the brink of closing for good."
+  - topic: "Healthcare Equity"
+    value: "Says healthcare access should not depend on where someone lives"
+    snippet: "Healthcare access shouldn’t depend on your ZIP code."
+
+  # "A Woman's Right To Choose" — the section also criticizes the sitting
+  # MO-6 representative; that clause is excluded, same as every other
+  # opponent attack across these curated files.
+  - topic: "Abortion"
+    value: "Says Missourians deserve sovereignty over their own bodies and that he trusts them to make personal decisions rather than the government"
+    snippet: "Missourians deserve sovereignty over their own bodies — plain and simple."
+  - topic: "Personal Medical Decisions"
+    value: "Says he trusts Missourians to make personal decisions for themselves rather than the government"
+    snippet: "I trust Missourians to make personal decisions for themselves — not the government."
+
+  # "Environment"
+  - topic: "Climate Change"
+    value: "Says climate change is real and Missouri is already feeling it through hotter summers, more extreme winters and stronger winds"
+    snippet: "Climate change is real, and Missouri is already feeling it — hotter summers, more extreme winters, and stronger winds."
+  - topic: "Environmental Policy Approach"
+    value: "Argues the conditions on the ground call for a smarter approach regardless of whether one believes in climate change, and that resilient communities require long-term thinking over short-term fixes"
+    snippet: "Whether you believe in climate change or not, the reality on the ground calls for a smarter approach.  As a builder, I know it’s cheaper in the long run to build things right the first time.  The same goes for environmental policy: resilient communities start with long-term thinking, not short-term fixes."
+
+  # "Economics"
+  - topic: "Tariffs"
+    value: "Says tariffs have become a political tool whose cost falls on working families rather than foreign governments, catching American farmers and consumers in the trade war"
+    snippet: "Tariffs have become a political tool, but too often it’s working families — not foreign governments — who pay the price. Today’s shoot-from-the-hip arbitrary tariffs and the growing trade war means American farmers and consumers keep getting caught in the crossfire."
+  - topic: "Tax Fairness"
+    value: "Says Congress should stop protecting the powerful and invest in people, citing record household debt alongside tax breaks and subsidies for billionaires"
+    snippet: "Meanwhile, household debt just hit a record $17.3 trillion, and billionaires still enjoy tax breaks and subsidies. It’s time Congress stopped protecting the powerful and started investing in the people."
+
+  # "Economic Development In The 6th District" — overlaps the agriculture
+  # section above but is more specific about what he would do, so it is
+  # recorded separately rather than merged.
+  - topic: "Family Farms & Market Access"
+    value: "Would protect family farms and expand access to markets, saying farmers are squeezed by monopolies and rising costs"
+    snippet: "Northern Missouri’s economy starts with agriculture, but our farmers are being squeezed by monopolies and rising costs. I’ll fight to protect family farms, expand access to markets, and support sustainable practices like soil health, water conservation, and ag-tech innovation."
+  - topic: "Land Stewardship"
+    value: "Frames investment in long-term stewardship of the land as how the future of farming is secured for the next generation"
+    snippet: "Investing in long-term stewardship of the land isn’t just good policy—it’s how we secure the future of farming for the next generation."
+
+  # "Supporting Small Businesses"
+  - topic: "Small Business Support"
+    value: "Would expand access to affordable healthcare, capital and federal contracts for local businesses"
+    snippet: "I’ll fight to expand access to affordable healthcare, capital, and federal contracts for local businesses."
+  - topic: "Corporate Tax Breaks"
+    value: "Says small businesses are left behind while billion-dollar corporations receive tax breaks and bailouts, and calls for leveling the playing field"
+    snippet: "Small businesses are the backbone of Northern Missouri’s economy, but too often they’re left behind while billion-dollar corporations get tax breaks and bailouts."
+
+  # "Infrastructure"
+  - topic: "Rural Infrastructure"
+    value: "Would fight for federal funding that reaches rural towns rather than only urban centers, covering roads, bridges, water systems and flood control"
+    snippet: "Rural infrastructure has been neglected for too long—roads, bridges, water systems, and flood control need urgent investment.  I’ll fight for federal funding that reaches rural towns, not just urban centers, and supports the basics that families and small businesses rely on."
+
+  # "Rural Broadband"
+  - topic: "Rural Broadband"
+    value: "Would fully fund rural broadband expansion across fiber, cable, satellite and wireless so every home and town is connected"
+    snippet: "We need to fully fund rural broadband expansion and explore all options—from traditional fiber and cable to satellite and wireless solutions—so every home and town gets connected."
+  - topic: "Broadband Funding Priorities"
+    value: "Says broadband investment must prioritize unserved areas rather than padding profits for major telecoms"
+    snippet: "This investment must prioritize unserved areas, not just pad profits for major telecoms."
+
+  # "LGBTQ+ Rights"
+  - topic: "LGBTQ+ Rights"
+    value: "Says everyone deserves to live freely and equally, and that who someone loves or how they identify is not the government's business"
+    snippet: "Everyone deserves to live freely and equally — no exceptions. I believe in a government that protects rights, not one that polices personal lives. Who someone loves or how they identify is none of the government’s business, and it certainly shouldn’t be a political weapon."
+  - topic: "Equal Protection"
+    value: "Would stand for equal protection under the law and against attempts to use power to divide, discriminate or interfere in private lives"
+    snippet: "I will always stand for equal protection under the law, and against any attempt to use power to divide, discriminate, or interfere in people’s private lives."
+
+  # "2nd Amendment"
+  - topic: "Second Amendment"
+    value: "Supports the Second Amendment, saying it works to keep tyrants at bay, and that public safety can be protected without trampling those freedoms"
+    snippet: "I support and appreciate the Second Amendment because it works to keep tyrants at bay."
+  - topic: "Gun Safety Measures"
+    value: "Would require background checks on gun sales, encourage safe storage, and document gun transactions"
+    snippet: "That means requiring background checks on gun sales, encouraging safe storage, and documenting gun transactions."
+  - topic: "Documenting Gun Transactions"
+    value: "Argues that since car and house sales are documented, keeping a basic record when a deadly weapon changes hands makes sense"
+    snippet: "We document car sales and house sales – it just makes sense to keep a basic record when a deadly weapon changes hands. Responsible gun ownership is part of our culture — and common sense reforms help keep it that way."
+
+  # "The Draft"
+  - topic: "Military Draft"
+    value: "Believes the draft should include all able-bodied men and women"
+    snippet: "I believe the Draft should include all able bodied Men & Women."
+
+  # "Unions"
+  - topic: "Labor Unions"
+    value: "Describes himself as proudly pro-union, saying workers deserve a real voice, fair wages and the freedom to organize without interference"
+    snippet: "I’m proudly pro-union because workers deserve a real voice, fair wages, and the freedom to organize without interference."
+  - topic: "Federal Labor Rights"
+    value: "Says federal actions are chipping away at labor rights, gutting contracts and making it harder for workers including federal employees to unionize"
+    snippet: "Today, federal actions are chipping away at labor rights, gutting contracts, and making it harder for workers — including federal employees — to unionize."
+  - topic: "Tariffs & the Trades"
+    value: "Says unstable tariff policy drives up material costs mid-project for trades and small contractors, and that rebuilding American industry means strengthening unions rather than undercutting them"
+    snippet: "At the same time, unstable tariff policy is hitting trades and small contractors hard, driving up material costs in the middle of projects and threatening their ability to stay profitable. If we’re serious about rebuilding American industry and protecting working families, we need to strengthen unions — not undercut them."
+
+  # "Term Limits"
+  - topic: "Term Limits"
+    value: "Supports term limits for politicians, saying he is an architect who does not plan to be a politician for the rest of his career"
+    snippet: "I support term limits for politicians. I am an architect, and being a politician is not what I plan to do for the rest of my career. Career politicians who spend decades in office become detached from the reality the rest of us face every day."

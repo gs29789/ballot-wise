@@ -1453,7 +1453,26 @@ function CandidateProfileView({ candidate, race, onBack }) {
                 />
               </div>
             )}
-            {candidate.platform_video_source_url ? (
+            {/* "the candidate's own official site" is a claim about
+                provenance, so it may only be made when that is actually where
+                the video came from. A hand-curated video can be published on
+                someone else's channel -- a local outlet's profile piece, for
+                example -- and calling that their official site would be a
+                false attribution, which matters more here than anywhere else
+                on the page. Only source types that genuinely mean "their own
+                site" get that wording; anything else gets a neutral label.
+                Legacy records predating platform_video_source_type keep the
+                original wording, since those were all tier-1 site links. */}
+            {candidate.platform_video_source_url &&
+            (candidate.platform_video_source_type === "curated" || candidate.platform_video_source_type === "wikipedia") ? (
+              <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
+                Source:{" "}
+                <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
+                  {candidate.platform_video_source_url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}{" "}
+                  <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                </a>
+              </div>
+            ) : candidate.platform_video_source_url ? (
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
                 Linked from{" "}
                 <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>

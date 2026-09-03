@@ -1,6 +1,109 @@
 fec_candidate_id: H6VA03121
+
+# edwinriveraforcongress.com sits behind a Cloudflare human-verification
+# challenge, so the pipeline could never read it. The text below was read
+# off the live site by a person and quoted verbatim, same quote-anchored
+# rule llmExtract.ts enforces on an automated pass.
+#
+# His priorities page is written as terse bullet fragments rather than
+# prose, and several contain obvious typos or unfinished sentences
+# ("Nuclear energy expand in a smart.", "We have to over x number of
+# parks."). Those are quoted EXACTLY as published, not silently repaired:
+# the snippet is a citation, and cleaning it up would make this file
+# disagree with the page it claims to quote. Where a fragment was too
+# broken to state a position reliably, it was skipped rather than
+# guessed at -- his "Protecting Our Animals" section, whose entire body
+# is the phrase "Protecting our animals.", is omitted for that reason.
+platform_source_url: "https://edwinriveraforcongress.com/"
+platform:
+  - topic: "Education Reform"
+    value: "Supports public and private college pathways from local high schools, raising teacher pay, and renovating or rebuilding failing schools"
+    snippet: "Public/private college pathways from local high schools.\n\nRaise teacher pay.\n\nRenovate/rebuild failing schools."
+  - topic: "HBCU Support"
+    value: "Would ensure HBCUs have funding, satellite locations, and certifications or degrees bridging vocational and college credentials, and supports parental say in education"
+    snippet: "HBCU making sure they have funds, satellite locations, certifications/degrees between vocational and college degree and parental rights support the fact that we want parents to have a say in their child’s education."
+  - topic: "Transportation & Tolls"
+    value: "Supports capping tolls and opposes tolls on the Hampton Roads Bridge-Tunnel"
+    snippet: "Toll Capping / oppose tolls on HRBT."
+  - topic: "Healthcare Accessibility"
+    value: "Says working families and seniors in the district shouldn't have to choose between a prescription and groceries"
+    snippet: "Working families and seniors in CD3 shouldn’t have to choose between a prescription and a grocery run. Healthcare access is a priority, not a talking point."
+  - topic: "Youth Development"
+    value: "Would expand mentorship, educational opportunity and programs helping young people build futures before being pulled into destructive patterns"
+    snippet: "Expanding mentorship, educational opportunity, and programs that help young people build successful futures before they are pulled into destructive patterns."
+  - topic: "Judicial Accountability"
+    value: "Would hold judges and local commonwealth's attorneys accountable for releasing repeat violent offenders"
+    snippet: "Hold judges and local commonwealths attorney accountable for letting violent criminals w/ multiple offenses out."
+  - topic: "School Resource Officers"
+    value: "Would expand school resource officer roles, with officers teaching rather than doing desk work, to build student-law enforcement relationships"
+    snippet: "Expand SRO roles and officers supposed to go to school to teach rather then do desk work, emphasize student law enforcement relationship building to help decrease likelihood of crimes committed by youth into young adulthood."
+  - topic: "Law Enforcement Funding"
+    value: "Would fully fund law enforcement and community-based programs such as National Night Out"
+    snippet: "Increase and support(fully fund) law enforcement and community based programs (such as national night out) which helps strengthen relationships across our different communities."
+  - topic: "Veterans Benefits"
+    value: "Would expand benefits and preventative care for veterans with at least two enlistments, and provide full TRICARE Prime to National Guard and reserve members during wartime"
+    snippet: "VA – more benefits for those service members who served in at least 2 enlistments, all veterans preventative care basic Healthcare for veterans of two or more enlistments.\n\nNational Guard reserve Full Tricare prime during war time."
+  - topic: "Social Security"
+    value: "Would protect Social Security benefits so seniors can retire with dignity and financial security"
+    snippet: "Protecting Social Security benefits and ensuring seniors can retire with dignity, stability, and financial security after a lifetime of work."
+  - topic: "Small Business Growth"
+    value: "Supports tax credits for small businesses and expanding funding groups such as the Virginia 30 Day Fund"
+    snippet: "Tax credits for small businesses, work with/expand groups that help fund our small businesses like the VA 30day fund."
+  - topic: "Government Contracting & Unions"
+    value: "Would eliminate regulations barring small businesses from government contracting if they don't belong to unions"
+    snippet: "Eliminate regulations which prohibit small businesses from contracting with governments if they don’t belong to unions."
+  - topic: "Affordable Housing"
+    value: "Supports affordable housing options"
+    snippet: "Support Affordable housing options."
+  - topic: "National Parks"
+    value: "Would ensure national parks are fully funded, safe and free, and that land zoned for parks remains untouched"
+    snippet: "Edwin is in Congress he will ensure our national parks are fully funded safe and free, and lands zoned for parks remain untouched."
+  - topic: "Energy"
+    value: "Supports an all-of-the-above energy platform to lower energy costs, including expanding nuclear energy"
+    snippet: "Lower energy cost, Edwin support an all-of-the above energy platform.\n\nNuclear energy expand in a smart."
+  - topic: "Taxes & Business Climate"
+    value: "Would work to lower taxes, keep Virginia competitive for business, increase job opportunities and expand public-private partnerships"
+    snippet: "Edwin will work to lower taxes pass legislation that keeps Virginia the best state to do business increase job opportunities expand public-private partnerships."
+  - topic: "Immigration"
+    value: "Would increase the number of immigration judges and fix the green card process"
+    snippet: "Increase the number of Immigration Judges.\n\nFix green card process."
+
+# oEmbed-audited before being recorded, per the standing rule that no
+# video is published on a link alone: YouTube's own oEmbed returns title
+# "Meet Edwin Rivera - Virginia's Candidate in CD-3", which matches both
+# the person and this race. NOTE it is published on a third-party channel
+# (HiltonMultimedia), NOT his own -- so source_url points there and
+# source_type is "curated", which the frontend renders as a neutral
+# "Source:" line rather than the "linked from the candidate's own
+# official site" wording reserved for videos that genuinely came from
+# their site.
+platform_video:
+  video_url: "https://www.youtube.com/watch?v=y0oKCzi_q9k"
+  video_title: "Meet Edwin Rivera - Virginia's Candidate in CD-3"
+  source_url: "https://www.youtube.com/@HiltonMultimedia"
+  source_type: curated
+
+# From his site's "Meet Edwin Rivera" biography page. He had no bio
+# summary at all before this. An earlier draft of this file used the
+# opening of his priorities page instead, which was really a list of
+# issue areas rather than a biography -- this replaces it with the actual
+# biographical passage. source_url is the site root; the exact path of
+# the biography page could not be confirmed from here without clearing
+# the Cloudflare challenge.
+bio_summary:
+  value: "Edwin Rivera is an emerging figure in American politics. A native of Puerto Rico, Rivera has cultivated a deep understanding of the challenges faced by everyday citizens. Raised in poverty, foster care, then by his grandparents Rivera’s upbringing instilled in him the values of hard work, integrity, and a commitment to community.\n\nRivera’s professional journey is characterized by his dedication to public service and America.\n\nBefore entering the political arena, he worked as a police officer in Puerto Rico, then joined the United States Army. He served several tours of combat in the Middle East, which led him to early retirement as a disabled veteran.\n\nFor years Newport News, VA has been home to Edwin and his wife Adina. They are a blended family with 7 children who attend public schools."
+  source_url: "https://edwinriveraforcongress.com/"
+  source_type: campaign_site
+
 bio:
+  # Kept as-is from Ballotpedia rather than overwritten: his own site says
+  # the same thing with more detail, and that detail is already carried in
+  # bio_summary above, so there is nothing to gain by restating it here.
   employment_record:
     value: "U.S. Army veteran; police officer"
     source_url: "https://ballotpedia.org/Edwin_Rivera"
     snippet: "He served in the U.S. Army. His career experience includes working as a police officer."
+  birthplace:
+    value: "Puerto Rico"
+    source_url: "https://edwinriveraforcongress.com/"
+    snippet: "A native of Puerto Rico, Rivera has cultivated a deep understanding of the challenges faced by everyday citizens."
