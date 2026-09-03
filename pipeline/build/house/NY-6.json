@@ -1,0 +1,765 @@
+{
+  "state": "NY",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-09-02T12:54:59.794Z",
+  "election_dates": {
+    "primaryDate": "2026-06-23",
+    "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "primarySnippet": "§ 8-100. Elections; dates of and hours for voting. 1. (a) A primary election shall be held on the fourth Tuesday in June before every general election unless otherwise changed by an act of the legislature.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
+    "generalSnippet": "(c) The general election shall be held annually on the Tuesday next succeeding the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — New York removes a sitting officeholder convicted of a felony (or of a crime violating their oath of office) from an office they already hold, but no provision found bars someone from becoming a candidate for office in the first place; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
+    "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-6-results",
+    "snippet": "R: J. Chou — uncontested (no FEC 2026 registration found; see code comment). D: G. Meng (incumbent) 56.8% over C. Park 42.9%."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 6.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.87
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 32.41
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 28.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 25.76
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 9982.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 9994.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 9977.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9979
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9977.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 10000.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9983.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9956.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9945.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9951.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9946.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9940.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 9948.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 9953.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 9933.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 9986.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 9968.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9961.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9943.6
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9930.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9916.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9922.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9887
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9880.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9909.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9879.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9866.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9838.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9809.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9796.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9785.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9756.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9750.3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9737.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9732.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9731.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9699
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9665.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9666.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9658.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9654.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 19677151
+      },
+      {
+        "year": "2023",
+        "population": 19571216
+      },
+      {
+        "year": "2024",
+        "population": 19867248
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 79557
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 82095
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 85820
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "grace-meng",
+      "full_name": "MENG, GRACE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2NY06116",
+      "fec_status": "C",
+      "bioguide_id": "M001188",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2033044.64,
+        "totalSpent": 1967862,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 22019.63,
+          "largeDollar": 1321697.69,
+          "pac": 574800,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1975-10-01",
+          "source_url": "https://www.wikidata.org/wiki/Q5591303",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Queens, New York",
+          "source_url": "https://www.wikidata.org/wiki/Q5591303",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q5591303",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Stuyvesant High School",
+          "source_url": "https://en.wikipedia.org/wiki/Grace_Meng",
+          "snippet": "She attended Nathaniel Hawthorne Middle School and Stuyvesant High School with the intent to become a teacher, according to a classmate.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice",
+          "source_url": "https://history.house.gov/People/Listing/M/MENG,-Grace-(M001188)/",
+          "snippet": "lawyer, private practice",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the New York state assembly, 2009-2012",
+          "source_url": "https://history.house.gov/People/Listing/M/MENG,-Grace-(M001188)/",
+          "snippet": "member of the New York state assembly, 2009-2012",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "married to Wayne, with two sons",
+          "source_url": "https://www.gracefornewyork.com/meet-grace",
+          "snippet": "she continues to live with her husband, Wayne, and their two sons",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Women's Rights and Reproductive Care",
+          "value": "Grace is a strong advocate for women's constitutional right to make decisions about their own body and for access to reproductive care, from abortion to contraception to in vitro fertilization (IVF). She is a Task Force Lead on the Pro-Choice Caucus.",
+          "snippet": "In a moment where our freedom to access reproductive care, from abortion to contraception to in vitro fertilization (IVF), is under attack, Grace is a strong advocate for our rights. She has never been afraid to stand up to Republicans and far-right special interest groups who continue to gut healthcare services vital to women and restrict access to reproductive care. Grace is also a Task Force Lead on the Pro-Choice Caucus."
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Grace is committed to protecting Social Security and Medicare and will continue to oppose any and all efforts to undermine Social Security and Medicare.",
+          "snippet": "Social Security and Medicare are some of the most important social safety nets in our country, and Grace is committed to protecting these vital programs. Social Security has helped provide millions of seniors with reliable monthly income and allowed them to enjoy a dignified retirement after decades of working and helping grow our economy. She will continue to oppose any and all efforts to undermine Social Security and Medicare."
+        },
+        {
+          "topic": "Health Care",
+          "value": "Grace is a founding member of the Medicare for All Congressional Caucus and is a proud original cosponsor of the Medicare for All Act of 2019, which would expand the Medicare program to ensure every American has access to health care with comprehensive benefits.",
+          "snippet": "Grace is a founding member of the Medicare for All Congressional Caucus and is a proud original cosponsor of the Medicare for All Act of 2019. This life-saving legislation would expand the Medicare program to ensure every American has access to health care with comprehensive benefits. It would reduce our spending on health care while improving patient care."
+        },
+        {
+          "topic": "Housing",
+          "value": "Grace has introduced the Pathway to Stable and Affordable Housing for All Act which would effectively end homelessness and housing poverty. She has also introduced the Housing is a Human Right Act which would authorize $300 billion over the next decade for crucial housing infrastructure.",
+          "snippet": "Grace has introduced the Pathway to Stable and Affordable Housing for All Act which would effectively end homelessness and housing poverty. In addition to this bold effort, Grace has also introduced the Housing is a Human Right Act which would authorize $300 billion over the next decade for crucial housing infrastructure that would help families in Queens."
+        }
+      ],
+      "platform_source_url": "https://www.gracefornewyork.com/issues",
+      "_platform_resolved_at": "2026-09-02T12:54:36.998Z",
+      "campaign_site_url": "https://www.gracefornewyork.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "As the daughter of immigrants and the mom of two young kids, I'm fighting to make sure Queens’ working and middle-class families like mine have access to affordable healthcare, good jobs, and schools safe from the threat of gun violence.",
+        "source_url": "https://www.gracefornewyork.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-21T12:06:55.503Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075835.pdf",
+        "filingDate": "6/22/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T12:54:55.198Z",
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 292,
+          "votesCast": 272,
+          "attendanceRate": 0.9315068493150684
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — National Security, Department of State, and Related Programs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 320,
+        "bills_cosponsored": 3639,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "Commission To Study the Potential Creation of a National Museum of Asian Pacific American History and Culture Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "3525",
+            "publicLawNumber": "117-140",
+            "summary": "Commission To Study the Potential Creation of a National Museum of Asian Pacific American History and Culture Act This bill establishes a Commission to Study the Potential Creation of a National Museum of Asian Pacific American History and Culture. The commission must (1) report recommendations for a plan of action for the establishment and maintenance of a National Museum of Asian Pacific American History and Culture in Washington, DC; (2) develop a fundraising plan to support the establishment, operation, and maintenance of the museum through public contributions; (3) obtain an independent review of this fundraising plan, including an analysis of the resources necessary to fund the construction of the museum and its operations and maintenance in perpetuity without reliance on federal funds; and (4) submit a legislative plan of action to establish and construct the museum. The commission may convene a national conference relating to the museum. The commission shall be solely responsible for acceptance of contributions to it and payment of its expenses. No federal funding may be obligated to carry out this bill.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ140"
+          },
+          {
+            "title": "To amend the International Religious Freedom Act of 1998 to include the desecration of cemeteries among the many forms of violations of the right to religious freedom.",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "4028",
+            "publicLawNumber": "113-154",
+            "summary": "(This measure has not been amended since it was passed by the House on May 28, 2014. The summary of that version is repeated here.) Amends the International Religious Freedom Act of 1998 to include the desecration of cemeteries among the forms of violations of the right to religious freedom in many countries around the world.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ154"
+          },
+          {
+            "title": "To amend the Department of Energy Organization Act and the Local Public Works Capital Development and Investment Act of 1976 to modernize terms relating to minorities.",
+            "congress": 114,
+            "billType": "HR",
+            "billNumber": "4238",
+            "publicLawNumber": "114-157",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) This bill amends: (1) the Department of Energy Organization Act to revise the definition of &quot;minority&quot; to mean any U.S. citizen who is an Asian American, Native Hawaiian, Pacific Islander, African American, Hispanic, Puerto Rican, Native American, or Alaska Native; and (2) the Local Public Works Capital Development and Investment Act of 1976 to revise the definition of &quot;minority group members&quot; (who own minority group enterprises) to mean U.S. citizens who are Asian American, Native Hawaiian, Pacific Islanders, African American, Hispanic, Native American, or Alaska Natives.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ157"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.371,
+          "nominateDim2": -0.21,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001188"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 67.7,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001188"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

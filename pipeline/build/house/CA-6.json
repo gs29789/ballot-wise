@@ -1,0 +1,352 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-18T19:55:54.987Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_6th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Kevin Kiley and Richard Pan are running in the general election for U.S. House California District 6 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "kevin-kiley",
+      "full_name": "KILEY, KEVIN",
+      "party": "OTHER",
+      "incumbent": true,
+      "fec_candidate_id": "H2CA03157",
+      "fec_status": "C",
+      "bioguide_id": "K000401",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2988805.45,
+        "totalSpent": 1245830.82,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 433049.42,
+          "largeDollar": 1444229.18,
+          "pac": 356391.08,
+          "party": 5000,
+          "selfFunded": 15
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1985-01-30",
+          "source_url": "https://www.wikidata.org/wiki/Q27987136",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Sacramento, California",
+          "source_url": "https://www.wikidata.org/wiki/Q27987136",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Granite Bay High School",
+          "source_url": "https://www.wikidata.org/wiki/Q27987136",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Granite Bay High School, Granite Bay, California, graduated 2003",
+          "source_url": "https://history.house.gov/People/Listing/K/KILEY,-Kevin-(K000401)/",
+          "snippet": "graduated from Granite Bay High School, Granite Bay, Calif., 2003",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice; business owner; adjunct professor; deputy attorney general, California state department of justice, 2015-2016",
+          "source_url": "https://history.house.gov/People/Listing/K/KILEY,-Kevin-(K000401)/",
+          "snippet": "lawyer, private practice; business owner; adjunct professor; deputy attorney general, California state department of justice, 2015-2016",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "married to Chelsee Gardner on December 30, 2023",
+          "source_url": "https://en.wikipedia.org/wiki/Kevin_Kiley_(politician)",
+          "snippet": "Kiley married Chelsee Gardner, a marketing director and former children's pastor, on December 30, 2023, in Pioneer Church in Auburn, California .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of Republican Study Committee, Climate Solutions Caucus, Congressional Western Caucus, House Republican Conference (2023–present), non-denominational Christian",
+          "source_url": "https://en.wikipedia.org/wiki/Kevin_Kiley_(politician)",
+          "snippet": "Republican Study Committee [ 37 ] Climate Solutions Caucus [ 38 ] Congressional Western Caucus [ 39 ] Personal life [ edit ] Kiley married Chelsee Gardner, a marketing director and former children's pastor, on December 30, 2023, in Pioneer Church in Auburn, California . [ 40 ] Kiley is a non-denominational Christian.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Opposed policies in both Sacramento and Washington that raise the cost of living, and worked with both sides on common sense solutions to lower the cost of gas, electricity, water, housing, and groceries",
+          "snippet": "I have opposed policies in both Sacramento and Washington that raise the cost of living, and worked with both sides on common sense solutions to lower the cost of gas, electricity, water, housing, and groceries."
+        },
+        {
+          "topic": "K-12 Education",
+          "value": "Need to invest in our schools and every child deserves access to a great education",
+          "snippet": "I believe we need to invest in our schools and that every child deserves access to a great education."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Introduced the Fix It Act with a Democrat Congressman from California to save families thousands of dollars and improve the quality of care",
+          "snippet": "I introduced the Fix It Act with a Democrat Congressman from California to save our families thousands of dollars and improve the quality of care."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Helped lead the successful passage of Prop. 36 in California to restore common sense accountability for crime and brought home key federal funding for local law enforcement agencies",
+          "snippet": "I helped lead the successful passage of Prop. 36 in California to restore common sense accountability for crime and have brought home key federal funding for our local law enforcement agencies."
+        },
+        {
+          "topic": "Infrastructure",
+          "value": "Building new roads to ease traffic",
+          "snippet": "building new roads to ease traffic"
+        }
+      ],
+      "platform_source_url": "https://electkevinkiley.com/",
+      "_platform_resolved_at": "2026-08-15T10:56:44.528Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Early Childhood, Elementary, and Secondary Education",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 44,
+        "bills_cosponsored": 294,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Auburn, California, as the \"Louis A. Conter VA Clinic\".",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9124",
+            "publicLawNumber": "118-259",
+            "summary": "This act designates the community-based outpatient clinic of the Department of Veterans Affairs in Auburn, California, as the Louis A. Conter VA Clinic.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ259"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.158,
+          "nominateDim2": 0.376,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/K000401"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 39.6,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/K000401"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "The 6th District is my home, where I was born, raised, and went to local public schools, and where I’ve had the honor of serving over 175,000 constituents for the last four years. The people of the new 6th District deserve a Representative who will fight for our communities, who will put partisanship aside to focus on issues that matter in their daily lives: lowering he cost of living, improving public safety, and building new roads to ease traffic.",
+        "source_url": "https://electkevinkiley.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:54.677Z",
+      "campaign_site_url": "https://electkevinkiley.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:39.917Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "richard-pan",
+      "full_name": "PAN, RICHARD DR.",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA03158",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1098282.7,
+        "totalSpent": 739150.71,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 241251.07,
+          "largeDollar": 528224.63,
+          "pac": 307996.05,
+          "party": 201.56,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1965-10-28",
+          "source_url": "https://www.wikidata.org/wiki/Q7328265",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "New York",
+          "source_url": "https://www.wikidata.org/wiki/Q7328265",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Johns Hopkins University",
+          "source_url": "https://www.wikidata.org/wiki/Q7328265",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://drpanforcongress.com/",
+          "snippet": "As a small business owner, Dr. Pan and his wife create jobs, meet payroll, and manage rising costs.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Will stop Trump from gutting the Affordable Care Act, protect Medicare, stop insurance companies from denying critical care prescribed by doctors, and fight to lower prescription drug costs",
+          "snippet": "In Congress, Dr. Pan will stop Trump from gutting the Affordable Care Act, protect Medicare, stop insurance companies from denying critical care prescribed by doctors, and fight to lower prescription drug costs."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Will fight for a path to citizenship, believes Trump's ICE must be overhauled and replaced with an agency that doesn't kill Americans and separate families, enforces the law fairly, and protects people's constitutional rights",
+          "snippet": "Dr. Pan helped immigrants obtain legal assistance to protect their rights and will fight for a path to citizenship. Federal agents must not threaten and attack American citizens and legal immigrants. Dr. Pan believes Trump's ICE must be overhauled and replaced with an agency that doesn't kill Americans and separate families, enforces the law fairly, and protects people's constitutional rights."
+        },
+        {
+          "topic": "Abortion Rights",
+          "value": "Will work to codify Roe",
+          "snippet": "In Congress he will work to codify Roe."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Will prioritize making necessities more affordable, loan relief for educational debt and fight to roll back Trump's tariff taxes that are raising prices on Californians",
+          "snippet": "In Washington, he will prioritize making necessities more affordable, loan relief for educational debt and fight to roll back Trump's tariff taxes that are raising prices on Californians."
+        },
+        {
+          "topic": "Small Businesses",
+          "value": "Will work to reduce unnecessary red tape, expand access to affordable capital, and push back on policies that increase uncertainty and drive up costs for small businesses, and support workforce training and apprenticeship programs",
+          "snippet": "In Congress, Dr. Pan will work to reduce unnecessary red tape, expand access to affordable capital, and push back on policies that increase uncertainty and drive up costs for small businesses. He will support workforce training and apprenticeship programs that help local employers hire and grow."
+        },
+        {
+          "topic": "Public Health and Vaccination",
+          "value": "Will fight for facts and science, not personal politics and vendettas, to guide federal policy on vaccination, public health, and the environment",
+          "snippet": "Dr. Pan will fight for facts and science, not personal politics and vendettas, to guide federal policy on vaccination, public health, and the environment."
+        }
+      ],
+      "platform_source_url": "https://drpanforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T10:56:21.705Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=GnSfuVkplhI",
+      "platform_video_title": "B-Roll 2",
+      "platform_video_source_url": "https://drpanforcongress.com/",
+      "_platform_video_resolved_at": "2026-09-01T23:33:36.829Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081386.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:32:09.554Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Dr. Richard Pan is a doctor and public health advocate who we need to stand up to Trump and Robert F. Kennedy, Jr.'s attacks on health care and science. In the California State Senate, he authored and led legislation that secured health care for millions of Californians, championed landmark child safety laws, and defeated RFK Jr. and MAGA to ensure that children are safe from preventable diseases at school.",
+        "source_url": "https://drpanforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:51.966Z",
+      "campaign_site_url": "https://drpanforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:39.919Z",
+      "_campaign_site_reachability": "reachable",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site"
+    }
+  ]
+}

@@ -1,0 +1,822 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-43",
+  "generated_at": "2026-09-02T12:38:12.818Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_43rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Maxine Waters and Cristian Morales are running in the general election for U.S. House California District 43 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18153.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "cristian-morales",
+      "full_name": "MORALES, CRISTIAN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA43188",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "date_of_birth": null,
+        "birthplace": {
+          "value": "Guatemala",
+          "source_url": "https://forallvoices.com/meet-cristian/",
+          "snippet": "Born in Guatemala and raised by highly educated Guatemalan parents",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "20+ year career in manufacturing including Automotive, Aerospace, and Defense leading multicultural teams",
+          "source_url": "https://forallvoices.com/meet-cristian/",
+          "snippet": "His 20+ year career in manufacturing including Automotive, Aerospace, and Defense leading multicultural teams across every demographic and age group",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Role of Government",
+          "value": "Government should protect our freedoms, secure our borders, keep our communities safe, defend our Constitution, and create an environment where hardworking Americans can build a better life",
+          "snippet": "I believe government should protect our freedoms, secure our borders, keep our communities safe, defend our Constitution, and create an environment where hardworking Americans can build a better life."
+        },
+        {
+          "topic": "Government Priorities",
+          "value": "We need accountable government, strong families, safe communities, economic opportunity, and leaders willing to put the American people ahead of politics",
+          "snippet": "We need accountable government, strong families, safe communities, economic opportunity, and leaders willing to put the American people ahead of politics."
+        },
+        {
+          "topic": "Republican Coalition Building",
+          "value": "This campaign is about rebuilding trust, acknowledging past shortcomings, and creating a Republican Party that welcomes and represents every community",
+          "snippet": "this campaign is about rebuilding trust, acknowledging past shortcomings, and creating a Republican Party that welcomes and represents every community."
+        }
+      ],
+      "platform_source_url": "https://forallvoices.com/",
+      "_platform_resolved_at": "2026-09-02T12:36:43.796Z",
+      "campaign_site_url": "https://forallvoices.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Cristian Morales was born in Guatemala City, Guatemala. Morales earned a bachelor's degree in management from Purdue University in 2002 and a graduate degree in industrial and labor relations from Cornell University in 2008. His career experience includes working as a director of operations.",
+        "source_url": "https://ballotpedia.org/Cristian_Morales",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:11:44.383Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "maxine-waters",
+      "full_name": "WATERS, MAXINE MS",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CA23011",
+      "fec_status": "C",
+      "bioguide_id": "W000187",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 863682.82,
+        "totalSpent": 710470.47,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 20298.57,
+          "largeDollar": 318358,
+          "pac": 400500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1938-08-15",
+          "source_url": "https://www.wikidata.org/wiki/Q461727",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Kinloch, Missouri",
+          "source_url": "https://www.wikidata.org/wiki/Q461727",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "California State University, Los Angeles",
+          "source_url": "https://www.wikidata.org/wiki/Q461727",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative (1991 - Present); Project Build, Founder; Black Women's Forum, Co-Founder; Teacher",
+          "source_url": "https://www.ballotready.org/people/maxine-waters",
+          "snippet": "Professional Experience US House of Representatives, Representative (1991 - Present) Project Build, Founder Black Women&#x27;s Forum, Co-Founder Teacher",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Project Build, Founder; Black Women's Forum, Co-Founder",
+          "source_url": "https://www.ballotready.org/people/maxine-waters",
+          "snippet": "Project Build, Founder Black Women&#x27;s Forum, Co-Founder",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Vashon High School in St. Louis",
+          "source_url": "https://en.wikipedia.org/wiki/Maxine_Waters",
+          "snippet": "She graduated from Vashon High School in St. Louis before moving with her family to Los Angeles in 1961.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Small Business Protection",
+          "value": "Introduced legislation to protect small businesses from anti-competitive pricing practices that favor large retailers and strengthen antitrust laws",
+          "snippet": "U.S. Representative Maxine Waters (D-CA-43), Ranking Member of the Financial Services Committee, introduced the Fair Competition for Small Business Act of 2025 , legislation to protect small businesses from anti-competitive pricing practices that favor large retailers."
+        },
+        {
+          "topic": "Diabetes",
+          "value": "Introduced the Urban and Rural Diabetes Initiative Act and the Minority Diabetes Initiative Act to address diabetes in underserved communities",
+          "snippet": "Congresswoman Maxine Waters (CA-43), Ranking Member of the Committee on Financial Services, introduced the Urban and Rural Diabetes Initiative Act"
+        },
+        {
+          "topic": "HIV/AIDS",
+          "value": "Introduced a resolution to recommit the House to bipartisan efforts to end the HIV epidemic in the United States and globally with a greater focus on HIV-related vulnerabilities of women and girls",
+          "snippet": "Congresswoman Maxine Waters (CA-43) introduced a resolution to recommit the House of Representatives to bipartisan efforts to end the HIV epidemic in the United States and globally in recognition of National Women and Girls HIV/AIDS Awareness Day. It also calls for a greater focus on the HIV-related vulnerabilities of women and girls."
+        },
+        {
+          "topic": "Maternal Health",
+          "value": "Introduced the Mamas and Babies in Underserved Communities Act to establish a new initiative to expand and improve maternal and infant health services in minority, low-income, rural, and medically underserved communities",
+          "snippet": "Congresswoman Maxine Waters (CA-43) introduced the Mamas and Babies in Underserved Communities Act, which would establish a new initiative to expand and improve maternal and infant health services in minority, low-income, rural, and medically underserved communities."
+        },
+        {
+          "topic": "Breast Cancer",
+          "value": "Committed to supporting initiatives that reduce health disparities and ensure equitable care for breast cancer, emphasizing the importance of early detection, increased access to quality healthcare, and comprehensive information for patients",
+          "snippet": "Congresswoman Maxine Waters (CA-43) today recognizes October as Breast Cancer Awareness Month, emphasizing the importance of early detection, increased access to quality healthcare, and the need for comprehensive information for patients. Breast cancer remains one of the most commonly diagnosed cancers among women in the United States, and Congresswoman Waters remains committed to supporting initiatives that reduce health disparities and ensure equitable care for all."
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Committed to fighting back against what she characterizes as a voting rights crisis accelerated by extreme MAGA Republicans",
+          "snippet": "There is a voting rights crisis in this country. There has been for some time, but extreme MAGA Republicans are accelerating the crisis and we must fight back and expose their brazen hypocrisy."
+        }
+      ],
+      "platform_source_url": "https://waters.house.gov/issues/rep-waters-legislation",
+      "_platform_resolved_at": "2026-09-02T12:37:31.266Z",
+      "campaign_site_url": "https://maxinewatersforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=NoOrK24OnTQ",
+      "platform_video_title": "Congresswoman Maxine Waters Urges Daunte Wright Protesters to Continue",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Maxine_Waters",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-09-02T12:37:35.707Z",
+      "bio_summary": {
+        "value": "Maxine Moore Waters (née Carr ; born August 15, 1938) is an American politician serving as the U.S. representative for California's 43rd congressional district since 1991. The district, numbered as the 29th district from 1991 to 1993 and as the 35th district from 1993 to 2013, includes much of southern Los Angeles , as well as portions of Gardena , Inglewood and Torrance . A member of the Democratic Party , Waters is in her 18th House term. She is the most senior of the 13 black women serving in Congress, and chaired the Congressional Black Caucus from 1997 to 1999. [ 1 ] She is the second-most senior member of the California congressional delegation , after Nancy Pelosi . ",
+        "source_url": "https://en.wikipedia.org/wiki/Maxine_Waters",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:11:52.446Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 202,
+          "votesCast": 194,
+          "attendanceRate": 0.9603960396039604
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 624,
+        "bills_cosponsored": 4814,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "To designate the facility of the United States Postal Service located at 8200 South Vermont Avenue in Los Angeles, California, as the Sergeant First Class John Marshall Post Office Building.\r\n\r",
+            "congress": 109,
+            "billType": "HR",
+            "billNumber": "289",
+            "publicLawNumber": "109-23",
+            "summary": "(This measure has not been amended since it was passed by the House on February 1, 2005. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 8200 South Vermont Avenue in Los Angeles, California, as the \"Sergeant First Class John Marshall Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-109publ23"
+          },
+          {
+            "title": "National Flood Insurance Program Extension Act of 2010",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "5569",
+            "publicLawNumber": "111-196",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) National Flood Insurance Program Extension Act of 2010 - Amends the National Flood Insurance Act of 1968 to extend the National Flood Insurance Program from September 30, 2008, through September 30, 2010. Reduces the total amount of notes and obligations which the Director of the Federal Emergency Management Agency (FEMA) may through FY2010, with the President's approval, issue to finance the Program. Deems the amendments made by this Act to have taken effect on May 31, 2010. States that, to comply with the Statutory Pay-As-You-Go Act of 2010, the budgetary effects of this Act shall be determined by reference to the latest statement titled &quot;Budgetary Effects of PAYGO Legislation&quot; submitted to the Congressional Record by the Chairman of the House Budget Committee, if such statement has been submitted prior to the vote on passage.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ196"
+          },
+          {
+            "title": "Haiti Debt Relief and Earthquake Recovery Act of 2010",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "4573",
+            "publicLawNumber": "111-158",
+            "summary": "(This measure has not been amended since it was passed by the Senate on March 26, 2010. The summary of that version is repeated here.) Haiti Debt Relief and Earthquake Recovery Act of 2010 - Amends the the International Financial Institutions Act to urge the Secretary of the Treasury to direct the U.S. Executive Director at the International Monetary Fund (IMF), the International Development Association, the Inter-American Development Bank, the International Fund for Agricultural Development, and other multilateral development institutions to use U.S. influence to seek: (1) cancellation of all remaining debts owed by Haiti to such institutions; (2) suspension of Haiti's debt service payments to such institutions; and (3) before February 1, 2015, provision of emergency, humanitarian and reconstruction assistance from such institutions to Haiti in the form of grants or other non-debt assistance. Urges the Secretary to: (1) instruct the U.S. Executive Director of the IMF to advocate the use of some of the windfall profits from the ongoing sale of certain gold to provide debt stock relief, debt service relief, and, before February 1, 2015, grants for Haiti; (2) support the creation and utilization of a multilateral trust fund for Haiti that would leverage potential U.S. contributions and promote bilateral donations for investments in Haiti's future, including efforts to combat soil degradation and promote reforestation and infrastructure investments; and (3) direct the U.S. Executive Director of the Inter-American Development Bank to seek to increase the transfer of its earnings to the Fund for Special Operations and to a trust fund or grant facility for Haiti. Urges the Secretary and the Secretary of State to use appropriate diplomatic influence to secure cancellation of all remaining bilateral, multilateral, and private creditor debt owed by Haiti.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ158"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.656,
+          "nominateDim2": -0.094,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000187"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 12.1,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/W000187"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

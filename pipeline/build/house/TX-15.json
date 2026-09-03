@@ -1,0 +1,930 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-15",
+  "generated_at": "2026-09-03T09:11:57.567Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "Monica De La Cruz (Incumbent) (Republican Party) / Bobby Pulido (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 14468
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 14466.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 14426.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 14401.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 14394
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 14356.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 14363.1
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 14339.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 14306.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 14297.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 14307
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 14309.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 14302.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 14291.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 14321.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 14311.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 14286.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 14280.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 14267.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 14259.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 14240.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 14220.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 14204.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 14185.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 14114.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 14153.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 14126.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 14098.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 14088.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 14069.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 14049.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 14024.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 14002.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 13991.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 13986.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 13952.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 13921.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 13947.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 13886.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 13859
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 13852.4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 13817.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 13795.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155559241.27,
+        "perCapitaUsd": 6674.74
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 30029572
+      },
+      {
+        "year": "2023",
+        "population": 30503301
+      },
+      {
+        "year": "2024",
+        "population": 31290831
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72284
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 75780
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79721
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "monica-de-la-cruz",
+      "full_name": "DE LA CRUZ, MONICA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0TX15124",
+      "fec_status": "C",
+      "bioguide_id": "D000594",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5273959.93,
+        "totalSpent": 3424606.96,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1334571.8,
+          "largeDollar": 1977728.94,
+          "pac": 705285.12,
+          "party": 0,
+          "selfFunded": 84
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1974-11-11",
+          "source_url": "https://www.wikidata.org/wiki/Q115496109",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Brownsville, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q115496109",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "James Pace High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115496109",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "James Pace Early College High School in Brownsville, Texas",
+          "source_url": "https://en.wikipedia.org/wiki/Monica_De_La_Cruz",
+          "snippet": "De la Cruz graduated from James Pace Early College High School in Brownsville, Texas",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Interned for Turner Entertainment, worked for Cartoon Network Latin America, was an insurance agent and business owner before being elected to U.S. Congress",
+          "source_url": "https://en.wikipedia.org/wiki/Monica_De_La_Cruz",
+          "snippet": "She interned for Turner Entertainment before working for Cartoon Network Latin America. [ 3 ] Before being elected to the U.S. Congress, she was an insurance agent and business owner.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of Republican Main Street Partnership and Congressional Western Caucus; Episcopalian",
+          "source_url": "https://en.wikipedia.org/wiki/Monica_De_La_Cruz",
+          "snippet": "Republican Main Street Partnership [ 17 ] Congressional Western Caucus [ 18 ]",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "She has been married twice and has two children. Spouse Michael Uribe (divorced); Johnny Hernández (married 2015; divorced 2021)",
+          "source_url": "https://en.wikipedia.org/wiki/Monica_De_La_Cruz",
+          "snippet": "Spouse Michael Uribe ​ ( divorced ) ​ Johnny Hernández ​ ​ ( married&lt;/span>\"}]]}'>m. 2015 ; divorced&lt;/span>\"}]]}'>div. 2021 ) ​ Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Firm defender of border security",
+          "snippet": "Es una firme defensora de la seguridad fronteriza"
+        },
+        {
+          "topic": "Fentanyl Trafficking",
+          "value": "Focused on combating fentanyl trafficking, achieving approval of first law in nearly 20 years from her community to be enacted on this issue",
+          "snippet": "logrando la aprobación de cinco piezas clave de legislación, entre ellas la primera ley en casi 20 años de su comunidad en ser promulgada, enfocada en combatir el tráfico de fentanilo"
+        },
+        {
+          "topic": "American Dream",
+          "value": "Defender of preservation of the American Dream",
+          "snippet": "Es una firme defensora de la seguridad fronteriza, la preservación del Sueño Americano"
+        },
+        {
+          "topic": "Senior Citizens Benefits",
+          "value": "Defender of protection of benefits for senior citizens",
+          "snippet": "la preservación del Sueño Americano y la protección de los beneficios para las personas mayores"
+        },
+        {
+          "topic": "South Texas Water",
+          "value": "Created the South Texas Water Task Force to address the region's water needs and leads the push for the Mexican government to comply with its water debt",
+          "snippet": "creó el Grupo de Trabajo del Agua del Sur de Texas para atender las necesidades hídricas de la región y lidera la presión para que el gobierno mexicano cumpla con su deuda de agua"
+        }
+      ],
+      "platform_source_url": "https://monicaforcongress.us/es/",
+      "_platform_resolved_at": "2026-08-14T18:34:55.092Z",
+      "campaign_site_url": "https://www.monicaforcongress.us",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:47:31.517Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "La congresista Monica De La Cruz es la primera latina y la primera republicana en representar el 15.º distrito de Texas. En su primer mandato, Monica se ha destacado como una líder nacional efectiva, logrando la aprobación de cinco piezas clave de legislación, entre ellas la primera ley en casi 20 años de su comunidad en ser promulgada, enfocada en combatir el tráfico de fentanilo. Es una firme defensora de la seguridad fronteriza, la preservación del Sueño Americano y la protección de los beneficios para las personas mayores.",
+        "source_url": "https://monicaforcongress.us/es/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:20.993Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075630.pdf",
+        "filingDate": "5/25/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T09:11:45.588Z",
+      "recent_votes": [
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 294,
+          "votesCast": 280,
+          "attendanceRate": 0.9523809523809523
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — General Farm Commodities, Risk Management, and Credit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Nutrition and Foreign Agriculture",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Housing and Insurance",
+            "title": "Vice Chairwoman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 65,
+        "bills_cosponsored": 489,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Disabled Veterans Housing Support Act",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "224",
+            "publicLawNumber": "119-70",
+            "summary": "Disabled Veterans Housing Support Act This act excludes compensation received&nbsp;for a military service-connected disability from a veteran's income when determining eligibility for assistance under the&nbsp;Community Development Block Grant (CDBG)&nbsp;program. The CDBG program provides grants to urban communities for development activities focused on revitalizing neighborhoods, economic development, and providing improved community facilities and services. Additionally, the Government Accountability Office must report on how service-connected disability compensation is treated when determining eligibility for all programs administered by&nbsp;the Department of Housing and Urban Development. This includes identifying instances where the treatment of such compensation is inconsistent with the requirement under this act.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ70"
+          },
+          {
+            "title": "Preventing the Financing of Illegal Synthetic Drugs Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "1076",
+            "publicLawNumber": "118-79",
+            "summary": "Preventing the Financing of Illegal Synthetic Drugs Act This bill requires the Government Accountability Office to carry out a study on illicit financing in connection with the trafficking of synthetic drugs, including fentanyl and methamphetamine, fentanyl- and methamphetamine-related substances, Captagon, and fentanyl and methamphetamine precursors, and to report to Congress.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ79"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.472,
+          "nominateDim2": 0.127,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/D000594"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 80.6,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/D000594"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "bobby-pulido",
+      "full_name": "PULIDO, BOBBY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX15246",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2960461.93,
+        "totalSpent": 1804525.57,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 538711.58,
+          "largeDollar": 1900825.8,
+          "pac": 243550,
+          "party": 220.77,
+          "selfFunded": 150300
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "High School Diploma, Edinburg High School",
+          "source_url": "https://www.ballotready.org/people/bobby-pulido",
+          "snippet": "High School Diploma, Edinburg High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Singer/Musician",
+          "source_url": "https://www.ballotready.org/people/bobby-pulido",
+          "snippet": "Singer/Musician",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Frames the economy in terms of everyday costs in the Valley and South Texas rather than financial markets, including families choosing between rent and health insurance",
+          "snippet": "In the Valley and across South Texas, the economy we care about is not a bunch of numbers and letters flashing on a board on Wall Street. It’s in our pockets, at the pump, in the grocery store when we buy fajitas, milk and eggs – and for some it’s when they have to choose between paying the rent or for their health insurance."
+        },
+        {
+          "topic": "Corporate Price Increases",
+          "value": "Would stand up to large corporations he says have raised prices on Americans already struggling to afford basic necessities",
+          "snippet": "I will stand up to the big greedy corporations that have been raising prices on Americans who are already struggling to pay for basic necessities."
+        },
+        {
+          "topic": "Small Business",
+          "value": "Would cut regulation he describes as strangling small businesses, which he calls the heart of the South Texas economy",
+          "snippet": "I will also focus on cutting the red tape that strangles small businesses because down here the heart of our economy is driven by small local businesses, working families and entrepreneurs."
+        },
+        {
+          "topic": "Jobs & Workforce Training",
+          "value": "Would invest in skills and apprenticeships and support creation of higher-wage jobs that keep local talent in South Texas",
+          "snippet": "I think it’s about time we reward their hard work, invest in skills and apprenticeships, and support the creation of higher-wage jobs that keep our talent right here at home building the South Texas economy."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Supports agricultural policy protecting natural resources and rural families, and calls protecting farmers and ranchers a matter of national security",
+          "snippet": "I believe in strong, commonsense agricultural policy that protects our natural resources, supports rural families, and keeps safe, affordable, American-grown food on every table. Protecting farmers and ranchers is good economics, but it’s also a matter of national security."
+        },
+        {
+          "topic": "Tariffs & Trade",
+          "value": "Says tariffs and trade wars are driving up costs and closing off opportunities for farm families, and that farmers need fair and open trade",
+          "snippet": "Our farmers and ranchers don’t want handouts, but they do need fair markets, fair and open trade, and the freedom to do what they do best.\n\nTariffs and trade wars are driving up costs and closing off opportunities, leaving too many of our families struggling to keep up."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Wants a secure border as a policy that does not change with the party in power, and removal of violent criminals in the country illegally",
+          "snippet": "Our goal as a country should be to have a secure border – a policy that should not change based on what president or party is in charge – and we have to go after the violent criminals that are here illegally and get them out of our country."
+        },
+        {
+          "topic": "Immigration Enforcement & Families",
+          "value": "Says the border can be secured without destroying families and the local economy, and would target fentanyl and cartel drug supply lines more effectively",
+          "snippet": "I believe we can secure the border without destroying families and our local economy in the process. We can more effectively attack the flow of fentanyl and other cartel driven drug supply lines into our country."
+        },
+        {
+          "topic": "Path to Legalization",
+          "value": "Supports more vetting hubs in Central America and a more fair and reasonable path to legalization, citing employers' need for a reliable workforce",
+          "snippet": "We can and should have more vetting hubs in Central America to help bring order to migration as we create a more fair and reasonable path to legalization for those who want to come here to contribute – because American businesses need a reliable workforce."
+        },
+        {
+          "topic": "Medicare",
+          "value": "Calls Medicare a promise and a critical safety net that must be kept and strengthened, like Social Security",
+          "snippet": "For starters, I believe that, like Social Security, Medicare is a promise and a critical safety net that we have to keep and make stronger."
+        },
+        {
+          "topic": "Health Care & Drug Costs",
+          "value": "Would bring down costs by negotiating better returns on what is spent on healthcare and prescription drugs",
+          "snippet": "We also need real leadership not more political rhetoric if we are ever going to succeed in bringing down costs by negotiating better returns for what we spend on healthcare and prescription drugs."
+        },
+        {
+          "topic": "Rural Hospitals",
+          "value": "Says healthcare costs are crushing families and rural hospitals are in danger of closing, and that how affordable care is provided must be rethought",
+          "snippet": "The truth is that today, healthcare costs are crushing families and in rural areas all across the country hospitals are in danger of having to close their doors. We have to rethink how we provide actually affordable healthcare to more people."
+        },
+        {
+          "topic": "Party Independence",
+          "value": "Pledges never to vote against South Texas families because his party or anyone else tells him to",
+          "snippet": "I will never vote against South Texas families just because my party or anyone else tells me to."
+        },
+        {
+          "topic": "School Vouchers",
+          "value": "Opposes voucher schemes that drain money from public classrooms and send it to private schools",
+          "snippet": "I believe strong public schools are critical to the success of South Texas. That’s why I oppose voucher schemes that drain money from our classrooms and send it to private schools."
+        },
+        {
+          "topic": "Teacher Pay & Class Size",
+          "value": "Would focus on better teacher pay, reducing classroom overcrowding, and investing in skills training",
+          "snippet": "That’s why I will focus on making sure teachers get paid better for educating our sons and daughters, on reducing classroom overcrowding, and investing in skills training so every student is prepared to do the jobs of tomorrow or to create the businesses that will take our South Texas economy into the future."
+        },
+        {
+          "topic": "Water Infrastructure",
+          "value": "Would fight for investments in desalination, modern irrigation and infrastructure to secure the Valley's water supply",
+          "snippet": "We need to fight for bold investments in desalination, modern irrigation and infrastructure to secure the water we need for decades to come."
+        },
+        {
+          "topic": "Water Treaty with Mexico",
+          "value": "Would hold Mexico accountable for water treaty obligations and build a regional strategy prioritizing South Texas families and farmers",
+          "snippet": "I’ll fight to hold Mexico accountable for water treaty obligations and build a regional strategy that prioritizes South Texas families and farmers. If we can’t secure our water, we can’t secure the Valley’s future."
+        }
+      ],
+      "platform_source_url": "https://www.bobbypulidofortexas.com/",
+      "_platform_resolved_at": "2026-09-03T09:11:27.852Z",
+      "campaign_site_url": "https://bobbypulidofortexas.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=hbjUPVr4YwM",
+      "platform_video_title": "Tejano star Bobby Pulido says he’ll work for South Texas families after announcing run for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T12:00:36.296Z",
+      "bio_summary": {
+        "value": "Bobby Pulido was born and raised in Edinburg, Texas, where he still lives today with his wife. He is the proud father of four sons, raising his family in the same community that shaped him. The son of a farmworker-turned-musician, Bobby grew up surrounded by the values that define South Texas: hard work, humility, family, and faith.\n\nAfter graduating from Edinburg High School, Bobby studied political science before pursuing a music career that would make him one of Tejano’s most recognized voices. For nearly three decades, he traveled the world performing, but his heart has always remained in the Rio Grande Valley.\n\nBeyond the stage, Bobby built a life as a small business owner, signing paychecks, balancing budgets, and navigating the challenges that so many Valley entrepreneurs face.",
+        "source_url": "https://www.bobbypulidofortexas.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-09-03T09:11:27.852Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075555.pdf",
+        "filingDate": "6/4/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T09:11:48.579Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    }
+  ]
+}

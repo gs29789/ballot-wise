@@ -1,0 +1,775 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-14",
+  "generated_at": "2026-09-02T12:07:41.697Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "Randy Weber (Incumbent) (Republican Party) / Thurman Bill Bartie (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.5
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 14468
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 14466.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 14426.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 14401.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 14394
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 14356.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 14363.1
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 14339.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 14306.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 14297.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 14307
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 14309.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 14302.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 14291.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 14321.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 14311.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 14286.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 14280.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 14267.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 14259.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 14240.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 14220.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 14204.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 14185.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 14114.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 14153.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 14126.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 14098.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 14088.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 14069.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 14049.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 14024.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 14002.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 13991.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 13986.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 13952.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 13921.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 13947.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 13886.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 13859
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 13852.4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 13817.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 13795.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155559241.27,
+        "perCapitaUsd": 6674.74
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 30029572
+      },
+      {
+        "year": "2023",
+        "population": 30503301
+      },
+      {
+        "year": "2024",
+        "population": 31290831
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72284
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 75780
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79721
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "thurman-bartie",
+      "full_name": "BARTIE, THURMAN BILL MR",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX14181",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 26823.19,
+        "totalSpent": 27465.1,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1600,
+          "largeDollar": 24123.19,
+          "pac": 0,
+          "party": 1100,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Lincoln High School (1972)",
+          "source_url": "https://www.ballotready.org/people/thurman-bartie",
+          "snippet": "High School Diploma, Lincoln High School (1972)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Hannah Funeral Home, Inc., Funeral Director and Embalmer (1965 - Present); Jefferson County, Justice of the Peace - Precinct 8 (1995 - 2003); Wilson Financial Group, LLC, Director of Funeral Operations (2005 - 2008); Port Arthur Public Schools, Educator (2006 - 2019); First Sixth Street Baptist Church, Pastor (2012 - 2019); Port Arthur City, Mayor (2019 - Present)",
+          "source_url": "https://www.ballotready.org/people/thurman-bartie",
+          "snippet": "Port Arthur City, Mayor (2019 - Present) Hannah Funeral Home, Inc., Funeral Director and Embalmer (1965 - Present) First Sixth Street Baptist Church, Pastor (2012 - 2019) Port Arthur Public Schools, Educator (2006 - 2019) Wilson Financial Group, LLC, Director of Funeral Operations (2005 - 2008) Jefferson County, Justice of the Peace - Precinct 8 (1995 - 2003)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "Port Arthur",
+          "source_url": "https://votebartie.org/",
+          "snippet": "A lifelong Port Arthur native, former Mayor Thurman Bill Bartie has dedicated his career to public service, education, ministry, and community leadership.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Bachelor's, Lamar University, Political Science and Government (1992); Master's, Tennessee Temple University, Theology and Theological (2007); Doctorate, Tennessee Temple University, Organizational Leadership (2013)",
+          "source_url": "https://www.ballotready.org/people/thurman-bartie",
+          "snippet": "Degrees Doctorate, Tennessee Temple University, Organizational Leadership (2013) Master's, Tennessee Temple University, Theology and Theological (2007) Bachelor's, Lamar University, Political Science and Government (1992)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "public service, education, ministry, and community leadership",
+          "source_url": "https://votebartie.org/",
+          "snippet": "A lifelong Port Arthur native, former Mayor Thurman Bill Bartie has dedicated his career to public service, education, ministry, and community leadership.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Opportunity",
+          "value": "Fight for policies that open doors for families through access to good jobs and fair wages, building strong local economies",
+          "snippet": "Every person deserves access to good jobs and fair wages. Strong communities begin with strong local economies, and I will fight for policies that open doors for families in Congressional District 14 (TX)."
+        },
+        {
+          "topic": "Education",
+          "value": "Support investment in teachers, modernized classrooms, and pathways to success for every child",
+          "snippet": "I support investment in teachers, modernized classrooms, and pathways to success for every child."
+        },
+        {
+          "topic": "Infrastructure and Resiliency",
+          "value": "Support smart infrastructure, energy reliability, and resilient systems that protect families and businesses",
+          "snippet": "I support smart infrastructure, energy reliability, and resilient systems that protect our families and our businesses."
+        },
+        {
+          "topic": "Mental Health, Public Safety, and Homelessness",
+          "value": "Support law enforcement and believe true safety requires stability, mental health support, and opportunity",
+          "snippet": "I support law enforcement, and I believe true safety requires stability, mental health support, and opportunity. Real safety means caring for people, not ignoring the challenges they face."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Support strengthening and restoring the Affordable Care Act so people can access affordable and reliable healthcare",
+          "snippet": "Every citizen should have access to affordable and reliable healthcare without long travel times or overwhelming costs. I support strengthening and restoring the Affordable Care Act so people can manage health concerns and still maintain a good quality of life."
+        },
+        {
+          "topic": "Affordability",
+          "value": "Support policy that will roll back tariffs which have raised prices, clear barriers to build more affordable housing, and promote more competition in industries ranging from healthcare to food processing",
+          "snippet": "To build affordability in this economy, We need policy that will roll back tariffs, which have raised prices, clearing barriers to build more affordable housing. Promoting more competition in industries ranging from healthcare to food processing."
+        }
+      ],
+      "platform_source_url": "https://votebartie.org/",
+      "_platform_resolved_at": "2026-08-21T12:25:53.267Z",
+      "campaign_site_url": "https://votebartie.org/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "A lifelong Port Arthur native, former Mayor Thurman Bill Bartie has dedicated his career to public service, education, ministry, and community leadership. From his historic election as the first African American Justice of the Peace in Precinct 8 to his work as former Mayor, his life reflects commitment, compassion, and integrity. Learn more about his story and vision for Congressional District 14 (TX).",
+        "source_url": "https://votebartie.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-21T12:25:59.228Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "randy-weber",
+      "full_name": "WEBER, RANDY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2TX14149",
+      "fec_status": "C",
+      "bioguide_id": "W000814",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 972560.89,
+        "totalSpent": 671254.64,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2196.26,
+          "largeDollar": 249213,
+          "pac": 435611.1,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1953-07-02",
+          "source_url": "https://www.wikidata.org/wiki/Q4014569",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Pearland, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q4014569",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Houston–Clear Lake",
+          "source_url": "https://www.wikidata.org/wiki/Q4014569",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married to Brenda Weber, a Pearland schoolteacher, for over 30 years",
+          "source_url": "https://en.wikipedia.org/wiki/Randy_Weber",
+          "snippet": "Weber has been married to Brenda Weber, a Pearland schoolteacher, for over 30 years. They have three children and eight grandchildren.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Weber was a city councilman of Pearland, Texas, for six years. He also served as a Brazoria County grand jury commissioner, a Brazoria County Redistricting Committee member, a Texas Republican Party Convention delegate, president of Brazoria County Cities Association, a Brazoria County Republican Party member, and chair of the Pearland Area Republican Party Headquarters.",
+          "source_url": "https://en.wikipedia.org/wiki/Randy_Weber",
+          "snippet": "Weber was a city councilman of Pearland, Texas , for six years. He also served as a Brazoria County grand jury commissioner , a Brazoria County Redistricting Committee member, a Texas Republican Party Convention delegate, president of Brazoria County Cities Association, a Brazoria County Republican Party member, and chair of the Pearland Area Republican Party Headquarters.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "In 1981, he founded Weber's Air & Heat Air-Conditioning Company",
+          "source_url": "https://en.wikipedia.org/wiki/Randy_Weber",
+          "snippet": "In 1981, he founded Weber's Air & Heat Air-Conditioning Company",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Ross Sterling High School",
+          "source_url": "https://www.randyweber.org/about-randy",
+          "snippet": "He is a graduate of Ross Sterling High School, Alvin Community College, and the University of Houston Clear Lake.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.randyweber.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Randy Weber is a Christian, conservative, pro-life, anti-socialist and second amendment supporter fighting to make our Texas values heard in Washington, D.C. Randy is a third-generation Texan who has called the Gulf Coast home for nearly 70 years. He has lived in a 20-mile radius his entire life. He is a graduate of Ross Sterling High School, Alvin Community College, and the University of Houston Clear Lake. As a small business owner, Weber built his air conditioning company on a strong work ethic and common sense, which he learned from watching his father own his business.",
+        "source_url": "https://www.randyweber.org/about-randy",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-21T12:26:09.652Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Energy",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 108,
+        "bills_cosponsored": 3125,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.721,
+          "nominateDim2": 0.039,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000814"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 33.8,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/W000814"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-37",
+  "generated_at": "2026-08-18T20:02:45.468Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_37th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Sydney Kamlager-Dove and Samantha Mota are running in the general election for U.S. House California District 37 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "sydney-kamlager-dove",
+      "full_name": "KAMLAGER-DOVE, SYDNEY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2CA37304",
+      "fec_status": "C",
+      "bioguide_id": "K000400",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1150467.82,
+        "totalSpent": 1026975.02,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 387950.82,
+          "largeDollar": 376708.9,
+          "pac": 383842.46,
+          "party": 1392.15,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1972-07-20",
+          "source_url": "https://www.wikidata.org/wiki/Q20177418",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Chicago, Illinois",
+          "source_url": "https://www.wikidata.org/wiki/Q20177418",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "St. Ignatius College Prep",
+          "source_url": "https://www.wikidata.org/wiki/Q20177418",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Saint Ignatius College Prep, a Jesuit high school",
+          "source_url": "https://en.wikipedia.org/wiki/Sydney_Kamlager-Dove",
+          "snippet": "She graduated from Saint Ignatius College Prep , a Jesuit high school.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "In 1996, spokesperson for the Social and Public Art Resource Center (SPARC) in Venice, California. A year later, the organization's public art director during the restoration of the Venice graffiti pit. After leaving SPARC, worked as an assistant to actor Delroy Lindo. Later worked as a public affairs director for the nonprofit child care corporation Crystal Stairs. In 2010, worked on the campaign to elect Mitchell to the California State Assembly, becoming district director after Mitchell's victory.",
+          "source_url": "https://en.wikipedia.org/wiki/Sydney_Kamlager-Dove",
+          "snippet": "In 1996, Kamlager-Dove was the spokesperson for the Social and Public Art Resource Center (SPARC) in Venice, California . [ 8 ] A year later, she was the organization's public art director during the restoration of the Venice graffiti pit. [ 9 ] [ 10 ] After leaving SPARC, Kamlager-Dove worked as an assistant to actor Delroy Lindo . [ 11 ] She later worked as a public affairs director for the nonprofit child care corporation Crystal Stairs, headed at the time by Holly Mitchell . [ 12 ] In 2010, Kamlager-Dove worked on the campaign to elect Mitchell to the California State Assembly , becoming district director after Mitchell's victory.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of the Zeta Phi Beta sorority. Sat on the board of Planned Parenthood Los Angeles. In 2015, ran for Seat 3 of the board of trustees for the Los Angeles Community College District. On March 3, 2015, she defeated three other candidates with a 42% plurality.",
+          "source_url": "https://en.wikipedia.org/wiki/Sydney_Kamlager-Dove",
+          "snippet": "She is a member of the Zeta Phi Beta sorority. [ 7 ] She received her Master of Arts in arts management from the Heinz College at Carnegie Mellon University . [ 7 ] Career [ edit ] In 1996, Kamlager-Dove was the spokesperson for the Social and Public Art Resource Center (SPARC) in Venice, California . [ 8 ] A year later, she was the organization's public art director during the restoration of the Venice graffiti pit. [ 9 ] [ 10 ] After leaving SPARC, Kamlager-Dove worked as an assistant to actor Delroy Lindo . [ 11 ] She later worked as a public affairs director for the nonprofit child care corporation Crystal Stairs, headed at the time by Holly Mitchell . [ 12 ] In 2010, Kamlager-Dove worked on the campaign to elect Mitchell to the California State Assembly , becoming district director after Mitchell's victory. [ 13 ] [ 14 ] In 2015, she ran for Seat 3 of the board of trustees for the Los Angeles Community College District . [ 15 ] On March 3, 2015, she defeated three other candidates with a 42% plurality. [ 16 ] Kamlager-Dove has sat on the board of Planned Parenthood Los Angeles.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Climate Action",
+          "value": "Supports shifting to 100% renewable energy by 2030 or sooner, drastically reducing single-use plastics and packaging, and treating climate change as a national catastrophe to create innovative policies and programs to lower emissions and improve public health.",
+          "snippet": "I joined CA Voices for 100%, a coalition of leaders from across California who share the goal of shifting to 100% renewable energy by 2030 or sooner. As a Senator, I co-authored the landmark Senate Bill 54, to drastically reduce single-use plastics and packaging. I supported the Assembly Green New Deal Resolution to encourage the U.S. Congress to treat climate change as a national catastrophe and create innovative policies and programs to lower emissions and improve public health while developing more equitable and just economic prosperity."
+        },
+        {
+          "topic": "Job Creation",
+          "value": "Aims to help create good jobs by cultivating new industries (technology, clean energy) and invigorating existing ones (sports, entertainment, transportation), and has prioritized the expansion of vocational, career, and technical education programs that furnish the skills needed to develop career goals and score high-wage jobs.",
+          "snippet": "My aim is to help create good jobs and to nurture talent in the people who want those jobs. I know for our district to thrive in the rapidly changing global economy, we need to cultivate new industries (technology, clean energy) and invigorate the existing ones (sports, entertainment, transportation). I have prioritized the expansion of vocational, career, and technical education programs that furnish the skills needed to develop career goals and score high-wage jobs that sustain families."
+        }
+      ],
+      "platform_source_url": "https://sydneykamlager.com/priorities/",
+      "_platform_resolved_at": "2026-08-15T11:42:56.692Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076932.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:32:28.656Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on the Judiciary",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Western Hemisphere",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — Courts, Intellectual Property, Artificial Intelligence, and the Internet",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on the Judiciary — The Constitution and Limited Government",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — South and Central Asia",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 69,
+        "bills_cosponsored": 856,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.516,
+          "nominateDim2": -0.449,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/K000400"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 15.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/K000400"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Sydney Kamlager-Dove is the Representative for California’s 37th Congressional District in Los Angeles.",
+        "source_url": "https://sydneykamlager.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:31.075Z",
+      "campaign_site_url": "https://sydneykamlager.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:14.301Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "samantha-mota",
+      "full_name": "MOTA, SAMANTHA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA37339",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 9933.86,
+        "totalSpent": 8292.89,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3026.32,
+          "largeDollar": 800,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 6107.54
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "September 1998",
+          "source_url": "https://www.motaforcongress.com/about",
+          "snippet": "Sep 1998 Sam was born",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "County of Los Angeles",
+          "source_url": "https://www.motaforcongress.com/about",
+          "snippet": "I was born and raised in the County of Los Angeles in a rent-controlled unit.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Santa Monica College for Political Science",
+          "source_url": "https://www.motaforcongress.com/about",
+          "snippet": "After I graduated, I attended Santa Monica College for Political Science",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.motaforcongress.com/about",
+          "snippet": "My husband and I struggle to make ends meet",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Appointed to Santa Monica's Public Safety Reform & Oversight Commission in January 2021, joined Climate Action Santa Monica, Commissioner of the Santa Monica Public Safety and Reform Oversight Commission, Santa Monica City Council Candidate in August 2022",
+          "source_url": "https://www.motaforcongress.com/about",
+          "snippet": "Jan 2021 Appointed to Santa Monica's Public Safety Reform & Oversight Commission Oct 2021 Received Premio de Orgullo Award by City of Santa Monica's Hispanic Heritage Month Committee Aug 2022 Santa Monica City Council Candidate 2025 Here we are. No more activist burnout. Hi, I'm Sam. I was born and raised in the County of Los Angeles in a rent-controlled unit. I grew up in a single-family household where my family relied on WIC and SNAP benefits, medicaid, and other programs to survive I wasn't always into politics until high school. My environmental and U.S. history teacher got me aware, engaged and interested towards the path of activism: to be a strong, passionate contender in the world of injustice. After I graduated, I attended Santa Monica College for Political Science where I was sat in front of a screen and told to analyze political movies. I was 18 at the time and knew I could do more in the community I love and grew up in. So, I joined Climate Action Santa Monica, a locally-based, grassroots org. that empowers youth to find and demand solutions to help mitigate and adapt to climate change. And, I started guerilla gardening in a vacant lot where I used to play in as a kid. Guerilla gardening is an act of protest by growing plants on unauthorized lands as a means to reclaim community spaces, beautify our neighborhoods, combat food insecurity, and to raise awareness of the need for restoring and reforming environmental policies and legislation. With a shovel and some seeds, I slowly started to build a garden for the community. And, that is where my activism began. Then, it flourished into championing for the City of Santa Monica to incorporate Assembly Bill 551 into their ordinances to enhance resilience through local food production and reduction of waste. Through this, we were able to get the City Lobbyist to support the bill and move it forward to a vote for implementation. Because of my advocacy, the community nominated me as the recipient of the Premio de Orgullo Award for Hispanic Heritage Month for expanding urban agriculture in our communities. I later became a Commissioner of the Santa Monica Public Safety and Reform Oversight Commission",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration Reform",
+          "value": "Immigration Reform",
+          "snippet": "Immigration Reform"
+        },
+        {
+          "topic": "Education Reform",
+          "value": "Education Reform",
+          "snippet": "Education Reform"
+        },
+        {
+          "topic": "Student Loan Forgiveness and Tuition Costs",
+          "value": "Student Loan Forgiveness and Tuition Costs",
+          "snippet": "Student Loan Forgiveness and Tuition Costs"
+        },
+        {
+          "topic": "Universal Healthcare",
+          "value": "Universal Healthcare",
+          "snippet": "Universal Healthcare"
+        }
+      ],
+      "platform_source_url": "https://www.motaforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T11:41:59.542Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071757.pdf",
+        "filingDate": "7/10/2025",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:32:32.614Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "ACTIVIST, ADVOCATE, AND ORGANIZER Not a career politician. Only a passionate public servant whose purpose is to serve the people and transform the system.",
+        "source_url": "https://www.motaforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:32.514Z",
+      "campaign_site_url": "https://motaforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:14.302Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

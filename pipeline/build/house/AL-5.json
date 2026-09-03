@@ -1,0 +1,302 @@
+{
+  "state": "AL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-05",
+  "generated_at": "2026-08-18T19:54:14.797Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://www.sos.alabama.gov/sites/default/files/election-2026/AdminCalendar%20-2026.pdf",
+    "primarySnippet": "Alabama Statewide Primary Election - May 19, 2026 / Primary Runoff Election - June 16, 2026 / General Election - November 3, 2026.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
+    "generalSnippet": "The general election will occur as planned with all other races on Tuesday, November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Alabama's felony-disqualification statute (Ala. Code § 36-2-1(a)(3)) applies only to \"office under the authority of this state\" by its own text, not federal office; no separate background-check-disclosure requirement was found in Alabama's candidate qualifying process either; and the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://web.archive.org/web/2025/https://law.justia.com/codes/alabama/title-36/chapter-2/section-36-2-1/",
+    "snippet": "Section 36-2-1 - Persons Not Eligible to Hold State Office... (a) The following persons shall be ineligible to and disqualified from holding office under the authority of this state: ... (3) Those who shall have been convicted of treason, embezzlement of public funds, malfeasance in office, larceny, bribery or any other crime punishable by imprisonment in the state or federal penitentiary and those who are idiots or insane. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Alabama,_2026",
+    "snippet": "Dale Strong (Incumbent) (Republican Party) Andrew Sneed (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 32.56
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 32.23
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 29.82
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 31.46
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 27.97
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5539776640.45,
+        "perCapitaUsd": 7617.83
+      },
+      {
+        "year": "2024",
+        "totalUsd": 3093618502.45,
+        "perCapitaUsd": 4319.41
+      },
+      {
+        "year": "2025",
+        "totalUsd": 2901438116.09,
+        "perCapitaUsd": 4051.08
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "andrew-sneed",
+      "full_name": "SNEED, ANDREW RANKIN GUYTON",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AL05244",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 646512.03,
+        "totalSpent": 476792.19,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 73555.2,
+          "largeDollar": 545062.86,
+          "pac": 2350,
+          "party": 0,
+          "selfFunded": 20000
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Huntsville",
+          "source_url": "https://www.sneedforcongress.com/about",
+          "snippet": "Andrew was born and raised in Huntsville",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Lee High, graduated 1998",
+          "source_url": "https://www.sneedforcongress.com/about",
+          "snippet": "A product of Huntsville City Schools, Andrew graduated from Lee High in 1998",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Boston University (BFA '03)",
+          "source_url": "https://www.sneedforcongress.com/about",
+          "snippet": "He attended Boston University (BFA &lsquo;03)",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.sneedforcongress.com/about",
+          "snippet": "devoted husband",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "career in the restaurant business in New York City; started as $10 an hour plumber's helper at age 32, working his way up in the trades over 7 years; founded Whole Home Solutions in 2019",
+          "source_url": "https://www.sneedforcongress.com/about",
+          "snippet": "spent the following seven years in New York City, returning South in 2010. After meeting his wife, Andrew left a successful career in the restaurant business and started over, at 32 years old, as a $10 an hour plumber&rsquo;s helper, working his way up in the trades over the following 7 years. He started his company, Whole Home Solutions, in 2019",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Son, little brother, devoted husband, father of 3 amazing girls, master plumber and gas fitter, and founder and operator of a local small business - Andrew was born and raised in Huntsville. The son of a local attorney and school teacher/administrator, he grew up on the family farm just outside of town and also in Blossomwood. A product of Huntsville City Schools, Andrew graduated from Lee High in 1998.",
+        "source_url": "https://www.sneedforcongress.com/about"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:20.373Z",
+      "campaign_site_url": "https://www.sneedforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:00.560Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:10.454Z"
+    },
+    {
+      "slug": "dale-strong",
+      "full_name": "STRONG, DALE WHITNEY",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2AL05102",
+      "fec_status": "C",
+      "bioguide_id": "S001220",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1477819.41,
+        "totalSpent": 682462.45,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 6635.29,
+          "largeDollar": 680393.23,
+          "pac": 631300,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1970-05-08",
+          "source_url": "https://www.wikidata.org/wiki/Q115137374",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Monrovia, Alabama",
+          "source_url": "https://www.wikidata.org/wiki/Q115137374",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Sparkman High School",
+          "source_url": "https://www.wikidata.org/wiki/Q115137374",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "Married with children",
+          "source_url": "https://dalestrongforcongress.com/",
+          "snippet": "Husband, Dad, Christian, Firefighter, EMT, Leader",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "volunteer firefighter, paramedic, District Commissioner, Chairman of the Madison County Commission",
+          "source_url": "https://dalestrongforcongress.com/",
+          "snippet": "My life has been defined by service to my community. As a volunteer firefighter, a paramedic then as a District Commissioner and as Chairman of the Madison County Commission.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Sparkman High School (graduated 1988)",
+          "source_url": "https://en.wikipedia.org/wiki/Dale_Strong",
+          "snippet": "Strong graduated from Sparkman High School in 1988",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Support for Donald Trump",
+          "value": "Supported Donald Trump from day one and continues to support him, intends to help finish the job Donald Trump started",
+          "snippet": "I supported Donald Trump from day one and I still do today. I feel it is my duty to go to Washington to fight the liberal Biden/Pelosi agenda and help finish the job Donald Trump started."
+        },
+        {
+          "topic": "Opposition to Biden/Pelosi Agenda",
+          "value": "Opposes the liberal Biden/Pelosi agenda and intends to fight it in Washington",
+          "snippet": "I feel it is my duty to go to Washington to fight the liberal Biden/Pelosi agenda"
+        }
+      ],
+      "platform_source_url": "https://dalestrongforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T17:17:13.848Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Transportation, Housing and Urban Development, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Legislative Branch",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Oversight, Investigations, and Accountability",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Homeland Security — Emergency Management and Technology",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 31,
+        "bills_cosponsored": 219,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "To amend title 28, United States Code, to consolidate certain divisions in the Northern District of Alabama.",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7177",
+            "publicLawNumber": "118-179",
+            "summary": "This act consolidates the seven existing U.S. district court divisions in the Northern District of Alabama into five divisions.&nbsp;",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ179"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.604,
+          "nominateDim2": 0.384,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001220"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 31.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001220"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I was born and raised right here in Madison county. My roots run deep through our North Alabama red clay. Monrovia is where I learned Christian values early, how to shoot my grandfather’s gun and that living those Christian values means you work hard and help your neighbors. Those are the lessons I am teaching my children today. My life has been defined by service to my community. As a volunteer firefighter, a paramedic then as a District Commissioner and as Chairman of the Madison County Commission.",
+        "source_url": "https://dalestrongforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:12.543Z",
+      "campaign_site_url": "https://dalestrongforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:00.559Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:10.802Z"
+    }
+  ]
+}

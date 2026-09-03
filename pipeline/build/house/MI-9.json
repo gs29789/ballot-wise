@@ -1,0 +1,962 @@
+{
+  "state": "MI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-09-02T15:50:46.591Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
+    "primarySnippet": "MCL 168.52: A general primary election of all political parties shall be held in every election precinct in this state on the Tuesday succeeding the first Monday in August preceding every general November election in which a governor is to be elected, at which time the qualified and registered electors of each political party shall vote for party candidates for the office of governor.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-641.html",
+    "generalSnippet": "MCL 168.641: The November regular election date, which is the first Tuesday after the first Monday in November."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Michigan's constitutional felony bar applies only to state and local elective office and public employment by its own text (not federal office), and even there only reaches a felony involving dishonesty, deceit, fraud, or breach of public trust committed in the person's official capacity within the preceding 20 years; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
+    "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Michigan's_9th_Congressional_District_election,_2026",
+    "snippet": "Lisa McClain, Ray Pooley, Destiny Clayton, Kevin Vayko, John Vlahos, Jim Walkowicz, Jasen Cartwright, and Fernando Valdez are running in the general election for U.S. House Michigan District 9 on November 3, 2026 (incumbent McClain). Clayton, Vayko, Vlahos, and Walkowicz have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 35.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.24
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.1
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.61
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 30.19
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4490.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4484.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4475.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4470.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4475.2
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4478.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4478
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4479.3
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4485.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4488.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4488.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4495.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4486.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4484.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4483.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4477.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4485.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4486.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4498
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4497.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4479.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4490.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4492.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4485.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4490.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4481.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4474.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4479.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4463.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4455.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4483
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4472.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4481.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4473.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4468
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4452.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4439.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4433.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4430.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
+      },
+      {
+        "year": "2024",
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
+      },
+      {
+        "year": "2025",
+        "totalUsd": 459462412.5,
+        "perCapitaUsd": 600.72
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 10034118
+      },
+      {
+        "year": "2023",
+        "population": 10037261
+      },
+      {
+        "year": "2024",
+        "population": 10140459
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 66986
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 69183
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 72389
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jasen-cartwright",
+      "full_name": "CARTWRIGHT, JASEN D",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6MI09211",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Detroit, Michigan",
+          "source_url": "https://ballotpedia.org/Jasen_Cartwright",
+          "snippet": "Jasen Cartwright was born in Detroit, Michigan."
+        },
+        "high_school": {
+          "value": "Lutheran High School North",
+          "source_url": "https://ballotpedia.org/Jasen_Cartwright",
+          "snippet": "He earned a high school diploma from the Lutheran High School North, a degree from Baker College in 2008, and an associate degree from Macomb Community College in 2010."
+        },
+        "college": {
+          "value": "Baker College (2008); Macomb Community College (associate degree, 2010)",
+          "source_url": "https://ballotpedia.org/Jasen_Cartwright",
+          "snippet": "He earned a high school diploma from the Lutheran High School North, a degree from Baker College in 2008, and an associate degree from Macomb Community College in 2010."
+        },
+        "employment_record": {
+          "value": "Activist; also worked in retail, customer service, and information technology",
+          "source_url": "https://ballotpedia.org/Jasen_Cartwright",
+          "snippet": "His career experience includes working as an activist. Cartwright also has experience working in retail, customer service, and information technology."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance and Anti-Corruption",
+          "value": "No stock trading. No billionaire donations. No backroom deals.",
+          "snippet": "No stock trading. No billionaire donations. No backroom deals."
+        },
+        {
+          "topic": "Voting and Representation",
+          "value": "I will vote based on verified polling from MI-09, not party agendas. Monthly town halls and full transparency will ensure the people—not politicians—make the decisions.",
+          "snippet": "I will vote based on verified polling from MI-09, not party agendas. Monthly town halls and full transparency will ensure the people—not politicians—make the decisions."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Every legal vote should count, and elections should be secure, transparent, and accessible.",
+          "snippet": "Every legal vote should count, and elections should be secure, transparent, and accessible."
+        },
+        {
+          "topic": "Financial Transparency",
+          "value": "I will provide full financial transparency—my constituents will know exactly where my money comes from and where I stand.",
+          "snippet": "I will provide full financial transparency—my constituents will know exactly where my money comes from and where I stand."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Jasen_Cartwright",
+      "_platform_resolved_at": "2026-09-02T15:50:15.177Z",
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:33:59.677Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Jasen Cartwright was born in Detroit, Michigan . He earned a high school diploma from the Lutheran High School North, a degree from Baker College in 2008, and an associate degree from Macomb Community College in 2010. His career experience includes working as an activist. Cartwright also has experience working in retail, customer service, and information technology. [1] ",
+        "source_url": "https://ballotpedia.org/Jasen_Cartwright",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:46:32.681Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "lisa-mcclain",
+      "full_name": "MCCLAIN, LISA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0MI10287",
+      "fec_status": "C",
+      "bioguide_id": "M001136",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5242308.95,
+        "totalSpent": 4312276.62,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 964382.05,
+          "largeDollar": 1732786.54,
+          "pac": 1454798,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1966-04-07",
+          "source_url": "https://www.wikidata.org/wiki/Q102184540",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Stockbridge, Michigan",
+          "source_url": "https://www.wikidata.org/wiki/Q102184540",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Stockbridge Junior / Senior High School",
+          "source_url": "https://www.wikidata.org/wiki/Q102184540",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "BUSINESSWOMAN",
+          "source_url": "https://www.lisamcclainforcongress.com/",
+          "snippet": "proud CHRISTIAN, MOTHER, gun owner, BUSINESSWOMAN, DOG MOM",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Stockbridge High School (1984)",
+          "source_url": "https://www.ballotready.org/people/lisa-mcclain",
+          "snippet": "High School Diploma, Stockbridge High School (1984)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Michael McClain",
+          "source_url": "https://en.wikipedia.org/wiki/Lisa_McClain",
+          "snippet": "McClain and her husband, Michael, have four children",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Supports capitalism as providing the most significant opportunity for all Americans by incentivizing businesses to create jobs, raise wages, and provide competitive benefits",
+          "snippet": "Our economic system of capitalism provides the most significant opportunity for all Americans. It has proven time and again that it can raise all by incentivizing businesses to create jobs, raise wages, and provide competitive benefits that create more prosperity for the American worker and their families."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Committed to ensuring service members have access to quality healthcare they deserve",
+          "snippet": "I am committed to ensuring our service members have access to the quality healthcare they deserve after dedicating their lives to protecting our country."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Will fight to get farmers the inputs they need to produce while getting unnecessary federal regulations out of their way",
+          "snippet": "I will always fight to get farmers the inputs they need to produce while getting unnecessary federal regulations out of their way."
+        },
+        {
+          "topic": "National Security",
+          "value": "Committed to building our military into the preeminent fighting force in the world and keeping America safe and secure",
+          "snippet": "I am committed to building our military into the preeminent fighting force in the world and keeping America safe and secure."
+        }
+      ],
+      "platform_source_url": "https://mcclain.house.gov/",
+      "_platform_resolved_at": "2026-09-02T15:50:27.157Z",
+      "campaign_site_url": "https://www.lisamcclainforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:59.677Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "FIGHTER FOR SMALL TOWN VALUES proud CHRISTIAN, MOTHER, gun owner, BUSINESSWOMAN, DOG MOM",
+        "source_url": "https://www.lisamcclainforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:58.778Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 281,
+          "votesCast": 279,
+          "attendanceRate": 0.9928825622775801
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 71,
+        "bills_cosponsored": 489,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "Patient Advocate Tracker Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "5754",
+            "publicLawNumber": "117-175",
+            "summary": "Patient Advocate Tracker Act This act requires the Office of Patient Advocacy within the Veterans Health Administration to establish an information technology system that allows veterans or their representatives to electronically file a complaint with a patient advocate and review the status of a filed complaint.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ175"
+          },
+          {
+            "title": "To award posthumously a Congressional Gold Medal, in commemoration to the servicemembers who perished in Afghanistan on August 26, 2021, during the evacuation of citizens of the United States and Afghan allies at Hamid Karzai International Airport, and for other purposes.",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "5142",
+            "publicLawNumber": "117-72",
+            "summary": "This bill posthumously provides for the award of a Congressional Gold Medal in commemoration of the 13 service members who died on August 26, 2021, while stationed at Hamid Karzai International Airport in Afghanistan.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ72"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 202 Trumbull Street in Saint Clair, Michigan, as the \"Corporal Jeffrey Robert Standfest Post Office Building\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "3613",
+            "publicLawNumber": "117-147",
+            "summary": "This bill designates the facility of the United States Postal Service located at 202 Trumbull Street in Saint Clair, Michigan, as the Corporal Jeffrey Robert Standfest Post Office Building.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ147"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.549,
+          "nominateDim2": 0.174,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001136"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 40.1,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001136"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "steven-pooley",
+      "full_name": "POOLEY, STEVEN RAYMOND",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MI09245",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8083.69,
+        "totalSpent": 3141.7,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 4295,
+          "largeDollar": 3788.69,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "third-generation manufacturer, currently a CNC machinist and programmer, with 15 years of personal experience",
+          "source_url": "https://www.pooley4congress.com/",
+          "snippet": "As a third-generation manufacturer (currently a CNC machinist and programmer ) I have been immersed in the world of metal, rubber, and plastic from a young age. My upbringing around the production of rubber gaskets, O-rings, plastic details, car parts, and more has instilled in me a broad understanding of the industry. With 15 years of personal experience",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Manufacturing Jobs",
+          "value": "Supports bringing manufacturing jobs back to the United States",
+          "snippet": "I proudly fight for my fellow blue-collar workers, and am tired of hearing the same hot phrase that never gets addressed: ​ Bring manufacturing back!"
+        },
+        {
+          "topic": "Wages",
+          "value": "Supports building a future where jobs pay dignity wages",
+          "snippet": "It s about building a future where jobs pay dignity wages"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Supports healthcare that doesn't bankrupt people",
+          "snippet": "where healthcare doesn t bankrupt you"
+        },
+        {
+          "topic": "Corporate Accountability",
+          "value": "Supports holding corporations accountable",
+          "snippet": "where we hold corporations accountable"
+        },
+        {
+          "topic": "Environment",
+          "value": "Supports conserving the planet and taking care of the land, water, and air",
+          "snippet": "Take care of the land , the water, the air, and they ll take care of you"
+        }
+      ],
+      "platform_source_url": "https://www.pooley4congress.com/",
+      "_platform_resolved_at": "2026-08-11T11:15:41.891Z",
+      "campaign_site_url": "https://www.pooley4congress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:33:59.684Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "As a third-generation manufacturer (currently a CNC machinist and programmer ) I have been immersed in the world of metal, rubber, and plastic from a young age. My upbringing around the production of rubber gaskets, O-rings, plastic details, car parts, and more has instilled in me a broad understanding of the industry. With 15 years of personal experience and a lifetime being around this industry, I proudly fight for my fellow blue-collar workers, and am tired of hearing the same hot phrase that never gets addressed: ​ Bring manufacturing back!",
+        "source_url": "https://www.pooley4congress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:56.589Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "fernando-valdez",
+      "full_name": "VALDEZ, FERNANDO MR JR",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6MI09252",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1933.44,
+        "totalSpent": 1933.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 433.44,
+          "largeDollar": 1500,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.fernandovaldezjrforcongress.com/",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-09-01T10:45:46.023Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}
