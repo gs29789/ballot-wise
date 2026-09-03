@@ -6,6 +6,11 @@ export interface MemberInfo {
   party: string;
   imageUrl: string | null;
   officialWebsiteUrl?: string | null;
+  // congress.gov's own answer to "is this person serving right now" —
+  // only populated by getMember() (the per-member detail endpoint), not
+  // by the list endpoints. Used to confirm a name match really is a
+  // sitting member before attaching a congressional record to them.
+  currentMember?: boolean | null;
 }
 
 function apiKey(): string {
@@ -41,6 +46,43 @@ export async function getMembersByState(stateCode: string): Promise<MemberInfo[]
   return members;
 }
 
+// Same endpoint as above, narrowed to members serving RIGHT NOW via the
+// API's own `currentMember` filter, and carrying the seat they hold.
+// getMembersByState's historical sweep is correct for its own callers but
+// unusable for "is this candidate a sitting member?" -- it happily matches
+// a challenger to a same-surnamed member who left office decades ago (a
+// real example from a scan of this dataset: Senate candidate Sherrod Brown
+// matching Rep. Shontel Brown). The filter is a big narrowing, not a
+// cosmetic one: California returns 228 members unfiltered and 53 current.
+export interface CurrentMemberInfo extends MemberInfo {
+  chamber: "House" | "Senate";
+  district: number | null; // null for Senators
+}
+
+export async function getCurrentMembersByState(stateCode: string): Promise<CurrentMemberInfo[]> {
+  const members: CurrentMemberInfo[] = [];
+  let url: string | null = `${CONGRESS_BASE}/member/${stateCode}?api_key=${apiKey()}&format=json&limit=250&currentMember=true`;
+  while (url) {
+    const res: Response = await fetch(url);
+    if (!res.ok) break;
+    const data: any = await res.json();
+    for (const m of data.members as any[]) {
+      const rawChamber: string = m.terms?.item?.[0]?.chamber ?? "";
+      members.push({
+        bioguideId: m.bioguideId,
+        name: m.name,
+        party: m.partyName ?? "",
+        imageUrl: m.depiction?.imageUrl ?? null,
+        chamber: /senate/i.test(rawChamber) ? "Senate" : "House",
+        district: typeof m.district === "number" ? m.district : null,
+      });
+    }
+    const next = data.pagination?.next as string | undefined;
+    url = next ? `${next}&api_key=${apiKey()}` : null;
+  }
+  return members;
+}
+
 export async function getMember(bioguideId: string): Promise<MemberInfo | null> {
   const url = `${CONGRESS_BASE}/member/${bioguideId}?api_key=${apiKey()}&format=json`;
   const res = await fetch(url);
@@ -53,6 +95,7 @@ export async function getMember(bioguideId: string): Promise<MemberInfo | null> 
     party: m.partyHistory?.[0]?.partyName ?? "",
     imageUrl: m.depiction?.imageUrl ?? null,
     officialWebsiteUrl: m.officialWebsiteUrl ?? null,
+    currentMember: typeof m.currentMember === "boolean" ? m.currentMember : null,
   };
 }
 

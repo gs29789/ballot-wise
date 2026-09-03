@@ -2,7 +2,7 @@ import "dotenv/config";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
-import { getMembersByState, getMember, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
+import { getMembersByState, getCurrentMembersByState, getMember, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
 import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
@@ -199,6 +199,38 @@ function normalizeNameForMatch(name: string): string {
     .trim();
 }
 
+// Both FEC and congress.gov render names inverted ("CISNEROS, GILBERT" /
+// "Cisneros, Gilbert Ray"), so this splits on the first comma and compares
+// the halves separately. Deliberately much stricter than the surname
+// substring test it backs up: it is used to attach a sitting member's
+// congressional record (votes, committees, ideology score) to an FEC
+// candidate, and a false positive there publishes one real person's voting
+// record under another real person's name -- the same wrong-person class of
+// error this pipeline has repeatedly been burned by on Wikidata and
+// BallotReady. Surname must match EXACTLY once normalized; given names must
+// agree on their first token, allowing only the shortening that genuinely
+// occurs between these two sources ("Mike"/"Michael", "Jimmy"/"James" are
+// NOT treated as equal -- only true prefixes like "Gil"/"Gilbert", plus
+// bare middle-initial differences, since anything looser starts merging
+// distinct people).
+function namesLikelySamePerson(fecName: string, memberName: string): boolean {
+  const split = (n: string) => {
+    const i = n.indexOf(",");
+    const last = normalizeNameForMatch(i === -1 ? n : n.slice(0, i));
+    const first = normalizeNameForMatch(i === -1 ? "" : n.slice(i + 1)).split(/\s+/)[0] ?? "";
+    return { last, first };
+  };
+  const a = split(fecName);
+  const b = split(memberName);
+  if (!a.last || a.last !== b.last) return false;
+  if (!a.first || !b.first) return false;
+  if (a.first === b.first) return true;
+  // one side abbreviated to a true prefix ("gil" vs "gilbert"), but never a
+  // single initial -- "j" would match half the members in a given state.
+  const [shortName, longName] = a.first.length <= b.first.length ? [a.first, b.first] : [b.first, a.first];
+  return shortName.length >= 3 && longName.startsWith(shortName);
+}
+
 // Fills bio[field] from an LLM extraction result, but only for fields not
 // already set by a higher-priority source (structured Wikidata data, an
 // earlier extraction pass, or curated YAML) — first source to produce a
@@ -383,6 +415,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
   }
   const curated = loadCuratedRace(opts.state, opts.raceSlug);
   const stateMembers = await getMembersByState(opts.state);
+  const currentMembers = await getCurrentMembersByState(opts.state);
 
   const candidates = await Promise.all(
     fecCandidates.map(async (c) => {
@@ -394,9 +427,56 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // Match this FEC candidate to a sitting member for bioguideId + roll-call
       // votes. Computed early (not just before performance data, further down)
       // because the House Historian bio lookup below also needs it.
-      const matchedMember = c.incumbentChallenge === "Incumbent"
-        ? stateMembers.find((m) => normalizeNameForMatch(m.name).includes(normalizeNameForMatch(c.name.split(",")[0])))
-        : null;
+      //
+      // Two DIFFERENT questions, previously conflated into FEC's one flag:
+      //   1. Is this person a sitting member of Congress?  -> their voting
+      //      record, committees, ideology score, and official .gov site
+      //   2. Do they hold the seat THIS race is for?       -> the "incumbent"
+      //      label shown next to their name
+      // Gating everything on `incumbentChallenge === "Incumbent"` answered
+      // only #2, and answered it using a field FEC gets wrong. Confirmed on
+      // Rep. Gil Cisneros (CA-31): FEC files him as "Challenger" for the seat
+      // he currently holds, because his committee still carries his 2018
+      // CA-39 ID -- so he had a null bioguide_id and was silently missing his
+      // ENTIRE congressional record, the same end result as the Aug 2026
+      // bioguide pagination bug but from a different cause. It also affects
+      // every sitting House member running for Senate, where FEC's
+      // "Challenger" is genuinely correct for the race yet still shouldn't
+      // cost them their House record.
+      // A name match alone is not enough to assert someone sits in Congress,
+      // so every strict match is confirmed against congress.gov's per-member
+      // detail record, which carries an explicit `currentMember` boolean.
+      // Deliberately NOT verified via voting activity: the House Clerk's EVS
+      // endpoint rate-limits to a hard 403 under load (observed 2026-09-03,
+      // and the same outage class that silently wiped 12 members' vote
+      // records the day before), so "no votes returned" regularly means "the
+      // source is blocked", not "this person doesn't serve" -- treating a
+      // zero count as proof of non-incumbency would strip the label from
+      // real sitting members whenever the Clerk throttles. Newly sworn-in
+      // members legitimately have near-zero votes too. currentMember comes
+      // from a different host, is authoritative, and says exactly what we
+      // need to know. Fetched once here and reused for the official .gov
+      // site below rather than fetching the same record twice.
+      const nameMatch = currentMembers.find((m) => namesLikelySamePerson(c.name, m.name));
+      const memberDetail = nameMatch ? await getMember(nameMatch.bioguideId).catch(() => null) : null;
+      // Only an explicit `false` rejects: a null (field absent, or the
+      // detail call failed) falls back to trusting the currentMember=true
+      // list filter the match already came from, so a transient congress.gov
+      // hiccup can't silently strip a real member's record either.
+      const sittingMember = nameMatch && memberDetail?.currentMember !== false ? nameMatch : undefined;
+      const holdsThisSeat = sittingMember
+        ? opts.office === "S"
+          ? sittingMember.chamber === "Senate"
+          : sittingMember.chamber === "House" && sittingMember.district === Number(opts.district)
+        : false;
+      // Falls back to the previous (looser) lookup whenever the strict match
+      // finds nothing, so this can only ADD matches, never drop one that the
+      // old logic was already getting right.
+      const matchedMember =
+        sittingMember ??
+        (c.incumbentChallenge === "Incumbent"
+          ? stateMembers.find((m) => normalizeNameForMatch(m.name).includes(normalizeNameForMatch(c.name.split(",")[0])))
+          : null);
 
       const curatedBio = curatedEntry?.bio ?? {};
 
@@ -622,7 +702,13 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
             // just fails cleanly below and falls through to Ballotpedia,
             // no chamber-specific branching needed.
             if (matchedMember) {
-              const official = await getMember(matchedMember.bioguideId).catch(() => null);
+              // memberDetail is already fetched above for the currentMember
+              // check when the strict matcher hit; only fall back to a fetch
+              // here for a member found via the older loose lookup.
+              const official =
+                memberDetail?.bioguideId === matchedMember.bioguideId
+                  ? memberDetail
+                  : await getMember(matchedMember.bioguideId).catch(() => null);
               const fromOfficialSite = official?.officialWebsiteUrl
                 ? await extractPlatformFromSite(c.name, official.officialWebsiteUrl, expectedContext).catch(() => null)
                 : null;
@@ -813,7 +899,10 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         slug,
         full_name: c.name,
         party: c.party,
-        incumbent: c.incumbentChallenge === "Incumbent",
+        // OR, never AND: congress.gov confirming they hold this seat can only
+        // ADD an incumbent label FEC's stale filing data missed (Cisneros),
+        // never remove one FEC already asserts.
+        incumbent: c.incumbentChallenge === "Incumbent" || holdsThisSeat,
         fec_candidate_id: c.candidateId as string | null,
         fec_status: c.candidateStatus as string | null, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold; null = no FEC filing at all, see missingCandidates.ts
         bioguide_id: matchedMember?.bioguideId ?? null,

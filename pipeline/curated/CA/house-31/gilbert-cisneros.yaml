@@ -1,4 +1,29 @@
 fec_candidate_id: H8CA39174
+
+# Curated rather than auto-extracted for an unusual reason worth recording:
+# Cisneros is the SITTING Representative for CA-31 and is running for that
+# same seat, but FEC classifies him as "Challenger" (his committee is still
+# under the 2018 CA-39 filing ID above), so the build never matches him to a
+# congress.gov member. That gate is what supplies bioguide_id, and with it
+# the official-.gov platform fallback -- so his own house.gov issues page was
+# never tried, and his campaign site is behind a Cloudflare challenge. Quoted
+# verbatim from his official site 2026-09-03; identity confirmed on-page
+# ("Representative Gil Cisneros", "California's 31st Congressional District").
+platform_source_url: "https://cisneros.house.gov/issues"
+platform:
+  - topic: "Small Business"
+    value: "Advocates for small businesses through service on the House Committee on Small Business"
+    snippet: "I am proud to sit on the House Committee on Small Business and advocate for our small businesses every day."
+  - topic: "Immigration"
+    value: "Advocate for keeping families together and protecting the pathway to citizenship"
+    snippet: "I have been and will continue to be a vocal advocate for keeping families together and protecting the pathway to citizenship."
+  - topic: "Israeli-Palestinian Conflict"
+    value: "Called for a permanent ceasefire and continued distribution of food and humanitarian assistance in Gaza"
+    snippet: "I have continually called for a permanent ceasefire and the continued distribution of food and humanitarian assistance in Gaza."
+  - topic: "Two-State Solution"
+    value: "Advocated for a two-state solution that would give both Israelis and Palestinians a safe and permanent home"
+    snippet: "I have advocated for a two-state solution that would give both Israelis and Palestinians a safe and permanent home."
+
 bio:
   date_of_birth:
     value: "1971"
