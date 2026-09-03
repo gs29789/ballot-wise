@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-14",
-  "generated_at": "2026-09-02T12:07:41.697Z",
+  "generated_at": "2026-09-03T16:34:36.983Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -629,8 +629,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:25:59.228Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072860.pdf",
+        "filingDate": "11/30/2025",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:34:27.368Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -697,9 +706,148 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Fiscal Policy",
+          "value": "Believes in limited government and a capitalist economy, and is concerned about out-of-control spending by government and the enormous debt future Americans will inherit",
+          "snippet": "As a firm believer in limited government and a capitalist economy, I am very concerned about the out-of-control spending by our government, and the enormous debt future Americans will inherit.",
+          "source_url": "https://weber.house.gov/issues/"
+        },
+        {
+          "topic": "Nuclear Research",
+          "value": "Continue working toward nuclear research priorities and reforms that prioritize the use of limited research dollars, maintain R&D capabilities and develop cutting edge nuclear technology domestically",
+          "snippet": "We will continue working toward our nuclear research priorities and reforms that prioritize the use of limited research dollars; we cannot be left behind in this field.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14990"
+        },
+        {
+          "topic": "Water Resources Infrastructure",
+          "value": "Support regular passage of a Water Resources Development Act (WRDA) every two years to continue improving America's ports, locks, dams, inland waterways, and other water resources infrastructure",
+          "snippet": "Congress is back on track to authorizing water resources infrastructure improvements every two years, and we must maintain this schedule to strengthen our economic competitiveness.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14990"
+        },
+        {
+          "topic": "Second Amendment Rights",
+          "value": "Supports the right to keep and bear arms as fundamental to a free society",
+          "snippet": "The Second Amendment to the U.S. Constitution affirms a right that is fundamental to a free society, which in turn depends on personal responsibility.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14989"
+        },
+        {
+          "topic": "First Amendment and Rule of Law",
+          "value": "Supports peaceful protests and freedom of speech while maintaining that those who break laws must be met with swift justice",
+          "snippet": "Peaceful protests are an American right, and all voices deserve to be heard. That said, violence is never the answer. America is a nation of laws, and those who break our laws must be met with swift justice.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14989"
+        },
+        {
+          "topic": "Education - Local Control",
+          "value": "Restore state and local control of education to better serve students",
+          "snippet": "We need to restore state and local control of education to better serve students across the country.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14991"
+        },
+        {
+          "topic": "Education - Federal Intervention",
+          "value": "Opposes federal intervention in education, which has come at the expense of state and local control and saddled teachers with paperwork compliance burden",
+          "snippet": "ever-growing federal intervention in education has come at the expense of state and local control, has saddled teachers and school leaders with a tremendous paperwork compliance burden, and has failed to effect meaningful gains in education.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14991"
+        },
+        {
+          "topic": "EPA Scientific Transparency",
+          "value": "Voted to require the EPA to base its regulations on science that is publicly available and therefore verifiable by outside researchers",
+          "snippet": "Last Congress, I voted to increase transparency, independence, and scientific integrity at the EPA. The House passed H.R. 1430, the Honest and Open New EPA Science Treatment (HONEST) Act of 2017, which would require the EPA to base its regulations on science that is publicly available and therefore verifiable by outside researchers.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "topic": "EPA Science Advisory Board Reform",
+          "value": "Supported strengthening the independence of the EPA advisory board by providing increased opportunities for public comments and reducing conflicts of interest",
+          "snippet": "I also supported H.R. 1431, the EPA Science Advisory Board Reform Act, which would strengthen the independence of the advisory board by providing increased opportunities for public comments and reducing conflicts of interest.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "topic": "EPA Reforms",
+          "value": "Will continue to promote fairness, transparency, and public participation, as well as other commonsense reforms that ensure unbiased science at the EPA",
+          "snippet": "As a member of the House Committee on Science, Space, and Technology, I will continue to promote fairness, transparency, and public participation, as well as other commonsense reforms that ensure unbiased science at the EPA.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "topic": "Government Spending and Debt",
+          "value": "Believes the answers are found through hard choices to cut spending and to limit the government",
+          "snippet": "The answers are found through hard choices to cut spending and to limit the government, thereby ensuring a stronger, safer America for tomorrow.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14889"
+        },
+        {
+          "topic": "Deficit Spending",
+          "value": "Generally opposes deficit spending but recognizes extraordinary times may require strategic intervention to maintain national stability",
+          "snippet": "While I generally oppose deficit spending, I realize these are extraordinary times, requiring strategic intervention to maintain national stability.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14889"
+        },
+        {
+          "topic": "Tax Reform",
+          "value": "Supported the Tax Cuts and Jobs Act which lowers taxes for all Americans by reducing every single tax bracket and nearly doubles the standard deduction for everyone",
+          "snippet": "In reforming the tax code, we lower taxes for all Americans by reducing every single tax bracket. The standard deduction has nearly doubled for everyone.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14889"
+        },
+        {
+          "topic": "Israel Support",
+          "value": "Will continue to ensure that Israel has the capabilities it needs to deter aggression, to protect its people, and, when necessary, to fight back against its adversaries.",
+          "snippet": "I will continue to ensure that Israel has the capabilities it needs to deter aggression, to protect its people, and, when necessary, to fight back against its adversaries.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14893"
+        },
+        {
+          "topic": "Counterterrorism",
+          "value": "Will continue to work with colleagues in Congress to ensure that American interests are protected and to better increase security around the world.",
+          "snippet": "I will continue to work with my colleagues in Congress to ensure that American interests are protected and to better increase security around the world.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14893"
+        },
+        {
+          "topic": "International Trade",
+          "value": "Supports free trade conducted on an even playing field, believing that when trade is both free and fair, America is eminently competitive.",
+          "snippet": "I support free trade, and I believe it should be conducted on an even playing field. When trade is both free and fair, America is eminently competitive.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14893"
+        },
+        {
+          "topic": "Healthcare Access",
+          "value": "All Americans should have access to affordable health care",
+          "snippet": "I believe that all Americans should have access to affordable health care.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14894"
+        },
+        {
+          "topic": "Affordable Care Act",
+          "value": "Support repealing the current law and replacing it with less costly and less burdensome alternatives",
+          "snippet": "Obamacare has proven that it is not the solution to expand access and lower costs, which is why I support repealing the current law and replacing it with less costly and less burdensome alternatives.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14894"
+        },
+        {
+          "topic": "Health Insurance Competition",
+          "value": "Allow individuals to purchase health insurance across state lines to spur competition",
+          "snippet": "Commonsense alternatives would spur competition by allowing individuals to purchase health insurance across state lines",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14894"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Must secure the border as a prerequisite for immigration reform to be effective",
+          "snippet": "Until the border is secured, immigration reform will not be effective.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14888"
+        },
+        {
+          "topic": "Immigration Enforcement",
+          "value": "Essential to have strong borders and enforce immigration laws",
+          "snippet": "To ensure our security, it is essential that we have strong borders and enforce our immigration laws.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14888"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Providing for the needs of veterans is included in the mandate to provide for the common defense",
+          "snippet": "In my view, this includes providing for the needs of our veterans, as well.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14888"
+        },
+        {
+          "topic": "Veterans Affairs",
+          "value": "Will continue to advocate and work to allocate funds to ensure veterans receive the services they earned",
+          "snippet": "I will continue to advocate and work to allocate funds to ensure our veterans receive the services they earned.",
+          "source_url": "https://weber.house.gov/issues/issue/?IssueID=14897"
+        }
+      ],
+      "platform_source_url": "https://weber.house.gov/issues/",
+      "_platform_resolved_at": "2026-09-03T16:34:18.030Z",
       "campaign_site_url": "https://www.randyweber.org",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": null,
@@ -715,11 +863,75 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-21T12:26:09.652Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076968.pdf",
+        "filingDate": "8/10/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:34:30.428Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 292,
+          "attendanceRate": 0.9898305084745763
+        },
         "committees": [
           {
             "committee": "House Committee on Science, Space, and Technology",
@@ -753,7 +965,7 @@
           }
         ],
         "bills_sponsored": 108,
-        "bills_cosponsored": 3125,
+        "bills_cosponsored": 3128,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

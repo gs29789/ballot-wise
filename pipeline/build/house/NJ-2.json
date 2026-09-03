@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-09-02T15:58:57.302Z",
+  "generated_at": "2026-09-03T15:53:20.281Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -483,12 +483,12 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4379701476.45,
+        "totalUsd": 4379701472.7,
         "perCapitaUsd": 5691.53
       },
       {
         "year": "2024",
-        "totalUsd": 4943641331.86,
+        "totalUsd": 4943641166.66,
         "perCapitaUsd": 6424.38
       },
       {
@@ -766,18 +766,103 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Manufacturing Jobs",
+          "value": "Work to bring manufacturing jobs back to South Jersey",
+          "snippet": "We must work harder to bring manufacturing jobs back to South Jersey.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14997"
+        },
+        {
+          "topic": "Tourism",
+          "value": "Promote the vital tourism economy",
+          "snippet": "We must do all that we can to promote our vital tourism economy.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14997"
+        },
+        {
+          "topic": "Agriculture and Fishing",
+          "value": "Government should help, not hinder, agriculture and fishing industries",
+          "snippet": "The government needs to do more to help, not hinder, our agriculture and fishing industries.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14997"
+        },
+        {
+          "topic": "Financial Aid Transparency",
+          "value": "Introduced the Understanding the True Cost of College Act to provide clearer and standardized definitions of financial aid for students to make informed decisions about higher education",
+          "snippet": "Clearer and standardize definitions of financial aid are necessary for students to make informed decisions about higher education. Representative Van Drew has introduced Understanding the True Cost of College Act to do so.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=73"
+        },
+        {
+          "topic": "Student Loan Debt",
+          "value": "Must reduce the existing burden of student loan debt to enable young families to become first-time home buyers and grow the economy",
+          "snippet": "We must get serious about this financial crisis and reduce the existing burden so that we can grow our economy.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=73"
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "Advocate for bringing energy independence back to America and returning to the #1 energy producer in the world",
+          "snippet": "Representative Van Drew is a strong advocate for bringing energy independence back to America and returning to the #1 energy producer in the world.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "topic": "Offshore Wind",
+          "value": "Opposes offshore wind development on the East Coast, holding hearings, introducing legislation, and speaking out against the industrialization of our coast",
+          "snippet": "Representative Van Drew has been a vocal advocate for the push against offshore wind, holding hearings, introducing legislation, and speaking out against the industrialization of our coast on local and national media.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=10177"
+        },
+        {
+          "topic": "Healthcare Reform",
+          "value": "Focus on reforms to the Affordable Care Act that protect families and small businesses, and work to lower the high cost of healthcare and prescription drugs",
+          "snippet": "we must focus on reforms to the Affordable Care Act that protect our families and small businesses, and work to lower the high cost of healthcare and prescription drugs",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=74"
+        },
+        {
+          "topic": "Healthcare Coverage",
+          "value": "Any attempt to strip coverage from the American people without a plan to replace it is unacceptable",
+          "snippet": "Any attempt to strip coverage from the American people without a plan to replace it is unacceptable",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=74"
+        },
+        {
+          "topic": "Pre-existing Conditions",
+          "value": "Supports efforts to condemn stripping healthcare away from people with pre-existing conditions",
+          "snippet": "Rep. Van Drew supports efforts to condemn stripping healthcare away from people with pre-existing conditions",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=74"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Comprehensive immigration reform must start by strengthening border security",
+          "snippet": "We need comprehensive reform that must start by strengthening border security",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=10360"
+        },
+        {
+          "topic": "Employer Enforcement",
+          "value": "Crack down on employers that knowingly circumvent the law",
+          "snippet": "cracking down on employers that knowingly circumvent the law",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=10360"
+        },
+        {
+          "topic": "Employment Verification",
+          "value": "Require employers to verify workers to reduce the hiring of unauthorized workers",
+          "snippet": "by requiring employers to verify workers we will reduce the hiring of unauthorized workers",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=10360"
+        },
+        {
+          "topic": "Veterans Services",
+          "value": "Fighting to reverse failures in providing veterans job opportunities, access to education, and critical healthcare services, and addressing veteran homelessness and unemployment",
+          "snippet": "In Congress, Representative Van Drew is fighting to reverse these failures and will work tirelessly until this is no longer the sad reality for the brave men and women of our military.",
+          "source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14998"
+        }
+      ],
+      "platform_source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14997",
+      "_platform_resolved_at": "2026-09-03T15:52:51.374Z",
       "campaign_site_url": "https://www.vandrewforcongress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T12:27:33.908Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=erQEHbSxhoU",
+      "platform_video_title": "9.1.26 | Rep. Van Drew Slams Democrats for Defending Deadly Sanctuary Policies",
+      "platform_video_source_url": "https://vandrew.house.gov/issues/issue/?IssueID=14997",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T15:52:52.705Z",
       "bio_summary": {
         "value": "Jefferson H. Van Drew [ 1 ] (born February 23, 1953) [ 2 ] is an American politician serving as the U.S. representative for New Jersey's 2nd congressional district since 2019. He was first elected as a Democrat and later switched to the Republican Party in 2020. Before being elected to Congress, Van Drew held several public offices, including fire commissioner, township committee member, Mayor of Dennis Township, New Jersey , and Cape May County Freeholder . He represented New Jersey's 1st legislative district in the New Jersey General Assembly from 2002 to 2008, and represented the same district in the New Jersey Senate from 2008 to 2018. ",
         "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
@@ -795,9 +880,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-12T19:49:13.019Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 291,
+          "attendanceRate": 0.9864406779661017
+        },
         "committees": [
           {
             "committee": "House Committee on Transportation and Infrastructure",
@@ -836,7 +976,7 @@
           }
         ],
         "bills_sponsored": 170,
-        "bills_cosponsored": 2124,
+        "bills_cosponsored": 2126,
         "bills_became_law": 2,
         "enacted_laws": [
           {

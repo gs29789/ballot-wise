@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-09-02T09:51:08.492Z",
+  "generated_at": "2026-09-03T17:18:44.312Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -611,7 +611,7 @@
       ],
       "platform_source_url": "https://www.mikelipetriforcongress.com/",
       "_platform_resolved_at": "2026-08-10T12:18:26.931Z",
-      "campaign_site_url": "https://www.lipetriforcongress.com",
+      "campaign_site_url": "https://www.mikelipetriforcongress.com/",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T11:15:31.288Z",
       "platform_video_url": "https://www.youtube.com/watch?v=iMIYEHAIUak",
@@ -708,12 +708,72 @@
       "_bio_summary_resolved_at": "2026-08-26T10:42:51.544Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 204,
+          "votesCast": 201,
+          "attendanceRate": 0.9852941176470589
+        },
         "committees": [
           {
             "committee": "House Committee on Ways and Means",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
@@ -729,7 +789,7 @@
           }
         ],
         "bills_sponsored": 85,
-        "bills_cosponsored": 2833,
+        "bills_cosponsored": 2835,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -764,8 +824,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/S001201"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:06.615Z"
+      "_curated_match": false
     }
   ]
 }

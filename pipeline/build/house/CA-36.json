@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-36",
-  "generated_at": "2026-09-02T12:29:59.332Z",
+  "generated_at": "2026-09-03T16:55:00.036Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -585,7 +585,7 @@
       ],
       "platform_source_url": "https://www.voteforhouston.com/",
       "_platform_resolved_at": "2026-08-15T11:40:09.397Z",
-      "campaign_site_url": null,
+      "campaign_site_url": "https://www.voteforhouston.com/",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-09-01T13:53:09.361Z",
       "platform_video_url": null,
@@ -642,11 +642,54 @@
           "value": "Georgetown University Law Center",
           "source_url": "https://www.wikidata.org/wiki/Q7693450",
           "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "St. Ignatius High School, Cleveland, Ohio, 1987",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "graduated from St. Ignatius High School, Cleveland, Ohio, 1987",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "United States Air Force, 1995-1999; United States Air Force Reserve, 2000-2021; judicial clerk, United States Court of Appeals, Ninth Circuit; lawyer, private practice",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "United States Air Force, 1995-1999; United States Air Force Reserve, 2000-2021; judicial clerk, United States Court of Appeals, Ninth Circuit; lawyer, private practice",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Torrance, Calif., city council, 2002-2005; member of the California state assembly, 2005-2010; member of the California state senate, 2011-2014",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "member of the Torrance, Calif., city council, 2002-2005; member of the California state assembly, 2005-2010; unsuccessful candidate for election for California state attorney general in 2010; member of the California state senate, 2011-2014",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Civil Rights and Social Justice",
+          "value": "Fully committed to ensuring and protecting the civil rights of all Americans, standing against racial, cultural, or religious intolerance",
+          "snippet": "I am fully committed to ensuring and protecting the civil rights of all Americans. I vehemently stand against any sort of racial, cultural, or religious intolerance that threatens to divide the melting pot our country has become.",
+          "source_url": "https://lieu.house.gov/issues"
+        },
+        {
+          "topic": "Asian American and Pacific Islander Advocacy",
+          "value": "As an executive board member of the Congressional Asian Pacific American Caucus, dedicated to promoting the well-being of the AAPI community",
+          "snippet": "As an executive board member of the Congressional Asian Pacific American Caucus (CAPAC), I am dedicated to promoting the well-being of the AAPI community.",
+          "source_url": "https://lieu.house.gov/issues/civil-rights"
+        },
+        {
+          "topic": "Immigration Detention Access",
+          "value": "Introduced legislation to guarantee individuals held at immigration detention centers have access to congressional constituent casework services upon request",
+          "snippet": "introduced legislation that guarantees individuals held at immigration detention centers have access to congressional constituent casework services upon request",
+          "source_url": "https://lieu.house.gov/issues/immigration"
+        },
+        {
+          "topic": "Climate Change and Clean Energy",
+          "value": "Introduced the Climate Solutions Act of 2015 to energize investment in green energy technology, set strong renewable energy standards and slash carbon pollution",
+          "snippet": "That's why my first piece of legislation in Congress was the Climate Solutions Act of 2015: a bold, innovative plan to energize investment in green energy technology, set strong renewable energy standards and slash the carbon pollution that is damaging our planet.",
+          "source_url": "https://lieu.house.gov/issues/energy-and-environment"
+        }
+      ],
+      "platform_source_url": "https://lieu.house.gov/issues",
+      "_platform_resolved_at": "2026-09-03T16:54:12.514Z",
       "campaign_site_url": "https://tedlieu.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T13:53:09.362Z",
@@ -662,11 +705,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:33:04.340Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078282.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:54:46.155Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 283,
+          "attendanceRate": 0.9593220338983051
+        },
         "committees": [
           {
             "committee": "House Committee on the Judiciary",
@@ -685,7 +792,7 @@
           }
         ],
         "bills_sponsored": 273,
-        "bills_cosponsored": 4096,
+        "bills_cosponsored": 4097,
         "bills_became_law": 2,
         "enacted_laws": [
           {

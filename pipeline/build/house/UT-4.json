@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-09-01T23:44:49.964Z",
+  "generated_at": "2026-09-03T17:06:36.466Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.5.html",
@@ -699,15 +699,15 @@
       ],
       "platform_source_url": "https://mikekennedy.house.gov/issues",
       "_platform_resolved_at": "2026-09-01T23:44:00.435Z",
-      "campaign_site_url": null,
+      "campaign_site_url": "https://mikekennedyforutah.com",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-09-01T13:54:02.736Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=zyhKbTzIl_s",
+      "platform_video_title": "Mike Kennedy Addresses Supporters after Winning Utah’s Third Congressional District",
+      "platform_video_source_url": "https://mikekennedyforutah.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T17:04:41.520Z",
       "bio_summary": {
         "value": "Mike Kennedy was born in Lansing, Michigan . He earned a bachelor's degree from Brigham Young University and an M.D. from Michigan State University in 1998. He earned a J.D. from the J. Reuben Clark School of Law at Brigham Young University in 2007. Kennedy's career experience includes working as a family doctor, attorney, small business owner, and state senator. [1] ",
         "source_url": "https://ballotpedia.org/Mike_Kennedy_(Utah)",
@@ -717,6 +717,36 @@
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
         {
           "rollNumber": 292,
           "year": 2026,
@@ -736,43 +766,13 @@
           "result": "Passed",
           "position": "Yea",
           "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
-        },
-        {
-          "rollNumber": 290,
-          "year": 2026,
-          "question": "On Motion to Recommit",
-          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
-          "date": "1-Sep-2026",
-          "result": "Failed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
-        },
-        {
-          "rollNumber": 289,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
-          "date": "1-Sep-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
-        },
-        {
-          "rollNumber": 288,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
-          "date": "1-Sep-2026",
-          "result": "Passed",
-          "position": "Aye",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 292,
-          "votesCast": 291,
-          "attendanceRate": 0.9965753424657534
+          "votesInSession": 295,
+          "votesCast": 294,
+          "attendanceRate": 0.9966101694915255
         },
         "committees": [
           {
@@ -827,7 +827,7 @@
           }
         ],
         "bills_sponsored": 36,
-        "bills_cosponsored": 143,
+        "bills_cosponsored": 146,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -880,18 +880,34 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Veteran Healthcare and VA Reform",
+          "value": "Fight for local VA care, work to restore the nearly 100,000 VA staff this administration fired, remove Sec. Doug Collins, and protect veteran benefits from the rules Collins added.",
+          "snippet": "He will fight for local VA care, work to restore the nearly 100,000 VA staff this administration fired, remove Sec. Doug Collins, and protect veteran benefits from the rules Collins added."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Work hard for the people to bring down the cost of living, protect Medicare and Social Security, make home ownership possible again, and ensure healthcare is accessible to everyone.",
+          "snippet": "Jonny will work hard for the people to bring down the cost of living, protect Medicare and Social Security, make home ownership possible again, and ensure healthcare is accessible to everyone."
+        },
+        {
+          "topic": "Fair Wages and Labor Rights",
+          "value": "Work hard to ensure fair wages, labor's right to organize, and an economy that rewards work instead of the corrupt wealthy.",
+          "snippet": "Jonny will work hard to ensure fair wages, labor's right to organize, and an economy that rewards work instead of the corrupt wealthy."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Jonny_Larsen",
+      "_platform_resolved_at": "2026-09-03T17:05:59.215Z",
       "campaign_site_url": "https://jonnyutah4congress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T13:54:02.738Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=IP5aja0J_vQ",
+      "platform_video_title": "Veteran Congressional Candidates Stand With Senator Mark Kelly",
+      "platform_video_source_url": "https://ballotpedia.org/Jonny_Larsen",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T17:06:00.692Z",
       "bio_summary": {
         "value": "Jonny Larsen is a Marine combat veteran who grew up in a Salt Lake City trailer park before his mother abandoned him to a group home at thirteen. His grandmother took him in, and her union pension and Social Security shaped his belief in the programs that keep working families afloat. With the help of a tight knit community that stepped in to raise him, he enlisted in the Marines at seventeen. After the Marines, he built a career as a Senior Systems and Network Administrator before using his GI Bill to study applied math and physics at the University of Utah. He ran out of funding before finishing, a reminder that education should be accessible to everyone willing to put in the work. Today he lives in Salt Lake City with his Great Dane Duke and three cats he rescued as kittens.",
         "source_url": "https://ballotpedia.org/Jonny_Larsen",

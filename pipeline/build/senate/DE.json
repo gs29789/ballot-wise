@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-29T21:04:44.724Z",
+  "generated_at": "2026-09-03T15:02:32.075Z",
   "election_dates": {
     "primaryDate": "2026-09-15",
     "primarySourceUrl": "https://elections.delaware.gov/",
@@ -22,6 +22,11 @@
   "primary_results": null,
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.8
+      },
       {
         "year": "2026",
         "month": "June",
@@ -258,8 +263,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 495.1
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 498
+        "thousandsOfJobs": 496.2
       },
       {
         "year": "2026",
@@ -480,8 +490,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 12397346602.9,
-        "perCapitaUsd": 12355.54
+        "totalUsd": 12397486723.9,
+        "perCapitaUsd": 12355.68
       }
     ],
     "population": [
@@ -582,6 +592,8 @@
       "platform_source_url": "https://union26.com",
       "_platform_resolved_at": "2026-08-05T15:02:12.096Z",
       "campaign_site_url": "https://union26.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=m2_4ixGkKL8",
       "platform_video_title": "Flock, plate readers, and your digital privacy | Jeff Appelhans",
       "platform_video_source_url": "https://www.union26.com/",
@@ -598,8 +610,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "christopher-beardsley",
@@ -638,6 +649,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.beardsleyfordelaware.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -650,9 +663,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:03.990Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "dexter-bland",
@@ -675,10 +686,48 @@
           "snippet": "His career experience includes working as a businessman."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Child Protection in Education",
+          "value": "Protecting youth from abuse, especially in the educational system, with instances often hidden from public view until after a case is finished.",
+          "snippet": "My passion lies with protecting our youth from abuse, especially in our educational system. Many times these instances are hidden from public view until after a case is finished."
+        },
+        {
+          "topic": "Youth Gun Violence and Trafficking",
+          "value": "Addressing the epidemic of gun violence and trafficking facing youth through data and legislation.",
+          "snippet": "The youth are facing an epidemic of gun violence and trafficking. I plan to address that through data and legislation that is already on the floor or creating new language that fits what we want for our children."
+        },
+        {
+          "topic": "Public Education",
+          "value": "Improving public education and significantly improving the educational system.",
+          "snippet": "My campaign is centered on improving public education"
+        },
+        {
+          "topic": "Economic Advancement and Affordability",
+          "value": "Expanding economic advancement and making everyday more affordable, balancing the cost of living so the people thrive and not just corporations and certain groups.",
+          "snippet": "expanding economic advancement and making everyday more affordable"
+        },
+        {
+          "topic": "Government Accessibility and Accountability",
+          "value": "Ensuring government is accessible and accountable to the people it serves, with representation that is present, accessible, and accountable.",
+          "snippet": "My campaign is rooted in the belief that government should be accessible and accountable to the people it serves."
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Protecting voting rights and doubling voting engagement consistently throughout presidential elections and mid-terms.",
+          "snippet": "If elected, I will focus on advancing policies that strengthen education, protect children and voting rights."
+        },
+        {
+          "topic": "Independent Leadership",
+          "value": "Putting people before politics, believing good ideas are not owned by any political party, working with anyone willing to solve problems honestly and respectfully, with decisions guided by what the People want, not partisan pressure or special interest.",
+          "snippet": "Independent leadership means putting people before politics. I am running because I believe good ideas are not owned by any political party. I will work with anyone willing to solve problems honestly and respectfully. My decisions will be guided by what the People of District 3 want, not partisan pressure or special interest."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Dexter_Bland",
+      "_platform_resolved_at": "2026-09-03T15:00:15.314Z",
       "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -695,8 +744,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:04.372Z"
+      "_curated_match": true
     },
     {
       "slug": "christopher-coons",
@@ -773,6 +821,8 @@
       "platform_source_url": "http://www.chriscoons.com",
       "_platform_resolved_at": "2026-08-05T14:55:33.371Z",
       "campaign_site_url": "https://www.chriscoons.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T11:57:02.045Z",
       "platform_video_url": "https://www.youtube.com/watch?v=drlTra0MDRk",
       "platform_video_title": "Chris Coons for Senate: Better Future",
       "platform_video_source_url": "https://www.chriscoons.com/",
@@ -846,9 +896,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 231,
-          "votesCast": 218,
-          "attendanceRate": 0.9437229437229437
+          "votesInSession": 201,
+          "votesCast": 188,
+          "attendanceRate": 0.9353233830845771
         },
         "committees": [
           {
@@ -996,14 +1046,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 92.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 94.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001088"
         }
       },
-      "_curated_match": true,
-      "_campaign_site_discovered_at": "2026-09-01T11:57:02.045Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "alec-coppola",
@@ -1019,6 +1067,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://youtube.com;l@alec.coppola",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -1031,9 +1081,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:04.703Z",
-      "_campaign_site_reachability": "dead"
+      "_curated_match": false
     },
     {
       "slug": "e-hansen",
@@ -1093,6 +1141,8 @@
       "platform_source_url": "https://hansende.com",
       "_platform_resolved_at": "2026-08-05T15:02:29.413Z",
       "campaign_site_url": "https://hansende.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=aUbtY2Pff2Y",
       "platform_video_title": "Enough",
       "platform_video_source_url": null,
@@ -1109,8 +1159,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "eric-hansen",
@@ -1149,6 +1198,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://voteerichansen.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -1161,9 +1212,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:04.986Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "michael-katz",
@@ -1258,12 +1307,14 @@
       "platform_source_url": "https://www.drmikekatz.com",
       "_platform_resolved_at": "2026-08-05T15:03:16.201Z",
       "campaign_site_url": "https://www.drmikekatz.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=V9qQgh21IUk",
+      "platform_video_title": "Dr. Mike Katz 2020 Presidential Candidate",
+      "platform_video_source_url": "https://en.wikipedia.org/wiki/Michael_Katz_(politician)",
+      "platform_video_tier": 3,
+      "platform_video_source_type": "wikipedia",
+      "_platform_video_resolved_at": "2026-09-03T14:58:33.168Z",
       "bio_summary": {
         "value": "Dr. Mike Katz has spent 30 years in Delaware treating patients, building businesses, and filing real legislation in the State Senate. He knows what this state needs because he's been living it. Now he's ready to fight for every Delawarean in Washington — finding common ground, putting people over party.",
         "source_url": "https://www.drmikekatz.com/",
@@ -1274,9 +1325,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:05.388Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "mary-louve",
@@ -1332,6 +1381,8 @@
       "platform_source_url": "https://marylouveofficial.com/",
       "_platform_resolved_at": "2026-08-05T15:03:09.717Z",
       "campaign_site_url": "https://marylouveofficial.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=-EEos3i4UyQ",
       "platform_video_title": "Why I am Running for the US Senate.",
       "platform_video_source_url": "https://marylouveofficial.com/",
@@ -1348,8 +1399,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "john-shulli",
@@ -1361,15 +1411,15 @@
       "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 105295.38,
-        "totalSpent": 59182.78,
+        "totalRaised": 118334.16,
+        "totalSpent": 109920.13,
         "cashOnHand": null,
         "fundingSources": {
-          "smallDollar": 1276.43,
-          "largeDollar": 4018.95,
+          "smallDollar": 2505.12,
+          "largeDollar": 14349.04,
           "pac": 0,
           "party": 0,
-          "selfFunded": 100000
+          "selfFunded": 101480
         }
       },
       "bio": {
@@ -1425,6 +1475,8 @@
       "platform_source_url": "https://shulli.org",
       "_platform_resolved_at": "2026-08-05T15:02:41.584Z",
       "campaign_site_url": "https://shulli.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=wVwM_ARoYbE",
       "platform_video_title": "Life is the Answer",
       "platform_video_source_url": "https://shulli.org/",
@@ -1441,8 +1493,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "gavin-solomon",
@@ -1458,6 +1509,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -1470,9 +1523,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:05.832Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:49:48.594Z"
+      "_curated_match": false
     },
     {
       "slug": "travis-stevens",
@@ -1548,6 +1599,8 @@
       "platform_source_url": "https://travisjackstevens.com/",
       "_platform_resolved_at": "2026-08-05T15:03:06.569Z",
       "campaign_site_url": "https://travisjackstevens.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=uoOip36vB0A",
       "platform_video_title": "July 3, 2026",
       "platform_video_source_url": "https://travisjackstevens.com/",
@@ -1564,8 +1617,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-09-02T10:58:18.129Z",
+  "generated_at": "2026-09-03T15:57:21.534Z",
   "election_dates": {
     "primaryDate": "2026-03-10",
     "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
@@ -613,8 +613,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:56:10.427Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075967.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:57:09.262Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -681,29 +690,172 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "National Defense",
+          "value": "The primary role of the federal government is to keep the United States safe from threats at home and abroad",
+          "snippet": "I believe the primary role of the federal government is to keep the United States safe from threats at home and abroad.",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "The Second Amendment is not up for debate and restricting the rights of legal gun owners is not the way to end acts of hate and violence",
+          "snippet": "the Second Amendment is not up for debate. I want to see an end to acts of hate and violence as much as everyone else, but I do not think you accomplish that goal by restricting the rights of legal",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Continue to put forth policies that encourage rural agriculture through role on House Agriculture Committee",
+          "snippet": "Through my role on the House Agriculture Committee, I will continue to put forth policies that encourage rural",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Energy",
+          "value": "Supports an all-of-the above energy strategy with access to reliable and affordable energy, and opposes federal government picking winners and losers",
+          "snippet": "I support an all-of-the above energy strategy. Americans deserve access to reliable and affordable energy, and the federal government does not need to be in the business of picking winners and losers.",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Mississippians and all Americans need to be in charge of their healthcare decisions, not the federal government, and should be able to choose their doctor",
+          "snippet": "Mississippians and all Americans need to be in charge of their healthcare decisions, not the federal government. A person should be able to choose their doctor and receive the best possible treatment options.",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Life",
+          "value": "All people are made in the image of God and every person has value, and people should have access to the healthcare services that they need",
+          "snippet": "I believe all people are made in the image of God, and therefore every person has value. That means that I think people should have access to the healthcare services that they need.",
+          "source_url": "https://trentkelly.house.gov/issues/"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Responsibility to those who served does not end when a deployment is over or when a war ends",
+          "snippet": "our responsibility to those who served does not end when a deployment is over or when a war ends.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14930"
+        },
+        {
+          "topic": "Regulations",
+          "value": "Supports rolling back regulations that increase costs for business owners and consumers, hinder job growth, and stifle investment",
+          "snippet": "Republican-led policies have made significant progress rolling back regulations.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14932"
+        },
+        {
+          "topic": "Fracking",
+          "value": "Supports fracking and views technological advances in extracting oil and natural gas from shale as beneficial for the economy",
+          "snippet": "Technological advances in extracting oil and natural gas from shale, specifically a technique known as fracking, has increased our GDP, reduced prices for consumers, expanded investment in the energy sector, created jobs, and is the leading contributing factor for improvements in the economy.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14933"
+        },
+        {
+          "topic": "Healthcare System Reform",
+          "value": "The system is in need of reform to lower drug prices and insurance premiums.",
+          "snippet": "The system is in need of reform to lower drug prices and insurance premiums.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14935"
+        },
+        {
+          "topic": "Social Security and Medicare",
+          "value": "We must also do everything in our power to protect Social Security and Medicare for those who need it most.",
+          "snippet": "We must also do everything in our power to protect Social Security and Medicare for those who need it most.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14935"
+        },
+        {
+          "topic": "Life/Abortion",
+          "value": "Believes it is the duty of the nation to protect the lives of the unborn",
+          "snippet": "As your voice in Congress, I believe it is our duty as a nation to protect the lives of the unborn.",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14936"
+        },
+        {
+          "topic": "Social Security and Medicare Reform",
+          "value": "Changes must be made to ensure the solvency of Social Security and Medicare for future generations, as the current path is unsustainable",
+          "snippet": "In order to ensure the solvency of a program that senior citizens have come to rely on, changes must be made. Social Security cannot continue on the path it is currently on",
+          "source_url": "https://trentkelly.house.gov/issues/issue/?IssueID=14938"
+        }
+      ],
+      "platform_source_url": "https://trentkelly.house.gov/issues/",
+      "_platform_resolved_at": "2026-09-03T15:56:59.824Z",
       "campaign_site_url": "https://www.kellyformississippi.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T22:48:58.252Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=E264SdW_efs",
+      "platform_video_title": "A Review of Animal Agriculture Stakeholder Priorities Hearing",
+      "platform_video_source_url": "https://trentkelly.house.gov/issues/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T15:57:02.783Z",
       "bio_summary": {
         "value": "On Tuesday, June 2, 2015, Trent Kelly won a special election runoff to represent the First District of Mississippi in the 114th Congress. Trent lives in Saltillo with his wife, Sheila, and their three children John Forrest, Morgan, and Jackson.",
         "source_url": "https://kellyformississippi.com/",
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:56:07.983Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075653.pdf",
+        "filingDate": "4/20/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:57:12.419Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 295,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Agriculture",
@@ -787,8 +939,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/K000388"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:22.855Z"
+      "_curated_match": false
     }
   ]
 }

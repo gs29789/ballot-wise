@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-18T20:32:27.917Z",
+  "generated_at": "2026-09-03T15:19:29.521Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 722948012.63,
-        "perCapitaUsd": 945.2
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 318339193.04,
-        "perCapitaUsd": 416.21
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459459032.7,
+        "perCapitaUsd": 600.71
       }
     ],
     "population": [
@@ -548,20 +558,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.ambrose4congress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:33.611Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:23.921Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:54.201Z",
-      "campaign_site_url": "https://www.ambrose4congress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:33.611Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "john-moolenaar",
@@ -663,10 +675,21 @@
       ],
       "platform_source_url": "https://www.johnmoolenaarforcongress.com/",
       "_platform_resolved_at": "2026-08-11T11:01:30.148Z",
+      "campaign_site_url": "https://johnmoolenaarforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:33.636Z",
       "platform_video_url": "https://www.youtube.com/watch?v=hzYUUI0zROA",
       "platform_video_title": "John Moolenaar - Fighting for Conservative Values",
       "platform_video_source_url": "https://www.johnmoolenaarforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:00:35.898Z",
+      "bio_summary": {
+        "value": "Hi, I’m John Moolenaar. I’m honored to serve as your congressman for Michigan’s 2nd District, representing 20 incredible counties filled with hardworking families and vibrant communities. When I ran for office, I made a commitment to secure the border, cut wasteful Washington spending, rebuild our military, grow our economy and defend the dignity and value of every human life.",
+        "source_url": "https://www.johnmoolenaarforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:40:30.408Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076468.pdf",
         "filingDate": "5/14/2026",
@@ -678,9 +701,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-11T11:02:44.773Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -709,7 +787,7 @@
           }
         ],
         "bills_sponsored": 110,
-        "bills_cosponsored": 1593,
+        "bills_cosponsored": 1600,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -739,20 +817,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 90.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 92.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001194"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Hi, I’m John Moolenaar. I’m honored to serve as your congressman for Michigan’s 2nd District, representing 20 incredible counties filled with hardworking families and vibrant communities. When I ran for office, I made a commitment to secure the border, cut wasteful Washington spending, rebuild our military, grow our economy and defend the dignity and value of every human life.",
-        "source_url": "https://www.johnmoolenaarforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:40:30.408Z",
-      "campaign_site_url": "https://johnmoolenaarforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:33.636Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

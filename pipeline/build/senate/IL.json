@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-18T20:27:03.139Z",
+  "generated_at": "2026-09-03T15:39:57.975Z",
   "election_dates": {
     "primaryDate": "2026-03-17",
     "primarySourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6176.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6164.4
+        "thousandsOfJobs": 6164.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4912241896.07,
-        "perCapitaUsd": 6539.77
+        "totalUsd": 4912351896.07,
+        "perCapitaUsd": 6539.91
       },
       {
         "year": "2024",
-        "totalUsd": 5004722168,
+        "totalUsd": 5004723506.77,
         "perCapitaUsd": 6662.89
       },
       {
         "year": "2025",
-        "totalUsd": 5177811223.91,
-        "perCapitaUsd": 6893.33
+        "totalUsd": 5180201754.06,
+        "perCapitaUsd": 6896.51
       }
     ],
     "population": [
@@ -542,20 +552,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.whit4ilsenate.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:00:02.735Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:40.344Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:06.254Z",
-      "campaign_site_url": "https://whitfieldharringtonforilsenate.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:00:02.735Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "juliana-stratton",
@@ -640,23 +652,26 @@
       ],
       "platform_source_url": "https://www.julianastratton.com/issues",
       "_platform_resolved_at": "2026-08-12T12:40:22.089Z",
+      "campaign_site_url": "https://julianastratton.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:42.939Z",
       "platform_video_url": "https://www.youtube.com/watch?v=K2WRZ67RZDo",
       "platform_video_title": "Juliana Stratton: THIS is why I'm running for U.S. Senate",
       "platform_video_source_url": "https://www.julianastratton.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:02:05.454Z",
+      "bio_summary": {
+        "value": "I'm Juliana Stratton. I am running for United States Senate. For too long, the middle class has been centered on the campaign trail but sidelined when it comes to real governance. I've spent the last six years serving as Lieutenant Governor of the great state of Illinois, and I've seen firsthand the progress that's possible when we treat the needs of middle-class families as a focal point , not just a talking point.",
+        "source_url": "https://www.julianastratton.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:25.599Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I'm Juliana Stratton. I am running for United States Senate. For too long, the middle class has been centered on the campaign trail but sidelined when it comes to real governance. I've spent the last six years serving as Lieutenant Governor of the great state of Illinois, and I've seen firsthand the progress that's possible when we treat the needs of middle-class families as a focal point , not just a talking point.",
-        "source_url": "https://www.julianastratton.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:25.599Z",
-      "campaign_site_url": "https://julianastratton.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:42.939Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "don-tracy",
@@ -716,23 +731,26 @@
       ],
       "platform_source_url": "https://dontracyforil.com/",
       "_platform_resolved_at": "2026-08-12T12:39:29.062Z",
+      "campaign_site_url": "https://dontracyforil.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:42.936Z",
       "platform_video_url": "https://www.youtube.com/watch?v=rzuWLLtPnhQ",
       "platform_video_title": "Maher and Fetterman Discuss Juliana Stratton's 'F--- Trump' Ad",
       "platform_video_source_url": "https://dontracyforil.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:02:05.122Z",
+      "bio_summary": {
+        "value": "Don Tracy is an Illinois attorney, business leader, and Republican candidate for the United States Senate. The Don Tracy for U.S. Senate campaign focuses on issues including affordability, public safety, economic opportunity, and representing communities throughout Illinois.",
+        "source_url": "https://dontracyforil.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:29.031Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Don Tracy is an Illinois attorney, business leader, and Republican candidate for the United States Senate. The Don Tracy for U.S. Senate campaign focuses on issues including affordability, public safety, economic opportunity, and representing communities throughout Illinois.",
-        "source_url": "https://dontracyforil.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:29.031Z",
-      "campaign_site_url": "https://dontracyforil.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:42.936Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

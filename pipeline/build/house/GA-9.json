@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-09",
-  "generated_at": "2026-08-18T20:13:31.896Z",
+  "generated_at": "2026-09-03T15:14:06.544Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://law.justia.com/codes/georgia/title-21/chapter-2/article-4/part-2/section-21-2-150/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4977.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4988.9
+        "thousandsOfJobs": 4986.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5726901192.87,
-        "perCapitaUsd": 7479.45
+        "totalUsd": 5727116721.14,
+        "perCapitaUsd": 7479.73
       },
       {
         "year": "2024",
-        "totalUsd": 6535918251.32,
-        "perCapitaUsd": 8494.7
+        "totalUsd": 6536949800.38,
+        "perCapitaUsd": 8496.04
       },
       {
         "year": "2025",
-        "totalUsd": 6785089018.4,
-        "perCapitaUsd": 8818.55
+        "totalUsd": 6787392225.9,
+        "perCapitaUsd": 8821.54
       }
     ],
     "population": [
@@ -597,15 +607,90 @@
       ],
       "platform_source_url": "https://www.clyde4congress.com/",
       "_platform_resolved_at": "2026-08-10T18:37:09.138Z",
+      "campaign_site_url": "https://www.clyde4congress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:21.079Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "bio_summary": {
+        "value": "Andrew's career in the Navy began after he earned his commission as an officer from the University of Notre Dame. He then spent the next 28 years of his life in service to our country including three combat deployments to Kuwait and Iraq. During his service, he earned a Defense Meritorious Service Medal, Meritorious Service Medal, four Navy Commendation Medals, a Navy Achievement Medal, Global War On Terrorism Expeditionary Medal w/Marine Corps Combat Operations Insignia, Iraq Campaign Medal, Expert Rifleman Medal, Expert Pistol Shot Medal, and multiple other medals. After completing his active military service, Andrew homesteaded in Athens and decided to pursue a master's degree from UGA in Corporate Finance and Entrepreneurship.",
+        "source_url": "https://www.clyde4congress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:37:16.731Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077683.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:13:09.163Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 268,
+          "attendanceRate": 0.9084745762711864
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -629,7 +714,7 @@
           }
         ],
         "bills_sponsored": 78,
-        "bills_cosponsored": 550,
+        "bills_cosponsored": 558,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -659,22 +744,12 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 3.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 3.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001116"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T13:04:29.897Z",
-      "platform_video_tier": null,
-      "bio_summary": {
-        "value": "Andrew's career in the Navy began after he earned his commission as an officer from the University of Notre Dame. He then spent the next 28 years of his life in service to our country including three combat deployments to Kuwait and Iraq. During his service, he earned a Defense Meritorious Service Medal, Meritorious Service Medal, four Navy Commendation Medals, a Navy Achievement Medal, Global War On Terrorism Expeditionary Medal w/Marine Corps Combat Operations Insignia, Iraq Campaign Medal, Expert Rifleman Medal, Expert Pistol Shot Medal, and multiple other medals. After completing his active military service, Andrew homesteaded in Athens and decided to pursue a master's degree from UGA in Corporate Finance and Entrepreneurship.",
-        "source_url": "https://www.clyde4congress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:37:16.731Z",
-      "campaign_site_url": "https://www.clyde4congress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:06:21.079Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "caitlyn-gegen",
@@ -711,23 +786,50 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Abortion Rights",
+          "value": "I will fight to overturn the Dobbs decision because Georgia's 6-week abortion ban hurts women",
+          "snippet": "She sees how our 6-week abortion ban hurts women, and this fuels me to overturn the Dobbs decision."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "I will advocate for free universal healthcare because government provided healthcare is cheaper and provides better outcomes",
+          "snippet": "This is why I will hold our current administration accountable and advocate for free universal healthcare."
+        },
+        {
+          "topic": "Economic Access",
+          "value": "Expand access to affordable living by increasing the minimum wage and breaking up monopolies",
+          "snippet": "Expand access to affordable living by increasing the minimum wage and breaking up monopolies"
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Caitlyn_Gegen",
+      "_platform_resolved_at": "2026-09-03T15:12:33.635Z",
+      "campaign_site_url": "https://caitlynforgeorgia.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:21.083Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10074562.pdf",
+        "filingDate": "4/17/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:13:11.846Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T13:04:30.255Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:00.527Z",
-      "campaign_site_url": "https://caitlynforgeorgia.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:06:21.083Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

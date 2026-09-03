@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-09-02T15:55:27.967Z",
+  "generated_at": "2026-09-03T15:36:03.021Z",
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
@@ -581,11 +581,24 @@
           "source_url": "https://en.wikipedia.org/wiki/Jeff_Crank",
           "snippet": "Crank was elected as chairman of the 5th Congressional District Republican Central Committee in 2001 and 2003. In 2003, he was appointed to the Colorado Emergency Planning Commission by Governor of Colorado Bill Owens for a two-year term and also served on the El Paso County Citizens Corps Council in 2004. He was the El Paso county co-chair for President George W. Bush 's re-election campaign in 2004. Crank was later elected in 2004 to serve on the Colorado State Republican Central Committee as a bonus member.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Central High School, Pueblo, Colorado, graduated 1985",
+          "source_url": "https://history.house.gov/People/Listing/C/CRANK,-Jeff-(C001137)/",
+          "snippet": "graduated from Central High School, Pueblo, Colo., 1985",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Student Loan Debt and Homeownership",
+          "value": "Introduced legislation to reclassify student loan debt for first-time homebuyers to help eliminate student loan debt and increase access to home ownership",
+          "snippet": "Representative Jeff Crank (CO-05) introduced H.R. 10084, the First Time Homebuyer Debt Reduction Act , to help eliminate crippling student loan debt and increase access to home ownership.",
+          "source_url": "https://crank.house.gov/issues/economy"
+        }
+      ],
+      "platform_source_url": "https://crank.house.gov/issues/economy",
+      "_platform_resolved_at": "2026-09-03T15:35:40.488Z",
       "campaign_site_url": "https://www.jeffcrank.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T20:35:13.835Z",
@@ -601,11 +614,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:34:15.463Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077119.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:35:47.064Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 294,
+          "attendanceRate": 0.9966101694915255
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -644,7 +721,7 @@
           }
         ],
         "bills_sponsored": 11,
-        "bills_cosponsored": 133,
+        "bills_cosponsored": 134,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -819,8 +896,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:44:39.207Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075599.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:35:51.955Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -930,8 +1016,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-31T12:36:28.601Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081239.pdf",
+        "filingDate": "7/9/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:35:56.639Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false

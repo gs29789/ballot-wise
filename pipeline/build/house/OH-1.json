@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-09-02T11:38:25.710Z",
+  "generated_at": "2026-09-03T16:12:25.985Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -678,8 +678,7 @@
       "_financial_disclosure_resolved_at": "2026-08-16T23:13:24.086Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:32.361Z"
+      "_curated_match": false
     },
     {
       "slug": "greg-landsman",
@@ -772,9 +771,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-16T23:13:28.985Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 291,
+          "attendanceRate": 0.9864406779661017
+        },
         "committees": [
           {
             "committee": "House Committee on Energy and Commerce",
@@ -798,7 +852,7 @@
           }
         ],
         "bills_sponsored": 50,
-        "bills_cosponsored": 977,
+        "bills_cosponsored": 978,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -814,8 +868,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/L000601"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:32.882Z"
+      "_curated_match": false
     },
     {
       "slug": "nathan-weise",
@@ -848,6 +901,12 @@
           "source_url": "https://www.weiseforcongress.com/about-me",
           "snippet": "Nathan has served in several leadership roles within the Libertarian Party, including Communications Director for the Libertarian Party of Ohio and Ohio delegate to the Libertarian National Convention. He currently serves as Chair of the Libertarian Party of Hamilton County",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "Cincinnati's historic East End",
+          "source_url": "https://www.weiseforcongress.com/about-me",
+          "snippet": "Nathan was born and raised in Cincinnati's historic East End.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -898,8 +957,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:33.340Z"
+      "_curated_match": true
     },
     {
       "slug": "nathan-weise",
@@ -932,6 +990,12 @@
           "source_url": "https://www.weiseforcongress.com/about-me",
           "snippet": "Nathan has served in several leadership roles within the Libertarian Party, including Communications Director for the Libertarian Party of Ohio and Ohio delegate to the Libertarian National Convention. He currently serves as Chair of the Libertarian Party of Hamilton County",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "birthplace": {
+          "value": "Cincinnati's historic East End",
+          "source_url": "https://www.weiseforcongress.com/about-me",
+          "snippet": "Nathan was born and raised in Cincinnati's historic East End.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -982,8 +1046,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:33.747Z"
+      "_curated_match": true
     }
   ]
 }

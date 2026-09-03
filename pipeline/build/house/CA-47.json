@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-47",
-  "generated_at": "2026-08-21T13:26:17.727Z",
+  "generated_at": "2026-09-03T16:56:45.549Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -33,6 +33,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
       {
         "year": "2026",
         "month": "June",
@@ -269,8 +274,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 18144.5
+        "thousandsOfJobs": 18153.5
       },
       {
         "year": "2026",
@@ -564,10 +574,13 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.jennyraeca.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Jenny Rae Le Roux was born in Memphis, Tennessee. Le Roux earned a B.A. in economics from the University of Virginia in 2002 and an M.B.A. from Columbia University Business School in 2018. Her career experience includes owning a business and working as the managing director of Management Consulted, an author, and a strategic advisor.",
@@ -588,8 +601,7 @@
       "_financial_disclosure_resolved_at": "2026-08-17T06:35:06.813Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "dave-min",
@@ -682,14 +694,18 @@
       "platform_source_url": "https://www.davemin.com/",
       "_platform_resolved_at": "2026-08-15T11:56:40.645Z",
       "campaign_site_url": "https://www.davemin.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=LVucXRB61H4",
       "platform_video_title": "Stand Up",
       "platform_video_source_url": "https://www.davemin.com/",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:08:21.100Z",
       "bio_summary": {
         "value": "The son of Korean immigrants and a product of California public schools, Dave has spent his career fighting to preserve and expand the American Dream he was able to live . Dave and his younger brother Andrew are the proud product of California public schools. Dave went on to attend the University of Pennsylvania’s Wharton School and College, and then earned his law degree at Harvard. He began his career prosecuting Wall Street fraud as an Enforcement Attorney at the SEC , and later worked as a law professor at UC Irvine before being elected to the California State Senate in 2020.",
-        "source_url": "https://www.davemin.com/"
+        "source_url": "https://www.davemin.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:49.700Z",
       "financial_disclosure": {
@@ -703,9 +719,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-17T06:35:12.102Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Not Voting",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 294,
+          "attendanceRate": 0.9966101694915255
+        },
         "committees": [
           {
             "committee": "Joint Economic Committee",
@@ -739,7 +810,7 @@
           }
         ],
         "bills_sponsored": 30,
-        "bills_cosponsored": 368,
+        "bills_cosponsored": 379,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -750,13 +821,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 39,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001241"
         }
       },
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

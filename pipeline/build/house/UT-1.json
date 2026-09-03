@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-15T20:30:08.573Z",
+  "generated_at": "2026-09-03T17:03:15.655Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://le.utah.gov/xcode/Title20A/Chapter1/20A-1-S201.5.html",
@@ -24,7 +24,223 @@
     "snippet": "Ben McAdams defeated Katie Blouin, Nabeela Mohamed, and Alex Farrell in the Democratic primary for U.S. House Utah District 1 on June 23, 2026 ... Riley Owen defeated Stoney Fonua, Jonathan Lopez, and David Robinson in the Republican convention ... Jesse West (Libertarian) is also running in the general election."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.6
+      }
+    ],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,26 +263,268 @@
         "ratePer100k": 16.72
       }
     ],
-    "nonfarm_employment_thousands": null,
-    "federal_spending": [
+    "nonfarm_employment_thousands": [
       {
-        "year": "2023",
-        "totalUsd": 3241461850.67,
-        "perCapitaUsd": 3886.88
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1787.4
       },
       {
-        "year": "2024",
-        "totalUsd": 4366218642.77,
-        "perCapitaUsd": 5235.59
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1787.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1785.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1781.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1774.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1773.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1773.9
       },
       {
         "year": "2025",
-        "totalUsd": 4359258715.26,
+        "month": "December",
+        "thousandsOfJobs": 1772.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1768.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1767.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1770.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1773.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1770.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1765.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1768.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1767.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1763
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1760.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1761.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1758.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1758.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1755
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1752.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1746.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1741.6
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1739.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1737.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1736.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1740.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1734.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1732.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1732.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1729.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1729
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1730.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1724.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1722.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1727.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1718.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1712.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1709
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1710.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1706.5
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3241644847.67,
+        "perCapitaUsd": 3887.1
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4366542211.65,
+        "perCapitaUsd": 5235.98
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4359258032.84,
         "perCapitaUsd": 5227.25
       }
     ],
-    "population": null,
-    "median_household_income": null
+    "population": [
+      {
+        "year": "2022",
+        "population": 3380800
+      },
+      {
+        "year": "2023",
+        "population": 3417734
+      },
+      {
+        "year": "2024",
+        "population": 3503613
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89168
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 93421
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 96658
+      }
+    ]
   },
   "candidates": [
     {
@@ -111,6 +569,18 @@
           "source_url": "https://benmcadams.com/",
           "snippet": "Ben lives in Salt Lake City with his wife, Julie, and their four kids.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Member of the Columbia Human Rights Law Review at Columbia",
+          "source_url": "https://en.wikipedia.org/wiki/Ben_McAdams",
+          "snippet": "At Columbia, McAdams was a member of the Columbia Human Rights Law Review",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Propvizer, Chief Executive Officer (2024 - Present); Detter & Co., Advisor (2022 - Present); Common Groud Institute, Chief Execuitve Officer (2021 - Present); US House of Representatives, Representative - Utah 4th Congressional District (2019 - 2021); Salt Lake County, Mayor (2013 - 2019); State of Utah, State Senator (2009 - 2013); University of Utah School of Law, Adjunct Professor (2007 - 2012); Dorsey & Whitney, Attorney (2006 - 2008); Davis Polk & Wardwell, Attorney (2003 - 2005)",
+          "source_url": "https://www.ballotready.org/people/ben-mcadams",
+          "snippet": "Professional Experience Propvizer, Chief Executive Officer (2024 - Present) Detter & Co., Advisor (2022 - Present) Common Groud Institute, Chief Execuitve Officer (2021 - Present) US House of Representatives, Representative - Utah 4th Congressional District (2019 - 2021) Salt Lake County, Mayor (2013 - 2019) State of Utah, State Senator (2009 - 2013) University of Utah School of Law, Adjunct Professor (2007 - 2012) Dorsey & Whitney, Attorney (2006 - 2008) Davis Polk & Wardwell, Attorney (2003 - 2005)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [
@@ -157,6 +627,21 @@
       ],
       "platform_source_url": "https://benmcadams.com/",
       "_platform_resolved_at": "2026-08-15T20:28:52.640Z",
+      "campaign_site_url": "https://benmcadamsutah.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:58.563Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=OTJ2Jdqjz-Q",
+      "platform_video_title": "Ben McAdams for UT-01",
+      "platform_video_source_url": "https://benmcadams.com/media/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T23:26:48.963Z",
+      "bio_summary": {
+        "value": "Ben McAdams has always and will always stand up for Utah. Ben is a 7th-generation Utahn and grew up in West Bountiful, raised by his school-teacher mom, who cared for six children largely alone. Ben’s mom worked harder than anyone he’d ever met, but no matter how hard she worked, money was always tight. Some months, the lights went out, and they needed help just to put food on the table. Ben’s mom taught him the power of hardwork, perseverance and education but most of all, she taught him that kindness and caring for others always carries the day.",
+        "source_url": "https://benmcadams.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:27:00.663Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076595.pdf",
         "filingDate": "5/14/2026",
@@ -170,19 +655,7 @@
       "_financial_disclosure_resolved_at": "2026-08-15T20:30:01.176Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=OTJ2Jdqjz-Q",
-      "platform_video_title": "Ben McAdams for UT-01",
-      "platform_video_source_url": "https://benmcadams.com/media/",
-      "_platform_video_resolved_at": "2026-08-18T23:26:48.963Z",
-      "bio_summary": {
-        "value": "Ben McAdams has always and will always stand up for Utah. Ben is a 7th-generation Utahn and grew up in West Bountiful, raised by his school-teacher mom, who cared for six children largely alone. Ben’s mom worked harder than anyone he’d ever met, but no matter how hard she worked, money was always tight. Some months, the lights went out, and they needed help just to put food on the table. Ben’s mom taught him the power of hardwork, perseverance and education but most of all, she taught him that kindness and caring for others always carries the day.",
-        "source_url": "https://benmcadams.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:27:00.663Z",
-      "campaign_site_url": "https://benmcadamsutah.com/",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:58.563Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "riley-owen",
@@ -211,11 +684,28 @@
           "source_url": "https://www.ballotready.org/people/riley-owen",
           "snippet": "Professional Experience Sentala, Managing Director (2024 - Present) US Navy Reserve, Naval Officer (2023 - Present) Doers Network, Chief Executive Officer (2025 - 2026) Stealth Startup, Manager, Strategy & Operations (2024 - 2026)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, Princeton University, International Relations and Affairs; Master's, University of Oxford, Public Policy",
+          "source_url": "https://www.ballotready.org/people/riley-owen",
+          "snippet": "Degrees Master's, University of Oxford, Public Policy Bachelor's, Princeton University, International Relations and Affairs",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://rileyowenforutah.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:58.573Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079904.pdf",
         "filingDate": "5/30/2026",
@@ -229,11 +719,7 @@
       "_financial_disclosure_resolved_at": "2026-08-15T20:30:04.909Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_no_site_search_attempted_at": "2026-08-30T21:42:06.302Z",
-      "campaign_site_url": "https://rileyowenforutah.com",
-      "_campaign_site_discovered_at": "2026-09-01T13:53:58.573Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "jesse-west",
@@ -255,14 +741,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.jessewest2026.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T13:53:58.571Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_no_site_search_attempted_at": "2026-08-30T21:42:09.053Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-09-01T13:53:58.571Z"
+      "_curated_match": false
     }
   ]
 }

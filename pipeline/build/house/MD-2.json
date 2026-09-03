@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-18T20:25:34.483Z",
+  "generated_at": "2026-09-03T15:55:51.094Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2815.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2803.9
+        "thousandsOfJobs": 2804.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9648158961.06,
-        "perCapitaUsd": 12916.07
+        "totalUsd": 9648252661.06,
+        "perCapitaUsd": 12916.19
       },
       {
         "year": "2024",
-        "totalUsd": 10123327211.92,
-        "perCapitaUsd": 13552.18
+        "totalUsd": 10126806716.19,
+        "perCapitaUsd": 13556.84
       },
       {
         "year": "2025",
-        "totalUsd": 9261576612.25,
-        "perCapitaUsd": 12398.54
+        "totalUsd": 9266603869.54,
+        "perCapitaUsd": 12405.27
       }
     ],
     "population": [
@@ -550,6 +560,21 @@
           "source_url": "https://gojohnnyo.com/",
           "snippet": "He lives in eastern Baltimore County with his wife, Marisa, their daughter, Daria, and their rescue dog, Yachty.",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1982-09-10",
+          "source_url": "https://www.wikidata.org/wiki/Q6217866",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Baltimore, Maryland",
+          "source_url": "https://www.wikidata.org/wiki/Q6217866",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Goucher College",
+          "source_url": "https://www.wikidata.org/wiki/Q6217866",
+          "source_type": "wikidata_structured"
         }
       },
       "platform": [
@@ -591,10 +616,21 @@
       ],
       "platform_source_url": "https://gojohnnyo.com/",
       "_platform_resolved_at": "2026-08-13T17:01:17.502Z",
+      "campaign_site_url": "https://gojohnnyo.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:34.152Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Congressman Johnny “Johnny O” Olszewski, Jr. is a lifelong Marylander and proven leader who has proudly represented Maryland’s 2nd Congressional District since 2025. Guided by the working-class values he learned growing up in eastern Baltimore County, Johnny O is focused on the issues that matter most, like lowering costs for families, expanding economic opportunity, and protecting the foundations of American democracy. Johnny O began his professional life as a public-school teacher, where he saw firsthand the challenges facing students and families.",
+        "source_url": "https://gojohnnyo.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:55:48.023Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075628.pdf",
         "filingDate": "5/15/2026",
@@ -606,9 +642,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-13T17:02:08.323Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 294,
+          "attendanceRate": 0.9966101694915255
+        },
         "committees": [
           {
             "committee": "House Committee on Foreign Affairs",
@@ -642,7 +733,7 @@
           }
         ],
         "bills_sponsored": 18,
-        "bills_cosponsored": 280,
+        "bills_cosponsored": 284,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -653,21 +744,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 68,
-          "snapshotDate": "June 30, 2026",
+          "score": 69.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/O000176"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Congressman Johnny “Johnny O” Olszewski, Jr. is a lifelong Marylander and proven leader who has proudly represented Maryland’s 2nd Congressional District since 2025. Guided by the working-class values he learned growing up in eastern Baltimore County, Johnny O is focused on the issues that matter most, like lowering costs for families, expanding economic opportunity, and protecting the foundations of American democracy. Johnny O began his professional life as a public-school teacher, where he saw firsthand the challenges facing students and families.",
-        "source_url": "https://gojohnnyo.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:55:48.023Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:08.161Z",
-      "campaign_site_url": "https://gojohnnyo.com/",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:34.152Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "david-wallace",
@@ -694,20 +776,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.wallaceforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:34.151Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:08.587Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:50.740Z",
-      "campaign_site_url": "https://www.wallaceforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:34.151Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-24",
-  "generated_at": "2026-08-29T20:47:06.727Z",
+  "generated_at": "2026-09-03T16:22:33.037Z",
   "election_dates": {
     "primaryDate": "2026-08-18",
     "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 10037.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 10033.3
+        "thousandsOfJobs": 10032.8
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 542211703.63,
-        "perCapitaUsd": 700.66
+        "totalUsd": 542248339.13,
+        "perCapitaUsd": 700.71
       }
     ],
     "population": [
@@ -587,6 +597,8 @@
       "platform_source_url": "https://tebrownforflorida.com/",
       "_platform_resolved_at": "2026-08-20T15:55:58.341Z",
       "campaign_site_url": "https://tebrownforflorida.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -603,9 +615,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-31T12:00:36.880Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "andy-daro",
@@ -672,6 +682,8 @@
       "platform_source_url": "https://www.andydaro.com/",
       "_platform_resolved_at": "2026-08-20T15:55:53.265Z",
       "campaign_site_url": "https://andydaro.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=zJVCBQ97ZaE",
       "platform_video_title": "This campaign isn’t about Left or Right. It’s about moving Forward.",
       "platform_video_source_url": "https://www.andydaro.com/",
@@ -688,8 +700,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "oliver-gilbert",
@@ -794,6 +805,8 @@
       "platform_source_url": "https://olivergilbert.vote/",
       "_platform_resolved_at": "2026-08-29T20:46:23.923Z",
       "campaign_site_url": "https://olivergilbert.vote",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -819,9 +832,7 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:56:02.717Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-31T12:00:37.342Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_curated_match": false
     },
     {
       "slug": "patricia-gonzalez",
@@ -849,6 +860,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://patriciaforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -861,9 +874,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-31T12:00:37.656Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-10",
-  "generated_at": "2026-09-02T11:33:13.607Z",
+  "generated_at": "2026-09-03T17:26:10.202Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
@@ -658,7 +658,7 @@
       ],
       "platform_source_url": "https://www.stevefeldmanforcongress.com/",
       "_platform_resolved_at": "2026-08-14T13:42:15.103Z",
-      "campaign_site_url": null,
+      "campaign_site_url": "https://www.stevefeldmanforcongress.com",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-08-31T23:03:25.653Z",
       "platform_video_url": "https://www.youtube.com/watch?v=1ig77OyNyGk",
@@ -833,11 +833,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 292,
-          "votesCast": 288,
-          "attendanceRate": 0.9863013698630136
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Science, Space, and Technology",
@@ -876,7 +872,7 @@
           }
         ],
         "bills_sponsored": 30,
-        "bills_cosponsored": 316,
+        "bills_cosponsored": 319,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-09-02T11:09:37.732Z",
+  "generated_at": "2026-09-03T17:24:03.857Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://oregon.public.law/statutes/ors_254.056",
@@ -572,6 +572,12 @@
           "source_url": "https://www.pattiforcongress.com/",
           "snippet": "Patti built her financial career at Moss Adams while helping raise millions for schools, a hospital, and programs supporting homeless women and children",
           "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "birthplace": {
+          "value": "Born in Pendleton",
+          "source_url": "https://www.pattiforcongress.com/",
+          "snippet": "Born in Pendleton and raised on her family's ranch in Heppner",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
       "platform": [
@@ -608,7 +614,7 @@
       ],
       "platform_source_url": "https://www.pattiforcongress.com/priorities",
       "_platform_resolved_at": "2026-08-13T17:36:34.357Z",
-      "campaign_site_url": null,
+      "campaign_site_url": "https://www.pattiforcongress.com/",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-08-31T22:49:21.319Z",
       "platform_video_url": "https://www.youtube.com/watch?v=DqHqzMfr2s4",
@@ -718,7 +724,7 @@
       ],
       "platform_source_url": "https://bynum.house.gov/issues/k-30",
       "_platform_resolved_at": "2026-09-02T11:09:24.911Z",
-      "campaign_site_url": "https://www.janellebynum.com/",
+      "campaign_site_url": "https://www.janellebynum.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T11:20:56.532Z",
       "platform_video_url": "https://www.youtube.com/watch?v=kUNG5JtA124",
@@ -788,11 +794,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 198,
-          "votesCast": 197,
-          "attendanceRate": 0.9949494949494949
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Financial Services",
@@ -811,7 +813,7 @@
           }
         ],
         "bills_sponsored": 22,
-        "bills_cosponsored": 362,
+        "bills_cosponsored": 363,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

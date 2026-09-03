@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-20",
-  "generated_at": "2026-09-02T12:13:06.383Z",
+  "generated_at": "2026-09-03T16:38:36.757Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -690,6 +690,12 @@
           "source_url": "https://en.wikipedia.org/wiki/Joaquin_Castro",
           "snippet": "He sits on several boards of nonprofit organizations and institutions of higher education, including the National College Advising Corps.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice; member of the Texas state house of representatives, 2002-2012",
+          "source_url": "https://history.house.gov/People/Listing/C/CASTRO,-Joaquin-(C001091)/",
+          "snippet": "lawyer, private practice; member of the Texas state house of representatives, 2002-2012",
+          "source_type": "llm_extracted_house_historian"
         }
       },
       "platform": [],
@@ -721,9 +727,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-29T20:54:14.323Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 287,
+          "attendanceRate": 0.9728813559322034
+        },
         "committees": [
           {
             "committee": "House Permanent Select Committee on Intelligence",
@@ -762,7 +823,7 @@
           }
         ],
         "bills_sponsored": 187,
-        "bills_cosponsored": 1690,
+        "bills_cosponsored": 1691,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

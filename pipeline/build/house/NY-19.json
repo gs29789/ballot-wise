@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-19",
-  "generated_at": "2026-08-17T15:42:38.042Z",
+  "generated_at": "2026-09-03T15:07:24.581Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 9992.8
+        "thousandsOfJobs": 9982.6
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -572,25 +582,46 @@
           "source_url": "https://en.wikipedia.org/wiki/Peter_Oberacker",
           "snippet": "He lives in Schenevus, New York , and is a member of his local fire department and EMS squad.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Shannon Oberacker since October 4, 1986",
+          "source_url": "https://en.wikipedia.org/wiki/Peter_Oberacker",
+          "snippet": "Oberacker has a wife named Shannon, who he calls his \"high school sweetheart\".",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:38:49.164Z",
+      "campaign_site_url": "https://www.peterforny19.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:57.605Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "New York State Senator Peter Oberacker is running for Congress in NY-19!",
-        "source_url": "https://www.peterforny19.com/"
+        "source_url": "https://www.peterforny19.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:34:49.380Z",
-      "campaign_site_url": "https://www.peterforny19.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:57.605Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072975.pdf",
+        "filingDate": "1/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:07:14.738Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "josh-riley",
@@ -683,14 +714,119 @@
       ],
       "platform_source_url": "https://www.joshrileyforcongress.com/",
       "_platform_resolved_at": "2026-08-10T12:44:46.718Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "campaign_site_url": "https://www.joshrileyforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:57.609Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Josh Riley has deep roots in Upstate New York and proven experience taking on big fights on the national stage. Josh knows that our political and economic systems have been rigged to benefit special interests at the expense of working folks. He’s running for Congress to change that.",
+        "source_url": "https://joshrileyforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:34:51.490Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074651.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:07:18.117Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
-        "committees": [],
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 295,
+          "attendanceRate": 1
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Science, Space, and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Forestry and Horticulture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Science, Space, and Technology — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 16,
-        "bills_cosponsored": 394,
+        "bills_cosponsored": 414,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -700,27 +836,13 @@
           "sourceUrl": "https://voteview.com/person/R000622"
         },
         "bridge_score": {
-          "grade": "B",
-          "score": 75.8,
-          "snapshotDate": "June 30, 2026",
+          "grade": "A",
+          "score": 91.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/R000622"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:09.655Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
-      "bio_summary": {
-        "value": "Josh Riley has deep roots in Upstate New York and proven experience taking on big fights on the national stage. Josh knows that our political and economic systems have been rigged to benefit special interests at the expense of working folks. He’s running for Congress to change that.",
-        "source_url": "https://joshrileyforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:34:51.490Z",
-      "campaign_site_url": "https://www.joshrileyforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:57.609Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-08-17T15:35:02.094Z",
+  "generated_at": "2026-09-03T16:10:49.937Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://law.justia.com/codes/north-carolina/2023/chapter-163/article-1/section-163-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5112
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5115.4
+        "thousandsOfJobs": 5112.7
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 7777446278.13,
-        "perCapitaUsd": 10373.51
+        "totalUsd": 7778401194.17,
+        "perCapitaUsd": 10374.78
       }
     ],
     "population": [
@@ -558,21 +568,35 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
+      "campaign_site_url": "https://getmaad.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:08.097Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Maad Abu-Ghazalah earned a high school diploma from King's School. He earned a bachelor's degree from the University of Notre Dame in 1983, a graduate degree from the University of Virginia in 1985, and a law degree from Santa Clara University in 1993. His career experience includes working as a consultant.",
         "source_url": "https://ballotpedia.org/Maad_Abu-Ghazalah",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:57:39.002Z",
-      "campaign_site_url": "https://getmaad.org",
-      "_campaign_site_discovered_at": "2026-08-30T11:08:08.097Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:19.006Z"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077852.pdf",
+        "filingDate": "5/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:10:25.476Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "kimberly-hardy",
@@ -636,20 +660,35 @@
       ],
       "platform_source_url": "https://www.kimberlyhardyforcongress.com/",
       "_platform_resolved_at": "2026-08-14T13:32:28.944Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
+      "campaign_site_url": "https://kimberlyhardyforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:08.098Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Kimberly Hardy is a mom, social worker, professor, and candidate for Congress in North Carolina’s 7th District. Raised by a Marine and federal agent, service has shaped Kimberly’s life. As a social worker, Kimberly has spent her career building bridges to help people obtain the tools and opportunities they need to be successful. As your representative in Congress, Kimberly will continue the work of helping people by advocating for the things that make our lives better: better jobs, better healthcare, better schools.",
-        "source_url": "https://www.kimberlyhardyforcongress.com/"
+        "source_url": "https://www.kimberlyhardyforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:03:07.132Z",
-      "campaign_site_url": "https://kimberlyhardyforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:08:08.098Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:19.371Z"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076382.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:10:28.600Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "michael-henry",
@@ -678,20 +717,26 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://mikehenrync.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:08.098Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "We began this campaign with real hope — hope that restoring sanity, decency, and accountability to Washington is not only necessary, but possible. As the petition effort began to take shape, Michelle and I started a statewide trip to meet supporters face-to-face. We were grateful to spend time with people in Raleigh, Wake Forest, Asheboro, Cary, Apex, Winston-Salem, and beyond as part of our three-week statewide tour across North Carolina.",
+        "source_url": "https://mikehenrync.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:03:04.514Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "We began this campaign with real hope — hope that restoring sanity, decency, and accountability to Washington is not only necessary, but possible. As the petition effort began to take shape, Michelle and I started a statewide trip to meet supporters face-to-face. We were grateful to spend time with people in Raleigh, Wake Forest, Asheboro, Cary, Apex, Winston-Salem, and beyond as part of our three-week statewide tour across North Carolina.",
-        "source_url": "https://mikehenrync.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:03:04.514Z",
-      "campaign_site_url": "https://mikehenrync.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:08:08.098Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:19.961Z"
+      "_curated_match": false
     },
     {
       "slug": "david-rouzer",
@@ -768,11 +813,81 @@
       ],
       "platform_source_url": "https://davidrouzer.com/the-issues/",
       "_platform_resolved_at": "2026-08-17T15:34:47.569Z",
+      "campaign_site_url": "https://www.davidrouzer.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:08:08.096Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=SCR1cmzVQrY",
+      "platform_video_title": "American Dream_David Rouzer for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:20.269Z",
+      "bio_summary": {
+        "value": "With an extensive background in public policy and a wide range of experience, David Rouzer quickly distinguished himself as a skilled Member of Congress representing North Carolina’s 7th Congressional District, which is home to a significant portion of the country’s agricultural production, and some of the most beautiful beaches and coastal communities in America.",
+        "source_url": "https://davidrouzer.com/meet-david/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:03:18.569Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 291,
+          "attendanceRate": 0.9864406779661017
+        },
         "committees": [
           {
             "committee": "House Committee on Transportation and Infrastructure",
@@ -826,8 +941,8 @@
           }
         ],
         "bills_sponsored": 102,
-        "bills_cosponsored": 1685,
-        "bills_became_law": 0,
+        "bills_cosponsored": 1686,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Clarification of Treatment of Electronic Sales of Livestock Act of 2016",
@@ -856,26 +971,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 61.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 61.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/R000603"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "With an extensive background in public policy and a wide range of experience, David Rouzer quickly distinguished himself as a skilled Member of Congress representing North Carolina’s 7th Congressional District, which is home to a significant portion of the country’s agricultural production, and some of the most beautiful beaches and coastal communities in America.",
-        "source_url": "https://davidrouzer.com/meet-david/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:03:18.569Z",
-      "campaign_site_url": "https://www.davidrouzer.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:08:08.096Z",
-      "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:20.269Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=SCR1cmzVQrY",
-      "platform_video_title": "American Dream_David Rouzer for Congress",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-30T12:00:20.269Z"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-09-02T10:34:06.337Z",
+  "generated_at": "2026-09-03T15:50:29.757Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.legis.iowa.gov/docs/code/2026/43.7.pdf",
@@ -617,8 +617,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:49:41.849Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076765.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:49:56.212Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -674,8 +683,17 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:31:03.798Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116305.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:50:12.117Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": true
@@ -728,11 +746,132 @@
           "source_url": "https://en.wikipedia.org/wiki/Mariannette_Miller-Meeks",
           "snippet": "Spouse Curt Meeks ​ ( married&lt;/span>\"}]]}'>m. 1983 ) ​",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "member of the Iowa state senate, 2019-2020",
+          "source_url": "https://history.house.gov/People/Listing/M/MILLER-MEEKS,-Mariannette-(M001215)/",
+          "snippet": "member of the Iowa state senate, 2019-2020",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Tax Policy",
+          "value": "Supports making the Tax Cuts and Jobs Act permanent, increasing the Child Tax Credit, and delivering a $6,000 tax deduction for seniors on fixed incomes",
+          "snippet": "Prevents the Largest Tax Hike in U.S. History by making the Tax Cuts and Jobs Act permanent for families, farmers, and job creators. Lowers Taxes on Working Iowans by increasing the Child Tax Credit and delivering a $6,000 tax deduction for seniors on fixed incomes.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports finishing the border wall, ending catch-and-release, and hiring thousands of border patrol agents",
+          "snippet": "Secures the Border for Good by finishing the wall, ending catch-and-release, and hiring thousands of agents with the tools to stop crime, fentanyl, and chaos.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        },
+        {
+          "topic": "Rural Healthcare",
+          "value": "Supports $50 billion in new relief for rural hospitals to ensure small communities can access care close to home",
+          "snippet": "Protects Rural Iowa with $50 billion in new relief for rural hospitals, ensuring small communities can access care close to home.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        },
+        {
+          "topic": "Border Security - SAVE Act",
+          "value": "Require proof of United States citizenship to register an individual to vote in elections for Federal office",
+          "snippet": "I voted in favor of the SAVE Act , legislation that protects the integrity of our elections by requiring proof of United States citizenship to register an individual to vote in elections for Federal office.",
+          "source_url": "https://millermeeks.house.gov/issues/border-security"
+        },
+        {
+          "topic": "Border Security - Criminal Aliens",
+          "value": "Require ICE to arrest illegal immigrants who commit burglary, larceny, theft, or shoplifting offenses",
+          "snippet": "I voted in favor of the Laken Riley Act , which would require ICE to arrest illegal immigrants who commit burglary, larceny, theft, or shoplifting offenses.",
+          "source_url": "https://millermeeks.house.gov/issues/border-security"
+        },
+        {
+          "topic": "Border Security - Fleeing Law Enforcement",
+          "value": "Make it a crime to intentionally flee a pursuing law enforcement officer",
+          "snippet": "I cosponsored H.R. 35, the Agent Raul Gonzalez Officer Safety Act . This bill makes it a crime to intentionally flee a pursuing law enforcement officer.",
+          "source_url": "https://millermeeks.house.gov/issues/border-security"
+        },
+        {
+          "topic": "Energy Production",
+          "value": "Cosponsored H.R. 1, the Lower Energy Costs Act, which aims to end restrictions on energy production, promote domestic mineral production and streamline permitting processes.",
+          "snippet": "I cosponsored H.R. 1, the Lower Energy Costs Act , which aims to end restrictions on energy production, promote domestic mineral production and streamline permitting processes.",
+          "source_url": "https://millermeeks.house.gov/issues/economy"
+        },
+        {
+          "topic": "Hydraulic Fracturing",
+          "value": "Led colleagues in ensuring that hydraulic fracturing (fracking) cannot be banned in the United States.",
+          "snippet": "I led my colleagues in ensuring that hydraulic fracturing (fracking) cannot be banned in the United States",
+          "source_url": "https://millermeeks.house.gov/issues/economy"
+        },
+        {
+          "topic": "E15 Fuel",
+          "value": "Led efforts to allow the sale of E15 fuel in Iowa and around the nation.",
+          "snippet": "I led efforts to allow the sale of E15 fuel in Iowa and around the nation.",
+          "source_url": "https://millermeeks.house.gov/issues/economy"
+        },
+        {
+          "topic": "Drug Prices",
+          "value": "Introduced legislation to promote transparency and fairness in pharmacy benefit managers' operations to improve access to affordable prescription drugs",
+          "snippet": "I introduced H.R. 6283, the DRUG Act : a bill that aims to promote transparency and fairness in the operations of pharmacy benefit managers (PBM's) to improve access to affordable prescription drugs for consumers.",
+          "source_url": "https://millermeeks.house.gov/issues/health"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Supported legislation guaranteeing that infants born alive during or after an abortion receive the same rights and protection as any newborn",
+          "snippet": "I supported the Born-Alive Abortion Survivors Protection Act . The bill guarantees that infants born alive during or after an abortion or attempted abortion will receive the same rights, privileges, and protection of law as any newborn.",
+          "source_url": "https://millermeeks.house.gov/issues/health"
+        },
+        {
+          "topic": "In Vitro Fertilization",
+          "value": "Introduced legislation to establish a refundable tax credit of up to $30,000 for IVF expenses",
+          "snippet": "I introduced H.R. 9479 : a bill that would amend the Internal Revenue Code of 1986 to establish a refundable credit of up to $30,000 for expenses incurred for in vitro fertilization (IVF).",
+          "source_url": "https://millermeeks.house.gov/issues/health"
+        },
+        {
+          "topic": "Natural Gas Exports",
+          "value": "Voted in favor of H.R. 7176, the Unlocking our Domestic LNG Potential Act of 2024, which repeals restrictions on the import and export of natural gas implemented by the Biden Administration",
+          "snippet": "I voted in favor of H.R. 7176, the Unlocking our Domestic LNG Potential Act of 2024 . This bill repeals restrictions on the import and export of natural gas implemented by the Biden Administration.",
+          "source_url": "https://millermeeks.house.gov/issues/energy"
+        },
+        {
+          "topic": "VA Accountability",
+          "value": "Strengthen accountability at the VA by giving them the authority to hold poor-performing employees accountable to ensure veterans receive high-quality care",
+          "snippet": "I cosponsored H.R. 472, the Restore VA Accountability Act of 2025 , which would strengthen accountability at the VA, giving them the authority to hold poor-performing employees accountable, making sure that veterans receive the high-quality care they deserve.",
+          "source_url": "https://millermeeks.house.gov/issues/veterans"
+        },
+        {
+          "topic": "Veteran Suicide Prevention",
+          "value": "Reauthorize and enhance the Sergeant Gordon Parker Fox Suicide Prevention Act by increasing funding, standardizing mental health screening, and expanding access to care for veterans through various organizations and telehealth services",
+          "snippet": "I introduced the No Wrong Door for Veterans Act : A bill that seeks to reauthorize and enhance the Sergeant Gordon Parker Fox Suicide Prevention Act by increasing funding, standardizing mental health screening, and expanding access to care for veterans through various organizations and telehealth services.",
+          "source_url": "https://millermeeks.house.gov/issues/veterans"
+        },
+        {
+          "topic": "Cannabis Research for Veterans",
+          "value": "Require the Department of Veterans Affairs to conduct and support research on the efficacy and safety of certain forms of cannabis and cannabis delivery for veterans enrolled in the VA health care system and diagnosed with conditions such as chronic pain or post-traumatic stress disorder",
+          "snippet": "I introduced the Veterans Care Act : a bill that requires the Department of Veterans Affairs (VA) to conduct and support research on the efficacy and safety of certain forms of cannabis and cannabis delivery for veterans enrolled in the VA health care system and diagnosed with conditions such as chronic pain or post-traumatic stress disorder.",
+          "source_url": "https://millermeeks.house.gov/issues/veterans"
+        },
+        {
+          "topic": "Manufacturing",
+          "value": "Supports restoring full expensing, boosting supply chains, and keeping jobs in the U.S.",
+          "snippet": "Brings Manufacturing Back Home by restoring full expensing, boosting supply chains, and keeping jobs in the U.S.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        },
+        {
+          "topic": "Energy",
+          "value": "Supports removing Biden-era restrictions on energy production and restoring energy dominance, allowing the sale of E15 fuel, and ensuring hydraulic fracturing cannot be banned",
+          "snippet": "Unleashes American Energy by removing Biden-era restrictions and restoring energy dominance.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        },
+        {
+          "topic": "Medicaid",
+          "value": "Supports strengthening and preserving Medicaid for children, pregnant women, low-income seniors, veterans, and Americans with disabilities",
+          "snippet": "Strengthens and Preserves Medicaid for those it was meant to serve: children, pregnant women, low-income seniors, veterans, and Americans with disabilities.",
+          "source_url": "https://millermeeks.house.gov/issues/delivering-results"
+        }
+      ],
+      "platform_source_url": "https://millermeeks.house.gov/issues/delivering-results",
+      "_platform_resolved_at": "2026-09-03T15:49:44.932Z",
       "campaign_site_url": "http://millermeeks.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T23:57:23.277Z",
@@ -748,11 +887,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:36:10.488Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077246.pdf",
+        "filingDate": "5/10/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:50:21.251Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Not Voting",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
+        },
         "committees": [
           {
             "committee": "House Committee on Energy and Commerce",
@@ -786,7 +989,7 @@
           }
         ],
         "bills_sponsored": 134,
-        "bills_cosponsored": 1220,
+        "bills_cosponsored": 1222,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -802,8 +1005,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001215"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:18.775Z"
+      "_curated_match": false
     }
   ]
 }

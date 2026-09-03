@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-10",
-  "generated_at": "2026-08-11T11:17:47.718Z",
+  "generated_at": "2026-09-03T15:27:39.141Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/mi/michigan-constitution-of-1963/mi-const-art-11-sect-8.html",
     "snippet": "Mich. Const. art. XI, § 8: \"A person is ineligible for election or appointment to any state or local elective office of this state and ineligible to hold a position in public employment in this state that is policy-making or that has discretionary authority over public assets if, within the immediately preceding 20 years, the person was convicted of a felony involving dishonesty, deceit, fraud, or a breach of the public trust and the conviction was related to the person's official capacity while the person was holding any elective office or position of employment in local, state, or federal government.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Michigan's_10th_Congressional_District_election,_2026",
     "snippet": "Christina Hines, Michael Bouchard, Kwabena Nkromo, Mike Saliba, and Andrea Kirby are running in the general election for U.S. House Michigan District 10 on November 3, 2026. Open seat: incumbent John James is running for Governor of Michigan instead. Nkromo, Saliba, and Kirby have no FEC 2026 registration found; see code comment."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -250,18 +256,23 @@
       },
       {
         "year": "2024",
-        "ratePer100k": 30.59
+        "ratePer100k": 30.61
       },
       {
         "year": "2025",
-        "ratePer100k": 30.03
+        "ratePer100k": 30.19
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 718762507.32,
-        "perCapitaUsd": 939.73
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 316288411.52,
-        "perCapitaUsd": 413.53
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459459032.7,
+        "perCapitaUsd": 600.71
       }
     ],
     "population": [
@@ -526,8 +537,8 @@
       "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 1433728.5,
-        "totalSpent": 457905.44,
+        "totalRaised": 1623745.43,
+        "totalSpent": 479225.34,
         "cashOnHand": null,
         "fundingSources": {
           "smallDollar": 108726.44,
@@ -575,21 +586,31 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:29.878Z",
+      "campaign_site_url": "https://friendsofmichaelbouchard.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:00.772Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:33:21.000Z",
-      "campaign_site_url": "https://friendsofmichaelbouchard.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:00.772Z",
-      "_campaign_site_reachability": "reachable"
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078526.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:27:29.157Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "christina-hines",
@@ -630,6 +651,12 @@
           "source_url": "https://www.christinahinesforcongress.com/",
           "snippet": "her children that she and her husband, David, are raising right here in Macomb County",
           "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "Wayne State University Law School, Adjunct Professor of Law (2024 - Present); Washtenaw County Prosecutor's Office, First Assistant Prosecuting Attorney (2021 - 2024); Wayne County Prosecutor's Office, Assistant Prosecuting Attorney (2015 - 2020); Wachler & Associates P.C., Law Clerk (2013 - 2014)",
+          "source_url": "https://www.ballotready.org/people/christina-hines",
+          "snippet": "Professional Experience Wayne State University Law School, Adjunct Professor of Law (2024 - Present) Washtenaw County Prosecutor's Office, First Assistant Prosecuting Attorney (2021 - 2024) Wayne County Prosecutor's Office, Assistant Prosecuting Attorney (2015 - 2020) Wachler & Associates P.C., Law Clerk (2013 - 2014)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [
@@ -661,23 +688,35 @@
       ],
       "platform_source_url": "https://www.christinahinesforcongress.com/",
       "_platform_resolved_at": "2026-08-11T11:17:35.176Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://christinahinesforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T10:40:03.754Z",
       "platform_video_url": "https://www.youtube.com/watch?v=yZOSj_b5MFY",
       "platform_video_title": "Chaos",
       "platform_video_source_url": "https://www.christinahinesforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:00:44.817Z",
       "bio_summary": {
         "value": "Christina’s story is one of hard work, service, and fighting for others. These are the values she learned growing up in Macomb County in a hardworking middle-class family and in Warren Woods Public Schools. These are the values she hopes to impart to her children that she and her husband, David, are raising right here in Macomb County. These are the values she will bring with her to Congress.",
-        "source_url": "https://www.christinahinesforcongress.com/"
+        "source_url": "https://www.christinahinesforcongress.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:41:03.486Z",
-      "campaign_site_url": "https://christinahinesforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T10:40:03.754Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075530.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:27:32.261Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

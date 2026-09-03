@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-25",
-  "generated_at": "2026-08-17T01:45:14.535Z",
+  "generated_at": "2026-09-03T15:11:08.842Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 9992.8
+        "thousandsOfJobs": 9982.6
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -555,25 +565,59 @@
           "snippet": "McIntyre's career experience includes working as a public servant."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-20T12:46:41.614Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:31:55.320Z",
+      "platform": [
+        {
+          "topic": "Public Safety and Education",
+          "value": "My campaign is focused on making communities safer, strengthening local schools, and ensuring families have access to the opportunities they need to succeed.",
+          "snippet": "My campaign is focused on making communities safer, strengthening local schools, and ensuring families have access to the opportunities they need to succeed."
+        },
+        {
+          "topic": "Tax Relief and Fiscal Responsibility",
+          "value": "I am running to restore trust by focusing on transparency, fiscal responsibility, and putting taxpayers first. That means fighting for tax relief for working families and seniors, and ensuring that government decisions reflect the needs of everyday residents—not special interests.",
+          "snippet": "I am running to restore trust by focusing on transparency, fiscal responsibility, and putting taxpayers first. That means fighting for tax relief for working families and seniors, and ensuring that government decisions reflect the needs of everyday residents—not special interests."
+        },
+        {
+          "topic": "Bipartisan Approach",
+          "value": "I have worked across party lines to listen to constituents and act on their concerns, and I will bring that same approach to Washington.",
+          "snippet": "I have worked across party lines to listen to constituents and act on their concerns, and I will bring that same approach to Washington."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "I am passionate about public policies that directly improve the lives of families in Western New York. This includes public safety, education, and economic policies that support job growth and financial stability. I strongly support fiscal accountability, tax relief, and responsible government spending to ensure long-term sustainability. I am also committed to restoring trust in government by promoting transparency and responsiveness, and to ensuring that policies reflect the real concerns of constituents rather than partisan agendas.",
+          "snippet": "I am passionate about public policies that directly improve the lives of families in Western New York. This includes public safety, education, and economic policies that support job growth and financial stability. I strongly support fiscal accountability, tax relief, and responsible government spending to ensure long-term sustainability. I am also committed to restoring trust in government by promoting transparency and responsiveness, and to ensuring that policies reflect the real concerns of constituents rather than partisan agendas."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Virginia_McIntyre",
+      "_platform_resolved_at": "2026-09-03T15:10:50.886Z",
+      "campaign_site_url": "https://www.virginiamcintyreforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:08.021Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Virginia McIntyre is a Monroe County Legislator representing parts of Gates and Greece and a candidate for the U.S. House in New York’s 25th Congressional District. She has served in the county legislature since 2024 and was designated by the Monroe County Republican Committee to run for Congress. McIntyre is running to bring practical, results-driven leadership to Washington, with a focus on representing working families, restoring trust in government, and addressing the issues that directly impact Western New York communities. Her campaign emphasizes accountability, responsiveness to constituents across party lines, and delivering measurable results rather than partisan politics. She believes elected officials should listen to their communities, prioritize service over politics, and work to unify rather than divide. Her approach is rooted in local experience, hands-on governance, and a commitment to improving quality of life for residents across the district. ",
         "source_url": "https://ballotpedia.org/Virginia_McIntyre",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:05:51.715Z",
-      "campaign_site_url": "https://www.virginiamcintyreforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:06:08.021Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077459.pdf",
+        "filingDate": "5/11/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:10:54.922Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "joseph-morelle",
@@ -665,11 +709,90 @@
       ],
       "platform_source_url": "https://www.votemorelle.com/",
       "_platform_resolved_at": "2026-08-10T12:51:50.384Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "campaign_site_url": "https://www.votemorelle.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:08.020Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=XFv0c7wklRk",
+      "platform_video_title": "Joe Morelle Calls Out Trump For Agreeing With Putin's Criticism Of Mail-In Ballots",
+      "platform_video_source_url": "https://www.votemorelle.com/media",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T11:33:03.463Z",
+      "bio_summary": {
+        "value": "Joe was born and raised in Upstate New York and has lived in the same Irondequoit neighborhood for most of his life. The son of a Korean war veteran and lifelong Plumbers and Pipefitters union member, Joe learned early on from his parents the value of hard work and the principles of honesty and integrity. These ideals led him to pursue public service, where he has represented our community first in the County Legislature, then in the New York State Assembly as Majority Leader, and now in the United States House of Representatives where he serves as the Ranking Member on the House Administration Committee, as well as the Vice Ranking Member on the Appropriations Committee.",
+        "source_url": "https://www.votemorelle.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:35:34.844Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078020.pdf",
+        "filingDate": "8/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:11:02.908Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 292,
+          "attendanceRate": 0.9898305084745763
+        },
         "committees": [
           {
             "committee": "Joint Committee on Printing",
@@ -707,8 +830,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 141,
-        "bills_cosponsored": 1879,
+        "bills_sponsored": 142,
+        "bills_cosponsored": 1883,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -729,27 +852,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 73.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 62.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001206"
         }
       },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=XFv0c7wklRk",
-      "platform_video_title": "Joe Morelle Calls Out Trump For Agreeing With Putin's Criticism Of Mail-In Ballots",
-      "platform_video_source_url": "https://www.votemorelle.com/media",
-      "_platform_video_resolved_at": "2026-08-30T11:33:03.463Z",
-      "_tier2_search_attempted_at": "2026-08-20T12:46:41.979Z",
-      "bio_summary": {
-        "value": "Joe was born and raised in Upstate New York and has lived in the same Irondequoit neighborhood for most of his life. The son of a Korean war veteran and lifelong Plumbers and Pipefitters union member, Joe learned early on from his parents the value of hard work and the principles of honesty and integrity. These ideals led him to pursue public service, where he has represented our community first in the County Legislature, then in the New York State Assembly as Majority Leader, and now in the United States House of Representatives where he serves as the Ranking Member on the House Administration Committee, as well as the Vice Ranking Member on the Appropriations Committee.",
-        "source_url": "https://www.votemorelle.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:35:34.844Z",
-      "platform_video_tier": 1,
-      "campaign_site_url": "https://www.votemorelle.com/",
-      "_campaign_site_discovered_at": "2026-08-30T11:06:08.020Z",
-      "_campaign_site_reachability": "reachable",
-      "platform_video_source_type": "campaign_site"
+      "_curated_match": false
     }
   ]
 }

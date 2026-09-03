@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-14",
-  "generated_at": "2026-09-02T11:48:46.241Z",
+  "generated_at": "2026-09-03T16:13:23.266Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -589,29 +589,109 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Great Lakes",
+          "value": "Authored legislation to authorize and reauthorize the Great Lakes Restoration Initiative (GLRI), which provides funding to federal agencies, states, local communities, and businesses to restore the Great Lakes ecosystem and economic health of the region",
+          "snippet": "In 2016, I authored landmark legislation to authorize the Great Lakes Restoration Initiative (GLRI), which provides funding to federal agencies, the Great Lakes states, local communities, and businesses to restore the Great Lakes ecosystem and the economic health of the Great Lakes region."
+        },
+        {
+          "topic": "Economy",
+          "value": "Committed to fighting for policies that provide more opportunities for Ohio small businesses and ensure they can compete in the global economy",
+          "snippet": "As a member of the Buy American Caucus, I remain committed to fighting for policies in Congress that provide more opportunities for Ohio small businesses and ensure they can compete in our increasingly global economy."
+        },
+        {
+          "topic": "Economic Recovery",
+          "value": "Focus on reducing inflation by supporting fiscally responsible policies, cutting red tape, spurring economic growth, creating good-paying jobs, and supporting jobs-training programs",
+          "snippet": "As we work to recover from the COVID-19 pandemic, my focus remains on reducing inflation by supporting fiscally responsible policies, cutting red tape, spurring economic growth, creating good-paying jobs, and supporting jobs-training programs to give workers career-ready skills for the jobs of today and those that will exist in the future."
+        }
+      ],
+      "platform_source_url": "https://joyce.house.gov/",
+      "_platform_resolved_at": "2026-09-03T16:12:59.017Z",
       "campaign_site_url": "https://www.joyceforcongress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T01:21:36.032Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=fARNhXvuF_s",
+      "platform_video_title": "Joyce Questions Witnesses in First House Task Force Hearing on Trump Assassination Attempt",
+      "platform_video_source_url": "https://joyce.house.gov/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T16:12:59.836Z",
       "bio_summary": {
         "value": "25 years in law enforcement Son of a WWII veteran Husband to a registered nurse Father to 3 children Protector of the Great Lakes Advocate for opioid relief Proven community leader",
         "source_url": "https://joyceforcongress.com/",
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:06:23.569Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078592.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:13:12.240Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 286,
+          "attendanceRate": 0.9694915254237289
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -703,8 +783,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/J000295"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:36.353Z"
+      "_curated_match": false
     },
     {
       "slug": "maria-jukic",
@@ -744,9 +823,50 @@
           "snippet": "Her career experience includes working as an attorney and small business owner."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Social Security and Medicare",
+          "value": "Protect Social Security and Medicare.",
+          "snippet": "Protect Social Security and Medicare."
+        },
+        {
+          "topic": "Medicaid and SNAP",
+          "value": "Restore Medicaid and SNAP.",
+          "snippet": "Restore Medicaid and SNAP."
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "Improve tax policy for people who work for a paycheck, for small businesses, and for farmers. Help the rich and corporations pay their fair share.",
+          "snippet": "Improve tax policy for people who work for a paycheck, for small businesses, and for farmers. Help the rich and corporations pay their fair share."
+        },
+        {
+          "topic": "Labor and Wages",
+          "value": "Create jobs, support unions, and increase the minimum wage.",
+          "snippet": "Create jobs, support unions, and increase the minimum wage."
+        },
+        {
+          "topic": "Environmental Protection",
+          "value": "Defend environmental protections because when polluters are allowed to pollute, regular people get sick and die.",
+          "snippet": "Defend environmental protections because when polluters are allowed to pollute, regular people get sick and die."
+        },
+        {
+          "topic": "Medicare Eligibility",
+          "value": "Lower the Medicare eligibility age from 65 to 62 — matching the earliest age a person can receive Social Security benefits.",
+          "snippet": "lower the Medicare eligibility age from 65 to 62 — matching the earliest age a person can receive Social Security benefits."
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Support campaign finance reform and overturning Citizens United.",
+          "snippet": "campaign finance reform, overturning Citizens United"
+        },
+        {
+          "topic": "Healthcare Monopolies",
+          "value": "Support the Break Up Big Medicine Act of 2026, which would rein in monopolistic structures and restore competition to the healthcare marketplace.",
+          "snippet": "Maria supports the Break Up Big Medicine Act of 2026, which would rein in these monopolistic structures and restore competition to the healthcare marketplace."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Maria_Jukic",
+      "_platform_resolved_at": "2026-09-03T16:13:07.714Z",
       "campaign_site_url": "https://www.mariajukicforcongress.com",
       "_campaign_site_reachability": "blocked_other",
       "_campaign_site_discovered_at": "2026-09-01T01:21:36.030Z",
@@ -762,8 +882,17 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:07:36.851Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076455.pdf",
+        "filingDate": "5/4/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:13:15.816Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": true

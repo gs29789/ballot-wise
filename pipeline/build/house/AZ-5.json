@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-18T19:56:33.909Z",
+  "generated_at": "2026-09-03T15:30:25.177Z",
   "election_dates": {
     "primaryDate": "2026-07-21",
     "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3285.8
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3283.2
+        "thousandsOfJobs": 3283.5
       },
       {
         "year": "2026",
@@ -473,7 +483,7 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3246133145.22,
+        "totalUsd": 3246133463.79,
         "perCapitaUsd": 4059.85
       },
       {
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 3619302414.08,
-        "perCapitaUsd": 4526.56
+        "totalUsd": 3619324484.08,
+        "perCapitaUsd": 4526.59
       }
     ],
     "population": [
@@ -559,27 +569,35 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://marklambforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:22.820Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:35.396Z",
       "platform_video_tier": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:33:28.710Z",
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Mark Lamb (born July 14, 1972) [ 1 ] is an American law enforcement officer and politician who served as sheriff of Pinal County, Arizona , from January 1, 2017 until December 31, 2024. [ 2 ] He is a member of the Republican Party . Lamb previously served in the Salt River Pima–Maricopa Indian Community police department. [ 3 ] He is a member of the Church of Jesus Christ of Latter-day Saints . [ 4 ] Lamb was born in Hawaii and lived in many different places during his childhood. After graduating from Chandler High School in Arizona, Lamb moved to Utah to start a paintball business - it later went into bankruptcy . He then worked in pest control . He began his career as a sheriff working for the police department of the Salt River Pima–Maricopa Indian Community for six years, before joining a county sheriff's office.",
         "source_url": "https://en.wikipedia.org/wiki/Mark_Lamb_(sheriff)",
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T00:10:05.484Z",
-      "campaign_site_url": "https://marklambforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:22.820Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072832.pdf",
+        "filingDate": "12/17/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:30:01.039Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "elizabeth-lee",
@@ -637,25 +655,35 @@
       ],
       "platform_source_url": "https://www.nurselee4az.com/",
       "_platform_resolved_at": "2026-08-11T11:50:12.870Z",
+      "campaign_site_url": "https://www.nurselee4az.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:22.816Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:35.807Z",
       "bio_summary": {
         "value": "Elizabeth Lee is the leader Washington needs because she brings real-world experience solving the problems people actually face. She’s building a people-powered campaign rooted in accountability and results, with one clear commitment: to fight for working families and deliver solutions that improve lives.",
-        "source_url": "https://www.nurselee4az.com/"
+        "source_url": "https://www.nurselee4az.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:42:11.744Z",
-      "platform_video_tier": null,
-      "campaign_site_url": "https://www.nurselee4az.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:22.816Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079968.pdf",
+        "filingDate": "6/6/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:30:05.218Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     }
   ]
 }

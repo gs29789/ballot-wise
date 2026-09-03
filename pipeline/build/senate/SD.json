@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-17T16:20:56.916Z",
+  "generated_at": "2026-09-03T15:06:30.563Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://sdlegislature.gov/Statutes/12-2",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 471.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 471.5
+        "thousandsOfJobs": 471.4
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9977843390.4,
-        "perCapitaUsd": 11143.75
+        "totalUsd": 9978418194.58,
+        "perCapitaUsd": 11144.39
       },
       {
         "year": "2024",
-        "totalUsd": 11064185693.86,
-        "perCapitaUsd": 12357.03
+        "totalUsd": 11066695156.66,
+        "perCapitaUsd": 12359.83
       },
       {
         "year": "2025",
-        "totalUsd": 12007628105.47,
-        "perCapitaUsd": 13410.71
+        "totalUsd": 12010539042.74,
+        "perCapitaUsd": 13413.96
       }
     ],
     "population": [
@@ -546,23 +556,60 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Veteran Care",
+          "value": "Support improving veteran care and ensuring the VA system is fully funded and protected from privatization",
+          "snippet": "I am passionate about improving veteran care and ensuring our VA system is fully funded and protected from privatization."
+        },
+        {
+          "topic": "Labor Protections",
+          "value": "Support strong labor protections, including the right to organize and collectively bargain, and ensuring federal workers are treated with respect and fairness",
+          "snippet": "I support strong labor protections, including the right to organize and collectively bargain, and will work to ensure federal workers are treated with respect and fairness."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Support expanding access to affordable healthcare, especially in rural areas",
+          "snippet": "I care deeply about public safety, infrastructure, and expanding access to affordable healthcare, especially in rural areas."
+        },
+        {
+          "topic": "Department of Education",
+          "value": "Support securing all benefits offered by the Department of Education and preventing the dismantling of the department",
+          "snippet": "I also support securing all of the benefits offered by the Department of Education, including preventing the dismantling of the department."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Support term limits for Congress",
+          "snippet": "I support term limits for Congress. Public service should be about purpose, not permanence."
+        },
+        {
+          "topic": "Filibuster Reform",
+          "value": "If the filibuster prevents the Senate from addressing urgent national issues like voting rights or public safety reform, it must be reformed",
+          "snippet": "The filibuster is often used as a tool of obstruction, not deliberation. If it prevents the Senate from addressing urgent national issues, like voting rights or public safety reform, it must be reformed."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Julian_Beaudion",
+      "_platform_resolved_at": "2026-09-03T15:06:02.274Z",
+      "campaign_site_url": "https://www.julianforsd.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:25.030Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=oa3f40Pp5r8",
+      "platform_video_title": "The People's Table w/ Julian Beaudion",
+      "platform_video_source_url": "https://ballotpedia.org/Julian_Beaudion",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T15:06:03.889Z",
+      "bio_summary": {
+        "value": "The son of a nurse and a math teacher, former State Trooper and small-business owner Julian Beaudion is a practical problem-solver committed to building a safer, more prosperous South Dakota.",
+        "source_url": "https://www.julianforsd.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:42.476Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:30:12.122Z",
-      "bio_summary": {
-        "value": "The son of a nurse and a math teacher, former State Trooper and small-business owner Julian Beaudion is a practical problem-solver committed to building a safer, more prosperous South Dakota.",
-        "source_url": "https://www.julianforsd.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:32:42.476Z",
-      "campaign_site_url": "https://www.julianforsd.com/",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:25.030Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "brian-bengs",
@@ -633,20 +680,26 @@
       ],
       "platform_source_url": "https://bengsforsouthdakota.com/what-i-stand-for/",
       "_platform_resolved_at": "2026-08-17T16:20:31.846Z",
+      "campaign_site_url": "https://bengsforsouthdakota.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:04:48.713Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Brian Bengs grew up in a blue-collar family in rural northern Iowa. In high school he delivered newspapers every morning and detasseled corn in the summer. A member of his high school’s final graduating class, Brian enlisted in the U.S. Navy immediately after graduation. He first registered to vote (Independent) while assigned to the aircraft carrier USS Kitty Hawk (CV-63). At the end of his enlistment, he returned home and used the GI Bill to obtain a bachelor’s degree in history from Iowa State University where he met his wife of 30 years.",
+        "source_url": "https://bengsforsouthdakota.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:40.602Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-20T12:30:12.500Z",
-      "bio_summary": {
-        "value": "Brian Bengs grew up in a blue-collar family in rural northern Iowa. In high school he delivered newspapers every morning and detasseled corn in the summer. A member of his high school’s final graduating class, Brian enlisted in the U.S. Navy immediately after graduation. He first registered to vote (Independent) while assigned to the aircraft carrier USS Kitty Hawk (CV-63). At the end of his enlistment, he returned home and used the GI Bill to obtain a bachelor’s degree in history from Iowa State University where he met his wife of 30 years.",
-        "source_url": "https://bengsforsouthdakota.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:32:40.602Z",
-      "campaign_site_url": "https://bengsforsouthdakota.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:04:48.713Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": true
     },
     {
       "slug": "mike-rounds",
@@ -716,6 +769,21 @@
       ],
       "platform_source_url": "https://roundsforsenate.com/",
       "_platform_resolved_at": "2026-08-10T01:18:19.884Z",
+      "campaign_site_url": "https://www.roundsforsenate.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:25.035Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=hMtZ0i5_dpA",
+      "platform_video_title": "Rounds B-Roll",
+      "platform_video_source_url": "https://roundsforsenate.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T21:58:46.931Z",
+      "bio_summary": {
+        "value": "Mike Rounds has a clear and solid record of serving the people of South Dakota. From growing up in Pierre as the oldest of eleven to building a small business and working as Governor, Mike has always stayed true to the values that make South Dakota special. Today, working as a United States Senator, he focuses on keeping South Dakota strong, growing opportunities for families and protecting the freedoms we all cherish.",
+        "source_url": "https://roundsforsenate.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:32:35.149Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -776,7 +844,11 @@
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 210,
+          "votesCast": 206,
+          "attendanceRate": 0.9809523809523809
+        },
         "committees": [
           {
             "committee": "Senate Committee on Appropriations",
@@ -909,24 +981,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 68.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 74.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/R000605"
         }
       },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=hMtZ0i5_dpA",
-      "platform_video_title": "Rounds B-Roll",
-      "platform_video_source_url": "https://roundsforsenate.com/",
-      "_platform_video_resolved_at": "2026-08-18T21:58:46.931Z",
-      "bio_summary": {
-        "value": "Mike Rounds has a clear and solid record of serving the people of South Dakota. From growing up in Pierre as the oldest of eleven to building a small business and working as Governor, Mike has always stayed true to the values that make South Dakota special. Today, working as a United States Senator, he focuses on keeping South Dakota strong, growing opportunities for families and protecting the freedoms we all cherish.",
-        "source_url": "https://roundsforsenate.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:32:35.149Z",
-      "campaign_site_url": "https://www.roundsforsenate.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:25.035Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

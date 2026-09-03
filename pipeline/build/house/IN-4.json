@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-04",
-  "generated_at": "2026-09-02T10:29:51.089Z",
+  "generated_at": "2026-09-03T15:45:42.243Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://codes.findlaw.com/in/title-3-elections/in-code-sect-3-10-1-3/",
@@ -575,12 +575,18 @@
           "source_url": "https://en.wikipedia.org/wiki/Jim_Baird_(politician)",
           "snippet": "From 1974 to 1983, Baird served as a Purdue University extension agent for Putnam County. [ 15 ] Baird is the owner of Baird Family Farms, Triple Tree Enterprises, Inc. (a gas station operator in Crawfordsville ), and Indiana Home Care Plus of Greencastle, a home health agency. He previously worked as an animal nutritionist at Landmark Cooperative, a feed manufacturer, and as director of sales and nutrition at Agmax. Baird ran for Putnam County commissioner in 2006 and defeated the incumbent, Dennis O'Hair, in the primary. [ 16 ] He represented Marion Township , Greencastle Township , Madison Township , and Clinton Township . [ 17 ] He served as commissioner for the second district until his election to the State House in 2010.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "commissioner, Putnam County, Indiana, 2006-2010; member of the Indiana general assembly, 2010-2018",
+          "source_url": "https://history.house.gov/People/Listing/B/BAIRD,-James-(B001307)/",
+          "snippet": "commissioner, Putnam County, Ind., 2006-2010; member of the Indiana general assembly, 2010-2018",
+          "source_type": "llm_extracted_house_historian"
         }
       },
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "campaign_site_url": "https://www.electjimbaird.com",
+      "campaign_site_url": null,
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T23:57:08.726Z",
       "platform_video_url": null,
@@ -595,11 +601,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T00:57:14.435Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078375.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T15:45:32.672Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 259,
+          "attendanceRate": 0.8779661016949153
+        },
         "committees": [
           {
             "committee": "House Committee on Science, Space, and Technology",
@@ -674,8 +744,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/B001307"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:17.091Z"
+      "_curated_match": false
     },
     {
       "slug": "david-bokash",
@@ -769,8 +838,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:17.615Z"
+      "_curated_match": false
     },
     {
       "slug": "drew-cox",
@@ -854,7 +922,7 @@
       "platform_video_title": "PIN Virtual Town Hall with Drew Cox for Congress",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "platform_video_source_type": null,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-09-02T12:00:18.022Z",
       "bio_summary": {
         "value": "My name is Drew Cox, and I’m running to represent Indiana’s Fourth District in Congress. I’m a lifelong Hoosier and veteran raised by a farmer and public schoolteacher, and I’m committed to delivering the policies that serve Indiana’s residents instead of corporate interests.",
@@ -866,8 +934,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:18.022Z"
+      "_curated_match": false
     }
   ]
 }

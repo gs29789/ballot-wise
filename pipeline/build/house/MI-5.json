@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-31T23:15:06.635Z",
+  "generated_at": "2026-09-03T15:23:07.865Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -493,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 459264460.53,
-        "perCapitaUsd": 600.46
+        "totalUsd": 459459032.7,
+        "perCapitaUsd": 600.71
       }
     ],
     "population": [
@@ -555,8 +555,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:06.569Z"
+      "_curated_match": false
     },
     {
       "slug": "christian-vukasovich",
@@ -587,9 +586,50 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Economy and Labor",
+          "value": "Fighting to raise wages, protect good union jobs, and invest in local manufacturing and infrastructure.",
+          "snippet": "Fighting to raise wages, protect good union jobs, and invest in local manufacturing and infrastructure"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Lowering prescription drug costs, protect coverage for people with preexisting conditions, and expand access to doctors and hospitals in rural and small-town communities.",
+          "snippet": "Lowering prescription drug costs, protect coverage for people with preexisting conditions, and expand access to doctors and hospitals in rural and small-town communities."
+        },
+        {
+          "topic": "Antitrust and Fair Competition",
+          "value": "Taking on the monopolies by enforcing antitrust laws and ensure companies compete fairly so our communities can thrive.",
+          "snippet": "Taking on the monopolies by enforcing antitrust laws and ensure companies compete fairly so our communities can thrive."
+        },
+        {
+          "topic": "Housing",
+          "value": "Advancing policies that help build and preserve affordable homes, and offer first-time buyers the help they need.",
+          "snippet": "Advancing policies that help build and preserve affordable homes, and offer first-time buyers the help they need."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Strengthening family farms by stopping large agribusinesses from driving down prices, investing in local food processing and distribution, and expanding crop insurance and disaster relief.",
+          "snippet": "Strengthening family farms by stopping large agribusinesses from driving down prices, investing in local food processing and distribution, and expanding crop insurance and disaster relief."
+        },
+        {
+          "topic": "Civil Rights",
+          "value": "Defending the right to vote, due process, and equal treatment under the law.",
+          "snippet": "Defending the right to vote, due process, and equal treatment under the law."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Fighting for every veteran to have access to the care, opportunity, and respect they deserve by strengthening the VA, improving mental health care, and expanding job training and housing support.",
+          "snippet": "Fighting for every veteran to have access to the care, opportunity, and respect they deserve by strengthening the VA, improving mental health care, and expanding job training and housing support."
+        },
+        {
+          "topic": "Education",
+          "value": "Pushing to expand pre-K for every family, make community college and trade schools tuition-free, and pay our teachers what they are worth.",
+          "snippet": "Pushing to expand pre-K for every family, make community college and trade schools tuition-free, and pay our teachers what they are worth."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Christian_Vukasovich",
+      "_platform_resolved_at": "2026-09-03T15:22:42.030Z",
       "campaign_site_url": "https://christian4michigan.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
@@ -609,8 +649,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:06.955Z"
+      "_curated_match": false
     },
     {
       "slug": "timothy-walberg",
@@ -721,61 +760,61 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
         {
-          "rollNumber": 283,
+          "rollNumber": 295,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
         },
         {
-          "rollNumber": 282,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
-        },
-        {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 294,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 293,
           "year": 2026,
-          "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
           "result": "Failed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 281,
-          "attendanceRate": 0.9929328621908127
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
         },
         "committees": [
           {
@@ -800,7 +839,7 @@
           }
         ],
         "bills_sponsored": 225,
-        "bills_cosponsored": 2120,
+        "bills_cosponsored": 2125,
         "bills_became_law": 5,
         "enacted_laws": [
           {
@@ -857,13 +896,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 46,
-          "snapshotDate": "June 30, 2026",
+          "score": 45.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000798"
         }
       },
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:07.448Z"
+      "_curated_match": true
     }
   ]
 }

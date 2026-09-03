@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-28",
-  "generated_at": "2026-09-02T12:17:14.012Z",
+  "generated_at": "2026-09-03T16:42:40.594Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -589,18 +589,157 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Border Wall Opposition",
+          "value": "Opposed the funding of a wall at the border",
+          "snippet": "opposed the funding of a wall at the border",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833"
+        },
+        {
+          "topic": "Immigration Detention Oversight",
+          "value": "Has passed measures which increase both transparency and oversight of immigration detention centers",
+          "snippet": "he has passed measures which increase both transparency and oversight of immigration detention centers",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833"
+        },
+        {
+          "topic": "Education Funding",
+          "value": "Committed to investing in schools, teachers, and students",
+          "snippet": "Congressman Cuellar is committed to investing in schools, teachers, and students today for the future of America.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=45897"
+        },
+        {
+          "topic": "Public Schools",
+          "value": "Ensure ample funding for underrepresented public schools, protecting low-income and at-risk students",
+          "snippet": "He continues to ensure ample funding for underrepresented public schools, protecting low-income and at-risk students",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=45897"
+        },
+        {
+          "topic": "Higher Education Partnerships",
+          "value": "Establish partnerships with higher education institutions, including Hispanic Serving Institutions (HSIs), Historically Black Colleges and Universities (HBCUs), and other minority serving institutions",
+          "snippet": "he secured language that helps establish partnerships with higher education institutions, including Hispanic Serving Institutions (HSIs), Historically Black Colleges and Universities (HBCUs), and other minority serving institutions.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=45897"
+        },
+        {
+          "topic": "Domestic Energy Production",
+          "value": "Supports domestic energy as a means to support U.S. energy and economic independence, and believes Congress must continue making investments in all forms of domestic energy production, including oil, natural gas, wind, solar and other alternative energy fuels",
+          "snippet": "Congressman Cuellar supports domestic energy as a means to support U.S. energy and economic independence. By balancing our energy needs with the availability of domestic resources, we can help minimize global environmental impact and maximize American self-sufficiency. Congressman Cuellar believes the U.S. has numerous domestic energy resources which can be better utilized, and Congress must continue making investments in all forms of domestic energy production, including oil, natural gas, wind, solar and other alternative energy fuels.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3998"
+        },
+        {
+          "topic": "Defense Spending Oversight",
+          "value": "Committed to allocating hard-earned taxpayer dollars efficiently, and holding the Department of Defense to a high standard in overseeing how those funds are spent",
+          "snippet": "Congressman Cuellar has committed himself to allocating hard-earned taxpayer dollars efficiently, and holding the Department of Defense to a high standard in overseeing how those funds are spent",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=116660"
+        },
+        {
+          "topic": "Military Education for Minorities",
+          "value": "Strongly supports educational opportunities for Minority and Hispanic students within the military and believes the U.S. must increase the science and math educational programs offered to these students",
+          "snippet": "Congressman Cuellar also strongly supports educational opportunities for Minority and Hispanic students within the military. He believes the U.S. must increase the science and math educational programs offered to these students.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=116660"
+        },
+        {
+          "topic": "Military Healthcare",
+          "value": "Focused on the health needs of military members to ensure they have the care they deserve",
+          "snippet": "He is focused on the health needs of military members to ensure they have the care they deserve",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=116660"
+        },
+        {
+          "topic": "Community Health Centers",
+          "value": "Strong supporter of community health clinics and medical centers that deliver health care, primary care and preventative care",
+          "snippet": "He is a strong supporter of our community health clinics and those medical centers which play a vital role in delivering health care, primary care and preventative care to our region.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3834"
+        },
+        {
+          "topic": "Health Care Coverage Expansion",
+          "value": "Champion for the expansion of health care coverage throughout the district, especially in underserved colonia areas along the border",
+          "snippet": "Congressman Cuellar has been a champion for the expansion of health care coverage throughout his district, especially in underserved colonia areas along the border.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3834"
+        },
+        {
+          "topic": "Medicare",
+          "value": "Committed to strengthening Medicare for seniors and ensuring the federal government honors that obligation",
+          "snippet": "Congressman Cuellar is committed to strengthening Medicare for our seniors and seeing that the federal government honors that obligation.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3834"
+        },
+        {
+          "topic": "Deficit Reduction",
+          "value": "Dedicated to reducing the nation's deficit through increasing Congressional federal spending oversight and reforming trade and transport regulatory policies",
+          "snippet": "Congressman Cuellar is dedicated to reducing the nation's deficit through increasing Congressional federal spending oversight and reforming trade and transport regulatory policies.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=9903"
+        },
+        {
+          "topic": "Free Trade Agreements",
+          "value": "Supports the Central American Free Trade Agreement and the North American Free Trade Agreement",
+          "snippet": "his support for the Central American Free Trade Agreement and the North American Free Trade Agreement.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=9903"
+        },
+        {
+          "topic": "Banking and Loan Regulation",
+          "value": "Believes in thoughtful banking and loan regulatory policies that are tailored to exclude unnecessarily constraining small financial institutions from supplying funding to his district",
+          "snippet": "Congressman Cuellar believes in thoughtful banking and loan regulatory policies that are tailored to exclude unnecessarily constraining small financial institutions from supplying funding to his district.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=9903"
+        },
+        {
+          "topic": "GI Bill and Veterans Healthcare",
+          "value": "Has worked to upgrade the GI Bill, increase funding for veteran health services, introduce caregiver support measures, and revitalize the VA Home Loan program",
+          "snippet": "He has worked to upgrade the GI Bill, increase funding for veteran health services, introduce caregiver support measures, and revitalize the VA Home Loan program.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3827"
+        },
+        {
+          "topic": "Veterans Affairs Funding",
+          "value": "Helped secure over $108 billion in discretionary funding for the Department of Veterans Affairs, an increase of $7.8 billion over the fiscal year 2019 enacted level, including funding to increase access to services and increase oversight and accountability",
+          "snippet": "the Congressman has helped secure over $108 billion in discretionary funding for the Department of Veterans Affairs (VA), an increase of $7.8 billion – nine percent – over the fiscal year 2019 enacted level. This includes funding to increase access to services for veterans, and to increase oversight and accountability within the department.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3827"
+        },
+        {
+          "topic": "Transportation Infrastructure Funding",
+          "value": "He continues to work in Congress to secure necessary federal funding to complete numerous critical projects across South Texas.",
+          "snippet": "He continues to work in Congress to secure necessary federal funding to complete numerous critical projects across South Texas.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3828"
+        },
+        {
+          "topic": "Border Cargo Automation",
+          "value": "The Congressman has sought to allow for automated pre-screening and inspection data collection of U.S.-bound cargo earlier in the supply chain. At the border, he is funding the automatization certain functions allowing CBP Officers to focus inspection skills on high-risk enforcement, security and compliance shipments.",
+          "snippet": "The Congressman has sought to allow for automated pre-screening and inspection data collection of U.S.-bound cargo earlier in the supply chain. At the border, he is funding the automatization certain functions allowing CBP Officers to focus inspection skills on high-risk enforcement, security and compliance shipments.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3828"
+        },
+        {
+          "topic": "Border Inspection Technology",
+          "value": "This includes integrating technologies such as robust WIFI capability, Radio Frequency Identification Devices (RFID), drive through multi-energy truck portal X-ray systems and other CBP cargo processing systems into a common software package, and include modern traffic control queueing systems.",
+          "snippet": "This includes integrating technologies such as robust WIFI capability, Radio Frequency Identification Devices (RFID), drive through multi-energy truck portal X-ray systems and other CBP cargo processing systems into a common software package, and include modern traffic control queueing systems.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3828"
+        },
+        {
+          "topic": "Government Transparency and Accountability",
+          "value": "Champion for government transparency and accountability, authoring and passing measures in Congress reforming federal agency procedures and eliminating bureaucratic redundancy",
+          "snippet": "His legislative priorities have made him a champion for government transparency and accountability, authoring and passing measures in Congress reforming federal agency procedures and eliminating bureaucratic redundancy.",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=4813"
+        },
+        {
+          "topic": "Border Security Infrastructure",
+          "value": "Introduced modernizing land ports of entry and our security infrastructure, bolstering U.S. Border Patrol vehicles and checkpoints, and increasing border patrol agent salaries to reduce attrition",
+          "snippet": "the Congressman introduced more effective alternatives, such as modernizing land ports of entry and our security infrastructure, bolstering U.S. Border Patrol vehicles and checkpoints, and increasing border patrol agent salaries to reduce attrition",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833"
+        },
+        {
+          "topic": "Federal-State-Local Law Enforcement Coordination",
+          "value": "Believes in coordinating the efforts of federal, state and local law enforcement agencies to better protect our southwest border and respond to evolving threats and violence associated with drug and human trafficking, weapons smuggling, terrorism, arms trades, illegal cash flow, and contraband movement",
+          "snippet": "Congressman Cuellar believes in coordinating the efforts of federal, state and local law enforcement agencies to better protect our southwest border and respond to evolving threats and violence associated with drug and human trafficking, weapons smuggling, terrorism, arms trades, illegal cash flow, and contraband movement across our nation's borders",
+          "source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833"
+        }
+      ],
+      "platform_source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833",
+      "_platform_resolved_at": "2026-09-03T16:42:30.088Z",
       "campaign_site_url": "https://www.henrycuellar.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=feP-LVyJFzw",
+      "platform_video_title": "Rep. Cuellar Honors Fallen Officers During National Police Week",
+      "platform_video_source_url": "https://cuellar.house.gov/issues/issue/?IssueID=3833",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T16:42:31.103Z",
       "bio_summary": {
         "value": "Enrique Roberto \"Henry\" Cuellar [ 1 ] ( / ˈ k w eɪ . ɑː r / KWAY -ar ; born September 19, 1955) [ 2 ] is an American politician and attorney serving as the U.S. representative for Texas's 28th congressional district since 2005. He is a member of the Democratic Party , and his district spans from the Rio Grande toward the suburbs of San Antonio . Cuellar served in the Texas House of Representatives for 14 years, from 1987 to 2001, and briefly served as the Texas secretary of state in 2001, making him, as of 2026, the most recent Democrat to have held a statewide office in Texas. Cuellar was first elected to Congress in 2004 , after defeating incumbent Ciro Rodriguez in a primary challenge. Known as a leading centrist Democrat, [ 3 ] [ 4 ] [ 5 ] he is one of the most conservative House Democrats . [ 6 ] [ 7 ] [ 8 ] ",
         "source_url": "https://en.wikipedia.org/wiki/Henry_Cuellar",
@@ -618,9 +757,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-14T18:54:16.693Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 288,
+          "attendanceRate": 0.976271186440678
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -644,7 +838,7 @@
           }
         ],
         "bills_sponsored": 124,
-        "bills_cosponsored": 2504,
+        "bills_cosponsored": 2505,
         "bills_became_law": 16,
         "enacted_laws": [
           {

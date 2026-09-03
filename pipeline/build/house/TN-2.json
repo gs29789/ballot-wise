@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-09-01T03:05:32.780Z",
+  "generated_at": "2026-09-03T17:26:51.169Z",
   "election_dates": {
     "primaryDate": "2026-08-06",
     "primarySourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
@@ -483,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4167755806.75,
-        "perCapitaUsd": 5449.01
+        "totalUsd": 4167534392.75,
+        "perCapitaUsd": 5448.72
       },
       {
         "year": "2024",
-        "totalUsd": 5259044056.52,
-        "perCapitaUsd": 6850.55
+        "totalUsd": 5259170131.81,
+        "perCapitaUsd": 6850.71
       },
       {
         "year": "2025",
-        "totalUsd": 4697352643.79,
-        "perCapitaUsd": 6141.41
+        "totalUsd": 4697463994.35,
+        "perCapitaUsd": 6141.56
       }
     ],
     "population": [
@@ -593,7 +593,7 @@
       "platform_video_title": "Let's Put Hope To Work - Michaela Barnett's Launch Speech",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "platform_video_source_type": null,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-09-01T12:00:13.101Z",
       "bio_summary": {
         "value": "Michaela Barnett is a local small business owner and an engineer who spent the last year working in Congress. She learned the value of a hard day’s work early on, doing barn chores before and after school. Michaela knows firsthand what it means to make payroll, care for the land, and solve problems.",
@@ -605,8 +605,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:13.101Z"
+      "_curated_match": false
     },
     {
       "slug": "tim-burchett",
@@ -689,7 +688,7 @@
       ],
       "platform_source_url": "https://burchettforcongress.com/",
       "_platform_resolved_at": "2026-08-14T17:46:31.677Z",
-      "campaign_site_url": null,
+      "campaign_site_url": "https://burchettforcongress.com/",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": null,
       "platform_video_url": null,
@@ -759,11 +758,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 265,
-          "votesCast": 261,
-          "attendanceRate": 0.9849056603773585
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Transportation and Infrastructure",
@@ -816,8 +811,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 148,
-        "bills_cosponsored": 796,
+        "bills_sponsored": 149,
+        "bills_cosponsored": 800,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -828,13 +823,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 28.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 26.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/B001309"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:13.535Z"
+      "_curated_match": false
     },
     {
       "slug": "adam-heimerman",
@@ -855,6 +849,12 @@
           "value": "Small business owner",
           "source_url": "https://ballotpedia.org/Adam_Heimerman",
           "snippet": "Heimerman's career experience includes working as a small business owner."
+        },
+        "birthplace": {
+          "value": "East Tennessee",
+          "source_url": "https://www.vote4heimerman.com/",
+          "snippet": "Adam Lee Heimerman is a 7th generation East Tennessean",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -940,8 +940,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-01T12:00:14.010Z"
+      "_curated_match": false
     }
   ]
 }
