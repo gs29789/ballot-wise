@@ -1,0 +1,76 @@
+# bobbypulidofortexas.com sits behind a Cloudflare human-verification
+# challenge, so the pipeline could never read it. The text below was read
+# off the live site by a person and quoted verbatim, same quote-anchored
+# rule llmExtract.ts enforces on an automated pass: every `value` is
+# traceable to its own `snippet`, nothing inferred.
+#
+# One paragraph of the healthcare section attacks the current TX-15
+# incumbent's vote on the "big beautiful bill". That is campaign argument
+# about an opponent, not a statement of Pulido's own platform, so it is
+# not recorded here -- same treatment given Luria's material on Kiggans.
+# The pledge that follows it ("I will never vote against South Texas
+# families...") IS his own commitment and is kept.
+#
+# Covers the six sections of the English platform page. The site also
+# offers a Spanish version ("Ver en Español"); nothing here is translated
+# -- every snippet is the English original as published.
+# He had no bio_summary at all before this. Quoted as one contiguous
+# verbatim span from the site's "Meet Bobby" page.
+bio_summary:
+  value: "Bobby Pulido was born and raised in Edinburg, Texas, where he still lives today with his wife. He is the proud father of four sons, raising his family in the same community that shaped him. The son of a farmworker-turned-musician, Bobby grew up surrounded by the values that define South Texas: hard work, humility, family, and faith.\n\nAfter graduating from Edinburg High School, Bobby studied political science before pursuing a music career that would make him one of Tejano’s most recognized voices. For nearly three decades, he traveled the world performing, but his heart has always remained in the Rio Grande Valley.\n\nBeyond the stage, Bobby built a life as a small business owner, signing paychecks, balancing budgets, and navigating the challenges that so many Valley entrepreneurs face."
+  source_url: "https://www.bobbypulidofortexas.com/"
+  source_type: campaign_site
+
+platform_source_url: "https://www.bobbypulidofortexas.com/"
+platform:
+  - topic: "Cost of Living"
+    value: "Frames the economy in terms of everyday costs in the Valley and South Texas rather than financial markets, including families choosing between rent and health insurance"
+    snippet: "In the Valley and across South Texas, the economy we care about is not a bunch of numbers and letters flashing on a board on Wall Street. It’s in our pockets, at the pump, in the grocery store when we buy fajitas, milk and eggs – and for some it’s when they have to choose between paying the rent or for their health insurance."
+  - topic: "Corporate Price Increases"
+    value: "Would stand up to large corporations he says have raised prices on Americans already struggling to afford basic necessities"
+    snippet: "I will stand up to the big greedy corporations that have been raising prices on Americans who are already struggling to pay for basic necessities."
+  - topic: "Small Business"
+    value: "Would cut regulation he describes as strangling small businesses, which he calls the heart of the South Texas economy"
+    snippet: "I will also focus on cutting the red tape that strangles small businesses because down here the heart of our economy is driven by small local businesses, working families and entrepreneurs."
+  - topic: "Jobs & Workforce Training"
+    value: "Would invest in skills and apprenticeships and support creation of higher-wage jobs that keep local talent in South Texas"
+    snippet: "I think it’s about time we reward their hard work, invest in skills and apprenticeships, and support the creation of higher-wage jobs that keep our talent right here at home building the South Texas economy."
+  - topic: "Agriculture"
+    value: "Supports agricultural policy protecting natural resources and rural families, and calls protecting farmers and ranchers a matter of national security"
+    snippet: "I believe in strong, commonsense agricultural policy that protects our natural resources, supports rural families, and keeps safe, affordable, American-grown food on every table. Protecting farmers and ranchers is good economics, but it’s also a matter of national security."
+  - topic: "Tariffs & Trade"
+    value: "Says tariffs and trade wars are driving up costs and closing off opportunities for farm families, and that farmers need fair and open trade"
+    snippet: "Our farmers and ranchers don’t want handouts, but they do need fair markets, fair and open trade, and the freedom to do what they do best.\n\nTariffs and trade wars are driving up costs and closing off opportunities, leaving too many of our families struggling to keep up."
+  - topic: "Border Security"
+    value: "Wants a secure border as a policy that does not change with the party in power, and removal of violent criminals in the country illegally"
+    snippet: "Our goal as a country should be to have a secure border – a policy that should not change based on what president or party is in charge – and we have to go after the violent criminals that are here illegally and get them out of our country."
+  - topic: "Immigration Enforcement & Families"
+    value: "Says the border can be secured without destroying families and the local economy, and would target fentanyl and cartel drug supply lines more effectively"
+    snippet: "I believe we can secure the border without destroying families and our local economy in the process. We can more effectively attack the flow of fentanyl and other cartel driven drug supply lines into our country."
+  - topic: "Path to Legalization"
+    value: "Supports more vetting hubs in Central America and a more fair and reasonable path to legalization, citing employers' need for a reliable workforce"
+    snippet: "We can and should have more vetting hubs in Central America to help bring order to migration as we create a more fair and reasonable path to legalization for those who want to come here to contribute – because American businesses need a reliable workforce."
+  - topic: "Medicare"
+    value: "Calls Medicare a promise and a critical safety net that must be kept and strengthened, like Social Security"
+    snippet: "For starters, I believe that, like Social Security, Medicare is a promise and a critical safety net that we have to keep and make stronger."
+  - topic: "Health Care & Drug Costs"
+    value: "Would bring down costs by negotiating better returns on what is spent on healthcare and prescription drugs"
+    snippet: "We also need real leadership not more political rhetoric if we are ever going to succeed in bringing down costs by negotiating better returns for what we spend on healthcare and prescription drugs."
+  - topic: "Rural Hospitals"
+    value: "Says healthcare costs are crushing families and rural hospitals are in danger of closing, and that how affordable care is provided must be rethought"
+    snippet: "The truth is that today, healthcare costs are crushing families and in rural areas all across the country hospitals are in danger of having to close their doors. We have to rethink how we provide actually affordable healthcare to more people."
+  - topic: "Party Independence"
+    value: "Pledges never to vote against South Texas families because his party or anyone else tells him to"
+    snippet: "I will never vote against South Texas families just because my party or anyone else tells me to."
+  - topic: "School Vouchers"
+    value: "Opposes voucher schemes that drain money from public classrooms and send it to private schools"
+    snippet: "I believe strong public schools are critical to the success of South Texas. That’s why I oppose voucher schemes that drain money from our classrooms and send it to private schools."
+  - topic: "Teacher Pay & Class Size"
+    value: "Would focus on better teacher pay, reducing classroom overcrowding, and investing in skills training"
+    snippet: "That’s why I will focus on making sure teachers get paid better for educating our sons and daughters, on reducing classroom overcrowding, and investing in skills training so every student is prepared to do the jobs of tomorrow or to create the businesses that will take our South Texas economy into the future."
+  - topic: "Water Infrastructure"
+    value: "Would fight for investments in desalination, modern irrigation and infrastructure to secure the Valley's water supply"
+    snippet: "We need to fight for bold investments in desalination, modern irrigation and infrastructure to secure the water we need for decades to come."
+  - topic: "Water Treaty with Mexico"
+    value: "Would hold Mexico accountable for water treaty obligations and build a regional strategy prioritizing South Texas families and farmers"
+    snippet: "I’ll fight to hold Mexico accountable for water treaty obligations and build a regional strategy that prioritizes South Texas families and farmers. If we can’t secure our water, we can’t secure the Valley’s future."
