@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-08-17T00:37:47.742Z",
+  "generated_at": "2026-09-03T08:56:59.963Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
@@ -27,8 +27,13 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "June",
+        "month": "July",
         "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
       },
       {
         "year": "2026",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4232.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4243.7
+        "thousandsOfJobs": 4241.8
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 27347828953.67,
+        "totalUsd": 27347830991.73,
         "perCapitaUsd": 35499.51
       },
       {
         "year": "2024",
-        "totalUsd": 31113969646.71,
-        "perCapitaUsd": 40388.24
+        "totalUsd": 31105266281.06,
+        "perCapitaUsd": 40376.94
       },
       {
         "year": "2025",
-        "totalUsd": 31989449392.83,
-        "perCapitaUsd": 41524.68
+        "totalUsd": 31999058188.29,
+        "perCapitaUsd": 41537.15
       }
     ],
     "population": [
@@ -530,15 +540,22 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:11.695Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:26.696Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:56.125Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T23:03:11.695Z"
+      "_curated_match": false
     },
     {
       "slug": "jennifer-kiggans",
@@ -644,65 +661,89 @@
       ],
       "platform_source_url": "https://jenforcongress.com/",
       "_platform_resolved_at": "2026-08-14T12:37:13.060Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "campaign_site_url": "https://www.jenforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:11.693Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=PrZb75W1gOU",
+      "platform_video_title": "Jen Kiggans for Congress - 2022",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-24T12:00:26.959Z",
+      "bio_summary": {
+        "value": "Jen Kiggans for Congress Bringing the Courage to Fight to Washington",
+        "source_url": "https://jenforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:08.705Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10079859.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T08:56:22.606Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
+          "rollNumber": 294,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
         },
         {
-          "rollNumber": 282,
+          "rollNumber": 293,
           "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
         },
         {
-          "rollNumber": 281,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 216,
-          "votesCast": 212,
-          "attendanceRate": 0.9814814814814815
+          "votesInSession": 294,
+          "votesCast": 290,
+          "attendanceRate": 0.9863945578231292
         },
         "committees": [
           {
@@ -756,8 +797,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 82,
-        "bills_cosponsored": 691,
+        "bills_sponsored": 83,
+        "bills_cosponsored": 696,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -779,25 +820,11 @@
         "bridge_score": {
           "grade": "A",
           "score": 99.3,
-          "snapshotDate": "June 30, 2026",
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/K000399"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Jen Kiggans for Congress Bringing the Courage to Fight to Washington",
-        "source_url": "https://jenforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:59:08.705Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:26.959Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=PrZb75W1gOU",
-      "platform_video_title": "Jen Kiggans for Congress - 2022",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-24T12:00:26.959Z",
-      "campaign_site_url": "https://www.jenforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T23:03:11.693Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "elaine-luria",
@@ -855,19 +882,118 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:27.281Z",
+      "platform": [
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Supports banning members of Congress and their families from trading individual stocks while holding office",
+          "snippet": "I support banning members of Congress and their families from trading individual stocks while holding office."
+        },
+        {
+          "topic": "Prediction Market Insider Trading",
+          "value": "Would bar members of Congress, staff, executive branch employees and political appointees from using nonpublic information to trade prediction market contracts on political or policy outcomes",
+          "snippet": "Members of Congress, congressional staff, executive branch employees, and political appointees should not use nonpublic information to buy, sell, or exchange prediction market contracts related to political outcomes or government policy."
+        },
+        {
+          "topic": "Penalties for Misusing Taxpayer Funds",
+          "value": "Believes members who steal taxpayer funds, including blatant tax evasion, should serve mandatory jail time and be expelled from Congress",
+          "snippet": "I believe that members who steal taxpayer funds, including blatant tax evasion, should serve mandatory jail time and be expelled from Congress. No questions asked."
+        },
+        {
+          "topic": "Campaign Finance & Citizens United",
+          "value": "Supported legislation to overturn Citizens United and would continue to fight for the For the People Act",
+          "snippet": "I was proud to support legislation that overturns the disastrous Citizens United decision when in Congress, and I will continue to fight for the For the People Act to restore fairness and power back to the people."
+        },
+        {
+          "topic": "Presidential Pardons",
+          "value": "Says politicians in both parties have abused the pardon system for family and well-connected donors, and would reform it so money and connections don't get special treatment",
+          "snippet": "Politicians from both parties have abused the pardon system to reward their families and wealthy and well-connected donors with political favors."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Frames rising costs for gas, groceries, prescriptions, housing and childcare as the central squeeze on Hampton Roads families",
+          "snippet": "From gas and grocery prices to prescription drug costs, housing, and childcare, the rising cost of living continue to squeeze Virginians."
+        },
+        {
+          "topic": "Health Care & Prescription Drugs",
+          "value": "Would strengthen the ACA, reinstate ACA tax credits, expand access to care, cut prescription drug prices, and fund Medicaid and Medicare",
+          "snippet": "I will continue to build on the progress we made in Congress to strengthen the ACA, reinstate the ACA tax credits that helped lower costs for middle class families, expand access to health care, cut prescription drug prices, and ensure Medicaid and Medicare are properly funded."
+        },
+        {
+          "topic": "Prescription Drug Record",
+          "value": "Voted to cut prescription drug costs, cap seniors' out-of-pocket expenses, and cap insulin at $35 a month for seniors",
+          "snippet": "I also proudly voted to stand up to Big Pharma and slash prescription drug costs, cap out of pocket expenses for seniors, and cap the price of insulin at $35 a month for seniors."
+        },
+        {
+          "topic": "Tariffs & Energy Costs",
+          "value": "Would serve as a check on Trump's decisions, fight to repeal the tariffs, and reverse policies that have increased energy costs",
+          "snippet": "In Congress, I will serve as a check on Trump’s bad decisions that are costing our families, fight to repeal the tariffs, and reverse legislation and policy decisions that have increased energy costs."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Served on the House Veterans' Affairs Committee and was instrumental in passing the PACT Act, and passed the Gold Star Families Act for tax relief",
+          "snippet": "In Congress, I served on the House Veterans’ Affairs Committee and was instrumental in passing the PACT Act–the largest expansion of veterans’ benefits in our lifetime. I also introduced and passed the Gold Star Families Act to provide tax relief for Gold Star families and championed legislation to provide three cost of living increases to veterans."
+        },
+        {
+          "topic": "Veterans Care Going Forward",
+          "value": "Would work to cut red tape in the VA system and ensure veterans get the care they need",
+          "snippet": "work to cut red tape in the VA system, and ensure that our veterans get the care they need and deserve."
+        },
+        {
+          "topic": "National Security & Military Readiness",
+          "value": "Championed legislation providing a troop pay raise, investing in warfighters, strengthening naval seapower, and deterring Russia, China and Iran",
+          "snippet": "I used my experience in the Navy to champion legislation in Congress that provided troops with a pay raise, invested in our warfighters, strengthened naval seapower, and led efforts to deter our enemies like Russia, China, and Iran."
+        },
+        {
+          "topic": "War in Iran",
+          "value": "Calls the war in Iran an unnecessary and endless military intervention that has left Americans no safer",
+          "snippet": "The war in Iran is another unnecessary and endless military intervention in the Middle East that is putting a strain on working families in Hampton Roads, and costing precious American lives and resources that should be spent here at home."
+        },
+        {
+          "topic": "Immigration & Border Security",
+          "value": "Supported comprehensive efforts to deter illegal immigration and strengthen border security while providing a pathway to citizenship for those who follow the law",
+          "snippet": "I was proud to support comprehensive efforts in Congress to deter illegal immigration and strengthen border security, while also providing a pathway to citizenship for those who follow our nation’s laws."
+        },
+        {
+          "topic": "Social Security & Medicare",
+          "value": "Would strengthen Medicare and Social Security and oppose cuts to those programs",
+          "snippet": "I will continue to advocate for strengthening Medicare and Social Security, stand firm against any efforts to gut seniors’ hard-earned benefits, and oppose cuts to these critical programs."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Voted to codify Roe v. Wade into law, protect the right to travel for abortion services, and ensure access to reproductive care without government interference",
+          "snippet": "In Congress, I voted to codify Roe v. Wade and enshrine the right to an abortion nationwide into law, protect the right to travel for abortion services, and ensure access to reproductive care without government interference."
+        },
+        {
+          "topic": "Reproductive Care for Servicemembers",
+          "value": "Says that as a veteran she will fight to protect reproductive care for servicemembers",
+          "snippet": "As a veteran, I will also fight to protect reproductive care for our servicemembers."
+        },
+        {
+          "topic": "Climate & Coastal Resilience",
+          "value": "Secured funding to mitigate sea-level rise, supported climate-resilient infrastructure, and founded the bipartisan Offshore Wind Caucus",
+          "snippet": "In Congress, I secured funding to mitigate the impacts of sea-level rise, supported legislation to invest in climate resilient infrastructure, and founded the bipartisan Offshore Wind Caucus."
+        },
+        {
+          "topic": "Chesapeake Bay",
+          "value": "Led legislation to secure $85 billion and fully fund the EPA's Chesapeake Bay Program",
+          "snippet": "I have also been a strong advocate for the Chesapeake Bay and led legislation to secure $85 billion and fully fund the EPA’s Chesapeake Bay Program, and ensure a clean and healthy Bay for our communities, economy, and way of life."
+        },
+        {
+          "topic": "Offshore Drilling",
+          "value": "Would fight against offshore drilling and work to restore the Chesapeake Bay and ensure clean air and water in Hampton Roads",
+          "snippet": "I will continue to lead efforts to combat climate change’s impact on our local community, fight against offshore drilling, restore the Chesapeake Bay, and ensure Hampton Roads has clean air and water."
+        }
+      ],
+      "platform_source_url": "https://elaineforcongress.com/",
+      "_platform_resolved_at": "2026-09-03T08:54:23.597Z",
+      "campaign_site_url": "https://elaineforcongress.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:11.694Z",
       "platform_video_url": "https://www.youtube.com/watch?v=XpdcqT72qpo",
       "platform_video_title": "Elaine for Congress: Fight for Virginia",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:27.282Z",
       "bio_summary": {
         "value": "Elaine Goodman Luria ( / ˈ l ʊ r i ə / ; LUUR -ee-ə ; born August 15, 1975) is an American politician and US Navy veteran who served as the U.S. representative from Virginia's 2nd congressional district from 2019 to 2023. Luria's congressional district included most of Hampton Roads , including all of Virginia Beach , Williamsburg , and Poquoson and parts of Norfolk and Hampton . Before running for Congress, she served as a naval officer for 20 years. Luria rose to the rank of commander and spent most of her career aboard ship. She narrowly defeated Republican incumbent Scott Taylor in 2018 and defeated him again in 2020 , before losing her bid for a third term to Republican Jen Kiggans in 2022 . ",
@@ -875,9 +1001,20 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:46:42.885Z",
-      "campaign_site_url": "https://elaineforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-31T23:03:11.694Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076971.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T08:56:25.687Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
     },
     {
       "slug": "geral-staten",
@@ -908,15 +1045,31 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:11.695Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/9116271.pdf",
+        "filingDate": "7/12/2026",
+        "hasReportableAssets": null,
+        "hasEarnedIncome": null,
+        "hasReportableLiabilities": null,
+        "hasReportablePositions": null,
+        "hasOutsideAgreements": null,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T08:56:38.465Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:27.631Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:54:58.919Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T23:03:11.695Z"
+      "_curated_match": true
     }
   ]
 }

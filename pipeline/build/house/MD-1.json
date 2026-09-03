@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-18T20:24:45.678Z",
+  "generated_at": "2026-09-03T08:50:11.847Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2815.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2803.9
+        "thousandsOfJobs": 2804.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 9648158961.06,
-        "perCapitaUsd": 12916.07
+        "totalUsd": 9648252661.06,
+        "perCapitaUsd": 12916.19
       },
       {
         "year": "2024",
-        "totalUsd": 10123327211.92,
-        "perCapitaUsd": 13552.18
+        "totalUsd": 10126806716.19,
+        "perCapitaUsd": 13556.84
       },
       {
         "year": "2025",
-        "totalUsd": 9261576612.25,
-        "perCapitaUsd": 12398.54
+        "totalUsd": 9266603869.54,
+        "perCapitaUsd": 12405.27
       }
     ],
     "population": [
@@ -574,6 +584,12 @@
           "source_url": "https://history.house.gov/People/Listing/H/HARRIS,-Andy-(H001052)/",
           "snippet": "member of the Maryland state senate, 1999-2011, minority whip",
           "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Nicole Beus since 2017; previously married to Cookie Harris from 1981 until her death in 2014",
+          "source_url": "https://en.wikipedia.org/wiki/Andy_Harris_(politician)",
+          "snippet": "{{marriage|Cookie Harris|1981|2014|end=died}} |{{marriage|Nicole Beus|2017}}",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
       "platform": [
@@ -585,15 +601,81 @@
       ],
       "platform_source_url": "https://andyharris.com/",
       "_platform_resolved_at": "2026-08-13T16:59:25.940Z",
+      "campaign_site_url": "https://www.andyharris.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:33.026Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Dr. Andy Harris has a proven record of courage and common sense. Chairman of the House Freedom Caucus and Chairman of the Agriculture Subcommittee to Appropriations, he's fighting to restore fiscal responsibility to Washington and protect your hard-earned taxpayer dollars. Unafraid to stand up and speak out on your priorities and interests, he is fighting for the residents of Maryland's 1st Congressional District in Washington.",
+        "source_url": "https://andyharris.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:55:32.364Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Not Voting",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 294,
+          "votesCast": 285,
+          "attendanceRate": 0.9693877551020408
+        },
         "committees": [
           {
             "committee": "House Committee on Appropriations",
@@ -612,7 +694,7 @@
           }
         ],
         "bills_sponsored": 50,
-        "bills_cosponsored": 1914,
+        "bills_cosponsored": 1917,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -633,21 +715,12 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 11,
-          "snapshotDate": "June 30, 2026",
+          "score": 12,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001052"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Dr. Andy Harris has a proven record of courage and common sense. Chairman of the House Freedom Caucus and Chairman of the Agriculture Subcommittee to Appropriations, he's fighting to restore fiscal responsibility to Washington and protect your hard-earned taxpayer dollars. Unafraid to stand up and speak out on your priorities and interests, he is fighting for the residents of Maryland's 1st Congressional District in Washington.",
-        "source_url": "https://andyharris.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:55:32.364Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:07.354Z",
-      "campaign_site_url": "https://www.andyharris.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:33.026Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "daniel-schwartz",
@@ -670,14 +743,233 @@
           "selfFunded": 15567.65
         }
       },
-      "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "bio": {
+        "date_of_birth": {
+          "value": "1950-07-28",
+          "source_url": "https://www.wikidata.org/wiki/Q27947609",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Chicago, Illinois",
+          "source_url": "https://www.wikidata.org/wiki/Q27947609",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Princeton University",
+          "source_url": "https://www.wikidata.org/wiki/Q27947609",
+          "source_type": "wikidata_structured"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Constituent Access",
+          "value": "Promises to hold monthly town hall meetings across the district",
+          "snippet": "I promise to hold monthly town hall meetings across the district so I can better respond to the needs of our citizens."
+        },
+        {
+          "topic": "Tariffs",
+          "value": "Would end tariffs affecting farmers, small businesses and families, saying repeal would save American families $5,000 a year",
+          "snippet": "Repealing unnecessary tariffs will save American families $5000 a year."
+        },
+        {
+          "topic": "District Project Funding",
+          "value": "Would restore withheld funding for district projects, citing $36M for flooding remediation in Crisfield",
+          "snippet": "Restore funding for district projects that Rep. Harris supported illegally withholding (like $36M for flooding remediation in Crisfield which saves $6 for every $1 invested)."
+        },
+        {
+          "topic": "Rural Health Workforce",
+          "value": "Would incentivize health care providers to work and live in MD-1 through tax credits and student debt relief, and fund rural hospitals and community clinics",
+          "snippet": "Incentivize health care providers to work and live in MD-1 through tax credits and student debt relief. Fund our rural hospitals and community clinics."
+        },
+        {
+          "topic": "Farmland Preservation",
+          "value": "Would protect farmland from development",
+          "snippet": "Protect our farmland from development."
+        },
+        {
+          "topic": "Chesapeake Bay",
+          "value": "Would hold out-of-state companies that pollute or overfish in the Chesapeake Bay accountable for the damage they cause",
+          "snippet": "Hold out-of-state companies that pollute or overfish in the Chesapeake Bay accountable for the damage they cause."
+        },
+        {
+          "topic": "Agricultural Lending",
+          "value": "Would restore full funding to Farm Credit and USDA lending programs and support community banks serving the Delmarva Peninsula",
+          "snippet": "Restore full funding to Farm Credit/USDA lending programs"
+        },
+        {
+          "topic": "Rural Transit",
+          "value": "Would secure federal investment to expand buses, shuttles and commuter lines serving the Eastern Shore and northern counties",
+          "snippet": "Secure federal investments to underwrite expansion of buses, shuttles, and commuter lines that serve the Eastern Shore and northern counties."
+        },
+        {
+          "topic": "Rural Broadband",
+          "value": "Would support expanding broadband access across rural areas of MD-1",
+          "snippet": "Support efforts to expand broadband access across rural areas of MD-1."
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Would raise the federal minimum wage, arguing Maryland taxpayers currently subsidize out-of-state businesses that refuse to pay living wages",
+          "snippet": "Raise the federal minimum wage so that Maryland taxpayers are no longer subsidizing out-of-state businesses who refuse to pay their employees living wages."
+        },
+        {
+          "topic": "Medicaid, Medicare & SNAP",
+          "value": "Would repeal cuts to Medicaid, Medicare, long-term care programs, SNAP and community grants",
+          "snippet": "Repeal cruel cuts to Medicaid, Medicare, long-term care programs, SNAP, and community grants that hit MD-1 hard."
+        },
+        {
+          "topic": "Affordable Care Act",
+          "value": "Would protect and improve the ACA and allow public option plans in the marketplace to drive competition",
+          "snippet": "Protect and improve the Affordable Care Act (ACA) which helps Maryland families access healthcare. Allow public option plans in the ACA marketplace to drive competition."
+        },
+        {
+          "topic": "Insurance Premiums",
+          "value": "Would hold insurers accountable for premium increases through oversight hearings requiring public justification of price hikes, and address executive compensation",
+          "snippet": "Hold oversight hearings to increase transparency and make insurers justify price hikes publicly. Address out-of-control executive compensation."
+        },
+        {
+          "topic": "Drug Price Negotiation",
+          "value": "Would increase the number of drugs under the Medicare Drug Price Negotiation Program and speed up its timeline",
+          "snippet": "Increase the number of commonly used drugs under the Medicare Drug Price Negotiation Program and speed up the program’s timeline to drive costs down for those medications."
+        },
+        {
+          "topic": "Offshore Wind & Energy Costs",
+          "value": "Would lower energy costs by supporting local and regional projects including US Wind's project off Ocean City",
+          "snippet": "Work to lower energy costs by supporting local and regional projects including US Wind’s Project off Ocean City."
+        },
+        {
+          "topic": "Community Colleges & Trade Schools",
+          "value": "Would support the workforce by investing in community colleges and trade schools",
+          "snippet": "Support our workforce by investing in community colleges and trade schools."
+        },
+        {
+          "topic": "Pre-K & Childcare",
+          "value": "Would strengthen universal pre-K and invest in childcare for working and middle class families",
+          "snippet": "Strengthen universal pre-K and invest in childcare for working and middle class families."
+        },
+        {
+          "topic": "Housing & Mortgages",
+          "value": "Would expand federal rural mortgage programs and affordable mortgage programs for veterans, educators, healthcare workers and first responders",
+          "snippet": "Expand existing federal rural mortgage programs (USDA Direct, FHA, and VA loans) and affordable mortgage programs for veterans, educators, healthcare workers and first responders."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Would codify Roe v. Wade in federal law",
+          "snippet": "Codify Roe vs. Wade in Federal law so women across the country can access the care available in Maryland."
+        },
+        {
+          "topic": "Immigration Reform",
+          "value": "Would pass bipartisan immigration reform protecting asylum seekers and securing borders, hold ICE and Border Patrol to the same procedures as other law enforcement, and focus enforcement on those who have committed crimes",
+          "snippet": "Pass bipartisan immigration reform legislation that protects asylum seekers and secures our borders. Hold ICE/Border Patrol accountable to the same police procedures as other law enforcement agencies. Focus immigration enforcement on those who have committed crimes."
+        },
+        {
+          "topic": "Houses of Worship Security",
+          "value": "Would significantly increase federal security funding for houses of worship through the Nonprofit Security Grant Program",
+          "snippet": "Significantly increase federal funds for security at houses of worship (via the Nonprofit Security Grant Program administered by FEMA/DHS)."
+        },
+        {
+          "topic": "Gun Safety",
+          "value": "Would implement universal background checks and close the \"boyfriend loophole\" to protect domestic violence victims",
+          "snippet": "Implement common-sense gun safety measures including universal background checks. Close the “boyfriend loophole” to protect victims of domestic violence."
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Would protect the Voting Rights Act",
+          "snippet": "Protect the Voting Rights Act"
+        },
+        {
+          "topic": "Surveillance & Data Privacy",
+          "value": "Would limit warrantless surveillance and enhance data privacy protections against corporations and government",
+          "snippet": "Implement limits on warrantless surveillance"
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Would ban members of Congress, the Executive branch and their families from actively trading equities, options and cryptocurrency",
+          "snippet": "Implement a ban on members of Congress, Executive branch and their families actively trading equities, options, and cryptocurrency."
+        },
+        {
+          "topic": "Corporate Taxes & Citizens United",
+          "value": "Would close tax code loopholes for mega-corporations and billionaires and end Citizens United",
+          "snippet": "Close tax code loopholes for mega-corporations and billionaires, and End Citizens United so we can get billionaire money out of politics."
+        },
+        {
+          "topic": "Presidential Pardons",
+          "value": "Would rein in presidential pardon power, saying presidents of both parties have abused it",
+          "snippet": "Reign in Presidential pardon power. Presidents from both parties have abused this power."
+        },
+        {
+          "topic": "Congressional Ethics",
+          "value": "Would strengthen the Office of Congressional Ethics",
+          "snippet": "Strengthen the Office of Congressional Ethics to make Congress clean up its own house."
+        },
+        {
+          "topic": "Inspectors General",
+          "value": "Would restore Inspectors General in all federal agencies and the FBI's public corruption unit",
+          "snippet": "Restore Inspectors General in all federal agencies. Also restore the public corruption unit of the FBI."
+        },
+        {
+          "topic": "Gerrymandering",
+          "value": "Would ban partisan gerrymandering at the federal level",
+          "snippet": "Ban partisan gerrymandering at the federal level. Politicians shouldn’t pick and choose their voters."
+        },
+        {
+          "topic": "Consumer Financial Protection",
+          "value": "Would restore staffing of the Consumer Financial Protection Bureau and the Justice Department's Civil Rights Division",
+          "snippet": "Restore staff of the Consumer Financial Protection Bureau and Civil Rights Division of the Justice Department."
+        },
+        {
+          "topic": "Labor Rights & Wage Theft",
+          "value": "Would support legislation protecting the right to unionize and make wage theft a crime",
+          "snippet": "Support legislation that protects people’s rights to unionize. Make wage theft a crime."
+        },
+        {
+          "topic": "Speculation Markets",
+          "value": "Would ensure guardrails protecting individuals in sports betting, prediction markets and options trading, citing excessive leverage and predatory practices",
+          "snippet": "Ensure guardrails exist to protect individuals in speculation markets (sports betting, prediction markets, options trading) where access to excessive leverage and predatory industry practices are leading to disastrous outcomes for users—especially young men."
+        },
+        {
+          "topic": "Medical Debt",
+          "value": "Would increase protections for individuals affected by high-cost medical debt",
+          "snippet": "Increase protections for individuals impacted by high-cost medical debt."
+        },
+        {
+          "topic": "AI Regulation",
+          "value": "Would reverse the ban on state-level AI regulation and pass federal legislation allowing innovation while protecting user information, jobs and national security",
+          "snippet": "Reverse ban on state level AI regulation and pass federal legislation that allows for innovation while protecting user information, jobs, and national security."
+        },
+        {
+          "topic": "Digital Assets & Stablecoins",
+          "value": "Would implement guardrails around digital assets and stablecoins that protect consumers without stifling innovation",
+          "snippet": "Implement guardrails around digital assets and stablecoins that protects consumers without stifling innovation."
+        },
+        {
+          "topic": "Consumer Contracts",
+          "value": "Would limit contract language waiving consumer protections, including arbitration clauses, class-action bans and non-compete clauses",
+          "snippet": "Limit contract language that waives substantive consumer protections (arbitration clauses, class-action bans, non-compete clauses etc.)"
+        },
+        {
+          "topic": "Mobile Wallet Insurance",
+          "value": "Would require deposit insurance for mobile wallets and all accounts holding consumer funds, similar to FDIC insurance",
+          "snippet": "Require deposit insurance for mobile wallets and all accounts that hold consumer funds, similar to FDIC insurance."
+        },
+        {
+          "topic": "Junk Fees",
+          "value": "Would limit junk fees and deceptive charges by vendors such as airlines and ticket sellers",
+          "snippet": "Limit junk fees and deceptive charges by vendors (airlines, ticket vendors etc.) that gouge and take advantage of consumers."
+        }
+      ],
+      "platform_source_url": "https://schwartzforcongress.com/",
+      "_platform_resolved_at": "2026-09-03T08:49:34.766Z",
+      "campaign_site_url": "https://schwartzforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T22:48:33.021Z",
       "platform_video_url": "https://www.youtube.com/watch?v=TMwnG_xENp4",
       "platform_video_title": "Dan Schwartz Reveals the Future of Maryland",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-24T12:00:07.667Z",
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081065.pdf",
         "filingDate": "7/13/2026",
@@ -691,13 +983,7 @@
       "_financial_disclosure_resolved_at": "2026-08-13T17:00:41.422Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:07.667Z",
-      "platform_video_tier": 2,
-      "_no_site_search_attempted_at": "2026-08-30T20:54:48.287Z",
-      "campaign_site_url": "https://schwartzforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-31T22:48:33.021Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     }
   ]
 }

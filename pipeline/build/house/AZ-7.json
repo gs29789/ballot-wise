@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-09-02T10:11:17.545Z",
+  "generated_at": "2026-09-02T15:51:38.327Z",
   "election_dates": {
     "primaryDate": "2026-07-21",
     "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
@@ -560,9 +560,15 @@
           "snippet": "His career experience includes working as a contractor and construction worker."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Securing our Border is vital to plans of helping homeless get on their feet and drug users",
+          "snippet": "Securing our Border: This is vital to my plans of helping our homeless get on their feet and drug users"
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Daniel_Butierez_Sr.",
+      "_platform_resolved_at": "2026-09-02T15:51:17.136Z",
       "campaign_site_url": "https://danielbutierez4congress2024.com",
       "_campaign_site_reachability": "dead",
       "_campaign_site_discovered_at": "2026-08-30T20:34:24.236Z",
@@ -570,7 +576,7 @@
       "platform_video_title": "Daniel Butierez for Congress Arizona District 7",
       "platform_video_source_url": null,
       "platform_video_tier": 2,
-      "platform_video_source_type": null,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-09-02T12:00:12.415Z",
       "bio_summary": {
         "value": "Daniel Butierez was born in Tucson, Arizona . His career experience includes working as a contractor and construction worker. [1] ",
@@ -591,8 +597,7 @@
       "_financial_disclosure_resolved_at": "2026-08-18T20:00:20.038Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:12.415Z"
+      "_curated_match": true
     },
     {
       "slug": "adelita-grijalva",
@@ -738,11 +743,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 292,
-          "votesCast": 286,
-          "attendanceRate": 0.9794520547945206
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Natural Resources",

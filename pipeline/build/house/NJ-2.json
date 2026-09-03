@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-02",
-  "generated_at": "2026-09-02T10:41:30.321Z",
+  "generated_at": "2026-09-02T15:58:57.302Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -541,6 +541,12 @@
           "value": "South Jersey",
           "source_url": "https://ballotpedia.org/New_Jersey%27s_2nd_Congressional_District_election,_2026",
           "snippet": "South Jersey Born and Raised."
+        },
+        "college": {
+          "value": "graduated college",
+          "source_url": "https://www.southjerseygrit.com/meet_ramon",
+          "snippet": "I graduated college",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
       "platform": [
@@ -590,8 +596,7 @@
       "_financial_disclosure_resolved_at": "2026-08-12T19:49:03.511Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:20.234Z"
+      "_curated_match": true
     },
     {
       "slug": "zack-mullock",
@@ -641,9 +646,40 @@
           "snippet": "Outside of being Mayor I helped found and build the Harriet Tubman Museum and the Cape May Point Arts and Science Center. I was proud to work with many volunteer community members to restore the historic parsonage of the Macedonia Baptist Church to become I have proudly served on the Atlantic Cape Community College Foundation Board and the United States Coast Guard Community Foundation for years."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Tax Policy",
+          "value": "Focus on lowering the cost of living by addressing hidden fees and reducing taxes on working families, with a fair tax system that holds corporations and the wealthiest accountable.",
+          "snippet": "To grow the middle class, we must have a fair tax system that holds corporations and the wealthiest accountable. I will focus on lowering the cost of living by addressing hidden fees and reducing taxes on working families."
+        },
+        {
+          "topic": "Housing",
+          "value": "Increase federal funding for affordable housing development in South Jersey and support first-time homebuyer assistance programs.",
+          "snippet": "I will increase federal funding for affordable housing development in South Jersey and support first-time homebuyer assistance programs."
+        },
+        {
+          "topic": "Clean Energy and Environment",
+          "value": "Push for federal incentives for energy-efficient homes and businesses, federal investment in coastal resiliency, wetland and dune restoration, and infrastructure to protect communities, and support initiatives for clean air and clean water.",
+          "snippet": "We need to utilize all of our resources to harness renewable energy. I will push for federal incentives for energy-efficient homes and businesses to protect our environment and save money for working families. We need federal investment in coastal resiliency, wetland and dune restoration, and infrastructure to protect our communities. I will fight to preserve South Jersey's beaches, wetlands, and fishing industry. I will support initiatives for clean air and clean water."
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Push for public financing of elections, ban members of Congress from trading stocks, and demand full transparency in political spending.",
+          "snippet": "We need public financing of elections so that candidates answer to the people, not to billionaires and corporate PACs. I will push to ban members of Congress from trading stocks, because no elected official should be profiting from the decisions they make. We need full transparency in political spending so voters know exactly who is funding campaigns."
+        },
+        {
+          "topic": "Social Security",
+          "value": "Strongly oppose any cuts or privatization of Social Security, and fight to strengthen it for future generations.",
+          "snippet": "I will strongly oppose any cuts or privatization of Social Security, and fight to strengthen it for future generations."
+        },
+        {
+          "topic": "Healthcare and Medicare",
+          "value": "Fight to expand Medicare to include dental, vision, and hearing care, protect Medicaid, push to expand Medicare's power to negotiate drug prices, expand mental health services for all Americans, and work toward a Medicare for All system funded by fairer corporate taxes.",
+          "snippet": "I will fight to expand Medicare to include dental, vision, and hearing care, protect Medicaid, and support programs that help seniors. Healthcare is a human right, not a privilege reserved only for those who can afford it. Corporate greed is driving up costs. I will push to expand Medicare's power to negotiate drug prices, expand mental health services for all Americans, and work toward a Medicare for All system funded by fairer corporate taxes."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Zack_Mullock",
+      "_platform_resolved_at": "2026-09-02T15:58:25.786Z",
       "campaign_site_url": "https://mullockforcongress.com/",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T11:07:16.288Z",
@@ -721,6 +757,12 @@
           "value": "Dennis Township Fire Commissioner from 1983 to 1986",
           "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
           "snippet": "He was a Dennis Township Fire Commissioner from 1983 to 1986.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Ricarda Van Drew in 1974",
+          "source_url": "https://en.wikipedia.org/wiki/Jeff_Van_Drew",
+          "snippet": "Spouse Ricarda Van Drew ​ ( married&lt;/span>\"}]]}'>m. 1974 ) ​",
           "source_type": "llm_extracted_wikipedia"
         }
       },
@@ -829,8 +871,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/V000133"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:20.758Z"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-09",
-  "generated_at": "2026-09-02T13:09:33.977Z",
+  "generated_at": "2026-09-02T15:50:46.591Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -558,9 +558,30 @@
           "snippet": "His career experience includes working as an activist. Cartwright also has experience working in retail, customer service, and information technology."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Campaign Finance and Anti-Corruption",
+          "value": "No stock trading. No billionaire donations. No backroom deals.",
+          "snippet": "No stock trading. No billionaire donations. No backroom deals."
+        },
+        {
+          "topic": "Voting and Representation",
+          "value": "I will vote based on verified polling from MI-09, not party agendas. Monthly town halls and full transparency will ensure the people—not politicians—make the decisions.",
+          "snippet": "I will vote based on verified polling from MI-09, not party agendas. Monthly town halls and full transparency will ensure the people—not politicians—make the decisions."
+        },
+        {
+          "topic": "Election Integrity",
+          "value": "Every legal vote should count, and elections should be secure, transparent, and accessible.",
+          "snippet": "Every legal vote should count, and elections should be secure, transparent, and accessible."
+        },
+        {
+          "topic": "Financial Transparency",
+          "value": "I will provide full financial transparency—my constituents will know exactly where my money comes from and where I stand.",
+          "snippet": "I will provide full financial transparency—my constituents will know exactly where my money comes from and where I stand."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Jasen_Cartwright",
+      "_platform_resolved_at": "2026-09-02T15:50:15.177Z",
       "campaign_site_url": null,
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-08-30T20:33:59.677Z",
@@ -638,9 +659,30 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "Supports capitalism as providing the most significant opportunity for all Americans by incentivizing businesses to create jobs, raise wages, and provide competitive benefits",
+          "snippet": "Our economic system of capitalism provides the most significant opportunity for all Americans. It has proven time and again that it can raise all by incentivizing businesses to create jobs, raise wages, and provide competitive benefits that create more prosperity for the American worker and their families."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Committed to ensuring service members have access to quality healthcare they deserve",
+          "snippet": "I am committed to ensuring our service members have access to the quality healthcare they deserve after dedicating their lives to protecting our country."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Will fight to get farmers the inputs they need to produce while getting unnecessary federal regulations out of their way",
+          "snippet": "I will always fight to get farmers the inputs they need to produce while getting unnecessary federal regulations out of their way."
+        },
+        {
+          "topic": "National Security",
+          "value": "Committed to building our military into the preeminent fighting force in the world and keeping America safe and secure",
+          "snippet": "I am committed to building our military into the preeminent fighting force in the world and keeping America safe and secure."
+        }
+      ],
+      "platform_source_url": "https://mcclain.house.gov/",
+      "_platform_resolved_at": "2026-09-02T15:50:27.157Z",
       "campaign_site_url": "https://www.lisamcclainforcongress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T20:33:59.677Z",
@@ -660,58 +702,62 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
-        },
-        {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 281,
+          "votesCast": 279,
+          "attendanceRate": 0.9928825622775801
+        },
         "committees": [
           {
             "committee": "House Committee on Financial Services",

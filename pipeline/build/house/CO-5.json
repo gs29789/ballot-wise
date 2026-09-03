@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-09-02T10:18:40.918Z",
+  "generated_at": "2026-09-02T15:55:27.967Z",
   "election_dates": {
     "primaryDate": "2026-06-30",
     "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
@@ -660,8 +660,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/C001137"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:13.979Z"
+      "_curated_match": false
     },
     {
       "slug": "steven-fuller",
@@ -680,9 +679,30 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Congressional Pay During Government Shutdowns",
+          "value": "If the government is shut down and we are not paying federal employees then politicians shouldn't get paid either.",
+          "snippet": "If the government is shut down and we are not paying federal employees then politicians shouldn't get paid either."
+        },
+        {
+          "topic": "Stock Trading by Members of Congress",
+          "value": "You should not be allowed to buy, sell, or trade stocks while in office... you are there to serve the people not get rich.",
+          "snippet": "You should not be allowed to buy, sell, or trade stocks while in office... you are there to serve the people not get rich."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "There should be term limits, no one should hold a seat in office for 30-40 years or more, at that point you have completely lost touch with real life...",
+          "snippet": "There should be term limits, no one should hold a seat in office for 30-40 years or more, at that point you have completely lost touch with real life..."
+        },
+        {
+          "topic": "Veteran Care",
+          "value": "Personally passionate about veteran care, making sure people are held accountable, and fiscal responsibility.",
+          "snippet": "Veteran care, making sure people are held accountable, fiscal responsibility."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Steven_Fuller_(Colorado)",
+      "_platform_resolved_at": "2026-09-02T15:54:16.044Z",
       "campaign_site_url": "https://www.stevenfuller.net",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-30T20:35:13.833Z",
@@ -884,6 +904,12 @@
           "source_url": "https://www.ballotready.org/people/christopher-mitchell",
           "snippet": "Bachelor&#x27;s, New Mexico State University, Electrical & Computer Engineering (1994)",
           "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "member of the American Constitution Party",
+          "source_url": "https://patriotcowboyrevolution.com/about-christopher",
+          "snippet": "Mitchell, as a member of the American Constitution Party, has officially announced his candidacy for CD5 in 2026.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [],
@@ -908,8 +934,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:14.489Z"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-09-02T12:46:53.841Z",
+  "generated_at": "2026-09-03T09:15:48.055Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
@@ -563,10 +563,41 @@
           "snippet": "Teresa Fox's professional experience includes working as an emergency manager, safety professional, and fire inspector."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "campaign_site_url": null,
+      "platform": [
+        {
+          "topic": "Taxes and Government Size",
+          "value": "Lower taxes to keep money in family pockets, not bureaucrat budgets; less regulation to let businesses operate without constant government interference; real accountability to make government answer to taxpayers",
+          "snippet": "Lower Taxes: Keep money in family pockets, not bureaucrat budgets Less Regulation: Let businesses operate without constant government interference Real Accountability: Make government answer to taxpayers, not the other way around"
+        },
+        {
+          "topic": "Navy Shipyard Funding",
+          "value": "Move shipyard infrastructure funding from DC consultants to actual shipyard workers, tools and equipment in Bremerton; fund actual shipyard workers, not DC consultants; prioritize readiness over red tape",
+          "snippet": "Move the money from the office buildings in Virginia to the dry docks in Bremerton. Fund actual shipyard workers, not DC consultants Invest in tools and equipment, not bureaucratic overhead Prioritize readiness over red tape"
+        },
+        {
+          "topic": "Police Staffing",
+          "value": "Advocate for a 'Federal Public Safety Floor'—direct federal incentives for local agencies to hire and retain officers",
+          "snippet": "I'm advocating for a 'Federal Public Safety Floor'—direct federal incentives for local agencies to hire and retain officers."
+        },
+        {
+          "topic": "Title IX and Sports",
+          "value": "Title IX was created to ensure biological women had a fair playing field; allowing biological males to compete effectively erases the progress of the last 50 years",
+          "snippet": "Title IX was created to ensure biological women had a fair playing field. Allowing biological males to compete effectively erases the progress of the last 50 years."
+        },
+        {
+          "topic": "Rural Healthcare",
+          "value": "Keep rural clinics open; focus on telehealth expansion and federal incentives for doctors to practice in medical deserts; expand telehealth services and create real financial reasons for healthcare providers to serve underserved areas",
+          "snippet": "Keep rural clinics open. Focus on telehealth expansion and federal incentives for doctors to practice in \"medical deserts.\" This bypasses partisan debates by focusing on the physical presence of care where people actually live. Expand Telehealth Services Bring specialists to rural communities through proven technology Federal Incentives for Rural Doctors Create real financial reasons for healthcare providers to serve underserved areas Support Local Clinics Keep community healthcare facilities operational and accessible"
+        },
+        {
+          "topic": "Congressional Term Limits",
+          "value": "Support congressional term limits; signing the U.S. Term Limits Pledge to end career politics",
+          "snippet": "Congress should be a service, not a career. End Career Politics Term limits speak to constituents across party lines about the never-ending corruption and the disconnected political class. Signing the U.S. Term Limits Pledge distinguishes real public servants from career politicians in the making."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Teresa_Fox",
+      "_platform_resolved_at": "2026-09-03T09:15:30.882Z",
+      "campaign_site_url": "https://foxforwa.com/",
       "_campaign_site_reachability": null,
       "_campaign_site_discovered_at": "2026-09-01T13:53:51.574Z",
       "platform_video_url": null,
@@ -678,9 +709,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-15T13:31:48.481Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 294,
+          "votesCast": 294,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -714,7 +800,7 @@
           }
         ],
         "bills_sponsored": 13,
-        "bills_cosponsored": 413,
+        "bills_cosponsored": 415,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {

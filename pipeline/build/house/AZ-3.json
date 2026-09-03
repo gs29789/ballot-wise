@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-18T19:52:58.710Z",
+  "generated_at": "2026-09-03T08:45:04.434Z",
   "election_dates": {
     "primaryDate": "2026-07-21",
     "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3285.8
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3283.2
+        "thousandsOfJobs": 3283.5
       },
       {
         "year": "2026",
@@ -473,7 +483,7 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3246133145.22,
+        "totalUsd": 3246133463.79,
         "perCapitaUsd": 4059.85
       },
       {
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 3619302414.08,
-        "perCapitaUsd": 4526.56
+        "totalUsd": 3619324484.08,
+        "perCapitaUsd": 4526.59
       }
     ],
     "population": [
@@ -527,8 +537,8 @@
       "bioguide_id": "A000381",
       "financials": {
         "cycle": 2026,
-        "totalRaised": 1435713.18,
-        "totalSpent": 896440.91,
+        "totalRaised": 1436332.77,
+        "totalSpent": 899422.65,
         "cashOnHand": null,
         "fundingSources": {
           "smallDollar": 145331.36,
@@ -587,15 +597,81 @@
       ],
       "platform_source_url": "https://yassaminforcongress.com/",
       "_platform_resolved_at": "2026-08-11T11:47:35.901Z",
+      "campaign_site_url": "https://www.yassaminforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z",
       "platform_video_url": "https://www.youtube.com/watch?v=N215qSEu0NU",
       "platform_video_title": "Ansari Launches Re-election Campaign",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-21T12:00:34.211Z",
+      "bio_summary": {
+        "value": "Congresswoman Yassamin Ansari is representing Arizona’s Third Congressional District which is one of the most diverse districts in the country and includes the fifth-largest and fastest growing city. Yassamin is the Democratic Freshman Class President and also the youngest woman serving in the 119th Congress. The proud daughter of immigrants and graduate of Stanford and Cambridge universities, Yassamin led the charge to pass the city’s landmark Climate Action Plan, has fought for the protection of reproductive rights, and secured millions in free tuition for students pursuing community college and good jobs in the trades.",
+        "source_url": "https://yassaminforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:00.375Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 222,
+          "votesCast": 220,
+          "attendanceRate": 0.990990990990991
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -634,7 +710,7 @@
           }
         ],
         "bills_sponsored": 32,
-        "bills_cosponsored": 546,
+        "bills_cosponsored": 553,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -644,23 +720,13 @@
           "sourceUrl": "https://voteview.com/person/A000381"
         },
         "bridge_score": {
-          "grade": "C",
-          "score": 15.9,
-          "snapshotDate": "June 30, 2026",
+          "grade": "F",
+          "score": 14.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/A000381"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:34.211Z",
-      "bio_summary": {
-        "value": "Congresswoman Yassamin Ansari is representing Arizona’s Third Congressional District which is one of the most diverse districts in the country and includes the fifth-largest and fastest growing city. Yassamin is the Democratic Freshman Class President and also the youngest woman serving in the 119th Congress. The proud daughter of immigrants and graduate of Stanford and Cambridge universities, Yassamin led the charge to pass the city’s landmark Climate Action Plan, has fought for the protection of reproductive rights, and secured millions in free tuition for students pursuing community college and good jobs in the trades.",
-        "source_url": "https://yassaminforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:42:00.375Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://www.yassaminforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "david-redkey",
@@ -706,64 +772,77 @@
       "platform": [
         {
           "topic": "Healthcare",
-          "value": "Support for TriCare Prime for All",
-          "snippet": "TriCare Prime for All"
+          "value": "Supports \"TriCare Prime for All\", a single-payer universal system modeled on the military's TRICARE Prime",
+          "snippet": "TriCare Prime for All is a single-payer, universal healthcare system modeled on TRICARE Prime — the system that already provides comprehensive care to active-duty service members and their families."
         },
         {
-          "topic": "Equal Rights Amendment",
-          "value": "Ratify the Equal Rights Amendment",
-          "snippet": "Ratify the Equal Rights Amendment"
+          "topic": "Healthcare Funding Conditions",
+          "value": "Would require any healthcare facility receiving federal funding to participate in the $0 deductible option",
+          "snippet": "Any healthcare facility that receives federal funding would be required to participate in the $0 deductible TriCare Prime for All option ."
         },
         {
-          "topic": "Israel/Palestine",
-          "value": "Disarm and Defund Israel's Genocide, Free Palestine",
-          "snippet": "Disarm and Defund Israel s Genocide Free Palestine"
+          "topic": "Taxes on High Earners",
+          "value": "Supports a 94% marginal tax rate on taxable income above $200,000 for single filers and $400,000 for married filing jointly",
+          "snippet": "94% marginal rate on taxable income above $200,000 for single filers and above $400,000 for married filing jointly."
         },
         {
-          "topic": "Congressional Ethics",
-          "value": "Prevent Stock Trading by Congress",
-          "snippet": "Prevent Stock Trading by Congress"
+          "topic": "Corporate Taxation",
+          "value": "Supports tiered corporate rates entering 70%+ marginal tiers above $1,000,000 in profit, to discourage consolidation and monopoly scale",
+          "snippet": "Above $1,000,000: rates enter 70%+ marginal tiers that step higher with profit bands, discouraging consolidation and monopoly scale purely for financial extraction."
         },
         {
-          "topic": "Education Funding",
-          "value": "Federal Monies for School Funding",
-          "snippet": "Federal Monies for School Funding"
+          "topic": "Congressional Stock Trading",
+          "value": "Backs a hard ban on congressional stock trading with no loopholes or partisan exceptions",
+          "snippet": "I back a hard ban on congressional stock trading — no loopholes, no partisan exceptions."
+        },
+        {
+          "topic": "Congressional Stock Trading — Scope",
+          "value": "Would bar individual holdings for Members, spouses and dependent children, including stocks, options, crypto, single-company bonds and sector ETFs",
+          "snippet": "No individual holdings. No stocks, options, crypto, single-company bonds, or sector ETFs for Members, spouses, or dependent children."
+        },
+        {
+          "topic": "School Vouchers",
+          "value": "Opposes voucher, ESA and tax-credit schemes that divert public education dollars into private K-12 tuition",
+          "snippet": "I oppose voucher, ESA, and tax-credit schemes that divert scarce public education dollars into private K–12 tuition."
+        },
+        {
+          "topic": "Public School Funding",
+          "value": "Says federal funds should strengthen neighborhood public schools rather than subsidize private alternatives",
+          "snippet": "Federal funds should strengthen neighborhood public schools — not subsidize private alternatives that reduce transparency, undermine accountability, and hollow out our communities."
         },
         {
           "topic": "Reproductive Rights",
-          "value": "Fights for Reproductive Rights",
-          "snippet": "Fights for Reproductive Rights"
+          "value": "Says every woman has the absolute right to decide what happens to her own body, health and future, free from political or governmental interference",
+          "snippet": "I believe every woman has the absolute right to decide what happens to her own body, her health, and her future—free from political or governmental interference."
         },
         {
-          "topic": "Economic Policy",
-          "value": "Champion Foundation Economics — putting people over profits",
-          "snippet": "champion Foundation Economics — putting people over profits"
-        },
-        {
-          "topic": "Defense/Military",
-          "value": "Opposes Section 219 of the 2027 NDAA which allows Israel to gain access to U.S. weapon systems including nuclear arsenal",
-          "snippet": "THE BIPARTISAN (Democrats AND Republicans) SECTION 219 OF THE 2027 NATIONAL DEFENSE AUTHORIZATION ACT ALLOWS ISRAEL TO GAIN ACCESS TO OUR WEAPON SYSTEMS, INCLUDING OUR NUCLEAR ARESNAL!!!"
+          "topic": "Housing",
+          "value": "Includes the right of every family to a safe, decent home in his proposed Economic Bill of Rights",
+          "snippet": "The right of every family to a safe, decent home"
         }
       ],
       "platform_source_url": "https://www.davidredkey4congress.com/",
       "_platform_resolved_at": "2026-08-11T11:46:56.233Z",
+      "campaign_site_url": "https://www.davidredkey4congress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mr. Redkey is a certified teacher, husband, and father who has proudly called Arizona home for nearly four decades. As a passionate advocate for working families, he is running for U.S. House of Representatives in Arizona’s Congressional District 3 to champion Foundation Economics — putting people over profits and restoring integrity to government.",
+        "source_url": "https://www.davidredkey4congress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:02.146Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:34.696Z",
-      "bio_summary": {
-        "value": "Mr. Redkey is a certified teacher, husband, and father who has proudly called Arizona home for nearly four decades. As a passionate advocate for working families, he is running for U.S. House of Representatives in Arizona’s Congressional District 3 to champion Foundation Economics — putting people over profits and restoring integrity to government.",
-        "source_url": "https://www.davidredkey4congress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:42:02.146Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z"
+      "_curated_match": true
     }
   ]
 }

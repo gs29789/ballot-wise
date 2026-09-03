@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-09-02T13:18:32.705Z",
+  "generated_at": "2026-09-03T08:50:48.553Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://oregon.public.law/statutes/ors_254.056",
@@ -581,11 +581,38 @@
           "source_url": "https://en.wikipedia.org/wiki/Maxine_Dexter",
           "snippet": "Dexter served her medical residency in Aurora, Colorado , and moved to Portland with her husband in 2008. She works as a pulmonologist with Kaiser Permanente in Hillsboro . [ 3 ] In 2023, it was reported that she would continue to work part-time at Kaiser Permanente as a pulmonologist and critical care medicine specialist during her congressional run.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "member of the Oregon house of representatives, 2020-2024",
+          "source_url": "https://history.house.gov/People/Listing/D/DEXTER,-Maxine-(D000635)/",
+          "snippet": "member of the Oregon house of representatives, 2020-2024",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Immigration",
+          "value": "Supports defunding and dismantling ICE, and believes the immigration system must be centered on humanity, due process, and dignity",
+          "snippet": "Dexter supports defunding and dismantling ICE. She believes our immigration system must be centered on humanity, due process, and dignity—not chaos and cruelty."
+        },
+        {
+          "topic": "Health",
+          "value": "Believes every single person must have easy access to high-quality, affordable health care",
+          "snippet": "She knows that for our communities to thrive, every single person must have easy access to high-quality, affordable health care."
+        },
+        {
+          "topic": "Housing",
+          "value": "Believes that safe, abundant, affordable housing is the bedrock of healthy, thriving communities",
+          "snippet": "Representative Maxine Dexter believes that safe, abundant, affordable housing is the bedrock of healthy, thriving communities."
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Believes that every single person has the right to make health care decisions about their own bodies",
+          "snippet": "Congresswoman Maxine Dexter fundamentally believes that every single person has the right to make health care decisions about their own bodies."
+        }
+      ],
+      "platform_source_url": "https://dexter.house.gov/issues",
+      "_platform_resolved_at": "2026-09-03T08:50:34.465Z",
       "campaign_site_url": "https://www.maxinefororegon.com",
       "_campaign_site_reachability": "cloudflare_challenge",
       "_campaign_site_discovered_at": "2026-08-31T22:49:20.433Z",
@@ -601,62 +628,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T00:12:12.529Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077553.pdf",
+        "filingDate": "8/2/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T08:50:42.422Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
+          "rollNumber": 294,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
         },
         {
-          "rollNumber": 282,
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 294,
+          "votesCast": 290,
+          "attendanceRate": 0.9863945578231292
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -690,7 +730,7 @@
           }
         ],
         "bills_sponsored": 17,
-        "bills_cosponsored": 370,
+        "bills_cosponsored": 371,
         "bills_became_law": 1,
         "enacted_laws": [
           {

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-15",
-  "generated_at": "2026-08-14T14:34:24.212Z",
+  "generated_at": "2026-09-03T09:05:45.020Z",
   "election_dates": {
     "primaryDate": "2026-05-05",
     "primarySourceUrl": "https://law.justia.com/codes/ohio/title-35/chapter-3501/section-3501-01/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/codes/ohio/title-29/chapter-2961/section-2961-01/",
     "snippet": "(A)(1) A person who pleads guilty to a felony under the laws of this or any other state or the United States and whose plea is accepted by the court or a person against whom a verdict or finding of guilt for committing a felony under any law of that type is returned, unless the plea, verdict, or finding is reversed or annulled, is incompetent to be an elector or juror or to hold an office of honor, trust, or profit."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Ohio,_2026",
     "snippet": "Mike Carey  (Incumbent) (Republican Party) Don Leonard  (Democratic Party) Brennan Barrington  (Libertarian Party) Samuel Ronan  (Independent) (Write-in)"
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -246,22 +252,27 @@
       },
       {
         "year": "2023",
-        "ratePer100k": 24.01
+        "ratePer100k": 24.02
       },
       {
         "year": "2024",
-        "ratePer100k": 22.93
+        "ratePer100k": 22.96
       },
       {
         "year": "2025",
-        "ratePer100k": 19.71
+        "ratePer100k": 19.79
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 5690
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 5687.6
+        "thousandsOfJobs": 5684.9
       },
       {
         "year": "2026",
@@ -525,25 +536,132 @@
       "fec_status": "N",
       "bioguide_id": null,
       "financials": null,
-      "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "bio": {
+        "college": {
+          "value": "B.S. in aerospace engineering with a minor in public policy, Ohio State University",
+          "source_url": "https://barrington.lpo.org/",
+          "snippet": "I have a Bachelor of Science from Ohio State University in aerospace engineering, with a minor in public policy."
+        },
+        "birthplace": {
+          "value": "Ohio",
+          "source_url": "https://barrington.lpo.org/",
+          "snippet": "I was born in Ohio and have lived here for all but two years of my life."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Individual Freedom",
+          "value": "Argues interference with a person's choices generally reduces their welfare, since individuals know their own preferences best and have the strongest incentive to act on them",
+          "snippet": "Freedom benefits people because they know their own preferences and their relative importance better than anyone else, and because they have the strongest incentive to maximize their own utility."
+        },
+        {
+          "topic": "Role of Government",
+          "value": "Holds that classes, nations and governments cannot have rights, and that the role of government is to protect the rights of individual people",
+          "snippet": "Classes, nations, and governments cannot, and should not be pretended to, have rights. Individual people exist, and the role of government is to protect their rights."
+        },
+        {
+          "topic": "Free Markets",
+          "value": "Describes himself as the candidate who stands for free markets and free enterprise, under the slogan \"Freedom Is Optimal\"",
+          "snippet": "I consider myself the candidate who actually stands for free markets and free enterprise."
+        },
+        {
+          "topic": "Personal Responsibility",
+          "value": "Holds that those who violate others' rights must pay compensation to the victim or to society, so people bear the costs they create and capture the benefits they generate",
+          "snippet": "This is the basic reason for the principle of accountability or personal responsibility: those who violate the rights of others must be made to pay compensation, either to the victim or to society."
+        },
+        {
+          "topic": "Market vs Central Planning",
+          "value": "Holds that what is socially beneficial should be determined by market preferences in aggregate rather than by central planners",
+          "snippet": "However, what is socially beneficial should be determined by the market, i.e., other citizens’ preferences in aggregate, not central planners or social engineers."
+        },
+        {
+          "topic": "Homelessness & Property Owners",
+          "value": "Opposes penalizing property owners for allowing homeless people on their property, arguing the remedy is to arrest and require restitution from those who actually commit theft or vandalism, or direct them to treatment",
+          "snippet": "The proper policy remedy is to arrest the thieves and vandals, and compel them to work to pay for the value of what they stole or damaged, or into mental health or drug addiction treatment if that is not possible given their mental state."
+        },
+        {
+          "topic": "Pollution",
+          "value": "Treats pollution as aggression against others' property including the shared atmosphere and oceans, and would require polluters to compensate those affected",
+          "snippet": "Pollution is aggression, as it intrudes on the property of others, and the collective property of humanity in the atmosphere and oceans, without their consent. Polluters should be made to compensate those whose property, including shared property such as the atmosphere, is negatively affected by their pollution."
+        },
+        {
+          "topic": "Federalism",
+          "value": "Supports the Tenth Amendment principle that power is delegated to government by the people only so far as it serves their interest and may be revoked",
+          "snippet": "I support the principle articulated in the Tenth Amendment: that power is only delegated to government by the people to the extent it acts in their self-interest, and should be able to be freely revoked from same at any time."
+        },
+        {
+          "topic": "Interstate Commerce Clause",
+          "value": "Disagrees with Wickard v. Filburn and would vote against any law or regulation exceeding a narrow reading of the interstate commerce power, limited to tangible objects physically crossing state lines and cross-state services",
+          "snippet": "I disagree with the reasoning of Wickard v. Filburn , and would vote against any law or regulation which would exceed the federal government’s proper power to regulate interstate commerce: that applying only to tangible objects which physically cross state borders and services provided by one’s state’s resident to another’s."
+        },
+        {
+          "topic": "Limits of Decentralization",
+          "value": "Says decentralization is not a way to decentralize tyranny, and that the federal government should still guarantee basic rights against state and local abuse, including freedom of movement",
+          "snippet": "I do not, however, accept decentralization as a way to decentralize tyranny. There is no meaningful difference between my mayor telling me what to do at implicit gunpoint and the President doing the same. My vision includes a federal government which still guarantees and protects the basic rights of all from abuses by any state or local government, including ensuring freedom of movement."
+        },
+        {
+          "topic": "Electoral Reform",
+          "value": "Has advocated electoral reform since 2016 to address the spoiler problem, and supports ranked choice voting as easy to use, encouraging positive campaigning, and letting newer parties win support",
+          "snippet": "This confirmed my belief that RCV is easy to understand and use, encourages positive campaigning and finding common ground, and allows newer parties and candidates to win support and influence the result."
+        },
+        {
+          "topic": "Milk Price Controls",
+          "value": "Advocated to Maine state legislators for eliminating the state minimum milk price to lower costs and improve health",
+          "snippet": "advocated to state legislators for elimination of a state minimum milk price to lower costs and thus improve health"
+        },
+        {
+          "topic": "Congressional Agenda",
+          "value": "Would cut taxes and spending, eliminate regulation of what he considers intrastate commerce, end use of taxpayer money to influence local policy, and return necessary government functions to the states",
+          "snippet": "This means, for Congress, cutting taxes, cutting spending, eliminating regulations on what should properly be considered intrastate commerce, ending use of taxpayer money to manipulate local policy, and returning such government functions as are necessary (for which local taxpayers are actually willing to pay) to the states."
+        },
+        {
+          "topic": "Lowering Federal Election Stakes",
+          "value": "Would reduce the stakes of federal elections by returning power from Washington to states, communities and individuals, arguing the union can hold if the federal government stops being used for social engineering",
+          "snippet": "My proposed alternative is to reduce the stakes of federal elections by taking that power back from DC and returning it to the states, local communities, and (most importantly) individual citizens. The United States can survive as a union for common defense and free trade if we stop trying to use the federal government to do social engineering on each other."
+        },
+        {
+          "topic": "Federal Protection of Rights",
+          "value": "Says the federal government would continue protecting every American's human rights from state action, on the Fourteenth Amendment principle that localized oppression is still oppression",
+          "snippet": "However, the federal government would continue to protect the human rights of every American from state action, upholding the principle in the 14th Amendment that localized oppression is still oppression."
+        },
+        {
+          "topic": "Governing Philosophy",
+          "value": "Aims to uphold classically liberal ideals: rule of law, equality before the law, private property, personal responsibility, and freedom to act without infringing others' equal rights",
+          "snippet": "My broader vision is to uphold the basic classically liberal ideals core to the identity and founding vision of the USA: rule of law, equality before the law, private property, personal responsibility, and the freedom to act in any way which does not infringe on the rights of others to do the same."
+        },
+        {
+          "topic": "Historical Exclusion",
+          "value": "Explicitly rejects the late 19th century as a desired end state, noting women and non-white, non-Christian and LGBTQ Americans were excluded from liberty, and frames his goal as everyone having at least the freedom a white Protestant man had in 1870s America",
+          "snippet": "I am emphatically not saying that the late 19th century or the 1920s were my desired end state or a “libertarian paradise”: female, non-white, non-Christian (or Catholic), and LGBTQ Americans were commonly excluded, by law, custom, and illegal violence, from full enjoyment of liberty and its benefits. It would, however, be a good summary of my objectives to say that I want everyone to have at least as much freedom as a white Protestant man had in 1870s America."
+        },
+        {
+          "topic": "Basis for Libertarianism",
+          "value": "Supports individual liberty on consequentialist rather than natural-rights grounds, arguing it maximizes human flourishing",
+          "snippet": "Rather, I support individual liberty due to consequentialist reasoning : overall, it maximizes human flourishing."
+        }
+      ],
+      "platform_source_url": "https://barrington.lpo.org/my-core-principles/",
+      "_platform_resolved_at": "2026-09-03T09:04:46.459Z",
+      "campaign_site_url": "https://barrington.lpo.org",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:37.361Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I was born in Ohio and have lived here for all but two years of my life. I have a Bachelor of Science from Ohio State University in aerospace engineering, with a minor in public policy.\n\nI have been an advocate for electoral reform since the 2016 Presidential election, when the winner got a majority of votes (more than half) in neither his party’s primary nor the critical swing states in the general election. This showed me that a fundamental solution was needed to the spoiler problem.\n\nI interned in an Ohio state representative’s office in the summer of 2017, learning about and aiding in policy, constituent service, and how politics really works.",
+        "source_url": "https://barrington.lpo.org/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:07:54.395Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Brennan Barrington earned a high school diploma from Licking Heights High School and a bachelor's degree from Ohio State University in 2019.",
-        "source_url": "https://ballotpedia.org/Brennan_Barrington",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T12:07:54.395Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:20.229Z",
-      "campaign_site_url": "https://barrington.lpo.org",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:37.361Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "mike-carey",
@@ -593,6 +711,18 @@
           "source_url": "https://en.wikipedia.org/wiki/Mike_Carey_(politician)",
           "snippet": "Carey and his wife, Meghan, have two sons and reside in Columbus .",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "United States Army Reserve, 1989-1999; staff, Ohio state senator Merle Grace Kearns, 1991-1993; staff, United States Representative Robert William Ney of Ohio, 1995-1998; professional advocate; business executive",
+          "source_url": "https://history.house.gov/People/Listing/C/CAREY,-Mike-(C001126)/",
+          "snippet": "United States Army Reserve, 1989-1999; staff, Ohio state senator Merle Grace Kearns, 1991-1993; staff, United States Representative Robert William Ney of Ohio, 1995-1998; professional advocate; business executive",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "Veteran",
+          "source_url": "https://www.careyforcongress.com/",
+          "snippet": "As a Veteran, he totally supports our Military and his fellow Vets.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
       "platform": [
@@ -619,6 +749,21 @@
       ],
       "platform_source_url": "https://www.careyforcongress.com/",
       "_platform_resolved_at": "2026-08-14T14:33:58.187Z",
+      "campaign_site_url": "https://www.careyforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:37.361Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=ZMpp-jBiP9w",
+      "platform_video_title": "Carey for Congress - 2026 Reel",
+      "platform_video_source_url": "https://www.careyforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:05:51.847Z",
+      "bio_summary": {
+        "value": "Congressman Mike Carey proudly represents Ohio’s 15th Congressional District, which now includes all of Highland, Fayette, Madison, and Pickaway counties, as well as parts of Clark, Franklin, and Miami counties. Sworn in on November 4, 2021, Mike was able to quickly distinguish himself as an effective member and was appointed to the prestigious House Committee on Ways and Means and the Committee on House Administration in 2023.",
+        "source_url": "https://www.careyforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:26.462Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9115739.pdf",
         "filingDate": "4/15/2026",
@@ -632,61 +777,61 @@
       "_financial_disclosure_resolved_at": "2026-08-14T14:34:16.550Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
+          "rollNumber": 294,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
         },
         {
-          "rollNumber": 282,
+          "rollNumber": 293,
           "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
         },
         {
-          "rollNumber": 281,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 283,
-          "votesCast": 278,
-          "attendanceRate": 0.9823321554770318
+          "votesInSession": 294,
+          "votesCast": 289,
+          "attendanceRate": 0.9829931972789115
         },
         "committees": [
           {
@@ -726,8 +871,8 @@
           }
         ],
         "bills_sponsored": 63,
-        "bills_cosponsored": 635,
-        "bills_became_law": 0,
+        "bills_cosponsored": 638,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Internal Revenue Service relating to \"Gross Proceeds Reporting by Brokers That Regularly Provide Services Effectuating Digital Asset Sales\".",
@@ -756,24 +901,12 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 95.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 95.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001126"
         }
       },
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=ZMpp-jBiP9w",
-      "platform_video_title": "Carey for Congress - 2026 Reel",
-      "platform_video_source_url": "https://www.careyforcongress.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:05:51.847Z",
-      "bio_summary": {
-        "value": "Congressman Mike Carey proudly represents Ohio’s 15th Congressional District, which now includes all of Highland, Fayette, Madison, and Pickaway counties, as well as parts of Clark, Franklin, and Miami counties. Sworn in on November 4, 2021, Mike was able to quickly distinguish himself as an effective member and was appointed to the prestigious House Committee on Ways and Means and the Committee on House Administration in 2023.",
-        "source_url": "https://www.careyforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:06:26.462Z",
-      "campaign_site_url": "https://www.careyforcongress.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:37.361Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "don-leonard",
@@ -840,6 +973,21 @@
       ],
       "platform_source_url": "https://donforohio.com/",
       "_platform_resolved_at": "2026-08-14T14:33:55.267Z",
+      "campaign_site_url": "https://www.donforohio.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T01:21:37.362Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "My name is Don Leonard. I’m running to represent Ohio’s 15th Congressional District in the U.S. House of Representatives because the working families of Central Ohio deserve better. The politicians are lying to us. America is not broke. Our economy is just broken.",
+        "source_url": "https://donforohio.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:28.849Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081075.pdf",
         "filingDate": "7/28/2026",
@@ -853,16 +1001,7 @@
       "_financial_disclosure_resolved_at": "2026-08-14T14:34:20.154Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "My name is Don Leonard. I’m running to represent Ohio’s 15th Congressional District in the U.S. House of Representatives because the working families of Central Ohio deserve better. The politicians are lying to us. America is not broke. Our economy is just broken.",
-        "source_url": "https://donforohio.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:06:28.849Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:00:20.757Z",
-      "campaign_site_url": "https://www.donforohio.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:21:37.362Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "samuel-ronan",
@@ -879,6 +1018,12 @@
           "source_url": "https://www.samronan.com/",
           "snippet": "Sam Ronan is a U.S. Air Force veteran running for Congress in Ohio s 15th Congressional District.",
           "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Associate's (2011)",
+          "source_url": "https://www.ballotready.org/people/samuel-ronan",
+          "snippet": "Associate's (2011)",
+          "source_type": "llm_extracted_ballotready"
         }
       },
       "platform": [
@@ -900,23 +1045,26 @@
       ],
       "platform_source_url": "https://www.samronan.com/",
       "_platform_resolved_at": "2026-08-14T14:34:01.914Z",
+      "campaign_site_url": "https://www.samronan.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:21:12.222Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=MM1bBZwixmU",
+      "platform_video_title": "We must stand Against Israel's War",
+      "platform_video_source_url": "https://www.samronan.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:05:52.212Z",
+      "bio_summary": {
+        "value": "Sam Ronan is a U.S. Air Force veteran running for Congress in Ohio's 15th Congressional District. He's a Republican candidate who believes working families deserve a representative who fights for them — not for lobbyists, not for party bosses, and not for corporate donors.",
+        "source_url": "https://www.samronan.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:06:30.552Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "platform_video_url": "https://www.youtube.com/watch?v=MM1bBZwixmU",
-      "platform_video_title": "We must stand Against Israel's War",
-      "platform_video_source_url": "https://www.samronan.com/",
-      "_platform_video_resolved_at": "2026-08-18T22:05:52.212Z",
-      "bio_summary": {
-        "value": "Sam Ronan is a U.S. Air Force veteran running for Congress in Ohio's 15th Congressional District. He's a Republican candidate who believes working families deserve a representative who fights for them — not for lobbyists, not for party bosses, and not for corporate donors.",
-        "source_url": "https://www.samronan.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:06:30.552Z",
-      "campaign_site_url": "https://www.samronan.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:21:12.222Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

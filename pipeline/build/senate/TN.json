@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-09-02T11:59:27.667Z",
+  "generated_at": "2026-09-03T09:11:15.267Z",
   "election_dates": {
     "primaryDate": "2026-08-06",
     "primarySourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
@@ -641,8 +641,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:38.105Z"
+      "_curated_match": false
     },
     {
       "slug": "tharon-chandler",
@@ -683,8 +682,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:38.466Z"
+      "_curated_match": false
     },
     {
       "slug": "bill-hagerty",
@@ -748,9 +746,20 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Immigration - Housing Benefits",
+          "value": "Bar illegal aliens from exploiting federal housing benefits",
+          "snippet": "introduced the End Housing Welfare for Illegal Aliens Act, a bill aimed at barring"
+        },
+        {
+          "topic": "AI and National Security",
+          "value": "Block unauthorized use of American AI models by foreign adversaries",
+          "snippet": "The unauthorized use of American AI models by foreign adversaries is a threat to both economic and national security"
+        }
+      ],
+      "platform_source_url": "https://www.hagerty.senate.gov/",
+      "_platform_resolved_at": "2026-09-03T09:07:35.308Z",
       "campaign_site_url": "https://www.teamhagerty.com",
       "_campaign_site_reachability": "cloudflare_challenge",
       "_campaign_site_discovered_at": "2026-09-01T09:50:25.938Z",
@@ -827,9 +836,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 221,
-          "votesCast": 209,
-          "attendanceRate": 0.9457013574660633
+          "votesInSession": 219,
+          "votesCast": 207,
+          "attendanceRate": 0.9452054794520548
         },
         "committees": [
           {
@@ -963,8 +972,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/H000601"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:38.869Z"
+      "_curated_match": false
     },
     {
       "slug": "robert-jones",
@@ -1089,8 +1097,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:39.303Z"
+      "_curated_match": false
     },
     {
       "slug": "david-sutman",
@@ -1214,8 +1221,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:39.699Z"
+      "_curated_match": false
     }
   ]
 }

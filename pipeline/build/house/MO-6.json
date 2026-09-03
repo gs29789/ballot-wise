@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-08-14T14:08:03.815Z",
+  "generated_at": "2026-09-03T09:04:00.283Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-121/",
@@ -18,12 +18,18 @@
     "source_url": "https://law.justia.com/codes/missouri/title-ix/chapter-115/section-115-306/",
     "snippet": "115.306. Disqualification as candidate for elective public office, when — filing of affidavit, contents — tax delinquency, effect of. — 1. No person shall qualify as a candidate for elective public office in the state of Missouri who has been found guilty of or pled guilty to a felony under the federal laws of the United States of America or to a felony under the laws of this state or an offense committed in another state that would be considered a felony in this state."
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Missouri,_2026",
     "snippet": "Josh Smead (Democratic Party) Chris Stigall (Republican Party) Andy Maidment (Libertarian Party)"
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.6
+      },
       {
         "year": "2026",
         "month": "June",
@@ -238,7 +244,7 @@
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
-        "ratePer100k": 42.76
+        "ratePer100k": 42.8
       },
       {
         "year": "2022",
@@ -250,18 +256,23 @@
       },
       {
         "year": "2024",
-        "ratePer100k": 35.57
+        "ratePer100k": 35.58
       },
       {
         "year": "2025",
-        "ratePer100k": 31.21
+        "ratePer100k": 31.47
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3014.9
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 3000.9
+        "thousandsOfJobs": 3006.8
       },
       {
         "year": "2026",
@@ -472,8 +483,8 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 25816923342.32,
-        "perCapitaUsd": 33889.15
+        "totalUsd": 25816908232.68,
+        "perCapitaUsd": 33889.13
       },
       {
         "year": "2024",
@@ -482,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 32080677596.88,
-        "perCapitaUsd": 42111.4
+        "totalUsd": 32080506539.88,
+        "perCapitaUsd": 42111.18
       }
     ],
     "population": [
@@ -557,20 +568,26 @@
       ],
       "platform_source_url": "https://www.maidmentformissouri.com/",
       "_platform_resolved_at": "2026-08-14T14:07:48.941Z",
+      "campaign_site_url": "https://www.maidmentformissouri.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:14:59.836Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am a father, retired Army officer, and an IT security professional. I have lived in Missouri since I was twelve. I have a degree in history from Missouri State University and I minored in economics. I am not a politician. If elected my children will stay in Missouri and I will make every effort to be home whenever possible.",
+        "source_url": "https://www.maidmentformissouri.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:04:57.434Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I am a father, retired Army officer, and an IT security professional. I have lived in Missouri since I was twelve. I have a degree in history from Missouri State University and I minored in economics. I am not a politician. If elected my children will stay in Missouri and I will make every effort to be home whenever possible.",
-        "source_url": "https://www.maidmentformissouri.com/about"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:04:57.434Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:32.032Z",
-      "campaign_site_url": "https://www.maidmentformissouri.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:14:59.836Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "josh-smead",
@@ -582,12 +599,12 @@
       "bioguide_id": null,
       "financials": {
         "cycle": 2026,
-        "totalRaised": 72101.19,
-        "totalSpent": 55154.65,
+        "totalRaised": 71949.11,
+        "totalSpent": 55221.68,
         "cashOnHand": null,
         "fundingSources": {
-          "smallDollar": 31858.77,
-          "largeDollar": 31889.8,
+          "smallDollar": 31867.69,
+          "largeDollar": 31728.8,
           "pac": 0,
           "party": 0,
           "selfFunded": 8352.62
@@ -599,11 +616,207 @@
           "source_url": "https://www.ballotready.org/people/josh-smead",
           "snippet": "Professional Experience Architect",
           "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Harrisonburg High School",
+          "source_url": "https://ballotpedia.org/Josh_Smead",
+          "snippet": "Josh Smead graduated from Harrisonburg High School."
+        },
+        "college": {
+          "value": "Bachelor's degree, James Madison University (2012); graduate degree, Iowa State University (2016)",
+          "source_url": "https://ballotpedia.org/Josh_Smead",
+          "snippet": "He earned a bachelor's degree from James Madison University in 2012 and a graduate degree from Iowa State University in 2016."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Farm Economics",
+          "value": "Says Missouri farmers are squeezed by rising costs and falling prices across commodities, made worse by shifting trade policy and stalled export programs",
+          "snippet": "Missouri farmers feed the world, but too many are being squeezed by rising costs and falling prices — not just for grain, but across the board.  From soybeans to hogs to dairy, it’s getting harder to break even, especially with trade policy flipping back and forth and key export programs stalled."
+        },
+        {
+          "topic": "Right to Repair",
+          "value": "Says new agricultural technology only helps if farmers have the right to repair their own equipment and the infrastructure to compete",
+          "snippet": "New technology can help, but only if farmers have the right to repair their own equipment and the infrastructure to compete."
+        },
+        {
+          "topic": "Trade & Farm Subsidies",
+          "value": "Favors what he calls smart trade over bailouts, and policies that put small and family-run farms first",
+          "snippet": "I believe in smart trade, not bailouts — and policies that put small and family-run farms first."
+        },
+        {
+          "topic": "Energy Reliability & Cost",
+          "value": "Says North Missouri needs energy that is reliable, affordable and built for the long haul",
+          "snippet": "North Missouri needs energy that’s reliable, affordable, and built for the long haul."
+        },
+        {
+          "topic": "Grain Belt Express",
+          "value": "Supports the Grain Belt Express transmission project as delivering stable, low-cost power to Missouri communities while strengthening the grid against blackouts and extreme weather",
+          "snippet": "Projects like the Grain Belt Express offer exactly that — stable, low-cost power delivered to dozens of Missouri communities while strengthening our grid against blackouts and extreme weather."
+        },
+        {
+          "topic": "Energy Infrastructure Investment",
+          "value": "Would invest in infrastructure that keeps costs down rather than blocking projects for short-term politics",
+          "snippet": "We should be investing in infrastructure that keeps the lights on and the bills low, not blocking progress for short-term politics."
+        },
+        {
+          "topic": "Postal Service",
+          "value": "Says the Postal Service is a service rather than a profit machine and should not be gutted for failing to turn one",
+          "snippet": "The U.S. Postal Service is a service — not a profit machine.  Just like we do not ask if the military turns a profit, we should not gut the Postal Service for failing to make one."
+        },
+        {
+          "topic": "Postal Privatization",
+          "value": "Opposes privatizing the Postal Service, saying it would slash rural delivery, and that affordable, reliable mail should be protected rather than sold off",
+          "snippet": "For decades, there has been a push to privatize it, which would slash rural delivery and abandon millions of Americans.  The Postal Service is part of our national identity — affordable, reliable mail should be protected, not sold off."
+        },
+        {
+          "topic": "Medicaid",
+          "value": "Would strengthen Medicaid rather than cut it, noting one in five Missourians rely on it",
+          "snippet": "We need to strengthen Medicaid, not slash it, and invest in rural healthcare so families can grow and age in the communities they love."
+        },
+        {
+          "topic": "Rural Healthcare Access",
+          "value": "Says families in parts of the 6th District drive over an hour to reach a delivery room and some rural hospitals are near closing, and that healthcare access shouldn't depend on ZIP code",
+          "snippet": "In parts of the 6th District, families already drive over an hour just to reach a delivery room — and some rural hospitals are on the brink of closing for good."
+        },
+        {
+          "topic": "Healthcare Equity",
+          "value": "Says healthcare access should not depend on where someone lives",
+          "snippet": "Healthcare access shouldn’t depend on your ZIP code."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Says Missourians deserve sovereignty over their own bodies and that he trusts them to make personal decisions rather than the government",
+          "snippet": "Missourians deserve sovereignty over their own bodies — plain and simple."
+        },
+        {
+          "topic": "Personal Medical Decisions",
+          "value": "Says he trusts Missourians to make personal decisions for themselves rather than the government",
+          "snippet": "I trust Missourians to make personal decisions for themselves — not the government."
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Says climate change is real and Missouri is already feeling it through hotter summers, more extreme winters and stronger winds",
+          "snippet": "Climate change is real, and Missouri is already feeling it — hotter summers, more extreme winters, and stronger winds."
+        },
+        {
+          "topic": "Environmental Policy Approach",
+          "value": "Argues the conditions on the ground call for a smarter approach regardless of whether one believes in climate change, and that resilient communities require long-term thinking over short-term fixes",
+          "snippet": "Whether you believe in climate change or not, the reality on the ground calls for a smarter approach.  As a builder, I know it’s cheaper in the long run to build things right the first time.  The same goes for environmental policy: resilient communities start with long-term thinking, not short-term fixes."
+        },
+        {
+          "topic": "Tariffs",
+          "value": "Says tariffs have become a political tool whose cost falls on working families rather than foreign governments, catching American farmers and consumers in the trade war",
+          "snippet": "Tariffs have become a political tool, but too often it’s working families — not foreign governments — who pay the price. Today’s shoot-from-the-hip arbitrary tariffs and the growing trade war means American farmers and consumers keep getting caught in the crossfire."
+        },
+        {
+          "topic": "Tax Fairness",
+          "value": "Says Congress should stop protecting the powerful and invest in people, citing record household debt alongside tax breaks and subsidies for billionaires",
+          "snippet": "Meanwhile, household debt just hit a record $17.3 trillion, and billionaires still enjoy tax breaks and subsidies. It’s time Congress stopped protecting the powerful and started investing in the people."
+        },
+        {
+          "topic": "Family Farms & Market Access",
+          "value": "Would protect family farms and expand access to markets, saying farmers are squeezed by monopolies and rising costs",
+          "snippet": "Northern Missouri’s economy starts with agriculture, but our farmers are being squeezed by monopolies and rising costs. I’ll fight to protect family farms, expand access to markets, and support sustainable practices like soil health, water conservation, and ag-tech innovation."
+        },
+        {
+          "topic": "Land Stewardship",
+          "value": "Frames investment in long-term stewardship of the land as how the future of farming is secured for the next generation",
+          "snippet": "Investing in long-term stewardship of the land isn’t just good policy—it’s how we secure the future of farming for the next generation."
+        },
+        {
+          "topic": "Small Business Support",
+          "value": "Would expand access to affordable healthcare, capital and federal contracts for local businesses",
+          "snippet": "I’ll fight to expand access to affordable healthcare, capital, and federal contracts for local businesses."
+        },
+        {
+          "topic": "Corporate Tax Breaks",
+          "value": "Says small businesses are left behind while billion-dollar corporations receive tax breaks and bailouts, and calls for leveling the playing field",
+          "snippet": "Small businesses are the backbone of Northern Missouri’s economy, but too often they’re left behind while billion-dollar corporations get tax breaks and bailouts."
+        },
+        {
+          "topic": "Rural Infrastructure",
+          "value": "Would fight for federal funding that reaches rural towns rather than only urban centers, covering roads, bridges, water systems and flood control",
+          "snippet": "Rural infrastructure has been neglected for too long—roads, bridges, water systems, and flood control need urgent investment.  I’ll fight for federal funding that reaches rural towns, not just urban centers, and supports the basics that families and small businesses rely on."
+        },
+        {
+          "topic": "Rural Broadband",
+          "value": "Would fully fund rural broadband expansion across fiber, cable, satellite and wireless so every home and town is connected",
+          "snippet": "We need to fully fund rural broadband expansion and explore all options—from traditional fiber and cable to satellite and wireless solutions—so every home and town gets connected."
+        },
+        {
+          "topic": "Broadband Funding Priorities",
+          "value": "Says broadband investment must prioritize unserved areas rather than padding profits for major telecoms",
+          "snippet": "This investment must prioritize unserved areas, not just pad profits for major telecoms."
+        },
+        {
+          "topic": "LGBTQ+ Rights",
+          "value": "Says everyone deserves to live freely and equally, and that who someone loves or how they identify is not the government's business",
+          "snippet": "Everyone deserves to live freely and equally — no exceptions. I believe in a government that protects rights, not one that polices personal lives. Who someone loves or how they identify is none of the government’s business, and it certainly shouldn’t be a political weapon."
+        },
+        {
+          "topic": "Equal Protection",
+          "value": "Would stand for equal protection under the law and against attempts to use power to divide, discriminate or interfere in private lives",
+          "snippet": "I will always stand for equal protection under the law, and against any attempt to use power to divide, discriminate, or interfere in people’s private lives."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Supports the Second Amendment, saying it works to keep tyrants at bay, and that public safety can be protected without trampling those freedoms",
+          "snippet": "I support and appreciate the Second Amendment because it works to keep tyrants at bay."
+        },
+        {
+          "topic": "Gun Safety Measures",
+          "value": "Would require background checks on gun sales, encourage safe storage, and document gun transactions",
+          "snippet": "That means requiring background checks on gun sales, encouraging safe storage, and documenting gun transactions."
+        },
+        {
+          "topic": "Documenting Gun Transactions",
+          "value": "Argues that since car and house sales are documented, keeping a basic record when a deadly weapon changes hands makes sense",
+          "snippet": "We document car sales and house sales – it just makes sense to keep a basic record when a deadly weapon changes hands. Responsible gun ownership is part of our culture — and common sense reforms help keep it that way."
+        },
+        {
+          "topic": "Military Draft",
+          "value": "Believes the draft should include all able-bodied men and women",
+          "snippet": "I believe the Draft should include all able bodied Men & Women."
+        },
+        {
+          "topic": "Labor Unions",
+          "value": "Describes himself as proudly pro-union, saying workers deserve a real voice, fair wages and the freedom to organize without interference",
+          "snippet": "I’m proudly pro-union because workers deserve a real voice, fair wages, and the freedom to organize without interference."
+        },
+        {
+          "topic": "Federal Labor Rights",
+          "value": "Says federal actions are chipping away at labor rights, gutting contracts and making it harder for workers including federal employees to unionize",
+          "snippet": "Today, federal actions are chipping away at labor rights, gutting contracts, and making it harder for workers — including federal employees — to unionize."
+        },
+        {
+          "topic": "Tariffs & the Trades",
+          "value": "Says unstable tariff policy drives up material costs mid-project for trades and small contractors, and that rebuilding American industry means strengthening unions rather than undercutting them",
+          "snippet": "At the same time, unstable tariff policy is hitting trades and small contractors hard, driving up material costs in the middle of projects and threatening their ability to stay profitable. If we’re serious about rebuilding American industry and protecting working families, we need to strengthen unions — not undercut them."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "Supports term limits for politicians, saying he is an architect who does not plan to be a politician for the rest of his career",
+          "snippet": "I support term limits for politicians. I am an architect, and being a politician is not what I plan to do for the rest of my career. Career politicians who spend decades in office become detached from the reality the rest of us face every day."
+        }
+      ],
+      "platform_source_url": "https://www.votesmead.com/",
+      "_platform_resolved_at": "2026-09-03T09:02:25.924Z",
+      "campaign_site_url": "https://www.votesmead.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-09-01T01:20:55.660Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=UcSgcRQbatc",
+      "platform_video_title": "Josh Smead, Candidate for Congress in Missouri, Virtual Town Hall February 2026",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:32.334Z",
+      "bio_summary": {
+        "value": "I have lived in Missouri since 2017, and most importantly, this is where my four young children call home. My wife and I are building our lives and our small business here – literally constructing our first building in Liberty as part of our growing company. Missouri isn’t just where I live; it’s where I’m invested in the future, for my family, and for everyone in the 6th District.",
+        "source_url": "https://www.votesmead.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:50:11.953Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078101.pdf",
         "filingDate": "5/14/2026",
@@ -617,22 +830,7 @@
       "_financial_disclosure_resolved_at": "2026-08-14T14:07:52.157Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Josh Smead graduated from Harrisonburg High School. He earned a bachelor's degree from James Madison University in 2012 and a graduate degree from Iowa State University in 2016. His career experience includes working as an architect and general contractor.",
-        "source_url": "https://ballotpedia.org/Josh_Smead",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T11:50:11.953Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:32.334Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=UcSgcRQbatc",
-      "platform_video_title": "Josh Smead, Candidate for Congress in Missouri, Virtual Town Hall February 2026",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-30T12:00:32.334Z",
-      "campaign_site_url": "https://www.votesmead.com",
-      "_campaign_site_discovered_at": "2026-09-01T01:20:55.660Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "chris-stigall",
@@ -707,6 +905,21 @@
       ],
       "platform_source_url": "https://www.stigallforcongress.com/issues",
       "_platform_resolved_at": "2026-09-01T13:27:35.767Z",
+      "campaign_site_url": "https://www.stigallforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:15:34.734Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=4S6mwU9e1Vc",
+      "platform_video_title": "Chris Stigall FULL Speech: 25 Years Behind a Mic, Now Running for Congress in North Missouri",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:32.702Z",
+      "bio_summary": {
+        "value": "Chris Stigall was born in Richmond, Missouri . Stigall earned a bachelor's degree from Northwest Missouri State University. His career experience includes working in conservative talk radio and serving as a field representative and deputy communications director for Congressman Sam Graves. [1] ",
+        "source_url": "https://ballotpedia.org/Chris_Stigall",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:50:32.411Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10076688.pdf",
         "filingDate": "6/11/2026",
@@ -720,22 +933,7 @@
       "_financial_disclosure_resolved_at": "2026-08-14T14:07:58.434Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Chris Stigall was born in Richmond, Missouri . Stigall earned a bachelor's degree from Northwest Missouri State University. His career experience includes working in conservative talk radio and serving as a field representative and deputy communications director for Congressman Sam Graves. [1] ",
-        "source_url": "https://ballotpedia.org/Chris_Stigall",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T11:50:32.411Z",
-      "_tier2_search_attempted_at": "2026-08-30T12:00:32.702Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=4S6mwU9e1Vc",
-      "platform_video_title": "Chris Stigall FULL Speech: 25 Years Behind a Mic, Now Running for Congress in North Missouri",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-30T12:00:32.702Z",
-      "campaign_site_url": "https://www.stigallforcongress.com/",
-      "_campaign_site_discovered_at": "2026-09-01T12:15:34.734Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

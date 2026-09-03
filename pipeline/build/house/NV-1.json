@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-09-02T10:48:36.195Z",
+  "generated_at": "2026-09-02T16:01:46.593Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://law.justia.com/codes/nevada/chapter-293/statute-293-175/",
@@ -556,9 +556,35 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Parents' Rights",
+          "value": "Work to protect parents' rights",
+          "snippet": "work to protect parents' rights"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Secure the border",
+          "snippet": "secure the border"
+        },
+        {
+          "topic": "Law Enforcement Funding",
+          "value": "Fully fund our police",
+          "snippet": "fully fund our police"
+        },
+        {
+          "topic": "Tax Policy on Tips",
+          "value": "Ensure tips are never taxed",
+          "snippet": "ensure tips are never taxed"
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Work with the President to hold Washington accountable for every taxpayer dollar",
+          "snippet": "work with the President to hold Washington accountable for every taxpayer dollar"
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Carrie_Buck_(Nevada)",
+      "_platform_resolved_at": "2026-09-02T16:00:50.757Z",
       "campaign_site_url": "https://www.votecarriebuck.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T22:48:05.953Z",
@@ -574,8 +600,17 @@
         "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:54:41.249Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077674.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T16:01:29.535Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false
@@ -647,8 +682,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-02T12:00:22.484Z"
+      "_curated_match": false
     },
     {
       "slug": "dina-titus",
@@ -700,9 +734,25 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Workers' Rights and Unionization",
+          "value": "Champion the rights of workers to unionize and to engage in collective bargaining for better wages and working conditions",
+          "snippet": "I am proud to champion the rights of workers to unionize and to engage in collective bargaining for better wages and working conditions."
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Co-sponsored the Raise the Wage Act, which would raise the minimum wage to $15 per hour",
+          "snippet": "I have co-sponsored the Raise the Wage Act, which would raise the minimum wage to $15 per hour."
+        },
+        {
+          "topic": "Equal Pay",
+          "value": "Original co-sponsor of the Paycheck Fairness Act to ensure equal pay for equal work",
+          "snippet": "we must also insist on equal pay for equal work, which is why I am proud to be an original co-sponsor of the Paycheck Fairness Act."
+        }
+      ],
+      "platform_source_url": "https://titus.house.gov/issues/issue/?IssueID=14893",
+      "_platform_resolved_at": "2026-09-02T16:01:13.039Z",
       "campaign_site_url": "http://www.dinatitus.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T22:48:05.952Z",
@@ -718,11 +768,75 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:42:06.377Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/9116312.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T16:01:34.018Z",
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 292,
+          "votesCast": 278,
+          "attendanceRate": 0.952054794520548
+        },
         "committees": [
           {
             "committee": "House Committee on Transportation and Infrastructure",

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-06",
-  "generated_at": "2026-09-02T10:49:37.129Z",
+  "generated_at": "2026-09-02T16:02:45.756Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://msa.maryland.gov/msa/mdmanual/41electp/html/forth.html",
@@ -589,9 +589,20 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Immigration Reform",
+          "value": "Fighting in Congress for commonsense reforms to immigration enforcement",
+          "snippet": "She is fighting in Congress for commonsense reforms to immigration enforcement."
+        },
+        {
+          "topic": "Federal Agency Assistance",
+          "value": "Office dedicated to help Sixth District constituents navigate issues with federal agencies on topics such as passports, citizenship, green cards, work permits",
+          "snippet": "Our office is dedicated to help Sixth District constituents navigate issues with federal agencies on topics such as passports, citizenship, green cards, work permits, and more."
+        }
+      ],
+      "platform_source_url": "https://mcclaindelaney.house.gov/immigration-issues-resources-sixth-district",
+      "_platform_resolved_at": "2026-09-02T16:02:30.940Z",
       "campaign_site_url": "https://aprilmcclaindelaneyforcongress.com",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T22:48:39.927Z",
@@ -609,9 +620,64 @@
       "_bio_summary_resolved_at": "2026-08-26T10:38:32.095Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 198,
+          "votesCast": 190,
+          "attendanceRate": 0.9595959595959596
+        },
         "committees": [
           {
             "committee": "House Committee on Science, Space, and Technology",

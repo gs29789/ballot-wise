@@ -3,7 +3,7 @@
   "office": "S",
   "cycle": 2026,
   "race_slug": "senate",
-  "generated_at": "2026-08-29T17:26:04.653Z",
+  "generated_at": "2026-09-03T08:52:29.200Z",
   "election_dates": {
     "primaryDate": "2026-06-09",
     "primarySourceUrl": "https://www.scstatehouse.gov/code/t07c013.php",
@@ -549,38 +549,234 @@
         }
       },
       "bio": {},
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Says families are doing everything right and still falling behind on everyday prices while billionaires and corporations get special treatment",
+          "snippet": "I do the grocery shopping for my family. I’ve watched prices climb on everything from milk to eggs to bananas, while politicians in Washington do nothing. Families are doing everything right and still falling behind, while billionaires and corporations get special treatment.\n"
+        },
+        {
+          "topic": "Taxes",
+          "value": "Would end tax breaks for the ultra-wealthy and corporate polluters",
+          "snippet": "End tax breaks for the ultra-wealthy and corporate polluters"
+        },
+        {
+          "topic": "Wages & Workers' Rights",
+          "value": "Would raise wages and strengthen workers' rights",
+          "snippet": "Raise wages and strengthen workers’ rights"
+        },
+        {
+          "topic": "Child Care & Family Leave",
+          "value": "Would expand affordable child care and paid family leave",
+          "snippet": "Expand affordable child care and paid family leave"
+        },
+        {
+          "topic": "Trade",
+          "value": "Would bring back trade policies that protect South Carolina's jobs and farms",
+          "snippet": "Bring back trade policies that protect South Carolina’s jobs and farms"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Would restore the protections of Roe v. Wade, and says these decisions belong to women and families rather than politicians",
+          "snippet": "These decisions belong to women and families, not to politicians. I’ll fight to:\n\n* Restore the protections of Roe v. Wade\n"
+        },
+        {
+          "topic": "Contraception & Infertility Care",
+          "value": "Would guarantee access to contraception and infertility care",
+          "snippet": "Guarantee access to contraception and infertility care"
+        },
+        {
+          "topic": "Maternal Health",
+          "value": "Would expand maternal health services, especially in rural communities",
+          "snippet": "Expand maternal health services, especially in rural communities"
+        },
+        {
+          "topic": "South Carolina Abortion Ban",
+          "value": "Opposes the South Carolina ban she describes as one of the most extreme in the country, saying it would endanger women's lives and criminalize doctors",
+          "snippet": "Republicans cheered on South Carolina politicians who are now pushing one of the most extreme bans in the country—one that would endanger women’s lives and criminalize doctors."
+        },
+        {
+          "topic": "Public School Funding",
+          "value": "Would fully fund public schools and special education",
+          "snippet": "Fully fund public schools and special education"
+        },
+        {
+          "topic": "School Facilities & Safety",
+          "value": "Would invest in modern classrooms, technology and school safety",
+          "snippet": "Invest in modern classrooms, technology, and school safety"
+        },
+        {
+          "topic": "Early Learning",
+          "value": "Would expand access to affordable child care and early learning",
+          "snippet": "Expand access to affordable child care and early learning"
+        },
+        {
+          "topic": "Teacher Pay",
+          "value": "Would raise pay for teachers and school staff",
+          "snippet": "Raise pay for teachers and school staff"
+        },
+        {
+          "topic": "School Meals",
+          "value": "Would protect and expand free and reduced-price school meals",
+          "snippet": "Protect and expand free and reduced-price school meals"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Would ban corporate PAC and dark money, and says she takes no corporate PAC money herself",
+          "snippet": "I don’t take a dime of corporate PAC money. I’m not a career politician. I’m a doctor who believes the government should serve families, not donors.\n"
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Would bar members of Congress from trading stocks and profiting from insider information",
+          "snippet": "Barring members of congress from trading stocks and getting rich off of insider information"
+        },
+        {
+          "topic": "Term Limits & Ethics",
+          "value": "Supports term limits and stronger ethics rules",
+          "snippet": "Supporting term limits and stronger ethics rules"
+        },
+        {
+          "topic": "Voting Rights",
+          "value": "Would protect the right to vote and make elections fairer",
+          "snippet": "Protecting the right to vote and making elections fairer"
+        },
+        {
+          "topic": "Gun Policy",
+          "value": "Says the Second Amendment can be respected while still protecting children, citing her experience treating child shooting survivors",
+          "snippet": "I’ve cared for children who survived shootings and met parents who didn’t get to take their child home from the hospital. Those are stories you don’t forget.\nWe can respect the Second Amendment and still protect our kids.\n"
+        },
+        {
+          "topic": "Background Checks",
+          "value": "Supports universal background checks",
+          "snippet": "Universal background checks"
+        },
+        {
+          "topic": "Assault Weapons",
+          "value": "Would ban what she calls weapons of war from the streets",
+          "snippet": "Banning weapons of war from our streets"
+        },
+        {
+          "topic": "Safe Storage",
+          "value": "Supports safe storage laws to prevent unintentional shootings and youth suicides",
+          "snippet": "Safe storage laws that prevent unintentional shootings and youth suicides"
+        },
+        {
+          "topic": "Violence Prevention & Mental Health",
+          "value": "Would increase funding for community violence prevention and mental health programs",
+          "snippet": "More funding for community violence prevention and mental health programs"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports immigration reform that strengthens border security, arguing secure borders and treating people with dignity are compatible",
+          "snippet": "We can have secure borders and still treat people with dignity. It’s not complicated; it’s just the right thing to do.\nI’ll support immigration reform that:\n\n* Strengthens border security\n"
+        },
+        {
+          "topic": "Path to Citizenship",
+          "value": "Would create what she calls a fair path to citizenship for people who work hard and follow the rules",
+          "snippet": "Creates a fair path to citizenship for people who work hard and follow the rules"
+        },
+        {
+          "topic": "Family Separation & Due Process",
+          "value": "Would keep families together and ensure due process",
+          "snippet": "Keeps families together and ensures due process"
+        },
+        {
+          "topic": "Immigration & South Carolina Workforce",
+          "value": "Frames immigration reform as supporting South Carolina's farms, businesses and workforce",
+          "snippet": "Supports South Carolina’s farms, businesses, and workforce"
+        },
+        {
+          "topic": "Data Privacy",
+          "value": "Would rein in tech companies that misuse personal data",
+          "snippet": "Rein in tech companies that misuse personal data"
+        },
+        {
+          "topic": "Digital Bill of Rights",
+          "value": "Would establish a national digital bill of rights",
+          "snippet": "Establish a national digital bill of rights"
+        },
+        {
+          "topic": "Children & Social Media",
+          "value": "Would protect children from social media addiction and online exploitation, including removing phones from schools",
+          "snippet": "Protect kids from social media addiction and online exploitation, including getting phones out of schools"
+        },
+        {
+          "topic": "AI & Facial Recognition",
+          "value": "Would regulate AI and facial recognition tools that can discriminate or be abused",
+          "snippet": "Regulate AI and facial recognition tools that can discriminate or be abused"
+        },
+        {
+          "topic": "Military Intervention",
+          "value": "Would end what she calls reckless, open-ended wars",
+          "snippet": "End reckless, open-ended wars"
+        },
+        {
+          "topic": "War Powers",
+          "value": "Would require Congress to approve the use of military force",
+          "snippet": "Require Congress to approve use of military force"
+        },
+        {
+          "topic": "Foreign Policy",
+          "value": "Would put diplomacy and accountability first",
+          "snippet": "Put diplomacy and accountability first"
+        },
+        {
+          "topic": "Veterans & Military Families",
+          "value": "Would fully support veterans and military families",
+          "snippet": "Fully support veterans and military families"
+        },
+        {
+          "topic": "Roads & Bridges",
+          "value": "Would fix and modernize South Carolina's roads, bridges and highways",
+          "snippet": "Fix and modernize South Carolina’s roads, bridges, and highways"
+        },
+        {
+          "topic": "Public Transit",
+          "value": "Would expand public transit and safe sidewalks",
+          "snippet": "Expand public transit and safe sidewalks so people can get around safely"
+        },
+        {
+          "topic": "Clean Energy & Resilience",
+          "value": "Would invest in clean energy and resilient infrastructure",
+          "snippet": "Invest in clean energy and resilient infrastructure"
+        },
+        {
+          "topic": "Infrastructure Jobs",
+          "value": "Frames infrastructure investment as creating good-paying jobs in South Carolina",
+          "snippet": "Create good-paying jobs building the future right here at home"
+        }
+      ],
+      "platform_source_url": "https://drannieandrews.com/platform/",
+      "_platform_resolved_at": "2026-09-03T08:51:23.474Z",
       "campaign_site_url": "https://www.drannieandrews.com",
-      "platform_video_url": "https://www.youtube.com/watch?v=rG8w9atWV2c",
-      "platform_video_title": "Dr. Annie Andrews for Congress Announcement Video",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "platform_video_source_type": null,
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=J8wMNLaSNW4",
+      "platform_video_title": "Annie Andrews Launch Video: \"Unafraid\"",
+      "platform_video_source_url": "https://www.youtube.com/@AnnieAndrewsSC",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
       "_platform_video_resolved_at": "2026-08-30T12:00:08.697Z",
       "bio_summary": {
-        "value": "Anne Lintzenich Andrews (born 1981) is an American pediatrician and political candidate who is the Democratic nominee for the 2026 United States Senate election in South Carolina.",
-        "source_url": "https://en.wikipedia.org/wiki/Annie_Andrews_(physician)",
-        "source_type": "wikipedia"
+        "value": "Dr. Annie Andrews is a pediatrician and a mom, not a politician. She’s spent her entire career serving South Carolina families—not donors and lobbyists—and she’s running for Senate because kids and parents across the state are getting screwed by a system designed to work for the powerful, not the rest of us.\n\nAfter nearly two decades in children’s hospitals, Annie saw how Washington’s failures reach all the way into her hospital room every day. Kids shot in their own neighborhoods. Parents forced to ration medication. Families unable to find mental health care. So she got involved in advocacy and policy—and what she saw in the halls of power appalled her.",
+        "source_url": "https://drannieandrews.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-29T15:18:00.071595Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-30T12:00:08.697Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "darline-graham",
       "full_name": "GRAHAM, DARLINE",
       "party": "REPUBLICAN PARTY",
-      "incumbent": false,
+      "incumbent": true,
       "fec_candidate_id": "S6SC04437",
       "fec_status": "C",
-      "bioguide_id": null,
+      "bioguide_id": "G000608",
       "financials": {
         "cycle": 2026,
         "totalRaised": 346782.64,
@@ -628,6 +824,8 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.darlinegraham.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": "https://www.youtube.com/watch?v=b4lvXMBZh54",
       "platform_video_title": "Darline Graham for Senate",
       "platform_video_source_url": "https://www.darlinegraham.com/",
@@ -642,10 +840,83 @@
       "_bio_summary_resolved_at": "2026-08-29T13:51:59.176Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_campaign_site_reachability": "reachable"
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Present",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 229,
+          "votesCast": 208,
+          "attendanceRate": 0.9082969432314411
+        },
+        "committees": [],
+        "bills_sponsored": 3,
+        "bills_cosponsored": 49,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.472,
+          "nominateDim2": 0.471,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000608"
+        },
+        "bridge_score": null
+      },
+      "_curated_match": false
     }
   ]
 }
