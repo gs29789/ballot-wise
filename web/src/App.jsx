@@ -1385,10 +1385,39 @@ function CandidateProfileView({ candidate, race, onBack }) {
               </div>
             )}
           </>
+        ) : candidate._campaign_site_reachability === "cloudflare_challenge" ? (
+          // "No public record found" would be false here: the candidate has a
+          // real site, we just can't read it. It sits behind a bot-verification
+          // wall this pipeline deliberately doesn't try to defeat, so the honest
+          // thing is to say so and send the reader to the source themselves.
+          // Covers video too when that's also missing, so the reader isn't told
+          // about the same wall twice under two headings.
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", margin: "9px 4px" }}>
+            <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
+            <div style={{ fontSize: 12.5, color: T.ink }}>
+              <strong>Read this candidate's positions on their own site.</strong>
+              <div style={{ color: T.inkSoft, marginTop: 3 }}>
+                They have no stated positions{!candidate.platform_video_url ? " or campaign video" : ""} on file here because their
+                official site blocks automated checks with a bot-verification service — not because they haven't published any.
+                {candidate.campaign_site_url && (
+                  <div style={{ marginTop: 6 }}>
+                    {/* Shows the real address rather than a generic "visit their
+                        site" label: the reader can see exactly where they're
+                        being sent before they click, which matters more than
+                        usual here, since this is the one place the site sends
+                        people off to read a claim it couldn't verify itself. */}
+                    <a href={candidate.campaign_site_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold, wordBreak: "break-all" }}>
+                      {candidate.campaign_site_url.replace(/^https?:\/\//, "").replace(/\/$/, "")} <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                    </a>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         ) : !candidate.platform_video_url ? (
           <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", padding: "9px 4px" }}>No public record found.</div>
         ) : null}
-        {!candidate.platform_video_url && candidate._campaign_site_reachability === "cloudflare_challenge" && (
+        {!candidate.platform_video_url && candidate.platform?.length > 0 && candidate._campaign_site_reachability === "cloudflare_challenge" && (
           <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
             <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", marginTop: 4 }}>
