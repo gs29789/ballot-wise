@@ -1,0 +1,49 @@
+# David Redkey filed with the FEC without a website on his committee
+# paperwork, so automated discovery never had a URL to chase -- the site
+# below was supplied by hand and independently confirmed to be his and to
+# be this race: the page states he "is running for U.S. House of
+# Representatives in Arizona's Congressional District 3", links donations
+# to `elect-david-redkey-to-az-03`, and carries a "PAID FOR BY THE FRIENDS
+# OF DAVID REDKEY" committee disclaimer.
+#
+# Curated rather than left to automated extraction because his site is a
+# Google Sites page whose homepage nav lists every sub-page title, and
+# extractPlatformFromSite stops at the homepage as soon as it finds
+# anything -- so it returned eight "positions" that were really just menu
+# labels ("Ratify the Equal Rights Amendment", "Stopping the Trump
+# Tariffs") with no substance behind them. The quotes below come from the
+# linked issue pages themselves, which carry real first-person prose. That
+# homepage-short-circuit is a general weakness worth fixing in the
+# extractor, not specific to this candidate.
+platform_source_url: "https://www.davidredkey4congress.com/"
+platform:
+  - topic: "Healthcare"
+    value: "Supports \"TriCare Prime for All\", a single-payer universal system modeled on the military's TRICARE Prime"
+    snippet: "TriCare Prime for All is a single-payer, universal healthcare system modeled on TRICARE Prime — the system that already provides comprehensive care to active-duty service members and their families."
+  - topic: "Healthcare Funding Conditions"
+    value: "Would require any healthcare facility receiving federal funding to participate in the $0 deductible option"
+    snippet: "Any healthcare facility that receives federal funding would be required to participate in the $0 deductible TriCare Prime for All option ."
+  - topic: "Taxes on High Earners"
+    value: "Supports a 94% marginal tax rate on taxable income above $200,000 for single filers and $400,000 for married filing jointly"
+    snippet: "94% marginal rate on taxable income above $200,000 for single filers and above $400,000 for married filing jointly."
+  - topic: "Corporate Taxation"
+    value: "Supports tiered corporate rates entering 70%+ marginal tiers above $1,000,000 in profit, to discourage consolidation and monopoly scale"
+    snippet: "Above $1,000,000: rates enter 70%+ marginal tiers that step higher with profit bands, discouraging consolidation and monopoly scale purely for financial extraction."
+  - topic: "Congressional Stock Trading"
+    value: "Backs a hard ban on congressional stock trading with no loopholes or partisan exceptions"
+    snippet: "I back a hard ban on congressional stock trading — no loopholes, no partisan exceptions."
+  - topic: "Congressional Stock Trading — Scope"
+    value: "Would bar individual holdings for Members, spouses and dependent children, including stocks, options, crypto, single-company bonds and sector ETFs"
+    snippet: "No individual holdings. No stocks, options, crypto, single-company bonds, or sector ETFs for Members, spouses, or dependent children."
+  - topic: "School Vouchers"
+    value: "Opposes voucher, ESA and tax-credit schemes that divert public education dollars into private K-12 tuition"
+    snippet: "I oppose voucher, ESA, and tax-credit schemes that divert scarce public education dollars into private K–12 tuition."
+  - topic: "Public School Funding"
+    value: "Says federal funds should strengthen neighborhood public schools rather than subsidize private alternatives"
+    snippet: "Federal funds should strengthen neighborhood public schools — not subsidize private alternatives that reduce transparency, undermine accountability, and hollow out our communities."
+  - topic: "Reproductive Rights"
+    value: "Says every woman has the absolute right to decide what happens to her own body, health and future, free from political or governmental interference"
+    snippet: "I believe every woman has the absolute right to decide what happens to her own body, her health, and her future—free from political or governmental interference."
+  - topic: "Housing"
+    value: "Includes the right of every family to a safe, decent home in his proposed Economic Bill of Rights"
+    snippet: "The right of every family to a safe, decent home"
