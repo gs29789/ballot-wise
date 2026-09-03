@@ -30,6 +30,34 @@ const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "";
 const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
 
+// Why a candidate's own site produced nothing, keyed by the reachability
+// classification the pipeline records (see scaleCampaignSiteDiscovery.ts).
+// The address is published in every one of these cases, including the
+// broken ones: what a campaign filed with the FEC is a fact about that
+// campaign, and suppressing a dead or walled-off site would be shielding
+// them at the reader's expense. What changes between cases is only the
+// explanation — "go read it yourself" is good advice for a site that
+// refuses us but works for humans, and a waste of a click for one that
+// does not resolve at all, where the useful information is that the
+// address on file is broken.
+const UNREADABLE_SITE = {
+  cloudflare_challenge: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "They have no stated positions on file here because their official site blocks automated checks with a bot-verification service — not because they haven't published any.",
+  },
+  blocked_other: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "They have no stated positions on file here because their official site refuses automated requests — not because they haven't published any.",
+  },
+  dead: {
+    heading: "The website on file for this candidate doesn't load.",
+    body: () =>
+      "The address below is the one their campaign filed, but it doesn't resolve — so there's nothing we can read, and nothing there for you to read either. It's shown so you can see what was filed.",
+  },
+};
+
 // USPS state abbreviation -> full name, for the direct-district-entry
 // fallback (parseDistrictInput below), which never gets a state name back
 // from Census the way geocodeAddress's result does.
@@ -1385,20 +1413,22 @@ function CandidateProfileView({ candidate, race, onBack }) {
               </div>
             )}
           </>
-        ) : candidate._campaign_site_reachability === "cloudflare_challenge" ? (
-          // "No public record found" would be false here: the candidate has a
-          // real site, we just can't read it. It sits behind a bot-verification
-          // wall this pipeline deliberately doesn't try to defeat, so the honest
-          // thing is to say so and send the reader to the source themselves.
-          // Covers video too when that's also missing, so the reader isn't told
-          // about the same wall twice under two headings.
+        ) : candidate.campaign_site_url && UNREADABLE_SITE[candidate._campaign_site_reachability] ? (
+          // "No public record found" would be false for any of these: the
+          // candidate filed a website, and the reason nothing was extracted is
+          // ours or theirs, not an absence of published positions. The address
+          // is always shown, whatever the reason — what a campaign filed is a
+          // fact about that campaign, and hiding a broken or walled-off one
+          // would be doing them a favour at the reader's expense. But the
+          // WORDING has to match the actual cause: telling someone to go read
+          // a site that does not resolve would waste their click and make the
+          // page look wrong rather than the filing.
           <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", margin: "9px 4px" }}>
             <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
             <div style={{ fontSize: 12.5, color: T.ink }}>
-              <strong>Read this candidate's positions on their own site.</strong>
+              <strong>{UNREADABLE_SITE[candidate._campaign_site_reachability].heading}</strong>
               <div style={{ color: T.inkSoft, marginTop: 3 }}>
-                They have no stated positions{!candidate.platform_video_url ? " or campaign video" : ""} on file here because their
-                official site blocks automated checks with a bot-verification service — not because they haven't published any.
+                {UNREADABLE_SITE[candidate._campaign_site_reachability].body()}
                 {candidate.campaign_site_url && (
                   <div style={{ marginTop: 6 }}>
                     {/* Shows the real address rather than a generic "visit their
@@ -1417,21 +1447,20 @@ function CandidateProfileView({ candidate, race, onBack }) {
         ) : !candidate.platform_video_url ? (
           <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", padding: "9px 4px" }}>No public record found.</div>
         ) : null}
-        {!candidate.platform_video_url && candidate.platform?.length > 0 && candidate._campaign_site_reachability === "cloudflare_challenge" && (
+        {/* Stated positions and a campaign video are separate facts about a
+            candidate, so a missing video is reported on its own rather than
+            folded into the positions banner above — a reader looking for one
+            should not have to infer it from a sentence about the other. This
+            renders whenever the video is missing and the site is unreadable,
+            including when positions are missing too; the wording stays
+            specific to video so the two never read as a single gap. */}
+        {!candidate.platform_video_url && UNREADABLE_SITE[candidate._campaign_site_reachability] && (
           <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
             <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", marginTop: 4 }}>
-              No campaign video on file — their official site blocks automated checks with a bot-verification service, so this
-              couldn't be checked automatically.
-              {candidate.campaign_site_url && (
-                <>
-                  {" "}
-                  <a href={candidate.campaign_site_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
-                    Visit their site directly <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
-                  </a>{" "}
-                  to look yourself.
-                </>
-              )}
+              {candidate._campaign_site_reachability === "dead"
+                ? "No campaign video on file — the website their campaign filed doesn't load, so there was nowhere to look for one."
+                : "No campaign video on file — their official site couldn't be checked automatically, so there may be one there."}
             </div>
           </div>
         )}

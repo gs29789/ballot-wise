@@ -3,6 +3,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
 import { getMembersByState, getCurrentMembersByState, getMember, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
+import { isHijackedDomain } from "./sources/hijackedDomains.js";
 import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
@@ -632,6 +633,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         }
 
         campaignSiteUrl = await getCommitteeWebsite(c.candidateId).catch(() => null);
+        // A lapsed, re-registered campaign domain must never be published as
+        // the candidate's own site -- see hijackedDomains.ts. Dropped before
+        // any extraction runs against it, so nothing from the squatter's page
+        // can reach a bio or platform field either.
+        if (isHijackedDomain(campaignSiteUrl)) campaignSiteUrl = null;
 
         if (stillMissing() && campaignSiteUrl) {
           const extracted = await extractBioFactsFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null);
@@ -646,6 +652,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // check as every other source here.
         if (!campaignSiteUrl) {
           campaignSiteUrl = await findCampaignWebsite(c.name, expectedContext).catch(() => null);
+          if (isHijackedDomain(campaignSiteUrl)) campaignSiteUrl = null;
           if (stillMissing() && campaignSiteUrl) {
             const extracted = await extractBioFactsFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null);
             if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_campaign_site_websearch", curatedBio);
@@ -920,7 +927,13 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // platform/financials: a later rebuild whose gate stays closed (bio,
         // platform, AND video already resolved) shouldn't silently erase an
         // already-known site.
-        campaign_site_url: campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
+        // The prevCand fallback would otherwise resurrect a hijacked domain
+        // from the last published build, undoing the check above on every
+        // rebuild -- the denylist has to be applied to the carried-forward
+        // value too, not just to freshly resolved ones.
+        campaign_site_url: isHijackedDomain(campaignSiteUrl ?? prevCand?.campaign_site_url)
+          ? null
+          : campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
         // scaleCampaignSiteDiscovery.ts's own tracking fields, carried
         // forward -- this output object is a fresh literal each build, so
         // without this a real buildRace() pass silently drops them even

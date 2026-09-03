@@ -17,6 +17,11 @@ export interface PlatformPosition {
   topic: string;
   value: string;
   snippet: string;
+  // The page this specific position was quoted from. Present when positions
+  // were gathered across several topic pages (see extractPlatformFromSite);
+  // absent when they all came from one page, where the result's own
+  // sourceUrl already says where to look.
+  source_url?: string;
 }
 
 export interface PlatformResult {
@@ -212,11 +217,56 @@ export async function extractPlatformFromSite(candidateName: string, baseUrl: st
   const candidateUrls = [
     ...new Set([...PLATFORM_PATHS.map((p) => new URL(p, resolvedBase).toString()), ...discoverPlatformLinks(homepagePage.html, resolvedBase)]),
   ].filter((u) => !PRESS_RELEASE_URL.test(u));
+
+  // Gathers across pages instead of returning the first one that yields
+  // anything. Many sites -- congressional .gov sites especially -- give each
+  // topic its own page rather than listing everything on one, and stopping at
+  // the first hit captured a single topic and silently discarded the rest.
+  // Confirmed on Rep. Henry Cuellar (TX-28), whose site has TEN topic pages
+  // under /issues/issue/?IssueID=NNNN: the old behaviour returned four border
+  // positions and never saw agriculture, health, veterans or the other six.
+  //
+  // Each position carries the page it actually came from, so a reader
+  // verifying a quote lands on the page containing it rather than on an index
+  // that merely links there -- the alternative, citing one URL for positions
+  // gathered from several, would have made every snippet unfindable at its
+  // stated source.
+  const gathered: PlatformPosition[] = [];
+  let firstSourceUrl: string | null = null;
   for (const url of candidateUrls) {
+    if (gathered.length >= MAX_GATHERED_POSITIONS || pagesVisited(gathered, candidateUrls) >= MAX_PLATFORM_PAGES) break;
     const result = await attemptExtraction(candidateName, url, expectedContext).catch(() => null);
-    if (result && result.positions.length) return result;
+    if (!result || !result.positions.length) continue;
+    firstSourceUrl ??= result.sourceUrl;
+    // Capped PER PAGE, not just in total. A total-only cap fills up on
+    // whichever topic happens to be crawled first -- on Cuellar's site that
+    // was border security, which alone produced six positions and pushed
+    // agriculture and veterans past the ceiling entirely. A voter is better
+    // served by a few positions across ten topics than by everything the
+    // site says about one, so breadth wins over depth here.
+    let fromThisPage = 0;
+    for (const p of result.positions) {
+      if (gathered.length >= MAX_GATHERED_POSITIONS || fromThisPage >= MAX_POSITIONS_PER_PAGE) break;
+      // Same topic covered on two pages is a duplicate, not extra coverage.
+      if (gathered.some((g) => g.snippet === p.snippet || g.topic.toLowerCase() === p.topic.toLowerCase())) continue;
+      gathered.push({ ...p, source_url: result.sourceUrl });
+      fromThisPage++;
+    }
   }
-  return null;
+  if (!gathered.length) return null;
+  return { positions: dropOverlappingSnippets(gathered), sourceUrl: firstSourceUrl ?? resolvedBase };
+}
+
+// Bounded because each page is a separate model call: a site with dozens of
+// topic pages would otherwise cost dozens of calls for one candidate, across
+// a thousand-candidate build. Ten topics covers the congressional sites seen
+// here; the cap is a cost ceiling, not a judgement that further pages are
+// uninteresting, so it is logged rather than silently applied.
+const MAX_PLATFORM_PAGES = 10;
+const MAX_GATHERED_POSITIONS = 24;
+const MAX_POSITIONS_PER_PAGE = 3;
+function pagesVisited(gathered: PlatformPosition[], _urls: string[]): number {
+  return new Set(gathered.map((g) => g.source_url).filter(Boolean)).size;
 }
 
 // Fallback for a candidate whose campaign site (and, for a sitting member,
