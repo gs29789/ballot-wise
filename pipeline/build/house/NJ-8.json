@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-08",
-  "generated_at": "2026-09-02T13:17:00.587Z",
+  "generated_at": "2026-09-04T10:10:19.039Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -483,12 +483,12 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4379701476.45,
+        "totalUsd": 4379701472.7,
         "perCapitaUsd": 5691.53
       },
       {
         "year": "2024",
-        "totalUsd": 4943641331.86,
+        "totalUsd": 4943641166.66,
         "perCapitaUsd": 6424.38
       },
       {
@@ -592,8 +592,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:13.407Z"
+      "_curated_match": false
     },
     {
       "slug": "robert-menendez",
@@ -657,9 +656,90 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Medicaid Cuts",
+          "value": "Is fighting to protect Medicaid and defend the care millions rely on, opposing what he calls the largest cut to Medicaid and ACA protections in history",
+          "snippet": "As a member of the House Energy and Commerce Committee, I am fighting back alongside House to protect Medicaid and defend the care millions rely on."
+        },
+        {
+          "topic": "Affordable Care Act",
+          "value": "Wants to build on the ACA's coverage expansion, cost reductions, and pre-existing condition protections rather than roll them back",
+          "snippet": "We should be building on landmark legislation like the ACA which took critical steps to lower costs, expand coverage for underinsured and uninsured populations, and ensure Americans cannot be denied coverage due to pre-existing conditions, instead of making it harder for people to access care."
+        },
+        {
+          "topic": "Health Care Priorities",
+          "value": "Committed to finding solutions to the nation's healthcare challenges that prioritize patients and lower costs for American families",
+          "snippet": "I am committed to finding effective solutions to our nation’s healthcare challenges that prioritize patients and lower costs for American families."
+        },
+        {
+          "topic": "Detention Facility Oversight",
+          "value": "As the grandson of Cuban refugees, will conduct legal oversight of detention facilities and stand up for immigrant neighbors",
+          "snippet": "As the proud grandson of Cuban refugees, I will continue to stand up for all of our neighbors, conduct legal oversight of detention facilities, and fight back against this Administration’s attempts to undermine the rights of everyone who calls this country home."
+        },
+        {
+          "topic": "Immigration Reform",
+          "value": "Wants longstanding solutions including a pathway to citizenship, fair immigration laws, robust asylum protections, closing private detention centers, and expanded immigration court capacity",
+          "snippet": "We must develop real, longstanding solutions for the challenges that plague America’s broken immigration system, including a pathway to citizenship, fair immigration laws, robust asylum protections, closing private detention centers, and expanded capacity to address our national immigration court backlog."
+        },
+        {
+          "topic": "Border Security",
+          "value": "As Vice Chair for Policy of the Congressional Hispanic Caucus, focused on protecting immigrant communities and enacting border security policies that are humane and effective",
+          "snippet": "As Vice Chair for Policy for the Congressional Hispanic Caucus, I am focused on protecting our immigrant communities and enacting border security policies that are humane, effective, and reflective of our values as a nation."
+        },
+        {
+          "topic": "Working Families Task Force Act",
+          "value": "Introduced the Working Families Task Force Act to bring together federal officials to work on affordability, child care access and wage growth",
+          "snippet": "I introduced the Working Families Task Force Act, which will bring together officials from across the federal government to work on solutions for the issues impacting working families, including affordability, access to childcare, and wage growth."
+        },
+        {
+          "topic": "Parental Workforce Training Act",
+          "value": "As a founding member of the Dads Caucus, introduced the Parental Workforce Training Act establishing a federal pilot program to help parents afford child care while in workforce training",
+          "snippet": "And as a founding member of the Dads Caucus, I introduced the Parental Workforce Training Act, legislation establishing a federal pilot program to help parents afford childcare while enrolled in workforce training."
+        },
+        {
+          "topic": "Right to Organize",
+          "value": "Is an original co-sponsor of the Richard L. Trumka Protecting the Right to Organize Act to strengthen organized labor",
+          "snippet": "I am also proud to be an original co-sponsor of the Richard L. Trumka Protecting the Right to Organize Act, which will strengthen organized labor and provide 21st century tools that unions need to give workers the wages and rights they deserve"
+        },
+        {
+          "topic": "Minimum Wage",
+          "value": "Is an original co-sponsor of the Raise the Wage Act to increase the federal minimum wage",
+          "snippet": "as well as the Raise the Wage Act, which will provide for increases to the Federal minimum wage."
+        },
+        {
+          "topic": "Climate Committee Votes",
+          "value": "On the House Energy and Commerce Committee, has voted against cuts to climate and energy programs and against anti-environment bills",
+          "snippet": "On the House Energy and Commerce Committee, I’ve voted against harmful cuts to key climate and energy programs and anti-environment bills that would raise costs for our families and makeour planet less livable."
+        },
+        {
+          "topic": "Environmental Justice",
+          "value": "Fighting for a clean energy economy that keeps costs low, creates good-paying jobs, and ensures frontline communities share in and lead the transition to net-zero",
+          "snippet": "I am fighting for a clean energy economy that keeps costs low, generates good paying jobs, reduces our dependence on extractive industries, and ensures that frontline communities share in and lead our transition to net-zero."
+        },
+        {
+          "topic": "Gateway Program",
+          "value": "Says funding for the Gateway Program -- the largest infrastructure project in the country, running through the district -- must be maintained and the project completed on time, and has led efforts in the House to hold the Trump Administration accountable for withholding that funding for partisan purposes",
+          "snippet": "It is essential that funding for Gateway is maintained and the project is completed on-time. That's why I've led efforts in the House to hold the Trump Administration accountable for its efforts to needlessly withhold that funding for partisan purposes."
+        },
+        {
+          "topic": "Liberty State Park Avoidance Area",
+          "value": "Advocating for the National Park Service and FAA to designate Liberty State Park as an avoidance area for helicopter traffic",
+          "snippet": "I am also fighting the negative impacts that helicopter noise pollution has had on many areas of our communities by advocating for the National Park Service (NPS) and the FAA to designate Liberty State Park as an avoidance area for helicopter traffic and by introducing the Communities Before Air Tourism Act."
+        },
+        {
+          "topic": "Helicopter Noise Legislation",
+          "value": "Introduced the Protecting Communities from Helicopter Noise Act and the Communities Before Air Tourism Act to reduce the number of helicopter flights in the New York-New Jersey metropolitan area",
+          "snippet": "I introduced the Protecting Communities from Helicopter Noise Act and the Communities Before Air Tourism Act, which aim to reduce the number of helicopter flights in the New York-New Jersey metropolitan area."
+        },
+        {
+          "topic": "Improving Helicopter Safety Act",
+          "value": "Introduced bipartisan legislation in the 119th Congress banning all non-essential helicopter traffic within a 20-mile radius of the Statue of Liberty",
+          "snippet": "During the 119th Congress, I introduced bipartisan legislation, the Improving Helicopter SafetyAct, which bans all non-essential helicopter traffic within a 20-mile radius of the Statue of Liberty."
+        }
+      ],
+      "platform_source_url": "https://robmenendez.com/",
+      "_platform_resolved_at": "2026-09-04T10:08:36.975Z",
       "campaign_site_url": "https://www.robmenendez.com/",
       "_campaign_site_reachability": "cloudflare_challenge",
       "_campaign_site_discovered_at": "2026-08-31T12:27:44.448Z",
@@ -684,58 +764,62 @@
       "_financial_disclosure_resolved_at": "2026-08-12T20:01:36.103Z",
       "recent_votes": [
         {
-          "rollNumber": 283,
+          "rollNumber": 295,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
         },
         {
-          "rollNumber": 282,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
-        },
-        {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 294,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 293,
           "year": 2026,
-          "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
           "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         }
       ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 295,
+          "attendanceRate": 1
+        },
         "committees": [
           {
             "committee": "House Committee on Energy and Commerce",
@@ -759,12 +843,12 @@
           }
         ],
         "bills_sponsored": 35,
-        "bills_cosponsored": 586,
+        "bills_cosponsored": 588,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
           "nominateDim1": -0.519,
-          "nominateDim2": 0.194,
+          "nominateDim2": 0.195,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/M001226"
         },
@@ -775,7 +859,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001226"
         }
       },
-      "_curated_match": false
+      "_curated_match": true
     }
   ]
 }

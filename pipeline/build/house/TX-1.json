@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-09-02T12:02:38.117Z",
+  "generated_at": "2026-09-04T10:13:31.714Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -549,14 +549,17 @@
       "platform_video_tier": null,
       "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "bio_summary": null,
-      "_bio_summary_resolved_at": null,
+      "bio_summary": {
+        "value": "Sonia Canchola (independent) is running for election to the U.S. House to represent Texas' 1st Congressional District . She declared candidacy for the general election scheduled on November 3, 2026 . ",
+        "source_url": "https://ballotpedia.org/Sonia_Canchola",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-09-04T10:13:04.294Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:23.185Z"
+      "_curated_match": false
     },
     {
       "slug": "nathaniel-moran",
@@ -621,8 +624,8 @@
         }
       },
       "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform_source_url": "https://nathanielmoran.com",
+      "_platform_resolved_at": "2026-09-04T10:10:23.721Z",
       "campaign_site_url": "https://nathanielmoran.com",
       "_campaign_site_reachability": "cloudflare_challenge",
       "_campaign_site_discovered_at": "2026-09-01T09:50:29.467Z",
@@ -633,9 +636,9 @@
       "platform_video_source_type": "wikipedia",
       "_platform_video_resolved_at": "2026-08-29T17:52:39.133Z",
       "bio_summary": {
-        "value": "Nathaniel Quentin Moran (born September 23, 1974) is an American politician and attorney who has served as the U.S. representative for Texas's 1st congressional district since 2023. A member of the Republican Party , he previously served as a member of the Tyler, Texas city council from the 5th district and as the county judge of Smith County, Texas . ",
-        "source_url": "https://en.wikipedia.org/wiki/Nathaniel_Moran",
-        "source_type": "wikipedia"
+        "value": "Nathaniel Moran became a Texan just a few months before he turned two years old when his parents moved to rural East Texas with other families of faith to help start a small Bible College in southern Smith County.  His formative years were spent growing up in a single-wide trailer home on that Bible College campus, where he learned from his parents the values of hard work, service to others, and service to God.  Nathaniel spent most of his childhood exploring the woods around the Bible College, riding bikes on bumpy county roads, and shooting snakes with his BB gun along the West Mud Creek.  Nathaniel and his family eventually moved to Whitehouse, Texas, where Nathaniel attended Whitehouse I.S.D. and graduated in 1993, proudly serving as Senior Class President and Captain of the Wildcat football team.  It was during Nathaniel’s fourth grade year at Whitehouse that a love for public service rooted itself in his heart, as he—guided by his father—closely followed Ronald Reagan’s bid for re-election as President.  To this day, Nathaniel considers himself to be a Reagan Republican whose conservative values were shaped primarily by his father, President Reagan’s service, and by the strong, steady voice of Rush Limbaugh over the talk radio air waves for more than two decades.\n\nAfter high school, Nathaniel attended the United States Military Academy at West Point for two years before transferring to Texas Tech University, where he ultimately earned a B.A. in Russian Language and Area Studies, an MBA, and a law degree.  It was at Texas Tech that Nathaniel also met Kyna, whom he married just one week before starting law school.  Upon graduation from law school, Kyna and Nathaniel moved to Tyler, where Nathaniel began practicing law and Kyna began teaching elementary school.  For the past two decades, Nathaniel’s civil law practice has focused primarily on business and commercial litigation and transaction work.  Nathaniel and Kyna have now been married for over twenty-three years and they have four school-aged children, who serve as a primary motivation for his service in Congress.",
+        "source_url": "https://moran.house.gov/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:45:32.317Z",
       "financial_disclosure": {
@@ -650,6 +653,36 @@
       },
       "_financial_disclosure_resolved_at": "2026-08-14T18:15:34.119Z",
       "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
         {
           "rollNumber": 292,
           "year": 2026,
@@ -669,43 +702,13 @@
           "result": "Passed",
           "position": "Yea",
           "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
-        },
-        {
-          "rollNumber": 290,
-          "year": 2026,
-          "question": "On Motion to Recommit",
-          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
-          "date": "1-Sep-2026",
-          "result": "Failed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
-        },
-        {
-          "rollNumber": 289,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
-          "date": "1-Sep-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
-        },
-        {
-          "rollNumber": 288,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
-          "date": "1-Sep-2026",
-          "result": "Passed",
-          "position": "Aye",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 216,
-          "votesCast": 209,
-          "attendanceRate": 0.9675925925925926
+          "votesInSession": 295,
+          "votesCast": 288,
+          "attendanceRate": 0.976271186440678
         },
         "committees": [
           {
@@ -740,7 +743,7 @@
           }
         ],
         "bills_sponsored": 45,
-        "bills_cosponsored": 465,
+        "bills_cosponsored": 468,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -756,7 +759,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/M001224"
         }
       },
-      "_curated_match": false
+      "_curated_match": true
     },
     {
       "slug": "yolanda-prince",
@@ -867,8 +870,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:23.647Z"
+      "_curated_match": false
     }
   ]
 }
