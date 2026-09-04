@@ -39,7 +39,12 @@ const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
 // explanation — "go read it yourself" is good advice for a site that
 // refuses us but works for humans, and a waste of a click for one that
 // does not resolve at all, where the useful information is that the
-// address on file is broken.
+// address on file is broken. Every classification the pipeline can emit
+// has an entry here; the lookup at the call site also falls back to
+// `reachable` for any value that somehow isn't one of these (unclassified,
+// or a status added to the pipeline later that this list hasn't caught up
+// to yet), so a filed address is never silently withheld just because its
+// specific reachability value didn't get its own branch.
 const UNREADABLE_SITE = {
   cloudflare_challenge: {
     heading: "Read this candidate's positions on their own site.",
@@ -55,6 +60,16 @@ const UNREADABLE_SITE = {
     heading: "The website on file for this candidate doesn't load.",
     body: () =>
       "The address below is the one their campaign filed, but it doesn't resolve — so there's nothing we can read, and nothing there for you to read either. It's shown so you can see what was filed.",
+  },
+  // The site loads fine — reachability itself was never the obstacle here.
+  // What's missing is the extractor finding positions on it: the wrong page
+  // guessed, a layout it doesn't parse, or genuinely nothing published yet.
+  // We can't tell which from here, so the wording stays as agnostic about
+  // the cause as the reachable-but-empty classification itself is.
+  reachable: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "Their official site loads fine, but nothing on it matched the format our automated check looks for — not because they haven't published any positions.",
   },
 };
 
@@ -1413,7 +1428,7 @@ function CandidateProfileView({ candidate, race, onBack }) {
               </div>
             )}
           </>
-        ) : candidate.campaign_site_url && UNREADABLE_SITE[candidate._campaign_site_reachability] ? (
+        ) : candidate.campaign_site_url ? (
           // "No public record found" would be false for any of these: the
           // candidate filed a website, and the reason nothing was extracted is
           // ours or theirs, not an absence of published positions. The address
@@ -1422,13 +1437,18 @@ function CandidateProfileView({ candidate, race, onBack }) {
           // would be doing them a favour at the reader's expense. But the
           // WORDING has to match the actual cause: telling someone to go read
           // a site that does not resolve would waste their click and make the
-          // page look wrong rather than the filing.
+          // page look wrong rather than the filing. Falls back to the
+          // `reachable` wording for any status UNREADABLE_SITE doesn't have an
+          // entry for (null/not-yet-classified, or a future pipeline value) —
+          // it's the most defensible default: assume the site itself is fine
+          // and only our read of it is in question, rather than stay silent
+          // and suppress a filed address the reader has a right to see.
           <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", margin: "9px 4px" }}>
             <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
             <div style={{ fontSize: 12.5, color: T.ink }}>
-              <strong>{UNREADABLE_SITE[candidate._campaign_site_reachability].heading}</strong>
+              <strong>{(UNREADABLE_SITE[candidate._campaign_site_reachability] ?? UNREADABLE_SITE.reachable).heading}</strong>
               <div style={{ color: T.inkSoft, marginTop: 3 }}>
-                {UNREADABLE_SITE[candidate._campaign_site_reachability].body()}
+                {(UNREADABLE_SITE[candidate._campaign_site_reachability] ?? UNREADABLE_SITE.reachable).body()}
                 {candidate.campaign_site_url && (
                   <div style={{ marginTop: 6 }}>
                     {/* Shows the real address rather than a generic "visit their
