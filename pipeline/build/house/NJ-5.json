@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-09-02T13:13:57.294Z",
+  "generated_at": "2026-09-04T11:02:16.969Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -483,12 +483,12 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4379701476.45,
+        "totalUsd": 4379701472.7,
         "perCapitaUsd": 5691.53
       },
       {
         "year": "2024",
-        "totalUsd": 4943641331.86,
+        "totalUsd": 4943641166.66,
         "perCapitaUsd": 6424.38
       },
       {
@@ -602,9 +602,9 @@
       "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-23T12:00:19.818Z",
       "bio_summary": {
-        "value": "Joshua S. Gottheimer [ 1 ] ( / ˈ ɡ ɒ t h aɪ m ər / GOT -hy-mər ; born March 8, 1975) is an American politician, attorney, writer, and public policy adviser serving as the U.S. representative for New Jersey's 5th congressional district since 2017. A member of the Democratic Party , his district stretches along the northern border of the state from New York City 's densely populated metropolitan suburbs in Bergen County northwest through exurban and rural territory in northern Passaic and Sussex Counties. Gottheimer was a speechwriter for Bill Clinton and served as an adviser to the presidential campaigns of Wesley Clark , John Kerry , and Hillary Clinton . He has also worked for Burson Cohn & Wolfe , the Federal Communications Commission , Ford Motor Company , and Microsoft . ",
-        "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
-        "source_type": "wikipedia"
+        "value": "Josh was raised in North Caldwell, the son of a preschool teacher and a small business owner. Growing up, Josh worked in his father’s store and, like your average New Jersey kid, treasured summer vacations at the Jersey Shore. His first concert was at the Meadowlands to see the one and only Bruce Springsteen!\n\nJosh graduated from West Essex High School before attending the University of Pennsylvania, later becoming a Thouron Fellow at Oxford, and then paid his way through Harvard Law School.",
+        "source_url": "https://josh4jersey.com/about/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:41:44.984Z",
       "financial_disclosure": null,
@@ -701,7 +701,7 @@
           }
         ],
         "bills_sponsored": 212,
-        "bills_cosponsored": 3315,
+        "bills_cosponsored": 3317,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -716,7 +716,7 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.165,
-          "nominateDim2": 0.217,
+          "nominateDim2": 0.216,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/G000583"
         },
@@ -727,7 +727,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/G000583"
         }
       },
-      "_curated_match": false
+      "_curated_match": true
     },
     {
       "slug": "sean-kirrane",
@@ -828,8 +828,7 @@
       "_financial_disclosure_resolved_at": "2026-08-12T19:55:46.393Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:12.998Z"
+      "_curated_match": false
     },
     {
       "slug": "adam-rueda",
@@ -865,6 +864,12 @@
           "value": "Vice President and Social Chair, Sigma Phi Epsilon fraternity (Bucknell University)",
           "source_url": "https://ballotpedia.org/Adam_Rueda",
           "snippet": "I was Vice President and Social Chair of my fraternity, Sigma Phi Epsilon"
+        },
+        "date_of_birth": {
+          "value": "28 years old (as of page publication)",
+          "source_url": "https://adamruedafornj5.com/",
+          "snippet": "I am a 28-year-old Bucknell graduate.",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
       "platform": [
@@ -891,7 +896,7 @@
       ],
       "platform_source_url": "https://adamrueda4nj5.com/",
       "_platform_resolved_at": "2026-09-01T13:18:21.987Z",
-      "campaign_site_url": "https://adamrueda4nj5.com/",
+      "campaign_site_url": "https://adamruedafornj5.com/",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-09-01T11:09:06.113Z",
       "platform_video_url": "https://www.youtube.com/watch?v=BcVuHfPE7Ok",

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-11",
-  "generated_at": "2026-09-02T12:06:10.749Z",
+  "generated_at": "2026-09-04T11:02:50.565Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -589,9 +589,50 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Border Reimbursement Funding",
+          "value": "Says he played a major role in securing $13 billion in border reimbursements for states like Texas, and received the 2025 Democracy Award for Best Constituent Services and Outreach",
+          "snippet": "He played a major role in securing $13 billion in border reimbursements for states like Texas, and he received the 2025 Democracy Award for Best Constituent Services and Outreach."
+        },
+        {
+          "topic": "Natural Gas Tax Repeal",
+          "value": "Says President Trump signed his bill repealing the natural gas tax as the second bill signed into law this term",
+          "snippet": "President Trump signed Congressman Pfluger’s bill to repeal the natural gas tax as his second bill signed into law this term."
+        },
+        {
+          "topic": "National Security",
+          "value": "As a 20-year combat veteran and national security advisor to President Trump, says he's spent his career fighting to keep the country safe and is keeping up the fight against ISIS, China, and Russia",
+          "snippet": "As a 20-year combat veteran and national security advisor to President Donald Trump, I’ve spent my entire career fighting to keep our country safe. As a U.S. Congressman, I’m keeping up the fight against foreign threats like ISIS, China, and Russia."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports President Trump's approach to securing the southern border against drug cartels, human traffickers, and illegal immigration, and says he's leading efforts to strengthen immigration enforcement",
+          "snippet": "I support President Trump’s vision for securing America and believe we must secure our southern border to protect our citizens from dangerous drug cartels, human traffickers, and illegal immigrants. I’m leading the charge to strengthen immigration enforcement and reduce illegal immigration."
+        },
+        {
+          "topic": "Rural Values & Agriculture",
+          "value": "As a seventh-generation Texan from a ranching family, says he'll stand up for farmers and ranchers and defend traditional rural values",
+          "snippet": "As a seventh-generation Texan, my family has worked the farms and ranches of this area for almost 170 years. As your voice in Congress, I’ll stand up for our farmers and ranchers and defend the traditional rural values that make Texas so exceptional."
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "Supports oil and gas producers and says he's working to secure total U.S. energy independence",
+          "snippet": "I’m proud to support the hard-working oil and gas producers that keep our Texas economy strong. In Washington, I’m fighting back against the oil-hating liberals and working to secure total energy independence for our country."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Supports the right of law-abiding citizens to keep and bear arms",
+          "snippet": "I’m defending the Second Amendment and supporting the right of all law-abiding citizens to keep and bear arms for the protection of themselves and their families."
+        },
+        {
+          "topic": "Life & Religious Liberty",
+          "value": "Believes in protecting innocent human life from conception to natural death, and in protecting the rights of Christians and other religious groups to practice their faith freely",
+          "snippet": "I believe in promoting a culture of life that honors all innocent human life from the moment of conception until natural death.\n\nAs a follower of Jesus Christ, I’m fighting to protect the rights of Christians and other religious groups to practice their faith freely and without government interference."
+        }
+      ],
+      "platform_source_url": "https://augustpfluger.com",
+      "_platform_resolved_at": "2026-09-04T11:02:20.247Z",
       "campaign_site_url": "https://www.augustpfluger.com",
       "_campaign_site_reachability": "blocked_other",
       "_campaign_site_discovered_at": "2026-09-01T09:50:49.627Z",
@@ -602,9 +643,9 @@
       "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
-        "value": "August Lee Pfluger [ 1 ] ( / ˈ f l uː ɡ ər / FLOO -gər ; born December 28, 1977) [ 2 ] is an American politician and Air Force officer serving as the U.S. representative for Texas's 11th congressional district since 2021. A member of the Republican Party , his district includes much of West Texas . Early life and education [ edit ] Pfluger's four-times-great-grandfather, German immigrant Henry Pfluger Sr. (1803–1867), founded Pflugerville, Texas . [ 3 ] His maternal grandfather, a member of the United States Army Air Corps in World War II, inspired Pfluger to become a pilot. [ 3 ] Born in Harris County in 1977, [ 2 ] Pfluger attended Central High School in San Angelo, Texas , where he played quarterback for the school's football team. [ 4 ] [ 5 ] He is an Eagle Scout . [ 6 ] He earned a Bachelor of Science degree in political science from the United States Air Force Academy . [ 7 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/August_Pfluger",
-        "source_type": "wikipedia"
+        "value": "Colonel August Pfluger has dedicated his life to defending the United States from those who would do us harm – from his days as an elite F-22 Raptor fighter pilot flying combat missions against ISIS, to his service on the National Security Council as an advisor to President Donald Trump. August Pfluger believes our nation is worth defending…and as our trusted U.S. Congressman, he’ll stand up to the socialists and liberal elites in Washington DC and defend our West Texas values of family, faith, and freedom.\n\nAfter high school, August followed in his grandfather’s footsteps and answered his nation’s call to serve. Upon graduating with honors from the U.S. Air Force Academy, Pfluger went on to serve his country in uniform for nearly two decades – commanding hundreds of combat airmen and serving in the Pentagon and NATO Command. Today, Colonel Pfluger is a decorated combat veteran with over 300 hours of direct action against radical jihadists in the Islamic State in Iraq and Syria (ISIS).",
+        "source_url": "https://augustpfluger.com",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:24:28.478Z",
       "financial_disclosure": null,
@@ -662,11 +703,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 292,
-          "votesCast": 290,
-          "attendanceRate": 0.9931506849315068
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Homeland Security",
@@ -700,7 +737,7 @@
           }
         ],
         "bills_sponsored": 163,
-        "bills_cosponsored": 909,
+        "bills_cosponsored": 916,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -726,8 +763,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/P000048"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:24.898Z"
+      "_curated_match": true
     },
     {
       "slug": "claire-reynolds",
@@ -809,8 +845,7 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-09-03T12:00:25.389Z"
+      "_curated_match": false
     }
   ]
 }

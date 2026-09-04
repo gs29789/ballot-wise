@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-09-03T16:07:33.188Z",
+  "generated_at": "2026-09-04T11:00:05.862Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
@@ -252,7 +252,7 @@
       },
       {
         "year": "2023",
-        "ratePer100k": 19.43
+        "ratePer100k": 19.44
       },
       {
         "year": "2024",
@@ -260,7 +260,7 @@
       },
       {
         "year": "2025",
-        "ratePer100k": 15.3
+        "ratePer100k": 15.44
       }
     ],
     "nonfarm_employment_thousands": [
@@ -493,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 31999058188.29,
-        "perCapitaUsd": 41537.15
+        "totalUsd": 31999076345.56,
+        "perCapitaUsd": 41537.17
       }
     ],
     "population": [
@@ -691,18 +691,159 @@
           "source_type": "wikidata_structured"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Anti-Competitive Business Practices",
+          "value": "Working to crack down on anti-competitive business practices and lower costs for working families and small businesses",
+          "snippet": "In Congress, Eugene is working to crack down on anti-competitive business practices, lower costs for working families, support small businesses, and ensure economic development creates opportunity in every community."
+        },
+        {
+          "topic": "Energy Costs & Foreign Wars",
+          "value": "Supports an all-of-the-above energy strategy and an end to costly foreign wars as part of lowering gas prices and utility bills",
+          "snippet": "Vindman supports an all-of-the-above energy strategy, an end to costly foreign wars, and smart economic policies that lower gas prices and utility bills for American families."
+        },
+        {
+          "topic": "Tariffs",
+          "value": "Has warned that reckless tariffs can drive up costs on everyday goods, disrupt supply chains, and make it harder for working families and small businesses to get ahead",
+          "snippet": "He has also warned that reckless tariffs can drive up costs on everyday goods, disrupt supply chains, and make it harder for working families and small businesses to get ahead."
+        },
+        {
+          "topic": "Prediction Markets & Lobbying Ban",
+          "value": "Leading efforts to ban members of Congress from participating in prediction markets and from lobbying former colleagues after leaving office",
+          "snippet": "To restore faith in government, he is leading the congressional efforts to ban Members of Congress from participating in prediction markets and from lobbying their former colleagues after leaving office."
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Supports a ban on members of Congress trading individual stocks",
+          "snippet": "He also supports a ban on Members of Congress trading individual stocks."
+        },
+        {
+          "topic": "Military Family Costs & Care",
+          "value": "On the House Armed Services Committee, working to lower costs for military families, expand health care access, and strengthen mental health services",
+          "snippet": "On the House Armed Services Committee, he’s fighting to lower everyday costs for military families, expand access to high-quality health care, strengthen mental health services, and ensure every veteran receives the benefits they’ve earned."
+        },
+        {
+          "topic": "Troop Pay & Shutdown Protection",
+          "value": "Passed a pay raise for the troops and fought to ensure servicemembers get paid during government shutdowns",
+          "snippet": "He has passed a pay raise for the troops, fought to ensure members of the military get paid during government shutdowns, and authored bipartisan bills to lower the cost of prescription drugs, housing, and college for military families."
+        },
+        {
+          "topic": "Health Care Access",
+          "value": "Working to lower prescription drug costs, strengthen the ACA, protect Medicare and Medicaid, and close access gaps",
+          "snippet": "In Congress, he’s working to lower the cost of prescription drugs, strengthen the Affordable Care Act, protect Medicare and Medicaid, and close the gaps in access that leave too many communities behind."
+        },
+        {
+          "topic": "Military Family Drug Costs",
+          "value": "Leads a bill to lower prescription drug costs for servicemembers, military families and veterans while saving taxpayers billions",
+          "snippet": "He also leads a commonsense bill to lower prescription drug costs for service members, military families, and veterans while saving taxpayers billions."
+        },
+        {
+          "topic": "Police Funding",
+          "value": "Working to ensure every local police department is fully funded, having delivered more than $2.75 million in federal funding to law enforcement agencies this year",
+          "snippet": "He is working to ensure every local police department is fully funded – having delivered more than $2.75 million in federal funding to law enforcement agencies this year – and has led bipartisan efforts to combat the fentanyl crisis and save lives."
+        },
+        {
+          "topic": "Root Causes of Crime",
+          "value": "Says lasting public safety also requires addressing root causes of crime like poverty, addiction and lack of opportunity",
+          "snippet": "He also understands that lasting public safety also requires addressing the root causes of crime, like poverty, addiction, and lack of opportunity."
+        },
+        {
+          "topic": "Data Center Siting",
+          "value": "Believes data centers should not be sited near national parks, schools or residential communities",
+          "snippet": "He continues to assert that data centers should not be near any National Parks, schools, or near residential communities."
+        },
+        {
+          "topic": "Data Center Costs",
+          "value": "Believes data centers need to pay their fair share, citing constituent concerns about rising energy costs and environmental impact",
+          "snippet": "Eugene believes that data centers need to pay their fair share. Virginia should welcome innovation, but not at any cost."
+        },
+        {
+          "topic": "AI Guardrails",
+          "value": "Has supported AI legislation to study these issues and voted for commonsense guardrails protecting consumers, workers and national security",
+          "snippet": "Eugene has supported AI legislation to study these issues and voted for commonsense guardrails that protect consumers, safeguard workers, and preserve our national security."
+        },
+        {
+          "topic": "Social Security, Medicare & Medicaid",
+          "value": "Will stand firmly against any attempt to cut Social Security, Medicare or Medicaid",
+          "snippet": "In Congress, Eugene will stand firmly against any attempt to cut Social Security, Medicare, or Medicaid."
+        },
+        {
+          "topic": "School Funding",
+          "value": "Fighting to ensure Congress provides the funding, resources and support schools need so every student has a fair shot",
+          "snippet": "That’s why he’s fighting to ensure Congress provides the funding, resources, and support our schools need so that every student has a fair shot at success."
+        },
+        {
+          "topic": "Phones in Classrooms",
+          "value": "Leads a bipartisan effort to get phones out of K-12 classrooms",
+          "snippet": "He is also the leader of a bipartisan effort to restore quality education for students nationwide by getting phones out of K-12 classrooms."
+        },
+        {
+          "topic": "Military Readiness",
+          "value": "As a House Armed Services Committee member, committed to strengthening global alliances and keeping the military equipped and ready",
+          "snippet": "As a member of the House Armed Services Committee, Eugene is committed to strengthening our global alliances and ensuring our military remains equipped, ready, and capable of confronting the threats of today and tomorrow."
+        },
+        {
+          "topic": "Abortion Access",
+          "value": "Sponsors legislation to restore abortion access nationwide and will vote against any attempt to ban abortion, IVF or contraceptives",
+          "snippet": "He is the proud sponsor of legislation to restore abortion access nationwide, and as a member of the Reproductive Freedom Caucus, he will keep working to protect Virginians’ access to vital reproductive care."
+        },
+        {
+          "topic": "Reproductive Care for Servicewomen",
+          "value": "Will fight to ensure servicewomen can access reproductive health care no matter where they are stationed",
+          "snippet": "He will also fight to ensure that servicewomen never have to worry about accessing reproductive healthcare no matter where they are stationed."
+        },
+        {
+          "topic": "Federal Workforce Protection",
+          "value": "Supports protecting federal workers from political attacks and shutdowns, and rebuilding agencies weakened by DOGE-driven cuts",
+          "snippet": "He strongly supports protecting federal workers from political attacks and reckless government shutdowns, rebuilding agencies weakened by DOGE-driven cuts and chaos, and ensuring public servants are treated with the dignity, respect, and stability they deserve."
+        },
+        {
+          "topic": "ICE Detention Facilities",
+          "value": "Joined community leaders opposing proposed ICE mega-detention facilities in Stafford and Hanover",
+          "snippet": "He knows that America is at its best when we treat people with dignity and respect, and that is why he joined community leaders in standing against proposed U.S. Immigration and Customs Enforcement mega-detention facilities in Stafford and Hanover."
+        },
+        {
+          "topic": "Legal Immigration Pathways",
+          "value": "Supports cracking down on transnational crime while creating simpler legal pathways for taxpaying immigrants seeking to do things the right way",
+          "snippet": "Eugene supports cracking down on transnational crime and violent criminals, alongside simpler, legal pathways for people who pay their taxes and are trying to do things the right way."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "As the only Virginian on the House Agriculture Committee, committed to expanding farmer market access, investing in rural infrastructure, and strengthening nutrition programs",
+          "snippet": "Eugene is committed to expanding market access for farmers, investing in rural infrastructure, and strengthening key nutrition programs that benefit Virginia families and producers alike."
+        },
+        {
+          "topic": "Manufacturing & Infrastructure",
+          "value": "Would expand domestic manufacturing and upgrade roads, bridges, ports and energy systems to create jobs and lower costs",
+          "snippet": "By expanding domestic production, strengthening supply chains, and upgrading our roads, bridges, ports, and energy systems, we can create good-paying jobs, support small businesses, lower costs, reduce reliance on foreign competitors, and most importantly, improve quality of life for Virginians."
+        },
+        {
+          "topic": "Local Transportation Projects",
+          "value": "Secured millions of dollars for community-requested transportation and infrastructure projects to reduce congestion",
+          "snippet": "That’s why he secured millions of dollars for community-requested transportation and infrastructure projects that will improve safety, reduce congestion, and help Virginians spend less time on the road and more time focused on their families, jobs, and businesses."
+        },
+        {
+          "topic": "Labor Unions",
+          "value": "Strongly supports workers' right to organize, collectively bargain and earn fair wages",
+          "snippet": "That’s why he strongly supports workers’ right to organize, collectively bargain, and earn fair wages for their work."
+        },
+        {
+          "topic": "Clean Energy",
+          "value": "Supports bold investments in clean energy, reducing carbon emissions, transitioning away from fossil fuels, and lowering energy bills",
+          "snippet": "He supports bold investments in clean energy, efforts to reduce carbon emissions, transitioning away from fossil fuels, lowering energy bills for Virginians and policies that position Virginia as a leader in the green economy."
+        }
+      ],
+      "platform_source_url": "https://vindmanforcongress.com/issues/",
+      "_platform_resolved_at": "2026-09-04T10:58:48.438Z",
       "campaign_site_url": "https://vindmanforcongress.com",
       "_campaign_site_reachability": "cloudflare_challenge",
       "_campaign_site_discovered_at": "2026-08-31T23:03:20.601Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "platform_video_source_type": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=HpDUNkwC3z0",
+      "platform_video_title": "Call to Serve",
+      "platform_video_source_url": "https://www.youtube.com/@Vindmanforcongress",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-09-04T10:58:48.442Z",
       "bio_summary": {
         "value": "Eugene Semyon Vindman (born Yevgeny Semyonovich Vindman ; [ a ] June 6, 1975) is an American politician, lawyer, and retired U.S. Army officer serving as the U.S. representative for Virginia's 7th congressional district since 2025. [ 1 ] A member of the Democratic Party , he was a deputy legal advisor for the United States National Security Council (NSC) until he was reassigned on February 7, 2020. [ 2 ] [ 3 ] Vindman came to national attention in October 2019 when his twin brother, Lieutenant Colonel Alexander Vindman , testified before the United States Congress regarding the Trump–Ukraine scandal . Because of his position on the NSC, Eugene had received Alexander's report of President Trump 's telephone call to Ukraine, which he later reported to senior White House lawyers. Alexander Vindman's testimony provided evidence that resulted in a charge of abuse of power in the first impeachment of Donald Trump . In 2024, Vindman won the Democratic nomination for Virginia's 7th congressional district in the 2024 election . [ 4 ] He defeated Republican Derrick Anderson in the general election, [ 5 ] [ 6 ] and assumed office on January 3, 2025. [ 7 ] ",
         "source_url": "https://en.wikipedia.org/wiki/Eugene_Vindman",
@@ -774,9 +915,9 @@
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 295,
-          "votesCast": 294,
-          "attendanceRate": 0.9966101694915255
+          "votesInSession": 267,
+          "votesCast": 266,
+          "attendanceRate": 0.9962546816479401
         },
         "committees": [
           {
@@ -810,13 +951,13 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 68,
-        "bills_cosponsored": 1014,
+        "bills_sponsored": 69,
+        "bills_cosponsored": 1016,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
           "nominateDim1": -0.175,
-          "nominateDim2": 0.123,
+          "nominateDim2": 0.122,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/V000138"
         },
@@ -827,7 +968,7 @@
           "profileUrl": "https://www.bridgegrades.org/congress/V000138"
         }
       },
-      "_curated_match": false
+      "_curated_match": true
     }
   ]
 }

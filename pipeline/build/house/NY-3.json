@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-09-03T17:18:44.312Z",
+  "generated_at": "2026-09-04T11:06:04.265Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -688,10 +688,51 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "campaign_site_url": "https://suozziforcongress2024.com/",
+      "platform": [
+        {
+          "topic": "SALT Deduction",
+          "value": "Will work to restore the full State and Local Tax (SALT) deduction to reduce the tax burden on Long Island families",
+          "snippet": "Reduce the tax burden on Long Island families and work to restore the full State and Local Tax (SALT) deduction."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Supports strengthening the border and achieving comprehensive border security reforms to address the influx of undocumented migrants",
+          "snippet": "working across party lines for common-sense solutions – from strengthening our border"
+        },
+        {
+          "topic": "Crime",
+          "value": "Supports bringing down crime through common sense reforms centered on intervention and prevention",
+          "snippet": "Bringing down crime through common sense reforms centered on intervention and prevention so that people feel safe."
+        },
+        {
+          "topic": "Reproductive Freedom",
+          "value": "Will always fight to defend a woman's right to make her own healthcare decisions",
+          "snippet": "Tom will always fight to defend a woman's right to make her own healthcare decisions."
+        },
+        {
+          "topic": "Israel",
+          "value": "Stands with the state of Israel and believes we must continue to strengthen Israel's regional security and combat anti-Israel bias",
+          "snippet": "Tom stands with the state of Israel and believes we must continue to strengthen Israel's regional security and combat anti-Israel bias."
+        },
+        {
+          "topic": "Climate Change",
+          "value": "Believes climate change is real and requires bold solutions to leave a healthier and more sustainable world behind for future generations",
+          "snippet": "Climate change is real and requires bold solutions to leave a healthier and more sustainable world behind for future generations."
+        },
+        {
+          "topic": "Tariffs",
+          "value": "Standing up against Trump's reckless tariffs that are raising the price of everything",
+          "snippet": "I'm standing up against Trump's reckless tariffs - tariffs that are raising the price of everything."
+        },
+        {
+          "topic": "Medicaid and Food Assistance",
+          "value": "Pushing back against Trump's cuts to Medicaid and food assistance",
+          "snippet": "I'm pushing back against Trump's cuts to Medicaid, his cuts to food assistance"
+        }
+      ],
+      "platform_source_url": "https://suozziforcongress.com/",
+      "_platform_resolved_at": "2026-09-04T11:05:32.717Z",
+      "campaign_site_url": "https://suozziforcongress.com/",
       "_campaign_site_reachability": "blocked_other",
       "_campaign_site_discovered_at": "2026-08-30T11:05:30.842Z",
       "platform_video_url": null,
@@ -761,11 +802,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 204,
-          "votesCast": 201,
-          "attendanceRate": 0.9852941176470589
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Committee on Ways and Means",
@@ -789,7 +826,7 @@
           }
         ],
         "bills_sponsored": 85,
-        "bills_cosponsored": 2835,
+        "bills_cosponsored": 2838,
         "bills_became_law": 2,
         "enacted_laws": [
           {
