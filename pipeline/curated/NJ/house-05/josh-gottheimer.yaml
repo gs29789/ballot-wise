@@ -1,0 +1,25 @@
+# josh4jersey.com sits behind a Cloudflare human-verification challenge,
+# so the pipeline could never read it. His official .gov site was also
+# tried earlier this project and found to publish only news items under
+# issue-topic URLs, not stated positions -- see campaignPlatform.ts's
+# press-release rule. The text below is his site's "About Josh" biography,
+# read by a person and quoted verbatim.
+#
+# Replaces a 786-character Wikipedia summary with his campaign's own
+# opening. campaign_site outranks wikipedia in campaignBioSummary.ts's
+# waterfall, and here usefulness agrees too: both cover the same career
+# ground (Clinton speechwriter, FCC, Ford, Microsoft), but Wikipedia's
+# version has nothing this excerpt lacks, while this one adds real
+# personal texture the encyclopedia entry never had. Kept to the page's
+# two opening, contiguous "Background" paragraphs rather than the full
+# multi-paragraph career history, per the same single-contiguous-passage
+# rule the automated extractor follows -- the later paragraphs about his
+# Clinton/Ford/FCC/Microsoft career are not adjacent to this opening and
+# are not stitched in.
+#
+# Platform remains the real gap for him and is NOT covered by this file --
+# this text is his bio page, not his issues page.
+bio_summary:
+  value: "Josh was raised in North Caldwell, the son of a preschool teacher and a small business owner. Growing up, Josh worked in his father’s store and, like your average New Jersey kid, treasured summer vacations at the Jersey Shore. His first concert was at the Meadowlands to see the one and only Bruce Springsteen!\n\nJosh graduated from West Essex High School before attending the University of Pennsylvania, later becoming a Thouron Fellow at Oxford, and then paid his way through Harvard Law School."
+  source_url: "https://josh4jersey.com/about/"
+  source_type: campaign_site

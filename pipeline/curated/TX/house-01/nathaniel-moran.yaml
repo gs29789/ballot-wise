@@ -1,0 +1,28 @@
+# moran.house.gov's "About" page (which resolves to the site's homepage)
+# is Nathaniel Moran's official biography, read by a person and quoted
+# verbatim. His campaign site, nathanielmoran.com, was flagged for human
+# review after automated extraction pulled his platform from a news/press
+# item instead of a real issues page, producing a misleadingly narrow
+# three-position record for a broad-portfolio legislator (see
+# campaignPlatform.ts's PRESS_RELEASE_URL comment). Per explicit user
+# instruction, that gap is not being manually curated here -- `platform`
+# is set to an empty array on purpose, not left absent: curated.ts's
+# CuratedCandidate.platform is checked before automated resolution and
+# used as-is when present (build.ts:687, `if (curatedEntry?.platform)`,
+# true for `[]` too), which is what actually suppresses the bad
+# press-release-derived list rather than just failing to override it.
+# platform_source_url is left unset so build.ts falls back to his FEC-filed
+# campaign site (nathanielmoran.com) as the "visit their site" link.
+#
+# Kept to the page's two opening, contiguous paragraphs (childhood,
+# education, marriage, early legal career) rather than the full
+# chronological biography -- the later paragraphs cover his elected
+# offices (Tyler City Council, Smith County Judge) which structured bio
+# fields elsewhere on this record already carry, same single-contiguous-
+# passage rule the automated extractor follows.
+bio_summary:
+  value: "Nathaniel Moran became a Texan just a few months before he turned two years old when his parents moved to rural East Texas with other families of faith to help start a small Bible College in southern Smith County.  His formative years were spent growing up in a single-wide trailer home on that Bible College campus, where he learned from his parents the values of hard work, service to others, and service to God.  Nathaniel spent most of his childhood exploring the woods around the Bible College, riding bikes on bumpy county roads, and shooting snakes with his BB gun along the West Mud Creek.  Nathaniel and his family eventually moved to Whitehouse, Texas, where Nathaniel attended Whitehouse I.S.D. and graduated in 1993, proudly serving as Senior Class President and Captain of the Wildcat football team.  It was during Nathaniel’s fourth grade year at Whitehouse that a love for public service rooted itself in his heart, as he—guided by his father—closely followed Ronald Reagan’s bid for re-election as President.  To this day, Nathaniel considers himself to be a Reagan Republican whose conservative values were shaped primarily by his father, President Reagan’s service, and by the strong, steady voice of Rush Limbaugh over the talk radio air waves for more than two decades.\n\nAfter high school, Nathaniel attended the United States Military Academy at West Point for two years before transferring to Texas Tech University, where he ultimately earned a B.A. in Russian Language and Area Studies, an MBA, and a law degree.  It was at Texas Tech that Nathaniel also met Kyna, whom he married just one week before starting law school.  Upon graduation from law school, Kyna and Nathaniel moved to Tyler, where Nathaniel began practicing law and Kyna began teaching elementary school.  For the past two decades, Nathaniel’s civil law practice has focused primarily on business and commercial litigation and transaction work.  Nathaniel and Kyna have now been married for over twenty-three years and they have four school-aged children, who serve as a primary motivation for his service in Congress."
+  source_url: "https://moran.house.gov/"
+  source_type: campaign_site
+
+platform: []

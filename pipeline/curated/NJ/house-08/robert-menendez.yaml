@@ -1,0 +1,79 @@
+# robmenendez.com sits behind a Cloudflare human-verification challenge,
+# so the pipeline could never read it. His official .gov site was already
+# tried this project and returns zero positions -- it publishes only
+# press releases under its issue-topic URLs, correctly rejected by
+# campaignPlatform.ts's press-release rule rather than turned into fake
+# positions. The text below was read off the live campaign site by a
+# person and quoted verbatim.
+#
+# Transcribed section by section; covered so far are "Healthcare",
+# "Immigration", "Working Families", and "Climate Change and
+# Environmental Justice", and "Transportation and Infrastructure". The
+# climate section opens with a sentence attributing blame to "the Trump
+# Administration and congressional Republicans" -- excluded per this
+# file's standing rule against attributing opponent argument to the
+# candidate as platform; his own voting record and goals that follow in
+# the same paragraph are kept. The transportation section's Gateway
+# Program line is kept despite naming the Trump Administration, since it
+# describes HIS OWN action (leading accountability efforts), not just an
+# attribution of blame.
+platform_source_url: "https://robmenendez.com/"
+platform:
+  - topic: "Medicaid Cuts"
+    value: "Is fighting to protect Medicaid and defend the care millions rely on, opposing what he calls the largest cut to Medicaid and ACA protections in history"
+    snippet: "As a member of the House Energy and Commerce Committee, I am fighting back alongside House to protect Medicaid and defend the care millions rely on."
+  - topic: "Affordable Care Act"
+    value: "Wants to build on the ACA's coverage expansion, cost reductions, and pre-existing condition protections rather than roll them back"
+    snippet: "We should be building on landmark legislation like the ACA which took critical steps to lower costs, expand coverage for underinsured and uninsured populations, and ensure Americans cannot be denied coverage due to pre-existing conditions, instead of making it harder for people to access care."
+  - topic: "Health Care Priorities"
+    value: "Committed to finding solutions to the nation's healthcare challenges that prioritize patients and lower costs for American families"
+    snippet: "I am committed to finding effective solutions to our nation’s healthcare challenges that prioritize patients and lower costs for American families."
+
+  # "Immigration"
+  - topic: "Detention Facility Oversight"
+    value: "As the grandson of Cuban refugees, will conduct legal oversight of detention facilities and stand up for immigrant neighbors"
+    snippet: "As the proud grandson of Cuban refugees, I will continue to stand up for all of our neighbors, conduct legal oversight of detention facilities, and fight back against this Administration’s attempts to undermine the rights of everyone who calls this country home."
+  - topic: "Immigration Reform"
+    value: "Wants longstanding solutions including a pathway to citizenship, fair immigration laws, robust asylum protections, closing private detention centers, and expanded immigration court capacity"
+    snippet: "We must develop real, longstanding solutions for the challenges that plague America’s broken immigration system, including a pathway to citizenship, fair immigration laws, robust asylum protections, closing private detention centers, and expanded capacity to address our national immigration court backlog."
+  - topic: "Border Security"
+    value: "As Vice Chair for Policy of the Congressional Hispanic Caucus, focused on protecting immigrant communities and enacting border security policies that are humane and effective"
+    snippet: "As Vice Chair for Policy for the Congressional Hispanic Caucus, I am focused on protecting our immigrant communities and enacting border security policies that are humane, effective, and reflective of our values as a nation."
+
+  # "Working Families"
+  - topic: "Working Families Task Force Act"
+    value: "Introduced the Working Families Task Force Act to bring together federal officials to work on affordability, child care access and wage growth"
+    snippet: "I introduced the Working Families Task Force Act, which will bring together officials from across the federal government to work on solutions for the issues impacting working families, including affordability, access to childcare, and wage growth."
+  - topic: "Parental Workforce Training Act"
+    value: "As a founding member of the Dads Caucus, introduced the Parental Workforce Training Act establishing a federal pilot program to help parents afford child care while in workforce training"
+    snippet: "And as a founding member of the Dads Caucus, I introduced the Parental Workforce Training Act, legislation establishing a federal pilot program to help parents afford childcare while enrolled in workforce training."
+  - topic: "Right to Organize"
+    value: "Is an original co-sponsor of the Richard L. Trumka Protecting the Right to Organize Act to strengthen organized labor"
+    snippet: "I am also proud to be an original co-sponsor of the Richard L. Trumka Protecting the Right to Organize Act, which will strengthen organized labor and provide 21st century tools that unions need to give workers the wages and rights they deserve"
+  - topic: "Minimum Wage"
+    value: "Is an original co-sponsor of the Raise the Wage Act to increase the federal minimum wage"
+    snippet: "as well as the Raise the Wage Act, which will provide for increases to the Federal minimum wage."
+
+  # "Climate Change and Environmental Justice"
+  - topic: "Climate Committee Votes"
+    value: "On the House Energy and Commerce Committee, has voted against cuts to climate and energy programs and against anti-environment bills"
+    snippet: "On the House Energy and Commerce Committee, I’ve voted against harmful cuts to key climate and energy programs and anti-environment bills that would raise costs for our families and makeour planet less livable."
+  - topic: "Environmental Justice"
+    value: "Fighting for a clean energy economy that keeps costs low, creates good-paying jobs, and ensures frontline communities share in and lead the transition to net-zero"
+    snippet: "I am fighting for a clean energy economy that keeps costs low, generates good paying jobs, reduces our dependence on extractive industries, and ensures that frontline communities share in and lead our transition to net-zero."
+
+  # "Transportation and Infrastructure"
+  - topic: "Gateway Program"
+    value: "Says funding for the Gateway Program -- the largest infrastructure project in the country, running through the district -- must be maintained and the project completed on time, and has led efforts in the House to hold the Trump Administration accountable for withholding that funding for partisan purposes"
+    snippet: "It is essential that funding for Gateway is maintained and the project is completed on-time. That's why I've led efforts in the House to hold the Trump Administration accountable for its efforts to needlessly withhold that funding for partisan purposes."
+
+  # "Helicopters"
+  - topic: "Liberty State Park Avoidance Area"
+    value: "Advocating for the National Park Service and FAA to designate Liberty State Park as an avoidance area for helicopter traffic"
+    snippet: "I am also fighting the negative impacts that helicopter noise pollution has had on many areas of our communities by advocating for the National Park Service (NPS) and the FAA to designate Liberty State Park as an avoidance area for helicopter traffic and by introducing the Communities Before Air Tourism Act."
+  - topic: "Helicopter Noise Legislation"
+    value: "Introduced the Protecting Communities from Helicopter Noise Act and the Communities Before Air Tourism Act to reduce the number of helicopter flights in the New York-New Jersey metropolitan area"
+    snippet: "I introduced the Protecting Communities from Helicopter Noise Act and the Communities Before Air Tourism Act, which aim to reduce the number of helicopter flights in the New York-New Jersey metropolitan area."
+  - topic: "Improving Helicopter Safety Act"
+    value: "Introduced bipartisan legislation in the 119th Congress banning all non-essential helicopter traffic within a 20-mile radius of the Statue of Liberty"
+    snippet: "During the 119th Congress, I introduced bipartisan legislation, the Improving Helicopter SafetyAct, which bans all non-essential helicopter traffic within a 20-mile radius of the Statue of Liberty."
