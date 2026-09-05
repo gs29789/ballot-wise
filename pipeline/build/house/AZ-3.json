@@ -1,0 +1,849 @@
+{
+  "state": "AZ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-09-03T08:45:04.434Z",
+  "election_dates": {
+    "primaryDate": "2026-07-21",
+    "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+    "primarySnippet": "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+    "generalSnippet": "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+    "snippet": "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arizona's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Yassamin Ansari, David Redkey, Alan Aversa, and Jacob Parkman are running in the general election for U.S. House Arizona District 3 on November 3, 2026. Aversa's only FEC match has a mismatched party code (American Independent Party, not the No Labels Party Ballotpedia lists him under) so it's excluded rather than force-matched; Parkman (R write-in) has no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.75
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.93
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.75
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.88
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 28.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3285.8
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3283.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3280.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3282.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3274.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3272.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3262.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3253
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3249.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3259
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3259.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3263.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3269.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3278.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3273.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3275.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3268.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3269.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3267.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3255.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3255.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3264.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3257.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3255.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3221.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3209.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3200
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3229.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3218.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3210.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3210.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3195.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3190.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3169.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3167.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3156.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3246133463.79,
+        "perCapitaUsd": 4059.85
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4771148114.64,
+        "perCapitaUsd": 5967.14
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3619324484.08,
+        "perCapitaUsd": 4526.59
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7359197
+      },
+      {
+        "year": "2023",
+        "population": 7431344
+      },
+      {
+        "year": "2024",
+        "population": 7582384
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 74568
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 77315
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81486
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "yassamin-ansari",
+      "full_name": "ANSARI, YASSAMIN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4AZ03109",
+      "fec_status": "C",
+      "bioguide_id": "A000381",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1436332.77,
+        "totalSpent": 899422.65,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 145331.36,
+          "largeDollar": 977438.62,
+          "pac": 226033,
+          "party": 0,
+          "selfFunded": 65704.6
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1992-04-07",
+          "source_url": "https://www.wikidata.org/wiki/Q122226202",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Seattle, Washington",
+          "source_url": "https://www.wikidata.org/wiki/Q122226202",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Chaparral High School",
+          "source_url": "https://www.wikidata.org/wiki/Q122226202",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Chaparral High School, Scottsdale, Ariz., 2010",
+          "source_url": "https://history.house.gov/People/Listing/A/ANSARI,-Yassamin-(A000381)/",
+          "snippet": "graduated from Chaparral High School, Scottsdale, Ariz., 2010",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "staff, United Nations, 2015-2021",
+          "source_url": "https://history.house.gov/People/Listing/A/ANSARI,-Yassamin-(A000381)/",
+          "snippet": "staff, United Nations, 2015-2021",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Phoenix, Ariz., city council, 2021-2024; vice mayor, Phoenix, Ariz., 2023-2024",
+          "source_url": "https://history.house.gov/People/Listing/A/ANSARI,-Yassamin-(A000381)/",
+          "snippet": "member of the Phoenix, Ariz., city council, 2021-2024; vice mayor, Phoenix, Ariz., 2023-2024",
+          "source_type": "llm_extracted_house_historian"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Reproductive Rights",
+          "value": "Fought for the protection of reproductive rights",
+          "snippet": "has fought for the protection of reproductive rights"
+        },
+        {
+          "topic": "Education and Job Training",
+          "value": "Secured millions in free tuition for students pursuing community college and good jobs in the trades",
+          "snippet": "secured millions in free tuition for students pursuing community college and good jobs in the trades"
+        }
+      ],
+      "platform_source_url": "https://yassaminforcongress.com/",
+      "_platform_resolved_at": "2026-08-11T11:47:35.901Z",
+      "campaign_site_url": "https://www.yassaminforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=N215qSEu0NU",
+      "platform_video_title": "Ansari Launches Re-election Campaign",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-21T12:00:34.211Z",
+      "bio_summary": {
+        "value": "Congresswoman Yassamin Ansari is representing Arizona’s Third Congressional District which is one of the most diverse districts in the country and includes the fifth-largest and fastest growing city. Yassamin is the Democratic Freshman Class President and also the youngest woman serving in the 119th Congress. The proud daughter of immigrants and graduate of Stanford and Cambridge universities, Yassamin led the charge to pass the city’s landmark Climate Action Plan, has fought for the protection of reproductive rights, and secured millions in free tuition for students pursuing community college and good jobs in the trades.",
+        "source_url": "https://yassaminforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:00.375Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 222,
+          "votesCast": 220,
+          "attendanceRate": 0.990990990990991
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Oversight and Investigations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Economic Growth, Energy Policy, and Regulatory Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Cybersecurity, Information Technology, and Government Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Federal Law Enforcement",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 32,
+        "bills_cosponsored": 553,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.432,
+          "nominateDim2": -0.391,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/A000381"
+        },
+        "bridge_score": {
+          "grade": "F",
+          "score": 14.1,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/A000381"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "david-redkey",
+      "full_name": "REDKEY, DAVID WAYNE MR.",
+      "party": "GREEN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6AZ01322",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 0,
+        "totalSpent": 0,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 0,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "marital_status": {
+          "value": "husband",
+          "source_url": "https://www.davidredkey4congress.com/",
+          "snippet": "Mr. Redkey is a certified teacher, husband, and father who has proudly called Arizona home for nearly four decades.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "certified teacher",
+          "source_url": "https://www.davidredkey4congress.com/",
+          "snippet": "Mr. Redkey is a certified teacher, husband, and father who has proudly called Arizona home for nearly four decades.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Bachelor's, Arizona State University, English (2016); Bachelor's, Arizona State University, Communication (2016); Master's, Arizona State University, Secondary Education (2019)",
+          "source_url": "https://www.ballotready.org/people/david-redkey",
+          "snippet": "Master&#x27;s, Arizona State University, Seondary Education (2019) Bachelor&#x27;s, Arizona State University, English (2016) Bachelor&#x27;s, Arizona State University, Communication (2016)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Supports \"TriCare Prime for All\", a single-payer universal system modeled on the military's TRICARE Prime",
+          "snippet": "TriCare Prime for All is a single-payer, universal healthcare system modeled on TRICARE Prime — the system that already provides comprehensive care to active-duty service members and their families."
+        },
+        {
+          "topic": "Healthcare Funding Conditions",
+          "value": "Would require any healthcare facility receiving federal funding to participate in the $0 deductible option",
+          "snippet": "Any healthcare facility that receives federal funding would be required to participate in the $0 deductible TriCare Prime for All option ."
+        },
+        {
+          "topic": "Taxes on High Earners",
+          "value": "Supports a 94% marginal tax rate on taxable income above $200,000 for single filers and $400,000 for married filing jointly",
+          "snippet": "94% marginal rate on taxable income above $200,000 for single filers and above $400,000 for married filing jointly."
+        },
+        {
+          "topic": "Corporate Taxation",
+          "value": "Supports tiered corporate rates entering 70%+ marginal tiers above $1,000,000 in profit, to discourage consolidation and monopoly scale",
+          "snippet": "Above $1,000,000: rates enter 70%+ marginal tiers that step higher with profit bands, discouraging consolidation and monopoly scale purely for financial extraction."
+        },
+        {
+          "topic": "Congressional Stock Trading",
+          "value": "Backs a hard ban on congressional stock trading with no loopholes or partisan exceptions",
+          "snippet": "I back a hard ban on congressional stock trading — no loopholes, no partisan exceptions."
+        },
+        {
+          "topic": "Congressional Stock Trading — Scope",
+          "value": "Would bar individual holdings for Members, spouses and dependent children, including stocks, options, crypto, single-company bonds and sector ETFs",
+          "snippet": "No individual holdings. No stocks, options, crypto, single-company bonds, or sector ETFs for Members, spouses, or dependent children."
+        },
+        {
+          "topic": "School Vouchers",
+          "value": "Opposes voucher, ESA and tax-credit schemes that divert public education dollars into private K-12 tuition",
+          "snippet": "I oppose voucher, ESA, and tax-credit schemes that divert scarce public education dollars into private K–12 tuition."
+        },
+        {
+          "topic": "Public School Funding",
+          "value": "Says federal funds should strengthen neighborhood public schools rather than subsidize private alternatives",
+          "snippet": "Federal funds should strengthen neighborhood public schools — not subsidize private alternatives that reduce transparency, undermine accountability, and hollow out our communities."
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Says every woman has the absolute right to decide what happens to her own body, health and future, free from political or governmental interference",
+          "snippet": "I believe every woman has the absolute right to decide what happens to her own body, her health, and her future—free from political or governmental interference."
+        },
+        {
+          "topic": "Housing",
+          "value": "Includes the right of every family to a safe, decent home in his proposed Economic Bill of Rights",
+          "snippet": "The right of every family to a safe, decent home"
+        }
+      ],
+      "platform_source_url": "https://www.davidredkey4congress.com/",
+      "_platform_resolved_at": "2026-08-11T11:46:56.233Z",
+      "campaign_site_url": "https://www.davidredkey4congress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:34:18.526Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Mr. Redkey is a certified teacher, husband, and father who has proudly called Arizona home for nearly four decades. As a passionate advocate for working families, he is running for U.S. House of Representatives in Arizona’s Congressional District 3 to champion Foundation Economics — putting people over profits and restoring integrity to government.",
+        "source_url": "https://www.davidredkey4congress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:02.146Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-09-03T12:00:09.206Z"
+    }
+  ]
+}
