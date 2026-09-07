@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-18T20:24:51.445Z",
+  "generated_at": "2026-09-02T10:13:32.782Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://codes.findlaw.com/ky/title-x-elections/ky-rev-st-sect-118-025.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.7
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2033.3
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 2030.4
+        "thousandsOfJobs": 2031
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7578553505.02,
-        "perCapitaUsd": 10123.65
+        "totalUsd": 7578575167.02,
+        "perCapitaUsd": 10123.68
       },
       {
         "year": "2024",
-        "totalUsd": 123473123711.57,
-        "perCapitaUsd": 165704.38
+        "totalUsd": 123473723711.57,
+        "perCapitaUsd": 165705.18
       },
       {
         "year": "2025",
-        "totalUsd": 120883564098.54,
-        "perCapitaUsd": 162229.11
+        "totalUsd": 120883574831.49,
+        "perCapitaUsd": 162229.13
       }
     ],
     "population": [
@@ -571,15 +581,63 @@
           "source_url": "https://en.wikipedia.org/wiki/James_Comer",
           "snippet": "After college, he and his family started James Comer, Jr. Farms, [ 10 ] a 2,300 acres (950 ha) farm, [ 11 ] and he also co-owns Comer Land & Cattle Co. [ 12 ] He served as a director of the South Central Bank for 12 years. [ 7 ] Comer served as president of the Monroe County Chamber of Commerce from 1999 to 2000.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Tamara Jo Comer in 2003, 3 children",
+          "source_url": "https://en.wikipedia.org/wiki/James_Comer",
+          "snippet": "Spouse Tamara Jo Comer ​ ( married&lt;/span>\"}]]}'>m. 2003 ) ​ Children 3",
+          "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Agriculture",
+          "value": "Support and modernize programs that have proven effective in helping our nation's hard-working farmers to operate, compete and succeed",
+          "snippet": "We must support and modernize programs that have proven effective in helping our nation's hard-working farmers to operate, compete and succeed."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Restore competition in the marketplace, expand access to high-quality care and end the one-size-fits-all approach",
+          "snippet": "We must restore competition in the marketplace, expand access to high-quality care and end the one-size-fits-all approach taken in recent years."
+        },
+        {
+          "topic": "Oversight and Reform",
+          "value": "Rein in regulatory red tape and eliminate unnecessary government spending, fraud and abuse",
+          "snippet": "Congress must work towards reining in the amount of regulatory red tape enacted in recent years. Eliminating unnecessary government spending, fraud and abuse will help ensure the government is operating at maximum effectiveness and not unnecessarily interfering in the lives of citizens."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "Ensure Second Amendment rights continue to be protected from infringement by the federal government with commonsense gun laws that respect the fundamental right to keep and bear arms",
+          "snippet": "Americans' Second Amendment rights are an important tenet of the Constitution. As such, we must ensure that these rights continue to be protected from infringement by the federal government. Law-abiding gun owners deserve commonsense gun laws that respect the fundamental right to keep and bear arms."
+        },
+        {
+          "topic": "Small Business and Economy",
+          "value": "Reduce taxes and rein in government regulations, continue to build on historic tax reform legislation and deregulation",
+          "snippet": "Unleashing economic growth begins with reducing taxes and reining in government regulations that make it more difficult for Americans to start businesses, compete globally and grow jobs here at home. We must continue to build on the success of the historic tax reform legislation and deregulation to help American families, businesses and entrepreneurs achieve their dreams."
+        },
+        {
+          "topic": "Transportation",
+          "value": "Investment in our nation's transportation infrastructure is critical for economic growth and the well-being of our communities",
+          "snippet": "Investment in our nation's transportation infrastructure - whether that is our water systems, roads, highways, bridges, railroads or the maritime industry - is critical for economic growth and the well-being of our communities."
+        }
+      ],
+      "platform_source_url": "https://comer.house.gov/issues",
+      "_platform_resolved_at": "2026-09-02T10:13:08.639Z",
+      "campaign_site_url": "https://www.jamescomer.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:30.792Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "James Richardson Comer Jr. [ 2 ] ( / ˈ k oʊ m ər / KOH -mər ; born August 19, 1972) is an American politician serving as the U.S. Representative for Kentucky's 1st congressional district . A member of the Republican Party , he has served in Congress since 2016, during the 114th United States Congress . He previously served in the Kentucky House of Representatives and also served as the agriculture commissioner of Kentucky . As the chair of the Oversight Committee from 2023, Comer has declined or stopped investigations into former president Donald Trump , while starting an investigation on President Joe Biden and his family. As of August 2024, Comer's investigation has yet to unearth evidence that Biden was directly involved in or profited from his family's business activities. [ 3 ] After Biden ended his 2024 presidential re-election campaign, Comer began an investigation into the new Democratic presidential nominee, Vice President Kamala Harris , and also began an investigation into the new Democratic vice-presidential nominee, Governor Tim Walz . ",
+        "source_url": "https://en.wikipedia.org/wiki/James_Comer",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:37:50.507Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/30027661.pdf",
         "filingDate": "5/12/2026",
@@ -591,9 +649,64 @@
         "hasLargeCompensation": null
       },
       "_financial_disclosure_resolved_at": "2026-08-12T10:16:06.481Z",
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 216,
+          "votesCast": 214,
+          "attendanceRate": 0.9907407407407407
+        },
         "committees": [
           {
             "committee": "House Committee on Oversight and Government Reform",
@@ -617,7 +730,7 @@
           }
         ],
         "bills_sponsored": 51,
-        "bills_cosponsored": 614,
+        "bills_cosponsored": 617,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -647,23 +760,13 @@
         },
         "bridge_score": {
           "grade": "F",
-          "score": 6.7,
-          "snapshotDate": "June 30, 2026",
+          "score": 5.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/C001108"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:12.965Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:41.604Z",
-      "bio_summary": {
-        "value": "James Richardson Comer Jr. [ 2 ] ( / ˈ k oʊ m ər / KOH -mər ; born August 19, 1972) is an American politician serving as the U.S. Representative for Kentucky's 1st congressional district . A member of the Republican Party , he has served in Congress since 2016, during the 114th United States Congress . He previously served in the Kentucky House of Representatives and also served as the agriculture commissioner of Kentucky . As the chair of the Oversight Committee from 2023, Comer has declined or stopped investigations into former president Donald Trump , while starting an investigation on President Joe Biden and his family. As of August 2024, Comer's investigation has yet to unearth evidence that Biden was directly involved in or profited from his family's business activities. [ 3 ] After Biden ended his 2024 presidential re-election campaign, Comer began an investigation into the new Democratic presidential nominee, Vice President Kamala Harris , and also began an investigation into the new Democratic vice-presidential nominee, Governor Tim Walz . ",
-        "source_url": "https://en.wikipedia.org/wiki/James_Comer",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:37:50.507Z",
-      "campaign_site_url": "https://www.jamescomer.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:30.792Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:13.196Z"
     },
     {
       "slug": "john-williams",
@@ -688,8 +791,24 @@
       },
       "bio": {
         "date_of_birth": null,
-        "birthplace": null,
-        "college": null
+        "birthplace": {
+          "value": "Western Kentucky",
+          "source_url": "https://www.williamsforky.com/drew",
+          "snippet": "BORN AND RAISED IN WESTERN KENTUCKY",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Murray State University, graduated 2016 with a degree in History and a minor in Biology",
+          "source_url": "https://www.williamsforky.com/drew",
+          "snippet": "He graduated from Murray State University in 2016 with a degree in History and a minor in Biology",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "building boat docks on Kentucky Lake, Lake Barkley, and surrounding states since age 14, worked for his family business",
+          "source_url": "https://www.williamsforky.com/drew",
+          "snippet": "Since the age of 14, he has been building boat docks on Kentucky Lake, Lake Barkley, and even had the pleasure of expanding to the four surrounding states",
+          "source_type": "llm_extracted_campaign_site"
+        }
       },
       "platform": [
         {
@@ -735,10 +854,21 @@
       ],
       "platform_source_url": "https://www.williamsforky.com/",
       "_platform_resolved_at": "2026-08-12T10:16:01.820Z",
+      "campaign_site_url": "https://williamsforky.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:30.793Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "John “Drew” Williams has spent his entire life right here in Western Kentucky, and no matter how many places he has traveled, there’s no place that he’d rather call home. From playing Abraham Lincoln in a 4th-grade play to leading his county basketball team to the State Tournament for the first time in 16 years, Drew has always been the kind of guy who shows up and gives everything he’s got.",
+        "source_url": "https://www.williamsforky.com/drew",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:42:37.138Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10071747.pdf",
         "filingDate": "7/13/2025",
@@ -753,15 +883,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:13.482Z",
-      "bio_summary": {
-        "value": "John “Drew” Williams has spent his entire life right here in Western Kentucky, and no matter how many places he has traveled, there’s no place that he’d rather call home. From playing Abraham Lincoln in a 4th-grade play to leading his county basketball team to the State Tournament for the first time in 16 years, Drew has always been the kind of guy who shows up and gives everything he’s got.",
-        "source_url": "https://www.williamsforky.com/drew"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:42:37.138Z",
-      "campaign_site_url": "https://williamsforky.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:34:30.793Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:13.570Z"
     }
   ]
 }

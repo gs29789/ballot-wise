@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-08-21T12:24:41.413Z",
+  "generated_at": "2026-09-03T16:32:15.657Z",
   "election_dates": {
     "primaryDate": "2026-03-03",
     "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.5
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 14468
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 14469.6
+        "thousandsOfJobs": 14466.4
       },
       {
         "year": "2026",
@@ -483,8 +493,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155205801.59,
-        "perCapitaUsd": 6674.29
+        "totalUsd": 5155559241.27,
+        "perCapitaUsd": 6674.74
       }
     ],
     "population": [
@@ -568,21 +578,80 @@
       "platform_source_url": null,
       "_platform_resolved_at": null,
       "campaign_site_url": "https://www.lizziefletcher.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "No place is more welcoming, diverse, innovative, hard-working, or generous than Houston. As our representative to the U.S. Congress, I am proud to represent that Houston: a city that opens its doors to newcomers from around the world, prides itself on scientific discovery, serves as a hub for innovation, works together, and takes care of its neighbors. I am committed to working to ensure that our community’s core values—inclusion, innovation, and collaboration—result in progress, equality, and opportunity for all Americans.",
-        "source_url": "https://www.lizziefletcher.com/"
+        "source_url": "https://www.lizziefletcher.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:45.018Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 288,
+          "attendanceRate": 0.976271186440678
+        },
         "committees": [
           {
             "committee": "House Committee on Energy and Commerce",
@@ -606,8 +675,8 @@
           }
         ],
         "bills_sponsored": 58,
-        "bills_cosponsored": 1230,
-        "bills_became_law": 0,
+        "bills_cosponsored": 1242,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Hazard Eligibility and Local Projects Act",
@@ -636,12 +705,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 32.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 27.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/F000468"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:43.579Z"
     },
     {
       "slug": "alexander-hale",
@@ -710,21 +780,35 @@
       "platform_source_url": "https://www.halefortexas.com/",
       "_platform_resolved_at": "2026-08-14T18:24:34.209Z",
       "campaign_site_url": "https://halefortexas.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Alexander Hale is running to bring principled, constitutional conservative leadership to Texas's 7th Congressional District. Alexander is a devout Christian who believes in limited federal government, market-based solutions, and the principles that have made America exceptional. He's committed to defending Houston's energy economy while addressing the real issues facing TX-07 families: rising costs, border security, education quality, and public safety.",
-        "source_url": "https://www.halefortexas.com/"
+        "source_url": "https://www.halefortexas.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:42.716Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10073294.pdf",
+        "filingDate": "1/31/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:32:05.732Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:43.913Z"
     },
     {
       "slug": "espoir-ngabo",
@@ -795,14 +879,18 @@
       "platform_source_url": "https://www.espoirfortexas.com/",
       "_platform_resolved_at": "2026-08-14T18:24:14.215Z",
       "campaign_site_url": "https://www.espoirfortexas.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=4Lb20aONcnk",
+      "platform_video_title": "Espoir Ngabo",
       "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T12:00:31.381Z",
       "bio_summary": {
         "value": "ESPOIR NGABO is running for Congress to protect the community that gave him a home. We deserve better than the “lesser of two evils”. We deserve a choice that puts PEOPLE, PLANET & PEACE OVER PROFITS.",
-        "source_url": "https://www.espoirfortexas.com/"
+        "source_url": "https://www.espoirfortexas.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:40.378Z",
       "financial_disclosure": null,

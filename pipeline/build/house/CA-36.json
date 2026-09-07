@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-36",
-  "generated_at": "2026-08-18T20:09:33.719Z",
+  "generated_at": "2026-09-03T16:55:00.036Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
@@ -32,7 +32,223 @@
     "snippet": "Incumbent Ted Lieu and Houston Brignano are running in the general election for U.S. House California District 36 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,26 +271,268 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
-    "federal_spending": [
+    "nonfarm_employment_thousands": [
       {
-        "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 18133
       },
       {
-        "year": "2024",
-        "totalUsd": 5412201553.9,
-        "perCapitaUsd": 7201.64
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18153.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
       }
     ],
-    "population": null,
-    "median_household_income": null
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5018433494,
+        "perCapitaUsd": 6677.68
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412882185.9,
+        "perCapitaUsd": 7202.54
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874775826.08,
+        "perCapitaUsd": 7817.15
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
   },
   "candidates": [
     {
@@ -127,22 +585,26 @@
       ],
       "platform_source_url": "https://www.voteforhouston.com/",
       "_platform_resolved_at": "2026-08-15T11:40:09.397Z",
+      "campaign_site_url": "https://www.voteforhouston.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-09-01T13:53:09.361Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I’m a proud South Bay native, born and raised in the best place to live. I joined the Marine Corps right out of high school because I wanted to be part of the best. I deployed to two tours in Iraq, and that experience immensely shaped how I see the world. What matters, what doesn't, and what's worth fighting for. These days, I'm raising three daughters in the South Bay with my wife - a stay at home mom and the real homemaker.",
+        "source_url": "https://www.voteforhouston.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:24:28.392Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I’m a proud South Bay native, born and raised in the best place to live. I joined the Marine Corps right out of high school because I wanted to be part of the best. I deployed to two tours in Iraq, and that experience immensely shaped how I see the world. What matters, what doesn't, and what's worth fighting for. These days, I'm raising three daughters in the South Bay with my wife - a stay at home mom and the real homemaker.",
-        "source_url": "https://www.voteforhouston.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:24:28.392Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:03.758Z"
+      "_curated_match": false
     },
     {
       "slug": "ted-lieu",
@@ -180,20 +642,138 @@
           "value": "Georgetown University Law Center",
           "source_url": "https://www.wikidata.org/wiki/Q7693450",
           "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "St. Ignatius High School, Cleveland, Ohio, 1987",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "graduated from St. Ignatius High School, Cleveland, Ohio, 1987",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "United States Air Force, 1995-1999; United States Air Force Reserve, 2000-2021; judicial clerk, United States Court of Appeals, Ninth Circuit; lawyer, private practice",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "United States Air Force, 1995-1999; United States Air Force Reserve, 2000-2021; judicial clerk, United States Court of Appeals, Ninth Circuit; lawyer, private practice",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Torrance, Calif., city council, 2002-2005; member of the California state assembly, 2005-2010; member of the California state senate, 2011-2014",
+          "source_url": "https://history.house.gov/People/Listing/L/LIEU,-Ted-(L000582)/",
+          "snippet": "member of the Torrance, Calif., city council, 2002-2005; member of the California state assembly, 2005-2010; unsuccessful candidate for election for California state attorney general in 2010; member of the California state senate, 2011-2014",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Civil Rights and Social Justice",
+          "value": "Fully committed to ensuring and protecting the civil rights of all Americans, standing against racial, cultural, or religious intolerance",
+          "snippet": "I am fully committed to ensuring and protecting the civil rights of all Americans. I vehemently stand against any sort of racial, cultural, or religious intolerance that threatens to divide the melting pot our country has become.",
+          "source_url": "https://lieu.house.gov/issues"
+        },
+        {
+          "topic": "Asian American and Pacific Islander Advocacy",
+          "value": "As an executive board member of the Congressional Asian Pacific American Caucus, dedicated to promoting the well-being of the AAPI community",
+          "snippet": "As an executive board member of the Congressional Asian Pacific American Caucus (CAPAC), I am dedicated to promoting the well-being of the AAPI community.",
+          "source_url": "https://lieu.house.gov/issues/civil-rights"
+        },
+        {
+          "topic": "Immigration Detention Access",
+          "value": "Introduced legislation to guarantee individuals held at immigration detention centers have access to congressional constituent casework services upon request",
+          "snippet": "introduced legislation that guarantees individuals held at immigration detention centers have access to congressional constituent casework services upon request",
+          "source_url": "https://lieu.house.gov/issues/immigration"
+        },
+        {
+          "topic": "Climate Change and Clean Energy",
+          "value": "Introduced the Climate Solutions Act of 2015 to energize investment in green energy technology, set strong renewable energy standards and slash carbon pollution",
+          "snippet": "That's why my first piece of legislation in Congress was the Climate Solutions Act of 2015: a bold, innovative plan to energize investment in green energy technology, set strong renewable energy standards and slash the carbon pollution that is damaging our planet.",
+          "source_url": "https://lieu.house.gov/issues/energy-and-environment"
+        }
+      ],
+      "platform_source_url": "https://lieu.house.gov/issues",
+      "_platform_resolved_at": "2026-09-03T16:54:12.514Z",
+      "campaign_site_url": "https://tedlieu.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:09.362Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "bio_summary": {
+        "value": "Ted Win-Ping Lieu ( Chinese : 劉雲平 ; pinyin : Liú Yúnpíng ; [ 1 ] / lj uː / LEW ; born March 29, 1969) is an American lawyer and politician. He is a member of the Democratic Party and has represented California's 36th congressional district in the United States House of Representatives since 2023. He represented the 33rd congressional district from 2015 to 2023. The district includes South Bay and Westside regions of Los Angeles , as well as Beverly Hills , Santa Monica , the Palos Verdes Peninsula , and Beach Cities . Born in Taiwan, Lieu who is one of the few members of Congress who are naturalized U.S. citizens. He graduated with two degrees from Stanford University and earned his Juris Doctor degree from Georgetown University . ",
+        "source_url": "https://en.wikipedia.org/wiki/Ted_Lieu",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:33:04.340Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10078282.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:54:46.155Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 283,
+          "attendanceRate": 0.9593220338983051
+        },
         "committees": [
           {
             "committee": "House Committee on the Judiciary",
@@ -212,8 +792,8 @@
           }
         ],
         "bills_sponsored": 273,
-        "bills_cosponsored": 4087,
-        "bills_became_law": 2,
+        "bills_cosponsored": 4097,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "West Los Angeles VA Campus Improvement Act of 2021",
@@ -242,20 +822,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 58.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 56.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000582"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Ted Win-Ping Lieu ( Chinese : 劉雲平 ; pinyin : Liú Yúnpíng ; [ 1 ] / lj uː / LEW ; born March 29, 1969) is an American lawyer and politician. He is a member of the Democratic Party and has represented California's 36th congressional district in the United States House of Representatives since 2023. He represented the 33rd congressional district from 2015 to 2023. The district includes South Bay and Westside regions of Los Angeles , as well as Beverly Hills , Santa Monica , the Palos Verdes Peninsula , and Beach Cities . Born in Taiwan, Lieu who is one of the few members of Congress who are naturalized U.S. citizens. He graduated with two degrees from Stanford University and earned his Juris Doctor degree from Georgetown University . ",
-        "source_url": "https://en.wikipedia.org/wiki/Ted_Lieu",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:33:04.340Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:03.759Z"
+      "_curated_match": false
     }
   ]
 }

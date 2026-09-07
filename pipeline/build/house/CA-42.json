@@ -32,7 +32,7 @@
     "snippet": "Incumbent Robert Garcia and Brian Burley are running in the general election for U.S. House California District 42 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017142346,
-        "perCapitaUsd": 6675.96
+        "totalUsd": 5018433494,
+        "perCapitaUsd": 6677.68
       },
       {
         "year": "2024",
-        "totalUsd": 5412201553.9,
-        "perCapitaUsd": 7201.64
+        "totalUsd": 5412882185.9,
+        "perCapitaUsd": 7202.54
       },
       {
         "year": "2025",
-        "totalUsd": 5870133158.08,
-        "perCapitaUsd": 7810.97
+        "totalUsd": 5874775826.08,
+        "perCapitaUsd": 7817.15
       }
     ],
     "population": null,
@@ -166,8 +166,9 @@
         "source_url": "https://www.burley4congress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:20.558Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.039Z"
+      "campaign_site_url": "https://www.brianburley.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:38.922Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "robert-garcia",
@@ -295,7 +296,7 @@
         ],
         "bills_sponsored": 47,
         "bills_cosponsored": 800,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Eliminate Useless Reports Act of 2024",
@@ -308,15 +309,15 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": -0.374,
-          "nominateDim2": -0.588,
+          "nominateDim1": -0.373,
+          "nominateDim2": -0.593,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/G000598"
         },
         "bridge_score": {
           "grade": "F",
-          "score": 13.8,
-          "snapshotDate": "June 30, 2026",
+          "score": 11.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000598"
         }
       },
@@ -326,8 +327,9 @@
         "source_url": "https://robertgarcia.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:25:18.485Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.038Z"
+      "campaign_site_url": "https://robertgarcia.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:38.918Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

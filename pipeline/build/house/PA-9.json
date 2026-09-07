@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-09",
-  "generated_at": "2026-08-10T21:42:26.447Z",
+  "generated_at": "2026-09-02T10:00:06.129Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
     "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Pennsylvania's_9th_Congressional_District_election,_2026",
     "snippet": "Incumbent Dan Meuser and Rachel Wallace are running in the general election for U.S. House Pennsylvania District 9 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6201.1
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6209.6
+        "thousandsOfJobs": 6208.7
       },
       {
         "year": "2026",
@@ -477,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 7160973699.32,
-        "perCapitaUsd": 9278.89
+        "totalUsd": 7161049937.03,
+        "perCapitaUsd": 9278.99
       },
       {
         "year": "2025",
-        "totalUsd": 8058713509.12,
-        "perCapitaUsd": 10442.14
+        "totalUsd": 8058900564.38,
+        "perCapitaUsd": 10442.39
       }
     ],
     "population": [
@@ -569,6 +580,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://meuserforcongress.org",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:14.431Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=PVUp5Mmojj8",
+      "platform_video_title": "The Sam Lesante Show - Dan Meuser for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": "2026-09-02T12:00:09.239Z",
+      "bio_summary": {
+        "value": "Daniel Philip Meuser [ 1 ] [ 2 ] ( / ˈ m j uː z ər / MEW -zər ; born February 10, 1964) [ 3 ] is an American businessman and politician serving as the U.S. representative for Pennsylvania's 9th congressional district since 2019. [ 4 ] A Republican , he previously served as the secretary of revenue in the cabinet of Pennsylvania governor Tom Corbett . He was previously president of the Pride Corporation, a manufacturer of motorized wheelchairs in the Wilkes-Barre/Scranton metro area of Pennsylvania , and currently serves the company as a board member and consultant. [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Dan_Meuser",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:44:40.114Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -606,8 +632,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 68,
-        "bills_cosponsored": 1252,
+        "bills_sponsored": 69,
+        "bills_cosponsored": 1261,
         "bills_became_law": 2,
         "enacted_laws": [
           {
@@ -637,28 +663,13 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 56.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 52.9,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001204"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:16.879Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:32:32.856Z",
-      "bio_summary": {
-        "value": "Daniel Philip Meuser [ 1 ] [ 2 ] ( / ˈ m j uː z ər / MEW -zər ; born February 10, 1964) [ 3 ] is an American businessman and politician serving as the U.S. representative for Pennsylvania's 9th congressional district since 2019. [ 4 ] A Republican , he previously served as the secretary of revenue in the cabinet of Pennsylvania governor Tom Corbett . He was previously president of the Pride Corporation, a manufacturer of motorized wheelchairs in the Wilkes-Barre/Scranton metro area of Pennsylvania , and currently serves the company as a board member and consultant. [ 5 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Dan_Meuser",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:44:40.114Z",
-      "campaign_site_url": "https://meuserforcongress.org",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:14.431Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:09.239Z"
     },
     {
       "slug": "rachel-wallace",
@@ -708,20 +719,27 @@
       ],
       "platform_source_url": "https://www.wallaceforcongress.com/",
       "_platform_resolved_at": "2026-08-10T21:41:17.190Z",
+      "campaign_site_url": "https://www.wallaceforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:14.437Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "10th Generation Pennsylvanian. From Pottsville to the White House, Rachel gets the job done. “In Congress, I will fight for the people of Pennsylvania's 9th Congressional District every single day. Dan Meuser forgot about us and our Pennsylvania values. I never will.\"",
+        "source_url": "https://www.wallaceforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:39:02.502Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:17.208Z",
-      "bio_summary": {
-        "value": "10th Generation Pennsylvanian. From Pottsville to the White House, Rachel gets the job done. “In Congress, I will fight for the people of Pennsylvania's 9th Congressional District every single day. Dan Meuser forgot about us and our Pennsylvania values. I never will.\"",
-        "source_url": "https://www.wallaceforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:39:02.502Z",
-      "campaign_site_url": "https://www.wallaceforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:14.437Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:09.592Z"
     }
   ]
 }

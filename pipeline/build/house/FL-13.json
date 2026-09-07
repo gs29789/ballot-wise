@@ -571,7 +571,8 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-31T12:00:29.885Z"
+      "_tier2_search_attempted_at": "2026-08-31T12:00:29.885Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "leela-gray",
@@ -602,9 +603,35 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Cost of Living Crisis",
+          "value": "Tackling the Cost of Living Crisis",
+          "snippet": "Tackling the Cost of Living Crisis"
+        },
+        {
+          "topic": "Economic Opportunities",
+          "value": "Growing Economic Opportunities",
+          "snippet": "Growing Economic Opportunities"
+        },
+        {
+          "topic": "Vulnerable Populations",
+          "value": "Fighting for Our Most Vulnerable",
+          "snippet": "Fighting for Our Most Vulnerable"
+        },
+        {
+          "topic": "Environment and Coastal Economy",
+          "value": "Protecting our Beaches, Land, and Coastal Economy",
+          "snippet": "Protecting our Beaches, Land, and Coastal Economy"
+        },
+        {
+          "topic": "Anti-Corruption",
+          "value": "Anti-Corruption Agenda",
+          "snippet": "Anti-Corruption Agenda"
+        }
+      ],
+      "platform_source_url": "https://www.leelagray.com/issues",
+      "_platform_resolved_at": "2026-09-01T13:30:18.579Z",
       "campaign_site_url": "https://leelagray.com",
       "platform_video_url": "https://www.youtube.com/watch?v=i8Xw0W_-Gnk",
       "platform_video_title": "Leela Gray Previews Anna Paulina Luna Matchup on MS NOW",
@@ -629,7 +656,8 @@
       "_financial_disclosure_resolved_at": "2026-08-20T15:38:58.813Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "anna-luna",
@@ -856,7 +884,8 @@
           "profileUrl": "https://www.bridgegrades.org/congress/L000596"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

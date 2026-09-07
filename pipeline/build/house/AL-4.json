@@ -56,13 +56,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 3090744568.5,
-        "perCapitaUsd": 4315.4
+        "totalUsd": 3092720290.7,
+        "perCapitaUsd": 4318.16
       },
       {
         "year": "2025",
-        "totalUsd": 2896387137.54,
-        "perCapitaUsd": 4044.03
+        "totalUsd": 2900263709.49,
+        "perCapitaUsd": 4049.44
       }
     ],
     "population": null,
@@ -234,8 +234,9 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T21:14:05.629Z",
       "_tier2_search_attempted_at": "2026-08-31T12:00:42.774Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.487Z"
+      "campaign_site_url": "https://www.aderholtforcongress.org",
+      "_campaign_site_discovered_at": "2026-09-01T09:49:58.668Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "amanda-pusczek",
@@ -290,9 +291,25 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Agriculture - Farm Monopolies",
+          "value": "Opposition to farms being squeezed by monopolies",
+          "snippet": "our farms are squeezed by monopolies"
+        },
+        {
+          "topic": "Education - Public School Funding",
+          "value": "Opposition to defunding of public schools",
+          "snippet": "our public schools are defunded"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Rejection of corporate PAC cash",
+          "snippet": "We don't need another polished career politician who ignores our communities, takes corporate PAC cash, and breaks every promise once they get to Washington"
+        }
+      ],
+      "platform_source_url": "https://www.amandaforalabama.com/",
+      "_platform_resolved_at": "2026-09-01T13:32:04.791Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
@@ -307,9 +324,10 @@
         "source_url": "https://www.amandaforalabama.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:14:08.807Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:58:37.654Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.486Z"
+      "campaign_site_url": "https://citizensforapusczek.com/",
+      "_campaign_site_discovered_at": "2026-09-01T09:49:58.672Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:10.130Z"
     }
   ]
 }

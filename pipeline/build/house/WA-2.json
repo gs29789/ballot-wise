@@ -32,7 +32,7 @@
     "snippet": "Incumbent Rick Larsen and Edwin Feller are running in the general election for U.S. House Washington District 2 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7995336301.6,
-        "perCapitaUsd": 10377.52
+        "totalUsd": 7999508171.6,
+        "perCapitaUsd": 10382.93
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8807832949.13,
+        "perCapitaUsd": 11432.09
       },
       {
         "year": "2025",
-        "totalUsd": 7383680769.61,
-        "perCapitaUsd": 9583.62
+        "totalUsd": 7391568628.61,
+        "perCapitaUsd": 9593.86
       }
     ],
     "population": null,
@@ -109,8 +109,9 @@
       "performance": null,
       "_curated_match": false,
       "_no_site_search_attempted_at": "2026-08-30T21:42:03.502Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.461Z"
+      "campaign_site_url": "https://fellerforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:49.016Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "rick-larsen",
@@ -240,7 +241,7 @@
         ],
         "bills_sponsored": 180,
         "bills_cosponsored": 3665,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To amend the Water Resources Development Act of 2000 to extend and modify the program allowing the Secretary of the Army to accept and expend funds contributed by non-Federal public entities to expedite the evaluation of permits, and for other purposes.",
@@ -278,8 +279,8 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 48,
-          "snapshotDate": "June 30, 2026",
+          "score": 46.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000560"
         }
       },
@@ -289,8 +290,9 @@
         "source_url": "https://www.ricklarsen.org/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:23.199Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.464Z"
+      "campaign_site_url": "http://www.ricklarsen.org",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:48.956Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

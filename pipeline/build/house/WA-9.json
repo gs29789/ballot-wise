@@ -32,7 +32,7 @@
     "snippet": "Incumbent D. Adam Smith and Douglas Michael Basler are running in the general election for U.S. House Washington District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7995336301.6,
-        "perCapitaUsd": 10377.52
+        "totalUsd": 7999508171.6,
+        "perCapitaUsd": 10382.93
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8807832949.13,
+        "perCapitaUsd": 11432.09
       },
       {
         "year": "2025",
-        "totalUsd": 7383680769.61,
-        "perCapitaUsd": 9583.62
+        "totalUsd": 7391568628.61,
+        "perCapitaUsd": 9593.86
       }
     ],
     "population": null,
@@ -147,8 +147,9 @@
         "source_url": "https://www.dougbasler.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:52.322Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.746Z"
+      "campaign_site_url": "https://dougbasler.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:55.414Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "d-smith",
@@ -261,7 +262,7 @@
         ],
         "bills_sponsored": 237,
         "bills_cosponsored": 5028,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To provide for an exception to a limitation against appointment of persons as Secretary of Defense within seven years of relief from active duty as a regular commissioned officer of the Armed Forces.",
@@ -299,8 +300,8 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 26.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 22.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S000510"
         }
       },
@@ -314,8 +315,9 @@
         "source_url": "https://electadamsmith.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:50.036Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.745Z"
+      "campaign_site_url": "https://www.electadamsmith.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:55.393Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

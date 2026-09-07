@@ -23,7 +23,7 @@
     "snippet": "Leticia Gutierrez and Alex Mealer are running in the general election for U.S. House Texas District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155205801.59,
-        "perCapitaUsd": 6674.29
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
       }
     ],
     "population": null,
@@ -124,18 +124,21 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=E8sN4-u1oNE",
+      "platform_video_title": "Leticia Gutierrez | Candidate Spotlight",
+      "platform_video_source_url": "https://www.leticiaforcongress.com/",
+      "_platform_video_resolved_at": "2026-09-01T13:35:31.482Z",
       "bio_summary": {
         "value": "If you have fought for our children's health in the shadow of industry, if you have fought for our immigrant community to live in safety and with dignity, then you know me. I have been in this fight for 15 years. I have advocated, organized, and marched right alongside you. Now, we are in a new fight for TX-09—and together, we will win.",
         "source_url": "https://www.leticiaforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:56.798Z",
-      "platform_video_tier": null,
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:59.587Z"
+      "platform_video_tier": 1,
+      "campaign_site_url": "https://www.leticiaforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:46.384Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:32.608Z",
+      "platform_video_source_type": "campaign_site"
     },
     {
       "slug": "alexandra-mealer",
@@ -222,8 +225,10 @@
         "source_url": "https://alexandramealer.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:16:54.233Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:59.587Z"
+      "campaign_site_url": "https://alexandramealer.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:46.386Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:32.983Z"
     }
   ]
 }

@@ -581,9 +581,30 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Rising costs for working families",
+          "value": "Identifies rising costs for working families as a key issue at stake requiring bold, effective, productive leadership",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Democracy and rule of law",
+          "value": "Fighting against attacks on democracy and the rule of law",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Climate crisis",
+          "value": "Addressing the worsening climate crisis as a priority requiring bold leadership",
+          "snippet": "With so much at stake—rising costs for working families, attacks on democracy and the rule of law, the worsening climate crisis and more—the need for bold, effective, productive leadership is greater than ever."
+        },
+        {
+          "topic": "Environment",
+          "value": "Fighting for the environment",
+          "snippet": "Jared Huffman is fighting for our communities, our environment and our democracy."
+        }
+      ],
+      "platform_source_url": "https://www.jaredhuffman.com/",
+      "_platform_resolved_at": "2026-09-01T13:41:13.425Z",
       "campaign_site_url": "https://www.jaredhuffman.com/",
       "platform_video_url": null,
       "platform_video_title": null,
@@ -638,7 +659,7 @@
         ],
         "bills_sponsored": 242,
         "bills_cosponsored": 3908,
-        "bills_became_law": 0,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "To extend the authority to collect Shasta-Trinity Marina fees through fiscal year 2029.",
@@ -672,7 +693,9 @@
           "profileUrl": "https://www.bridgegrades.org/congress/H001068"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-07T12:38:51.732Z"
     },
     {
       "slug": "robin-littau",
@@ -750,11 +773,11 @@
       "platform_source_url": "https://www.littauforcongress.com/",
       "_platform_resolved_at": "2026-08-15T10:51:22.821Z",
       "campaign_site_url": "https://littauforcongress.com",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=PbCY6JkfgEc",
+      "platform_video_title": "Robin Littau talks about her run for Congress in California",
       "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-07T12:38:52.111Z",
       "bio_summary": {
         "value": "I'm running as a Republican Congressional Candidate, a residing Enterprise Elementary School Board Member, a Christian Mother, a Small Business Owner, and a USCG Veteran to protect the American Dream, defend Freedom for our children's children, build up America, and Fight for a hopefilled Future. I commit to you: That I will be a servant hearted integrious leader who listens and reflects the heart of our community in Washington DC.",
         "source_url": "https://www.littauforcongress.com/about-5"
@@ -764,7 +787,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-07T12:38:52.111Z"
     }
   ]
 }

@@ -24,7 +24,7 @@
     "snippet": "Incumbent Gary Palmer (R) and Maurice Mercer (D) are running in the special general election for U.S. House Alabama District 6 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,7 +47,7 @@
         "ratePer100k": 27.97
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
@@ -56,13 +56,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 3090744568.5,
-        "perCapitaUsd": 4315.4
+        "totalUsd": 3093618502.45,
+        "perCapitaUsd": 4319.41
       },
       {
         "year": "2025",
-        "totalUsd": 2896387137.54,
-        "perCapitaUsd": 4044.03
+        "totalUsd": 2901438116.09,
+        "perCapitaUsd": 4051.08
       }
     ],
     "population": null,
@@ -160,10 +160,10 @@
       ],
       "platform_source_url": "https://www.mauricemercer.com/platform",
       "_platform_resolved_at": "2026-08-14T17:18:21.679Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=0eG2ygjpiGg",
+      "platform_video_title": "Maurice Mercer (US Congress District 6)",
+      "platform_video_source_url": "https://www.mauricemercer.com/",
+      "_platform_video_resolved_at": "2026-09-01T13:32:20.602Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -174,10 +174,12 @@
         "source_url": "https://www.mauricemercer.com/bio"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:14:29.599Z",
-      "platform_video_tier": null,
-      "_tier2_search_attempted_at": "2026-08-31T12:58:38.432Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.623Z"
+      "platform_video_tier": 1,
+      "campaign_site_url": "https://mauricemercer.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:02.070Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:11.170Z",
+      "platform_video_source_type": "campaign_site"
     },
     {
       "slug": "gary-palmer",
@@ -312,7 +314,7 @@
         ],
         "bills_sponsored": 113,
         "bills_cosponsored": 717,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Department of Energy relating to \"Energy Conservation Program: Energy Conservation Standards for Consumer Gas-fired Instantaneous Water Heaters\".",
@@ -362,8 +364,9 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T21:14:27.657Z",
       "platform_video_tier": 1,
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.626Z"
+      "campaign_site_url": "https://www.palmerforalabama.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:02.328Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

@@ -32,7 +32,7 @@
     "snippet": "Incumbent Marilyn Strickland and Chris Chung are running in the general election for U.S. House Washington District 10 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7995336301.6,
-        "perCapitaUsd": 10377.52
+        "totalUsd": 7999508171.6,
+        "perCapitaUsd": 10382.93
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8807832949.13,
+        "perCapitaUsd": 11432.09
       },
       {
         "year": "2025",
-        "totalUsd": 7383680769.61,
-        "perCapitaUsd": 9583.62
+        "totalUsd": 7391568628.61,
+        "perCapitaUsd": 9593.86
       }
     ],
     "population": null,
@@ -207,7 +207,7 @@
         ],
         "bills_sponsored": 57,
         "bills_cosponsored": 1286,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Fairness for Servicemembers and their Families Act of 2025",
@@ -221,14 +221,14 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.443,
-          "nominateDim2": 0.352,
+          "nominateDim2": 0.351,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/S001159"
         },
         "bridge_score": {
           "grade": "B",
-          "score": 51,
-          "snapshotDate": "June 30, 2026",
+          "score": 49.3,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001159"
         }
       },
@@ -238,8 +238,9 @@
         "source_url": "https://www.stricklandforwashington.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:56.308Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.808Z"
+      "campaign_site_url": "https://www.stricklandforwashington.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:57.793Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

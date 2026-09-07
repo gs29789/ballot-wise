@@ -32,7 +32,7 @@
     "snippet": "Incumbent Vince Fong and Sandra Van Scotter are running in the general election for U.S. House California District 20 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -253,7 +253,7 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T21:22:52.119Z",
       "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:03.270Z"
+      "_campaign_site_discovered_at": "2026-09-01T13:53:02.979Z"
     },
     {
       "slug": "sandra-van-scotter",
@@ -333,8 +333,9 @@
         "source_url": "https://www.electsandravanscotter.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:22:54.513Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:03.271Z"
+      "campaign_site_url": "https://sandravanscotterforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:02.979Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

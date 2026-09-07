@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-10T21:33:26.447Z",
+  "generated_at": "2026-09-02T09:58:14.061Z",
   "election_dates": {
     "primaryDate": "2026-05-19",
     "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
@@ -18,12 +18,18 @@
     "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
     "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://ballotpedia.org/Pennsylvania's_5th_Congressional_District_election,_2026",
     "snippet": "Incumbent Mary Gay Scanlon and Nick Manganaro are running in the general election for U.S. House Pennsylvania District 5 on November 3, 2026."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -260,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6201.1
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6209.6
+        "thousandsOfJobs": 6208.7
       },
       {
         "year": "2026",
@@ -477,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 7160973699.32,
-        "perCapitaUsd": 9278.89
+        "totalUsd": 7161049937.03,
+        "perCapitaUsd": 9278.99
       },
       {
         "year": "2025",
-        "totalUsd": 8058713509.12,
-        "perCapitaUsd": 10442.14
+        "totalUsd": 8058900564.38,
+        "perCapitaUsd": 10442.39
       }
     ],
     "population": [
@@ -574,20 +585,27 @@
       ],
       "platform_source_url": "https://manganaro4congress.net/",
       "_platform_resolved_at": "2026-08-10T21:32:56.521Z",
+      "campaign_site_url": "https://manganaro4congress.net",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:29:09.735Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Nick Manganaro is a logical and methodical person. He is fair-minded and driven by data rather than emotion, which is what Congress needs. He spent most of his finance career in research, product development, and risk management. He has consulted with multi-national financial industries on the quantification and management of risk, which will give him insights unique in Congress today.",
+        "source_url": "https://manganaro4congress.net/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:38:29.780Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:13.328Z",
-      "bio_summary": {
-        "value": "Nick Manganaro is a logical and methodical person. He is fair-minded and driven by data rather than emotion, which is what Congress needs. He spent most of his finance career in research, product development, and risk management. He has consulted with multi-national financial industries on the quantification and management of risk, which will give him insights unique in Congress today.",
-        "source_url": "https://manganaro4congress.net/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:38:29.780Z",
-      "campaign_site_url": "https://manganaro4congress.net",
-      "_campaign_site_discovered_at": "2026-08-30T20:29:09.735Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:08.854Z"
     },
     {
       "slug": "mary-scanlon",
@@ -613,75 +631,123 @@
       "bio": {
         "date_of_birth": null,
         "birthplace": null,
-        "college": null,
+        "college": {
+          "value": "Colgate University and the University of Pennsylvania Law School",
+          "source_url": "https://www.scanlonforcongress.com/about",
+          "snippet": "Mary Gay is a graduate of Colgate University and the University of Pennsylvania Law School.",
+          "source_type": "llm_extracted_campaign_site"
+        },
         "employment_record": {
           "value": "US House of Representatives, Representative - District 5 (2018 - Present); Wallingford-Swarthmore School District, School Director (2007 - 2015); Education Law Center of Pennsylvania, Attorney (1992 - 2001); Duane Morris LLP, Litigation Associate (1986 - 1992); Pennsylvania Superior Court, Judicial Clerk",
           "source_url": "https://www.ballotready.org/people/mary-gay-scanlon",
           "snippet": "Professional Experience US House of Representatives, Representative - District 5 (2018 - Present) Wallingford-Swarthmore School District, School Director (2007 - 2015) Education Law Center of Pennsylvania, Attorney (1992 - 2001) Duane Morris LLP, Litigation Associate (1986 - 1992) Pennsylvania Superior Court, Judicial Clerk",
           "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Mark Stewart",
+          "source_url": "https://www.scanlonforcongress.com/about",
+          "snippet": "Mary Gay and her husband, Mark Stewart, have three children",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Board member for numerous legal services agencies, co-chair of Philadelphia Bar Association's Commission on Children at Risk and the Legal Rights of Children Committee, founding board member and officer of Philadelphia Legal Assistance, elected member of the Wallingford-Swarthmore School Board from 2007 to 2015 serving as Vice President and President, Co-Chair of the Voting Rights Task Force of the Association of Pro Bono Counsel",
+          "source_url": "https://www.scanlonforcongress.com/about",
+          "snippet": "Upon graduating, she began representing abused and neglected children with the Support Center for Child Advocate and has since served as a board member for numerous legal services agencies. ​ Mary Gay continued to work on behalf of children and families as co-chair of both the Philadelphia Bar Association's Commission on Children at Risk and the Legal Rights of Children Committee. She later was appointed by the Bar to serve as a founding board member and officer of Philadelphia Legal Assistance, the federally funded legal services agency for Philadelphia County. As a senior staff attorney at the Education Law Center of Pennsylvania, Mary Gay led class action lawsuits to enforce the rights of students with disabilities, in addition to representing individual students and their parents from across the state, drafting legislative and regulatory proposals, and producing training materials and educational programs for parents, educators, social service providers, government agencies and other advocates. She also served on two statewide interagency councils charged with implementing federal special education laws and testified before the Pennsylvania legislature about the ill-effects of zero-tolerance policies. From 2007 to 2015, Mary Gay was an elected member of the Wallingford-Swarthmore School Board, during which she served as Vice President and President and led a tax commission to address school funding. Her experience provided her with a deep understanding of the fundamentals of local government and grassroots politics. On the school board, Mary Gay was able to respond to community concerns, promote transparency and work with diverse interest groups. Mary Gay served as national Pro Bono Counsel at Ballard Spahr LLP for 15 years, supervising over 600 lawyers in 15 offices as they provided more than 50,000 hours of pro bono legal services annually to low-income clients and nonprofit organizations. Her program received the American Bar Association's annual pro bono award in 2018 for its work to address many critical public interest issues, including voting rights, child advocacy, immigration, housing, public benefits, criminal justice reform, free press, and other constitutional rights. In 2017, Mary Gay became Co-Chair of the Voting Rights Task Force of the Association of Pro Bono Counsel which was formed to combat voter suppression and gerrymandering.",
+          "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "ICE Oversight",
+          "value": "Supports expanding congressional oversight at ICE facilities",
+          "snippet": "Congresswoman Mary Gay Scanlon (PA-05) yesterday joined Reps. Chris Deluzio (PA-17), Madeleine Dean (PA-04), Summer Lee (PA-12), and Dwight Evans (PA-03) in introducing the new Oversight Access Act of"
+        },
+        {
+          "topic": "Housing/Eviction Prevention",
+          "value": "Supports establishing a competitive grant program to help local governments create or expand eviction diversion programs",
+          "snippet": "Congresswoman Mary Gay Scanlon (PA-05) last week introduced the Stable Homes Act, legislation that would establish a competitive grant program to help local governments create or expand eviction divers..."
+        },
+        {
+          "topic": "Disability Rights",
+          "value": "Supports rescinding DOJ opinion undermining Olmstead (related to disability community integration)",
+          "snippet": "Congresswoman Mary Gay Scanlon (PA-05), Reps. Debbie Dingell (MI-06) and Lateefah Simon (CA-12), and Senate Democratic Whip Dick Durbin (D-IL), Ranking Member of the Senate Judiciary Committee; Senator... Read more about Scanlon, Dingell, Simon, Durbin, Duckworth, Wyden, Sanders Lead 100 Members of Congress in Calling on DOJ to Rescind Opinion Undermining Olmstead"
+        }
+      ],
+      "platform_source_url": "https://scanlon.house.gov/",
+      "_platform_resolved_at": "2026-09-02T09:57:56.654Z",
+      "campaign_site_url": "https://www.scanlonforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:29:09.741Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=d6NvkGkRSg8",
+      "platform_video_title": "Instead of trying to police women’s bodies, Republicans should rein in the Trump administration.",
+      "platform_video_source_url": "https://scanlon.house.gov/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T09:57:57.394Z",
+      "bio_summary": {
+        "value": "Maey Scanlon was born in Syracuse, New York , in 1959. She earned a bachelor's degree in history from Colgate University in 1980 and her J.D. from the University of Pennsylvania in 1984. [1] [2] She previously worked as a law clerk, and as an attorney at Ballard Spah, the Education Law Center of Pennsylvania and the Support Center for Child Advocates. [1] [2] ",
+        "source_url": "https://ballotpedia.org/Mary_Gay_Scanlon",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:16:01.087Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
-        },
-        {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 254,
-          "votesCast": 254,
+          "votesInSession": 284,
+          "votesCast": 284,
           "attendanceRate": 1
         },
         "committees": [
@@ -711,8 +777,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 119,
-        "bills_cosponsored": 2245,
+        "bills_sponsored": 120,
+        "bills_cosponsored": 2250,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
@@ -723,23 +789,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 18.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 20.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001205"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:13.738Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:32:21.858Z",
-      "bio_summary": {
-        "value": "Maey Scanlon was born in Syracuse, New York , in 1959. She earned a bachelor's degree in history from Colgate University in 1980 and her J.D. from the University of Pennsylvania in 1984. [1] [2] She previously worked as a law clerk, and as an attorney at Ballard Spah, the Education Law Center of Pennsylvania and the Support Center for Child Advocates. [1] [2] ",
-        "source_url": "https://ballotpedia.org/Mary_Gay_Scanlon",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T12:16:01.087Z",
-      "campaign_site_url": "https://www.scanlonforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-30T20:29:09.741Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

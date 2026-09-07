@@ -483,8 +483,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155205801.59,
-        "perCapitaUsd": 6674.29
+        "totalUsd": 5155163597.59,
+        "perCapitaUsd": 6674.23
       }
     ],
     "population": [
@@ -573,7 +573,9 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "dead",
+      "_tier2_search_attempted_at": "2026-09-02T12:00:44.348Z"
     },
     {
       "slug": "sylvia-garcia",
@@ -666,11 +668,11 @@
       "platform_source_url": "https://www.sylviaforcongress.com/",
       "_platform_resolved_at": "2026-08-14T18:55:17.299Z",
       "campaign_site_url": "http://sylviaforcongress.com/",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=UPClKHKXJQQ",
+      "platform_video_title": "Sylvia Garcia for Congress",
       "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-02T12:00:44.964Z",
       "bio_summary": {
         "value": "Sylvia R. Garcia was elected to the U.S. House of Representatives in November 2018, becoming the first Latina ever to represent Texas' 29th Congressional District. Congresswoman Garcia serves as the Vice Ranking Member of the House Financial Services Committee. During her first year in Congress, she played a critical role in the impeachment investigation against Donald Trump.",
         "source_url": "https://www.sylviaforcongress.com/"
@@ -714,7 +716,7 @@
         ],
         "bills_sponsored": 89,
         "bills_cosponsored": 1809,
-        "bills_became_law": 0,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 4020 Broadway Street in Houston, Texas, as the \"Benny C. Martinez Post Office Building\".",
@@ -739,7 +741,9 @@
           "profileUrl": "https://www.bridgegrades.org/congress/G000587"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-02T12:00:44.964Z"
     }
   ]
 }

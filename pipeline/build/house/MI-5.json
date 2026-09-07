@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-16T22:27:58.469Z",
+  "generated_at": "2026-09-03T15:23:07.865Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://codes.findlaw.com/mi/chapter-168-michigan-election-law/mi-comp-laws-168-52.html",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4498.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4488.9
+        "thousandsOfJobs": 4490.9
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 722948012.63,
-        "perCapitaUsd": 945.2
+        "totalUsd": 758741499.63,
+        "perCapitaUsd": 992
       },
       {
         "year": "2024",
-        "totalUsd": 318073847.04,
-        "perCapitaUsd": 415.86
+        "totalUsd": 370519235.84,
+        "perCapitaUsd": 484.43
       },
       {
         "year": "2025",
-        "totalUsd": 419999410.8,
-        "perCapitaUsd": 549.12
+        "totalUsd": 459459032.7,
+        "perCapitaUsd": 600.71
       }
     ],
     "population": [
@@ -530,15 +540,23 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": null,
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.218Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:25.325Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:02.469Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-30T20:33:49.218Z"
+      "_tier2_search_attempted_at": "2026-09-07T12:38:24.427Z"
     },
     {
       "slug": "christian-vukasovich",
@@ -569,30 +587,71 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:25.679Z",
+      "platform": [
+        {
+          "topic": "Economy and Labor",
+          "value": "Fighting to raise wages, protect good union jobs, and invest in local manufacturing and infrastructure.",
+          "snippet": "Fighting to raise wages, protect good union jobs, and invest in local manufacturing and infrastructure"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Lowering prescription drug costs, protect coverage for people with preexisting conditions, and expand access to doctors and hospitals in rural and small-town communities.",
+          "snippet": "Lowering prescription drug costs, protect coverage for people with preexisting conditions, and expand access to doctors and hospitals in rural and small-town communities."
+        },
+        {
+          "topic": "Antitrust and Fair Competition",
+          "value": "Taking on the monopolies by enforcing antitrust laws and ensure companies compete fairly so our communities can thrive.",
+          "snippet": "Taking on the monopolies by enforcing antitrust laws and ensure companies compete fairly so our communities can thrive."
+        },
+        {
+          "topic": "Housing",
+          "value": "Advancing policies that help build and preserve affordable homes, and offer first-time buyers the help they need.",
+          "snippet": "Advancing policies that help build and preserve affordable homes, and offer first-time buyers the help they need."
+        },
+        {
+          "topic": "Agriculture",
+          "value": "Strengthening family farms by stopping large agribusinesses from driving down prices, investing in local food processing and distribution, and expanding crop insurance and disaster relief.",
+          "snippet": "Strengthening family farms by stopping large agribusinesses from driving down prices, investing in local food processing and distribution, and expanding crop insurance and disaster relief."
+        },
+        {
+          "topic": "Civil Rights",
+          "value": "Defending the right to vote, due process, and equal treatment under the law.",
+          "snippet": "Defending the right to vote, due process, and equal treatment under the law."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Fighting for every veteran to have access to the care, opportunity, and respect they deserve by strengthening the VA, improving mental health care, and expanding job training and housing support.",
+          "snippet": "Fighting for every veteran to have access to the care, opportunity, and respect they deserve by strengthening the VA, improving mental health care, and expanding job training and housing support."
+        },
+        {
+          "topic": "Education",
+          "value": "Pushing to expand pre-K for every family, make community college and trade schools tuition-free, and pay our teachers what they are worth.",
+          "snippet": "Pushing to expand pre-K for every family, make community college and trade schools tuition-free, and pay our teachers what they are worth."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Christian_Vukasovich",
+      "_platform_resolved_at": "2026-09-03T15:22:42.030Z",
+      "campaign_site_url": "https://christian4michigan.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
       "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:33:05.078Z",
       "bio_summary": {
         "value": "Christian Vukasovich was born in Michigan . His career experience includes working as a teacher and college professor. [1] ",
         "source_url": "https://ballotpedia.org/Christian_Vukasovich",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T11:45:31.599Z",
-      "campaign_site_url": "https://christian4michigan.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:50.039Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:24.759Z"
     },
     {
       "slug": "timothy-walberg",
@@ -642,16 +701,123 @@
           "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
           "snippet": "Walberg was a member of the Michigan House of Representatives from 1983 to 1998.",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "minister; member of the Michigan state house of representatives, 1983-1998",
+          "source_url": "https://history.house.gov/People/Listing/W/WALBERG,-Tim-(W000798)/",
+          "snippet": "minister; member of the Michigan state house of representatives, 1983-1998",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Creating Job and Economic Growth",
+          "value": "Focuses on expanding economic opportunities, encouraging job creation, and raising incomes for hardworking taxpayers.",
+          "snippet": "Hardworking taxpayers are the strength of our country, and my focus is on expanding economic opportunities, encouraging job creation, and raising incomes. - Tim Walberg\n"
+        },
+        {
+          "topic": "Fiscal Responsibility",
+          "value": "Believes the federal government needs to live within its means.",
+          "snippet": "The federal government needs to live within its means. - Tim Walberg\n"
+        },
+        {
+          "topic": "Affordable and Quality Health Care",
+          "value": "Prioritizes lowering prescription drug costs, developing disease cures, combating drug addiction, protecting people with pre-existing conditions, and making health care more affordable.",
+          "snippet": "Lowering the cost of prescription drugs, developing cures for diseases, combating the drug addiction epidemic, protecting people with pre-existing conditions, and making healthcare more affordable are all important, life-touching priorities. - Tim Walberg\n"
+        },
+        {
+          "topic": "Defending Our Values",
+          "value": "Has voted repeatedly to support veterans and the military, religious freedom, the Second Amendment, and the right to life.",
+          "snippet": "I have voted repeatedly to support our veterans and military, religious freedom, 2nd Amendment, and right to life. - Tim Walberg\n"
+        },
+        {
+          "topic": "Fixing the Biden Economy",
+          "value": "Supports reversing Biden-administration policies he says have hurt national security and prosperity; calls for \"commonsense solutions.\"",
+          "snippet": "We must correct course by reversing the policies implemented by Joe Biden, which have cut into our nation's security and prosperity. It's time for commonsense solutions. - Tim Walberg\n"
+        },
+        {
+          "topic": "Protecting our National Security",
+          "value": "Supports strengthening U.S. resolve and capabilities against terrorist threats and dangerous regimes to keep Americans safe.",
+          "snippet": "In the face of terrorist threats and dangerous regimes, we are strengthening our resolve and capabilities to keep the American people safe. - Tim Walberg\n"
+        }
+      ],
+      "platform_source_url": "https://www.walbergforcongress.com",
+      "_platform_resolved_at": "2026-08-31T23:13:37.915Z",
+      "campaign_site_url": "https://www.walbergforcongress.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T20:33:49.221Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Timothy Lee Walberg (born April 12, 1951) [ 1 ] is an American politician serving as a U.S. representative from Michigan since 2011, representing the state's 5th congressional district since 2023. A member of the Republican Party , he previously represented the 7th district from 2007 to 2009 and from 2011 to 2023 as the longest tenured member from Michigan . If elected for another term, he is expected to become the dean of Michigan's congressional delegation when Senator Gary Peters retires in 2027. [ 2 ] [ 3 ] Early life, education, and early career [ edit ] Walberg was born and raised in Chicago , Illinois, the son of Alice Ann and John A. Walberg. His paternal grandparents were Swedish. [ 4 ] In 1964, Walberg served the Barry Goldwater 1964 presidential campaign as a volunteer. Walberg graduated from Thornton Fractional North High School in 1969 and briefly served the U.S. Forest Service. From 1973 to 1977, Walberg served as pastor at Grace Fellowship Church in New Haven, Indiana. [ 5 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
+        },
         "committees": [
           {
             "committee": "House Committee on Natural Resources",
@@ -675,7 +841,7 @@
           }
         ],
         "bills_sponsored": 225,
-        "bills_cosponsored": 2120,
+        "bills_cosponsored": 2125,
         "bills_became_law": 5,
         "enacted_laws": [
           {
@@ -732,23 +898,13 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 46,
-          "snapshotDate": "June 30, 2026",
+          "score": 45.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/W000798"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-21T12:00:26.061Z",
-      "_no_site_search_attempted_at": "2026-08-22T15:33:07.864Z",
-      "bio_summary": {
-        "value": "Timothy Lee Walberg (born April 12, 1951) [ 1 ] is an American politician serving as a U.S. representative from Michigan since 2011, representing the state's 5th congressional district since 2023. A member of the Republican Party , he previously represented the 7th district from 2007 to 2009 and from 2011 to 2023 as the longest tenured member from Michigan . If elected for another term, he is expected to become the dean of Michigan's congressional delegation when Senator Gary Peters retires in 2027. [ 2 ] [ 3 ] Early life, education, and early career [ edit ] Walberg was born and raised in Chicago , Illinois, the son of Alice Ann and John A. Walberg. His paternal grandparents were Swedish. [ 4 ] In 1964, Walberg served the Barry Goldwater 1964 presidential campaign as a volunteer. Walberg graduated from Thornton Fractional North High School in 1969 and briefly served the U.S. Forest Service. From 1973 to 1977, Walberg served as pastor at Grace Fellowship Church in New Haven, Indiana. [ 5 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Tim_Walberg",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:39:16.092Z",
-      "campaign_site_url": "https://www.walbergforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T20:33:49.221Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:25.072Z"
     }
   ]
 }

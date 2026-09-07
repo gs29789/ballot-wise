@@ -552,9 +552,45 @@
           "source_type": "llm_extracted_campaign_site"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Tax Reform",
+          "value": "Support legislation to fix the tax code with common sense changes that ensure everyone pays their fair share and families have less of a tax burden, with a tax code that will generate domestic economic growth",
+          "snippet": "I support legislation to fix the tax code with common sense changes that ensure everyone pays their fair share and families have less of a tax burden. We need a tax code that will generate domestic economic growth"
+        },
+        {
+          "topic": "Education",
+          "value": "Local communities need adequate funding and flexibility to address their particular needs, with focus on accountability, funding only what works, expanding parental choice, and supporting career and technical education programs alongside traditional colleges",
+          "snippet": "We need to make sure that local communities have both adequate funding and the flexibility to address their particular needs. We also need to focus on accountability, funding only what works, and expanding parental choice. We need to make sure that our higher education options include not only traditional colleges, but also provides career and technical education programs."
+        },
+        {
+          "topic": "National Security & Defense",
+          "value": "Continue to support legislation to provide robust funding for military forces ensuring they are fully equipped and trained to defend our country, and support use of intelligence tools to collect counterterrorism information and foreign intelligence while protecting civil liberties and privacy",
+          "snippet": "I will continue to support legislation to provide robust funding for our military forces ensuring that they are fully equipped and trained to defend our country. I also support the use of intelligence tools to protect our nation by collecting counterterrorism information and foreign intelligence to protect the United States from attack, while taking care to protect the civil liberties and privacy of American citizens and permanent residents."
+        },
+        {
+          "topic": "Government Oversight",
+          "value": "Need to reduce the size of government and limit spending, make sure government is accountable to citizens, and ensure each branch of government stays within constitutional limits",
+          "snippet": "We need to reduce the size of government and limit our spending. We need to make sure the government is accountable to its citizens whose taxes are funding government programs. Taxpayers deserve to know how their money is being spent and if that spending is having a positive impact. The U.S. Constitution clearly states what the responsibilities, obligations and limits are on the three branches of government. We need to make sure that each branch stays within these limits."
+        },
+        {
+          "topic": "Veterans",
+          "value": "Committed to ensuring veterans receive the benefits and care they deserve, making improvements to the VA healthcare system, and making sure adequate job training and educational opportunities are available",
+          "snippet": "I am committed to serving our veterans by working to ensure that they receive the benefits and care that they so greatly deserve. I am eternally grateful to all those men and women who have served in our armed forces and to those who are currently protecting us around the globe. In addition to making improvements to the VA healthcare system, I am also committed to serving our veterans by making sure that adequate job training and educational opportunities are available for them."
+        },
+        {
+          "topic": "Regulations",
+          "value": "Need to remove onerous regulations that stifle private sector investment and hamper job creation",
+          "snippet": "We need to remove onerous regulations that stifle private sector investment and hamper job creation."
+        },
+        {
+          "topic": "Trade",
+          "value": "Need to enact legislation to open new markets around the world for American made products",
+          "snippet": "We need a tax code that will generate domestic economic growth while we also enact legislation to open new markets around the world for American made products."
+        }
+      ],
+      "platform_source_url": "https://www.mikekellyforcongress.com/issues/",
+      "_platform_resolved_at": "2026-09-01T13:04:28.758Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],

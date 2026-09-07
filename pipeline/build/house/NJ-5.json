@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-05",
-  "generated_at": "2026-08-17T01:37:20.176Z",
+  "generated_at": "2026-09-04T11:02:16.969Z",
   "election_dates": {
     "primaryDate": "2026-06-02",
     "primarySourceUrl": "https://law.justia.com/codes/new-jersey/title-19/section-19-2-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4357.6
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4387.1
+        "thousandsOfJobs": 4383.2
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4379701476.45,
+        "totalUsd": 4379701472.7,
         "perCapitaUsd": 5691.53
       },
       {
         "year": "2024",
-        "totalUsd": 4943641331.86,
+        "totalUsd": 4943641166.66,
         "perCapitaUsd": 6424.38
       },
       {
         "year": "2025",
-        "totalUsd": 5167678412.51,
-        "perCapitaUsd": 6715.53
+        "totalUsd": 5167704201.81,
+        "perCapitaUsd": 6715.56
       }
     ],
     "population": [
@@ -582,6 +592,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://josh4jersey.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:41.184Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=g3Lt6cXIkYs",
+      "platform_video_title": "Bringing Paper Bags Back to Jersey – Josh Gottheimer for Governor",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-23T12:00:19.818Z",
+      "bio_summary": {
+        "value": "Josh was raised in North Caldwell, the son of a preschool teacher and a small business owner. Growing up, Josh worked in his father’s store and, like your average New Jersey kid, treasured summer vacations at the Jersey Shore. His first concert was at the Meadowlands to see the one and only Bruce Springsteen!\n\nJosh graduated from West Essex High School before attending the University of Pennsylvania, later becoming a Thouron Fellow at Oxford, and then paid his way through Harvard Law School.",
+        "source_url": "https://josh4jersey.com/about/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:41:44.984Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
@@ -637,11 +662,7 @@
         }
       ],
       "performance": {
-        "attendance": {
-          "votesInSession": 220,
-          "votesCast": 211,
-          "attendanceRate": 0.9590909090909091
-        },
+        "attendance": null,
         "committees": [
           {
             "committee": "House Permanent Select Committee on Intelligence",
@@ -679,8 +700,8 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 211,
-        "bills_cosponsored": 3283,
+        "bills_sponsored": 212,
+        "bills_cosponsored": 3317,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -695,33 +716,18 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.165,
-          "nominateDim2": 0.217,
+          "nominateDim2": 0.216,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/G000583"
         },
         "bridge_score": {
           "grade": "A",
-          "score": 99.1,
-          "snapshotDate": "June 30, 2026",
+          "score": 99.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000583"
         }
       },
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:19.818Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=g3Lt6cXIkYs",
-      "platform_video_title": "Bringing Paper Bags Back to Jersey – Josh Gottheimer for Governor",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-23T12:00:19.818Z",
-      "bio_summary": {
-        "value": "Joshua S. Gottheimer [ 1 ] ( / ˈ ɡ ɒ t h aɪ m ər / GOT -hy-mər ; born March 8, 1975) is an American politician, attorney, writer, and public policy adviser serving as the U.S. representative for New Jersey's 5th congressional district since 2017. A member of the Democratic Party , his district stretches along the northern border of the state from New York City 's densely populated metropolitan suburbs in Bergen County northwest through exurban and rural territory in northern Passaic and Sussex Counties. Gottheimer was a speechwriter for Bill Clinton and served as an adviser to the presidential campaigns of Wesley Clark , John Kerry , and Hillary Clinton . He has also worked for Burson Cohn & Wolfe , the Federal Communications Commission , Ford Motor Company , and Microsoft . ",
-        "source_url": "https://en.wikipedia.org/wiki/Josh_Gottheimer",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:41:44.984Z",
-      "campaign_site_url": "https://josh4jersey.com/",
-      "_campaign_site_discovered_at": "2026-08-31T12:27:41.184Z",
-      "_campaign_site_reachability": "cloudflare_challenge"
+      "_curated_match": true
     },
     {
       "slug": "sean-kirrane",
@@ -794,6 +800,21 @@
       ],
       "platform_source_url": "https://www.seankirrane.com/platform",
       "_platform_resolved_at": "2026-08-17T01:37:14.166Z",
+      "campaign_site_url": "https://www.seankirrane.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-31T12:27:41.186Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Sean Kirrane is a lifelong New Jerseyan, entrepreneur, and executive who has spent over twenty years fixing broken systems in healthcare, finance, and technology. He has led multi-billion-dollar companies, turned around failing hospitals, built new infrastructure from the ground up, and designed frameworks that deliver measurable results. Beyond his professional accomplishments, Sean is a devoted husband and father of two children, ages 17 and 22. He is running for Congress in New Jersey's 5th District as a socially moderate, fiscally disciplined Republican focused on affordability, national stability, common-sense values and results.",
+        "source_url": "https://www.seankirrane.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-31T12:40:49.744Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/30027697.pdf",
         "filingDate": "5/15/2026",
@@ -808,16 +829,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:20.151Z",
-      "campaign_site_url": "https://www.seankirrane.com",
-      "_campaign_site_discovered_at": "2026-08-31T12:27:41.186Z",
-      "_campaign_site_reachability": "reachable",
-      "bio_summary": {
-        "value": "Sean Kirrane is a lifelong New Jerseyan, entrepreneur, and executive who has spent over twenty years fixing broken systems in healthcare, finance, and technology. He has led multi-billion-dollar companies, turned around failing hospitals, built new infrastructure from the ground up, and designed frameworks that deliver measurable results. Beyond his professional accomplishments, Sean is a devoted husband and father of two children, ages 17 and 22. He is running for Congress in New Jersey's 5th District as a socially moderate, fiscally disciplined Republican focused on affordability, national stability, common-sense values and results.",
-        "source_url": "https://www.seankirrane.com/about",
-        "source_type": "campaign_site"
-      },
-      "_bio_summary_resolved_at": "2026-08-31T12:40:49.744Z"
+      "_tier2_search_attempted_at": "2026-09-07T12:38:29.912Z"
     },
     {
       "slug": "adam-rueda",
@@ -853,11 +865,53 @@
           "value": "Vice President and Social Chair, Sigma Phi Epsilon fraternity (Bucknell University)",
           "source_url": "https://ballotpedia.org/Adam_Rueda",
           "snippet": "I was Vice President and Social Chair of my fraternity, Sigma Phi Epsilon"
+        },
+        "date_of_birth": {
+          "value": "28 years old (as of page publication)",
+          "source_url": "https://adamruedafornj5.com/",
+          "snippet": "I am a 28-year-old Bucknell graduate.",
+          "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Government Ethics & Anti-Corruption",
+          "value": "Pledge to never own stocks or crypto while serving in office. Severely limit corporate and international interests' impact on our democracy.",
+          "snippet": "I pledge to never own stocks or crypto while serving in office. We must severely limit corporate and international interests' impact on our democracy."
+        },
+        {
+          "topic": "Universal Human Rights",
+          "value": "Addressing urgent human rights violations in Gaza, the West Bank, and within ICE detention centers. Upholding the dignity of all human beings.",
+          "snippet": "Addressing urgent human rights violations in Gaza, the West Bank, and within ICE detention centers. Upholding the dignity of all human beings."
+        },
+        {
+          "topic": "Free Speech",
+          "value": "Restoring free speech online, in the workplace, and in the media. Ending blatant censorship and coercive environments that stifle dissent.",
+          "snippet": "Restoring free speech online, in the workplace, and in the media. Ending blatant censorship and coercive environments that stifle dissent."
+        },
+        {
+          "topic": "Corporate PAC Money",
+          "value": "Does not accept corporate PAC money.",
+          "snippet": "We don't accept corporate PAC money."
+        }
+      ],
+      "platform_source_url": "https://adamrueda4nj5.com/",
+      "_platform_resolved_at": "2026-09-01T13:18:21.987Z",
+      "campaign_site_url": "https://adamruedafornj5.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T11:09:06.113Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=BcVuHfPE7Ok",
+      "platform_video_title": "Adam Rueda on Running for Congress, NJ-05, and greenparty2.0 | Full Interview",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-23T12:00:20.529Z",
+      "bio_summary": {
+        "value": "Adam Rueda was born in New Jersey . He graduated from Pope John XXIII Regional High School. He earned a bachelor's degree from Bucknell University in 2019. His career experience includes working in sales. [1] ",
+        "source_url": "https://ballotpedia.org/Adam_Rueda",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T12:01:37.435Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10072775.pdf",
         "filingDate": "11/4/2025",
@@ -871,21 +925,7 @@
       "_financial_disclosure_resolved_at": "2026-08-12T19:55:51.305Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-23T12:00:20.529Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=BcVuHfPE7Ok",
-      "platform_video_title": "Adam Rueda on Running for Congress, NJ-05, and greenparty2.0 | Full Interview",
-      "platform_video_source_url": null,
-      "platform_video_tier": 2,
-      "_platform_video_resolved_at": "2026-08-23T12:00:20.529Z",
-      "bio_summary": {
-        "value": "Adam Rueda was born in New Jersey . He graduated from Pope John XXIII Regional High School. He earned a bachelor's degree from Bucknell University in 2019. His career experience includes working in sales. [1] ",
-        "source_url": "https://ballotpedia.org/Adam_Rueda",
-        "source_type": "ballotpedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T12:01:37.435Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:27:41.184Z"
+      "_curated_match": true
     }
   ]
 }

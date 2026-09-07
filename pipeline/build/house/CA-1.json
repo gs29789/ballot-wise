@@ -32,7 +32,7 @@
     "snippet": "Incumbent James Gallagher and Mike McGuire are running in the general election for U.S. House California District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -187,7 +187,7 @@
       },
       "_bio_summary_resolved_at": "2026-08-20T21:20:07.179Z",
       "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:02.689Z"
+      "_campaign_site_discovered_at": "2026-09-01T13:52:38.612Z"
     },
     {
       "slug": "mike-mcguire",
@@ -276,8 +276,10 @@
         "source_url": "https://www.votemikemcguire.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:20:09.589Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:02.690Z"
+      "campaign_site_url": "https://www.votemikemcguire.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:38.913Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-07T12:38:51.342Z"
     }
   ]
 }

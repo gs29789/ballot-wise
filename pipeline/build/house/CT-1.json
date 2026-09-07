@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-18T20:04:00.256Z",
+  "generated_at": "2026-09-03T15:42:34.393Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://www.cga.ct.gov/current/pub/chap_153.htm",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 5.2
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1730.5
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 1726.5
+        "thousandsOfJobs": 1727.7
       },
       {
         "year": "2026",
@@ -478,13 +488,13 @@
       },
       {
         "year": "2024",
-        "totalUsd": 8120289750.97,
-        "perCapitaUsd": 11287.88
+        "totalUsd": 8122407278.97,
+        "perCapitaUsd": 11290.83
       },
       {
         "year": "2025",
-        "totalUsd": 10232653302.62,
-        "perCapitaUsd": 14224.25
+        "totalUsd": 10232830635.62,
+        "perCapitaUsd": 14224.49
       }
     ],
     "population": [
@@ -567,13 +577,43 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Protect and strengthen Medicare and Medicaid, negotiate down the price of prescription drugs, and push for universal, affordable healthcare",
+          "snippet": "We need to protect and strengthen Medicare and Medicaid, negotiate down the price of prescription drugs, and push for universal, affordable healthcare.",
+          "source_url": "https://www.broninforcongress.com/issues"
+        },
+        {
+          "topic": "Reproductive Freedom",
+          "value": "Congress must pass federal protections for abortion access nationwide",
+          "snippet": "Congress must pass federal protections for abortion access nationwide.",
+          "source_url": "https://www.broninforcongress.com/issues"
+        },
+        {
+          "topic": "Tax Policy",
+          "value": "Create a tax system that is progressive, fair, simple, and enforced by closing loopholes, making it harder to shield huge fortunes from taxes, and ensuring the wealthiest Americans and biggest corporations pay their fair share",
+          "snippet": "We need a tax system that is progressive, fair, simple, and enforced. That means closing ridiculous loopholes, making it harder to shield huge fortunes from taxes for generation after generation, and ensuring the wealthiest Americans and biggest corporations actually pay their fair share.",
+          "source_url": "https://www.broninforcongress.com/issues"
+        }
+      ],
+      "platform_source_url": "https://www.broninforcongress.com/issues",
+      "_platform_resolved_at": "2026-09-03T15:42:19.951Z",
+      "campaign_site_url": "https://www.broninforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:54.837Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=zQWMsA6x66A",
+      "platform_video_title": "Thanks, Miguel! Proud to stand with Connecticut’s Carpenters — and will be proud to work together wi",
+      "platform_video_source_url": "https://www.broninforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T15:42:20.772Z",
+      "bio_summary": {
+        "value": "Luke Aaron Bronin [ 1 ] (born June 30, 1979) [ 2 ] is an American politician and lawyer who served as the 67th mayor of Hartford, Connecticut from 2016 to 2024. [ 3 ] [ 4 ] A member of the Democratic Party , [ 5 ] he is the party's nominee for Connecticut's 1st congressional district in 2026 . [ 6 ] [ 7 ] Prior to serving as mayor, Bronin was general counsel for Connecticut governor Dannel Malloy . Before that, he served in two senior posts at the United States Department of the Treasury during President Barack Obama 's first term as senior advisor to the deputy secretary of the treasury , and later as deputy assistant secretary of the treasury for terrorist financing and financial crimes. [ 8 ] Bronin has served as an officer in the U.S. Navy Reserve , and was deployed to Afghanistan and assigned to the Anti-Corruption Task Force. [ 9 ] [ 10 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Luke_Bronin",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:34:41.067Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078233.pdf",
         "filingDate": "6/14/2026",
@@ -587,17 +627,7 @@
       "_financial_disclosure_resolved_at": "2026-08-17T06:35:31.355Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:43.258Z",
-      "bio_summary": {
-        "value": "Luke Aaron Bronin [ 1 ] (born June 30, 1979) [ 2 ] is an American politician and lawyer who served as the 67th mayor of Hartford, Connecticut from 2016 to 2024. [ 3 ] [ 4 ] A member of the Democratic Party , [ 5 ] he is the party's nominee for Connecticut's 1st congressional district in 2026 . [ 6 ] [ 7 ] Prior to serving as mayor, Bronin was general counsel for Connecticut governor Dannel Malloy . Before that, he served in two senior posts at the United States Department of the Treasury during President Barack Obama 's first term as senior advisor to the deputy secretary of the treasury , and later as deputy assistant secretary of the treasury for terrorist financing and financial crimes. [ 8 ] Bronin has served as an officer in the U.S. Navy Reserve , and was deployed to Afghanistan and assigned to the Anti-Corruption Task Force. [ 9 ] [ 10 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Luke_Bronin",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:34:41.067Z",
-      "campaign_site_url": "https://www.lukebronin.com/",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:54.837Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     },
     {
       "slug": "amy-chai",
@@ -647,25 +677,26 @@
       ],
       "platform_source_url": "https://chaiforcongress.com/",
       "_platform_resolved_at": "2026-08-12T18:57:48.065Z",
+      "campaign_site_url": "https://chaiforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:54.835Z",
       "platform_video_url": "https://www.youtube.com/watch?v=j-kLzgHl9ec",
       "platform_video_title": "Connecticut is Robbing Us All. Amy Chai for Congress",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-22T12:00:43.681Z",
+      "bio_summary": {
+        "value": "Rising from extreme poverty in a hoarding home, Dr. Chai knows what it is like to live in a car, sleep in a public bathroom, and go without food or health care. She attended The Johns Hopkins University (BA Biology), Indiana University School of Medicine (MD), University of Michigan Medical Center (Internal Medicine), and University of Virginia Health Sciences Center (Fellowship General Medicine and MS Epidemiology). She self-studied for Fellowship in Addiction Medicine. She was named a US Presidential Teacher by the Obama Administration in 2011 (her home schooling break was successful).",
+        "source_url": "https://chaiforcongress.com/about",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:12.508Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Rising from extreme poverty in a hoarding home, Dr. Chai knows what it is like to live in a car, sleep in a public bathroom, and go without food or health care. She attended The Johns Hopkins University (BA Biology), Indiana University School of Medicine (MD), University of Michigan Medical Center (Internal Medicine), and University of Virginia Health Sciences Center (Fellowship General Medicine and MS Epidemiology). She self-studied for Fellowship in Addiction Medicine. She was named a US Presidential Teacher by the Obama Administration in 2011 (her home schooling break was successful).",
-        "source_url": "https://chaiforcongress.com/about"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:48:12.508Z",
-      "_tier2_search_attempted_at": "2026-08-22T12:00:43.680Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://chaiforcongress.com/",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:54.835Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-14",
-  "generated_at": "2026-08-18T20:24:31.590Z",
+  "generated_at": "2026-09-02T10:21:58.980Z",
   "election_dates": {
     "primaryDate": "2026-03-17",
     "primarySourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6176.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6164.4
+        "thousandsOfJobs": 6164.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4912241896.07,
-        "perCapitaUsd": 6539.77
+        "totalUsd": 4912351896.07,
+        "perCapitaUsd": 6539.91
       },
       {
         "year": "2024",
-        "totalUsd": 5004722168,
+        "totalUsd": 5004723506.77,
         "perCapitaUsd": 6662.89
       },
       {
         "year": "2025",
-        "totalUsd": 5177811223.91,
-        "perCapitaUsd": 6893.33
+        "totalUsd": 5180201754.06,
+        "perCapitaUsd": 6896.51
       }
     ],
     "population": [
@@ -545,8 +555,36 @@
           "snippet": "Elected: Oswego Library Board Trustee Elected: Kendall County GOP Chairman Picked up 13 New Republican Seats Elected: Unanimously as Deputy for IL-14 Congressional District on GOP State Central Committee",
           "source_type": "llm_extracted_campaign_site"
         },
-        "high_school": null,
-        "employment_record": null
+        "high_school": {
+          "value": "Limestone Community High School",
+          "source_url": "https://marter4congress.us/meet-jim/",
+          "snippet": "He graduated from Limestone Community High School where he established his leadership skills through academics in honors classes, participated in sports, including swimming, track, cross country and basketball during his school years.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "QMS, Inc., SAP QM Platinum Consultant (2012 - Present); Marter Enterprises, LLC, Owner (2002 - Present); Great Lakes Information Technology, Inc., President (2009 - 2012); The Dow Chemical Company, Global Support Manager/Senior Consultant (1985 - 1997); Morse Data Corporation (1984 - 1984)",
+          "source_url": "https://www.ballotready.org/people/james-t-marter",
+          "snippet": "QMS, Inc. ·, SAP QM Platinum Consultant (2012 - Present) Marter Enterprises, LLC, Owner (2002 - Present) Great Lakes Information Technology, Inc., President (2009 - 2012) The Dow Chemical Company, Global Support Manager/Senior Consultant (1985 - 1997) Morse Data Corporation (1984 - 1984)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "birthplace": {
+          "value": "Bartonville, Illinois in Peoria County",
+          "source_url": "https://marter4congress.us/meet-jim/",
+          "snippet": "Jim was raised in Bartonville, Illinois in Peoria County.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Purdue University, Bachelor of Science in Industrial Management and a minor in Computer Science, 1984",
+          "source_url": "https://marter4congress.us/meet-jim/",
+          "snippet": "Jim is a 1984 graduate of Purdue University with a Bachelor of Science in Industrial Management and a minor in Computer Science.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Jill since 1985, married 40 years, four children and six grandchildren",
+          "source_url": "https://marter4congress.us/meet-jim/",
+          "snippet": "Jill and Jim married in 1985 and have been married 40 years. They have been blessed with four children and six grandchildren to date.",
+          "source_type": "llm_extracted_campaign_site"
+        }
       },
       "platform": [
         {
@@ -592,26 +630,26 @@
       ],
       "platform_source_url": "https://marter4congress.us/",
       "_platform_resolved_at": "2026-08-12T12:35:03.630Z",
+      "campaign_site_url": "https://www.marter4congress.us",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:36.472Z",
       "platform_video_url": "https://www.youtube.com/watch?v=SCL-pvbnwPU",
       "platform_video_title": "Jared Craig, President of GA Veterans for Trump Interviews Jim Marter Candidate US Congress IL-14",
       "platform_video_source_url": "https://marter4congress.us/category/videos/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-31T12:37:53.839Z",
+      "bio_summary": {
+        "value": "I’m Jim Marter running for Congress in Illinois’ 14th District. I love America and our freedoms. We need to defend and preserve them for future generations. Much of what our government does, stands in the way of a prosperous and free future. In Congress, I will fight for your God-given rights and be relentless at cutting the size and scope of the federal government. With the right policies and unwavering commitment, we can unleash the economy, secure our nation and advance the American Dream.",
+        "source_url": "https://marter4congress.us/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:03.758Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I’m Jim Marter running for Congress in Illinois’ 14th District. I love America and our freedoms. We need to defend and preserve them for future generations. Much of what our government does, stands in the way of a prosperous and free future. In Congress, I will fight for your God-given rights and be relentless at cutting the size and scope of the federal government. With the right policies and unwavering commitment, we can unleash the economy, secure our nation and advance the American Dream.",
-        "source_url": "https://marter4congress.us/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:03.758Z",
-      "platform_video_tier": 1,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:38.135Z",
-      "campaign_site_url": "https://www.marter4congress.us",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:36.472Z",
-      "_campaign_site_reachability": "reachable",
-      "platform_video_source_type": "campaign_site"
+      "_curated_match": false
     },
     {
       "slug": "lauren-underwood",
@@ -672,10 +710,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.underwoodforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:36.474Z",
       "platform_video_url": "https://www.youtube.com/watch?v=p2-ti2TviyU",
       "platform_video_title": "Trump's new rule is making it even harder for nurses to afford their education",
       "platform_video_source_url": "https://underwoodforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-18T22:01:59.287Z",
+      "bio_summary": {
+        "value": "Congresswoman Lauren Underwood represents Illinois’ 14th Congressional District, a suburban, exurban, and rural district in Northern Illinois. She flipped this seat from red to blue in a historic fashion in 2018, defeating a four-term Republican incumbent, and is the youngest black woman to ever be elected to the Congress.",
+        "source_url": "https://underwoodforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:05.956Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -699,7 +748,7 @@
           }
         ],
         "bills_sponsored": 129,
-        "bills_cosponsored": 1114,
+        "bills_cosponsored": 1115,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -720,20 +769,12 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.6,
-          "snapshotDate": "June 30, 2026",
+          "score": 43.5,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/U000040"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Congresswoman Lauren Underwood represents Illinois’ 14th Congressional District, a suburban, exurban, and rural district in Northern Illinois. She flipped this seat from red to blue in a historic fashion in 2018, defeating a four-term Republican incumbent, and is the youngest black woman to ever be elected to the Congress.",
-        "source_url": "https://underwoodforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:05.956Z",
-      "campaign_site_url": "https://www.underwoodforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:36.474Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }

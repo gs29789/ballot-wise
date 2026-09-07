@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-03",
-  "generated_at": "2026-08-17T00:40:50.434Z",
+  "generated_at": "2026-09-03T16:04:24.693Z",
   "election_dates": {
     "primaryDate": "2026-08-04",
     "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
@@ -27,8 +27,13 @@
     "unemployment_rate": [
       {
         "year": "2026",
-        "month": "June",
+        "month": "July",
         "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
       },
       {
         "year": "2026",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 4232.2
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 4243.7
+        "thousandsOfJobs": 4241.8
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 27347828953.67,
+        "totalUsd": 27347830991.73,
         "perCapitaUsd": 35499.51
       },
       {
         "year": "2024",
-        "totalUsd": 31113969646.71,
-        "perCapitaUsd": 40388.24
+        "totalUsd": 31105266281.06,
+        "perCapitaUsd": 40376.94
       },
       {
         "year": "2025",
-        "totalUsd": 31989449392.83,
-        "perCapitaUsd": 41524.68
+        "totalUsd": 31999058188.29,
+        "perCapitaUsd": 41537.15
       }
     ],
     "population": [
@@ -543,20 +553,131 @@
           "value": "U.S. Army veteran; police officer",
           "source_url": "https://ballotpedia.org/Edwin_Rivera",
           "snippet": "He served in the U.S. Army. His career experience includes working as a police officer."
+        },
+        "birthplace": {
+          "value": "Puerto Rico",
+          "source_url": "https://edwinriveraforcongress.com/",
+          "snippet": "A native of Puerto Rico, Rivera has cultivated a deep understanding of the challenges faced by everyday citizens."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Education Reform",
+          "value": "Supports public and private college pathways from local high schools, raising teacher pay, and renovating or rebuilding failing schools",
+          "snippet": "Public/private college pathways from local high schools.\n\nRaise teacher pay.\n\nRenovate/rebuild failing schools."
+        },
+        {
+          "topic": "HBCU Support",
+          "value": "Would ensure HBCUs have funding, satellite locations, and certifications or degrees bridging vocational and college credentials, and supports parental say in education",
+          "snippet": "HBCU making sure they have funds, satellite locations, certifications/degrees between vocational and college degree and parental rights support the fact that we want parents to have a say in their child’s education."
+        },
+        {
+          "topic": "Transportation & Tolls",
+          "value": "Supports capping tolls and opposes tolls on the Hampton Roads Bridge-Tunnel",
+          "snippet": "Toll Capping / oppose tolls on HRBT."
+        },
+        {
+          "topic": "Healthcare Accessibility",
+          "value": "Says working families and seniors in the district shouldn't have to choose between a prescription and groceries",
+          "snippet": "Working families and seniors in CD3 shouldn’t have to choose between a prescription and a grocery run. Healthcare access is a priority, not a talking point."
+        },
+        {
+          "topic": "Youth Development",
+          "value": "Would expand mentorship, educational opportunity and programs helping young people build futures before being pulled into destructive patterns",
+          "snippet": "Expanding mentorship, educational opportunity, and programs that help young people build successful futures before they are pulled into destructive patterns."
+        },
+        {
+          "topic": "Judicial Accountability",
+          "value": "Would hold judges and local commonwealth's attorneys accountable for releasing repeat violent offenders",
+          "snippet": "Hold judges and local commonwealths attorney accountable for letting violent criminals w/ multiple offenses out."
+        },
+        {
+          "topic": "School Resource Officers",
+          "value": "Would expand school resource officer roles, with officers teaching rather than doing desk work, to build student-law enforcement relationships",
+          "snippet": "Expand SRO roles and officers supposed to go to school to teach rather then do desk work, emphasize student law enforcement relationship building to help decrease likelihood of crimes committed by youth into young adulthood."
+        },
+        {
+          "topic": "Law Enforcement Funding",
+          "value": "Would fully fund law enforcement and community-based programs such as National Night Out",
+          "snippet": "Increase and support(fully fund) law enforcement and community based programs (such as national night out) which helps strengthen relationships across our different communities."
+        },
+        {
+          "topic": "Veterans Benefits",
+          "value": "Would expand benefits and preventative care for veterans with at least two enlistments, and provide full TRICARE Prime to National Guard and reserve members during wartime",
+          "snippet": "VA – more benefits for those service members who served in at least 2 enlistments, all veterans preventative care basic Healthcare for veterans of two or more enlistments.\n\nNational Guard reserve Full Tricare prime during war time."
+        },
+        {
+          "topic": "Social Security",
+          "value": "Would protect Social Security benefits so seniors can retire with dignity and financial security",
+          "snippet": "Protecting Social Security benefits and ensuring seniors can retire with dignity, stability, and financial security after a lifetime of work."
+        },
+        {
+          "topic": "Small Business Growth",
+          "value": "Supports tax credits for small businesses and expanding funding groups such as the Virginia 30 Day Fund",
+          "snippet": "Tax credits for small businesses, work with/expand groups that help fund our small businesses like the VA 30day fund."
+        },
+        {
+          "topic": "Government Contracting & Unions",
+          "value": "Would eliminate regulations barring small businesses from government contracting if they don't belong to unions",
+          "snippet": "Eliminate regulations which prohibit small businesses from contracting with governments if they don’t belong to unions."
+        },
+        {
+          "topic": "Affordable Housing",
+          "value": "Supports affordable housing options",
+          "snippet": "Support Affordable housing options."
+        },
+        {
+          "topic": "National Parks",
+          "value": "Would ensure national parks are fully funded, safe and free, and that land zoned for parks remains untouched",
+          "snippet": "Edwin is in Congress he will ensure our national parks are fully funded safe and free, and lands zoned for parks remain untouched."
+        },
+        {
+          "topic": "Energy",
+          "value": "Supports an all-of-the-above energy platform to lower energy costs, including expanding nuclear energy",
+          "snippet": "Lower energy cost, Edwin support an all-of-the above energy platform.\n\nNuclear energy expand in a smart."
+        },
+        {
+          "topic": "Taxes & Business Climate",
+          "value": "Would work to lower taxes, keep Virginia competitive for business, increase job opportunities and expand public-private partnerships",
+          "snippet": "Edwin will work to lower taxes pass legislation that keeps Virginia the best state to do business increase job opportunities expand public-private partnerships."
+        },
+        {
+          "topic": "Immigration",
+          "value": "Would increase the number of immigration judges and fix the green card process",
+          "snippet": "Increase the number of Immigration Judges.\n\nFix green card process."
+        }
+      ],
+      "platform_source_url": "https://edwinriveraforcongress.com/",
+      "_platform_resolved_at": "2026-09-03T09:00:01.767Z",
+      "campaign_site_url": "https://edwinriveraforcongress.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-09-01T11:43:16.319Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=y0oKCzi_q9k",
+      "platform_video_title": "Meet Edwin Rivera - Virginia's Candidate in CD-3",
+      "platform_video_source_url": "https://www.youtube.com/@HiltonMultimedia",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-09-03T09:00:01.767Z",
+      "bio_summary": {
+        "value": "Edwin Rivera is an emerging figure in American politics. A native of Puerto Rico, Rivera has cultivated a deep understanding of the challenges faced by everyday citizens. Raised in poverty, foster care, then by his grandparents Rivera’s upbringing instilled in him the values of hard work, integrity, and a commitment to community.\n\nRivera’s professional journey is characterized by his dedication to public service and America.\n\nBefore entering the political arena, he worked as a police officer in Puerto Rico, then joined the United States Army. He served several tours of combat in the Middle East, which led him to early retirement as a disabled veteran.\n\nFor years Newport News, VA has been home to Edwin and his wife Adina. They are a blended family with 7 children who attend public schools.",
+        "source_url": "https://edwinriveraforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-09-03T09:00:01.767Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079699.pdf",
+        "filingDate": "5/17/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T09:01:50.336Z",
       "recent_votes": [],
       "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:27.872Z",
-      "_no_site_search_attempted_at": "2026-08-30T20:55:01.658Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.884Z"
+      "_curated_match": true
     },
     {
       "slug": "robert-scott",
@@ -626,11 +747,90 @@
       ],
       "platform_source_url": "https://www.bobbyscottforcongress.com/",
       "_platform_resolved_at": "2026-08-14T12:39:53.458Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "campaign_site_url": "https://www.bobbyscottforcongress.com",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.571Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Bobby grew up in the southeast community of Newport News and has devoted his life and career in service to the Hampton Roads community. He has been our Congressman representing Virginia’s 3rd congressional district since 1993. In Congress, he serves as the Top Democrat (Ranking Member) of the powerful Education and the Workforce Committee and is fighting for students, workers, families, seniors, and all Virginians.",
+        "source_url": "https://www.bobbyscottforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:12.918Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077012.pdf",
+        "filingDate": "8/4/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T09:01:53.710Z",
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
+        },
         "committees": [
           {
             "committee": "House Committee on Education and Workforce",
@@ -644,7 +844,7 @@
           }
         ],
         "bills_sponsored": 331,
-        "bills_cosponsored": 4533,
+        "bills_cosponsored": 4538,
         "bills_became_law": 6,
         "enacted_laws": [
           {
@@ -710,20 +910,13 @@
         },
         "bridge_score": {
           "grade": "C",
-          "score": 28.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 26.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S000185"
         }
       },
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Bobby grew up in the southeast community of Newport News and has devoted his life and career in service to the Hampton Roads community. He has been our Congressman representing Virginia’s 3rd congressional district since 1993. In Congress, he serves as the Top Democrat (Ranking Member) of the powerful Education and the Workforce Committee and is fighting for students, workers, families, seniors, and all Virginians.",
-        "source_url": "https://www.bobbyscottforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:59:12.918Z",
-      "_tier2_search_attempted_at": "2026-08-24T12:00:28.209Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.883Z"
+      "_tier2_search_attempted_at": "2026-09-07T12:38:32.634Z"
     },
     {
       "slug": "james-taylor",
@@ -746,23 +939,46 @@
           "snippet": "He earned a bachelor's degree from Louisiana State University in 2018."
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": true,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:28.603Z",
+      "platform": [
+        {
+          "topic": "Voter Education",
+          "value": "Ensure every voter is educated on the issues, proposed policy, and candidates' positions to achieve an informed, engaged electorate",
+          "snippet": "Voter Education - I want every voter to be educated on the issues, proposed policy, and candidates' positions. Ensuring we have an informed, engaged electorate is the first step to achieving our policy goals."
+        },
+        {
+          "topic": "Institutional Reform",
+          "value": "Rehabilitate institutional framework to ensure government stops wasting money, prevents vulnerable people from falling through the cracks, and achieves policy goals",
+          "snippet": "Institutional Reform - for decades the United States has piled law after law a top of each other without regard to their effectiveness and ability to work with each other in tandem. We need a severe rehabilitation of our institutional framework to ensure our government stops wasting money, allowing the most vulnerable to fall through the cracks, and achieve the policy goals we set out to accomplish."
+        },
+        {
+          "topic": "Climate Change, Internet & Digital Technology, and Democracy",
+          "value": "Tackle climate change, internet & digital technology, and democracy as the three most important issues that will guide humanity's story for generations",
+          "snippet": "The Big Three: Climate Change, the Internet & Digital Technology, and our Democracy. These three issues and the policy we develop over the next three decades will guide humanity's story for generations, if not centuries."
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/James_Taylor_(Virginia)",
+      "_platform_resolved_at": "2026-09-03T09:00:48.477Z",
+      "campaign_site_url": "https://www.zebtaylor.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.569Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "James Taylor was born in Chapel Hill, North Carolina . He earned a bachelor's degree from Louisiana State University in 2018. [1] ",
         "source_url": "https://ballotpedia.org/James_Taylor_(Virginia)",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:35:44.171Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.886Z"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:32.970Z"
     },
     {
       "slug": "dawn-vasquez",
@@ -789,20 +1005,27 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-24T12:00:29.036Z",
+      "campaign_site_url": "https://www.vasquezforcongress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": "2026-08-31T23:03:14.571Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Dawn Vasquez (independent) ran for election to the U.S. House to represent Virginia's 3rd Congressional District . She will not appear on the ballot for the general election on November 3, 2026 .",
         "source_url": "https://ballotpedia.org/Dawn_Vasquez",
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:36:02.181Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:52.875Z"
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-07T12:38:33.347Z"
     }
   ]
 }

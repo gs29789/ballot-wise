@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-01",
-  "generated_at": "2026-08-10T14:49:20.076Z",
+  "generated_at": "2026-09-02T09:46:40.492Z",
   "election_dates": {
     "primaryDate": "2026-06-23",
     "primarySourceUrl": "https://www.nysenate.gov/legislation/laws/ELN/8-100",
@@ -18,12 +18,18 @@
     "source_url": "https://www.nysenate.gov/legislation/laws/PBO/30",
     "snippet": "§ 30. Creation of vacancies. 1. Every office shall be vacant upon the happening of one of the following events before the expiration of the term thereof: ... e. His or her conviction of a felony, conviction of a crime involving a violation of his or her oath of office, or upon entering a guilty plea in federal court to a felony, or upon entering a guilty plea in federal court to a crime involving a violation of his or her oath of office. Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
   },
+  "voting_system": null,
   "primary_results": {
     "source_url": "https://www.nbcnews.com/politics/2026-primary-elections/new-york-us-house-district-1-results",
     "snippet": "R: N. LaLota (incumbent) — uncontested. D: C. Gallant 62.9% over L. Ventouras 36.9%."
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.4
+      },
       {
         "year": "2026",
         "month": "June",
@@ -242,26 +248,31 @@
       },
       {
         "year": "2022",
-        "ratePer100k": 32.86
+        "ratePer100k": 32.87
       },
       {
         "year": "2023",
-        "ratePer100k": 32.4
+        "ratePer100k": 32.41
       },
       {
         "year": "2024",
-        "ratePer100k": 28.09
+        "ratePer100k": 28.12
       },
       {
         "year": "2025",
-        "ratePer100k": 25.71
+        "ratePer100k": 25.76
       }
     ],
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 9960.7
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 9992.8
+        "thousandsOfJobs": 9982.6
       },
       {
         "year": "2026",
@@ -472,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -555,6 +566,11 @@
           "source_url": "https://gallantny.com/about/",
           "snippet": "work as a volunteer firefighter in my community",
           "source_type": "llm_extracted_campaign_site"
+        },
+        "date_of_birth": {
+          "value": "1989",
+          "source_url": "https://www.wikidata.org/wiki/Q140343757",
+          "source_type": "wikidata_structured"
         }
       },
       "platform": [
@@ -566,25 +582,35 @@
       ],
       "platform_source_url": "https://gallantny.com/",
       "_platform_resolved_at": "2026-08-10T14:45:39.763Z",
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
-      "performance": null,
-      "_curated_match": false,
+      "campaign_site_url": "https://gallantny.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:26.971Z",
       "platform_video_url": "https://www.youtube.com/watch?v=iZWkIXTbmCA",
       "platform_video_title": "Today, more than 63,000 Long Islanders are losing Essential Plan coverage",
       "platform_video_source_url": "https://gallantny.com/",
-      "_platform_video_resolved_at": "2026-08-29T16:49:53.542Z",
-      "_tier2_search_attempted_at": "2026-08-20T12:30:12.860Z",
       "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-29T16:49:53.542Z",
       "bio_summary": {
         "value": "I’ve built a career on public service — I was deployed multiple times to Kuwait and have flown several missions overseas, protected our airspace as an FAA air traffic controller, stood up for my coworkers as a union leader and work as a volunteer firefighter in my community. Right now, Congress doesn’t operate with the same discipline or focus. So I’m stepping forward to serve the place I was born and raised with the same clarity of purpose I’ve brought to every role I’ve held, and to deliver results that move our communities forward.",
-        "source_url": "https://gallantny.com/"
+        "source_url": "https://gallantny.com/",
+        "source_type": "campaign_site"
       },
       "_bio_summary_resolved_at": "2026-08-20T20:32:46.538Z",
-      "campaign_site_url": "https://gallantny.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:26.971Z",
-      "_campaign_site_reachability": "reachable"
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075924.pdf",
+        "filingDate": "5/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-02T09:46:33.318Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
     },
     {
       "slug": "nick-lalota",
@@ -648,68 +674,109 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Medicaid",
+          "value": "Opposes any reduction in Medicaid coverage for vulnerable populations",
+          "snippet": "reaffirming their strong support for Medicaid, urging Republican leadership to protect coverage for vulnerable Americans and reiterating a vote of opposition to any GOP bill that includes any reduction in Medicaid coverage for vulnerable populations."
+        },
+        {
+          "topic": "Law Enforcement Support",
+          "value": "Supports legislation to increase data collection to help prevent Officer injuries and suicides, permit qualified Officers to carry concealed firearms nationwide, and allow retired Officers the option to purchase their service weapons",
+          "snippet": "voted to pass the Improving Law Enforcement Officer Safety and Wellness Through Data Act, the LEOSA Reform Act, and the Federal Law Enforcement Officer Service Weapon Purchase Act of 2025. These three critical pieces of legislation increase data collection to help prevent Officer injuries and suicides, permit qualified Officers to carry concealed firearms nationwide, and allow retired Officers the option to purchase their service weapons."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Supports lowering taxes for working class Long Islanders",
+          "snippet": "fighting to lower taxes for working class Long Islanders"
+        },
+        {
+          "topic": "Energy",
+          "value": "Supports securing energy independence",
+          "snippet": "secure energy independence"
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Supports defending all constitutional freedoms",
+          "snippet": "defend all of our constitutional freedoms"
+        }
+      ],
+      "platform_source_url": "https://lalota.house.gov/",
+      "_platform_resolved_at": "2026-09-02T09:46:18.593Z",
+      "campaign_site_url": "https://nicklalota.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:05:26.974Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Nicholas Joseph LaLota ( / l ə ˈ l oʊ t ə / lə- LOH -tə ; born June 23, 1978) is an American politician and veteran serving since 2023 as the U.S. representative for New York's 1st congressional district . He is a member of the Republican Party . LaLota was first elected to Congress in 2022 . He is a member of the moderate Republican Governance Group . [ 1 ] Early life and career [ edit ] LaLota was born on June 23, 1978, and is from Bay Shore, New York . [ 2 ] He graduated from St. Anthony's High School and, in 2000, from the United States Naval Academy . He served in the U.S. Navy for eight years, serving three overseas deployments. [ 3 ] He earned a Master of Business Administration and a Juris Doctor from Hofstra University . [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:42:23.645Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [
         {
-          "rollNumber": 283,
-          "year": 2026,
-          "question": "On Passage",
-          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
-        },
-        {
-          "rollNumber": 282,
+          "rollNumber": 292,
           "year": 2026,
           "question": "On Agreeing to the Resolution",
-          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
-          "date": "23-Jul-2026",
-          "result": "Passed",
-          "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
-        },
-        {
-          "rollNumber": 281,
-          "year": 2026,
-          "question": "On Agreeing to the Resolution",
-          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
-          "date": "22-Jul-2026",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
         },
         {
-          "rollNumber": 280,
+          "rollNumber": 291,
           "year": 2026,
           "question": "On Passage",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Passed",
           "position": "Yea",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
         },
         {
-          "rollNumber": 279,
+          "rollNumber": 290,
           "year": 2026,
           "question": "On Motion to Recommit",
-          "billTitle": "Stop Insider Trading Act",
-          "date": "22-Jul-2026",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
           "result": "Failed",
           "position": "Nay",
-          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Aye",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
         }
       ],
       "performance": {
         "attendance": {
-          "votesInSession": 281,
-          "votesCast": 277,
-          "attendanceRate": 0.9857651245551602
+          "votesInSession": 292,
+          "votesCast": 288,
+          "attendanceRate": 0.9863013698630136
         },
         "committees": [
           {
@@ -749,7 +816,7 @@
           }
         ],
         "bills_sponsored": 62,
-        "bills_cosponsored": 665,
+        "bills_cosponsored": 669,
         "bills_became_law": 1,
         "enacted_laws": [
           {
@@ -770,28 +837,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 96.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 95.5,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000598"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-20T12:30:13.254Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "platform_video_tier": null,
-      "_platform_video_resolved_at": null,
-      "_no_site_search_attempted_at": "2026-08-22T15:31:28.215Z",
-      "bio_summary": {
-        "value": "Nicholas Joseph LaLota ( / l ə ˈ l oʊ t ə / lə- LOH -tə ; born June 23, 1978) is an American politician and veteran serving since 2023 as the U.S. representative for New York's 1st congressional district . He is a member of the Republican Party . LaLota was first elected to Congress in 2022 . He is a member of the moderate Republican Governance Group . [ 1 ] Early life and career [ edit ] LaLota was born on June 23, 1978, and is from Bay Shore, New York . [ 2 ] He graduated from St. Anthony's High School and, in 2000, from the United States Naval Academy . He served in the U.S. Navy for eight years, serving three overseas deployments. [ 3 ] He earned a Master of Business Administration and a Juris Doctor from Hofstra University . [ 4 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Nick_LaLota",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T10:42:23.645Z",
-      "campaign_site_url": "https://nicklalota.com",
-      "_campaign_site_discovered_at": "2026-08-30T11:05:26.974Z",
-      "_campaign_site_reachability": "reachable"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:06.109Z"
     }
   ]
 }

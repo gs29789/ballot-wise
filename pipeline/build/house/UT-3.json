@@ -24,7 +24,7 @@
     "snippet": "Incumbent Celeste Maloy defeated Mike Lyman in the Republican primary for U.S. House Utah District 3 on June 23, 2026, 68.1% (55,031) to 31.9% (25,726) ... Kent Udell defeated Steve Merrill in the Democratic convention, and the Democratic primary was canceled ... Cassie Easley (Constitution), Michael Ray Stoddard (Libertarian), Adonis Hooslyn (Unaffiliated), and Ayden Tate Scott (Unaffiliated) are also running in the general election."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,22 +47,22 @@
         "ratePer100k": 16.72
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3241461850.67,
-        "perCapitaUsd": 3886.88
+        "totalUsd": 3225695966.27,
+        "perCapitaUsd": 3867.98
       },
       {
         "year": "2024",
-        "totalUsd": 4366218642.77,
-        "perCapitaUsd": 5235.59
+        "totalUsd": 4352306088.28,
+        "perCapitaUsd": 5218.91
       },
       {
         "year": "2025",
-        "totalUsd": 4359258715.26,
-        "perCapitaUsd": 5227.25
+        "totalUsd": 4345384971.38,
+        "perCapitaUsd": 5210.61
       }
     ],
     "population": null,
@@ -86,9 +86,15 @@
           "source_type": "llm_extracted_ballotready"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Government Power",
+          "value": "Believes we have relinquished freedom for perceived safety and allowed politicians power not delegated to them",
+          "snippet": "We have relinquished our Freedom for perceived safety and allowed Politicians power not delegated to them."
+        }
+      ],
+      "platform_source_url": "https://cassieforcongress.com/",
+      "_platform_resolved_at": "2026-09-01T23:40:05.677Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -100,8 +106,15 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:33:04.413Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.045Z"
+      "campaign_site_url": "https://cassieforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T20:55:58.518Z",
+      "_campaign_site_reachability": "reachable",
+      "platform_video_url": "https://www.youtube.com/watch?v=74sek-SEyfs",
+      "platform_video_title": "Citizenship Exam Question 82",
+      "platform_video_source_url": "https://cassieforcongress.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T23:40:00.858Z"
     },
     {
       "slug": "adonis-hooslyn",
@@ -194,8 +207,9 @@
         "source_url": "https://hooslynforhouse.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:19.617Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.049Z"
+      "campaign_site_url": "https://hooslynforhouse.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:54:01.193Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "celeste-maloy",
@@ -331,7 +345,7 @@
         ],
         "bills_sponsored": 41,
         "bills_cosponsored": 207,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
@@ -362,15 +376,15 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": 0.417,
-          "nominateDim2": 0.09,
+          "nominateDim1": 0.418,
+          "nominateDim2": 0.091,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/M001228"
         },
         "bridge_score": {
           "grade": "C",
-          "score": 34.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 31.2,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001228"
         }
       },
@@ -380,8 +394,9 @@
         "source_url": "https://www.celesteforutah.com/issues"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:32.706Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.048Z"
+      "campaign_site_url": "http://www.celesteforutah.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:54:01.172Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "ayden-scott",
@@ -452,8 +467,9 @@
         "source_url": "https://aydenscott4congress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:29.338Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.032Z"
+      "campaign_site_url": "https://aydenscott4congress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:54:01.170Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "michael-stoddard",
@@ -529,7 +545,7 @@
       "_bio_summary_resolved_at": "2026-08-20T21:27:17.408Z",
       "platform_video_tier": null,
       "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.044Z"
+      "_campaign_site_discovered_at": "2026-09-01T13:54:01.190Z"
     },
     {
       "slug": "kent-udell",
@@ -609,8 +625,9 @@
         "source_url": "https://www.kentudellforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:27:24.753Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:05.045Z"
+      "campaign_site_url": "https://kentudell.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:54:01.171Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

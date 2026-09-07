@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-07",
-  "generated_at": "2026-08-18T19:57:06.645Z",
+  "generated_at": "2026-09-03T16:26:48.648Z",
   "election_dates": {
     "primaryDate": "2026-08-11",
     "primarySourceUrl": "https://governor.alabama.gov/newsroom/2026/05/governor-ivey-celebrates-major-court-victory-in-states-redistricting-battle-calls-special-election-for-alabama-drawn-congressional-map/",
@@ -24,7 +24,223 @@
     "snippet": "Terri Sewell (Incumbent) (Democratic Party) Ammie Akin (Republican Party)"
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 2.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 2.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 2.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 2.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 2.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 2.8
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 2.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.3
+      }
+    ],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,7 +263,223 @@
         "ratePer100k": 27.97
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 2213.3
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2215.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2214
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2208.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2205.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2202.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2202.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2196.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2195.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2195.3
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2197.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2197.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2195.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2195
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2198.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2196.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2194.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2195.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2195.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2191.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2193.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2193
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2192.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2193.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2190
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2192.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2190.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2188.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2188.6
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2184.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2178.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2176.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2174.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2174.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2173.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2166.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2163.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2163.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2154.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2153.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2150.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2147.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2145.4
+      }
+    ],
     "federal_spending": [
       {
         "year": "2023",
@@ -61,12 +493,38 @@
       },
       {
         "year": "2025",
-        "totalUsd": 2896387137.54,
-        "perCapitaUsd": 4044.03
+        "totalUsd": 2896751826.54,
+        "perCapitaUsd": 4044.54
       }
     ],
-    "population": null,
-    "median_household_income": null
+    "population": [
+      {
+        "year": "2022",
+        "population": 5074296
+      },
+      {
+        "year": "2023",
+        "population": 5108468
+      },
+      {
+        "year": "2024",
+        "population": 5157699
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 59674
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 62212
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 66659
+      }
+    ]
   },
   "candidates": [
     {
@@ -107,6 +565,12 @@
           "value": "board chair for Unless U",
           "source_url": "https://www.akinforcongress.com/",
           "snippet": "As the board chair for Unless U, Ammie has remained steadfast in watching many of her former students from her first teaching position at Hoover High School, become productive adults.",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "nearly 25 years in education, teaching and leading at every level from elementary classrooms to college lecture halls, including stints as an elementary administrator and assistant superintendent; serves as board chair for Unless U and co-founder of Hub in the Hills",
+          "source_url": "https://www.akinforcongress.com/",
+          "snippet": "Ammie Akin has spent nearly 25 years in education, teaching and leading at every level from elementary classrooms to college lecture halls, including stints as an elementary administrator and assistant superintendent. She holds a doctorate in Educational Leadership from Samford University. Today she serves as board chair for Unless U and co-founder of Hub in the Hills, a shared campus for Birmingham non-profits.",
           "source_type": "llm_extracted_campaign_site_websearch"
         }
       },
@@ -154,23 +618,36 @@
       ],
       "platform_source_url": "https://www.akinforcongress.com/",
       "_platform_resolved_at": "2026-08-14T17:19:51.697Z",
+      "campaign_site_url": "https://www.akinforcongress.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T12:25:57.793Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
-      "financial_disclosure": null,
-      "_financial_disclosure_resolved_at": null,
+      "bio_summary": {
+        "value": "Ammie Akin, a trail-blazing entrepreneur, multi-level educator, and longtime advocate for adults, teens, and children with disabilities, is the co-founder of the country's first-of-its-kind \"shared\" non-profit facility.",
+        "source_url": "https://www.akinforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:33.173Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081152.pdf",
+        "filingDate": "6/30/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-09-03T16:25:51.166Z",
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "bio_summary": {
-        "value": "Ammie Akin, a trail-blazing entrepreneur, multi-level educator, and longtime advocate for adults, teens, and children with disabilities, is the co-founder of the country's first-of-its-kind \"shared\" non-profit facility.",
-        "source_url": "https://www.akinforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T21:14:33.173Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:58:38.706Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.703Z"
+      "_tier2_search_attempted_at": "2026-09-07T12:38:40.880Z"
     },
     {
       "slug": "terri-sewell",
@@ -214,20 +691,111 @@
           "source_url": "https://en.wikipedia.org/wiki/Terri_Sewell",
           "snippet": "She was the first Black valedictorian of Selma High School",
           "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice",
+          "source_url": "https://history.house.gov/People/Listing/S/SEWELL,-Terri-(S001185)/",
+          "snippet": "lawyer, private practice",
+          "source_type": "llm_extracted_house_historian"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
-      "platform_video_url": null,
-      "platform_video_title": null,
-      "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Veterans Healthcare and Benefits",
+          "value": "Fought for bipartisan reforms to the Veterans Administration to increase transparency and expand access to care",
+          "snippet": "I have also fought for bipartisan reforms to the Veterans Administration to increase transprency and expand access to care.",
+          "source_url": "https://sewell.house.gov/veterans-issues"
+        },
+        {
+          "topic": "Veterans Resource Support",
+          "value": "Hosted numerous veterans resource fairs to help veterans find assistance with VA benefits, transportation resources, health screenings, housing options, mental health services, and more",
+          "snippet": "I have hosted numerous veterans resource fairs to help our veterans find assistance with VA benefits, transportation resources, health screenings, housing options, mental health services, and more.",
+          "source_url": "https://sewell.house.gov/veterans-issues"
+        },
+        {
+          "topic": "Veterans Toxic Exposure",
+          "value": "Supported the Honoring our PACT Act to expand VA health care and benefits for veterans exposed to burn pits and other toxic substances",
+          "snippet": "In the 117th Congress, I was proud to join House and Senate Democrats in passing the \"Honoring our PACT Act,\" the largest expansion of veterans' health care benefits in three decades. This legisislation — which President Biden signed into law on August 10, 2022 — would expand VA health care and benefits for veterans exposed to burn pits and other toxic substances.",
+          "source_url": "https://sewell.house.gov/veterans-issues"
+        }
+      ],
+      "platform_source_url": "https://sewell.house.gov/veterans-issues",
+      "_platform_resolved_at": "2026-09-03T16:25:41.212Z",
+      "campaign_site_url": "http://www.sewellforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:05.314Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=khLUsNuZ5p0",
+      "platform_video_title": "Trump broke his promise to lower our grocery prices.",
+      "platform_video_source_url": "https://sewell.house.gov/veterans-issues",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-03T16:25:42.957Z",
+      "bio_summary": {
+        "value": "Terrycina Andrea \" Terri \" Sewell ( / ˈ sj uː əl / ; born January 1, 1965) [ 1 ] [ 2 ] is an American politician and lawyer serving as the U.S. representative for Alabama's 7th congressional district as member of the Democratic Party since 2011. The district includes most of the Black Belt , as well as most of the predominantly African American portions of Birmingham and Tuscaloosa . A native of Huntsville , Sewell studied at Princeton University for a bachelor's, Harvard Law School for a Juris Doctor degree, and St Hilda's College, Oxford for a second bachelor's that was promoted by tradition to an MA . Before entering politics, she was a securities lawyer for Davis Polk & Wardwell and a public finance lawyer for Maynard, Cooper & Gale , where she was the first Black woman to make partner. She is the first African-American woman elected to Congress from Alabama and, along with Republican Martha Roby , [ 3 ] was one of the first women elected to Congress from Alabama in a regular election. [ 4 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Terri_Sewell",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:54:55.495Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
-      "recent_votes": [],
+      "recent_votes": [
+        {
+          "rollNumber": 295,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protect Economic and Academic Freedom Act",
+          "date": "3-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll295.xml"
+        },
+        {
+          "rollNumber": 294,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Protecting Domestic Mining Act",
+          "date": "2-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll294.xml"
+        },
+        {
+          "rollNumber": 293,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Proposing an amendment to the Constitution of the United States to require that the Supreme Court of the United States be composed of nine justices",
+          "date": "2-Sep-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll293.xml"
+        },
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        }
+      ],
       "performance": {
-        "attendance": null,
+        "attendance": {
+          "votesInSession": 295,
+          "votesCast": 293,
+          "attendanceRate": 0.9932203389830508
+        },
         "committees": [
           {
             "committee": "Joint Committee on Printing",
@@ -265,9 +833,9 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           }
         ],
-        "bills_sponsored": 123,
-        "bills_cosponsored": 3210,
-        "bills_became_law": 0,
+        "bills_sponsored": 124,
+        "bills_cosponsored": 3214,
+        "bills_became_law": 6,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 306 Pickens Street in Marion, Alabama, as the \"Albert Turner, Sr. Post Office Building\".",
@@ -332,21 +900,12 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 67.9,
-          "snapshotDate": "June 30, 2026",
+          "score": 66.4,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001185"
         }
       },
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "Terrycina Andrea \" Terri \" Sewell ( / ˈ sj uː əl / ; born January 1, 1965) [ 1 ] [ 2 ] is an American politician and lawyer serving as the U.S. representative for Alabama's 7th congressional district as member of the Democratic Party since 2011. The district includes most of the Black Belt , as well as most of the predominantly African American portions of Birmingham and Tuscaloosa . A native of Huntsville , Sewell studied at Princeton University for a bachelor's, Harvard Law School for a Juris Doctor degree, and St Hilda's College, Oxford for a second bachelor's that was promoted by tradition to an MA . Before entering politics, she was a securities lawyer for Davis Polk & Wardwell and a public finance lawyer for Maynard, Cooper & Gale , where she was the first Black woman to make partner. She is the first African-American woman elected to Congress from Alabama and, along with Republican Martha Roby , [ 3 ] was one of the first women elected to Congress from Alabama in a regular election. [ 4 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Terri_Sewell",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T00:54:55.495Z",
-      "_tier2_search_attempted_at": "2026-08-31T12:58:38.985Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:57.703Z"
+      "_curated_match": false
     }
   ]
 }

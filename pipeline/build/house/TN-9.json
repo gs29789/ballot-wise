@@ -24,7 +24,7 @@
     "snippet": "Justin Pearson, Brent Taylor, Dennis Jeffrey Clark, and Michelle Head are running in the general election for U.S. House Tennessee District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,22 +47,22 @@
         "ratePer100k": 34.24
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4167755806.75,
-        "perCapitaUsd": 5449.01
+        "totalUsd": 4167854631.75,
+        "perCapitaUsd": 5449.14
       },
       {
         "year": "2024",
-        "totalUsd": 5259044056.52,
-        "perCapitaUsd": 6850.55
+        "totalUsd": 5258880056.52,
+        "perCapitaUsd": 6850.34
       },
       {
         "year": "2025",
-        "totalUsd": 4697352643.79,
-        "perCapitaUsd": 6141.41
+        "totalUsd": 4697082092.97,
+        "perCapitaUsd": 6141.06
       }
     ],
     "population": null,
@@ -95,7 +95,8 @@
       "_curated_match": true,
       "_no_site_search_attempted_at": "2026-08-30T21:32:52.847Z",
       "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:58.850Z"
+      "_campaign_site_discovered_at": "2026-09-01T09:50:22.787Z",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:23.240Z"
     },
     {
       "slug": "justin-pearson",
@@ -195,8 +196,15 @@
         "source_url": "https://www.votejustinj.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:15:49.964Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:58.851Z"
+      "campaign_site_url": "https://votejustinj.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:22.788Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:23.750Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=QjTaL1WLtzU",
+      "platform_video_title": "Justin J. Pearson runs for Congress amid redistricting threat",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:23.750Z"
     },
     {
       "slug": "brent-taylor",
@@ -255,8 +263,15 @@
         "source_url": "https://brenttaylorforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:15:47.341Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:58:58.849Z"
+      "campaign_site_url": "https://www.brenttaylorforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:22.787Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:24.230Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=RAov1eFIkjI",
+      "platform_video_title": "Brent Taylor for Congress | Bait Shop :30",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:24.230Z"
     }
   ]
 }

@@ -32,7 +32,7 @@
     "snippet": "Incumbent Suzan DelBene and Mary Silva are running in the general election for U.S. House Washington District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7995336301.6,
-        "perCapitaUsd": 10377.52
+        "totalUsd": 7999508171.6,
+        "perCapitaUsd": 10382.93
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8807832949.13,
+        "perCapitaUsd": 11432.09
       },
       {
         "year": "2025",
-        "totalUsd": 7383680769.61,
-        "perCapitaUsd": 9583.62
+        "totalUsd": 7391568628.61,
+        "perCapitaUsd": 9593.86
       }
     ],
     "population": null,
@@ -180,7 +180,7 @@
         ],
         "bills_sponsored": 154,
         "bills_cosponsored": 3327,
-        "bills_became_law": 2,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Bulk Infant Formula to Retail Shelves Act",
@@ -209,8 +209,8 @@
         },
         "bridge_score": {
           "grade": "B",
-          "score": 59,
-          "snapshotDate": "June 30, 2026",
+          "score": 60.7,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/D000617"
         }
       },
@@ -220,8 +220,9 @@
         "source_url": "https://delbeneforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:26:20.785Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.382Z"
+      "campaign_site_url": "http://www.delbeneforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:45.354Z",
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "mary-silva",
@@ -306,8 +307,9 @@
         "source_type": "ballotpedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T12:39:31.874Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:04.385Z"
+      "campaign_site_url": "https://marysilva4congress.nationbuilder.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:45.332Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

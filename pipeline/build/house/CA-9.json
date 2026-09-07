@@ -32,7 +32,7 @@
     "snippet": "Incumbent Josh Harder and John McBride are running in the general election for U.S. House California District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,12 +55,12 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
@@ -69,8 +69,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -162,10 +162,10 @@
       ],
       "platform_source_url": "https://harderforcongress.com/",
       "_platform_resolved_at": "2026-08-15T11:00:49.258Z",
-      "platform_video_url": null,
-      "platform_video_title": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=8XNrX0OVu1w",
+      "platform_video_title": "30-Year-Old Venture Capitalist Josh Harder To Run For Congress In Rural California | CNBC",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": null,
+      "_platform_video_resolved_at": "2026-09-07T12:38:54.887Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076099.pdf",
         "filingDate": "5/13/2026",
@@ -199,7 +199,7 @@
         ],
         "bills_sponsored": 156,
         "bills_cosponsored": 1908,
-        "bills_became_law": 0,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Protecting Families of Fallen Servicemembers Act",
@@ -239,8 +239,11 @@
         "source_url": "https://harderforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:21:10.202Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:02.835Z"
+      "campaign_site_url": "https://www.harderforcongress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:41.353Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-07T12:38:54.887Z",
+      "platform_video_tier": 2
     },
     {
       "slug": "john-mcbride",
@@ -339,8 +342,9 @@
         "source_url": "https://www.johnmcbrideforcongress.com/"
       },
       "_bio_summary_resolved_at": "2026-08-20T21:21:14.597Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:02.834Z"
+      "campaign_site_url": "https://johnmcbride4congress.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:52:41.343Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

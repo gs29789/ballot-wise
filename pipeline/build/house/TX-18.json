@@ -23,7 +23,7 @@
     "snippet": "Incumbent Christian Menefee and Ronald Whitfield are running in the general election for U.S. House Texas District 18 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,7 +46,7 @@
         "ratePer100k": 26.33
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
@@ -60,8 +60,8 @@
       },
       {
         "year": "2025",
-        "totalUsd": 5155205801.59,
-        "perCapitaUsd": 6674.29
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
       }
     ],
     "population": null,
@@ -144,8 +144,15 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:45:45.866Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:59:00.726Z"
+      "_tier2_search_attempted_at": "2026-09-01T12:00:37.852Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=UxuJKCpOym0",
+      "platform_video_title": "The Fighter That Delivers - Christian Menefee for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:37.852Z",
+      "campaign_site_url": "https://www.christianmenefee.com",
+      "_campaign_site_discovered_at": "2026-09-01T12:47:33.053Z",
+      "_campaign_site_reachability": "cloudflare_challenge"
     }
   ]
 }

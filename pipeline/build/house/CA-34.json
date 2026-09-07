@@ -481,18 +481,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5017899843,
-        "perCapitaUsd": 6676.97
+        "totalUsd": 5018433494,
+        "perCapitaUsd": 6677.68
       },
       {
         "year": "2024",
-        "totalUsd": 5412201553.9,
-        "perCapitaUsd": 7201.64
+        "totalUsd": 5412882185.9,
+        "perCapitaUsd": 7202.54
       },
       {
         "year": "2025",
-        "totalUsd": 5874112288.08,
-        "perCapitaUsd": 7816.27
+        "totalUsd": 5874775826.08,
+        "perCapitaUsd": 7817.15
       }
     ],
     "population": [
@@ -663,7 +663,7 @@
         ],
         "bills_sponsored": 87,
         "bills_cosponsored": 1700,
-        "bills_became_law": 2,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 3500 West 6th Street, Suite 103 in Los Angeles, California, as the \"Dosan Ahn Chang Ho Post Office\".",
@@ -685,19 +685,20 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": -0.532,
-          "nominateDim2": -0.258,
+          "nominateDim1": -0.531,
+          "nominateDim2": -0.261,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/G000585"
         },
         "bridge_score": {
           "grade": "F",
           "score": 3.6,
-          "snapshotDate": "June 30, 2026",
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000585"
         }
       },
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
     },
     {
       "slug": "angela-gonzales-torres",
@@ -784,7 +785,8 @@
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

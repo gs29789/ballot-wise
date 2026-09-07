@@ -671,9 +671,50 @@
           "source_type": "llm_extracted_wikipedia"
         }
       },
-      "platform": [],
-      "platform_source_url": null,
-      "_platform_resolved_at": null,
+      "platform": [
+        {
+          "topic": "Investing in Families",
+          "value": "Priority area for the campaign",
+          "snippet": "Investing in Families"
+        },
+        {
+          "topic": "Safeguarding Our Communities",
+          "value": "Priority area for the campaign",
+          "snippet": "Safeguarding Our Communities"
+        },
+        {
+          "topic": "Environment",
+          "value": "Preserving Our Environment",
+          "snippet": "Preserving Our Environment"
+        },
+        {
+          "topic": "Jobs and Small Business",
+          "value": "Creating Jobs & Supporting Small Bus",
+          "snippet": "Creating Jobs & Supporting Small Bus"
+        },
+        {
+          "topic": "Reproductive Rights",
+          "value": "Protecting Reproductive Rights",
+          "snippet": "Protecting Reproductive Rights"
+        },
+        {
+          "topic": "Infrastructure and Transportation",
+          "value": "Strengthening Infrastructure & Transport",
+          "snippet": "Strengthening Infrastructure & Transport"
+        },
+        {
+          "topic": "Veterans and Seniors",
+          "value": "Serving Our Veterans & Seniors",
+          "snippet": "Serving Our Veterans & Seniors"
+        },
+        {
+          "topic": "Social Justice",
+          "value": "Advancing Social Justice",
+          "snippet": "Advancing Social Justice"
+        }
+      ],
+      "platform_source_url": "https://www.lamonicaforcongress.com/privacy-policy-1",
+      "_platform_resolved_at": "2026-09-01T23:11:56.645Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076045.pdf",
         "filingDate": "6/18/2026",
@@ -750,8 +791,9 @@
         "source_type": "wikipedia"
       },
       "_bio_summary_resolved_at": "2026-08-26T10:41:19.300Z",
-      "campaign_site_url": null,
-      "_campaign_site_discovered_at": "2026-08-31T12:27:47.337Z"
+      "campaign_site_url": "https://www.lamonicaforcongress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T20:42:28.754Z",
+      "_campaign_site_reachability": "reachable"
     }
   ]
 }

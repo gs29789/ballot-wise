@@ -3,7 +3,7 @@
   "office": "H",
   "cycle": 2026,
   "race_slug": "house-16",
-  "generated_at": "2026-08-18T20:25:36.748Z",
+  "generated_at": "2026-09-02T10:22:59.635Z",
   "election_dates": {
     "primaryDate": "2026-03-17",
     "primarySourceUrl": "https://codes.findlaw.com/il/chapter-10-elections/il-st-sect-10-5-2a-1-1/",
@@ -25,6 +25,11 @@
   },
   "hard_metrics": {
     "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
       {
         "year": "2026",
         "month": "June",
@@ -261,8 +266,13 @@
     "nonfarm_employment_thousands": [
       {
         "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6176.4
+      },
+      {
+        "year": "2026",
         "month": "June",
-        "thousandsOfJobs": 6164.4
+        "thousandsOfJobs": 6164.7
       },
       {
         "year": "2026",
@@ -473,18 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4912241896.07,
-        "perCapitaUsd": 6539.77
+        "totalUsd": 4912351896.07,
+        "perCapitaUsd": 6539.91
       },
       {
         "year": "2024",
-        "totalUsd": 5004722168,
+        "totalUsd": 5004723506.77,
         "perCapitaUsd": 6662.89
       },
       {
         "year": "2025",
-        "totalUsd": 5177811223.91,
-        "perCapitaUsd": 6893.33
+        "totalUsd": 5180201754.06,
+        "perCapitaUsd": 6896.51
       }
     ],
     "population": [
@@ -582,10 +592,21 @@
       "platform": [],
       "platform_source_url": null,
       "_platform_resolved_at": null,
+      "campaign_site_url": "https://lahoodforcongress.com",
+      "_campaign_site_reachability": "blocked_other",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:39.554Z",
       "platform_video_url": null,
       "platform_video_title": null,
       "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
       "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Darin McKay LaHood ( / l ə ˈ h ʊ d / lə- HOOD ; born July 5, 1968) [ 2 ] is an American attorney and politician who has served as a U.S. representative from Illinois since 2015. A member of the Republican Party , LaHood has represented the 16th district since 2023, and previously represented the 18th district from 2015 to 2023, a district which was once represented by House Minority Leader Robert H. Michel . The son of Republican Ray LaHood , who represented this district from 1995 until 2009, previously served in the Illinois Senate from the 37th legislative district from 2011 to 2015, before being elected to Congress in a special election following the resignation of Aaron Schock . [ 3 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Darin_LaHood",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:34:14.433Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
@@ -634,7 +655,7 @@
           }
         ],
         "bills_sponsored": 141,
-        "bills_cosponsored": 1091,
+        "bills_cosponsored": 1092,
         "bills_became_law": 5,
         "enacted_laws": [
           {
@@ -691,22 +712,13 @@
         },
         "bridge_score": {
           "grade": "A",
-          "score": 95.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 94.8,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000585"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-08-22T12:00:39.396Z",
-      "bio_summary": {
-        "value": "Darin McKay LaHood ( / l ə ˈ h ʊ d / lə- HOOD ; born July 5, 1968) [ 2 ] is an American attorney and politician who has served as a U.S. representative from Illinois since 2015. A member of the Republican Party , LaHood has represented the 16th district since 2023, and previously represented the 18th district from 2015 to 2023, a district which was once represented by House Minority Leader Robert H. Michel . The son of Republican Ray LaHood , who represented this district from 1995 until 2009, previously served in the Illinois Senate from the 37th legislative district from 2011 to 2015, before being elected to Congress in a special election following the resignation of Aaron Schock . [ 3 ] ",
-        "source_url": "https://en.wikipedia.org/wiki/Darin_LaHood",
-        "source_type": "wikipedia"
-      },
-      "_bio_summary_resolved_at": "2026-08-26T11:34:14.433Z",
-      "campaign_site_url": "https://lahoodforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:39.554Z",
-      "_campaign_site_reachability": "blocked_other"
+      "_tier2_search_attempted_at": "2026-09-02T12:00:15.533Z"
     },
     {
       "slug": "paul-nolley",
@@ -805,25 +817,26 @@
       ],
       "platform_source_url": "https://www.nolleyforcongress.com/",
       "_platform_resolved_at": "2026-08-12T12:37:04.023Z",
+      "campaign_site_url": "https://nolleyforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:39.552Z",
       "platform_video_url": "https://www.youtube.com/watch?v=Cbuf1Zg40kY",
       "platform_video_title": "Paul Nolley for Congress - Campaign Introduction",
       "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
       "_platform_video_resolved_at": "2026-08-22T12:00:39.693Z",
+      "bio_summary": {
+        "value": "I'm a citizen-candidate who knows what it's like to work a real job, live paycheck-to-paycheck, and face the challenges of raising a family in today's world. I'm running to defeat an incumbent who has sold out the people of this district by serving the powerful special interests instead of his voters.",
+        "source_url": "https://www.nolleyforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:47:13.851Z",
       "financial_disclosure": null,
       "_financial_disclosure_resolved_at": null,
       "recent_votes": [],
       "performance": null,
-      "_curated_match": false,
-      "bio_summary": {
-        "value": "I'm a citizen-candidate who knows what it's like to work a real job, live paycheck-to-paycheck, and face the challenges of raising a family in today's world. I'm running to defeat an incumbent who has sold out the people of this district by serving the powerful special interests instead of his voters.",
-        "source_url": "https://www.nolleyforcongress.com/"
-      },
-      "_bio_summary_resolved_at": "2026-08-20T20:47:13.851Z",
-      "_tier2_search_attempted_at": "2026-08-22T12:00:39.693Z",
-      "platform_video_tier": 2,
-      "campaign_site_url": "https://nolleyforcongress.com",
-      "_campaign_site_discovered_at": "2026-08-30T23:56:39.552Z",
-      "_campaign_site_reachability": "reachable"
+      "_curated_match": false
     }
   ]
 }
