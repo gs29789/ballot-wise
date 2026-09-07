@@ -1,0 +1,267 @@
+{
+  "state": "WA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-17T01:56:23.558Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "primarySnippet": "August 4 — Primary - Deposit your ballot in an official drop box by 8 p.m. on Election Day.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.wa.gov/elections/elections-calendar/dates-and-deadlines",
+    "generalSnippet": "November 3 — General Election - Deposit your ballot in an official drop box by 8 p.m. on Election Day."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Washington law (RCW 29A.24.075(4)) explicitly states that requirements otherwise imposed on candidates \"do not apply to candidates for congressional office\" and that \"qualifications for the United States congress are specified in the United States Constitution\"; separately, the U.S. Constitution's own qualifications for Congress can't be added to by any state regardless",
+    "source_url": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.24.075",
+    "snippet": "RCW 29A.24.075(4): \"The requirements of voter registration and residence within the geographic area of a district do not apply to candidates for congressional office. Qualifications for the United States congress are specified in the United States Constitution.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and any voter may vote for any candidate — Washington doesn't register voters by party at all. The two candidates with the most votes advance to the general election, regardless of party, as long as each clears at least 1% of the primary vote.",
+    "primarySourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.36.170",
+    "primarySnippet": "RCW 29A.36.170: \"...only the names of the top two candidates will appear on the general election ballot\" (candidates ranked by primary vote total; a candidate needs at least one percent of the total votes cast for that office at the preceding primary to advance).",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. A candidate's stated party \"preference\" is self-declared and explicitly not a party nomination or endorsement. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=29A.52.112",
+    "generalSnippet": "RCW 29A.52.112: \"Based upon votes cast at the primary, the top two candidates will be certified as qualified to appear on the general election ballot... Any party preferences are shown for the information of voters only and may in no way limit the options available to voters.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Washington%27s_4th_Congressional_District_election,_2026",
+    "snippet": "John Duresky and Amanda McKinney are running in the general election for U.S. House Washington District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 30.27
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 27.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 27.56
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 24.36
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 21.51
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 7995336301.6,
+        "perCapitaUsd": 10377.52
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8801497545.67,
+        "perCapitaUsd": 11423.87
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7383680769.61,
+        "perCapitaUsd": 9583.62
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "john-duresky",
+      "full_name": "DURESKY, JOHN",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WA04190",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 179020.15,
+        "totalSpent": 144710.81,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 50215.73,
+          "largeDollar": 120508.73,
+          "pac": 5500,
+          "party": 1500,
+          "selfFunded": 887
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Retired Air Force Major with 37 years of service, Hanford worker",
+          "source_url": "https://www.johnduresky4congress.com/",
+          "snippet": "Retired Air Force Major • 37 Years of Service • Hanford Worker",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Torrington High School",
+          "source_url": "https://www.ballotready.org/people/john-duresky",
+          "snippet": "High School Diploma, Torrington High School Class (1986)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Associate's, Community College of the Air Force (1995)",
+          "source_url": "https://www.ballotready.org/people/john-duresky",
+          "snippet": "Associate&#x27;s, Community College of the Air Force (1995)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Agriculture & Water",
+          "value": "Protect our farmers from reckless tariffs, defend water rights, and ensure federal farm policy works for Central Washington.",
+          "snippet": "Protect our farmers from reckless tariffs, defend water rights, and ensure federal farm policy works for Central Washington."
+        },
+        {
+          "topic": "Veterans & Service",
+          "value": "Improve the VA based on what veterans actually experience, not what politicians imagine.",
+          "snippet": "Improve the VA based on what veterans actually experience, not what politicians imagine."
+        },
+        {
+          "topic": "Jobs & Affordability",
+          "value": "Lower costs for working families, protect good-paying Hanford jobs, and invest in infrastructure.",
+          "snippet": "Lower costs for working families, protect good-paying Hanford jobs, and invest in infrastructure."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Term limits, ban stock trading, and overturn Citizens United.",
+          "snippet": "Term limits, ban stock trading, and overturn Citizens United."
+        },
+        {
+          "topic": "Healthcare Access",
+          "value": "Keep rural hospitals open, restore ACA subsidies, and protect Medicare and Medicaid.",
+          "snippet": "Keep rural hospitals open, restore ACA subsidies, and protect Medicare and Medicaid."
+        },
+        {
+          "topic": "Protect Federal Workers",
+          "value": "What happened under DOGE should never happen again. John will fight to protect the people who keep our government running.",
+          "snippet": "What happened under DOGE should never happen again. John will fight to protect the people who keep our government running."
+        }
+      ],
+      "platform_source_url": "https://www.johnduresky4congress.com/",
+      "_platform_resolved_at": "2026-08-15T13:29:18.464Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10067269.pdf",
+        "filingDate": "10/13/2025",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T13:29:48.785Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "After 37 years of public service — in the Air Force and in civil service — John had earned the right to slow down. But watching working families struggle and politics become about power instead of people, sitting on the sidelines stopped feeling like an option. From a union household, to military service, to Hanford — John stepped up because Central Washington deserves a representative who has actually served.",
+        "source_url": "https://www.johnduresky4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:26:29.178Z",
+      "campaign_site_url": "https://johnduresky4congress.com/",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:50.161Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "amanda-mckinney",
+      "full_name": "MCKINNEY, AMANDA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WA04216",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 981819.55,
+        "totalSpent": 766372.57,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 192065.6,
+          "largeDollar": 569483.52,
+          "pac": 110500,
+          "party": 0,
+          "selfFunded": 63791.8
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Served on the Yakima County Commission",
+          "source_url": "https://ballotpedia.org/Amanda_McKinney_(Washington)",
+          "snippet": "Amanda McKinney's career experience includes serving on the Yakima County Commission."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Agriculture",
+          "value": "She will fight to roll back burdensome regulations, protect working lands, and ensure farmers have a voice at the table. She believes America should feed itself first.",
+          "snippet": "In Congress, she will fight to roll back burdensome regulations, protect working lands, and ensure farmers have a voice at the table. A strong agricultural sector is essential to food security, economic independence, and national security. Amanda believes America should feed itself first."
+        },
+        {
+          "topic": "Law Enforcement and Public Safety",
+          "value": "She rejects anti-police rhetoric and policies that embolden criminals and endanger families. In Congress, she will fight to restore law and order, dismantle fentanyl trafficking networks, and ensure law enforcement has the tools they need to do their jobs safely and effectively.",
+          "snippet": "Amanda rejects anti-police rhetoric and policies that embolden criminals and endanger families. In Congress, she will fight to restore law and order, dismantle fentanyl trafficking networks, and ensure law enforcement has the tools they need to do their jobs safely and effectively."
+        },
+        {
+          "topic": "Second Amendment",
+          "value": "She believes the answer to violent crime is enforcing the law, not disarming lawful Americans. In Congress, she will oppose unconstitutional gun control and stand firm in defense of the right of Americans to protect themselves, their families, and their communities.",
+          "snippet": "She believes the answer to violent crime is enforcing the law, not disarming lawful Americans. In Congress, Amanda will oppose unconstitutional gun control and stand firm in defense of the right of Americans to protect themselves, their families, and their communities."
+        },
+        {
+          "topic": "Energy Independence",
+          "value": "She supports American energy dominance through hydropower, nuclear energy, natural gas, and responsible domestic production. She opposes radical energy mandates that raise costs, destabilize the grid, and hurt farmers, families, and small businesses. In Congress, she will fight for affordable, reliable energy, protect jobs, and put American workers first.",
+          "snippet": "Amanda McKinney supports American energy dominance through hydropower, nuclear energy, natural gas, and responsible domestic production. She opposes radical energy mandates that raise costs, destabilize the grid, and hurt farmers, families, and small businesses. Amanda believes America should never depend on foreign adversaries for energy. In Congress, she will fight for affordable, reliable energy, protect jobs, and put American workers first."
+        },
+        {
+          "topic": "Fiscal Responsibility",
+          "value": "She believes Washington spends too much and delivers too little. In Congress, she will fight for fiscal discipline, transparency, and policies that respect working families and small businesses.",
+          "snippet": "Amanda McKinney believes Washington spends too much and delivers too little. She has uncovered fraud, opposed wasteful spending, and demanded accountability at the local level. In Congress, she will fight for fiscal discipline, transparency, and policies that respect working families and small businesses."
+        }
+      ],
+      "platform_source_url": "https://www.mckinneyforwashington.com/",
+      "_platform_resolved_at": "2026-08-15T13:29:45.061Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10073304.pdf",
+        "filingDate": "7/3/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-15T13:29:53.693Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "platform_video_url": "https://www.youtube.com/watch?v=LLtulOJbk9g",
+      "platform_video_title": "Amanda McKinney for Washington | Official Campaign Launch",
+      "platform_video_source_url": "https://www.mckinneyforwashington.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:08:29.397Z",
+      "bio_summary": {
+        "value": "I’m Amanda McKinney, faithful servant, wife, mother and current Yakima County Commissioner, running for Congress to deliver proven, common-sense conservative leadership to Washington, D.C. I was raised in a family rooted in faith, agriculture, respect for law and order and service to our country. I’ve fought tirelessly for our Central Washington values: individual freedoms, strong families, thriving agriculture, fiscal accountability, and support for first responders. From my banking career to county leadership, I’ve achieved real results—challenging COVID overreach, securing water resources, preventing fraud, and advocating for rural communities at the state and national levels.",
+        "source_url": "https://www.mckinneyforwashington.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:26:35.999Z",
+      "campaign_site_url": "https://www.mckinneyforwashington.com",
+      "_campaign_site_discovered_at": "2026-09-01T13:53:50.162Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

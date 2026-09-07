@@ -1,0 +1,794 @@
+{
+  "state": "AZ",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-07",
+  "generated_at": "2026-09-02T15:51:38.327Z",
+  "election_dates": {
+    "primaryDate": "2026-07-21",
+    "primarySourceUrl": "https://www.kjzz.org/politics/2026-02-06/arizona-officials-move-up-primary-election-date-to-july-21",
+    "primarySnippet": "Gov. Katie Hobbs signed a new law permanently moving Arizona's primary elections up from August to the second-to-last Tuesday in July. That means this year's new primary election date is July 21. [House Bill 2022, sponsored by Rep. Alexander Kolodin, signed February 6, 2026.]",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/az/title-16-elections-and-electors/az-rev-st-sect-16-204/",
+    "generalSnippet": "A.R.S. § 16-204: The first Tuesday after the first Monday in November. Notwithstanding any other law, an election must be held on this date..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arizona suspends a convicted felon's civil rights, including 'the right to hold public office of trust or profit,' as part of a general civil-rights suspension (alongside voting, jury service, and firearm rights) triggered by any felony conviction, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/az/title-13-criminal-code/az-rev-st-sect-13-904/",
+    "snippet": "A.R.S. § 13-904(A): \"A conviction for a felony suspends the following civil rights of the person sentenced: 1. The right to vote. 2. The right to hold public office of trust or profit. 3. The right to serve as a juror. 4. During any period of imprisonment any other civil rights the suspension of which is reasonably necessary for the security of the institution in which the person sentenced is confined or for the reasonable protection of the public. 5. The right to possess a firearm.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Arizona's_7th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Adelita Grijalva and Daniel Butierez Sr. are running in the general election for U.S. House Arizona District 7 on November 3, 2026. Grijalva won a September 23, 2025 special election to succeed her late father, longtime Rep. Raúl Grijalva (D), who died in office in March 2025 — she is the regular incumbent for the 2026 cycle, not a parallel special-election candidate; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.7
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.75
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.93
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 31.75
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 32.88
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 28.98
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3285.8
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3283.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3280.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3282.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3274.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3272.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3262.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3253
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3249.6
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3259
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3262.7
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3259.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3263.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3269.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3278.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3273.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3275.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3268.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3269.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3267.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3267.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3258.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3255.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3255.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3252.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3255.5
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3264.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3257.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3255.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3221.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3209.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3200
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3229.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3218.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3210.4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3210.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3195.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3190.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3169.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3167.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3156.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3246133463.79,
+        "perCapitaUsd": 4059.85
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4771148114.64,
+        "perCapitaUsd": 5967.14
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3619324484.08,
+        "perCapitaUsd": 4526.59
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7359197
+      },
+      {
+        "year": "2023",
+        "population": 7431344
+      },
+      {
+        "year": "2024",
+        "population": 7582384
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 74568
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 77315
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 81486
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "daniel-butierez",
+      "full_name": "BUTIEREZ, DANIEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H4AZ07134",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 224367.4,
+        "totalSpent": 213560.33,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 16901.02,
+          "largeDollar": 22991.41,
+          "pac": 2000,
+          "party": 0,
+          "selfFunded": 175207.47
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Tucson, Arizona",
+          "source_url": "https://ballotpedia.org/Daniel_Butierez_Sr",
+          "snippet": "Daniel Butierez was born in Tucson, Arizona."
+        },
+        "employment_record": {
+          "value": "Contractor and construction worker",
+          "source_url": "https://ballotpedia.org/Daniel_Butierez_Sr",
+          "snippet": "His career experience includes working as a contractor and construction worker."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Securing our Border is vital to plans of helping homeless get on their feet and drug users",
+          "snippet": "Securing our Border: This is vital to my plans of helping our homeless get on their feet and drug users"
+        }
+      ],
+      "platform_source_url": "https://ballotpedia.org/Daniel_Butierez_Sr.",
+      "_platform_resolved_at": "2026-09-02T15:51:17.136Z",
+      "campaign_site_url": "https://danielbutierez4congress2024.com",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:24.236Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=XBW6ASIFTgU",
+      "platform_video_title": "Daniel Butierez for Congress Arizona District 7",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-02T12:00:12.415Z",
+      "bio_summary": {
+        "value": "Daniel Butierez was born in Tucson, Arizona . His career experience includes working as a contractor and construction worker. [1] ",
+        "source_url": "https://ballotpedia.org/Daniel_Butierez_Sr.",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-30T21:45:35.887Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10079795.pdf",
+        "filingDate": "5/20/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:00:20.038Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "adelita-grijalva",
+      "full_name": "GRIJALVA, ADELITA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6AZ07121",
+      "fec_status": "C",
+      "bioguide_id": "G000606",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2285639.26,
+        "totalSpent": 1857662.75,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1015921.45,
+          "largeDollar": 825450.14,
+          "pac": 435938.72,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1970-10-30",
+          "source_url": "https://www.wikidata.org/wiki/Q134612342",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Tucson, Arizona",
+          "source_url": "https://www.wikidata.org/wiki/Q134612342",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Pueblo Magnet High School",
+          "source_url": "https://www.wikidata.org/wiki/Q134612342",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Pueblo High Magnet School (1989)",
+          "source_url": "https://www.ballotready.org/people/adelita-grijalva",
+          "snippet": "High School Diploma, Pueblo High Magnet School (1989)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Tucson Unified School District, Board Member (2003 - Present); Pima County Teen Court, Director (Present); Pima County Supervisor Board, Board Member - District 5 (2021 - 2025)",
+          "source_url": "https://www.ballotready.org/people/adelita-grijalva",
+          "snippet": "Tucson Unified School District, Board Member (2003 - Present) Pima County Teen Court, Director (Present) Pima County Supervisor Board, Board Member - District 5 (2021 - 2025)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Married to Sol Gómez",
+          "source_url": "https://en.wikipedia.org/wiki/Adelita_Grijalva",
+          "snippet": "Grijalva lives in Tucson with her husband Sol Gómez, a librarian , and their three children.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Tucson Unified School District Governing Board (2002-2022), Pima County Board of Supervisors District 5 (2021-2025)",
+          "source_url": "https://en.wikipedia.org/wiki/Adelita_Grijalva",
+          "snippet": "she previously served as a member of the Pima County Board of Supervisors for District 5 from 2021 to 2025 and on the Tucson Unified School District Governing Board from 2002 to 2022.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://adelitaforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T20:34:24.198Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=Qe4euIGe5ZI",
+      "platform_video_title": "Adelita Grijalva: I am a Grijalva",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-21T12:00:37.493Z",
+      "bio_summary": {
+        "value": "Adelita Shirley Grijalva (born October 30, 1970) [ 1 ] [ 2 ] is an American politician who has served as the U.S. representative for Arizona's 7th congressional district since November 12, 2025. A member of the Democratic Party , she previously served as a member of the Pima County Board of Supervisors for District 5 from 2021 to 2025 and on the Tucson Unified School District Governing Board from 2002 to 2022. She is the daughter of former U.S. representative Raúl Grijalva , who represented the district from 2003 until his death in 2025. On September 23, 2025, Grijalva was elected to the U.S. House of Representatives in a special election to succeed her father, defeating Republican nominee Daniel Butierez.",
+        "source_url": "https://en.wikipedia.org/wiki/Adelita_Grijalva",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T00:10:15.450Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076172.pdf",
+        "filingDate": "8/11/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:00:24.175Z",
+      "recent_votes": [
+        {
+          "rollNumber": 292,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "In the matter of allegations relating to Representative Chuck Edwards",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll292.xml"
+        },
+        {
+          "rollNumber": 291,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll291.xml"
+        },
+        {
+          "rollNumber": 290,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "To amend the Consolidated Appropriations Act, 2023 to extend the time period for which certain regulations concerning the North Atlantic right whale are effective",
+          "date": "1-Sep-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll290.xml"
+        },
+        {
+          "rollNumber": 289,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for the condemnation and denouncement of socialism in all its forms, and for other purposes",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll289.xml"
+        },
+        {
+          "rollNumber": 288,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Providing for consideration of the bills (H.R. 1501, H.R. 9436, and H.R. 4795); providing for consideration of the resolution (H. Res. 1490); and relating to consideration of motions to suspend the rules",
+          "date": "1-Sep-2026",
+          "result": "Passed",
+          "position": "No",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll288.xml"
+        }
+      ],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Indian and Insular Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Higher Education and Workforce Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Early Childhood, Elementary, and Secondary Education",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 11,
+        "bills_cosponsored": 435,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.481,
+          "nominateDim2": -0.676,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000606"
+        },
+        "bridge_score": null
+      },
+      "_curated_match": false
+    }
+  ]
+}
