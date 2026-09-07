@@ -1,0 +1,823 @@
+{
+  "state": "MS",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-13T17:19:15.758Z",
+  "election_dates": {
+    "primaryDate": "2026-03-10",
+    "primarySourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+    "primarySnippet": "MARCH ... 10th PRIMARY ELECTION DAY (U.S. CONGRESS): Polling places are open from 7:00 a.m. until 7:00 p.m. (Miss. Code Ann. §§ 23-15-171 and 23-15-541)",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ms.gov/content/documents/elections/2026%20Elections%20Calendar.pdf",
+    "generalSnippet": "NOVEMBER ... 3rd General Election Day and Regular Special Election Day. Polls open from 7 a.m. - 7 p.m. (MS Const. Art. 12, § 252; Miss. Code Ann.. § 23-15-833)"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Mississippi's felon-disqualification provision (Miss. Const. Art. 4, § 44) bars a person convicted of bribery, perjury, or 'other infamous crime' from being 'eligible to a seat in either House of the Legislature, or to any office of profit or trust' unless pardoned; a separate clause in the same subsection bars anyone convicted of bribery-related election offenses from holding 'any office of profit or trust under the laws of this state,' and §44(2) separately bars a person convicted of a qualifying felony in another state or in federal court from holding 'any office of profit or trust in this state.' The core disqualifying clause in §44(1) ('any office of profit or trust') is NOT itself worded as limited to state office the way the bribery clause and §44(2) explicitly are ('under the laws of this state' / 'in this state') — so the statute's own text leaves genuine ambiguity about whether it purports to reach a congressional seat at all. Mississippi Code §99-19-35 uses similarly unqualified language ('any office of profit, trust, or honor'), reinforcing the ambiguity rather than resolving it. Regardless of how §44 is read, however, no state felony-disqualification statute can actually keep someone off a congressional ballot or out of a congressional seat, because states cannot add qualifications for Congress beyond the U.S. Constitution's own age/citizenship/residency requirements — U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995). So the practical outcome (no state bar reaches Congress) is settled by federal preemption even though the state text's own scope is ambiguous.",
+    "source_url": "https://www.sos.ms.gov/content/documents/ed_pubs/pubs/Mississippi_Constitution.pdf",
+    "snippet": "SECTION 44. Ineligibility for office of person convicted of certain crimes. (1) No person shall be eligible to a seat in either House of the Legislature, or to any office of profit or trust, who shall have been convicted of bribery, perjury, or other infamous crime; and any person who shall have been convicted of giving or offering, directly, or indirectly, any bribe to procure his election or appointment, and any person who shall give or offer any bribe to procure the election or appointment of any person to office, shall, on conviction thereof, be disqualified from holding any office of profit or trust under the laws of this state. (2) No person who is convicted after ratification of this amendment in another state of any offense which is a felony under the laws of this state, and no person who is convicted after ratification of this amendment of any felony in a federal court, shall be eligible to hold any office of profit or trust in this state."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Mississippi's_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Mike Ezell, Jeffrey Hulum III, and Carl Boyanton are running in the general election for U.S. House Mississippi District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.68
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 15.88
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.55
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.57
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1192.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1194.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1193.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1190.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1191.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1191
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1192.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1195
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1191.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1191.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1194.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1189.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1187.4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1188.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1191.8
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1189
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1192.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1190.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1188
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1188.8
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1187.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1190.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1189.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1188.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1189
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1189.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1189.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1188.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1183.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1181.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1182.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1182.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1182.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1183.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1180.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1179.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1184.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1181.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1180.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1180.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1179.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1180.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5002047257.46,
+        "perCapitaUsd": 6709.42
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5270087183.63,
+        "perCapitaUsd": 7068.95
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5479222421.13,
+        "perCapitaUsd": 7349.47
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 2940057
+      },
+      {
+        "year": "2023",
+        "population": 2939690
+      },
+      {
+        "year": "2024",
+        "population": 2943045
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 52719
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 54203
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 59127
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "boyanton-carl",
+      "full_name": "CARL, BOYANTON LESTER",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6MS04259",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 43526.32,
+        "totalSpent": 1681.8,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 986.21,
+          "largeDollar": 12463.76,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 30076.35
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Memphis",
+          "source_url": "https://carl4congress.com/",
+          "snippet": "Born into poverty in Memphis and raised across Mississippi",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Pearl River County public schools",
+          "source_url": "https://carl4congress.com/",
+          "snippet": "he grew up in the Pearl River County public schools",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "devoted husband of 31 years",
+          "source_url": "https://carl4congress.com/",
+          "snippet": "Carl Lester Boyanton is a devoted husband of 31 years",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "In 2021, Carl and Heidi Boyanton founded Farmed Fresh for Mississippi, a 501(c)(3) nonprofit",
+          "source_url": "https://carl4congress.com/",
+          "snippet": "In 2021, they founded Farmed Fresh for Mississippi , a 501(c)(3) nonprofit",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Small Businesses",
+          "value": "Support Mississippi small businesses against the Washington establishment that is making it harder than ever for local businesses to survive",
+          "snippet": "Small businesses are the backbone of America. As a businessman with 40 years in the industry, I know exactly what it takes to build something from the ground up, balance a budget, and succeed. But right now, the Washington establishment is making it harder than ever for local businesses to survive."
+        },
+        {
+          "topic": "Core Values",
+          "value": "Defend faith, family, freedom, and hard work as the principles that make America strong",
+          "snippet": "a lifelong conservative who has spent his life defending the principles that make America strong: faith, family, freedom, and hard work."
+        },
+        {
+          "topic": "Mission",
+          "value": "Restore trust, protect individual liberty, and ensure that future generations inherit a nation worthy of their potential",
+          "snippet": "His mission is to restore trust, protect individual liberty, and ensure that future generations inherit a nation worthy of their potential."
+        },
+        {
+          "topic": "Healthcare and Nutrition",
+          "value": "Actively using food as medicine to fight chronic illnesses like heart disease and cancer, proving that real health starts from the ground up",
+          "snippet": "By partnering with initiatives like Project Food Box, they are actively using food as medicine to fight chronic illnesses like heart disease and cancer, proving that real health starts from the ground up."
+        }
+      ],
+      "platform_source_url": "https://carl4congress.com/",
+      "_platform_resolved_at": "2026-08-13T17:18:45.040Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=OOtEcybc3-0",
+      "platform_video_title": "Food is Medicine",
+      "platform_video_source_url": "https://carl4congress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:03:54.874Z",
+      "bio_summary": {
+        "value": "Carl Lester Boyanton is a devoted husband of 31 years, a proud father, an Enhanced Conceal Carry holder, and a lifelong conservative who has spent his life defending the principles that make America strong: faith, family, freedom, and hard work. Born into poverty in Memphis and raised across Mississippi, Boyanton learned early that nothing replaces personal responsibility and grit. Baptized in the Southern Baptist faith as a young boy in Picayune, he grew up in the Pearl River County public schools and worked a string of blue‑collar jobs to help his family get by.",
+        "source_url": "https://carl4congress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:47.179Z",
+      "campaign_site_url": "https://carl4congress.com",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:06.320Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "walter-ezell",
+      "full_name": "EZELL, WALTER MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2MS04258",
+      "fec_status": "C",
+      "bioguide_id": "E000235",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 990105.85,
+        "totalSpent": 1018211.84,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 12096.26,
+          "largeDollar": 451932.38,
+          "pac": 477000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "more than 42 years as a law enforcement officer; police officer, chief of police, sheriff",
+          "source_url": "https://www.mikeezell.ms/",
+          "snippet": "Congressman Mike Ezell spent more than 42 years as a law enforcement officer fighting to protect the people and communities of South Mississippi",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security",
+          "value": "Committed to securing the southern border",
+          "snippet": "He's working to tackle Biden's crippling inflation, secure our souther n border and support our military, law enforcement and first responders."
+        },
+        {
+          "topic": "Abortion",
+          "value": "Protect unborn children",
+          "snippet": "Protect Our Unborn Children"
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Support law enforcement and first responders",
+          "snippet": "He's working to tackle Biden's crippling inflation, secure our souther n border and support our military, law enforcement and first responders."
+        },
+        {
+          "topic": "Military and Veterans",
+          "value": "Stand up for the military and veterans",
+          "snippet": "Stand Up for Our Military & Veterans"
+        }
+      ],
+      "platform_source_url": "https://www.mikeezell.ms/",
+      "_platform_resolved_at": "2026-08-13T17:18:59.428Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Coast Guard and Maritime Transportation",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Economic Development, Public Buildings, and Emergency Management",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 43,
+        "bills_cosponsored": 425,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.555,
+          "nominateDim2": 0.144,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/E000235"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 85.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/E000235"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Congressman Mike Ezell spent more than 42 years as a law enforcement officer fighting to protect the people and communities of South Mississippi As our Congressman, Mike is committed to showing up, speaking up, and standing up for our conservative South Mississippi values every day. He's working to tackle Biden's crippling inflation, secure our souther n border and support our military, law enforcement and first responders.",
+        "source_url": "https://www.mikeezell.ms/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:41.869Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:15.179Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=d0f1SGiFUI0",
+      "platform_video_title": "Hypocrisy - Mike Ezell For Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:15.179Z",
+      "campaign_site_url": "https://mikeezell.ms",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:06.322Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "jeffrey-hulum",
+      "full_name": "HULUM, JEFFREY III",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6MS04242",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 29045.18,
+        "totalSpent": 22863.5,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 5890.18,
+          "largeDollar": 19055,
+          "pac": 0,
+          "party": 500,
+          "selfFunded": 3500
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1976-07-23",
+          "source_url": "https://www.wikidata.org/wiki/Q115662113",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Gulfport, Mississippi",
+          "source_url": "https://www.wikidata.org/wiki/Q115662113",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Gulfport Public Schools",
+          "source_url": "https://www.jeffreyhulumiiiforcongress.com/",
+          "snippet": "I was raised in the Gaston Point Community in Gulfport and am a proud product of Gulfport Public Schools.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Enlisted in the United States Army at 18 and served for 22 years, rising to the rank of Sergeant Major; founder of Extend A Hand, Help A Friend nonprofit",
+          "source_url": "https://www.jeffreyhulumiiiforcongress.com/",
+          "snippet": "I enlisted in the United States Army at 18 and served for 22 years, rising to the rank of Sergeant Major. It was the honor of a lifetime to lead, support, and protect the soldiers entrusted to me, often in high-pressure situations. Service taught me discipline, integrity, and the importance of standing up when others are counting on you. Serving at Home After retiring from the Army, I came home to serve my community. My time spent around the world provided a new perspective; it was clear just how deeply ours had been impacted by going without a grocery store for more than a generation. We decided to combat food insecurity and give people an opportunity to receive fresh, nutritious foods right in our own neighborhood.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Founder of Extend A Hand, Help A Friend, a nonprofit serving families, children, and seniors across the Mississippi Gulf Coast",
+          "source_url": "https://www.jeffreyhulumiiiforcongress.com/",
+          "snippet": "the founder of Extend A Hand, Help A Friend, a nonprofit serving families, children, and seniors across the Mississippi Gulf Coast",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Central Texas College (attended)",
+          "source_url": "https://en.wikipedia.org/wiki/Jeffrey_Hulum_III",
+          "snippet": "He attended Central Texas College .",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Food Insecurity",
+          "value": "Combat food insecurity and give people an opportunity to receive fresh, nutritious foods",
+          "snippet": "We decided to combat food insecurity and give people an opportunity to receive fresh, nutritious foods right in our own neighborhood."
+        },
+        {
+          "topic": "Working Families",
+          "value": "Fight for working families and be a voice for everyone in South Mississippi",
+          "snippet": "running for Congress to fight for working families and be a voice for everyone in South Mississippi"
+        },
+        {
+          "topic": "Accountability and Responsiveness",
+          "value": "Provide representation that listens, responds, and cares enough to be accountable to the real needs of our district",
+          "snippet": "South Mississippi deserves representation that listens, responds, and cares enough to be accountable to the real needs of our district."
+        }
+      ],
+      "platform_source_url": "https://www.jeffreyhulumiiiforcongress.com/",
+      "_platform_resolved_at": "2026-08-13T17:19:04.158Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jeffrey Hulum III is a 22-year Army veteran, born and raised in Gulfport, MS, running for Congress to fight for working families and be a voice for everyone in South Mississippi. We will win together by showing up for each other.",
+        "source_url": "https://www.jeffreyhulumiiiforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:56:49.654Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:15.509Z",
+      "campaign_site_url": "https://www.jeffreyhulumiiiforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-31T22:49:06.318Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
