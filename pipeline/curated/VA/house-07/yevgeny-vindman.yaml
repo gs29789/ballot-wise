@@ -1,0 +1,144 @@
+# vindmanforcongress.com sits behind a Cloudflare human-verification
+# challenge, so the pipeline could never read it. The text below was read
+# off the live "Issues" page by a person and quoted verbatim, same
+# quote-anchored rule llmExtract.ts enforces on an automated pass: every
+# `value` is traceable to its own `snippet`, nothing inferred.
+#
+# The page is unusually long (18 issue sections) and briefly switches from
+# third-person "Eugene" to first-person "I" mid-paragraph under "Drive
+# Innovation and Grow the American Economy" -- a real quirk of the
+# published page, quoted as-is rather than smoothed over. His criticism of
+# tariffs, DOGE and ICE detention facilities is framed as his own policy
+# view throughout, not an attack on a named opponent, and is kept on that
+# basis -- distinct from the opponent-argument passages excluded from
+# every other curated file this session.
+# oEmbed-audited before being recorded, per the standing rule that no
+# video is published on a link alone: YouTube's own oEmbed returns title
+# "Call to Serve" on channel "Eugene Vindman for Congress"
+# (youtube.com/@Vindmanforcongress), whose handle matches
+# vindmanforcongress.com exactly.
+platform_video:
+  video_url: "https://www.youtube.com/watch?v=HpDUNkwC3z0"
+  video_title: "Call to Serve"
+  source_url: "https://www.youtube.com/@Vindmanforcongress"
+  source_type: curated
+
+platform_source_url: "https://vindmanforcongress.com/issues/"
+platform:
+  # "Lower Costs and Cut Taxes for Working Families"
+  - topic: "Anti-Competitive Business Practices"
+    value: "Working to crack down on anti-competitive business practices and lower costs for working families and small businesses"
+    snippet: "In Congress, Eugene is working to crack down on anti-competitive business practices, lower costs for working families, support small businesses, and ensure economic development creates opportunity in every community."
+  - topic: "Energy Costs & Foreign Wars"
+    value: "Supports an all-of-the-above energy strategy and an end to costly foreign wars as part of lowering gas prices and utility bills"
+    snippet: "Vindman supports an all-of-the-above energy strategy, an end to costly foreign wars, and smart economic policies that lower gas prices and utility bills for American families."
+  - topic: "Tariffs"
+    value: "Has warned that reckless tariffs can drive up costs on everyday goods, disrupt supply chains, and make it harder for working families and small businesses to get ahead"
+    snippet: "He has also warned that reckless tariffs can drive up costs on everyday goods, disrupt supply chains, and make it harder for working families and small businesses to get ahead."
+
+  # "Fighting Corruption in Washington"
+  - topic: "Prediction Markets & Lobbying Ban"
+    value: "Leading efforts to ban members of Congress from participating in prediction markets and from lobbying former colleagues after leaving office"
+    snippet: "To restore faith in government, he is leading the congressional efforts to ban Members of Congress from participating in prediction markets and from lobbying their former colleagues after leaving office."
+  - topic: "Congressional Stock Trading"
+    value: "Supports a ban on members of Congress trading individual stocks"
+    snippet: "He also supports a ban on Members of Congress trading individual stocks."
+
+  # "Stand with Servicemembers, Veterans, and Military Families"
+  - topic: "Military Family Costs & Care"
+    value: "On the House Armed Services Committee, working to lower costs for military families, expand health care access, and strengthen mental health services"
+    snippet: "On the House Armed Services Committee, he’s fighting to lower everyday costs for military families, expand access to high-quality health care, strengthen mental health services, and ensure every veteran receives the benefits they’ve earned."
+  - topic: "Troop Pay & Shutdown Protection"
+    value: "Passed a pay raise for the troops and fought to ensure servicemembers get paid during government shutdowns"
+    snippet: "He has passed a pay raise for the troops, fought to ensure members of the military get paid during government shutdowns, and authored bipartisan bills to lower the cost of prescription drugs, housing, and college for military families."
+
+  # "Lower Health Care Costs and Protect Access to Care"
+  - topic: "Health Care Access"
+    value: "Working to lower prescription drug costs, strengthen the ACA, protect Medicare and Medicaid, and close access gaps"
+    snippet: "In Congress, he’s working to lower the cost of prescription drugs, strengthen the Affordable Care Act, protect Medicare and Medicaid, and close the gaps in access that leave too many communities behind."
+  - topic: "Military Family Drug Costs"
+    value: "Leads a bill to lower prescription drug costs for servicemembers, military families and veterans while saving taxpayers billions"
+    snippet: "He also leads a commonsense bill to lower prescription drug costs for service members, military families, and veterans while saving taxpayers billions."
+
+  # "Support Law Enforcement and Safe Communities"
+  - topic: "Police Funding"
+    value: "Working to ensure every local police department is fully funded, having delivered more than $2.75 million in federal funding to law enforcement agencies this year"
+    snippet: "He is working to ensure every local police department is fully funded – having delivered more than $2.75 million in federal funding to law enforcement agencies this year – and has led bipartisan efforts to combat the fentanyl crisis and save lives."
+  - topic: "Root Causes of Crime"
+    value: "Says lasting public safety also requires addressing root causes of crime like poverty, addiction and lack of opportunity"
+    snippet: "He also understands that lasting public safety also requires addressing the root causes of crime, like poverty, addiction, and lack of opportunity."
+
+  # "Make Data Centers Pay Their Fair Share"
+  - topic: "Data Center Siting"
+    value: "Believes data centers should not be sited near national parks, schools or residential communities"
+    snippet: "He continues to assert that data centers should not be near any National Parks, schools, or near residential communities."
+  - topic: "Data Center Costs"
+    value: "Believes data centers need to pay their fair share, citing constituent concerns about rising energy costs and environmental impact"
+    snippet: "Eugene believes that data centers need to pay their fair share. Virginia should welcome innovation, but not at any cost."
+
+  # "Drive Innovation and Grow the American Economy"
+  - topic: "AI Guardrails"
+    value: "Has supported AI legislation to study these issues and voted for commonsense guardrails protecting consumers, workers and national security"
+    snippet: "Eugene has supported AI legislation to study these issues and voted for commonsense guardrails that protect consumers, safeguard workers, and preserve our national security."
+
+  # "Protect Social Security, Medicaid, and Medicare"
+  - topic: "Social Security, Medicare & Medicaid"
+    value: "Will stand firmly against any attempt to cut Social Security, Medicare or Medicaid"
+    snippet: "In Congress, Eugene will stand firmly against any attempt to cut Social Security, Medicare, or Medicaid."
+
+  # "Strengthen Public Education and Expand Opportunity"
+  - topic: "School Funding"
+    value: "Fighting to ensure Congress provides the funding, resources and support schools need so every student has a fair shot"
+    snippet: "That’s why he’s fighting to ensure Congress provides the funding, resources, and support our schools need so that every student has a fair shot at success."
+  - topic: "Phones in Classrooms"
+    value: "Leads a bipartisan effort to get phones out of K-12 classrooms"
+    snippet: "He is also the leader of a bipartisan effort to restore quality education for students nationwide by getting phones out of K-12 classrooms."
+
+  # "Strengthen Alliances and Defend America from Global Threats"
+  - topic: "Military Readiness"
+    value: "As a House Armed Services Committee member, committed to strengthening global alliances and keeping the military equipped and ready"
+    snippet: "As a member of the House Armed Services Committee, Eugene is committed to strengthening our global alliances and ensuring our military remains equipped, ready, and capable of confronting the threats of today and tomorrow."
+
+  # "Protect Abortion Access and Reproductive Freedom"
+  - topic: "Abortion Access"
+    value: "Sponsors legislation to restore abortion access nationwide and will vote against any attempt to ban abortion, IVF or contraceptives"
+    snippet: "He is the proud sponsor of legislation to restore abortion access nationwide, and as a member of the Reproductive Freedom Caucus, he will keep working to protect Virginians’ access to vital reproductive care."
+  - topic: "Reproductive Care for Servicewomen"
+    value: "Will fight to ensure servicewomen can access reproductive health care no matter where they are stationed"
+    snippet: "He will also fight to ensure that servicewomen never have to worry about accessing reproductive healthcare no matter where they are stationed."
+
+  # "Stand with Virginia's Federal Workers"
+  - topic: "Federal Workforce Protection"
+    value: "Supports protecting federal workers from political attacks and shutdowns, and rebuilding agencies weakened by DOGE-driven cuts"
+    snippet: "He strongly supports protecting federal workers from political attacks and reckless government shutdowns, rebuilding agencies weakened by DOGE-driven cuts and chaos, and ensuring public servants are treated with the dignity, respect, and stability they deserve."
+
+  # "Welcoming Legal Immigrants While Securing America's Borders"
+  - topic: "ICE Detention Facilities"
+    value: "Joined community leaders opposing proposed ICE mega-detention facilities in Stafford and Hanover"
+    snippet: "He knows that America is at its best when we treat people with dignity and respect, and that is why he joined community leaders in standing against proposed U.S. Immigration and Customs Enforcement mega-detention facilities in Stafford and Hanover."
+  - topic: "Legal Immigration Pathways"
+    value: "Supports cracking down on transnational crime while creating simpler legal pathways for taxpaying immigrants seeking to do things the right way"
+    snippet: "Eugene supports cracking down on transnational crime and violent criminals, alongside simpler, legal pathways for people who pay their taxes and are trying to do things the right way."
+
+  # "Support America's Farmers and Food Producers"
+  - topic: "Agriculture"
+    value: "As the only Virginian on the House Agriculture Committee, committed to expanding farmer market access, investing in rural infrastructure, and strengthening nutrition programs"
+    snippet: "Eugene is committed to expanding market access for farmers, investing in rural infrastructure, and strengthening key nutrition programs that benefit Virginia families and producers alike."
+
+  # "Invest in Transportation, Infrastructure, and American Manufacturing"
+  - topic: "Manufacturing & Infrastructure"
+    value: "Would expand domestic manufacturing and upgrade roads, bridges, ports and energy systems to create jobs and lower costs"
+    snippet: "By expanding domestic production, strengthening supply chains, and upgrading our roads, bridges, ports, and energy systems, we can create good-paying jobs, support small businesses, lower costs, reduce reliance on foreign competitors, and most importantly, improve quality of life for Virginians."
+  - topic: "Local Transportation Projects"
+    value: "Secured millions of dollars for community-requested transportation and infrastructure projects to reduce congestion"
+    snippet: "That’s why he secured millions of dollars for community-requested transportation and infrastructure projects that will improve safety, reduce congestion, and help Virginians spend less time on the road and more time focused on their families, jobs, and businesses."
+
+  # "Uphold Unions and Bring Union Jobs to Virginia"
+  - topic: "Labor Unions"
+    value: "Strongly supports workers' right to organize, collectively bargain and earn fair wages"
+    snippet: "That’s why he strongly supports workers’ right to organize, collectively bargain, and earn fair wages for their work."
+
+  # "Protect Our Environment and Address Climate Change"
+  - topic: "Clean Energy"
+    value: "Supports bold investments in clean energy, reducing carbon emissions, transitioning away from fossil fuels, and lowering energy bills"
+    snippet: "He supports bold investments in clean energy, efforts to reduce carbon emissions, transitioning away from fossil fuels, lowering energy bills for Virginians and policies that position Virginia as a leader in the green economy."

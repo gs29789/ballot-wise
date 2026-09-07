@@ -1,0 +1,89 @@
+# markwarnerva.com sits behind a Cloudflare human-verification challenge,
+# so the pipeline could never read it. The text below was read off the
+# live site by a person and quoted verbatim, same quote-anchored rule
+# llmExtract.ts enforces on an automated pass.
+#
+# Upgrades a 598-character Wikipedia summary to his campaign's own "Meet
+# Mark" biography -- campaign_site outranks wikipedia in
+# campaignBioSummary.ts's waterfall, and here the two agree on
+# usefulness too: this passage covers his origin story, education and
+# family in more detail than the Wikipedia stub, without dropping
+# anything load-bearing (his Senate seat, governorship and party are
+# already carried by curated bio fields elsewhere on this record). Picked
+# as ONE contiguous passage per the same rule the automated extractor
+# follows, from a page structured in four chronological sections (early
+# life, entrepreneur, governor, senator) rather than stitching across
+# them.
+# His "Plan" page, read directly by the user and pasted verbatim -- the
+# same wall that blocked bio content blocks this too. Organized under his
+# site's own five section headings (Affordable, Delivering, Safety,
+# Values, Freedoms). Two passages are framed as attacks on Republicans
+# generally rather than his own commitments ("Republicans bent the
+# Senate rules...", the Roe v. Wade paragraph's opening) -- excluded per
+# this file's standing rule against attributing opponent argument to the
+# candidate as platform; the abortion-amendment commitment that follows
+# in the same paragraph IS his own and is kept.
+platform_source_url: "https://www.markwarnerva.com/plan/"
+platform:
+  # "Making Virginia Affordable"
+  - topic: "Housing Supply"
+    value: "Would expand housing supply and bring down costs by encouraging rehabilitation of existing structures, speeding up permitting, and easing first-time homebuyer mortgages"
+    snippet: "In the Senate, Mark’s plan is designed to expand housing supply and bring down costs by encouraging rehabilitation of existing structures, speeding up permitting, and making it easier for first-time homebuyers to obtain their first mortgage."
+  - topic: "Child Care"
+    value: "Has worked to drive down child care costs by addressing the child care labor crisis"
+    snippet: "He has also worked to drive down the cost of child care by addressing the child care labor crisis."
+  - topic: "Affordable Care Act"
+    value: "Helped write the ACA and continues working to strengthen it, believing affordable basic coverage for every American is necessary to lower premiums and keep the system sustainable"
+    snippet: "During his first term in the Senate, Mark helped write the Affordable Care Act, and has worked ever since to strengthen it. He believes that the only way to lower premiums and keep the health care system sustainable is to ensure every American has access to an affordable basic standard of care."
+  - topic: "AI and Jobs"
+    value: "Believes AI companies and large corporations profiting from AI disruption must help prepare workers for the future economy and pay their fair share of AI's energy demands"
+    snippet: "Mark believes the AI companies and big corporations that stand to massively profit from this disruption must do their part, including preparing workers for the economy of the future and paying their fair share of the enormous energy demands AI will place on our grid."
+
+  # "Delivering for Virginians"
+  - topic: "Broadband & Infrastructure"
+    value: "As a primary author of the bipartisan infrastructure bill, secured funding for rural broadband and transportation projects, putting Virginia on track for universal broadband access"
+    snippet: "As a primary author of the landmark bipartisan infrastructure bill, Mark secured funding to expand high-speed internet in rural Virginia and key transportation and infrastructure projects throughout the Commonwealth."
+  - topic: "CHIPS and Science Act"
+    value: "Wrote the CHIPS and Science Act to bring advanced manufacturing back to the U.S. instead of relying on foreign countries for critical technology"
+    snippet: "Mark wrote the groundbreaking CHIPS and Science Act, which is bringing advanced manufacturing back to America instead of relying on foreign countries for critical technology."
+  - topic: "Prescription Drug Costs"
+    value: "Helped cap the price of insulin, lower prescription drug costs for seniors, and is fighting to extend tax credits that make health care more affordable for the middle class"
+    snippet: "Mark helped cap the price of insulin, lower prescription drug costs for seniors, and is fighting to extend tax credits that make healthcare more affordable for the middle class."
+  - topic: "Veterans Health & Toxic Exposure"
+    value: "Supported the PACT Act expanding health coverage and benefits for veterans exposed to burn pits and other toxic chemicals"
+    snippet: "He was also proud to support the PACT Act, which expanded health care coverage and benefits for veterans exposed to burn pits and other toxic chemicals."
+  - topic: "Veterans Care & Housing"
+    value: "Championed legislation on toxic exposure, mental health care and reducing VA wait times, and led efforts to repair substandard military housing"
+    snippet: "He championed legislation to address toxic exposure, improve mental health care, reduce wait times at VA clinics and make sure that veterans can receive the care they deserve closer to home. Mark has also led efforts to repair substandard military housing so that servicemembers and their families have the stability and dignity they deserve."
+
+  # "Keeping Americans Safe"
+  - topic: "Defense Technology"
+    value: "Says 21st-century security depends on leading in AI, unmanned systems, advanced computing, quantum and cybersecurity, not just traditional weapons"
+    snippet: "Mark knows 21st-century security won’t just be about who has the most planes, guns, or missiles. It’s also about who leads in AI, unmanned systems, advanced computing, quantum, cybersecurity, and other technologies that will define the next generation of warfare, and he’s worked to ensure that the U.S. stays ahead."
+  - topic: "Protecting U.S. Innovation"
+    value: "Has championed protecting critical technologies, boosting federal R&D, and protecting U.S. intellectual property from theft"
+    snippet: "Mark has championed policies to protect critical technologies, boost federal R&D, and protect U.S. intellectual property from theft."
+  - topic: "Countering China"
+    value: "As top Democrat on the Senate Intelligence Committee, has led bipartisan efforts to counter Chinese technological and economic aggression, including securing supply chains and screening foreign investment"
+    snippet: "As the top Democrat on the Senate Intelligence Committee, Mark has led bipartisan efforts to counter the Chinese government’s technological and economic aggression – from securing supply chains to cracking down on foreign investments that threaten U.S. national security."
+
+  # "Upholding Virginia Values"
+  - topic: "Bipartisanship"
+    value: "Has sponsored 85 bills signed into law by both Democratic and Republican presidents"
+    snippet: "Mark has sponsored 85 bills that have been signed into law – by both Democratic and Republican presidents."
+
+  # "Fighting to Protect our Freedoms"
+  - topic: "Electoral Count Act"
+    value: "Helped negotiate and pass a revised Electoral Count Act clarifying the Vice President cannot overturn the people's will when Congress certifies a presidential election"
+    snippet: "Mark helped negotiate and pass a revised Electoral Count Act to make clear that the Vice President does not have the power to overturn the will of the people when Congress is certifying the presidential election."
+  - topic: "Abortion"
+    value: "Will work to pass a Virginia constitutional amendment protecting abortion access, along with amendments protecting marriage equality and restoring voting rights"
+    snippet: "Mark will work to ensure this amendment passes as well as other critical state constitutional amendments to protect marriage equality and the restoration of voting rights."
+  - topic: "Gun Safety"
+    value: "Believes Americans have the right to own guns, but supports commonsense solutions including banning assault weapons and background checks"
+    snippet: "He believes that Americans have the right to own guns, but that we need commonsense solutions like banning assault weapons and background checks to keep our communities safe."
+
+bio_summary:
+  value: "The son of a Marine who fought at Iwo Jima, Mark grew up in a family that moved around a lot. An active Boy Scout, enthusiastic but unaccomplished athlete, and senior class president, he approached every day with the same qualities that still define him: genuine warmth, an approachable spirit, and an unshakable drive to get things done. The first person in his family to graduate from college, he earned his degree as valedictorian of George Washington University before continuing on to Harvard Law School. Mark met his wife, Lisa, at a party in Northern Virginia. Together, they raised three daughters – Madison, Gillian, and Eliza – and are now proud grandparents to two boys."
+  source_url: "https://www.markwarnerva.com/"
+  source_type: campaign_site

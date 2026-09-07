@@ -30,6 +30,49 @@ const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "";
 const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
 
+// Why a candidate's own site produced nothing, keyed by the reachability
+// classification the pipeline records (see scaleCampaignSiteDiscovery.ts).
+// The address is published in every one of these cases, including the
+// broken ones: what a campaign filed with the FEC is a fact about that
+// campaign, and suppressing a dead or walled-off site would be shielding
+// them at the reader's expense. What changes between cases is only the
+// explanation — "go read it yourself" is good advice for a site that
+// refuses us but works for humans, and a waste of a click for one that
+// does not resolve at all, where the useful information is that the
+// address on file is broken. Every classification the pipeline can emit
+// has an entry here; the lookup at the call site also falls back to
+// `reachable` for any value that somehow isn't one of these (unclassified,
+// or a status added to the pipeline later that this list hasn't caught up
+// to yet), so a filed address is never silently withheld just because its
+// specific reachability value didn't get its own branch.
+const UNREADABLE_SITE = {
+  cloudflare_challenge: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "They have no stated positions on file here because their official site blocks automated checks with a bot-verification service — not because they haven't published any.",
+  },
+  blocked_other: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "They have no stated positions on file here because their official site refuses automated requests — not because they haven't published any.",
+  },
+  dead: {
+    heading: "The website on file for this candidate doesn't load.",
+    body: () =>
+      "The address below is the one their campaign filed, but it doesn't resolve — so there's nothing we can read, and nothing there for you to read either. It's shown so you can see what was filed.",
+  },
+  // The site loads fine — reachability itself was never the obstacle here.
+  // What's missing is the extractor finding positions on it: the wrong page
+  // guessed, a layout it doesn't parse, or genuinely nothing published yet.
+  // We can't tell which from here, so the wording stays as agnostic about
+  // the cause as the reachable-but-empty classification itself is.
+  reachable: {
+    heading: "Read this candidate's positions on their own site.",
+    body: () =>
+      "Their official site loads fine, but nothing on it matched the format our automated check looks for — not because they haven't published any positions.",
+  },
+};
+
 // USPS state abbreviation -> full name, for the direct-district-entry
 // fallback (parseDistrictInput below), which never gets a state name back
 // from Census the way geocodeAddress's result does.
@@ -1156,7 +1199,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       </div>
       </div>
       <div style={{ fontSize: 11, color: T.inkSoft, marginTop: -12, marginBottom: 18, padding: "0 4px", fontStyle: "italic" }}>
-        Quoted directly from each candidate's own campaign site — presented as-is, not evaluated or characterized by Ballot-Wise. Click "Full profile" on a candidate for the full statement and exact quote behind each position.
+        Quoted directly from each candidate's own official site — presented as-is, not evaluated or characterized by Ballot-Wise. Click "Full profile" on a candidate for the full statement and exact quote behind each position.
       </div>
 
       <EarlyStageSection candidates={earlyStage} onOpenProfile={onOpenProfile} />
@@ -1379,30 +1422,65 @@ function CandidateProfileView({ candidate, race, onBack }) {
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 8, padding: "0 4px" }}>
                 Quoted directly from{" "}
                 <a href={candidate.platform_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
-                  the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                  the candidate's own official site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
                 </a>
                 {" "}— presented as-is, not evaluated or characterized by Ballot-Wise.
               </div>
             )}
           </>
+        ) : candidate.campaign_site_url ? (
+          // "No public record found" would be false for any of these: the
+          // candidate filed a website, and the reason nothing was extracted is
+          // ours or theirs, not an absence of published positions. The address
+          // is always shown, whatever the reason — what a campaign filed is a
+          // fact about that campaign, and hiding a broken or walled-off one
+          // would be doing them a favour at the reader's expense. But the
+          // WORDING has to match the actual cause: telling someone to go read
+          // a site that does not resolve would waste their click and make the
+          // page look wrong rather than the filing. Falls back to the
+          // `reachable` wording for any status UNREADABLE_SITE doesn't have an
+          // entry for (null/not-yet-classified, or a future pipeline value) —
+          // it's the most defensible default: assume the site itself is fine
+          // and only our read of it is in question, rather than stay silent
+          // and suppress a filed address the reader has a right to see.
+          <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.warnSoft, border: `1px solid ${T.warn}`, borderRadius: 6, padding: "10px 14px", margin: "9px 4px" }}>
+            <Info size={16} color={T.warn} style={{ flexShrink: 0, marginTop: 2 }} />
+            <div style={{ fontSize: 12.5, color: T.ink }}>
+              <strong>{(UNREADABLE_SITE[candidate._campaign_site_reachability] ?? UNREADABLE_SITE.reachable).heading}</strong>
+              <div style={{ color: T.inkSoft, marginTop: 3 }}>
+                {(UNREADABLE_SITE[candidate._campaign_site_reachability] ?? UNREADABLE_SITE.reachable).body()}
+                {candidate.campaign_site_url && (
+                  <div style={{ marginTop: 6 }}>
+                    {/* Shows the real address rather than a generic "visit their
+                        site" label: the reader can see exactly where they're
+                        being sent before they click, which matters more than
+                        usual here, since this is the one place the site sends
+                        people off to read a claim it couldn't verify itself. */}
+                    <a href={candidate.campaign_site_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold, wordBreak: "break-all" }}>
+                      {candidate.campaign_site_url.replace(/^https?:\/\//, "").replace(/\/$/, "")} <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                    </a>
+                  </div>
+                )}
+              </div>
+            </div>
+          </div>
         ) : !candidate.platform_video_url ? (
           <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", padding: "9px 4px" }}>No public record found.</div>
         ) : null}
-        {!candidate.platform_video_url && candidate._campaign_site_reachability === "cloudflare_challenge" && (
+        {/* Stated positions and a campaign video are separate facts about a
+            candidate, so a missing video is reported on its own rather than
+            folded into the positions banner above — a reader looking for one
+            should not have to infer it from a sentence about the other. This
+            renders whenever the video is missing and the site is unreadable,
+            including when positions are missing too; the wording stays
+            specific to video so the two never read as a single gap. */}
+        {!candidate.platform_video_url && UNREADABLE_SITE[candidate._campaign_site_reachability] && (
           <div style={{ padding: "9px 4px", borderTop: candidate.platform?.length ? `1px dashed ${T.line}` : "none" }}>
             <div style={{ fontSize: 12.5, color: T.inkSoft }}>Campaign video</div>
             <div style={{ fontSize: 13, color: T.inkSoft, fontStyle: "italic", marginTop: 4 }}>
-              No campaign video on file — their official site blocks automated checks with a bot-verification service, so this
-              couldn't be checked automatically.
-              {candidate.campaign_site_url && (
-                <>
-                  {" "}
-                  <a href={candidate.campaign_site_url} target="_blank" rel="noreferrer noopener" style={{ color: T.gold }}>
-                    Visit their site directly <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
-                  </a>{" "}
-                  to look yourself.
-                </>
-              )}
+              {candidate._campaign_site_reachability === "dead"
+                ? "No campaign video on file — the website their campaign filed doesn't load, so there was nowhere to look for one."
+                : "No campaign video on file — their official site couldn't be checked automatically, so there may be one there."}
             </div>
           </div>
         )}
@@ -1424,11 +1502,30 @@ function CandidateProfileView({ candidate, race, onBack }) {
                 />
               </div>
             )}
-            {candidate.platform_video_source_url ? (
+            {/* "the candidate's own official site" is a claim about
+                provenance, so it may only be made when that is actually where
+                the video came from. A hand-curated video can be published on
+                someone else's channel -- a local outlet's profile piece, for
+                example -- and calling that their official site would be a
+                false attribution, which matters more here than anywhere else
+                on the page. Only source types that genuinely mean "their own
+                site" get that wording; anything else gets a neutral label.
+                Legacy records predating platform_video_source_type keep the
+                original wording, since those were all tier-1 site links. */}
+            {candidate.platform_video_source_url &&
+            (candidate.platform_video_source_type === "curated" || candidate.platform_video_source_type === "wikipedia") ? (
+              <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
+                Source:{" "}
+                <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
+                  {candidate.platform_video_source_url.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "")}{" "}
+                  <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                </a>
+              </div>
+            ) : candidate.platform_video_source_url ? (
               <div style={{ fontSize: 11, color: T.inkSoft, marginTop: 4 }}>
                 Linked from{" "}
                 <a href={candidate.platform_video_source_url} target="_blank" rel="noreferrer noopener" style={{ color: T.inkSoft }}>
-                  the candidate's own campaign site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
+                  the candidate's own official site <ExternalLink size={10} style={{ verticalAlign: "middle" }} />
                 </a>
               </div>
             ) : candidate.platform_video_tier === 2 ? (

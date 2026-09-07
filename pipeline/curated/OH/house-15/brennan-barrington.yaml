@@ -1,0 +1,105 @@
+# barrington.lpo.org sits behind a Cloudflare human-verification
+# challenge, so the pipeline could never read it. The text below was read
+# off the live site by a person and quoted verbatim, same quote-anchored
+# rule llmExtract.ts enforces on an automated pass: every `value` is
+# traceable to its own `snippet`, nothing inferred.
+#
+# Drawn from two pages: "My Core Principles" and "Why I Am A Candidate".
+# Both are unusual for this dataset -- long-form
+# political philosophy rather than a bulleted platform, arguing from
+# first principles about freedom, incentives and federalism before
+# arriving at policy. Only the passages that state a POSITION he would
+# act on are recorded; the surrounding historical and philosophical
+# argument, however substantial, is reasoning rather than platform and is
+# left on his page where a reader can weigh it in full. The link in
+# platform_source_url goes to that page for exactly that reason.
+#
+# DELIBERATELY EXCLUDED: his characterizations of the two other OH-15
+# candidates (that one "advocates socialism" and the other "supports
+# crony capitalism and a nationalist form of socialism"). That is
+# argument about opponents, not his own platform -- same call made on
+# Luria/Kiggans, Pulido/De La Cruz, Schwartz/Harris, DeSpain/Hoyle and
+# Smead/Graves. His blog likewise carries a post titled "Don Leonard's
+# Socialist Stances", which is not drawn on here for the same reason.
+#
+# ALSO EXCLUDED: the lengthy Theodore Roosevelt passage in his footnotes
+# and the block quotation from Astral Codex Ten near the end of "Why I Am
+# A Candidate". Both are other people's words that he quotes approvingly,
+# not statements of his own position, and attributing them to him as
+# platform would misrepresent both him and the original authors.
+platform_source_url: "https://barrington.lpo.org/my-core-principles/"
+platform:
+  - topic: "Individual Freedom"
+    value: "Argues interference with a person's choices generally reduces their welfare, since individuals know their own preferences best and have the strongest incentive to act on them"
+    snippet: "Freedom benefits people because they know their own preferences and their relative importance better than anyone else, and because they have the strongest incentive to maximize their own utility."
+  - topic: "Role of Government"
+    value: "Holds that classes, nations and governments cannot have rights, and that the role of government is to protect the rights of individual people"
+    snippet: "Classes, nations, and governments cannot, and should not be pretended to, have rights. Individual people exist, and the role of government is to protect their rights."
+  - topic: "Free Markets"
+    value: "Describes himself as the candidate who stands for free markets and free enterprise, under the slogan \"Freedom Is Optimal\""
+    snippet: "I consider myself the candidate who actually stands for free markets and free enterprise."
+  - topic: "Personal Responsibility"
+    value: "Holds that those who violate others' rights must pay compensation to the victim or to society, so people bear the costs they create and capture the benefits they generate"
+    snippet: "This is the basic reason for the principle of accountability or personal responsibility: those who violate the rights of others must be made to pay compensation, either to the victim or to society."
+  - topic: "Market vs Central Planning"
+    value: "Holds that what is socially beneficial should be determined by market preferences in aggregate rather than by central planners"
+    snippet: "However, what is socially beneficial should be determined by the market, i.e., other citizens’ preferences in aggregate, not central planners or social engineers."
+  - topic: "Homelessness & Property Owners"
+    value: "Opposes penalizing property owners for allowing homeless people on their property, arguing the remedy is to arrest and require restitution from those who actually commit theft or vandalism, or direct them to treatment"
+    snippet: "The proper policy remedy is to arrest the thieves and vandals, and compel them to work to pay for the value of what they stole or damaged, or into mental health or drug addiction treatment if that is not possible given their mental state."
+  - topic: "Pollution"
+    value: "Treats pollution as aggression against others' property including the shared atmosphere and oceans, and would require polluters to compensate those affected"
+    snippet: "Pollution is aggression, as it intrudes on the property of others, and the collective property of humanity in the atmosphere and oceans, without their consent. Polluters should be made to compensate those whose property, including shared property such as the atmosphere, is negatively affected by their pollution."
+  - topic: "Federalism"
+    value: "Supports the Tenth Amendment principle that power is delegated to government by the people only so far as it serves their interest and may be revoked"
+    snippet: "I support the principle articulated in the Tenth Amendment: that power is only delegated to government by the people to the extent it acts in their self-interest, and should be able to be freely revoked from same at any time."
+  - topic: "Interstate Commerce Clause"
+    value: "Disagrees with Wickard v. Filburn and would vote against any law or regulation exceeding a narrow reading of the interstate commerce power, limited to tangible objects physically crossing state lines and cross-state services"
+    snippet: "I disagree with the reasoning of Wickard v. Filburn , and would vote against any law or regulation which would exceed the federal government’s proper power to regulate interstate commerce: that applying only to tangible objects which physically cross state borders and services provided by one’s state’s resident to another’s."
+  - topic: "Limits of Decentralization"
+    value: "Says decentralization is not a way to decentralize tyranny, and that the federal government should still guarantee basic rights against state and local abuse, including freedom of movement"
+    snippet: "I do not, however, accept decentralization as a way to decentralize tyranny. There is no meaningful difference between my mayor telling me what to do at implicit gunpoint and the President doing the same. My vision includes a federal government which still guarantees and protects the basic rights of all from abuses by any state or local government, including ensuring freedom of movement."
+  - topic: "Electoral Reform"
+    value: "Has advocated electoral reform since 2016 to address the spoiler problem, and supports ranked choice voting as easy to use, encouraging positive campaigning, and letting newer parties win support"
+    snippet: "This confirmed my belief that RCV is easy to understand and use, encourages positive campaigning and finding common ground, and allows newer parties and candidates to win support and influence the result."
+  - topic: "Milk Price Controls"
+    value: "Advocated to Maine state legislators for eliminating the state minimum milk price to lower costs and improve health"
+    snippet: "advocated to state legislators for elimination of a state minimum milk price to lower costs and thus improve health"
+
+  # "Why I Am A Candidate"
+  - topic: "Congressional Agenda"
+    value: "Would cut taxes and spending, eliminate regulation of what he considers intrastate commerce, end use of taxpayer money to influence local policy, and return necessary government functions to the states"
+    snippet: "This means, for Congress, cutting taxes, cutting spending, eliminating regulations on what should properly be considered intrastate commerce, ending use of taxpayer money to manipulate local policy, and returning such government functions as are necessary (for which local taxpayers are actually willing to pay) to the states."
+  - topic: "Lowering Federal Election Stakes"
+    value: "Would reduce the stakes of federal elections by returning power from Washington to states, communities and individuals, arguing the union can hold if the federal government stops being used for social engineering"
+    snippet: "My proposed alternative is to reduce the stakes of federal elections by taking that power back from DC and returning it to the states, local communities, and (most importantly) individual citizens. The United States can survive as a union for common defense and free trade if we stop trying to use the federal government to do social engineering on each other."
+  - topic: "Federal Protection of Rights"
+    value: "Says the federal government would continue protecting every American's human rights from state action, on the Fourteenth Amendment principle that localized oppression is still oppression"
+    snippet: "However, the federal government would continue to protect the human rights of every American from state action, upholding the principle in the 14th Amendment that localized oppression is still oppression."
+  - topic: "Governing Philosophy"
+    value: "Aims to uphold classically liberal ideals: rule of law, equality before the law, private property, personal responsibility, and freedom to act without infringing others' equal rights"
+    snippet: "My broader vision is to uphold the basic classically liberal ideals core to the identity and founding vision of the USA: rule of law, equality before the law, private property, personal responsibility, and the freedom to act in any way which does not infringe on the rights of others to do the same."
+  - topic: "Historical Exclusion"
+    value: "Explicitly rejects the late 19th century as a desired end state, noting women and non-white, non-Christian and LGBTQ Americans were excluded from liberty, and frames his goal as everyone having at least the freedom a white Protestant man had in 1870s America"
+    snippet: "I am emphatically not saying that the late 19th century or the 1920s were my desired end state or a “libertarian paradise”: female, non-white, non-Christian (or Catholic), and LGBTQ Americans were commonly excluded, by law, custom, and illegal violence, from full enjoyment of liberty and its benefits. It would, however, be a good summary of my objectives to say that I want everyone to have at least as much freedom as a white Protestant man had in 1870s America."
+  - topic: "Basis for Libertarianism"
+    value: "Supports individual liberty on consequentialist rather than natural-rights grounds, arguing it maximizes human flourishing"
+    snippet: "Rather, I support individual liberty due to consequentialist reasoning : overall, it maximizes human flourishing."
+
+# He already has a resolved bio_summary; this replaces it with his own
+# first-person account, which campaignBioSummary.ts's waterfall prefers
+# and which is also far more specific about who he is.
+bio_summary:
+  value: "I was born in Ohio and have lived here for all but two years of my life. I have a Bachelor of Science from Ohio State University in aerospace engineering, with a minor in public policy.\n\nI have been an advocate for electoral reform since the 2016 Presidential election, when the winner got a majority of votes (more than half) in neither his party’s primary nor the critical swing states in the general election. This showed me that a fundamental solution was needed to the spoiler problem.\n\nI interned in an Ohio state representative’s office in the summer of 2017, learning about and aiding in policy, constituent service, and how politics really works."
+  source_url: "https://barrington.lpo.org/"
+  source_type: campaign_site
+
+bio:
+  college:
+    value: "B.S. in aerospace engineering with a minor in public policy, Ohio State University"
+    source_url: "https://barrington.lpo.org/"
+    snippet: "I have a Bachelor of Science from Ohio State University in aerospace engineering, with a minor in public policy."
+  birthplace:
+    value: "Ohio"
+    source_url: "https://barrington.lpo.org/"
+    snippet: "I was born in Ohio and have lived here for all but two years of my life."

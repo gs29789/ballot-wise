@@ -2,14 +2,15 @@ import "dotenv/config";
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import { searchCandidates, getTotals, getCommitteeWebsite } from "./sources/fec.js";
-import { getMembersByState, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
+import { getMembersByState, getCurrentMembersByState, getMember, getLegislativeActivity, getEnactedLaws } from "./sources/congressGov.js";
+import { isHijackedDomain } from "./sources/hijackedDomains.js";
 import { getBioFacts, extractKnownQid } from "./sources/wikidata.js";
 import { extractBioFacts, extractBioFactsFromSite, EXTRACTABLE_FIELDS, type ExtractedBio } from "./sources/llmExtract.js";
 import { getCommitteeAssignments } from "./sources/congressLegislators.js";
 import { buildHouseHistorianUrl } from "./sources/houseHistorian.js";
 import { findBallotReadyBio } from "./sources/ballotReady.js";
 import { findCampaignWebsite } from "./sources/webSearchDiscovery.js";
-import { extractPlatformFromSite } from "./sources/campaignPlatform.js";
+import { extractPlatformFromSite, extractPlatformFromBallotpedia } from "./sources/campaignPlatform.js";
 import { findCampaignVideoFromSite } from "./sources/campaignVideo.js";
 import { extractBioSummaryFromSite, extractBioSummaryFromWikipedia, extractBioSummaryFromBallotpedia } from "./sources/campaignBioSummary.js";
 import { findBallotpediaUrl } from "./sources/ballotpedia.js";
@@ -30,6 +31,7 @@ import { getStateBackgroundCheckFact } from "./sources/stateBackgroundCheckLaw.j
 import { getElectionDates } from "./sources/electionDates.js";
 import { getPrimaryFilter } from "./sources/primaryResults.js";
 import { getVotingSystem } from "./sources/votingSystem.js";
+import { MISSING_CANDIDATES } from "./missingCandidates.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
 
@@ -196,6 +198,38 @@ function normalizeNameForMatch(name: string): string {
     .toLowerCase()
     .replace(/[^a-z\s]/g, "")
     .trim();
+}
+
+// Both FEC and congress.gov render names inverted ("CISNEROS, GILBERT" /
+// "Cisneros, Gilbert Ray"), so this splits on the first comma and compares
+// the halves separately. Deliberately much stricter than the surname
+// substring test it backs up: it is used to attach a sitting member's
+// congressional record (votes, committees, ideology score) to an FEC
+// candidate, and a false positive there publishes one real person's voting
+// record under another real person's name -- the same wrong-person class of
+// error this pipeline has repeatedly been burned by on Wikidata and
+// BallotReady. Surname must match EXACTLY once normalized; given names must
+// agree on their first token, allowing only the shortening that genuinely
+// occurs between these two sources ("Mike"/"Michael", "Jimmy"/"James" are
+// NOT treated as equal -- only true prefixes like "Gil"/"Gilbert", plus
+// bare middle-initial differences, since anything looser starts merging
+// distinct people).
+function namesLikelySamePerson(fecName: string, memberName: string): boolean {
+  const split = (n: string) => {
+    const i = n.indexOf(",");
+    const last = normalizeNameForMatch(i === -1 ? n : n.slice(0, i));
+    const first = normalizeNameForMatch(i === -1 ? "" : n.slice(i + 1)).split(/\s+/)[0] ?? "";
+    return { last, first };
+  };
+  const a = split(fecName);
+  const b = split(memberName);
+  if (!a.last || a.last !== b.last) return false;
+  if (!a.first || !b.first) return false;
+  if (a.first === b.first) return true;
+  // one side abbreviated to a true prefix ("gil" vs "gilbert"), but never a
+  // single initial -- "j" would match half the members in a given state.
+  const [shortName, longName] = a.first.length <= b.first.length ? [a.first, b.first] : [b.first, a.first];
+  return shortName.length >= 3 && longName.startsWith(shortName);
 }
 
 // Fills bio[field] from an LLM extraction result, but only for fields not
@@ -382,6 +416,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
   }
   const curated = loadCuratedRace(opts.state, opts.raceSlug);
   const stateMembers = await getMembersByState(opts.state);
+  const currentMembers = await getCurrentMembersByState(opts.state);
 
   const candidates = await Promise.all(
     fecCandidates.map(async (c) => {
@@ -393,9 +428,56 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // Match this FEC candidate to a sitting member for bioguideId + roll-call
       // votes. Computed early (not just before performance data, further down)
       // because the House Historian bio lookup below also needs it.
-      const matchedMember = c.incumbentChallenge === "Incumbent"
-        ? stateMembers.find((m) => normalizeNameForMatch(m.name).includes(normalizeNameForMatch(c.name.split(",")[0])))
-        : null;
+      //
+      // Two DIFFERENT questions, previously conflated into FEC's one flag:
+      //   1. Is this person a sitting member of Congress?  -> their voting
+      //      record, committees, ideology score, and official .gov site
+      //   2. Do they hold the seat THIS race is for?       -> the "incumbent"
+      //      label shown next to their name
+      // Gating everything on `incumbentChallenge === "Incumbent"` answered
+      // only #2, and answered it using a field FEC gets wrong. Confirmed on
+      // Rep. Gil Cisneros (CA-31): FEC files him as "Challenger" for the seat
+      // he currently holds, because his committee still carries his 2018
+      // CA-39 ID -- so he had a null bioguide_id and was silently missing his
+      // ENTIRE congressional record, the same end result as the Aug 2026
+      // bioguide pagination bug but from a different cause. It also affects
+      // every sitting House member running for Senate, where FEC's
+      // "Challenger" is genuinely correct for the race yet still shouldn't
+      // cost them their House record.
+      // A name match alone is not enough to assert someone sits in Congress,
+      // so every strict match is confirmed against congress.gov's per-member
+      // detail record, which carries an explicit `currentMember` boolean.
+      // Deliberately NOT verified via voting activity: the House Clerk's EVS
+      // endpoint rate-limits to a hard 403 under load (observed 2026-09-03,
+      // and the same outage class that silently wiped 12 members' vote
+      // records the day before), so "no votes returned" regularly means "the
+      // source is blocked", not "this person doesn't serve" -- treating a
+      // zero count as proof of non-incumbency would strip the label from
+      // real sitting members whenever the Clerk throttles. Newly sworn-in
+      // members legitimately have near-zero votes too. currentMember comes
+      // from a different host, is authoritative, and says exactly what we
+      // need to know. Fetched once here and reused for the official .gov
+      // site below rather than fetching the same record twice.
+      const nameMatch = currentMembers.find((m) => namesLikelySamePerson(c.name, m.name));
+      const memberDetail = nameMatch ? await getMember(nameMatch.bioguideId).catch(() => null) : null;
+      // Only an explicit `false` rejects: a null (field absent, or the
+      // detail call failed) falls back to trusting the currentMember=true
+      // list filter the match already came from, so a transient congress.gov
+      // hiccup can't silently strip a real member's record either.
+      const sittingMember = nameMatch && memberDetail?.currentMember !== false ? nameMatch : undefined;
+      const holdsThisSeat = sittingMember
+        ? opts.office === "S"
+          ? sittingMember.chamber === "Senate"
+          : sittingMember.chamber === "House" && sittingMember.district === Number(opts.district)
+        : false;
+      // Falls back to the previous (looser) lookup whenever the strict match
+      // finds nothing, so this can only ADD matches, never drop one that the
+      // old logic was already getting right.
+      const matchedMember =
+        sittingMember ??
+        (c.incumbentChallenge === "Incumbent"
+          ? stateMembers.find((m) => normalizeNameForMatch(m.name).includes(normalizeNameForMatch(c.name.split(",")[0])))
+          : null);
 
       const curatedBio = curatedEntry?.bio ?? {};
 
@@ -412,6 +494,16 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // a short window.
       const bio: Record<string, unknown> = { ...(prevCand?.bio ?? {}) };
       const stillMissing = () => EXTRACTABLE_FIELDS.some((f) => !bio[f] && !curatedBio[f]);
+      // Used by both the platform and bio_summary waterfalls below as the
+      // expectedContext/race-search-query for a Ballotpedia fallback —
+      // hoisted here (rather than declared once, right before its
+      // original bio_summary use) since platform now needs it too.
+      const raceDescription =
+        opts.office === "H"
+          ? opts.district === "00"
+            ? `${opts.state} At-Large Congressional District election, 2026`
+            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
+          : `${opts.state} U.S. Senate election, 2026`;
       // Platform is one of the two fact types that can genuinely go stale
       // (see resolveWithRefresh above) — "already resolved" here means
       // resolved AND not yet due for a recheck, not just present.
@@ -541,6 +633,11 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         }
 
         campaignSiteUrl = await getCommitteeWebsite(c.candidateId).catch(() => null);
+        // A lapsed, re-registered campaign domain must never be published as
+        // the candidate's own site -- see hijackedDomains.ts. Dropped before
+        // any extraction runs against it, so nothing from the squatter's page
+        // can reach a bio or platform field either.
+        if (isHijackedDomain(campaignSiteUrl)) campaignSiteUrl = null;
 
         if (stillMissing() && campaignSiteUrl) {
           const extracted = await extractBioFactsFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null);
@@ -555,6 +652,7 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // check as every other source here.
         if (!campaignSiteUrl) {
           campaignSiteUrl = await findCampaignWebsite(c.name, expectedContext).catch(() => null);
+          if (isHijackedDomain(campaignSiteUrl)) campaignSiteUrl = null;
           if (stillMissing() && campaignSiteUrl) {
             const extracted = await extractBioFactsFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null);
             if (extracted) mergeExtracted(bio, extracted.bio, extracted.sourceUrl, "llm_extracted_campaign_site_websearch", curatedBio);
@@ -595,7 +693,38 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
           prevPlatform,
           prevCand?._platform_resolved_at,
           c.candidateId,
-          () => (campaignSiteUrl ? extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null) : Promise.resolve(null))
+          async () => {
+            const fromCampaignSite = campaignSiteUrl
+              ? await extractPlatformFromSite(c.name, campaignSiteUrl, expectedContext).catch(() => null)
+              : null;
+            if (fromCampaignSite) return fromCampaignSite;
+
+            // Sitting members have an official .gov site -- free from
+            // congress.gov (no new credential), fetched lazily here since
+            // most candidates never reach this branch. house.gov sites
+            // have no known wall (proven manually this project: Kennedy,
+            // Budzinski, both curated from a real .gov /issues page).
+            // senate.gov sites can sit behind their own WAF (confirmed:
+            // Warner's is Akamai-blocked even to a real browser) -- that
+            // just fails cleanly below and falls through to Ballotpedia,
+            // no chamber-specific branching needed.
+            if (matchedMember) {
+              // memberDetail is already fetched above for the currentMember
+              // check when the strict matcher hit; only fall back to a fetch
+              // here for a member found via the older loose lookup.
+              const official =
+                memberDetail?.bioguideId === matchedMember.bioguideId
+                  ? memberDetail
+                  : await getMember(matchedMember.bioguideId).catch(() => null);
+              const fromOfficialSite = official?.officialWebsiteUrl
+                ? await extractPlatformFromSite(c.name, official.officialWebsiteUrl, expectedContext).catch(() => null)
+                : null;
+              if (fromOfficialSite) return fromOfficialSite;
+            }
+
+            const ballotpediaUrl = await findBallotpediaUrl(c.name, raceDescription).catch(() => null);
+            return ballotpediaUrl ? extractPlatformFromBallotpedia(c.name, ballotpediaUrl, expectedContext).catch(() => null) : null;
+          }
         );
         platform = resolved.value;
         platformResolvedAt = resolved.resolvedAt;
@@ -686,12 +815,8 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       // than giving up. sourceType on the result tells the frontend which
       // one it is, so the label can say so rather than implying every
       // entry here is in the candidate's own words.
-      const raceDescription =
-        opts.office === "H"
-          ? opts.district === "00"
-            ? `${opts.state} At-Large Congressional District election, 2026`
-            : `${opts.state} Congressional District ${Number(opts.district)} election, 2026`
-          : `${opts.state} U.S. Senate election, 2026`;
+      // (raceDescription itself is computed earlier, above the platform
+      // waterfall, since that now needs it too -- see there.)
       // Same curated-always-wins protection as platform_video above.
       let bioSummary: { summary: string; sourceUrl: string; sourceType: string } | null = null;
       let bioSummaryResolvedAt: string | undefined = undefined;
@@ -757,13 +882,36 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         ]);
       }
 
+      // Every roll-call fetch above swallows its own failure with
+      // `.catch(() => [])`, which makes a transient Clerk/LIS outage
+      // indistinguishable from "this member genuinely has no recent
+      // votes" -- and unlike bio/platform/video, recent_votes has no
+      // resolveWithRefresh seeding, so the empty array wins and the
+      // member's ENTIRE voting record silently disappears from the
+      // published data. Confirmed real (2026-09-02): a single 82-race
+      // rebuild zeroed recent_votes for 12 sitting members at once --
+      // Meeks, Meng, Torres, McClain, Gottheimer, Menendez, Dexter,
+      // Cline, Capito, Lofgren, Barragan, Correa -- with nothing logged;
+      // re-querying the same source moments later returned all 5 votes
+      // for each, proving it was transient, not real. Same failure class
+      // as the Wyoming bio-wipe that motivated prevCand seeding
+      // everywhere else. Only an EMPTY result falls back: a real,
+      // non-empty response always wins, so genuinely fresh votes still
+      // replace stale ones on every build.
+      if (!recentVotes.length && prevCand?.recent_votes?.length) {
+        recentVotes = prevCand.recent_votes;
+      }
+
       return {
         slug,
         full_name: c.name,
         party: c.party,
-        incumbent: c.incumbentChallenge === "Incumbent",
-        fec_candidate_id: c.candidateId,
-        fec_status: c.candidateStatus, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold
+        // OR, never AND: congress.gov confirming they hold this seat can only
+        // ADD an incumbent label FEC's stale filing data missed (Cisneros),
+        // never remove one FEC already asserts.
+        incumbent: c.incumbentChallenge === "Incumbent" || holdsThisSeat,
+        fec_candidate_id: c.candidateId as string | null,
+        fec_status: c.candidateStatus as string | null, // 'C'/'P' = established filer, 'N' = declared but under FEC's $5,000 threshold; null = no FEC filing at all, see missingCandidates.ts
         bioguide_id: matchedMember?.bioguideId ?? null,
         financials: totals,
         bio,
@@ -779,7 +927,13 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
         // platform/financials: a later rebuild whose gate stays closed (bio,
         // platform, AND video already resolved) shouldn't silently erase an
         // already-known site.
-        campaign_site_url: campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
+        // The prevCand fallback would otherwise resurrect a hijacked domain
+        // from the last published build, undoing the check above on every
+        // rebuild -- the denylist has to be applied to the carried-forward
+        // value too, not just to freshly resolved ones.
+        campaign_site_url: isHijackedDomain(campaignSiteUrl ?? prevCand?.campaign_site_url)
+          ? null
+          : campaignSiteUrl ?? prevCand?.campaign_site_url ?? null,
         // scaleCampaignSiteDiscovery.ts's own tracking fields, carried
         // forward -- this output object is a fresh literal each build, so
         // without this a real buildRace() pass silently drops them even
@@ -855,12 +1009,67 @@ export async function buildRace(opts: BuildRaceOptions): Promise<{ flags: string
       const { value, resolvedAt } = await resolveWithRefresh(
         prevCand?.financial_disclosure ?? null,
         prevCand?._financial_disclosure_resolved_at,
-        cand.fec_candidate_id,
+        cand.fec_candidate_id ?? cand.slug,
         () => getFinancialDisclosure(cand.full_name, `${opts.state}${opts.district}`, opts.cycle, expectedContext).catch(() => null)
       );
       cand.financial_disclosure = value;
       cand._financial_disclosure_resolved_at = resolvedAt ?? null;
     }
+  }
+
+  // Real, on-the-ballot candidates the FEC-driven search above can never
+  // find because they've never crossed FEC's $5,000 filing threshold —
+  // see missingCandidates.ts's own header for how these are verified
+  // before being added here. Every FEC-dependent field is left null/empty
+  // rather than guessed; the frontend already renders that as "Not on
+  // file", same as any other sparse candidate.
+  for (const m of MISSING_CANDIDATES[opts.state]?.[opts.raceSlug] ?? []) {
+    const slug = slugify(m.full_name);
+    if (candidates.some((c) => c.slug === slug)) continue; // already present via FEC — stale override entry, skip rather than duplicate
+    const curatedEntry = curated[slug] ?? null;
+    // Seeded from the previous build for exactly the same reason every
+    // FEC-driven candidate above is (see the `bio` seeding comment): these
+    // entries were previously rebuilt FRESH every time, so any data a
+    // later enrichment pass found for them -- a platform extracted from
+    // their real campaign site, a bio summary, a video -- was silently
+    // reset to whatever curated/ happened to hold, on the very next
+    // rebuild of that race. Confirmed real (2026-09-02): Bobby Wilson
+    // (AR-3) lost a live 6-position platform AND his bio_summary this
+    // way, since neither had been written back to a curated YAML.
+    // curated still wins where it exists; prevCand only fills what
+    // curated doesn't specify, so a hand-verified override is never
+    // overwritten by stale published data.
+    const prevMissing = previousCandidates.find((p) => p.slug === slug);
+    candidates.push({
+      slug,
+      full_name: m.full_name,
+      party: m.party,
+      incumbent: m.incumbent,
+      fec_candidate_id: null,
+      fec_status: null,
+      bioguide_id: null,
+      financials: null,
+      bio: prevMissing?.bio ?? {},
+      platform: curatedEntry?.platform ?? prevMissing?.platform ?? [],
+      platform_source_url: curatedEntry?.platform_source_url ?? prevMissing?.platform_source_url ?? null,
+      _platform_resolved_at: prevMissing?._platform_resolved_at ?? null,
+      campaign_site_url: m.campaign_site_url ?? prevMissing?.campaign_site_url ?? null,
+      _campaign_site_reachability: prevMissing?._campaign_site_reachability ?? null,
+      _campaign_site_discovered_at: prevMissing?._campaign_site_discovered_at ?? null,
+      platform_video_url: curatedEntry?.platform_video?.video_url ?? prevMissing?.platform_video_url ?? null,
+      platform_video_title: curatedEntry?.platform_video?.video_title ?? prevMissing?.platform_video_title ?? null,
+      platform_video_source_url: curatedEntry?.platform_video?.source_url ?? prevMissing?.platform_video_source_url ?? null,
+      platform_video_tier: prevMissing?.platform_video_tier ?? null,
+      platform_video_source_type: curatedEntry?.platform_video?.source_type ?? prevMissing?.platform_video_source_type ?? null,
+      _platform_video_resolved_at: prevMissing?._platform_video_resolved_at ?? null,
+      bio_summary: curatedEntry?.bio_summary ?? prevMissing?.bio_summary ?? null,
+      _bio_summary_resolved_at: prevMissing?._bio_summary_resolved_at ?? null,
+      financial_disclosure: null,
+      _financial_disclosure_resolved_at: null,
+      recent_votes: [],
+      performance: null,
+      _curated_match: Boolean(curatedEntry),
+    });
   }
 
   // State-level context, not attributed to any candidate causally — same

@@ -160,7 +160,37 @@ export async function getCommitteeWebsite(candidateId: string): Promise<string |
   // though not all (fierroforcongress.com's DNS genuinely doesn't resolve
   // even once the typo is fixed, so that one stays a real dead-site gap).
   const normalized = site.replace(/\s+/g, "").toLowerCase();
-  return /^https?:\/\//.test(normalized) ? normalized : `https://${normalized}`;
+  const withScheme = /^https?:\/\//.test(normalized) ? normalized : `https://${normalized}`;
+  // Some committees file a fundraising link where the campaign website
+  // belongs. Accepting one is worse than recording nothing: the URL has no
+  // bio, no issues page and nothing to extract, yet it makes the candidate
+  // look like they have a site, and because these processors sit behind
+  // Cloudflare it gets classified as a blocked campaign site -- landing the
+  // candidate on the human-curation worklist as though there were a wall to
+  // get past, when there is simply no site. Confirmed on two real filings
+  // (2026-09-03): Brenton Awa (HI-2) filed a WinRed donate page and Marlon
+  // Duran (TX-28) a Donorbox page, both of which had been sitting in the
+  // Cloudflare-blocked bucket. Returning null records the honest state,
+  // which the "no website on file with FEC" list already represents.
+  return isDonationLink(withScheme) ? null : withScheme;
+}
+
+// Matched on the parsed hostname rather than against the whole URL string:
+// a naive pattern has to guess whether the processor's domain appears after
+// "://" or after a subdomain dot, and gets one of them wrong (donorbox.org
+// as a bare host slipped through exactly that way while this was being
+// written). Path is checked separately for the "/donate" case, where the
+// host is the campaign's own domain.
+const DONATION_HOSTS = ["winred.com", "actblue.com", "donorbox.org", "anedot.com", "ngpvan.com"];
+function isDonationLink(url: string): boolean {
+  try {
+    const { hostname, pathname } = new URL(url);
+    const host = hostname.replace(/^www\./, "");
+    if (DONATION_HOSTS.some((d) => host === d || host.endsWith(`.${d}`))) return true;
+    return /^\/donate(\/|$)/i.test(pathname);
+  } catch {
+    return false; // unparseable: leave it alone rather than silently dropping a site
+  }
 }
 
 function totalsFromRow(cycle: number, row: any): FecTotals {

@@ -1,5 +1,187 @@
 fec_candidate_id: S6SC04239
+
+# Replaces a one-line Wikipedia summary with her campaign's own "Making a
+# Difference" copy, read off the live site by a person (the site is behind
+# a Cloudflare challenge -- see the platform note below). This is the
+# ordering campaignBioSummary.ts's waterfall already prefers: the
+# candidate's own site outranks Wikipedia, which outranks Ballotpedia.
+# Quoted as one contiguous verbatim span, not stitched from separate
+# paragraphs, per the same rule the automated extractor follows.
+# source_url is the site root rather than the exact about-page path, which
+# could not be confirmed from here without clearing the challenge.
 bio_summary:
-  value: "Anne Lintzenich Andrews (born 1981) is an American pediatrician and political candidate who is the Democratic nominee for the 2026 United States Senate election in South Carolina."
-  source_url: "https://en.wikipedia.org/wiki/Annie_Andrews_(physician)"
-  source_type: wikipedia
+  value: "Dr. Annie Andrews is a pediatrician and a mom, not a politician. She’s spent her entire career serving South Carolina families—not donors and lobbyists—and she’s running for Senate because kids and parents across the state are getting screwed by a system designed to work for the powerful, not the rest of us.\n\nAfter nearly two decades in children’s hospitals, Annie saw how Washington’s failures reach all the way into her hospital room every day. Kids shot in their own neighborhoods. Parents forced to ration medication. Families unable to find mental health care. So she got involved in advocacy and policy—and what she saw in the halls of power appalled her."
+  source_url: "https://drannieandrews.com/"
+  source_type: campaign_site
+
+# oEmbed-audited before being recorded, per the standing rule that no video
+# gets published on a link alone: YouTube's own oEmbed returns title
+# "Annie Andrews Launch Video: \"Unafraid\"" on channel "Annie Andrews"
+# (youtube.com/@AnnieAndrewsSC), whose SC handle matches this race. Supplied
+# by hand rather than discovered, since the campaign site that would
+# normally surface it is behind the Cloudflare challenge described below.
+platform_video:
+  video_url: "https://www.youtube.com/watch?v=J8wMNLaSNW4"
+  video_title: "Annie Andrews Launch Video: \"Unafraid\""
+  source_url: "https://www.youtube.com/@AnnieAndrewsSC"
+  source_type: curated
+
+# drannieandrews.com sits behind a genuine Cloudflare human-verification
+# challenge -- confirmed again 2026-09-03, HTTP 403 with a `cf-mitigated:
+# challenge` response header, which no user-agent or header change gets
+# past and which this pipeline deliberately does not try to defeat. The
+# text below was read off the live /platform page by a person and quoted
+# verbatim, same discipline llmExtract.ts enforces on an automated pass:
+# every `value` is traceable to its own `snippet`, nothing inferred.
+# Transcribed section by section. Covered so far: "An Economy That Works
+# for Working People", "Reproductive Freedom: Trust Women", "Strong
+# Schools & Affordable Child Care", "Fighting Political Corruption", "An
+# End to Gun Violence", "Immigration: Security with Dignity", and
+# "Protecting Kids, Not Big Tech", "No More Endless Wars", and
+# "Transportation & Infrastructure that Works".
+platform_source_url: "https://drannieandrews.com/platform/"
+platform:
+  - topic: "Cost of Living"
+    value: "Says families are doing everything right and still falling behind on everyday prices while billionaires and corporations get special treatment"
+    snippet: |
+      I do the grocery shopping for my family. I’ve watched prices climb on everything from milk to eggs to bananas, while politicians in Washington do nothing. Families are doing everything right and still falling behind, while billionaires and corporations get special treatment.
+  - topic: "Taxes"
+    value: "Would end tax breaks for the ultra-wealthy and corporate polluters"
+    snippet: "End tax breaks for the ultra-wealthy and corporate polluters"
+  - topic: "Wages & Workers' Rights"
+    value: "Would raise wages and strengthen workers' rights"
+    snippet: "Raise wages and strengthen workers’ rights"
+  - topic: "Child Care & Family Leave"
+    value: "Would expand affordable child care and paid family leave"
+    snippet: "Expand affordable child care and paid family leave"
+  - topic: "Trade"
+    value: "Would bring back trade policies that protect South Carolina's jobs and farms"
+    snippet: "Bring back trade policies that protect South Carolina’s jobs and farms"
+
+  # "Reproductive Freedom: Trust Women"
+  - topic: "Abortion"
+    value: "Would restore the protections of Roe v. Wade, and says these decisions belong to women and families rather than politicians"
+    snippet: |
+      These decisions belong to women and families, not to politicians. I’ll fight to:
+
+      * Restore the protections of Roe v. Wade
+  - topic: "Contraception & Infertility Care"
+    value: "Would guarantee access to contraception and infertility care"
+    snippet: "Guarantee access to contraception and infertility care"
+  - topic: "Maternal Health"
+    value: "Would expand maternal health services, especially in rural communities"
+    snippet: "Expand maternal health services, especially in rural communities"
+  - topic: "South Carolina Abortion Ban"
+    value: "Opposes the South Carolina ban she describes as one of the most extreme in the country, saying it would endanger women's lives and criminalize doctors"
+    snippet: "Republicans cheered on South Carolina politicians who are now pushing one of the most extreme bans in the country—one that would endanger women’s lives and criminalize doctors."
+
+  # "Strong Schools & Affordable Child Care"
+  - topic: "Public School Funding"
+    value: "Would fully fund public schools and special education"
+    snippet: "Fully fund public schools and special education"
+  - topic: "School Facilities & Safety"
+    value: "Would invest in modern classrooms, technology and school safety"
+    snippet: "Invest in modern classrooms, technology, and school safety"
+  - topic: "Early Learning"
+    value: "Would expand access to affordable child care and early learning"
+    snippet: "Expand access to affordable child care and early learning"
+  - topic: "Teacher Pay"
+    value: "Would raise pay for teachers and school staff"
+    snippet: "Raise pay for teachers and school staff"
+  - topic: "School Meals"
+    value: "Would protect and expand free and reduced-price school meals"
+    snippet: "Protect and expand free and reduced-price school meals"
+
+  # "Fighting Political Corruption"
+  - topic: "Campaign Finance"
+    value: "Would ban corporate PAC and dark money, and says she takes no corporate PAC money herself"
+    snippet: |
+      I don’t take a dime of corporate PAC money. I’m not a career politician. I’m a doctor who believes the government should serve families, not donors.
+  - topic: "Congressional Stock Trading"
+    value: "Would bar members of Congress from trading stocks and profiting from insider information"
+    snippet: "Barring members of congress from trading stocks and getting rich off of insider information"
+  - topic: "Term Limits & Ethics"
+    value: "Supports term limits and stronger ethics rules"
+    snippet: "Supporting term limits and stronger ethics rules"
+  - topic: "Voting Rights"
+    value: "Would protect the right to vote and make elections fairer"
+    snippet: "Protecting the right to vote and making elections fairer"
+
+  # "An End to Gun Violence"
+  - topic: "Gun Policy"
+    value: "Says the Second Amendment can be respected while still protecting children, citing her experience treating child shooting survivors"
+    snippet: |
+      I’ve cared for children who survived shootings and met parents who didn’t get to take their child home from the hospital. Those are stories you don’t forget.
+      We can respect the Second Amendment and still protect our kids.
+  - topic: "Background Checks"
+    value: "Supports universal background checks"
+    snippet: "Universal background checks"
+  - topic: "Assault Weapons"
+    value: "Would ban what she calls weapons of war from the streets"
+    snippet: "Banning weapons of war from our streets"
+  - topic: "Safe Storage"
+    value: "Supports safe storage laws to prevent unintentional shootings and youth suicides"
+    snippet: "Safe storage laws that prevent unintentional shootings and youth suicides"
+  - topic: "Violence Prevention & Mental Health"
+    value: "Would increase funding for community violence prevention and mental health programs"
+    snippet: "More funding for community violence prevention and mental health programs"
+
+  # "Immigration: Security with Dignity"
+  - topic: "Border Security"
+    value: "Supports immigration reform that strengthens border security, arguing secure borders and treating people with dignity are compatible"
+    snippet: |
+      We can have secure borders and still treat people with dignity. It’s not complicated; it’s just the right thing to do.
+      I’ll support immigration reform that:
+
+      * Strengthens border security
+  - topic: "Path to Citizenship"
+    value: "Would create what she calls a fair path to citizenship for people who work hard and follow the rules"
+    snippet: "Creates a fair path to citizenship for people who work hard and follow the rules"
+  - topic: "Family Separation & Due Process"
+    value: "Would keep families together and ensure due process"
+    snippet: "Keeps families together and ensures due process"
+  - topic: "Immigration & South Carolina Workforce"
+    value: "Frames immigration reform as supporting South Carolina's farms, businesses and workforce"
+    snippet: "Supports South Carolina’s farms, businesses, and workforce"
+
+  # "Protecting Kids, Not Big Tech"
+  - topic: "Data Privacy"
+    value: "Would rein in tech companies that misuse personal data"
+    snippet: "Rein in tech companies that misuse personal data"
+  - topic: "Digital Bill of Rights"
+    value: "Would establish a national digital bill of rights"
+    snippet: "Establish a national digital bill of rights"
+  - topic: "Children & Social Media"
+    value: "Would protect children from social media addiction and online exploitation, including removing phones from schools"
+    snippet: "Protect kids from social media addiction and online exploitation, including getting phones out of schools"
+  - topic: "AI & Facial Recognition"
+    value: "Would regulate AI and facial recognition tools that can discriminate or be abused"
+    snippet: "Regulate AI and facial recognition tools that can discriminate or be abused"
+
+  # "No More Endless Wars"
+  - topic: "Military Intervention"
+    value: "Would end what she calls reckless, open-ended wars"
+    snippet: "End reckless, open-ended wars"
+  - topic: "War Powers"
+    value: "Would require Congress to approve the use of military force"
+    snippet: "Require Congress to approve use of military force"
+  - topic: "Foreign Policy"
+    value: "Would put diplomacy and accountability first"
+    snippet: "Put diplomacy and accountability first"
+  - topic: "Veterans & Military Families"
+    value: "Would fully support veterans and military families"
+    snippet: "Fully support veterans and military families"
+
+  # "Transportation & Infrastructure that Works"
+  - topic: "Roads & Bridges"
+    value: "Would fix and modernize South Carolina's roads, bridges and highways"
+    snippet: "Fix and modernize South Carolina’s roads, bridges, and highways"
+  - topic: "Public Transit"
+    value: "Would expand public transit and safe sidewalks"
+    snippet: "Expand public transit and safe sidewalks so people can get around safely"
+  - topic: "Clean Energy & Resilience"
+    value: "Would invest in clean energy and resilient infrastructure"
+    snippet: "Invest in clean energy and resilient infrastructure"
+  - topic: "Infrastructure Jobs"
+    value: "Frames infrastructure investment as creating good-paying jobs in South Carolina"
+    snippet: "Create good-paying jobs building the future right here at home"

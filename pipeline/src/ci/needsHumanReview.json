@@ -1,12 +1,19 @@
 {
-  "last_updated": "2026-08-31T12:59:05.280Z",
+  "last_updated": "2026-09-01T13:54:12.947Z",
   "cloudflare_challenge": [
     {
-      "name": "BUDZINSKI, NIKKI",
-      "race": "house/IL-13.json",
-      "url": "https://nikkiforcongress.com/",
+      "name": "NEGUSE, JOSEPH",
+      "race": "house/CO-2.json",
+      "url": "https://joeneguseforcongress.com",
       "incumbent": true,
-      "first_detected_at": "2026-08-30T23:56:36.199Z"
+      "first_detected_at": "2026-08-30T20:34:58.560Z"
+    },
+    {
+      "name": "PETTERSEN, BRITTANY LOUISE",
+      "race": "house/CO-7.json",
+      "url": "https://www.brittanypettersen.com",
+      "incumbent": true,
+      "first_detected_at": "2026-08-30T20:35:19.977Z"
     },
     {
       "name": "DELAURO, ROSA L",
@@ -23,18 +30,25 @@
       "first_detected_at": "2026-08-30T23:57:26.827Z"
     },
     {
-      "name": "NEGUSE, JOSEPH",
-      "race": "house/CO-2.json",
-      "url": "https://joeneguseforcongress.com",
+      "name": "BUDZINSKI, NIKKI",
+      "race": "house/IL-13.json",
+      "url": "https://nikkiforcongress.com/",
       "incumbent": true,
-      "first_detected_at": "2026-08-30T20:34:58.560Z"
+      "first_detected_at": "2026-08-30T23:56:36.199Z"
     },
     {
-      "name": "PETTERSEN, BRITTANY LOUISE",
-      "race": "house/CO-7.json",
-      "url": "https://www.brittanypettersen.com",
+      "name": "DAVIDS, SHARICE",
+      "race": "house/KS-3.json",
+      "url": "https://www.shariceforcongress.com",
       "incumbent": true,
-      "first_detected_at": "2026-08-30T20:35:19.977Z"
+      "first_detected_at": "2026-08-31T22:47:56.841Z"
+    },
+    {
+      "name": "SCHWARTZ, DANIEL",
+      "race": "house/MD-1.json",
+      "url": "https://schwartzforcongress.com",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:33.893Z"
     },
     {
       "name": "MCCANN, SEAN",
@@ -58,6 +72,34 @@
       "first_detected_at": "2026-08-30T20:33:58.454Z"
     },
     {
+      "name": "GOTTHEIMER, JOSH",
+      "race": "house/NJ-5.json",
+      "url": "https://josh4jersey.com/",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T12:27:41.612Z"
+    },
+    {
+      "name": "MENENDEZ, ROBERT J.",
+      "race": "house/NJ-8.json",
+      "url": "https://www.robmenendez.com/",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T12:27:44.513Z"
+    },
+    {
+      "name": "DEXTER, MAXINE",
+      "race": "house/OR-3.json",
+      "url": "https://www.maxinefororegon.com",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T22:49:20.494Z"
+    },
+    {
+      "name": "DESPAIN, MONIQUE",
+      "race": "house/OR-4.json",
+      "url": "https://www.moniqueforcongress.com",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:49:21.061Z"
+    },
+    {
       "name": "DEAN, MADELEINE",
       "race": "house/PA-4.json",
       "url": "https://www.mad4pa.com/",
@@ -72,6 +114,20 @@
       "first_detected_at": "2026-08-30T11:08:36.999Z"
     },
     {
+      "name": "LURIA, ELAINE",
+      "race": "house/VA-2.json",
+      "url": "https://elaineforcongress.com/",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:14.265Z"
+    },
+    {
+      "name": "VINDMAN, YEVGENY 'EUGENE'",
+      "race": "house/VA-7.json",
+      "url": "https://vindmanforcongress.com",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T23:03:20.907Z"
+    },
+    {
       "name": "HICKENLOOPER, JOHN W.",
       "race": "senate/CO.json",
       "url": "https://hickenlooper.com",
@@ -84,7 +140,674 @@
       "url": "https://electjon.com/",
       "incumbent": true,
       "first_detected_at": "2026-08-30T11:06:30.280Z"
+    },
+    {
+      "name": "LUJAN, BEN RAY",
+      "race": "senate/NM.json",
+      "url": "http://www.benrlujan.com",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T22:49:15.169Z"
+    },
+    {
+      "name": "SMEAD, JOSH",
+      "race": "house/MO-6.json",
+      "url": "https://www.votesmead.com",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:55.954Z"
+    },
+    {
+      "name": "BARRINGTON, BRENNAN",
+      "race": "house/OH-15.json",
+      "url": "https://barrington.lpo.org",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:39.008Z"
+    },
+    {
+      "name": "HAGERTY, BILL",
+      "race": "senate/TN.json",
+      "url": "https://www.teamhagerty.com",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T09:50:29.200Z"
+    },
+    {
+      "name": "MORAN, NATHANIEL QUENTIN",
+      "race": "house/TX-1.json",
+      "url": "https://nathanielmoran.com",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T09:50:29.609Z"
+    },
+    {
+      "name": "RUIZ, RAUL DR.",
+      "race": "house/CA-25.json",
+      "url": "https://drraulruiz.com/",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:05.686Z"
+    },
+    {
+      "name": "CISNEROS, GILBERT",
+      "race": "house/CA-31.json",
+      "url": "https://cisnerosforcongress.com/",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:08.489Z"
+    },
+    {
+      "name": "AGUILAR, PETE",
+      "race": "house/CA-33.json",
+      "url": "http://www.peteaguilar.com",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:09.106Z"
+    },
+    {
+      "name": "RANDALL, EMILY",
+      "race": "house/WA-6.json",
+      "url": "https://www.electemilyrandall.com",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:51.641Z"
+    },
+    {
+      "name": "HAMILTON, ADAM",
+      "race": "senate/KS.json",
+      "url": "https://www.hamiltonforkansas.com/",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T20:31:12.825Z"
+    },
+    {
+      "name": "WARNER, MARK ROBERT",
+      "race": "senate/VA.json",
+      "url": "https://markwarnerva.com/",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T21:05:40.444Z"
     }
   ],
-  "still_unchecked_count": 0
+  "still_unchecked_count": 0,
+  "no_site_on_fec": [
+    {
+      "name": "REDKEY, DAVID WAYNE MR.",
+      "race": "house/AZ-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:34:18.526Z"
+    },
+    {
+      "name": "PETERS, JEREME LANCE",
+      "race": "house/AZ-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.770Z"
+    },
+    {
+      "name": "LINCOLN, KEVIN J II",
+      "race": "house/CA-13.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.774Z"
+    },
+    {
+      "name": "BARRAGAN, NANETTE",
+      "race": "house/CA-44.json",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T23:04:10.781Z"
+    },
+    {
+      "name": "BARTON, HEATHER MS",
+      "race": "house/CO-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:35:00.886Z"
+    },
+    {
+      "name": "THORNTON, WAYNE M",
+      "race": "house/CO-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:35:02.681Z"
+    },
+    {
+      "name": "CERRETA, DAMON LAWRENCE",
+      "race": "house/CT-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T23:56:58.406Z"
+    },
+    {
+      "name": "ARMINIO, JOSEPH DR. JOE PH.D.",
+      "race": "house/DE-AL.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:28:55.035Z"
+    },
+    {
+      "name": "CARLSON, OWEN NICHOLAS",
+      "race": "house/DE-AL.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:28:55.027Z"
+    },
+    {
+      "name": "COOPER, EARL L",
+      "race": "house/DE-AL.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:28:55.025Z"
+    },
+    {
+      "name": "HERNANDEZ, SALOMON",
+      "race": "house/FL-14.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.799Z"
+    },
+    {
+      "name": "JASSENOFF, PETER",
+      "race": "house/FL-25.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.806Z"
+    },
+    {
+      "name": "DENNISON, CHRISTOPHER ALLEN",
+      "race": "house/FL-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.809Z"
+    },
+    {
+      "name": "CLARK, JASMINE",
+      "race": "house/GA-13.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:29:08.794Z"
+    },
+    {
+      "name": "GOMEZ, BRENDAN JOSEPH",
+      "race": "house/ID-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:47:43.912Z"
+    },
+    {
+      "name": "HERSHEY, EDWARD",
+      "race": "house/IL-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T23:56:12.797Z"
+    },
+    {
+      "name": "BURKE, JAMES WILLIAM MR",
+      "race": "house/IN-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T23:57:19.940Z"
+    },
+    {
+      "name": "JACOB, STEVEN ROBERT",
+      "race": "house/KS-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:47:52.675Z"
+    },
+    {
+      "name": "HALL, MILDRED MARIE",
+      "race": "house/MD-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:39.015Z"
+    },
+    {
+      "name": "SATTERLA, ARNETT",
+      "race": "house/MI-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:31.543Z"
+    },
+    {
+      "name": "MUSZYNSKI, RONALD A",
+      "race": "house/MI-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:49.218Z"
+    },
+    {
+      "name": "CARTWRIGHT, JASEN D",
+      "race": "house/MI-9.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:59.677Z"
+    },
+    {
+      "name": "POOLEY, STEVEN RAYMOND",
+      "race": "house/MI-9.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:59.684Z"
+    },
+    {
+      "name": "LITTLE, MATT",
+      "race": "house/MN-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T12:27:14.185Z"
+    },
+    {
+      "name": "FELDMAN, STEVEN",
+      "race": "house/NC-10.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:25.653Z"
+    },
+    {
+      "name": "BALKCOM, JENNIFER",
+      "race": "house/NC-11.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:27.478Z"
+    },
+    {
+      "name": "GROO, TRAVIS",
+      "race": "house/NC-11.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:27.482Z"
+    },
+    {
+      "name": "LASACS, MATTHEW",
+      "race": "house/NC-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:24.044Z"
+    },
+    {
+      "name": "CAVENDER, DANIEL",
+      "race": "house/NC-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:24.295Z"
+    },
+    {
+      "name": "MEILLEUR, GUY",
+      "race": "house/NC-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:24.601Z"
+    },
+    {
+      "name": "LUFFMAN, ROBERT B.",
+      "race": "house/NC-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:24.855Z"
+    },
+    {
+      "name": "WHITEHEAD, ROBERT W MR.",
+      "race": "house/NC-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:25.391Z"
+    },
+    {
+      "name": "ELSE, DAVID",
+      "race": "house/NE-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:01.750Z"
+    },
+    {
+      "name": "STILLE, BECKY LYNN",
+      "race": "house/NE-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:01.750Z"
+    },
+    {
+      "name": "HAMAWY, ADAM",
+      "race": "house/NJ-12.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T12:27:55.337Z"
+    },
+    {
+      "name": "HERZIG, HILLARY",
+      "race": "house/NJ-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T12:27:41.961Z"
+    },
+    {
+      "name": "VALDEZ, CLAIRE",
+      "race": "house/NY-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:29:06.409Z"
+    },
+    {
+      "name": "HOPKINS, RONNIE",
+      "race": "house/OK-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:23.785Z"
+    },
+    {
+      "name": "NIEVES, AUSTIN",
+      "race": "house/OK-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:48:29.959Z"
+    },
+    {
+      "name": "ADAIR, PATTI",
+      "race": "house/OR-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T22:49:21.319Z"
+    },
+    {
+      "name": "SMUCKER, LLOYD K.",
+      "race": "house/PA-11.json",
+      "incumbent": true,
+      "first_detected_at": "2026-08-30T20:33:17.117Z"
+    },
+    {
+      "name": "HALFHILL, ADAM SCOTT",
+      "race": "house/PA-14.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:24.056Z"
+    },
+    {
+      "name": "SINGELIS, NICHOLAS II",
+      "race": "house/PA-16.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:33:28.536Z"
+    },
+    {
+      "name": "GOLDEN, FRANK",
+      "race": "house/PA-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:29:18.358Z"
+    },
+    {
+      "name": "GRANADOS, MICHAEL RAMON MR. JR.",
+      "race": "house/PA-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:29:13.132Z"
+    },
+    {
+      "name": "MACKENZIE, RYAN EDWARD",
+      "race": "house/PA-7.json",
+      "incumbent": true,
+      "first_detected_at": "2026-08-30T20:29:13.132Z"
+    },
+    {
+      "name": "RAASCH, WAYNE",
+      "race": "house/TX-27.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.903Z"
+    },
+    {
+      "name": "MORSY, OMAR",
+      "race": "house/VA-10.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:21.165Z"
+    },
+    {
+      "name": "ALBRITTON, DEVINCHE JAVON",
+      "race": "house/VA-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:11.695Z"
+    },
+    {
+      "name": "STATEN, GERAL DEFRANCE MR",
+      "race": "house/VA-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:11.695Z"
+    },
+    {
+      "name": "SCOTT, ROBERT C",
+      "race": "house/VA-3.json",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T23:03:14.571Z"
+    },
+    {
+      "name": "VASQUEZ, DAWN E",
+      "race": "house/VA-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:14.571Z"
+    },
+    {
+      "name": "BECK, ANDREW",
+      "race": "house/WI-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:23.001Z"
+    },
+    {
+      "name": "ARNDT, MATTHEW JOHN",
+      "race": "house/WI-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:23.264Z"
+    },
+    {
+      "name": "MILLER, CAROL DEVINE",
+      "race": "house/WV-1.json",
+      "incumbent": true,
+      "first_detected_at": "2026-08-31T23:03:21.965Z"
+    },
+    {
+      "name": "CARNEY, PATRICK JOSEPH",
+      "race": "house/WV-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:22.223Z"
+    },
+    {
+      "name": "BLAND, DEXTER",
+      "race": "senate/DE.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.927Z"
+    },
+    {
+      "name": "SOLOMON, GAVIN",
+      "race": "senate/DE.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:04:10.927Z"
+    },
+    {
+      "name": "BODNAR, SETH",
+      "race": "senate/MT.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-30T20:28:55.636Z"
+    },
+    {
+      "name": "MORAN, MARK",
+      "race": "senate/VA.json",
+      "incumbent": false,
+      "first_detected_at": "2026-08-31T23:03:21.691Z"
+    },
+    {
+      "name": "SWINTON, STEVEN",
+      "race": "house/NC-13.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:46.202Z"
+    },
+    {
+      "name": "DAUGHTERY, BRANDON",
+      "race": "house/MO-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:20:53.460Z"
+    },
+    {
+      "name": "CRAIG, KEVIN",
+      "race": "house/MO-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:06.216Z"
+    },
+    {
+      "name": "KIRTLEY, ELIZABETH ANN MRS.",
+      "race": "house/OH-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:18.456Z"
+    },
+    {
+      "name": "MEIDINGER HOSEY, DEBORAH ANN",
+      "race": "house/FL-26.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T01:21:53.561Z"
+    },
+    {
+      "name": "BAKER, RICHARD",
+      "race": "house/TN-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:10.378Z"
+    },
+    {
+      "name": "HOWARD-HILL, JEAN",
+      "race": "house/TN-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:13.203Z"
+    },
+    {
+      "name": "OWNBY, DONNIE LYNN",
+      "race": "house/TN-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:13.203Z"
+    },
+    {
+      "name": "BRODERICK, VICTORIA",
+      "race": "house/TN-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:14.919Z"
+    },
+    {
+      "name": "FAIRCLOTH, CLAY",
+      "race": "house/TN-4.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:14.919Z"
+    },
+    {
+      "name": "JOHNSON, JAMES ANDREW MR",
+      "race": "house/TN-5.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:18.065Z"
+    },
+    {
+      "name": "KOONTZ, ANDREW",
+      "race": "house/TN-7.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:21.057Z"
+    },
+    {
+      "name": "AUSTILL, ADAM D",
+      "race": "house/TN-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:22.490Z"
+    },
+    {
+      "name": "FUTCH, ANTONIO MR",
+      "race": "house/TN-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:22.490Z"
+    },
+    {
+      "name": "CLARK, DENNIS JEFFREY",
+      "race": "house/TN-9.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:25.605Z"
+    },
+    {
+      "name": "CHANDLER, THARON",
+      "race": "senate/TN.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:29.200Z"
+    },
+    {
+      "name": "MATTHEWS, YOSHI D.",
+      "race": "senate/TN.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:29.200Z"
+    },
+    {
+      "name": "CANCHOLA, SONIA",
+      "race": "house/TX-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:29.609Z"
+    },
+    {
+      "name": "STEINMANN, JESSICA HART",
+      "race": "house/TX-8.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T09:50:46.099Z"
+    },
+    {
+      "name": "GALLAGHER, JAMES",
+      "race": "house/CA-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:52:39.653Z"
+    },
+    {
+      "name": "WIENER, SCOTT",
+      "race": "house/CA-11.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:52:47.539Z"
+    },
+    {
+      "name": "WAHAB, AISHA",
+      "race": "house/CA-14.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:52:49.101Z"
+    },
+    {
+      "name": "HOELTER, CHARLES",
+      "race": "house/CA-15.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:52:51.721Z"
+    },
+    {
+      "name": "FONG, VINCE",
+      "race": "house/CA-20.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:04.321Z"
+    },
+    {
+      "name": "HODGE, TESSA LYNN",
+      "race": "house/CA-23.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:04.992Z"
+    },
+    {
+      "name": "MEYERS, SCOTT ALAN",
+      "race": "house/CA-30.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:07.338Z"
+    },
+    {
+      "name": "VARGAS, STEPHANIE M.",
+      "race": "house/CA-33.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:09.106Z"
+    },
+    {
+      "name": "BRIGNANO, HOUSTON",
+      "race": "house/CA-36.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:13.403Z"
+    },
+    {
+      "name": "SOLIS, HILDA",
+      "race": "house/CA-38.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:38.399Z"
+    },
+    {
+      "name": "TAKANO, MARK",
+      "race": "house/CA-39.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:38.665Z"
+    },
+    {
+      "name": "BELLE, JEFFERY MR",
+      "race": "house/CA-52.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:45.075Z"
+    },
+    {
+      "name": "VARGAS, JUAN C.",
+      "race": "house/CA-52.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:53:45.075Z"
+    },
+    {
+      "name": "FOX, TERESA",
+      "race": "house/WA-6.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:51.641Z"
+    },
+    {
+      "name": "WEST, JESSE KEEGAN",
+      "race": "house/UT-1.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:53:59.368Z"
+    },
+    {
+      "name": "COTTAM, DANIEL R.",
+      "race": "house/UT-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:54:00.915Z"
+    },
+    {
+      "name": "CROSBY, PETER",
+      "race": "house/UT-2.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:54:00.915Z"
+    },
+    {
+      "name": "STODDARD, MICHAEL RAY",
+      "race": "house/UT-3.json",
+      "incumbent": false,
+      "first_detected_at": "2026-09-01T13:54:02.488Z"
+    },
+    {
+      "name": "KENNEDY, MIKE",
+      "race": "house/UT-4.json",
+      "incumbent": true,
+      "first_detected_at": "2026-09-01T13:54:12.739Z"
+    }
+  ]
 }

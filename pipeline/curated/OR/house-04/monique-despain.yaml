@@ -1,0 +1,274 @@
+# moniqueforcongress.com sits behind a Cloudflare human-verification
+# challenge, so the pipeline could never read it. The text below was read
+# off the live site by a person and quoted verbatim, same quote-anchored
+# rule llmExtract.ts enforces on an automated pass: every `value` is
+# traceable to its own `snippet`, nothing inferred.
+#
+# Her immigration page opens by attributing the border situation to
+# President Biden and to the OR-4 incumbent, Rep. Val Hoyle. Those
+# passages are campaign argument about an opponent and an administration,
+# not statements of DeSpain's own platform, and are not recorded here --
+# same treatment given Luria's material on Kiggans, Pulido's on De La
+# Cruz, and Schwartz's on Harris.
+#
+# Transcribed section by section; covered so far are "Immigration",
+# "Veterans Issues", "Public Safety and Crime", and "Addressing
+# Homelessness, Addiction, and the Mentally Ill", "Affordable Housing for
+# Working Americans", "Climate Change & Environment", "Forest Management",
+# "Education", "Economy", "Energy", "Government Transparency &
+# Accountability", "National Security and Foreign Policy", "Election
+# Integrity", "China", and "Israel". Immigration is long and
+# sub-divided, and she takes distinct positions within it that would be
+# misleading to collapse into one entry -- enforcement, a one-time earned
+# legal status, workforce visas, and asylum processing are recorded
+# separately for that reason. Her other priority sections are not yet
+# transcribed.
+# NO curated bio_summary on purpose. Her site's "Meet Monique" page would
+# win on source precedence (campaign_site outranks ballotpedia), but the
+# summary already resolved for her is her OWN first-person Ballotpedia
+# survey response -- 821 characters covering her 30 years of service, her
+# JAG career, law school, and raising twin sons in the district. The site
+# copy says the same things in the third person as campaign marketing.
+# Overriding would have followed the waterfall while trading her own voice
+# for someone writing about her, so the resolved summary stands. Same call
+# as VA-2's Luria, for the same reason.
+platform_source_url: "https://www.moniqueforcongress.com/"
+platform:
+  - topic: "Border Security"
+    value: "Supports an all-of-the-above border approach using physical barriers where appropriate, sensors and drones, cybersecurity, and a properly staffed Border Patrol"
+    snippet: "I will support an all-of-the-above approach to border security using physical barriers where appropriate, advanced sensors and drones, strong cybersecurity, and a properly staffed Border Patrol empowered to enforce the law."
+  - topic: "Asylum Loopholes & Catch-and-Release"
+    value: "Would close asylum loopholes and prevent the return of catch-and-release policies"
+    snippet: "I will work to close asylum loopholes, prevent the return of catch-and-release policies, and ensure that our laws never again create incentives for mass illegal entry."
+  - topic: "Cartels"
+    value: "Supports using federal law-enforcement, intelligence, financial and national-security tools to dismantle drug and human trafficking cartels"
+    snippet: "I support using every appropriate federal law-enforcement, intelligence, financial, and national-security tool to dismantle these criminal networks."
+  - topic: "Criminal Deportation"
+    value: "Says noncitizens who commit serious violent crimes, traffic drugs or people, or engage in gang violence should be removed, with state and local cooperation in lawful federal efforts"
+    snippet: "Noncitizens who commit serious violent crimes, engage in human or major drug trafficking, participate in gang violence, or otherwise pose a serious threat to our communities, should be removed."
+  - topic: "Mass Deportation"
+    value: "Rejects indiscriminate mass deportation as neither realistic nor constructive"
+    snippet: "Indiscriminate mass deportation is neither a realistic nor constructive solution."
+  - topic: "Earned Legal Status"
+    value: "Supports a one-time opportunity for long-settled, non-criminal residents to earn lawful status, conditioned on registration, background and national-security checks, biometrics, resolving tax obligations, and demonstrating employment and self-sufficiency"
+    snippet: "I support a one-time opportunity to earn lawful status for long-settled, non-criminal residents who meet strict requirements."
+  - topic: "Earned Legal Status — Limits"
+    value: "States the earned status is not automatic citizenship, and that anyone entering illegally after the reform should not receive the same opportunity"
+    snippet: "This is not automatic citizenship. It is a path to lawful status with accountability."
+  - topic: "Legal Immigration System"
+    value: "Would streamline lawful immigration, modernize processing and fraud detection, reduce bureaucratic delays, and protect family unity"
+    snippet: "I will work to streamline lawful immigration, modernize processing and fraud detection, reduce unnecessary bureaucratic delays, and protect family unity."
+  - topic: "Workforce Visas"
+    value: "Supports legal workforce immigration pathways, including merit-based and temporary-worker programs, so employers can meet labor needs while workers are screened, authorized and protected from exploitation"
+    snippet: "I support legal, efficient workforce immigration pathways that allow employers to meet legitimate labor needs while ensuring workers are screened, authorized to work, and protected from exploitation. That includes sensible merit-based immigration and temporary-worker programs that respond to actual workforce shortages."
+  - topic: "Oregon Industry Labor Needs"
+    value: "Says Oregon agriculture, forestry and wildfire management, construction, manufacturing, healthcare and hospitality depend on reliable access to workers when Americans are unavailable"
+    snippet: "Here in Oregon, agriculture, forestry and wildfire management, construction, manufacturing, healthcare, hospitality, and other critical industries depend on reliable access to workers when Americans are not available to fill those jobs."
+  - topic: "Asylum Processing"
+    value: "Supports a modern asylum system beginning claims through secure processes before dangerous journeys, using biometric and identity verification, rapidly screening fraudulent claims, and giving legitimate applicants timely decisions"
+    snippet: "I support a modern asylum system that allows claims to begin through secure processes before migrants make dangerous journeys to our border whenever possible, uses biometric and identity verification, rapidly screens fraudulent claims, and provides legitimate applicants with timely decisions."
+  - topic: "Employment Verification"
+    value: "Would create a fast, accurate national employment-verification system, protecting employers who follow the rules and holding accountable those who knowingly exploit illegal labor"
+    snippet: "We need a fast, accurate national employment-verification system that allows employers to determine whether someone is legally authorized to work. Employers who follow the rules should be protected. Those who knowingly exploit illegal labor should be held accountable."
+  - topic: "Immigration Framing"
+    value: "Rejects the choice between tolerating illegal immigration and deporting millions who have built lives in the country, arguing both border security and humane treatment are possible"
+    snippet: "We can secure our border and treat people with humanity. We can enforce our laws and acknowledge the consequences of decades of government failure. We can remove dangerous criminals while giving long-settled, law-abiding people a rigorous opportunity to come into legal compliance."
+
+  # "Veterans Issues"
+  - topic: "Veterans Benefits & VA Bureaucracy"
+    value: "Would work to remove bureaucratic obstacles in the VA system so veterans' benefits are protected and they receive care on time"
+    snippet: "Every day that I am in Congress, I will fight to remove obstacles and ensure our veteran benefits are protected and that veterans receive the care and attention they have earned."
+  - topic: "Constituent Services for Veterans"
+    value: "Would dedicate a veteran on her Oregon congressional staff full-time to serving veteran constituents, including homeless veterans"
+    snippet: "Back home in Oregon, I will have a veteran on my congressional staff who is dedicated 100 percent to working with me to serve all of my veteran constituents, including our forgotten homeless veterans."
+  - topic: "Veteran Housing"
+    value: "Identifies housing obstacles as a problem facing many veterans"
+    snippet: "Tragically, many veterans face housing obstacles as well."
+
+  # "Public Safety and Crime"
+  - topic: "Law Enforcement Funding"
+    value: "Would ensure law enforcement and emergency responders have the authority and resources to do their job, from Customs and Border Patrol to local sheriffs, police and district attorneys"
+    snippet: "It is my goal to ensure they have the necessary authority and resources to do their job effectively, from Customs and Border Patrol to our local sheriffs, police, and district attorneys."
+  - topic: "Federal Funding & Local Prosecution"
+    value: "Would not support federal funding for cities she describes as soft-on-crime or that defund police, and says officials who refuse to enforce laws should themselves be held accountable and replaced"
+    snippet: "Public officials who refuse to enforce our laws and hold criminals accountable must be held accountable themselves and swiftly replaced with officials who will. I will not support federal funding for soft-on-crime cities or cities that defund the police and leave Americans vulnerable."
+  - topic: "Fentanyl & Drug Trafficking"
+    value: "Ties neighborhood safety to securing the border and stopping the flow of fentanyl, P2P methamphetamines and other drugs into Oregon"
+    snippet: "To ensure safe neighborhoods in Congressional District 4, we must secure our nation’s border and stop the relentless flow of fentanyl, P2P methamphetamines, and other deadly drugs into Oregon."
+  - topic: "Cartels & Community Crime"
+    value: "Argues ending cartel control of the border would stop drug distribution and human trafficking she links to addiction, homelessness and crime"
+    snippet: "By ending cartel control of our borders and preventing criminals from illegally entering our cities and other communities, we will stop the delivery and distribution of deadly drugs, human trafficking, and other abhorrent cartel activity that is fueling addiction, homelessness, and the crime wave overwhelming our communities."
+
+  # "Addressing Homelessness, Addiction, and the Mentally Ill"
+  - topic: "Homelessness Approach"
+    value: "Says homelessness is not a single problem and cannot have a single solution, distinguishing addiction, veteran homelessness, severe mental illness and housing cost"
+    snippet: "Homelessness is not a single problem, so it cannot have a single solution. A person struggling with addiction requires a different response than a veteran experiencing homelessness, a person with severe mental illness, or a family working full-time but unable to afford housing."
+  - topic: "Addiction & Mental Health Treatment"
+    value: "Would expand treatment capacity for addiction and mental illness, including medically assisted treatment, recovery housing and long-term support"
+    snippet: "Expand treatment capacity for addiction and mental illness, including medically assisted treatment, recovery housing, and long-term support."
+  - topic: "Program Accountability"
+    value: "Would require publicly funded homelessness, addiction and mental health programs to be measured by outcomes rather than intentions"
+    snippet: "Require accountability for publicly funded homelessness, addiction, and mental health programs by measuring outcomes, not intentions. Taxpayers deserve to know which programs are helping people achieve recovery, housing, and independence."
+  - topic: "Deflection & Diversion"
+    value: "Supports deflection and diversion programs connecting people to treatment before they enter the criminal justice system, while maintaining consequences"
+    snippet: "Support deflection and diversion programs that connect people to treatment, while maintaining accountability and meaningful consequences, before they enter the criminal justice system."
+  - topic: "Public Camping & Enforcement"
+    value: "Would enforce laws against public camping, drug use, theft and disorder while ensuring adequate shelter and treatment options exist"
+    snippet: "Enforce laws against public camping, drug use, theft, and disorder while ensuring adequate shelter and treatment options are available."
+  - topic: "Housing Supply"
+    value: "Would increase housing supply by reducing regulatory barriers, streamlining permitting and encouraging affordable workforce housing"
+    snippet: "Increase housing supply by reducing regulatory barriers, streamlining permitting, and encouraging affordable workforce housing."
+  - topic: "Forest Management & Timber"
+    value: "Supports responsible forest management and sustainable timber production on public lands to create family-wage jobs and generate county revenue for public safety, roads, schools and treatment facilities"
+    snippet: "I also support responsible forest management and sustainable timber production on public lands, creating family-wage jobs while generating revenue for counties, public safety, roads, schools, treatment programs and treatment facilities."
+  - topic: "Homeless Veterans"
+    value: "Would expand support for veterans experiencing homelessness and ensure they receive earned benefits and services"
+    snippet: "Expand support for veterans experiencing homelessness and ensure they receive the benefits and services they earned."
+  - topic: "Homelessness Funding Standard"
+    value: "Would judge homelessness policy by whether it helps people recover, become self-sufficient and return to stable housing, and stop funding programs that do not"
+    snippet: "We should judge every homelessness policy by one question: Is it helping people recover from their actual problem, become self-sufficient, and return to stable housing and productive lives? Whenever the answer is no, we should stop funding that failure and invest in solutions that work instead."
+
+  # "Affordable Housing for Working Americans"
+  - topic: "Construction Regulation"
+    value: "Would end permitting costs, building regulations, local codes and land-use restrictions she says stifle new construction"
+    snippet: "I support ending prohibitive and inflationary policies that stifle new construction with excessive permitting costs, building regulations, city and county codes, bureaucratic red tape, and outdated land-use restrictions imposed by the government itself."
+  - topic: "Federal Housing Restrictions"
+    value: "Wants the federal government to lift housing restrictions, arguing they price working people out of home ownership"
+    snippet: "I want to be part of the common sense conservative majority in Congress that ensures the federal government does its part to lift housing restrictions."
+
+  # "Climate Change & Environment"
+  - topic: "Forest Management & Wildfire"
+    value: "Would champion responsible forest management with tribal co-stewardship, sustainable timber harvests, and proactive fuel-load removal to reduce catastrophic wildfires"
+    snippet: "As your Congresswoman, I will champion responsible forest management grounded in co-stewardship with tribal nations, sustainable timber harvests, and proactive removal of fuel loads that drive catastrophic wildfires."
+  - topic: "Federal Wildfire Response"
+    value: "Would require the Forest Service and BLM to rapidly suppress fires or immediately authorize state, local and private entities to do so"
+    snippet: "The U.S. Forest Service and Bureau of Land Management should be required to rapidly suppress fires or immediately authorize state, local, and private entities ready to protect our forests and communities."
+  - topic: "Farmers & Ranchers"
+    value: "Would cut regulation affecting farmers and ranchers and defend a resilient \"Made in America\" food supply"
+    snippet: "I will cut the bureaucratic red tape and impractical restrictions harming our farmers and ranchers. I believe in independence, innovation, and the right to thrive. I will defend a resilient “Made in America” food supply and safeguard farmers’ ability to farm and provide affordable, healthy choices for consumers."
+  - topic: "Port of Coos Bay"
+    value: "Would remove federal barriers blocking development of the Oregon International Port of Coos Bay"
+    snippet: "I will also work relentlessly to remove federal barriers blocking development of the Oregon International Port of Coos Bay—an untapped economic engine with the potential to serve the entire Pacific."
+  - topic: "Coastal Communities"
+    value: "Would invest in durable infrastructure and address housing and childcare shortages to attract a skilled workforce in coastal communities"
+    snippet: "Strengthening our coastal communities means investing in durable infrastructure, addressing housing and childcare shortages, and attracting the skilled workforce needed to power long-term growth."
+
+  # "Forest Management" — a dedicated section, more specific than the
+  # forestry lines in "Climate Change & Environment" above.
+  - topic: "Fuel Reduction & Thinning"
+    value: "Would restore active forest management including thinning overcrowded stands and removing dangerous fuel loads and ladder fuels"
+    snippet: "Thinning overcrowded stands and removing dangerous fuel loads and ladder fuels."
+  - topic: "Timber Harvest & Salvage"
+    value: "Supports sustainable-yield timber harvests and prompt, responsible salvage after fires"
+    snippet: "Sustainable-yield timber harvests and prompt, responsible salvage after fires."
+  - topic: "Prescribed & Cultural Burning"
+    value: "Supports prescribed fire and tribal cultural burning where they can be used safely"
+    snippet: "Prescribed fire and tribal cultural burning where they can be used safely."
+  - topic: "Old-Growth Protection"
+    value: "Would protect mature and old-growth trees through active management of surrounding fuels"
+    snippet: "Protection of mature and old-growth trees through active management of surrounding fuels."
+  - topic: "Forest Access & Evacuation Routes"
+    value: "Would maintain essential roads, trails, water sources and evacuation routes"
+    snippet: "Maintaining essential roads, trails, water sources, and evacuation routes."
+  - topic: "Federal Tree Plantations"
+    value: "Says federal tree plantations should be sustainably managed for renewable timber and jobs, with selected overcrowded plantations converted to more diverse forests where restoration is the better use"
+    snippet: "Federal tree plantations should be sustainably managed to produce renewable timber, materials for American homes, and family-wage jobs. Where restoration is the better use, selected overcrowded plantations should be converted into healthier, more diverse forests that can better withstand wildfire, insects, and disease."
+  - topic: "Wildfire Spending Transparency"
+    value: "Would demand transparency on wildfire response decisions, contract terms, expenditures and fires that escape initial attack"
+    snippet: "I will demand transparency regarding response decisions, contract terms, expenditures, and fires that escape initial attack. Our priority must be protecting lives, communities, and forests—not sustaining an increasingly expensive and lucrative wildfire industry."
+  - topic: "2001 Roadless Rule"
+    value: "Submitted public comment supporting rescission of the 2001 Roadless Rule, saying it would let local managers plan access for wildfire response, restoration and recreation while retaining environmental review"
+    snippet: "I have already submitted public comment supporting rescission of the one-size-fits-all 2001 Roadless Rule. Rescission would not automatically authorize logging or road construction. It would allow local forest managers to determine where carefully planned access is needed for wildfire response, restoration, recreation, and public safety, while retaining environmental review and protections for sensitive areas."
+  - topic: "O&C Lands Revenue Sharing"
+    value: "Says federal forest management should honor sustained-yield and revenue-sharing requirements for O&C lands, supporting county schools, roads, law enforcement and emergency services"
+    snippet: "Federal forest management should also honor the sustained-yield and revenue-sharing requirements governing O&C lands, generating dependable support for county schools, roads, law enforcement, and emergency services."
+  - topic: "Forestry Jobs"
+    value: "Says responsible management can create family-wage jobs in forestry, trucking, firefighting, reforestation, milling, manufacturing and equipment maintenance"
+    snippet: "Responsible management can create family-wage jobs in forestry, trucking, firefighting, reforestation, milling, manufacturing, and equipment maintenance."
+
+  # "Education"
+  - topic: "Parents' Bill of Rights"
+    value: "Would support a Parents' Bill of Rights providing full access to curricula, clear reporting on school performance, and school choice"
+    snippet: "As your Congresswoman, I will support a Parents’ Bill of Rights to ensure real transparency and accountability: full access to curricula, clear reporting on school performance, and genuine school choice."
+  - topic: "Local Control of Education"
+    value: "Would return parents, teachers and local education partners to the center of decision-making rather than a one-size-fits-all system"
+    snippet: "We must return parents, teachers, and local education partners to the center of decision-making."
+  - topic: "Student Proficiency"
+    value: "Says students are increasingly failing to meet minimum proficiency in reading, writing and math despite rising spending"
+    snippet: "Students are increasingly failing to meet minimum proficiency in reading, writing, and math. This shortfall imposes significant costs on families and employers and leaves young people unprepared for productive, independent lives."
+
+  # "Economy"
+  - topic: "Job Creation"
+    value: "Would champion private-sector job creation, especially for small and medium-sized businesses and the skilled trades"
+    snippet: "As your Congresswoman, I will champion sustainable private-sector job creation, especially for small and medium-sized businesses and the skilled trades."
+  - topic: "Manufacturing & Affordability"
+    value: "Would support policies rebuilding American manufacturing, lowering the cost of goods and improving affordability"
+    snippet: "I will support policies that rebuild American manufacturing, lower the cost of goods, and improve affordability so Americans can live and work with pride and dignity."
+  - topic: "Regulation, Permitting & Taxes"
+    value: "Would cut regulations, fix permitting systems and reduce taxation so Americans keep more of what they earn"
+    snippet: "We must cut excessive regulations, fix broken permitting systems, and reduce punitive taxation so Americans can keep more of what they earn and reinvest in their communities."
+  - topic: "Property Crime & Business Costs"
+    value: "Would direct federal resources toward reducing property crime and theft she says raise prices, inflate insurance costs and force businesses to close"
+    snippet: "I support directing federal resources toward dramatically reducing property crime and theft that raise prices, inflate insurance costs, and force businesses to close."
+  - topic: "Federal Spending & Debt"
+    value: "Would fight to end tax-and-spend policies she says fuel inflation, undermine affordability and increase the national debt"
+    snippet: "In Congress, I will fight to end reckless, wasteful tax-and-spend policies coming out of Washington that fuel inflation, undermine affordability, increase the national debt, and place the American Dream out of reach for too many."
+
+  # "Energy"
+  - topic: "Energy Choice"
+    value: "Would oppose limits on Americans' freedom to choose energy sources, and opposes arbitrary government bans, penalties or prohibitive taxes on energy options"
+    snippet: "As your Congresswoman, I will oppose ongoing attacks on Americans’ freedom to choose their energy sources. The first-world nation we currently enjoy must continue to ensure access to an array of reliable and affordable energy options without the threat of arbitrary government bans, penalties, or prohibitive taxes."
+  - topic: "Energy Transition"
+    value: "Says consumers and businesses, not government, should decide when and how to adopt alternative energy, free from forced transitions"
+    snippet: "Consumers and businesses—not distant bureaucrats—should decide when and how to adopt alternative energy options, free from prohibitive costs or forced transitions."
+  - topic: "All-of-the-Above Energy Strategy"
+    value: "Supports an all-of-the-above strategy developing cleaner energy choices, protecting energy infrastructure and ending reliance on hostile and unreliable nations"
+    snippet: "the government should pursue an “all of the above” energy strategy that strives to develop scientifically based, cleaner energy choices, protects our energy infrastructure, and ends reliance on sources of energy from hostile and unreliable nations."
+
+  # "Government Transparency & Accountability" — the section closes by
+  # naming the incumbent; that clause is excluded, same as every other
+  # opponent attack in this file.
+  - topic: "Voting Transparency"
+    value: "Commits to publishing all of her votes and the reasons behind them for the public to see"
+    snippet: "When elected, I commit to sharing all of my votes and reasons behind them for all the public to see."
+  - topic: "Wasteful Spending"
+    value: "Would apply an investigative approach and knowledge of the law to expose wasteful spending"
+    snippet: "I will apply my experienced investigative eye and knowledge of the law to expose wasteful spending."
+  - topic: "Corruption & Conflicts of Interest"
+    value: "Would fight to eliminate discrimination, corruption and cronyism and expose conflicts of interest"
+    snippet: "I will fight to eliminate discrimination, corruption, and cronyism, expose conflicts of interest"
+
+  # "National Security and Foreign Policy"
+  - topic: "Defense Posture"
+    value: "Says peace through strength is the proven strategy for deterring aggression and preventing conflict"
+    snippet: "Peace through strength remains the proven strategy for deterring aggression, preventing conflict, and securing lasting peace and prosperity."
+  - topic: "Military Readiness & Modernization"
+    value: "Would maintain America's technological edge, reinforce readiness, and invest in modern capabilities especially cyber and missile defense"
+    snippet: "That means maintaining our technological edge, reinforcing readiness, and investing in modern capabilities—especially cyber capabilities and missile defense—to meet rapidly evolving 21st-century threats."
+  - topic: "Foreign Aid Oversight"
+    value: "Supports allies' right to defend themselves but opposes unlimited foreign aid without strict oversight, demanding transparency on how taxpayer money is used"
+    snippet: "I support the right of our allies to defend themselves from terrorists and hostile regimes, but I oppose unlimited foreign aid without strict oversight. No taxpayer dollars should be spent without accountability."
+
+  # "Election Integrity"
+  - topic: "Voter ID & Election Systems"
+    value: "Supports requiring photo ID to vote, updated and accurate voter registration records, and vote tallying by certified American-made machines and software"
+    snippet: "This includes requiring a photo ID to vote, updated and accurate voter registration records, and vote tallying by controlled, certified machines and software that are made in America."
+  - topic: "Citizen Initiative Process"
+    value: "Supports Oregon's citizen initiative process as a check on government overreach"
+    snippet: "I strongly support Oregon’s treasured citizen initiative process that serves as an essential check on government overreach and ensures that the voices of everyday Oregonians—too often overlooked—are heard."
+
+  # "China"
+  - topic: "China as Strategic Adversary"
+    value: "Calls China the foremost strategic adversary and says the government must remain vigilant and aggressive in maintaining strength and readiness"
+    snippet: "China is our foremost strategic adversary, and our government must remain vigilant and aggressive in maintaining strength and readiness every moment of every day."
+  - topic: "Chinese Communist Party Accountability"
+    value: "Would hold the Chinese Communist Party accountable and end technology theft, cyber warfare, trade exploitation, currency manipulation, institutional infiltration and military aggression"
+    snippet: "I will work to hold the Chinese Communist Party and its leadership accountable for their hostile, invasive actions and end their technology theft, cyber warfare, trade exploitation, currency manipulation, institutional infiltration, and military aggression."
+
+  # "Israel"
+  - topic: "Israel"
+    value: "Would ensure Israel and its enemies never doubt that America will stand for Israel and against terrorism"
+    snippet: "When elected, I will ensure that Israel and its enemies never doubt that America will stand for Israel and against terrorism."
+  - topic: "Self-Defense of Nations"
+    value: "Supports all nations defending themselves against attacks on their people and sovereign lands"
+    snippet: "America should and must defend herself against all enemies, and I support all nations in defending themselves against attacks on their people and their sovereign lands."

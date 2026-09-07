@@ -42,7 +42,7 @@ const RACE_PAGE_SYSTEM_PROMPT = `You find a specific U.S. congressional race's o
 Output ONLY valid JSON, no other text:
 {"url": "https://ballotpedia.org/..." | null}`;
 
-async function findRacePage(raceDescription: string): Promise<string | null> {
+export async function findRacePage(raceDescription: string): Promise<string | null> {
   let message;
   try {
     message = await getClient().messages.create({
@@ -70,7 +70,7 @@ async function findRacePage(raceDescription: string): Promise<string | null> {
   }
 }
 
-async function fetchDistrictPage(url: string) {
+export async function fetchDistrictPage(url: string) {
   return fetchPageText(url, false);
 }
 

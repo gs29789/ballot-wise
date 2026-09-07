@@ -17,6 +17,11 @@ export interface PlatformPosition {
   topic: string;
   value: string;
   snippet: string;
+  // The page this specific position was quoted from. Present when positions
+  // were gathered across several topic pages (see extractPlatformFromSite);
+  // absent when they all came from one page, where the result's own
+  // sourceUrl already says where to look.
+  source_url?: string;
 }
 
 export interface PlatformResult {
@@ -30,7 +35,33 @@ function getClient(): Anthropic {
   return client;
 }
 
-const SYSTEM_PROMPT = `You extract a political candidate's own stated campaign positions/promises from a single source page's text. Follow these rules exactly:
+export type PlatformSourceType = "campaign_site" | "ballotpedia";
+
+// Parameterized by source for the same reason campaignBioSummary.ts's
+// SOURCE_PROMPT_INFO is: the verbatim/identity/citation rules are
+// identical either way, but a Ballotpedia profile is written ABOUT the
+// candidate by Ballotpedia's editorial staff, while a campaign site is
+// written BY them. Extracting from Ballotpedia with the campaign-site
+// prompt silently attributed Ballotpedia's own reporting voice to
+// candidates as their stated positions -- confirmed on real output
+// (2026-09-02): Sara Jacobs (CA-51) and Pramila Jayapal (WA-7) both had
+// entries whose snippet literally began "According to her campaign
+// website, ..." / "On her campaign website, ... highlighted", which is
+// Ballotpedia summarizing a PRIOR cycle's site, not the candidate
+// speaking. This section renders as the candidate's own stated
+// positions, so that framing is a sourcing error, not a nitpick.
+const SOURCE_EXTRA_RULES: Record<PlatformSourceType, string> = {
+  campaign_site: "",
+  ballotpedia: `
+BALLOTPEDIA-SPECIFIC RULES (this page is written by Ballotpedia's editorial staff, not by the candidate):
+A. Only extract from text that is the CANDIDATE'S OWN WORDS: a candidate-submitted survey response, or text explicitly presented as a direct quotation of the candidate. Ballotpedia's own third-person reporting is NOT the candidate speaking.
+B. REJECT any passage framed as Ballotpedia describing or summarizing the candidate's views. Concretely, do not extract from text matching patterns like "According to [their] campaign website, X supported...", "On her campaign website, X highlighted...", "X said he supported...", or any third-person past-tense summary of what the candidate once said. If the only issue content on the page is of this kind, return an empty positions array.
+C. REJECT content that is about a DIFFERENT election cycle than the expected context. Ballotpedia profiles retain issue text from prior campaigns, often undated and in the past tense. If a passage's own wording ties it to an earlier race, an earlier office, or a past administration's agenda, do not extract it.
+D. If nothing on the page clears A-C, return an empty positions array. An empty result is the correct, expected outcome for most Ballotpedia profiles -- returning nothing is strongly preferred over returning Ballotpedia's characterization.`,
+};
+
+function buildSystemPrompt(sourceType: PlatformSourceType): string {
+  return `You extract a political candidate's own stated campaign positions/promises from a single source page's text. Follow these rules exactly:
 
 1. Only extract a position if you can quote the text (verbatim, character-for-character, an exact contiguous substring copied from the provided text) that states it. Never infer, summarize from general knowledge, or paraphrase into a "quote."
 2. CRITICAL — "value" must not contain ANY claim that is not explicitly stated in "snippet". Do not summarize the candidate's overall stance on a topic from scattered parts of the page and attach one short snippet — every fact in "value" must be traceable to text physically present in "snippet". A short, fully-supported value is correct; a longer value with any unsupported claim is not.
@@ -39,18 +70,38 @@ const SYSTEM_PROMPT = `You extract a political candidate's own stated campaign p
 5. If the page is clearly about a different person than the one named, or states no actual policy positions, return an empty array.
 6. If an expected context is given (a specific office and state), and the page is clearly for a same-named person outside that context, treat it as a different person — return an empty array.
 7. Extract at most 8 positions — if more are listed, keep the most substantive ones.
-8. Output ONLY valid JSON matching this exact shape, no other text:
+8. Each position's "snippet" must be the TIGHTEST span that supports that position, and two positions must NOT quote overlapping text. If one sentence lists several policies, either pick the single most substantive one, or give each its own non-overlapping fragment — never emit several entries whose snippets are nested or near-identical prefixes of the same sentence.
+9. A PRESS RELEASE OR NEWS ITEM IS NOT A PLATFORM. Reject any passage written as news about the person rather than as a stance they are taking: headlines naming them in the third person with their title ("Rep. Smith Pushes for...", "Congressman Smith: ..."), and reporting formulas like "issued the following statement", "joined colleagues to announce", "responded to reports that", or a dateline. Official government sites in particular often file press releases under issue-topic URLs, which makes a wall of news items look like an issues page. If a page's only issue-related content is of that kind, return an empty positions array — an empty result is the correct answer there.
+10. A NAVIGATION MENU IS NOT A PLATFORM. Do not build positions out of link text, menu labels, or lists of page titles. If the only support you can find for a topic is a bare heading or nav entry naming it (e.g. "Healthcare", "Ratify the Equal Rights Amendment") with no sentence stating what the candidate would actually do, skip that topic rather than quoting the label.
+11. Output ONLY valid JSON matching this exact shape, no other text:
 {
   "matchesExpectedCandidate": true | false,
   "positions": [
     {"topic": "short topic label, e.g. Immigration", "value": "concise statement of their position", "snippet": "verbatim quoted text"}
   ]
-}`;
+}${SOURCE_EXTRA_RULES[sourceType]}`;
+}
+
+// Backstop for rule 8 above -- a prompt rule alone can't be trusted to
+// hold, and nested snippets are mechanically detectable. Keeps the
+// longest span of any overlapping group, since that's the one whose
+// citation actually reads as a complete claim.
+function dropOverlappingSnippets(positions: PlatformPosition[]): PlatformPosition[] {
+  const byLengthDesc = [...positions].sort((a, b) => b.snippet.length - a.snippet.length);
+  const kept: PlatformPosition[] = [];
+  for (const p of byLengthDesc) {
+    const overlaps = kept.some((k) => k.snippet.includes(p.snippet) || p.snippet.includes(k.snippet));
+    if (!overlaps) kept.push(p);
+  }
+  // restore the model's original ordering among survivors
+  return positions.filter((p) => kept.includes(p));
+}
 
 async function extractFromPage(
   candidateName: string,
   page: { text: string; finalUrl: string },
-  expectedContext?: string
+  expectedContext?: string,
+  sourceType: PlatformSourceType = "campaign_site"
 ): Promise<PlatformResult | null> {
   const { text: pageText, finalUrl } = page;
 
@@ -65,7 +116,7 @@ async function extractFromPage(
     message = await getClient().messages.create({
       model: "claude-sonnet-4-5",
       max_tokens: 2048,
-      system: SYSTEM_PROMPT,
+      system: buildSystemPrompt(sourceType),
       messages: [
         {
           role: "user",
@@ -88,7 +139,7 @@ async function extractFromPage(
     const positions: PlatformPosition[] = (parsed.positions ?? []).filter(
       (p: any) => p && typeof p.value === "string" && typeof p.snippet === "string" && pageText.includes(p.snippet)
     );
-    return { positions, sourceUrl: finalUrl };
+    return { positions: dropOverlappingSnippets(positions), sourceUrl: finalUrl };
   } catch {
     return null;
   }
@@ -112,6 +163,16 @@ const PLATFORM_PATHS = ["/platform", "/issues", "/priorities", "/where-i-stand",
 // links and tries whichever ones look platform-related — adapts to
 // whatever slug a given site actually uses instead of guessing one.
 const LINK_KEYWORDS = /issue|platform|priorit|position|agenda|\bpolic|stand|vision|\bplan\b|promise/i;
+
+// A single press release is not a platform. On an official .gov site the
+// nav-link discovery above readily lands on one, because release titles
+// routinely contain platform keywords ("...on Border Policy") -- and the
+// extractor then faithfully quotes real positions from it, producing a
+// technically-accurate but badly misleading record. Confirmed on Rep.
+// Nathaniel Moran (TX-1), whose entire Campaign Platform came out as
+// three foster-care positions quoted from one news item, making a
+// broad-portfolio legislator read as a single-issue candidate.
+const PRESS_RELEASE_URL = /\/news\/|documentsingle|\/press(-release)?[\/?]|\/media\//i;
 
 function discoverPlatformLinks(html: string, baseUrl: string): string[] {
   const origin = new URL(baseUrl).origin;
@@ -155,10 +216,71 @@ export async function extractPlatformFromSite(candidateName: string, baseUrl: st
 
   const candidateUrls = [
     ...new Set([...PLATFORM_PATHS.map((p) => new URL(p, resolvedBase).toString()), ...discoverPlatformLinks(homepagePage.html, resolvedBase)]),
-  ];
+  ].filter((u) => !PRESS_RELEASE_URL.test(u));
+
+  // Gathers across pages instead of returning the first one that yields
+  // anything. Many sites -- congressional .gov sites especially -- give each
+  // topic its own page rather than listing everything on one, and stopping at
+  // the first hit captured a single topic and silently discarded the rest.
+  // Confirmed on Rep. Henry Cuellar (TX-28), whose site has TEN topic pages
+  // under /issues/issue/?IssueID=NNNN: the old behaviour returned four border
+  // positions and never saw agriculture, health, veterans or the other six.
+  //
+  // Each position carries the page it actually came from, so a reader
+  // verifying a quote lands on the page containing it rather than on an index
+  // that merely links there -- the alternative, citing one URL for positions
+  // gathered from several, would have made every snippet unfindable at its
+  // stated source.
+  const gathered: PlatformPosition[] = [];
+  let firstSourceUrl: string | null = null;
   for (const url of candidateUrls) {
+    if (gathered.length >= MAX_GATHERED_POSITIONS || pagesVisited(gathered, candidateUrls) >= MAX_PLATFORM_PAGES) break;
     const result = await attemptExtraction(candidateName, url, expectedContext).catch(() => null);
-    if (result && result.positions.length) return result;
+    if (!result || !result.positions.length) continue;
+    firstSourceUrl ??= result.sourceUrl;
+    // Capped PER PAGE, not just in total. A total-only cap fills up on
+    // whichever topic happens to be crawled first -- on Cuellar's site that
+    // was border security, which alone produced six positions and pushed
+    // agriculture and veterans past the ceiling entirely. A voter is better
+    // served by a few positions across ten topics than by everything the
+    // site says about one, so breadth wins over depth here.
+    let fromThisPage = 0;
+    for (const p of result.positions) {
+      if (gathered.length >= MAX_GATHERED_POSITIONS || fromThisPage >= MAX_POSITIONS_PER_PAGE) break;
+      // Same topic covered on two pages is a duplicate, not extra coverage.
+      if (gathered.some((g) => g.snippet === p.snippet || g.topic.toLowerCase() === p.topic.toLowerCase())) continue;
+      gathered.push({ ...p, source_url: result.sourceUrl });
+      fromThisPage++;
+    }
   }
-  return null;
+  if (!gathered.length) return null;
+  return { positions: dropOverlappingSnippets(gathered), sourceUrl: firstSourceUrl ?? resolvedBase };
+}
+
+// Bounded because each page is a separate model call: a site with dozens of
+// topic pages would otherwise cost dozens of calls for one candidate, across
+// a thousand-candidate build. Ten topics covers the congressional sites seen
+// here; the cap is a cost ceiling, not a judgement that further pages are
+// uninteresting, so it is logged rather than silently applied.
+const MAX_PLATFORM_PAGES = 10;
+const MAX_GATHERED_POSITIONS = 24;
+const MAX_POSITIONS_PER_PAGE = 3;
+function pagesVisited(gathered: PlatformPosition[], _urls: string[]): number {
+  return new Set(gathered.map((g) => g.source_url).filter(Boolean)).size;
+}
+
+// Fallback for a candidate whose campaign site (and, for a sitting member,
+// official .gov site) either has no platform content or couldn't be reached
+// at all -- reuses the exact same verbatim/identity-check machinery above,
+// pointed at a single already-known Ballotpedia URL instead of crawling a
+// site's nav. See ballotpedia.ts for how that URL gets discovered (a
+// race-page search + deterministic link parse, same source already used
+// for the bio_summary waterfall's Ballotpedia tier) -- still runs its own
+// expectedContext identity check regardless of how the URL was found, same
+// discipline as every other source here.
+export async function extractPlatformFromBallotpedia(candidateName: string, ballotpediaUrl: string, expectedContext?: string): Promise<PlatformResult | null> {
+  const page = await fetchPageText(ballotpediaUrl).catch(() => null);
+  if (!page) return null;
+  const result = await extractFromPage(candidateName, page, expectedContext, "ballotpedia").catch(() => null);
+  return result && result.positions.length ? result : null;
 }
