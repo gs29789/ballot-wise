@@ -1,0 +1,53 @@
+# augustpfluger.com is classified "blocked_other" by the pipeline's
+# automated reachability check (a plain 403/firewall response, not a
+# Cloudflare JS/behavioral challenge -- see scaleCampaignSiteDiscovery.ts's
+# classifySite() distinction), but it loaded completely and normally in a
+# real browser this session, full content, no interstitial. The text below
+# was read directly off the live site by a person and quoted verbatim,
+# same quote-anchored rule llmExtract.ts enforces on an automated pass.
+#
+# bio_summary is the opening two paragraphs of the "MY STORY" section
+# (F-22 pilot / National Security Council career), same single-
+# contiguous-passage rule the automated extractor follows -- the later
+# "EXPERIENCE" bullet list and remaining "MY STORY" paragraphs (White
+# House NSC role, family) are not pulled in. platform is the site's six
+# labeled "DEFENDING OUR VALUES" position statements, one entry each,
+# plus two individually self-attributed achievement claims (a specific
+# bill and a specific dollar figure/award) pulled out of an otherwise
+# excluded homepage section that is almost entirely generic "Republicans
+# promised X, Republicans delivered" party messaging with no personal
+# "I" attached -- that section is excluded on the same standing rule this
+# file's session applies throughout: collective party talking points
+# aren't the candidate's own stated platform, only his own self-
+# attributed sentences are.
+platform_source_url: "https://augustpfluger.com"
+platform:
+  - topic: "Border Reimbursement Funding"
+    value: "Says he played a major role in securing $13 billion in border reimbursements for states like Texas, and received the 2025 Democracy Award for Best Constituent Services and Outreach"
+    snippet: "He played a major role in securing $13 billion in border reimbursements for states like Texas, and he received the 2025 Democracy Award for Best Constituent Services and Outreach."
+  - topic: "Natural Gas Tax Repeal"
+    value: "Says President Trump signed his bill repealing the natural gas tax as the second bill signed into law this term"
+    snippet: "President Trump signed Congressman Pfluger’s bill to repeal the natural gas tax as his second bill signed into law this term."
+  - topic: "National Security"
+    value: "As a 20-year combat veteran and national security advisor to President Trump, says he's spent his career fighting to keep the country safe and is keeping up the fight against ISIS, China, and Russia"
+    snippet: "As a 20-year combat veteran and national security advisor to President Donald Trump, I’ve spent my entire career fighting to keep our country safe. As a U.S. Congressman, I’m keeping up the fight against foreign threats like ISIS, China, and Russia."
+  - topic: "Border Security"
+    value: "Supports President Trump's approach to securing the southern border against drug cartels, human traffickers, and illegal immigration, and says he's leading efforts to strengthen immigration enforcement"
+    snippet: "I support President Trump’s vision for securing America and believe we must secure our southern border to protect our citizens from dangerous drug cartels, human traffickers, and illegal immigrants. I’m leading the charge to strengthen immigration enforcement and reduce illegal immigration."
+  - topic: "Rural Values & Agriculture"
+    value: "As a seventh-generation Texan from a ranching family, says he'll stand up for farmers and ranchers and defend traditional rural values"
+    snippet: "As a seventh-generation Texan, my family has worked the farms and ranches of this area for almost 170 years. As your voice in Congress, I’ll stand up for our farmers and ranchers and defend the traditional rural values that make Texas so exceptional."
+  - topic: "Energy Independence"
+    value: "Supports oil and gas producers and says he's working to secure total U.S. energy independence"
+    snippet: "I’m proud to support the hard-working oil and gas producers that keep our Texas economy strong. In Washington, I’m fighting back against the oil-hating liberals and working to secure total energy independence for our country."
+  - topic: "Second Amendment"
+    value: "Supports the right of law-abiding citizens to keep and bear arms"
+    snippet: "I’m defending the Second Amendment and supporting the right of all law-abiding citizens to keep and bear arms for the protection of themselves and their families."
+  - topic: "Life & Religious Liberty"
+    value: "Believes in protecting innocent human life from conception to natural death, and in protecting the rights of Christians and other religious groups to practice their faith freely"
+    snippet: "I believe in promoting a culture of life that honors all innocent human life from the moment of conception until natural death.\n\nAs a follower of Jesus Christ, I’m fighting to protect the rights of Christians and other religious groups to practice their faith freely and without government interference."
+
+bio_summary:
+  value: "Colonel August Pfluger has dedicated his life to defending the United States from those who would do us harm – from his days as an elite F-22 Raptor fighter pilot flying combat missions against ISIS, to his service on the National Security Council as an advisor to President Donald Trump. August Pfluger believes our nation is worth defending…and as our trusted U.S. Congressman, he’ll stand up to the socialists and liberal elites in Washington DC and defend our West Texas values of family, faith, and freedom.\n\nAfter high school, August followed in his grandfather’s footsteps and answered his nation’s call to serve. Upon graduating with honors from the U.S. Air Force Academy, Pfluger went on to serve his country in uniform for nearly two decades – commanding hundreds of combat airmen and serving in the Pentagon and NATO Command. Today, Colonel Pfluger is a decorated combat veteran with over 300 hours of direct action against radical jihadists in the Islamic State in Iraq and Syria (ISIS)."
+  source_url: "https://augustpfluger.com"
+  source_type: campaign_site
