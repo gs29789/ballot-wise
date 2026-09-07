@@ -1646,7 +1646,7 @@ const HERO_STATS = [
   { value: "535", label: "Congressional seats" },
   { value: "435", label: "House races every 2 years" },
   { value: "100", label: "Senate seats" },
-  { value: "$0", label: "Known dollars that compromise our non-partisan commitment" },
+  { value: "0", label: "Contributions that can alter our non-partisan work" },
 ];
 
 // Mapbox's Search Box API, called directly from the browser with a public,
@@ -1881,7 +1881,7 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, o
       <div style={{ borderTop: `1px solid ${D.line}` }}>
         <div style={{ maxWidth: 700, margin: "0 auto", padding: "36px 20px 48px" }}>
           <div style={{ fontFamily: "'Fraunces', serif", fontSize: 18, fontWeight: 600, marginBottom: 8 }}>
-            We don't knowingly take money that compromises our non-partisan commitment to the community. Just the facts.
+            No contribution — from a party, a campaign, or anyone else — can alter our non-partisan work. Just the facts.
           </div>
           <p style={{ color: D.inkSoft, fontSize: 13.5, lineHeight: 1.6 }}>
             Ballot-Wise's policy is to be funded by citizens, not campaigns — contributions never affect our neutrality or what we publish about any candidate or race. Our only obligation is to you. Every fact shown traces to a public source, linked next to the value — nothing here is summarized from memory or characterized on our behalf.
