@@ -1,0 +1,111 @@
+[
+  {
+    "id": "fl-11-recount-2026",
+    "description": "Florida FL-11 — Republican primary inside the automatic-recount threshold (Strada 33.5% vs. Baker 33.0%, ~403 votes)",
+    "watchDate": "2026-08-24",
+    "watchReason": "recount",
+    "source_url": "https://apps.npr.org/primary-election-results-2026/states/FL.html",
+    "snippet": "Florida's machine recount must conclude by 3pm on the 5th day after the election (~2026-08-23) per Fla. Stat. §102.141 — recheck Ballotpedia's FL-11 general-election page after that date, not before.",
+    "state": "FL",
+    "chamber": "house",
+    "districts": [
+      "11"
+    ]
+  },
+  {
+    "id": "fl-21-disputed-primary-2026",
+    "description": "Florida FL-21 — Democratic primary disputed, not officially called (Martin 50.4% vs. Taylor 49.6%, 359-vote margin)",
+    "watchDate": "2026-08-24",
+    "watchReason": "primary",
+    "source_url": "https://floridapolitics.com/archives/814669-james-martin-edges-out-bernard-taylor-for-democratic-nomination-in-cd-21/",
+    "snippet": "Taylor had yet to concede as of 2026-08-19 and argues uncounted votes could still tip the outcome — recheck Ballotpedia's FL-21 general-election page for an official call before treating either candidate as final.",
+    "state": "FL",
+    "chamber": "house",
+    "districts": [
+      "21"
+    ]
+  },
+  {
+    "id": "ak-senate-top4-4th-seat-2026",
+    "description": "Alaska Senate — 4th advancing candidate (Leslie vs. Heikes) not yet resolved; House-AL already shipped",
+    "watchDate": "2026-09-01",
+    "watchReason": "primary",
+    "source_url": "https://apps.npr.org/primary-election-results-2026/states/AK.html",
+    "snippet": "Alaska's own certification target is 2026-08-31 (Anchorage Daily News, quoting the Division of Elections directly) — recheck vote totals and Sullivan Jr.'s withdrawal status after that date, not before.",
+    "state": "AK",
+    "chamber": "senate"
+  },
+  {
+    "id": "ok-senate-runoff-2026",
+    "description": "Oklahoma — Senate Democratic runoff not yet applied (House races already live)",
+    "watchDate": "2026-08-25",
+    "watchReason": "runoff",
+    "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Oklahoma,_2026",
+    "snippet": "Oklahoma Senate election — Democratic runoff between Jim Priest and N'Kiyla Thomas scheduled for 2026-08-25.",
+    "state": "OK",
+    "chamber": "senate"
+  },
+  {
+    "id": "ma-primary-2026",
+    "description": "Massachusetts — not yet wired into pipeline code at all (9 districts + Senate, scoped clean, primary rosters already researched)",
+    "watchDate": "2026-09-01",
+    "watchReason": "primary",
+    "source_url": "https://ballotpedia.org/Massachusetts_elections,_2026",
+    "snippet": "Massachusetts 2026 primary election scheduled for 2026-09-01.",
+    "state": "MA",
+    "chamber": "both"
+  },
+  {
+    "id": "nh-primary-2026",
+    "description": "New Hampshire — not yet wired into pipeline code at all (2 districts + Senate, scoped clean)",
+    "watchDate": "2026-09-08",
+    "watchReason": "primary",
+    "source_url": "https://ballotpedia.org/New_Hampshire_elections,_2026",
+    "snippet": "New Hampshire 2026 primary election scheduled for 2026-09-08.",
+    "state": "NH",
+    "chamber": "both"
+  },
+  {
+    "id": "ri-primary-2026",
+    "description": "Rhode Island — not yet wired into pipeline code at all (2 districts + Senate, scoped clean)",
+    "watchDate": "2026-09-09",
+    "watchReason": "primary",
+    "source_url": "https://ballotpedia.org/Rhode_Island_elections,_2026",
+    "snippet": "Rhode Island 2026 primary election moved to Wednesday 2026-09-09 (from the default Tuesday, to avoid a Labor Day conflict).",
+    "state": "RI",
+    "chamber": "both"
+  },
+  {
+    "id": "de-primary-2026",
+    "description": "Delaware — primary results not yet applied (House-AL, Senate)",
+    "watchDate": "2026-09-15",
+    "watchReason": "primary",
+    "source_url": "https://elections.delaware.gov/results/",
+    "snippet": "Delaware Department of Elections results — check after the 2026-09-15 primary.",
+    "state": "DE",
+    "chamber": "both"
+  },
+  {
+    "id": "wa-05-08-certification",
+    "description": "Washington — WA-05 and WA-08 general-election fields still uncertified (8 of 10 districts already live)",
+    "watchReason": "certification",
+    "source_url": "https://ballotpedia.org/Washington%27s_5th_Congressional_District_election,_2026",
+    "snippet": "As of the last check, Ballotpedia had not yet certified the second-place finisher in WA-05 or WA-08 — recheck this page and WA-08's equivalent periodically.",
+    "state": "WA",
+    "chamber": "house",
+    "districts": [
+      "05",
+      "08"
+    ]
+  },
+  {
+    "id": "la-house-nov3",
+    "description": "Louisiana House — all districts pending Nov 3 results (Senate already live); a Dec runoff is only needed per-district if nobody clears a majority",
+    "watchDate": "2026-11-03",
+    "watchReason": "general/possible-runoff-decider",
+    "source_url": "https://www.sos.la.gov/elections-voting/election-dates",
+    "snippet": "Louisiana's House races revert to an all-party primary held on the same day as the Nov 3, 2026 general — a December runoff applies only to districts where no candidate clears a majority.",
+    "state": "LA",
+    "chamber": "house"
+  }
+]

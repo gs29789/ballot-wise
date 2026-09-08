@@ -1,0 +1,946 @@
+{
+  "state": "TN",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-09-03T17:26:51.169Z",
+  "election_dates": {
+    "primaryDate": "2026-08-06",
+    "primarySourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "primarySnippet": "Thursday, August 6, 2026 - Primary and General Election. Primary elections will be held for Governor, U.S. Senate, U.S. House, Tennessee Senate (odd-numbered districts), Tennessee House...",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://sos-prod.tnsosgovfiles.com/s3fs-public/document/Key%20Dates%20-%202026_0.pdf",
+    "generalSnippet": "Tuesday, November 3, 2026 - State and Federal General Election."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Tennessee's eligibility statute (Tenn. Code Ann. § 8-18-101) applies only to persons \"qualified to hold office under the authority of this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tn/title-8-public-officers-and-employees/tn-code-sect-8-18-101/",
+    "snippet": "Tenn. Code Ann. § 8-18-101: \"All persons eighteen (18) years of age or older who are citizens of the United States and of this state... are qualified to hold office under the authority of this state except: (1) Those who have been convicted of offering or giving a bribe, or any other offense declared infamous under § 40-20-112...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Tennessee%27s_2nd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Tim Burchett, Michaela Barnett, Bruce Fine, and Adam Heimerman are running in the general election for U.S. House Tennessee District 2 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 54.62
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 52.04
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 51.17
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 44.56
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 34.24
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3385.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3385.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3382.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3376.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3374.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3366.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3375.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3370.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3366
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3355.9
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3359.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3367.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3363.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3360
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3374.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3375.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3369.7
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3373.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3371.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3368.8
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3368
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3367.7
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3373.7
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3371.1
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3370.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3375.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3369.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3364.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3371.3
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3359.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3349.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3361.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3354.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3345.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3344.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3329.7
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3330.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3332.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3317.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3309.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3310.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3308.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3303.5
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4167534392.75,
+        "perCapitaUsd": 5448.72
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5259170131.81,
+        "perCapitaUsd": 6850.71
+      },
+      {
+        "year": "2025",
+        "totalUsd": 4697463994.35,
+        "perCapitaUsd": 6141.56
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 7051339
+      },
+      {
+        "year": "2023",
+        "population": 7126489
+      },
+      {
+        "year": "2024",
+        "population": 7227750
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 65254
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 67631
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 71997
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michaela-barnett",
+      "full_name": "BARNETT, MICHAELA",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TN02170",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 397583.78,
+        "totalSpent": 341353.67,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 153957.38,
+          "largeDollar": 231592.93,
+          "pac": 250,
+          "party": 0,
+          "selfFunded": 6415
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "local small business owner and an engineer who spent the last year working in Congress",
+          "source_url": "https://www.michaelafortennessee.com/",
+          "snippet": "Michaela Barnett is a local small business owner and an engineer who spent the last year working in Congress.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Furman University, Sustainability Science (2015); Doctorate, University of Virginia, Behavioral Science for Sustainability (2023)",
+          "source_url": "https://www.ballotready.org/people/michaela-barnett",
+          "snippet": "Degrees Doctorate, University of Virginia, Behavioral Science for Sustainability (2023) Bachelor&#x27;s, Furman University, Sustainability Science (2015)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economic Policy",
+          "value": "Focus on an economy that works for East Tennesseans",
+          "snippet": "An Economy that Works for East Tennesseans"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Commitment to quality healthcare we can afford",
+          "snippet": "Quality Healthcare We Can Afford"
+        },
+        {
+          "topic": "Government Reform",
+          "value": "Make government work for East Tennesseans and serve the people",
+          "snippet": "A Government that Serves Us"
+        },
+        {
+          "topic": "Infrastructure and Workforce",
+          "value": "Investing in Tennessee's infrastructure and workforce",
+          "snippet": "Investing in Tennessee's Infrastructure and Workforce"
+        }
+      ],
+      "platform_source_url": "https://www.michaelafortennessee.com/",
+      "_platform_resolved_at": "2026-08-14T17:45:45.931Z",
+      "campaign_site_url": "https://michaelafortennessee.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=7HqQpWS1rVw",
+      "platform_video_title": "Let's Put Hope To Work - Michaela Barnett's Launch Speech",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-09-01T12:00:13.101Z",
+      "bio_summary": {
+        "value": "Michaela Barnett is a local small business owner and an engineer who spent the last year working in Congress. She learned the value of a hard day’s work early on, doing barn chores before and after school. Michaela knows firsthand what it means to make payroll, care for the land, and solve problems.",
+        "source_url": "https://www.michaelafortennessee.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:53.674Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "tim-burchett",
+      "full_name": "BURCHETT, TIM",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8TN02119",
+      "fec_status": "C",
+      "bioguide_id": "B001309",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2428734.15,
+        "totalSpent": 2189477.4,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1377488.95,
+          "largeDollar": 871910.18,
+          "pac": 141525.26,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1964-08-25",
+          "source_url": "https://www.wikidata.org/wiki/Q7803244",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Knoxville, Tennessee",
+          "source_url": "https://www.wikidata.org/wiki/Q7803244",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Tennessee",
+          "source_url": "https://www.wikidata.org/wiki/Q7803244",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Bearden High School",
+          "source_url": "https://burchettforcongress.com/",
+          "snippet": "Tim attended Bearden High School",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://burchettforcongress.com/",
+          "snippet": "a husband",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "successful businessman, state legislature",
+          "source_url": "https://burchettforcongress.com/",
+          "snippet": "successful businessman, community leader",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "civic_affiliations": {
+          "value": "Member of Sigma Chi fraternity",
+          "source_url": "https://en.wikipedia.org/wiki/Tim_Burchett",
+          "snippet": "He is a member of the Sigma Chi fraternity.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Veterans",
+          "value": "Veterans make up one percent of our population, but we owe them 100 percent of our freedoms.",
+          "snippet": "Veterans make up one percent of our population, but we owe them 100 percent of our freedoms."
+        },
+        {
+          "topic": "Term Limits",
+          "value": "The longer politicians stay in Washington, the more beholden they become to the special-interests who line their pockets. The Founding Fathers never intended for this.",
+          "snippet": "The longer politicians stay in Washington, the more beholden they become to the special-interests who line their pockets. The Founding Fathers never intended for..."
+        },
+        {
+          "topic": "Taxes and Spending",
+          "value": "Our federal government already taxes and spends too much. The last thing we need to do is raise more taxes and spend more of America's hard-earned money.",
+          "snippet": "Our federal government already taxes and spends too much. The last thing we need to do is raise more taxes and spend more of America s hard-earned money."
+        }
+      ],
+      "platform_source_url": "https://burchettforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T17:46:31.677Z",
+      "campaign_site_url": "https://burchettforcongress.com/",
+      "_campaign_site_reachability": null,
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Tim Burchett is a lifelong East Tennessee conservative, a husband, a dad, and the Republican Congressman for Congress in Tennessee’s 2nd Congressional District. He ran for Congress because he was fed up with the status quo in our nation’s Capitol. Born in Knoxville, Tennessee, Tim attended Bearden High School before earning his Bachelor’s degree in education from the University of Tennessee. Dedicated to serving his community, Tim has spent much of his adult life serving the people of East Tennessee.",
+        "source_url": "https://burchettforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:49.447Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 285,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Local Access to Courts Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll285.xml"
+        },
+        {
+          "rollNumber": 284,
+          "year": 2026,
+          "question": "On Motion to Suspend the Rules and Pass",
+          "billTitle": "Prison Staff Safety Enhancement Act",
+          "date": "31-Aug-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll284.xml"
+        },
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        }
+      ],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Transportation and Infrastructure",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Aviation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Railroads, Pipelines, and Hazardous Materials",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Transportation and Infrastructure — Highways and Transit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Government Operations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — South and Central Asia",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Middle East and North Africa",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Delivering on Government Efficiency",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 149,
+        "bills_cosponsored": 800,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.663,
+          "nominateDim2": -0.457,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/B001309"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 26.8,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/B001309"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "adam-heimerman",
+      "full_name": "HEIMERMAN, ADAM",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6TN02188",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Lenoir City High School",
+          "source_url": "https://ballotpedia.org/Adam_Heimerman",
+          "snippet": "Adam Heimerman earned a high school diploma from Lenoir City High School."
+        },
+        "employment_record": {
+          "value": "Small business owner",
+          "source_url": "https://ballotpedia.org/Adam_Heimerman",
+          "snippet": "Heimerman's career experience includes working as a small business owner."
+        },
+        "birthplace": {
+          "value": "East Tennessee",
+          "source_url": "https://www.vote4heimerman.com/",
+          "snippet": "Adam Lee Heimerman is a 7th generation East Tennessean",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Border Security and Immigration",
+          "value": "We need better paths to citizenship while showing compassion to those seeking the legal route. Border enforcement must be prepared to defend against smugglers, yet ready to help those seeking a chance to pursue their American Dream.",
+          "snippet": "We are a nation of immigrants, but sovereign nations must have secure borders. We need better paths to citizenship while showing compassion to those seeking the legal route. Our border enforcement must be prepared to defend against smugglers, yet ready to help those seeking a chance to pursue their American Dream."
+        },
+        {
+          "topic": "Campaign Finance Reform",
+          "value": "Super PACs must be abolished. Lobbyists should not have more influence over our leaders than the people who elected them. Will aggressively pursue destruction of Citizens United.",
+          "snippet": "Corporations are not people. Super PACs must be abolished. Lobbyists should not have more influence over our leaders than the people who elected them in the first place. Adam despises the black hole that is Citizens United and will aggressively pursue its destruction."
+        },
+        {
+          "topic": "Housing Affordability",
+          "value": "Addressing the massive rise in cost of home ownership that is now out of reach for many, which has been caused by corporate greed and failed policies that hold back the working class.",
+          "snippet": "Our district has fallen victim to the massive rise in cost of home ownership. For many of us, it is now out of reach. Our American Dream has been stolen by corporate greed and failed polices that hold back the working class."
+        },
+        {
+          "topic": "Environmental Protection",
+          "value": "Americans deserve clean water, air, and soil. Must act now to protect national parks and public lands from being sold off to corporations.",
+          "snippet": "Americans deserve clean water, air, and soil. Our national parks and public lands are in danger of being sold off to corporations. History has shown us how human hubris can destroy swaths of land and kill the life it supports. We must act now before it is too late."
+        },
+        {
+          "topic": "Fiscal Policy",
+          "value": "Cannot continue failed economic policies and increase debts to subsidize billion dollar corporations.",
+          "snippet": "We are the wealthiest nation on Earth, yet our debt continues to put us at risk of economic collapse. We cannot continue failed economic policies and increase our debts to subsidize billion dollar corporations."
+        },
+        {
+          "topic": "Working Class Empowerment",
+          "value": "A healthy workforce creates a better economy and better opportunities for children to pursue.",
+          "snippet": "Working class Americans are the blood of this nation. When they are able to thrive, so does our community and the families that call them home. A healthy workforce creates a better economy. A better economy creates better opportunities for our children to pursue."
+        }
+      ],
+      "platform_source_url": "https://www.vote4heimerman.com/",
+      "_platform_resolved_at": "2026-08-17T00:20:29.043Z",
+      "campaign_site_url": "https://www.vote4heimerman.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": "https://www.youtube.com/watch?v=5L13fitnUU8",
+      "platform_video_title": "Stay tuned … 📺 #freeadamlee #vote4heimerman #flock #documentary @vote4heimerman",
+      "platform_video_source_url": "https://www.vote4heimerman.com/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:06:15.111Z",
+      "bio_summary": {
+        "value": "Adam Lee Heimerman is a 7th generation East Tennessean and has always been passionate about his home. He grew up understanding the value of hard work, the importance of reliability, and the strength of Appalachian resilience. He spent ten years working with the river guiding community across our nation and spent more time outdoors than in. Adam is the type of man who chose morals over money, and experiences over material wealth. He does not desire a career in politics nor personal enrichment, and that is what we need most in these trying times, a man with integrity.",
+        "source_url": "https://www.vote4heimerman.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:14:51.768Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    },
+    {
+      "slug": "bruce-fine",
+      "full_name": "FINE, BRUCE",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": null,
+      "fec_status": null,
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {},
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://fineforcongresstn.com/",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    }
+  ]
+}
