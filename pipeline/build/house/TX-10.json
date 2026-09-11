@@ -1,0 +1,218 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-10",
+  "generated_at": "2026-08-14T18:28:21.464Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Texas%27_10th_Congressional_District_election,_2026",
+    "snippet": "Caitlin Rourk and Chris Gober are running in the general election for U.S. House Texas District 10 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": null,
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.43
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.79
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.33
+      }
+    ],
+    "nonfarm_employment_thousands": null,
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155133727.59,
+        "perCapitaUsd": 6674.19
+      }
+    ],
+    "population": null,
+    "median_household_income": null
+  },
+  "candidates": [
+    {
+      "slug": "chris-gober",
+      "full_name": "GOBER, CHRIS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX10221",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2559184.84,
+        "totalSpent": 2439557.92,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 9828.11,
+          "largeDollar": 691415.91,
+          "pac": 129145.5,
+          "party": 0,
+          "selfFunded": 1649821.91
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Graham High School (1997)",
+          "source_url": "https://www.ballotready.org/people/chris-gober",
+          "snippet": "High School Diploma, Graham High School (1997)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "Bachelor's, Texas A&M University, Business Management (2001)",
+          "source_url": "https://www.ballotready.org/people/chris-gober",
+          "snippet": "Bachelor&#x27;s, Texas A&M University, Business Management (2001)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Lex Politica, CEO/Founder (2024 - Present); Maven Advocacy Partners, General Counsel (2024 - Present); Vantage Compliane, Co-Founder (2023 - Present); Maven Defense Solutions, Founder (2022 - Present); RightSide Compliance, Co-Founder (2014 - Present); The Gober Group, Founder/CEO (2016 - 2024); Cruz for President, General Counsel (2015 - 2016); Gober Hilgers PLLC, Co-Founder (2011 - 2015)",
+          "source_url": "https://www.ballotready.org/people/chris-gober",
+          "snippet": "Lex Politica, CEO/Founder (2024 - Present) Maven Advocacy Partners, General Counsel (2024 - Present) Vantage Compliane, Co-Founder (2023 - Present) Maven Defense Solutions, Founder (2022 - Present) RightSide Compliance, Co-Founder (2014 - Present) The Gober Group, Founder/CEO (2016 - 2024) Cruz for President, General Counsel (2015 - 2016) Gober Hilgers PLLC, Co-Founder (2011 - 2015)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Government Weaponization",
+          "value": "Stop the weaponization of government by radical Democrats against conservatives, President Trump, and America First patriots.",
+          "snippet": "Stop the weaponization of government by radical Democrats against conservatives, President Trump, and America First patriots."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Crush the cartels by helping President Trump secure our border and empowering Texas law enforcement to halt the invasion of drugs, violence, and gangs into our community.",
+          "snippet": "Crush the cartels by helping President Trump secure our border and empowering Texas law enforcement to halt the invasion of drugs, violence, and gangs into our community."
+        },
+        {
+          "topic": "Constitutional Rights",
+          "value": "Safeguard our Constitution by protecting freedom of speech and our God-given rights under attack by unhinged Democrats and liberal judicial activists.",
+          "snippet": "Safeguard our Constitution by protecting freedom of speech and our God-given rights under attack by unhinged Democrats and liberal judicial activists."
+        }
+      ],
+      "platform_source_url": "https://chrisgober.com/",
+      "_platform_resolved_at": "2026-08-14T18:28:13.306Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=tV_FGxVAs-s",
+      "platform_video_title": "Destroy",
+      "platform_video_source_url": "https://chrisgober.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:06:36.742Z",
+      "bio_summary": {
+        "value": "Chris Gober is a 7th-generation Texan, a proud member of the Fightin’ Texas Aggie Class of 2001, and a devoted husband and father raising two daughters in Austin. Born and raised in the rural Texas towns of Throckmorton and Graham, Chris learned early the timeless conservative values of Christian faith, family, and hard work—principles that continue to guide his life and service today.",
+        "source_url": "https://chrisgober.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:16:59.840Z",
+      "campaign_site_url": "https://www.chrisgober.com",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:48.043Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "caitlin-rourk",
+      "full_name": "ROURK, CAITLIN MCCLAY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX31102",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 363958.97,
+        "totalSpent": 271818.62,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 124563.63,
+          "largeDollar": 203484.25,
+          "pac": 7650,
+          "party": 200,
+          "selfFunded": 28061.09
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Army veteran, problem solver in the private and public sector",
+          "source_url": "https://www.caitlinrourk.com/",
+          "snippet": "I'm an Army veteran, problem solver in the private and public sector, and mom.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy",
+          "value": "An Economy That Rewards Work, Not Just Wealth",
+          "snippet": "An Economy That Rewards Work, Not Just Wealth"
+        },
+        {
+          "topic": "Health Care",
+          "value": "Affordable Health Care & Lower Costs",
+          "snippet": "Affordable Health Care & Lower Costs"
+        },
+        {
+          "topic": "Foreign Policy",
+          "value": "Global Leadership Without Reckless Wars",
+          "snippet": "Global Leadership Without Reckless Wars"
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Honest & Accountable Government",
+          "snippet": "Honest & Accountable Government"
+        }
+      ],
+      "platform_source_url": "https://www.caitlinrourk.com/",
+      "_platform_resolved_at": "2026-08-14T18:28:05.739Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "I'm an Army veteran, problem solver in the private and public sector, and mom. My life and career have been rooted in service and problem-solving - in the military, in business, and in policy. I’m running for Congress because I believe Washington should work the same way: focused on getting things done for the families it serves, not putting on a show for the people who write the checks.",
+        "source_url": "https://www.caitlinrourk.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:01.719Z",
+      "campaign_site_url": "https://www.caitlinrourk.com/",
+      "_campaign_site_discovered_at": "2026-09-01T09:50:48.038Z",
+      "_campaign_site_reachability": "reachable",
+      "_tier2_search_attempted_at": "2026-09-01T12:00:33.392Z"
+    }
+  ]
+}
