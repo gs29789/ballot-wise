@@ -1,0 +1,872 @@
+{
+  "state": "PA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-04",
+  "generated_at": "2026-08-31T11:38:12.937Z",
+  "election_dates": {
+    "primaryDate": "2026-05-19",
+    "primarySourceUrl": "https://codes.findlaw.com/pa/title-25-ps-elections-electoral-districts/pa-st-sect-25-2753/",
+    "primarySnippet": "25 P.S. § 2753(a): There shall be a General primary preceding each general election which shall be held on the third Tuesday of May in all even-numbered years, except in the year of the nomination of a President of the United States, in which year the General primary shall be held on the fourth Tuesday of April.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-7-sect-2/",
+    "generalSnippet": "Pa. Const. art. VII, § 2 (General Election Day): The general election shall be held biennially on the Tuesday next following the first Monday of November in each even-numbered year, but the General Assembly may by law fix a different day, two-thirds of all the members of each House consenting thereto: Provided, That such election shall always be held in an even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Pennsylvania's constitution bars anyone convicted of embezzlement of public moneys, bribery, perjury, or other infamous crime from the General Assembly or from holding any office of trust or profit in the Commonwealth, but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/pa/constitution-of-the-commonwealth-of-pennsylvania/pa-const-art-2-sect-7/",
+    "snippet": "Pa. Const. art. II, § 7: \"No person hereafter convicted of embezzlement of public moneys, bribery, perjury or other infamous crime, shall be eligible to the General Assembly, or capable of holding any office of trust or profit in this Commonwealth.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Pennsylvania's_4th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Madeleine Dean and Aurora Stuski are running in the general election for U.S. House Pennsylvania District 4 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.38
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 24.54
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 20.23
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 18.15
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 16.43
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 6201.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 6208.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 6208.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 6200.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 6188.1
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 6177.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 6197.6
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 6184
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 6174
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 6176.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 6167.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 6172.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 6169.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 6175.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 6173.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 6166.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 6166.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 6159.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 6166.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 6161.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 6156.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 6156.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 6153.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 6146.6
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 6137.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 6137.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 6132.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 6126
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 6130.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 6122.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 6115.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 6114.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 6104.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 6099
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 6101.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 6098
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 6090.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 6092.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 6071.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 6071.4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 6068
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 6062.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 6061.8
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5728935533.03,
+        "perCapitaUsd": 7423.31
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7161049937.03,
+        "perCapitaUsd": 9278.99
+      },
+      {
+        "year": "2025",
+        "totalUsd": 8058900564.38,
+        "perCapitaUsd": 10442.39
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 12972008
+      },
+      {
+        "year": "2023",
+        "population": 12961683
+      },
+      {
+        "year": "2024",
+        "population": 13078751
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 71798
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73824
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77545
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "madeleine-dean",
+      "full_name": "DEAN, MADELEINE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8PA04116",
+      "fec_status": "C",
+      "bioguide_id": "D000631",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1371535.9,
+        "totalSpent": 1155470.25,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 140831.09,
+          "largeDollar": 474204.61,
+          "pac": 725200,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1959-06-06",
+          "source_url": "https://www.wikidata.org/wiki/Q6726900",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Glenside, Pennsylvania",
+          "source_url": "https://www.wikidata.org/wiki/Q6726900",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Abington High School",
+          "source_url": "https://www.wikidata.org/wiki/Q6726900",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Abington High School, Abington, Pa., 1977",
+          "source_url": "https://history.house.gov/People/Listing/D/DEAN,-Madeleine-(D000631)/",
+          "snippet": "graduated from Abington High School, Abington, Pa., 1977",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "employment_record": {
+          "value": "lawyer, private practice; faculty, La Salle University, Philadelphia, Pa., 2001-2012; columnist",
+          "source_url": "https://history.house.gov/People/Listing/D/DEAN,-Madeleine-(D000631)/",
+          "snippet": "lawyer, private practice; faculty, La Salle University, Philadelphia, Pa., 2001-2012; columnist",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "civic_affiliations": {
+          "value": "member of the Pennsylvania state house of representatives, 2012-2018",
+          "source_url": "https://history.house.gov/People/Listing/D/DEAN,-Madeleine-(D000631)/",
+          "snippet": "member of the Pennsylvania state house of representatives, 2012-2018",
+          "source_type": "llm_extracted_house_historian"
+        },
+        "marital_status": {
+          "value": "Married to Patrick Cunnane",
+          "source_url": "https://en.wikipedia.org/wiki/Madeleine_Dean",
+          "snippet": "On that campaign she met her future husband, Patrick Cunnane",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Healthcare",
+          "value": "Believes healthcare is a right; supports continued efforts toward economically balanced universal healthcare building on the ACA; has supported legislation eliminating healthcare access barriers, protecting patients with pre-existing conditions, and lowering prescription drug costs; supports women's health issues including maternal healthcare and abortion rights; supports protecting and expanding Social Security and Medicare for Montgomery and Berks County seniors.",
+          "snippet": "As the most advanced nation in the world, Madeleine believes every person has a right to affordable, accessible, quality healthcare.\n\nMadeleine believes healthcare is a right. Every person deserves to be able to have access to affordable, quality, and comprehensive healthcare. The Affordable Care Act started this process. Madeleine wants to continue working in Congress to support universal healthcare that is economically balanced to fulfill the promise that our government made in 2010. She has supported legislation in the House that eliminates barriers to healthcare, protects patients with pre-existing conditions, and lowers the cost of prescription drugs. Madeleine has also advocated for women's health issues, such as maternal healthcare and raising awareness of campus sexual assault, and continuously supports a woman's right to choose.\n\nMadeleine will not abandon Montgomery and Berks Counties' seniors. She will continue to make sure that those who have dutifully paid into our security net have access to Social Security and Medicare in their retirement. She will work to protect and expand Social Security and Medicare and defend against attacks to these programs in the name of more tax cuts for the wealthy.\n"
+        },
+        {
+          "topic": "Women's Issues",
+          "value": "Vice Chair of the Bipartisan Women's Caucus, advocating for pay equity, workforce development, universal preschool, and affordable childcare; cosponsored the Violence Against Women Reauthorization Act; supports reproductive rights and initiatives addressing maternal mortality, particularly among Black women.",
+          "snippet": "Madeleine believes all issues are Women's Issues, and we must keep fighting to remove barriers to equal opportunity that women still face.\n\nMadeleine understands that all issues are women's issues, and that when we lift up women – we also lift up whole communities. That's why, we must ensure access to equal opportunity, quality healthcare, affordable childcare, and initiatives to address sexism in the public sphere. It's critical that there are women at the table in every profession—and particularly in positions of power. This means supporting initiatives for pay equity, workforce development programs, universal preschool, and affordable childcare for all. In Congress, Madeleine serves as Vice Chair of the Bipartisan Women's Caucus, in which she advocates for equality for women in pay, housing, representation, and opportunity.\n\nThe issue of sexual harassment and assault that has been a daily reality for women was pushed to our nation's forefront as part of the #MeToo movement. Madeleine takes the fight to end this scourge in Congress, working to ensure that survivors are supported and believed, and that sexual abusers are held accountable. In Congress, Madeleine has cosponsored the Violence Against Women Reauthorization Act, which expands protections for young victims, survivors without shelter, and LGBTQ people. Sexual abuse and harassment reforms are much needed throughout the nation, and it is time that elected leaders lead by example, rather than being the exception to it.\n\nMadeleine stands unequivocally with women in their right to control their own bodies. She believes safe, accessible, quality reproductive health is a fundamental right and need of our communities. Quality healthcare for women also includes combatting the challenges of maternal mortality – which disproportionately affects Black women- and sexual violence. Madeleine has led many initiatives in support of women's health including maternal healthcare for pregnant women recovering from substance abuse, decreasing stigma of chronic illness, and continuing to protect against any and all attacks to Roe v. Wade.\n"
+        },
+        {
+          "topic": "Addressing the Gun Violence Epidemic",
+          "value": "As a PA state legislator, co-founded the PA SAFE Caucus and authored legislation for universal background checks, extreme risk protection orders, and a bump-stock ban; her first bill in Congress addressed detection-evading plastic guns; on the House Judiciary Committee, fought to pass H.R. 8 and H.R. 112 (background check requirements); supports banning weapons of war and repealing restrictions on federal gun violence research.",
+          "snippet": "Lawmakers afraid of the NRA have failed our nation and the people they serve. It is past time to confront gun violence as a public health crisis.\n\nAs a PA State Legislator, Madeleine co-founded the gun safety group PA SAFE Caucus authoring legislation for universal background checks, extreme risk protection orders, and a ban on \"bump stocks.\" She has continued this work fighting the gun violence epidemic in Congress, where the very first bill she introduced addresses the new danger of plastic guns which go undetected to metal detectors.\n\nAs a member of the House Judiciary Committee, Madeleine has been on the front lines of the fight to protect our children from gun violence. She fought in Committee and on the House Floor to pass H.R. 8, which requires a background check for every firearm sale, and H.R 112, which enhances background check requirements for firearm transfers between different parties. She has personally lobbied the Senate to take up this important, lifesaving legislation.\n\nMadeleine will continue to help pass common sense legislation to make sure weapons of war cannot be used to kill innocent people, increase background checks, and repeal federal laws that bar funding for research on gun violence as a public health issue. Enough is enough.\n"
+        },
+        {
+          "topic": "Economy & Infrastructure",
+          "value": "Supports modernizing bridges, roads, and transportation infrastructure to strengthen the regional economy; supports a $15 minimum wage and organized labor's right to unionize; cosponsored the Raise the Wage Act, H.R. 2 (Moving Forward Act) infrastructure investment, and the PRO Act protecting collective bargaining rights.",
+          "snippet": "Madeleine knows strong economies and healthy communities are built on solid infrastructure.\n\nOur bridges, roads, and transportation systems–airports, rail, and ports–need to be modernized to keep our travelers safe, our economy working on time, and attract businesses looking to invest in Montgomery and Berks Counties and Pennsylvania. This is especially true for businesses in growing industries like technology and green energy.\n\nThe people that build this better future are integral to its success. It's critical we ensure our workers are fairly compensated with a livable, $15 minimum wage, and well trained, supporting organized labor whenever possible. This includes guaranteeing unions the right to organize and represent their members without having to face restrictions or attacks from misguided legislation.\n\nIn Congress, Madeleine has fought for workers' rights by supporting legislation that raises the federal minimum wage for unprotected groups of employees, ensures protection against paycheck discrimination on the basis of sex, and provides relief for workers affected by the Coronavirus. She has worked to increase funding for job training and programs that support American workers first. She is a cosponsor and has voted in favor of the Raise the Wage Act, which seeks to raise the federal minimum wage to $15 per house; H.R. 2 the Moving Forward Act, which invests in the next generation of American infrastructure projects; and the PRO Act, which ensures that American workers' right to collective bargaining is protected.\n"
+        },
+        {
+          "topic": "Education",
+          "value": "Supports full funding from universal pre-K through K-12, special education, and technical training; on the Financial Services Committee, has worked to hold private student lenders accountable and overseen the CFPB; introduced legislation to forgive $10,000 in education debt during COVID-19 and the Private Loan Disability Discharge Act (H.R. 4545); co-led the America's College Promise Act for tuition-free community college.",
+          "snippet": "As a former professor, Madeleine knows that the key to a successful future is quality education.\n\nEnsuring quality education includes making sure students and educators are well supported with adequate funding, beginning with universal pre-k and robust support for Kindergarten through 12th grade, special education, college, and technical training.\n\nAnd for students that choose to further their education — they should not be burdened by life-long debt. If you can buy a car at 3% interest, then there is no reason that anyone should have to pay more interest for an education. As a member of the Financial Services Committee, Madeleine has used its jurisdiction over the private student loan market to confront bad lenders head on and ensure they are working in the best interest of student borrowers, not their shareholders. Additionally, she has led oversight over the Consumer Financial Protection Bureau – the very agency meant to protect borrowers from bad lenders.\n\nMadeleine has introduced legislation to pay off $10,000 in education debt for borrowers during the COVID-10 pandemic, providing a lifeline for young people during an economic crisis. Madeleine has also introduced H.R. 4545, the Private Loan Disability Discharge Act, which would fill a gap in current law by allowing private student loan borrowers who become permanently disabled and will never work again to be relieved of their student loan debt.\n\nFinally, Madeleine co-led the America's College Promise Act, which would create new partnerships with state governments and provide two years of tuition-free access to community college programs that lead to a degree of industry-recognized credential. We know that community colleges are incubators of a healthy and prosperous economy, and they lift up millions of students who are looking for alternatives to a four-year degree.\n"
+        },
+        {
+          "topic": "Solving the Opioid Epidemic",
+          "value": "Member of the Freshman Working Group on Addiction; has fought for increased SAMHSA funding, treatment programs for pregnant and postpartum women, and expanded access to medication-assisted treatment; introduced H.R. 4712 (Fairness in Orphan Drug Exclusivity Act) to ease access to generic buprenorphine, and H.R. 7627 (MORE Savings Act) requiring Medicare coverage of MAT for opioid use disorder.",
+          "snippet": "The opioid epidemic has exploded over the past few years—killing 70,000 people in America in 2018. Our nation is only just beginning to see the opioid epidemic for what it is: a disease that we must treat with robust funding for programs, research and education; punishment for the people and industries that profit from addiction; and compassion for those it afflicts.\n\nAs a member of the Freshman Working Group on Addiction, which works to bring bipartisan attention to the opioid epidemic, Madeleine has worked with her first-term colleagues to address the opioid epidemic crisis. Fighting for increases to the annual funding for the Substance Abuse and Mental Health Services Administration, programs for treatment for pregnant and postpartum women, and increasing access to medicated assisted treatment are just some of Madeleine's work on this issue.\n\nAdditionally, Rep Dean has introduced H.R 4712, the Fairness in Orphan Drug Exclusivity Act, which would change existing statute that is preventing viable buprenorphine generics from coming to market – thereby ensuring future ease of access to one of the top medications used for Medically-Assisted Treatment (MAT). She has also introduced H.R. 7627, the MORE Savings Act which promotes affordable access to evidence-based opioid treatments under the Medicare program and requires coverage of MAT treatment for opioid use disorders.\n"
+        },
+        {
+          "topic": "Racial Equity, Police Violence, and Criminal Justice Reform",
+          "value": "Supports the Justice in Policing Act of 2020 (use-of-force reporting, anti-profiling, chokehold ban, body cameras) and the Eric Garner Excessive Use of Force Prevention Act; supports expanding veteran and drug courts, ending cash bail, limiting imprisonment for non-violent crimes, and rolling back mandatory minimum sentencing.",
+          "snippet": "To ensure racial equality for all, we must work to erase bias from criminal justice systems and reform oppressive systems.\n\nAmerica is built on the promise of equality for all. And over the course of our history, we have seen strides and many shortcomings on this promise – especially in regard to racial equity. For too long, the Black community in America has suffered from systemic racism in the form of police violence, mass incarceration, housing discrimination, and predatory loaning practices. To truly live up to our nation's promise, we need bold actions to reform racist systems and provide equal opportunity to all.\n\nWe are currently in a civil rights crisis that requires change. The nation has witnessed horrific and unjust deaths of Black people, including George Floyd, as a result of police brutality. We need police reform that ensures that police violence against Black Americans does not continue to occur. This is why Madeleine supports the Justice in Policing Act of 2020, which mandates reporting of police use of force, prohibits racial and religious profiling, bans chokeholds, and mandates use of police body cameras, and the Eric Garner Excessive Use of Force Prevention Act, which makes the use of the police chokehold a civil rights violence and prohibits police tactic that could result in loss of of breath.\n\nMadeleine supports expanding successful special veteran and drug courts, ending the cash bail system, limiting imprisonment for non-violent crimes—especially minor drug convictions – and rolling back mandatory minimum sentencing. It has long been proven that sending people to prison for minor crimes is ineffective in deterring crime or rehabilitating people – and is enormously expensive to taxpayers. These practices also disproportionately target the Black community with mass incarceration and biased, unfair sentencing practices and create unjust racial inequity in our criminal justice system.\n"
+        },
+        {
+          "topic": "Protecting Our Planet",
+          "value": "Voted for H.R. 9 to rejoin the Paris Climate Accords; supports 100% renewable energy and full EPA funding; has helped pass clean water initiatives and Land and Water Conservation Fund reauthorization; founding member of the Congressional PFAS Task Force and introduced H.R. 2600 (Toxic PFAS Control Act) banning PFAS chemical manufacturing.",
+          "snippet": "Lawmakers have a responsibility to protect and preserve our environment, air, water, and land for ourselves and for the generations to come.\n\nThis means putting conservation before exploitation of our natural resources, and robustly funding organizations like the Environmental Protection Agency (EPA) who oversee essential regulatory practices.\n\nThe United States must be a global leader in environmental preservation. Ensuring a better future means making sure we have a planet to pass on to future generations. This starts with our country rejoining the Paris Environmental Agreement, seeking out 100% renewable clean energy sources, and addressing environmental injustice in predominantly low-income, minority communities. With governmental commitment, the rapidly growing green energy industry has the ability to stimulate our economy, create jobs, and help our environment.\n\nOne of the very first bills Madeleine voted in favor of in Congress was H.R. 9, which would require the President to re-enter the United States into the Paris Climate Accords and formulate a strategy to implement and achieve the climate targets. But Madeleine knows this is just a first step and we must move quickly to carbon neutral emissions. She has helped pass initiatives that invest in clean water initiatives, reauthorize the Land and Water Conservation fund, and protect public lands. Madeleine has also led the effort to protect communities and drinking water from PFAS chemical contamination— a contaminant her constituents unfortunately know all too well. She is a founding member of the bipartisan Congressional PFAS Task Force and has also introduced H.R. 2600, the Toxic PFAS Control Act, which bans the manufacturing and processing of PFAS chemicals and requires the Environmental Protection Agency to regulate their disposal.\n\nIf elected, in her next term, she looks forward to working with the recommendations of the House Select Committee on Climate to introduce and pass legislation that transforms our country into a climate-forward and clean energy powerhouse, while continuing to support and protect workers, families, and communities.\n"
+        },
+        {
+          "topic": "Empowering Our Diverse Communities",
+          "value": "Supports broadening anti-discrimination laws, expanding ADA enforcement, and grant/tax programs for minority-, disabled-, and veteran-owned businesses; member of the House Financial Services Committee's inaugural Diversity and Inclusion Subcommittee, working on hiring/promotion equity and minority-owned business banking access; supports criminal justice reform, healthcare equity, and voting access for Black and Brown communities.",
+          "snippet": "The countless diverse communities that make up our nation–racial minorities, LGBTQ, immigrants, veterans, the disabled, and so many more–brings richness and completeness to our nation\n\nTo protect the beautiful diversity that is integral to the American identity, Madeleine supports programs that help all communities thrive and reform institutional systems that oppress minorities. Madeleine supports broadening anti-discrimination laws, expanding and enforcing ADA requirements, and grant and tax programs that support minority, disabled, and veteran owned businesses.\n\nMadeleine was selected as a member of the inaugural Diversity and Inclusion Subcommittee in the House Financial Services Committee. In that role, she has worked with colleagues to shine a light on practices that lead to limited hiring and promotions among diverse populations and continued under-banking in minority communities and supported expanding resources available to minority-owned businesses.\n\nWe must also address issues that disproportionately impact Black and Brown populations, like reforming our criminal justice system, addressing inequities in healthcare, and ensuring that everyone can safely access their right to vote.\n"
+        },
+        {
+          "topic": "Humane Immigration Policies",
+          "value": "Supports a pathway to citizenship, reinstating DACA protections for Dreamers, and ending family separation and inhumane conditions for asylum seekers at the border.",
+          "snippet": "Madeleine supports a strong legal immigration system and humane treatment for anyone seeking citizenship\n\nWe must take steps to strengthen our legal immigration system. This includes a path to citizenship for people who want to be part of our country, reinstating DACA to allow the Dreamers to be able to stay in our country without fear, and fighting against border policies that treat people in-humanely. Like the rest of us, they should be able to live the American Dream without fear of retribution.\n\nAdditionally, we must end the cruel practice of family separation and placing those seeking legal asylum in inhumane living conditions at the border or elsewhere in our country.\n"
+        },
+        {
+          "topic": "Trade and Tariffs",
+          "value": "Supports trade policy fair to American workers and businesses, holding countries like China accountable for trade abuses; cosponsored H.R. 4863 (United States Export Finance Agency Act); opposes inconsistent trade policy that risks a trade war and supports predictable regulations that grow the U.S. economy.",
+          "snippet": "Growing the American economy means building strong relationships with international trading partners but ensuring fairness to American businesses.\n\nWe live in a global economy, but we need to craft our tariffs and trade regulations so that first and foremost they are fair to American businesses and workers. Madeleine supports tariff negotiations that build strong relationships with trusted trading partners and hold countries that exploit or abuse international trade relations, like China, accountable. In Congress, Madeleine has cosponsored H.R. 4863, the United States Export Finance Agency Act which seeks to promote the competitiveness of the United States and to reform and reauthorize the U.S. Export Finance Agency.\n\nBusinesses rely on predictability and stability; uncertainty delays progress and cripples growth. The current administration's inconsistent and unstructured trade policies threaten to set off an international trade war that will harm our economy and American producers. In Congress, Madeleine will continue to fight for thoughtful trade regulations and tariffs that will grow the U.S. economy, support American workers, build our influence on the global market, and crack down on countries and businesses that circumvent the system.\n"
+        },
+        {
+          "topic": "United States and Israel Relations",
+          "value": "Supports a strong U.S.-Israel alliance, including aid for Israel's defense and diplomatic efforts toward a peaceful regional resolution; cosponsored the United States-Israel Cooperation Enhancement and Regional Security Act reauthorizing security assistance and joint research programs.",
+          "snippet": "Madeleine supports the continuation of a strong relationship between the U.S. and Israel.\n\nThe United States and Israel have had a long and prosperous history together. As our most important ally in the Middle East, we must remain dedicated to preserving the sovereignty of the Jewish state's rightful home. This includes aiding in her defense against both financial and physical threats, and working on diplomatic final status negotiations for a peaceful resolution to conflicts in the region.\n\nIn Congress, Madeleine has co-sponsored the United-States Israel Cooperation Enhancement and Regional Security Act, which authorizes various joint research and cooperation programs between the U.S. and Israel and reauthorizes security assistance to Israel. She will continue to support efforts that ensure a strong U.S.-Israel relations.\n"
+        }
+      ],
+      "platform_source_url": "https://www.mad4pa.com",
+      "_platform_resolved_at": "2026-08-31T11:37:48.636Z",
+      "campaign_site_url": "https://www.mad4pa.com/",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:39.301Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=fInzzZP1w38",
+      "platform_video_title": "Congresswoman Madeleine Dean says Hello",
+      "platform_video_source_url": "https://www.youtube.com/@madeleinedeanforunitedstat8634",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-31T11:37:48.636Z",
+      "bio_summary": {
+        "value": "Madeleine Dean Cunnane (born June 6, 1959) is an American politician and lawyer serving as the U.S. representative [ 1 ] for Pennsylvania's 4th congressional district since 2019. [ 2 ] The district includes almost all of Montgomery County , a suburban county north of Philadelphia , as well as a northeastern portion of Berks County . Before being elected to Congress, Dean was a Democratic member of the Pennsylvania General Assembly , representing the 153rd district [ 3 ] [ 4 ] in the Pennsylvania House of Representatives . ",
+        "source_url": "https://en.wikipedia.org/wiki/Madeleine_Dean",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:44:20.852Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077397.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-10T21:32:20.580Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 279,
+          "votesCast": 277,
+          "attendanceRate": 0.992831541218638
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Appropriations",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Labor, Health and Human Services, Education, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Appropriations — Commerce, Justice, Science, and Related Agencies",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Oversight and Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 118,
+        "bills_cosponsored": 2162,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": -0.441,
+          "nominateDim2": -0.062,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/D000631"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 40.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/D000631"
+        }
+      },
+      "_curated_match": true
+    },
+    {
+      "slug": "aurora-stuski",
+      "full_name": "STUSKI, AURORA",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6PA04169",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "birthplace": {
+          "value": "Philadelphia",
+          "source_url": "https://aurora4pa.com/",
+          "snippet": "I grew up in Philadelphia",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Arcadia University, Business Administration and Management (1988)",
+          "source_url": "https://www.ballotready.org/people/aurora-stuski",
+          "snippet": "Bachelor's, Arcadia University, Business Administration and Management (1988)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "AAS Appraisal Lab, Owner (1989 - Present); Jerry's Jewelers, Manager of Repair Department and Quality Control (1991 - 1991)",
+          "source_url": "https://www.ballotready.org/people/aurora-stuski",
+          "snippet": "AAS Appraisal Lab, Owner (1989 - Present) Jerry's Jewelers, Manager of Repair Department and Quality Control (1991 - 1991)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy and Inflation",
+          "value": "Fight inflationary spending, support small businesses, and make it easier for families to get ahead.",
+          "snippet": "Fight inflationary spending, support small businesses, and make it easier for families to get ahead."
+        },
+        {
+          "topic": "Law Enforcement and Crime",
+          "value": "Back law enforcement, prosecute violent crime, and protect neighborhoods and our local schools.",
+          "snippet": "Back law enforcement, prosecute violent crime, and protect neighborhoods and our local schools."
+        },
+        {
+          "topic": "Immigration and Border Security",
+          "value": "Enforce immigration law, stop trafficking, and put Pennsylvania's security first.",
+          "snippet": "Enforce immigration law, stop trafficking, and put Pennsylvania s security first."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Demand accountability, oppose waste, and make government answer to the public.",
+          "snippet": "Demand accountability, oppose waste, and make government answer to the public."
+        },
+        {
+          "topic": "Data Center Regulation",
+          "value": "Oppose legislation that would require posting a bond worth double the cost of a project to appeal data center projects, and support community rights to have a say on data centers in their areas.",
+          "snippet": "Emails with Shapiro s Chief Transformation Officer Benjamin Kirshner show the request for legislation that would require anyone who wants to appeal a data center project to post a bond that is worth double the cost of the project . Wow. That means you would have to post a $20 million bond to oppose a $10 million data center."
+        },
+        {
+          "topic": "Government Transparency",
+          "value": "I believe in transparency and accountability in government.",
+          "snippet": "I believe in transparency and accountability in government."
+        }
+      ],
+      "platform_source_url": "https://aurora4pa.com/",
+      "_platform_resolved_at": "2026-08-10T21:31:49.972Z",
+      "campaign_site_url": "https://aurora4pa.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:06:39.299Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "platform_video_source_type": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Aurora Stuski is running for Congress to bring integrity, transparency, and common-sense leadership back to Washington. This campaign is focused on safe communities, a stronger economy, secure borders, and government that answers to the people again.",
+        "source_url": "https://aurora4pa.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:38:25.103Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-31T12:00:07.007Z"
+    }
+  ]
+}
