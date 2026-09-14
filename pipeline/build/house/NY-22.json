@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3511555383.28,
-        "perCapitaUsd": 5092.24
+        "totalUsd": 3530200882.28,
+        "perCapitaUsd": 5119.28
       },
       {
         "year": "2024",
-        "totalUsd": 4714399457.2,
-        "perCapitaUsd": 6836.53
+        "totalUsd": 4739795825.5,
+        "perCapitaUsd": 6873.35
       },
       {
         "year": "2025",
-        "totalUsd": 3683016097.86,
-        "perCapitaUsd": 5340.88
+        "totalUsd": 3713134750.1,
+        "perCapitaUsd": 5384.55
       }
     ],
     "population": [
@@ -766,21 +766,52 @@
           "votesCast": 270,
           "attendanceRate": 0.9926470588235294
         },
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Commodity Markets, Digital Assets, and Rural Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Conservation, Research, and Biotechnology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Early Childhood, Elementary, and Secondary Education",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Education and Workforce — Health, Employment, Labor, and Pensions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 9,
         "bills_cosponsored": 298,
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
-          "nominateDim1": -0.241,
-          "nominateDim2": 0.1,
+          "nominateDim1": -0.24,
+          "nominateDim2": 0.101,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/M001231"
         },
         "bridge_score": {
           "grade": "B",
-          "score": 53.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 51,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001231"
         }
       },
