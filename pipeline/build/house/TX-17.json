@@ -1,0 +1,788 @@
+{
+  "state": "TX",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-17",
+  "generated_at": "2026-08-21T12:28:17.934Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-007/",
+    "primarySnippet": "Tex. Elec. Code § 41.007(a): The general primary election date is the first Tuesday in March in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/tx/election-code/elec-sect-41-002/",
+    "generalSnippet": "Tex. Elec. Code § 41.002: The general election for state and county officers shall be held on the first Tuesday after the first Monday in November in even-numbered years."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Texas's felony-disqualification requirement (Tex. Elec. Code § 141.001(a)(4)) applies only to \"a public elective office in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/tx/election-code/elec-sect-141-001/",
+    "snippet": "Tex. Elec. Code § 141.001: \"(a) To be eligible to be a candidate for, or elected or appointed to, a public elective office in this state, a person must: ... (4) have not been finally convicted of a felony from which the person has not been pardoned or otherwise released from the resulting disabilities...\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_House_of_Representatives_elections_in_Texas,_2026",
+    "snippet": "Pete Sessions (Incumbent) (Republican Party) / Casey Shepard (Democratic Party)"
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.1
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.1
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 37.99
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 34.42
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 33.7
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 30.8
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 26.29
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 14469.6
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 14426.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 14401.4
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 14394
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 14356.7
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 14363.1
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 14339.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 14306.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 14297.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 14307
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 14309.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 14302.4
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 14291.7
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 14321.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 14311.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 14286.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 14280.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 14267.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 14259.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 14240.6
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 14220.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 14204.6
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 14185.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 14114.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 14153.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 14126.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 14098.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 14088.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 14069.6
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 14049.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 14024.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 14002.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 13991.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 13986.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 13952.1
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 13921.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 13947.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 13886.4
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 13859
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 13852.4
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 13817.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 13795.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 4370959742.16,
+        "perCapitaUsd": 5658.95
+      },
+      {
+        "year": "2024",
+        "totalUsd": 407196024.98,
+        "perCapitaUsd": 550.25
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5155163597.59,
+        "perCapitaUsd": 6674.23
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 30029572
+      },
+      {
+        "year": "2023",
+        "population": 30503301
+      },
+      {
+        "year": "2024",
+        "population": 31290831
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 72284
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 75780
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 79721
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "pete-sessions",
+      "full_name": "SESSIONS, PETE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2TX03126",
+      "fec_status": "C",
+      "bioguide_id": "S000250",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1050236.68,
+        "totalSpent": 557216.11,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 3848,
+          "largeDollar": 494904.72,
+          "pac": 516176.27,
+          "party": 0,
+          "selfFunded": 10
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1955-03-22",
+          "source_url": "https://www.wikidata.org/wiki/Q437852",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Waco, Texas",
+          "source_url": "https://www.wikidata.org/wiki/Q437852",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Southwestern University",
+          "source_url": "https://www.wikidata.org/wiki/Q437852",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Churchill High School in San Antonio",
+          "source_url": "https://www.petesessions.com/about/",
+          "snippet": "Pete moved back to Texas as his father became the U.S. Attorney in San Antonio, where Pete graduated from Churchill High School.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Karen",
+          "source_url": "https://www.petesessions.com/about/",
+          "snippet": "Pete & Karen Sessions Pete and Karen are the proud parents and grandparents of five sons, two daughters-in-law, and a granddaughter.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Eagle Scout and Committee Member, National Eagle Scout Association; Lifetime Member, National Rifle Association; Member, First Methodist Waco; Honorary Rotarian; Lifetime Member, Texas State Rifle Association; Member, Board of Trustees, Southwestern University, 2007-2019",
+          "source_url": "https://www.petesessions.com/about/",
+          "snippet": "Member, Board of Trustees, Southwestern University, 2007-2019 Graduate, Southwestern University, 1978 AT&T Executive, 1978-1993 Born, raised, and lives in Waco, TX Eagle Scout and Committee Member, National Eagle Scout Association Lifetime Member, National Rifle Association Member, First Methodist Waco Honorary Rotarian Lifetime Member, Texas State Rifle Association",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Worked at Southwestern Bell for 16 years and rose to become a district manager for marketing in Dallas; became vice president for public policy at the National Center for Policy Analysis (NCPA)",
+          "source_url": "https://en.wikipedia.org/wiki/Pete_Sessions",
+          "snippet": "He worked at Southwestern Bell for 16 years and rose to become a district manager for marketing in Dallas. [ 7 ] [ 8 ] The Boy Scouts of America recognized Sessions as a Distinguished Eagle Scout. He holds a position on the Circle Ten Council of the BSA. His two sons are also active in scouting. [ 9 ] U.S. House of Representatives [ edit ] Elections [ edit ] 1997–2019 [ edit ] In 1991, Sessions finished sixth in a special election for the House of Representatives . In 1993, he left his job with Southwestern Bell to again run for Congress, against 5th District incumbent Democratic representative John Bryant . He toured the district with a livestock trailer full of horse manure, claiming that the Clinton Administration 's health care plan stank more than the manure. [ 10 ] He lost by 2,400 votes. He subsequently became vice president for public policy at the National Center for Policy Analysis (NCPA), a Dallas-based conservative public policy research institute.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Gun Rights",
+          "value": "Defends gun rights, is a lifetime member of the Texas Rifle Association and maintained a solid 'A' rating from the NRA",
+          "snippet": "Pete Sessions defends our gun rights, protects our religious liberty, and stands with President Trump to build the border wall"
+        },
+        {
+          "topic": "Border Security",
+          "value": "Stands with President Trump to build the border wall and will continue to move American First policies forward like restoring the build of the southern border to safeguard the American people",
+          "snippet": "stands with President Trump to build the border wall"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports building the wall on the southern border and states that the surge of illegal immigrants crossing our border is a direct correlation to Biden's derelict of duty inviting millions of people to invade our country",
+          "snippet": "Solving our immigration crisis involves more than just building the wall on the southern border, which I wholeheartedly support. The surge of illegal immigrants crossing our border is a direct correlation to Biden s derelict of duty inviting millions of people to invade our country"
+        },
+        {
+          "topic": "Abortion",
+          "value": "Pro-life with a 100% lifetime voting record with National Right to Life",
+          "snippet": "Pete has a 100% lifetime voting record with National Right to Life"
+        },
+        {
+          "topic": "Education and Parental Rights",
+          "value": "Will promote parental involvement, abundant educational opportunity, and stop laws that take away parental rights; opposes curricula teaching children that transgender lifestyles are 'normal'",
+          "snippet": "Republicans will promote parental involvement, abundant educational opportunity, and stop laws that take away parental rights"
+        },
+        {
+          "topic": "Budget",
+          "value": "In the late 1990s was part of the House Republican team that balanced the budget four years in a row; wants to help balance the budget and reduce unnecessary socialist government spending",
+          "snippet": "In the late 1990s, Pete was part of the House Republican team that balanced the budget four years in a row"
+        },
+        {
+          "topic": "Religious Liberty",
+          "value": "Protects religious liberty",
+          "snippet": "Pete Sessions defends our gun rights, protects our religious liberty, and stands with President Trump to build the border wall"
+        }
+      ],
+      "platform_source_url": "https://www.petesessions.com/issues/",
+      "_platform_resolved_at": "2026-08-17T16:00:01.578Z",
+      "campaign_site_url": "https://www.petesessions.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=z6JJpJxuWyM",
+      "platform_video_title": "LIVE: Pete Sessions to run for congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-09-01T12:00:37.046Z",
+      "bio_summary": {
+        "value": "As a conservative member of Congress, I strongly support an agenda that puts more money into American’s Pockets. This is produced by a conservative agenda through capitalism that uses the rule of law and investment that creates American jobs as the centerpiece of its goals. This is accomplished through a working relationship with communities and building infrastructure that can meet the demand of significant population changes in Texas.",
+        "source_url": "https://www.petesessions.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:25.787Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Oversight and Government Reform",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Government Operations",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Oversight and Government Reform — Health Care and Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 458,
+        "bills_cosponsored": 4662,
+        "bills_became_law": 3,
+        "enacted_laws": [
+          {
+            "title": "GSA Technology Accountability Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "7524",
+            "publicLawNumber": "118-182",
+            "summary": "GSA Technology Accountability Act This act requires the General Services Administration to report annually to Congress on each program funded by (1) the Federal Citizen Services Fund,&nbsp;or (2) the Acquisition Services Fund for technology transformation services. The reports must include&nbsp;a list of each program funded by such expenditures during the previous fiscal year, or that have been funded by such expenditures in the previous five-year period, along with the following information for each program:&nbsp; an explanation of the program; information about how the program is funded; a description of projects or initiatives associated with the program; if applicable, the amount of reimbursements associated with or anticipated to be associated with the program from other sources of funds or another agency; and if applicable, any additional information, data, or analysis used to determine the information estimated within the report. The amendments made by this act shall take effect at the start of the first fiscal year after the date of the enactment.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ182"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 8135 Forest Lane in Dallas, Texas, as the \"Dr. Robert E. Price Post Office Building\".",
+            "congress": 109,
+            "billType": "HR",
+            "billNumber": "4246",
+            "publicLawNumber": "109-398",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 8135 Forest Lane in Dallas, Texas, as the \"Dr. Robert E. Price Post Office Building.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-109publ398"
+          },
+          {
+            "title": "Boy Scouts of America Centennial Commemorative Coin Act",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "5872",
+            "publicLawNumber": "110-363",
+            "summary": "(This measure has not been amended since it was passed in the House on May 15, 2008. The summary of that version is repeated here.) Boy Scouts of America Centennial Commemorative Coin Act - Directs the Secretary of the Treasury to mint and issue up to 350,000 $1 coins in commemoration of the centennial of the founding of the Boy Scouts of America. Requires the coin design to be emblematic of the 100 years of the organization. Restricts issuance of such coins to February 8 through December 31, 2010. Subjects coin sales to a surcharge of $10 per coin. Requires payment of such surcharges to the National Boy Scouts of America Foundation, to be made available to local councils in the form of grants for the extension of Scouting in hard-to-serve areas.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ363"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.583,
+          "nominateDim2": 0.176,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S000250"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 62,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S000250"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-01T12:00:37.046Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "casey-shepard",
+      "full_name": "SHEPARD, CASEY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6TX17168",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 8800.93,
+        "totalSpent": 5655.87,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 2198.66,
+          "largeDollar": 1300,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 5302.27
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Midway High School (1999)",
+          "source_url": "https://www.ballotready.org/people/casey-shepard",
+          "snippet": "High School Diploma, Midway High School (1999)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "Attorney",
+          "source_url": "https://www.ballotready.org/people/casey-shepard",
+          "snippet": "Professional Experience Attorney",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "college": {
+          "value": "a college in California (public policy debate scholarship); later attended law school in California",
+          "source_url": "https://caseyshepardforcongress.com/meet-casey",
+          "snippet": "His success in debate earned him a public policy debate scholarship to a college in California. He later stayed in California for law school.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Democracy and Authoritarianism",
+          "value": "Confront chaos, defend freedoms, and stop the march toward authoritarianism",
+          "snippet": "My mission in Washington will be to confront the chaos head‑on, defend our freedoms, and stop the march toward authoritarianism."
+        }
+      ],
+      "platform_source_url": "https://caseyshepardforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T18:37:33.489Z",
+      "campaign_site_url": "https://caseyshepardforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "I am a fighter. I am trained, practiced and battle tested. My life's work is going toe‑to‑toe with a system built to silence people who can’t afford a voice—and I’m ready to bring that same fire to Congress for Central Texas.",
+        "source_url": "https://caseyshepardforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:17:27.487Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-09-01T12:00:37.392Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
