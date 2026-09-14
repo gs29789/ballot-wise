@@ -5,9 +5,13 @@
 // domain means Ballot-Wise actively sends a voter from a real candidate's
 // page to whatever now sits there -- under that candidate's name, with our
 // endorsement of it as "their site". Every entry below was confirmed by
-// fetching the URL and reading where it actually lands (2026-09-03); all
-// four currently serve Indonesian gambling/"togel" spam, and two belong to
-// sitting members of Congress.
+// fetching the URL and reading where it actually lands (2026-09-03;
+// suozziforcongress2024.com added 2026-09-04 during a sweep of sites
+// classified "blocked_other" instead of "reachable" -- a plain curl had
+// reported 200 with real-looking byte count, masking the hijack, so a
+// hit on this list can't be assumed exclusive to the original reachable-
+// sites scan). All five currently serve Indonesian gambling/"togel" spam,
+// and three belong to sitting members of Congress.
 //
 // Deliberately a denylist of specific hosts rather than an automated rule.
 // The obvious rule -- "flag any campaign site that redirects off its own
@@ -28,6 +32,7 @@ export const HIJACKED_DOMAINS = new Set([
   "electjimbaird.com", // -> controldeplagas.pe, "TOGEL ONLINE / OLXTOTO" (Rep. Baird, IN-4)
   "maxinewatersforcongress.com", // -> annabisnatural.mx, "COLOKSGP Situs Toto Slot" (Rep. Waters, CA-43)
   "lipetriforcongress.com", // -> codingtorque.com, "ZALO88 Situs Game" (Lipetri, NY-3)
+  "suozziforcongress2024.com", // -> hongkonglottre4d.net, "Togel Hongkong Lottre 4D" (Rep. Suozzi, NY-3)
 ]);
 
 // True when a URL's host is a known-hijacked campaign domain. Matches
