@@ -89,7 +89,10 @@ async function currentAppScriptTag(origin) {
 }
 
 function renderPage({ stusab, chamber, district, race, canonical, scriptSrc }) {
-  const where = chamber === "house" ? `${stusab} District ${district === "AL" ? "At-Large" : district}` : `${stusab} Senate`;
+  // "House" is spelled out here for the same reason as raceMetaTitle in
+  // src/App.jsx: this exact string drives the title AND the visible <h1>
+  // below, and nothing else on the page names the chamber for a House race.
+  const where = chamber === "house" ? `${stusab} House District ${district === "AL" ? "At-Large" : district}` : `${stusab} Senate`;
   const candidates = race?.candidates ?? [];
 
   const title =

@@ -40,7 +40,7 @@ const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "";
 // document.title/description fall back to once JS is running but no
 // race or profile is open (the "idle" landing view).
 const DEFAULT_DESCRIPTION =
-  "See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan.";
+  "Get ready to vote in the 2026 midterms — compare every U.S. House and Senate candidate on your ballot, side by side: voting records, campaign finance, and public statements, all sourced from official records. Non-partisan.";
 
 // Why a candidate's own site produced nothing, keyed by the reachability
 // classification the pipeline records (see scaleCampaignSiteDiscovery.ts).
@@ -1863,7 +1863,7 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowContribu
           Your vote in Congress matters more than you think.
         </h1>
         <p style={{ color: D.inkSoft, fontSize: 15.5, lineHeight: 1.6, maxWidth: 560, margin: "0 0 26px" }}>
-          The President gets the headlines. But Congress shapes your life. Ballot-Wise gives you clear, fact-based profiles on every congressional candidate — so you can vote with confidence, not confusion.
+          The President gets the headlines. But Congress shapes your life. With the 2026 midterms approaching, Ballot-Wise gives you clear, fact-based profiles on every House and Senate candidate — so you can vote with confidence, not confusion.
         </p>
 
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
@@ -2422,7 +2422,12 @@ function ContributeModal({ onClose }) {
 // server-rendered pages of their own.
 function raceMetaTitle({ chamber, geo, race }) {
   if (!geo) return "Ballot-Wise — Congress, compared";
-  const where = chamber === "house" ? `${geo.stateName} ${geo.districtLabel || "District"}` : `${geo.stateName} Senate`;
+  // "House" has to be spelled out here specifically -- unlike the
+  // description below, nothing else in this title says which chamber a
+  // House race is for (districtLabel is just "District 4"/"At-Large"),
+  // so without it the word never appears in a House race's own title at
+  // all, only in Senate races' ("... Senate 2026 | Ballot-Wise").
+  const where = chamber === "house" ? `${geo.stateName} House ${geo.districtLabel || "District"}` : `${geo.stateName} Senate`;
   const candidates = race?.candidates ?? [];
   // 2-3 names covers the common general-election shape and matches how
   // people actually search ("X vs Y") — a crowded primary falls back to
@@ -2444,12 +2449,14 @@ function raceMetaDescription({ chamber, geo, race }) {
 }
 
 function profileMetaTitle({ candidate, chamber, geo }) {
-  const where = chamber === "house" ? `${geo?.stusab ?? ""} ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stusab ?? ""} Senate`.trim();
+  // Same reasoning as raceMetaTitle's own "House" comment -- nothing else
+  // here names the chamber for a House profile.
+  const where = chamber === "house" ? `${geo?.stusab ?? ""} House ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stusab ?? ""} Senate`.trim();
   return `${toTitleCase(candidate.full_name)} (${partyLabel(candidate.party)}) — ${where} 2026 | Ballot-Wise`;
 }
 
 function profileMetaDescription({ candidate, chamber, geo }) {
-  const where = chamber === "house" ? `${geo?.stateName ?? ""} ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stateName ?? ""} Senate`.trim();
+  const where = chamber === "house" ? `${geo?.stateName ?? ""} House ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stateName ?? ""} Senate`.trim();
   return `${toTitleCase(candidate.full_name)}'s voting record, campaign finance, and public statements for ${where}, 2026 — sourced from official public records.`;
 }
 
