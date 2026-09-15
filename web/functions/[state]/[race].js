@@ -67,6 +67,42 @@ function partyLabel(fecPartyFull) {
     .join(" ");
 }
 
+// USPS state abbreviation -> full name. Duplicated from src/App.jsx's
+// STATE_NAMES for the same reason as toTitleCase/partyLabel above: this
+// Function runs as a separate deploy unit and can't import client source.
+// Full names matter here specifically because this drives real
+// search-facing text (title, meta description, H1) -- "TX Senate
+// candidates" isn't how anyone actually searches; "Texas Senate
+// candidates" is.
+const STATE_NAMES = {
+  AL: "Alabama", AK: "Alaska", AZ: "Arizona", AR: "Arkansas", CA: "California",
+  CO: "Colorado", CT: "Connecticut", DE: "Delaware", FL: "Florida", GA: "Georgia",
+  HI: "Hawaii", ID: "Idaho", IL: "Illinois", IN: "Indiana", IA: "Iowa",
+  KS: "Kansas", KY: "Kentucky", LA: "Louisiana", ME: "Maine", MD: "Maryland",
+  MA: "Massachusetts", MI: "Michigan", MN: "Minnesota", MS: "Mississippi", MO: "Missouri",
+  MT: "Montana", NE: "Nebraska", NV: "Nevada", NH: "New Hampshire", NJ: "New Jersey",
+  NM: "New Mexico", NY: "New York", NC: "North Carolina", ND: "North Dakota", OH: "Ohio",
+  OK: "Oklahoma", OR: "Oregon", PA: "Pennsylvania", RI: "Rhode Island", SC: "South Carolina",
+  SD: "South Dakota", TN: "Tennessee", TX: "Texas", UT: "Utah", VT: "Vermont",
+  VA: "Virginia", WA: "Washington", WV: "West Virginia", WI: "Wisconsin", WY: "Wyoming",
+};
+
+// Ranks candidates by how likely a searcher is to look them up by name --
+// incumbents first (already a known quantity to voters), then by total
+// raised (a real, sourced signal of a serious campaign, not a guess at
+// who's "leading"). Picks which names go in the title/H1 when a race has
+// more contenders than fit there. Unlike the old "only if the race has
+// 2-3 candidates total" rule, this always surfaces the top real names
+// when there are any -- which matters most for exactly the multi-
+// candidate races (often the more contested, more-searched ones) that
+// used to lose their names entirely in favor of a generic title.
+function topCandidates(candidates) {
+  return [...candidates].sort((a, b) => {
+    if (!!a.incumbent !== !!b.incumbent) return a.incumbent ? -1 : 1;
+    return (b.financials?.totalRaised ?? 0) - (a.financials?.totalRaised ?? 0);
+  });
+}
+
 function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 }
@@ -92,13 +128,16 @@ function renderPage({ stusab, chamber, district, race, canonical, scriptSrc }) {
   // "House" is spelled out here for the same reason as raceMetaTitle in
   // src/App.jsx: this exact string drives the title AND the visible <h1>
   // below, and nothing else on the page names the chamber for a House race.
-  const where = chamber === "house" ? `${stusab} House District ${district === "AL" ? "At-Large" : district}` : `${stusab} Senate`;
+  const stateName = STATE_NAMES[stusab] ?? stusab;
+  const where = chamber === "house" ? `${stateName} House District ${district === "AL" ? "At-Large" : district}` : `${stateName} Senate`;
   const candidates = race?.candidates ?? [];
 
-  const title =
-    candidates.length >= 2 && candidates.length <= 3
-      ? `${candidates.map((c) => toTitleCase(c.full_name)).join(" vs. ")} — ${where} 2026 | Ballot-Wise`
-      : `${where} 2026 Candidates Compared | Ballot-Wise`;
+  const [first, second, ...rest] = topCandidates(candidates);
+  const title = second
+    ? `${toTitleCase(first.full_name)} vs. ${toTitleCase(second.full_name)}${rest.length ? ` +${rest.length} more` : ""} — ${where} 2026 | Ballot-Wise`
+    : first
+    ? `${toTitleCase(first.full_name)} — ${where} 2026 | Ballot-Wise`
+    : `${where} 2026 Candidates Compared | Ballot-Wise`;
 
   const description = candidates.length
     ? `Compare ${candidates.length} candidate${candidates.length === 1 ? "" : "s"} running for ${chamber === "house" ? "the U.S. House" : "U.S. Senate"} in ${where} — voting records, campaign finance, and public statements, sourced from official records.`
