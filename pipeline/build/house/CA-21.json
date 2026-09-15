@@ -1,0 +1,867 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-21",
+  "generated_at": "2026-08-21T13:05:14.588Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_21st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jim Costa and Kyle Kirkland are running in the general election for U.S. House California District 21 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jim-costa",
+      "full_name": "COSTA, JIM",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H4CA20082",
+      "fec_status": "C",
+      "bioguide_id": "C001059",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1337630.34,
+        "totalSpent": 608733.94,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 11086.03,
+          "largeDollar": 515635.75,
+          "pac": 796717.37,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1952-04-13",
+          "source_url": "https://www.wikidata.org/wiki/Q675869",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Fresno, California",
+          "source_url": "https://www.wikidata.org/wiki/Q675869",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "California State University, Fresno",
+          "source_url": "https://www.wikidata.org/wiki/Q675869",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Representative, CA 21st District",
+          "source_url": "https://www.jimcosta.com/",
+          "snippet": "Jim Costa, Representative, CA 21st District",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "San Joaquin Memorial High School",
+          "source_url": "https://www.ballotready.org/people/jim-costa",
+          "snippet": "High School Diploma, San Joaquin Memorial High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "While in college, he was a member of Sigma Alpha Epsilon",
+          "source_url": "https://en.wikipedia.org/wiki/Jim_Costa",
+          "snippet": "While in college, he was a member of Sigma Alpha Epsilon",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Water",
+          "value": "Improving water supplies",
+          "snippet": "improving water supplies"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Expanding access to healthcare",
+          "snippet": "expanding access to healthcare"
+        },
+        {
+          "topic": "Crime",
+          "value": "Reducing crime",
+          "snippet": "reducing crime"
+        },
+        {
+          "topic": "Veterans",
+          "value": "Providing for our veterans",
+          "snippet": "providing for our veterans"
+        }
+      ],
+      "platform_source_url": "https://www.jimcosta.com/",
+      "_platform_resolved_at": "2026-08-15T11:19:48.208Z",
+      "campaign_site_url": "https://www.jimcosta.com/",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Nothing is more important to me than ensuring a strong future for our Valley . We need leaders who can deliver when it comes to improving water supplies, expanding access to healthcare, reducing crime and providing for our veterans. Jim Costa, Representative, CA 21st District",
+        "source_url": "https://www.jimcosta.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:23:01.731Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10077120.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": true,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-21T13:05:05.302Z",
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 277,
+          "attendanceRate": 0.9787985865724381
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Forestry and Horticulture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Livestock, Dairy, and Poultry",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Foreign Affairs — Europe",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 187,
+        "bills_cosponsored": 3943,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "Multinational Species Conservation Funds Semipostal Stamp Reauthorization Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "6023",
+            "publicLawNumber": "117-127",
+            "summary": "Multinational Species Conservation Funds Semipostal Stamp Reauthorization Act of 2021 This bill directs the U.S. Postal Service to sell each copy of the Multinational Species Conservation Fund Semipostal Stamp and notify Congress when all copies have been sold.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ127"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 19 East Merced Street in Fowler, California, as the \"Cecil E. Bolt Post Office\".",
+            "congress": 112,
+            "billType": "HR",
+            "billNumber": "4389",
+            "publicLawNumber": "112-251",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 19 East Merced Street in Fowler, California, as the \"Cecil E. Bolt Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-112publ251"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.199,
+          "nominateDim2": 0.447,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001059"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 98,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001059"
+        }
+      },
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "kyle-kirkland",
+      "full_name": "KIRKLAND, KYLE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA13199",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 338970.81,
+        "totalSpent": 321036.88,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 38713.79,
+          "largeDollar": 172797.56,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 127459.46
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Graduated Harvard magna cum laude in economics in 1984 and earned an MBA from Stanford in 1986",
+          "source_url": "https://kirkland2026.com/",
+          "snippet": "1984 Graduated Harvard magna cum laude in economics and joined Bain & Company to work on complex business problems. 1986 Arrived in California with $700, earned an MBA from Stanford, and pursued a career in finance in Los Angeles.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Joined Bain & Company in 1984, pursued a career in finance in Los Angeles from 1986, led the acquisition of Steinway & Sons in 1995, took Steinway public on the NYSE in 1996, purchased Club One Casino in Fresno in 2008, elected President of the California Gaming Association in 2013, founded the Kirkland Foundation in 2016, became Chair of the Fresno Chaffee Zoo Corporation board in 2019, and is current owner/operator of Club One Casino and former chairman of Steinway Musical Instruments",
+          "source_url": "https://kirkland2026.com/",
+          "snippet": "1984 Graduated Harvard magna cum laude in economics and joined Bain & Company to work on complex business problems. 1986 Arrived in California with $700, earned an MBA from Stanford, and pursued a career in finance in Los Angeles. 1995 Led the acquisition of Steinway & Sons, restoring an iconic American manufacturer and protecting its skilled workforce. 1996 Took Steinway public on the NYSE, expanding its global reach. 2008 Purchased Club One Casino in Fresno, investing millions in the Central Valley. 2013 Elected President of the California Gaming Association to advocate for the California cardroom industry with $5.6 billion of economic impact, over 20,000 jobs, and $500 million of tax revenue. 2016 Founded the Kirkland Foundation, rescuing 20,000+ at-risk animals across the Valley over the last ten years. 2019 Became Chair of the Fresno Chaffee Zoo Corporation board with 850,000 annual visitors and regional economic and educational impact.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Owner of Club One Casino in Fresno, President of California Gaming Association, Founder of Kirkland Foundation, Chair of Fresno Chaffee Zoo Corporation, Former Chairman of Steinway Musical Instruments",
+          "source_url": "https://kirkland2026.com/",
+          "snippet": "Owner, Club One Casino in Fresno. • President, California Gaming Association. • Founder, Kirkland Foundation. • Chair, Fresno Chaffee Zoo Corporation. • Former Chairman, Steinway Musical Instruments.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordable Abundance / Cost of Living",
+          "value": "Make housing, food, gas, and healthcare affordable by ending over-regulation and mismanagement.",
+          "snippet": "Make housing, food, gas, and healthcare affordable by ending over-regulation and mismanagement."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Target government waste and fraud to deliver value for taxpayers.",
+          "snippet": "Target government waste and fraud to deliver value for taxpayers."
+        },
+        {
+          "topic": "Border Security",
+          "value": "Give law enforcement the tools to stop fentanyl, human trafficking, and cartel violence while respecting legal immigration.",
+          "snippet": "Give law enforcement the tools to stop fentanyl, human trafficking, and cartel violence while respecting legal immigration."
+        },
+        {
+          "topic": "Water & Agriculture",
+          "value": "Build storage, modernize delivery, and end the regulatory chokehold that hurts growers and farmworkers.",
+          "snippet": "Build storage, modernize delivery, and end the regulatory chokehold that hurts growers and farmworkers."
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Back the blue, support first responders, and end soft-on-crime policies that put families at risk.",
+          "snippet": "Back the blue, support first responders, and end soft-on-crime policies that put families at risk."
+        },
+        {
+          "topic": "Education",
+          "value": "Return to high standards, empower parents, and expand career pathways for the next generation.",
+          "snippet": "Return to high standards, empower parents, and expand career pathways for the next generation."
+        },
+        {
+          "topic": "Housing / Cost of Living",
+          "value": "Housing, food, gas, and healthcare are brutally expensive. Kyle will end over-regulation, restart domestic production, and attack the cost-of-living crisis head-on.",
+          "snippet": "Housing, food, gas, and healthcare are brutally expensive. Kyle will end over-regulation, restart domestic production, and attack the cost-of-living crisis head-on."
+        },
+        {
+          "topic": "Government Accountability",
+          "value": "Stop waste and fraud, demand audits, and require government to serve families—not itself—so every tax dollar delivers results.",
+          "snippet": "Stop waste and fraud, demand audits, and require government to serve families—not itself—so every tax dollar delivers results."
+        }
+      ],
+      "platform_source_url": "https://kirkland2026.com/",
+      "_platform_resolved_at": "2026-08-15T11:19:36.169Z",
+      "campaign_site_url": "https://kirkland2026.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "Kyle Kirkland is a product of the American Dream—a dream now beyond reach for most Americans. Kyle believes in hard work over handouts, meritocracy over mediocrity, and results over excuses. He is the political outsider running to make sure government serves families—not itself.",
+        "source_url": "https://kirkland2026.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:22:59.783Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10073145.pdf",
+        "filingDate": "1/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-21T13:05:08.931Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
