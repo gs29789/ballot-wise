@@ -30,6 +30,18 @@ const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "";
 const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
 
+// Google Analytics 4. Same degrade-quietly convention as the Mapbox/PayPal
+// keys above — App() only loads gtag.js when this is set, so the app works
+// identically (just unmeasured) until a real measurement ID is provided.
+const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "";
+
+// Mirrors web/index.html's static <meta name="description"> — that copy is
+// what a crawler or link-unfurler sees before any JS runs; this is what
+// document.title/description fall back to once JS is running but no
+// race or profile is open (the "idle" landing view).
+const DEFAULT_DESCRIPTION =
+  "See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan.";
+
 // Why a candidate's own site produced nothing, keyed by the reachability
 // classification the pipeline records (see scaleCampaignSiteDiscovery.ts).
 // The address is published in every one of these cases, including the
@@ -1799,7 +1811,7 @@ function AddressAutocomplete({ value, onChange, onSearch, placeholder, colors })
   );
 }
 
-function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, onShowContribute }) {
+function LandingHero({ address, setAddress, handleSearch, status, onShowContribute }) {
   return (
     <div style={{ background: D.bg, color: D.ink }}>
       <div style={{ borderBottom: `1px solid ${D.line}`, padding: "16px 20px" }}>
@@ -1807,9 +1819,13 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, o
           <Wordmark dark />
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <ContributeButton dark onClick={onShowContribute} />
-            <button onClick={onShowAbout} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
+            {/* A real link, not the results header's modal trigger — this is
+                the one "About the data" entry point a crawler (or anyone
+                without JS) can actually follow, since it's on the page
+                search engines land on by default. See about.html. */}
+            <a href="/about.html" style={{ color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
               About the data
-            </button>
+            </a>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: D.inkSoft }}>
               Non-Partisan · Public Data · No Party Funding
             </span>
@@ -2371,6 +2387,58 @@ function ContributeModal({ onClose }) {
   );
 }
 
+// Per-view document title/description — the client-side piece of the SEO
+// playbook's "per-view title & description" fix. Updating document.title
+// and the description tag after JS runs is enough for the browser tab,
+// bookmarks, and Googlebot's own JS-rendering indexing pass. It does NOT
+// reach a crawler or link-unfurler that only fetches raw HTML without
+// executing JS (Twitter/X, Facebook, iMessage, Slack) — those always see
+// index.html's static tags, identical for every URL, until races get real
+// server-rendered pages of their own.
+function raceMetaTitle({ chamber, geo, race }) {
+  if (!geo) return "Ballot-Wise — Congress, compared";
+  const where = chamber === "house" ? `${geo.stateName} ${geo.districtLabel || "District"}` : `${geo.stateName} Senate`;
+  const candidates = race?.candidates ?? [];
+  // 2-3 names covers the common general-election shape and matches how
+  // people actually search ("X vs Y") — a crowded primary falls back to
+  // the generic phrasing rather than cramming a long candidate list into a
+  // browser tab title.
+  if (candidates.length >= 2 && candidates.length <= 3) {
+    return `${candidates.map((c) => toTitleCase(c.full_name)).join(" vs. ")} — ${where} 2026 | Ballot-Wise`;
+  }
+  return `${where} 2026 Candidates Compared | Ballot-Wise`;
+}
+
+function raceMetaDescription({ chamber, geo, race }) {
+  if (!geo) return DEFAULT_DESCRIPTION;
+  const where = chamber === "house" ? `${geo.stateName}'s ${geo.districtLabel || "district"}` : geo.stateName;
+  const count = race?.candidates?.length;
+  const who = count ? `${count} candidate${count === 1 ? "" : "s"}` : "the candidates";
+  const office = chamber === "house" ? "the U.S. House" : "U.S. Senate";
+  return `Compare ${who} running for ${office} in ${where} — voting records, campaign finance, and public statements, sourced from official records.`;
+}
+
+function profileMetaTitle({ candidate, chamber, geo }) {
+  const where = chamber === "house" ? `${geo?.stusab ?? ""} ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stusab ?? ""} Senate`.trim();
+  return `${toTitleCase(candidate.full_name)} (${partyLabel(candidate.party)}) — ${where} 2026 | Ballot-Wise`;
+}
+
+function profileMetaDescription({ candidate, chamber, geo }) {
+  const where = chamber === "house" ? `${geo?.stateName ?? ""} ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stateName ?? ""} Senate`.trim();
+  return `${toTitleCase(candidate.full_name)}'s voting record, campaign finance, and public statements for ${where}, 2026 — sourced from official public records.`;
+}
+
+function setDocumentMeta(title, description) {
+  document.title = title;
+  let tag = document.querySelector('meta[name="description"]');
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute("name", "description");
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", description);
+}
+
 export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -2520,6 +2588,43 @@ export default function App() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [geo, houseRace, senateRace]);
 
+  useEffect(() => {
+    if (!GA_MEASUREMENT_ID || window.gtag) return;
+    const script = document.createElement("script");
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    script.async = true;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    // send_page_view: false -- the effect below fires every page_view
+    // itself, including the first, so a client-side view change (no real
+    // navigation, no new gtag.js load) is never missed the way it would be
+    // if this initial config call also auto-sent one.
+    window.gtag("config", GA_MEASUREMENT_ID, { send_page_view: false });
+  }, []);
+
+  // Keeps the browser tab, Googlebot's JS-rendering pass, and (when
+  // configured) GA4 in sync with whatever's actually on screen — see the
+  // raceMetaTitle/profileMetaTitle comment above for what this can't reach.
+  useEffect(() => {
+    let title = "Ballot-Wise — Congress, compared";
+    let description = DEFAULT_DESCRIPTION;
+    if (status === "ready") {
+      if (profileCandidate) {
+        title = profileMetaTitle({ candidate: profileCandidate, chamber, geo });
+        description = profileMetaDescription({ candidate: profileCandidate, chamber, geo });
+      } else {
+        title = raceMetaTitle({ chamber, geo, race: activeRace });
+        description = raceMetaDescription({ chamber, geo, race: activeRace });
+      }
+    }
+    setDocumentMeta(title, description);
+    if (window.gtag) {
+      window.gtag("event", "page_view", { page_title: title, page_location: window.location.href });
+    }
+  }, [status, chamber, activeRace, geo, profileCandidate]);
+
   const openProfile = (slug) => {
     setProfileSlug(slug);
     const urlState = { stusab: geo?.stusab, districtCode: geo?.districtCode, chamber, profile: slug };
@@ -2566,7 +2671,7 @@ export default function App() {
       {showContribute && <ContributeModal onClose={() => setShowContribute(false)} />}
 
       {status === "idle" ? (
-        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowAbout={() => setShowAbout(true)} onShowContribute={() => setShowContribute(true)} />
+        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowContribute={() => setShowContribute(true)} />
       ) : (
         <>
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "16px 20px" }}>

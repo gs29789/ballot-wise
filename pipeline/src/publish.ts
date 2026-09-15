@@ -1,6 +1,6 @@
 import "dotenv/config";
 import { readdirSync, readFileSync, statSync, mkdirSync, cpSync, existsSync, rmSync, writeFileSync } from "node:fs";
-import { join, relative } from "node:path";
+import { join, relative, sep } from "node:path";
 import { execFileSync } from "node:child_process";
 import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
 import { PENDING_RACES } from "./ci/pendingRaces.js";
@@ -105,8 +105,10 @@ async function main() {
   writeFileSync(join(BUILD_ROOT, "pending.json"), JSON.stringify(PENDING_RACES, null, 2));
 
   const files = walk(BUILD_ROOT).filter((f) => f.endsWith(".json"));
+  const raceKeys: string[] = [];
   for (const file of files) {
-    const key = relative(BUILD_ROOT, file);
+    const key = relative(BUILD_ROOT, file).split(sep).join("/");
+    if (/^(house|senate)\//.test(key)) raceKeys.push(key);
     await client.send(
       new PutObjectCommand({
         Bucket: bucket,
@@ -118,6 +120,26 @@ async function main() {
     );
     console.log(`Published ${key} -> r2://${bucket}/${key}`);
   }
+
+  // Every house/*.json and senate/*.json key just published, in one small
+  // file — lets the web app's sitemap.xml function enumerate live races
+  // without R2 bucket-listing (the public r2.dev URL doesn't support it,
+  // and giving that function write-scoped R2 credentials just to list
+  // objects would be a much larger privilege than it needs). Regenerated
+  // fresh every publish, same as pending.json above, so it can never drift
+  // from what's actually live.
+  const manifestKey = "manifest.json";
+  const manifest = { generatedAt: new Date().toISOString(), raceKeys: raceKeys.sort() };
+  await client.send(
+    new PutObjectCommand({
+      Bucket: bucket,
+      Key: manifestKey,
+      Body: JSON.stringify(manifest, null, 2),
+      ContentType: "application/json",
+      CacheControl: "public, max-age=3600",
+    })
+  );
+  console.log(`Published ${manifestKey} -> r2://${bucket}/${manifestKey} (${raceKeys.length} races)`);
 
   syncDataSnapshot();
 }
