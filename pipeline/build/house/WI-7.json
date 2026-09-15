@@ -1,0 +1,718 @@
+{
+  "state": "WI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-07",
+  "generated_at": "2026-08-17T02:01:27.601Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "primarySnippet": "Wis. Stat. § 5.02(12s): \"Partisan primary\" means the primary held the 2nd Tuesday in August to nominate candidates to be voted for at the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "generalSnippet": "Wis. Stat. § 5.02(5): \"General election\" means the election held in even-numbered years on the Tuesday after the first Monday in November to elect United States senators, representatives in congress, presidential electors, state senators, representatives to the assembly, district attorneys, state officers other than the state superintendent and judicial officers, and county officers other than supervisors and county executives."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Genuinely ambiguous for congressional candidates. Wisconsin's constitution (Art. XIII, §3) has two relevant clauses. The office-eligibility clause is broad and unqualified: no person convicted of a felony 'in any court within the United States' (or of certain misdemeanors involving public trust) 'shall be eligible to any office of trust, profit or honor in this state unless pardoned' — that phrase doesn't on its face exclude federal offices like the U.S. House. But the clause's own enforcement mechanism — the ballot-access provision in the same section, which bars placing a convicted person's name on a ballot — explicitly limits itself to 'any ballot for a state or local elective office,' omitting federal races. Combined with U.S. Term Limits v. Thornton, 514 U.S. 779 (1995), which holds states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), the ballot-access text and federal preemption both point toward Wisconsin's felon bar NOT reaching U.S. House/Senate candidacy — but no Wisconsin court decision confirming that specific reading was found, so this should be treated as unresolved rather than settled either way.",
+    "source_url": "https://law.justia.com/constitution/wisconsin/article-xiii/section-3/",
+    "snippet": "Wis. Const. Art. XIII, § 3: \"No person convicted of a felony, in any court within the United States... shall be eligible to any office of trust, profit or honor in this state unless pardoned of the conviction. No person may seek to have placed on any ballot for a state or local elective office in this state the name of a person convicted of a felony... unless the person named for the ballot has been pardoned of the conviction.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Wisconsin%27s_7th_Congressional_District_election,_2026",
+    "snippet": "Fred Clark and Michael Alfonso are running in the general election for U.S. House Wisconsin District 7 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.66
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 21.36
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 23.06
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 20.72
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 17.87
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3041
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3038.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3031.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3019.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3020.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3030.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3024.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3022.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3020.5
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3030.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3040.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3039
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3041.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3041.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3040.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3047.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3043.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3051.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3045.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3045.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3044.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3038.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3040
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3031.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3026.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3030.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3021
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3027
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3016.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3016.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3013.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3009.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3004.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6896070651.38,
+        "perCapitaUsd": 9343.94
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7150304585.47,
+        "perCapitaUsd": 9688.42
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7401162439.89,
+        "perCapitaUsd": 10028.32
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5892539
+      },
+      {
+        "year": "2023",
+        "population": 5910955
+      },
+      {
+        "year": "2024",
+        "population": 5960975
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 70996
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74631
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77488
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "michael-alfonso",
+      "full_name": "ALFONSO, MICHAEL",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WI07223",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1351546.03,
+        "totalSpent": 688137.56,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 63888.1,
+          "largeDollar": 1076657.93,
+          "pac": 211000,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "UW–Madison, Bachelor of Science degree in Mathematics",
+          "source_url": "https://www.alfonsoforwisconsin.com/meet/",
+          "snippet": "Michael paid his own way through college at UW–Madison by putting on boots and working 10-hour days building houses, paving roads, and laying concrete. After graduating with a Bachelor of Science degree in Mathematics",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Evita Duffy when he was 22 years old",
+          "source_url": "https://www.alfonsoforwisconsin.com/meet/",
+          "snippet": "After graduating with a Bachelor of Science degree in Mathematics, Michael married his best friend from high school, Evita Duffy, when he was 22 years old.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Dan Bongino Show, Producer; Construction Worker",
+          "source_url": "https://www.ballotready.org/people/michael-alfonso",
+          "snippet": "Dan Bongino Show, Producer Construction Worker",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Spending and Fiscal Policy",
+          "value": "Partner with President Trump and House Republicans to rein in spending",
+          "snippet": "partnering with President Trump and House Republicans to rein in spending"
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Lower costs",
+          "snippet": "lower costs"
+        },
+        {
+          "topic": "Housing Affordability",
+          "value": "Make it easier for the next generation to buy a home and raise a family",
+          "snippet": "make it easier for the next generation to buy a home and raise a family right here in WI-07"
+        },
+        {
+          "topic": "Values and Principles",
+          "value": "Uphold the values that built our state and nation — faith, community, and hard work",
+          "snippet": "uphold the values that built our state and nation — faith, community, and hard work"
+        }
+      ],
+      "platform_source_url": "https://www.alfonsoforwisconsin.com/",
+      "_platform_resolved_at": "2026-08-14T13:16:23.285Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10074487.pdf",
+        "filingDate": "4/18/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T02:00:17.234Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=Vr2MMUNRg00",
+      "platform_video_title": "Never Let You Down - Michael Alfonso for Wisconsin",
+      "platform_video_source_url": "https://www.alfonsoforwisconsin.com/media/",
+      "_platform_video_resolved_at": "2026-08-18T22:44:16.797Z",
+      "bio_summary": {
+        "value": "Michael Alfonso will fight for the people of Wisconsin’s 7th District, protect our way of life, and always put America First. He’ll never back down to the Radical Left and will always uphold the values that built our state and nation — faith, community, and hard work.",
+        "source_url": "https://www.alfonsoforwisconsin.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:44.364Z",
+      "campaign_site_url": "https://www.alfonsoforwisconsin.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:50.086Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "frederic-clark",
+      "full_name": "CLARK, FREDERIC",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WI07207",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 423041.39,
+        "totalSpent": 249064.47,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 115984.79,
+          "largeDollar": 292707.43,
+          "pac": 6500,
+          "party": 0,
+          "selfFunded": 5030
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Bachelor's degree, Michigan State University (1985); master's degree, University of Wisconsin-Madison (1992)",
+          "source_url": "https://ballotpedia.org/Fred_Clark",
+          "snippet": "Clark earned his bachelor's degree from Michigan State University in 1985 and his master's degree from the University of Wisconsin-Madison in 1992."
+        },
+        "employment_record": {
+          "value": "Owner, Clark Forestry, Inc.; previously a service forester/consultant with the Wisconsin Department of Natural Resources and a forest ecologist for The Nature Conservancy",
+          "source_url": "https://ballotpedia.org/Fred_Clark",
+          "snippet": "Clark is the owner of Clark Forestry, Inc. He previously worked as a service forester/consultant with the Wisconsin Department of Natural Resources and as a forest ecologist for The Nature Conservancy."
+        },
+        "civic_affiliations": {
+          "value": "Aldo Leopold Foundation; Forest Guild; National Wild Turkey Federation; Great Lakes Timber Professionals Association; Wisconsin League of Conservation Voters",
+          "source_url": "https://ballotpedia.org/Fred_Clark",
+          "snippet": "Clark is a member of the Aldo Leopold Foundation, Forest Guild, National Wild Turkey Federation, Great Lakes Timber Professionals Association, and Wisconsin League of Conservation Voters."
+        }
+      },
+      "platform": [
+        {
+          "topic": "Campaign Finance",
+          "value": "Does not accept contributions from corporate Political Action Committees; campaign is solely supported by individual donors and organizations representing working people and citizens",
+          "snippet": "The Clark for Wisconsin Campaign does not accept contributions from corporate Political Action Committees. Our campaign is solely supported by individual donors and organizations, almost all of them here at home, who represent working people and citizens."
+        },
+        {
+          "topic": "Representation",
+          "value": "Wants elected representatives to represent all people, not billionaires and elites whose influence captures politicians of both parties",
+          "snippet": "Now more than ever, people across the political spectrum want our elected representatives to represent ALL of us, not the billionaires and elites whose influence captures politicians of both parties."
+        },
+        {
+          "topic": "Rural Economy",
+          "value": "Rebuilding Our Rural Economy",
+          "snippet": "Rebuilding Our Rural Economy"
+        },
+        {
+          "topic": "Border Safety and Immigration",
+          "value": "Border Safety and Immigration",
+          "snippet": "Border Safety and Immigration"
+        },
+        {
+          "topic": "Health Care",
+          "value": "Health Care for Everyone",
+          "snippet": "Health Care for Everyone"
+        },
+        {
+          "topic": "Farms and Forests",
+          "value": "A Future for our Farms and Forests",
+          "snippet": "A Future for our Farms and Forests"
+        },
+        {
+          "topic": "Constitution and Rule of Law",
+          "value": "Our Constitution and the Rule of Law",
+          "snippet": "Our Constitution and the Rule of Law"
+        }
+      ],
+      "platform_source_url": "https://www.clarkforwi.com/",
+      "_platform_resolved_at": "2026-08-14T13:16:39.581Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10078416.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T02:00:24.941Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Fred Clark believes that, especially in places like northern Wisconsin, we have the makings of a new rural majority. That’s a majority not based on old right wing and left wing politics, but a majority made up of real people who live and work in our communities. Fred Clark will become part of a new majority of leaders in Congress who will stand up, represent their communities, and do the work we expect from our elected representatives.",
+        "source_url": "https://www.clarkforwi.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:01:46.956Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=MUsdNRLGP48",
+      "platform_video_title": "Trade Policy",
+      "platform_video_source_url": "https://www.clarkforwi.com/media",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-22T14:48:41.071Z",
+      "campaign_site_url": "https://www.clarkforwi.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:50.079Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

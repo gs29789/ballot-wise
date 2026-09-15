@@ -1,0 +1,914 @@
+{
+  "state": "CO",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-06",
+  "generated_at": "2026-08-18T20:14:55.504Z",
+  "election_dates": {
+    "primaryDate": "2026-06-30",
+    "primarySourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-4-101/",
+    "primarySnippet": "C.R.S. § 1-4-101: a primary election shall be held on the last Tuesday in June of even-numbered years",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/co/title-1-elections/co-rev-st-sect-1-1-104/",
+    "generalSnippet": "C.R.S. § 1-1-104: \"General election\" means the election held on the Tuesday succeeding the first Monday of November in each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Colorado disqualifies convicted felons from state office only during actual confinement or probation (automatically restored after), except a narrow list of crimes (embezzlement of public funds, bribery, perjury, solicitation of bribery, subornation of perjury) that carries permanent disqualification instead; but the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so none of this reaches U.S. House or Senate candidates",
+    "source_url": "https://codes.findlaw.com/co/title-18-criminal-code/co-rev-st-sect-18-1-3-401/",
+    "snippet": "C.R.S. § 18-1.3-401: \"Every person convicted of a felony... shall be disqualified from holding any office of honor, trust, or profit under the laws of this state... during the actual time of confinement or commitment to imprisonment or release from actual confinement on conditions of probation. Upon his or her discharge after completion of service of his or her sentence or after service under probation, the right to hold any office of honor, trust, or profit shall be restored, except as provided in section 4 of article XII of the state constitution.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Colorado's_6th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Jason Crow, Jason Ray Clark, Patty McMahon, Edwardo Quinonez, Samir Witta, and Meredith Ryan are running in the general election for U.S. House Colorado District 6 on November 3, 2026. McMahon and Ryan have no FEC 2026 registration found; see code comment."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 4.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 4.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 4.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 38.42
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.19
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 37.78
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 37.12
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 31.68
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 2966
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 2966.9
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 2956
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 2953.2
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 2960.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 2959.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 2961.1
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 2961
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 2963.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 2961.6
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 2942.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 2966.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 2963.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 2963.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 2962.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 2977
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 2971.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 2969
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 2970.8
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 2973.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 2966.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 2965.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 2979.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 2973.5
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 2964.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 2973.7
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 2969.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 2957.3
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 2954.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 2946.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 2952
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 2947.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 2940.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 2947.7
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 2933.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 2928.2
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 2922.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 2915.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 2912.1
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 3857088322.95,
+        "perCapitaUsd": 5166.02
+      },
+      {
+        "year": "2024",
+        "totalUsd": 8818344042.41,
+        "perCapitaUsd": 12058.76
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5210974845.04,
+        "perCapitaUsd": 6979.36
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5839926
+      },
+      {
+        "year": "2023",
+        "population": 5877610
+      },
+      {
+        "year": "2024",
+        "population": 5957494
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 89302
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 92911
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 97113
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "jason-clark",
+      "full_name": "CLARK, JASON",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO06165",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Smoky Hill High School",
+          "source_url": "https://jasonclarkuscongress.com/",
+          "snippet": "Attending Sagebrush Elementary, Laredo Middle School, and Smoky Hill High School, he knows this area of Colorado.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "West Point, graduated 1992",
+          "source_url": "https://jasonclarkuscongress.com/",
+          "snippet": "He then attended West Point and graduated from West Point in 1992",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "entrepreneur and small business owner for 30 plus years in Aurora, Colorado",
+          "source_url": "https://jasonclarkuscongress.com/",
+          "snippet": "Jason Clark has been an entrepreneur and small business owner for 30 plus years in Aurora, Colorado.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability",
+          "value": "Addressing rising costs of rent, education, and healthcare is top priority",
+          "snippet": "The cost of rent, education, and healthcare has become unsustainable for too many Coloradans. Addressing these rising costs is my top priority."
+        },
+        {
+          "topic": "Jobs and Economic Development",
+          "value": "Embrace Entrepreneurs, Small Business, and Developers",
+          "snippet": "Jobs across Colorado Embrace Entrepreneurs Embrace Small Business Embrace Developers"
+        },
+        {
+          "topic": "Crime",
+          "value": "Go after the criminals and clean up Colfax Avenue",
+          "snippet": "Reduce Crime Go after the criminals Clean up Colfax Avenue"
+        }
+      ],
+      "platform_source_url": "https://jasonclarkuscongress.com/",
+      "_platform_resolved_at": "2026-08-12T11:17:33.843Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=p1EaGVbkAPE",
+      "platform_video_title": "August 18, 2026",
+      "platform_video_source_url": "https://jasonclarkuscongress.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:01:30.436Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081173.pdf",
+        "filingDate": "6/30/2026",
+        "hasReportableAssets": false,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:14:49.399Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Raised in a Colorado working‑class family, Jason Clark knows the challenges of rising costs just to get by. Attending Sagebrush Elementary, Laredo Middle School, and Smoky Hill High School, he knows this area of Colorado. He then attended West Point and graduated from West Point in 1992 . Jason Clark has been an entrepreneur and small business owner for 30 plus years in Aurora, Colorado.",
+        "source_url": "https://jasonclarkuscongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:42.023Z",
+      "campaign_site_url": "https://www.jasonclarkuscongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.523Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "jason-crow",
+      "full_name": "CROW, JASON",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8CO06229",
+      "fec_status": "C",
+      "bioguide_id": "C001121",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3177447.42,
+        "totalSpent": 2217842.31,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 1102427.7,
+          "largeDollar": 1749762.28,
+          "pac": 207750,
+          "party": 800,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-03-15",
+          "source_url": "https://www.wikidata.org/wiki/Q58323071",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Madison, Wisconsin",
+          "source_url": "https://www.wikidata.org/wiki/Q58323071",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Wisconsin–Madison",
+          "source_url": "https://www.wikidata.org/wiki/Q58323071",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Holland & Hart, Attorney (2009 - Present); US House of Representatives, Representative - Colorado 6th Congressional District (Present); Colorado Board of Veterans Affairs (2009 - 2014); Colorado Army National Guard, Assistant Chief of Staff/Legal (2006 - 2007); US Army, Captain (2002 - 2006); Spokesman for Veteran Affairs",
+          "source_url": "https://www.ballotready.org/people/jason-crow",
+          "snippet": "Holland & Hart, Attorney (2009 - Present) US House of Representatives, Representative - Colorado 6th Congressional District (Present) Colorado Board of Veterans Affairs (2009 - 2014) Colorado Army National Guard, Assistant Chief of Staff/Legal (2006 - 2007) US Army, Captain (2002 - 2006) Spokesman for Veteran Affairs",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Colorado Board of Veterans Affairs (2009 - 2014); Spokesman for Veteran Affairs",
+          "source_url": "https://www.ballotready.org/people/jason-crow",
+          "snippet": "Colorado Board of Veterans Affairs (2009 - 2014) Colorado Army National Guard, Assistant Chief of Staff/Legal (2006 - 2007) US Army, Captain (2002 - 2006) Spokesman for Veteran Affairs",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Affordability",
+          "value": "Make life more affordable",
+          "snippet": "Coloradans deserve a champion who will make life more affordable"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Protect health care",
+          "snippet": "Coloradans deserve a champion who will make life more affordable, protect health care"
+        },
+        {
+          "topic": "Corruption",
+          "value": "Take on corruption",
+          "snippet": "Coloradans deserve a champion who will make life more affordable, protect health care, and take on corruption"
+        },
+        {
+          "topic": "Working People",
+          "value": "Focus on working people, not protecting special interests",
+          "snippet": "America is ready for a new generation of leadership that focuses on working people, not protecting special interests"
+        }
+      ],
+      "platform_source_url": "https://jasoncrow.org/",
+      "_platform_resolved_at": "2026-08-12T11:18:04.572Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10075265.pdf",
+        "filingDate": "8/13/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-18T20:14:52.569Z",
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Intelligence and Special Operations",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Cyber, Information Technologies, and Innovation",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Central Intelligence Agency",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Permanent Select Committee on Intelligence — Open Source Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 165,
+        "bills_cosponsored": 1629,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "SBA Cyber Awareness Act",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "3462",
+            "publicLawNumber": "117-259",
+            "summary": "SBA Cyber Awareness Act This act requires the Small Business Administration (SBA) to annually report specified information related to cybersecurity awareness. Such reports must include (1) a strategy to increase the cybersecurity of the SBA's information technology (IT) infrastructure, (2) a supply chain risk management strategy that includes risk mitigation activities for IT components originating from an entity that has its principal place of business in China, and (3) any SBA cybersecurity incident that occurred during the two years prior to the initial report (including the SBA's action to respond to or remediate it).",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ259"
+          },
+          {
+            "title": "To name the Department of Veterans Affairs community-based outpatient clinic in Aurora, Colorado, as the \"Lieutenant Colonel John W. Mosley VA Clinic\".",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "4172",
+            "publicLawNumber": "117-57",
+            "summary": "This bill designates the community-based outpatient clinic of the Department of Veterans Affairs to be located in Aurora, Colorado, as the Lieutenant Colonel John W. Mosley Clinic.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ57"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.36,
+          "nominateDim2": 0.179,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001121"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 67.1,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001121"
+        }
+      },
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:26.884Z",
+      "bio_summary": {
+        "value": "In moments like this, our democracy needs bold leaders who fight and have moral clarity. Coloradans deserve a champion who will make life more affordable, protect health care, and take on corruption. America is ready for a new generation of leadership that focuses on working people, not protecting special interests.",
+        "source_url": "https://jasoncrow.org/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:43.719Z",
+      "campaign_site_url": "https://jasoncrow.org",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.525Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "edwardo-quinonez",
+      "full_name": "QUINONEZ, EDWARDO",
+      "party": "NO PARTY AFFILIATION",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO06132",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Lakewood High School",
+          "source_url": "https://ballotpedia.org/Edwardo_Quinonez",
+          "snippet": "Edwardo Quinonez graduated from Lakewood High School and attended Metro State University. His career experience includes working as a truck driver."
+        },
+        "college": {
+          "value": "Metro State University",
+          "source_url": "https://ballotpedia.org/Edwardo_Quinonez",
+          "snippet": "Edwardo Quinonez graduated from Lakewood High School and attended Metro State University. His career experience includes working as a truck driver."
+        },
+        "employment_record": {
+          "value": "Truck driver",
+          "source_url": "https://ballotpedia.org/Edwardo_Quinonez",
+          "snippet": "Edwardo Quinonez graduated from Lakewood High School and attended Metro State University. His career experience includes working as a truck driver."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:27.219Z",
+      "bio_summary": {
+        "value": "Edwardo Quinonez is a proud Coloradan, community advocate, and independent candidate for the U.S. House of Representatives in Colorado’s 6th Congressional District. Edwardo is running for Congress because he believes our community deserves leadership that puts people over party — leadership that listens, shows up, and works across differences to deliver real solutions. Rooted in Community Colorado’s 6th District — from Aurora to Centennial and surrounding neighborhoods — is home to working families, small business owners, veterans, seniors, students, and newcomers who all contribute to the strength of our state. ",
+        "source_url": "https://ballotpedia.org/Edwardo_Quinonez",
+        "source_type": "ballotpedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T11:15:53.248Z",
+      "campaign_site_url": "https://voteforedwardoquinonez.org",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.526Z",
+      "_campaign_site_reachability": "dead"
+    },
+    {
+      "slug": "samir-witta",
+      "full_name": "WITTA, SAMIR EZZELDIN DR.",
+      "party": "UNAFFILIATED",
+      "incumbent": false,
+      "fec_candidate_id": "H6CO06116",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 100,
+        "totalSpent": 59159.33,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 100,
+          "largeDollar": 0,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "college": {
+          "value": "Charles University in Prague (medical school)",
+          "source_url": "https://www.wittaforcongress.com/about/",
+          "snippet": "During his final year of medical school at Charles University in Prague, Dr. Witta was actively involved in the Velvet Revolution against communism.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "civic_affiliations": {
+          "value": "Fought communism for cultural, religious and social freedom in the Velvet Revolution",
+          "source_url": "https://www.wittaforcongress.com/",
+          "snippet": "The Velvet Revolution Fought communism for cultural, religious and social freedom",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Congressional Accountability and Anti-Corruption",
+          "value": "Fight for real accountability, anti-corruption reforms, and a Congress that answers to the people of District 6",
+          "snippet": "We will fight for: Real accountability Anti-corruption reforms A Congress that answers to the people of District 6"
+        },
+        {
+          "topic": "Tax Dollars and Foreign Policy",
+          "value": "Your tax dollars - your wealth - should serve you, not foreign wars or corporate profits",
+          "snippet": "Your tax dollars - your wealth - should serve you, not foreign wars or corporate profits."
+        },
+        {
+          "topic": "Healthcare Reform",
+          "value": "Fight for affordable care for every family, lower drug prices, fair insurance practices, and patient-centered treatment, not profit-centered systems",
+          "snippet": "We will fight for: Affordable care for every family Lower drug prices Fair insurance practices Patient-centered treatment, not profit-centered systems"
+        },
+        {
+          "topic": "Healthcare Access and Equity",
+          "value": "Fight for equal access to healthcare for women, minorities, and underserved communities who face deeper barriers including worse health outcomes",
+          "snippet": "Women, minorities, and underserved communities face deeper barriers - lower wages, higher costs, and worse health outcomes. We will fight for: Equal access to healthcare"
+        },
+        {
+          "topic": "Fair Wages",
+          "value": "Fight for fair wages",
+          "snippet": "We will fight for: Equal access to healthcare Fair wages"
+        },
+        {
+          "topic": "Diversity and Justice",
+          "value": "Fight for justice and dignity for every cultural and racial community, and a Colorado that protects diversity and opportunity",
+          "snippet": "We will fight for: Equal access to healthcare Fair wages Justice and dignity for every cultural and racial community A Colorado that protects diversity and opportunity"
+        },
+        {
+          "topic": "HOA Fees",
+          "value": "Capping the fees squeezing homeowners across the district",
+          "snippet": "Standing Up to HOA Fees Capping the fees squeezing homeowners across the district."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "No corporate, insurance, or Wall Street PAC money",
+          "snippet": "No corporate, insurance, or Wall Street PAC money. Only neighbors like you."
+        }
+      ],
+      "platform_source_url": "https://www.wittaforcongress.com/",
+      "_platform_resolved_at": "2026-08-12T11:17:30.236Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:27.518Z",
+      "bio_summary": {
+        "value": "I've spent my life fighting for justice, health, and human dignity. Now I'm ready to fight for the people of Colorado's 6th District.",
+        "source_url": "https://www.wittaforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:44:47.131Z",
+      "campaign_site_url": "https://wittaforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T20:35:16.768Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
