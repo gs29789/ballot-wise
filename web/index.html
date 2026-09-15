@@ -4,6 +4,47 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ballot-Wise — Congress, compared</title>
+    <!-- Static baseline for crawlers/link-unfurlers that never run this
+         app's JS (Twitter/X, Facebook, iMessage, Slack all fetch raw HTML).
+         App.jsx's own useEffect overwrites the title/description tags once
+         a race or profile is open, for the browser tab and for Googlebot's
+         JS-rendering pass — but that update never reaches a non-JS fetch,
+         so this static copy is what every shared homepage link actually
+         shows. No <link rel="canonical"> here on purpose: a static canonical
+         would point every query-string race URL (?state=..&district=..)
+         back at "/", which tells Google those pages are duplicates of the
+         homepage instead of letting it index them independently. -->
+    <meta name="description" content="See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ballot-Wise" />
+    <meta property="og:url" content="https://ballot-wise.com/" />
+    <meta property="og:title" content="Ballot-Wise — Congress, compared" />
+    <meta property="og:description" content="See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan." />
+    <meta property="og:image" content="https://ballot-wise.com/og-image.png" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1260" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ballot-Wise — Congress, compared" />
+    <meta name="twitter:description" content="See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan." />
+    <meta name="twitter:image" content="https://ballot-wise.com/og-image.png" />
+    <meta name="twitter:image:alt" content="Ballot-Wise — the congressional record, compared" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Ballot-Wise",
+        "url": "https://ballot-wise.com/",
+        "description": "See every candidate on your ballot for Congress, side by side — voting records, campaign finance, and public statements, all sourced from official records. Non-partisan.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Ballot-Wise",
+          "url": "https://ballot-wise.com/"
+        }
+      }
+    </script>
   </head>
   <body>
     <div id="root"></div>
