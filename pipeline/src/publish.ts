@@ -2,7 +2,7 @@ import "dotenv/config";
 import { readdirSync, readFileSync, statSync, mkdirSync, cpSync, existsSync, rmSync, writeFileSync } from "node:fs";
 import { join, relative, sep } from "node:path";
 import { execFileSync } from "node:child_process";
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { S3Client, PutObjectCommand, ListObjectsV2Command } from "@aws-sdk/client-s3";
 import { PENDING_RACES } from "./ci/pendingRaces.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
@@ -105,10 +105,8 @@ async function main() {
   writeFileSync(join(BUILD_ROOT, "pending.json"), JSON.stringify(PENDING_RACES, null, 2));
 
   const files = walk(BUILD_ROOT).filter((f) => f.endsWith(".json"));
-  const raceKeys: string[] = [];
   for (const file of files) {
     const key = relative(BUILD_ROOT, file).split(sep).join("/");
-    if (/^(house|senate)\//.test(key)) raceKeys.push(key);
     await client.send(
       new PutObjectCommand({
         Bucket: bucket,
@@ -121,14 +119,27 @@ async function main() {
     console.log(`Published ${key} -> r2://${bucket}/${key}`);
   }
 
-  // Every house/*.json and senate/*.json key just published, in one small
-  // file — lets the web app's sitemap.xml function enumerate live races
-  // without R2 bucket-listing (the public r2.dev URL doesn't support it,
-  // and giving that function write-scoped R2 credentials just to list
-  // objects would be a much larger privilege than it needs). Regenerated
-  // fresh every publish, same as pending.json above, so it can never drift
-  // from what's actually live.
+  // Every house/*.json and senate/*.json key currently live in the bucket —
+  // listed fresh from R2 itself, NOT just the files this run's local
+  // pipeline/build/ happened to contain. A chunked/partial publish (e.g.
+  // one state at a time, as GitHub Actions' per-matrix-entry workflow does)
+  // must never shrink this down to just its own slice: found 2026-09-15
+  // when several parallel single-chunk publishes raced to overwrite this
+  // file, leaving the sitemap down to 9 of 442 real races. Real ceiling is
+  // ~485 keys (435 House districts + ~50 Senate seats), far under S3/R2's
+  // 1000-key default page size, so this never needs pagination. Lets the
+  // web app's sitemap.xml function enumerate live races without its own
+  // R2 bucket-listing credentials (the public r2.dev URL doesn't support
+  // listing, and handing that function write-scoped R2 creds just to list
+  // objects would be a much larger privilege than it needs).
   const manifestKey = "manifest.json";
+  const raceKeys: string[] = [];
+  for (const prefix of ["house/", "senate/"]) {
+    const listed = await client.send(new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix }));
+    for (const obj of listed.Contents ?? []) {
+      if (obj.Key?.endsWith(".json")) raceKeys.push(obj.Key);
+    }
+  }
   const manifest = { generatedAt: new Date().toISOString(), raceKeys: raceKeys.sort() };
   await client.send(
     new PutObjectCommand({
