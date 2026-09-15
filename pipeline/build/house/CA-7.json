@@ -1,0 +1,903 @@
+{
+  "state": "CA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-07",
+  "generated_at": "2026-08-21T12:49:42.323Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-california-polls-are-now-closed-june-2-2026-primary-election",
+    "primarySnippet": "California Secretary of State Shirley N. Weber, Ph.D., just announced that California polls are now closed for the June 2, 2026, Primary Election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.sos.ca.gov/elections/upcoming-elections",
+    "generalSnippet": "General Election - November 3, 2026."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — California's felony-disqualification statute (Cal. Elec. Code § 20(a)) applies only to \"state or local elective office\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state regardless",
+    "source_url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=20.",
+    "snippet": "Cal. Elec. Code § 20(a): \"A person shall not be considered a candidate for, and is not eligible to be elected to, any state or local elective office if the person has been convicted of a felony involving accepting or giving, or offering to give, any bribe, the embezzlement of public money, extortion or theft of public money, perjury, or conspiracy to commit any of those crimes.\""
+  },
+  "voting_system": {
+    "label": "Top-two blanket primary",
+    "primaryExplanation": "Every candidate for this office, regardless of party, appears on one primary ballot, and every voter may vote for any candidate regardless of their own party registration. The two candidates with the most votes advance to the general election — regardless of party, and with no minimum vote share required, even if one candidate wins an outright majority in the primary.",
+    "primarySourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=SEC.+5.&lawCode=CONS&article=II",
+    "primarySnippet": "Cal. Const. art. II, §5(a): \"All voters may vote at a voter-nominated primary election for any candidate for congressional and state elective office without regard to the political party preference disclosed by the candidate or the voter... The candidates who are the top two vote-getters at a voter-nominated primary election for a congressional or state elective office shall, regardless of party preference, compete in the ensuing general election.\"",
+    "generalExplanation": "Because the top two advance regardless of party, the general is sometimes a contest between two candidates of the same party — this is a normal, expected outcome under this system, not an error. Whichever of the two advancing candidates gets more votes in the general wins outright; there's no ranked-choice tabulation and no runoff.",
+    "generalSourceUrl": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=ELEC&sectionNum=8141.5",
+    "generalSnippet": "Cal. Elec. Code §8141.5: \"...only the candidates for a voter-nominated office who receive the highest or second highest number of votes cast at the primary election shall appear on the ballot as candidates for that office at the ensuing general election. More than one candidate with the same party preference designation may participate in the general election pursuant to this subdivision.\""
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/California%27s_7th_Congressional_District_election,_2026",
+    "snippet": "Incumbent Doris Matsui and Mai Vang are running in the general election for U.S. House California District 7 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 5.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 5.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 5.5
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 5.4
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 5.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 5.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 5.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 5.1
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 5.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 5
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 4.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 4.8
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 4.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 4.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 4.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 4.4
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 26.5
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 38.03
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 40.97
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 36.23
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 33.74
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 18144.5
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 18147.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 18163
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 18125.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 18144.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 18062.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 18059
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 18024
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 18022.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 18038.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 18020.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 18037.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 18063.2
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 18058.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 18009.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 18003.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 18024.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 18005.9
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 18049.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 18052.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 17988.8
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 17964.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 17948.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 17928.7
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 17933.6
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 17936.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 17968.5
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 17955.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 18027
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 17909.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 17858.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 17844.9
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 17880.5
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 17835.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 17804.8
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 17848.4
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 17820
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 17763.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 17774.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 17782.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 17755.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5017899843,
+        "perCapitaUsd": 6676.97
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 5874112288.08,
+        "perCapitaUsd": 7816.27
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 39029342
+      },
+      {
+        "year": "2023",
+        "population": 38965193
+      },
+      {
+        "year": "2024",
+        "population": 39431263
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 91551
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 95521
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 100149
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "doris-matsui",
+      "full_name": "MATSUI, DORIS",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H6CA05195",
+      "fec_status": "C",
+      "bioguide_id": "M001163",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 3192087.39,
+        "totalSpent": 3031300.44,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 27575.64,
+          "largeDollar": 812447.93,
+          "pac": 936963.82,
+          "party": 0,
+          "selfFunded": 1415100
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1944-09-25",
+          "source_url": "https://www.wikidata.org/wiki/Q399561",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Poston War Relocation Center, Arizona",
+          "source_url": "https://www.wikidata.org/wiki/Q399561",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of California, Berkeley",
+          "source_url": "https://www.wikidata.org/wiki/Q399561",
+          "source_type": "wikidata_structured"
+        },
+        "civic_affiliations": {
+          "value": "leader on the Energy & Commerce Committee",
+          "source_url": "https://matsuiforcongress.com/",
+          "snippet": "As a leader on the Energy & Commerce Committee, Doris helped pass the Affordable Care Act, lower prescription drug prices, and expand mental health care and telehealth.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Volunteer on Bill Clinton's 1992 presidential campaign; served on his transition team; appointed deputy special assistant to the president and deputy director of public liaison, working under Alexis Herman; served in the White House from 1993 to 1998; appointed to the board of the Woodrow Wilson International Center for Scholars in September 2000; became a lobbyist in Washington, representing corporate clients until 2005; Member of the United States House of Representatives from California's 7th congressional district since 2005",
+          "source_url": "https://en.wikipedia.org/wiki/Doris_Matsui",
+          "snippet": "Doris Matsui was a volunteer on Bill Clinton 's 1992 presidential campaign . When he was elected, she served on his transition team. After his inauguration, Matsui was appointed deputy special assistant to the president and deputy director of public liaison, working under Alexis Herman . She served in the White House from 1993 to 1998. Clinton appointed Matsui to the board of the Woodrow Wilson International Center for Scholars in September 2000. Later, she became a lobbyist in Washington, representing corporate clients until 2005, when she decided to run for Congress against a field of local Democrats.",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "high_school": {
+          "value": "Dinuba Union High School, valedictorian",
+          "source_url": "https://matsuiforcongress.com/about-doris/",
+          "snippet": "I was valedictorian of my high school class at Dinuba Union High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "wife of Robert T. Matsui",
+          "source_url": "https://history.house.gov/People/Listing/M/MATSUI,-Doris-(M001163)/",
+          "snippet": "(wife of Robert T. Matsui)",
+          "source_type": "llm_extracted_house_historian"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Flood Protection",
+          "value": "Secured over $3 billion to strengthen levees, modernize the Folsom Dam, and keep families safe from catastrophic flooding",
+          "snippet": "Doris secured over $3 billion to strengthen levees, modernize the Folsom Dam, and keep our families safe from catastrophic flooding."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Helped pass the Affordable Care Act, lower prescription drug prices, and expand mental health care and telehealth",
+          "snippet": "As a leader on the Energy & Commerce Committee, Doris helped pass the Affordable Care Act, lower prescription drug prices, and expand mental health care and telehealth."
+        },
+        {
+          "topic": "Local Infrastructure",
+          "value": "Delivers federal funding for light rail, transportation projects and union jobs to improve everyday life",
+          "snippet": "From light rail to transportation projects and union jobs, Doris delivers federal funding that improves everyday life here at home."
+        }
+      ],
+      "platform_source_url": "https://matsuiforcongress.com/",
+      "_platform_resolved_at": "2026-08-15T10:58:51.025Z",
+      "campaign_site_url": "https://www.matsuiforcongress.com",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "platform_video_tier": null,
+      "_platform_video_resolved_at": null,
+      "bio_summary": {
+        "value": "For over two decades, she has focused on delivering real results for our region — bringing billions of federal dollars home to protect families from flooding, expand access to healthcare, invest in clean energy jobs, and modernize our region’s infrastructure.",
+        "source_url": "https://matsuiforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:20:58.619Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 249,
+          "votesCast": 249,
+          "attendanceRate": 1
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 294,
+        "bills_cosponsored": 4494,
+        "bills_became_law": 6,
+        "enacted_laws": [
+          {
+            "title": "Providing for the appointment of Barbara Barrett as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "congress": 117,
+            "billType": "HJRES",
+            "billNumber": "27",
+            "publicLawNumber": "117-19",
+            "summary": "This joint resolution appoints Barbara M. Barrett as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ19"
+          },
+          {
+            "title": "TRANSPLANT Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "941",
+            "publicLawNumber": "117-15",
+            "summary": "Timely ReAuthorization of Necessary Stem-cell Programs Lends Access to Needed Therapies Act of 2021 or the TRANSPLANT Act of 2021 This bill modifies and reauthorizes through FY2026 the C.W. Bill Young Cell Transplantation Program, which provides support to patients who need a potentially life-saving bone marrow transplant or umbilical cord blood transplant. The bill also requires the Department of Health and Human Services to conduct a periodic review of the science of using adult stem cells and birthing tissues in therapeutic treatments. In addition, the Government Accountability Office must report on the regenerative medicine workforce.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ15"
+          },
+          {
+            "title": "Providing for the reappointment of Michael M. Lynton as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "congress": 116,
+            "billType": "HJRES",
+            "billNumber": "87",
+            "publicLawNumber": "116-162",
+            "summary": "This joint resolution reappoints Michael M. Lynton as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ162"
+          },
+          {
+            "title": "Providing for the appointment of Franklin D. Raines as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "congress": 116,
+            "billType": "HJRES",
+            "billNumber": "88",
+            "publicLawNumber": "116-163",
+            "summary": "This joint resolution appoints Franklin D. Raines as a citizen regent of the Board of Regents of the Smithsonian Institution.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ163"
+          },
+          {
+            "title": "Requesting the Secretary of the Interior to authorize unique and one-time arrangements for displays on the National Mall and the Washington Monument during the period beginning on July 16, 2019 and ending on July 20, 2019.",
+            "congress": 116,
+            "billType": "HJRES",
+            "billNumber": "60",
+            "publicLawNumber": "116-28",
+            "summary": "This joint resolution requests the Department of the Interior to authorize the unique display of National Aeronautics and Space Administration (NASA) and Smithsonian artifacts, digital content, film footage, and associated historic audio and imagery in the vicinity of the National Mall, including projections onto the surface of the Washington Monument for five nights of public display beginning on July 16, 2019.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-116publ28"
+          },
+          {
+            "title": "Cruise Vessel Security and Safety Act of 2010",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "3360",
+            "publicLawNumber": "111-207",
+            "summary": "(This measure has not been amended since it was passed by the Senate on June 10, 2010. The summary of that version is repeated here.) Cruise Vessel Security and Safety Act of 2010 - (Sec. 3) Delineates passenger vessel security and safety requirements concerning: (1) vessel design, equipment, construction, and retrofitting; (2) video surveillance to monitor crime; (3) access to security guide; (4) posting of U.S. embassy locations; (5) maintenance of equipment, medications, and medical personnel for sexual assaults on board; (6) confidentiality of sexual assault information; (7) restrictions on crew access to passenger staterooms; and (8) log book entry and reporting of deaths, missing individuals, thefts, and other crimes. Prescribes civil and criminal penalties for persons who willfully violate such requirements. Directs the Secretary of the department in which the Coast Guard is operating to develop minimum training standards for the certification of passenger vessel security personnel, crew members, and law enforcement officials on methods for the prevention, detection, evidence preservation, and reporting of criminal activities in the international maritime environment. Prohibits a vessel carrying U.S. citizens from entering a U.S. port unless there is at least one crew member on board who has met such training and certification requirements. Subjects persons who violate such requirements to certain civil penalties. (Sec. 4) Repeals certain maritime reporting requirements. Requires the Secretary of the department in which the Coast Guard (CG) is operating to combine into a single annual report for FY2010 and thereafter the separate reports of the CG concerning: (1) its annual fisheries enforcement plans; and (2) steps it will take to improve significantly the detection and interdiction of illegal incursions by foreign fishing vessels into the U.S. exclusive economic zone.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ207"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": -0.433,
+          "nominateDim2": -0.15,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/M001163"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 56.9,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/M001163"
+        }
+      },
+      "_curated_match": false,
+      "_campaign_site_reachability": "blocked_other"
+    },
+    {
+      "slug": "mai-vang",
+      "full_name": "VANG, MAI",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6CA07175",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1086084.32,
+        "totalSpent": 980548.31,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 248454.77,
+          "largeDollar": 776917.48,
+          "pac": 53827.31,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1985",
+          "source_url": "https://www.wikidata.org/wiki/Q138199857",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Sacramento",
+          "source_url": "https://www.maiforus.com/",
+          "snippet": "Born and Raised in Sacramento, Mai Vang knows the struggles of working families.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://www.maiforus.com/",
+          "snippet": "Her and her husband make hard choices every day to balance the check book.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "teacher, City Council member",
+          "source_url": "https://www.maiforus.com/",
+          "snippet": "As a teacher, a working mom, and a City Council member , I fight for the people that politicians ignore.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "high_school": {
+          "value": "Sacramento High School (2003)",
+          "source_url": "https://www.ballotready.org/people/mai-vang",
+          "snippet": "High School Diploma, Sacramento High School (2003)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "Co-founded Hmong Innovating Politics in 2013",
+          "source_url": "https://en.wikipedia.org/wiki/Mai_Vang",
+          "snippet": "In 2013, Vang co-founded Hmong Innovating Politics to organize the South Sacramento Hmong community, register voters, and mobilize residents and parents against school closures",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "college": {
+          "value": "Bachelor's, University of San Francisco, Biology and Sociology (2008); Master's, University of California Los Angeles, Public Health (2011)",
+          "source_url": "https://www.ballotready.org/people/mai-vang",
+          "snippet": "Degrees Master's, University of California Los Angeles, Public Health (2011) Bachelor's, University of San Francisco, Biology and Sociology (2008)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Housing",
+          "value": "Make housing a human right by building more affordable homes, supporting first time home buyers, stopping rent hikes and neglect, and investing federal dollars in keeping families safely housed",
+          "snippet": "Mai will fight to make housing a human right by building more affordable homes, supporting first time home buyers, stopping rent hikes and neglect, and investing federal dollars in keeping families safely housed."
+        },
+        {
+          "topic": "Education",
+          "value": "Protect public schools, forgive student debt, and support tuition-free higher education",
+          "snippet": "Mai will fight to protect public schools, forgive student debt, and support tuition-free higher education."
+        },
+        {
+          "topic": "Child Care and Family Leave",
+          "value": "Champion expanded child care and paid family leave",
+          "snippet": "As a parent, she will champion expanded child care and paid family leave."
+        },
+        {
+          "topic": "Labor and Wages",
+          "value": "Fight for jobs that pay a living wage, stronger unions, and fair workplaces so that every family can earn a good living and corporations are held accountable to our families",
+          "snippet": "Mai will fight for jobs that pay a living wage, stronger unions, and fair workplaces so that every family can earn a good living and corporations are held accountable to our families."
+        },
+        {
+          "topic": "Gaza and Foreign Policy",
+          "value": "End the genocide in Gaza, reject AIPAC money, and invest our tax dollars in health care, housing, and jobs at home—not endless wars abroad",
+          "snippet": "Mai will fight to end the genocide in Gaza, reject AIPAC money, and invest our tax dollars in health care, housing, and jobs at home—not endless wars abroad."
+        },
+        {
+          "topic": "Immigration and ICE",
+          "value": "Free our neighborhoods from the terror of masked ICE agents and militarized law enforcement, fix our broken immigration system and protect our freedoms",
+          "snippet": "Mai will fight to free our neighborhoods from the terror of masked ICE agents and militarized law enforcement. She will work to fix our broken immigration system and protect our freedoms."
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Reject donations from corporate PACs and never take contributions from companies that do business with ICE",
+          "snippet": "Mai rejects donations from corporate PACs and would never take contributions from companies that do business with ICE"
+        }
+      ],
+      "platform_source_url": "https://www.maiforus.com/",
+      "_platform_resolved_at": "2026-08-15T10:58:46.175Z",
+      "campaign_site_url": "https://www.maiforus.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=ionoBxijVqs",
+      "platform_video_title": "We need fighters who don't take money from ICE contractors to stand up for our community.",
+      "platform_video_source_url": "https://www.maiforus.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-18T22:07:25.213Z",
+      "bio_summary": {
+        "value": "I’m the daughter of Hmong refugees, one of 16 children raised right here in Sacramento on programs like SNAP and Medicaid. I’ve been taking care of people I love my entire life — so I know the struggle of working families because I live it everyday. As a teacher, a working mom, and a City Council member , I fight for the people that politicians ignore.",
+        "source_url": "https://www.maiforus.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:21:01.194Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075632.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": true
+      },
+      "_financial_disclosure_resolved_at": "2026-08-17T06:33:08.781Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
