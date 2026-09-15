@@ -22,34 +22,23 @@ function parseSenateKey(key) {
   return m ? m[1] : null;
 }
 
-// The app's own URL scheme (buildAppUrl/parseAppUrl in src/App.jsx) treats
-// a URL with no &district= as invalid and refuses to deep-link at all --
-// true even for a Senate race, which has no district of its own. Rather
-// than change that shared parsing logic on the strength of a sitemap
-// generator's needs, a Senate race's sitemap URL borrows that same state's
-// own House district so the link is genuinely functional. A state with no
-// House race built yet has nothing to borrow, so its Senate race is left
-// out of the sitemap rather than pointed at a guessed district number --
-// the same "no source, no field" standard the rest of this site holds to.
+// Clean paths -- /tx/senate, /nc/house-4 -- matching what
+// functions/[state]/[race].js serves real per-race HTML at, and what
+// parsePathUrl/buildAppUrl in src/App.jsx recognize client-side. A Senate
+// race genuinely has no district of its own here, unlike the old
+// query-param scheme this replaced (which required borrowing one from the
+// same state's House race just to produce a URL the app would accept).
 function buildUrls(raceKeys) {
-  const houseDistrictByState = new Map();
   const urls = [];
-
   for (const key of raceKeys) {
     const house = parseHouseKey(key);
-    if (!house) continue;
-    urls.push(`${SITE_URL}/?state=${house.state}&district=${house.district}&chamber=house`);
-    if (!houseDistrictByState.has(house.state)) houseDistrictByState.set(house.state, house.district);
-  }
-
-  for (const key of raceKeys) {
+    if (house) {
+      urls.push(`${SITE_URL}/${house.state.toLowerCase()}/house-${house.district.toLowerCase()}`);
+      continue;
+    }
     const state = parseSenateKey(key);
-    if (!state) continue;
-    const district = houseDistrictByState.get(state);
-    if (!district) continue;
-    urls.push(`${SITE_URL}/?state=${state}&district=${district}&chamber=senate`);
+    if (state) urls.push(`${SITE_URL}/${state.toLowerCase()}/senate`);
   }
-
   return urls;
 }
 

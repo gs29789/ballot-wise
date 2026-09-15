@@ -306,20 +306,45 @@ function findPendingMatch(pendingRaces, stusab, districtCode, chamber) {
 // the home screen instead of the candidate page the user was just on. These
 // two helpers turn {stusab, districtCode, chamber, profile} into a URL and
 // back, so every real navigation step can get a genuine history entry.
+//
+// Clean, crawlable path for a race -- /tx/senate, /nc/house-4 -- matching
+// what web/functions/[state]/[race].js serves real HTML at (see that
+// file's own comment for why a Cloudflare Pages Function renders these
+// instead of anything built into this SPA). A Senate race has no district
+// of its own, hence the two distinct shapes rather than always appending
+// one.
 function buildAppUrl({ stusab, districtCode, chamber, profile } = {}) {
-  if (!stusab || !districtCode) return "/";
-  const params = new URLSearchParams({ state: stusab, district: districtCode });
-  if (chamber) params.set("chamber", chamber);
-  if (profile) params.set("profile", profile);
-  return `/?${params.toString()}`;
+  if (!stusab || (!districtCode && chamber !== "senate")) return "/";
+  const base = chamber === "senate" ? `/${stusab.toLowerCase()}/senate` : `/${stusab.toLowerCase()}/house-${String(districtCode).toLowerCase()}`;
+  return profile ? `${base}?${new URLSearchParams({ profile }).toString()}` : base;
 }
 
-function parseAppUrl(search) {
+// district is a bare number (never zero-padded) or "al" -- lowercase in the
+// URL, matching buildAppUrl's own output; parseHouseKey-style code
+// elsewhere in this project uppercases "AL" specifically, not the whole
+// segment, since state names stay lowercase in the URL by convention here.
+function parsePathUrl(pathname) {
+  const senate = pathname.match(/^\/([a-z]{2})\/senate\/?$/i);
+  if (senate) return { stusab: senate[1].toUpperCase(), chamber: "senate" };
+  const house = pathname.match(/^\/([a-z]{2})\/house-(al|[1-9]\d*)\/?$/i);
+  if (house) return { stusab: house[1].toUpperCase(), districtCode: house[2].toUpperCase() === "AL" ? "AL" : house[2], chamber: "house" };
+  return null;
+}
+
+// Tries the clean path form first, then falls back to the original
+// query-string form (?state=..&district=..&chamber=..) so a link already
+// shared or bookmarked before path-based URLs existed keeps working.
+function parseAppUrl(pathname, search) {
   const params = new URLSearchParams(search);
+  const profile = params.get("profile") || null;
+  const fromPath = parsePathUrl(pathname);
+  if (fromPath) return { ...fromPath, profile };
+
   const stusab = params.get("state");
-  const districtCode = params.get("district");
-  if (!stusab || !districtCode) return null;
-  return { stusab, districtCode, chamber: params.get("chamber") || undefined, profile: params.get("profile") || null };
+  const chamber = params.get("chamber") || undefined;
+  const districtCode = params.get("district") || undefined;
+  if (!stusab || (!districtCode && chamber !== "senate")) return null;
+  return { stusab, districtCode, chamber, profile };
 }
 
 // bio_summary can come from the candidate's own campaign site (their own
@@ -1013,7 +1038,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.successSoft, border: `1px solid ${T.success}`, borderRadius: 6, padding: "12px 14px", marginBottom: 14 }}>
         <CheckCircle2 size={18} color={T.success} style={{ flexShrink: 0, marginTop: 1 }} />
         <div style={{ fontSize: 12.5, color: T.inkSoft }}>
-          {geo.stateName} · {geo.districtLabel}
+          {geo.stateName}{geo.districtLabel ? ` · ${geo.districtLabel}` : ""}
           {race?.election_dates && (
             <span> —{" "}
               {!race.primary_results && (
@@ -2537,7 +2562,7 @@ export default function App() {
   // for the same district instead of re-fetching, so pressing back to close
   // a profile is instant rather than a network round trip.
   const restoreFromUrl = async () => {
-    const parsed = parseAppUrl(window.location.search);
+    const parsed = parseAppUrl(window.location.pathname, window.location.search);
     if (!parsed) {
       setStatus("idle");
       setProfileSlug(null);
@@ -2557,7 +2582,7 @@ export default function App() {
           stusab: parsed.stusab,
           stateName: STATE_NAMES[parsed.stusab] ?? parsed.stusab,
           districtCode: parsed.districtCode,
-          districtLabel: parsed.districtCode === "AL" ? "At-Large" : `District ${parsed.districtCode}`,
+          districtLabel: parsed.districtCode === "AL" ? "At-Large" : parsed.districtCode ? `District ${parsed.districtCode}` : undefined,
         },
         { push: false, chamber: parsed.chamber, profileSlug: parsed.profile }
       );
@@ -2569,7 +2594,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (parseAppUrl(window.location.search)) restoreFromUrl();
+    if (parseAppUrl(window.location.pathname, window.location.search)) restoreFromUrl();
     // Deliberately mount-only: this restores from whatever URL the page was
     // loaded with, once.
     // eslint-disable-next-line react-hooks/exhaustive-deps
