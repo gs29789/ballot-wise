@@ -183,9 +183,18 @@ function renderPage({ stusab, chamber, district, race, canonical, scriptSrc }) {
 `;
 }
 
-export async function onRequestGet({ params, request }) {
+export async function onRequestGet({ params, request, next }) {
   const parsed = parseRaceParam(params.state, params.race);
-  if (!parsed) return new Response("Not found", { status: 404 });
+  // Any two-segment path this function doesn't recognize as a real
+  // state/race pair -- most importantly /assets/<hashed-file>.js, which
+  // structurally fits :state/:race exactly like a real candidate route
+  // does -- must fall through to Cloudflare's static-asset serving via
+  // next(), not return a 404 Response directly. A direct 404 here is
+  // terminal: it swallows the request before Pages ever gets to check
+  // whether a real static file exists at that path, which is what broke
+  // the production JS bundle (and would break any other top-level static
+  // asset) the moment this function was deployed.
+  if (!parsed) return next();
 
   const { stusab, chamber, district } = parsed;
   const key = chamber === "house" ? `house/${stusab}-${district}.json` : `senate/${stusab}.json`;
