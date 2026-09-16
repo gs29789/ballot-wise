@@ -1,0 +1,845 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-09",
+  "generated_at": "2026-08-17T00:42:23.104Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_9th_Congressional_District_election,_2026",
+    "snippet": "Incumbent H. Morgan Griffith, Joy Powers, and Michael Jackson are running in the general election for U.S. House Virginia District 9 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.44
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.44
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989449392.83,
+        "perCapitaUsd": 41524.68
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "h-griffith",
+      "full_name": "GRIFFITH, H MORGAN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H0VA09055",
+      "fec_status": "C",
+      "bioguide_id": "G000568",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1828838.6,
+        "totalSpent": 1318860.55,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 18254.84,
+          "largeDollar": 531185.55,
+          "pac": 1224588.55,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Salem",
+          "source_url": "https://www.morgangriffithforcongress.com/",
+          "snippet": "Growing up in Salem, Morgan Griffith was raised with traditional Southwest Virginia values",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "US House of Representatives, Representative - Virginia 9th Congressional District (2010 - Present); Virginia House of Delegates, State Delegate (1994 - 2011); Private Law Practice Attorney",
+          "source_url": "https://www.ballotready.org/people/h-morgan-griffith",
+          "snippet": "US House of Representatives, Representative - Virginia 9th Congressional District (2010 - Present) Virginia House of Delegates, State Delegate (1994 - 2011) Private Law Practice Attorney",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "date_of_birth": {
+          "value": "1958-03-15",
+          "source_url": "https://www.wikidata.org/wiki/Q1684857",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Emory & Henry University",
+          "source_url": "https://www.wikidata.org/wiki/Q1684857",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Andrew Lewis High School",
+          "source_url": "https://en.wikipedia.org/wiki/Morgan_Griffith",
+          "snippet": "He graduated from Andrew Lewis High School in 1976",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to Hilary Davis",
+          "source_url": "https://en.wikipedia.org/wiki/Morgan_Griffith",
+          "snippet": "Spouse Hilary Davis",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Chair of the Salem Republican Party from 1986 to 1988 and from 1991 to 1994",
+          "source_url": "https://en.wikipedia.org/wiki/Morgan_Griffith",
+          "snippet": "Griffith's first entry into electoral politics came in 1986, when he was chosen as chair of the Salem Republican Party. He chaired the party from 1986 to 1988 and from 1991 to 1994.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Second Amendment",
+          "value": "Defends the 2nd Amendment",
+          "snippet": "makes no apology for defending the 2nd Amendment"
+        },
+        {
+          "topic": "Abortion/Right to Life",
+          "value": "Supports the right to life",
+          "snippet": "makes no apology for defending the 2nd Amendment or the right to life"
+        },
+        {
+          "topic": "Environmental Regulations",
+          "value": "Opposes EPA and job-killing regulations",
+          "snippet": "standing up to the Environmental Protection Agency and job-killing regulations"
+        }
+      ],
+      "platform_source_url": "https://www.morgangriffithforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T12:49:52.755Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Rules",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Environment",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Communications and Technology",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Energy and Commerce — Health",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Rules — Rules and Organization of the House",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Subcommittee to Investigate the Remaining Questions Surrounding January 6, 2021",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 218,
+        "bills_cosponsored": 1243,
+        "bills_became_law": 5,
+        "enacted_laws": [
+          {
+            "title": "To authorize the President to award the Medal of Honor to John W. Ripley for acts of valor during the Vietnam War, and for other purposes.",
+            "congress": 119,
+            "billType": "HR",
+            "billNumber": "7211",
+            "publicLawNumber": "119-81",
+            "summary": "This bill authorizes the President to award the Medal of Honor to John W. Ripley for his acts of valor on April 2, 1972, as a member of the Marine Corps during the Vietnam War, for which he was previously awarded the Navy Cross.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ81"
+          },
+          {
+            "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the Environmental Protection Agency relating to \"National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing\".",
+            "congress": 119,
+            "billType": "HJRES",
+            "billNumber": "61",
+            "publicLawNumber": "119-14",
+            "summary": "This joint resolution removes emission regulations on hazardous air pollutants under the rubber tire manufacturing source category, specifically from the rubber processing subcategory. The joint resolution nullifies the Environmental Protection Agency (EPA) rule titled National Emission Standards for Hazardous Air Pollutants: Rubber Tire Manufacturing , which addresses the decision in Louisiana Environmental Action Network v. EPA (D.C. Cir. 2020) that requires the EPA to address unregulated emissions from a major source category when it conducts the 8-year technology review. The rule implemented emissions standards for the rubber processing subcategory.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ14"
+          },
+          {
+            "title": "Ensuring Compliance Against Drug Diversion Act of 2021",
+            "congress": 117,
+            "billType": "HR",
+            "billNumber": "1899",
+            "publicLawNumber": "117-53",
+            "summary": "Ensuring Compliance Against Drug Diversion Act of 2021 This bill provides statutory authority for certain regulations governing the modification, transfer, and termination of a registration to manufacture, distribute, or dispense controlled substances. It terminates the registration of individuals and entities when they die, cease legal existence, discontinue business, or surrender such registration. It sets forth notification requirements, as well as conditions for transferring or assigning a registration.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-117publ53"
+          },
+          {
+            "title": "To extend the deadline for commencement of construction of a hydroelectric project.",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "447",
+            "publicLawNumber": "115-203",
+            "summary": "(Sec. 1) This bill authorizes the Federal Energy Regulatory Commission (FERC), upon request, to extend for up to six years the time period during which construction must commence on the Flannagan Dam and Reservoir Hydroelectric Project located in Dickenson County, Virginia. Additionally, FERC may reinstate the construction license if it is expired.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ203"
+          },
+          {
+            "title": "To extend the deadline for commencement of construction of a hydroelectric project.",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "446",
+            "publicLawNumber": "115-202",
+            "summary": "(Sec. 1) This bill authorizes the Federal Energy Regulatory Commission (FERC), upon request, to extend for up to six years the time period during which construction must commence on the Gathright Hydroelectric Project located in Alleghany County, Virginia. Additionally, FERC may reinstate the construction license if it is expired.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ202"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.51,
+          "nominateDim2": -0.33,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/G000568"
+        },
+        "bridge_score": {
+          "grade": "B",
+          "score": 56.7,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/G000568"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Growing up in Salem, Morgan Griffith was raised with traditional Southwest Virginia values–hard work, belief in God, and the importance of serving your neighbors. Morgan has dedicated his life to serving Southwest Virginia by protecting our Constitutional freedoms and fighting for our conservative family values.",
+        "source_url": "https://www.morgangriffithforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:53.673Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:32.343Z",
+      "campaign_site_url": "https://www.morgangriffithforcongress.com",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:28.023Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "michael-jackson",
+      "full_name": "JACKSON, MICHAEL PAUL",
+      "party": "INDEPENDENT",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA09151",
+      "fec_status": "N",
+      "bioguide_id": null,
+      "financials": null,
+      "bio": {
+        "high_school": {
+          "value": "Grayson County High School",
+          "source_url": "https://ballotpedia.org/Michael_Jackson_(Virginia_congressional_candidate)",
+          "snippet": "Michael Jackson graduated from Grayson County High School."
+        },
+        "college": {
+          "value": "Graduate degree, Liberty University (2020)",
+          "source_url": "https://ballotpedia.org/Michael_Jackson_(Virginia_congressional_candidate)",
+          "snippet": "He earned a graduate degree from Liberty University in 2020."
+        },
+        "employment_record": {
+          "value": "Mental health professional",
+          "source_url": "https://ballotpedia.org/Michael_Jackson_(Virginia_congressional_candidate)",
+          "snippet": "His career experience includes working as a mental health professional."
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "_tier2_search_attempted_at": "2026-08-24T12:00:32.929Z",
+      "campaign_site_url": "https://www.michaeljacksonva09.com/",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:28.030Z",
+      "_campaign_site_reachability": "blocked_other"
+    },
+    {
+      "slug": "joy-powers",
+      "full_name": "POWERS, JOY",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA09136",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 85335.47,
+        "totalSpent": 71394.86,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 17512.11,
+          "largeDollar": 65232.83,
+          "pac": 3.07,
+          "party": 0,
+          "selfFunded": 2587.46
+        }
+      },
+      "bio": {
+        "employment_record": {
+          "value": "Rancher and small business owner",
+          "source_url": "https://ballotpedia.org/Joy_Powers",
+          "snippet": "She is a rancher and a small business owner."
+        },
+        "civic_affiliations": {
+          "value": "Virginia FFA; Virginia 4-H; Chamblissburg Ruritans; Virginia Simmental Association; Virginia Farm Bureau; Bedford County Fair (superintendent); Bedford County Agricultural Economic Development Advisory Board; Restore the Harvest (founder)",
+          "source_url": "https://ballotpedia.org/Joy_Powers",
+          "snippet": "She has been affiliated with the following organizations: Virginia FFA Virginia 4-H Chamblissburg Ruritans Virginia Simmental Association Virginia Farm Bureau Bedford County Fair, superintendent Bedford County Agricultural Economic Development Advisory Board Restore the Harvest, founder"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Rural Healthcare",
+          "value": "Protect rural hospitals, expand mental health and addiction treatment, and grow the healthcare workforce so every family can get quality care close to home",
+          "snippet": "Joy will protect rural hospitals, expand mental health and addiction treatment, and grow the healthcare workforce so every family can get quality care close to home."
+        },
+        {
+          "topic": "Jobs and Economic Development",
+          "value": "Bring new industries and small business investment to the Ninth District, rebuild infrastructure like roads and broadband, and make sure every community has a fair chance to thrive",
+          "snippet": "Joy will bring new industries and small business investment to the Ninth District, rebuild infrastructure like roads and broadband, and make sure every community has a fair chance to thrive."
+        },
+        {
+          "topic": "Cost of Living",
+          "value": "Lower costs by holding corporations accountable, building affordable homes, and ensuring working people can keep more of what they earn each month",
+          "snippet": "Joy will fight to lower costs by holding corporations accountable, building affordable homes, and ensuring working people can keep more of what they earn each month."
+        },
+        {
+          "topic": "Education",
+          "value": "Support teachers, modernize classrooms, and expand access to higher education and job training programs that prepare students for the good-paying jobs of tomorrow",
+          "snippet": "Joy will support teachers, modernize classrooms, and expand access to higher education and job training programs that prepare students for the good-paying jobs of tomorrow."
+        },
+        {
+          "topic": "Energy Costs",
+          "value": "Lower energy costs by taking on monopoly utilities",
+          "snippet": "Joy has taken on monopoly utilities to lower energy costs"
+        }
+      ],
+      "platform_source_url": "https://www.joyforva.com/",
+      "_platform_resolved_at": "2026-08-14T12:49:45.246Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true,
+      "bio_summary": {
+        "value": "Joy Powers is a fourth-generation cattle farmer, small business owner, and proud Bedford County mom running for Congress to give rural Virginia a real voice in Washington — one rooted in faith, family, and hard work. Raised in the foothills of the Blue Ridge Mountains, Joy learned early that neighbors look out for each other, your word means something, and hope is built through action, not empty promises.",
+        "source_url": "https://www.joyforva.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:51.955Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:33.234Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=9OcOHYW9HXM",
+      "platform_video_title": "Meet Joy Powers: Candidate for Congress in Virginia’s 9th District (Full Launch Speech)",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "_platform_video_resolved_at": "2026-08-24T12:00:33.234Z",
+      "campaign_site_url": "https://www.joyforva.com/",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:28.032Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
