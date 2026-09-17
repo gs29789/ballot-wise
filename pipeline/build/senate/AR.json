@@ -1,0 +1,914 @@
+{
+  "state": "AR",
+  "office": "S",
+  "cycle": 2026,
+  "race_slug": "senate",
+  "generated_at": "2026-08-18T19:54:10.597Z",
+  "election_dates": {
+    "primaryDate": "2026-03-03",
+    "primarySourceUrl": "https://www.sos.arkansas.gov/uploads/elections/2026_Election_Calendar_Rev._6-2025_.pdf",
+    "primarySnippet": "MARCH 3, 2026 Preferential Primary Election — Ark. Code § 7-7-203(b), Act 405 of 2025 (Arkansas Secretary of State's official 2026 Election Calendar).",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/ar/title-7-elections/ar-code-sect-7-5-102.html",
+    "generalSnippet": "Ark. Code § 7-5-102: On the Tuesday next after the first Monday in November in every even-numbered year, there shall be held an election in each precinct and ward in this state..."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Arkansas's constitutional felony bar applies only to the General Assembly and \"any office of trust or profit in this state\" by its own text, not federal office; separately, the U.S. Constitution's own qualifications for Congress (age, citizenship, residency) can't be added to by any state, so this doesn't reach U.S. House or Senate candidates either way",
+    "source_url": "https://codes.findlaw.com/ar/arkansas-constitution-of-1874/ar-const-art-5-sect-9.html",
+    "snippet": "Ark. Const. art. 5, § 9: \"No person convicted of embezzlement of public money, bribery, forgery, or other infamous crime is eligible to the General Assembly or capable of holding any office of trust or profit in this state.\" Congressional qualifications are set exclusively by the U.S. Constitution, confirmed per https://www.everycrsreport.com/reports/R41946.html: \"the Framers intended the Constitution to be the exclusive source of qualifications for Members of Congress, and that the Framers thereby 'divested' States of any power to add qualifications.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/United_States_Senate_election_in_Arkansas,_2026",
+    "snippet": "Incumbent Tom Cotton, Hallie Shoffner, and Jeff Wadlin are running in the general election for U.S. Senate Arkansas on November 3, 2026. Shoffner won a contested Democratic primary over Ethan Dunbar, March 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.1
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 4.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.8
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.7
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 58.67
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 47.26
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 50.17
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 41.87
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 40.88
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1343
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1345.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1344.7
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1344.2
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1345.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1345.9
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1344.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1341.9
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1339.7
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1339.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1340.7
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1339.8
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1338.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1339.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1339.5
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1337.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1336.7
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1334.6
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1335.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1335.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1333.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1333.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1331.7
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1330.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1328.8
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1326
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1324.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1326.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1322.5
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1318.2
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1319.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1315.2
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1314.3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1315.1
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1311.3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1310.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1314
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1309.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1306.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1306.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1303.5
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1304
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 5370384614.61,
+        "perCapitaUsd": 7128.49
+      },
+      {
+        "year": "2024",
+        "totalUsd": 4608441953,
+        "perCapitaUsd": 6012.5
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6050915213.76,
+        "perCapitaUsd": 8031.81
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3045637
+      },
+      {
+        "year": "2023",
+        "population": 3067732
+      },
+      {
+        "year": "2024",
+        "population": 3088354
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 55432
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 58700
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 62106
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "thomas-cotton",
+      "full_name": "COTTON, THOMAS",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "S4AR00103",
+      "fec_status": "C",
+      "bioguide_id": "C001095",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 6233116.56,
+        "totalSpent": 3752101.46,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 552196.55,
+          "largeDollar": 2621967.92,
+          "pac": 1129500,
+          "party": 62000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1977-05-13",
+          "source_url": "https://www.wikidata.org/wiki/Q3090307",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Dardanelle, Arkansas",
+          "source_url": "https://www.wikidata.org/wiki/Q3090307",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Harvard College",
+          "source_url": "https://www.wikidata.org/wiki/Q3090307",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Dardanelle High School",
+          "source_url": "https://tomcotton.com/",
+          "snippet": "He graduated from Dardanelle High School",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "Army Infantry Officer with combat tours in Iraq and Afghanistan, with the 101st Airborne and at Arlington National Cemetery; U.S. Senator",
+          "source_url": "https://tomcotton.com/",
+          "snippet": "After 9/11, Tom joined the Army as an Infantry Officer and served combat tours in Iraq and Afghanistan, with the 101st Airborne and at Arlington National Cemetery. His decorations include the Bronze Star Medal, Combat Infantry Badge, and Ranger Tab. 6th Generation Arkansan Chairman Senate Intelligence Committee",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "Married to Anna Peckham in 2014",
+          "source_url": "https://en.wikipedia.org/wiki/Tom_Cotton",
+          "snippet": "Spouse Anna Peckham ​ ( married&lt;/span>\"}]]}'>m. 2014 ) ​ Children 2",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Claremont Institute Publius Fellow in 1997",
+          "source_url": "https://en.wikipedia.org/wiki/Tom_Cotton",
+          "snippet": "He was a Claremont Institute Publius Fellow in 1997.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration/Border Security",
+          "value": "Authored the RAISE Act, helped pass the Laken Riley Act to deport criminal illegals, and worked with President Trump to secure the border.",
+          "snippet": "Authored the RAISE Act, helped pass the Laken Riley Act to deport criminal illegals, and worked with President Trump to secure the border."
+        },
+        {
+          "topic": "Taxes",
+          "value": "Decisive vote to pass the largest middle-class tax cut in history.",
+          "snippet": "Decisive vote to pass the largest middle-class tax cut in history."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Cotton ended the Obamacare tax on Arkansans and helped lower energy costs and healthcare costs.",
+          "snippet": "Cotton ended the Obamacare tax on Arkansans and helped lower energy costs and healthcare costs."
+        },
+        {
+          "topic": "Defense Industry Investment",
+          "value": "Cotton used his position on the Armed Services Committee and his relationship with President Trump to deliver BILLIONS in defense investments, from Pine Bluff, Fort Ebbing, Little Rock, and more.",
+          "snippet": "Cotton used his position on the Armed Services Committee and his relationship with President Trump to deliver BILLIONS in defense investments, from Pine Bluff, Fort Ebbing, Little Rock, and more."
+        },
+        {
+          "topic": "Law Enforcement",
+          "value": "Backs the Blue 100% of the time. Helped stop legislation that would have freed violent criminals in Arkansas.",
+          "snippet": "Backs the Blue 100% of the time. Helped stop legislation that would have freed violent criminals in Arkansas."
+        }
+      ],
+      "platform_source_url": "https://tomcotton.com/",
+      "_platform_resolved_at": "2026-08-12T18:57:10.496Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=Y3s9Es8atbs",
+      "platform_video_title": "April 23, 2026: Tom Cotton Joins Hannity",
+      "platform_video_source_url": "https://tomcotton.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:02:14.279Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "voteNumber": 231,
+          "congress": 119,
+          "session": 2,
+          "question": "On Cloture on the Motion to Proceed",
+          "title": "A bill to amend the Help America Vote Act of 2002 to require voters to provide photo identification.",
+          "date": "August 8, 2026,  04:36 AM",
+          "result": "Cloture on the Motion to Proceed Rejected",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00231.htm"
+        },
+        {
+          "voteNumber": 230,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Nomination",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  04:17 AM",
+          "result": "Nomination Confirmed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00230.htm"
+        },
+        {
+          "voteNumber": 229,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Cloture Motion",
+          "title": "Todd Blanche, of Florida, to be Attorney General",
+          "date": "August 8, 2026,  03:59 AM",
+          "result": "Cloture Motion Agreed to",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00229.htm"
+        },
+        {
+          "voteNumber": 228,
+          "congress": 119,
+          "session": 2,
+          "question": "On Passage of the Bill",
+          "title": "An act making continuing appropriations and extensions for fiscal year 2027, and for other purposes.",
+          "date": "August 8, 2026,  03:37 AM",
+          "result": "Bill Passed",
+          "position": "Yea",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00228.htm"
+        },
+        {
+          "voteNumber": 227,
+          "congress": 119,
+          "session": 2,
+          "question": "On the Motion to Table",
+          "title": "To strike section 2019.",
+          "date": "August 8, 2026,  02:36 AM",
+          "result": "Motion to Table Agreed to",
+          "position": "Not Voting",
+          "sourceUrl": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00227.htm"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 231,
+          "votesCast": 228,
+          "attendanceRate": 0.987012987012987
+        },
+        "committees": [
+          {
+            "committee": "Senate Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Airland",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Cybersecurity",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Emerging Threats and Capabilities",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Armed Services — Strategic Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources — Energy",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Committee on Energy and Natural Resources — Public Lands, Forests, and Mining",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Joint Economic Committee",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Senate Select Committee on Intelligence",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 578,
+        "bills_cosponsored": 1959,
+        "bills_became_law": 2,
+        "enacted_laws": [
+          {
+            "title": "A bill to amend the FISA Amendments Act of 2008 to extend the authorities of title VII of the Foreign Intelligence Surveillance Act of 1978, and for other purposes.",
+            "congress": 119,
+            "billType": "S",
+            "billNumber": "4465",
+            "publicLawNumber": "119-87",
+            "summary": "This&nbsp;act extends the authorities of Title VII of the Foreign Intelligence Surveillance Act (FISA) until June 12, 2026. Title VII of&nbsp;FISA generally addresses electronic surveillance and other methods of acquiring foreign intelligence information that are directed at targets outside the United States. Title VII includes surveillance under&nbsp;Section 702, which concerns acquiring communications of non-U.S. persons believed to be outside the United States to obtain foreign intelligence information. Information about U.S. persons may incidentally be acquired by this type of surveillance and subsequently queried (searched)&nbsp;under certain circumstances. For additional information see CRS In Focus, IF11451 Foreign Intelligence Surveillance Act (FISA) ; and CRS Report, R48592 FISA Section 702 and the 2024 Reforming Intelligence and Securing America Act .",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-119publ87"
+          },
+          {
+            "title": "Charles Duncan Buried with Honor Act of 2016",
+            "congress": 114,
+            "billType": "S",
+            "billNumber": "3076",
+            "publicLawNumber": "114-273",
+            "summary": "(This measure has not been amended since it was passed by the Senate on September 20, 2016. The summary of that version is repeated here.) Charles Duncan Buried with Honor Act of 2016 (Sec. 2) This bill authorizes the Department of Veterans Affairs (VA), if it is unable to identify a deceased veteran's next of kin and if it determines that sufficient resources for the furnishing of a casket or urn for the burial of such veteran are not otherwise available, to furnish a casket or urn for the burial of such veteran in a national cemetery (current law) or in a veterans cemetery of a state or tribal organization for which the VA has provided a grant for the establishment, expansion, and improvement of veterans' cemeteries.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-114publ273"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.577,
+          "nominateDim2": 0.201,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/C001095"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 17.2,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/C001095"
+        }
+      },
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Tom Cotton was born and raised on his family’s cattle farm in Yell County, Arkansas. He graduated from Dardanelle High School before going to Harvard and Harvard Law School. After 9/11, Tom joined the Army as an Infantry Officer and served combat tours in Iraq and Afghanistan, with the 101st Airborne and at Arlington National Cemetery. His decorations include the Bronze Star Medal, Combat Infantry Badge, and Ranger Tab.",
+        "source_url": "https://tomcotton.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:02.244Z",
+      "campaign_site_url": "https://www.tomcotton.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:52.267Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "hallie-shoffner",
+      "full_name": "SHOFFNER, HALLIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6AR00199",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2269113.78,
+        "totalSpent": 1405535.66,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 807602.77,
+          "largeDollar": 1440288.24,
+          "pac": 11010,
+          "party": 9050,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1987",
+          "source_url": "https://www.wikidata.org/wiki/Q135413853",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Newport High School",
+          "source_url": "https://www.wikidata.org/wiki/Q135413853",
+          "source_type": "wikidata_structured"
+        },
+        "employment_record": {
+          "value": "Delta Harvest, CEO (2024 - Present); SFR Seed, CEO (2019 - 2024); SFR Seed, Director of Administration & Research (2015 - 2019)",
+          "source_url": "https://www.ballotready.org/people/hallie-shoffner",
+          "snippet": "Professional Experience Delta Harvest, CEO (2024 - Present) SFR Seed, CEO (2019 - 2024) SFR Seed, Director of Administration & Research (2015 - 2019)",
+          "source_type": "llm_extracted_ballotready"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "_tier2_search_attempted_at": "2026-08-22T12:00:42.656Z",
+      "bio_summary": {
+        "value": "Hallie Shoffner, farmer and entrepreneur",
+        "source_url": "https://en.wikipedia.org/wiki/Hallie_Shoffner",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:31:14.128Z",
+      "campaign_site_url": "https://www.hallieforarkansas.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:52.260Z",
+      "_campaign_site_reachability": "dead"
+    },
+    {
+      "slug": "jeffrey-wadlin",
+      "full_name": "WADLIN, JEFFREY FRANCIS",
+      "party": "LIBERTARIAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "S6AR00223",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 28778,
+        "totalSpent": 20309.37,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 999,
+          "largeDollar": 6750,
+          "pac": 0,
+          "party": 0,
+          "selfFunded": 21029
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Richmond, Virginia",
+          "source_url": "https://www.jeffwadlin.com/about",
+          "snippet": "I was born in Richmond, Virginia",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "University of Virginia, studied aerospace and mechanical engineering; MBA from Northwestern",
+          "source_url": "https://www.jeffwadlin.com/about",
+          "snippet": "I studied aerospace and mechanical engineering at the University of Virginia, went to work for Caterpillar, earned an MBA from Northwestern",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Antitrust and Corporate Consolidation",
+          "value": "Enforce antitrust laws, challenge anti-competitive mergers, stop regulatory capture, and use structural remedies when necessary to address monopoly power in industries rolled up through acquisitions and consolidation",
+          "snippet": "Too many industries have been rolled up through acquisitions, private-equity consolidation, and vertical integration until a few dominant firms control suppliers, distribution, pricing, and access to customers. They then use monopoly power to raise prices, squeeze workers and farmers, suppress new competitors, and write regulations that protect incumbents. America has a proud history of trust-busting, and we should return to it. Government should enforce antitrust laws, challenge anti-competitive mergers, stop regulatory capture, and use structural remedies when necessary."
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Cover everyone by cutting total healthcare cost roughly in half over time through streamlining fragmented system and building a practical public-private partnership combining private delivery and consumer choice with universal access, clear rules, price discipline, and protection against catastrophic costs",
+          "snippet": "My goal is straightforward: cover everyone, which requires cutting the total cost of healthcare roughly in half over time. We will not get there by merely pumping more money into a broken system—shifting bills among taxpayers, employers, and families. We must streamline our fragmented system—private insurance, Medicare, Medicaid, the VA, and countless billing systems—and build a practical public-private partnership. Like regulated utilities or crop insurance, it should combine private delivery and consumer choice with universal access, clear rules, price discipline, and protection against catastrophic costs."
+        },
+        {
+          "topic": "Right to Repair",
+          "value": "Farmers should have the right to repair the equipment they own",
+          "snippet": "Farmers should have the right to repair the equipment they own."
+        }
+      ],
+      "platform_source_url": "https://www.jeffwadlin.com/issues",
+      "_platform_resolved_at": "2026-08-12T18:57:05.079Z",
+      "platform_video_url": null,
+      "platform_video_title": null,
+      "platform_video_source_url": null,
+      "_platform_video_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Jeff Wadlin isn't a Republican or a Democrat. He's not beholden to a party, a PAC, or a political tribe. He's running because someone has to bring sanity to national politics — and because Arkansans deserve a Senator who actually governs instead of performing political theater.",
+        "source_url": "https://www.jeffwadlin.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:48:04.198Z",
+      "_tier2_search_attempted_at": "2026-08-22T12:00:42.967Z",
+      "campaign_site_url": "https://jeffwadlin.com",
+      "_campaign_site_discovered_at": "2026-08-30T23:56:52.265Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}

@@ -1,0 +1,701 @@
+{
+  "state": "FL",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-02",
+  "generated_at": "2026-08-20T15:17:58.493Z",
+  "election_dates": {
+    "primaryDate": "2026-08-18",
+    "primarySourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.061",
+    "primarySnippet": "100.061 Primary election.—In each year in which a general election is held, a primary election for nomination of candidates of political parties shall be held on the Tuesday 11 weeks prior to the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.flsenate.gov/Laws/Statutes/2025/100.031",
+    "generalSnippet": "on the first Tuesday after the first Monday in November of each even-numbered year"
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Florida has a facially broad state constitutional disqualification, but it cannot reach a candidate for the U.S. House or Senate. Fla. Const. Art. VI, §4(a) bars anyone 'convicted of a felony' from being 'qualified to vote or hold office until restoration of civil rights or removal of disability' — text not expressly limited to state office. However, under the Qualifications Clauses (U.S. Const. Art. I, §2, cl.2 for the House; §3, cl.3 for the Senate) as construed in U.S. Term Limits, Inc. v. Thornton, 514 U.S. 779 (1995), states may not add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements, and each chamber alone judges its members' qualifications (Art. I, §5). Confirming this in practice: Florida's own 2024 Federal Qualifying Handbook (FL Division of Elections) lists only the three federal constitutional qualifications for U.S. House and Senate candidates (citizenship years, age, state inhabitancy) — no felony or background-check requirement appears anywhere in the federal candidate-qualifying chapters — and Fla. Stat. §99.012 ('Restrictions on individuals qualifying for public office') likewise contains no criminal-history provision and expressly exempts 'persons holding any federal office' from its concurrent-term resign-to-run rule. No FL statute or rule requires a background check as part of federal candidate qualifying.",
+    "source_url": "https://fl.elaws.us/constitution/articlevi_section4",
+    "snippet": "No person convicted of a felony, or adjudicated in this or any other state to be mentally incompetent, shall be qualified to vote or hold office until restoration of civil rights or removal of disability."
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Florida%27s_2nd_Congressional_District_election,_2026",
+    "snippet": "Amanda Green and Austin Rogers are running in the general election for U.S. House Florida District 2 on November 3, 2026. There are no incumbents in this race."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 4.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 4.7
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 4.6
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 4.5
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 4.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 4.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 4
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.8
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.8
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 17.7
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 155.74
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 87.79
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 71.16
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 55.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 10033.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 10022.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 10026.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 9992.4
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 9965.1
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 9967.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 9953.9
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 9947.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 9943
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 9985.6
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 9992.6
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 9996.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 10002.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 10013.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 10017.1
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 10015.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 10005.9
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 9995.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 9979.3
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 9974.4
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 9876.9
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 9986.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 9960.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 9945.1
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 9936.5
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 9932.1
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 9923.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 9913.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 9895.7
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 9884.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 9869.7
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 9853.6
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 9847.1
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 9823.6
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 9793.9
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 9779
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 9780.6
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 9741.5
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 9714.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 9688.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 9665.2
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 9646.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 9981986464.56,
+        "perCapitaUsd": 12659.25
+      },
+      {
+        "year": "2024",
+        "totalUsd": 303849090.57,
+        "perCapitaUsd": 392.64
+      },
+      {
+        "year": "2025",
+        "totalUsd": 542211703.63,
+        "perCapitaUsd": 700.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 22244823
+      },
+      {
+        "year": "2023",
+        "population": 22610726
+      },
+      {
+        "year": "2024",
+        "population": 23372215
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69303
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 73311
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77735
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "amanda-green",
+      "full_name": "GREEN, AMANDA MARIE",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL02299",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 348120.08,
+        "totalSpent": 320082.48,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 48853.76,
+          "largeDollar": 291518.85,
+          "pac": 6000,
+          "party": 0,
+          "selfFunded": 1439.55
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "San Diego (Balboa) Naval Hospital",
+          "source_url": "https://www.amgforcongress.com/about",
+          "snippet": "Born at San Diego (Balboa) Naval Hospital",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "college": {
+          "value": "Florida State University, where she studied economics, international affairs, emergency management, and public administration",
+          "source_url": "https://www.amgforcongress.com/about",
+          "snippet": "moved to the Big Bend region to attend Florida State University, where she studied economics, international affairs , emergency management , and public administration",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        },
+        "employment_record": {
+          "value": "recruited by the largest implementing partner for the U.S. Agency for International Development (USAID) in her first semester as a graduate student; served as an operations director and pricing expert over the past decade, supporting programs to help stop crises before they reach our borders; specialized in cutting waste while contracting with the U.S. government, working to ensure maximum program efficiency and the most efficient use of taxpayer dollars",
+          "source_url": "https://www.amgforcongress.com/about",
+          "snippet": "In her first semester as a graduate student, she was recruited by the largest implementing partner for the U.S. Agency for International Development (USAID), until it was dismantled by Elon Musk, an unelected billionaire, and DOGE, early last year. Over the past decade, she has served as an operations director and pricing expert, supporting programs to help stop crises before they reach our borders and keep the American people safe at home. Amanda specialized in cutting waste while contracting with the U.S. government, working to ensure maximum program efficiency and the most efficient use of taxpayer dollars",
+          "source_type": "llm_extracted_campaign_site_websearch"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Term Limits",
+          "value": "Will support term limits whenever clean bills come up",
+          "snippet": "support term limits whenever clean bills come up"
+        }
+      ],
+      "platform_source_url": "https://www.amgforcongress.com/",
+      "_platform_resolved_at": "2026-08-20T15:17:46.422Z",
+      "campaign_site_url": "https://www.amgforcongress.com/",
+      "platform_video_url": "https://www.youtube.com/watch?v=rlcC2RAebeU",
+      "platform_video_title": "Panhandle Politics: Amanda Marie Green",
+      "platform_video_source_url": "https://www.amgforcongress.com/media-statements",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:17:47.670Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10081391.pdf",
+        "filingDate": "7/27/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": false
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:17:51.068Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "North Florida deserves a true representative who shows up to answer our questions, listens to their constituents, and puts the people first. We need a Congress that doesn’t sell our future to the highest bidder. As your next Congresswoman, I promise I'll fight for you and your family's interests.",
+        "source_url": "https://www.amgforcongress.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:06.090Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "austin-rogers",
+      "full_name": "ROGERS, AUSTIN",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6FL02331",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 1010276.95,
+        "totalSpent": 623247.92,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 16933.98,
+          "largeDollar": 611497.9,
+          "pac": 6500,
+          "party": 0,
+          "selfFunded": 375000
+        }
+      },
+      "bio": {
+        "high_school": {
+          "value": "Mosley High School",
+          "source_url": "https://rogersforflorida.com/",
+          "snippet": "Austin graduated from Mosley High School and played college soccer before earning his law degree from Duke University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Duke University law degree",
+          "source_url": "https://rogersforflorida.com/",
+          "snippet": "Austin graduated from Mosley High School and played college soccer before earning his law degree from Duke University.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "married to Hala, a dermatologist",
+          "source_url": "https://rogersforflorida.com/",
+          "snippet": "Austin and his wife, Hala, a dermatologist, returned home to Panama City to raise their family. They live there with their three children.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "conservative attorney and former General Counsel to U.S. Senator Rick Scott",
+          "source_url": "https://rogersforflorida.com/",
+          "snippet": "Austin Rogers is a lifelong Panama City native, conservative attorney, and former General Counsel to U.S. Senator Rick Scott.",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Immigration/Border Security",
+          "value": "Secure the border",
+          "snippet": "Austin Rogers is running to secure the border"
+        },
+        {
+          "topic": "Law Enforcement and Military",
+          "value": "Back law enforcement and the military",
+          "snippet": "running to secure the border, defend Florida values, back law enforcement and the military, and put American families first"
+        },
+        {
+          "topic": "Eastern Shipbuilding",
+          "value": "Support Eastern Shipbuilding",
+          "snippet": "His work delivered real results for Northwest Florida, including supporting Eastern Shipbuilding"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Strengthen public safety efforts",
+          "snippet": "delivered real results for Northwest Florida, including supporting Eastern Shipbuilding, strengthening public safety efforts"
+        },
+        {
+          "topic": "Small Business/Fishermen",
+          "value": "Help local fishermen and small businesses navigate federal red tape",
+          "snippet": "helping local fishermen and small businesses navigate federal red tape"
+        }
+      ],
+      "platform_source_url": "https://rogersforflorida.com/",
+      "_platform_resolved_at": "2026-08-20T15:17:30.100Z",
+      "campaign_site_url": "https://rogersforflorida.com",
+      "platform_video_url": "https://www.youtube.com/watch?v=wgcnrA4OzYo",
+      "platform_video_title": "Trump has Proven Himself in Foreign Policy",
+      "platform_video_source_url": "https://rogersforflorida.com/",
+      "platform_video_tier": 1,
+      "_platform_video_resolved_at": "2026-08-20T15:17:30.623Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10075858.pdf",
+        "filingDate": "5/15/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": true,
+        "hasReportableLiabilities": true,
+        "hasReportablePositions": false,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-20T15:17:54.924Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Austin Rogers is a lifelong Panama City native, conservative attorney, and former General Counsel to U.S. Senator Rick Scott. Born and raised in Bay County, Austin is running for Congress in Florida’s 2nd Congressional District to be a strong, reliable vote for President Donald Trump’s America First agenda and to build a better future for his children.",
+        "source_url": "https://rogersforflorida.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:07:03.987Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
