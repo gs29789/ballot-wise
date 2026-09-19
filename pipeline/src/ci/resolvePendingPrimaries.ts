@@ -210,42 +210,56 @@ async function main() {
     let allRacesResolved = true;
     for (const race of races) {
       const label = raceLabel(race);
-      const candidates = await searchCandidates(race.state, race.office, race.cycle, race.office === "H" ? race.district : undefined);
-      const verdict = await researchRace(
-        label,
-        candidates.map((c) => ({ candidateId: c.candidateId, name: c.name, party: c.party }))
-      );
+      // Everything below -- the FEC lookup especially -- talks to a live
+      // API and can throw on a network hiccup or a non-JSON response (an
+      // error/gateway page instead of the expected body). One race's
+      // transient failure used to crash this whole script before any
+      // entry got attempted or flagged, silently costing every OTHER due
+      // entry its research pass for the day too. A caught failure here is
+      // just another form of "not confident enough" -- same stillPending
+      // channel as a genuine research non-answer -- so the run continues
+      // and tries again tomorrow, per this file's own stated design.
+      try {
+        const candidates = await searchCandidates(race.state, race.office, race.cycle, race.office === "H" ? race.district : undefined);
+        const verdict = await researchRace(
+          label,
+          candidates.map((c) => ({ candidateId: c.candidateId, name: c.name, party: c.party }))
+        );
 
-      const validIds = new Set(candidates.map((c) => c.candidateId));
-      const idsAreValid = verdict?.advancingCandidateIds?.length && verdict.advancingCandidateIds.every((id) => validIds.has(id));
+        const validIds = new Set(candidates.map((c) => c.candidateId));
+        const idsAreValid = verdict?.advancingCandidateIds?.length && verdict.advancingCandidateIds.every((id) => validIds.has(id));
 
-      if (!verdict || !verdict.unambiguous || !idsAreValid || !verdict.source_url || !verdict.snippet) {
+        if (!verdict || !verdict.unambiguous || !idsAreValid || !verdict.source_url || !verdict.snippet) {
+          allRacesResolved = false;
+          const reason = !verdict
+            ? "research call failed"
+            : verdict.unambiguous && !idsAreValid
+              ? `${verdict.reason} (discarded: model returned an id outside this race's known FEC candidates)`
+              : verdict.reason;
+          stillPending.push({ entryId: entry.id, label, reason });
+          continue;
+        }
+
+        autoResults[race.state] ??= {};
+        autoResults[race.state][race.raceSlug] = {
+          advancingCandidateIds: verdict.advancingCandidateIds!,
+          source_url: verdict.source_url,
+          snippet: verdict.snippet,
+          resolvedAt: new Date().toISOString(),
+        };
+        // Persisted immediately, not batched to the end -- a later race's
+        // failure in this same run shouldn't cost an earlier one's already-
+        // confirmed result.
+        saveAutoResults(autoResults);
+
+        const { flags } = await buildRace(race);
+        flags.forEach((f) => console.warn(`[resolvePendingPrimaries] ${f}`));
+
+        published.push({ entryId: entry.id, label, verdict });
+      } catch (err: any) {
         allRacesResolved = false;
-        const reason = !verdict
-          ? "research call failed"
-          : verdict.unambiguous && !idsAreValid
-            ? `${verdict.reason} (discarded: model returned an id outside this race's known FEC candidates)`
-            : verdict.reason;
-        stillPending.push({ entryId: entry.id, label, reason });
-        continue;
+        stillPending.push({ entryId: entry.id, label, reason: `unexpected error: ${err?.message ?? err}` });
       }
-
-      autoResults[race.state] ??= {};
-      autoResults[race.state][race.raceSlug] = {
-        advancingCandidateIds: verdict.advancingCandidateIds!,
-        source_url: verdict.source_url,
-        snippet: verdict.snippet,
-        resolvedAt: new Date().toISOString(),
-      };
-      // Persisted immediately, not batched to the end -- a later race's
-      // failure in this same run shouldn't cost an earlier one's already-
-      // confirmed result.
-      saveAutoResults(autoResults);
-
-      const { flags } = await buildRace(race);
-      flags.forEach((f) => console.warn(`[resolvePendingPrimaries] ${f}`));
-
-      published.push({ entryId: entry.id, label, verdict });
     }
 
     if (allRacesResolved) fullyResolvedEntryIds.push(entry.id);
