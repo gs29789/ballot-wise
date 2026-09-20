@@ -1,0 +1,828 @@
+{
+  "state": "VA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-08-14T12:34:03.756Z",
+  "election_dates": {
+    "primaryDate": "2026-08-04",
+    "primarySourceUrl": "https://www.elections.virginia.gov/news-releases/primary-election-moved-to-august-4-1.html",
+    "primarySnippet": "Primary elections for all offices appearing on the 2026 November General Election ballot will be held on Aug. 4, 2026... The 2026 Primary Election date was changed by the General Assembly in House Bill 29, which was signed into law on February 20.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://law.lis.virginia.gov/vacode/title24.2/chapter1/section24.2-101/",
+    "generalSnippet": "'General election' means an election held in the Commonwealth on the Tuesday after the first Monday in November...for the purpose of filling offices regularly scheduled by law to be filled at those times."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Virginia's own candidacy-qualification statute (Va. Code §24.2-500) ties eligibility to run for office to eligibility to vote, and a felony conviction strips voter/candidacy qualification until civil rights are restored by the Governor — but the statute's own text limits that rule to 'any office of the Commonwealth, or of its governmental units,' i.e., Virginia state and local offices. It does not by its own text reach candidacy for the U.S. House or Senate, which are federal offices created by the U.S. Constitution, not Commonwealth offices. Under U.S. Term Limits v. Thornton, states cannot add qualifications for Congress beyond the Constitution's own age/citizenship/residency requirements anyway, so even if Virginia intended the statute to reach Congress, it could not enforce that as a matter of federal constitutional law. Net effect: a convicted felon's eligibility to run for Virginia's congressional seats is governed by the U.S. Constitution alone, not by this state statute — genuine legal certainty here, not ambiguity, but worth stating precisely because the statute's plain text could be misread as broader than it is.",
+    "source_url": "https://law.lis.virginia.gov/vacode/title24.2/chapter5/section24.2-500/",
+    "snippet": "In order to qualify as a candidate for any office of the Commonwealth, or of its governmental units, a person must be qualified to vote for and hold that office."
+  },
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Virginia's_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Robert J. Wittman and Shannon Taylor are running in the general election for U.S. House Virginia District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.8
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.7
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.5
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.9
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 19.76
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 18.78
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 19.43
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.29
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 15.3
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 4243.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 4245.2
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 4245.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 4238.5
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 4248
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 4252.8
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 4262.7
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 4253
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 4276.2
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 4278
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 4280.1
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 4287.3
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 4289.4
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 4283.7
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 4278.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 4277
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 4275.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 4269.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 4265.9
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 4264.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 4265.5
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 4252.9
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 4249.5
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 4250.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 4238.4
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 4235.1
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 4239.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 4226
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 4217.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 4214.3
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 4208.5
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 4205
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 4206.7
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 4201
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 4188.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 4187.2
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 4172.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 4165.3
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 4165.1
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 4166.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 4154.2
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 27347828953.67,
+        "perCapitaUsd": 35499.51
+      },
+      {
+        "year": "2024",
+        "totalUsd": 31113969646.71,
+        "perCapitaUsd": 40388.24
+      },
+      {
+        "year": "2025",
+        "totalUsd": 31989434392.83,
+        "perCapitaUsd": 41524.66
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 8683619
+      },
+      {
+        "year": "2023",
+        "population": 8715698
+      },
+      {
+        "year": "2024",
+        "population": 8811195
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 85873
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 89931
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 92090
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "shannon-taylor",
+      "full_name": "TAYLOR, SHANNON LEIGH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6VA01299",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 2140930.12,
+        "totalSpent": 1136750.8,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 331702.37,
+          "largeDollar": 1356173.98,
+          "pac": 341794.7,
+          "party": 220.77,
+          "selfFunded": null
+        }
+      },
+      "bio": {},
+      "platform": [
+        {
+          "topic": "Congressional Ethics and Anti-Corruption",
+          "value": "Ban on members of Congress trading stocks while they are in office, placing a lifetime ban on members of Congress becoming lobbyists, mandating jail time for members of Congress who steal taxpayer funds, and 12-year term limits for members of the House and Senate",
+          "snippet": "fight for a ban on members of Congress trading stocks while they are in office, placing a lifetime ban on members of Congress becoming lobbyists, mandating jail time for members of Congress who steal taxpayer funds, and 12-year term limits for members of the House and Senate"
+        },
+        {
+          "topic": "Campaign Finance",
+          "value": "Pledged to never take a dime of corporate PAC money in this campaign or while representing us in Congress",
+          "snippet": "Shannon has pledged to never take a dime of corporate PAC money in this campaign or while representing us in Congress"
+        },
+        {
+          "topic": "Utility Costs and Data Centers",
+          "value": "Opposed proposed utility price hikes in Virginia and called for legislation to mandate that any new data center construction does not result in increased energy costs for families",
+          "snippet": "Shannon has consistently opposed proposed utility price hikes here in Virginia. She has also called for legislation to mandate that any new data center construction does not result in increased energy costs for our families."
+        },
+        {
+          "topic": "Public Safety and Drug Enforcement",
+          "value": "Will work to pass legislation that takes drugs like fentanyl off our streets and supports law enforcement in Virginia and nationwide",
+          "snippet": "In Congress, Shannon will work to pass legislation that takes drugs like fentanyl off our streets and supports our law enforcement here in Virginia and nationwide."
+        },
+        {
+          "topic": "Taxes and Economy",
+          "value": "Fight to cut taxes for working families and small businesses, rein in reckless tariffs and endless wars that are driving up prices, and invest in energy, infrastructure, and good-paying jobs",
+          "snippet": "Shannon will fight to cut taxes for working families and small businesses – not for billionaires and corporate special interests. While Rob Wittman gave himself a tax break last year, Shannon will put Virginians first. She will work to rein in the reckless tariffs and endless wars that are driving up the price of groceries, gas, and everyday goods. And Shannon will invest in energy, infrastructure, and good-paying jobs that strengthen Virginia s economy."
+        },
+        {
+          "topic": "Abortion Access",
+          "value": "Defended the right for Virginia women to have the freedom to access abortion care after Roe v. Wade was overturned",
+          "snippet": "When Roe v. Wade was overturned, Shannon was one of the first prosecutors in the country to defend the right for Virginia women to have the freedom to access abortion care."
+        }
+      ],
+      "platform_source_url": "https://shannontaylorva.com/",
+      "_platform_resolved_at": "2026-08-14T12:33:37.381Z",
+      "financial_disclosure": {
+        "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2026/10077493.pdf",
+        "filingDate": "5/12/2026",
+        "hasReportableAssets": true,
+        "hasEarnedIncome": false,
+        "hasReportableLiabilities": false,
+        "hasReportablePositions": true,
+        "hasOutsideAgreements": false,
+        "hasLargeCompensation": null
+      },
+      "_financial_disclosure_resolved_at": "2026-08-14T12:33:55.555Z",
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false,
+      "bio_summary": {
+        "value": "Shannon Taylor is a lifelong Virginian and has dedicated her life to protecting our community. As Henrico’s top prosecutor for the last 14 years, Shannon has tried thousands of cases and put violent criminals, drug traffickers, and abusers behind bars. She pioneered programs to support victims of human trafficking, created a task force to tackle the opioid epidemic, and worked alongside law enforcement to get illegal guns off the streets.",
+        "source_url": "https://shannontaylorva.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:06.220Z",
+      "_tier2_search_attempted_at": "2026-08-24T12:00:26.319Z",
+      "campaign_site_url": "https://shannontaylorva.com/",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:10.008Z",
+      "_campaign_site_reachability": "reachable"
+    },
+    {
+      "slug": "robert-wittman",
+      "full_name": "WITTMAN, ROBERT J. MR.",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8VA01147",
+      "fec_status": "C",
+      "bioguide_id": "W000804",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4053141.52,
+        "totalSpent": 1136232.18,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 54323.6,
+          "largeDollar": 1388219.21,
+          "pac": 1169350,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1959-02-03",
+          "source_url": "https://www.wikidata.org/wiki/Q541251",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Washington, D.C.",
+          "source_url": "https://www.wikidata.org/wiki/Q541251",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Virginia Tech",
+          "source_url": "https://www.wikidata.org/wiki/Q541251",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "married",
+          "source_url": "https://en.wikipedia.org/wiki/Rob_Wittman",
+          "snippet": "He is married and has two children.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Military",
+          "value": "Rebuilding our military",
+          "snippet": "From rebuilding our military to increasing access to broadband, to making sure our children have a 21st-century education, he is constantly working for the First District."
+        },
+        {
+          "topic": "Broadband Access",
+          "value": "Increasing access to broadband",
+          "snippet": "From rebuilding our military to increasing access to broadband, to making sure our children have a 21st-century education, he is constantly working for the First District."
+        },
+        {
+          "topic": "Education",
+          "value": "Making sure our children have a 21st-century education",
+          "snippet": "From rebuilding our military to increasing access to broadband, to making sure our children have a 21st-century education, he is constantly working for the First District."
+        }
+      ],
+      "platform_source_url": "https://robwittman.com/",
+      "_platform_resolved_at": "2026-08-14T12:33:41.050Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 283,
+          "votesCast": 275,
+          "attendanceRate": 0.9717314487632509
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Natural Resources",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Energy and Mineral Resources",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Natural Resources — Water, Wildlife and Fisheries",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Tactical Air and Land Forces",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Armed Services — Seapower and Projection Forces",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 212,
+        "bills_cosponsored": 2867,
+        "bills_became_law": 4,
+        "enacted_laws": [
+          {
+            "title": "Permanent Electronic Duck Stamp Act of 2013",
+            "congress": 113,
+            "billType": "HR",
+            "billNumber": "1206",
+            "publicLawNumber": "113-239",
+            "summary": "(This measure has not been amended since it was introduced. The expanded summary of the House reported version is repeated here.) Permanent Electronic Duck Stamp Act of 2013 - Grants the Secretary of the Interior permanent authority to authorize any state to issue electronic duck stamps. Sets forth state electronic duck stamp application requirements. Allows the Secretary to determine the number of new states permitted per year to participate in the electronic duck stamp program. Instructs the Secretary to require electronic stamp revenue and customer information collected by each state to be transmitted in accordance with a written agreement between the Secretary and the state.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-113publ239"
+          },
+          {
+            "title": "Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2017",
+            "congress": 115,
+            "billType": "HR",
+            "billNumber": "984",
+            "publicLawNumber": "115-121",
+            "summary": "(This measure has not been amended since it was introduced. The expanded summary of the House passed version is repeated here.) Thomasina E. Jordan Indian Tribes of Virginia Federal Recognition Act of 2017 TITLE I--CHICKAHOMINY INDIAN TRIBE (Sec. 103) This bill extends federal recognition to the Chickahominy Tribe. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized Indian tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 104) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 106) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 107) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE II--CHICKAHOMINY INDIAN TRIBE--EASTERN DIVISION (Sec. 203) This bill extends federal recognition to the Chickahominy Indian Tribe--Eastern Division. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 204) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 206) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 207) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE III--UPPER MATTAPONI TRIBE (Sec. 303) This bill extends federal recognition to the Upper Mattaponi Tribe. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 304) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 306) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 307) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE IV--RAPPAHANNOCK TRIBE, INC. (Sec. 403) This bill extends federal recognition to the Rappahannock Tribe, Inc. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 404) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 406) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 407) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE V--MONACAN INDIAN NATION (Sec. 503) This bill extends federal recognition to the Monacan Indian Nation. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 504) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 506) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 507) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE VI--NANSEMOND INDIAN TRIBE (Sec. 603) This bill extends federal recognition to the Nansemond Indian Tribe. The tribe and its members are made eligible for the services and benefits provided by the federal government to federally recognized tribes, without regard to the existence of a reservation for the tribe. The bill establishes the service area of the tribe. (Sec. 604) The bill sets forth requirements for the tribe regarding its membership roll, governing documents, and governing body. (Sec. 606) The Department of the Interior, upon the request of the tribe, must take certain land owned by the tribe in Virginia into trust for the benefit of the tribe, to be considered part of the tribe's reservation. The bill prohibits the tribe from conducting gaming activities. (Sec. 607) The bill does not affect the hunting, fishing, trapping, gathering, or water rights of the tribe or its members. TITLE VII--EMINENT DOMAIN (Sec. 701) Eminent domain may not be used to acquire lands for a tribe recognized under this bill.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-115publ121"
+          },
+          {
+            "title": "To amend the North American Wetlands Conservation Act to establish requirements regarding payment of the non-Federal share of the costs of wetlands conservation projects in Canada that are funded under that Act, and for other purposes.",
+            "congress": 111,
+            "billType": "HR",
+            "billNumber": "3433",
+            "publicLawNumber": "111-149",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Amends the North American Wetlands Conservation Act to allow the non-federal share of the U.S. contribution to the costs of wetlands conservation projects carried out in Canada to include cash contributions from non-U.S. sources and allow funds from Canadian sources to comprise up to 50% of the non-federal share of such project costs.",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-111publ149"
+          },
+          {
+            "title": "To designate the facility of the United States Postal Service located at 6892 Main Street in Gloucester, Virginia, as the \"Congresswoman Jo Ann S. Davis Post Office\".",
+            "congress": 110,
+            "billType": "HR",
+            "billNumber": "5489",
+            "publicLawNumber": "110-226",
+            "summary": "(This measure has not been amended since it was introduced. The summary of that version is repeated here.) Designates the facility of the United States Postal Service located at 6892 Main Street in Gloucester, Virginia, as the \"Congresswoman Jo Ann S. Davis Post Office.\"",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-110publ226"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.446,
+          "nominateDim2": 0.032,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/W000804"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 92.5,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/W000804"
+        }
+      },
+      "_curated_match": false,
+      "platform_video_url": "https://www.youtube.com/watch?v=s5DvLDdL6sI",
+      "platform_video_title": "Vote Rob Wittman - Wittman Works Hard For Our Community",
+      "platform_video_source_url": "https://robwittman.com/",
+      "_platform_video_resolved_at": "2026-08-18T22:04:22.253Z",
+      "bio_summary": {
+        "value": "Rob is focused on delivering results for Virginia’s First District which stretches from the Northern Neck to parts of Henrico and Chesterfield Counties to the Historic Triangle of Jamestown, Yorktown, and Williamsburg. You can find Rob driving back and forth from his home in Montross to DC when Congress is in session and traveling throughout the district to meet and listen to you, his neighbors, on how best to serve you.",
+        "source_url": "https://robwittman.com/"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:59:01.771Z",
+      "campaign_site_url": "http://robwittman.com",
+      "_campaign_site_discovered_at": "2026-08-31T23:03:10.007Z",
+      "_campaign_site_reachability": "reachable"
+    }
+  ]
+}
