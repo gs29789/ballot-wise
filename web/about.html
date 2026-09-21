@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About the data — Ballot-Wise</title>
+    <!-- Real, static, no-JS-required twin of AboutModal in src/App.jsx —
+         that modal stays exactly as it is (it's the faster in-app path for
+         someone already mid-search), this page exists so the same content
+         has a real URL: something Google can index, something a reporter
+         or another site can link to, something that renders for a visitor
+         (or a crawler) with JavaScript unavailable or disabled. Keep this
+         file's copy word-for-word in sync with AboutModal / DATA_SOURCES
+         whenever either changes — there's no shared source between them. -->
+    <meta name="description" content="Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed. How the data is sourced, why some fields are empty, and how Ballot-Wise is funded." />
+
+    <meta property="og:type" content="article" />
+    <meta property="og:site_name" content="Ballot-Wise" />
+    <meta property="og:url" content="https://ballot-wise.com/about.html" />
+    <meta property="og:title" content="About the data — Ballot-Wise" />
+    <meta property="og:description" content="Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed." />
+    <meta property="og:image" content="https://ballot-wise.com/og-image.png" />
+    <meta property="og:image:width" content="2400" />
+    <meta property="og:image:height" content="1260" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="About the data — Ballot-Wise" />
+    <meta name="twitter:description" content="Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed." />
+    <meta name="twitter:image" content="https://ballot-wise.com/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About the data — Ballot-Wise",
+        "url": "https://ballot-wise.com/about.html",
+        "description": "Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed.",
+        "isPartOf": { "@type": "WebSite", "name": "Ballot-Wise", "url": "https://ballot-wise.com/" }
+      }
+    </script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;700&display=swap">
+    <style>
+      :root {
+        --paper: #F4F1E9;
+        --paper-raised: #FBFAF6;
+        --ink: #211D18;
+        --ink-soft: #6B6255;
+        --line: #DAD2BF;
+        --gold: #8C6D1F;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 15.5px;
+        line-height: 1.65;
+      }
+      a { color: var(--gold); }
+      .wrap { max-width: 640px; margin: 0 auto; padding: 28px 20px 80px; }
+      header { border-bottom: 1px solid var(--line); padding-bottom: 16px; margin-bottom: 32px; }
+      .wordmark { font-family: 'Fraunces', serif; font-size: 22px; letter-spacing: 0.01em; text-decoration: none; }
+      .wordmark b { font-weight: 700; color: var(--ink); }
+      .wordmark span { color: var(--gold); }
+      .wordmark i { font-weight: 500; font-style: italic; color: var(--ink); }
+      .back { display: inline-block; margin-top: 10px; font-size: 12.5px; color: var(--ink-soft); text-decoration: none; }
+      .back:hover { color: var(--gold); }
+      h1 { font-family: 'Fraunces', serif; font-size: 28px; font-weight: 600; margin: 0 0 10px; }
+      .lead { font-size: 14.5px; color: var(--ink-soft); line-height: 1.65; margin: 0 0 34px; }
+      h2 {
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 12px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        color: var(--ink-soft);
+        margin: 0 0 12px;
+      }
+      section { margin-bottom: 30px; }
+      section p { margin: 0; font-size: 13.5px; color: var(--ink-soft); }
+      .sources { border-top: 1px dashed var(--line); }
+      .sources .row {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3px;
+        padding: 9px 0;
+        border-bottom: 1px dashed var(--line);
+        font-size: 13px;
+      }
+      @media (min-width: 520px) {
+        .sources .row { grid-template-columns: 1fr 1fr; gap: 12px; }
+      }
+      .sources .row .label { color: var(--ink); }
+      .sources .row .source { color: var(--ink-soft); }
+      footer { border-top: 1px solid var(--line); padding-top: 20px; font-size: 12.5px; color: var(--ink-soft); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <a class="wordmark" href="/"><b>BALLOT</b><span>—</span><i>Wise</i></a>
+        <div><a class="back" href="/">&larr; Find your candidates</a> &middot; <a class="back" href="/races">Browse every race</a></div>
+      </header>
+
+      <h1>About the data</h1>
+      <p class="lead">
+        Every fact on Ballot-Wise traces to a public source, linked directly next to the value.
+        Nothing is summarized from memory, inferred, or characterized on our behalf — if we can't
+        verbatim-quote a source for a fact, we show "No public record found" instead of guessing.
+      </p>
+
+      <section>
+        <h2>Where each type of fact comes from</h2>
+        <div class="sources">
+          <div class="row"><div class="label">Candidate registration &amp; fundraising</div><div class="source">Federal Election Commission (FEC)</div></div>
+          <div class="row"><div class="label">Voting record, committees, bills, attendance</div><div class="source">Congress.gov &amp; the U.S. House Clerk</div></div>
+          <div class="row"><div class="label">Voting-record ideology score</div><div class="source">VoteView.com (UCLA), DW-NOMINATE method</div></div>
+          <div class="row"><div class="label">Bipartisanship grade</div><div class="source">Bridge Grades (bridgegrades.org), an independent published methodology</div></div>
+          <div class="row"><div class="label">Background, platform, campaign video</div><div class="source">Each candidate's own campaign website, quoted verbatim</div></div>
+          <div class="row"><div class="label">Biographical facts not on a campaign site</div><div class="source">House Historian, Wikipedia/Wikidata, Ballotpedia</div></div>
+          <div class="row"><div class="label">Financial disclosure</div><div class="source">U.S. House Clerk's public financial disclosure filings</div></div>
+          <div class="row"><div class="label">State population, income, jobs, crime</div><div class="source">U.S. Census Bureau, BLS, FBI Crime Data Explorer</div></div>
+          <div class="row"><div class="label">Primary-election results</div><div class="source">Each state's official election results, or AP/Ballotpedia reporting of them</div></div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Why some fields are empty</h2>
+        <p>
+          All data shown here comes from public and official records. Some information we believe the
+          public deserves isn't required to be disclosed — it takes the candidate's own authorization to
+          release (things like high school, college, financial statements, or exact date of birth).
+          Ballot-Wise searches every source we believe is trustworthy and verifiable, but we won't guess,
+          and we won't publish anything we can't cite. Even when a candidate is under no legal obligation
+          to share something, we believe they should, as a commitment to the public — we can't choose the
+          best person for Congress if we don't know their whole story. If a candidate's profile is missing
+          something you're looking for, call their office and ask them to release it. Ballot-Wise is meant
+          to be a tool for you to take control of your own decision — not the other way around.
+        </p>
+      </section>
+
+      <section>
+        <h2>How current is this?</h2>
+        <p>
+          Candidate data refreshes on an ongoing basis throughout the election cycle. Once a state's
+          primary is certified, the general-election field is narrowed to the confirmed nominees, cited
+          on that race's page.
+        </p>
+      </section>
+
+      <section>
+        <h2>Funding</h2>
+        <p>
+          Ballot-Wise's policy is to be funded by citizens, not campaigns — contributions never affect
+          our neutrality or what we publish about any candidate or race.
+        </p>
+      </section>
+
+      <footer>
+        See something wrong on a specific candidate's page? Open that candidate's profile in the app and use
+        "Report an issue" there — it's tied to the specific fact you're flagging.
+      </footer>
+    </div>
+  </body>
+</html>

@@ -30,6 +30,18 @@ const DATA_BASE = import.meta.env.VITE_DATA_BASE_URL || "";
 const PAYPAL_CLIENT_ID = import.meta.env.VITE_PAYPAL_CLIENT_ID || "";
 const PRESET_CONTRIBUTION_AMOUNTS = [5, 10, 25, 50, 100];
 
+// Google Analytics 4. Same degrade-quietly convention as the Mapbox/PayPal
+// keys above — App() only loads gtag.js when this is set, so the app works
+// identically (just unmeasured) until a real measurement ID is provided.
+const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || "";
+
+// Mirrors web/index.html's static <meta name="description"> — that copy is
+// what a crawler or link-unfurler sees before any JS runs; this is what
+// document.title/description fall back to once JS is running but no
+// race or profile is open (the "idle" landing view).
+const DEFAULT_DESCRIPTION =
+  "Get ready to vote in the 2026 midterms — compare every U.S. House and Senate candidate on your ballot, side by side: voting records, campaign finance, and public statements, all sourced from official records. Non-partisan.";
+
 // Why a candidate's own site produced nothing, keyed by the reachability
 // classification the pipeline records (see scaleCampaignSiteDiscovery.ts).
 // The address is published in every one of these cases, including the
@@ -294,20 +306,45 @@ function findPendingMatch(pendingRaces, stusab, districtCode, chamber) {
 // the home screen instead of the candidate page the user was just on. These
 // two helpers turn {stusab, districtCode, chamber, profile} into a URL and
 // back, so every real navigation step can get a genuine history entry.
+//
+// Clean, crawlable path for a race -- /tx/senate, /nc/house-4 -- matching
+// what web/functions/[state]/[race].js serves real HTML at (see that
+// file's own comment for why a Cloudflare Pages Function renders these
+// instead of anything built into this SPA). A Senate race has no district
+// of its own, hence the two distinct shapes rather than always appending
+// one.
 function buildAppUrl({ stusab, districtCode, chamber, profile } = {}) {
-  if (!stusab || !districtCode) return "/";
-  const params = new URLSearchParams({ state: stusab, district: districtCode });
-  if (chamber) params.set("chamber", chamber);
-  if (profile) params.set("profile", profile);
-  return `/?${params.toString()}`;
+  if (!stusab || (!districtCode && chamber !== "senate")) return "/";
+  const base = chamber === "senate" ? `/${stusab.toLowerCase()}/senate` : `/${stusab.toLowerCase()}/house-${String(districtCode).toLowerCase()}`;
+  return profile ? `${base}?${new URLSearchParams({ profile }).toString()}` : base;
 }
 
-function parseAppUrl(search) {
+// district is a bare number (never zero-padded) or "al" -- lowercase in the
+// URL, matching buildAppUrl's own output; parseHouseKey-style code
+// elsewhere in this project uppercases "AL" specifically, not the whole
+// segment, since state names stay lowercase in the URL by convention here.
+function parsePathUrl(pathname) {
+  const senate = pathname.match(/^\/([a-z]{2})\/senate\/?$/i);
+  if (senate) return { stusab: senate[1].toUpperCase(), chamber: "senate" };
+  const house = pathname.match(/^\/([a-z]{2})\/house-(al|[1-9]\d*)\/?$/i);
+  if (house) return { stusab: house[1].toUpperCase(), districtCode: house[2].toUpperCase() === "AL" ? "AL" : house[2], chamber: "house" };
+  return null;
+}
+
+// Tries the clean path form first, then falls back to the original
+// query-string form (?state=..&district=..&chamber=..) so a link already
+// shared or bookmarked before path-based URLs existed keeps working.
+function parseAppUrl(pathname, search) {
   const params = new URLSearchParams(search);
+  const profile = params.get("profile") || null;
+  const fromPath = parsePathUrl(pathname);
+  if (fromPath) return { ...fromPath, profile };
+
   const stusab = params.get("state");
-  const districtCode = params.get("district");
-  if (!stusab || !districtCode) return null;
-  return { stusab, districtCode, chamber: params.get("chamber") || undefined, profile: params.get("profile") || null };
+  const chamber = params.get("chamber") || undefined;
+  const districtCode = params.get("district") || undefined;
+  if (!stusab || (!districtCode && chamber !== "senate")) return null;
+  return { stusab, districtCode, chamber, profile };
 }
 
 // bio_summary can come from the candidate's own campaign site (their own
@@ -1001,7 +1038,7 @@ function ComparisonView({ race, chamber, houseRace, senateRace, setChamber, geo,
       <div style={{ display: "flex", alignItems: "flex-start", gap: 10, background: T.successSoft, border: `1px solid ${T.success}`, borderRadius: 6, padding: "12px 14px", marginBottom: 14 }}>
         <CheckCircle2 size={18} color={T.success} style={{ flexShrink: 0, marginTop: 1 }} />
         <div style={{ fontSize: 12.5, color: T.inkSoft }}>
-          {geo.stateName} · {geo.districtLabel}
+          {geo.stateName}{geo.districtLabel ? ` · ${geo.districtLabel}` : ""}
           {race?.election_dates && (
             <span> —{" "}
               {!race.primary_results && (
@@ -1799,7 +1836,7 @@ function AddressAutocomplete({ value, onChange, onSearch, placeholder, colors })
   );
 }
 
-function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, onShowContribute }) {
+function LandingHero({ address, setAddress, handleSearch, status, onShowContribute }) {
   return (
     <div style={{ background: D.bg, color: D.ink }}>
       <div style={{ borderBottom: `1px solid ${D.line}`, padding: "16px 20px" }}>
@@ -1807,9 +1844,13 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, o
           <Wordmark dark />
           <div style={{ display: "flex", alignItems: "center", gap: 16 }}>
             <ContributeButton dark onClick={onShowContribute} />
-            <button onClick={onShowAbout} style={{ background: "transparent", border: "none", padding: 0, cursor: "pointer", color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
+            {/* A real link, not the results header's modal trigger — this is
+                the one "About the data" entry point a crawler (or anyone
+                without JS) can actually follow, since it's on the page
+                search engines land on by default. See about.html. */}
+            <a href="/about.html" style={{ color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
               About the data
-            </button>
+            </a>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: D.inkSoft }}>
               Non-Partisan · Public Data · No Party Funding
             </span>
@@ -1822,7 +1863,7 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowAbout, o
           Your vote in Congress matters more than you think.
         </h1>
         <p style={{ color: D.inkSoft, fontSize: 15.5, lineHeight: 1.6, maxWidth: 560, margin: "0 0 26px" }}>
-          The President gets the headlines. But Congress shapes your life. Ballot-Wise gives you clear, fact-based profiles on every congressional candidate — so you can vote with confidence, not confusion.
+          The President gets the headlines. But Congress shapes your life. With the 2026 midterms approaching, Ballot-Wise gives you clear, fact-based profiles on every House and Senate candidate — so you can vote with confidence, not confusion.
         </p>
 
         <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
@@ -2371,6 +2412,65 @@ function ContributeModal({ onClose }) {
   );
 }
 
+// Per-view document title/description — the client-side piece of the SEO
+// playbook's "per-view title & description" fix. Updating document.title
+// and the description tag after JS runs is enough for the browser tab,
+// bookmarks, and Googlebot's own JS-rendering indexing pass. It does NOT
+// reach a crawler or link-unfurler that only fetches raw HTML without
+// executing JS (Twitter/X, Facebook, iMessage, Slack) — those always see
+// index.html's static tags, identical for every URL, until races get real
+// server-rendered pages of their own.
+function raceMetaTitle({ chamber, geo, race }) {
+  if (!geo) return "Ballot-Wise — Congress, compared";
+  // "House" has to be spelled out here specifically -- unlike the
+  // description below, nothing else in this title says which chamber a
+  // House race is for (districtLabel is just "District 4"/"At-Large"),
+  // so without it the word never appears in a House race's own title at
+  // all, only in Senate races' ("... Senate 2026 | Ballot-Wise").
+  const where = chamber === "house" ? `${geo.stateName} House ${geo.districtLabel || "District"}` : `${geo.stateName} Senate`;
+  const candidates = race?.candidates ?? [];
+  // 2-3 names covers the common general-election shape and matches how
+  // people actually search ("X vs Y") — a crowded primary falls back to
+  // the generic phrasing rather than cramming a long candidate list into a
+  // browser tab title.
+  if (candidates.length >= 2 && candidates.length <= 3) {
+    return `${candidates.map((c) => toTitleCase(c.full_name)).join(" vs. ")} — ${where} 2026 | Ballot-Wise`;
+  }
+  return `${where} 2026 Candidates Compared | Ballot-Wise`;
+}
+
+function raceMetaDescription({ chamber, geo, race }) {
+  if (!geo) return DEFAULT_DESCRIPTION;
+  const where = chamber === "house" ? `${geo.stateName}'s ${geo.districtLabel || "district"}` : geo.stateName;
+  const count = race?.candidates?.length;
+  const who = count ? `${count} candidate${count === 1 ? "" : "s"}` : "the candidates";
+  const office = chamber === "house" ? "the U.S. House" : "U.S. Senate";
+  return `Compare ${who} running for ${office} in ${where} — voting records, campaign finance, and public statements, sourced from official records.`;
+}
+
+function profileMetaTitle({ candidate, chamber, geo }) {
+  // Same reasoning as raceMetaTitle's own "House" comment -- nothing else
+  // here names the chamber for a House profile.
+  const where = chamber === "house" ? `${geo?.stusab ?? ""} House ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stusab ?? ""} Senate`.trim();
+  return `${toTitleCase(candidate.full_name)} (${partyLabel(candidate.party)}) — ${where} 2026 | Ballot-Wise`;
+}
+
+function profileMetaDescription({ candidate, chamber, geo }) {
+  const where = chamber === "house" ? `${geo?.stateName ?? ""} House ${geo?.districtLabel ?? ""}`.trim() : `${geo?.stateName ?? ""} Senate`.trim();
+  return `${toTitleCase(candidate.full_name)}'s voting record, campaign finance, and public statements for ${where}, 2026 — sourced from official public records.`;
+}
+
+function setDocumentMeta(title, description) {
+  document.title = title;
+  let tag = document.querySelector('meta[name="description"]');
+  if (!tag) {
+    tag = document.createElement("meta");
+    tag.setAttribute("name", "description");
+    document.head.appendChild(tag);
+  }
+  tag.setAttribute("content", description);
+}
+
 export default function App() {
   const [address, setAddress] = useState("");
   const [status, setStatus] = useState("idle"); // idle | loading | ready | error
@@ -2469,7 +2569,7 @@ export default function App() {
   // for the same district instead of re-fetching, so pressing back to close
   // a profile is instant rather than a network round trip.
   const restoreFromUrl = async () => {
-    const parsed = parseAppUrl(window.location.search);
+    const parsed = parseAppUrl(window.location.pathname, window.location.search);
     if (!parsed) {
       setStatus("idle");
       setProfileSlug(null);
@@ -2489,7 +2589,7 @@ export default function App() {
           stusab: parsed.stusab,
           stateName: STATE_NAMES[parsed.stusab] ?? parsed.stusab,
           districtCode: parsed.districtCode,
-          districtLabel: parsed.districtCode === "AL" ? "At-Large" : `District ${parsed.districtCode}`,
+          districtLabel: parsed.districtCode === "AL" ? "At-Large" : parsed.districtCode ? `District ${parsed.districtCode}` : undefined,
         },
         { push: false, chamber: parsed.chamber, profileSlug: parsed.profile }
       );
@@ -2501,7 +2601,7 @@ export default function App() {
   };
 
   useEffect(() => {
-    if (parseAppUrl(window.location.search)) restoreFromUrl();
+    if (parseAppUrl(window.location.pathname, window.location.search)) restoreFromUrl();
     // Deliberately mount-only: this restores from whatever URL the page was
     // loaded with, once.
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -2519,6 +2619,43 @@ export default function App() {
     // listener never closes over stale geo/houseRace/senateRace values.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [geo, houseRace, senateRace]);
+
+  useEffect(() => {
+    if (!GA_MEASUREMENT_ID || window.gtag) return;
+    const script = document.createElement("script");
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    script.async = true;
+    document.head.appendChild(script);
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() { window.dataLayer.push(arguments); };
+    window.gtag("js", new Date());
+    // send_page_view: false -- the effect below fires every page_view
+    // itself, including the first, so a client-side view change (no real
+    // navigation, no new gtag.js load) is never missed the way it would be
+    // if this initial config call also auto-sent one.
+    window.gtag("config", GA_MEASUREMENT_ID, { send_page_view: false });
+  }, []);
+
+  // Keeps the browser tab, Googlebot's JS-rendering pass, and (when
+  // configured) GA4 in sync with whatever's actually on screen — see the
+  // raceMetaTitle/profileMetaTitle comment above for what this can't reach.
+  useEffect(() => {
+    let title = "Ballot-Wise — Congress, compared";
+    let description = DEFAULT_DESCRIPTION;
+    if (status === "ready") {
+      if (profileCandidate) {
+        title = profileMetaTitle({ candidate: profileCandidate, chamber, geo });
+        description = profileMetaDescription({ candidate: profileCandidate, chamber, geo });
+      } else {
+        title = raceMetaTitle({ chamber, geo, race: activeRace });
+        description = raceMetaDescription({ chamber, geo, race: activeRace });
+      }
+    }
+    setDocumentMeta(title, description);
+    if (window.gtag) {
+      window.gtag("event", "page_view", { page_title: title, page_location: window.location.href });
+    }
+  }, [status, chamber, activeRace, geo, profileCandidate]);
 
   const openProfile = (slug) => {
     setProfileSlug(slug);
@@ -2566,7 +2703,7 @@ export default function App() {
       {showContribute && <ContributeModal onClose={() => setShowContribute(false)} />}
 
       {status === "idle" ? (
-        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowAbout={() => setShowAbout(true)} onShowContribute={() => setShowContribute(true)} />
+        <LandingHero address={address} setAddress={setAddress} handleSearch={handleSearch} status={status} onShowContribute={() => setShowContribute(true)} />
       ) : (
         <>
           <div style={{ borderBottom: `1px solid ${T.line}`, padding: "16px 20px" }}>

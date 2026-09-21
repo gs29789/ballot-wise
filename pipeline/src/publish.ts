@@ -1,8 +1,8 @@
 import "dotenv/config";
 import { readdirSync, readFileSync, statSync, mkdirSync, cpSync, existsSync, rmSync, writeFileSync } from "node:fs";
-import { join, relative } from "node:path";
+import { join, relative, sep } from "node:path";
 import { execFileSync } from "node:child_process";
-import { S3Client, PutObjectCommand } from "@aws-sdk/client-s3";
+import { S3Client, PutObjectCommand, ListObjectsV2Command } from "@aws-sdk/client-s3";
 import { PENDING_RACES } from "./ci/pendingRaces.js";
 
 const BUILD_ROOT = join(import.meta.dirname, "..", "build");
@@ -106,7 +106,7 @@ async function main() {
 
   const files = walk(BUILD_ROOT).filter((f) => f.endsWith(".json"));
   for (const file of files) {
-    const key = relative(BUILD_ROOT, file);
+    const key = relative(BUILD_ROOT, file).split(sep).join("/");
     await client.send(
       new PutObjectCommand({
         Bucket: bucket,
@@ -118,6 +118,39 @@ async function main() {
     );
     console.log(`Published ${key} -> r2://${bucket}/${key}`);
   }
+
+  // Every house/*.json and senate/*.json key currently live in the bucket —
+  // listed fresh from R2 itself, NOT just the files this run's local
+  // pipeline/build/ happened to contain. A chunked/partial publish (e.g.
+  // one state at a time, as GitHub Actions' per-matrix-entry workflow does)
+  // must never shrink this down to just its own slice: found 2026-09-15
+  // when several parallel single-chunk publishes raced to overwrite this
+  // file, leaving the sitemap down to 9 of 442 real races. Real ceiling is
+  // ~485 keys (435 House districts + ~50 Senate seats), far under S3/R2's
+  // 1000-key default page size, so this never needs pagination. Lets the
+  // web app's sitemap.xml function enumerate live races without its own
+  // R2 bucket-listing credentials (the public r2.dev URL doesn't support
+  // listing, and handing that function write-scoped R2 creds just to list
+  // objects would be a much larger privilege than it needs).
+  const manifestKey = "manifest.json";
+  const raceKeys: string[] = [];
+  for (const prefix of ["house/", "senate/"]) {
+    const listed = await client.send(new ListObjectsV2Command({ Bucket: bucket, Prefix: prefix }));
+    for (const obj of listed.Contents ?? []) {
+      if (obj.Key?.endsWith(".json")) raceKeys.push(obj.Key);
+    }
+  }
+  const manifest = { generatedAt: new Date().toISOString(), raceKeys: raceKeys.sort() };
+  await client.send(
+    new PutObjectCommand({
+      Bucket: bucket,
+      Key: manifestKey,
+      Body: JSON.stringify(manifest, null, 2),
+      ContentType: "application/json",
+      CacheControl: "public, max-age=3600",
+    })
+  );
+  console.log(`Published ${manifestKey} -> r2://${bucket}/${manifestKey} (${raceKeys.length} races)`);
 
   syncDataSnapshot();
 }
