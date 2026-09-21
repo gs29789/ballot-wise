@@ -483,13 +483,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3530200882.28,
-        "perCapitaUsd": 5119.28
+        "totalUsd": 3511759664.28,
+        "perCapitaUsd": 5092.53
       },
       {
         "year": "2024",
-        "totalUsd": 4739795825.5,
-        "perCapitaUsd": 6873.35
+        "totalUsd": 4714384711.5,
+        "perCapitaUsd": 6836.5
+      },
+      {
+        "year": "2025",
+        "totalUsd": 3683054141.1,
+        "perCapitaUsd": 5340.93
       }
     ],
     "population": [
@@ -685,7 +690,7 @@
         ],
         "bills_sponsored": 170,
         "bills_cosponsored": 1318,
-        "bills_became_law": 0,
+        "bills_became_law": 1,
         "enacted_laws": [
           {
             "title": "Empowering the U.S. Fire Administration Act",
@@ -698,8 +703,8 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": -0.31,
-          "nominateDim2": -0.114,
+          "nominateDim1": -0.312,
+          "nominateDim2": -0.115,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/T000486"
         },
