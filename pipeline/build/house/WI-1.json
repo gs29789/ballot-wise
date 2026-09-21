@@ -1,0 +1,771 @@
+{
+  "state": "WI",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-01",
+  "generated_at": "2026-09-02T11:27:34.019Z",
+  "election_dates": {
+    "primaryDate": "2026-08-11",
+    "primarySourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "primarySnippet": "Wis. Stat. § 5.02(12s): \"Partisan primary\" means the primary held the 2nd Tuesday in August to nominate candidates to be voted for at the general election.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://codes.findlaw.com/wi/elections-ch-5-to-12/wi-st-5-02/",
+    "generalSnippet": "Wis. Stat. § 5.02(5): \"General election\" means the election held in even-numbered years on the Tuesday after the first Monday in November to elect United States senators, representatives in congress, presidential electors, state senators, representatives to the assembly, district attorneys, state officers other than the state superintendent and judicial officers, and county officers other than supervisors and county executives."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "Genuinely ambiguous for congressional candidates. Wisconsin's constitution (Art. XIII, §3) has two relevant clauses. The office-eligibility clause is broad and unqualified: no person convicted of a felony 'in any court within the United States' (or of certain misdemeanors involving public trust) 'shall be eligible to any office of trust, profit or honor in this state unless pardoned' — that phrase doesn't on its face exclude federal offices like the U.S. House. But the clause's own enforcement mechanism — the ballot-access provision in the same section, which bars placing a convicted person's name on a ballot — explicitly limits itself to 'any ballot for a state or local elective office,' omitting federal races. Combined with U.S. Term Limits v. Thornton, 514 U.S. 779 (1995), which holds states cannot add qualifications for Congress beyond the U.S. Constitution's own (age/citizenship/residency), the ballot-access text and federal preemption both point toward Wisconsin's felon bar NOT reaching U.S. House/Senate candidacy — but no Wisconsin court decision confirming that specific reading was found, so this should be treated as unresolved rather than settled either way.",
+    "source_url": "https://law.justia.com/constitution/wisconsin/article-xiii/section-3/",
+    "snippet": "Wis. Const. Art. XIII, § 3: \"No person convicted of a felony, in any court within the United States... shall be eligible to any office of trust, profit or honor in this state unless pardoned of the conviction. No person may seek to have placed on any ballot for a state or local elective office in this state the name of a person convicted of a felony... unless the person named for the ballot has been pardoned of the conviction.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Wisconsin%27s_1st_Congressional_District_election,_2026",
+    "snippet": "Incumbent Bryan Steil and Mitchell Berman are running in the general election for U.S. House Wisconsin District 1 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.5
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.2
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.3
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.7
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 2.6
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 2.6
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 23.66
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 21.36
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 23.06
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 20.72
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 17.87
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 3042.9
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 3041.7
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 3038.6
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 3031.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 3019.8
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 3020.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 3030.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 3024.5
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 3022.3
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 3020.5
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 3030.3
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 3040.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 3039
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 3041.3
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 3041.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 3040.1
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 3047.9
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 3043.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 3051.2
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 3045.6
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 3045.9
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 3044.2
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 3038.8
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 3037.9
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 3038.7
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 3040
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 3031.9
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 3026.6
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 3030.8
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 3021
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 3027
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 3016.7
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 3023
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 3016.2
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 3013.8
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 3015.5
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 3009.9
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 3004.9
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6896070651.38,
+        "perCapitaUsd": 9343.94
+      },
+      {
+        "year": "2024",
+        "totalUsd": 7150304585.47,
+        "perCapitaUsd": 9688.42
+      },
+      {
+        "year": "2025",
+        "totalUsd": 7401424836.89,
+        "perCapitaUsd": 10028.68
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 5892539
+      },
+      {
+        "year": "2023",
+        "population": 5910955
+      },
+      {
+        "year": "2024",
+        "population": 5960975
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 70996
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 74631
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 77488
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "mitchell-berman",
+      "full_name": "BERMAN, MITCHELL",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6WI01283",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 712983.95,
+        "totalSpent": 561340.28,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 345824.57,
+          "largeDollar": 347659.38,
+          "pac": 19500,
+          "party": 0,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "a one-stoplight town in rural Wisconsin",
+          "source_url": "https://www.bermanforcongress.com/",
+          "snippet": "Mitchell Berman was raised in a one-stoplight town in rural Wisconsin",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "marital_status": {
+          "value": "devoted husband, father of two girls",
+          "source_url": "https://www.bermanforcongress.com/",
+          "snippet": "Mitchell is a devoted husband, father of two girls, and Packers season ticket holder",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "college": {
+          "value": "Bachelor's, Marian University of Fond du Lac, Registered Nursing (2010)",
+          "source_url": "https://www.ballotready.org/people/mitchell-berman",
+          "snippet": "Bachelor&#x27;s, Marian University of Fond du Lac, Registered Nursing (2010)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "U.S. Department of Veterans Affairs, Registered Nurse (2014 - 2025); Wheaton Franciscan Healthcare, Registered Nurse (2013 - 2014); Wheaton Franciscan Healthcare, Registered Nurse (2010 - 2013)",
+          "source_url": "https://www.ballotready.org/people/mitchell-berman",
+          "snippet": "U.S. Department of Veterans Affairs, Registered Nurse (2014 - 2025) Wheaton Franciscan Healthcare, Registered Nurse (2013 - 2014) Wheaton Franciscan Healthcare, Registered Nurse (2010 - 2013)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "union member with Wisconsin Federation of Nurses and Health Professionals and National Nurses United",
+          "source_url": "https://www.bermanforcongress.com/",
+          "snippet": "has been a proud union member at each organized facility he's worked, including with the Wisconsin Federation of Nurses and Health Professionals and, most recently, National Nurses United",
+          "source_type": "llm_extracted_campaign_site"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Cost of Living",
+          "value": "Lower costs for working families",
+          "snippet": "Lower costs for working families"
+        },
+        {
+          "topic": "Healthcare",
+          "value": "Protect the healthcare Wisconsinites depend on",
+          "snippet": "Protect the healthcare Wisconsinites depend on"
+        },
+        {
+          "topic": "Child Nutrition Programs",
+          "value": "Safeguard vital programs that feed Wisconsin kids",
+          "snippet": "Safeguard vital programs that feed Wisconsin kids"
+        },
+        {
+          "topic": "Corporate Tax Policy",
+          "value": "Stop the giveaways to corporations and billionaires",
+          "snippet": "Stop the giveaways to corporations and billionaires"
+        }
+      ],
+      "platform_source_url": "https://www.bermanforcongress.com/",
+      "_platform_resolved_at": "2026-08-14T13:06:35.933Z",
+      "campaign_site_url": "https://www.bermanforcongress.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:39.224Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=EyUhiWL-J8M",
+      "platform_video_title": "Working People | Berman for Congress",
+      "platform_video_source_url": "https://www.bermanforcongress.com/media",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:44:06.632Z",
+      "bio_summary": {
+        "value": "Mitchell Berman was raised in a one-stoplight town in rural Wisconsin where neighbors looked out for one another and values like community, honesty, and integrity weren't just taught – they were lived. His father built a small roofing business from the ground up and his mother worked long hours grinding pistons at the local foundry. Growing up, Mitchell spent his days hunting, fishing and going to church. His parents taught him to work hard, lend a hand, and root for the Packers. A proud product of Wisconsin's public schools, Mitchell was the first in his family to graduate from college – earning his degree while working three jobs, living paycheck to paycheck, and taking out student loans.",
+        "source_url": "https://www.bermanforcongress.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T21:00:48.857Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": false
+    },
+    {
+      "slug": "bryan-steil",
+      "full_name": "STEIL, BRYAN GEORGE",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H8WI01156",
+      "fec_status": "C",
+      "bioguide_id": "S001213",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5467777.07,
+        "totalSpent": 1359848.79,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 253362.51,
+          "largeDollar": 1240060.26,
+          "pac": 1633675.16,
+          "party": 1000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1981-03-03",
+          "source_url": "https://www.wikidata.org/wiki/Q58494431",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Janesville, Wisconsin",
+          "source_url": "https://www.wikidata.org/wiki/Q58494431",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "University of Wisconsin Law School",
+          "source_url": "https://www.wikidata.org/wiki/Q58494431",
+          "source_type": "wikidata_structured"
+        },
+        "high_school": {
+          "value": "Craig High School",
+          "source_url": "https://www.ballotready.org/people/bryan-steil",
+          "snippet": "High School Diploma, Craig High School",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "employment_record": {
+          "value": "U.S. House of Representatives, Representative - Wisconsin 1st Congressional District (2019 - Present); University of Wisconsin System Board of Regents, Regent (2016 - Present)",
+          "source_url": "https://www.ballotready.org/people/bryan-steil",
+          "snippet": "Professional Experience U.S. House of Representatives, Representative - Wisconsin 1st Congressional District (2019 - Present) University of Wisconsin System Board of Regents, Regent (2016 - Present)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "civic_affiliations": {
+          "value": "University of Wisconsin System Board of Regents, Regent (2016 - Present)",
+          "source_url": "https://www.ballotready.org/people/bryan-steil",
+          "snippet": "University of Wisconsin System Board of Regents, Regent (2016 - Present)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "marital_status": {
+          "value": "Engaged to be married as of 2025",
+          "source_url": "https://en.wikipedia.org/wiki/Bryan_Steil",
+          "snippet": "In 2025, Steil became engaged to be married.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [],
+      "platform_source_url": null,
+      "_platform_resolved_at": null,
+      "campaign_site_url": "https://www.steilforwisconsin.com/",
+      "_campaign_site_reachability": "dead",
+      "_campaign_site_discovered_at": "2026-08-30T11:07:39.218Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=mIZXmJRo7eM",
+      "platform_video_title": "\"Solutions\" | Bryan Steil for Congress",
+      "platform_video_source_url": null,
+      "platform_video_tier": 2,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-30T12:00:11.330Z",
+      "bio_summary": null,
+      "_bio_summary_resolved_at": null,
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": {
+        "attendance": null,
+        "committees": [
+          {
+            "committee": "Joint Committee on Printing",
+            "title": "Vice Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "Joint Committee of Congress on the Library",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on House Administration",
+            "title": "Chair",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Digital Assets, Financial Technology, and Artificial Intelligence",
+            "title": "Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 99,
+        "bills_cosponsored": 619,
+        "bills_became_law": 1,
+        "enacted_laws": [
+          {
+            "title": "House Office of Legislative Counsel Modernization Act",
+            "congress": 118,
+            "billType": "HR",
+            "billNumber": "9487",
+            "publicLawNumber": "118-263",
+            "summary": "House Office of Legislative Counsel Modernization Act This act authorizes the designation of more than one attorney in the Office of the Legislative Counsel of the House of Representatives as Deputy Legislative Counsel.&nbsp;(Previously, the law authorized only one deputy.) A Deputy Legislative Counsel must perform the functions of the Legislative Counsel during the Legislative Counsel's disability or absence (including a vacancy in the office).",
+            "govinfoUrl": "https://www.govinfo.gov/app/details/PLAW-118publ263"
+          }
+        ],
+        "ideology_score": {
+          "nominateDim1": 0.421,
+          "nominateDim2": 0.073,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/S001213"
+        },
+        "bridge_score": {
+          "grade": "C",
+          "score": 31.7,
+          "snapshotDate": "August 31, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/S001213"
+        }
+      },
+      "_curated_match": false
+    }
+  ]
+}
