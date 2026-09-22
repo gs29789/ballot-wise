@@ -1,0 +1,879 @@
+{
+  "state": "IA",
+  "office": "H",
+  "cycle": 2026,
+  "race_slug": "house-03",
+  "generated_at": "2026-08-31T12:26:24.887Z",
+  "election_dates": {
+    "primaryDate": "2026-06-02",
+    "primarySourceUrl": "https://www.legis.iowa.gov/docs/code/2026/43.7.pdf",
+    "primarySnippet": "Iowa Code § 43.7: Time of holding. The primary election by all political parties shall be held at the usual voting places of the several precincts on the first Tuesday after the first Monday in June in each even-numbered year.",
+    "generalDate": "2026-11-03",
+    "generalSourceUrl": "https://www.legis.iowa.gov/docs/code/2026/39.1.pdf",
+    "generalSnippet": "Iowa Code § 39.1: General election. The general election shall be held throughout the state on the first Tuesday after the first Monday in November of each even-numbered year."
+  },
+  "state_background_check": {
+    "required": false,
+    "value": "No — Iowa's constitution strips convicted felons of the \"privilege of an elector,\" and state law requires elected officials to be eligible electors, but Iowa Code § 39.27 explicitly states this qualifications-for-office rule \"shall not apply to United States senators or representatives in Congress\"",
+    "source_url": "https://law.justia.com/constitution/iowa/article-ii/section-5/",
+    "snippet": "Iowa Const. art. II, § 5: \"A person adjudged mentally incompetent to vote or a person convicted of any infamous crime shall not be entitled to the privilege of an elector.\" Iowa Code § 39.27: \"Any person elected to an office under the laws of this state shall be an eligible elector. ... This section shall not apply to United States senators or representatives in Congress or to members of the general assembly.\""
+  },
+  "voting_system": null,
+  "primary_results": {
+    "source_url": "https://ballotpedia.org/Iowa's_3rd_Congressional_District_election,_2026",
+    "snippet": "Incumbent Zach Nunn and Sarah Trone Garriott are running in the general election for U.S. House Iowa District 3 on November 3, 2026."
+  },
+  "hard_metrics": {
+    "unemployment_rate": [
+      {
+        "year": "2026",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "value": 3.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "value": 3.2
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "value": 3.3
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "value": 3.4
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "value": null
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "value": 3.6
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "value": 3.5
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "value": 3.5
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "value": 3.4
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "value": 3.3
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "value": 3.2
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "value": 3.1
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "value": 3
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "value": 2.8
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "value": 2.8
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "value": 2.9
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "value": 3
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "value": 3
+      }
+    ],
+    "violent_crime_rate_per_100k": [
+      {
+        "year": "2021",
+        "ratePer100k": 22.26
+      },
+      {
+        "year": "2022",
+        "ratePer100k": 22.3
+      },
+      {
+        "year": "2023",
+        "ratePer100k": 17.55
+      },
+      {
+        "year": "2024",
+        "ratePer100k": 16.71
+      },
+      {
+        "year": "2025",
+        "ratePer100k": 18.63
+      }
+    ],
+    "nonfarm_employment_thousands": [
+      {
+        "year": "2026",
+        "month": "July",
+        "thousandsOfJobs": 1583.1
+      },
+      {
+        "year": "2026",
+        "month": "June",
+        "thousandsOfJobs": 1586.2
+      },
+      {
+        "year": "2026",
+        "month": "May",
+        "thousandsOfJobs": 1583.5
+      },
+      {
+        "year": "2026",
+        "month": "April",
+        "thousandsOfJobs": 1581.1
+      },
+      {
+        "year": "2026",
+        "month": "March",
+        "thousandsOfJobs": 1576.9
+      },
+      {
+        "year": "2026",
+        "month": "February",
+        "thousandsOfJobs": 1576.3
+      },
+      {
+        "year": "2026",
+        "month": "January",
+        "thousandsOfJobs": 1580.8
+      },
+      {
+        "year": "2025",
+        "month": "December",
+        "thousandsOfJobs": 1578
+      },
+      {
+        "year": "2025",
+        "month": "November",
+        "thousandsOfJobs": 1581.6
+      },
+      {
+        "year": "2025",
+        "month": "October",
+        "thousandsOfJobs": 1579.2
+      },
+      {
+        "year": "2025",
+        "month": "September",
+        "thousandsOfJobs": 1583.4
+      },
+      {
+        "year": "2025",
+        "month": "August",
+        "thousandsOfJobs": 1585.1
+      },
+      {
+        "year": "2025",
+        "month": "July",
+        "thousandsOfJobs": 1584.9
+      },
+      {
+        "year": "2025",
+        "month": "June",
+        "thousandsOfJobs": 1593.6
+      },
+      {
+        "year": "2025",
+        "month": "May",
+        "thousandsOfJobs": 1596.1
+      },
+      {
+        "year": "2025",
+        "month": "April",
+        "thousandsOfJobs": 1595.4
+      },
+      {
+        "year": "2025",
+        "month": "March",
+        "thousandsOfJobs": 1596.5
+      },
+      {
+        "year": "2025",
+        "month": "February",
+        "thousandsOfJobs": 1595.6
+      },
+      {
+        "year": "2025",
+        "month": "January",
+        "thousandsOfJobs": 1599.7
+      },
+      {
+        "year": "2024",
+        "month": "December",
+        "thousandsOfJobs": 1594.7
+      },
+      {
+        "year": "2024",
+        "month": "November",
+        "thousandsOfJobs": 1595.3
+      },
+      {
+        "year": "2024",
+        "month": "October",
+        "thousandsOfJobs": 1595.3
+      },
+      {
+        "year": "2024",
+        "month": "September",
+        "thousandsOfJobs": 1596.3
+      },
+      {
+        "year": "2024",
+        "month": "August",
+        "thousandsOfJobs": 1600.5
+      },
+      {
+        "year": "2024",
+        "month": "July",
+        "thousandsOfJobs": 1598.4
+      },
+      {
+        "year": "2024",
+        "month": "June",
+        "thousandsOfJobs": 1600.3
+      },
+      {
+        "year": "2024",
+        "month": "May",
+        "thousandsOfJobs": 1604.2
+      },
+      {
+        "year": "2024",
+        "month": "April",
+        "thousandsOfJobs": 1603.6
+      },
+      {
+        "year": "2024",
+        "month": "March",
+        "thousandsOfJobs": 1604.4
+      },
+      {
+        "year": "2024",
+        "month": "February",
+        "thousandsOfJobs": 1603.4
+      },
+      {
+        "year": "2024",
+        "month": "January",
+        "thousandsOfJobs": 1589.4
+      },
+      {
+        "year": "2023",
+        "month": "December",
+        "thousandsOfJobs": 1600.9
+      },
+      {
+        "year": "2023",
+        "month": "November",
+        "thousandsOfJobs": 1598.4
+      },
+      {
+        "year": "2023",
+        "month": "October",
+        "thousandsOfJobs": 1599.6
+      },
+      {
+        "year": "2023",
+        "month": "September",
+        "thousandsOfJobs": 1596.9
+      },
+      {
+        "year": "2023",
+        "month": "August",
+        "thousandsOfJobs": 1595.5
+      },
+      {
+        "year": "2023",
+        "month": "July",
+        "thousandsOfJobs": 1593.5
+      },
+      {
+        "year": "2023",
+        "month": "June",
+        "thousandsOfJobs": 1594.3
+      },
+      {
+        "year": "2023",
+        "month": "May",
+        "thousandsOfJobs": 1589.7
+      },
+      {
+        "year": "2023",
+        "month": "April",
+        "thousandsOfJobs": 1591.5
+      },
+      {
+        "year": "2023",
+        "month": "March",
+        "thousandsOfJobs": 1586.7
+      },
+      {
+        "year": "2023",
+        "month": "February",
+        "thousandsOfJobs": 1587.4
+      },
+      {
+        "year": "2023",
+        "month": "January",
+        "thousandsOfJobs": 1584.5
+      }
+    ],
+    "federal_spending": [
+      {
+        "year": "2023",
+        "totalUsd": 6894959751.44,
+        "perCapitaUsd": 8680.73
+      },
+      {
+        "year": "2024",
+        "totalUsd": 5953378911.19,
+        "perCapitaUsd": 7357.78
+      },
+      {
+        "year": "2025",
+        "totalUsd": 6387147814.74,
+        "perCapitaUsd": 8030.67
+      }
+    ],
+    "population": [
+      {
+        "year": "2022",
+        "population": 3200517
+      },
+      {
+        "year": "2023",
+        "population": 3207004
+      },
+      {
+        "year": "2024",
+        "population": 3241488
+      }
+    ],
+    "median_household_income": [
+      {
+        "year": "2022",
+        "medianHouseholdIncomeUsd": 69588
+      },
+      {
+        "year": "2023",
+        "medianHouseholdIncomeUsd": 71433
+      },
+      {
+        "year": "2024",
+        "medianHouseholdIncomeUsd": 75501
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "slug": "zach-nunn",
+      "full_name": "NUNN, ZACH",
+      "party": "REPUBLICAN PARTY",
+      "incumbent": true,
+      "fec_candidate_id": "H2IA03119",
+      "fec_status": "C",
+      "bioguide_id": "N000193",
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 4869248.8,
+        "totalSpent": 1353712.8,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 143417.74,
+          "largeDollar": 866884.11,
+          "pac": 1721477.03,
+          "party": 5000,
+          "selfFunded": null
+        }
+      },
+      "bio": {
+        "date_of_birth": {
+          "value": "1979-05-04",
+          "source_url": "https://www.wikidata.org/wiki/Q84719792",
+          "source_type": "wikidata_structured"
+        },
+        "birthplace": {
+          "value": "Story City, Iowa",
+          "source_url": "https://www.wikidata.org/wiki/Q84719792",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Drake University",
+          "source_url": "https://www.wikidata.org/wiki/Q84719792",
+          "source_type": "wikidata_structured"
+        },
+        "marital_status": {
+          "value": "husband, father of six",
+          "source_url": "https://zachnunn.com/",
+          "snippet": "Zach Nunn is a congressman, proud combat veteran, husband, father of six, and lifelong Iowan.",
+          "source_type": "llm_extracted_campaign_site"
+        },
+        "employment_record": {
+          "value": "United States House of Representatives, House Representative - District 3, Iowa (2023 - Present); US Air Force, Commander (2018 - Present); Iowa State Senate, State Senator - District 15 (2019 - 2023); Iowa House of Representatives, House Representative - District 30 (2015 - 2019); Drake University, Adjunct Professor, Cybersecurity & National Policy (2014 - 2020); SimSpace Corporation, Director Of Business Development (2013 - 2015); The White House - Security Council, Director of Cybersecurity Policy & Engagement (2011 - 2013); Office of the Director of National Intelligence, Chief Operations Officer (2011 - 2014); Office of the Director of National Intelligence, National Counterintelligence Officer - NIM Cyber (2008 - 2011); US Air Force, Airborne Intelligence Officer (2003 - 2018); United States Senate, Legislative Analyst (2002 - 2003); House of Commons, MP Research Assistant - Rt Hon Sir Peter Bottomley (2002 - 2002)",
+          "source_url": "https://www.ballotready.org/people/zach-nunn",
+          "snippet": "Professional Experience United States House of Representatives, House Representative - District 3, Iowa (2023 - Present) US Air Force, Commander (2018 - Present) Iowa State Senate, State Senator - District 15 (2019 - 2023) Iowa House of Representatives, House Representative - District 30 (2015 - 2019) Drake University, Adjunct Professor, Cybersecurity & National Policy (2014 - 2020) SimSpace Corporation, Director Of Business Development (2013 - 2015) The White House - Security Council, Director of Cybersecurity Policy & Engagement (2011 - 2013) Office of the Director of National Intelligence, Chief Operations Officer (2011 - 2014) Office of the Director of National Intelligence, National Counterintelligence Officer - NIM Cyber (2008 - 2011) US Air Force, Airborne Intelligence Officer (2003 - 2018) United States Senate, Legislative Analyst (2002 - 2003) House of Commons, MP Research Assistant - Rt Hon Sir Peter Bottomley (2002 - 2002)",
+          "source_type": "llm_extracted_ballotready"
+        },
+        "high_school": {
+          "value": "Southeast Polk High School (graduated 1998)",
+          "source_url": "https://en.wikipedia.org/wiki/Zach_Nunn",
+          "snippet": "He graduated from Southeast Polk High School in 1998",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "civic_affiliations": {
+          "value": "Member of Iowa House of Representatives from the 30th district (2015-2019); Member of Iowa Senate from the 15th district (2019-2023); U.S. Representative for Iowa's 3rd congressional district (2023-present); Co-chairs the Congressional Caucus on Foster Youth",
+          "source_url": "https://en.wikipedia.org/wiki/Zach_Nunn",
+          "snippet": "Nunn was a member of the Iowa House of Representatives from 2015 to 2019. [ 5 ] [ 11 ] He was a member of the Iowa Senate from 2019 to 2023. [ 5 ] U.S House of Representatives [ edit ] Elections [ edit ] 2022 [ edit ] Main article: 2022 United States House of Representatives elections in Iowa § District 3 In 2021, Nunn announced his candidacy for Iowa's 3rd congressional district in the 2022 election against incumbent Cindy Axne , the only Democrat in Iowa's congressional delegation. [ 12 ] The 3rd district, which covers central Iowa, [ 13 ] became more rural and conservative-leaning after the 2020 redistricting cycle , [ 14 ] taking in nine new counties . [ 15 ] The race was considered among the nation's most competitive House races. [ 15 ] [ 16 ] Nunn was endorsed by Donald Trump , Nikki Haley , and Tom Cotton , [ 17 ] and easily won the June Republican primary election against two other candidates. [ 18 ] Nunn won the 2022 election against Cindy Axne, 50.3% to 49.6%. [ 19 ] 2024 [ edit ] On Sunday, November 3, the Des Moines Register released the final Iowa Poll, which suggested that Iowans preferred the Democrat to the Republican at 48% to 41%. [ 20 ] Nunn won a second term, proving the Iowa Poll wrong. [ 21 ] He defeated Democratic nominee Lanon Baccam, 51.9% to 48.1%. [ 22 ] Tenure [ edit ] In April 2025, Nunn introduced bipartisan legislation designed to combat scams targeting older Americans. The Guarding Unprotected Aging Retirees from Deception Act, which is co-sponsored with Josh Gottheimer (D-New Jersey) and Scott Fitzgerald (R-Wisconsin), would give local law enforcement better access to tools to trace scammers' fraudulent activity. [ 23 ] Nunn also introduced the Social Security Overpayment Relief Act, which would limit the ability of the Social Security Administration (SSA) to recover money overpaid due to errors on the part of the SSA. The SSA would no longer be able to demand repayment of over payments more than ten years old unless there is associated fraudulent activity. [ 24 ] [ 25 ] In May 2025, Nunn, along with Ayanna Pressley (D-MA) and Lauren Underwood (D-IL), introduced the bipartisan HEALTH for MOM Act, which aims to expand access to maternal healthcare in areas lacking maternity care. [ 26 ] [ 27 ] Rep. Nunn co-chairs the Congressional Caucus on Foster Youth.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Economy and Government Spending",
+          "value": "Passed legislation to rein in government bureaucracy and stop tax-and-spend policies that have driven inflation and record cost levels",
+          "snippet": "In Congress, he passed legislation to rein in government bureaucracy and the liberal wish lists impeding our economy. We must stop the tax-and-spend policies that have driven us to record cost levels and help get Americans back to work"
+        },
+        {
+          "topic": "National Defense",
+          "value": "Supports policies that adequately fund the military and prioritize veterans, active military, military families, and mental health",
+          "snippet": "In Washington, he supported policies that not only adequately fund our military but prioritize our veterans, active military, military families, and mental health."
+        }
+      ],
+      "platform_source_url": "https://zachnunn.com/issues/",
+      "_platform_resolved_at": "2026-08-12T19:27:08.539Z",
+      "campaign_site_url": "https://zachnunn.com",
+      "_campaign_site_reachability": "reachable",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:26.390Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=bGUZRfdwNEY",
+      "platform_video_title": "Skilled Workers",
+      "platform_video_source_url": "https://zachnunn.com/nunn-campaign-launches-new-ad-on-housing-costs-and-fixing-americas-skilled-worker-shortage/",
+      "platform_video_tier": 1,
+      "platform_video_source_type": "campaign_site",
+      "_platform_video_resolved_at": "2026-08-18T22:41:58.008Z",
+      "bio_summary": {
+        "value": "Zach Nunn is a congressman, proud combat veteran, husband, father of six, and lifelong Iowan. Zach Nunn knows Iowa’s strength comes from putting our communities first. His public service is a proven record of delivering for Iowans with hard work, and innovative solutions. As a combat aviator with the US Air Force, Zach is a fighter for America. Zach will never stop fighting for Iowans’ individual liberties, fiscal discipline, and limited government.",
+        "source_url": "https://zachnunn.com/",
+        "source_type": "campaign_site"
+      },
+      "_bio_summary_resolved_at": "2026-08-20T20:49:54.949Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [
+        {
+          "rollNumber": 283,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Removing Barriers to Work for Disabled Americans Act",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll283.xml"
+        },
+        {
+          "rollNumber": 282,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Directing the President, pursuant to section 5(c) of the War Powers Resolution, to remove United States Armed Forces from hostilities with Iran",
+          "date": "23-Jul-2026",
+          "result": "Passed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll282.xml"
+        },
+        {
+          "rollNumber": 281,
+          "year": 2026,
+          "question": "On Agreeing to the Resolution",
+          "billTitle": "Establishing the congressional budget for the United States Government for fiscal year 2027 and setting forth the appropriate budgetary levels for fiscal years 2028 through 2036",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll281.xml"
+        },
+        {
+          "rollNumber": 280,
+          "year": 2026,
+          "question": "On Passage",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Passed",
+          "position": "Yea",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll280.xml"
+        },
+        {
+          "rollNumber": 279,
+          "year": 2026,
+          "question": "On Motion to Recommit",
+          "billTitle": "Stop Insider Trading Act",
+          "date": "22-Jul-2026",
+          "result": "Failed",
+          "position": "Nay",
+          "sourceUrl": "https://clerk.house.gov/evs/2026/roll279.xml"
+        }
+      ],
+      "performance": {
+        "attendance": {
+          "votesInSession": 198,
+          "votesCast": 189,
+          "attendanceRate": 0.9545454545454546
+        },
+        "committees": [
+          {
+            "committee": "House Committee on Agriculture",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — General Farm Commodities, Risk Management, and Credit",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Agriculture — Commodity Markets, Digital Assets, and Rural Development",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Select Committee on the Strategic Competition Between the United States and the Chinese Communist Party",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — National Security, Illicit Finance, and International Financial Institutions",
+            "title": "Vice Chairman",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Digital Assets, Financial Technology, and Artificial Intelligence",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
+            "committee": "House Committee on Financial Services — Capital Markets",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
+        "bills_sponsored": 121,
+        "bills_cosponsored": 870,
+        "bills_became_law": 0,
+        "enacted_laws": [],
+        "ideology_score": {
+          "nominateDim1": 0.293,
+          "nominateDim2": 0.203,
+          "congress": 119,
+          "sourceUrl": "https://voteview.com/person/N000193"
+        },
+        "bridge_score": {
+          "grade": "A",
+          "score": 99.4,
+          "snapshotDate": "June 30, 2026",
+          "profileUrl": "https://www.bridgegrades.org/congress/N000193"
+        }
+      },
+      "_curated_match": false
+    },
+    {
+      "slug": "sarah-trone-garriott",
+      "full_name": "TRONE GARRIOTT, SARAH",
+      "party": "DEMOCRATIC PARTY",
+      "incumbent": false,
+      "fec_candidate_id": "H6IA03268",
+      "fec_status": "C",
+      "bioguide_id": null,
+      "financials": {
+        "cycle": 2026,
+        "totalRaised": 5293772.59,
+        "totalSpent": 1434089.37,
+        "cashOnHand": null,
+        "fundingSources": {
+          "smallDollar": 894587.25,
+          "largeDollar": 3861167.51,
+          "pac": 439351.37,
+          "party": 11434.65,
+          "selfFunded": 120
+        }
+      },
+      "bio": {
+        "birthplace": {
+          "value": "Minneapolis, Minnesota",
+          "source_url": "https://www.wikidata.org/wiki/Q106762645",
+          "source_type": "wikidata_structured"
+        },
+        "college": {
+          "value": "Bachelor of Arts degree in history from the College of St. Scholastica, Master of Theological Studies from the Harvard Divinity School, and Master of Divinity from the Lutheran School of Theology at Chicago",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_Trone_Garriott",
+          "snippet": "She earned a Bachelor of Arts degree in history from the College of St. Scholastica , a Master of Theological Studies from the Harvard Divinity School , and a Master of Divinity from the Lutheran School of Theology at Chicago .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "marital_status": {
+          "value": "Married to William Garriott",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_Trone_Garriott",
+          "snippet": "Garriott is married to William Garriott, a professor at Drake University .",
+          "source_type": "llm_extracted_wikipedia"
+        },
+        "employment_record": {
+          "value": "Volunteer with AmeriCorps VISTA in New Mexico after undergraduate degree; chaplain at Thomas Jefferson University Hospital in Philadelphia in 2004 and 2005; chaplain at Lurie Children's Hospital in Chicago from 2005 to 2008; pastor at Lutheran churches in Bergton, Virginia and Clive, Iowa; coordinator of interfaith engagement at the Des Moines Area Religious Council since 2017",
+          "source_url": "https://en.wikipedia.org/wiki/Sarah_Trone_Garriott",
+          "snippet": "After earning her undergraduate degree, Garriot worked as a volunteer with AmeriCorps VISTA in New Mexico . [ 2 ] Ministry career [ edit ] In 2004 and 2005, Garriott was a chaplain at the Thomas Jefferson University Hospital in Philadelphia . From 2005 to 2008, she was a chaplain at Lurie Children's Hospital in Chicago . She later worked as a pastor at Lutheran churches in Bergton, Virginia and Clive, Iowa . Since 2017, Garriott works as the coordinator of interfaith engagement at the Des Moines Area Religious Council.",
+          "source_type": "llm_extracted_wikipedia"
+        }
+      },
+      "platform": [
+        {
+          "topic": "Making Life More Affordable—For All of Us",
+          "value": "Supports cracking down on corporate price gouging and ending tariff policies she says are raising prices; supports expanding the Child Tax Credit and Earned Income Tax Credit; supports eliminating junk fees and surprise medical bills.",
+          "snippet": "Across Iowa, families are making tough choices. I've met parents who ration their medications so their kids can eat, and seniors who skip meals to pay their heating bills. I've lived it too—paying my way through college by cleaning hotel rooms and working retail.\n\nThat's why I'm committed to lowering costs in real, meaningful ways. This includes cracking down on corporate price gouging and ending the reckless tariff policy that is raising prices on ordinary families and wreaking havoc on Iowa's economy. I am committed to expanding the Child Tax Credit and the Earned Income Tax Credit to put money directly back in families' pockets. We also need to eliminate junk fees and surprise medical bills, it is just common sense. It's time our economy worked for Iowans again—not just corporations.\n"
+        },
+        {
+          "topic": "Growing Our Economy by Investing in People, Not Special Interests",
+          "value": "Supports raising wages and small business support through apprenticeships, vocational schools, community colleges, and job training for high-skill work; supports rural broadband and infrastructure investment; supports cracking down on wage theft and deceptive fees.",
+          "snippet": "Our economy should reward hard work, not hoarding wealth. But too often, it feels like the system is rigged against the very people who keep it running. Working families deserve the tools and opportunities to build a good life.\n\nIn Congress, I'll fight to raise wages and support local small businesses—not by writing blank checks, but by investing in apprenticeships, vocational schools, community colleges, and job training programs that prepare Iowans for high-skill, high-wage work. I'll support policies that build out broadband access in rural areas and invest in infrastructure that connects people to opportunity. And I'll go after the companies that exploit workers through wage theft or deceptive fees, because no Iowan should be cheated out of an honest day's pay.\n"
+        },
+        {
+          "topic": "Health Care That's Affordable and There When You Need It",
+          "value": "Opposes Medicaid cuts she attributes to Rep. Zach Nunn, citing 86,000 Iowans at risk of losing coverage and rural hospital/clinic closures; supports extending ACA tax credits, letting Medicare negotiate drug prices, expanding access to Medicare, expanding mental health and substance use treatment, and increased support for rural health providers.",
+          "snippet": "Health care shouldn't depend on your zip code or your income. When I served as a pastor in rural Virginia, the closest hospital was almost an hour away. Here in Iowa, I've watched rural hospitals close and mental health services disappear. To make healthcare accessible and affordable, we need to roll back the massive Medicaid cuts Zach Nunn voted for this year, which will cause 86,000 Iowans to lose their health insurance, and close rural hospitals and clinics. We also need to extend the ACA tax credits to keep insurance affordable for working families.\n\nIn Congress, I'll fight for common-sense solutions like allowing Medicare to negotiate prescription drug prices to lower costs and provide people with more choices. I'll work to let more Iowans access care earlier through Medicare and roll back the disastrous cuts to Medicaid that Zach Nunn voted for. I'll also expand mental health and substance use treatment and push for increased support for rural providers—because nobody should have to drive 90 miles or wait six months to see a doctor.\n"
+        },
+        {
+          "topic": "Public Safety",
+          "value": "Supports investing in local law enforcement resources, victim services, and community-based mental health response teams; supports closing loopholes on weapons access; supports school safety funding focused on prevention; brother is a police officer.",
+          "snippet": "Every Iowan should feel safe in their community, their schools, and their workplace. My brother is a police officer, and I have a deep appreciation for our law enforcement and first responders. I also know that safety isn't just about enforcement—it's about prevention. That's why I'll support investing in what local law enforcement needs, more victim services, and community-based mental health response teams. I'll work to hold dangerous criminals accountable and close loopholes that allow weapons to flood our streets. I'll fight to fund school safety efforts that make students feel protected without turning classrooms into fortresses. Public safety means preventing crime, not just responding after it happens, to make communities safer for everyone.\n"
+        },
+        {
+          "topic": "Protecting Iowa's Land, Water, and Clean Energy Future",
+          "value": "Has worked with conservation groups on clean water and public lands access; named Izaak Walton League Legislator of the Year; supports investment in wind, solar, and biofuel energy and sustainable farming practices to protect soil and water quality.",
+          "snippet": "Our family farms, open spaces, and rivers are part of what makes Iowa special—and they're under threat. I've worked with conservation groups across the state to protect clean water and expand access to public lands. As the Izaak Walton League's Legislator of the Year, I've seen how bipartisan support can create meaningful change. In Congress, I'll support investments in clean energy like wind, solar, and biofuels—which already power thousands of Iowa jobs—and I'll work with farmers to promote sustainable practices that keep our soil healthy and our water safe. We can tackle climate change and strengthen our economy at the same time.\n"
+        },
+        {
+          "topic": "Banning Corporate Money in Politics",
+          "value": "Supports a full ban on stock trading by members of Congress, the President, and their staff; hasn't taken corporate PAC money in this race and supports banning them outright, citing Rep. Zach Nunn's millions in corporate PAC contributions; supports banning Super PACs and overturning Citizens United, citing Elon Musk's $817,700 in America PAC spending to help elect Nunn in 2024.",
+          "snippet": "Ban Politicians from Trading Stocks\n\nThe fastest way to start rebuilding trust is to stop letting the people who write the laws make money on the outcome. We've watched members of Congress, the President, cabinet members, and well-connected insiders turn hundreds of thousands, sometimes millions, of dollars in stock trades or prediction markets while sitting on information the rest of us will never see. Some of them are trading on the very decisions they're making in office. That's not investing. That's cheating, and it should be a crime. I support a full ban on stock trading by any member of Congress, the White House, and their staff, so no one in government can pad their own bank account on the public's dime. And if fines won't get the job done, we should throw the offenders in jail.\n\nBan Corporate PAC Money\n\nToo many members of Congress spend more time answering to their donors than the people who elected them. Zach Nunn is a perfect example. He's taken millions from corporate PACs. When that much of your money comes from corporate interests, Iowans have every right to ask who you're really working for. I haven't taken a dime from corporate PACs in this race, and I'll work to ban them outright. The only people your representative should answer to are the ones who sent them there.\n\nGet Rid of Super PACs and Overturn Citizens United\n\nSuper PACs are another way corporations and billionaires buy their way around the rules. They pour unlimited, often secret money into our elections. You don't have to look far to see it. Elon Musk's America PAC spent $817,700 to get Zach Nunn elected in 2024. Then Nunn turned around and voted to cut Musk's taxes. That's the whole game, right there in front of our eyes. I'll work to ban super PACs and overturn Citizens United, because our democracy should belong to the people, not to whoever writes the biggest check.\n"
+        },
+        {
+          "topic": "Government Accountability & Ethics Reform",
+          "value": "Has written Iowa term-limit legislation and will push for a 12-year federal cap (six House terms or two Senate terms); supports an enforceable Supreme Court ethics code with recusal requirements, gift/travel disclosure, and independent enforcement; supports a nationwide ban on partisan gerrymandering modeled on Iowa's nonpartisan redistricting process; supports a lifetime ban on members of Congress becoming lobbyists.",
+          "snippet": "Term Limits\n\nElected office is not a lifetime appointment. When someone holds the same seat for 20 or 30 years, they stop listening to the people back home and start listening to the lobbyists down the hall. I've already written term-limit legislation in Iowa, and I'll do it again in Congress: a 12-year cap: six House terms or two Senate terms.\n\nA Real Code of Ethics for the Supreme Court\n\nEvery federal judge, every Congressperson, and the President is bound by a code of conduct. The most powerful court in the country is not. Supreme Court justices answer to no one but themselves, and it shows. We need a clear, enforceable ethics code: justices step aside when they have a financial stake in a case, full disclosure of every gift and free trip, and an independent body with the power to actually enforce the rules. The Court needs to be accountable to the American people, and we deserve a Court they can trust again.\n\nEnd Partisan Gerrymandering\n\nGerrymandering lets politicians pick their voters instead of voters picking their politicians. It's one of the biggest reasons Washington stopped listening. Iowa figured out a better way decades ago. A nonpartisan agency draws our maps based on population and geography — not party, not incumbents, not who won last time. Politicians can vote a map up or down, but they can't rig it. I'll push to ban partisan gerrymandering nationwide and put voters back in charge of their own elections.\n\nA Lifetime Ban on Members of Congress Becoming Lobbyists\n\nRight now, a member of Congress can walk out of office on Friday and start lobbying their old colleagues on Monday, selling the access and connections they built on the taxpayer's dime to the highest corporate bidder. The moment you start auditioning for your next job, you stop doing the one you have. I'll push for a lifetime ban on members of Congress becoming lobbyists. Serving the public should never be a steppingstone to cashing in on it.\n"
+        },
+        {
+          "topic": "Transparency & Constituent Access",
+          "value": "Supports requiring members of Congress to hold annual public town halls (contrasting her own record of town halls and door-knocking with Zach Nunn's, whom she says has held none) and to publish their meeting schedules; supports regular independent audits of federal agency spending.",
+          "snippet": "Required Annual Public Town Halls\n\nThe only way to represent people is to actually show up and listen to them, even the ones who didn't vote for you. Here in Iowa, I've held open town halls and knocked on thousands of doors to do exactly that. Zach Nunn hasn't held a single public town hall during his tenure in Congress. He's too afraid to stand in a room with the people he represents and answer for his votes. It's cowardly, and it's wrong. I'll push to require every member of Congress to hold open, public town halls every year. If you can't face the people you serve, you shouldn't have the job. If members of Congress don't hold town halls, they shouldn't get paid.\n\nPut Your Schedule Out in the Open\n\nIowans deserve to know who has their representative's ear. Too often, the people getting face time in Washington are lobbyists and big donors, while regular folks can't even get a call back. I'll push to require members of Congress to publish a regular public schedule, including their meetings. If a meeting can't stand the light of day, it probably shouldn't be happening.\n\nAudit How Washington Spends Your Money\n\nEvery dollar the federal government spends is a dollar that comes out of someone's paycheck. People have a right to know it's being spent wisely and honestly. I'll push for regular, independent audits of how federal agencies spend taxpayer dollars, with the results made public for everyone to see. We work hard for that money. The least Washington can do is account for every penny of it.\n"
+        },
+        {
+          "topic": "The Right to Organize and the Dignity of Work",
+          "value": "Has a 100% lifetime voting record with the Iowa Federation of Labor; supports passage of the PRO Act to strengthen collective bargaining rights and strong enforcement of the Davis-Bacon Act for fair prevailing wages on federally funded projects.",
+          "snippet": "As the only candidate in this race with a 100% lifetime voting record with the Iowa Federation of Labor, I will always stand with working people and the labor movement. Growing Iowa's middle class depends on protecting the right to organize, collective bargaining, and to stand together for better pay, safer workplaces, and a secure retirement.\n\nIn Congress, I'll support passage of the PRO Act to strengthen and enforce these rights, and I'll work to ensure strong enforcement of the Davis-Bacon Act so that federally funded infrastructure projects pay workers fair, prevailing wages. I believe in unions and apprenticeships because I believe in dignity—and that every Iowan deserves to share in the prosperity their labor creates.\n"
+        },
+        {
+          "topic": "Protect Great Public Schools for Every Child, in Every Community",
+          "value": "Opposes diverting public funds to private school vouchers, citing rural school consolidations/closures; supports protecting Department of Education funding to Iowa classrooms, raising teacher pay, expanding early childhood education, and access to community college and trade programs.",
+          "snippet": "My boys attend Iowa's great public schools, and I see the difference dedicated teachers and strong school communities make every single day. However, I've also seen politicians attempt to play politics with schools and dismantle public education—diverting millions of taxpayer dollars to private school vouchers while rural schools are forced to consolidate or close altogether.\n\nIn Congress, I'll work to protect the Department of Education and the hundreds of millions of federal dollars that flow to Iowa classrooms each year. I'll push to raise teacher pay, expand early childhood education, and make community college and trade programs available to all. Because when we invest in public education, we invest in a better future for all of us.\n"
+        },
+        {
+          "topic": "Reproductive Freedom",
+          "value": "Ran for office in part after an Iowa senator supporting an abortion ban admitted he didn't know what an ectopic pregnancy was; supports restoring nationwide abortion access protections and safeguarding rights to contraception, IVF, and prenatal care.",
+          "snippet": "I ran for office after a senator who supported an extreme abortion ban admitted he didn't know what an ectopic pregnancy was. That moment told me everything about the stakes of this fight. Reproductive freedom isn't abstract—it's about whether you get to make decisions about your body and your future. In Congress, I'll work to restore nationwide protections for abortion access and safeguard the right to contraception, IVF, and prenatal care. Politicians should not interfere with deeply personal medical decisions that should be made between patients, doctors, and family. This is about privacy, dignity, and respect.\n"
+        },
+        {
+          "topic": "Serving Our Veterans",
+          "value": "Supports expanding VA service access, especially in rural areas, and simplifying access to housing, education, and job training benefits; supports increased investment in veteran suicide prevention and crisis response.",
+          "snippet": "Our veterans kept their promise to our country. In return, we need to keep our promises to them. I've heard from too many veterans in Iowa who are stuck waiting for appointments, denied the mental health support they need, or lost in a maze of bureaucracy. In Congress, I'll work to expand access to VA services—especially in rural areas—and ensure our vets can access housing, education, and job training without jumping through hoops. I'll also advocate for increased investment in suicide prevention and crisis response. Supporting veterans is our obligation.\n"
+        },
+        {
+          "topic": "Immigration",
+          "value": "Supports comprehensive immigration reform: securing the border, streamlining legal pathways, protecting Dreamers, and investing in preventing human trafficking and drug smuggling; supports ensuring ICE follows the law and is accountable to the public.",
+          "snippet": "Our immigration system is broken, and Washington is making the problem worse—chaos at the border, dysfunction in the courts, and politicians deeply out of touch with the needs of our communities. Iowa is stronger because of the people who've made a home here and contributed to our community. But we also need a system that enforces the law and secures our borders. In Congress, I'll push for comprehensive immigration reform that fixes our broken system: secures the border, streamlines legal pathways, protects Dreamers, and invests in preventing human trafficking and drug smuggling. We also need to ensure ICE is following the law, accountable to the American people, and protecting, not hurting, our communities. It's long past time for solutions, not politics as usual, because the status quo is failing everyone.\n"
+        }
+      ],
+      "platform_source_url": "https://sarahforiowa.com",
+      "_platform_resolved_at": "2026-08-31T12:26:15.341Z",
+      "campaign_site_url": "https://sarahforiowa.com",
+      "_campaign_site_reachability": "cloudflare_challenge",
+      "_campaign_site_discovered_at": "2026-08-30T23:57:26.392Z",
+      "platform_video_url": "https://www.youtube.com/watch?v=tipE7n2Q-sw",
+      "platform_video_title": "Sarah Trone Garriott for Congress | Quick",
+      "platform_video_source_url": "https://www.youtube.com/@sarahforiowa",
+      "platform_video_tier": 0,
+      "platform_video_source_type": "curated",
+      "_platform_video_resolved_at": "2026-08-23T12:00:11.240Z",
+      "bio_summary": {
+        "value": "Sarah Trone Garriott is an American politician and minister serving as a member of the Iowa Senate from the 14th district since 2021. A member of the Democratic Party , she represents part of Dallas County in the Des Moines area and served previously as Senate minority whip . She is the Democratic nominee in the 2026 election in Iowa 's 3rd congressional district . Early life and education [ edit ] Garriott was born in Minneapolis . She earned a Bachelor of Arts degree in history from the College of St. Scholastica , a Master of Theological Studies from the Harvard Divinity School , and a Master of Divinity from the Lutheran School of Theology at Chicago . [ 1 ] ",
+        "source_url": "https://en.wikipedia.org/wiki/Sarah_Trone_Garriott",
+        "source_type": "wikipedia"
+      },
+      "_bio_summary_resolved_at": "2026-08-26T10:36:14.745Z",
+      "financial_disclosure": null,
+      "_financial_disclosure_resolved_at": null,
+      "recent_votes": [],
+      "performance": null,
+      "_curated_match": true
+    }
+  ]
+}
