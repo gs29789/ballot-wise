@@ -473,18 +473,18 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4379701476.45,
+        "totalUsd": 4379701472.7,
         "perCapitaUsd": 5691.53
       },
       {
         "year": "2024",
-        "totalUsd": 4943641331.86,
+        "totalUsd": 4943641166.66,
         "perCapitaUsd": 6424.38
       },
       {
         "year": "2025",
-        "totalUsd": 5167678412.51,
-        "perCapitaUsd": 6715.53
+        "totalUsd": 5167670234.03,
+        "perCapitaUsd": 6715.52
       }
     ],
     "population": [
@@ -698,10 +698,16 @@
       "recent_votes": [],
       "performance": {
         "attendance": null,
-        "committees": [],
+        "committees": [
+          {
+            "committee": "House Committee on Energy and Commerce",
+            "title": "Ranking Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          }
+        ],
         "bills_sponsored": 579,
         "bills_cosponsored": 6722,
-        "bills_became_law": 12,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "HEARTS Act of 2024",
@@ -813,15 +819,15 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": -0.402,
+          "nominateDim1": -0.403,
           "nominateDim2": -0.162,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/P000034"
         },
         "bridge_score": {
           "grade": "C",
-          "score": 25.5,
-          "snapshotDate": "June 30, 2026",
+          "score": 23.1,
+          "snapshotDate": "August 31, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/P000034"
         }
       },
