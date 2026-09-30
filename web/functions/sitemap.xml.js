@@ -58,7 +58,7 @@ export async function onRequestGet() {
     // below rather than failing the whole sitemap request.
   }
 
-  const urls = [`${SITE_URL}/`, `${SITE_URL}/about.html`, `${SITE_URL}/races`, ...buildUrls(raceKeys)];
+  const urls = [`${SITE_URL}/`, `${SITE_URL}/about`, `${SITE_URL}/races`, ...buildUrls(raceKeys)];
   const body =
     `<?xml version="1.0" encoding="UTF-8"?>\n` +
     `<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n` +
