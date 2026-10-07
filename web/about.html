@@ -14,9 +14,13 @@
          whenever either changes — there's no shared source between them. -->
     <meta name="description" content="Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed. How the data is sourced, why some fields are empty, and how Ballot-Wise is funded." />
 
+    <!-- /about, not /about.html: Cloudflare Pages 308s the .html form to the
+         extensionless one, so /about is the URL Google actually lands on. -->
+    <link rel="canonical" href="https://ballot-wise.com/about" />
+
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Ballot-Wise" />
-    <meta property="og:url" content="https://ballot-wise.com/about.html" />
+    <meta property="og:url" content="https://ballot-wise.com/about" />
     <meta property="og:title" content="About the data — Ballot-Wise" />
     <meta property="og:description" content="Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed." />
     <meta property="og:image" content="https://ballot-wise.com/og-image.png" />
@@ -33,7 +37,7 @@
         "@context": "https://schema.org",
         "@type": "AboutPage",
         "name": "About the data — Ballot-Wise",
-        "url": "https://ballot-wise.com/about.html",
+        "url": "https://ballot-wise.com/about",
         "description": "Every fact on Ballot-Wise traces to a public source, linked directly next to the value — nothing summarized, inferred, or guessed.",
         "isPartOf": { "@type": "WebSite", "name": "Ballot-Wise", "url": "https://ballot-wise.com/" }
       }

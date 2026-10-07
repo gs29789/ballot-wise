@@ -1848,7 +1848,7 @@ function LandingHero({ address, setAddress, handleSearch, status, onShowContribu
                 the one "About the data" entry point a crawler (or anyone
                 without JS) can actually follow, since it's on the page
                 search engines land on by default. See about.html. */}
-            <a href="/about.html" style={{ color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
+            <a href="/about" style={{ color: D.inkSoft, fontSize: 12, textDecoration: "underline" }}>
               About the data
             </a>
             <span style={{ fontFamily: "'IBM Plex Mono', monospace", fontSize: 10.5, letterSpacing: "0.12em", textTransform: "uppercase", color: D.inkSoft }}>
