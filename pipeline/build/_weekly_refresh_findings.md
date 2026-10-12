@@ -1,212 +1,188 @@
-# Weekly refresh findings — 2026-10-05
+# Weekly refresh findings — 2026-10-12
 
-204 total change(s): 0 may need the paid discovery process, 204 informational.
+180 total change(s): 0 may need the paid discovery process, 180 informational.
 
 ## Informational — existing candidates' public-record data updated
 
 | Race | Candidate | Field | Detail |
 |---|---|---|---|
-| house/WI-6.json |  | hard_metrics.federal_spending | New data point published |
-| senate/WV.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-4.json |  | hard_metrics.federal_spending | New data point published |
-| house/WV-2.json |  | hard_metrics.federal_spending | New data point published |
-| senate/WV.json | CAPITO, SHELLEY MOORE | committees | Committee assignments changed |
-| senate/WV.json | CAPITO, SHELLEY MOORE | bridge_score | Bridge Grade B (71.7) → B (70.8) |
-| house/WI-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/WV-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-3.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-5.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-2.json |  | hard_metrics.federal_spending | New data point published |
-| senate/VA.json |  | hard_metrics.federal_spending | New data point published |
-| senate/VA.json | WARNER, MARK ROBERT | ideology_score | DW-NOMINATE -0.216 → -0.216 |
-| senate/VA.json | WARNER, MARK ROBERT | bridge_score | Bridge Grade C (48.8) → C (49.9) |
-| house/WI-7.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-8.json |  | hard_metrics.federal_spending | New data point published |
-| house/WI-6.json | GROTHMAN, GLENN S. | ideology_score | DW-NOMINATE 0.601 → 0.601 |
-| house/WI-6.json | GROTHMAN, GLENN S. | bridge_score | Bridge Grade B (45) → B (54) |
-| house/WI-4.json | MOORE, GWEN S | ideology_score | DW-NOMINATE -0.52 → -0.52 |
-| house/WI-4.json | MOORE, GWEN S | bridge_score | Bridge Grade B (45.7) → C (43.4) |
-| house/WV-2.json | MOORE, RILEY | ideology_score | DW-NOMINATE 0.538 → 0.544 |
-| house/WV-2.json | MOORE, RILEY | bridge_score | Bridge Grade C (18.3) → C (20.2) |
-| house/WI-1.json | STEIL, BRYAN GEORGE | ideology_score | DW-NOMINATE 0.421 → 0.421 |
-| house/WI-1.json | STEIL, BRYAN GEORGE | bridge_score | Bridge Grade C (31.7) → C (30.4) |
-| house/WV-1.json | MILLER, CAROL DEVINE | ideology_score | DW-NOMINATE 0.53 → 0.53 |
-| house/WV-1.json | MILLER, CAROL DEVINE | bridge_score | Bridge Grade A (96.1) → A (96.5) |
-| house/WI-3.json | VAN ORDEN, DERRICK F. MR. | ideology_score | DW-NOMINATE 0.379 → 0.379 |
-| house/WI-3.json | VAN ORDEN, DERRICK F. MR. | bridge_score | Bridge Grade B (48.9) → B (47.2) |
-| house/WI-2.json | POCAN, MARK | bridge_score | Bridge Grade F (14.4) → F (15) |
-| house/WI-5.json | FITZGERALD, SCOTT | ideology_score | DW-NOMINATE 0.598 → 0.597 |
-| house/WI-5.json | FITZGERALD, SCOTT | bridge_score | Bridge Grade C (30.5) → C (27.5) |
-| house/WI-8.json | WIED, TONY | ideology_score | DW-NOMINATE 0.54 → 0.534 |
-| house/WI-8.json | WIED, TONY | bridge_score | Bridge Grade B (51.3) → B (52.4) |
-| house/NC-10.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-3.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-5.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-2.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-7.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-4.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-9.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-8.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-6.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-3.json | MURPHY, GREGORY FRANCIS DR. | ideology_score | DW-NOMINATE 0.483 → 0.483 |
-| house/NC-3.json | MURPHY, GREGORY FRANCIS DR. | bridge_score | Bridge Grade B (70.6) → B (72.6) |
-| house/NC-1.json | DAVIS, DON | ideology_score | DW-NOMINATE -0.24 → -0.241 |
-| house/NC-1.json | DAVIS, DON | bridge_score | Bridge Grade A (98) → A (96.8) |
-| house/NC-10.json | HARRIGAN, PAT | ideology_score | DW-NOMINATE 0.972 → 0.972 |
-| house/NC-10.json | HARRIGAN, PAT | bridge_score | Bridge Grade B (54.6) → B (59.2) |
-| house/NC-5.json | FOXX, VIRGINIA ANN | ideology_score | DW-NOMINATE 0.623 → 0.624 |
-| house/NC-5.json | FOXX, VIRGINIA ANN | bridge_score | Bridge Grade F (12.8) → F (14.2) |
-| house/NC-4.json | FOUSHEE, VALERIE | ideology_score | DW-NOMINATE -0.498 → -0.5 |
-| house/NC-4.json | FOUSHEE, VALERIE | bridge_score | Bridge Grade B (61.4) → B (56.9) |
-| house/NC-2.json | ROSS, DEBORAH | ideology_score | DW-NOMINATE -0.387 → -0.389 |
-| house/NC-2.json | ROSS, DEBORAH | bridge_score | Bridge Grade B (79.7) → B (80.2) |
-| house/NC-7.json | ROUZER, DAVID | bridge_score | Bridge Grade B (61.2) → B (59.3) |
-| house/NC-9.json | HUDSON, RICHARD L. JR. | ideology_score | DW-NOMINATE 0.524 → 0.523 |
-| house/NC-9.json | HUDSON, RICHARD L. JR. | bridge_score | Bridge Grade B (45.1) → B (43.4) |
-| house/NC-8.json | HARRIS, MARK E | ideology_score | DW-NOMINATE 0.831 → 0.8 |
-| house/NC-8.json | HARRIS, MARK E | bridge_score | Bridge Grade F (15) → F (12.3) |
-| house/NC-6.json | MCDOWELL, ADDISON | ideology_score | DW-NOMINATE 0.555 → 0.56 |
-| house/NC-6.json | MCDOWELL, ADDISON | bridge_score | Bridge Grade C (20.9) → C (24.7) |
-| house/NC-12.json |  | hard_metrics.federal_spending | New data point published |
-| senate/NC.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-13.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-11.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-3.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-5.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-2.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-14.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-4.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-6.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-7.json |  | hard_metrics.federal_spending | New data point published |
-| house/MO-8.json |  | hard_metrics.federal_spending | New data point published |
-| house/NC-12.json | ADAMS, ALMA SHEALEY | ideology_score | DW-NOMINATE -0.463 → -0.464 |
-| house/NC-12.json | ADAMS, ALMA SHEALEY | bridge_score | Bridge Grade C (27.7) → C (30.7) |
-| house/NC-13.json | KNOTT, BRAD | ideology_score | DW-NOMINATE 0.89 → 0.819 |
-| house/NC-13.json | KNOTT, BRAD | bridge_score | Bridge Grade F (14.1) → F (15.5) |
-| house/MO-5.json | CLEAVER, EMANUEL | ideology_score | DW-NOMINATE -0.454 → -0.454 |
-| house/MO-5.json | CLEAVER, EMANUEL | bridge_score | Bridge Grade B (49) → B (51.3) |
-| house/MO-2.json | WAGNER, ANN L. | bridge_score | Bridge Grade B (76.9) → B (75.8) |
-| house/NC-14.json | MOORE, TIM | ideology_score | DW-NOMINATE 0.585 → 0.588 |
-| house/NC-14.json | MOORE, TIM | bridge_score | Bridge Grade B (51.5) → B (64.1) |
-| house/MO-4.json | ALFORD, MARK | ideology_score | DW-NOMINATE 0.565 → 0.563 |
-| house/MO-4.json | ALFORD, MARK | bridge_score | Bridge Grade B (63.1) → B (63.1) |
-| house/MO-1.json | BELL, WESLEY | ideology_score | DW-NOMINATE -0.472 → -0.455 |
-| house/MO-1.json | BELL, WESLEY | bridge_score | Bridge Grade B (48.5) → B (53) |
-| house/MO-7.json | BURLISON, ERIC | ideology_score | DW-NOMINATE 0.734 → 0.734 |
-| house/MO-7.json | BURLISON, ERIC | bridge_score | Bridge Grade F (5) → F (7.3) |
-| house/MO-8.json | SMITH, JASON T | ideology_score | DW-NOMINATE 0.578 → 0.578 |
-| house/MO-8.json | SMITH, JASON T | bridge_score | Bridge Grade C (21) → C (21.9) |
-| house/OH-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-5.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-6.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-2.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-10.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-4.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-7.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-3.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-9.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-8.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-1.json | LANDSMAN, GREG | ideology_score | DW-NOMINATE -0.227 → -0.226 |
-| house/OH-1.json | LANDSMAN, GREG | bridge_score | Bridge Grade A (88.5) → A (91.3) |
-| house/OH-5.json | LATTA, ROBERT EDWARD | bridge_score | Bridge Grade B (65.7) → B (63.9) |
-| house/OH-6.json | RULLI, MICHAEL | ideology_score | DW-NOMINATE 0.43 → 0.43 |
-| house/OH-6.json | RULLI, MICHAEL | bridge_score | Bridge Grade F (9.8) → F (14.1) |
-| house/OH-2.json | TAYLOR, DAVID | ideology_score | DW-NOMINATE 0.591 → 0.615 |
-| house/OH-2.json | TAYLOR, DAVID | bridge_score | Bridge Grade C (32.2) → C (35.1) |
-| house/OH-4.json | JORDAN, JAMES D. | ideology_score | DW-NOMINATE 0.711 → 0.711 |
-| house/OH-4.json | JORDAN, JAMES D. | bridge_score | Bridge Grade F (7.1) → F (7.2) |
-| house/OH-10.json | TURNER, MICHAEL R REP. | bridge_score | Bridge Grade B (58.2) → B (54) |
-| house/OH-7.json | MILLER, MAX | ideology_score | DW-NOMINATE 0.368 → 0.369 |
-| house/OH-7.json | MILLER, MAX | bridge_score | Bridge Grade B (61.8) → B (56) |
-| house/OH-3.json | BEATTY, JOYCE | ideology_score | DW-NOMINATE -0.44 → -0.441 |
-| house/OH-3.json | BEATTY, JOYCE | bridge_score | Bridge Grade C (44.2) → C (38.2) |
-| house/OH-9.json | KAPTUR, MARCY HON. M.C. | ideology_score | DW-NOMINATE -0.341 → -0.34 |
-| house/OH-9.json | KAPTUR, MARCY HON. M.C. | bridge_score | Bridge Grade B (51.4) → B (51) |
-| house/OH-8.json | DAVIDSON, WARREN | ideology_score | DW-NOMINATE 0.647 → 0.647 |
-| house/OH-8.json | DAVIDSON, WARREN | bridge_score | Bridge Grade C (19.3) → C (18.3) |
-| senate/OH.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-15.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-13.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-12.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-11.json |  | hard_metrics.federal_spending | New data point published |
-| senate/OH.json | HUSTED, JON | committees | Committee assignments changed |
-| senate/OH.json | HUSTED, JON | ideology_score | DW-NOMINATE 0.589 → 0.585 |
-| senate/OH.json | HUSTED, JON | bridge_score | Bridge Grade C (29.1) → C (36.2) |
-| house/OH-14.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-4.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-3.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-2.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-6.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-5.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-7.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-8.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-9.json |  | hard_metrics.federal_spending | New data point published |
-| house/OH-15.json | CAREY, MIKE | ideology_score | DW-NOMINATE 0.405 → 0.405 |
-| house/OH-15.json | CAREY, MIKE | bridge_score | Bridge Grade A (95.2) → A (94.9) |
-| house/OH-13.json | SYKES, EMILIA | ideology_score | DW-NOMINATE -0.332 → -0.333 |
-| house/OH-13.json | SYKES, EMILIA | bridge_score | Bridge Grade B (82.4) → A (84.7) |
-| house/OH-12.json | BALDERSON, WILLIAM TROY | bridge_score | Bridge Grade B (47.4) → B (44.5) |
-| house/OH-11.json | BROWN, M SHONTEL | ideology_score | DW-NOMINATE -0.475 → -0.476 |
-| house/OH-11.json | BROWN, M SHONTEL | bridge_score | Bridge Grade F (12) → F (13.5) |
-| house/OH-14.json | JOYCE, DAVID P. | bridge_score | Bridge Grade A (85.3) → B (84.1) |
-| house/FL-4.json | BEAN, AARON P. | ideology_score | DW-NOMINATE 0.697 → 0.695 |
-| house/FL-4.json | BEAN, AARON P. | bridge_score | Bridge Grade C (29.6) → C (28.6) |
-| house/FL-3.json | CAMMACK, KAT | ideology_score | DW-NOMINATE 0.591 → 0.59 |
-| house/FL-3.json | CAMMACK, KAT | bridge_score | Bridge Grade C (41.4) → C (35.7) |
-| house/FL-5.json | RUTHERFORD, JOHN | bridge_score | Bridge Grade B (78.7) → B (71.2) |
-| house/FL-8.json | HARIDOPOLOS, MIKE | ideology_score | DW-NOMINATE 0.453 → 0.462 |
-| house/FL-8.json | HARIDOPOLOS, MIKE | bridge_score | Bridge Grade C (28.9) → C (26.5) |
-| house/FL-9.json | SOTO, DARREN | ideology_score | DW-NOMINATE -0.339 → -0.339 |
-| house/FL-9.json | SOTO, DARREN | bridge_score | Bridge Grade B (60.4) → B (54.3) |
-| house/FL-13.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-10.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-18.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-15.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-19.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-14.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-16.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-20.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-12.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-17.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-22.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-23.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-24.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-25.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-13.json | LUNA, ANNA PAULINA | ideology_score | DW-NOMINATE 0.558 → 0.561 |
-| house/FL-13.json | LUNA, ANNA PAULINA | bridge_score | Bridge Grade F (9.2) → F (12.3) |
-| house/FL-10.json | FROST, MAXWELL ALEJANDRO | ideology_score | DW-NOMINATE -0.442 → -0.442 |
-| house/FL-10.json | FROST, MAXWELL ALEJANDRO | bridge_score | Bridge Grade C (29.8) → C (27) |
-| house/FL-18.json | FRANKLIN, SCOTT MR. | ideology_score | DW-NOMINATE 0.626 → 0.625 |
-| house/FL-18.json | FRANKLIN, SCOTT MR. | bridge_score | Bridge Grade B (60.2) → B (55.6) |
-| house/FL-15.json | LEE, LAUREL | bridge_score | Bridge Grade B (77.3) → B (82.9) |
-| house/FL-14.json | CASTOR, KATHY | ideology_score | DW-NOMINATE -0.435 → -0.434 |
-| house/FL-14.json | CASTOR, KATHY | bridge_score | Bridge Grade B (61.9) → B (60.3) |
-| house/FL-20.json | WASSERMAN SCHULTZ, DEBBIE | ideology_score | DW-NOMINATE -0.413 → -0.412 |
-| house/FL-20.json | WASSERMAN SCHULTZ, DEBBIE | bridge_score | Bridge Grade B (81.2) → B (76.8) |
-| house/FL-12.json | BILIRAKIS, GUS M | ideology_score | DW-NOMINATE 0.423 → 0.423 |
-| house/FL-12.json | BILIRAKIS, GUS M | bridge_score | Bridge Grade A (94.2) → A (96.2) |
-| house/FL-17.json | STEUBE, GREG | ideology_score | DW-NOMINATE 0.689 → 0.686 |
-| house/FL-17.json | STEUBE, GREG | bridge_score | Bridge Grade B (60.4) → B (69.7) |
-| house/FL-23.json | FRANKEL, LOIS J. | ideology_score | DW-NOMINATE -0.395 → -0.394 |
-| house/FL-23.json | FRANKEL, LOIS J. | bridge_score | Bridge Grade C (43.9) → B (45.3) |
-| house/FL-25.json | MOSKOWITZ, JARED | committees | Committee assignments changed |
-| house/FL-25.json | MOSKOWITZ, JARED | ideology_score | DW-NOMINATE -0.226 → -0.227 |
-| house/FL-25.json | MOSKOWITZ, JARED | bridge_score | Bridge Grade A (89.2) → A (86.2) |
-| house/FL-26.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-28.json |  | hard_metrics.federal_spending | New data point published |
-| senate/FL.json |  | hard_metrics.federal_spending | New data point published |
-| senate/FL.json | MOODY, ASHLEY | ideology_score | DW-NOMINATE 0.606 → 0.689 |
-| senate/FL.json | MOODY, ASHLEY | bridge_score | Bridge Grade F (15.5) → F (14.2) |
-| house/FL-27.json |  | hard_metrics.federal_spending | New data point published |
-| house/AL-2.json |  | hard_metrics.federal_spending | New data point published |
-| house/AL-1.json |  | hard_metrics.federal_spending | New data point published |
-| house/FL-26.json | DIAZ-BALART, MARIO | bridge_score | Bridge Grade C (34.5) → C (34.4) |
-| house/FL-28.json | GIMENEZ, CARLOS | ideology_score | DW-NOMINATE 0.328 → 0.329 |
-| house/FL-28.json | GIMENEZ, CARLOS | bridge_score | Bridge Grade F (10.4) → F (9.8) |
-| house/FL-27.json | SALAZAR, MARIA ELVIRA | ideology_score | DW-NOMINATE 0.274 → 0.274 |
-| house/FL-27.json | SALAZAR, MARIA ELVIRA | bridge_score | Bridge Grade A (86.6) → A (91.5) |
-| house/AL-2.json | FIGURES, SHOMARI C. | ideology_score | DW-NOMINATE -0.414 → -0.411 |
-| house/AL-2.json | FIGURES, SHOMARI C. | bridge_score | Bridge Grade B (64.2) → B (65.2) |
+| house/AL-7.json |  | hard_metrics.federal_spending | New data point published |
+| house/AL-6.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-4.json |  | hard_metrics.federal_spending | New data point published |
+| house/AL-4.json |  | hard_metrics.federal_spending | New data point published |
+| house/AL-3.json |  | hard_metrics.federal_spending | New data point published |
+| house/AL-5.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-2.json |  | hard_metrics.federal_spending | New data point published |
+| senate/AL.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-1.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-3.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-5.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-6.json |  | hard_metrics.federal_spending | New data point published |
+| house/AL-7.json | SEWELL, TERRI A. | bridge_score | Bridge Grade B (66.4) → B (64.9) |
+| house/AL-6.json | PALMER, GARY | ideology_score | DW-NOMINATE 0.671 → 0.67 |
+| house/AL-6.json | PALMER, GARY | bridge_score | Bridge Grade C (20.2) → C (21.5) |
+| house/AL-4.json | ADERHOLT, ROBERT B. REP. | bridge_score | Bridge Grade C (38.8) → C (35) |
+| house/TN-4.json | DESJARLAIS, SCOTT HON. | ideology_score | DW-NOMINATE 0.578 → 0.578 |
+| house/TN-4.json | DESJARLAIS, SCOTT HON. | bridge_score | Bridge Grade C (17) → C (17) |
+| house/AL-3.json | ROGERS, MICHAEL | bridge_score | Bridge Grade C (30.3) → C (28.5) |
+| house/AL-5.json | STRONG, DALE WHITNEY | ideology_score | DW-NOMINATE 0.604 → 0.61 |
+| house/AL-5.json | STRONG, DALE WHITNEY | bridge_score | Bridge Grade C (35.8) → C (34.9) |
+| house/TN-2.json | BURCHETT, TIM | ideology_score | DW-NOMINATE 0.663 → 0.664 |
+| house/TN-2.json | BURCHETT, TIM | bridge_score | Bridge Grade C (26.8) → C (25.4) |
+| house/TN-1.json | HARSHBARGER, DIANA | ideology_score | DW-NOMINATE 0.677 → 0.682 |
+| house/TN-1.json | HARSHBARGER, DIANA | bridge_score | Bridge Grade B (56.3) → B (62.5) |
+| house/TN-3.json | FLEISCHMANN, CHARLES J | bridge_score | Bridge Grade B (46.2) → C (35.8) |
+| house/TN-7.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-2.json |  | hard_metrics.federal_spending | New data point published |
+| senate/TN.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-9.json |  | hard_metrics.federal_spending | New data point published |
+| senate/TN.json | HAGERTY, BILL | ideology_score | DW-NOMINATE 0.672 → 0.672 |
+| senate/TN.json | HAGERTY, BILL | bridge_score | Bridge Grade F (10.9) → F (10.9) |
+| house/TN-8.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-3.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-6.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-1.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-4.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-5.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-7.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-8.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-10.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-9.json |  | hard_metrics.federal_spending | New data point published |
+| house/TN-7.json | VAN EPPS, MATTHEW ROBERT | committees | Committee assignments changed |
+| house/TN-7.json | VAN EPPS, MATTHEW ROBERT | ideology_score | DW-NOMINATE 0.629 → 0.611 |
+| house/TN-8.json | KUSTOFF, DAVID | bridge_score | Bridge Grade B (83.2) → B (73.9) |
+| house/TX-6.json | ELLZEY, JOHN KEVIN SR. | ideology_score | DW-NOMINATE 0.511 → 0.51 |
+| house/TX-6.json | ELLZEY, JOHN KEVIN SR. | bridge_score | Bridge Grade C (20.4) → C (19.4) |
+| house/TX-1.json | MORAN, NATHANIEL QUENTIN | ideology_score | DW-NOMINATE 0.586 → 0.585 |
+| house/TX-1.json | MORAN, NATHANIEL QUENTIN | bridge_score | Bridge Grade B (56) → B (60.5) |
+| house/TX-5.json | GOODEN, LANCE | ideology_score | DW-NOMINATE 0.718 → 0.716 |
+| house/TX-5.json | GOODEN, LANCE | bridge_score | Bridge Grade F (9) → F (8.2) |
+| house/TX-4.json | FALLON, PATRICK | ideology_score | DW-NOMINATE 0.714 → 0.712 |
+| house/TX-4.json | FALLON, PATRICK | bridge_score | Bridge Grade C (22.4) → C (21.3) |
+| house/TX-7.json | FLETCHER, ELIZABETH | ideology_score | DW-NOMINATE -0.544 → -0.546 |
+| house/TX-7.json | FLETCHER, ELIZABETH | bridge_score | Bridge Grade C (27.7) → C (30.3) |
+| house/TX-11.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-18.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-15.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-13.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-19.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-12.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-16.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-14.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-17.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-20.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-21.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-22.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-23.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-11.json | PFLUGER, AUGUST LEE II | ideology_score | DW-NOMINATE 0.634 → 0.633 |
+| house/TX-11.json | PFLUGER, AUGUST LEE II | bridge_score | Bridge Grade A (94.5) → A (95.1) |
+| house/TX-15.json | DE LA CRUZ, MONICA | ideology_score | DW-NOMINATE 0.472 → 0.471 |
+| house/TX-15.json | DE LA CRUZ, MONICA | bridge_score | Bridge Grade B (80.6) → B (80) |
+| house/TX-13.json | JACKSON, RONNY LYNN | ideology_score | DW-NOMINATE 0.787 → 0.784 |
+| house/TX-13.json | JACKSON, RONNY LYNN | bridge_score | Bridge Grade C (34.4) → C (36.2) |
+| house/TX-12.json | GOLDMAN, CRAIG | ideology_score | DW-NOMINATE 0.803 → 0.778 |
+| house/TX-12.json | GOLDMAN, CRAIG | bridge_score | Bridge Grade C (17.5) → C (23) |
+| house/TX-14.json | WEBER, RANDY | bridge_score | Bridge Grade C (33.8) → C (34.6) |
+| house/TX-16.json | ESCOBAR, VERONICA | ideology_score | DW-NOMINATE -0.464 → -0.466 |
+| house/TX-16.json | ESCOBAR, VERONICA | bridge_score | Bridge Grade C (28) → C (37.7) |
+| house/TX-17.json | SESSIONS, PETE | ideology_score | DW-NOMINATE 0.583 → 0.583 |
+| house/TX-17.json | SESSIONS, PETE | bridge_score | Bridge Grade B (62) → B (58.8) |
+| house/TX-20.json | CASTRO, JOAQUIN | ideology_score | DW-NOMINATE -0.402 → -0.403 |
+| house/TX-20.json | CASTRO, JOAQUIN | bridge_score | Bridge Grade C (26.6) → C (24.9) |
+| house/TX-24.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-25.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-30.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-31.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-27.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-33.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-29.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-28.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-32.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-26.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-34.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-24.json | VAN DUYNE, ELIZABETH ANN | committees | Committee assignments changed |
+| house/TX-24.json | VAN DUYNE, ELIZABETH ANN | ideology_score | DW-NOMINATE 0.605 → 0.604 |
+| house/TX-24.json | VAN DUYNE, ELIZABETH ANN | bridge_score | Bridge Grade B (71.1) → B (69.6) |
+| house/TX-25.json | WILLIAMS, ROGER | ideology_score | DW-NOMINATE 0.593 → 0.592 |
+| house/TX-25.json | WILLIAMS, ROGER | bridge_score | Bridge Grade B (80.9) → B (71.2) |
+| house/TX-31.json | CARTER, JOHN R REP. | bridge_score | Bridge Grade C (21.9) → C (16.4) |
+| house/TX-27.json | CLOUD, MICHAEL | ideology_score | DW-NOMINATE 0.689 → 0.691 |
+| house/TX-27.json | CLOUD, MICHAEL | bridge_score | Bridge Grade F (12.4) → C (16) |
+| house/TX-29.json | GARCIA, SYLVIA R | ideology_score | DW-NOMINATE -0.764 → -0.764 |
+| house/TX-29.json | GARCIA, SYLVIA R | bridge_score | Bridge Grade F (10.1) → F (10.8) |
+| house/TX-28.json | CUELLAR, HENRY R. | ideology_score | DW-NOMINATE -0.225 → -0.225 |
+| house/TX-28.json | CUELLAR, HENRY R. | bridge_score | Bridge Grade B (54.9) → B (53.3) |
+| house/TX-26.json | GILL, BRANDON | ideology_score | DW-NOMINATE 0.784 → 0.771 |
+| house/TX-26.json | GILL, BRANDON | bridge_score | Bridge Grade F (10.2) → F (10.2) |
+| house/TX-34.json | GONZALEZ, VICENTE | ideology_score | DW-NOMINATE -0.386 → -0.385 |
+| house/TX-34.json | GONZALEZ, VICENTE | bridge_score | Bridge Grade C (40.9) → B (49.4) |
+| house/TX-35.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-36.json |  | hard_metrics.federal_spending | New data point published |
+| house/ME-2.json |  | hard_metrics.federal_spending | New data point published |
+| house/ME-1.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-2.json |  | hard_metrics.federal_spending | New data point published |
+| senate/ME.json |  | hard_metrics.federal_spending | New data point published |
+| senate/ME.json | COLLINS, SUSAN M. | committees | Committee assignments changed |
+| senate/ME.json | COLLINS, SUSAN M. | bridge_score | Bridge Grade A (89.4) → A (90.2) |
+| house/TX-37.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-38.json |  | hard_metrics.federal_spending | New data point published |
+| senate/TX.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-1.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-3.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-5.json |  | hard_metrics.federal_spending | New data point published |
+| house/TX-36.json | BABIN, BRIAN | bridge_score | Bridge Grade C (24.6) → C (21.5) |
+| house/ME-1.json | PINGREE, CHELLIE M | ideology_score | DW-NOMINATE -0.423 → -0.421 |
+| house/ME-1.json | PINGREE, CHELLIE M | bridge_score | Bridge Grade B (83.2) → B (83.3) |
+| house/CA-2.json | HUFFMAN, JARED | ideology_score | DW-NOMINATE -0.432 → -0.432 |
+| house/CA-2.json | HUFFMAN, JARED | bridge_score | Bridge Grade C (43.7) → C (32.1) |
+| house/TX-37.json | CASAR, GREG | ideology_score | DW-NOMINATE -0.429 → -0.429 |
+| house/TX-37.json | CASAR, GREG | bridge_score | Bridge Grade F (2.4) → F (2.5) |
+| house/CA-3.json | BERA, AMERISH | bridge_score | Bridge Grade B (80.4) → B (80.8) |
+| house/CA-5.json | MCCLINTOCK, THOMAS | bridge_score | Bridge Grade F (10.3) → F (9.7) |
+| senate/LA.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-6.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-4.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-7.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-10.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-11.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-8.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-13.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-9.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-12.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-14.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-15.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-16.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-6.json | KILEY, KEVIN | committees | Committee assignments changed |
+| house/CA-6.json | KILEY, KEVIN | ideology_score | DW-NOMINATE 0.158 → 0.152 |
+| house/CA-6.json | KILEY, KEVIN | bridge_score | Bridge Grade C (39.6) → C (35.4) |
+| house/CA-4.json | THOMPSON, MIKE MR. | ideology_score | DW-NOMINATE -0.392 → -0.392 |
+| house/CA-4.json | THOMPSON, MIKE MR. | bridge_score | Bridge Grade A (84.3) → B (83.4) |
+| house/CA-7.json | MATSUI, DORIS | ideology_score | DW-NOMINATE -0.433 → -0.433 |
+| house/CA-7.json | MATSUI, DORIS | bridge_score | Bridge Grade B (56.9) → B (68.6) |
+| house/CA-10.json | DESAULNIER, MARK | ideology_score | DW-NOMINATE -0.507 → -0.507 |
+| house/CA-10.json | DESAULNIER, MARK | bridge_score | Bridge Grade C (31.2) → C (27.5) |
+| house/CA-8.json | GARAMENDI, JOHN | bridge_score | Bridge Grade C (26.7) → C (33.5) |
+| house/CA-13.json | GRAY, ADAM C. | ideology_score | DW-NOMINATE -0.233 → -0.235 |
+| house/CA-13.json | GRAY, ADAM C. | bridge_score | Bridge Grade C (29.3) → B (43.9) |
+| house/CA-9.json | HARDER, JOSH | ideology_score | DW-NOMINATE -0.295 → -0.295 |
+| house/CA-9.json | HARDER, JOSH | bridge_score | Bridge Grade A (97.7) → A (97.3) |
+| house/CA-12.json | SIMON, LATEEFAH | ideology_score | DW-NOMINATE -0.608 → -0.603 |
+| house/CA-12.json | SIMON, LATEEFAH | bridge_score | Bridge Grade C (29.8) → C (32.5) |
+| house/CA-15.json | MULLIN, KEVIN | ideology_score | DW-NOMINATE -0.478 → -0.479 |
+| house/CA-15.json | MULLIN, KEVIN | bridge_score | Bridge Grade B (77.7) → B (72.1) |
+| house/CA-16.json | LICCARDO, SAM T. | ideology_score | DW-NOMINATE -0.342 → -0.346 |
+| house/CA-16.json | LICCARDO, SAM T. | bridge_score | Bridge Grade C (24.8) → C (37.4) |
+| house/CA-19.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-20.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-17.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-21.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-18.json |  | hard_metrics.federal_spending | New data point published |
+| house/CA-19.json | PANETTA, JIMMY | ideology_score | DW-NOMINATE -0.28 → -0.279 |
+| house/CA-19.json | PANETTA, JIMMY | bridge_score | Bridge Grade A (99.7) → A (99.6) |
+| house/CA-20.json | FONG, VINCE | ideology_score | DW-NOMINATE 0.449 → 0.449 |
+| house/CA-20.json | FONG, VINCE | bridge_score | Bridge Grade B (46.7) → C (43.4) |
+| house/CA-17.json | KHANNA, ROHIT | ideology_score | DW-NOMINATE -0.458 → -0.458 |
+| house/CA-17.json | KHANNA, ROHIT | bridge_score | Bridge Grade B (78.9) → B (79) |
+| house/CA-21.json | COSTA, JIM | bridge_score | Bridge Grade A (98) → A (97.6) |
+| house/CA-18.json | LOFGREN, ZOE | ideology_score | DW-NOMINATE -0.396 → -0.396 |
+| house/CA-18.json | LOFGREN, ZOE | bridge_score | Bridge Grade B (51.3) → B (58.6) |

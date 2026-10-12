@@ -32,7 +32,7 @@
     "snippet": "Incumbent Chellie Pingree and Ronald C. Russell are running in the general election for U.S. House Maine District 1 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 8.22
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8667926807.41,
-        "perCapitaUsd": 12623.54
+        "totalUsd": 8667941662.41,
+        "perCapitaUsd": 12623.56
       },
       {
         "year": "2024",
-        "totalUsd": 9224491507.26,
-        "perCapitaUsd": 13434.09
+        "totalUsd": 9224808353.21,
+        "perCapitaUsd": 13434.55
       },
       {
         "year": "2025",
-        "totalUsd": 9769591417.03,
-        "perCapitaUsd": 14227.95
+        "totalUsd": 9777268404.21,
+        "perCapitaUsd": 14239.13
       }
     ],
     "population": null,
@@ -247,15 +247,15 @@
         "bills_became_law": 0,
         "enacted_laws": [],
         "ideology_score": {
-          "nominateDim1": -0.423,
-          "nominateDim2": -0.365,
+          "nominateDim1": -0.421,
+          "nominateDim2": -0.363,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/P000597"
         },
         "bridge_score": {
           "grade": "B",
-          "score": 83.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 83.3,
+          "snapshotDate": "September 28, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/P000597"
         }
       },
