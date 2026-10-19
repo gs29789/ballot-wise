@@ -23,7 +23,7 @@
     "snippet": "Incumbent Scott DesJarlais, Victoria Broderick, Jacob Anders, and Clay Faircloth are running in the general election for U.S. House Tennessee District 4 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -46,22 +46,22 @@
         "ratePer100k": 34.19
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 4325611794.43,
-        "perCapitaUsd": 5655.39
+        "totalUsd": 4171479559.75,
+        "perCapitaUsd": 5453.88
       },
       {
         "year": "2024",
-        "totalUsd": 5263670932.27,
-        "perCapitaUsd": 6856.58
+        "totalUsd": 5258880056.52,
+        "perCapitaUsd": 6850.34
       },
       {
         "year": "2025",
-        "totalUsd": 4818417179.78,
-        "perCapitaUsd": 6299.7
+        "totalUsd": 4697082092.97,
+        "perCapitaUsd": 6141.06
       }
     ],
     "population": null,
@@ -329,14 +329,14 @@
         "enacted_laws": [],
         "ideology_score": {
           "nominateDim1": 0.578,
-          "nominateDim2": -0.039,
+          "nominateDim2": -0.038,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/D000616"
         },
         "bridge_score": {
           "grade": "C",
           "score": 17,
-          "snapshotDate": "September 28, 2026",
+          "snapshotDate": "June 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/D000616"
         }
       },

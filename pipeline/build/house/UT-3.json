@@ -24,7 +24,7 @@
     "snippet": "Incumbent Celeste Maloy defeated Mike Lyman in the Republican primary for U.S. House Utah District 3 on June 23, 2026, 68.1% (55,031) to 31.9% (25,726) ... Kent Udell defeated Steve Merrill in the Democratic convention, and the Democratic primary was canceled ... Cassie Easley (Constitution), Michael Ray Stoddard (Libertarian), Adonis Hooslyn (Unaffiliated), and Ayden Tate Scott (Unaffiliated) are also running in the general election."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -47,22 +47,22 @@
         "ratePer100k": 16.72
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 3241461850.67,
-        "perCapitaUsd": 3886.88
+        "totalUsd": 3225695966.27,
+        "perCapitaUsd": 3867.98
       },
       {
         "year": "2024",
-        "totalUsd": 4366218642.77,
-        "perCapitaUsd": 5235.59
+        "totalUsd": 4351917870.28,
+        "perCapitaUsd": 5218.45
       },
       {
         "year": "2025",
-        "totalUsd": 4359258715.26,
-        "perCapitaUsd": 5227.25
+        "totalUsd": 4345330655.47,
+        "perCapitaUsd": 5210.55
       }
     ],
     "population": null,
@@ -345,7 +345,7 @@
         ],
         "bills_sponsored": 41,
         "bills_cosponsored": 207,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Providing for congressional disapproval under chapter 8 of title 5, United States Code, of the rule submitted by the National Park Service relating to \"Glen Canyon National Recreation Area: Motor Vehicles\".",
@@ -377,14 +377,14 @@
         ],
         "ideology_score": {
           "nominateDim1": 0.417,
-          "nominateDim2": 0.09,
+          "nominateDim2": 0.092,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/M001228"
         },
         "bridge_score": {
           "grade": "C",
-          "score": 34.2,
-          "snapshotDate": "June 30, 2026",
+          "score": 30.4,
+          "snapshotDate": "September 28, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/M001228"
         }
       },

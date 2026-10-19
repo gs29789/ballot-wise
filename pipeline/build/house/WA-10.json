@@ -32,7 +32,7 @@
     "snippet": "Incumbent Marilyn Strickland and Chris Chung are running in the general election for U.S. House Washington District 10 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": null,
+    "unemployment_rate": [],
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": null,
+    "nonfarm_employment_thousands": [],
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 7995336301.6,
-        "perCapitaUsd": 10377.52
+        "totalUsd": 8000808171.6,
+        "perCapitaUsd": 10384.62
       },
       {
         "year": "2024",
-        "totalUsd": 8801497545.67,
-        "perCapitaUsd": 11423.87
+        "totalUsd": 8807934469.13,
+        "perCapitaUsd": 11432.22
       },
       {
         "year": "2025",
-        "totalUsd": 7383680769.61,
-        "perCapitaUsd": 9583.62
+        "totalUsd": 7391413320.81,
+        "perCapitaUsd": 9593.66
       }
     ],
     "population": null,
@@ -207,7 +207,7 @@
         ],
         "bills_sponsored": 57,
         "bills_cosponsored": 1286,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "Fairness for Servicemembers and their Families Act of 2025",
@@ -221,14 +221,14 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.443,
-          "nominateDim2": 0.352,
+          "nominateDim2": 0.35,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/S001159"
         },
         "bridge_score": {
           "grade": "B",
-          "score": 51,
-          "snapshotDate": "June 30, 2026",
+          "score": 47.4,
+          "snapshotDate": "September 28, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/S001159"
         }
       },

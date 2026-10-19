@@ -32,7 +32,7 @@
     "snippet": "Incumbent Josh Harder and John McBride are running in the general election for U.S. House California District 9 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 33.74
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5018433494,
-        "perCapitaUsd": 6677.68
+        "totalUsd": 5017142346,
+        "perCapitaUsd": 6675.96
       },
       {
         "year": "2024",
-        "totalUsd": 5412882185.9,
-        "perCapitaUsd": 7202.54
+        "totalUsd": 5412201553.9,
+        "perCapitaUsd": 7201.64
       },
       {
         "year": "2025",
-        "totalUsd": 5874790814.41,
-        "perCapitaUsd": 7817.17
+        "totalUsd": 5870133158.08,
+        "perCapitaUsd": 7810.97
       }
     ],
     "population": null,
@@ -165,7 +165,7 @@
       "platform_video_url": "https://www.youtube.com/watch?v=8XNrX0OVu1w",
       "platform_video_title": "30-Year-Old Venture Capitalist Josh Harder To Run For Congress In Rural California | CNBC",
       "platform_video_source_url": null,
-      "_platform_video_resolved_at": "2026-10-12T14:01:38.143Z",
+      "_platform_video_resolved_at": "2026-10-19T12:18:51.024Z",
       "financial_disclosure": {
         "pdfUrl": "https://disclosures-clerk.house.gov/public_disc/financial-pdfs/2025/10076099.pdf",
         "filingDate": "5/13/2026",
@@ -199,7 +199,7 @@
         ],
         "bills_sponsored": 156,
         "bills_cosponsored": 1908,
-        "bills_became_law": 0,
+        "bills_became_law": 2,
         "enacted_laws": [
           {
             "title": "Protecting Families of Fallen Servicemembers Act",
@@ -222,14 +222,14 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.295,
-          "nominateDim2": 0.408,
+          "nominateDim2": 0.411,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/H001090"
         },
         "bridge_score": {
           "grade": "A",
-          "score": 97.3,
-          "snapshotDate": "September 28, 2026",
+          "score": 97.7,
+          "snapshotDate": "June 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001090"
         }
       },
@@ -242,7 +242,7 @@
       "campaign_site_url": "https://www.harderforcongress.com",
       "_campaign_site_discovered_at": "2026-09-01T13:52:41.353Z",
       "_campaign_site_reachability": "reachable",
-      "_tier2_search_attempted_at": "2026-10-12T14:01:38.142Z",
+      "_tier2_search_attempted_at": "2026-10-19T12:18:51.024Z",
       "platform_video_tier": 2
     },
     {
