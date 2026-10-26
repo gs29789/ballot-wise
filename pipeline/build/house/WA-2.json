@@ -32,7 +32,7 @@
     "snippet": "Incumbent Rick Larsen and Edwin Feller are running in the general election for U.S. House Washington District 2 on November 3, 2026."
   },
   "hard_metrics": {
-    "unemployment_rate": [],
+    "unemployment_rate": null,
     "violent_crime_rate_per_100k": [
       {
         "year": "2021",
@@ -55,22 +55,22 @@
         "ratePer100k": 21.51
       }
     ],
-    "nonfarm_employment_thousands": [],
+    "nonfarm_employment_thousands": null,
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 8000808171.6,
-        "perCapitaUsd": 10384.62
+        "totalUsd": 7995336301.6,
+        "perCapitaUsd": 10377.52
       },
       {
         "year": "2024",
-        "totalUsd": 8807934469.13,
-        "perCapitaUsd": 11432.22
+        "totalUsd": 8801497545.67,
+        "perCapitaUsd": 11423.87
       },
       {
         "year": "2025",
-        "totalUsd": 7391413320.81,
-        "perCapitaUsd": 9593.66
+        "totalUsd": 7383680769.61,
+        "perCapitaUsd": 9583.62
       }
     ],
     "population": null,
@@ -241,7 +241,7 @@
         ],
         "bills_sponsored": 180,
         "bills_cosponsored": 3665,
-        "bills_became_law": 0,
+        "bills_became_law": 3,
         "enacted_laws": [
           {
             "title": "To amend the Water Resources Development Act of 2000 to extend and modify the program allowing the Secretary of the Army to accept and expend funds contributed by non-Federal public entities to expedite the evaluation of permits, and for other purposes.",
@@ -273,14 +273,14 @@
         ],
         "ideology_score": {
           "nominateDim1": -0.365,
-          "nominateDim2": 0.167,
+          "nominateDim2": 0.166,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/L000560"
         },
         "bridge_score": {
           "grade": "B",
-          "score": 46.5,
-          "snapshotDate": "September 28, 2026",
+          "score": 48,
+          "snapshotDate": "June 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/L000560"
         }
       },
