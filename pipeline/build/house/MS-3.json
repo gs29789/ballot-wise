@@ -483,18 +483,8 @@
     "federal_spending": [
       {
         "year": "2023",
-        "totalUsd": 5002654610.46,
-        "perCapitaUsd": 6710.23
-      },
-      {
-        "year": "2024",
-        "totalUsd": 5271112144.31,
-        "perCapitaUsd": 7070.33
-      },
-      {
-        "year": "2025",
-        "totalUsd": 5480191127.13,
-        "perCapitaUsd": 7350.77
+        "totalUsd": 5068204441.91,
+        "perCapitaUsd": 6798.16
       }
     ],
     "population": [
@@ -690,12 +680,12 @@
       "campaign_site_url": "https://www.michaelguest.ms",
       "_campaign_site_reachability": "reachable",
       "_campaign_site_discovered_at": "2026-08-31T22:49:02.686Z",
-      "platform_video_url": "https://www.youtube.com/watch?v=qcT34Kl8GZg",
-      "platform_video_title": "Michael Guest announces run for Congress",
+      "platform_video_url": null,
+      "platform_video_title": null,
       "platform_video_source_url": null,
-      "platform_video_tier": 2,
+      "platform_video_tier": null,
       "platform_video_source_type": null,
-      "_platform_video_resolved_at": "2026-11-02T12:22:04.309Z",
+      "_platform_video_resolved_at": null,
       "bio_summary": {
         "value": "Currently serving in his third term in the U.S. House of Representatives, Mississippi's Third District Congressman Michael Guest serves as Chairman of the Ethics Committee, and Vice Chairman of the Homeland Security Committee where he serves on the Subcommittee on Border Security, Facilitation, and Operations. Additionally, Congressman Guest is a member of the House Appropriations Committee where he serves on the Subcommittee on Energy and Water Development, and Related Agencies, the Subcommittee on Homeland Security, and the Subcommittee on Military Construction, Veterans Affairs, and Related Agencies.",
         "source_url": "https://michaelguest.ms/about-michael/",
@@ -801,7 +791,7 @@
         ],
         "bills_sponsored": 57,
         "bills_cosponsored": 1152,
-        "bills_became_law": 3,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To amend title 40, United States Code, to modify the treatment of certain bargain-price options to purchase at less than fair market value, and for other purposes.",
@@ -832,20 +822,20 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": 0.531,
-          "nominateDim2": 0.129,
+          "nominateDim1": 0.53,
+          "nominateDim2": 0.13,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/G000591"
         },
         "bridge_score": {
           "grade": "C",
-          "score": 29.2,
-          "snapshotDate": "August 31, 2026",
+          "score": 30.9,
+          "snapshotDate": "October 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/G000591"
         }
       },
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-11-02T12:22:04.309Z"
+      "_tier2_search_attempted_at": "2026-11-09T12:31:09.348Z"
     },
     {
       "slug": "erik-kiehle",
@@ -920,7 +910,7 @@
       "recent_votes": [],
       "performance": null,
       "_curated_match": false,
-      "_tier2_search_attempted_at": "2026-11-02T12:22:04.544Z"
+      "_tier2_search_attempted_at": "2026-11-09T12:31:09.535Z"
     }
   ]
 }

@@ -482,19 +482,14 @@
     ],
     "federal_spending": [
       {
-        "year": "2023",
-        "totalUsd": 9648252661.06,
-        "perCapitaUsd": 12916.19
-      },
-      {
         "year": "2024",
-        "totalUsd": 10126806716.19,
-        "perCapitaUsd": 13556.84
+        "totalUsd": 10205957900.71,
+        "perCapitaUsd": 13662.8
       },
       {
         "year": "2025",
-        "totalUsd": 9266603869.54,
-        "perCapitaUsd": 12405.27
+        "totalUsd": 9304480041.94,
+        "perCapitaUsd": 12455.98
       }
     ],
     "population": [
@@ -695,7 +690,7 @@
         ],
         "bills_sponsored": 50,
         "bills_cosponsored": 1917,
-        "bills_became_law": 1,
+        "bills_became_law": 0,
         "enacted_laws": [
           {
             "title": "To designate the facility of the United States Postal Service located at 816 East Salisbury Parkway in Salisbury, Maryland, as the \"Sgt. Maj. Wardell B. Turner Post Office Building\".",
@@ -708,15 +703,15 @@
           }
         ],
         "ideology_score": {
-          "nominateDim1": 0.675,
-          "nominateDim2": -0.381,
+          "nominateDim1": 0.676,
+          "nominateDim2": -0.385,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/H001052"
         },
         "bridge_score": {
           "grade": "F",
-          "score": 12,
-          "snapshotDate": "August 31, 2026",
+          "score": 12.2,
+          "snapshotDate": "October 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001052"
         }
       },

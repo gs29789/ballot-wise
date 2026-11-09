@@ -482,19 +482,9 @@
     ],
     "federal_spending": [
       {
-        "year": "2023",
-        "totalUsd": 5002654610.46,
-        "perCapitaUsd": 6710.23
-      },
-      {
-        "year": "2024",
-        "totalUsd": 5271112144.31,
-        "perCapitaUsd": 7070.33
-      },
-      {
         "year": "2025",
-        "totalUsd": 5480191127.13,
-        "perCapitaUsd": 7350.77
+        "totalUsd": 5590474154.83,
+        "perCapitaUsd": 7498.7
       }
     ],
     "population": [
@@ -815,6 +805,11 @@
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
           {
+            "committee": "Senate Committee on Appropriations — Department of Defense",
+            "title": "Member",
+            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
+          },
+          {
             "committee": "Senate Committee on Appropriations — Energy and Water Development",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
@@ -826,11 +821,6 @@
           },
           {
             "committee": "Senate Committee on Appropriations — Departments of Labor, Health and Human Services, and Education, and Related Agencies",
-            "title": "Member",
-            "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
-          },
-          {
-            "committee": "Senate Committee on Appropriations — Military Construction, Veterans Affairs, and Related Agencies",
             "title": "Member",
             "sourceUrl": "https://raw.githubusercontent.com/unitedstates/congress-legislators/main/committee-membership-current.yaml"
           },
@@ -871,14 +861,14 @@
         "enacted_laws": [],
         "ideology_score": {
           "nominateDim1": 0.451,
-          "nominateDim2": 0.331,
+          "nominateDim2": 0.332,
           "congress": 119,
           "sourceUrl": "https://voteview.com/person/H001079"
         },
         "bridge_score": {
           "grade": "C",
-          "score": 41.6,
-          "snapshotDate": "August 31, 2026",
+          "score": 41.3,
+          "snapshotDate": "October 30, 2026",
           "profileUrl": "https://www.bridgegrades.org/congress/H001079"
         }
       },
